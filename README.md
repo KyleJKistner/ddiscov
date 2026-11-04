@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 14.** The bounded ruxolitinib HS trial audit recovers official endpoint counts, withdrawal, uncertainty and phase-specific safety. The lesion-count primary result is positive, while pain and itch superiority remain unestablished. An explicit endpoint-to-claim amendment retains the HHD program at rank 3 and 10 points; HS supplies no HHD effect estimate or exposure clearance. The 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. BLU claim-mapping, zinc, SLC6A6 and HHD supplement searches stay closed. Earlier packages are preserved; Round 13 is published at `45fd75459d5415697e733197bbf5d6a2b21a210c`.
+**Status: 4 November 2026, after Round 15.** The next evidence sprint was selected by expected marginal information and capturable development value, independently of the historical allocation. The enasidenib audit retains a first-D2HGA2-indication opportunity using an adequate existing article, holds automatic new-formulation spending, and excludes RPD voucher credit for the approved moiety. Orphan and qualifying clinical-investigation exclusivity remain conditional. No new screen, patient outcome or S-tier promotion. The old 100-point queue is historical; it does not control the next dollar. All 622 original coverage rows and earlier packages remain intact. Round 14 is published at `81b3a4393605dc282a295912db2f787089b15ac3`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 15 marginal-dollar decision](research/rounds/round15/README.md) | Enasidenib contribution beyond the existing sprinkle, current approval incentives and a finite funding decision. |
 | [Round 14 controlled HS evidence](research/rounds/round14/README.md) | Official results, endpoint-specific denominators, missingness and the HHD claim amendment. |
 | [Round 13 HHD comparator audit](research/rounds/round13/README.md) | Final-versus-preprint model evidence, endpoint-specific comparator decision and explicit supplement limits. |
 | [Round 12 BLU claim mapping](research/rounds/round12/README.md) | Exact published-formula mapping, counterarguments and national-publication limits. |

@@ -18,6 +18,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 12](round12/README.md)** | BLU exact-structure mapping to published claims | One existing leader; explicit 7-ether/R8 mapping issue, broader-definition ambiguity and national-status limits. Two independent reviews; allocation unchanged. |
 | **[Round 13](round13/README.md)** | HHD final-versus-preprint model and comparator audit | One existing leader; attachment evidence, endpoint-specific comparator limits and replication units. Direct supplement inspection incomplete; two independent reviews; allocation unchanged. |
 | **[Round 14](round14/README.md)** | Controlled HS trial and HHD claim amendment | One existing leader; official endpoint counts, attrition, uncertainty, planned-versus-reported methods and phase-specific safety. Two independent reviews; allocation unchanged. |
+| **[Round 15](round15/README.md)** | Marginal-dollar selection and enasidenib contribution/capture | One existing candidate; three development/evidence routes, current U.S. incentive audit and finite spending decision. Historical allocation no longer controls the next dollar. Two independent reviews; no new screen or clinical result. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 

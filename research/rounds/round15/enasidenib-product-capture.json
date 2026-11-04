@@ -1,0 +1,374 @@
+{
+  "schema_version": "ddiscov.round15.product_capture.v1",
+  "as_of": "2026-11-04",
+  "base_commit": "81b3a4393605dc282a295912db2f787089b15ac3",
+  "existing_candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+  "new_candidate": false,
+  "scope": "Bounded product-contribution and current U.S. approval/exclusivity audit; no new clinical efficacy screen or patent landscape.",
+  "exact_opportunity": {
+    "moiety": "enasidenib",
+    "disease": "D-2-hydroxyglutaric aciduria type 2",
+    "genotype": "germline IDH2-R140Q",
+    "new_indication": "D2HGA2",
+    "presentation_defined": false,
+    "age_range": null,
+    "strength": null,
+    "required_administration_route": null,
+    "new_dosing_regimen": null
+  },
+  "decision": {
+    "clinical_development_retained": true,
+    "automatic_de_novo_formulation_spend": "hold",
+    "existing_article_indication_route": "retain_conditionally",
+    "novel_formulation_required_for_any_value": false,
+    "demonstrated_unmet_infant_administration_need": false,
+    "incumbent_infant_adequacy_established": false,
+    "rpd_prv_eligible_for_exact_approved_moiety": false,
+    "rpd_prv_revenue_credit_usd": 0,
+    "orphan_exclusivity": "conditional_not_established",
+    "three_year_exclusivity": "conditional_not_established",
+    "b2_categorically_excluded_from_prv": false,
+    "financial_npv": null,
+    "numerical_asset_ranking": null
+  },
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_use_screens": 0,
+    "new_patient_outcomes": 0,
+    "new_independent_clinical_cohorts": 0,
+    "new_experimental_results": 0,
+    "S_tier_promotions": 0,
+    "claim_rows": 10,
+    "source_records": 16
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "topic": "Existing sprinkle",
+      "finding": "Pediatric administration already reported",
+      "status": "established_preexisting",
+      "sources": [
+        "P1",
+        "P2"
+      ],
+      "limit": "Not validated infant suitability or a first-pediatric-formulation opportunity."
+    },
+    {
+      "id": "C02",
+      "topic": "Independent formulation need",
+      "finding": "No newly verified primary deficit in this bounded sprint",
+      "status": "unresolved",
+      "sources": [
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "limit": "Neither absence of need nor adequacy is established."
+    },
+    {
+      "id": "C03",
+      "topic": "RPD voucher",
+      "finding": "Excluded for exact already-approved enasidenib active moiety",
+      "status": "decisive_condition_not_met",
+      "sources": [
+        "L1",
+        "L2",
+        "P3"
+      ],
+      "limit": "No voucher credit; no general exclusion of all repurposing pathways."
+    },
+    {
+      "id": "C04",
+      "topic": "b(2) versus b(1)",
+      "finding": "b(2) NDAs fall within b(1) submission references",
+      "status": "verified",
+      "sources": [
+        "L3",
+        "L4"
+      ],
+      "limit": "The approved-moiety rule, not this route distinction, excludes enasidenib."
+    },
+    {
+      "id": "C05",
+      "topic": "Orphan exclusivity",
+      "finding": "First D2HGA2 approved indication could qualify conditionally",
+      "status": "possible_not_verified",
+      "sources": [
+        "L5",
+        "L6"
+      ],
+      "limit": "Prior AML approval alone does not trigger same-use superiority; no molecule-wide monopoly."
+    },
+    {
+      "id": "C06",
+      "topic": "Three-year exclusivity",
+      "finding": "Qualifying essential applicant clinical investigations required",
+      "status": "possible_not_verified",
+      "sources": [
+        "L7",
+        "L8"
+      ],
+      "limit": "BA-only work insufficient; meaningful mixed-purpose studies not categorically excluded; draft distinction labelled."
+    },
+    {
+      "id": "C07",
+      "topic": "505(b)(2)",
+      "finding": "Potential reliance route for supported differences",
+      "status": "application_specific",
+      "sources": [
+        "L3",
+        "L9"
+      ],
+      "limit": "Not a patent license, CMC dossier, supply agreement or guarantee of approval."
+    },
+    {
+      "id": "C08",
+      "topic": "Commercial capture",
+      "finding": "Incumbent/off-label competition and rights remain material",
+      "status": "economic_inference_from_rules",
+      "sources": [
+        "L5",
+        "L9",
+        "L10"
+      ],
+      "limit": "No quantified uptake, value, rights terms or financial return."
+    },
+    {
+      "id": "C09",
+      "topic": "Existing-article development",
+      "finding": "A new formulation is not necessary merely to pursue a first indication",
+      "status": "decision_inference",
+      "sources": [
+        "P2",
+        "L5",
+        "L7",
+        "L9"
+      ],
+      "limit": "The actual adequate article and executable development route remain unestablished."
+    },
+    {
+      "id": "C10",
+      "topic": "Clinical evidence",
+      "finding": "Prior exact-disease evidence retains its existing scope",
+      "status": "no_new_clinical_delta",
+      "sources": [
+        "P1",
+        "P2",
+        "P6"
+      ],
+      "limit": "No new patient, regimen, organ-response estimate, exposure margin or CNS-superiority claim."
+    }
+  ],
+  "sources": [
+    {
+      "id": "L1",
+      "title": "21 U.S.C. 360ff — current RPD voucher statute",
+      "url": "https://uscode.house.gov/us/usc/119-121/t21/s360ff/",
+      "locator": "(a)(4)(B)(i); (b)(5); amendment notes",
+      "source_status": "Current primary statute through Public Law 119-121, October 9, 2026",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "Previously approved active moiety decides this case; do not confuse the b(1) reference with a categorical b(2) exclusion."
+    },
+    {
+      "id": "L2",
+      "title": "FDA RPD designation and voucher program update",
+      "url": "https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/rare-pediatric-disease-designation-and-priority-review-voucher-programs",
+      "locator": "2026 program-extension notice",
+      "source_status": "Current FDA program page",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "No award after September 30, 2029; no separate designation deadline; no voucher price or enasidenib eligibility inferred."
+    },
+    {
+      "id": "L3",
+      "title": "Determining Whether to Submit an ANDA or a 505(b)(2) Application",
+      "url": "https://www.fda.gov/media/124848/download",
+      "locator": "Printed page 2, NDA categories; pages 3–5, reliance and differences",
+      "source_status": "Final FDA guidance; recommendations are nonbinding",
+      "verification_date": "2026-11-04",
+      "document_date": "2019-05",
+      "interpretation_limit": "505(b)(2) NDAs are submitted under 505(b)(1); the route still requires evidence supporting relevant differences."
+    },
+    {
+      "id": "L4",
+      "title": "Rare Pediatric Disease Priority Review Vouchers",
+      "url": "https://www.fda.gov/media/90014/download",
+      "locator": "Printed page 2, footnote 9",
+      "source_status": "FDA draft guidance, nonbinding, not for implementation",
+      "verification_date": "2026-11-04",
+      "document_date": "2019-07",
+      "interpretation_limit": "Used only to corroborate inclusion of b(2) within b(1) references. Old program dates are superseded by current law."
+    },
+    {
+      "id": "L5",
+      "title": "21 U.S.C. 360cc — current orphan exclusivity statute",
+      "url": "https://uscode.house.gov/us/usc/119-121/t21/s360cc/",
+      "locator": "(a), (b), (c), (f); Public Law 119-75 section 6605 amendment notes",
+      "source_status": "Current primary statute through Public Law 119-121",
+      "verification_date": "2026-11-04",
+      "document_date": "2026-02-03 amendment",
+      "interpretation_limit": "Same approved use/indication scope; no specific D2HGA2 designation, approval or entitlement verified."
+    },
+    {
+      "id": "L6",
+      "title": "FDA enasidenib orphan record, AML",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=434514",
+      "locator": "Designation, approved indication and exclusivity end-date fields",
+      "source_status": "Official FDA record; one inspected AML record",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "2014 AML designation; 2017 adult AML approval; AML exclusivity ended August 1, 2024. Not a complete designation search or patent-expiry finding."
+    },
+    {
+      "id": "L7",
+      "title": "21 CFR 314.108 — new drug product exclusivity",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.108",
+      "locator": "(a); (b)(4)–(5)",
+      "source_status": "Current eCFR text displayed through November 3, 2026; authoritative but unofficial compilation",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "Requires qualifying new investigations essential to approval and applicant conduct/sponsorship; BA/PK-only work insufficient; scope limited to protected conditions/change."
+    },
+    {
+      "id": "L8",
+      "title": "New Clinical Investigation Exclusivity (3-Year Exclusivity): Questions and Answers",
+      "url": "https://www.fda.gov/media/191368/download",
+      "locator": "Question B.5, printed page 5, and eligibility discussion",
+      "source_status": "March 2026 FDA draft; nonbinding; not for implementation",
+      "verification_date": "2026-11-04",
+      "document_date": "2026-03",
+      "interpretation_limit": "A substantive essential clinical purpose may distinguish mixed-purpose investigations from PK-only studies with routine safety monitoring. No project-specific award inferred."
+    },
+    {
+      "id": "L9",
+      "title": "21 CFR 314.54 — 505(b)(2) application procedure",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.54",
+      "locator": "(a); (a)(1)(v)–(vii)",
+      "source_status": "Current eCFR text displayed through November 3, 2026; authoritative but unofficial compilation",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "Potential evidence pathway is not patent permission, proprietary CMC access, supply or a guaranteed approval route."
+    },
+    {
+      "id": "L10",
+      "title": "FDA — understanding off-label use",
+      "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+      "locator": "Why might an approved drug be used for an unapproved use?",
+      "source_status": "FDA public explanation",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "Supports keeping existing/off-label supply in the competitive analysis; does not estimate uptake or reimbursement."
+    },
+    {
+      "id": "P1",
+      "title": "Enasidenib treatment in two individuals with D-2-hydroxyglutaric aciduria carrying a germline IDH2 mutation",
+      "url": "https://www.nature.com/articles/s41591-023-02382-9",
+      "locator": "2023 report, DOI 10.1038/s41591-023-02382-9",
+      "source_status": "Previously audited primary clinical source; Round 7 clinical dossier controls",
+      "verification_date": "2026-11-04",
+      "document_date": "2023",
+      "interpretation_limit": "Not a new cohort, new outcome, response-probability estimate or validated infant regimen."
+    },
+    {
+      "id": "P2",
+      "title": "Supplement to 2023 enasidenib report",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-023-02382-9/MediaObjects/41591_2023_2382_MOESM1_ESM.pdf",
+      "locator": "Patient administration narrative; prior Round 7 product/clinical source locators",
+      "source_status": "Previously retrieved full supplement; cached bytes rechecked",
+      "verification_date": "2026-11-04",
+      "document_date": "2023",
+      "interpretation_limit": "Eight-year-old sprinkle use does not establish infant suitability or identity with a patent example."
+    },
+    {
+      "id": "P3",
+      "title": "IDHIFA U.S. prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+      "locator": "Highlights; sections 1, 2.2, 3 and 8.4",
+      "source_status": "Current publicly displayed labeling; January 2025 revision",
+      "verification_date": "2026-11-04",
+      "document_date": "2025-01",
+      "interpretation_limit": "Adult AML approval and tablet handling do not establish infant sprinkle inadequacy. No dosing recommendation is made."
+    },
+    {
+      "id": "P4",
+      "title": "EP4058028B1 — enasidenib pediatric minitablet formulation",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf",
+      "locator": "Examples 8–9, Table 10, printed page 36; composition/process and use claims, pages 44–45",
+      "source_status": "Previously audited EPO grant publication; cached bytes rechecked",
+      "verification_date": "2026-11-04",
+      "document_date": "2025-03-05",
+      "interpretation_limit": "20 mg free-base-equivalent capsule is an example, not a demonstrated required infant strength or authenticated historical clinical lot. No FTO conclusion."
+    },
+    {
+      "id": "P5",
+      "title": "NCT04310527 — adult sprinkle/tablet formulation study",
+      "url": "https://clinicaltrials.gov/study/NCT04310527",
+      "locator": "Study status, enrollment and results availability; prior official JSON",
+      "source_status": "Previously audited official registry record; bounded current page check",
+      "verification_date": "2026-11-04",
+      "document_date": null,
+      "interpretation_limit": "Completed study without posted results in reviewed record does not demonstrate bioequivalence or infant exposure."
+    },
+    {
+      "id": "P6",
+      "title": "2026 neonatal enasidenib report, DOI 10.1016/j.ymgme.2026.110094",
+      "url": "https://doi.org/10.1016/j.ymgme.2026.110094",
+      "locator": "Title/metadata only; prior clinical update access ceiling",
+      "source_status": "Metadata only; substantive full text not recovered",
+      "verification_date": "2026-11-04",
+      "document_date": "2026",
+      "interpretation_limit": "No genotype, article, dose, route, outcomes, safety or cohort linkage extracted; zero added treated-person outcomes."
+    }
+  ],
+  "prior_repository_sources": [
+    "research/rounds/round7/enasidenib_product.md",
+    "research/rounds/round7/enasidenib_product.json",
+    "research/rounds/round7/enasidenib_clinical.md",
+    "research/rounds/round8/clinical_challenge.md",
+    "research/rounds/round9/clinical-comparator-update.md",
+    "research/rounds/round10/idh-exposure-ledger.md"
+  ],
+  "cached_primary_checks": [
+    {
+      "source_id": "P2",
+      "path": "/workspace/scratch/b5b981e77bc5/round6_work/sources/enasidenib2023_supplement.pdf",
+      "bytes": 2171636,
+      "sha256": "e312513d2ffbcd651ce6ac158b0cf93d9375cbbdb630e910f70e009dc4299a11",
+      "status": "preexisting_cache_not_new_result"
+    },
+    {
+      "source_id": "P4",
+      "path": "/workspace/scratch/b5b981e77bc5/round7_work/enasidenib_product_sources/ep4058028b1.pdf",
+      "bytes": 749464,
+      "sha256": "0c001334c36c99882d49484a00cf657b3496b68d71779a377cbab63df6d38bc1",
+      "status": "preexisting_cache_not_new_result"
+    },
+    {
+      "source_id": "P5",
+      "path": "/workspace/scratch/b5b981e77bc5/round6_work/sources/enasidenib_sprinkle_nct.json",
+      "bytes": 12491,
+      "sha256": "717bd835c6ea3c3a7bbc9937f12533ca79ebeb6823b09dc69b5e508b5536da38",
+      "status": "preexisting_cache_not_a_fresh_registry_download"
+    }
+  ],
+  "access_limits": [
+    "No newly verified primary administration deficit or exact-D2HGA2 development program in bounded triage; not proof of absence.",
+    "ESMART umbrella, pediatric AML program, adult BA study and CTIS metadata do not establish an active exact-D2HGA2 development arm or infant suitability.",
+    "The inspected AML orphan record is not a comprehensive designation census.",
+    "No new patent/FTO analysis; existing product and claim findings remain bounded.",
+    "No substantive neonatal full text recovered; no patient count added.",
+    "No approval meeting, commercial terms, cost quote, reachable population or forecast obtained."
+  ],
+  "source_capture_note": "New regulatory sources were read via the web reader; no raw-page byte hash is claimed. Cached primary-file hashes identify earlier evidence, not a new download.",
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

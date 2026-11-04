@@ -1,0 +1,154 @@
+{
+  "schema_version": "ddiscov.round15.independent_regulatory_review.v1",
+  "reviewer": "/root/r15_ev_selection",
+  "verdict": "pass",
+  "as_of": "2026-11-04",
+  "reviewed_at_utc": "2026-11-04T23:42:13.426999+00:00",
+  "reviewed_root": "/workspace/scratch/275efd815397/ddiscov_round15",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round15/enasidenib-product-capture.md",
+      "bytes": 10952,
+      "sha256": "47c84b975ff65c88a2b865c4a46cddbf14afd98bd3706ab9990765c040015185"
+    },
+    {
+      "path": "research/rounds/round15/enasidenib-product-capture.json",
+      "bytes": 16870,
+      "sha256": "95aa8bcd9dfb637b2244015dd281cf1265602a92e21f94916be4581a0962ee45"
+    }
+  ],
+  "scope": "Independent review of the final authored regulatory reasoning, evidence boundaries, regulatory-source metadata and stated cache provenance. The exact final files were read in full and their hashes rechecked before this report was written. This is an evidence audit, not a project-specific legal opinion or a repeated clinical efficacy review.",
+  "checks": [
+    {
+      "id": "active_moiety_exclusion",
+      "status": "pass",
+      "source_ids": [
+        "L1",
+        "L2",
+        "P3"
+      ],
+      "finding": "The exact already-approved enasidenib moiety is excluded from the RPD voucher opportunity. A new pediatric indication, dosage form or salt does not cure that condition. Zero voucher credit is confined to this exact opportunity, without inventing a prior portfolio voucher assumption."
+    },
+    {
+      "id": "b2_within_b1_submission",
+      "status": "pass",
+      "source_ids": [
+        "L3",
+        "L4"
+      ],
+      "finding": "The files correctly reject a categorical 505(b)(2) bar. The final May 2019 FDA guidance and RPD draft footnote 9 explain that 505(b)(2) NDAs are submitted under 505(b)(1); the independent approved-moiety condition decides the case."
+    },
+    {
+      "id": "current_rpd_sunset",
+      "status": "pass",
+      "source_ids": [
+        "L1",
+        "L2",
+        "L4"
+      ],
+      "finding": "September 30, 2029 is the current last award date. The ledger records that the current sunset has no separate designation deadline and does not import obsolete dates from the 2019 draft."
+    },
+    {
+      "id": "current_orphan_scope_and_superiority",
+      "status": "pass",
+      "source_ids": [
+        "L5",
+        "L6"
+      ],
+      "finding": "The files reflect the February 3, 2026 section 6605 amendment: protection is tied to the same drug and same approved use or indication. Prior AML approval alone does not impose same-use clinical superiority on a first D2HGA2 indication. Designation, approval and entitlement remain unestablished, and the AML exclusivity date is not treated as patent expiry."
+    },
+    {
+      "id": "three_year_eligibility_and_scope",
+      "status": "pass",
+      "source_ids": [
+        "L7"
+      ],
+      "finding": "Qualifying new clinical investigations must be essential to approval and conducted or sponsored by the applicant. BA/PK-only bridging is insufficient; scope concerns the relevant approved conditions or change. Published case reports and a formulation budget are not treated as automatic entitlement."
+    },
+    {
+      "id": "mixed_pk_clinical_investigations_and_draft_status",
+      "status": "pass",
+      "source_ids": [
+        "L8"
+      ],
+      "finding": "The files preserve the distinction between an essential clinical safety/effectiveness purpose and PK-only work with routine safety monitoring. The March 2026 FDA guidance is explicitly identified as draft, nonbinding and not for implementation; mixed investigations are not categorically excluded."
+    },
+    {
+      "id": "reliance_separate_from_rights",
+      "status": "pass",
+      "source_ids": [
+        "L3",
+        "L9"
+      ],
+      "finding": "505(b)(2) is treated as a potential evidence route. Reliance without ownership of every reference right is separated from patent certifications, manufacturing permission, CMC access, supply and commercial rights. No FDA agreement is asserted or its global absence inferred."
+    },
+    {
+      "id": "bounded_absence_claims",
+      "status": "pass",
+      "source_ids": [
+        "L5",
+        "L6"
+      ],
+      "finding": "The inspected AML record is expressly not a comprehensive orphan-designation census. The final machine-readable fields use conditional_not_established and possible_not_verified. The audit limits missing program, administration-deficit and FDA-agreement evidence to what was established in the bounded review."
+    },
+    {
+      "id": "regulatory_primary_source_metadata",
+      "status": "pass",
+      "source_ids": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10"
+      ],
+      "finding": "Regulatory URLs, titles, statutory sections and guidance statuses agree with the independently retrieved primary sources. A narrow repeat of the two existing eCFR URLs confirmed their display was up to date as of November 3, 2026, with title 21 last amended November 2. The ledger does not claim raw webpage byte hashes."
+    },
+    {
+      "id": "source_ledger_and_cache_integrity",
+      "status": "pass",
+      "finding": "The JSON parses; all 16 source IDs are unique; all 10 claim rows resolve their source references; declared counts match. All three cached primary-file byte lengths and SHA-256 digests match the actual local files. Historical cached files are explicitly not represented as newly downloaded evidence."
+    },
+    {
+      "id": "capture_inference_and_restrictions",
+      "status": "pass",
+      "source_ids": [
+        "L5",
+        "L9",
+        "L10"
+      ],
+      "finding": "Financial capture is separated from patient and research value. Off-label competition is an explicitly bounded economic inference, not a quantified uptake claim. The authored files remain evidence-only and preserve the restrictions; this reviewer performed no outreach, purchases, recruitment, experiments, simulations, material receipt or repository edits."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "REG-01",
+      "issue": "Initial machine-readable exclusivity statuses said conditional_not_awarded or possible_not_awarded despite the bounded, nonexhaustive source search.",
+      "resolution": "The author changed decision.orphan_exclusivity and decision.three_year_exclusivity to conditional_not_established and claim C05/C06 statuses to possible_not_verified. These corrected final bytes were reread."
+    },
+    {
+      "id": "REG-02",
+      "issue": "Initial prose stated that no application strategy or approval had been agreed with FDA, which could imply knowledge of confidential sponsor-FDA communications.",
+      "resolution": "The final text limits the statement to no project-specific FDA agreement being established in this audit. The corrected sentence was verified in the final Markdown."
+    },
+    {
+      "id": "META-01",
+      "issue": "The reviewer earlier saw an eCFR currency date of November 2, while the authored ledger reported November 3.",
+      "resolution": "Reopening only the two previously audited official eCFR URLs confirmed November 3 currency and November 2 last amendment. The ledger was correct; no change was required.",
+      "evidence_urls": [
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.108",
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.54"
+      ]
+    }
+  ],
+  "open_issues": [],
+  "review_limitations": [
+    "No new broad legal or patent search was performed.",
+    "Clinical and product findings retain the previous dossier boundaries; this review does not add clinical outcomes, validate infant administration or authenticate a clinical lot.",
+    "Any change to either reviewed file invalidates this exact-byte verdict until the changed content is reviewed again."
+  ]
+}

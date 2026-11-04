@@ -1,4 +1,4 @@
-# Functional proof selection policy
+# Functional proof and marginal-dollar selection policy
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
@@ -118,6 +118,16 @@ Keep described people, treated people, completers, analysis populations, selecte
 
 Patient function, biomarker correction and causal efficacy remain distinct. A controlled primary result outweighs an uncontrolled mechanistic story for the same defined claim, while an imprecise negative does not prove a zero effect. Historical care sequences do not validate a dose regimen or drug ranking. Comparator care should match the proposed product claim and retain background care, rescue burden and maintenance attrition; it need not expand every early proof into an indiscriminate multiarm program. See the [HHD comparator review](../research/rounds/round10/hhd-active-care-comparator.md).
 
+## Round 15: expected value of the next marginal dollar
+
+For a funding or evidence-sprint decision, compare feasible next tranches by the change they can make to the best continuation, including stopping, deferring or choosing another opportunity. Include remaining costs, time, useful evidence and capturable value. Sunk effort, historical priority and a planning allocation do not determine marginal return. Preserve historical numbers with an explicit historical label; do not invent replacement weights or a financial rank when required inputs are unknown.
+
+Separate patient benefit, scientific information, an improved product and private financial capture. A good proof can deserve scientific support without establishing an exclusive asset. Conversely, a first new-indication development package can create a useful contribution using an adequate existing article; a new formulation is not universally required. Data custody, publication, regulatory use/reference, manufacturing and commercial rights are different facts.
+
+Missing public qualification is not observed incumbent failure. A new presentation must identify a meaningful incremental need and comparator; an existing presentation's adequacy must also be demonstrated for the intended use. Evaluate current regulatory incentives against the exact product and statutory conditions. A designation, potential pathway or published patent is not an approval, award, license or revenue forecast.
+
+End a source pass once its finite spending decision is clear. A subsequent review needs a named new artifact or materially changed fact likely to alter the decision. Unknown commercial terms can block a specific commitment without making an owner reply a scientific-selection prerequisite. The [Round 15 selection](../research/rounds/round15/marginal-dollar-selection.md) and [decision](../research/rounds/round15/funding-decision.md) apply this rule.
+
 ## Current decisions
 
-See [the current shortlist](current-shortlist.md), [the cumulative register](../research/portfolio-register.json), and [the research-round index](../research/rounds/README.md). Current integrated decisions control over earlier domain-specific grades. This research does not authorize outreach, purchases or experimental execution.
+See [the current shortlist](current-shortlist.md), [the cumulative register](../research/portfolio-register.json), and [the research-round index](../research/rounds/README.md). Current integrated decisions control over earlier domain-specific grades. This research does not authorize outreach, purchases, recruitment, experiments, simulations or material receipt.

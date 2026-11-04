@@ -1,12 +1,18 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 14.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 15.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-**BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
+**Select the next marginal dollar independently of the historical allocation.** Round 15 chose the enasidenib product/indication contribution and value-capture uncertainty through a bounded qualitative information-value comparison. This is not a numerical portfolio valuation. The legacy ranks and 100-point queue below are retained planning history, not a current financial order.
 
-Round 14 audits one existing leader’s controlled evidence in a different disease and clarifies the HHD claims it can support. No new candidate or S-tier designation is added. The [Round 14 package](../research/rounds/round14/README.md) controls this narrow amendment; prior clinical choices, BLU qualification rules and closed-search boundaries remain in force.
+## Round 15: enasidenib contribution and capture
 
-## Round 14 controlled HS trial and HHD claim amendment
+**Retain affirmative clinical development; hold automatic spending on a new pediatric formulation.** A first D2HGA2 indication-development package using an adequate existing article remains a live route. A new presentation must solve a documented meaningful problem beyond the existing sprinkle. Missing public infant/water/tube qualification establishes neither incumbent failure nor adequacy. Investigator-led evidence can have value without automatically creating an exclusive drug asset. [Funding decision](../research/rounds/round15/funding-decision.md)
+
+The current-law audit excludes RPD voucher credit for the already-approved enasidenib active moiety, while retaining conditional first-indication orphan and qualifying new-clinical-investigation exclusivity. The 505(b)(2) route is not categorically excluded by the voucher statute's b(1) wording; approved-moiety status independently decides this case. No approval, exclusivity award, rights clearance, market forecast or new clinical result is asserted. [Product and capture audit](../research/rounds/round15/enasidenib-product-capture.md)
+
+BLU retains its staged scientific qualification project and topical ruxolitinib its clinical-development proof. The [Round 15 package](../research/rounds/round15/README.md) changes the next-dollar selection rule and enasidenib funding scope, while preserving prior scientific evidence, exact-article requirements and closed-search boundaries. No outreach, purchases, recruitment, experiments, simulations or material receipt is authorized.
+
+## Retained Round 14 controlled HS trial and HHD claim amendment
 
 **Ruxolitinib 1.5% cream/HHD — retain rank 3, 10 points and controlled clinical proof.** The [Round 14 package](../research/rounds/round14/README.md) audits NCT05635838, a randomized trial in HS. The official registry reports a primary AN-count difference of −1.20 (95% CI −2.21 to −0.18; P=.0215). Pain +0.19 (−1.27 to +1.64) and itch +0.94 (−0.52 to +2.40) do not establish superiority, harm or equivalence. Several lesion outcomes reuse overlapping information and are not independent patient-benefit demonstrations. [Trial evidence](../research/rounds/round14/rux-hs-trial-evidence.md)
 
@@ -76,14 +82,14 @@ The [Round 9 continuation](../research/rounds/round9/README.md) follows the veri
 
 The following qualification and clinical sections carry forward the Round 8 baseline subject to the Round 9 amendments and the current Round 10 interpretations above. Planning points are unchanged. Proposed proofs describe decision requirements; this research authorizes no recruitment, procurement, outreach or experiments.
 
-## Ranked next actions and allocation
+## Historical planning ranks and retained scientific proofs
 
-These are **100 planning-effort points**, not dollars, secured financing or estimated clinical-success probabilities. They rank the value of the next decision while preserving stage and product differences.
+These **100 historical planning-effort points** are preserved for continuity. They do not govern the next marginal-dollar decision or establish financial return. The new rule and completed sprint are in the [Round 15 selection memo](../research/rounds/round15/marginal-dollar-selection.md).
 
-| Rank | Program | Points | Current decision and next output |
+| Historical rank | Program | Historical points | Retained scientific proof; not a current funding order |
 |---|---|---:|---|
 | **1** | **BLU3797 / MTM1 XLMTM** | **55** | Authenticate exact S article; qualify independently specified pharmacology, measured exposure and one post-deficit human-force system; then conditional exploratory function. |
-| **2** | **Enasidenib / germline IDH2-R140Q D2HGA2** | **15** | One pediatric administration/exposure project linked to prospective organ function. Separate cardiac, CNS and neonatal claims; include vorasidenib in the CNS comparison. |
+| **2** | **Enasidenib / germline IDH2-R140Q D2HGA2** | **15** | Existing-article indication/exposure–organ-function development remains live. New presentation requires a documented incremental need. The closed CNS comparison is not reopened. |
 | **3** | **Ruxolitinib 1.5% cream / HHD** | **10** | Controlled useful lesion/pain/rescue/burden proof with a specified article, concurrent care, measured exposure and complete maintenance denominators. |
 | **4** | **Lisdexamfetamine / KCNMA1-N999S PNKD** | **6** | Conditional clinical-research reserve: independently adjudicated events and interrupted activity in an all-eligible cohort, including nonresponders. No exclusive asset established. |
 | **5** | **NDC-9009 / Darier plus roflumilast comparator** | **4** | Two points maintain NDC exposure/adhesion qualification; two define the exact 0.3% roflumilast clinical comparison. Symptom control and barrier repair remain distinct. |
@@ -92,7 +98,7 @@ These are **100 planning-effort points**, not dollars, secured financing or esti
 | **8** | **AAT / donor-lung perfusion** | **1** | Retain mass/antigen/protease-activity qualification before scarce-organ work. |
 | — | Bounded discovery and contrary-evidence updates | **5** | Seek independent useful function and an unfilled contribution; retire superseded positives and deduplicate exact uses. |
 
-The first three receive 80 points. The point assignments express judgment about next work; they do not imply BLU has stronger human evidence or clearer rights than the clinical leaders. [Allocation rationale and explicit reallocation rules](../research/rounds/round8/portfolio-allocation.md)
+The first three historically received 80 points. Those assignments do not establish current marginal value, stronger human evidence or clearer rights. [Allocation rationale and explicit reallocation rules](../research/rounds/round8/portfolio-allocation.md)
 
 ## BLU3797: qualification is now concrete
 
@@ -132,7 +138,7 @@ The clearest severe-cardiomyopathy observation remains one original child, with 
 
 Newly incorporated FDA and primary discovery records show **vorasidenib activity against IDH2-R140Q**. That requires a real comparison for a CNS-directed product. Tumor:plasma distribution is not normal infant-brain exposure; wild-type IDH activity, liver liability and high-exposure animal cardiomyopathy prevent a presumptive safety-superiority claim. Cardiac improvement, established neurological benefit and neonatal prevention remain separate hypotheses.
 
-The next recommendation remains affirmative: qualify a specific pediatric administration/exposure question and a meaningful organ outcome. Existing sprinkle use means a new formulation must solve a demonstrated delivery, exposure or burden problem. Strong biochemical suppression alone cannot establish organ benefit, and a nonexclusive clinical dataset must not be relabeled as an owned drug. [Round8 clinical challenge](../research/rounds/round8/clinical_challenge.md)
+The clinical-development recommendation remains affirmative. Round 15 favors evaluating an existing-article indication contribution before funding formulation invention; a specific pediatric administration/exposure question and meaningful organ outcome remain necessary. Existing sprinkle use means a new formulation must solve a demonstrated delivery, exposure or burden problem. Strong biochemical suppression alone cannot establish organ benefit, and a nonexclusive clinical dataset must not be relabeled as an owned drug. [Round8 clinical challenge](../research/rounds/round8/clinical_challenge.md)
 
 ## Ruxolitinib: controlled useful HHD care
 

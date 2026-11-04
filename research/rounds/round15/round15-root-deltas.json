@@ -1,0 +1,100 @@
+{
+  "schema_version": "ddiscov.round15.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "81b3a4393605dc282a295912db2f787089b15ac3",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "new_patient_outcomes": 0,
+    "new_independent_clinical_cohorts": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "claim_decision_rows": 10,
+    "primary_source_records": 16,
+    "opportunity_routes": 3,
+    "decision_branches": 5,
+    "independent_review_documents_total": 2,
+    "reviewed_authored_files": 5
+  },
+  "scope": "One existing candidate: marginal-dollar selection, product contribution and current U.S. approval/exclusivity constraints.",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Incremental enasidenib product/indication contribution and capturable value beyond the existing sprinkle",
+    "basis": "Qualitative value-of-information comparison under missing cost and capture inputs",
+    "historical_allocation_used_as_EV_proxy": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "new_candidate": false,
+      "source_scope": "research/rounds/round15/enasidenib-product-capture.json",
+      "decision_scope": "research/rounds/round15/funding-decision.json",
+      "delta": [
+        "Selected by qualitative marginal information value, not the legacy 15-point allocation; no full financial ranking established.",
+        "Existing sprinkle precedent is retained; this pass finds no new verified primary evidence of an unmet infant administration need. Missing public data establish neither inadequacy nor adequacy.",
+        "An existing-article indication package, an improved presentation and investigator-led evidence are distinct routes; a new formulation is not mandatory for the first route.",
+        "Current RPD statute excludes the approved active moiety; no voucher revenue credit. b(2) is not categorically excluded by the b(1) submission language.",
+        "A first D2HGA2 orphan indication and qualifying new clinical investigations may support conditional exclusivity. No award, partner interest, rights clearance or commercial return is established.",
+        "Close the bounded source pass; no new clinical outcome, dose, infant exposure or CNS-superiority claim."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round15/enasidenib-product-capture.json",
+    "research/rounds/round15/funding-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null
+  },
+  "independent_reviews": [
+    "research/rounds/round15/independent-regulatory-review.json",
+    "research/rounds/round15/independent-contribution-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round15/integration-review.md",
+  "local_verification": "research/rounds/round15/local-verification.json",
+  "artifact_manifest": "research/rounds/round15/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "documentary_reopening_triggers": [
+      "New primary clinical/product/program evidence",
+      "Documented incumbent administration limitation in the intended population",
+      "Materially different adequate-article, rights/supply or regulatory-use position",
+      "Relevant rule change"
+    ],
+    "generic_CNS_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "No newly verified primary administration deficit or exact-D2HGA2 development program in bounded triage; not proof of absence.",
+    "ESMART umbrella, pediatric AML program, adult BA study and CTIS metadata do not establish an active exact-D2HGA2 development arm or infant suitability.",
+    "The inspected AML orphan record is not a comprehensive designation census.",
+    "No new patent/FTO analysis; existing product and claim findings remain bounded.",
+    "No substantive neonatal full text recovered; no patient count added.",
+    "No approval meeting, commercial terms, cost quote, reachable population or forecast obtained."
+  ]
+}

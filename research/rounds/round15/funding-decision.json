@@ -1,0 +1,135 @@
+{
+  "schema_version": "ddiscov.round15.funding_decision.v1",
+  "as_of": "2026-11-04",
+  "base_commit": "81b3a4393605dc282a295912db2f787089b15ac3",
+  "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Incremental enasidenib product/indication contribution and capturable value beyond the existing sprinkle",
+    "basis": "Qualitative value-of-information comparison under missing cost and capture inputs",
+    "historical_allocation_used_as_EV_proxy": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true
+  },
+  "decision": {
+    "clinical_development_retained": true,
+    "automatic_de_novo_formulation_spend": "hold",
+    "existing_article_indication_route": "retain_conditionally",
+    "novel_formulation_required_for_any_value": false,
+    "demonstrated_unmet_infant_administration_need": false,
+    "incumbent_infant_adequacy_established": false,
+    "rpd_prv_eligible_for_exact_approved_moiety": false,
+    "rpd_prv_revenue_credit_usd": 0,
+    "orphan_exclusivity": "conditional_not_established",
+    "three_year_exclusivity": "conditional_not_established",
+    "b2_categorically_excluded_from_prv": false,
+    "financial_npv": null,
+    "numerical_asset_ranking": null
+  },
+  "routes": [
+    {
+      "id": "A",
+      "name": "Existing-article D2HGA2 indication development",
+      "status": "retain_conditionally",
+      "novel_formulation_required": false,
+      "contribution": "Defined indication, clinically useful evidence and potentially reliable labelled access",
+      "capture": "Conditional sponsor/license/approval/data transaction"
+    },
+    {
+      "id": "B",
+      "name": "Improved pediatric presentation",
+      "status": "hold_automatic_spend_pending_documented_increment",
+      "novel_formulation_required": true,
+      "contribution": "Measured meaningful delivery, burden, stability or tolerability advantage",
+      "capture": "Conditional executable article and rights; no automatic exclusivity"
+    },
+    {
+      "id": "C",
+      "name": "Investigator-led evidence",
+      "status": "scientific_value_retained_capture_unestablished",
+      "novel_formulation_required": false,
+      "contribution": "Clinical knowledge and trial readiness",
+      "capture": "Potential useful dataset or partnership; no automatic therapy ownership"
+    }
+  ],
+  "branches": [
+    {
+      "id": "B1",
+      "condition": "Incumbent adequate and usable development route",
+      "action": "Prefer existing-article indication package if incremental economics justify it",
+      "stop": "No necessity claim for a new presentation absent other meaningful benefit"
+    },
+    {
+      "id": "B2",
+      "condition": "Documented clinically relevant administration deficit plus defined alternative",
+      "action": "Consider finite qualification of the incremental benefit",
+      "stop": "No unsupported age/strength/route/regimen or execution within this sprint"
+    },
+    {
+      "id": "B3",
+      "condition": "Public data insufficient",
+      "action": "Hold automatic formulation spend and end generic repeat searches",
+      "stop": "Do not infer failure, adequacy or zero therapy value"
+    },
+    {
+      "id": "B4",
+      "condition": "Only scientific/evidence value established",
+      "action": "Label that objective or a supported data transaction explicitly",
+      "stop": "No silent exclusive-asset claim"
+    },
+    {
+      "id": "B5",
+      "condition": "Unattractive remaining economics/rights relative to alternatives",
+      "action": "Stop, defer or redirect commitment",
+      "stop": "Legacy points and sunk effort do not justify continuation"
+    }
+  ],
+  "unknown_economic_inputs": [
+    "Remaining staged costs",
+    "Time to informative output and approval",
+    "Evidence and approval probabilities",
+    "Reachable population and uptake",
+    "Competitive response and off-label use",
+    "Rights/supply and regulatory-data terms",
+    "Share of proceeds capturable by the developer"
+  ],
+  "portfolio": {
+    "legacy_queue_retained_as_history": true,
+    "legacy_queue_controls_new_marginal_dollar": false,
+    "replacement_100_point_allocation": null,
+    "scientific_dispositions_retained": true,
+    "new_S_tier": false
+  },
+  "completion": {
+    "public_source_pass_closed": true,
+    "documentary_reopening_triggers": [
+      "New primary clinical/product/program evidence",
+      "Documented incumbent administration limitation in the intended population",
+      "Materially different adequate-article, rights/supply or regulatory-use position",
+      "Relevant rule change"
+    ],
+    "generic_CNS_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false
+  },
+  "source_scopes": [
+    "research/rounds/round15/enasidenib-product-capture.json",
+    "research/rounds/round15/marginal-dollar-selection.md"
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "development_execution_authorized": false
+}

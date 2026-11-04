@@ -1,0 +1,154 @@
+{
+  "schema_version": "ddiscov.round15.independent_contribution_decision_review.v1",
+  "as_of": "2026-11-04",
+  "reviewer": "/root/r15_challenger_triage",
+  "verdict": "pass",
+  "repository": "/workspace/scratch/275efd815397/ddiscov_round15",
+  "scope": "Targeted independent review of contribution logic, qualitative marginal-dollar selection, finite decisions, evidence boundaries and activity restrictions in the three listed files. No independent legal-source revalidation or financial valuation is claimed.",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round15/marginal-dollar-selection.md",
+      "bytes": 8112,
+      "sha256": "580c99217ba355226856c735d071e53b5f4c1fcd132afc8377bf4834307131be"
+    },
+    {
+      "path": "research/rounds/round15/funding-decision.md",
+      "bytes": 6738,
+      "sha256": "80a17681a5331b614ea88a65f55a252717f82fe751f0c750b54bdab43599696f"
+    },
+    {
+      "path": "research/rounds/round15/funding-decision.json",
+      "bytes": 5477,
+      "sha256": "7f8b48f6129659931c5bad4aa1df58a0ecf3677311a4123a56435d5d765d0d5f"
+    }
+  ],
+  "context_files": [
+    "research/rounds/round15/enasidenib-product-capture.md",
+    "research/rounds/round15/enasidenib-product-capture.json",
+    "research/rounds/round8/portfolio-allocation.md",
+    "research/rounds/round7/enasidenib_product.md",
+    "research/rounds/round7/enasidenib_clinical.md",
+    "research/rounds/round7/review_enas_by_rux_clinical.md"
+  ],
+  "checks": [
+    {
+      "id": "VOI01",
+      "status": "pass",
+      "topic": "Marginal information value is qualitative and bounded",
+      "finding": "The selection memo compares plausible decision consequences, includes retaining the money and stopping, accounts conceptually for remaining costs and time, and explicitly disclaims a numerical NPV, return per dollar, simulation, dollar optimum or exhaustive portfolio valuation. Missing inputs remain named; planning points are not substituted for probabilities or dollars."
+    },
+    {
+      "id": "VOI02",
+      "status": "pass",
+      "topic": "Selection does not follow legacy allocation",
+      "finding": "The 55/15/10 queue is retained as history while explicitly ceasing to control the next marginal-dollar choice. The comparator table distinguishes closed or presently nonactionable desk questions from the available regulatory/contribution question. It does not claim enasidenib has the largest total asset value or invent a replacement allocation."
+    },
+    {
+      "id": "CON01",
+      "status": "pass",
+      "topic": "Existing-article indication development remains live",
+      "finding": "All three targeted files preserve affirmative enasidenib clinical development and an existing-article D2HGA2 indication route. The hold applies to automatic de novo presentation spending, not every development commitment. Route A and the decision-level novel_formulation_required_for_any_value=false prevent formulation novelty from becoming a universal value-creation gate."
+    },
+    {
+      "id": "CON02",
+      "status": "pass",
+      "topic": "No invented infant administration need",
+      "finding": "The prose and JSON treat infant/water/enteral improvement as an unvalidated hypothesis and incumbent infant adequacy as unestablished. No required dose, age, strength, administration route, regimen, caregiver burden or delivery-failure rate is inferred. Missing public qualification does not become affirmative evidence for a new article."
+    },
+    {
+      "id": "CON03",
+      "status": "pass",
+      "topic": "Scientific, indication, presentation and capture contributions remain distinct",
+      "finding": "Existing-article indication development, improved presentation and investigator-led evidence have separate contributions and conditional capture routes. Scientific or care value may justify an explicit objective without being called an exclusive therapy asset. No automatic orphan award, three-year award, partner transaction, sales value or data-to-drug ownership conversion is asserted."
+    },
+    {
+      "id": "DEC01",
+      "status": "pass",
+      "topic": "Finite branches and asymmetric evidence",
+      "finding": "B1 through B5 distinguish adequate incumbent with usable route, documented relevant deficit, insufficient public data, evidence-only contribution, and unattractive remaining commitment. Each has an action and stop or limitation. Absence of a documented need holds automatic formulation spend without proving that no need exists; adequate incumbent delivery stops a necessity claim without erasing indication-development value."
+    },
+    {
+      "id": "DEC02",
+      "status": "pass",
+      "topic": "Cost, timing and rights do not become biological rejection",
+      "finding": "Unknown remaining costs, timelines, clinical/approval probabilities, reachable users, uptake, competition, rights and capturable share are explicit. An unattractive or unexecutable commitment may stop while the clinical evidence remains affirmative. The text does not convert missing costs, an unanswered owner term or failed article contribution into target failure."
+    },
+    {
+      "id": "DEC03",
+      "status": "pass",
+      "topic": "Scientific selection does not require an owner reply",
+      "finding": "The prose separates commercial execution dependencies from scientific selection; the structured completion field owner_reply_scientific_selection_gate is false. No reply or outreach is required to complete this desk decision."
+    },
+    {
+      "id": "CLS01",
+      "status": "pass",
+      "topic": "Finite closure and source-specific reopening",
+      "finding": "The public-source pass is closed. Reopening requires a substantive primary product/clinical/program artifact, documentary administration limitation, materially different rights/supply/regulatory-use position or relevant rule change. Generic repeated searches are rejected. Closed CNS, BLU claims, zinc, SLC6A6, HHD supplement and Round 14 HS retrieval remain closed."
+    },
+    {
+      "id": "ACT01",
+      "status": "pass",
+      "topic": "Restrictions and execution authority",
+      "finding": "All six prohibited activities are explicitly false in funding-decision.json and preserved in the prose. Development execution is not authorized; monitoring automation is not created. The current decision is document review and repository publication, not outreach, purchase, recruitment, experiment, simulation or material receipt."
+    },
+    {
+      "id": "INT01",
+      "status": "pass",
+      "topic": "Structured and prose consistency",
+      "finding": "The funding decision JSON parses, its decision object equals the product-capture JSON decision object, all five branches are present, and the targeted prose expresses the same hold/retain/unknown distinctions. Deterministic checks did not generate clinical evidence or simulations."
+    },
+    {
+      "id": "SCP01",
+      "status": "pass",
+      "topic": "No novelty or efficacy overclaim",
+      "finding": "The selection explicitly reports a regulatory/decisional delta with no new patient outcome, validated infant delivery need, dose, formulation result, exact-use screen, S-tier promotion or previous voucher valuation correction. The regulatory statements are carried as sourced audit findings and are subject to the separate legal-source review, not independently recertified here."
+    },
+    {
+      "id": "SCP02",
+      "status": "pass",
+      "topic": "Bounded absence wording reconciled after regulatory review",
+      "finding": "The final hashed funding-decision.json uses conditional_not_established for both orphan_exclusivity and three_year_exclusivity, matching the product-capture JSON. This records an unestablished opportunity, not a claim that a complete designation or award census proved no award. The wording change had landed before this report's original final-byte hash capture; all three target hashes remain identical."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "PRIOR_CONTRIBUTION_CHALLENGE",
+      "status": "resolved_in_draft_as_received",
+      "issue": "A residual infant low-dose/water/tube hypothesis must not be presented as a demonstrated unmet need, while a new formulation must not become the only route to value.",
+      "resolution": "The received draft explicitly treats the need and incumbent adequacy as unestablished; it preserves existing-article indication development and investigator-led evidence alongside conditional improved-presentation development.",
+      "change_during_this_hash_review": false
+    },
+    {
+      "id": "PRIOR_CAPTURE_CHALLENGE",
+      "status": "resolved_in_draft_as_received",
+      "issue": "Data ownership, possible regulatory protection and therapy capture must remain separate; unresolved execution terms must not become a scientific-selection veto.",
+      "resolution": "The received draft gives conditional route-specific capture, no booked exclusivity value, explicit scientific/evidence alternatives, and no owner-reply gate.",
+      "change_during_this_hash_review": false
+    },
+    {
+      "id": "REGULATORY_BOUNDED_ABSENCE_WORDING",
+      "status": "resolved_and_latest_bytes_verified",
+      "issue": "The separate regulatory reviewer requested conditional_not_established rather than conditional_not_awarded to avoid an exhaustive absence claim.",
+      "resolution": "Both final decision fields use the requested bounded language; the context JSON matches and the three reviewed-file hashes remain current.",
+      "change_during_this_hash_review": false,
+      "note": "The edit occurred before the original final-byte hash capture, and was explicitly reread and verified after the parent notification."
+    }
+  ],
+  "open_issues": [],
+  "review_limits": [
+    "No new legal or regulatory web search was performed for this targeted review. Accuracy and currency of the cited law remain assigned to the separate regulatory source review.",
+    "No numerical financial EV, commercial rights feasibility, actual supply, infant suitability or development budget is independently established.",
+    "The verdict applies only to the exact bytes identified above. Later edits require hash reconciliation and, when material to these findings, renewed review."
+  ],
+  "review_activity": {
+    "repository_edits": false,
+    "remote_writes": false,
+    "new_web_search": false,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}
