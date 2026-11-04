@@ -1,0 +1,182 @@
+{
+  "version": "round8",
+  "classification": "arithmetic audit only; no experimental data",
+  "assumptions": [
+    "Formulas are neutral named structures, unless explicitly hydrochloride.",
+    "Average masses use stated rounded standard atomic weights.",
+    "HRMS target is calculated, not journal-observed.",
+    "Yield calculations assume named neutral material, stated precursor amounts, no purity correction and no unexplained form.",
+    "CN crude carryforward and aliquot prevent definitive mass-balance/yield reconstruction.",
+    "150 nM lipid is retained exactly as journal printed, not corrected to micromolar.",
+    "68.2nM and188nM remain nominal published cell concentrations; conversions do not establish free exposure."
+  ],
+  "atomic_weights_used": {
+    "C": 12.011,
+    "H": 1.008,
+    "N": 14.007,
+    "O": 15.999,
+    "S": 32.06,
+    "F": 18.998403163,
+    "Br": 79.904,
+    "Cl": 35.45
+  },
+  "monoisotopic_masses_used": {
+    "C": 12.0,
+    "H": 1.00782503223,
+    "N": 14.00307400443,
+    "O": 15.99491461957,
+    "S": 31.9720711744,
+    "F": 18.99840316273,
+    "Br": 78.9183376,
+    "Cl": 34.968852682
+  },
+  "proton_mass_used": 1.007276466621,
+  "identity_references": {
+    "BLU3797_neutral": {
+      "formula_counts": {
+        "C": 23,
+        "H": 27,
+        "N": 3,
+        "O": 3,
+        "S": 1
+      },
+      "average_mw_g_mol": 425.54699999999997,
+      "monoisotopic_neutral_da": 425.17731291661,
+      "calculated_M_plus_H_mz": 426.184589383231,
+      "status": "formula-derived, not measured"
+    },
+    "fluoro_isoindolinone_junction": {
+      "formula_counts": {
+        "C": 13,
+        "H": 13,
+        "Br": 1,
+        "F": 1,
+        "N": 1,
+        "O": 1
+      },
+      "average_mw_g_mol": 298.155403163,
+      "monoisotopic_neutral_da": 297.01645480572,
+      "calculated_M_plus_H_mz": 298.023731272341,
+      "status": "formula-derived, not measured"
+    },
+    "cyclopropylmethoxy_bromo_intermediate": {
+      "formula_counts": {
+        "C": 17,
+        "H": 20,
+        "Br": 1,
+        "N": 1,
+        "O": 2
+      },
+      "average_mw_g_mol": 350.256,
+      "monoisotopic_neutral_da": 349.06774148817,
+      "calculated_M_plus_H_mz": 350.075017954791,
+      "status": "formula-derived, not measured"
+    },
+    "US_4_bromo_2_fluorobenzoic_acid": {
+      "formula_counts": {
+        "C": 7,
+        "H": 4,
+        "Br": 1,
+        "F": 1,
+        "O": 2
+      },
+      "average_mw_g_mol": 219.009403163,
+      "monoisotopic_neutral_da": 217.93787013079,
+      "calculated_M_plus_H_mz": 218.945146597411,
+      "status": "formula-derived, not measured"
+    },
+    "US_S_cyclopropylethyl_fluorobenzamide": {
+      "formula_counts": {
+        "C": 12,
+        "H": 13,
+        "Br": 1,
+        "F": 1,
+        "N": 1,
+        "O": 1
+      },
+      "average_mw_g_mol": 286.144403163,
+      "monoisotopic_neutral_da": 285.01645480572,
+      "calculated_M_plus_H_mz": 286.023731272341,
+      "status": "formula-derived, not measured"
+    },
+    "CN_4_bromo_2_fluoro_6_methylbenzoic_acid": {
+      "formula_counts": {
+        "C": 8,
+        "H": 6,
+        "Br": 1,
+        "F": 1,
+        "O": 2
+      },
+      "average_mw_g_mol": 233.036403163,
+      "monoisotopic_neutral_da": 231.95352019525,
+      "calculated_M_plus_H_mz": 232.960796661871,
+      "status": "formula-derived, not measured"
+    },
+    "CN_A_1_1a_methyl_ester": {
+      "formula_counts": {
+        "C": 9,
+        "H": 8,
+        "Br": 1,
+        "F": 1,
+        "O": 2
+      },
+      "average_mw_g_mol": 247.06340316299998,
+      "monoisotopic_neutral_da": 245.96917025971,
+      "calculated_M_plus_H_mz": 246.976446726331,
+      "status": "formula-derived, not measured"
+    },
+    "CN_A_1_1b_bromomethyl_ester": {
+      "formula_counts": {
+        "C": 9,
+        "H": 7,
+        "Br": 2,
+        "F": 1,
+        "O": 2
+      },
+      "average_mw_g_mol": 325.959403163,
+      "monoisotopic_neutral_da": 323.87968282748,
+      "calculated_M_plus_H_mz": 324.886959294101,
+      "status": "formula-derived, not measured"
+    },
+    "S_cyclopropylethylamine_hydrochloride": {
+      "formula_counts": {
+        "C": 5,
+        "H": 12,
+        "Cl": 1,
+        "N": 1
+      },
+      "average_mw_g_mol": 121.60799999999999,
+      "monoisotopic_neutral_da": 121.06582707319,
+      "calculated_M_plus_H_mz": null,
+      "status": "formula-derived, not measured"
+    }
+  },
+  "calculations": {
+    "JCI_final_isolated_mass_mg": 21.7,
+    "JCI_stated_start_mmol": 0.114,
+    "JCI_stated_yield_pct": 38,
+    "JCI_mass_based_yield_pct": 44.73055509175947,
+    "JCI_mass_predicted_if_38pct_mg": 18.434826,
+    "JCI_implied_mass_fraction_if_38pct_and_no_form_change": 0.8495311520737328,
+    "JCI_listed_nonexchangeable_proton_integration": 26,
+    "US_acid_reported_mmol": 18.4,
+    "US_6g_acid_formula_mmol": 27.39608397331889,
+    "US_6g_amide_formula_mmol": 20.96843388749472,
+    "CN_10g_starting_acid_formula_mmol": 42.91175054313461,
+    "CN_13_05g_A1_1b_formula_mmol": 40.03566049442724,
+    "CN_4_87g_S_amine_HCl_formula_mmol": 40.04670745345701,
+    "CN_3_17g_junction_formula_mmol": 10.632039420955847,
+    "CN_final_over_42_91mmol_start_nominal_pct": 24.77753302483302,
+    "CN_final_over_40_04mmol_last_step_nominal_pct": 26.553545007382233,
+    "CN_final_over_start_corrected_only_for_13_05_of_13_5g_aliquot_pct": 25.6319307153445,
+    "JCI_nominal_enzyme_nM": 60,
+    "JCI_nominal_half_enzyme_nM": 30,
+    "JCI_nominal_lipid_nM": 150,
+    "JCI_nominal_substrate_per_enzyme": 2.5,
+    "JCI_max_productive_ADP_as_fraction_of_1mM_ATP_pct": 0.015,
+    "JCI_reported_cell_IC50_nM": 68.2,
+    "JCI_reported_cell_IC50_as_neutral_ng_mL": 29.02251,
+    "JCI_myotube_nuclear_peak_nominal_nM": 188,
+    "JCI_myotube_nuclear_peak_as_neutral_ng_mL": 80.00340000000001
+  }
+}

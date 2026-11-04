@@ -1,0 +1,396 @@
+{
+  "round": 8,
+  "review_date": "2026-11-04",
+  "baseline_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
+  "workstream": "BLU article and exposure qualification",
+  "decision": "priority_bounded_human_muscle_qualification_not_qualified_development_article",
+  "actions_not_taken": [
+    "contact",
+    "discussion",
+    "purchase",
+    "experiment",
+    "commit"
+  ],
+  "findings": [
+    {
+      "id": "R8-AE-F01",
+      "status": "primary_verified_and_arithmetic",
+      "finding": "Exact S fluoroisoindolinone junction independently matches original CN A-1-1c and US scheme to JCI; full route connectivity is publicly specified but end-to-end BLU identity and purity not demonstrated.",
+      "decision": "Use CN pathway as first route-development basis, US alternative; freeze release specification, not silently corrected recipe.",
+      "sources": [
+        "AE-S01",
+        "AE-S03",
+        "AE-S04"
+      ],
+      "locations": [
+        "CN PDF pages 28–29, printed description pages 19–20",
+        "US PDF page 122, printed page 47, paragraphs 0303–0304"
+      ]
+    },
+    {
+      "id": "R8-AE-F02",
+      "status": "unresolved_documentation_mismatch",
+      "finding": "JCI v2 page 14 labels the enzyme PV3574l; Thermo identifies PV3574 as buffer and PV5374 as the C2B enzyme.",
+      "decision": "Qualify an independently declared construct. Do not assert that investigators used buffer or definitively identify their actual enzyme.",
+      "sources": [
+        "AE-S01",
+        "AE-S05",
+        "AE-S06"
+      ]
+    },
+    {
+      "id": "R8-AE-F03",
+      "status": "published_conditions_plus_arithmetic",
+      "finding": "Printed 150 nM PI / 60 nM enzyme = 2.5 substrate molecules per enzyme; maximum productive ADP equals 0.015% of 1 mM ATP. Reported 28 nM IC50 is near half the nominal enzyme concentration.",
+      "decision": "Validate units and initial-rate/detection window. Do not substitute micromolar units, a free Ki, or a universal IC50 acceptance band.",
+      "sources": [
+        "AE-S01",
+        "AE-S07"
+      ]
+    },
+    {
+      "id": "R8-AE-F04",
+      "status": "public_assay_component_not_native_TE_validation",
+      "finding": "Two NCI C2B direct-PRM assays and an original SOP provide an antibody-independent detection starting point in SUM159 digest.",
+      "decision": "Qualify actual muscle matrix and PRM-CETSA feasibility; do not claim fractional occupancy or a guaranteed thermal shift.",
+      "sources": [
+        "AE-S12",
+        "AE-S13"
+      ]
+    },
+    {
+      "id": "R8-AE-F05",
+      "status": "prospective_operationalization_of_prior_evidence",
+      "finding": "Exact compound 47 is the first comparator; 91 is conditional fallback. Neither has established exact-article XLMTM function or cellular pS6K proof in the inspected patent.",
+      "decision": "Match identity, exposure and target modulation before functional comparison.",
+      "sources": [
+        "AE-S14"
+      ]
+    }
+  ],
+  "article": {
+    "name": "(S)-N-(5-(2-(1-cyclopropylethyl)-7-(cyclopropylmethoxy)-1-oxoisoindolin-5-yl)-4-methylthiazol-2-yl)acetamide",
+    "formula": "C23H27N3O3S",
+    "neutral_MW_g_mol": 425.55,
+    "calculated_neutral_monoisotopic_mass_Da": 425.17731291661,
+    "calculated_M_plus_H": 426.184589383231,
+    "published_nominal_M_plus_H": 426,
+    "stereochemistry": "S",
+    "vendor": "Probechem PC-26519; catalog identity, not a qualified lot",
+    "unresolved": [
+      "Salt/solvate",
+      "Absolute content",
+      "Enantiomeric purity",
+      "Residual impurities",
+      "Lot identity",
+      "Stability"
+    ],
+    "references": [
+      "AE-S01",
+      "AE-S02"
+    ]
+  },
+  "biochemical_public_constructs": [
+    {
+      "article": "Thermo PV5374",
+      "target": "Human PIK3C2B",
+      "residues": "155–1383",
+      "tag": "GST",
+      "expression": "Insect cells",
+      "status": "Public candidate for independent qualification; not a confirmed identification of the JCI reagent",
+      "source": "AE-S06"
+    },
+    {
+      "article": "Thermo PV5586",
+      "target": "Human PIK3C2A",
+      "residues": "142–1412",
+      "tag": "GST",
+      "source": "AE-S08"
+    },
+    {
+      "article": "Thermo PV5126",
+      "target": "Human VPS34",
+      "residues": "full-length",
+      "tag": "GST",
+      "source": "AE-S09"
+    },
+    {
+      "article": "WO2025003330A1 C2B construct",
+      "target": "Human PIK3C2B",
+      "residues": "Deletion of residues 1–297",
+      "mutations": "DPK1248–1250 replaced by KKT",
+      "ATP_uM": 40,
+      "PI_uM": 200,
+      "source": "AE-S14"
+    }
+  ],
+  "native_TE_bridge": {
+    "method": "Native protein PRM followed by PRM-CETSA feasibility",
+    "peptides": [
+      "ISDVFLC[+57.021464]R",
+      "LIESSLGSVATK"
+    ],
+    "portal_ids": [
+      "non-CPTAC-5672",
+      "non-CPTAC-5673"
+    ],
+    "published_matrix": "SUM159 tryptic digest",
+    "transfer_matrix": "Actual qualified human muscle",
+    "unproven": [
+      "Muscle LOD/LOQ",
+      "Peptide specificity in test context",
+      "Thermal responsiveness",
+      "BLU binding-compatible thermal shift",
+      "Quantitative occupancy"
+    ],
+    "cap": "One assay-development stage plus one documented technical-redesign cycle",
+    "source": "AE-S12"
+  },
+  "quantitative_gates": [
+    {
+      "id": "AE-G01",
+      "attribute": "Article formula",
+      "criterion": "Within 5 ppm of calculated [M+H]+ 426.1845894, with consistent isotope envelope and assigned NMR connectivity.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Stop lot use or resolve identity."
+    },
+    {
+      "id": "AE-G02",
+      "attribute": "Absolute configuration",
+      "criterion": "Assigned S configuration and enantiomeric excess at least 98%.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Stop lot use or repurify."
+    },
+    {
+      "id": "AE-G03",
+      "attribute": "Chemical purity",
+      "criterion": "At least 98% chromatographic purity, with orthogonal investigation of coelution.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Repurify and requalify the lot."
+    },
+    {
+      "id": "AE-G04",
+      "attribute": "Absolute content",
+      "criterion": "qNMR 95–105% of declared content on the declared material basis; report neutral mass fraction; unexplained mass balance no more than 5%.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Resolve form/content and adjust concentrations by measured content."
+    },
+    {
+      "id": "AE-G05",
+      "attribute": "Stock integrity",
+      "criterion": "90–110% target recovery and no more than 10% loss within the validated stock-use interval.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Change formulation or handling and requantify."
+    },
+    {
+      "id": "AE-G06",
+      "attribute": "Biochemical quality",
+      "criterion": "Z-prime at least 0.5; control CV no more than 20%; three independent days; declared construct and orthogonal readout.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Resolve assay artifacts before interpreting activity."
+    },
+    {
+      "id": "AE-G07",
+      "attribute": "Initial-rate conditions",
+      "criterion": "Less than 20% substrate conversion in a validated initial-rate experiment.",
+      "provenance_class": "published method benchmark, not BLU-specific",
+      "failure_consequence": "Reoptimize substrate, enzyme concentration and time."
+    },
+    {
+      "id": "AE-G08",
+      "attribute": "Native protein quantification",
+      "criterion": "Two target-specific peptides, qualified matrix/recovery/fragment identity and CV no more than 20%.",
+      "provenance_class": "prospective research limit",
+      "failure_consequence": "Assay-readiness hold, not biological negative."
+    },
+    {
+      "id": "AE-G09",
+      "attribute": "Exposure measurement",
+      "criterion": "Accuracy 80–120% and CV no more than 20% at decision-relevant concentrations.",
+      "provenance_class": "prospective exploratory limit, not ICH M10 validation",
+      "failure_consequence": "Tighten methods if expected biological separation is within analytical uncertainty."
+    },
+    {
+      "id": "AE-G10",
+      "attribute": "High target challenge",
+      "criterion": "80% engagement only with a calibrated quantitative assay; not a minimum benefit requirement.",
+      "provenance_class": "prospective characterization target",
+      "failure_consequence": "Scope negatives to measured engagement, model and duration."
+    },
+    {
+      "id": "AE-G11",
+      "attribute": "Antitarget interpretation",
+      "criterion": "At most 20% C2alpha/VPS34 modulation at the benefit exposure where quantifiable.",
+      "provenance_class": "prospective clean-interpretation goal, not clinical safety threshold",
+      "failure_consequence": "Investigate or redirect chemistry; not an automatic clinical toxicity finding."
+    },
+    {
+      "id": "AE-G12",
+      "attribute": "Exposure headroom",
+      "criterion": "Three times the measured free benefit exposure if soluble, preserving relevant duration.",
+      "provenance_class": "prospective characterization, not systemic therapeutic index",
+      "failure_consequence": "Map useful function and mitochondrial liability; do not claim a chronic safety margin."
+    }
+  ],
+  "exposure_plan": {
+    "exploratory_nominal_bracket_nM": [
+      10,
+      3000
+    ],
+    "bracket_status": "Prospective assay development only; conditional on solubility and viability",
+    "functional_levels": "Chosen from measured exposure and engagement, not imported from the 68.2 nM fusion IC50",
+    "samples": [
+      "After first addition",
+      "Before next medium change",
+      "After final refresh",
+      "Terminal day 27"
+    ],
+    "synchronize": "Model day 20 baseline, early PD and day 27 readout",
+    "separate_denominators": "Destructive sister tissues are excluded from longitudinal-force N",
+    "distinctions": [
+      "Nominal total",
+      "Measured medium total",
+      "Measured medium unbound",
+      "Cell-associated total",
+      "Unbound intracellular is not inferred",
+      "PK tissue free exposure is unavailable"
+    ],
+    "later_distribution": "Matched timed unbound muscle/plasma/brain/heart/liver plus metabolites, conditional on informative proof"
+  },
+  "comparators": {
+    "first": "WO2025003330A1 exact compound 47",
+    "fallback": "Exact compound 91, conditional on compound 47 material or cell-access failure",
+    "reject_transfer": [
+      "47 selectivity to 91",
+      "DC03 cellular pS6K to 47/91",
+      "Lysate kinobead binding to cell entry",
+      "BLU2720 as inactive control",
+      "PITCOIN2 as beta-only",
+      "R enantiomer as inactive without measurement"
+    ],
+    "decision_rule": "Article identity, matched exposure and qualified target modulation before causal functional comparison"
+  },
+  "numeric_audit": "research/rounds/round8/blu_identity_numeric_audit.json",
+  "numeric_audit_script": "methods/blu3797_identity_audit.py",
+  "source_download_manifest": [
+    {
+      "file": "us_route.pdf",
+      "url": "https://patentimages.storage.googleapis.com/0e/81/d7/869b16982277bd/US20240226104A1.pdf",
+      "bytes": 13301293,
+      "sha256": "a8c78437616999d49405c6aa7d2f9950eb84a53697fc27a6c61f0bc31b83d5b8",
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "cn_route.pdf",
+      "url": "https://patentimages.storage.googleapis.com/65/9d/8d/8ea64d8638b79d/CN119490502A.pdf",
+      "bytes": 3382217,
+      "sha256": "fe08c412e4c6d296010827729e42b45df7618dcbd9a6eb238298ef16409338a0",
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "us_route.html",
+      "url": "https://patents.google.com/patent/US20240226104A1/en",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "file": "cn_route_zh.html",
+      "url": "https://patents.google.com/patent/CN119490502A/zh",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "file": "addgene238834.html",
+      "url": "https://www.addgene.org/238834/",
+      "bytes": 249131,
+      "sha256": "ceed8168bb4e55be8b1314b4f31962e8a6c9126662c43c0fb4631cb1a95f27bc",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "probechem_blu.html",
+      "url": "https://www.probechem.com/products_BLU3797.html",
+      "bytes": 66220,
+      "sha256": "7d2bb089b395bf82bae7734f90e9aabde45b0ee29fa6c424744e8135faaa3549",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "promega_selection.html",
+      "url": "https://www.promega.com/resources/guides/kinase-target-engagement-assay-selection-table/",
+      "bytes": 230683,
+      "sha256": "e6026bc8e1dff393d31950673b9f7fb95bdcd4092872e4dafad021252854f7ee",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "nci_pik3c2b5672.html",
+      "url": "https://assays.cancer.gov/non-CPTAC-5672",
+      "bytes": 143817,
+      "sha256": "5af843f72b9cfccceb642371607e331032b65367958de506e8c4c1eb1d7bea29",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "file": "probechem_structure.gif",
+      "url": "https://www.probechem.com/userfiles/product/PC-26519.gif",
+      "bytes": 2864,
+      "sha256": "15335a12ab3557ebfabca700f87a001c4515fe9fcbee2796fec72179fcc5914d",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "thermo_c2b_adapta.pdf",
+      "url": "https://documents.thermofisher.com/TFS-Assets/LSG/manuals/PIK3C2B_%28PI3K-C2beta%29_Adapta.pdf",
+      "bytes": 428092,
+      "sha256": "87a050044ee325fb2f2502c8450910eaa20a3fdf17fda054fbd4eadb41e106f2",
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "thermo_pv5374.html",
+      "url": "https://www.thermofisher.com/proteins/product/Human-PIK3C2B-PI3K-C2-beta-GST-Tag-Recombinant-Protein/PV5374",
+      "bytes": 668364,
+      "sha256": "2b82826c6b1e9d045c0876d0310dfe81049de59384e6d3ba8664a45641a587b7",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "file": "nci_prm_sop.docx",
+      "url": "https://assays.cancer.gov/assays/download_file?sop_files_id=692",
+      "bytes": 100811,
+      "sha256": "4d4b5282828fd8175d1098ee387125163f0a6ad926a0392346c0ed9f66e458a0",
+      "content_type": "application/vnd.openxmlformats-officedocument.word"
+    },
+    {
+      "file": "nci_pik3c2b5673.html",
+      "url": "https://assays.cancer.gov/non-CPTAC-5673",
+      "bytes": 143825,
+      "sha256": "28fa8af801a0c4dc16af1c836b10507224d0d72c4514cbc4e3cd0ed1560d7932",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "file": "jci_blu_v2.pdf",
+      "url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.v2.pdf",
+      "bytes": 10866724,
+      "sha256": "b4fc9d50ec0b383bfd97f5e19247b9a67a5ecad0d7595cf626944181be781566"
+    }
+  ],
+  "source_access_limits": [
+    "Google Patents direct HTML download returned 503; web-parsed text and original PDFs accessible.",
+    "Thermo tools host returned 403; official documents host supplied the public PDF.",
+    "Promega dynamic target table was incomplete in accessible text; catalog absence is not claimed.",
+    "Addgene sequence download restricted; public metadata accessible.",
+    "Web viewer did not render NCI DOCX; public direct download and text extraction succeeded."
+  ],
+  "source_hash_policy": "Hash of downloaded public bytes; does not validate the underlying experiments.",
+  "source_data_workbook": {
+    "repo_path": "research/source-data/blu3797-source-values.xlsx",
+    "sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+    "status": "Prior raw source unchanged"
+  },
+  "not_claimed": [
+    "S-tier",
+    "Human force efficacy",
+    "Authentic original BLU reference standard",
+    "Demonstrated synthesis replication",
+    "Safe clinical dose",
+    "Human exposure",
+    "CNS exclusion",
+    "Commercial rights",
+    "Freedom to operate",
+    "Compound 47 as a validated probe"
+  ],
+  "raw_retrieval_files_note": "Raw downloaded primary articles/PDFs and temporary extraction files are research intermediates and are not included in this commit. Public URLs, access limits and recorded hashes identify source provenance."
+}

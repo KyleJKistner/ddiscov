@@ -14,7 +14,7 @@ For every serious lead, record:
 
 - Primary source, DOI or study identifier, publication date, verification date and underlying dataset lineage.
 - Exact molecule, stereochemistry, sequence, construct, formulation and relevant batch evidence.
-- Biological unit and denominator. Keep donors, animals, eyes, clones, fields and technical repeats separate.
+- Biological unit and denominator. Keep donors, animals, eyes, clones, tissues, fields and repeated readings separate. Independently assigned tissues can be exposure units; that does not make them independent donors or make repeated twitches independent tissues.
 - Baseline deficit, treatment timing, comparator, exposure, useful functional effect and adverse evidence.
 - Missing observations, attrition, assay ceilings, exclusions, ambiguous units and source inconsistencies when they affect the decision.
 - What would most strongly falsify the proposed product thesis.
@@ -60,7 +60,7 @@ Use separate judgments for initial qualification, exploratory function, confirma
 
 When exact-disease human treatment observations already exist, fund the uncertainty appropriate to that stage. Pediatric article/exposure qualification or a controlled clinical comparison can be the next proof. A new cell or animal rescue experiment is optional when it discriminates a consequential article, tissue, mechanism or safety question; it is not a compulsory reset to an earlier evidence stage.
 
-An initial qualified disease/control background can decide whether a larger replication effort is worthwhile. It cannot establish genotype generality. Independent backgrounds, a prespecified useful effect and relevant exposure belong to confirmation; avoid imposing the complete development package before a first feasibility result. Record the smallest informative deliverable and what happens if it succeeds, fails or is inconclusive.
+An initial qualified disease/control background can decide whether a larger replication effort is worthwhile. It cannot establish genotype generality. Independent first-background confirmation can support a narrow claim; additional independent backgrounds are required for broader generality. A prespecified useful effect and relevant exposure belong to confirmation; avoid imposing the complete development package before a first feasibility result. Record the smallest informative deliverable and what happens if it succeeds, fails or is inconclusive.
 
 Scientifically worthwhile clinical work, a differentiated product and a proprietary company are separate opportunities. A generic or an active external program can still support valuable research, but a new developer must identify its contribution. Do not silently replace an intended drug-development opportunity with an academic evidence-generation project; label the different scope and value-capture limits explicitly. Comparable efficacy with a meaningful improvement in tolerability, burden, delivery or another intended benefit can be valuable; superiority on every endpoint is unnecessary.
 
@@ -70,7 +70,7 @@ Stop expanding a desktop checklist once the next finite funding decision is clea
 
 ## S-tier standard
 
-Require meaningful established-disease rescue, independent or orthogonal support, reproducible material, plausible exposure, differentiation from current care, no unresolved fatal safety contradiction at effective exposure, and a compelling next milestone with plausible value capture. A preventive preservation product can qualify on its intended clinical use, but must demonstrate durable useful native-organ, graft or manufacturing benefit and cannot be described as reversal of established disease.
+Require a large useful effect in the intended clinical claim—restoration, preservation or ongoing control—plus independent or orthogonal support, reproducible material, plausible exposure, differentiation from current care, no unresolved fatal safety contradiction at effective exposure, and a compelling next milestone with plausible value capture. A preventive preservation product can qualify on its intended clinical use, but must demonstrate durable useful native-organ, graft or manufacturing benefit and cannot be described as reversal of established disease.
 
 S-tier is not a quota or a guarantee of investor interest. Unanswered commercial terms do not defeat a strong scientific proof, while an interesting experiment does not establish a financeable clinical product.
 
@@ -80,7 +80,7 @@ A gene-corrected line made before differentiation can establish disease causalit
 
 Require a measurable baseline and a stable or predictable untreated trajectory. Perfectly flat tissue function is unnecessary when contemporaneous controls and baseline adjustment can distinguish a treatment effect from maturation. Keep developmental compensation, preservation and mature reversal as separate claims; useful preservation is not discarded merely because it is not reversal.
 
-Prespecify both an assay-repeatability threshold and a minimum useful effect. Use the corrected disease gap, a practical active comparator and the intended product benefit to inform usefulness. Preserve donor and batch structure in uncertainty estimates. A precise trivial effect is not enough; an imprecise estimate crossing the useful threshold is inconclusive rather than proven failure.
+Prespecify both an assay-repeatability threshold and a minimum useful effect. Use a qualified corrected-disease or explicitly nonisogenic reference gap, a practical active comparator and the intended product benefit to inform usefulness. A nonisogenic gap is not a genetically established rescuable deficit. Lock any numerical threshold and its calibration before treatment decoding. Preserve donor and batch structure in uncertainty estimates. A precise trivial effect is not enough; an imprecise estimate crossing the useful threshold is inconclusive rather than proven failure.
 
 ## Match exposure, chemical species and the selected population
 
@@ -89,6 +89,14 @@ Equal unbound concentrations across cultured tissues estimate intrinsic sensitiv
 The bottle label, nominal added amount, chemical species present in the assay, and active species reaching a patient are distinct. Redox interconversion, salt form, congener composition, metabolites and a combination product must remain attached to the evidence. A biological signal can be real while its transferable chemical article is not yet defined.
 
 Keep all-treated, completer and responder-enriched populations visible. Discontinuation for insufficient response can bias the apparent effect among remaining participants. A positive paired result without a concurrent control does not isolate treatment causality, and subsequent background-treatment changes prevent a simple durability claim. Record submitted-result status, draft labels and internal inconsistencies without treating an uploaded report as peer-reviewed confirmation.
+
+## Numerical provenance and asymmetric evidence
+
+Mark each numerical criterion as a published observation, formula-derived reference, proposed engineering limit or calibration-dependent unknown. A proposed25% gap target, occupancy characterization level or safety review trigger is not a validated clinical threshold. Keep missing inputs null in templates; automated checks must not turn unknown provenance or denominators into a passing gate.
+
+A credible randomized functional positive can justify replication while a mechanistic assay or delayed positive control is unfinished. Negative target inference requires the stronger exposure, perturbation, precision and model-modifiability evidence appropriate to its scope. A bounded target downgrade must not become universal target rejection in a machine-readable flag.
+
+Apply product contribution and public-rights standards equally to BLU and marketed/generic clinical leaders. Data-generation value, a differentiated therapeutic and an exclusive company asset remain separate decisions.
 
 ## Current decisions
 

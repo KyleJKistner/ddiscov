@@ -1,0 +1,340 @@
+{
+  "baseline_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
+  "scope": "Structured repository discovery CSVs, all round2 generated concepts, cumulative register, and rounds3-7 JSONs; semantic checks against same-gene/disease entries described in report. This is a bounded corpus audit, not proof of novelty in the world.",
+  "files": [
+    {
+      "path": "discovery/component-proposals.csv",
+      "sha256": "70788605d7fe46ef2413ba3cb8bd1be12ca5e0529cc4540e595bb9d68bc8d219"
+    },
+    {
+      "path": "discovery/topic-occurrences.csv",
+      "sha256": "10cd71b726f2c09089e8c12782890708f58b6f25572384ed05d8d4bc85d87dd4"
+    },
+    {
+      "path": "discovery/functional-comparisons.csv",
+      "sha256": "a06d808764b29c2c65c1d851b85c30aa03b90ddb501f4a7d964bd77ac9174999"
+    },
+    {
+      "path": "discovery/broad-screen.csv",
+      "sha256": "fd546575aae283a428093496900ca1849ba3e457c81ef2d009dec43c662f55e5"
+    },
+    {
+      "path": "discovery/historical-topics.csv",
+      "sha256": "0235562c1d5790c6f212ac583c8cd71d6b3df33874a44c8f13277883828d0023"
+    },
+    {
+      "path": "research/rounds/round2/round2_generated_concepts.json",
+      "sha256": "61a65c9e8a9a1977f428f4a7b5e0c0a540321410310d6df61f259ce2178e2ea7"
+    },
+    {
+      "path": "research/portfolio-register.json",
+      "sha256": "fc33bb1ee2ae07f2cc3681013b3aca041eec2c86aac00b602bd53b969f1bd38b"
+    },
+    {
+      "path": "research/rounds/round6/round6_reserve_challenge.json",
+      "sha256": "4d605848c9b5f2a4425c1bf6bfc484c24e75e46b6ee56342edc6e49dbe0a0d9a"
+    },
+    {
+      "path": "research/rounds/round6/round6_root_deltas.json",
+      "sha256": "288737bd155ab626c3d42030cee627a9f8b1dedd8be07511ad3113e4f67c72a0"
+    },
+    {
+      "path": "research/rounds/round6/round6_blu_translation.json",
+      "sha256": "dde580fe7074aad3bbfb4c575be332db52aa32167014a85c1519fac2880b8e27"
+    },
+    {
+      "path": "research/rounds/round6/round6_clinical_translation_audit.json",
+      "sha256": "bb3d1256a1360c28e4e37a89f80b3795fa0e76a5842990d2348c077b16fd1171"
+    },
+    {
+      "path": "research/rounds/round6/round6_new_leads.json",
+      "sha256": "50937edbf018be635cc90da8b5b57871d42bf06883c25bf3e2a5c72db8e9eb77"
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_source_audit.json",
+      "sha256": "338545627583ea1ae1f4c6231443aa078f8ffa7c1e6b41f97cd980ee4dedbab5"
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_clinical_audit.json",
+      "sha256": "dcdd9261ec349bac71a02778f62cc315025bbae71b826da4138b0b81f27a4cc5"
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_product.json",
+      "sha256": "3e16de9bcd6dc855ddf09737488e64400917c102c69e0249b8667be48a711383"
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_clinical.json",
+      "sha256": "566215fe8efc1ba88925c598512e55c0eef3bf875e5fcf8b8326552b24e6bc8d"
+    },
+    {
+      "path": "research/rounds/round7/round7_root_deltas.json",
+      "sha256": "8cc74cc8561c84839f3ffa296296189eccbda17e12c8beddd9c4dc00670f1654"
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_clinical_audit.json",
+      "sha256": "e81f705c7ce413c81034778cbd57a957489cb73b1437be4eff452e178f25daaa"
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_clinical.json",
+      "sha256": "d9859517e13808236f2d5e54de94b3838a1d47d3806cb85639500b6b747672e7"
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_product.json",
+      "sha256": "e752ee80a781b6a2fb30eaf531a4b4a539077ff54d9d675021fef3b6791ed875"
+    },
+    {
+      "path": "research/rounds/round4/round4_neuromuscular.json",
+      "sha256": "d3f97d7a5690d6394823344611eeaa793f20244379d99d1e2ea41dd2247956ed"
+    },
+    {
+      "path": "research/rounds/round4/round4_root_deltas.json",
+      "sha256": "ec046638599fb46529a12fb15c9e4506a6b4a93389e1fbc99f7719d66b1196b7"
+    },
+    {
+      "path": "research/rounds/round4/round4_organ_blood.json",
+      "sha256": "724d0477da8ea5f73763daf396917993b5ffec5e21006c59aea98e890e8acf74"
+    },
+    {
+      "path": "research/rounds/round4/blu3797-source-audit.json",
+      "sha256": "65e1b020d1da2816c168c64b617f6811de17dfdcd98dcba17ebeb1fe324d659b"
+    },
+    {
+      "path": "research/rounds/round4/round4_local_repair.json",
+      "sha256": "860ffb471f9c873f27e95dd53d522a1fc357815818139c255cd68461b2cb825c"
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_biology.json",
+      "sha256": "ff5b8fb2b23604118a4a59b6262dde071c49da1818f648e9523a4d4a06072adf"
+    },
+    {
+      "path": "research/rounds/round5/round5_shortlist_challenge.json",
+      "sha256": "a7a33771bdbb150cb4683431fbefaf65f9b67e28200f04a9c3a62a62fb355ec3"
+    },
+    {
+      "path": "research/rounds/round5/round5_additional_screen.json",
+      "sha256": "0279443203ba718f87cd416b56b639f9fda5ba2f914236dd9309a740ad5d155a"
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_pharmacology.json",
+      "sha256": "93c53875794f2ff6c196d494efe8bb307da15c70630deb2f2906bf6ad7dc4870"
+    },
+    {
+      "path": "research/rounds/round5/round5_ndc_comparator_update.json",
+      "sha256": "a14d78e9a68385ccb5b426493e8d7bfbe90a293ec0c98c7c55356fea0b5b88ed"
+    },
+    {
+      "path": "research/rounds/round5/blu3797-cell-context-audit.json",
+      "sha256": "5b83e4ab8218048dc3d2bbf333f8c6ba0e40d0eaa3f3de1e30916c4f5a30c79b"
+    },
+    {
+      "path": "research/rounds/round5/round5_root_deltas.json",
+      "sha256": "a454c8df2923a1486aee6567bab9605bc6130ffcfb8ca47ae3438a1bfbf747b0"
+    },
+    {
+      "path": "research/rounds/round5/round5_existing_leader_updates.json",
+      "sha256": "27b98835b2a7612186e87688c05fa39eb880c44a41650a88b1eff314cffb382b"
+    },
+    {
+      "path": "research/rounds/round5/round5_pantethine_chemistry_challenge.json",
+      "sha256": "b965b94d8b4f74694396cbfa6ea71ddc4d1b5f61b8fe7d8fc4a7d7f343fa7269"
+    },
+    {
+      "path": "research/rounds/round5/p2-off-target-audit.json",
+      "sha256": "fccaa25a17c599e09d937978f4a2ba5fed086710857d6ac5ee84f739fcdcc443"
+    },
+    {
+      "path": "research/rounds/round3/round3_neuromuscular.json",
+      "sha256": "cc8b30ddb0030e842dde9535e0fa205d1fa39e5fe274752d0901d3e56ef7eb69"
+    },
+    {
+      "path": "research/rounds/round3/round3_root_deltas.json",
+      "sha256": "8b90b7e334e3cc54bcbf3de4451fcef85441a3450520807314299dd4a31c7adf"
+    },
+    {
+      "path": "research/rounds/round3/round3_model_routes.json",
+      "sha256": "53dd903e5ef91ea9ddeb5608a375ce3c2526dcd28458641401b6dfd328d947cd"
+    },
+    {
+      "path": "research/rounds/round3/round3_new_leads.json",
+      "sha256": "f7a1749af00b3ead583d9f051b013a8f49c6f1bf1de3c2b52e2aeabe2e1133eb"
+    },
+    {
+      "path": "research/rounds/round3/round3_organ_repair.json",
+      "sha256": "5aaf2b1f5952e25153a9da557eef57c24d884bd91ebca5cbf95707bf48545dd5"
+    }
+  ],
+  "results": {
+    "W7_RCM": {
+      "aliases": [
+        "W7",
+        "W-7",
+        "N-(6-aminohexyl)",
+        "TNNT2",
+        "R94C",
+        "mavacamten"
+      ],
+      "hits": [
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "TNNT2"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "R94C"
+        }
+      ]
+    },
+    "fluoxetine_KCNC1": {
+      "aliases": [
+        "KCNC1",
+        "Kv3.1",
+        "V434L",
+        "Val434Leu",
+        "V425M",
+        "Val425Met"
+      ],
+      "hits": []
+    },
+    "lisdexamfetamine_KCNMA1": {
+      "aliases": [
+        "lisdexamfetamine",
+        "Vyvanse",
+        "KCNMA1",
+        "N999S",
+        "Asn1053Ser",
+        "Asn999Ser"
+      ],
+      "hits": []
+    },
+    "NALL_GM2": {
+      "aliases": [
+        "N-acetyl-L-leucine",
+        "N-acetyl-l-leucine",
+        "levacetylleucine",
+        "IB1001",
+        "Aqneursa",
+        "acetylleucine"
+      ],
+      "hits": [
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "N-acetyl-L-leucine"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "N-acetyl-l-leucine"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "levacetylleucine"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "Aqneursa"
+        },
+        {
+          "file": "research/rounds/round5/round5_shortlist_challenge.json",
+          "alias": "N-acetyl-L-leucine"
+        },
+        {
+          "file": "research/rounds/round5/round5_shortlist_challenge.json",
+          "alias": "N-acetyl-l-leucine"
+        },
+        {
+          "file": "research/rounds/round5/round5_shortlist_challenge.json",
+          "alias": "levacetylleucine"
+        },
+        {
+          "file": "research/rounds/round5/round5_shortlist_challenge.json",
+          "alias": "Aqneursa"
+        }
+      ]
+    },
+    "roflumilast_Darier": {
+      "aliases": [
+        "roflumilast",
+        "Zoryve",
+        "PDE4"
+      ],
+      "hits": [
+        {
+          "file": "research/rounds/round2/round2_generated_concepts.json",
+          "alias": "roflumilast"
+        },
+        {
+          "file": "research/rounds/round2/round2_generated_concepts.json",
+          "alias": "PDE4"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "roflumilast"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "PDE4"
+        }
+      ]
+    },
+    "epalrestat_PMM2": {
+      "aliases": [
+        "epalrestat",
+        "NCT04925960"
+      ],
+      "hits": [
+        {
+          "file": "discovery/historical-topics.csv",
+          "alias": "epalrestat"
+        },
+        {
+          "file": "discovery/historical-topics.csv",
+          "alias": "NCT04925960"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "epalrestat"
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias": "NCT04925960"
+        }
+      ]
+    }
+  },
+  "adjudication": {
+    "W7_RCM": {
+      "classification": "existing_exact_use_update",
+      "mapped_inventory_id": "screen-index:accessible-cellular-01:511",
+      "reason": "The original specific TNNT2-R94C thin-filament-desensitization screen already exists in the cumulative register."
+    },
+    "fluoxetine_KCNC1": {
+      "classification": "new_exact_use",
+      "prior_molecule": "Fluoxetine slow-channel CMS round6 is a different channel/gene/use."
+    },
+    "lisdexamfetamine_KCNMA1": {
+      "classification": "new_exact_use",
+      "additional_alias_note": "N999S and Asn1053Ser are transcript-dependent labels of the same reported variant; 2025 Asp789Glu is a separate genotype and is not pooled."
+    },
+    "NALL_GM2": {
+      "classification": "new_exact_use",
+      "prior_molecule": "NALL/Aqneursa was an NPC comparator in round5; no prior GM2 NALL exact-use record located. GM2 gene therapies are not the same intervention."
+    },
+    "roflumilast_Darier": {
+      "classification": "new_exact_use_expanded_existing_concept",
+      "mapped_proposal_id": "BL-N05",
+      "reason": "Existing topical PDE4 post-injury epithelial rescue proposal was based on autoimmune injury; this screen concerns exact 0.3% cream in ATP2A2 Darier disease."
+    },
+    "epalrestat_PMM2": {
+      "classification": "existing_exact_use_update",
+      "mapped_inventory_id": "historical-topics:T173",
+      "reason": "Same molecule/disease and NCT already inventoried."
+    }
+  },
+  "counts": {
+    "reviewed_records": 6,
+    "new_exact_uses": 4,
+    "entirely_new_exact_use_records": 3,
+    "concept_expansion": 1,
+    "existing_exact_use_updates": 2,
+    "new_molecule_claims": 0
+  }
+}

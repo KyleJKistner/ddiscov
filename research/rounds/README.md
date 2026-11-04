@@ -11,6 +11,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 5](round5/README.md)** | BLU3797 development proof and clinical challengers | 12 new exact-use screens; seven existing candidates updated; 887 additional BLU source cells; P2 panel correction; actual dantrolene results recovered; four new human-evidence reserves. No S-tier promotion. |
 | **[Round 6](round6/README.md)** | Staged funding decision, translational challenge and new human-use leads | Six new exact uses; BLU, enasidenib and PPCS updates; two clinical-comparator clarifications; two continuation packages integrated. Enasidenib formulation assessment upgraded and ruxolitinib/HHD prioritized. No S-tier promotion. |
 | **[Round 7](round7/README.md)** | Two existing clinical-development dossiers brought to BLU-level diligence dimensions | Enasidenib pediatric article/exposure–function and ruxolitinib controlled HHD proof; three reproducible audits and three independent challenges. Zero new screens; no S-tier promotion. |
+| **[Round 8](round8/README.md)** | BLU qualification work order, leading-set stress test and six-record screen | Four new exact uses (one concept expansion), two existing-use updates, quantitative decisions, source/logic audits and explicit planning allocation. No S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -38,3 +39,9 @@ Round labels do not imply that every record represents an independent compound o
 ## Historical reports
 
 The [archived reports](../reports/README.md) include new archival covers and preserve their original pages. Historical statements about activity, priorities or suggested next steps describe the review when written. Current integrated decisions take precedence. No outreach is required for scientific selection.
+
+## Round 8
+
+- [Qualification, clinical challenge, new screens and independent reviews](round8/README.md)
+- [BLU execution work order](round8/blu3797-qualification-package.md)
+- [Portfolio ranking and allocation](round8/portfolio-allocation.md)

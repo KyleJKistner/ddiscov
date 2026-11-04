@@ -1,0 +1,108 @@
+{
+  "round": 8,
+  "review_date": "2026-11-04",
+  "candidate": "W7 / selective thin-filament calcium desensitization in TNNT2 p.R94C restrictive cardiomyopathy",
+  "existing_alias": "screen-index:accessible-cellular-01:511",
+  "novelty": "Deepened existing candidate; not new unique hit",
+  "decision_exact_article": "Deprioritize systemic development; mechanistic reference only with off-target controls",
+  "decision_target": "Retain selective thin-filament desensitization as a discovery reserve",
+  "decision_change": "Specific direct electrophysiology liabilities strengthen exact-article deprioritization beyond generic calmodulin concerns",
+  "evidence": [
+    {
+      "id": "R8-W7-R01",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2992901/",
+      "article": "W7 hydrochloride, Merck",
+      "assay": "HEK293 whole-cell patch clamp, 22–23 C, protein-free Tyrode-type bath",
+      "IC50_uM": {
+        "hERG": 3.5,
+        "Kv1.5": 6.5,
+        "Kir2.1": 13.4
+      },
+      "denominators": {
+        "hERG_fig5": "4–15 cells per concentration",
+        "Kv1.5_fig6": "7–12 cells per concentration",
+        "Kir2.1": "6–15 cells, response series"
+      },
+      "interpretation": "Direct channel blockade; no clinical arrhythmia rate or established clinical margin inferred"
+    },
+    {
+      "id": "R8-W7-R02",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12802102/",
+      "genotype": "TNNT2 p.R94C",
+      "donors": 1,
+      "control": "CRISPR-corrected isogenic line",
+      "outcome": "Improved diastolic measures with lower relative systolic penalty than mavacamten in this background",
+      "unknown": [
+        "Exact W7 salt/lot",
+        "Verified figure dose",
+        "Verified figure-specific N",
+        "Chronic exposure",
+        "Electrophysiological margin"
+      ],
+      "access": "Indexed primary main text and legend; figure image and publisher PDF unavailable"
+    },
+    {
+      "id": "R8-W7-R03",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4967205/",
+      "genotype": "cTnI/TNNI3 R193H, not TNNT2 R94C",
+      "concentrations_uM": [
+        1,
+        5,
+        10
+      ],
+      "whole_heart_acute_concentration_uM": 10,
+      "interpretation": "Acute/ex-vivo mechanistic support plus reduced normal systolic contraction; not chronic systemic safety"
+    },
+    {
+      "id": "R8-W7-R04",
+      "source": "https://www.sciencedirect.com/science/article/pii/S0014299915000394",
+      "assay": "Rabbit coronary arterial smooth-muscle Kv current",
+      "IC50_uM": 3.38,
+      "reported_error_uM": 0.47,
+      "n": null,
+      "interpretation": "Additional direct vascular current liability, not a quantified human clinical outcome"
+    }
+  ],
+  "prohibited_transfers": [
+    "TNNI3 R193H dose to TNNT2 R94C",
+    "One isogenic background to all RCM",
+    "Catalog hydrochloride to unverified study formulation",
+    "Ion-current IC50 to clinical QT risk",
+    "Relative systolic advantage to absence of systolic harm",
+    "Research reagent availability to exclusive commercial asset"
+  ],
+  "next_discovery_conditions": [
+    "Exposure-matched absolute relaxation/systolic-force comparison",
+    "Paced electrophysiology and known ion-channel liabilities",
+    "Orthogonal selective thin-filament article or mechanistic perturbation",
+    "Independent disease background",
+    "Defined population and defensible value capture"
+  ],
+  "source_downloads": [
+    {
+      "file": "w7_herg2010.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2992901/fullTextXML",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "file": "w7_sarcomere2016.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4967205/fullTextXML",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "file": "w7_catalog.html",
+      "url": "https://www.merckmillipore.com/GW/en/product/sigma/a3281",
+      "bytes": 835142,
+      "sha256": "fd41175948830682b8e77a992758c773db3b9b7f57719e9e69775277149fe2fb",
+      "content_type": "text/html; charset=utf-8",
+      "is_xml_article": false
+    }
+  ],
+  "actions_not_taken": [
+    "Contact",
+    "Purchase",
+    "Experiment",
+    "Commit"
+  ],
+  "raw_retrieval_files_note": "Raw downloaded primary articles/PDFs and temporary extraction files are research intermediates and are not included in this commit. Public URLs, access limits and recorded hashes identify source provenance."
+}

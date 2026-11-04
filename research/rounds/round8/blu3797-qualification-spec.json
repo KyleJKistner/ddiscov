@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "round": 8,
+  "as_of": "2026-11-04",
+  "candidate_id": "BLU3797_XLMTM",
+  "document": "research/rounds/round8/blu3797-qualification-package.md",
+  "status": "public-evidence qualification work order; not a validated laboratory SOP",
+  "observed_new_biological_results": false,
+  "material_received": false,
+  "outreach": false,
+  "purchases": false,
+  "article": {
+    "name": "BLU3797",
+    "stereochemistry": "published S configuration",
+    "neutral_formula": "C23H27N3O3S",
+    "neutral_average_MW_g_mol": 425.55,
+    "form_basis": "salt/solvate/water/content must be declared",
+    "lot": null
+  },
+  "primary_model": {
+    "disease_line": "CB-SKM-XLMTM",
+    "genotype": "MTM1 c.1388T>C; p.L463S",
+    "sex": "male",
+    "disease_donors": 1,
+    "reference_line_proposed": "CB-SKM-6-WT",
+    "reference_isogenic": false,
+    "historical_manufacturer_control_identity_verified": false,
+    "format": "96-well engineered skeletal muscle",
+    "supplier_claim": "public longitudinal twitch/fatigue phenotype; N and raw variance unreported",
+    "source": "https://www.curibio.com/xlmtm-model"
+  },
+  "primary_endpoint": {
+    "name": "absolute evoked peak twitch force",
+    "unit": "uN",
+    "proposed_baseline_day": 20,
+    "proposed_endpoint_day": 27,
+    "day_origin": "locally defined and locked during qualification; not assumed equivalent to every supplier figure",
+    "timing_status": "prospective engineering choice; freeze with drug-free qualification data",
+    "estimand": "mean over independent batch contrasts of treatment-minus-vehicle change from predose force",
+    "repeated_twitches": "aggregated within tissue; not independent units"
+  },
+  "run_grid": {
+    "qualification": {
+      "independent_batches": 3,
+      "lines": 2,
+      "tissues_per_line_batch": 4,
+      "core_tissues": 24
+    },
+    "exploration": {
+      "new_independent_batches": 3,
+      "lines": 2,
+      "arms": 4,
+      "tissues_per_line_arm_batch": 4,
+      "core_tissues": 96,
+      "arms_named": [
+        "vehicle",
+        "BLU_low",
+        "BLU_primary_nominated",
+        "BLU_high"
+      ]
+    },
+    "counts_exclude": [
+      "destructive exposure/engagement sampling",
+      "biochemical qualification",
+      "optional comparator/genetic controls",
+      "independent confirmation"
+    ],
+    "not_a_power_calculation": true
+  },
+  "thresholds": [
+    {
+      "name": "lot_HPLC_purity",
+      "value": 98,
+      "unit": "percent_minimum",
+      "classification": "proposed_engineering_limit"
+    },
+    {
+      "name": "lot_chiral_ee",
+      "value": 98,
+      "unit": "percent_minimum",
+      "classification": "proposed_engineering_limit"
+    },
+    {
+      "name": "qNMR_active_content",
+      "range": [
+        95,
+        105
+      ],
+      "unit": "percent_of_declared_basis",
+      "classification": "proposed_engineering_limit"
+    },
+    {
+      "name": "research_bioanalysis_accuracy",
+      "range": [
+        80,
+        120
+      ],
+      "unit": "percent",
+      "classification": "proposed_fit_for_purpose_limit_not_M10_validation",
+      "extraction_recovery_note": "Absolute recovery is separately characterized and reproducible; it need not be80\u2013120% if adequately corrected. Medium dissolution and free-fraction mass balance are separate."
+    },
+    {
+      "name": "research_bioanalysis_precision",
+      "value": 20,
+      "unit": "percent_CV_maximum",
+      "classification": "proposed_fit_for_purpose_limit"
+    },
+    {
+      "name": "high_engagement_characterization",
+      "value": 80,
+      "unit": "percent_if_valid_occupancy_method",
+      "classification": "proposed_negative_challenge_target_not_required_positive_efficacy_threshold"
+    },
+    {
+      "name": "C2alpha_VPS34_sparing_objective",
+      "value": 20,
+      "unit": "percent_maximum_in_qualified_comparable_method",
+      "classification": "proposed_selectivity_objective_not_safety_boundary"
+    },
+    {
+      "name": "free_benefit_exposure_headroom",
+      "value": 3,
+      "unit": "fold",
+      "classification": "proposed_characterization_margin_not_therapeutic_index"
+    },
+    {
+      "name": "minimum_useful_force",
+      "formula": "max(0.25 * Gcal, delta_repeat)",
+      "unit": "uN",
+      "Gcal": null,
+      "delta_repeat": null,
+      "absolute_M": null,
+      "classification": "prospective_program_target_not_clinical_MCID",
+      "lock": "before treatment decoding, using blinded qualification"
+    },
+    {
+      "name": "functional_harm_review_trigger",
+      "value": 20,
+      "unit": "percent_decrement",
+      "replication_batches_minimum": 2,
+      "classification": "proposed_review_hold_trigger_not_toxicological_boundary"
+    },
+    {
+      "name": "qualified_tissue_yield",
+      "value": 3,
+      "denominator": 4,
+      "unit": "tissues_per_line_batch",
+      "classification": "proposed_process_limit_before_randomization_not_permission_to_exclude_treatment_failures"
+    },
+    {
+      "name": "HRMS_mass_tolerance",
+      "value": 5,
+      "unit": "ppm",
+      "classification": "proposed_engineering_limit"
+    },
+    {
+      "name": "stock_content_recovery",
+      "range": [
+        90,
+        110
+      ],
+      "unit": "percent_of_content_adjusted_target",
+      "classification": "proposed_material_preparation_limit_not_extraction_recovery"
+    },
+    {
+      "name": "stock_loss_over_qualified_interval",
+      "value": 10,
+      "unit": "percent_maximum",
+      "classification": "proposed_engineering_limit"
+    },
+    {
+      "name": "biochemical_Zprime",
+      "value": 0.5,
+      "unit": "minimum",
+      "classification": "proposed_biochemical_quality_limit_not_3D_muscle_relevance_gate"
+    }
+  ],
+  "numeric_provenance_classes": [
+    "published_source_measurement",
+    "formula_derived_reference",
+    "proposed_engineering_limit",
+    "calibration_dependent_unknown"
+  ],
+  "negative_inference_requirements": [
+    "qualified article and functional model",
+    "interpretable exposure and adequate target perturbation",
+    "upper 95% bound below locked M",
+    "post-deficit modifiability for reversal-target claim",
+    "orthogonal selective failure and independent background before broad target downgrade"
+  ],
+  "positive_inference_rule": "credible exploratory force benefit may advance despite incomplete direct native engagement; mechanism remains unresolved and cannot be claimed",
+  "commercial_gate": "standalone product contribution and usable rights route evaluated separately and symmetrically across all candidates; no owner-email scientific prerequisite",
+  "source_references": [
+    "https://insight.jci.org/articles/view/198568",
+    "https://www.curibio.com/xlmtm-model",
+    "https://www.curibio.com/cell-media-models-overview",
+    "https://documents.thermofisher.com/TFS-Assets/LSG/manuals/PIK3C2B_%28PI3K-C2beta%29_Adapta.pdf",
+    "https://eda.nc3rs.org.uk/experimental-design-unit",
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK83783/?report=classic",
+    "https://www.fda.gov/media/162903/download"
+  ]
+}

@@ -1,6 +1,6 @@
 # Measuring function across constructs, donors, and assays
 
-The analyses below show how the choice of experimental unit changes what a result can answer. They use Python 3.9+ and its standard library; the round-7 ruxolitinib PDF extraction also requires Poppler pdftotext, as specified below. The numerical results are project reanalyses of published experiments. Each source supplies the measurements.
+The analyses below show how the choice of experimental unit changes what a result can answer. They use Python 3.9+; most use its standard library. The round-7 ruxolitinib PDF extraction requires Poppler pdftotext, and the round-8 precision sensitivity subcommand requires SciPy. Published-data audits retain their source measurements. Round-8 planning arithmetic and synthetic code-logic checks are explicitly separate from biological observations.
 
 ## WNT receptor context
 
@@ -99,3 +99,30 @@ python methods/rux_hhd_source_audit.py --source-dir /path/to/source-files --outp
 ```
 
 It verifies source-byte hashes, extracts primary PK tables, preserves the five selected high-exposure participants from the original 41-person study, and separates patent rows from distinct patent numbers. The official ZIP is a mutable endpoint; this review's internal file dates are 9 October 2026. A later checksum mismatch requires source review rather than automatic substitution. The [committed audit](../research/rounds/round7/rux_hhd_source_audit.json) preserves all selected table values and official product/patent/exclusivity rows, even if a later source version changes. [Interpretation](../research/rounds/round7/rux_hhd_product.md)
+
+## Round 8: BLU identity, qualification decisions and one-child source audit
+
+The identity audit uses embedded named-structure formulas and source-reported quantities. It computes exact-mass reference values and unresolved material-balance discrepancies; it does not establish a measured HRMS result, lot purity or reproduced synthesis.
+
+```sh
+python3 methods/blu3797_identity_audit.py --out research/rounds/round8/blu_identity_numeric_audit.json
+```
+
+The qualification utility has three commands. `check` consumes an independently analyzed, documented decision record; it does not fit force data or verify scientific claims. Unknown provenance/denominators cannot pass. `self-check` uses synthetic decision fixtures only. `planning` requires SciPy and calculates conditional t-interval widths for assumed batch variability, with no biological simulation, source-derived variance or power claim.
+
+```sh
+python3 methods/blu3797_qualification_decisions.py check research/rounds/round8/blu3797-decision-input-template.json
+python3 methods/blu3797_qualification_decisions.py self-check
+python3 methods/blu3797_qualification_decisions.py planning
+```
+
+The committed blank template returns `not_run_planning_only`. The [saved planning audit](../research/rounds/round8/qualification-planning-audit.json) includes the logic verification and makes every assumed SD explicit. The [work order](../research/rounds/round8/blu3797-qualification-package.md) controls biological interpretation.
+
+The fluoxetine extractor reads the public primary JATS XML, locates Table3 and preserves seven published outcome-model summaries from **one V434L participant**. Six intervention credible intervals include zero. It neither refits patient data nor infers a posterior probability or independent replication from the seven rows. Source DOI:10.1002/epi.70253; PMCID:PMC13360919. Downloaded full text is an input, not redistributed in this repository.
+
+```sh
+curl -fL -o fluoxetine-source.xml 'https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13360919/fullTextXML'
+python3 methods/fluoxetine_endpoint_audit.py fluoxetine-source.xml fluoxetine-audit.json
+```
+
+Compare the output source hash and values with [the committed audit](../research/rounds/round8/fluoxetine_endpoint_audit.json). The level-effect/time-slope ratio is a descriptive calculation, not proof of accelerated development or a validated meaningful-change threshold.

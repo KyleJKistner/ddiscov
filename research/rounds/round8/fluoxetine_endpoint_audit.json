@@ -1,0 +1,184 @@
+{
+  "source_doi": "10.1002/epi.70253",
+  "source_pmcid": "PMC13360919",
+  "source_xml_sha256": "1e7a8ba2efeaab568a2b650ee870b096751df00bd6f7f0951ca313f5b8c965c7",
+  "patient_n": 1,
+  "variant": "KCNC1 c.1300G>C p.V434L",
+  "analysis": "extraction of published model summary, no patient-data refit",
+  "rows": [
+    {
+      "outcome": "EMQ total",
+      "time": {
+        "estimate": 0.52,
+        "lower_95_CrI": 0.28,
+        "upper_95_CrI": 0.91,
+        "contains_zero": false,
+        "published_text": ".52 (.28, .91)"
+      },
+      "intervention": {
+        "estimate": 6.61,
+        "lower_95_CrI": -0.53,
+        "upper_95_CrI": 14.78,
+        "contains_zero": true,
+        "published_text": "6.61 (-.53, 14.78)"
+      },
+      "time_by_intervention": {
+        "estimate": -0.2,
+        "lower_95_CrI": -0.65,
+        "upper_95_CrI": 0.22,
+        "contains_zero": true,
+        "published_text": "-.20 (-.65, .22)"
+      }
+    },
+    {
+      "outcome": "EMQ gross motor",
+      "time": {
+        "estimate": -0.11,
+        "lower_95_CrI": -0.22,
+        "upper_95_CrI": 0.02,
+        "contains_zero": true,
+        "published_text": "-.11 (-.22, .02)"
+      },
+      "intervention": {
+        "estimate": 2.6,
+        "lower_95_CrI": -1.13,
+        "upper_95_CrI": 6.12,
+        "contains_zero": true,
+        "published_text": "2.6 (-1.13, 6.12)"
+      },
+      "time_by_intervention": {
+        "estimate": -0.12,
+        "lower_95_CrI": -0.33,
+        "upper_95_CrI": 0.09,
+        "contains_zero": true,
+        "published_text": "-.12 (-.33, .09)"
+      }
+    },
+    {
+      "outcome": "EMQ fine motor",
+      "time": {
+        "estimate": 0.36,
+        "lower_95_CrI": 0.23,
+        "upper_95_CrI": 0.6,
+        "contains_zero": false,
+        "published_text": ".36 (.23, .60)"
+      },
+      "intervention": {
+        "estimate": 2.39,
+        "lower_95_CrI": -1.17,
+        "upper_95_CrI": 6.53,
+        "contains_zero": true,
+        "published_text": "2.39 (-1.17, 6.53)"
+      },
+      "time_by_intervention": {
+        "estimate": 0.0,
+        "lower_95_CrI": -0.26,
+        "upper_95_CrI": 0.2,
+        "contains_zero": true,
+        "published_text": "0 (-.26, .20)"
+      }
+    },
+    {
+      "outcome": "EMQ perception action",
+      "time": {
+        "estimate": 0.23,
+        "lower_95_CrI": 0.15,
+        "upper_95_CrI": 0.33,
+        "contains_zero": false,
+        "published_text": ".23 (.15, .33)"
+      },
+      "intervention": {
+        "estimate": 1.23,
+        "lower_95_CrI": -1.52,
+        "upper_95_CrI": 4.23,
+        "contains_zero": true,
+        "published_text": "1.23 (-1.52, 4.23)"
+      },
+      "time_by_intervention": {
+        "estimate": -0.06,
+        "lower_95_CrI": -0.24,
+        "upper_95_CrI": 0.1,
+        "contains_zero": true,
+        "published_text": "-.06 (-.24, .10)"
+      }
+    },
+    {
+      "outcome": "MYMOP‐2 communication",
+      "time": {
+        "estimate": -0.05,
+        "lower_95_CrI": -0.18,
+        "upper_95_CrI": 0.03,
+        "contains_zero": true,
+        "published_text": "-.05 (-.18, .03)"
+      },
+      "intervention": {
+        "estimate": -0.19,
+        "lower_95_CrI": -1.2,
+        "upper_95_CrI": 0.85,
+        "contains_zero": true,
+        "published_text": "-.19 (-1.20, .85)"
+      },
+      "time_by_intervention": {
+        "estimate": -0.01,
+        "lower_95_CrI": -0.06,
+        "upper_95_CrI": 0.05,
+        "contains_zero": true,
+        "published_text": "-.01 (-.06, .05)"
+      }
+    },
+    {
+      "outcome": "MYMOP‐2 nystagmus",
+      "time": {
+        "estimate": -0.02,
+        "lower_95_CrI": -0.08,
+        "upper_95_CrI": 0.03,
+        "contains_zero": true,
+        "published_text": "-.02 (-.08, .03)"
+      },
+      "intervention": {
+        "estimate": 0.05,
+        "lower_95_CrI": -1.14,
+        "upper_95_CrI": 1.21,
+        "contains_zero": true,
+        "published_text": ".05 (-1.14, 1.21)"
+      },
+      "time_by_intervention": {
+        "estimate": -0.04,
+        "lower_95_CrI": -0.1,
+        "upper_95_CrI": 0.04,
+        "contains_zero": true,
+        "published_text": "-.04 (-.10, .04)"
+      }
+    },
+    {
+      "outcome": "MYMOP‐2 purposeful hand movements",
+      "time": {
+        "estimate": -0.02,
+        "lower_95_CrI": -0.04,
+        "upper_95_CrI": 0.01,
+        "contains_zero": true,
+        "published_text": "-.02 (-.04, .01)"
+      },
+      "intervention": {
+        "estimate": -0.65,
+        "lower_95_CrI": -1.27,
+        "upper_95_CrI": -0.003,
+        "contains_zero": false,
+        "published_text": "-.65 (-1.27, -.003)"
+      },
+      "time_by_intervention": {
+        "estimate": 0.02,
+        "lower_95_CrI": -0.01,
+        "upper_95_CrI": 0.06,
+        "contains_zero": true,
+        "published_text": ".02 (-.01, .06)"
+      }
+    }
+  ],
+  "intervention_intervals_containing_zero": 6,
+  "model_outcome_rows": 7,
+  "multiplicity_adjusted": false,
+  "posterior_probability_inferred": false,
+  "primary_total_effect_divided_by_time_slope_weeks_descriptive_only": 12.711538461538462,
+  "warning": "The descriptive level/slope ratio is not an acceleration estimate, validated MCID, independent patient count or precise delay recovered."
+}

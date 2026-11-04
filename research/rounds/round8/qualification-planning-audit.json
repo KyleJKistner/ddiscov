@@ -1,0 +1,67 @@
+{
+  "classification": "deterministic planning sensitivity; no observed or simulated biological data",
+  "published_human_BLU_force_variance_available": false,
+  "assumed_normalized_point": 0.4,
+  "analyst_selected_useful_target": 0.25,
+  "interval": "two-sided 95% Student t interval across independent batch contrasts",
+  "formula": "t(.975,n-1) * assumed_SD / sqrt(n)",
+  "conditions": [
+    "The table holds the assumed SD fixed; it is not an achieved or expected power calculation.",
+    "Batch contrasts are independent for batch reproducibility; they are not independent donors.",
+    "Gap is treated as a fixed calibration reference only for this sensitivity calculation.",
+    "This table cannot justify a patient sample size, a true effect, a success probability or a budget.",
+    "After blinded qualification, lock actual precision and maximum resources before treatment decoding."
+  ],
+  "sensitivity": [
+    {
+      "assumed_SD_of_independent_batch_contrasts_in_gap_units": 0.1,
+      "minimum_batch_contrasts_for_conditional_width": 5,
+      "conditional_halfwidth": 0.1241663998203764,
+      "hypothetical_interval_at_point_0_40": [
+        0.2758336001796236,
+        0.5241663998203764
+      ]
+    },
+    {
+      "assumed_SD_of_independent_batch_contrasts_in_gap_units": 0.2,
+      "minimum_batch_contrasts_for_conditional_width": 10,
+      "conditional_halfwidth": 0.14307138119413296,
+      "hypothetical_interval_at_point_0_40": [
+        0.25692861880586704,
+        0.543071381194133
+      ]
+    },
+    {
+      "assumed_SD_of_independent_batch_contrasts_in_gap_units": 0.3,
+      "minimum_batch_contrasts_for_conditional_width": 18,
+      "conditional_halfwidth": 0.14918649021389518,
+      "hypothetical_interval_at_point_0_40": [
+        0.25081350978610484,
+        0.5491864902138952
+      ]
+    }
+  ],
+  "proposed_core_tissues": {
+    "qualification": 24,
+    "exploration": 96,
+    "additional_destructive_or_comparator_tissues_included": false
+  },
+  "decision_logic_verification": {
+    "classification": "synthetic decision-logic verification only",
+    "branch_cases_passed": 20,
+    "malformed_inputs_rejected": 4,
+    "scientific_vs_asset_separation_passed": true,
+    "bounded_downgrade_not_global_rejection_passed": true,
+    "biological_results_generated": false
+  },
+  "blank_template_classification": {
+    "classification": "not_run_planning_only",
+    "basis": "proposed round-8 operating rules; no automated scientific certification",
+    "experiment_generated_by_utility": false,
+    "target_rejection": false,
+    "bounded_target_downgrade": false,
+    "clinical_efficacy_established": false,
+    "S_tier_promotion": false,
+    "reason": "No observed biological result was supplied."
+  }
+}

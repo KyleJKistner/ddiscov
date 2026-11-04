@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 7](rounds/round7/README.md) develops enasidenib and ruxolitinib across clinical/product diligence and staged proofs, with zero new lead screens. [Round 6](rounds/round6/README.md) contains the last six new exact uses. The tables below remain the original archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 8](rounds/round8/README.md) develops BLU qualification and challenges the leading clinical programs. Its [six-record screen](rounds/round8/new_candidates.md) contains four new exact uses (one concept expansion) and two existing-use updates. The tables below remain the original archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

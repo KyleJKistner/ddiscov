@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "workstream": "round8_blu_model_function",
+  "as_of_utc": "2026-11-04",
+  "baseline_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
+  "candidate": "BLU3797 for MTM1-related XLMTM",
+  "status": "bounded_qualification_package",
+  "experiments_performed": false,
+  "purchases_performed": false,
+  "outreach_performed": false,
+  "recommendation": "Qualify Curi p.L463S 96-well muscle force first; exploratory positive drug signal can advance without completed delayed-correction engineering; qualified target-negative inference needs additional controls and scope.",
+  "model_routes": [
+    {
+      "role": "primary",
+      "id": "CB-SKM-XLMTM",
+      "source": "Curi Bio",
+      "variant": "MTM1 exon12 c.1388T>C p.L463S",
+      "background": "patient male fibroblast-derived",
+      "isogenic_control_listed": false,
+      "public_function": "manufacturer longitudinal twitch/fatigue; 96-well day27 traces",
+      "public_function_n": null,
+      "error_bar_definition": null,
+      "current_lot_access_verified": false
+    },
+    {
+      "role": "proposed_nonisogenic_reference",
+      "id": "CB-SKM-6-WT",
+      "source": "Curi Bio",
+      "background": "healthy male cord blood-derived",
+      "same_donor_as_primary": false,
+      "identity_as_marketing_graph_control_verified": false
+    },
+    {
+      "role": "published_isogenic_precedent",
+      "id": "CiRA00496",
+      "variant": "MTM1 NM_000252.3:c.142G>T p.E48*",
+      "control": "gene-corrected counterpart",
+      "myogenic_route": "Tet-inducible MyoD",
+      "mature_force_verified": false,
+      "commercial_exact_cells_verified": false
+    },
+    {
+      "role": "published_KO_precedent",
+      "id": "CiRA00656",
+      "background": "healthy male; MTM1-KO derivative",
+      "is_patient_second_genotype": false,
+      "mature_force_verified": false
+    },
+    {
+      "role": "explicit_reconstruction_fallback",
+      "id": "GM06813",
+      "source": "Coriell NIGMS",
+      "variant_legacy": "646delT plus C>A at648; exon8 frameshift",
+      "modern_HGVS_verified": false,
+      "starting_material": "fibroblasts",
+      "required_work": [
+        "sequence and normalize allele",
+        "reprogram or establish qualified myogenic route",
+        "same-background repair",
+        "force qualification"
+      ],
+      "ready_force_model": false
+    },
+    {
+      "role": "conditional_second_truncating_background",
+      "id": "CRICKi008-A",
+      "alias": "iFCI006",
+      "variant": "MTM1 c.594C>G p.Tyr198*",
+      "resource_publication": "10.1016/j.scr.2023.103079",
+      "archived": "2022-08",
+      "current_stock_terms_verified": false,
+      "identity_as_2026_abstract_model_verified": false,
+      "force_correction_verified": false
+    }
+  ],
+  "run_grid": {
+    "all_numbers_prospective": true,
+    "power_claim": false,
+    "day_origin": "prospectively documented days after tissue casting, subject to untreated qualification; manufacturer day origin unresolved",
+    "qualification": {
+      "batches": 3,
+      "backgrounds": 2,
+      "tissues_per_background_per_batch": 4,
+      "total_longitudinal_tissues": 24,
+      "nominal_measurement_days": [
+        13,
+        16,
+        20,
+        23,
+        27
+      ],
+      "same_session_repeatability_separate_from_interday_maturation": true
+    },
+    "exploration": {
+      "new_batches": 3,
+      "backgrounds": 2,
+      "arms": [
+        "vehicle",
+        "BLU low measured exposure",
+        "BLU medium measured exposure",
+        "BLU high measured exposure"
+      ],
+      "tissues_per_background_arm_batch": 4,
+      "total_longitudinal_tissues": 96,
+      "per_background_arm_randomized_units": 12,
+      "nominal_predose_day": 20,
+      "nominal_endpoint_day": 27,
+      "destructive_sister_tissues_included_in_96": false
+    },
+    "confirmation": {
+      "independent_new_batches_required": true,
+      "n_fixed": false,
+      "n_basis": "qualified variance, batch structure, missingness and root prospective useful-effect/repeatability thresholds"
+    },
+    "unit": "independently randomized tissue exposure unit",
+    "generality_unit": "donor/background",
+    "reproducibility_unit": "independent thaw/casting/culture batch; manufacturing lot separately recorded",
+    "not_extra_n": [
+      "twitches",
+      "serial timepoints",
+      "image fields",
+      "technical MS injections"
+    ]
+  },
+  "endpoints": {
+    "primary": "absolute evoked peak twitch force in microNewtons at locked endpoint, adjusted for predose force and batch",
+    "secondary": [
+      "specific force using documented contractile CSA",
+      "absolute fatigue impulse/force-time integral",
+      "absolute late-train force",
+      "relative fatigue retention",
+      "relaxation kinetics",
+      "calcium transient dynamics",
+      "viable contractile area",
+      "passive tension and attachment"
+    ],
+    "PD_not_surrogate": [
+      "compartmental PI3P",
+      "pS6",
+      "p62",
+      "DNM2",
+      "integrin localization",
+      "fiber/nuclear morphology"
+    ],
+    "not_claimed": [
+      "NMJ rescue",
+      "respiratory rescue",
+      "clinical meaningful change",
+      "all-genotype efficacy",
+      "genetically proven reference gap"
+    ]
+  },
+  "quantitative_harmonization": {
+    "status": "prospective engineering assumptions for root integration; not independent final statistical rule",
+    "reference_is_nonisogenic": true,
+    "separate_repeatability_floor": true,
+    "source_derived_variance_available": false,
+    "exploration": "point estimate meets useful target and uncertainty supports positive effect; independent confirmation required",
+    "confirmation": "root decision architecture governs stricter lower-bound rule after calibration",
+    "negative_inference_requires": [
+      "qualified deficit and maturity",
+      "adequate measured exposure and relevant native engagement",
+      "sufficient precision",
+      "preserved tissue integrity",
+      "post-deficit positive functional control for reversal inference"
+    ],
+    "positive_signal_requires_delayed_correction_success": false,
+    "default_useful_effect_fraction_of_blinded_calibration_gap": 0.25,
+    "absolute_threshold_lock": "M=max(0.25*Gcal,repeatability_floor) in microNewtons before treatment; contemporaneous gap descriptive only"
+  },
+  "mitochondrial_evidence": [
+    {
+      "source": "10.1126/science.adx9628",
+      "perturbation": "cardiomyocyte combined C2alpha/C2beta deletion",
+      "endpoint": "fragmentation and heart failure",
+      "single_cardiac_beta_outcome_verified": false,
+      "animal_denominator": null,
+      "full_supplement_access": "403",
+      "drug_toxicity_claim": false
+    },
+    {
+      "source": "Segawa2025 Cambridge thesis",
+      "lineage_relation": "same mitochondrial project as Aki2026, not independent replication",
+      "single_beta_depletion_morphology": true,
+      "cells": [
+        "HeLa",
+        "COS7",
+        "A549"
+      ],
+      "single_depletion_figures": [
+        "4-10",
+        "4-15",
+        "4-16"
+      ],
+      "per_condition_cells_per_experiment_min": 30,
+      "experiments": 3,
+      "catalytic_addback_figure": "4-14",
+      "catalytic_addback_context": "dual alpha/beta depletion; paired wild-type rescue",
+      "catalytic_cells_per_condition_per_experiment_min": 15,
+      "beta_only_occupancy_threshold_available": false
+    },
+    {
+      "source": "10.1016/j.celrep.2015.10.052",
+      "perturbation": "protein-retaining C2beta D1212A kinase-dead mice",
+      "reassurance": "viability/growth/fertility and38tissue histology through20months",
+      "histology_animal_denominator": null,
+      "functional_reserve_proven": false
+    },
+    {
+      "source": "10.1186/s12576-020-00745-2",
+      "system": "vascular smooth muscle",
+      "single_isoform_BP_effect_detected": false,
+      "double_loss_BP_effect": true,
+      "figure3_n_pairs": [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          13,
+          10
+        ]
+      ],
+      "aortic_ring_n_per_group": 3,
+      "cardiac_mito_safety_proven": false
+    },
+    {
+      "source": "10.1126/scisignal.adg1913",
+      "newly_integrated": true,
+      "perturbation": "C2beta kinase-inactive mice",
+      "finding": "endothelial enlargement, enlarged vessels and mTORC1 activation during angiogenic growth; rapamycin normalizes morphology",
+      "denominator_recovered": false,
+      "BLU_specific": false,
+      "decision": "conditional developmental/vascular watch; limits blanket normal-histology reassurance"
+    }
+  ],
+  "safety_staging": [
+    {
+      "stage": "initial muscle proof",
+      "checks": [
+        "integrity",
+        "absolute fatigue output",
+        "relaxation",
+        "mitochondrial morphology",
+        "qualified energy/reserve endpoint"
+      ],
+      "matched_exposure_required": true
+    },
+    {
+      "stage": "after credible muscle signal before systemic expansion",
+      "system": "human cardiac microtissue",
+      "checks": [
+        "force",
+        "relaxation",
+        "rhythm/conduction",
+        "integrity",
+        "energy"
+      ],
+      "higher_exposure_stress": "3x free-benefit exposure only if achievable as characterization, not chronic therapeutic index"
+    },
+    {
+      "stage": "conditional",
+      "system": "human neuronal network",
+      "checks": [
+        "activity/burst function",
+        "integrity",
+        "recovery"
+      ],
+      "disease_genetics_not_drug_toxicity": true
+    },
+    {
+      "stage": "conditional",
+      "system": "hepatobiliary transport model, then MTM1 context if qualified",
+      "checks": [
+        "canalicular transport/architecture",
+        "bile-acid handling",
+        "injury"
+      ],
+      "healthy_viability_does_not_waive_disease_risk": true
+    },
+    {
+      "stage": "later if chronic developmental exposure",
+      "system": "endothelial/vascular",
+      "checks": [
+        "cell size/mTOR",
+        "relevant vascular function"
+      ]
+    }
+  ],
+  "decision_paths": {
+    "advance": "qualified exposure-linked useful force signal with compatible sustained output and integrity -> independent confirmation",
+    "redirect_model": "failed deficit/window/readout qualification -> one bounded model redirect, not target rejection",
+    "inconclusive": "failed exposure/engagement/delayed-modifiability/precision cannot establish efficacy-negative claim",
+    "redirect_article": "BLU harm or lack of useful effect with a qualified orthogonal beta alternative retaining benefit",
+    "stop_current_systemic_thesis": "convergent beta-associated functional harm overlaps required benefit and no credible distribution or inhibition-depth separation"
+  },
+  "critical_unknowns": [
+    "Curi graph healthy identity",
+    "Curi exact day origin and stimulation recipe",
+    "lot and manufacturing-batch reproducibility",
+    "raw force variance",
+    "same-patient delayed functional modifiability",
+    "native quantitative engagement feasibility",
+    "true free intracellular exposure",
+    "second-patient generality",
+    "single-beta cardiac catalytic window",
+    "disease-context hepatobiliary tolerance",
+    "brain and heart tissue distribution",
+    "material/editing/contractor use terms"
+  ],
+  "source_retrieval_manifest": [
+    {
+      "file": "curi_xlmtm.html",
+      "url": "https://www.curibio.com/xlmtm-model",
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "bytes": 208664,
+      "sha256": "f8c54ede063007b51dd48f7cb242ddfef872c8ddeab734f1fc72b323f75a7e30"
+    },
+    {
+      "file": "curi_catalog.html",
+      "url": "https://www.curibio.com/cell-media-models-overview",
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "bytes": 332861,
+      "sha256": "45638b3dab136dad66d516ade6dfd0071a8a7a4c47c60cb5302f1a8f883b53b3"
+    },
+    {
+      "file": "kora_brain.html",
+      "url": "https://academic.oup.com/brain/article/149/1/317/8217423",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "UK_conference2026.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13142835/fullTextXML",
+      "status": 200,
+      "type": "application/xml",
+      "bytes": 339076,
+      "sha256": "66e7807d2505a6bb2fd721ada21b8f50b9f03da5097a43550d9f6429baa905ae"
+    },
+    {
+      "file": "curi_figure1.png",
+      "url": "https://images.squarespace-cdn.com/content/v1/5ea9dcad38347f7b8405d2f9/b84262ec-806e-49d9-ae9f-f1f43c5322cb/figure+1.png",
+      "status": 200,
+      "bytes": 330351,
+      "type": "image/png",
+      "sha256": "83ff46ba69008446b042c7d341084c07e4b452fc2f7ede2338147f8bb643063a"
+    },
+    {
+      "file": "curi_figure2.png",
+      "url": "https://images.squarespace-cdn.com/content/v1/5ea9dcad38347f7b8405d2f9/cb188ea8-8fc4-48d9-a21e-d4d73c5b7b00/figure+2.png",
+      "status": 200,
+      "bytes": 399824,
+      "type": "image/png",
+      "sha256": "0eade9c8ab92c8e0106c0994fb2ef0181cae5d34aab3a2ddbb4258fa4222bd4c"
+    },
+    {
+      "file": "aki_supp_request",
+      "url": "https://www.science.org/doi/suppl/10.1126/science.adx9628/suppl_file/science.adx9628_sm.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "aki_epmc_metadata.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42848893&format=json&resultType=core",
+      "status": 200,
+      "bytes": 17281,
+      "type": "application/json;charset=UTF-8",
+      "sha256": "5d8ee3dd96fa321d88e811db8023010bed9d80f6216cb80511c8a542ea55c599"
+    },
+    {
+      "file": "crick_iPSC_resource.pdf",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10168055/1/1-s2.0-S187350612300065X-main.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "crick_registry.html",
+      "url": "https://hpscreg.eu/cell-line/CRICKi008-A",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "file": "gm06813.html",
+      "url": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM06813",
+      "status": 200,
+      "bytes": 113131,
+      "sha256": "76fce70b69026f0b3e20173760407e03cb07ad429371a9243c9aafa0864f9137"
+    },
+    {
+      "file": "gm24509.html",
+      "url": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM24509",
+      "status": 200,
+      "bytes": 116952,
+      "sha256": "172637ead726f12954feb5f67e04a30dbedc808771f3e2c03a73b249f3db8491"
+    },
+    {
+      "file": "aki_tokyo.html",
+      "url": "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20261009.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "file": "curi_videos.html",
+      "url": "https://www.curibio.com/videos",
+      "status": 200,
+      "bytes": 204845,
+      "sha256": "1be73655624ac31820aefe147f0ee7b19ddf7d10436233be41664cb6969ba5c0"
+    },
+    {
+      "file": "kobialka2023.pdf",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10186576/1/Kobialka_et_al_small.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "coriell_mta.html",
+      "url": "https://catalog.coriell.org/1/Support/MTA-Assurance-Form",
+      "status": 200,
+      "bytes": 45728,
+      "sha256": "6a5f30a4c34097021d3e2af63b0532e606283616cb4be541d7c2438723d8e395"
+    },
+    {
+      "file": "coriell_order.html",
+      "url": "https://catalog.coriell.org/0/Sections/Support/NIGMS/OrderInstruction.aspx?PgId=206",
+      "status": 200,
+      "bytes": 59297,
+      "sha256": "9c58e50e057749edc7e21c93f6ac21174ae97f0fa0e3cd753d794cd3460f65d7"
+    },
+    {
+      "file": "coriell_sori.pdf",
+      "url": "https://catalog.coriell.org/1/media/99657d8a-da06-493b-85c0-7239062ec79e/AsW72Q/NIGMS/ISO%20controlled%20documents/1401-05%20Rev%20K_NIGMS%20SORI.pdf?download=false",
+      "status": 200,
+      "bytes": 683913,
+      "sha256": "0e4db3d3f79b3bfad8b186269cc1a8e679d096d88439a73537a8c285c20a7820"
+    }
+  ],
+  "prior_source_hashes": {
+    "segawa2025_thesis.pdf": "3246554b121142d5f68d722c255bc1767f04ec4ecb30750265536bc67de273fb",
+    "alliouachene2015_supp.pdf": "0250749064f48537bff37a0e8a92bc45d42b6829df4f6b6e038be67b5ef776f2"
+  },
+  "source_handling": "Full source copies stay working intermediates; commit decision/provenance deliverables only.",
+  "raw_retrieval_files_note": "Raw downloaded primary articles/PDFs and temporary extraction files are research intermediates and are not included in this commit. Public URLs, access limits and recorded hashes identify source provenance."
+}

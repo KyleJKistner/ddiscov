@@ -1,0 +1,126 @@
+{
+  "round": 8,
+  "as_of": "2026-11-04",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "base_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
+  "counts": {
+    "new_exact_intervention_use_screens": 4,
+    "new_exact_use_records_without_prior_concept": 3,
+    "exact_use_expansions_of_existing_concepts": 1,
+    "existing_exact_use_screen_updates": 2,
+    "leading_programs_developed": 3,
+    "research_workstreams_including_root": 4,
+    "independent_review_documents": 6,
+    "reproducible_utilities": 3,
+    "published_source_or_arithmetic_audits": 2,
+    "planning_and_decision_logic_utilities": 1,
+    "S_tier_promotions": 0
+  },
+  "major_decision_changes": [
+    "JCIv2p14 PV3574l conflicts with official bufferPV3574/kinasePV5374. Printed150nM lipid remains uncorrected. Independent declared assay required; no inference of investigator misuse.",
+    "p.L463S/reference comparison is nonisogenic.24/96-tissue grids and25% gap target are proposed, not published variance, efficacy or clinical MCID.",
+    "Kinase-inactive endothelial enlargement/mTORC1 finding limits blanket no-phenotype reassurance; not BLU toxicity, with full denominators unresolved.",
+    "Previously inventoried TNNT2-R94C use. Direct cardiac-channel blockade lowers exact-W7 priority; no transfer of R193H mouse evidence or new-molecule claim.",
+    "Futility termination controls current decision.42 actual participants; submission-tracking dates are not posted results.",
+    "Eleven relapses among26HHD, not11/30 as an HHD fraction;4Darier separate. Late efficacy is survivor-enriched.",
+    "One-child6.61-point primary credible interval crosses zero; level/time-slope ratio is not demonstrated developmental acceleration."
+  ],
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md"
+  },
+  "qualification_specification": "research/rounds/round8/blu3797-qualification-spec.json",
+  "source_reference_scopes": [
+    "research/rounds/round8/blu_article_exposure.json",
+    "research/rounds/round8/blu_model_function.json",
+    "research/rounds/round8/clinical_challenge.json",
+    "research/rounds/round8/new_candidates.json",
+    "research/rounds/round8/w7_independent_challenge.json"
+  ],
+  "preservation": {
+    "original_coverage_records": 622,
+    "prior_round_objects_unchanged": [
+      "round3",
+      "round4",
+      "round5",
+      "round6",
+      "round7"
+    ],
+    "prior_current_decisions_snapshotted_as_round": 7,
+    "historical_files_deleted": 0
+  },
+  "independent_reviews": [
+    "research/rounds/round8/review_qualification_article.md",
+    "research/rounds/round8/review_qualification_model.md",
+    "research/rounds/round8/review_decision_utility.md",
+    "research/rounds/round8/w7_independent_challenge.md",
+    "research/rounds/round8/review_fluoxetine_kcnc1.md",
+    "research/rounds/round8/review_portfolio_integration.md"
+  ],
+  "activities": {
+    "outreach": false,
+    "discussions_opened": false,
+    "purchases": false,
+    "wet_lab_or_clinical_experiments": false,
+    "biological_simulations": false,
+    "received_materials": false
+  },
+  "publication_identifier": "Use containing Git commit; not embedded self-referentially."
+}
