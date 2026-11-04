@@ -1,0 +1,579 @@
+[
+  {
+    "id": "keytruda_qlex",
+    "brand": "Keytruda / Keytruda Qlex",
+    "cohort": "core",
+    "formulation_question": "Injection burden with subcutaneous Qlex",
+    "comparison": "Measure residual visit or volume burden. Compare a proposed crystal suspension with the existing short injection and the published terrestrial crystal process.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=097d166f-b73b-41d3-9b37-7653cd2a0c41&type=display",
+      "https://www.nature.com/articles/s41526-019-0090-3"
+    ]
+  },
+  {
+    "id": "mounjaro",
+    "brand": "Mounjaro",
+    "cohort": "core",
+    "formulation_question": "Storage or release of weekly injectable tirzepatide",
+    "comparison": "Measure intact potency and aggregates under realistic storage conditions. A longer-interval product also requires controlled release without an initial burst.",
+    "sources": [
+      "https://pi.lilly.com/us/mounjaro-uspi.pdf",
+      "https://www.novo-pi.com/ozempictablets.pdf",
+      "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+    ]
+  },
+  {
+    "id": "ozempic",
+    "brand": "Ozempic",
+    "cohort": "core",
+    "formulation_question": "Food sensitivity of oral semaglutide",
+    "comparison": "Compare intact peptide exposure across fed and fasted conditions against the current absorption-enhanced tablet.",
+    "sources": [
+      "https://www.novo-pi.com/ozempic.pdf",
+      "https://www.novo-pi.com/ozempictablets.pdf",
+      "https://www.novonordisk-us.com/products/diabetes.html",
+      "https://pubmed.ncbi.nlm.nih.gov/30429357/"
+    ]
+  },
+  {
+    "id": "dupixent",
+    "brand": "Dupixent",
+    "cohort": "core",
+    "formulation_question": "Duration of effect beyond home injection",
+    "comparison": "Compare release, aggregation and receptor-blocking potency of a depot with a larger dose of the existing solution.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780&type=display"
+    ]
+  },
+  {
+    "id": "skyrizi",
+    "brand": "Skyrizi",
+    "cohort": "core",
+    "formulation_question": "Induction dose delivery in Crohn disease",
+    "comparison": "Compare the burden and feasibility of a larger device with the existing subcutaneous induction devices.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858&type=display",
+      "https://news.abbvie.com/2026-10-23-U-S-FDA-Approves-Subcutaneous-Induction-Regimen-for-AbbVies-SKYRIZI-R-risankizumab-rzaa-for-Adults-With-Moderately-to-Severely-Active-Crohns-Disease"
+    ]
+  },
+  {
+    "id": "eliquis",
+    "brand": "Eliquis",
+    "cohort": "core",
+    "formulation_question": "Extended oral apixaban exposure",
+    "comparison": "Determine whether release across realistic gut transit times can preserve the exposure profile of immediate-release apixaban.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a454cd24-0c6d-46e8-b1e4-197388606175&version=38",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220073s000lbl.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/29578609/"
+    ]
+  },
+  {
+    "id": "darzalex_faspro",
+    "brand": "Darzalex / Darzalex Faspro",
+    "cohort": "core",
+    "formulation_question": "Volume of subcutaneous daratumumab",
+    "comparison": "Compare injection force and stability at increasing concentrations with the existing Faspro device and delivery rate.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0&type=display"
+    ]
+  },
+  {
+    "id": "biktarvy",
+    "brand": "Biktarvy",
+    "cohort": "core",
+    "formulation_question": "Dosing interval for combination HIV therapy",
+    "comparison": "Compare attainable exposure and resistance coverage with the investigational weekly islatravir/lenacapavir regimen. Characterize cation sensitivity of the existing combination.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=664cb8f0-1f65-441b-b0d9-ba3d798be309",
+      "https://investors.gilead.com/news/news-details/2026/Gilead-and-Merck-Announce-Positive-Topline-Results-From-Two-Phase-3-Studies-Evaluating-IslatravirLenacapavir-an-Oral-Once-Weekly-HIV-Treatment/default.aspx",
+      "https://www.nejm.org/doi/full/10.1056/NEJMoa2607973"
+    ]
+  },
+  {
+    "id": "zepbound",
+    "brand": "Zepbound",
+    "cohort": "core",
+    "formulation_question": "Storage and dosing burden of weekly tirzepatide",
+    "comparison": "Define a patient-valued improvement over the weekly obesity presentation and current oral alternatives, then measure stability or release.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b&type=display",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b",
+      "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62",
+      "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program"
+    ]
+  },
+  {
+    "id": "wegovy",
+    "brand": "Wegovy",
+    "cohort": "core",
+    "formulation_question": "Food sensitivity and oral uptake of semaglutide",
+    "comparison": "Reproduce the variability of the current tablet and test whether a physical change increases intact peptide transport under relevant meal conditions.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b",
+      "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916472",
+      "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62",
+      "https://pubmed.ncbi.nlm.nih.gov/30429357/"
+    ]
+  },
+  {
+    "id": "trikafta",
+    "brand": "Trikafta / Kaftrio",
+    "cohort": "core",
+    "formulation_question": "Coordinated delivery of three CFTR modulators",
+    "comparison": "Measure dissolution, precipitation and transport for each component. Compare dosing burden with once-daily Alyftrek in overlapping eligible patients.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f354423a-85c2-41c3-a9db-0f3aee135d8d&type=display",
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20&version=8",
+      "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshot-alyftrek"
+    ]
+  },
+  {
+    "id": "opdivo_qvantig",
+    "brand": "Opdivo / Opdivo Qvantig",
+    "cohort": "core",
+    "formulation_question": "Preparation and injection volume of Qvantig",
+    "comparison": "Establish whether volume or preparation limits use, then compare a prefilled device with higher concentration.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7f8c38fa-42f4-4387-9e8c-7a1c66855d8b&type=display"
+    ]
+  },
+  {
+    "id": "jardiance",
+    "brand": "Jardiance",
+    "cohort": "core",
+    "formulation_question": "Usability of daily empagliflozin",
+    "comparison": "Document a residual use or exposure problem against the existing food-independent tablet.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5777b8a8-ada6-4950-8548-43a1de11f075",
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b"
+    ]
+  },
+  {
+    "id": "ocrevus_zunovo",
+    "brand": "Ocrevus / Ocrevus Zunovo",
+    "cohort": "core",
+    "formulation_question": "Lower-volume subcutaneous ocrelizumab",
+    "comparison": "Measure viscosity and aggregation across concentrations. Compare tolerability and exposure with the existing 23 mL presentation.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b216af61-99d0-42a3-afc2-b5bf86df1ec0&type=display"
+    ]
+  },
+  {
+    "id": "farxiga",
+    "brand": "Farxiga / Forxiga",
+    "cohort": "core",
+    "formulation_question": "Usability of daily dapagliflozin",
+    "comparison": "Quantify a clinically relevant limitation of the existing food-independent tablet before selecting a physical change.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5777b8a8-ada6-4950-8548-43a1de11f075"
+    ]
+  },
+  {
+    "id": "rinvoq",
+    "brand": "Rinvoq",
+    "cohort": "core",
+    "formulation_question": "Extended release in rapid intestinal transit",
+    "comparison": "Measure residual active drug and exposure with the existing extended-release tablet. Visible residue alone cannot quantify underexposure.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095"
+    ]
+  },
+  {
+    "id": "eylea_hd",
+    "brand": "Eylea / Eylea HD",
+    "cohort": "core",
+    "formulation_question": "Durability in eyes requiring frequent injections",
+    "comparison": "Measure release, VEGF binding and retinal compatibility against the high-dose solution in the subgroup still requiring short intervals.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=86d8848b-111b-4da9-8957-7cccef1b8f66&type=display",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04cc9ef7-c02a-4e92-a655-0062674e8487",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c6d9e2a-9a77-4d11-b692-de87cfde3444",
+      "https://newsroom.regeneron.com/node/32456/ixbrl-viewer"
+    ]
+  },
+  {
+    "id": "entresto",
+    "brand": "Entresto",
+    "cohort": "core",
+    "formulation_question": "Dose recovery during tube administration",
+    "comparison": "Compare shelf stability, dose uniformity of both agents and recovery through common tubes with the labeled suspension.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=000dc81d-ab91-450c-8eae-8eb74e72296f",
+      "https://www.entrestohcp.com/sites/entrestohcp_com/files/documents/entresto.pdf"
+    ]
+  },
+  {
+    "id": "tagrisso",
+    "brand": "Tagrisso",
+    "cohort": "core",
+    "formulation_question": "Oral and tube administration of osimertinib",
+    "comparison": "Measure a residual barrier in patients using the label's existing dispersion and tube instructions.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7"
+    ]
+  },
+  {
+    "id": "cosentyx",
+    "brand": "Cosentyx",
+    "cohort": "core",
+    "formulation_question": "Longer exposure in frequent-dose patients",
+    "comparison": "Estimate the required trough and compare achievable depot release with a larger solution dose and the current 300 mg pen.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=77c4b13e-7df3-42d4-81db-3d0cddb7f67a&type=display"
+    ]
+  },
+  {
+    "id": "prevnar",
+    "brand": "Prevnar family",
+    "cohort": "core",
+    "formulation_question": "Thermal tolerance during vaccine distribution",
+    "comparison": "Quantify loss under realistic excursions, then assess serotype-specific potency against the marketed presentation.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d4e2cf51-e6a8-4103-bb1d-6120c6474ff8&type=display",
+      "https://www.cdc.gov/vaccines/hcp/admin/storage/guide/vaccine-storage-labels.pdf?id=3101"
+    ]
+  },
+  {
+    "id": "xtandi",
+    "brand": "Xtandi",
+    "cohort": "core",
+    "formulation_question": "Swallowing and dose recovery of enzalutamide",
+    "comparison": "Compare a liquid or dispersible form with the smaller marketed tablets in people who still have difficulty. Assess precipitation, stability, usability and relative exposure.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+      "https://pubmed.ncbi.nlm.nih.gov/34333820/"
+    ]
+  },
+  {
+    "id": "entyvio",
+    "brand": "Entyvio / Entyvio Pen",
+    "cohort": "core",
+    "formulation_question": "Interval of subcutaneous maintenance therapy",
+    "comparison": "Compare modeled maintenance exposure for a longer-interval depot with a larger dose of solution and current pen or IV maintenance.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c&type=display"
+    ]
+  },
+  {
+    "id": "vyndaqel",
+    "brand": "Vyndaqel / Vyndamax family",
+    "cohort": "core",
+    "formulation_question": "Swallowability of tafamidis",
+    "comparison": "Measure the frequency and consequences of difficulties with the single-capsule Vyndamax comparator.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b4121ee-a733-4456-a917-be2603477839",
+      "https://www.pfizermedical.com/vyndaqel-or-vyndamax"
+    ]
+  },
+  {
+    "id": "botox",
+    "brand": "Botox therapeutic + cosmetic",
+    "cohort": "core",
+    "formulation_question": "Duration in one defined indication",
+    "comparison": "Measure local functional duration and adjacent-muscle or systemic activity against the marketed toxin. Preserve distinctions across indications.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6f42753-d31e-4b23-8da0-4b990fee4b38",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761127s002lbl.pdf"
+    ]
+  },
+  {
+    "id": "stelara",
+    "brand": "Stelara",
+    "cohort": "core",
+    "formulation_question": "Subcutaneous induction feasibility",
+    "comparison": "Estimate attainable loading volume and exposure relative to current IV induction and relevant subcutaneous alternatives.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=c77a9664-e3bb-4023-b400-127aa53bca2b&type=display"
+    ]
+  },
+  {
+    "id": "imfinzi",
+    "brand": "Imfinzi",
+    "cohort": "core",
+    "formulation_question": "Subcutaneous durvalumab delivery",
+    "comparison": "Identify the exposure and administration target of the active subcutaneous program and the specific burden an additional formulation could address.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3&type=display",
+      "https://clinicaltrials.gov/api/v2/studies/NCT07391670",
+      "https://www.astrazenecaclinicaltrials.com/study/D9072C00001/"
+    ]
+  },
+  {
+    "id": "verzenio",
+    "brand": "Verzenio",
+    "cohort": "core",
+    "formulation_question": "Intestinal tolerability of abemaciclib",
+    "comparison": "Compare release profiles in intestinal models at matched systemic exposure and test whether a modifiable exposure feature explains diarrhea.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+      "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792"
+    ]
+  },
+  {
+    "id": "hemlibra",
+    "brand": "Hemlibra",
+    "cohort": "core",
+    "formulation_question": "Injection burden across weight bands",
+    "comparison": "Map administered volumes and compare an adjustable device at the current concentration with a new formulation.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071&type=display"
+    ]
+  },
+  {
+    "id": "xolair",
+    "brand": "Xolair",
+    "cohort": "core",
+    "formulation_question": "Injection count at high omalizumab doses",
+    "comparison": "Compare a larger-capacity device with higher concentrations of intact antibody. Measure viscosity, injection force, aggregation and IgE binding.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7f6a2191-adfb-48b9-9bfa-0d9920479f0d&type=display",
+      "https://pubmed.ncbi.nlm.nih.gov/41353620/"
+    ]
+  },
+  {
+    "id": "xarelto",
+    "brand": "Xarelto",
+    "cohort": "core",
+    "formulation_question": "Food-independent rivaroxaban exposure",
+    "comparison": "Use published food-independent prototypes as controls for a specific improvement in stability, manufacture or exposure consistency.",
+    "sources": [
+      "https://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/XARELTO-pi.pdf?sitelink=prescribing+info",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11089494/",
+      "https://www.ema.europa.eu/en/documents/product-information/xarelto-epar-product-information_en.pdf"
+    ]
+  },
+  {
+    "id": "gardasil",
+    "brand": "Gardasil / Gardasil 9",
+    "cohort": "core",
+    "formulation_question": "Thermal excursions during distribution",
+    "comparison": "Compare antigen-specific function and stability after representative excursions against the allowance of the current Gardasil 9 presentation.",
+    "sources": [
+      "https://www.fda.gov/media/90064/download?attachment="
+    ]
+  },
+  {
+    "id": "jakafi",
+    "brand": "Jakafi / Jakavi",
+    "cohort": "core",
+    "formulation_question": "Delivery with extended-release ruxolitinib",
+    "comparison": "Establish the residual need relative to the current extended-release comparator for the intended indication.",
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217180s001lbl.pdf",
+      "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b"
+    ]
+  },
+  {
+    "id": "tremfya",
+    "brand": "Tremfya",
+    "cohort": "core",
+    "formulation_question": "Induction injection count",
+    "comparison": "Compare one 4 mL device with two 2 mL injections at the existing concentration before changing the solution.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56&type=display"
+    ]
+  },
+  {
+    "id": "enhertu",
+    "brand": "Enhertu",
+    "cohort": "core",
+    "formulation_question": "Preparation stability and exposure-related toxicity",
+    "comparison": "Measure a concrete preparation loss or a causal relationship between exposure and lung injury before specifying a formulation change.",
+    "sources": [
+      "https://medicalinformation.astrazeneca-us.com/prescribing-information/enhertu.html",
+      "https://www.ema.europa.eu/en/medicines/human/EPAR/enhertu"
+    ]
+  },
+  {
+    "id": "vabysmo",
+    "brand": "Vabysmo",
+    "cohort": "core",
+    "formulation_question": "Duration of dual-target retinal therapy",
+    "comparison": "Test release, activity at both targets and retinal tolerance against existing solution, high-dose aflibercept and relevant implant alternatives.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=04cc9ef7-c02a-4e92-a655-0062674e8487&type=display",
+      "https://www.regeneron.com/downloads/eyleahd_fpi.pdf",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c6d9e2a-9a77-4d11-b692-de87cfde3444"
+    ]
+  },
+  {
+    "id": "kisqali",
+    "brand": "Kisqali",
+    "cohort": "core",
+    "formulation_question": "Swallowing and dose adjustment",
+    "comparison": "Test usability against the current dose-flexible tablets while measuring dissolution and preserving feasible dose reductions.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8"
+    ]
+  },
+  {
+    "id": "ultomiris",
+    "brand": "Ultomiris",
+    "cohort": "core",
+    "formulation_question": "Feasible volume and interval for ravulizumab",
+    "comparison": "Compare modeled subcutaneous volume and interval with current IV care and the earlier two-device subcutaneous regimen.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761108s035lbl.pdf",
+      "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-fabhlata",
+      "https://purplebooksearch.fda.gov/index.cfm?blaNo=761388&event=productdetails"
+    ]
+  },
+  {
+    "id": "shingrix",
+    "brand": "Shingrix",
+    "cohort": "core",
+    "formulation_question": "Vaccine stability under heat stress",
+    "comparison": "Measure antigen and adjuvant integrity after thermal stress, followed by immune response, using the ready-to-use syringe as comparator.",
+    "sources": [
+      "https://www.fda.gov/vaccines-blood-biologics/vaccines/shingrix",
+      "https://www.fda.gov/files/vaccines%2C%20blood%20%26%20biologics/published/Package-Insert-SHINGRIX.pdf",
+      "https://www.ema.europa.eu/en/documents/product-information/shingrix-epar-product-information_en.pdf"
+    ]
+  },
+  {
+    "id": "humira",
+    "brand": "Humira",
+    "cohort": "core",
+    "formulation_question": "Stability of high-concentration adalimumab",
+    "comparison": "Quantify a storage or handling problem against marketed citrate-free concentrated products.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=608d4f0d-b19f-46d3-749a-7159aa5f933d&type=display",
+      "https://www.abbvie.com/patients/patient-support/patient-assistance/available-programs/humira-program-update.html"
+    ]
+  },
+  {
+    "id": "kesimpta",
+    "brand": "Kesimpta",
+    "cohort": "core",
+    "formulation_question": "Duration of B-cell depletion following home dosing",
+    "comparison": "Estimate the interval supportable by pharmacology and quantify the residual burden of the current 0.4 mL injection.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3&type=display"
+    ]
+  },
+  {
+    "id": "prolia",
+    "brand": "Prolia",
+    "cohort": "core",
+    "formulation_question": "Management at discontinuation of denosumab",
+    "comparison": "Compare transition strategies that address rebound biology against current antiresorptive follow-on care.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+      "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease"
+    ]
+  },
+  {
+    "id": "comirnaty",
+    "brand": "Comirnaty",
+    "cohort": "core",
+    "formulation_question": "Stability and expression after thermal excursions",
+    "comparison": "Compare stressed product with the age-appropriate syringe or vial and quantify the resulting distribution gain.",
+    "sources": [
+      "https://labeling.pfizer.com/ShowLabeling.aspx?id=16351"
+    ]
+  },
+  {
+    "id": "tecentriq",
+    "brand": "Tecentriq / Tecentriq Hybreza",
+    "cohort": "core",
+    "formulation_question": "Injection and total visit time with Hybreza",
+    "comparison": "Set volume and force targets. Measure exposure and total visit time, including drugs given alongside the injection.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a617b089-ce66-464b-987b-b45d029b4d6f",
+      "https://www.genentech-medinfo.com/our-products/oncology/tecentriq.html"
+    ]
+  },
+  {
+    "id": "ofev",
+    "brand": "Ofev",
+    "cohort": "core",
+    "formulation_question": "Pulmonary delivery of nintedanib",
+    "comparison": "Compare respirable fraction, relevant cell exposure and local tolerability against oral Ofev and existing investigational inhaled products.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+      "https://academic.oup.com/ajrccm/article/211/Supplement_1/A2915/8333165",
+      "https://pubmed.ncbi.nlm.nih.gov/40834937/",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220449s000lbl.pdf"
+    ]
+  },
+  {
+    "id": "trulicity",
+    "brand": "Trulicity",
+    "cohort": "core",
+    "formulation_question": "Thermal stability of dulaglutide",
+    "comparison": "Compare aggregates, particles and receptor activity after realistic and accelerated storage with the weekly pen.",
+    "sources": [
+      "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=463050bd-2b1c-40f5-b3c3-0a04bb433309",
+      "https://trulicity.lilly.com/how-to-use/storage-disposal",
+      "https://www.novo-pi.com/ozempictablets.pdf"
+    ]
+  },
+  {
+    "id": "vyvgart_hytrulo",
+    "brand": "Vyvgart / Vyvgart Hytrulo",
+    "cohort": "core",
+    "formulation_question": "Volume of the self-administered injection",
+    "comparison": "Compare viscosity and potency against the current prefilled syringe and measure the patient value of a smaller volume.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7104d9e5-9910-47f5-9a93-741ac50f43b6&type=display"
+    ]
+  },
+  {
+    "id": "ibrance",
+    "brand": "Ibrance",
+    "cohort": "core",
+    "formulation_question": "Oral absorption with concomitant medications",
+    "comparison": "Test residual absorption constraints against the food-independent tablet that can already be used with acid-reducing medicines.",
+    "sources": [
+      "https://ibrance.pfizerpro.com/dosing/tablets-capsules",
+      "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792"
+    ]
+  },
+  {
+    "id": "imbruvica",
+    "brand": "Imbruvica",
+    "cohort": "core",
+    "formulation_question": "Exposure-related tolerability of ibrutinib",
+    "comparison": "Determine whether a modifiable exposure feature explains toxicity and compare against indication-matched active alternatives.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0dfd0279-ff17-4ea9-89be-9803c71bab44",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11738031/"
+    ]
+  },
+  {
+    "id": "trelegy",
+    "brand": "Trelegy Ellipta",
+    "cohort": "core",
+    "formulation_question": "Inhaler performance at low inspiratory flow",
+    "comparison": "Measure emitted and fine-particle dose across realistic flow and humidity conditions using the existing Ellipta device.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a81d5a-4648-4c7a-951d-33c014a63c7e",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685503/"
+    ]
+  },
+  {
+    "id": "brukinsa",
+    "brand": "Brukinsa",
+    "cohort": "boundary comparator",
+    "formulation_question": "Convenience of the current zanubrutinib tablet",
+    "comparison": "Measure residual burden against the current 160 mg tablet and available once-daily schedule.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902"
+    ]
+  },
+  {
+    "id": "invega",
+    "brand": "Invega Sustenna / Xeplion / Trinza / Trevicta / Hafyera family",
+    "cohort": "boundary comparator",
+    "formulation_question": "Preparation, delivery and exposure of long-acting injections",
+    "comparison": "Choose the indication and stabilized population before comparing the appropriate monthly, three-month or six-month preparation.",
+    "sources": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6cd61892-d2cb-434d-83ed-5c1b2c4e7a0b",
+      "https://www.jnjmedicalconnect.com/products/invega-sustenna/medical-content/invega-sustenna-invega-trinza-invega-hafyera-management-of-breakthrough-psychotic-symptoms"
+    ]
+  }
+]

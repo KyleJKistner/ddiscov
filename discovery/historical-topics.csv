@@ -1,0 +1,233 @@
+topic_id,topic,direct_mentions,context_mentions,source_url_1,source_record_1,source_url_2,source_record_2
+T001,TNAP inhibition in ABCC6-related pseudoxanthoma elasticum,4,0,https://pubmed.ncbi.nlm.nih.gov/30130617/,H0313,https://pubmed.ncbi.nlm.nih.gov/31756632/,H0313
+T002,Recombinant LCAT replacement in familial LCAT deficiency,7,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC4826469/,H0312,https://pmc.ncbi.nlm.nih.gov/articles/PMC8525913/,H0312
+T003,Nanobodies and Fabs for hereditary gelsolin amyloidosis,7,0,https://pubmed.ncbi.nlm.nih.gov/28334940/,H0311,https://academic.oup.com/hmg/article-pdf/24/9/2492/14146748/ddv010.pdf,H0311
+T004,Gut-restricted TMA-lyase inhibition in primary trimethylaminuria,6,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC6129214/,H0310,https://patents.google.com/patent/US10675256,H0310
+T005,Intrathecal gigaxonin gene transfer in giant axonal neuropathy,14,0,https://doi.org/10.1056/NEJMoa2307952,H0418,https://clinicaltrials.gov/study/NCT02362438,H0418
+T006,Hepatic ETHE1 gene replacement in ethylmalonic encephalopathy,4,0,,,,
+T007,Adenosine A2A antagonism in ADCY5-associated dyskinesia,11,0,https://www.pubmed.gov/35384065/,H0157,https://clinicaltrials.gov/api/v2/studies?query.cond=ADCY5&pageSize=20,H0157
+T008,Miransertib in Proteus syndrome,11,0,https://pubmed.ncbi.nlm.nih.gov/30803705/,H0018,https://pmc.ncbi.nlm.nih.gov/articles/PMC6996520,H0018
+T009,Hepatic AAV8 delivery of TYMP in MNGIE,8,1,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-24-2948,H0042,https://vhir.vallhebron.com/en/society/news/vhir-gets-orphan-drug-designation-adeno-associated-apply-gene-therapy-rare-disease,H0042
+T010,Splice correction of the USH1C Acadian founder allele,7,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC5886244/,H0196,https://pmc.ncbi.nlm.nih.gov/articles/PMC7704764/,H0196
+T011,Shortened and dual-vector PCDH15 constructs for Usher 1F,10,0,https://www.jci.org/articles/view/177700,H0197,https://clinicaltrials.gov/api/v2/studies?query.term=PCDH15+OR+%22Usher+syndrome+type+1F%22&fields=NCTId%2CBriefTitle%2COverallStatus%2CStartDate%2CLeadSponsorName%2CInterventionName%2CPhase&pageSize=50,H0197
+T012,Ocular halofantrine for inherited retinal degeneration,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC13193134/,HFR01,https://www.techtransfer.nih.gov/news/therapeutic-to-treat-inherited-retinal-disorders-and-age-related-macular-degeneration,HFR01
+T013,AAVrh74.tMCK.hBAG3 in MYOT-associated myofibrillar myopathy,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC13148945/,HFR04,,
+T014,"SGLT5 inhibition and 1,5-anhydroglucitol in GSD Ib and G6PC3 deficiency",1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC10439028/,HFR02,https://pubmed.ncbi.nlm.nih.gov/35506446/,HFR02
+T015,Extracellular sulfite scavenging in sulfite oxidase and molybdenum cofactor disorders,2,0,https://www.jci.org/articles/view/181299,HFR03,,
+T016,Memantine in molybdenum cofactor type B and isolated sulfite oxidase deficiencies,1,0,,,,
+T017,"Cystine crystallization inhibitors in cystinuria, including LH708 and LH1753",8,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC11247636/,HFR05,https://pmc.ncbi.nlm.nih.gov/articles/PMC4422236,H0104
+T018,PANK1 and PANK3 activation in pantothenate kinase-associated neurodegeneration,7,0,https://reporter.nih.gov/project-details/11398174,HFR06,https://nbiadisorders.org/images/2024/CoA_PKANCommunityUpdate.pdf,HFR06
+T019,ELP1 splicing modifiers in familial dysautonomia,16,0,https://www.biorxiv.org/content/biorxiv/early/2022/11/04/2022.11.04.515198.full.pdf,H0043,https://content.govdelivery.com/accounts/USFDA/bulletins/3f0e245,H0043
+T020,Hepatic CTSA gene transfer in galactosialidosis,5,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC8640647,H0045,https://content.govdelivery.com/accounts/USFDA/bulletins/3f0e245,H0045
+T021,Combined NEU1 and CTSA gene delivery for sialidosis,2,0,,,,
+T022,Venglustat in SPG11-related hereditary spastic paraplegia,5,0,,,,
+T023,Miglustat in SPG11-related hereditary spastic paraplegia,8,0,,,,
+T024,L-serine in deoxysphingolipid-producing SPTLC1 and SPTLC2 variants,35,1,https://clinicaltrials.gov/study/NCT01733407,H0101,https://pubmed.ncbi.nlm.nih.gov/30626650/,H0101
+T025,Allele-directed oligonucleotides for SPTLC1-associated disease,3,0,https://academic.oup.com/brain/article/149/6/2059/8297247,H0151,,
+T026,Carbamazepine for COL10A1-related Schmid metaphyseal chondrodysplasia,17,0,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu3161746,H0144,https://cordis.europa.eu/project/id/754825/reporting,H0144
+T027,Pediatric ezogabine formulation XEN496 for KCNQ2 encephalopathy,17,1,https://clinicaltrials.gov/study/NCT04639310,H0064,https://sec.gov/Archives/edgar/data/1582313/000095017023019727/xene-ex99_1.htm,H0064
+T028,Kv7 channel openers for KCNQ2 encephalopathy,15,0,https://clinicaltrials.gov/study/NCT04639310,H0153,,
+T029,Funapide for SCN9A-associated inherited erythromelalgia,3,0,,,,
+T030,4-aminopyridine for KCNA2 gain-of-function encephalopathy,12,0,https://pub.dzne.de/record/162807,H0016,https://clinicaltrials.gov/api/v2/studies?query.term=KCNA2,H0016
+T031,KCNA2 antisense suppression for gain-of-function encephalopathy,1,0,,,,
+T032,Pisiferic acid and Kv1.2 activators for KCNA2 loss-of-function variants,1,0,,,,
+T033,PLP1-lowering antisense therapy for PLP1 duplication,2,0,https://pubmed.ncbi.nlm.nih.gov/32610343/,H0005,,
+T034,MECP2-lowering antisense therapy for MECP2 duplication,1,0,https://www.ema.europa.eu/da/medicines/human/orphan-designations/eu-3-25-3152,H0006,,
+T035,Pegtibatinase in classical homocystinuria,2,1,https://clinicaltrials.gov/study/NCT06247085,H0007,,
+T036,Stiripentol for primary hyperoxaluria,4,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC6546444,H0008,https://pmc.ncbi.nlm.nih.gov/articles/PMC7385015,H0008
+T037,Alpha-globin reduction in beta-thalassemia and HbE/beta-thalassemia,1,0,,,,
+T038,ALAS2-directed reduction of heme pathway flux in congenital erythropoietic porphyria,1,0,https://clinicaltrials.gov/api/v2/studies?query.cond=congenital+erythropoietic+porphyria&fields=NCTId%2CBriefTitle%2COverallStatus%2CLeadSponsorName%2CPhase%2CStartDate%2CPrimaryCompletionDate%2CEnrollmentCount%2CInterventionName&pageSize=30&format=json,H0011,,
+T039,Revertant skin clones in mosaic genodermatoses,1,0,,,,
+T040,Residual oxidase activity in chronic granulomatous disease,1,0,,,,
+T041,Empagliflozin for GSD Ib and G6PC3-associated neutrophil dysfunction,16,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC7530374,H0015,https://pubmed.ncbi.nlm.nih.gov/35503103/,H0015
+T042,Trametinib for RASopathy-associated hypertrophic cardiomyopathy,12,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC11897442/,H0017,https://clinicaltrials.gov/study/NCT07817186,H0017
+T043,Rigosertib for RASopathy-associated hypertrophic cardiomyopathy,1,0,,,,
+T044,Tadekinig alfa in NLRC4-associated macrophage activation or XIAP deficiency,1,0,https://clinicaltrials.gov/api/v2/studies?query.term=tadekinig,H0019,,
+T045,Sustained-release exenatide for idiopathic intracranial hypertension,1,0,https://clinicaltrials.gov/study/NCT05347147,H0020,,
+T046,mTOR and JAK pathway modulation in idiopathic multicentric Castleman disease,2,0,https://clinicaltrials.gov/study/NCT03933904,H0021,https://clinicaltrials.gov/api/v2/studies?query.cond=%22Castleman+disease%22&fields=NCTId%2CBriefTitle%2COverallStatus%2CPhase%2CEnrollmentCount%2CLeadSponsorName%2CInterventionName%2CPrimaryOutcomeMeasure%2CStartDate%2CCompletionDate&pageSize=30&format=json,H0094
+T047,Abatacept in CTLA4 haploinsufficiency and LRBA deficiency,1,0,,,,
+T048,Danazol for telomere biology disorders,1,0,https://publications.ersnet.org/lookup/doi/10.1183/23120541.00905-2025,H0023,,
+T049,JAK inhibition in STAT1 gain-of-function disease,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC9402491,H0024,,
+T050,Alpelisib in PIK3CA-related overgrowth,3,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC12296598/,H0073,https://clinicaltrials.gov/api/v2/studies?query.cond=%22lymphatic+anomaly%22+OR+%22lymphangiomatosis%22+OR+%22lymphatic+malformation%22&fields=NCTId%2CBriefTitle%2COverallStatus%2CPhase%2CEnrollmentCount%2CLeadSponsorName%2CInterventionName%2CPrimaryOutcomeMeasure%2CStartDate%2CCompletionDate&pageSize=30&format=json,H0096
+T051,Uridine in CAD deficiency,23,0,https://pubmed.ncbi.nlm.nih.gov/28007989/,H0029,https://pmc.ncbi.nlm.nih.gov/articles/PMC12026011/,H0156
+T052,Sodium phenylbutyrate in residual-activity maple syrup urine disease,9,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC3024040,H0002,https://clinicaltrials.gov/study/NCT01529060,H0002
+T053,Systemic BCKDHA and BCKDHB gene transfer for maple syrup urine disease,1,0,,,,
+T054,BCKDK deficiency and branched-chain amino acid metabolism,1,0,,,,
+T055,Ciclopirox as a UROS chaperone in congenital erythropoietic porphyria,12,0,https://pubmed.ncbi.nlm.nih.gov/30232228/,H0001,https://patents.justia.com/patent/20190183871,H0001
+T056,MCOLN1 gene delivery for mucolipidosis IV,3,0,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11201152/,H0046,https://clinicaltrials.gov/study/NCT07398872,H0199
+T057,AAV9-FIG4 for CMT4J,1,0,https://clinicaltrials.gov/study/NCT07447557,H0047,,
+T058,SUMF1 gene transfer for multiple sulfatase deficiency,1,0,https://pmc.ncbi.nlm.nih.gov/articles/pmid/39870870,H0048,,
+T059,CACNA1C exon 8A splice switching in Timothy syndrome,1,0,https://clinicaltrials.gov/study/NCT07600658,H0049,,
+T060,N-acetylmannosamine in GNE myopathy,7,0,https://index.mirasmart.com/AAN2026/PDFfiles/AAN2026-006191.html,H0050,https://www.aan.com/msa/Public/Events/AbstractDetails/65027,H0604
+T061,Extended-release aceneuramic acid in GNE myopathy,2,0,,,,
+T062,Dodecyl creatine ester in creatine transporter deficiency,7,0,,,,
+T063,Cyclocreatine in creatine transporter deficiency,5,0,https://clinicaltrials.gov/study/NCT02931682,H0149,,
+T064,Fosigotifator in vanishing white matter disease,1,0,https://calicolabs.com/clinical-trial-vanishing-white-matter/,H0053,,
+T065,GM1 gangliosidosis AAV gene therapy,5,0,https://www.sec.gov/Archives/edgar/data/1636050/000163605022000031/siox8-k04272022exx991.htm,H0625,https://pmc.ncbi.nlm.nih.gov/articles/PMC12324653/,H0625
+T066,GM2 gangliosidosis AAV gene therapy,3,0,,,,
+T067,Alpha-lipoic acid for cystinuria,8,0,https://www.buckinstitute.org/news/alpha-lipoic-acid-prevents-kidney-stones-in-mouse-model-of-rare-genetic-disease/,H0055,https://clinicaltrials.gov/study/NCT02910531,H0088
+T068,VAL-0417 amylase delivery for Lafora disease,3,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC6774808,H0056,,
+T069,AAV9-IGHMBP2 for SMARD1,1,0,,,,
+T070,Macrophage transplantation for hereditary pulmonary alveolar proteinosis,1,0,,,,
+T071,HGSNAT gene transfer for MPS IIIC,1,0,,,,
+T072,TUBB4A suppression in H-ABC leukodystrophy,1,0,,,,
+T073,Erythrocyte-encapsulated thymidine phosphorylase for MNGIE,8,0,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-11-856,H0058,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6722784/,H0058
+T074,Mini-agrin and alpha-LNNd laminin linkers for LAMA2 deficiency,2,0,,,,
+T075,Antibody-mediated laminin bridging for LAMA2 deficiency,1,0,,,,
+T076,Taurine for MELAS,19,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC6581075,H0065,https://www.amed.go.jp/news/release_20190219-01.html,H0065
+T077,L-arginine and taurine comparisons in MELAS,4,0,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6244654/,H0308,,
+T078,Enzastaurin in vascular Ehlers–Danlos syndrome,6,2,https://clinicaltrials.gov/study/NCT05463679,H0066,https://www.sec.gov/Archives/edgar/data/1385818/000155837022014967/aytu-20221013xex99d1.htm,H0066
+T079,Celiprolol in vascular Ehlers–Danlos syndrome,4,0,https://clinicaltrials.gov/study/NCT05432466,H0471,,
+T080,Hydralazine in vascular Ehlers–Danlos syndrome,2,0,,,,
+T081,Dichloroacetate for pyruvate dehydrogenase complex deficiency,2,0,https://insight.jci.org/articles/view/200149,H0069,,
+T082,Pomalidomide in hereditary hemorrhagic telangiectasia,40,0,https://clinicaltrials.gov/study/NCT03910244,H0070,https://pmc.ncbi.nlm.nih.gov/articles/PMC11412318/,H0097
+T083,Bevacizumab in hereditary hemorrhagic telangiectasia,5,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC11412318/,H0087,https://pmc.ncbi.nlm.nih.gov/articles/PMC7006931/,H0087
+T084,ALK1 and BMP9 pathway restoration in hereditary hemorrhagic telangiectasia,2,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC11412318/,H0100,,
+T085,Nitisinone in alkaptonuria,7,1,https://usiena-air.unisi.it/bitstream/11365/1115671/4/THELANCETDE-D-20-00224_R1.pdf,H0361,https://pmc.ncbi.nlm.nih.gov/articles/PMC12689142,H0510
+T086,Fampridine for FGF14 repeat-associated ataxia,10,0,https://clinicaltrials.gov/study/NCT07185347,H0072,https://pmc.ncbi.nlm.nih.gov/articles/PMC3136055,H0095
+T087,Eltrombopag in Diamond–Blackfan anemia,1,0,,,,
+T088,Porphyrin endpoints in erythropoietic porphyrias,3,0,https://clinicaltrials.gov/study/NCT01605136,H0090,,
+T089,Attack frequency as an endpoint in hereditary angioedema,1,0,,,,
+T090,Anakinra in FIRES and new-onset refractory status epilepticus,1,0,https://clinicaltrials.gov/study/NCT07281027,H0093,https://pmc.ncbi.nlm.nih.gov/articles/PMC5225882,H0093
+T091,Ambroxol in neuronopathic Gaucher disease,7,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC10980885,H0103,https://clinicaltrials.gov/study/NCT07285369,H0103
+T092,Avexitide in congenital hyperinsulinism,1,0,,,,
+T093,Ersodetug in congenital hyperinsulinism,1,0,https://ir.rezolutebio.com/news/detail/368/rezolute-announces-phase-3-sunrize-study-results-in-congenital-hyperinsulinism,H0108,,
+T094,Medical therapy for diazoxide-unresponsive congenital hyperinsulinism,1,0,https://ir.rezolutebio.com/news/detail/368/rezolute-announces-phase-3-sunrize-study-results-in-congenital-hyperinsulinism,H0114,,
+T095,Dapagliflozin for cystinuria,1,0,https://clinicaltrials.gov/study/NCT04818034,H0109,https://clinicaltrials.gov/study/NCT05058859,H0109
+T096,Cyst(e)ine-degrading enzymes for cystinuria,1,0,,,,
+T097,D-galactose formulation AVTX-801 for PGM1-CDG,9,0,https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-23-035600/avtx-20231027.htm,H0147,https://www.sec.gov/Archives/edgar/data/1534120/000162828023032021/ex-991avaloentersintoagree.htm,H0147
+T098,D-mannose formulation AVTX-802 for MPI-CDG,2,0,,,,
+T099,L-fucose formulation AVTX-803 for SLC35C1-CDG,2,0,,,,
+T100,Galactose in SLC35A2-CDG,3,0,https://www.nature.com/articles/gim201741,H0163,,
+T101,Folate and pantothenate in TANGO2 deficiency,10,0,https://insight.jci.org/articles/view/171005,H0155,https://clinicaltrials.gov/api/v2/studies?query.cond=TANGO2&pageSize=20,H0155
+T102,Atorvastatin with or without chenodeoxycholic acid in SPG5,2,0,https://academic.oup.com/brain/article/140/12/3112/4596575,H0158,https://www.pubmed.gov/29228183/,H0158
+T103,"2,4-dihydroxybenzoic acid for COQ7 deficiency",2,0,https://jmg.bmj.com/content/52/11/779,H0159,https://pmc.ncbi.nlm.nih.gov/articles/PMC9248208,H0159
+T104,Caspofungin-formulated coenzyme Q10 for CoQ biosynthesis defects,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC9248208,H0164,,
+T105,REC-994 in cerebral cavernous malformation,2,0,https://clinicaltrials.gov/api/v2/studies/NCT05085561,H0191,,
+T106,Propranolol in cerebral cavernous malformation,2,0,https://clinicaltrials.gov/api/v2/studies?query.cond=cerebral+cavernous+malformation&pageSize=100,H0195,https://clinicaltrials.gov/study/NCT03523650,H0195
+T107,Idebenone in Leber hereditary optic neuropathy,1,0,,,,
+T108,Mexiletine in nondystrophic myotonia,2,0,https://www.ema.europa.eu/news/first-treatment-rare-inherited-muscle-contraction-disorders,H0304,,
+T109,L-serine in GRIN-related disease,1,0,,,,
+T110,Sirolimus in STRADA founder-deletion disease,7,0,https://www.jci.org/references/scholar/27975/B2,H0198,https://clinicaltrials.gov/api/v2/studies?query.cond=%22Polyhydramnios%2C+Megalencephaly%2C+and+Symptomatic+Epilepsy%22&fields=NCTId%2CBriefTitle%2COverallStatus%2CStartDate%2CLeadSponsorName%2CInterventionName%2CPhase&pageSize=25,H0198
+T111,AGA-directed therapy in aspartylglucosaminuria,2,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC7934581/,H0200,https://clinicaltrials.gov/api/v2/studies?query.cond=aspartylglucosaminuria&fields=NCTId%2CBriefTitle%2COverallStatus%2CStartDate%2CLeadSponsorName%2CInterventionName%2CPhase&pageSize=50,H0200
+T112,FKTN-linked Fukuyama congenital muscular dystrophy,2,0,https://pubmed.ncbi.nlm.nih.gov/21979053/,H0201,https://jrct.mhlw.go.jp/en-latest-detail/jRCT2031250857,H0201
+T113,N-acetylcysteine in hereditary cystatin C amyloid angiopathy,4,0,https://jamanetwork.com/journals/jamaneurology/fullarticle/2831917,H0202,https://www.ctis.eu/trial/2023-503969-36-00,H0363
+T114,TNNT1 gene transfer for Amish nemaline myopathy,3,0,https://www.mdaconference.org/abstract-library/aav-gene-therapy-for-tnnt1-associated-nemaline-myopathy,H0204,,
+T115,Intravenous trehalose in oculopharyngeal muscular dystrophy,5,0,https://clinicaltrials.gov/api/v2/studies?query.cond=oculopharyngeal+muscular+dystrophy&fields=NCTId%2CBriefTitle%2COverallStatus%2CStartDate%2CCompletionDate%2CLeadSponsorName%2CInterventionName%2CPhase%2CWhyStopped&pageSize=50,H0205,,
+T116,Butyrate in congenital chloride diarrhea,3,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC3878237/,H0206,,
+T117,Taltirelin in hereditary spinocerebellar ataxia,7,0,https://e-jmd.org/journal/view.php?number=538,H0299,https://clinicaltrials.gov/study/NCT04107740,H0299
+T118,Sirolimus in inclusion body myositis,5,0,https://doi.org/10.1016/s2665-9913(20)30280-0,H0302,https://clinicaltrials.gov/study/NCT04789070,H0302
+T119,Omigapil in LAMA2-related muscular dystrophy,3,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC11139016/,H0419,https://clinicaltrials.gov/study/NCT01805024,H0419
+T120,Rimeporide in Duchenne muscular dystrophy-associated cardiomyopathy,3,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC7482441/,H0421,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-15-1478,H0421
+T121,Erlotinib with or without sulindac for FAP-associated duodenal polyposis,4,0,,,,
+T122,Zonisamide in myoclonus-dystonia,4,0,,,,
+T123,Levamisole in childhood steroid-sensitive nephrotic syndrome,6,0,https://pubmed.ncbi.nlm.nih.gov/29054532/,H0612,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-05-324,H0612
+T124,Lacosamide in SCN9A gain-of-function small-fiber neuropathy,4,0,https://academic.oup.com/brain/article/142/2/263/5288840,H0613,https://clinicaltrials.gov/study/NCT01911975,H0613
+T125,Giroctocogene fitelparvovec for hemophilia A,7,0,https://www.sec.gov/Archives/edgar/data/1001233/000119312526036786/d300116d424b5.htm,H0463,https://www.pfizer.com/news/press-release/press-release-detail/pfizer-announces-positive-topline-results-phase-3-study,H0498
+T126,Tribendimidine for opisthorchiasis or hookworm infection,4,0,https://www.path.org/our-impact/media-center/path-clarus-and-the-global-health-investment-fund-announce-an-innovative-25-million-financing-arrangement-to-improve-treatment-of-intestinal-worms-affecting-more-than-1-billion-people-worldwide/,H0508,https://clinicaltrials.gov/study/NCT03261596,H0508
+T127,NGN-101 in CLN5 Batten disease,4,0,https://www.fda.gov/industry/fda-rare-disease-innovation-hub/cdercber-rare-disease-evidence-principles-rdep,H0461,https://www.sec.gov/Archives/edgar/data/1404644/000140464425000012/ngne-20241231.htm,H0461
+T128,Leuprorelin in spinal and bulbar muscular atrophy,5,0,,,,
+T129,Govorestat in SORD deficiency,3,0,,,,
+T130,Idrevloride for primary ciliary dyskinesia,4,0,https://clinicaltrials.gov/api/v2/studies/NCT02871778,H0626,,
+T131,SURF1 gene transfer for Leigh syndrome,5,0,,,,
+T132,GYS1 suppression in adult polyglucosan body disease,5,1,,,,
+T133,Bis-choline tetrathiomolybdate in Wilson disease,3,0,,,,
+T134,Metformin in myotonic dystrophy type 1,3,0,https://clinicaltrials.gov/study/NCT05532813,H0352,https://www.institut-myologie.org/en/2018/09/06/metformin-improves-motor-skills-in-patients-with-dm1/,H0615
+T135,Simvastatin in Smith–Lemli–Opitz syndrome,1,0,,,,
+T136,T4 endonuclease V liposome lotion for xeroderma pigmentosum,1,0,,,,
+T137,Soticlestat in Dravet syndrome,3,0,https://www.takeda.com/newsroom/statements/2025/takeda-provides-update-on-soticlestat/,H0464,https://clinicaltrials.gov/api/v2/studies/NCT06422377,H0464
+T138,DS-2325a for Netherton syndrome,3,0,https://clinicaltrials.gov/api/v2/studies/NCT05979831,H0465,,
+T139,NBI-921352 in SCN8A developmental and epileptic encephalopathy,4,0,https://clinicaltrials.gov/study/NCT04873869,H0342,https://clinicaltrials.gov/api/v2/studies/NCT04873869,H0466
+T140,Ultevursen for USH2A-associated retinal disease,3,0,,,,
+T141,Sepofarsen for CEP290-associated LCA10,3,0,,,,
+T142,Simoladagene autotemcel (OTL-101) for ADA-SCID,5,0,https://clinicaltrials.gov/api/v2/studies?query.term=simoladagene+OR+OTL-101,H0462,,
+T143,Moxetumomab pasudotox,3,0,https://www.ema.europa.eu/en/medicines/human/EPAR/lumoxiti,H0468,,
+T144,EDIT-101 for CEP290-associated LCA10,4,0,https://www.sec.gov/Archives/edgar/data/1650664/000165066426000017/edit-20251231.htm,H0470,https://clinicaltrials.gov/api/v2/studies?query.term=ultevursen+OR+sepofarsen+OR+QR-421a+OR+QR-110,H0470
+T145,Fosravuconazole for eumycetoma,3,0,,,,
+T146,MB-107 lentiviral gene therapy for X-linked SCID,4,0,https://clinicaltrials.gov/api/v2/studies/NCT01512888,H0469,https://www.sec.gov/Archives/edgar/data/1680048/000155837024002899/tmb-20231231x10k.htm,H0469
+T147,Odiparcil for MPS VI,2,0,https://clinicaltrials.gov/study/NCT03370653,H0501,https://live.euronext.com/en/product/equities/FR0013233012-XPAR/company-information,H0501
+T148,Glibenclamide oral suspension in neonatal diabetes,2,0,,,,
+T149,Emodepside for helminth infection including onchocerciasis,2,0,https://clinicaltrials.gov/study/NCT05017194,H0512,https://clinicaltrials.gov/api/v2/studies?query.intr=emodepside,H0512
+T150,Oxfendazole for trichuriasis or neurocysticercosis,2,0,https://clinicaltrials.gov/study/NCT04713787,H0513,,
+T151,Encochleated oral amphotericin B (MAT2203),2,0,https://www.sec.gov/Archives/edgar/data/0001582554/000149315226028881/forms-3.htm,H0514,https://pmc.ncbi.nlm.nih.gov/articles/PMC10724459/,H0514
+T152,Lonafarnib in hepatitis delta,2,0,,,,
+T153,Engasertib for hereditary hemorrhagic telangiectasia,2,0,https://clinicaltrials.gov/study/NCT05406362,H0503,,
+T154,Zagociguat for MELAS,3,0,https://clinicaltrials.gov/study/NCT06402123,H0504,,
+T155,AJ201 in spinal and bulbar muscular atrophy,1,0,,,,
+T156,Troriluzole,3,0,https://www.ema.europa.eu/en/medicines/human/EPAR/dazluma,H0348,,
+T157,Ulviprubart,2,0,,,,
+T158,Rovatirelin,3,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688,H0305,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-22-2715,H0305
+T159,DIAG723,1,0,,,,
+T160,ALN-6400,1,0,,,,
+T161,TX2100,1,0,,,,
+T162,Oxabact OC5 in primary hyperoxaluria,1,0,https://clinicaltrials.gov/study/NCT03116685,H0314,,
+T163,Reloxaliase in enteric hyperoxaluria,2,0,https://clinicaltrials.gov/study/NCT03847090,H0315,,
+T164,SYNB8802 microbial oxalate consumption in enteric hyperoxaluria,3,0,,,,
+T165,ENPP1-Fc replacement for ENPP1 deficiency,4,1,https://clinicaltrials.biomarin.com/clinical-trial/evaluation-of-safety-tolerability-and-efficacy-of-inz-701-in-adults-with-enpp1-deficiency/,H0317,https://patientworthy.com/2024/05/15/inz701-positive-data-gaci-abcc6-enpp1-deficiencies/,H0358
+T166,Pulmonary alveolar microlithiasis,2,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC4764987,H0318,,
+T167,Hereditary fibrinogen amyloidosis,2,0,https://pubmed.ncbi.nlm.nih.gov/34958662/,H0319,,
+T168,Amyloid removal with anti-serum amyloid P therapy,2,0,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8843022/,H0364,,
+T169,Adenine phosphoribosyltransferase deficiency,2,0,,,,
+T170,Arterial calcification due to CD73 deficiency,2,0,https://journals.sagepub.com/doi/10.1177/1358863X241235669,H0365,,
+T171,Ocular and leptomeningeal transthyretin amyloidosis,2,0,,,,
+T172,Eleclazine in long QT syndrome type 3,2,0,https://clinicaltrials.gov/study/NCT02300558,H0343,,
+T173,Epalrestat in PMM2-CDG,3,0,https://clinicaltrials.gov/study/NCT04925960,H0344,https://pmc.ncbi.nlm.nih.gov/articles/PMC10313913,H0344
+T174,EryDex in ataxia-telangiectasia,1,0,,,,
+T175,Thalidomide for POEMS syndrome,2,0,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4289734/,H0350,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8602273/,H0621
+T176,Etidronate in pseudoxanthoma elasticum,3,0,https://pubmed.ncbi.nlm.nih.gov/31756632/,H0359,https://pubmed.ncbi.nlm.nih.gov/29519353/,H0614
+T177,Pyrophosphate and sevelamer comparisons in PXE and GACI,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC8977233,H0360,,
+T178,Sodium valproate in Wolfram syndrome,2,0,https://thesnowfoundation.org/treatwolfram-international-clinical-trial-of-sodium-valproate-in-wolfram-syndrome-interim-results/,H0616,,
+T179,Ubiquinol in multiple system atrophy,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC10225719,H0617,https://clinicaltrials.gov/study/NCT07446894,H0617
+T180,Azithromycin maintenance in primary ciliary dyskinesia,1,0,https://pubmed.ncbi.nlm.nih.gov/32380069/,H0618,https://pmc.ncbi.nlm.nih.gov/articles/PMC13320291/,H0618
+T181,Bezafibrate in cholestatic pruritus,1,0,https://www.pubmed.gov/33031833/,H0619,https://primarycare.northeastlondon.icb.nhs.uk/wp-content/uploads/2025/10/NEL-Primary-Care-Prescribing-Support-Factsheet-Bezafibrate-Sep-25.pdf,H0619
+T182,Vixotrigine in small-fiber neuropathy,1,0,,,,
+T183,AT-GTX-501 gene therapy for CLN6 Batten disease,1,0,https://scge.mcw.edu/platform/data/report/clinicalTrials/NCT02725580,H0629,,
+T184,PXT3003 for CMT1A,1,0,,,,
+T185,Tralesinidase alfa for MPS IIIB,1,0,,,,
+T186,PBGM01 and PBKR03 gene transfer programs,1,0,,,,
+T187,TSHA-121 gene transfer for CLN7 Batten disease,1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC12703863/,H0634,,
+T188,VK0214 in X-linked adrenoleukodystrophy,1,0,,,,
+T189,PXL770 and PXL065 in adrenoleukodystrophy,1,0,https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/2023/03/FCBWR148437_20230323.pdf,H0638,,
+T190,Tyrosinase restoration in OCA1A,1,0,,,,
+T191,Research models for CRX-associated disease and Rett syndrome,1,0,,,,
+T192,Research models and tools for Batten disease,1,0,,,,
+T193,NPC1 gene replacement,1,0,,,,
+T194,Thermoresponsive ocular cysteamine formulation,1,0,,,,
+T195,MMACHC-directed approaches for cblC deficiency,1,0,,,,
+T196,AAV9-CHAT for choline acetyltransferase deficiency,1,0,,,,
+T197,Senicapoc in KCNN4-associated red-cell dehydration,1,0,https://pubmed.ncbi.nlm.nih.gov/27443288/,H0648,https://doi.org/10.3324/haematol.2016.149104,H0648
+T198,Topical statins for porokeratosis and DSAP,1,0,https://clinicaltrials.gov/study/NCT04359823,H0649,https://ir.palvellatx.com/news-releases/news-release-details/palvella-therapeutics-strengthens-qtorintm-pitavastatin,H0649
+T199,Erlotinib in TRPV3-related Olmsted syndrome,1,0,https://clinicaltrials.gov/study/NCT06545695,H0650,https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm,H0650
+T200,Eflornithine in ODC1-associated Bachmann–Bupp syndrome,1,0,https://doi.org/10.1002/ajmg.c.32138,H0652,https://pubmed.ncbi.nlm.nih.gov/40167220/,H0652
+T201,TAY-R1 program and the Tay-Enable platform,1,0,https://taytherapeutics.com/pipeline/,HFR07,https://taytherapeutics.com/science/,HFR07
+T202,Losmapimod in facioscapulohumeral muscular dystrophy,1,0,https://ir.fulcrumtx.com/node/10631/html,H0307,,
+T203,Collategene as a regulatory precedent,1,0,,,,
+T204,NCATS Therapeutics for Rare and Neglected Diseases portfolio,2,0,,,,
+T205,Individualized oligonucleotide development model,1,0,,,,
+T206,GRHPR deficiency and primary hyperoxaluria type 2,2,0,,,,
+T207,Molybdenum cofactor deficiency type B,2,0,,,,
+T208,Existing treatment landscape in rare metabolic disorders,3,4,,,,
+T209,Clinical and regulatory attribution for discontinued assets,2,0,,,,
+T210,Mozafancogene autotemcel for Fanconi anemia group A,17,0,https://clinicaltrials.gov/api/v2/studies?query.term=RP-L102&pageSize=20,H0458,https://pubmed.ncbi.nlm.nih.gov/39642902/,H0458
+T211,High-dose methylcobalamin in early amyotrophic lateral sclerosis,16,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC9086935,H0188,https://jnnp.bmj.com/content/90/4/451,H0188
+T212,"Neurophysiological, imaging and plasma endpoints in HSAN1",1,0,,,,
+T213,Therapeutic landscape in hereditary hemorrhagic telangiectasia,1,0,,,,
+T214,Comparative criteria for therapeutic opportunity selection,1,0,,,,
+T215,"FAF Nb2-MSA21, ER-directed Nb11, AAV9-Nb11-FAF1 and anti-AGel Fabs",3,0,,,,
+T216,GSSG and GSSSG sulfite-scavenging prototypes,1,0,https://www.jci.org/articles/view/181299,HFR03,,
+T217,TRA16,1,0,,,,
+T218,FB-001 and NOV-001,1,0,,,,
+T219,RGX-501 LDLR gene transfer for homozygous familial hypercholesterolemia,1,0,,,,
+T220,BCX9930 in paroxysmal nocturnal hemoglobinuria,1,0,,,,
+T221,Ampreloxetine for neurogenic orthostatic hypotension,1,0,,,,
+T222,Sirolimus and vincristine in kaposiform hemangioendothelioma,2,0,,,,
+T223,Riluzole in spinocerebellar ataxia,1,0,,,,
+T224,Venglustat in neuronopathic Gaucher disease type 3,1,0,,,,
+T225,Leucine for Diamond–Blackfan anemia,1,0,,,,
+T226,PF-05089771 for SCN9A-associated inherited erythromelalgia,1,0,,,,
+T227,Genotype-stratified sodium-channel blockade in inherited erythromelalgia,3,0,https://clinicaltrials.gov/api/v2/studies?query.cond=erythromelalgia&fields=NCTId%2CBriefTitle%2COverallStatus%2CLeadSponsorName%2CPhase%2CStartDate%2CPrimaryCompletionDate%2CEnrollmentCount&pageSize=30&format=json,H0004,,
+T228,L-serine for SPT-associated juvenile ALS,3,1,,,,
+T229,"1,5-anhydroglucitol lowering and phosphorylation in congenital neutropenia",1,0,https://clinicaltrials.gov/study/NCT04930627,H0098,,
+T230,MEK modulation in genotype-unresolved complex lymphatic anomalies,1,0,,,,
+T231,AGA C163S-directed pharmacological chaperones in aspartylglucosaminuria,1,0,,,,
+T232,Kv7.2 and Kv7.3 opener chemistry for KCNQ2 encephalopathy,1,0,,,,

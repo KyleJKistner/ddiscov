@@ -1,0 +1,627 @@
+{
+  "edition": "2026-11-03",
+  "digest": "SHA-256 of the archived file bytes",
+  "registry_and_reference": [
+    {
+      "archive_path": "project-state.json",
+      "sha256": "77199b8655ef471e37ccaa3409bccdec18d9cd0341d4403c9f83d15b10aa9a05"
+    },
+    {
+      "archive_path": "Mithril_Medicine_Dossier.pdf",
+      "sha256": "d7030b4873d908a6c44b6508501435e1a36e22a50a773da3a55e5b0eaa2b1de8"
+    }
+  ],
+  "phases": [
+    {
+      "phase": "2026-11-03-human-repair-opportunities",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-human-repair-opportunities/ODAD1-decision.txt",
+          "sha256": "62d8714bbe9e8ff76098c0c3baa2e0f7481c46dc23c2f33dc610bb38c0f45307"
+        },
+        {
+          "archive_path": "research/2026-11-03-human-repair-opportunities/decision.json",
+          "sha256": "d922f2f118ca4212212508b731b7678748d654c1cb43c16c55eca3088046e3e0"
+        },
+        {
+          "archive_path": "research/2026-11-03-human-repair-opportunities/screened-records.json",
+          "sha256": "683f6a4422f9439235920347380b411ca50fc3e9d1ec85a375f2622b5ca4b11e"
+        },
+        {
+          "archive_path": "research/2026-11-03-human-repair-opportunities/root-cilia/interpretation.txt",
+          "sha256": "3e12e95d98ca5b474a95a89ece46c58ec06ca9fdbf6956a6d7de5169736e79bc"
+        },
+        {
+          "archive_path": "research/2026-11-03-human-repair-opportunities/cilia-review/transport-baseline.json",
+          "sha256": "534f55afa34b846293943b6702ec6112a4f47cea528fe1210f7abca3a691b6f9"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-open-comparison-intake",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-open-comparison-intake/post-infarct/decision-brief.txt",
+          "sha256": "e0e07f56221d7b3f16a5f2e2740c0c4ab626fb32d40738600a799d2c3510b6d6"
+        },
+        {
+          "archive_path": "research/2026-11-03-open-comparison-intake/post-infarct/decision.json",
+          "sha256": "6f463f83a257f449a14ed97cd1487aad8d7f143750852a743af50146ce1ec6e0"
+        },
+        {
+          "archive_path": "research/2026-11-03-open-comparison-intake/post-infarct/pump-figure-audit.json",
+          "sha256": "97e084fe9dbffb1706d101023c1dd2a13942169a7e0c6caf2307af22e5ef75f6"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-executable-comparison",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/closure/decision.txt",
+          "sha256": "8196e88f399193b0c6ea95debf256e1d944668685961e0d4c136589ee12e1ddc"
+        },
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/closure/human-evidence/report.json",
+          "sha256": "d4e13b91f6835340d40c4954121e0ce08a365703daf1ed1fca6d343b503bff01"
+        },
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/closure/access/closure.txt",
+          "sha256": "d0a800953d8050cb96decb22bbe1708b806ee2fc45237533e2ebd0556d6ea9a0"
+        },
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/review-resolution.json",
+          "sha256": "9d5f1dc2a936b57e3b89d2c918ae24d195daba698152a4acc9b2ebd00650511c"
+        },
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/CMT1B-decision.txt",
+          "sha256": "57262ea4a577c300daccbbc579b0c52068fbff8e2226c28e1a0b08a793a2424c"
+        },
+        {
+          "archive_path": "research/2026-11-03-executable-comparison/decision.json",
+          "sha256": "d9fc5c95eae828fc5e61729ba007d6e8166abffeeaa593691060ceca7dfc1415"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-defined-contribution-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-defined-contribution-discovery/REPORT.txt",
+          "sha256": "8fb654c417ea61cb712a79caf816c185e4ac9bc8bf8f09f24a503bdb6250f70e"
+        },
+        {
+          "archive_path": "research/2026-11-03-defined-contribution-discovery/decision.json",
+          "sha256": "6ea1fd7e8014dc38d2bf69f565ffca79c3765b47ee1d7b00e3a642cfca7274f7"
+        },
+        {
+          "archive_path": "research/2026-11-03-defined-contribution-discovery/screened-records.json",
+          "sha256": "b26cbf3d1fea7d64ed1bd53efe2a1149ee45b4393788f0b36c5728ddaa77b550"
+        },
+        {
+          "archive_path": "research/2026-11-03-defined-contribution-discovery/review-resolution.json",
+          "sha256": "936ac0b83d1dc6e46f4e0199c91f7c4ca04504b7d285dddfdcb5cd63739e9df5"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-material-function-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-material-function-discovery/REPORT.txt",
+          "sha256": "67620e702be12678f80e531471b0dffe467ebd6aee77b246ddd22f058b6d993d"
+        },
+        {
+          "archive_path": "research/2026-11-03-material-function-discovery/decision.json",
+          "sha256": "66f543205089b29f005260cb9f4acda3ef8284099eaf7472dab59cc8e30bf719"
+        },
+        {
+          "archive_path": "research/2026-11-03-material-function-discovery/screened-records.json",
+          "sha256": "c28aa3fb8de3ced6c31ed8b28b0245ed3ea419b46cc14373d742d02b16311b9d"
+        },
+        {
+          "archive_path": "research/2026-11-03-material-function-discovery/review-resolution.json",
+          "sha256": "dc21a3b4118112e3c41d0765ac1a7ab3c5688a21ff286d56b359976eb80685b5"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-mechanism-gap-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-mechanism-gap-discovery/REPORT.txt",
+          "sha256": "6a43bf23d906d03a03799b233dd3d27e8315654a568cba7a112ebf9693c751d0"
+        },
+        {
+          "archive_path": "research/2026-11-03-mechanism-gap-discovery/decision.json",
+          "sha256": "cf822c4f4e0823625fe9ec354596b2fcf3a6bb88df24f73095a57b750d0f2bde"
+        },
+        {
+          "archive_path": "research/2026-11-03-mechanism-gap-discovery/screened-records.json",
+          "sha256": "871623fac0a897eecc28fa4eec290f427df00799ebd19fadf3bfb35ab8b44719"
+        },
+        {
+          "archive_path": "research/2026-11-03-mechanism-gap-discovery/review-resolution.json",
+          "sha256": "f3bfec31c7b5224ea1f13546615c4119ed888043f2eac309a18799e0ac767079"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-data-enabled-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-data-enabled-discovery/REPORT.txt",
+          "sha256": "057732548963943c4ada2b61716f01aefd2bf69fec18c09eca76b6dcaaea7720"
+        },
+        {
+          "archive_path": "research/2026-11-03-data-enabled-discovery/decision.json",
+          "sha256": "e4b78b408f3a763575a900dbea515d04aceb1de247f0b905c295fcf5a903020e"
+        },
+        {
+          "archive_path": "research/2026-11-03-data-enabled-discovery/screened-records.json",
+          "sha256": "2226f52f022d499d192c24968cb02b27b1395477b7cd86c47577f34700d6da9f"
+        },
+        {
+          "archive_path": "research/2026-11-03-data-enabled-discovery/review-resolution.json",
+          "sha256": "e0f9606c759fa96652289e681941a54dd322bf53af637ca956f231158cb73f8d"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-conditional-evidence-closure",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-conditional-evidence-closure/REPORT.txt",
+          "sha256": "00e42bb8881141b7c1ad3018672f84443e971286e3649cab167333c61cf769c4"
+        },
+        {
+          "archive_path": "research/2026-11-03-conditional-evidence-closure/decision.json",
+          "sha256": "e38dfaa5a678a51c555e7ddfda34ed14512586f3166aaf4e8c298107d3147894"
+        },
+        {
+          "archive_path": "research/2026-11-03-conditional-evidence-closure/screened-records.json",
+          "sha256": "49154834c3d10d1df2e9bd6955595e7acfa505527b5887d53770a059fada3626"
+        },
+        {
+          "archive_path": "research/2026-11-03-conditional-evidence-closure/review-resolution.json",
+          "sha256": "a02bd9907f8266ac65c1504afe740cdd3abf389c9b6cfab1ab4cbfa671be0d4a"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-function-access-convergence",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-function-access-convergence/REPORT.txt",
+          "sha256": "e814503f13379863817669a17556a6674196396d4090fb5b4173c1918899ae59"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-access-convergence/decision.json",
+          "sha256": "df55fed6b4b546c72e23b904246cc9cf700496fa874bf001aa4f7f29a2b0aeba"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-access-convergence/screened-records.json",
+          "sha256": "c30c84fc22280c81e9f9899a6069beeab5b5dbfedf6b978b99ef750d75d96dae"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-access-convergence/review-resolution.json",
+          "sha256": "9b1ac885a5bdb8bde667a0c853a2789b4e90ee73a71f9bd5c6dc08d264ed671d"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-accessible-repair-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-accessible-repair-discovery/REPORT.txt",
+          "sha256": "2c905463f25a2ea0ebef2c301d96d97e8594ebde7ce05c6b0675f7dd69f1606c"
+        },
+        {
+          "archive_path": "research/2026-11-03-accessible-repair-discovery/decision.json",
+          "sha256": "64dcb3d3ea9176dd822493e66fed03d8cacb1967b7c5c34982862fec392608ab"
+        },
+        {
+          "archive_path": "research/2026-11-03-accessible-repair-discovery/screened-records.json",
+          "sha256": "3c0ba66eede3bfb1f7221b590419db70c8773fe3be786d130bc20b38ed0888a2"
+        },
+        {
+          "archive_path": "research/2026-11-03-accessible-repair-discovery/review-resolution.json",
+          "sha256": "8bc2debf46eef0c04bf8a8a3d19900aa99889daf4513b987e9a90c7e1581025b"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-integration-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-integration-discovery/REPORT.txt",
+          "sha256": "e65a699efe6c587f9d56d20d6f4ea8ca701bf5e6ec21aedab4755e8a91434809"
+        },
+        {
+          "archive_path": "research/2026-11-03-integration-discovery/decision.json",
+          "sha256": "559dc874a3079f33620b578af693f62aa0a287b8360842bc73fae21681e490b1"
+        },
+        {
+          "archive_path": "research/2026-11-03-integration-discovery/screened-records.json",
+          "sha256": "eafb7b7d7abf169e588e98f7ef8dd3a6a48ed36def463396250434e08d9c4ff9"
+        },
+        {
+          "archive_path": "research/2026-11-03-integration-discovery/review-resolution.json",
+          "sha256": "0f693b50a251c9f9d86e268e8a0f4531a75e10c6d584dfe89ac85d7c2e1ea7bc"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-function-first-followup",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/access-first-continuation/REPORT.txt",
+          "sha256": "86ba5fa121d17e7e697f3a2f1e47874ac9555b249e9695dfdb3151c46da4a98b"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/access-first-continuation/decision.json",
+          "sha256": "a2983ad53dc5ccceee25deb57a236195fc8a4a233f5a62b94742666053d8c74f"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/access-first-continuation/screened-records.json",
+          "sha256": "c00aef40cb369502c6da3e77b9a24aeeca19f91be58b384ccad843260440d8a5"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/root-checks/synthesis-review-resolution.json",
+          "sha256": "c06dbbab525c47378046caae9acd17f23d3317664927502eb40310b2482fa0b5"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/REPORT.txt",
+          "sha256": "f1a7c6cf6890daf031002859837f44d591350f0ea516c319a89288bf32103ef1"
+        },
+        {
+          "archive_path": "research/2026-11-03-function-first-followup/root-checks/pleural-independent-check.json",
+          "sha256": "89e02e6db0f6aa72966bc01e35565ce684607c23dd354744a5697c2ca43c6c6b"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-mass-vetting",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-mass-vetting/REPORT.txt",
+          "sha256": "6d4592a2a13de51d57b7ebe5c86d2e67e7fedb501052a521a511baa0257fb36d"
+        },
+        {
+          "archive_path": "research/2026-11-03-mass-vetting/decision.json",
+          "sha256": "664d510ca7dca82827052b4f01bff35d716e0109147ae7c54cc65b4d8dc0f1d1"
+        },
+        {
+          "archive_path": "research/2026-11-03-mass-vetting/screened-records.json",
+          "sha256": "d6c4a686606ef197b06a43ddd34b4874459ca0b4fe2597733c41f0264361bdab"
+        },
+        {
+          "archive_path": "research/2026-11-03-mass-vetting/classification-overlay.json",
+          "sha256": "577a4af510a7d9bb1a9deef50b4db5ffff15db80d905de2fcf36247ef15579e0"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-top50-formulation-screen",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-top50-formulation-screen/report.html",
+          "sha256": "4aed07b6f76ce244b252c0c95cc37baf03b061f07e406487274dcd0d55594ed0"
+        },
+        {
+          "archive_path": "research/2026-11-03-top50-formulation-screen/REPORT.txt",
+          "sha256": "9f6440cb32245c92d5087d2537a2c71467f770064c5bdd23eb97fefdb56d6638"
+        },
+        {
+          "archive_path": "research/2026-11-03-top50-formulation-screen/screen.json",
+          "sha256": "75a55363a6cdc8d71afeb1e723879993fe081ac14f26a3e3fdf32d000a4fa998"
+        },
+        {
+          "archive_path": "research/2026-11-03-top50-formulation-screen/sales/universe.json",
+          "sha256": "e6ec1602f951a8438c06adc49c37690e868a29139e7f606f021e7b0b3d5bd586"
+        },
+        {
+          "archive_path": "research/2026-11-03-top50-formulation-screen/decision.json",
+          "sha256": "c185cdba098322aae690fbbc4ca42ac9d2ece0d1dda7adaa1217b16eba738eba"
+        }
+      ]
+    },
+    {
+      "phase": "2026-11-03-opportunity-discovery",
+      "anchors": [
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/contribution-review/REPORT.txt",
+          "sha256": "eb62f204fe7817a9597808a1fefd7db7ba9f374ee7334bc15e1bdffb19690957"
+        },
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/deepening/REPORT.txt",
+          "sha256": "a4cec4c6b89f9d3f1977d084bb0be1feb5f3551f67770c14fea465b4d88bf7bf"
+        },
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/deepening/decision.json",
+          "sha256": "b8ea28bdc7b91643596adbfaf6f1f589e4cc3e64f6bbf0ec465d0b5c861a5237"
+        },
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/contribution-review/decision.json",
+          "sha256": "dac2d34fb2b2081671a91036b3f853e7abfc00213d1adbf09f70296da3ac388c"
+        },
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/deepening/nphp5.json",
+          "sha256": "8720439ac0831a1b67db232933ecc399e1a2b333e0e3eded4b9c9dbd4dff8de2"
+        },
+        {
+          "archive_path": "research/2026-11-03-opportunity-discovery/deepening/rct1100.json",
+          "sha256": "9dac02dbc3d3147a9a118b3b1eddd7ee85eee7db6b71a1aef3778616e7b237d0"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-bottleneck-search",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-bottleneck-search/REPORT.txt",
+          "sha256": "fbd2dc1deaaac35559db10024bcebcc334b5a601382b890bad998520058b51b8"
+        },
+        {
+          "archive_path": "research/2026-10-28-bottleneck-search/decision.json",
+          "sha256": "3122206b7f4b82c9094d923789470a3d0f1a94a852769f2d5e0ace45b0b840f9"
+        },
+        {
+          "archive_path": "research/2026-10-28-bottleneck-search/candidate-inventory.json",
+          "sha256": "df2bca8bb074e7bcffe51211b0258882aa8c621e093b4213c699ca00ce6a166f"
+        },
+        {
+          "archive_path": "research/2026-10-28-bottleneck-search/selection-audit.txt",
+          "sha256": "b6bcd7dfafabef3a79e9578cae290c9bc0ef44e53e8be9e508514da19a65152d"
+        },
+        {
+          "archive_path": "research/2026-10-28-bottleneck-search/overlap-audit.json",
+          "sha256": "7ec0c2fac2c4f905700fcea2b05848d4e08915af9b8fa98d9374ba9c8d4659d6"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-stocktake",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-stocktake/STOCKTAKE.txt",
+          "sha256": "ee3dca252ebcaee7100e56b29df7b4ba7d73bfcf4696f08641783742e26f2e86"
+        },
+        {
+          "archive_path": "research/2026-10-28-stocktake/kidney-stocktake.json",
+          "sha256": "561a3cadd0c6f4d5a14532b6a426661078251554897ec2f0ce5e669127efa4f9"
+        },
+        {
+          "archive_path": "research/2026-10-28-stocktake/zg16-stocktake.json",
+          "sha256": "f1cad06844d8478c90cbf3a39f9e69a40c5215c9c7de293ced4edd599fb9285a"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-component-recombination",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-component-recombination/REPORT.txt",
+          "sha256": "db57d7ca8f315e1704f853b998043448b245961770fe6174c8c16e7a2302a6e5"
+        },
+        {
+          "archive_path": "research/2026-10-28-component-recombination/decision.json",
+          "sha256": "67ed9e9adad5da5b5e51759530ef89e1e222d874fa2a4650e8888c6e8aa3c4cc"
+        },
+        {
+          "archive_path": "research/2026-10-28-component-recombination/candidate-inventory.json",
+          "sha256": "8992e90a5f43e093318d622e34891cc33afaedce004734eeccb0a6cb2a3088be"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-wnt-benchmark",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-wnt-benchmark/report.html",
+          "sha256": "0f8a9ff358ad3226b85220c0ccd16e8962b1f35f1ad2667c50e977031a3ad4a1"
+        },
+        {
+          "archive_path": "research/2026-10-28-wnt-benchmark/README.txt",
+          "sha256": "c68bfdd46889724bed91e6fb846021a7c820a3581089260753151329636144f6"
+        },
+        {
+          "archive_path": "research/2026-10-28-wnt-benchmark/data/sequence-function-map.json",
+          "sha256": "4144f406bfeda039acef4a7dba8109e4400ae0b0442222918b9f67ee089f80c2"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-compute-plan",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-compute-plan/decision-brief.txt",
+          "sha256": "8f63a96c08a6b6d797293afb012abbfcbba247f4b5b611fcf92283c91f826086"
+        },
+        {
+          "archive_path": "research/2026-10-28-compute-plan/decision.json",
+          "sha256": "a904d433d0b7564886b29bab8d34b8a7409a9bf4e370dc89a4235b4c01b54d38"
+        },
+        {
+          "archive_path": "research/2026-10-28-compute-plan/methods-audit/report.json",
+          "sha256": "dd540c413b8cc617f8f6093c29dee26af4ddae69bf04fe31f45298494aec025f"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-map3k15-access",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-map3k15-access/REVIEW.md",
+          "sha256": "d2c0357e9eef8f4db1a5c3811de9a56b5592fa727dc92525fff9c5b901cb827e"
+        },
+        {
+          "archive_path": "research/2026-10-28-map3k15-access/decision.json",
+          "sha256": "039732bc940b4ec0aabf41adf41e56cf77a93be65117d73ec0a98005fb948fe8"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-protective-genetics",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-protective-genetics/REVIEW.md",
+          "sha256": "fc2082d3110182ffe707e7cb6d29174ce3596cc589b54a0ec1b24b91e62b1d67"
+        },
+        {
+          "archive_path": "research/2026-10-28-protective-genetics/decision.json",
+          "sha256": "3c7f94c2f985f87f16edc7001416ccfcd4f93b98c3a7c4a10d4719157ea9470d"
+        },
+        {
+          "archive_path": "research/2026-10-28-protective-genetics/budget-model.json",
+          "sha256": "11be07b9f3c1bea85e4ba1251547b54642be28316e1744d79e1631d4a6c93f6c"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-funding-diligence",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-funding-diligence/REVIEW.md",
+          "sha256": "4c6421dcf723587258658f8ec7a9e8b8e3b3f3e7c745069ca430690ece76054e"
+        },
+        {
+          "archive_path": "research/2026-10-28-funding-diligence/decision.json",
+          "sha256": "3f166025e7b7b0cd3c2203ddb478765abcbe749cebe3e0ec9d17173cc2fce1d1"
+        },
+        {
+          "archive_path": "research/2026-10-28-funding-diligence/budget-model.json",
+          "sha256": "81065765063c3a18461f3ae4dc5f657f33bce243968f396ee5220f23676adf1f"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-broad-preclinical-search",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-broad-preclinical-search/REVIEW.md",
+          "sha256": "d930ca05892cfa0492a27f42c4193380ea66454d3837fbc5509c157f234a3d54"
+        },
+        {
+          "archive_path": "research/2026-10-28-broad-preclinical-search/comparison.json",
+          "sha256": "cd74b9e42829f6e1554dbbe73356b11bf142df34ef9ad0d9d409d0572115fd02"
+        },
+        {
+          "archive_path": "research/2026-10-28-broad-preclinical-search/source-index.json",
+          "sha256": "4bb1b2f2d5df346c54ec7b89f180a87b99cfb6302fe266bb6ddb1e7511136be0"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-preclinical-reset",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-preclinical-reset/REVIEW.md",
+          "sha256": "9d59a3f70899ae8583004ed65e7cab449e17c67e387b33c2391f8d1dcd92da27"
+        },
+        {
+          "archive_path": "research/2026-10-28-preclinical-reset/candidate-registry.json",
+          "sha256": "4201e25a703959f6beeb4ca29c8d0d303813de38ebc57c29429549bb0593e855"
+        },
+        {
+          "archive_path": "research/2026-10-28-preclinical-reset/corrections.json",
+          "sha256": "73ea649e1dae3db5f27cd1a2af4bdb5ac315a88c94244f9d3f18bce4c7830870"
+        },
+        {
+          "archive_path": "research/2026-10-28-preclinical-reset/reviews/heldout-review.json",
+          "sha256": "ee2f6d5b388fe924c4325442ea3d6a95b9d63ae3e2db55368e5fd6099e622101"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-lead-diligence",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-lead-diligence/synthesis/portfolio-synthesis.json",
+          "sha256": "3f2ff51b98fede48cbc2d1d46627a47557ff3db7f7583ee2c641e28c8a7e72c1"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-27-orphan-expansion",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-27-orphan-expansion/decision-portfolio.json",
+          "sha256": "3dcadf404acbfc16507b22c9df6c9ffc83fd07b9a4c305503eef95f7fac13049"
+        },
+        {
+          "archive_path": "research/2026-10-27-orphan-expansion/report-index.json",
+          "sha256": "1072c44ee492473026681ac77be1eb97b5e91ccdca724e582e2c9e419696dc50"
+        },
+        {
+          "archive_path": "research/2026-10-27-orphan-expansion/coordinator-adjudication.json",
+          "sha256": "e29b6a9448700b5d38445b98ff5e870223d10df5adf5fb908619d2a12eb66aa1"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-27-orphan-candidates",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-27-orphan-candidates/candidate-index.json",
+          "sha256": "20903c818b4cbe3079690c94f6dec5e1d2eadf43835d8f6c907c5d7d8c05fd65"
+        },
+        {
+          "archive_path": "research/2026-10-27-orphan-candidates/synthesis.json",
+          "sha256": "37a51876931c6706f46a69e1c7ffa417d71a54967a182f1548f61438eda1134c"
+        },
+        {
+          "archive_path": "research/2026-10-27-orphan-candidates/recovery-audit.json",
+          "sha256": "7bebaa74a87d85434a120e0bacad2e19737e94f2f3bf4c3a5e6c1f601982c20c"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-27-cystine-diligence",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-27-cystine-diligence/diligence-summary.json",
+          "sha256": "44775f4c96d507ef0ced5f8a8667e69f0a853e566c77ecc50973b1fc02d0de5c"
+        },
+        {
+          "archive_path": "research/2026-10-27-cystine-diligence/ownership.json",
+          "sha256": "8c53a3e46af2d828ed72a5d81a4c800712a0a6e3a591fe7b5fca1c4e46bb22e6"
+        },
+        {
+          "archive_path": "research/2026-10-27-cystine-diligence/translational-science.json",
+          "sha256": "d21c70804fc9ccdf9f9898b2692fcaf63631671660c55340a03252a818aa9cd8"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-27-candidate-reset",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-27-candidate-reset/decision.json",
+          "sha256": "e638f227f3a1a94963bf212f1e68519d6f3f97bbeb769f6370563b6709d25c30"
+        },
+        {
+          "archive_path": "research/2026-10-27-candidate-reset/licensable-assets.json",
+          "sha256": "e4de65d9409f7911d11d166c169fdf41229594ede87e15b3750748bece8005d5"
+        },
+        {
+          "archive_path": "research/2026-10-27-candidate-reset/human-rescue-assets.json",
+          "sha256": "6963f5ad6a86b90fa94612df984e083319cf8fd0236f87326950f5c0f288884a"
+        }
+      ]
+    },
+    {
+      "phase": "2026-10-28-project-reconciliation",
+      "anchors": [
+        {
+          "archive_path": "research/2026-10-28-project-reconciliation/reference-programs.json",
+          "sha256": "0e44e9c80a6bcbfaf845dc15b56efeda2b627293d905e98d9817c98c027959f8"
+        },
+        {
+          "archive_path": "research/2026-10-28-project-reconciliation/final-review.json",
+          "sha256": "1afb754eea1a91378c5638d546bd967d16c92aede26e9de46d098d434f4147da"
+        }
+      ]
+    }
+  ]
+}

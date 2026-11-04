@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "source_registry": "project-state.json",
+  "families": [
+    {
+      "id": "NPHP5_RETINA",
+      "name": "NPHP5 retinal gene therapy",
+      "chapter": "sensory.md",
+      "heading": "NPHP5 replacement for inherited retinal degeneration"
+    },
+    {
+      "id": "10_ush1c",
+      "name": "USH1C splice correction",
+      "chapter": "sensory.md",
+      "heading": "Splice correction for USH1C retinal disease"
+    },
+    {
+      "id": "11_pcdh15",
+      "name": "PCDH15 retinal therapy",
+      "chapter": "sensory.md",
+      "heading": "PCDH15 replacement for Usher 1F retinal disease"
+    },
+    {
+      "id": "halofantrine",
+      "name": "Halofantrine retinal delivery",
+      "chapter": "sensory.md",
+      "heading": "Ocular halofantrine for inherited retinal degeneration"
+    },
+    {
+      "id": "NT3_ROLIPRAM",
+      "name": "NT-3/rolipram cochlear depot",
+      "chapter": "sensory.md",
+      "heading": "Local NT-3 and rolipram for cochlear synaptic injury"
+    },
+    {
+      "id": "ZG16_BARRIER",
+      "name": "ZG16 intestinal barrier",
+      "chapter": "barriers.md",
+      "heading": "ZG16 and intestinal bacterial exclusion"
+    },
+    {
+      "id": "api5",
+      "name": "API5-derived intestinal protective protein",
+      "chapter": "barriers.md",
+      "heading": "API5 protection of intestinal Paneth cells"
+    },
+    {
+      "id": "DNASE_ELAFIN",
+      "name": "DNase/elafin airway repair",
+      "chapter": "barriers.md",
+      "heading": "DNase I and elafin for airway mucus transport"
+    },
+    {
+      "id": "tay-r1",
+      "name": "TAY-R1 for nonsense-COL7A1 RDEB",
+      "chapter": "barriers.md",
+      "heading": "TAY-R1 readthrough for nonsense COL7A1 variants"
+    },
+    {
+      "id": "sym2081",
+      "name": "SYM2081 topical mast-cell modulation",
+      "chapter": "barriers.md",
+      "heading": "Surface-applied SYM2081 for skin inflammation"
+    },
+    {
+      "id": "catil1ra",
+      "name": "Cartilage-retained IL-1 receptor antagonist",
+      "chapter": "barriers.md",
+      "heading": "Retaining IL-1 receptor antagonist in injured cartilage"
+    },
+    {
+      "id": "ti23",
+      "name": "Local TI23 partial agonism for tissue repair",
+      "chapter": "barriers.md",
+      "heading": "Local Hedgehog signaling for tissue repair"
+    },
+    {
+      "id": "08_miransertib",
+      "name": "Miransertib / Proteus syndrome",
+      "chapter": "barriers.md",
+      "heading": "AKT inhibition for Proteus syndrome"
+    },
+    {
+      "id": "RBC_DAF",
+      "name": "Red-cell-tethered DAF",
+      "chapter": "blood.md",
+      "heading": "Surface complement regulation in PNH red cells"
+    },
+    {
+      "id": "nih-stf",
+      "name": "Selective soluble-tissue-factor antibodies",
+      "chapter": "blood.md",
+      "heading": "Soluble tissue factor and thrombotic activity"
+    },
+    {
+      "id": "adamts7",
+      "name": "ADAMTS12-sparing ADAMTS7 chemistry",
+      "chapter": "blood.md",
+      "heading": "ADAMTS7 selectivity in vascular remodeling"
+    },
+    {
+      "id": "01_tnap-pxe",
+      "name": "DS-1211 / TNAP inhibition for PXE",
+      "chapter": "blood.md",
+      "heading": "TNAP inhibition for pseudoxanthoma elasticum"
+    },
+    {
+      "id": "KIDNEY_CATALASE",
+      "name": "Kidney-retained catalase",
+      "chapter": "kidney.md",
+      "heading": "Catalase and renal pressure regulation after ischemia"
+    },
+    {
+      "id": "SDC4_KIDNEY",
+      "name": "Syndecan-4 renal surface repair",
+      "chapter": "kidney.md",
+      "heading": "Rebuilding the glomerular albumin barrier"
+    },
+    {
+      "id": "02_lcat",
+      "name": "New LCAT enzyme products",
+      "chapter": "kidney.md",
+      "heading": "LCAT replacement and renal lipoprotein injury"
+    },
+    {
+      "id": "cystine-diamides",
+      "name": "Cystine diamides for cystinuria",
+      "chapter": "kidney.md",
+      "heading": "Cystine diamides for urinary crystal control"
+    },
+    {
+      "id": "sglt5-discovery",
+      "name": "Selective SGLT5 discovery",
+      "chapter": "kidney.md",
+      "heading": "SGLT5, 1,5-anhydroglucitol and neutrophil function"
+    },
+    {
+      "id": "SUPERSIRT5",
+      "name": "SuperSIRT5 nitrogen disposal",
+      "chapter": "metabolism.md",
+      "heading": "Mitochondrial nitrogen disposal in methylmalonic acidemia"
+    },
+    {
+      "id": "06_ethe1",
+      "name": "ETHE1 liver-directed gene replacement",
+      "chapter": "metabolism.md",
+      "heading": "Hepatic sulfide handling in ethylmalonic encephalopathy"
+    },
+    {
+      "id": "09_mngie",
+      "name": "TYMP restoration for MNGIE",
+      "chapter": "metabolism.md",
+      "heading": "Thymidine phosphorylase replacement for MNGIE"
+    },
+    {
+      "id": "04_tmau",
+      "name": "TMAU microbial inhibitors",
+      "chapter": "metabolism.md",
+      "heading": "Gut microbial trimethylamine production in trimethylaminuria"
+    },
+    {
+      "id": "sulfite-scavenger",
+      "name": "Sulfur-free sulfite-scavenger discovery",
+      "chapter": "metabolism.md",
+      "heading": "Sulfite scavenging in SUOX deficiency"
+    },
+    {
+      "id": "pank-series",
+      "name": "PANK successor chemistry",
+      "chapter": "metabolism.md",
+      "heading": "Pantothenate kinase activation and coenzyme A metabolism"
+    },
+    {
+      "id": "map3k15",
+      "name": "MAP3K15 mechanism-to-modality research",
+      "chapter": "metabolism.md",
+      "heading": "MAP3K15 and glucose regulation"
+    },
+    {
+      "id": "slc30a8",
+      "name": "SLC30A8 / ZnT8 modality research",
+      "chapter": "metabolism.md",
+      "heading": "ZnT8 and regulated insulin secretion"
+    },
+    {
+      "id": "DYSF_DG9",
+      "name": "DG9–DYSF2 muscle repair",
+      "chapter": "neuromuscular.md",
+      "heading": "Splice correction and force retention in dysferlinopathy"
+    },
+    {
+      "id": "bag3-myot",
+      "name": "BAG3 gene delivery for MYOT myotilinopathy",
+      "chapter": "neuromuscular.md",
+      "heading": "BAG3-mediated protein quality control in myotilinopathy"
+    },
+    {
+      "id": "05_gan",
+      "name": "GAN gene replacement",
+      "chapter": "neuromuscular.md",
+      "heading": "Gigaxonin replacement for giant axonal neuropathy"
+    },
+    {
+      "id": "07_adcy5",
+      "name": "Istradefylline / ADCY5",
+      "chapter": "neuromuscular.md",
+      "heading": "A2A receptor modulation for ADCY5-associated movement disorder"
+    },
+    {
+      "id": "03_gelsolin",
+      "name": "Gelsolin antibody engineering",
+      "chapter": "neuromuscular.md",
+      "heading": "Antibody protection against gelsolin fragment aggregation"
+    }
+  ]
+}
