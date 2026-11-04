@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 13](rounds/round13/README.md) audits the existing ruxolitinib/HHD program’s optional model/comparator evidence. No new screen is added. The final manuscript reports weak attachment improvement, while S1/S4 quantities remain unverified; no qualified complete-barrier control or new clinical efficacy is inferred. BLU claim-mapping, zinc and SLC6A6 searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 14](rounds/round14/README.md) audits controlled HS trial evidence relevant to the existing ruxolitinib/HHD program. No new screen is added. Official endpoint counts, withdrawal and uncertainty separate a positive lesion primary from unestablished symptom superiority. No HHD efficacy or exposure margin is inferred. BLU claim-mapping, zinc, SLC6A6 and HHD supplement searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -323,3 +323,11 @@ Retain the leading qualification project and 55 planning points. No new molecule
 | [Ruxolitinib 1.5% cream / HHD](rounds/round13/hhd-comparator-decision.md) | Final-versus-preprint main-text comparison, replication/identity reconciliation and optional comparator decision | Direct S1/S4 panels, magnitude and endpoint-specific counts remain uninspected; weak reported improvement does not qualify a complete-barrier control |
 
 Retain rank 3, 10 planning points and controlled clinical proof. Two versions are one project. No new molecule, exact-use screen, clinical recipient or proprietary asset is counted.
+
+## Round 14 existing-program audit
+
+| Existing program | Completed work | Remaining limit |
+|---|---|---|
+| [Ruxolitinib 1.5% cream / HHD](rounds/round14/hhd-clinical-claim-amendment.md) | Official controlled HS result/SAP audit; endpoint-specific counts, withdrawal and safety; seven claim decisions | Different disease; longitudinal-model contributor counts, implemented missingness strategy and full journal paper/supplement remain unrecovered |
+
+Retain rank 3, 10 planning points and controlled clinical proof. One external 69-person cohort adds no HHD-treated person, new screen or proprietary asset. Multiple reports are not independent replications.

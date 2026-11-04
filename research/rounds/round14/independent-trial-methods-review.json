@@ -1,0 +1,180 @@
+{
+  "schema_version": "ddiscov.round14.independent_trial_methods_review.v1",
+  "as_of": "2026-11-04",
+  "reviewer": "/root/round14_method_review",
+  "verdict": "pass_with_bounded_source_limits",
+  "scope": "Independent methods and source-transcription review of the Round 14 ruxolitinib cream HS audit; not a reconstruction of clinical analyses or a new HHD efficacy assessment.",
+  "reviewed_files": [
+    {
+      "path": "rux-hs-trial-evidence.md",
+      "work_file": "/workspace/scratch/57759abf62eb/round14_work/rux-hs-trial-evidence.md",
+      "bytes": 11642,
+      "sha256": "f25e32dec8af1502c78b5719ec64ea8d6c5ebd24a362011c6d4cba700be7f452"
+    },
+    {
+      "path": "rux-hs-trial-evidence.json",
+      "work_file": "/workspace/scratch/57759abf62eb/round14_work/rux-hs-trial-evidence.json",
+      "bytes": 36767,
+      "sha256": "5ef310260ae63b7d205417d77e699c7d6952b039d0613a56a59dcd45fef86e59"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "NCT05635838.json",
+      "work_file": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838.json",
+      "bytes": 52832,
+      "sha256": "d327438c18709f58cecc196664b6627f120b24a62bc2a089ec692263eb9a1364"
+    },
+    {
+      "path": "NCT05635838_SAP_001.pdf",
+      "work_file": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838_SAP_001.pdf",
+      "bytes": 588262,
+      "sha256": "b279504377875d7bca2c88ca273f59b5ac60b6ee6fdbc9c2ecc549a8ff2dea80"
+    }
+  ],
+  "source_checks": [
+    {
+      "source": "A1",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05635838/SAP_001.pdf",
+      "access": "Independently read public SAP text before reviewing authored files; subsequently verified the downloaded PDF hash and viewed actual local rendered page images.",
+      "locators": "Printed pp10-12,14-15,20-21,24-26,35-39",
+      "visual_checks": {
+        "printed_pages": [
+          24,
+          25,
+          26
+        ],
+        "physical_PDF_pages_1based": [
+          25,
+          26,
+          27
+        ],
+        "redactions_visible_on_printed_pages": [
+          24,
+          26
+        ],
+        "web_placeholder_images_used_as_visual_evidence": false,
+        "hidden_content_recovery_attempted": false
+      }
+    },
+    {
+      "source": "C1",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05635838",
+      "access": "Independently read root-downloaded exact official JSON, with matching bytes and SHA-256.",
+      "locators": [
+        "protocolSection.statusModule",
+        "protocolSection.designModule",
+        "protocolSection.eligibilityModule",
+        "documentSection",
+        "resultsSection.participantFlowModule",
+        "resultsSection.baselineCharacteristicsModule",
+        "resultsSection.outcomeMeasuresModule.outcomeMeasures[0..10]",
+        "resultsSection.adverseEventsModule"
+      ]
+    },
+    {
+      "source": "R1",
+      "url": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-data-phase-2-study-evaluating-ruxolitinib",
+      "access": "Independently read sponsor release dated 2024-03-10.",
+      "locators": "Primary result, secondary endpoint bullets, symptoms, adverse events and trial population paragraphs"
+    },
+    {
+      "source": "J1/J2",
+      "access": "Indexed journal excerpts were supplied by root and author; this reviewer did not independently read the full journal article, supplement or complete protocol. Main numerical result checks use C1 and R1."
+    }
+  ],
+  "checks": [
+    {
+      "id": "M01",
+      "status": "pass",
+      "finding": "Strict JSON parsing found no duplicate keys. Seventeen distinct result rows map to all eleven posted registry outcome objects, with source identities preserved."
+    },
+    {
+      "id": "M02",
+      "status": "pass",
+      "finding": "Randomized and safety arm counts are 34/35. Lesion endpoint displays use 24/32 and pain/itch displays 23/22. Full longitudinal model-contributing counts remain unknown; the audit does not substitute displayed N for those counts."
+    },
+    {
+      "id": "M03",
+      "status": "pass",
+      "finding": "Primary means, standard errors, reported difference -1.20, 95% interval [-2.21,-0.18] and P=.0215 match registry fields. The reported coefficient is preserved rather than replacing it with subtraction of rounded means."
+    },
+    {
+      "id": "M04",
+      "status": "pass",
+      "finding": "Adjusted pain, itch, IHS4 and pre-existing-area AN values, uncertainty and displayed denominators match the registry. Sponsor symptom/IHS4 figures remain separate and their unspecified estimators are not declared to be raw means."
+    },
+    {
+      "id": "M05",
+      "status": "pass",
+      "finding": "Responder percentages and directly reported denominators match source fields. Missing response numerators remain null; no percentage inversion or all-randomized nonresponder analysis is invented."
+    },
+    {
+      "id": "M06",
+      "status": "pass",
+      "finding": "Controlled-period flow is 34/35 started, 24/32 completed and 10/3 not completed. Extension flow is 24/32 started, 21/24 completed and 3/8 not completed. Every reported noncompletion reason reconciles to the period total; reasons are not assigned to individual missing outcomes."
+    },
+    {
+      "id": "M07",
+      "status": "pass",
+      "finding": "The SAP distinguishes randomized ITT, application-based safety, planned MMRM and exploratory alpha .10. The audit correctly notes that P=.0215 also meets .05; no HHD sample size follows."
+    },
+    {
+      "id": "M08",
+      "status": "pass",
+      "finding": "The seven-day symptom diary rule makes the visit score missing when at least four daily values are missing. No explicit MAR/MNAR, categorical imputation or sensitivity algorithm is inferred from the model name or redactions."
+    },
+    {
+      "id": "M09",
+      "status": "pass",
+      "finding": "MMRM narrative versus ANCOVA structured method fields remains unresolved for all five continuous outcomes. Planned SAP inclusion, available-data registry labels and verified implementation are kept distinct."
+    },
+    {
+      "id": "M10",
+      "status": "pass",
+      "finding": "DBVC TEAEs in 13/34 versus 15/35 participants and grade ≥3 events in 0/34 versus 2/35 are accurate. Extension safety uses 24/32 denominators with both groups on active treatment. Pooled serious-event totals of 2/66 active-exposed and 1/35 vehicle-exposed are not presented as a randomized safety comparison."
+    },
+    {
+      "id": "M11",
+      "status": "pass",
+      "finding": "The extension adds 16 weeks through week 32. Both origin groups receive active cream; the audit does not infer a continued active-versus-vehicle maintenance effect or drug-free durability."
+    },
+    {
+      "id": "M12",
+      "status": "pass",
+      "finding": "No HHD efficacy, exposure clearance, symptom failure, equivalence, new effect threshold or independent replication is claimed. Symptom intervals are interpreted as uncertain; overlapping lesion measures do not establish pain benefit."
+    }
+  ],
+  "review_cycle_updates": [
+    "The initial draft preceded successful recovery of the official registry JSON. Final files incorporate its actual denominators, confidence intervals, participant flow and safety windows.",
+    "Actual local page-image inspection replaced insufficient web screenshot placeholders before the visual redaction claim was accepted."
+  ],
+  "resolved_issues": [],
+  "open_material_issues": [],
+  "remaining_evidence_limits": [
+    "The exact participants and visits contributing to each fitted model, daily diary missingness, implemented imputation and missing-outcome sensitivity results remain unverified.",
+    "The SAP p25 parenthetical concerning new ANs in the pre-existing-area endpoint is potentially ambiguous. Registry outcome 2 explicitly includes new lesions in baseline-affected areas and excludes newly affected areas; R13 accurately attributes that scope to the registry. These SAP and registry descriptions are not independently reconciled.",
+    "Baseline symptom and BSA distributions, measured HS plasma exposure and detailed extension efficacy are not recovered.",
+    "The full manuscript, supplement, full protocol and individual-participant data were not independently reviewed; this verdict concerns the bounded audit and its stated source limits."
+  ],
+  "deterministic_verification": {
+    "all_result_row_values_checked_against_source": true,
+    "source_and_reviewed_file_hashes_checked": true,
+    "flow_milestones_and_reasons_reconciled": true,
+    "statistical_model_fit": false,
+    "statistical_reanalysis": false,
+    "imputation_performed": false,
+    "simulation_performed": false
+  },
+  "activity": {
+    "authored_evidence_files_modified": false,
+    "repository_modified": false,
+    "git_operations": false,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

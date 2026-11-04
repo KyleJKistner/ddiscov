@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 13 — HHD model and comparator audit](rounds/round13/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 14 — controlled HS evidence and HHD claim amendment](rounds/round14/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 
@@ -71,3 +71,7 @@ The [Round 12 package](rounds/round12/README.md) charts exact S-BLU3797 against 
 ## Round 13 bounded sprint — 4 November 2026
 
 The [Round 13 package](rounds/round13/README.md) compares two versions of one HHD model project. Main-text attachment evidence, clone scope and replication units refine the optional comparator decision for ruxolitinib. Direct supplement inspection remains incomplete, and no complete-barrier control or new ruxolitinib efficacy is established. Two independent reviews cover four authored evidence files. All 622 original rows and earlier round files remain intact; no new screen or allocation change is counted.
+
+## Round 14 bounded sprint — 4 November 2026
+
+The [Round 14 package](rounds/round14/README.md) recovers official results and the visible SAP for one 69-person randomized HS study of ruxolitinib 1.5% cream. Exact endpoint counts, withdrawal, uncertainty and phase-specific safety narrow what lesion and symptom claims the leading HHD program can make. Seventeen ledger rows and seven claim decisions retain rank 3 and 10 points; there is no new HHD efficacy, exposure margin or screen. Two independent reviews cover four authored files. All 622 original coverage rows and all earlier round-package files remain intact.

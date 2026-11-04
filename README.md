@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 13.** The bounded HHD model version audit adds a reported mechanical-cohesion phenotype and clarifies the limits of CDN1163 as an optional comparator. The final-publication author manuscript describes only weak attachment improvement; S1/S4 panels, effect sizes and endpoint-specific counts remain uninspected. Ruxolitinib's controlled clinical-proof priority stays at 10 points, with no mandatory model gate. The 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. BLU claim-mapping, zinc and SLC6A6 searches stay closed. Earlier packages are preserved; Round 12 is published at `f8d99f06f5a42e6cae0a65d183707917c6acb46d`.
+**Status: 4 November 2026, after Round 14.** The bounded ruxolitinib HS trial audit recovers official endpoint counts, withdrawal, uncertainty and phase-specific safety. The lesion-count primary result is positive, while pain and itch superiority remain unestablished. An explicit endpoint-to-claim amendment retains the HHD program at rank 3 and 10 points; HS supplies no HHD effect estimate or exposure clearance. The 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. BLU claim-mapping, zinc, SLC6A6 and HHD supplement searches stay closed. Earlier packages are preserved; Round 13 is published at `45fd75459d5415697e733197bbf5d6a2b21a210c`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 14 controlled HS evidence](research/rounds/round14/README.md) | Official results, endpoint-specific denominators, missingness and the HHD claim amendment. |
 | [Round 13 HHD comparator audit](research/rounds/round13/README.md) | Final-versus-preprint model evidence, endpoint-specific comparator decision and explicit supplement limits. |
 | [Round 12 BLU claim mapping](research/rounds/round12/README.md) | Exact published-formula mapping, counterarguments and national-publication limits. |
 | [Round 11 bounded evidence audit](research/rounds/round11/README.md) | Zinc analysis populations and missing-data method; SLC6A6 abstract retrieval and case-lineage limits. |
@@ -56,3 +57,7 @@ One existing leading program was reviewed: BLU3797/XLMTM. No new exact-use scree
 ## Round 13 accounting
 
 One existing leading program was reviewed: ruxolitinib 1.5% cream/HHD. Two versions of one model project were compared; they are not independent studies. No new exact-use screen, molecule, clinical recipient or allocation change is counted. The main-text audit is complete; direct supplement inspection remains incomplete. See the [bounded sprint record](research/rounds/round13/README.md).
+
+## Round 14 accounting
+
+One existing leader was reviewed through one randomized external-disease cohort: 69 people with HS, not HHD. The registry, sponsor release and journal abstract are reports of that same cohort. Seventeen factual ledger rows, six analysis-plan records and seven claim decisions add no new screen or HHD-treated person. Two independent reviews cover four authored files. See the [bounded sprint record](research/rounds/round14/README.md).

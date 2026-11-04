@@ -1,0 +1,157 @@
+{
+  "schema_version": "ddiscov.round14.independent_clinical_decision_review.v1",
+  "reviewer": "/root/round14_blu_triage",
+  "evidence_cut": "2026-11-04",
+  "base_commit": "45fd75459d5415697e733197bbf5d6a2b21a210c",
+  "candidate_id": "R6-NL-01",
+  "verdict": "pass_with_explicit_source_limits",
+  "scope": "Independent review of the HHD decision amendment, grounded in the official HS results, visible SAP and primary sponsor release. This is not a patient-level reanalysis or verification of implemented trial code.",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round14/hhd-clinical-claim-amendment.md",
+      "workspace_path": "/workspace/scratch/57759abf62eb/round14_work/hhd-clinical-claim-amendment.md",
+      "bytes": 14303,
+      "sha256": "5debec15cd6e0b235c7cd91379d462128f639821efe702777b3627d3744791f6"
+    },
+    {
+      "path": "research/rounds/round14/hhd-clinical-claim-amendment.json",
+      "workspace_path": "/workspace/scratch/57759abf62eb/round14_work/hhd-clinical-claim-amendment.json",
+      "bytes": 12378,
+      "sha256": "2d75912a516e18c43b3039f641b096e426a8059af74ccd41687be52071098690"
+    }
+  ],
+  "independence": "The reviewer read the sponsor report and controlling Round 7/10 documents before the authored amendment, then independently inspected the complete registry results module and relevant SAP text and rendered pages. The final claim files were checked against those sources.",
+  "checks": [
+    {
+      "id": "D01",
+      "result": "pass",
+      "finding": "HS activity is kept distinct from HHD efficacy, ATP2C1 correction, HHD patient counts and an HHD response probability."
+    },
+    {
+      "id": "D02",
+      "result": "pass",
+      "finding": "All five continuous-outcome rows match registry displayed counts, arm LS means, reported contrasts, 95% intervals and P values. The primary reported difference remains -1.20 rather than subtraction of rounded means."
+    },
+    {
+      "id": "D03",
+      "result": "pass",
+      "finding": "Pain and itch uncertainty is interpreted as lack of demonstrated superiority, not equivalence, proven harm or established absence of benefit."
+    },
+    {
+      "id": "D04",
+      "result": "pass",
+      "finding": "Randomized 34/35, lesion display N24/32 and symptom display N23/22 remain distinct. The table counts are not asserted to identify everyone who contributed earlier data to MMRM."
+    },
+    {
+      "id": "D05",
+      "result": "pass",
+      "finding": "No categorical responder numerators or nonresponder-imputation rule are invented from the rounded percentages. Overlapping lesion outcomes are not counted as independent replications."
+    },
+    {
+      "id": "D06",
+      "result": "pass",
+      "finding": "Registry MMRM description and ANCOVA field, planned ITT analysis and observed-data reporting remain separate. The implementation and informative-missingness robustness are not claimed verified."
+    },
+    {
+      "id": "D07",
+      "result": "pass",
+      "finding": "Visible SAP supports all-randomized planned primary analysis, unstructured MMRM covariance, two-sided alpha0.1, approximate60-person sample without power calculation, and the four-of-seven diary requirement. None is imported into HHD as a validated rule."
+    },
+    {
+      "id": "D08",
+      "result": "pass",
+      "finding": "Sponsor and registry symptom/IHS4 values are preserved separately. An unverified raw-versus-adjusted explanation or numerical averaging is not used."
+    },
+    {
+      "id": "D09",
+      "result": "pass",
+      "finding": "The extension is correctly limited to eligible week16 completers without safety concerns; both groups receive active cream. It does not establish vehicle-controlled maintenance or drug-free durability. A possible original-allocation strategy interpretation is qualified rather than erased."
+    },
+    {
+      "id": "D10",
+      "result": "pass",
+      "finding": "DBVC and OLE any-TEAE and grade>=3 counts match the registry. Severity is distinguished from serious-event status, and pooled active exposure includes crossover recipients rather than independent randomized groups."
+    },
+    {
+      "id": "D11",
+      "result": "pass",
+      "finding": "Sparse HS safety counts do not establish causal drug harm, comparative long-term risk or an HHD exposure margin. Safety follow-up windows remain visible."
+    },
+    {
+      "id": "D12",
+      "result": "pass",
+      "finding": "The vehicle comparison does not establish this project's control supply or superiority to HHD active care. Existing matched-vehicle or protocolized whole-product add-on alternatives are retained."
+    },
+    {
+      "id": "D13",
+      "result": "pass",
+      "finding": "The seven-row claim map adds an explicit evidence-to-claim interpretation while acknowledging that controlled proof, clinical relevance, missingness and maintenance safeguards already governed Round7."
+    },
+    {
+      "id": "D14",
+      "result": "pass",
+      "finding": "Rank3,10 points, HHD primary-outcome alternatives, duration assumptions, advancement rules and optional-model scope remain unchanged; no new power, threshold, S-tier or asset promotion is introduced."
+    },
+    {
+      "id": "D15",
+      "result": "pass",
+      "finding": "The work is literature interpretation and integrity checking; it neither performs nor authorizes clinical or model execution. Closed retrieval lanes remain closed."
+    }
+  ],
+  "primary_source_snapshots_verified": [
+    {
+      "workspace_path": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838.json",
+      "bytes": 52832,
+      "sha256": "d327438c18709f58cecc196664b6627f120b24a62bc2a089ec692263eb9a1364"
+    },
+    {
+      "workspace_path": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838_SAP_001.pdf",
+      "bytes": 588262,
+      "sha256": "b279504377875d7bca2c88ca273f59b5ac60b6ee6fdbc9c2ecc549a8ff2dea80"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05635838",
+      "scope": "Complete local official JSON results module, study flow, analysis fields and safety groups read; hash verified."
+    },
+    {
+      "url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05635838/SAP_001.pdf",
+      "scope": "Visible primary-analysis, sample-size and symptom-diary text read. Rendered printed pages24-25 viewed. No redacted content reconstructed."
+    },
+    {
+      "url": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-data-phase-2-study-evaluating-ruxolitinib",
+      "scope": "10March2024 sponsor report independently read through primary web source; retrieval reference turn227view0."
+    },
+    {
+      "repository_path": "research/rounds/round7/rux_hhd_development_proof.md",
+      "scope": "Controlling clinical claim, estimand, comparator and advance/stop requirements."
+    },
+    {
+      "repository_path": "research/rounds/round7/rux_hhd_clinical.md",
+      "scope": "HHD case accounting and clinical evidence limits."
+    },
+    {
+      "repository_path": "research/rounds/round10/hhd-active-care-comparator.md",
+      "scope": "Existing active-care interpretation and whole-product fallback."
+    }
+  ],
+  "source_limits": [
+    "The reviewer's fresh PubMed open returned a footer; the complete journal article and supplement were not independently read. Registry-supported conclusions do not depend on adjudicating the article's full safety presentation.",
+    "The SAP pre-existing-AN endpoint paragraph contains an ambiguous parenthetical about new AN; the registry clearly defines baseline-affected anatomical areas. The decision explicitly follows the registry definition and does not claim implemented analysis verification. The methods reviewer separately records this wording limit.",
+    "Phase3 design and sponsor forecast links are context, not completed outcomes or HHD validation. They were not independently re-retrieved by this decision reviewer.",
+    "No individual data, analytic code, hidden redactions, exact model-contributor count or validated HHD meaningful-change threshold were recovered by this review."
+  ],
+  "open_issues": [],
+  "resolved_issues": [],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "git_operations": false,
+    "authored_file_edits": false
+  }
+}

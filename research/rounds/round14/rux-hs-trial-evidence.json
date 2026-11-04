@@ -1,0 +1,1026 @@
+{
+  "schema_version": "ddiscov.round14.rux_hs_trial_evidence.v1",
+  "evidence_cut": "2026-11-04",
+  "base_commit": "45fd75459d5415697e733197bbf5d6a2b21a210c",
+  "existing_candidate_id": "R6-NL-01",
+  "existing_candidate_disease": "Hailey-Hailey disease",
+  "audited_trial": {
+    "nct_id": "NCT05635838",
+    "sponsor_protocol": "INCB 18424-221",
+    "EudraCT_id_from_indexed_primary_methods": "2022-002662-33",
+    "journal_PMID": "41248765",
+    "journal_PII": "S0190962225032359",
+    "disease": "Hidradenitis suppurativa",
+    "article": "Ruxolitinib 1.5% cream versus vehicle, twice daily during the controlled period",
+    "one_cohort_across_reports": true,
+    "independent_replications_from_release_and_paper": 0,
+    "new_HHD_clinical_outcomes": 0,
+    "new_candidate_screen": false
+  },
+  "population_and_timing": {
+    "actual_randomized_total_reported": 69,
+    "actual_randomized_arm_counts": {
+      "ruxolitinib": 34,
+      "vehicle": 35
+    },
+    "actual_safety_population_counts": {
+      "ruxolitinib": 34,
+      "vehicle": 35
+    },
+    "actual_OLE_entry_counts": {
+      "ruxolitinib_origin": 24,
+      "vehicle_origin": 32
+    },
+    "actual_participant_flow_recovered": true,
+    "entry_population": "Adults with Hurley I/II HS, AN count 3-10 and no draining tunnels",
+    "indexed_primary_methods_additional_criteria": {
+      "pain_or_itch_NRS_minimum": 1,
+      "affected_BSA_maximum_percent": 20
+    },
+    "actual_baseline_pain_values": null,
+    "actual_baseline_itch_values": null,
+    "actual_baseline_BSA_distribution": null,
+    "sponsor_description_of_baseline_symptoms": "Not high; exact values not supplied in the release",
+    "randomization_ratio_planned": "1:1",
+    "strata_planned": "Baseline AN count 3-4 versus 5-10",
+    "controlled_period_weeks": 16,
+    "OLE_duration_weeks": 16,
+    "OLE_end_week": 32,
+    "OLE_entry_rule_in_SAP": "Protocol compliance and absence of safety concerns",
+    "OLE_treatment": "All entering participants receive active cream; journal abstract describes as-needed use",
+    "OLE_continued_randomized_active_vehicle_contrast": false,
+    "measured_HS_plasma_PK_recovered": false,
+    "HHD_exposure_boundary_established": false,
+    "actual_week16_endpoint_display_counts": {
+      "AN_and_categorical_lesion_endpoints": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "pain_and_itch": {
+        "ruxolitinib": 23,
+        "vehicle": 22
+      }
+    },
+    "full_longitudinal_model_contributing_counts": null,
+    "actual_baseline_demographics_recovered": true,
+    "source_for_actual_counts": "C1: participantFlowModule, baselineCharacteristicsModule and outcomeMeasuresModule"
+  },
+  "result_ledger": [
+    {
+      "id": "R01",
+      "endpoint": "Change from baseline in AN count",
+      "time": "Week 16",
+      "statistic": "Least-squares mean change reported in official registry",
+      "ruxolitinib": -3.61,
+      "vehicle": -2.42,
+      "P_value_indexed_journal_abstract": 0.0215,
+      "P_value_sponsor_release": "<0.05",
+      "confidence_interval": {
+        "percent": 95,
+        "lower": -2.21,
+        "upper": -0.18
+      },
+      "sources": [
+        "C1",
+        "R1",
+        "J1"
+      ],
+      "interpretation": "Reported controlled AN-count benefit in HS; not an HHD treatment-effect estimate",
+      "standard_errors": {
+        "ruxolitinib": 0.378,
+        "vehicle": 0.336
+      },
+      "endpoint_display_denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "full_longitudinal_model_contributing_population_counts": null,
+      "registry_population_label": "ITT; participants with available observations analyzed",
+      "reported_treatment_difference": -1.2,
+      "difference_direction": "ruxolitinib minus vehicle",
+      "P_value": 0.0215,
+      "difference_standard_error": 0.506,
+      "registry_description_model": "MMRM",
+      "registry_statistical_method_field": "ANCOVA",
+      "model_label_discrepancy_resolved": false,
+      "source": "C1",
+      "registry_outcome_index": 0
+    },
+    {
+      "id": "R02",
+      "endpoint": "AN50",
+      "time": "Week 16",
+      "statistic": "Percentage",
+      "ruxolitinib": 79.2,
+      "vehicle": 56.3,
+      "analysis_population_label": "Registry ITT, available observations; sponsor separately labels on-treatment",
+      "numerators": null,
+      "denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "confidence_interval": null,
+      "source": "C1 and R1",
+      "registry_outcome_index": 1
+    },
+    {
+      "id": "R03",
+      "endpoint": "AN75",
+      "time": "Week 16",
+      "statistic": "Percentage",
+      "ruxolitinib": 54.2,
+      "vehicle": 25.0,
+      "analysis_population_label": "Registry ITT, available observations; sponsor separately labels on-treatment",
+      "numerators": null,
+      "denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "confidence_interval": null,
+      "source": "C1 and R1",
+      "registry_outcome_index": 1
+    },
+    {
+      "id": "R04",
+      "endpoint": "AN90",
+      "time": "Week 16",
+      "statistic": "Percentage",
+      "ruxolitinib": 20.8,
+      "vehicle": 12.5,
+      "analysis_population_label": "Registry ITT, available observations; sponsor separately labels on-treatment",
+      "numerators": null,
+      "denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "confidence_interval": null,
+      "source": "C1 and R1",
+      "registry_outcome_index": 1
+    },
+    {
+      "id": "R05",
+      "endpoint": "AN100",
+      "time": "Week 16",
+      "statistic": "Percentage",
+      "ruxolitinib": 20.8,
+      "vehicle": 12.5,
+      "analysis_population_label": "Registry ITT, available observations; sponsor separately labels on-treatment",
+      "numerators": null,
+      "denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "confidence_interval": null,
+      "source": "C1 and R1",
+      "registry_outcome_index": 1
+    },
+    {
+      "id": "R06",
+      "endpoint": "HiSCR",
+      "time": "Week 16",
+      "statistic": "Percentage",
+      "ruxolitinib": 79.2,
+      "vehicle": 50.0,
+      "analysis_population_label": "Registry ITT, available observations",
+      "population_scope_note": "Registry explicitly supplies population and denominators. The sponsor HiSCR sentence does not independently label the population; no label is borrowed from the AN50 sentence.",
+      "numerators": null,
+      "denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "confidence_interval": null,
+      "source": "C1 and R1",
+      "registry_outcome_index": 5
+    },
+    {
+      "id": "R07",
+      "endpoint": "Skin Pain NRS change from baseline",
+      "time": "Week 16",
+      "statistic": "Least-squares mean change reported in official registry",
+      "ruxolitinib": -1.9,
+      "vehicle": -2.09,
+      "confidence_interval": {
+        "percent": 95,
+        "lower": -1.27,
+        "upper": 1.64
+      },
+      "P_value": 0.7982,
+      "source": "C1",
+      "interpretation": "Adjusted point estimate numerically favors vehicle; interval includes benefit and disadvantage. No symptom superiority, equivalence, or treatment-caused worsening established.",
+      "standard_errors": {
+        "ruxolitinib": 0.532,
+        "vehicle": 0.497
+      },
+      "endpoint_display_denominators": {
+        "ruxolitinib": 23,
+        "vehicle": 22
+      },
+      "full_longitudinal_model_contributing_population_counts": null,
+      "registry_population_label": "ITT; participants with available observations analyzed",
+      "reported_treatment_difference": 0.19,
+      "difference_direction": "ruxolitinib minus vehicle",
+      "difference_standard_error": 0.728,
+      "registry_description_model": "MMRM",
+      "registry_statistical_method_field": "ANCOVA",
+      "model_label_discrepancy_resolved": false,
+      "registry_outcome_index": 3,
+      "sponsor_reported_change": {
+        "ruxolitinib": -1.85,
+        "vehicle": -2.61,
+        "statistic": "Reported change; exact estimator not identified in release",
+        "source": "R1",
+        "endpoint_denominators": null,
+        "confidence_interval": null,
+        "P_value": null,
+        "note": "Exact sponsor estimator/analysis population is not resolved. Do not replace registry-adjusted changes with these values or assume an error."
+      }
+    },
+    {
+      "id": "R08",
+      "endpoint": "Itch NRS change from baseline",
+      "time": "Week 16",
+      "statistic": "Least-squares mean change reported in official registry",
+      "ruxolitinib": -1.45,
+      "vehicle": -2.39,
+      "confidence_interval": {
+        "percent": 95,
+        "lower": -0.52,
+        "upper": 2.4
+      },
+      "P_value": 0.2031,
+      "source": "C1",
+      "interpretation": "Adjusted point estimate numerically favors vehicle; interval includes benefit and disadvantage. No symptom superiority, equivalence, or treatment-caused worsening established.",
+      "standard_errors": {
+        "ruxolitinib": 0.538,
+        "vehicle": 0.493
+      },
+      "endpoint_display_denominators": {
+        "ruxolitinib": 23,
+        "vehicle": 22
+      },
+      "full_longitudinal_model_contributing_population_counts": null,
+      "registry_population_label": "ITT; participants with available observations analyzed",
+      "reported_treatment_difference": 0.94,
+      "difference_direction": "ruxolitinib minus vehicle",
+      "difference_standard_error": 0.73,
+      "registry_description_model": "MMRM",
+      "registry_statistical_method_field": "ANCOVA",
+      "model_label_discrepancy_resolved": false,
+      "registry_outcome_index": 4,
+      "sponsor_reported_change": {
+        "ruxolitinib": -1.42,
+        "vehicle": -2.75,
+        "statistic": "Reported change; exact estimator not identified in release",
+        "source": "R1",
+        "endpoint_denominators": null,
+        "confidence_interval": null,
+        "P_value": null,
+        "note": "Exact sponsor estimator/analysis population is not resolved. Do not replace registry-adjusted changes with these values or assume an error."
+      }
+    },
+    {
+      "id": "R09",
+      "endpoint": "IHS4 change from baseline",
+      "time": "Week 16",
+      "statistic": "Least-squares mean change reported in official registry",
+      "ruxolitinib": -3.58,
+      "vehicle": -2.76,
+      "confidence_interval": {
+        "percent": 95,
+        "lower": -2.2,
+        "upper": 0.56
+      },
+      "P_value": 0.2387,
+      "source": "C1",
+      "standard_errors": {
+        "ruxolitinib": 0.505,
+        "vehicle": 0.459
+      },
+      "endpoint_display_denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "full_longitudinal_model_contributing_population_counts": null,
+      "registry_population_label": "ITT; participants with available observations analyzed",
+      "reported_treatment_difference": -0.82,
+      "difference_direction": "ruxolitinib minus vehicle",
+      "difference_standard_error": 0.683,
+      "registry_description_model": "MMRM",
+      "registry_statistical_method_field": "ANCOVA",
+      "model_label_discrepancy_resolved": false,
+      "registry_outcome_index": 6,
+      "sponsor_reported_change": {
+        "ruxolitinib": -4.46,
+        "vehicle": -2.66,
+        "statistic": "Mean change as labelled by sponsor",
+        "source": "R1",
+        "endpoint_denominators": null,
+        "confidence_interval": null,
+        "P_value": null,
+        "note": "Exact sponsor estimator/analysis population is not resolved. Do not replace registry-adjusted changes with these values or assume an error."
+      },
+      "interpretation": "Adjusted IHS4 estimate favors active numerically but interval includes zero; sponsor mean changes are a separate statistic."
+    },
+    {
+      "id": "R10",
+      "endpoint": "Participants with TEAEs",
+      "time": "DBVC period, through week 16 plus 30 days",
+      "statistic": "Explicit participant count and denominator in registry; sponsor percentages retained",
+      "ruxolitinib": 38.2,
+      "vehicle": 42.9,
+      "actual_safety_denominators": {
+        "ruxolitinib": 34,
+        "vehicle": 35
+      },
+      "event_numerators": {
+        "ruxolitinib": 13,
+        "vehicle": 15
+      },
+      "source": "C1 and R1",
+      "interpretation": "No rare-event safety exclusion or HHD erosion-exposure inference",
+      "registry_outcome_index": 7
+    },
+    {
+      "id": "R11",
+      "endpoint": "Discontinuation due to TEAEs",
+      "statistic": "Explicit participant count and percentage",
+      "ruxolitinib_count": 2,
+      "vehicle_count": 0,
+      "ruxolitinib_percent": 5.9,
+      "vehicle_percent": 0,
+      "denominators": {
+        "ruxolitinib": 34,
+        "vehicle": 35
+      },
+      "source": "R1; C1 participant flow supplies corresponding adverse-event noncompletion counts and arm totals",
+      "interpretation": "TEAE-related discontinuations are not total participant dropouts"
+    },
+    {
+      "id": "R12",
+      "endpoint": "Serious TEAEs",
+      "ruxolitinib_report": "None reported",
+      "vehicle_report": null,
+      "denominators": null,
+      "source": "R1",
+      "interpretation": "Sponsor controlled-period statement; do not replace its scope with the later pooled active-exposure registry table. Vehicle serious-event data are recorded separately in R17."
+    },
+    {
+      "id": "R13",
+      "endpoint": "AN count in anatomical areas with pre-existing ANs",
+      "time": "Week 16",
+      "scope": "Includes new lesions in baseline-affected anatomical areas, excludes lesions in areas initially free of ANs",
+      "statistic": "Least-squares mean change reported in official registry",
+      "ruxolitinib": -3.85,
+      "vehicle": -3.17,
+      "standard_errors": {
+        "ruxolitinib": 0.362,
+        "vehicle": 0.323
+      },
+      "endpoint_display_denominators": {
+        "ruxolitinib": 24,
+        "vehicle": 32
+      },
+      "full_longitudinal_model_contributing_population_counts": null,
+      "registry_population_label": "ITT; participants with available observations analyzed",
+      "reported_treatment_difference": -0.68,
+      "difference_direction": "ruxolitinib minus vehicle",
+      "confidence_interval": {
+        "percent": 95,
+        "lower": -1.65,
+        "upper": 0.29
+      },
+      "P_value": 0.1671,
+      "difference_standard_error": 0.485,
+      "registry_description_model": "MMRM",
+      "registry_statistical_method_field": "ANCOVA",
+      "model_label_discrepancy_resolved": false,
+      "source": "C1",
+      "registry_outcome_index": 2
+    },
+    {
+      "id": "R14",
+      "endpoint": "Grade 3 or higher TEAE",
+      "time": "DBVC, through week 16 plus 30 days",
+      "statistic": "Participants affected",
+      "ruxolitinib_origin_count": 0,
+      "vehicle_origin_count": 2,
+      "denominators": {
+        "ruxolitinib_origin": 34,
+        "vehicle_origin": 35
+      },
+      "source": "C1",
+      "registry_outcome_index": 8,
+      "both_groups_on_active_treatment": false
+    },
+    {
+      "id": "R15",
+      "endpoint": "Any TEAE",
+      "time": "OLE, week 17 through week 32 plus 30 days",
+      "statistic": "Participants affected",
+      "ruxolitinib_origin_count": 8,
+      "vehicle_origin_count": 15,
+      "denominators": {
+        "ruxolitinib_origin": 24,
+        "vehicle_origin": 32
+      },
+      "source": "C1",
+      "registry_outcome_index": 9,
+      "both_groups_on_active_treatment": true,
+      "interpretation": "Selected extension entrants, all on active cream; not a randomized active-versus-vehicle comparison."
+    },
+    {
+      "id": "R16",
+      "endpoint": "Grade 3 or higher TEAE",
+      "time": "OLE, week 17 through week 32 plus 30 days",
+      "statistic": "Participants affected",
+      "ruxolitinib_origin_count": 0,
+      "vehicle_origin_count": 3,
+      "denominators": {
+        "ruxolitinib_origin": 24,
+        "vehicle_origin": 32
+      },
+      "source": "C1",
+      "registry_outcome_index": 10,
+      "both_groups_on_active_treatment": true,
+      "interpretation": "Selected extension entrants, all on active cream; not a randomized active-versus-vehicle comparison."
+    },
+    {
+      "id": "R17",
+      "endpoint": "Serious adverse events, pooled exposure table",
+      "time": "up to Week 32 plus 30 days",
+      "active_exposed": {
+        "participants_affected": 2,
+        "participants_at_risk": 66,
+        "deaths": 0
+      },
+      "vehicle_exposed": {
+        "participants_affected": 1,
+        "participants_at_risk": 35,
+        "deaths": 0
+      },
+      "active_exposure_combines_original_active_and_crossover": true,
+      "crossover_participants_appear_in_both_groups": true,
+      "randomized_parallel_safety_comparison": false,
+      "source": "C1: resultsSection.adverseEventsModule",
+      "reported_serious_event_terms": {
+        "active_exposed": [
+          "Acute kidney injury",
+          "Atelectasis",
+          "Crohn's disease",
+          "Systemic lupus erythematosus"
+        ],
+        "vehicle_exposed": [
+          "Diabetic ketoacidosis"
+        ]
+      },
+      "interpretation": "Events can co-occur in a participant; event terms must not be counted as separate affected participants. No causal attribution or rare-risk exclusion is established."
+    }
+  ],
+  "planned_analysis_records": [
+    {
+      "id": "A01",
+      "topic": "Population definitions",
+      "source": "A1",
+      "printed_pages": [
+        14,
+        15
+      ],
+      "sections": [
+        "5.2",
+        "5.3.1",
+        "5.3.2",
+        "5.3.2.1"
+      ],
+      "planned_ITT": "All randomized participants, by randomized treatment",
+      "planned_safety": "Participants with at least one application, by actual treatment",
+      "planned_OLE_safety": "Participants with at least one active-cream application in OLE",
+      "actual_counts_proven_by_plan": false
+    },
+    {
+      "id": "A02",
+      "topic": "Primary estimand and model",
+      "source": "A1",
+      "printed_pages": [
+        24
+      ],
+      "sections": [
+        "7.3.1",
+        "Table 3"
+      ],
+      "population_level_summary": "Mean change in AN count at week 16",
+      "model": "MMRM",
+      "fixed_effects": [
+        "treatment",
+        "baseline AN-count stratum",
+        "visit",
+        "treatment-by-visit interaction"
+      ],
+      "within_participant_covariance": "Unstructured",
+      "missingness_and_discontinuation_scope": "Table 3 intends inclusion of randomized participants despite missing week-16 data or treatment/study discontinuation",
+      "no_rescue_or_switch_clause": "Footnote to week-16 primary analysis; do not apply it to the explicitly planned OLE crossover",
+      "explicit_MAR_MNAR_assumption_recovered": false,
+      "implementation_verified": false,
+      "interpretation": "Planned ITT inclusion does not provide missing observations or prove robustness to informative dropout. No model was fitted or simulated by this audit.",
+      "reported_model_description": "Registry describes MMRM with the same fixed-effect structure but method field says ANCOVA; full implementation remains unresolved"
+    },
+    {
+      "id": "A03",
+      "topic": "Error level and sample-size purpose",
+      "source": "A1",
+      "printed_pages": [
+        10,
+        11,
+        24
+      ],
+      "sections": [
+        "3.2",
+        "3.3",
+        "7.3.1"
+      ],
+      "primary_two_sided_alpha": 0.1,
+      "approximate_planned_sample": 60,
+      "formal_power_calculation_used": false,
+      "purpose": "Preliminary clinical response and initial safety evaluation",
+      "interpretation": "Exploratory design; the reported primary P=.0215 also falls below .05. No HHD sample size or effect threshold is derived."
+    },
+    {
+      "id": "A04",
+      "topic": "Pain and itch diary score construction",
+      "source": "A1",
+      "printed_pages": [
+        20,
+        21
+      ],
+      "sections": [
+        "7.2.4.1",
+        "7.2.4.2"
+      ],
+      "by_visit_baseline": "Average of daily scores on days -7 through -1",
+      "by_visit_follow_up": "Average of seven daily scores preceding the visit",
+      "missing_visit_score_rule": "Set visit score missing if at least four of seven daily scores are absent",
+      "daily_analysis_baseline": "Last available daily score during days -7 through -1",
+      "actual_missing_score_counts": null,
+      "interpretation": "This specifies aggregation and missing-score construction, not an endpoint-level imputation or dropout sensitivity analysis."
+    },
+    {
+      "id": "A05",
+      "topic": "Secondary endpoint analyses and public-document limits",
+      "source": "A1",
+      "printed_pages": [
+        25,
+        26
+      ],
+      "sections": [
+        "7.4",
+        "7.4.1",
+        "7.4.2"
+      ],
+      "planned_population": "ITT",
+      "continuous_endpoints": "Descriptive summaries; analogous MMRM may be fitted",
+      "categorical_endpoints": "Visible text specifies counts and percentages for AN50/75/90/100 and HiSCR",
+      "categorical_imputation_rule_recovered": false,
+      "missing_outcome_sensitivity_algorithm_recovered": false,
+      "redacted_text_present": true,
+      "hidden_text_recovery_attempted": false,
+      "interpretation": "Visible public plan and actual registry available-data labels are kept separate. A categorical missing-equals-failure strategy is not established."
+    },
+    {
+      "id": "A06",
+      "topic": "Extension selection, treatment and baseline",
+      "source": "A1",
+      "printed_pages": [
+        10,
+        12
+      ],
+      "sections": [
+        "3",
+        "4.1.3"
+      ],
+      "entry_criteria": "Protocol compliance and no safety concerns",
+      "treatment": "Both original arms receive active cream in the extension",
+      "OLE_efficacy_baseline": "Original controlled-period baseline",
+      "OLE_safety_baseline": "Before first active-cream application in the study",
+      "interpretation": "Extension observations are not a continued randomized vehicle comparison; entry and follow-up selection require actual denominators."
+    }
+  ],
+  "sources": [
+    {
+      "id": "A1",
+      "title": "INCB 18424-221 Statistical Analysis Plan",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05635838/SAP_001.pdf",
+      "version": "Original",
+      "document_date": "2023-09-12",
+      "underlying_protocol_date": "2022-08-19",
+      "CRF_approval_date": "2023-08-14",
+      "number_of_PDF_pages": 42,
+      "number_of_printed_pages": 41,
+      "page_mapping": "One unnumbered cover precedes printed page 1; physical PDF page = printed page + 1",
+      "local_source_path": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838_SAP_001.pdf",
+      "bytes": 588262,
+      "sha256": "b279504377875d7bca2c88ca273f59b5ac60b6ee6fdbc9c2ecc549a8ff2dea80",
+      "access": "Official public PDF text recovered; local exact PDF hash checked; rendered printed pages 24-26 independently viewed",
+      "visual_physical_pages_1based": [
+        25,
+        26,
+        27
+      ],
+      "visible_redaction_blocks": "Printed pages 24 and 26",
+      "earlier_web_screenshots_sufficient_for_visual_inspection": false,
+      "hidden_or_redacted_content_recovery_attempted": false,
+      "finalization_before_database_lock_verified": false,
+      "prospective_public_registration_of_this_version_verified": false,
+      "implemented_analysis_verified": false,
+      "retrieval_refs": [
+        "turn228view1",
+        "turn229view0",
+        "turn230view0"
+      ],
+      "registry_recorded_upload_timestamp": "2024-10-04T14:44"
+    },
+    {
+      "id": "R1",
+      "title": "Incyte Announces New Data from Phase 2 Study Evaluating Ruxolitinib Cream (Opzelura) in Patients with Mild-to-Moderate Hidradenitis Suppurativa",
+      "url": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-data-phase-2-study-evaluating-ruxolitinib",
+      "date": "2024-03-10",
+      "access": "Primary sponsor release directly read",
+      "locators": "Primary result paragraph; secondary endpoint bullets; symptom, TEAE and About the Phase 2 Study paragraphs",
+      "retrieval_ref": "turn233view0",
+      "lineage": "NCT05635838, same cohort as journal report"
+    },
+    {
+      "id": "J1",
+      "title": "Efficacy and safety of ruxolitinib cream in patients with mild to moderate hidradenitis suppurativa: Results from a randomized, double-blind, vehicle-controlled phase 2 study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41248765/",
+      "PMID": "41248765",
+      "access": "Indexed primary abstract passages; direct PubMed page returned an incomplete rendering",
+      "verified_fields": [
+        "69 randomized",
+        "primary AN-count LS mean changes",
+        "P=.0215",
+        "16-week controlled treatment followed by as-needed active use through week 32"
+      ],
+      "retrieval_ref": "turn225search4",
+      "full_manuscript_read": false,
+      "lineage": "NCT05635838, same cohort as sponsor release"
+    },
+    {
+      "id": "J2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0190962225032359",
+      "access": "Indexed primary Methods excerpt; direct full-article request returned 403",
+      "locator": "Patients and study design",
+      "verified_fields": [
+        "adult population",
+        "Hurley I/II",
+        "AN count 3-10",
+        "no draining tunnels",
+        "pain or itch NRS at least 1",
+        "affected BSA at most 20%",
+        "baseline AN stratification"
+      ],
+      "retrieval_ref": "turn225search3",
+      "full_manuscript_read": false,
+      "supplement_read": false,
+      "lineage": "Same journal report and trial as J1"
+    },
+    {
+      "id": "P1",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05635838/Prot_000.pdf",
+      "access": "Official link identified and protocol metadata/date/upload verified in C1; full protocol document not independently read",
+      "full_document_read": false,
+      "retrieval_ref": "turn225search9",
+      "document_date": "2022-08-19",
+      "registry_recorded_upload_timestamp": "2024-10-04T14:44"
+    },
+    {
+      "id": "C1",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05635838",
+      "access": "Exact official API JSON downloaded by root using an ordinary request and independently read locally; earlier retrieval-tool failure resolved",
+      "results_tables_read": true,
+      "retrieval_ref": "turn225view0",
+      "local_source_path": "/workspace/scratch/57759abf62eb/round14_work/NCT05635838.json",
+      "bytes": 52832,
+      "sha256": "d327438c18709f58cecc196664b6627f120b24a62bc2a089ec692263eb9a1364",
+      "results_first_post_date": "2024-11-01",
+      "last_update_post_date": "2024-11-01",
+      "results_first_submit_date": "2024-10-04",
+      "all_posted_outcome_objects_read": 11,
+      "modules_audited": [
+        "participantFlowModule",
+        "baselineCharacteristicsModule",
+        "outcomeMeasuresModule",
+        "adverseEventsModule"
+      ],
+      "other_fields_read": [
+        "statusModule",
+        "designModule",
+        "eligibilityModule",
+        "documentSection"
+      ],
+      "individual_participant_data_read": false,
+      "retrieval_ref_note": "turn225view0 documents the earlier failed retrieval, not the successfully downloaded content"
+    },
+    {
+      "id": "B1",
+      "repository_path": "research/rounds/round7/rux_hhd_development_proof.md",
+      "role": "Existing HHD clinical-proof decision, not new clinical data"
+    }
+  ],
+  "development_inference": {
+    "owner": "Round 14 audit",
+    "retain_controlled_HHD_clinical_proof": true,
+    "new_HHD_efficacy_established": false,
+    "HHD_pain_effect_transferred_from_HS": false,
+    "lesion_change_treated_as_proof_of_pain_benefit": false,
+    "symptom_worsening_or_equivalence_established": false,
+    "new_HHD_sample_size_or_effect_threshold": false,
+    "consequence": "Keep intended patient-important outcomes independently interpretable, with sufficient baseline range and an explicit interpretation of endpoint availability and missingness. Use lesion, pain, rescue and burden evidence according to the claim actually supported.",
+    "limits": "The HS result cannot reject HHD efficacy, establish an HHD systemic exposure window, or require superiority on every secondary outcome."
+  },
+  "unresolved": [
+    "Baseline pain, itch and BSA distributions; sponsor explanation of low baseline symptoms",
+    "Exact daily missingness, full model-contributing participants/visits and mapping of dropout reasons to endpoint absence",
+    "MMRM description versus ANCOVA statistical-method field, full implemented imputation and sensitivity analyses",
+    "Response numerators not directly reported; no inference from rounded percentages",
+    "Full journal manuscript and detailed extension efficacy results",
+    "Measured HS systemic drug exposure and transfer to HHD erosions"
+  ],
+  "closeout": {
+    "bounded_pass_complete": true,
+    "rounding_inversion_used_for_counts": false,
+    "new_Mendeley_or_HHD_model_supplement_chase": false,
+    "closed_searches_preserved": [
+      "BLU claim mapping",
+      "zinc",
+      "SLC6A6",
+      "HHD model supplement"
+    ],
+    "reopen_for": "A new readable primary source that resolves named baseline, missing-data, model-implementation, extension-efficacy or PK fields. Phase 3 outcomes are a separate evidence event; no further retrieval chase in this sprint.",
+    "posted_registry_results_audit_complete": true,
+    "full_manuscript_audit_complete": false
+  },
+  "verification": {
+    "result_ledger_rows": 17,
+    "planned_analysis_rows": 6,
+    "source_PDF_identity_checked": true,
+    "planned_actual_distinction_retained": true,
+    "response_percentages_not_converted_to_counts": true,
+    "HiSCR_population_not_inferred_from_AN50": true,
+    "OLE_16_weeks_through_week32_not_32_additional_weeks": true,
+    "model_fitted_or_simulated": false,
+    "source_registry_JSON_identity_checked": true,
+    "registry_outcome_objects_read": 11,
+    "response_denominators_directly_reported": true,
+    "full_model_N_not_assumed_from_display_N": true,
+    "sponsor_and_adjusted_symptoms_separated": true,
+    "pooled_AE_table_not_treated_as_randomized_comparison": true,
+    "registry_method_label_discrepancy_retained": true
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "git_operations": false
+  },
+  "participant_flow": {
+    "source": "C1: resultsSection.participantFlowModule",
+    "periods": [
+      {
+        "period": "16-Week DBVC Period",
+        "group_order": [
+          "ruxolitinib_origin",
+          "vehicle_origin"
+        ],
+        "milestones": {
+          "STARTED": [
+            34,
+            35
+          ],
+          "COMPLETED": [
+            24,
+            32
+          ],
+          "NOT COMPLETED": [
+            10,
+            3
+          ]
+        },
+        "noncompletion_reasons": {
+          "Adverse Event": [
+            2,
+            0
+          ],
+          "Lost to Follow-up": [
+            5,
+            1
+          ],
+          "Physician Decision": [
+            0,
+            1
+          ],
+          "Protocol Violation": [
+            1,
+            0
+          ],
+          "Withdrawal by Subject": [
+            1,
+            0
+          ],
+          "Presence of Disease Tunnel": [
+            1,
+            0
+          ],
+          "Developed Draining Fistula": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "period": "16-Week OLE Period",
+        "group_order": [
+          "ruxolitinib_origin",
+          "vehicle_origin"
+        ],
+        "milestones": {
+          "STARTED": [
+            24,
+            32
+          ],
+          "COMPLETED": [
+            21,
+            24
+          ],
+          "NOT COMPLETED": [
+            3,
+            8
+          ]
+        },
+        "noncompletion_reasons": {
+          "Adverse Event": [
+            0,
+            2
+          ],
+          "Lost to Follow-up": [
+            1,
+            3
+          ],
+          "Physician Decision": [
+            0,
+            1
+          ],
+          "Protocol Violation": [
+            1,
+            1
+          ],
+          "Withdrawal by Subject": [
+            0,
+            1
+          ],
+          "Pregnancy": [
+            1,
+            0
+          ]
+        }
+      }
+    ],
+    "endpoint_missingness_reason_assignment_recovered": false,
+    "interpretation": "Controlled-period noncompletion is 10 versus 3; extension noncompletion is 3 versus 8. Period-specific flow does not establish reasons for each absent endpoint or diary score."
+  },
+  "baseline_results": {
+    "source": "C1: resultsSection.baselineCharacteristicsModule",
+    "arm_denominators": {
+      "ruxolitinib": 34,
+      "vehicle": 35
+    },
+    "measures": [
+      {
+        "measure": "Age, Continuous",
+        "statistic": "MEAN",
+        "units": "years",
+        "categories": [
+          {
+            "category": "Overall",
+            "ruxolitinib": 32,
+            "ruxolitinib_spread": 9.83,
+            "vehicle": 31.3,
+            "vehicle_spread": 9.84
+          }
+        ],
+        "dispersion_type": "STANDARD_DEVIATION"
+      },
+      {
+        "measure": "Sex: Female, Male",
+        "statistic": "COUNT_OF_PARTICIPANTS",
+        "units": "Participants",
+        "categories": [
+          {
+            "category": "Female",
+            "ruxolitinib": 29,
+            "vehicle": 33
+          },
+          {
+            "category": "Male",
+            "ruxolitinib": 5,
+            "vehicle": 2
+          }
+        ]
+      },
+      {
+        "measure": "Ethnicity (NIH/OMB)",
+        "statistic": "COUNT_OF_PARTICIPANTS",
+        "units": "Participants",
+        "categories": [
+          {
+            "category": "Hispanic or Latino",
+            "ruxolitinib": 7,
+            "vehicle": 1
+          },
+          {
+            "category": "Not Hispanic or Latino",
+            "ruxolitinib": 27,
+            "vehicle": 34
+          },
+          {
+            "category": "Unknown or Not Reported",
+            "ruxolitinib": 0,
+            "vehicle": 0
+          }
+        ]
+      },
+      {
+        "measure": "Race/Ethnicity, Customized",
+        "statistic": "COUNT_OF_PARTICIPANTS",
+        "units": "Participants",
+        "categories": [
+          {
+            "category": "White/Caucasian",
+            "ruxolitinib": 19,
+            "vehicle": 12
+          },
+          {
+            "category": "Black/African-American",
+            "ruxolitinib": 11,
+            "vehicle": 18
+          },
+          {
+            "category": "Asian",
+            "ruxolitinib": 0,
+            "vehicle": 2
+          },
+          {
+            "category": "Unknown",
+            "ruxolitinib": 1,
+            "vehicle": 0
+          },
+          {
+            "category": "Mixed Race: Black and White",
+            "ruxolitinib": 1,
+            "vehicle": 0
+          },
+          {
+            "category": "White and American Indian/Alaska Native",
+            "ruxolitinib": 2,
+            "vehicle": 0
+          },
+          {
+            "category": "Half White, Half Asian",
+            "ruxolitinib": 0,
+            "vehicle": 1
+          },
+          {
+            "category": "Metis, White",
+            "ruxolitinib": 0,
+            "vehicle": 1
+          },
+          {
+            "category": "North African",
+            "ruxolitinib": 0,
+            "vehicle": 1
+          }
+        ]
+      }
+    ],
+    "pain_itch_BSA_distributions_recovered": false,
+    "interpretation": "Reported demographic imbalances are descriptive; no treatment-effect explanation or subgroup effect is inferred."
+  },
+  "missing_data_evidence": {
+    "planned_primary": "SAP intends all randomized participants despite missing week-16 observations and discontinuation",
+    "reported_registry": "Efficacy population descriptions identify ITT and limit analysis to available observations",
+    "displayed_endpoint_N_are_full_model_N": false,
+    "full_model_participant_and_visit_counts": null,
+    "actual_daily_diary_missing_counts": null,
+    "individual_reason_to_missing_endpoint_mapping": null,
+    "response_numerators_from_raw_counts": null,
+    "nonresponder_imputation_verified": false,
+    "implemented_missing_outcome_sensitivity_results_recovered": false,
+    "model_discrepancy": "Continuous-outcome descriptions state MMRM, while statisticalMethod fields say ANCOVA; not resolved",
+    "sources": [
+      "A1",
+      "C1"
+    ],
+    "interpretation": "Available-data endpoint displays, planned ITT intent and model labels cannot establish robustness to informative missingness."
+  }
+}

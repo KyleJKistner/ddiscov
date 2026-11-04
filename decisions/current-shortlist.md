@@ -1,12 +1,20 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 13.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 14.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Round 13 audits one existing leader’s optional model/comparator evidence. No new candidate or S-tier designation is added. The [Round 13 package](../research/rounds/round13/README.md) controls this narrow interpretation; prior clinical decisions, BLU qualification rules and closed-search boundaries remain in force.
+Round 14 audits one existing leader’s controlled evidence in a different disease and clarifies the HHD claims it can support. No new candidate or S-tier designation is added. The [Round 14 package](../research/rounds/round14/README.md) controls this narrow amendment; prior clinical choices, BLU qualification rules and closed-search boundaries remain in force.
 
-## Round 13 HHD model and comparator audit
+## Round 14 controlled HS trial and HHD claim amendment
+
+**Ruxolitinib 1.5% cream/HHD — retain rank 3, 10 points and controlled clinical proof.** The [Round 14 package](../research/rounds/round14/README.md) audits NCT05635838, a randomized trial in HS. The official registry reports a primary AN-count difference of −1.20 (95% CI −2.21 to −0.18; P=.0215). Pain +0.19 (−1.27 to +1.64) and itch +0.94 (−0.52 to +2.40) do not establish superiority, harm or equivalence. Several lesion outcomes reuse overlapping information and are not independent patient-benefit demonstrations. [Trial evidence](../research/rounds/round14/rux-hs-trial-evidence.md)
+
+Randomized counts 34/35, lesion endpoint display 24/32 and symptom display 23/22 are now recovered. Controlled-period noncompletion was 10/3. The display counts do not establish all longitudinal-model contributors. Planned MMRM, the registry's ANCOVA field, available-data reporting, weekly diary rules and unresolved missingness robustness remain separate. Sponsor symptom/IHS4 summaries differ from registry LS estimates and are retained without an invented reconciliation.
+
+The [claim amendment](../research/rounds/round14/hhd-clinical-claim-amendment.md) maps lesion improvement, painful disease, all-assigned benefit, relevant care, maintenance and safety to their actual evidence requirements. Period-specific adverse events and the pooled crossover safety table cannot be collapsed into an unqualified safety statement. The all-active selected extension supplies no contemporaneous vehicle-controlled maintenance effect. No HS endpoint threshold, response probability, duration, sample size or HHD exposure margin is imported. Existing Round 7 controlled-proof requirements, Round 10 comparator choices and Round 13 optional-model limits remain. The closed BLU claim-mapping, zinc, SLC6A6 and HHD supplement lanes were not reopened; this HS retrieval pass is now also bounded and closed pending substantive new primary evidence.
+
+## Retained Round 13 HHD model and comparator audit
 
 **Ruxolitinib 1.5% cream/HHD — retain rank 3, 10 points and the controlled clinical-proof priority.** The [Round 13 package](../research/rounds/round13/README.md) audits the newly readable Gupta final-publication author manuscript against its preprint. The final text adds a mechanical-attachment assay and reports only weak CDN1163 attachment improvement. That broadens the reported model capability but does not qualify a reliable cohesion-rescue or complete-barrier positive control. Direct S1/S4 panels, exact comparisons, effect sizes and replicate counts remain uninspected. Weak reported improvement is not zero effect. [Comparator decision](../research/rounds/round13/hhd-comparator-decision.md)
 

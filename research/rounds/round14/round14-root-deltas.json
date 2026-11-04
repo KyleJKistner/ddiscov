@@ -1,0 +1,175 @@
+{
+  "schema_version": "ddiscov.round14.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "45fd75459d5415697e733197bbf5d6a2b21a210c",
+  "counts": {
+    "existing_candidates_reviewed": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "external_randomized_trial_cohorts_audited": 1,
+    "external_trial_randomized_people": 69,
+    "result_ledger_rows": 17,
+    "planned_analysis_records": 6,
+    "claim_decision_rows": 7,
+    "registry_outcome_objects_audited": 11,
+    "independent_review_documents_total": 2,
+    "reviewed_authored_files": 4,
+    "new_HHD_treated_people_added": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0
+  },
+  "scope": "One existing leading program: external controlled HS evidence, missingness/denominator recovery and the resulting HHD endpoint-to-claim interpretation. No broad new screen.",
+  "selection_rationale": "Closed BLU claim-mapping, zinc, SLC6A6 and HHD supplement searches were excluded. Bounded DYN101/PIK3C2B and enasidenib triage did not reveal an actionable new primary delta. Readable randomized exact-cream HS results and the official SAP could resolve a concrete patient-benefit interpretation for rank 3. This is a bounded value-of-information choice, not an exhaustive ranking.",
+  "bounded_triage": [
+    {
+      "lane": "DYN101 human PD and PIK3C2B context",
+      "outcome": "No newly recovered decision-changing primary result in the bounded pass; prior UNITE-CNM and epilepsy evidence already audited. EU results attachment reader did not expose synopsis content.",
+      "selected": false
+    },
+    {
+      "lane": "Enasidenib current human and formulation evidence",
+      "outcome": "No new comparative bioavailability or patient outcome recovered; inaccessible primary full text and previously audited patent examples did not justify repeating the closed CNS search.",
+      "selected": false
+    },
+    {
+      "lane": "Ruxolitinib exact-cream randomized HS evidence",
+      "outcome": "Selected; official results JSON and visible SAP recovered, permitting actual denominators, intervals, withdrawals and phase-specific safety to replace summary-only ambiguity.",
+      "selected": true
+    }
+  ],
+  "completion_rule": "Complete bounded primary-document reconciliation, explicit claim decision, independent review and expected-head main publication with fresh commit/tree/manifest verification. Full journal article/supplement, participant-level data and implemented-analysis code remain unread.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R6-NL-01",
+      "new_candidate": false,
+      "dedicated_planning_points": 10,
+      "source_scope": "research/rounds/round14/rux-hs-trial-evidence.json",
+      "decision_scope": "research/rounds/round14/hhd-clinical-claim-amendment.json",
+      "review_file": "research/rounds/round14/hhd-clinical-claim-amendment.md",
+      "delta": [
+        "Recovered complete official NCT05635838 results and the visible official SAP. One randomized HS cohort has 34/35 controlled-period starters, 24/32 completers and 10/3 noncompleters. Lesion endpoint tables display N24/32 and pain/itch N23/22; those are not verified full longitudinal-model contributor counts.",
+        "The reported primary AN-count LS difference is -1.20 (95% CI -2.21 to -0.18; P=.0215). Pain +0.19 (-1.27 to 1.64) and itch +0.94 (-0.52 to 2.40) do not establish superiority, harm or equivalence. Overlapping lesion endpoints are not independent patient-benefit confirmations.",
+        "Preserve official registry LS estimates separately from sponsor symptom/IHS4 summaries with incompletely specified estimators. The registry describes MMRM but labels the structured method ANCOVA. Planned all-randomized analysis, weekly diary rules, actual endpoint availability and missingness robustness are separate facts.",
+        "Recover DBVC TEAEs 13/34 versus 15/35 and grade>=3 events 0/34 versus 2/35; OLE TEAEs 8/24 versus 15/32 and grade>=3 events 0/24 versus 3/32. Both OLE groups receive active cream. Pooled active SAEs 2/66 include crossover recipients and are not an independent randomized comparison with vehicle 1/35.",
+        "Add seven explicit endpoint-to-claim decisions while retaining the Round 7 clinical-proof requirements, Round 10 comparator choices and Round 13 optional-model limits. No imported HS response probability, HHD endpoint threshold, sample size, duration or exposure clearance. Retain rank 3, 10 planning points and the unchanged 100-point queue."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round14/rux-hs-trial-evidence.json",
+    "research/rounds/round14/hhd-clinical-claim-amendment.json"
+  ],
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false,
+    "round10_review": "research/rounds/round10/round10-root-deltas.json",
+    "round10_allocation_changed": false,
+    "round11_review": "research/rounds/round11/round11-root-deltas.json",
+    "round11_allocation_changed": false,
+    "round12_review": "research/rounds/round12/round12-root-deltas.json",
+    "round12_allocation_changed": false,
+    "round13_review": "research/rounds/round13/round13-root-deltas.json",
+    "round13_allocation_changed": false,
+    "round14_review": "research/rounds/round14/round14-root-deltas.json",
+    "round14_allocation_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round14/independent-trial-methods-review.json",
+    "research/rounds/round14/independent-clinical-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round14/integration-review.md",
+  "local_verification": "research/rounds/round14/local-verification.json",
+  "artifact_manifest": "research/rounds/round14/artifact-manifest.json",
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "retrieval_stop": {
+    "current_pass_closed": true,
+    "full_journal_paper_or_supplement_audit_complete": false,
+    "implemented_analysis_or_patient_level_reanalysis_complete": false,
+    "reopen_for": [
+      "Substantive new primary HS results",
+      "Primary correction resolving model/population or source-specific estimate discrepancies",
+      "New primary HHD evidence that changes benefit, comparator or exposure decisions"
+    ],
+    "blu_claim_mapping_search_remains_closed": true,
+    "zinc_search_remains_closed": true,
+    "slc6a6_search_remains_closed": true,
+    "hhd_supplement_search_remains_closed": true,
+    "generic_BLU_exposure_search_not_reopened": true,
+    "enas_CNS_superiority_search_not_reopened": true,
+    "no_author_contact_or_data_request": true,
+    "no_monitoring_automation_created": true
+  },
+  "interpretation_limits": [
+    "HS and HHD are different diseases; the 69-person HS cohort adds no HHD-treated person or HHD effect estimate.",
+    "Displayed week 16 endpoint Ns do not identify complete repeated-measures contributor counts.",
+    "The SAP is planned methods; upload/date and registry model labels do not prove full implementation or pre-lock finalization.",
+    "Primary P=.0215 also meets.05; the planned.10 convention does not negate the positive result.",
+    "Uncertain symptoms do not prove harm, equivalence, clinically trivial effect or futility.",
+    "Overlapping lesion outcomes and multiple reports of one cohort are not independent replications.",
+    "Sponsor and registry estimates differ and are not pooled or assigned an unverified estimator explanation.",
+    "All-active selected extension cannot estimate contemporaneous vehicle-controlled maintenance; an early-versus-delayed strategy estimand is a separate question.",
+    "Grade>=3 is not serious-event status; pooled crossover exposure groups are not independent randomized safety arms.",
+    "No HHD threshold, duration, sample size, safety margin, asset promotion or new execution authorization follows."
+  ]
+}
