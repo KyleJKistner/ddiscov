@@ -1,0 +1,148 @@
+{
+  "schema_version": "ddiscov.round13.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+  "counts": {
+    "existing_candidates_reviewed": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "primary_source_projects": 1,
+    "study_versions_compared": 2,
+    "model_evidence_ledger_rows": 9,
+    "endpoint_decision_rows": 4,
+    "supplement_files_directly_inspected": 0,
+    "independent_review_documents_total": 2,
+    "reviewed_authored_files": 4,
+    "new_unique_treated_people_added": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0
+  },
+  "scope": "One existing leading program: final-versus-preprint HHD model evidence and optional cohesion-comparator qualification. No broad new screen.",
+  "selection_rationale": "The Round 12 deferred Gupta primary-access lead became readable and could change a concrete comparator decision for the rank-3 program. BLU claim mapping, zinc and SLC6A6 were closed. Other leading-program access limits from Round 12 were carried forward without repeating those searches. This is a bounded value-of-information choice, not an exhaustive fresh ranking of every unresolved question.",
+  "completion_rule": "Complete main-text version comparison, source-limited comparator decision, independent review and repository publication. Direct supplemental panel/legend inspection and quantitative cohesion-rescue qualification remain incomplete.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R6-NL-01",
+      "new_candidate": false,
+      "dedicated_planning_points": 10,
+      "source_scope": "research/rounds/round13/hhd-model-version-audit.json",
+      "decision_scope": "research/rounds/round13/hhd-comparator-decision.json",
+      "review_file": "research/rounds/round13/hhd-comparator-decision.md",
+      "delta": [
+        "Newly read final-publication author manuscript adds a mechanical attachment assay and reports baseline fragility and only weak CDN1163 attachment improvement. Record this as a main-text author report; S4 panels, exact comparisons, effect sizes and replicate denominators remain uninspected.",
+        "A second heterozygous clone and a revised independent-culture replication description strengthen specified baseline model evidence. Cells, cultures, clones and patient backgrounds remain separate; no replication of every drug-rescue endpoint or independent study is inferred.",
+        "N/TERT-2G and baricitinib during clone generation were already present in the preprint. Correct extraction without claiming new biology, authenticating a stock or inferring ongoing JAK inhibition. Preserve N/TERT/Ker-CT and source figure/text ambiguities.",
+        "CDN1163 remains an endpoint-limited modifiability reference, not a qualified complete-barrier or reliable cohesion-rescue positive control. Treatment before detachment challenge and genetic rescue before replating do not establish delayed repair after tissue failure. Weak reported improvement is not zero effect.",
+        "Retain rank 3, 10 planning points and the controlled clinical-proof priority. The immune-free model stays optional and cannot veto an inflammation-mediated clinical benefit. Close the current supplement retrieval pass until new primary access or interpretable endpoint-specific evidence is available."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round13/hhd-model-version-audit.json",
+    "research/rounds/round13/hhd-comparator-decision.json"
+  ],
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false,
+    "round10_review": "research/rounds/round10/round10-root-deltas.json",
+    "round10_allocation_changed": false,
+    "round11_review": "research/rounds/round11/round11-root-deltas.json",
+    "round11_allocation_changed": false,
+    "round12_review": "research/rounds/round12/round12-root-deltas.json",
+    "round12_allocation_changed": false,
+    "round13_review": "research/rounds/round13/round13-root-deltas.json",
+    "round13_allocation_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round13/independent-model-evidence-review.json",
+    "research/rounds/round13/independent-comparator-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round13/integration-review.md",
+  "local_verification": "research/rounds/round13/local-verification.json",
+  "artifact_manifest": "research/rounds/round13/artifact-manifest.json",
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "retrieval_stop": {
+    "current_pass_closed": true,
+    "direct_supplement_audit_complete": false,
+    "reopen_for": [
+      "Readable actual S1/S4 supplement or corrected primary version",
+      "New primary endpoint-specific rescue evidence with interpretable units, magnitude, uncertainty and timing"
+    ],
+    "blu_claim_mapping_search_remains_closed": true,
+    "zinc_search_remains_closed": true,
+    "slc6a6_search_remains_closed": true,
+    "generic_BLU_exposure_search_not_reopened": true,
+    "no_author_contact_or_data_request": true
+  },
+  "interpretation_limits": [
+    "A main-text author report is not direct verification of inaccessible supplemental panels.",
+    "Weak reported attachment improvement is neither zero effect nor a qualified complete-barrier benchmark.",
+    "Treatment before mechanical challenge does not establish delayed repair after tissue failure.",
+    "The versions are one project; updated replication language is not proof of newly performed independent experiments.",
+    "Cells, cultures, clones and independent patient backgrounds are different units.",
+    "Historical clone-generation baricitinib does not establish continuing endpoint exposure or confounding.",
+    "Source figure/text inconsistencies are not silently reconciled.",
+    "Optional model results do not replace the controlled clinical deciding proof."
+  ]
+}

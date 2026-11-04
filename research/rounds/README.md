@@ -16,6 +16,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 10](round10/README.md)** | Exact exposure and clinical-evidence sprint | Two new exact uses; five existing-use reviews; AGI-17011 correction, preserved source conflicts, four independent reviews and a complete publication manifest. Allocation unchanged; no S-tier promotion. |
 | **[Round 11](round11/README.md)** | Bounded zinc endpoint and SLC6A6 abstract audit | Two existing-use updates, no new screens. Missing-data method resolved; paired-count and abstract-content limits retained. Two independent reviews; allocation unchanged. |
 | **[Round 12](round12/README.md)** | BLU exact-structure mapping to published claims | One existing leader; explicit 7-ether/R8 mapping issue, broader-definition ambiguity and national-status limits. Two independent reviews; allocation unchanged. |
+| **[Round 13](round13/README.md)** | HHD final-versus-preprint model and comparator audit | One existing leader; attachment evidence, endpoint-specific comparator limits and replication units. Direct supplement inspection incomplete; two independent reviews; allocation unchanged. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -82,3 +83,11 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [Publication scope and national-branch limits](round12/publication-scope-and-status.md)
 - [Integration review](round12/integration-review.md)
 - [Publication manifest](round12/artifact-manifest.json)
+
+## Round 13
+
+- [Complete bounded sprint](round13/README.md)
+- [HHD model version audit](round13/hhd-model-version-audit.md)
+- [HHD comparator decision](round13/hhd-comparator-decision.md)
+- [Integration review](round13/integration-review.md)
+- [Publication manifest](round13/artifact-manifest.json)

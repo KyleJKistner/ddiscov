@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 12](rounds/round12/README.md) audits the existing BLU3797 program’s exact mapping to one published patent family. No new screen is added. The explicit structural mismatch and broader-definition ambiguity remain separate; no commercial clearance or allocation change is inferred. Zinc and SLC6A6 retrieval lanes remain closed. Earlier tables remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 13](rounds/round13/README.md) audits the existing ruxolitinib/HHD program’s optional model/comparator evidence. No new screen is added. The final manuscript reports weak attachment improvement, while S1/S4 quantities remain unverified; no qualified complete-barrier control or new clinical efficacy is inferred. BLU claim-mapping, zinc and SLC6A6 searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -315,3 +315,11 @@ Both retain clinical-research reserve status, independent asset holds and zero d
 | [BLU3797 / MTM1 XLMTM](rounds/round12/blu-claim-structure-audit.md) | Original-drawing and explicit-variable mapping across the published claim branches, including alternative orientations and the actual isoindolinone embodiment | Broad aryl-definition construction, current national prosecution scope, exact-origin family, ownership and commercial clearance remain unresolved |
 
 Retain the leading qualification project and 55 planning points. No new molecule, exact-use screen, biological result or proprietary asset is counted.
+
+## Round 13 existing-program audit
+
+| Existing program | Completed work | Remaining limit |
+|---|---|---|
+| [Ruxolitinib 1.5% cream / HHD](rounds/round13/hhd-comparator-decision.md) | Final-versus-preprint main-text comparison, replication/identity reconciliation and optional comparator decision | Direct S1/S4 panels, magnitude and endpoint-specific counts remain uninspected; weak reported improvement does not qualify a complete-barrier control |
+
+Retain rank 3, 10 planning points and controlled clinical proof. Two versions are one project. No new molecule, exact-use screen, clinical recipient or proprietary asset is counted.

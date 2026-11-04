@@ -1,0 +1,140 @@
+{
+  "schema_version": "ddiscov.round13.independent_model_evidence_review.v1",
+  "reviewer": "round13_evidence_review",
+  "evidence_cut": "2026-11-04",
+  "baseline_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+  "scope": "Independent source check and review of the two authored version-audit files. Main text, main-figure legends, cached preprint and existing Round 7 decision were checked. Supplemental panels and legends were not accessed; root reports their bounded retrieval stop.",
+  "verdict": "pass_with_documented_source_limits",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round13/hhd-model-version-audit.md",
+      "workspace_path": "/workspace/scratch/57759abf62eb/round13_work/hhd-model-version-audit.md",
+      "sha256": "6e9d4ab03423ad4d4832882cc72f8134b04d4031bc38e41e5852c457f8687aa4",
+      "bytes": 5368
+    },
+    {
+      "path": "research/rounds/round13/hhd-model-version-audit.json",
+      "workspace_path": "/workspace/scratch/57759abf62eb/round13_work/hhd-model-version-audit.json",
+      "sha256": "8fe9560bdf3c881a5e3048cc67cce107313ea389a79577333f42d3cf1445b09e",
+      "bytes": 14476
+    }
+  ],
+  "open_issues": [],
+  "resolved_issues": [],
+  "checks": [
+    {
+      "id": "V1",
+      "result": "pass",
+      "assessment": "The PMC copy is labeled an author manuscript linked to the final publication; preprint and final are one project."
+    },
+    {
+      "id": "V2",
+      "result": "pass",
+      "assessment": "Attachment-method and second-clone additions, plus revised replication wording, are distinguished from previously extracted facts."
+    },
+    {
+      "id": "V3",
+      "result": "pass",
+      "assessment": "N/TERT-2G and clone-generation baricitinib are already in the preprint; continuing exposure and carryover are not inferred."
+    },
+    {
+      "id": "V4",
+      "result": "pass",
+      "assessment": "Weak attachment improvement is attributed to the final Discussion. It is not converted into no effect, full barrier repair or an extracted quantitative rescue."
+    },
+    {
+      "id": "V5",
+      "result": "pass",
+      "assessment": "The additional heterozygous clone supports the reported baseline phenotype only; independent donor replication and repeated pharmacologic rescue are not claimed."
+    },
+    {
+      "id": "V6",
+      "result": "pass",
+      "assessment": "Culture, clone and cell counts stay distinct. The revised statistics paragraph is not taken as proof of new data collection or a complete analysis-unit audit."
+    },
+    {
+      "id": "V7",
+      "result": "pass",
+      "assessment": "Pre-challenge SPCA1 correction is distinguished from delayed repair of established epidermal failure."
+    },
+    {
+      "id": "V8",
+      "result": "pass",
+      "assessment": "Figure 7 population wording is correctly flagged as inherited; the final Figure 6 receptor discrepancy remains unresolved rather than harmonized."
+    },
+    {
+      "id": "V9",
+      "result": "pass",
+      "assessment": "The unchanged clinical direction and optional mechanism module match the existing Round 7 development decision. No ruxolitinib clinical efficacy or allocation upgrade is inferred."
+    },
+    {
+      "id": "V10",
+      "result": "pass",
+      "assessment": "Structured records M01-M09 are present, strict JSON parses, cited XML sections exist, and the preprint hash matches the inspected file."
+    }
+  ],
+  "retained_evidence_limits": [
+    "No direct S1/S4 panel or legend review; supplemental effect sizes and denominators remain null.",
+    "No publisher-formatted version comparison, raw-data reanalysis, culture-to-cell aggregation reconstruction or independent experimental replication.",
+    "Exact edited alleles, cell identity authentication and washout history remain unverified.",
+    "Passing the review establishes the accuracy of the bounded audit, not qualification of a full-barrier positive control."
+  ],
+  "source_checks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13583997/",
+      "access": "Main text and main-figure legends",
+      "locators": [
+        "Article banner",
+        "Cell lines and culture",
+        "Cell Attachment Assay",
+        "Statistical Analysis",
+        "Construction and validation",
+        "Figures 6 and 7 legends",
+        "Transgenic hSPCA1 or Ca2+-ATPase agonist",
+        "Discussion"
+      ],
+      "retrieval_refs": [
+        "turn210view0",
+        "turn210view1",
+        "turn211view0",
+        "turn211view1",
+        "turn212view0"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML",
+      "access": "Cached complete XML",
+      "sha256": "f01c36569f5567aeebb60328155f829c444bf9d81b7a4eb91c40e9dac76f1af5",
+      "bytes": 121881,
+      "locators": [
+        "article-meta",
+        "S3",
+        "S5",
+        "S8",
+        "S9",
+        "S12",
+        "S13",
+        "S24",
+        "F6 caption",
+        "F7 caption"
+      ]
+    },
+    {
+      "repository_paths": [
+        "research/rounds/round7/rux_hhd_product.md",
+        "research/rounds/round7/rux_hhd_development_proof.md"
+      ],
+      "access": "Published baseline local copy"
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "git_operations": false,
+    "supplement_retry": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "ddiscov.round13.independent_comparator_decision_review.v1",
+  "reviewer": "/root/round13_decision_review",
+  "as_of": "2026-11-04",
+  "repository": "KyleJKistner/ddiscov",
+  "base_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+  "review_scope": "Independent challenge of the completed HHD comparator-decision Markdown and JSON against the final-publication author manuscript, cached primary preprint and preserved development decision. This review does not inspect the unavailable supplement or authorize any experiment.",
+  "verdict": "pass_with_explicit_source_access_limits",
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/57759abf62eb/round13_work/hhd-comparator-decision.md",
+      "bytes": 8063,
+      "sha256": "7c27e0b3d094e0702296ead0201af37891005e8982c4a9fd6598ed79abec52ea"
+    },
+    {
+      "path": "/workspace/scratch/57759abf62eb/round13_work/hhd-comparator-decision.json",
+      "bytes": 9092,
+      "sha256": "1b10c4c70ccbbc843c14434cabb74d00396d5e9d739266584ab17d5645d805e4"
+    }
+  ],
+  "open_issues": [],
+  "resolved_issues": [],
+  "checks": [
+    {
+      "id": "C01",
+      "result": "pass",
+      "question": "Does the conclusion acknowledge the positive statement rather than infer no effect?",
+      "finding": "Weak attachment improvement remains an author-reported finding; the qualification decision is explicitly the research assessment. The files do not infer zero cohesion effect."
+    },
+    {
+      "id": "C02",
+      "result": "pass",
+      "question": "Are missing supplemental results kept unknown?",
+      "finding": "S4 effect size, uncertainty and endpoint-specific N remain null. Direct S1/S4 inspection is incomplete; no supplemental panel, legend or comparison group is represented as directly read."
+    },
+    {
+      "id": "C03",
+      "result": "pass",
+      "question": "Is timing interpreted narrowly?",
+      "finding": "The attachment method places treatment before detachment challenge. Genetic rescue precedes harvesting and replating. The files distinguish this from delayed repair after established tissue failure while preserving possible action on pre-existing mutant defects."
+    },
+    {
+      "id": "C04",
+      "result": "pass",
+      "question": "Are controls and endpoints transferable only within their supported scope?",
+      "finding": "Baseline fragility, a worsening perturbation, causal rescue and pharmacological rescue are distinguished. Spreading or signaling rescue is not promoted to a qualified full-barrier control."
+    },
+    {
+      "id": "C05",
+      "result": "pass",
+      "question": "Is model replication represented by the correct unit?",
+      "finding": "Cultures, image-panel cells and a second clone are kept distinct. The updated reporting does not become a new independent patient/laboratory replication or proof that every rescue was reproduced across clones."
+    },
+    {
+      "id": "C06",
+      "result": "pass",
+      "question": "Are old identity/exposure facts falsely counted as new biology?",
+      "finding": "No. N/TERT-2G and clone-generation baricitinib are already present in the cached preprint. Continuing endpoint exposure and carryover are not inferred."
+    },
+    {
+      "id": "C07",
+      "result": "pass",
+      "question": "Are source discrepancies silently reconciled?",
+      "finding": "No. Figure 6 receptor wording and Figure 7 spreading-population wording remain explicit unresolved differences. No figure-specific genotype effect is reconstructed."
+    },
+    {
+      "id": "C08",
+      "result": "pass",
+      "question": "Is clinical development advanced by a cell-model extrapolation?",
+      "finding": "No new ruxolitinib efficacy/safety evidence is claimed. The model remains optional and cannot exclude an inflammation-mediated clinical benefit. Rank 3, 10 planning points and the existing clinical deciding proof are retained."
+    },
+    {
+      "id": "C09",
+      "result": "pass",
+      "question": "Are versions, access and completion distinguished?",
+      "finding": "The source is a PMC author manuscript linked to the final publication, not independently checked publisher typography. The preprint and final manuscript are one project. The bounded decision is complete while direct supplement/quantitative rescue qualification remains incomplete."
+    },
+    {
+      "id": "C10",
+      "result": "pass",
+      "question": "Is the work limited to the authorized bounded research?",
+      "finding": "No procedural work order, mandatory assay, numerical threshold or material acquisition is introduced. Closed BLU claim-mapping, zinc and SLC6A6 lanes remain closed. No prohibited activity was performed by this reviewer."
+    }
+  ],
+  "sources_reviewed": [
+    {
+      "id": "F1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13583997/",
+      "doi": "10.1152/ajpcell.00372.2026",
+      "version": "Final-publication author manuscript",
+      "locators": [
+        "Materials and Methods: Cell lines and culture; DNA transfection; Cell Attachment Assay; Statistical Analysis",
+        "Results: junctional phenotypes, second-clone spreading and transgenic/pharmacological rescue",
+        "Figures 6 and 7 displayed legends",
+        "Discussion: weak attachment improvement"
+      ],
+      "access": "Primary main text and displayed legends independently read; supplement body not read"
+    },
+    {
+      "id": "P1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML",
+      "local_checked_source": "/workspace/scratch/b5b981e77bc5/round7_work/root_sources/hhd_actin_preprint.xml",
+      "sha256": "f01c36569f5567aeebb60328155f829c444bf9d81b7a4eb91c40e9dac76f1af5",
+      "access": "Cached primary XML independently parsed; cell-line, clone-generation, transfection and statistical sections checked"
+    },
+    {
+      "id": "B1",
+      "repository_paths": [
+        "research/rounds/round7/rux_hhd_development_proof.md",
+        "research/rounds/round7/rux_hhd_product.md",
+        "research/portfolio-register.json"
+      ],
+      "baseline_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+      "access": "Preserved local baseline files read; optional mechanism module and rank/points verified"
+    }
+  ],
+  "accepted_limits": [
+    "No direct S1/S4 figure or legend inspection; the parent-reported bounded access record was accepted without repeating the closed retrieval lane.",
+    "No raw-data reanalysis, quantitative effect-size reconstruction, statistical validity certification or assay reproducibility claim.",
+    "Lack of qualification at this evidence cut is not a finding that CDN1163 has no cohesion effect.",
+    "This file binds only the two reviewed source files; integrated repository and remote publication verification belong to the root workflow."
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "git_operations": false
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "audit_id": "round13_hhd_gupta_main_text_version_audit",
+  "evidence_cut": "2026-11-04",
+  "baseline_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+  "scope": "Independent main-text comparison. Supplement access was separately attempted and closed by root without panel/legend recovery; main-text author reports are not direct supplement verification. No experiments or simulations were conducted.",
+  "sources": [
+    {
+      "id": "F",
+      "title": "Gupta et al., Insulin-Regulated Actin Dynamics is Disrupted in a Human Keratinocyte Model of Hailey Hailey Disease",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13583997/",
+      "doi": "10.1152/ajpcell.00372.2026",
+      "pmid": "42605981",
+      "version": "PMC author manuscript linked to the final publication; not independently compared with the publisher-formatted version of record",
+      "publication_date": "2026-08-17",
+      "issue_date": "2026-09-01",
+      "pmc_available_date": "2026-09-18",
+      "access": "Main text and main-figure legends read; supplemental panels and legends not recovered or inspected",
+      "retrieval_refs": ["turn198view0", "turn199view0", "turn200search0", "turn204view0"],
+      "publisher_url": "https://journals.physiology.org/doi/full/10.1152/ajpcell.00372.2026"
+    },
+    {
+      "id": "P",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML",
+      "doi": "10.64898/2025.12.15.694174",
+      "pmid": "41446171",
+      "version": "Preprint version 1; XML publication date 2025-12-17",
+      "local_path": "/workspace/scratch/b5b981e77bc5/round7_work/root_sources/hhd_actin_preprint.xml",
+      "bytes": 121881,
+      "sha256": "f01c36569f5567aeebb60328155f829c444bf9d81b7a4eb91c40e9dac76f1af5",
+      "access": "Complete cached XML read and hash checked; supplemental-file contents not inspected in this comparison"
+    },
+    {
+      "id": "B1",
+      "repository_path": "research/rounds/round7/rux_hhd_product.md",
+      "locators": ["Decision", "Section 4: Mechanistic models", "Section 7: Reproducibility and access limits", "Primary source P4"]
+    },
+    {
+      "id": "B2",
+      "repository_path": "research/rounds/round7/rux_hhd_development_proof.md",
+      "locators": ["Recommendation and intended claim", "What is already sufficient to proceed", "Optional mechanism module"]
+    },
+    {
+      "id": "B3",
+      "repository_path": "research/rounds/round7/rux_hhd_product.json",
+      "locator": "models[0]"
+    }
+  ],
+  "novelty_labels": {
+    "final_revision": "Present in reviewed final-publication manuscript, absent or substantively different in reviewed preprint main text; does not imply an independent project",
+    "preprint_fact_new_to_summary": "Already in cached preprint; improve extraction but do not claim new final-publication biology",
+    "already_round7": "Controlling interpretation already recorded in Round 7",
+    "source_discordance": "Preserve disagreement or ambiguity; do not silently reconcile",
+    "inference": "Audit interpretation rather than an author-reported result"
+  },
+  "records": [
+    {
+      "id": "M01",
+      "topic": "Version provenance",
+      "novelty": ["already_round7"],
+      "fact": "PMC author manuscript linked to final publication; same research project as the preprint.",
+      "locators": {"F": "Article banner, lines 35-36 and 105-108", "P": "front/article-meta/article-version-alternatives and article-id", "B1": "Section 4, first Gupta paragraph"},
+      "interpretation": "Use final-publication author manuscript as the access description. This is improved access and a version comparison, not independent replication. Publisher pagination does not prove publisher-layout inspection."
+    },
+    {
+      "id": "M02",
+      "topic": "Parent identity and JAK-inhibitor history",
+      "novelty": ["preprint_fact_new_to_summary", "source_discordance", "already_round7"],
+      "fact": "Methods name N/TERT-2G and baricitinib during clone generation; Results equates N/TERT and Ker-CT.",
+      "preprint": "N/TERT-2G and clone-generation baricitinib already explicit; Results uses hTERT/Ker-CT.",
+      "locators": {"F": "Methods: Cell lines and culture, lines 132-137; Results: Construction and validation, line 190", "P": "sec S12/p[1]; sec S3/p[1]", "B1": "Section 4, material transfer issues"},
+      "interpretation": "Retain published identity conflict. Do not substitute an ATCC Ker-CT parent without declaring a different system. Historical baricitinib exposure is a provenance item, not evidence of ongoing assay exposure, carryover or a demonstrated JAK-specific confound. Main text does not specify a washout history sufficient to establish those claims."
+    },
+    {
+      "id": "M03",
+      "topic": "Genotype and second heterozygous clone",
+      "novelty": ["final_revision"],
+      "fact": "A second heterozygous clone has different SPCA1 expression and impaired spreading.",
+      "preprint": "Main text describes single- and bi-allelic knockout models without reporting a second independent heterozygous clone.",
+      "locators": {"F": "Results: Construction and validation, lines 191-204, especially 192; SPCA1 is required for actin-mediated spreading, line 228; cited Fig. S1a-e", "P": "sec S3/p[1]; sec S5/p[1]"},
+      "replication_scope": {"heterozygous_clones_reported": 2, "independent_parental_backgrounds_established": false, "patient_replication_established": false, "second_clone_pharmacologic_rescue_demonstrated_by_main_text": false},
+      "genotype_limit": "Monoallelic/biallelic categories and sequencing validation are reported. Exact edited allele strings/HGVS for each clone were not recovered from reviewed main text; these are engineered knockouts, not demonstrated patient-variant knock-ins.",
+      "evidence_level": "Main-text author report referring to S1; S1 panels and legends remain uninspected",
+      "interpretation": "The additional clone reduces a clone-specific explanation for the reported baseline phenotype. It does not make every endpoint or rescue independently replicated. Without direct S1 inspection, the detailed clone-specific endpoint map remains unverified."
+    },
+    {
+      "id": "M04",
+      "topic": "Cultures, cells and clone counts",
+      "novelty": ["final_revision"],
+      "fact": "Three independently grown cultures; separate treatment/processing, shared measurement session. Selected legends count cells.",
+      "preprint": "Statistics describes three technical replicates unless the legend specifies otherwise.",
+      "locators": {"F": "Methods: Statistical Analysis, lines 185-187; Fig. 1 legend, lines 199-201; Fig. 3 legend, lines 234-236; Fig. 7 legend, lines 244-248", "P": "sec S24/p[1]; fig F7/caption"},
+      "reported_counts": {"general_independent_cultures": 3, "fig7_spreading_cells_per_group": "20-60", "fig7_insulin_uptake_cells_per_group": "30-60", "fig7_calcium_imaging_cells_per_group": "30-35"},
+      "interpretation": "This is a changed account of replication, not proof that the data were independently repeated after preprint posting. Cultures are nested within clonal lines; cells/images are nested measurements. The manuscript does not supply a complete mapping from all displayed cells to culture-level aggregates, so avoid asserting that every reported imaging test uses a culture-level independent unit. No reanalysis was conducted."
+    },
+    {
+      "id": "M05",
+      "topic": "Rescue timing",
+      "novelty": ["already_round7"],
+      "fact": "SPCA1 expression precedes replating; rescue endpoints include spreading, insulin uptake and Golgi features.",
+      "preprint": "Same temporal ordering and endpoint classes.",
+      "locators": {"F": "Methods: DNA transfection, line 139; Results: Transgenic hSPCA1 rescue, lines 298-300; Fig. 7 legend, lines 244-248", "P": "sec S13/p[1]; sec S9/p[1]; fig F7/caption", "B1": "Section 4, acute spreading/regrowth limit", "B2": "Optional mechanism module"},
+      "interpretation": "Causal correction before the endpoint challenge does not establish treatment of an already failed mature epidermal barrier. The separate attachment endpoint must be assessed on its own; do not generalize the transfection result to delayed pharmacological repair."
+    },
+    {
+      "id": "M06",
+      "topic": "Attachment deficit versus attachment rescue",
+      "novelty": ["final_revision"],
+      "fact": "Dispase/mechanical challenge shows baseline fragility; Discussion describes weak CDN1163 attachment improvement.",
+      "preprint": "No dispase or Cell Attachment Assay occurs in the reviewed XML main text.",
+      "locators": {"F": "Methods: Cell Attachment Assay, lines 168-170; Results: junctional phenotypes, line 209; Discussion, line 310; cited Fig. S4", "P": "Complete XML main-text term check; Methods sections S11-S24", "B3": "models[0].scope"},
+      "supplement_status": "Root closed the bounded supplement access lane without recovering S4 panels or legend. Its panel counts, effect magnitude and analysis are not established by this audit.",
+      "evidence_level": "Main-text author report only for weak attachment improvement; direct supplement verification unavailable",
+      "supplement_denominator": null,
+      "supplement_effect_size": null,
+      "interpretation": "Update the model scope beyond spreading alone. A baseline functional deficit and an author-described weak drug effect remain distinct from a qualified full-repair positive control. Do not report no functional endpoint existed; do not upgrade weak attachment improvement to full barrier restoration."
+    },
+    {
+      "id": "M07",
+      "topic": "Endpoint-specific CDN1163 interpretation",
+      "novelty": ["final_revision", "already_round7"],
+      "fact": "CDN1163 improves spreading/Golgi/pAKT while junctional recovery remains limited.",
+      "preprint": "Rescue narrative is broader and lacks the final junctional limitation.",
+      "locators": {"F": "Results: Transgenic hSPCA1 or Ca2+-ATPase agonist, lines 301-306; Discussion, line 310; cited Figs. S2g and S9", "P": "sec S9/p[2]", "B1": "Section 4, CDN1163 limitation", "B3": "models[0].CDN1163_limit"},
+      "interpretation": "The final-versus-preprint narrowing is real, but Round 7 already captured the junctional-morphology caveat. Newly readable details strengthen endpoint-specific qualification; they do not create new clinical efficacy evidence or independently validate a complete-barrier comparator."
+    },
+    {
+      "id": "M08",
+      "topic": "Figure 7 population wording",
+      "novelty": ["source_discordance"],
+      "fact": "Figure 7(i-j) caption says control keratinocytes; Results assigns spreading rescue to heterozygotes.",
+      "preprint": "The same caption/body wording difference is present.",
+      "locators": {"F": "Fig. 7 legend, lines 246-247; Results, line 302", "P": "fig F7/caption; sec S9/p[2]"},
+      "interpretation": "Use figure-panel labels to map each comparison before extracting a genotype-specific quantitative rescue effect. Do not resolve the ambiguity by assumption. This is an audit flag, not a new biological result."
+    },
+    {
+      "id": "M09",
+      "topic": "Insulin-receptor wording",
+      "novelty": ["final_revision", "source_discordance"],
+      "fact": "Results assigns reduced receptors to both mutants; Figure 6 legend retains near-normal heterozygous IR.",
+      "preprint": "Results describes near-normal heterozygous insulin-receptor expression.",
+      "locators": {"F": "Results: Insulin signaling pathway, line 279; Fig. 6 legend, lines 286-287; cited Fig. S1f-g and S7", "P": "sec S8/p[1]; fig F6/caption"},
+      "interpretation": "Retain clone- and endpoint-specific distinctions. Do not create a universal receptor-loss assertion from the final Results sentence. This peripheral ambiguity is not a reason to expand the bounded sprint."
+    }
+  ],
+  "development_assessment": {
+    "classification": "inference from source audit and existing Round 7 decision",
+    "rux_clinical_gate": "Unchanged: an independently qualified keratinocyte model is optional before controlled clinical proof of useful lesion control with the exact marketed cream.",
+    "why": "The question supported by the human dossier is clinical control; this model addresses selected cell-autonomous mechanisms. A model result cannot replace clinical randomization or establish a proprietary formulation advantage.",
+    "optional_module_trigger": "Use only if resolving mechanism changes article, population, combination, exposure or contribution claim.",
+    "positive_control_rule": "Qualify a comparator for the endpoint actually rescued. Do not promote marker/spreading rescue or weak sheet-attachment improvement to demonstrated mature-barrier recovery.",
+    "negative_result_rule": "A negative immune-free keratinocyte result cannot veto a clinically useful anti-inflammatory mechanism.",
+    "allocation_change_supported": false
+  },
+  "closed_access_lane": {
+    "item": "Supplemental Figures S1-S9",
+    "doi_url": "https://doi.org/10.6084/m9.figshare.32925317",
+    "metadata_status": "Primary Figshare landing reachable according to root; child did not independently retrieve it",
+    "download_status": "Root reports public download and exact indexed-source attempts failed; stop further route attempts in this sprint",
+    "direct_panel_or_legend_inspection": false,
+    "scope_consequence": "Preserve the main-text reports while leaving supplemental denominators, effect sizes and panel-specific comparisons unverified."
+  },
+  "unresolved_at_closeout": [
+    "Exact S4 attachment comparisons, replication and magnitude; Discussion's weak-effect description is an author report, not a quantified independent extraction.",
+    "S1 panel-specific mapping of each independent heterozygous clone to endpoints; do not generalize to replicated pharmacological rescue.",
+    "Figure 7 caption/body genotype wording and Figure 6 receptor wording are retained as source ambiguities.",
+    "Exact edited alleles, identity authentication and clone-generation drug washout history remain unverified."
+  ],
+  "execution": {
+    "additional_broad_searches_after_selection": 0,
+    "read_only_primary_open_after_selection": 1,
+    "files_written": ["hhd-model-version-audit.json", "hhd-model-version-audit.md"],
+    "git_operations": 0,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

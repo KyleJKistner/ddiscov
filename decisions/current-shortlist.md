@@ -1,12 +1,20 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 12.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 13.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Round 12 audits one existing leader’s published chemical claims. No new candidate or S-tier designation is added. The [Round 12 package](../research/rounds/round12/README.md) controls the narrow claim-mapping interpretation; earlier biological priorities, clinical evidence and qualification rules remain in force.
+Round 13 audits one existing leader’s optional model/comparator evidence. No new candidate or S-tier designation is added. The [Round 13 package](../research/rounds/round13/README.md) controls this narrow interpretation; prior clinical decisions, BLU qualification rules and closed-search boundaries remain in force.
 
-## Round 12 BLU published-claim audit
+## Round 13 HHD model and comparator audit
+
+**Ruxolitinib 1.5% cream/HHD — retain rank 3, 10 points and the controlled clinical-proof priority.** The [Round 13 package](../research/rounds/round13/README.md) audits the newly readable Gupta final-publication author manuscript against its preprint. The final text adds a mechanical-attachment assay and reports only weak CDN1163 attachment improvement. That broadens the reported model capability but does not qualify a reliable cohesion-rescue or complete-barrier positive control. Direct S1/S4 panels, exact comparisons, effect sizes and replicate counts remain uninspected. Weak reported improvement is not zero effect. [Comparator decision](../research/rounds/round13/hhd-comparator-decision.md)
+
+The second heterozygous clone supports specified baseline phenotypes. Independent cultures, image-panel cells and clone counts remain distinct; no independent patient background or replication of every drug rescue is inferred. N/TERT-2G and baricitinib during clone generation were already in the preprint. Historical use does not establish continuing endpoint exposure. Source figure/text ambiguities remain explicit. [Version and evidence audit](../research/rounds/round13/hhd-model-version-audit.md)
+
+Treatment before detachment challenge does not demonstrate delayed repair after tissue failure. This model remains optional; an immune-free negative cannot reject an inflammation-mediated clinical benefit. The exact-cream clinical comparison, useful patient outcomes, exposure requirements and all-randomized/maintenance denominators remain unchanged. Close this supplement retrieval pass until actual panels or new interpretable primary evidence become available. The closed BLU claim-mapping, zinc and SLC6A6 searches were not reopened.
+
+## Retained Round 12 BLU published-claim audit
 
 The [Round 12 package](../research/rounds/round12/README.md) addresses the previously unresolved mapping of exact S-BLU3797 to the comparator family's published claims. This question was selected because it could change the leading program's independent product contribution, while the screened clinical and BLU exposure retrieval lanes supplied no new decision-changing primary content.
 

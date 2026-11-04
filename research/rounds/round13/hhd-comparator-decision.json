@@ -1,0 +1,170 @@
+{
+  "schema_version": "ddiscov.round13.hhd_comparator_decision.v1",
+  "as_of": "2026-11-04",
+  "repository": "KyleJKistner/ddiscov",
+  "branch_target": "main",
+  "base_commit": "f8d99f06f5a42e6cae0a65d183707917c6acb46d",
+  "candidate_id": "R6-NL-01",
+  "question": "Does the final Gupta model publication qualify a pharmacological comparator for mechanical cohesion rescue, beyond the previously reviewed spreading and junction-morphology evidence?",
+  "decision": {
+    "rank_before": 3,
+    "rank_after": 3,
+    "planning_points_before": 10,
+    "planning_points_after": 10,
+    "clinical_proof_priority_retained": true,
+    "optional_model_became_mandatory_gate": false,
+    "CDN1163_qualified_complete_barrier_positive_control": false,
+    "CDN1163_qualified_reliable_cohesion_rescue_control": false,
+    "zero_CDN1163_cohesion_effect_inferred": false,
+    "reason": "The final main text reports a cohesion deficit and weak attachment improvement. Direct supplemental comparisons, units and quantitative uncertainty remain uninspected. Endpoint-specific cellular modifiability is not enough to qualify a complete-barrier or reliable cohesion-rescue benchmark.",
+    "new_ruxolitinib_efficacy_result": false,
+    "new_ruxolitinib_safety_result": false,
+    "new_numerical_go_no_go_threshold": false,
+    "new_material_acquisition_authorized": false
+  },
+  "counterfactual_decision_value": {
+    "potential_change": "Interpretable and reproducible mechanical-cohesion rescue could expand the qualified comparator set for an optional HHD mechanism module.",
+    "actual_change": "Add a reported attachment phenotype and weak-rescue statement to the model record; distinguish them from quantitative comparator qualification and delayed tissue repair.",
+    "unchanged": "Controlled patient benefit remains the deciding proof for the ruxolitinib clinical program. Immune-free model negativity cannot exclude an inflammation-mediated clinical benefit.",
+    "inference_owner": "Round 13 research assessment, not the source authors"
+  },
+  "endpoint_decisions": [
+    {
+      "id": "E1",
+      "endpoint": "Mechanical cohesion / detachment susceptibility",
+      "source": "F1",
+      "locators": ["Materials and Methods: Cell Attachment Assay", "Results: SPCA1 mutant keratinocytes recapitulate HHD junctional phenotypes", "Discussion: CDN1163 and cell attachment"],
+      "baseline_deficit": "Author-reported in main text, with S4 cited",
+      "CDN1163_rescue": "Author-reported weak amelioration in Discussion",
+      "supporting_S4_panels_directly_read": false,
+      "supporting_S4_legend_directly_read": false,
+      "S4_effect_size": null,
+      "S4_uncertainty": null,
+      "S4_endpoint_specific_replicate_count": null,
+      "S4_exact_comparison_groups_verified": false,
+      "qualification": "Not a qualified reliable cohesion-rescue benchmark at this evidence cut"
+    },
+    {
+      "id": "E2",
+      "endpoint": "Junctional morphology / protein expression",
+      "source": "F1",
+      "locators": ["Results: Transgenic hSPCA1 or Ca2+-ATPase agonist reverse HHD cellular phenotypes", "Discussion"],
+      "CDN1163_rescue": "Limited improvement reported",
+      "novelty": "Already recognized in the Round 7 audit; not counted as a new final-publication discovery",
+      "qualification": "Insufficient for a complete-barrier positive-control claim"
+    },
+    {
+      "id": "E3",
+      "endpoint": "Spreading, Golgi morphology and signaling",
+      "source": "F1",
+      "locators": ["Figure 7 and corresponding Results", "Discussion"],
+      "CDN1163_rescue": "Selected improvements reported; Figure 7i-j genotype wording remains inconsistent between text and legend",
+      "qualification": "Endpoint-limited literature modifiability reference; not transferable wholesale to cohesion or clinical efficacy"
+    },
+    {
+      "id": "E4",
+      "endpoint": "Delayed repair after established barrier failure",
+      "source": "F1",
+      "locators": ["Materials and Methods: Cell Attachment Assay", "Materials and Methods: DNA transfection"],
+      "demonstrated": false,
+      "timing_basis": "Attachment method places treatment before detachment challenge; genetic rescue precedes harvesting and replating.",
+      "interpretation_limit": "Does not exclude action on pre-existing mutant defects. No claim of repair after established tissue failure is established by this timing."
+    }
+  ],
+  "replication_and_identity": {
+    "reported_parent": "N/TERT-2G",
+    "parent_designation_already_in_preprint": true,
+    "actual_stock_authentication_verified": false,
+    "N_TERT_KerCT_terminology_inconsistency_resolved": false,
+    "baricitinib_role": "Reported during clone generation; already described in preprint",
+    "baricitinib_continuing_endpoint_exposure": null,
+    "baricitinib_assay_confounding_established": false,
+    "final_replication_description": "Independent cultures from clonal lines, separately treated and processed; image-panel cell counts retained as cell counts",
+    "preprint_replication_description": "Technical replicates",
+    "change_in_wording_proves_new_experiments": false,
+    "second_heterozygous_clone": "Main text reports differing SPCA1 expression and spreading deficit",
+    "second_clone_replication_of_all_drug_rescues": null,
+    "S1_detailed_panels_and_legend_verified": false,
+    "independent_patient_backgrounds_added": 0,
+    "independent_laboratory_replication_added": 0,
+    "IR_text_legend_discrepancy_retained": true,
+    "Figure7_spreading_genotype_discrepancy_retained": true
+  },
+  "source_reference_scope": [
+    {
+      "id": "F1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13583997/",
+      "doi": "10.1152/ajpcell.00372.2026",
+      "pmid": "42605981",
+      "version": "Final-publication author manuscript in PMC",
+      "available_in_PMC": "2026-09-18",
+      "final_publication_date": "2026-08-17",
+      "access": "Main text and displayed legends read",
+      "publisher_version_of_record_independently_inspected": false
+    },
+    {
+      "id": "P1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12724522/",
+      "doi": "10.64898/2025.12.15.694174",
+      "version": "2025 preprint",
+      "access": "Previously recovered primary full-text XML re-read; fresh PMC HTML returned a bot-check page",
+      "cached_XML_sha256": "f01c36569f5567aeebb60328155f829c444bf9d81b7a4eb91c40e9dac76f1af5",
+      "independent_project_from_F1": false
+    },
+    {
+      "id": "S1",
+      "url": "https://doi.org/10.6084/m9.figshare.32925317",
+      "title": "Supplementary Figures 1-9 for Gupta et al.",
+      "posted_date": "2026-07-07",
+      "file_id": "66397544",
+      "download_url": "https://figshare.com/ndownloader/files/66397544",
+      "filename": "GuptaetalSUPPLEMENTARYDATA.pdf",
+      "license_reported_on_landing": "CC BY 4.0",
+      "access": "Author-linked metadata and file identity only; PDF body not read",
+      "PDF_sha256": null,
+      "panels_and_legends_directly_inspected": false
+    },
+    {
+      "id": "B1",
+      "repository_paths": [
+        "research/rounds/round7/rux_hhd_development_proof.md",
+        "research/rounds/round7/rux_hhd_product.md",
+        "research/rounds/round10/hhd-active-care-comparator.md"
+      ],
+      "role": "Preserved development decisions and prior source audit; not new clinical observations"
+    }
+  ],
+  "supplement_access_log": [
+    {"route": "Author manuscript link to Figshare DOI", "result": "Landing metadata and download link readable"},
+    {"route": "Figshare download link", "result": "Web retrieval failed after signed object redirect; no PDF content inspected"},
+    {"route": "Figshare public article API", "result": "Not accessible through web tool"},
+    {"route": "Figshare ndownloader file endpoint", "result": "Not accessible through web tool"},
+    {"route": "Standard environment URL request to original download link", "result": "HTTP 403; no access-control change or bypass attempted"},
+    {"route": "Two exact identifier/filename web queries", "result": "No readable supplementary body recovered; main manuscript links rediscovered"},
+    {"route": "Public object path corresponding to the observed redirect", "result": "Not accessible through web tool"}
+  ],
+  "completion": {
+    "main_text_version_comparison_complete": true,
+    "bounded_comparator_decision_complete": true,
+    "direct_supplement_audit_complete": false,
+    "quantitative_cohesion_rescue_qualification_complete": false,
+    "current_retrieval_pass_closed": true,
+    "reopen_for": [
+      "Readable actual S1/S4 supplement or corrected primary version",
+      "New primary endpoint-specific rescue evidence with interpretable units, magnitude, uncertainty and timing"
+    ],
+    "closed_lanes_preserved": ["BLU claim mapping", "zinc", "SLC6A6"],
+    "new_exact_use_screens": 0,
+    "new_treated_person_records": 0,
+    "new_molecules": 0,
+    "S_tier_promotions": 0
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}
