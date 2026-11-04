@@ -1,0 +1,743 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "baseline_commit": "a834a480d74b1ebefbaa3fc072db17f67c2aa3d6",
+  "candidate": "Ruxolitinib 1.5% cream for Hailey-Hailey disease",
+  "workstream": "Clinical evidence, patient lineage, causal interpretation and endpoint audit",
+  "decision": {
+    "status": "Controlled proof is justified; clinical efficacy and fundable product differentiation remain unproven",
+    "exact_strength_peer_reviewed_single_case_reports_located": 5,
+    "controlled_exact_article_HHD_trials_located": 0,
+    "formal_pooled_response_rate": null,
+    "reason_no_pooling": "Selected positive case reports have no consecutive treated denominator; induction and maintenance differ; the nine-patient preprint has inaccessible participant detail and unresolved overlap.",
+    "supportable_value": [
+      "Local lesion and symptom control",
+      "Intermittent or reduced-frequency maintenance",
+      "Potential reduction in rescue treatment and functional burden"
+    ],
+    "unsupported_claims": [
+      "Genetic correction",
+      "Restored ATP2C1 function in treated patients",
+      "IFN-specific causal mechanism established",
+      "Durable off-treatment cure",
+      "A 14-person independent responder cohort",
+      "Established HHD-specific systemic safety or exposure",
+      "Validated HHD minimal clinically important difference"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "KHANG_2023_53F",
+      "source_id": "S01",
+      "age_years": 53,
+      "sex": "F",
+      "disease_duration": "25 years",
+      "diagnostic_evidence": "Biopsy-proven HHD",
+      "individual_genotype_verified": false,
+      "locations": [
+        "axillae",
+        "inguinal folds"
+      ],
+      "prior_treatment_context": "Topical tacrolimus, antibiotics, intralesional/topical steroids ineffective; apremilast stopped for gastrointestinal intolerance.",
+      "ruxolitinib_concentration_percent": 1.5,
+      "form": "cream",
+      "brand_or_lot_documented": false,
+      "frequency": "Twice daily",
+      "background_treatment": "Dupilumab 300 mg every 14 days continued",
+      "treatment_lineage": "Dupilumab improved axillae after two weeks; persistent painful groin lesions received ruxolitinib.",
+      "response": [
+        {
+          "time": "1 day",
+          "measure": "Marked improvement",
+          "type": "Reported qualitative"
+        },
+        {
+          "time": "1 month",
+          "measure": "Complete resolution of residual lesions",
+          "type": "Reported clinical and photographs"
+        },
+        {
+          "time": "5 months follow-up",
+          "measure": "No reported flares or adverse effects on combination",
+          "type": "Reported follow-up"
+        }
+      ],
+      "interpretation": "Add-on response; not clean ruxolitinib monotherapy induction or randomized within-person comparison.",
+      "quantitative_BSA_grams_PK": null,
+      "infection_assessment": "Not reported in clinical paragraph",
+      "safety": "No side effects reported; formal systematic ascertainment not described",
+      "overlap_with_ceccacci9": "Unknown; do not pool"
+    },
+    {
+      "case_id": "LY_2025_29F",
+      "source_id": "S02",
+      "age_years": 29,
+      "sex": "F",
+      "disease_duration": "Anogenital treatment history documented 2015\u20132023; worsening March 2024",
+      "diagnostic_evidence": "HHD reported with affected mother and grandmother; clinical paragraph does not establish individual genetic testing",
+      "individual_genotype_verified": false,
+      "locations": [
+        "labia majora",
+        "perianal skin"
+      ],
+      "prior_treatment_context": "High-potency topical corticosteroids, tacrolimus and doxycycline; apremilast stopped after one week for gastrointestinal intolerance.",
+      "ruxolitinib_concentration_percent": 1.5,
+      "form": "cream",
+      "brand_or_lot_documented": false,
+      "frequency": "Twice daily induction; every three days at six-month follow-up",
+      "background_treatment": "Ruxolitinib described as the active treatment after apremilast discontinuation; complete concurrent-care inventory absent",
+      "baseline_DLQI": 26,
+      "baseline_DLQI_maximum": 30,
+      "followup_DLQI": null,
+      "response": [
+        {
+          "time": "2 days",
+          "measure": "Symptoms resolved",
+          "type": "Reported qualitative"
+        },
+        {
+          "time": "1 month",
+          "measure": "Plaques healed",
+          "type": "Clinical report and figure caption"
+        },
+        {
+          "time": "6 months",
+          "measure": "Asymptomatic with application every three days",
+          "type": "Reported maintenance"
+        }
+      ],
+      "infection_assessment": "Candida and herpes excluded",
+      "quantitative_BSA_grams_PK": null,
+      "safety": "No adverse effects reported",
+      "interpretation": "Strongest detailed local monotherapy-style induction/maintenance narrative; no controlled counterfactual or post-treatment quantitative quality-of-life score.",
+      "access_limit": "Publisher-provided preview contains clinical paragraph; full second page not retrieved",
+      "overlap_with_ceccacci9": "Unknown; do not pool"
+    },
+    {
+      "case_id": "ALHWAYEK_2025_84M",
+      "source_id": "S03",
+      "age_years": 84,
+      "sex": "M",
+      "disease_duration": "Several years",
+      "diagnostic_evidence": "Prior-provider biopsy and clinical confirmation",
+      "individual_genotype_verified": false,
+      "locations": [
+        "groin",
+        "trunk",
+        "back"
+      ],
+      "prior_treatment_context": "Steroids, antibiotics, antifungals, intralesional triamcinolone, glycopyrrolate and CO2 laser inadequately effective; repeated upadacitinib response/relapse history.",
+      "ruxolitinib_concentration_percent": 1.5,
+      "form": "cream",
+      "brand_or_lot_documented": false,
+      "frequency": null,
+      "background_treatment": "Upadacitinib 15 mg daily during successful combination induction; then ruxolitinib alone for five months",
+      "treatment_lineage": "Upadacitinib alone produced earlier remissions lasting two and three months. Later 15 mg retreatment failed; 30 mg caused dizziness/falls. Reintroduced 15 mg plus ruxolitinib induced remission. Groin-only cream continued for five months; untreated back flared and improved when oral upadacitinib restarted.",
+      "response": [
+        {
+          "time": "Combination induction; time not stated",
+          "measure": "Remission",
+          "type": "Qualitative"
+        },
+        {
+          "time": "5 months topical-only maintenance",
+          "measure": "Remission followed by flare on untreated back",
+          "type": "Reported site-specific course"
+        }
+      ],
+      "infection_assessment": "COVID-19 preceded an earlier flare; no topical-treatment infection screen stated",
+      "quantitative_BSA_grams_PK": null,
+      "safety": "Dizziness and falls occurred with oral upadacitinib 30 mg; do not assign these to topical ruxolitinib",
+      "interpretation": "Suggestive local maintenance after mixed induction; untreated-back relapse is not failure of cream applied to groin. Regional biology and systemic carryover prevent causal comparison.",
+      "overlap_with_ceccacci9": "Unknown; do not pool"
+    },
+    {
+      "case_id": "MENDEZ_2025_72F",
+      "source_id": "S04",
+      "age_years": 72,
+      "sex": "F",
+      "disease_duration": "Symptoms since twenties",
+      "diagnostic_evidence": "Previously diagnosed HHD; no patient-specific biopsy/genetic result provided in case narrative",
+      "individual_genotype_verified": false,
+      "locations": [
+        "inframammary skin",
+        "axillae",
+        "waist",
+        "inguinal creases",
+        "interscapular back",
+        "neck",
+        "chest"
+      ],
+      "prior_treatment_context": "Long-term intermittent Grenz ray lost benefit; hydrocortisone/antibiotics ineffective; clobetasol twice daily as needed minimally effective.",
+      "ruxolitinib_concentration_percent": 1.5,
+      "form": "cream",
+      "brand_or_lot_documented": false,
+      "frequency": "Twice daily for one week, then used during flares",
+      "background_treatment": "Concurrent clobetasol discontinuation not explicitly stated",
+      "response": [
+        {
+          "time": "1 week",
+          "measure": "Plaques and fissures improved",
+          "type": "Qualitative"
+        },
+        {
+          "time": "Subsequent unspecified duration",
+          "measure": "As-needed use continued effective",
+          "type": "Qualitative"
+        }
+      ],
+      "historical_flare_trajectory": "Pruritus lasted one to two weeks; episodes resolved in approximately one month",
+      "quantitative_BSA_grams_PK": null,
+      "infection_assessment": "Not reported in clinical paragraph",
+      "safety": "No structured adverse-event reporting located",
+      "interpretation": "Additional exact-strength case; complete clearance, sustained remission interval and quantified benefit not established.",
+      "duplicate_publications": [
+        "EADV Congress 2025 abstract 3470, same authors, same 72-year-old case"
+      ],
+      "overlap_with_ceccacci9": "Unknown; do not pool"
+    },
+    {
+      "case_id": "JOBE_2026_77F",
+      "source_id": "S05",
+      "age_years": 77,
+      "sex": "F",
+      "disease_duration": "Long-standing, fluctuating recurrent disease",
+      "diagnostic_evidence": "Histopathology and affected daughter",
+      "individual_genotype_verified": false,
+      "locations": [
+        "inframammary folds",
+        "inguinal folds"
+      ],
+      "prior_treatment_context": "Multiple topical/systemic failures; pain required specialist referral; previous agents discontinued before ruxolitinib.",
+      "ruxolitinib_concentration_percent": 1.5,
+      "form": "cream",
+      "brand_or_lot_documented": false,
+      "frequency": "Twice daily during treatment; sparingly outside acute flares because of cost",
+      "background_treatment": "Prior agents discontinued",
+      "response": [
+        {
+          "time": "Initial application",
+          "measure": "Rapid pain relief",
+          "type": "Patient report"
+        },
+        {
+          "time": "3 days",
+          "measure": "Resolution reported",
+          "type": "Patient report"
+        },
+        {
+          "time": "3 months",
+          "measure": "Post-treatment photographs",
+          "type": "Figure timing; not proof of three continuous flare-free months"
+        },
+        {
+          "time": "Weeks",
+          "measure": "Remission periods with subsequent milder, faster-responding flares",
+          "type": "Reported recurrent course"
+        }
+      ],
+      "quantitative_BSA_grams_PK": null,
+      "infection_assessment": "No specific contemporaneous pathogen assessment reported",
+      "safety": "No irritation or other adverse effects reported",
+      "interpretation": "Useful repeated symptom/flare-control observation after prior-treatment discontinuation; no genotype-correction or controlled barrier-restoration proof.",
+      "overlap_with_ceccacci9": "Unknown; do not pool"
+    }
+  ],
+  "related_nonexact_case": {
+    "case_id": "LEVIN_2024_48F",
+    "source_id": "S06",
+    "publication_status": "Original clinical report in The Dermatologist; external peer-review status not independently verified",
+    "age_years": 48,
+    "sex": "F",
+    "diagnosis": "Bilateral axillary, biopsy-confirmed in 2015",
+    "ruxolitinib_concentration_percent_as_published": 1.0,
+    "frequency": "Once daily",
+    "co_treatment": "Oral naltrexone 7 mg once daily",
+    "duration_months": 11,
+    "reported_outcome": "Flare cleared with no recurrence; longest reported flare-free period",
+    "prior_failures_include": "Topical tofacitinib",
+    "exact_1_5_percent_evidence": false,
+    "interpretation": "Keep concentration as published; do not silently correct to marketed 1.5% or assign all effect to ruxolitinib."
+  },
+  "ceccacci_preprint": {
+    "source_ids": [
+      "S07",
+      "S08",
+      "S09"
+    ],
+    "doi": "10.64898/2026.06.01.729262",
+    "version": 1,
+    "preprint_date": "2026-06-04",
+    "peer_reviewed_version_verified": false,
+    "reported_treated_n_in_abstract": 9,
+    "clinical_participant_table_recovered": false,
+    "regimen_strength_vehicle_BSA_genotypes_background_treatments_duration_safety": null,
+    "mechanistic_abstract": "Bulk, single-cell and spatial multiomic analyses describe IFN-associated inflammatory programs in several skin compartments.",
+    "clinical_abstract": "Rapid sustained improvement, re-epithelialization and symptom/quality-of-life improvement reported in nine refractory patients.",
+    "patient_overlap_with_case_literature": "Not determined",
+    "independent_donors_per_omic_assay": null,
+    "causal_interpretation": "Association and uncontrolled treatment concordance; no verified IFN-selective perturbation, genotype repair or patient-level controlled response.",
+    "access": {
+      "PMC13252397": "Explicitly abstract only because author license does not allow PMC full-text archiving",
+      "BioRxiv_HTML": "Web access 403",
+      "BioRxiv_PDF": "HTTP 429 during ordinary retrieval",
+      "BioRxiv_advertised_JATS": "HTTP 403 during ordinary retrieval",
+      "BioRxiv_API": "Metadata and abstract obtained; license cc_no, published NA",
+      "Zenodo_17803985": "Metadata available; files embargoed until 2026-12-30; no file content accessed",
+      "author_code_repository": "Six-file public tree and README inspected; analysis/visualization snippets only, preprocessing/QC/normalization not included and no clinical participant file in tree"
+    },
+    "author_repository": {
+      "url": "https://github.com/OMICShub-Imagine/HaileyHailey_multiOME",
+      "tree_sha": "c2ac0cf7e13f1bd0a4a7e46a9b60a59753d5f6bf",
+      "files": [
+        "README.md",
+        "Visium/README",
+        "Visium/Plot_spot_deconvolution.R",
+        "Xenium/README",
+        "Xenium/Xenium_contacts_heatmap.R",
+        "Xenium/Xenium_immune_infiltration.R"
+      ]
+    }
+  },
+  "derm101_control_audit": {
+    "source_id": "S10",
+    "trial_id": "EudraCT 2018-000373-80",
+    "article": "Oral LX3305; not ruxolitinib",
+    "randomization": "2:1 active:placebo, stratified by disease",
+    "randomized": {
+      "DD_active": 12,
+      "DD_placebo": 5,
+      "HHD_active": 10,
+      "HHD_placebo": 6
+    },
+    "completed": {
+      "DD_active": 11,
+      "DD_placebo": 4,
+      "HHD_active": 9,
+      "HHD_placebo": 6
+    },
+    "HHD_noncompletion": {
+      "active_other_reason": 1,
+      "placebo": 0
+    },
+    "primary_endpoint_domain": "Safety",
+    "IGSA_definition": "Primary-lesion five-point scale: 0 clear, 1 almost clear, 2 mild, 3 moderate, 4 severe",
+    "efficacy_population": "Randomized, at least one dose, baseline and at least one postbaseline IGSA; early toxicity discontinuations included even without postbaseline IGSA",
+    "reported_efficacy_denominators": {
+      "HHD_active": 10,
+      "HHD_placebo": 6
+    },
+    "week_specific_observed_denominators": null,
+    "missing_data_imputation_rule": null,
+    "between_arm_statistical_analysis_reported": false,
+    "HHD_response_percentages": [
+      {
+        "threshold_grade_improvement": 1,
+        "visit": "Any time",
+        "active": 50.0,
+        "placebo": 83.3
+      },
+      {
+        "threshold_grade_improvement": 1,
+        "visit": "Week 4",
+        "active": 20.0,
+        "placebo": 33.3
+      },
+      {
+        "threshold_grade_improvement": 1,
+        "visit": "Week 8",
+        "active": 10.0,
+        "placebo": 50.0
+      },
+      {
+        "threshold_grade_improvement": 1,
+        "visit": "Week 12",
+        "active": 50.0,
+        "placebo": 83.3,
+        "active_CI95": [
+          18.7,
+          81.3
+        ],
+        "placebo_CI95": [
+          35.9,
+          99.6
+        ]
+      },
+      {
+        "threshold_grade_improvement": 2,
+        "visit": "Any time",
+        "active": 40.0,
+        "placebo": 66.7
+      },
+      {
+        "threshold_grade_improvement": 2,
+        "visit": "Week 4",
+        "active": 20.0,
+        "placebo": 16.7
+      },
+      {
+        "threshold_grade_improvement": 2,
+        "visit": "Week 8",
+        "active": 10.0,
+        "placebo": 50.0
+      },
+      {
+        "threshold_grade_improvement": 2,
+        "visit": "Week 12",
+        "active": 40.0,
+        "placebo": 66.7,
+        "active_CI95": [
+          12.2,
+          73.8
+        ],
+        "placebo_CI95": [
+          22.3,
+          95.7
+        ]
+      }
+    ],
+    "inference_limit": "A small different-drug trial illustrates spontaneous/background/placebo-associated improvement; it cannot estimate ruxolitinib effect, supply a universal placebo rate or validate an HHD MCID."
+  },
+  "gaumond_biopsy_audit": {
+    "source_id": "S11",
+    "reported_group_n": {
+      "HHD": 7,
+      "AD": 6,
+      "normal": 4
+    },
+    "rows_from_table_1": [
+      {
+        "group": "HHD",
+        "sample": "001",
+        "sex": "M",
+        "age": 56,
+        "site": "Left inguinal"
+      },
+      {
+        "group": "HHD",
+        "sample": "002",
+        "sex": "F",
+        "age": 60,
+        "site": "Left lumbar back"
+      },
+      {
+        "group": "HHD",
+        "sample": "003",
+        "sex": "F",
+        "age": 60,
+        "site": "Medial infrascapular back"
+      },
+      {
+        "group": "HHD",
+        "sample": "004",
+        "sex": "M",
+        "age": 75,
+        "site": "Left proximal anterior thigh"
+      },
+      {
+        "group": "HHD",
+        "sample": "005",
+        "sex": "F",
+        "age": 63,
+        "site": "Left axilla"
+      },
+      {
+        "group": "HHD",
+        "sample": "006",
+        "sex": "F",
+        "age": 63,
+        "site": "Left lateral neck"
+      },
+      {
+        "group": "HHD",
+        "sample": "007",
+        "sex": "F",
+        "age": 39,
+        "site": "Left neck"
+      },
+      {
+        "group": "AD",
+        "sample": "001",
+        "sex": "M",
+        "age": 39,
+        "site": "Left anterior proximal thigh"
+      },
+      {
+        "group": "AD",
+        "sample": "002",
+        "sex": "F",
+        "age": 65,
+        "site": "Left ventral wrist"
+      },
+      {
+        "group": "AD",
+        "sample": "003",
+        "sex": "F",
+        "age": 72,
+        "site": "Left inner thigh"
+      },
+      {
+        "group": "AD",
+        "sample": "004",
+        "sex": "M",
+        "age": 53,
+        "site": "Right upper back"
+      },
+      {
+        "group": "AD",
+        "sample": "005",
+        "sex": "F",
+        "age": 45,
+        "site": "Left anterior proximal thigh"
+      },
+      {
+        "group": "AD",
+        "sample": "006",
+        "sex": "M",
+        "age": 66,
+        "site": "Right lower back"
+      },
+      {
+        "group": "normal",
+        "sample": "001",
+        "sex": "F",
+        "age": 33,
+        "site": "Abdomen"
+      },
+      {
+        "group": "normal",
+        "sample": "002",
+        "sex": "F",
+        "age": 34,
+        "site": "Abdomen"
+      },
+      {
+        "group": "normal",
+        "sample": "003",
+        "sex": "F",
+        "age": 41,
+        "site": "Abdomen"
+      },
+      {
+        "group": "normal",
+        "sample": "004",
+        "sex": "F",
+        "age": 63,
+        "site": "Abdomen"
+      }
+    ],
+    "text_labels_as_HHD": {
+      "mean_age": 54.5,
+      "min_age": 33,
+      "max_age": 75,
+      "female_percent": 70.6
+    },
+    "replicate_structure": "One section per marker (IL-4 and IL-13), plus no-antibody control per biopsy; thousands of cells/section are nested observations",
+    "donor_lineage": "Paper describes seven validated HHD cases. Table provides sample numbers; same sex/age pairs may or may not be repeated donors. Do not invent a reduced donor count or treat sections as patients.",
+    "reported_findings": [
+      {
+        "marker": "IL-4",
+        "compartment": "Epidermis",
+        "HHD_mean_positive_cells_per_mm2": 3966,
+        "normal_mean_positive_cells_per_mm2": 808,
+        "p": 0.0219
+      },
+      {
+        "marker": "IL-13",
+        "compartment": "Dermis",
+        "HHD_mean_positive_cells_per_mm2": 5288,
+        "normal_mean_positive_cells_per_mm2": 629,
+        "p_less_than": 0.0001
+      }
+    ],
+    "interpretation": "Associative inflammatory evidence; incompletely matched controls and demographic summary discrepancy. No treated-ruxolitinib experiment or IFN-selective causal test."
+  },
+  "mechanistic_citation_correction": {
+    "source_ids": [
+      "S05",
+      "S12"
+    ],
+    "downstream_claim": "Jobe says anti-IL-6 and anti-IL-8 restored ATP2C1 expression",
+    "primary_result": "Mayuzumi 2005: anti-IL-6 prevented UVB-related ATP2C1 mRNA suppression; anti-IL-8 slightly accelerated suppression",
+    "model": "Cultured normal human keratinocytes",
+    "not_shown": [
+      "Ruxolitinib effect",
+      "Mutant HHD patient-cell functional rescue",
+      "Restored adhesion",
+      "Durable genetic correction"
+    ]
+  },
+  "endpoint_design": {
+    "purpose": "Falsifiable local benefit and maintenance-value proof, followed by product differentiation",
+    "suggested_first_controlled_window": "Approximately 8\u201312 weeks, harmonized with integrated proof; investigator/statistical planning choice, not a validated HHD standard",
+    "extension": "Approximately 12\u201324 weeks to observe maintained control, exposure burden and recurrence; proposed rather than published evidence",
+    "unit": "Patient; lesions and visits are nested or paired observations, not independent participants",
+    "preferred_lesion_measures": [
+      "Standardized blinded eroded/fissured target-area measurement",
+      "Sustained complete or near-complete epithelialization at prespecified visits",
+      "Cumulative erosion-days",
+      "Rescue treatment and intercurrent infection"
+    ],
+    "preferred_patient_measures": [
+      "Pain and burning NRS",
+      "Itch",
+      "Chosen functional limitation such as walking, work or sleep",
+      "DLQI",
+      "Treatment burden and flare-free or well-controlled days"
+    ],
+    "baseline": "Document recent and prospective trajectory, historical flare duration, stable background care and triggers without requiring avoidable untreated pain or withdrawal",
+    "split_body_requirements": [
+      "Comparable separate lesions",
+      "Randomized site assignment",
+      "Blinded assessment",
+      "No cream transfer",
+      "Prespecified assessment of systemic spillover",
+      "Patient-level analysis"
+    ],
+    "split_body_limits": "Anatomic imbalance, spontaneous regional differences, barrier changes, systemic spillover and transfer can bias treatment contrasts; whole-person quality of life is not site-specific",
+    "crossover_limit": "Healing and disease-state changes can outlast drug clearance; no invented pharmacokinetic washout or withdrawal to force a relapse",
+    "MCID_status": "No HHD-specific validated MCID identified in this bounded review; do not import AD or generic dermatology thresholds as disease-validated",
+    "failure_rule": "No reproducible improvement in the intended meaningful value after credible exposure and controlled assessment, or toxicity/burden erasing benefit",
+    "mechanism_gate": "Clinical benefit need not require proof of genetic correction; IFN biomarker or barrier claims need separate validated mechanistic endpoints",
+    "integration_refinements": [
+      "Primary estimand selected before outcomes, with explicit rescue/missingness treatment",
+      "Maintenance responders and all initially randomized participants retain separate denominators",
+      "Allowed background care is specified; historical biologic/other-JAK combinations do not automatically define a new protocol"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Khang 2023",
+      "doi": "10.1016/j.jdcr.2023.10.004",
+      "PMID": "38058412",
+      "PMCID": "PMC10696304",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10696304/fullTextXML",
+      "access": "Full primary XML",
+      "local_sha256": "f17a899c1dc3dfe516b7f12267e11ece2741142a7da995735d271f75142c78e8"
+    },
+    {
+      "id": "S02",
+      "title": "Ly 2025",
+      "doi": "10.1111/jdv.20620",
+      "PMID": "40028665",
+      "url": "https://www.researchgate.net/publication/394926669_Refractory_anogenital_Hailey-Hailey_disease_successfully_treated_with_topical_ruxolitinib",
+      "official_url": "https://onlinelibrary.wiley.com/doi/10.1111/jdv.20620",
+      "access": "Wiley-provided primary-letter preview; clinical paragraph read, not complete second page"
+    },
+    {
+      "id": "S03",
+      "title": "Alhwayek 2025",
+      "doi": "10.1016/j.jdcr.2025.05.052",
+      "PMID": "40948688",
+      "PMCID": "PMC12423694",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12423694/fullTextXML",
+      "access": "Full primary XML",
+      "local_sha256": "107c31476e5361629f0d302eb189f7d59d3e85f3a762bd806ddf09abfbd4e957"
+    },
+    {
+      "id": "S04",
+      "title": "Mendez 2025",
+      "doi": "10.36849/JDD.9351",
+      "PMID": "41187238",
+      "url": "https://s3.us-east-1.amazonaws.com/dl.jddonline.com/pdfs/24-11_eJDD.pdf",
+      "access": "Official complete issue PDF, journal pages 1141\u20131143, PDF pages 81\u201383",
+      "local_sha256": "8c30eeb1f2593295fd16f9ea658d13e58ea951b204a1e8dd671d8b0e67660db8",
+      "duplicate_abstract_url": "https://s3.eu-central-1.amazonaws.com/m-anage.com.storage.eadv/abstracts_congress_2025/55515.pdf"
+    },
+    {
+      "id": "S05",
+      "title": "Jobe 2026",
+      "doi": "10.1093/skinhd/vzag002",
+      "PMID": "42222696",
+      "PMCID": "PMC13220019",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13220019/fullTextXML",
+      "publisher_url": "https://academic.oup.com/skinhd/article/6/3/310/8519347",
+      "access": "Full primary XML",
+      "local_sha256": "7852f81893f2bf4f1385f052cdef48f224cf82056b2c436bf0e00bc17519f2eb"
+    },
+    {
+      "id": "S06",
+      "title": "Levin, Harrell and Johnson 2024",
+      "url": "https://www.hmpgloballearningnetwork.com/site/thederm/case-report/successful-treatment-recalcitrant-hailey-hailey-disease",
+      "access": "Full original case read via web retrieval; local HTTP 200 response was a challenge page, not full article"
+    },
+    {
+      "id": "S07",
+      "title": "Ceccacci 2026 preprint",
+      "doi": "10.64898/2026.06.01.729262",
+      "PMID": "42282850",
+      "PMCID": "PMC13252397",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13252397/",
+      "api_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.06.01.729262",
+      "access": "Abstract and metadata only",
+      "metadata_sha256": "ba3fe69789448c16c00d605f553bdeee0275c43c203075658bb0e9108b2cff80"
+    },
+    {
+      "id": "S08",
+      "title": "Ceccacci multiomics dataset metadata",
+      "doi": "10.5281/zenodo.17803985",
+      "url": "https://zenodo.org/records/17803985",
+      "api_url": "https://zenodo.org/api/records/17803985",
+      "access": "Metadata only; data embargo 2026-12-30",
+      "metadata_sha256": "33cb616b40e108d2ab46f09ee92e5a6eedfddee0cffbc637ce170e461a4ee3ca"
+    },
+    {
+      "id": "S09",
+      "title": "Author multiomics code repository",
+      "url": "https://github.com/OMICShub-Imagine/HaileyHailey_multiOME",
+      "access": "Public tree and README via GitHub connector",
+      "tree_sha": "c2ac0cf7e13f1bd0a4a7e46a9b60a59753d5f6bf"
+    },
+    {
+      "id": "S10",
+      "title": "DERM101 results",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-000373-80/results",
+      "access": "Full official results HTML",
+      "local_sha256": "b2b7e0e7f19b723faae04d1aa7dea171f6948b24d8d51fe8dde9803a12b16882"
+    },
+    {
+      "id": "S11",
+      "title": "Gaumond 2026",
+      "doi": "10.1111/cup.70156",
+      "PMID": "42410304",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cup.70156",
+      "access": "Full primary publisher text through web retrieval; ordinary local fetch 403"
+    },
+    {
+      "id": "S12",
+      "title": "Mayuzumi 2005",
+      "doi": "10.1111/j.1365-2133.2005.06394.x",
+      "PMID": "15888147",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15888147/",
+      "access": "Primary abstract; exact anti-IL-6 versus anti-IL-8 direction reported in abstract"
+    },
+    {
+      "id": "S13",
+      "title": "Rogner German registry baseline report 2024",
+      "doi": "10.1111/jdv.19583",
+      "PMID": "37863661",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jdv.19583",
+      "access": "Full primary publisher text through web retrieval; ordinary local fetch 403"
+    }
+  ],
+  "search_scope": {
+    "date": "2026-11-04",
+    "sources": [
+      "PubMed",
+      "PMC/Europe PMC",
+      "Primary journal pages and publisher previews",
+      "BioRxiv API",
+      "Official conference abstract",
+      "EudraCT results",
+      "Author GitHub tree",
+      "Zenodo metadata"
+    ],
+    "negative_query_topics": [
+      "Ruxolitinib HHD failure/ineffective/adverse",
+      "New 2025\u20132026 HHD ruxolitinib cases",
+      "HHD scale validation/minimal clinically important difference"
+    ],
+    "completeness_limit": "Bounded targeted literature inventory, not a registered systematic review; no confirmed topical-ruxolitinib HHD negative trial located, which does not establish absence of failures."
+  }
+}

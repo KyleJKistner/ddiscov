@@ -40,13 +40,14 @@ An owner or author reply is not a prerequisite for scientific selection. If publ
 
 ## Promotion and stopping
 
-Promote a **bounded proof** when an exact starting article and plausible model route can be specified, the experiment measures useful function, the active comparison changes a development decision, and advance/stop criteria are explicit. Start with material, formulation or model qualification if those are the most informative uncertainties.
+Promote a **bounded proof** when an exact starting article and plausible model or clinical route can be specified, the experiment measures useful function, the active comparison changes a development decision, and advance/stop criteria are explicit. Start with material, formulation or model qualification if those are the most informative uncertainties.
 
 Require independent challenge before inclusion in the current core shortlist. Rank the value and tractability of the next proof. Do not rank by publication recency, mention count or an uncalibrated numerical success probability. New combinations need component controls and added value over the strongest single component.
 
 Use these dispositions consistently:
 
 - **Leading staged proof:** a compelling question with explicit qualification and functional milestones.
+- **Defined clinical development proof:** existing human evidence justifies article/exposure or controlled-clinical qualification with a specific product question.
 - **New independent-validation priority:** a strong new signal that needs replication before joining the core shortlist.
 - **Conditional reserve:** a specific open question and reopening criterion remain.
 - **Chemistry or product-development project:** target biology is useful but the present article does not meet the intended product need.
@@ -55,11 +56,13 @@ Use these dispositions consistently:
 
 ## Fund the next uncertainty at the appropriate stage
 
-Use separate judgments for initial qualification, exploratory function, confirmatory translation and a larger asset/company investment. A defined article, plausible model route, strong rationale and a finite decision can justify material/model qualification before human efficacy exists. Do not require the result of an experiment as a prerequisite for funding that experiment.
+Use separate judgments for initial qualification, exploratory function, confirmatory translation and a larger asset/company investment. A defined article, plausible model or clinical route, strong rationale and a finite decision can justify material/model qualification before human efficacy exists. Do not require the result of an experiment as a prerequisite for funding that experiment.
+
+When exact-disease human treatment observations already exist, fund the uncertainty appropriate to that stage. Pediatric article/exposure qualification or a controlled clinical comparison can be the next proof. A new cell or animal rescue experiment is optional when it discriminates a consequential article, tissue, mechanism or safety question; it is not a compulsory reset to an earlier evidence stage.
 
 An initial qualified disease/control background can decide whether a larger replication effort is worthwhile. It cannot establish genotype generality. Independent backgrounds, a prespecified useful effect and relevant exposure belong to confirmation; avoid imposing the complete development package before a first feasibility result. Record the smallest informative deliverable and what happens if it succeeds, fails or is inconclusive.
 
-Scientifically worthwhile clinical work, a differentiated product and a proprietary company are separate opportunities. A generic or an active external program can still support valuable research, but a new developer must identify its contribution. Comparable efficacy with a meaningful improvement in tolerability, burden, delivery or another intended benefit can be valuable; superiority on every endpoint is unnecessary.
+Scientifically worthwhile clinical work, a differentiated product and a proprietary company are separate opportunities. A generic or an active external program can still support valuable research, but a new developer must identify its contribution. Do not silently replace an intended drug-development opportunity with an academic evidence-generation project; label the different scope and value-capture limits explicitly. Comparable efficacy with a meaningful improvement in tolerability, burden, delivery or another intended benefit can be valuable; superiority on every endpoint is unnecessary.
 
 Useful ongoing control or early developmental preservation can qualify on the intended indication. Permanent off-treatment cure and reversal of every established deficit are not universal requirements. Retain those distinctions in wording and endpoint selection.
 

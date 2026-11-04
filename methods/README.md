@@ -1,6 +1,6 @@
 # Measuring function across constructs, donors, and assays
 
-The analyses below show how the choice of experimental unit changes what a result can answer. They run with Python 3.9+ and its standard library. The numerical results are project reanalyses of published experiments. Each source supplies the measurements.
+The analyses below show how the choice of experimental unit changes what a result can answer. They use Python 3.9+ and its standard library; the round-7 ruxolitinib PDF extraction also requires Poppler pdftotext, as specified below. The numerical results are project reanalyses of published experiments. Each source supplies the measurements.
 
 ## WNT receptor context
 
@@ -70,3 +70,32 @@ python methods/blu3797_cell_context_audit.py --source research/source-data/blu37
 The script preserves asterisk-marked values, cell addresses and group labels. Means are descriptive; technical fields do not become independent cultures, and no cross-panel pairing or new significance test is manufactured. Figure 5E–F deliberately uses VPS34/PIK3C3-knockout cells; its labels agree with the article. Read the [human-proof interpretation](../research/rounds/round5/blu3797-human-proof.md) and [derived audit](../research/rounds/round5/blu3797-cell-context-audit.json).
 
 The separate [P2 panel extraction](../research/rounds/round5/p2-off-target-audit.json) preserves 87 single-concentration assay entries with source pages and assay classes. Its [interpretation](../research/rounds/round5/p2-off-target-audit.md) distinguishes binding displacement from catalytic inhibition and electrical function. It does not generate new selectivity curves or an animal efficacy analysis.
+
+
+## Round 7 clinical and exposure audits
+
+Three scripts preserve source units and reproducible arithmetic. They do not estimate a new controlled clinical efficacy effect or a population safety rate.
+
+**Enasidenib:** download the [Gold primary XML](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11078709/fullTextXML), then run:
+
+```bash
+python methods/enasidenib_clinical_audit.py --gold-xml /path/to/gold2024.xml --output /path/to/enasidenib-audit.json
+```
+
+The script extracts 177 populated cells across 23 laboratory series from one child and preserves reference intervals, timestamps and source conflicts. [Derived audit](../research/rounds/round7/enasidenib_clinical_audit.json) · [Interpretation](../research/rounds/round7/enasidenib_clinical.md)
+
+**Ruxolitinib clinical ledger:** the committed structured dossier contains the transcribed primary values and their source/access records. Run from the repository root:
+
+```bash
+python methods/rux_hhd_clinical_audit.py --input research/rounds/round7/rux_hhd_clinical.json --output /path/to/rux-clinical-audit.json
+```
+
+This checks case/duplicate accounting, reconstructs DERM101 response numerators from reported percentages/denominators, and recomputes the 17-row biopsy-demographic table. It does not recover individual trial records or resolve undisclosed missingness. [Audit](../research/rounds/round7/rux_hhd_clinical_audit.json)
+
+**Ruxolitinib exposure and official patent snapshot:** obtain the four exact source files named in the script's `SOURCES` mapping: two EuropePMC XMLs, the Springer maximum-use supplement and the official FDA Orange Book ZIP. Preserve their downloaded filenames. The script uses the Python standard library and Poppler `pdftotext`:
+
+```bash
+python methods/rux_hhd_source_audit.py --source-dir /path/to/source-files --output /path/to/rux-source-audit.json
+```
+
+It verifies source-byte hashes, extracts primary PK tables, preserves the five selected high-exposure participants from the original 41-person study, and separates patent rows from distinct patent numbers. The official ZIP is a mutable endpoint; this review's internal file dates are 9 October 2026. A later checksum mismatch requires source review rather than automatic substitution. The [committed audit](../research/rounds/round7/rux_hhd_source_audit.json) preserves all selected table values and official product/patent/exclusivity rows, even if a later source version changes. [Interpretation](../research/rounds/round7/rux_hhd_product.md)

@@ -1,0 +1,651 @@
+{
+  "schema_version": "1.0",
+  "review_id": "R7-ENAS-CLINICAL",
+  "as_of": "2026-11-04",
+  "base_commit": "a834a480d74b1ebefbaa3fc072db17f67c2aa3d6",
+  "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+  "exact_supported_population": "Genetically confirmed germline IDH2-R140Q D2HGA2, with outcome-specific baseline severity and treatment stage",
+  "scope": "Clinical evidence, causal chain, patient lineage, useful function and source-value audit. No outreach, treatment, purchased materials or new experiments.",
+  "recommendation": "Affirmative development-definition and pediatric article/exposure/organ-function qualification project. Human evidence means another generic target-rescue animal or cell experiment is not automatically required; use models when they change article/window/claim selection.",
+  "current_S_tier": false,
+  "counting": {
+    "primary_treatment_publications_with_outcomes": 3,
+    "reported_patient_records_with_outcomes": 5,
+    "clearly_distinct_treated_individuals_resolved": 3,
+    "additional_skin_records_without_complete_cross_publication_linkage": 2,
+    "metadata_only_infant_records": 1,
+    "additional_efficacy_observations_from_infant_metadata": 0,
+    "pooled_response_rate_computed": false,
+    "exhaustive_census_claimed": false
+  },
+  "clinical_records": [
+    {
+      "id": "G23-P1",
+      "source_ids": [
+        "C1",
+        "C2"
+      ],
+      "genotype": "Heterozygous de novo IDH2 p.Arg140Gln",
+      "sex_as_reported": "male",
+      "start_age_months": 85,
+      "start_date": "2019-02",
+      "followup": "3.9 years, to 10 years 11 months",
+      "article": {
+        "authors_dosage_form": "capsules",
+        "dose_mg_daily": 50,
+        "salt_base_basis": "not resolved in supplement",
+        "note": "Do not silently substitute the marketed tablet for the authors dosage-form wording"
+      },
+      "baseline": {
+        "cardiac": "Severe hypokinetic dilated cardiomyopathy with noncompaction; acute cardiac failure began at 4 months",
+        "LVEF_percent": [
+          20,
+          25
+        ],
+        "LVIDd_mm": [
+          57,
+          60
+        ],
+        "weight_kg": 13.9,
+        "height_cm": 99,
+        "functional": "Severe developmental delay, global hypotonia, needs help walking/feeding/dressing"
+      },
+      "biochemistry": {
+        "analyte": "Serum D-2-HG",
+        "unit": "micromol/L",
+        "baseline": 24.92,
+        "day8": 0.25,
+        "later_range": [
+          0.2,
+          0.67
+        ],
+        "upper_normal": 0.9,
+        "computed_baseline_to_day8_reduction_percent": 98.9967897271268,
+        "sample_timing_note": "No contemporaneous study-entry urine sample; diagnosis-age urine is not baseline. The upper later value 0.67 followed 4 days medication interruption."
+      },
+      "cardiac_trajectory": [
+        {
+          "month": 0,
+          "LVEF_percent": [
+            20,
+            25
+          ],
+          "LVIDd_mm": [
+            57,
+            60
+          ]
+        },
+        {
+          "month": 6,
+          "LVEF_percent": [
+            35,
+            40
+          ],
+          "LVIDd_mm": 54
+        },
+        {
+          "month": 8,
+          "LVEF_percent": [
+            40,
+            45
+          ],
+          "context": "First listed furosemide reduction 40→30 mg/day"
+        },
+        {
+          "month": 11,
+          "LVEF_percent": 40,
+          "LVIDd_mm": 51
+        },
+        {
+          "month": 15,
+          "LVEF_percent": [
+            40,
+            45
+          ],
+          "LVIDd_mm": 45
+        },
+        {
+          "month": 20,
+          "LVEF_percent": 36,
+          "LVIDd_mm": 46
+        },
+        {
+          "month": 32,
+          "LVEF_percent": 45,
+          "LVIDd_mm": 45,
+          "context": "Carvedilol increased to 10 mg/day"
+        },
+        {
+          "month_interval": [
+            32,
+            34
+          ],
+          "LVEF_percent": 35,
+          "LVIDd_mm": 50,
+          "context": "Decline described during dose adjustment; carvedilol reduced to 5 mg/day from 34 months"
+        },
+        {
+          "month": 46,
+          "LVEF_percent": [
+            40,
+            45
+          ],
+          "LVIDd_mm": [
+            44,
+            47
+          ]
+        }
+      ],
+      "cardiac_delta_interpretation": "Reported range arithmetic gives 15–25 percentage-point improvement by 8 months; not a confidence interval, randomized effect, or normalization.",
+      "concomitant_care": [
+        "captopril",
+        "carvedilol",
+        "furosemide",
+        "spironolactone",
+        "aspirin initially",
+        "education and developmental therapies"
+      ],
+      "neurological_function": "Serial reported improvements in mobility, endurance, interaction and autonomy; no complete masked standardized longitudinal effect dataset.",
+      "CNS_observation": "MRI and lumbar puncture not performed because anesthesia required; no direct CNS exposure/PD result.",
+      "adverse_observations": "Reported asymptomatic bilirubin elevation; total 17 micromol/L baseline, 24 at 3 months, 17–40 thereafter; other listed routine laboratories described unremarkable.",
+      "independence": "Distinct patient in original two-person series; repeats in supplement/program publicity are the same observation.",
+      "claim_supported": "Established severe-cardiac functional improvement associated with continued treatment and supportive care",
+      "claim_not_established": [
+        "causal effect size",
+        "normal cardiac function",
+        "drug-free durability",
+        "generalized neurological normalization"
+      ]
+    },
+    {
+      "id": "G23-P2",
+      "source_ids": [
+        "C1",
+        "C2"
+      ],
+      "genotype": "Heterozygous de novo IDH2 p.Arg140Gln",
+      "sex_as_reported": "female",
+      "start_age_months": 96,
+      "start_date": "2021-10",
+      "followup": "14 months",
+      "article": {
+        "initial_form": "sprinkle formulation",
+        "initial_mg_daily": 60,
+        "initial_months": 3,
+        "later_authors_form": "capsules",
+        "later_mg_daily": 50,
+        "salt_base_and_complete_composition": "not resolved in supplement"
+      },
+      "baseline": {
+        "cardiac": "Normal systolic function; upper-normal LV size, noncompaction-like trabeculation and borderline diastolic function",
+        "fractional_shortening_percent": 34,
+        "weight_kg": 28.3,
+        "height_cm": 132
+      },
+      "biochemistry": {
+        "analyte": "Serum D-2-HG",
+        "unit": "micromol/L",
+        "baseline": 17.32,
+        "day28": 0.2,
+        "later_values": [
+          0.25,
+          0.3
+        ],
+        "computed_baseline_to_day28_reduction_percent": 98.84526558891454
+      },
+      "cardiac_trajectory": [
+        {
+          "month": 0,
+          "FS_percent": 34
+        },
+        {
+          "month": 6,
+          "FS_percent": 32
+        },
+        {
+          "month": 12,
+          "FS_percent": 40,
+          "context": "Normal systolic/diastolic function; metoprolol starts at approximately 1 year"
+        }
+      ],
+      "concomitant_care": [
+        "riboflavin 50 mg/day",
+        "coenzyme Q10 128 mg/day",
+        "metoprolol from approximately 1 year",
+        "education/developmental care"
+      ],
+      "neurological_function": "Reported improvement in gait/ataxia, concentration, speech/sign language and social interaction; unblinded observations.",
+      "CNS_observation": "MRI unchanged at 12 months; no measured CNS exposure or CSF D-2-HG trajectory recovered.",
+      "adverse_observations": "Total bilirubin 12 micromol/L baseline, 57 at 1 month, 38–58 thereafter; described asymptomatic.",
+      "independence": "Second original individual; not a severe-baseline-cardiomyopathy responder.",
+      "claim_supported": "Exact-disease pediatric sprinkle use and biochemical engagement",
+      "claim_not_established": [
+        "severe systolic failure reversal",
+        "cardiomyopathy prevention",
+        "infant dose/exposure qualification"
+      ]
+    },
+    {
+      "id": "G24-P1",
+      "source_ids": [
+        "C3"
+      ],
+      "genotype": "Heterozygous de novo IDH2 c.419G>A,p.Arg140Gln",
+      "sex_as_reported": "female",
+      "start_age_months": 47,
+      "start_date": "Not explicitly reported; diagnosis December 2019 at 3 years, initiation 3 years 11 months",
+      "followup": "Up to 36 months in narrative",
+      "article": {
+        "dose_mg": 50,
+        "initial_frequency": "daily",
+        "later_frequency": "three times weekly",
+        "further_reduction": "twice weekly produced detectable trough urine metabolite",
+        "dose_form_specification": "Not sufficiently defined for an independent infant formulation bridge"
+      },
+      "baseline": {
+        "cardiac": "Low-normal systolic shortening and mild LV dilation at 3 years; no numerical LVEF series",
+        "QTc_ms_prior_maximum": 546,
+        "neurologic": "Severe delay, epilepsy, ventriculoperitoneal shunt for hydrocephalus, leukodystrophy/volume loss",
+        "cointerventions": [
+          "riboflavin 100 mg/day",
+          "levetiracetam and oxcarbazepine in prior care",
+          "shunt",
+          "developmental therapies"
+        ]
+      },
+      "biochemistry": {
+        "analyte": "Reported urine 2-hydroxyglutaric acid",
+        "unit": "mg/g creatinine",
+        "baseline": 244,
+        "at24h": 23,
+        "prose_claim": "84 percent decrease",
+        "computed_percent": 90.57377049180327,
+        "followup": "Table 0 at 1, 6, 12, 18, 24 months; 17 at 30 months",
+        "audit_reference": "enasidenib_clinical_audit.json"
+      },
+      "cardiac_function": "Follow-up described normal LV size/function, QTc 430 ms; not another independently quantified severe-DCM trajectory.",
+      "developmental_assessments": {
+        "instruments": [
+          "Bayley-4",
+          "Vineland-3"
+        ],
+        "visits_months_after_start": [
+          0,
+          15,
+          36
+        ],
+        "summary_age_equivalent_months": {
+          "gross_motor": [
+            4,
+            10
+          ],
+          "fine_motor": [
+            6,
+            9
+          ],
+          "receptive_language": [
+            1,
+            10
+          ],
+          "expressive_language": [
+            4,
+            10
+          ],
+          "socialization_case_text": [
+            1,
+            9
+          ],
+          "socialization_discussion": [
+            2,
+            10
+          ],
+          "cognitive_play": [
+            6,
+            6
+          ]
+        },
+        "limitation": "Summary not fully resolved by visit/instrument; do not infer all changes at a specified visit or equate age equivalents to equal-interval scores."
+      },
+      "seizures": "Reported seizure-free from initiation and subsequently weaned off antiseizure medications; exact exposure/event timeline not provided.",
+      "acute_care": "Reported reduction in admissions and emergency visits; intervals and pretreatment ED counts differ between abstract/body/discussion.",
+      "adverse_observations": {
+        "reported_diagnosis": "Suspected enasidenib-induced hepatitis",
+        "ALT_peak_IU_L": 118,
+        "ALT_ULN": 28,
+        "CK_peak_U_L": 334,
+        "CK_ULN": 198,
+        "post_reduction_reported_ALT": 31,
+        "post_reduction_reported_CK": 240,
+        "timing_conflict": "Peak values at 6 months in Table 1; narrative describes persistent elevation at 18 months",
+        "interpretation": "Improvement after frequency reduction with sustained biochemical suppression; full normalization not supported by displayed limits. No independently established exact event date."
+      },
+      "independence": "Age, diagnosis timing and clinical history distinguish this child from original 2023 pair.",
+      "claim_supported": "Corroborating exact-disease biochemical and reported organ/function benefit with a real tolerability adjustment",
+      "claim_not_established": [
+        "uniform optimal pediatric schedule",
+        "no chronic adverse effects",
+        "controlled seizure/developmental effect size"
+      ]
+    },
+    {
+      "id": "R25-P1",
+      "source_ids": [
+        "C4"
+      ],
+      "genotype": "IDH2 c.419G>A,p.R140Q",
+      "sex_as_reported": "female in figure caption",
+      "presentation_age_months": 36,
+      "treatment_start_age": "Not specified",
+      "article": {
+        "name": "enasidenib",
+        "dose": "Not reported",
+        "dosage_form": "Not reported"
+      },
+      "baseline": "Ventriculomegaly, hypotonia, developmental delay, leukodystrophy, cardiomyopathy and a 1-year rash; biopsy noncaseating granulomas; topical clobetasol/mometasone ineffective.",
+      "outcomes": "Complete rash clearance and reduced urine D-2-HG described after enasidenib. No numeric cardiac, developmental or safety trajectory supplied.",
+      "independence": "Separate case within skin report; cross-publication link to other patient records unresolved.",
+      "claim_supported": "Peripheral organ-response observation",
+      "claim_not_established": [
+        "additional severe-cardiac rescue",
+        "precise pediatric dose",
+        "independent contribution to a pooled clinical response rate"
+      ]
+    },
+    {
+      "id": "R25-P2",
+      "source_ids": [
+        "C4"
+      ],
+      "genotype": "IDH2 c.419G>A,p.R140Q",
+      "sex_as_reported": "Not specified in inspected narrative",
+      "presentation_age_months": 8,
+      "treatment_start_age": "Not specified; manifestations described over the next year before treatment response",
+      "article": {
+        "name": "enasidenib",
+        "dose": "Not reported",
+        "dosage_form": "Not reported"
+      },
+      "baseline": "Infantile spasms, ventriculomegaly, developmental delay; recurrent febrile nodules; histiocytic infiltrate; topical triamcinolone ineffective.",
+      "outcomes": "Normal D-2-HG and complete rash resolution after 4 months of treatment.",
+      "independence": "Second skin case; cross-publication participant key absent.",
+      "claim_supported": "Peripheral organ-response observation",
+      "claim_not_established": [
+        "enasidenib initiation at 8 months",
+        "infant formulation or exposure",
+        "numerical cardiac recovery"
+      ]
+    },
+    {
+      "id": "T26-P1",
+      "source_ids": [
+        "C5",
+        "C8"
+      ],
+      "title_age": "5-week-old",
+      "title_sex": "male",
+      "genotype": "Not verified",
+      "article_dose_form": "Not verified",
+      "baseline": "Not verified",
+      "outcomes": "Not verified",
+      "adverse_events": "Not verified",
+      "independence": "Not resolved",
+      "counted_efficacy_observations": 0
+    }
+  ],
+  "historical_primary_questionnaire": {
+    "source_id": "C7",
+    "year": 2012,
+    "typeII_patients": 19,
+    "typeI_patients_separate": 14,
+    "developmental_delay": 19,
+    "hypotonia": 17,
+    "seizures": 15,
+    "cardiomyopathy": {
+      "all": 9,
+      "dilated": 7,
+      "hypertrophic": 1,
+      "unknown_subtype": 1
+    },
+    "onset_years": {
+      "mean": 0.25,
+      "range": [
+        0,
+        2
+      ]
+    },
+    "alive_at_ascertainment": 10,
+    "deceased_at_ascertainment": 9,
+    "separately_described_total_D2HGA_records": 95,
+    "separately_genetically_typed_typeII_records": 24,
+    "interpretation": "Original questionnaire observations inside a review. Cross-sectional, selected historical data, with possible stable/improving courses. Not a prospective untreated survival curve, current prevalence, treatment eligibility count or market estimate."
+  },
+  "decision_relevant_deltas": [
+    {
+      "id": "ECL-D1",
+      "finding": "Full skin-case XML now read; exact doses and start ages absent. Presentation age 8 months is not treatment-start evidence.",
+      "consequence": "The skin observations strengthen multisystem plausibility but do not close infant article/exposure or cardiac recovery questions.",
+      "sources": [
+        "C4"
+      ]
+    },
+    {
+      "id": "ECL-D2",
+      "finding": "Gold case baseline cardiac impairment was mild/low-normal; severe numeric recovery remains principally original G23-P1.",
+      "consequence": "Do not advertise two independently quantified severe-DCM rescues.",
+      "sources": [
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "id": "ECL-D3",
+      "finding": "Primary table/prose conflicts affect adverse-event timing, normalization, biochemical percentage, utilization and socialization summaries.",
+      "consequence": "Keep positive clinical evidence while requiring a linked prospective dataset; laboratory improvement does not establish an optimal or fully tolerated long-term schedule.",
+      "sources": [
+        "C3"
+      ],
+      "audit": "enasidenib_clinical_audit.json"
+    },
+    {
+      "id": "ECL-D4",
+      "finding": "Historical original questionnaire distinguishes 19 phenotyped type II cases, 24 typed records and 95 all-D2HGA records.",
+      "consequence": "Avoid market/recruitment arithmetic based on later vague 20/80-case summaries.",
+      "sources": [
+        "C7",
+        "C3",
+        "C4"
+      ]
+    },
+    {
+      "id": "ECL-D5",
+      "finding": "Exact-molecule human engagement and organ observations already exist.",
+      "consequence": "Match the next milestone to formulation/exposure/function uncertainty rather than mechanically require the same preclinical sequence as BLU3797.",
+      "sources": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    }
+  ],
+  "causal_assessment": {
+    "target_disease_link": "Strong human genotype/biochemical rationale for R140 disease; exact clinical treatment evidence here R140Q.",
+    "exact_drug_engagement": "Large rapid and repeatedly observed metabolite suppression in original two plus the distinct Gold case.",
+    "disease_modification": "Underlying biochemical lesion is altered during treatment; the severe cardiac trajectory supports possible alteration of disease course. Generalized neurological reversal, neonatal injury prevention and drug-free durability remain unproved.",
+    "established_cardiac_recovery": "Persuasive within-person severe trajectory, with a separately reported milder cardiac recovery; concomitant care and uncontrolled design remain.",
+    "neurological_function": "Clinically meaningful observations but unblinded, developmentally confounded and not a complete standardized causal effect estimate.",
+    "CNS_PK_and_repair": "Not demonstrated by serum/urine normalization; no exact-disease measured CNS concentration-response series recovered.",
+    "durability": "Benefits described under continued exposure; short interruption and dose-frequency anecdotes do not establish drug-free durability.",
+    "safety": "Direct pediatric observations include bilirubin elevations and suspected liver/muscle-enzyme injury; small selected reports do not quantify chronic risk."
+  },
+  "next_proof": {
+    "first_deliverable": "One defined intended pediatric article, exposure/biomarker sampling specification, organ-specific longitudinal endpoint and explicit decision rule.",
+    "functional_questions": [
+      "Recovery of established cardiomyopathy",
+      "Stabilization of progressive impairment",
+      "Early preservation after diagnosis"
+    ],
+    "controls_and_analysis": [
+      "Preserve supportive care and exact co-medication changes",
+      "Repeated individual baselines when feasible",
+      "Masked central organ-function assessment",
+      "Appropriate natural-history/contextual comparator",
+      "Do not engineer evidence by withdrawing useful treatment",
+      "Preserve participant and assay/matrix identity"
+    ],
+    "advance": "Interpretable reproducible delivery/exposure, sustained biochemical engagement, credible useful organ trajectory and acceptable tolerability justify confirmation; definitive clinical causality is not required before initial qualification.",
+    "redirect": "Unreliable article, reproducible harmful effective exposure, or benefit confined to a different tissue/severity/window redirects article/regimen/claim.",
+    "stop_claim": "Adequate engagement repeatedly fails on a clinically meaningful endpoint in a system capable of showing response, or no incremental development contribution can be defined.",
+    "not_required": [
+      "Owner reply for scientific selection",
+      "Generic repetition of known target-mouse rescue before every clinical-development step",
+      "Permanent off-treatment cure",
+      "Complete neurological normalization to count useful improvement"
+    ]
+  },
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Enasidenib treatment in two individuals with D-2-hydroxyglutaric aciduria carrying a germline IDH2 mutation",
+      "authors": "Geoerger et al.",
+      "date": "2023-05-29",
+      "doi": "10.1038/s41591-023-02382-9",
+      "url": "https://www.nature.com/articles/s41591-023-02382-9",
+      "access_tier": "Primary abstract, public extended-material captions and references; main body subscription-limited",
+      "verified": "2026-11-04",
+      "lineage": "Two children and patient 1-derived fibroblasts; same project as C2; program publicity is not independent evidence",
+      "retrieved_bytes": 371453,
+      "sha256": "f1d3778d8af9d73ddf607b2a8c8ce434a488a187aac376113a2b9b98f4b695b7"
+    },
+    {
+      "id": "C2",
+      "title": "Geoerger 2023 original Supplementary Information",
+      "doi": "10.1038/s41591-023-02382-9",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-023-02382-9/MediaObjects/41591_2023_2382_MOESM1_ESM.pdf",
+      "access_tier": "Complete public primary supplement downloaded; Table 1 read and key pages previously visually checked",
+      "verified": "2026-11-04",
+      "lineage": "Same two children as C1, not additional patients",
+      "retrieved_bytes": 2171636,
+      "sha256": "e312513d2ffbcd651ce6ac158b0cf93d9375cbbdb630e910f70e009dc4299a11"
+    },
+    {
+      "id": "C3",
+      "title": "Enasidenib-induced hepatitis in an individual with Type II D2-hydroxyglutaric aciduria",
+      "authors": "Gold et al.",
+      "date": "2024-04-16",
+      "doi": "10.1002/jmd2.12421",
+      "pmcid": "PMC11078709",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11078709/fullTextXML",
+      "access_tier": "Complete primary publisher text and open-access JATS XML read; table parsed",
+      "verified": "2026-11-04",
+      "lineage": "One child, clinically distinct from original 2023 pair; repeated timepoints and instruments are nested observations",
+      "retrieved_bytes": 73396,
+      "sha256": "a508da776594840bf3b401e0e888ffed2eb6a635798dec1785dbe5710bdf87cb"
+    },
+    {
+      "id": "C4",
+      "title": "Cutaneous manifestations in D-2-hydroxyglutaric aciduria type 2 and response to enasidenib therapy",
+      "authors": "Roux et al.",
+      "date_online": "2024-11-08",
+      "date_issue": "2025-02",
+      "doi": "10.1016/j.jdcr.2024.10.020",
+      "pmcid": "PMC11750430",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750430/",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11750430/fullTextXML",
+      "access_tier": "Complete open-access primary XML read; PMC browser challenge and publisher 403 did not count as content",
+      "verified": "2026-11-04",
+      "lineage": "Two skin-response records; no cross-publication participant key, so independence from all other records is unresolved",
+      "retrieved_bytes": 26101,
+      "sha256": "f6c961b3544c9453e3eb4b644361551fec9f9e36807a297ec0f82a205a5572c4"
+    },
+    {
+      "id": "C5",
+      "title": "Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria",
+      "authors": "Turedi et al.",
+      "date": "2026-05",
+      "doi": "10.1016/j.ymgme.2026.110094",
+      "url": "https://www.sciencedirect.com/science/article/pii/S109671922600377X",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.ymgme.2026.110094",
+      "access_tier": "Publisher-deposited metadata only; no abstract or outcome text recovered",
+      "verified": "2026-11-04",
+      "lineage": "Patient identity, genotype, dose, formulation, outcome and overlap unresolved; zero verified efficacy observations",
+      "retrieved_bytes": 4553,
+      "sha256": "3f8f76ef34c9bc352540d6760064f50e2f26a182a16f357131aafebf46f6104f"
+    },
+    {
+      "id": "C6",
+      "title": "IDH2 mutations in patients with D-2-hydroxyglutaric aciduria",
+      "authors": "Kranendijk et al.",
+      "date": "2010",
+      "doi": "10.1126/science.1192632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20847235/",
+      "access_tier": "Primary abstract; fifteen unrelated patients with germline Arg140 variants",
+      "verified": "2026-11-04",
+      "lineage": "Discovery cohort; subsequent summaries may overlap and are not summed into a current population count"
+    },
+    {
+      "id": "C7",
+      "title": "Progress in understanding 2-hydroxyglutaric acidurias",
+      "authors": "Kranendijk et al.",
+      "date": "2012-03-06",
+      "doi": "10.1007/s10545-012-9462-5",
+      "pmcid": "PMC3388262",
+      "url": "https://link.springer.com/article/10.1007/s10545-012-9462-5",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3388262/fullTextXML",
+      "access_tier": "Full text and XML; original questionnaire data explicitly identified within the review and used as primary observations",
+      "verified": "2026-11-04",
+      "lineage": "Nineteen type II questionnaire patients are a subset distinct from the separately described 24 genetically typed type II records; not independent totals",
+      "retrieved_bytes": 192012,
+      "sha256": "c3ea19c1732ca6d2ede2328d7c0e3ccf429d772fb51f308c47348950ff9ecd7d"
+    },
+    {
+      "id": "C8",
+      "title": "SIMD 2026 Annual Meeting abstract-publication information",
+      "url": "https://simd.swoogo.com/2026/abstracts",
+      "access_tier": "Public organizer page; verifies abstract-publication pathway only",
+      "verified": "2026-11-04",
+      "lineage": "No treatment observation or dose extracted"
+    }
+  ],
+  "search_access_log": [
+    {
+      "question": "Additional or negative exact-disease enasidenib clinical records",
+      "queries": [
+        "enasidenib D2HGA2 current 2026",
+        "enasidenib hydroxyglutaric aciduria failed adverse response",
+        "enasidenib 5-week-old 110094",
+        "Turedi enasidenib dose infant"
+      ],
+      "result": "No additional accessible, independently interpretable efficacy cohort found in this bounded search. This is not a claim of an exhaustive unpublished census."
+    },
+    {
+      "question": "2026 infant report",
+      "attempted": [
+        "Publisher individual article",
+        "Crossref deposit and linked publisher metadata",
+        "Exact title/authors indexed search",
+        "Public SIMD abstract-publication route"
+      ],
+      "result": "Metadata only; publisher access unavailable; public record contains no verified dose/outcome. Earlier poster route required login and was not bypassed."
+    },
+    {
+      "question": "Full Gold and Roux text",
+      "result": "Primary Europe PMC JATS XML retrieved successfully despite PMC browser challenge/publisher access inconsistency."
+    },
+    {
+      "question": "Nature main text",
+      "result": "Main body subscription-limited; only public abstract/extended captions and complete public supplement credited."
+    }
+  ],
+  "verification": {
+    "clinical_source_tables_read": true,
+    "gold_table_parsed": true,
+    "gold_measurement_cells": 177,
+    "gold_independent_patients": 1,
+    "source_hashes_recorded": true,
+    "outcome_rate_not_pooled": true,
+    "quantitative_audit_file": "enasidenib_clinical_audit.json",
+    "reproducibility_script": "enasidenib_clinical_audit.py",
+    "report": "enasidenib_clinical.md"
+  }
+}

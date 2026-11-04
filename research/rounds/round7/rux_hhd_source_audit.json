@@ -1,0 +1,1153 @@
+{
+  "as_of": "2026-11-04",
+  "candidate": "R6-NL-01",
+  "purpose": "Source-value and denominator audit, not a new efficacy analysis",
+  "sources": {
+    "rux_phase23_pk.xml": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8200345/fullTextXML",
+      "sha256": "a050647edaed5d226dd4022e65f06663b96f48654c264a66adf648f4de28b455",
+      "table": "Tab1",
+      "bytes": 120156,
+      "sha256_verified": true
+    },
+    "rux_maxuse2022.xml": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142470/fullTextXML",
+      "sha256": "9f7710171c60326a86fdf63b5b88dcba53e6193dd1725214f47a003cbad94aa2",
+      "table": "Tab3",
+      "bytes": 86077,
+      "sha256_verified": true
+    },
+    "rux_maxuse2022_supp.pdf": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs40257-022-00690-3/MediaObjects/40257_2022_690_MOESM1_ESM.pdf",
+      "sha256": "b282921cef2d136cff06415d572e50b0515aa39f89b09d55e2b16364347e6b75",
+      "table": "Supplementary Table S1, PDF page 2",
+      "bytes": 338291,
+      "sha256_verified": true
+    },
+    "orangebook_2026.zip": {
+      "url": "https://www.fda.gov/media/76860/download?attachment=",
+      "sha256": "c2088c7a36db1930a152b63db23e7a995c471bf4b18c960b1d28190580984e4d",
+      "table": "products.txt, patent.txt and exclusivity.txt; NDA 215309 and 209606 only",
+      "bytes": 1099838,
+      "sha256_verified": true
+    }
+  },
+  "phase_II_III_PK_table": {
+    "label": "Table 1",
+    "caption": "Descriptive summary of baseline patient characteristics and pharmacokinetic parameters",
+    "rows": [
+      [
+        "Ruxolitinib cream treatment",
+        "Number of patients",
+        "Percent BSA treated (%)",
+        "Area of lesion(s) treated (cm2)",
+        "Study drug product application rate (mg/cm2)",
+        "Steady-state trough concentration of ruxolitinib (nM)a",
+        "Bioavailability (%)"
+      ],
+      [
+        "Phase II study (NCT03011892)"
+      ],
+      [
+        "0.15% QD",
+        "46",
+        "8.91 ± 5.34 (7.75)",
+        "1800 ± 1080 (1590)",
+        "2.15 ± 1.73 (1.82)",
+        "4.11 ± 9.06 (1.14)",
+        "8.90 ± 17.2 (2.60)"
+      ],
+      [
+        "0.5% QD",
+        "46",
+        "8.87 ± 5.03 (7.00)",
+        "1780 ± 1110 (1270)",
+        "2.04 ± 1.40 (1.51)",
+        "9.35 ± 15.5 (3.73)",
+        "6.06 ± 7.28 (4.88)"
+      ],
+      [
+        "1.5% QD",
+        "49",
+        "9.89 ± 6.18 (8.00)",
+        "1990 ± 1300 (1430)",
+        "2.00 ± 1.35 (1.83)",
+        "30.6 ± 44.2 (15.8)",
+        "7.23 ± 7.73 (4.56)"
+      ],
+      [
+        "1.5% BID",
+        "47",
+        "10.5 ± 5.21 (10.4)",
+        "2050 ± 1020 (2010)",
+        "1.92 ± 1.95 (1.36)",
+        "47.7 ± 79.6 (23.1)",
+        "5.68 ± 5.58 (4.17)"
+      ],
+      [
+        "Total",
+        "188",
+        "9.54 ± 5.47 (8.00)",
+        "1910 ± 1130 (1600)",
+        "2.03 ± 1.61 (1.72)",
+        "NA",
+        "NA"
+      ],
+      [
+        "Phase III studies combined (NCT03745638 [TRuE AD1]; NCT03745651 [TRuE AD2]) (VC period only)"
+      ],
+      [
+        "0.75% BID",
+        "472",
+        "9.92 ± 5.32 (8.50)",
+        "1860 ± 1020 (1610)",
+        "1.44 ± 1.04 (1.22)",
+        "23.8 ± 35.0 (10.9)",
+        "7.68 ± 8.88 (4.75)"
+      ],
+      [
+        "1.5% BID",
+        "479",
+        "9.60 ± 5.30 (8.00)",
+        "1820 ± 1040 (1530)",
+        "1.49 ± 1.09 (1.26)",
+        "35.7 ± 55.0 (15.4)",
+        "6.22 ± 7.66 (3.64)"
+      ],
+      [
+        "Total",
+        "951",
+        "9.76 ± 5.31 (8.10)",
+        "1840 ± 1030 (1570)",
+        "1.47 ± 1.07 (1.23)",
+        "NA",
+        "NA"
+      ]
+    ],
+    "footnotes": [
+      "Values are presented as mean ± SD (median)BID twice daily, BSA body surface area, NA not applicable, QD once-daily, SD standard deviation, VC vehicle-controlledaPhase II study: Ctrough at week 4; phase III studies: averaged Ctrough at weeks 2, 4, and 8"
+    ],
+    "interpretation": "Published aggregate rows; age/BSA strata overlap, repeated timepoints are not new participants."
+  },
+  "maximum_use_PK_table": {
+    "label": "Table 3",
+    "caption": "Summary of ruxolitinib cream pharmacokinetic parameters",
+    "rows": [
+      [
+        "",
+        "Patient age, years",
+        "Affected BSA at baseline, %",
+        "Overall"
+      ],
+      [
+        "",
+        "12–15",
+        "16–17",
+        "≥ 18",
+        "25% to < 40%",
+        "≥ 40%"
+      ],
+      [
+        "Baseline",
+        "n = 14",
+        "n = 7",
+        "n = 20",
+        "n = 28",
+        "n = 13",
+        "n = 41"
+      ],
+      [
+        "Affected BSA, %",
+        "30.1 (4.6)",
+        "35.1 (10.1)",
+        "44.7 (20.4)",
+        "29.2 (2.6)",
+        "57.2 (17.1)",
+        "38.1 (16.3)"
+      ],
+      [
+        "Lesion area treated, cm2",
+        "5140 (925)",
+        "6130 (1470)",
+        "7870 (3380)",
+        "5180 (762)",
+        "9780 (2910)",
+        "6640 (2760)"
+      ],
+      [
+        "Day 1",
+        "n = 14",
+        "n = 7",
+        "n = 19",
+        "n = 27",
+        "n = 13",
+        "n = 40"
+      ],
+      [
+        "Cmax, nMa",
+        "114 (305)",
+        "102 (118)",
+        "449 (883)",
+        "51.4 (69.7)",
+        "727 (1010)",
+        "271 (650)"
+      ],
+      [
+        "tmax, h",
+        "12.0",
+        "4.0",
+        "4.0",
+        "12.0",
+        "4.0",
+        "4.0"
+      ],
+      [
+        "AUC(0–12h), h*nMb",
+        "856 (2450)",
+        "690 (758)",
+        "3220 (6190)",
+        "359 (510)",
+        "5250 (7140)",
+        "1950 (4610)"
+      ],
+      [
+        "C12h, nM",
+        "60.7 (113)",
+        "47.4 (43.4)",
+        "188 (332)",
+        "39.0 (51.3)",
+        "284 (381)",
+        "119 (245)"
+      ],
+      [
+        "Days 15 and 28 combined",
+        "n = 14",
+        "n = 7",
+        "n = 19",
+        "n = 28",
+        "n = 12",
+        "n = 40"
+      ],
+      [
+        "Css, nM",
+        "43.8 (67.7)",
+        "20.2 (23.0)",
+        "179 (438)",
+        "30.9 (32.8)",
+        "274 (539)",
+        "104 (309)"
+      ],
+      [
+        "Average application amount of API, mg",
+        "143 (43.8)",
+        "89.2 (64.6)",
+        "182 (109)",
+        "133 (51.2)",
+        "197 (136)",
+        "152 (89.1)"
+      ],
+      [
+        "Bioavailability, %",
+        "1.84 (2.31)",
+        "1.91 (1.65)",
+        "3.30 (4.64)",
+        "1.49 (1.31)",
+        "5.00 (5.60)",
+        "2.54 (3.56)"
+      ],
+      [
+        "Day 28",
+        "n = 14",
+        "n = 7",
+        "n = 17",
+        "n = 27",
+        "n = 11",
+        "n = 38"
+      ],
+      [
+        "Cmax, nM",
+        "66.2 (93.3)",
+        "24.5 (12.9)",
+        "242 (548)",
+        "49.2 (51.2)",
+        "353 (669)",
+        "137 (377)"
+      ],
+      [
+        "Cmax/Cmin",
+        "3.20 (2.39)",
+        "2.90 (1.59)",
+        "2.32 (1.66)",
+        "2.80 (1.89)",
+        "2.55 (2.05)",
+        "2.72 (1.91)"
+      ],
+      [
+        "tmax, h",
+        "12.0",
+        "1.0",
+        "4.0",
+        "4.0",
+        "1.0",
+        "4.0"
+      ],
+      [
+        "AUC(0–12h), h*nM",
+        "555 (863)",
+        "196 (149)",
+        "1970 (4230)",
+        "427 (499)",
+        "2830 (5170)",
+        "1120 (2930)"
+      ],
+      [
+        "t1/2, h",
+        "266 (442)(n = 3)",
+        "18.3 (7.0)(n = 2)",
+        "51.3 (49.0)(n = 4)",
+        "159 (305)(n = 6)",
+        "28.0 (26.0)(n = 3)",
+        "116 (251)(n = 9)"
+      ],
+      [
+        "C12h, nM",
+        "52.1 (75.0)",
+        "16.9 (15.2)",
+        "131 (232)",
+        "41.3 (48.8)",
+        "178 (284)",
+        "80.8 (166)"
+      ]
+    ],
+    "footnotes": [
+      "API active pharmaceutical ingredient, AUC(0–12h) area under the curve from 0 to 12 h, BSA body surface area, C12h concentration at 12 h post-application, Cmax maximum concentration, Cmin minimum concentration, Css steady-state plasma concentration, PK pharmacokinetic, SD standard deviation, t1/2 half-life, tmax time to CmaxData are mean (SD), except tmax, which shows the medianaMean (SD) Cmax for patients aged 12–17 years was 110 (255) nMbMean (SD) AUC(0–12h) for patients aged 12–17 years was 801 (2020) h*nM"
+    ],
+    "interpretation": "Published aggregate rows; age/BSA strata overlap, repeated timepoints are not new participants."
+  },
+  "maximum_use_selected_high_exposure_patients": {
+    "source_table": "S1, five selected highest-Css participants within the 41-person maximum-use study",
+    "rows": [
+      {
+        "age_years": 45,
+        "sex": "M",
+        "treated_BSA_percent": 25.0,
+        "Css_nM": 111,
+        "platelet_day28_10e9_per_L": 307,
+        "platelet_change_10e9_per_L": 9,
+        "hemoglobin_day28_g_per_L": 135,
+        "hemoglobin_change_g_per_L": -4,
+        "derived_platelet_baseline_10e9_per_L": 298,
+        "derived_platelet_percent_change": 3.0201
+      },
+      {
+        "age_years": 46,
+        "sex": "M",
+        "treated_BSA_percent": 27.0,
+        "Css_nM": 122,
+        "platelet_day28_10e9_per_L": 243,
+        "platelet_change_10e9_per_L": 27,
+        "hemoglobin_day28_g_per_L": 180,
+        "hemoglobin_change_g_per_L": -2,
+        "derived_platelet_baseline_10e9_per_L": 216,
+        "derived_platelet_percent_change": 12.5
+      },
+      {
+        "age_years": 13,
+        "sex": "M",
+        "treated_BSA_percent": 43.4,
+        "Css_nM": 269,
+        "platelet_day28_10e9_per_L": 345,
+        "platelet_change_10e9_per_L": 81,
+        "hemoglobin_day28_g_per_L": 164,
+        "hemoglobin_change_g_per_L": 10,
+        "derived_platelet_baseline_10e9_per_L": 264,
+        "derived_platelet_percent_change": 30.6818
+      },
+      {
+        "age_years": 32,
+        "sex": "F",
+        "treated_BSA_percent": 45.0,
+        "Css_nM": 711,
+        "platelet_day28_10e9_per_L": 449,
+        "platelet_change_10e9_per_L": 137,
+        "hemoglobin_day28_g_per_L": 130,
+        "hemoglobin_change_g_per_L": -15,
+        "derived_platelet_baseline_10e9_per_L": 312,
+        "derived_platelet_percent_change": 43.9103
+      },
+      {
+        "age_years": 60,
+        "sex": "M",
+        "treated_BSA_percent": 90.0,
+        "Css_nM": 1870,
+        "platelet_day28_10e9_per_L": 173,
+        "platelet_change_10e9_per_L": -227,
+        "hemoglobin_day28_g_per_L": 136,
+        "hemoglobin_change_g_per_L": -18,
+        "derived_platelet_baseline_10e9_per_L": 400,
+        "derived_platelet_percent_change": -56.75
+      }
+    ],
+    "counting_rule": "Selected extremes, not an independent five-person study or an incidence estimate.",
+    "interpretation": "The two highest Css values exceed the paper's 281 nM whole-blood TPO-pSTAT3 reference. That reference is not a universal safety cutoff or an HHD therapeutic window. The 90%-BSA participant's platelet fall is 56.75%, while the day-28 count remained within the reported normal range."
+  },
+  "orange_book": {
+    "retrieved": "2026-11-04",
+    "zip_internal_dates": {
+      "patent.txt": "2026-10-9",
+      "products.txt": "2026-10-9",
+      "exclusivity.txt": "2026-10-9"
+    },
+    "selected_rows": {
+      "products.txt": [
+        {
+          "Ingredient": "RUXOLITINIB PHOSPHATE",
+          "DF;Route": "CREAM;TOPICAL",
+          "Trade_Name": "OPZELURA",
+          "Applicant": "INCYTE CORP",
+          "Strength": "EQ 1.5% BASE",
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "TE_Code": "",
+          "Approval_Date": "Sep 21, 2021",
+          "RLD": "Yes",
+          "RS": "Yes",
+          "Type": "RX",
+          "Applicant_Full_Name": "INCYTE CORP"
+        },
+        {
+          "Ingredient": "ENASIDENIB MESYLATE",
+          "DF;Route": "TABLET;ORAL",
+          "Trade_Name": "IDHIFA",
+          "Applicant": "BRISTOL MYERS SQUIBB",
+          "Strength": "EQ 50MG BASE",
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "TE_Code": "",
+          "Approval_Date": "Aug 1, 2017",
+          "RLD": "Yes",
+          "RS": "No",
+          "Type": "RX",
+          "Applicant_Full_Name": "BRISTOL MYERS SQUIBB"
+        },
+        {
+          "Ingredient": "ENASIDENIB MESYLATE",
+          "DF;Route": "TABLET;ORAL",
+          "Trade_Name": "IDHIFA",
+          "Applicant": "BRISTOL MYERS SQUIBB",
+          "Strength": "EQ 100MG BASE",
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "TE_Code": "",
+          "Approval_Date": "Aug 1, 2017",
+          "RLD": "Yes",
+          "RS": "Yes",
+          "Type": "RX",
+          "Applicant_Full_Name": "BRISTOL MYERS SQUIBB"
+        }
+      ],
+      "patent.txt": [
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9512107",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9512107",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10093654",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Nov 7, 2018"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10093654",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Nov 7, 2018"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8822481",
+          "Patent_Expire_Date_Text": "Jun 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9079912",
+          "Patent_Expire_Date_Text": "Dec 12, 2026",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10610530",
+          "Patent_Expire_Date_Text": "Jun 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10869870",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9974790",
+          "Patent_Expire_Date_Text": "Dec 12, 2026",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "12233067",
+          "Patent_Expire_Date_Text": "Jul 28, 2040",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-4151",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 17, 2025"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11219624",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Feb 8, 2022"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9079912",
+          "Patent_Expire_Date_Text": "Dec 12, 2026",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9974790",
+          "Patent_Expire_Date_Text": "Dec 12, 2026",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10610530",
+          "Patent_Expire_Date_Text": "Jun 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10639310",
+          "Patent_Expire_Date_Text": "Dec 12, 2026",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10869870",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11510923",
+          "Patent_Expire_Date_Text": "Sep 4, 2040",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3505",
+          "Delist_Flag": "",
+          "Submission_Date": "Dec 16, 2022"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11602536",
+          "Patent_Expire_Date_Text": "May 5, 2041",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3550",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11590138",
+          "Patent_Expire_Date_Text": "Jun 10, 2040",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3551",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11590137",
+          "Patent_Expire_Date_Text": "Sep 4, 2040",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3505",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11590136",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11590136",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3404",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10294215",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Jun 20, 2019"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10294215",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Jun 20, 2019"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10610125",
+          "Patent_Expire_Date_Text": "Jun 21, 2030",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "May 1, 2020"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10610125",
+          "Patent_Expire_Date_Text": "Jun 21, 2030",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "May 1, 2020"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8822481",
+          "Patent_Expire_Date_Text": "Jun 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3229",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "12589096",
+          "Patent_Expire_Date_Text": "Sep 4, 2040",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-3505",
+          "Delist_Flag": "",
+          "Submission_Date": "Apr 27, 2026"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9732062",
+          "Patent_Expire_Date_Text": "Sep 16, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9738625",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8722693",
+          "Patent_Expire_Date_Text": "Jun 12, 2028",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "7598257",
+          "Patent_Expire_Date_Text": "Dec 24, 2027",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "12544381",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 3, 2026"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "12564593",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 24, 2026"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8415362",
+          "Patent_Expire_Date_Text": "Dec 24, 2027",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10758543",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Oct 20, 2021"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9732062",
+          "Patent_Expire_Date_Text": "Sep 16, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "12226419",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Mar 17, 2025"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9738625",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11571425",
+          "Patent_Expire_Date_Text": "May 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Feb 28, 2023"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "11219624*PED",
+          "Patent_Expire_Date_Text": "Nov 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "7598257*PED",
+          "Patent_Expire_Date_Text": "Jun 24, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8415362*PED",
+          "Patent_Expire_Date_Text": "Jun 24, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8722693*PED",
+          "Patent_Expire_Date_Text": "Dec 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10758543*PED",
+          "Patent_Expire_Date_Text": "Nov 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "8822481*PED",
+          "Patent_Expire_Date_Text": "Dec 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9079912*PED",
+          "Patent_Expire_Date_Text": "Jun 12, 2027",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "9974790*PED",
+          "Patent_Expire_Date_Text": "Jun 12, 2027",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10610530*PED",
+          "Patent_Expire_Date_Text": "Dec 12, 2028",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10639310*PED",
+          "Patent_Expire_Date_Text": "Jun 12, 2027",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Patent_No": "10869870*PED",
+          "Patent_Expire_Date_Text": "Nov 20, 2031",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": ""
+        }
+      ],
+      "exclusivity.txt": [
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Exclusivity_Code": "I-896",
+          "Exclusivity_Date": "Jul 18, 2025"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Exclusivity_Code": "NPP",
+          "Exclusivity_Date": "Sep 18, 2028"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "215309",
+          "Product_No": "001",
+          "Exclusivity_Code": "PED",
+          "Exclusivity_Date": "Jan 18, 2026"
+        }
+      ]
+    },
+    "counts": {
+      "215309": {
+        "patent_rows": 39,
+        "distinct_base_patent_numbers": 22,
+        "base_patent_numbers": [
+          "10610530",
+          "10639310",
+          "10758543",
+          "10869870",
+          "11219624",
+          "11510923",
+          "11571425",
+          "11590136",
+          "11590137",
+          "11590138",
+          "11602536",
+          "12226419",
+          "12233067",
+          "12544381",
+          "12564593",
+          "12589096",
+          "7598257",
+          "8415362",
+          "8722693",
+          "8822481",
+          "9079912",
+          "9974790"
+        ]
+      },
+      "209606": {
+        "patent_rows": 12,
+        "distinct_base_patent_numbers": 6,
+        "base_patent_numbers": [
+          "10093654",
+          "10294215",
+          "10610125",
+          "9512107",
+          "9732062",
+          "9738625"
+        ]
+      }
+    },
+    "interpretation": "Official listing snapshot with October 9 internal file dates. Repeated product/use-code and pediatric-extension rows are not new patents. Listed expiry is neither adjudicated validity, claim clearance, live status in every jurisdiction, nor a guaranteed generic launch date."
+  },
+  "key_denominators": {
+    "phase_III_1_5_percent_BID_PK_n": 479,
+    "phase_III_0_75_percent_BID_PK_n": 472,
+    "phase_III_combined_PK_n": 951,
+    "maximum_use_treated_n": 41,
+    "maximum_use_day1_PK_n": 40,
+    "maximum_use_Css_n": 40,
+    "maximum_use_day28_PK_n": 38,
+    "maximum_use_terminal_half_life_n": 9
+  },
+  "claims_not_supported": [
+    "A pharmacokinetic subset is the complete randomized efficacy denominator",
+    "The adult-subset day-1 Cmax of 449 nM describes all 41 treated participants",
+    "The mean Css of 104 nM captures the maximum-use high-exposure tail",
+    "The 116-hour mean from nine participants defines HHD washout or a dosing rule",
+    "Total plasma concentration divided by a whole-blood cellular assay IC50 establishes clinical safety",
+    "AD exposure determines exposure through macerated HHD skin",
+    "Thirty-nine Opzelura Orange Book rows represent thirty-nine distinct patents"
+  ]
+}

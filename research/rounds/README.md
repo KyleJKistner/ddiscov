@@ -10,6 +10,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 4](round4/README.md)** | Continued screening and deeper vetting | 22 new intervention/use screens; six existing candidates updated; BLU3797 raw-data audit; RM4404 independent-validation priority and APR-246 local challenger. No S-tier promotion. |
 | **[Round 5](round5/README.md)** | BLU3797 development proof and clinical challengers | 12 new exact-use screens; seven existing candidates updated; 887 additional BLU source cells; P2 panel correction; actual dantrolene results recovered; four new human-evidence reserves. No S-tier promotion. |
 | **[Round 6](round6/README.md)** | Staged funding decision, translational challenge and new human-use leads | Six new exact uses; BLU, enasidenib and PPCS updates; two clinical-comparator clarifications; two continuation packages integrated. Enasidenib formulation assessment upgraded and ruxolitinib/HHD prioritized. No S-tier promotion. |
+| **[Round 7](round7/README.md)** | Two existing clinical-development dossiers brought to BLU-level diligence dimensions | Enasidenib pediatric article/exposure–function and ruxolitinib controlled HHD proof; three reproducible audits and three independent challenges. Zero new screens; no S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 

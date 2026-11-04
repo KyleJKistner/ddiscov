@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "evidence_cut": "2026-11-04",
+  "source": {
+    "doi": "10.1002/jmd2.12421",
+    "pmcid": "PMC11078709",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11078709/fullTextXML",
+    "bytes": 73396,
+    "sha256": "a508da776594840bf3b401e0e888ffed2eb6a635798dec1785dbe5710bdf87cb",
+    "table": "Table 1"
+  },
+  "method": "Parse primary JATS table using its explicit column labels; retain empty cells and source reference intervals. Recompute only stated arithmetic and reference-limit comparisons.",
+  "units": {
+    "independent_patients": 1,
+    "analyte_series": 23,
+    "timepoint_columns": 9,
+    "populated_measurement_cells": 177,
+    "note": "Measurements are repeated observations from one published child, not independent biological replications or a safety cohort denominator."
+  },
+  "table_rows": {
+    "Sodium": {
+      "Diagnosis": "139",
+      "Enasidenib initiation": "136",
+      "Enasidenib treatment: 24 h": "134",
+      "Enasidenib treatment: 1 month": "140",
+      "Enasidenib treatment: 6 months": "144",
+      "Enasidenib treatment: 12 months": "140",
+      "Enasidenib treatment: 18 months": "140",
+      "Enasidenib treatment: 24 months": "144",
+      "Enasidenib treatment: 30 months": "139",
+      "Reference range": "134–144 mmol/L"
+    },
+    "Potassium": {
+      "Diagnosis": "3.3",
+      "Enasidenib initiation": "3.9",
+      "Enasidenib treatment: 24 h": "4.2",
+      "Enasidenib treatment: 1 month": "4.3",
+      "Enasidenib treatment: 6 months": "3.6",
+      "Enasidenib treatment: 12 months": "3.8",
+      "Enasidenib treatment: 18 months": "4.6",
+      "Enasidenib treatment: 24 months": "4.2",
+      "Enasidenib treatment: 30 months": "3.3",
+      "Reference range": "3.5–5.2 mmol/L"
+    },
+    "Chloride": {
+      "Diagnosis": "105",
+      "Enasidenib initiation": "102",
+      "Enasidenib treatment: 24 h": "100",
+      "Enasidenib treatment: 1 month": "105",
+      "Enasidenib treatment: 6 months": "106",
+      "Enasidenib treatment: 12 months": "102",
+      "Enasidenib treatment: 18 months": "104",
+      "Enasidenib treatment: 24 months": "103",
+      "Enasidenib treatment: 30 months": "97",
+      "Reference range": "96–106 mmol/L"
+    },
+    "Carbon dioxide": {
+      "Diagnosis": "20",
+      "Enasidenib initiation": "24",
+      "Enasidenib treatment: 24 h": "25",
+      "Enasidenib treatment: 1 month": "23",
+      "Enasidenib treatment: 6 months": "23",
+      "Enasidenib treatment: 12 months": "24",
+      "Enasidenib treatment: 18 months": "20",
+      "Enasidenib treatment: 24 months": "20",
+      "Enasidenib treatment: 30 months": "24",
+      "Reference range": "17–26 mmol/L"
+    },
+    "Urea nitrogen": {
+      "Diagnosis": "6",
+      "Enasidenib initiation": "20",
+      "Enasidenib treatment: 24 h": "21",
+      "Enasidenib treatment: 1 month": "23",
+      "Enasidenib treatment: 6 months": "14",
+      "Enasidenib treatment: 12 months": "9",
+      "Enasidenib treatment: 18 months": "6",
+      "Enasidenib treatment: 24 months": "8",
+      "Enasidenib treatment: 30 months": "10",
+      "Reference range": "5–18 mg/dL"
+    },
+    "Creatinine": {
+      "Diagnosis": "<0.2",
+      "Enasidenib initiation": "<0.2",
+      "Enasidenib treatment: 24 h": "0.2",
+      "Enasidenib treatment: 1 month": "0.29",
+      "Enasidenib treatment: 6 months": "0.38",
+      "Enasidenib treatment: 12 months": "0.34",
+      "Enasidenib treatment: 18 months": "0.37",
+      "Enasidenib treatment: 24 months": "0.43",
+      "Enasidenib treatment: 30 months": "0.43",
+      "Reference range": "0.3–0.59 mg/dL"
+    },
+    "Glucose": {
+      "Diagnosis": "81",
+      "Enasidenib initiation": "88",
+      "Enasidenib treatment: 24 h": "76",
+      "Enasidenib treatment: 1 month": "54",
+      "Enasidenib treatment: 6 months": "93",
+      "Enasidenib treatment: 12 months": "83",
+      "Enasidenib treatment: 18 months": "94",
+      "Enasidenib treatment: 24 months": "79",
+      "Enasidenib treatment: 30 months": "109",
+      "Reference range": "65–99 mg/dL"
+    },
+    "Calcium": {
+      "Diagnosis": "9.5",
+      "Enasidenib initiation": "10.4",
+      "Enasidenib treatment: 24 h": "10.5",
+      "Enasidenib treatment: 1 month": "10.2",
+      "Enasidenib treatment: 6 months": "9.4",
+      "Enasidenib treatment: 12 months": "9.9",
+      "Enasidenib treatment: 18 months": "10.5",
+      "Enasidenib treatment: 24 months": "10.5",
+      "Enasidenib treatment: 30 months": "9.8",
+      "Reference range": "9.1–10.5 mg/dL"
+    },
+    "Total Bilirubin": {
+      "Diagnosis": "0.3",
+      "Enasidenib initiation": "0.3",
+      "Enasidenib treatment: 24 h": "0.4",
+      "Enasidenib treatment: 1 month": "0.4",
+      "Enasidenib treatment: 6 months": "0.6",
+      "Enasidenib treatment: 12 months": "0.5",
+      "Enasidenib treatment: 18 months": "0.3",
+      "Enasidenib treatment: 24 months": "<0.2",
+      "Enasidenib treatment: 30 months": "0.3",
+      "Reference range": "0.0–1.2 mg/dL"
+    },
+    "Total Protein": {
+      "Diagnosis": "6.8",
+      "Enasidenib initiation": "7.2",
+      "Enasidenib treatment: 24 h": "7.3",
+      "Enasidenib treatment: 1 month": "6.6",
+      "Enasidenib treatment: 6 months": "6.4",
+      "Enasidenib treatment: 12 months": "6.7",
+      "Enasidenib treatment: 18 months": "6.9",
+      "Enasidenib treatment: 24 months": "6.7",
+      "Enasidenib treatment: 30 months": "6.0",
+      "Reference range": "6.0–8.5 g/dL"
+    },
+    "Albumin": {
+      "Diagnosis": "3.7",
+      "Enasidenib initiation": "4.3",
+      "Enasidenib treatment: 24 h": "4.4",
+      "Enasidenib treatment: 1 month": "4.4",
+      "Enasidenib treatment: 6 months": "4.6",
+      "Enasidenib treatment: 12 months": "4.6",
+      "Enasidenib treatment: 18 months": "4.5",
+      "Enasidenib treatment: 24 months": "4.7",
+      "Enasidenib treatment: 30 months": "3.7",
+      "Reference range": "4.0–5.0 g/dL"
+    },
+    "Alkaline phosphatase": {
+      "Diagnosis": "88",
+      "Enasidenib initiation": "148",
+      "Enasidenib treatment: 24 h": "156",
+      "Enasidenib treatment: 1 month": "179",
+      "Enasidenib treatment: 6 months": "140",
+      "Enasidenib treatment: 12 months": "160",
+      "Enasidenib treatment: 18 months": "166",
+      "Enasidenib treatment: 24 months": "175",
+      "Enasidenib treatment: 30 months": "104",
+      "Reference range": "158–369 IU/L"
+    },
+    "Alanine aminotransferase": {
+      "Diagnosis": "11",
+      "Enasidenib initiation": "24",
+      "Enasidenib treatment: 24 h": "23",
+      "Enasidenib treatment: 1 month": "42",
+      "Enasidenib treatment: 6 months": "118",
+      "Enasidenib treatment: 12 months": "62",
+      "Enasidenib treatment: 18 months": "31",
+      "Enasidenib treatment: 24 months": "25",
+      "Enasidenib treatment: 30 months": "31",
+      "Reference range": "0–28 IU/L"
+    },
+    "Aspartate aminotransferase": {
+      "Diagnosis": "26",
+      "Enasidenib initiation": "49",
+      "Enasidenib treatment: 24 h": "31",
+      "Enasidenib treatment: 1 month": "39",
+      "Enasidenib treatment: 6 months": "60",
+      "Enasidenib treatment: 12 months": "40",
+      "Enasidenib treatment: 18 months": "31",
+      "Enasidenib treatment: 24 months": "29",
+      "Enasidenib treatment: 30 months": "33",
+      "Reference range": "0–60 IU/L"
+    },
+    "GGT": {
+      "Diagnosis": "14",
+      "Enasidenib initiation": "",
+      "Enasidenib treatment: 24 h": "",
+      "Enasidenib treatment: 1 month": "",
+      "Enasidenib treatment: 6 months": "17",
+      "Enasidenib treatment: 12 months": "14",
+      "Enasidenib treatment: 18 months": "12",
+      "Enasidenib treatment: 24 months": "",
+      "Enasidenib treatment: 30 months": "",
+      "Reference range": "0–60 IU/L"
+    },
+    "Amylase": {
+      "Diagnosis": "<30",
+      "Enasidenib initiation": "",
+      "Enasidenib treatment: 24 h": "",
+      "Enasidenib treatment: 1 month": "",
+      "Enasidenib treatment: 6 months": "",
+      "Enasidenib treatment: 12 months": "",
+      "Enasidenib treatment: 18 months": "",
+      "Enasidenib treatment: 24 months": "",
+      "Enasidenib treatment: 30 months": "",
+      "Reference range": ""
+    },
+    "Lipase": {
+      "Diagnosis": "77",
+      "Enasidenib initiation": "",
+      "Enasidenib treatment: 24 h": "",
+      "Enasidenib treatment: 1 month": "",
+      "Enasidenib treatment: 6 months": "",
+      "Enasidenib treatment: 12 months": "",
+      "Enasidenib treatment: 18 months": "",
+      "Enasidenib treatment: 24 months": "",
+      "Enasidenib treatment: 30 months": "",
+      "Reference range": ""
+    },
+    "CK": {
+      "Diagnosis": "",
+      "Enasidenib initiation": "",
+      "Enasidenib treatment: 24 h": "",
+      "Enasidenib treatment: 1 month": "",
+      "Enasidenib treatment: 6 months": "334",
+      "Enasidenib treatment: 12 months": "297",
+      "Enasidenib treatment: 18 months": "240",
+      "Enasidenib treatment: 24 months": "290",
+      "Enasidenib treatment: 30 months": "",
+      "Reference range": "45–198 U/L"
+    },
+    "White blood cell count": {
+      "Diagnosis": "",
+      "Enasidenib initiation": "9.2",
+      "Enasidenib treatment: 24 h": "10.4",
+      "Enasidenib treatment: 1 month": "8.8",
+      "Enasidenib treatment: 6 months": "7.8",
+      "Enasidenib treatment: 12 months": "15.3",
+      "Enasidenib treatment: 18 months": "11.2",
+      "Enasidenib treatment: 24 months": "11.2",
+      "Enasidenib treatment: 30 months": "10.8",
+      "Reference range": "4.3–12.4 × 10^3/μL"
+    },
+    "Hemoglobin": {
+      "Diagnosis": "",
+      "Enasidenib initiation": "11.9",
+      "Enasidenib treatment: 24 h": "11.9",
+      "Enasidenib treatment: 1 month": "12.2",
+      "Enasidenib treatment: 6 months": "12.4",
+      "Enasidenib treatment: 12 months": "12",
+      "Enasidenib treatment: 18 months": "12.5",
+      "Enasidenib treatment: 24 months": "12.8",
+      "Enasidenib treatment: 30 months": "11.7",
+      "Reference range": "10.9–12.4 g/dL"
+    },
+    "Hematocrit": {
+      "Diagnosis": "",
+      "Enasidenib initiation": "35.5",
+      "Enasidenib treatment: 24 h": "35.8",
+      "Enasidenib treatment: 1 month": "37.1",
+      "Enasidenib treatment: 6 months": "37.1",
+      "Enasidenib treatment: 12 months": "34.5",
+      "Enasidenib treatment: 18 months": "36.9",
+      "Enasidenib treatment: 24 months": "39.2",
+      "Enasidenib treatment: 30 months": "35.2",
+      "Reference range": "32.4–43.4%"
+    },
+    "Platelet": {
+      "Diagnosis": "",
+      "Enasidenib initiation": "367",
+      "Enasidenib treatment: 24 h": "362",
+      "Enasidenib treatment: 1 month": "384",
+      "Enasidenib treatment: 6 months": "364",
+      "Enasidenib treatment: 12 months": "348",
+      "Enasidenib treatment: 18 months": "400",
+      "Enasidenib treatment: 24 months": "389",
+      "Enasidenib treatment: 30 months": "274",
+      "Reference range": "150–450 × 10^3/μL"
+    },
+    "2‐Hydroxyglutaric acid": {
+      "Diagnosis": "364",
+      "Enasidenib initiation": "244",
+      "Enasidenib treatment: 24 h": "23",
+      "Enasidenib treatment: 1 month": "0",
+      "Enasidenib treatment: 6 months": "0",
+      "Enasidenib treatment: 12 months": "0",
+      "Enasidenib treatment: 18 months": "0",
+      "Enasidenib treatment: 24 months": "0",
+      "Enasidenib treatment: 30 months": "17",
+      "Reference range": "(mg/g creatinine)"
+    }
+  },
+  "arithmetic": {
+    "reported_urine_2HGA": {
+      "unit": "mg/g creatinine",
+      "before": 244.0,
+      "after_24h": 23.0,
+      "computed_decrease_percent": 90.57377049180327,
+      "body_claim_percent": 84,
+      "interpretation": "The table implies approximately 90.6%, not 84%. Preserve the source conflict; this calculation does not establish which biological value or timepoint is correct."
+    },
+    "ALT_peak_fold_displayed_ULN": 4.214285714285714,
+    "ALT31_fold_displayed_ULN": 1.1071428571428572,
+    "CK334_fold_displayed_ULN": 1.6868686868686869,
+    "CK240_fold_displayed_ULN": 1.2121212121212122
+  },
+  "unresolved_source_conflicts": [
+    {
+      "topic": "Adverse-event timing",
+      "table": "ALT 118 and CK 334 occur in the 6-month column; 18-month values are ALT 31 and CK 240.",
+      "prose": "The case narrative says persistent elevation was noted 18 months after initiation and then describes dose-frequency reduction.",
+      "consequence": "An exact event date or dose-reduction date cannot be reconstructed from this article without silently choosing one account."
+    },
+    {
+      "topic": "Normalization language",
+      "table": "Displayed reference intervals: ALT 0–28 IU/L; CK 45–198 U/L. ALT 31 and CK 240 exceed these upper limits; CK 290 is also listed at 24 months.",
+      "prose": "The authors describe post-reduction ALT 31 and CK 240 as normalization.",
+      "consequence": "Use laboratory improvement with maintained biochemical suppression, not complete sustained laboratory normalization."
+    },
+    {
+      "topic": "Biochemical effect arithmetic",
+      "table": "Urine 2-HGA 244 before and 23 mg/g creatinine at 24 hours.",
+      "prose": "84% decrease within 24 hours.",
+      "consequence": "Large prompt suppression is supported; the exact percentage is internally inconsistent."
+    },
+    {
+      "topic": "Utilization and developmental summaries",
+      "table": "No independently linkable visit-level or raw neuropsychological dataset is supplied.",
+      "prose": "The abstract uses a 2-year pre-treatment admission interval; body/discussion use 3 years, and prior ED counts differ (5 versus 3). Socialization age-equivalent wording differs (1→9 versus 2→10 months).",
+      "consequence": "Retain direction of reported benefit; do not calculate an adjudicated utilization rate or select a single socialization change as corrected data."
+    }
+  ],
+  "limits": [
+    "Author attribution of suspected drug-induced hepatitis is supported by dechallenge; this audit does not independently diagnose liver injury or assign causality.",
+    "The reported urine organic-acid measurement is not pooled with separately quantified serum D-2HG or converted across units.",
+    "There is no inferred optimal dosing schedule, pediatric PK model, confidence interval or new experimental result."
+  ]
+}

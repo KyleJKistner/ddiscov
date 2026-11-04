@@ -1,0 +1,450 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "candidate_id": "R6-NL-01",
+  "base_commit": "a834a480d74b1ebefbaa3fc072db17f67c2aa3d6",
+  "scope": "Exact article, topical pharmacology, material/model routes, current programs, selected public rights and staged product proof",
+  "recommendation": {
+    "scientific": "Advance finite controlled clinical proof with a standardized marketed 1.5% cream after protocol/article/measurement qualification",
+    "standalone_asset": "Not established; require differentiated benefit and executable manufacturing, regulatory and rights route",
+    "current_S_tier": false,
+    "owner_reply_is_scientific_gate": false
+  },
+  "article": {
+    "active": "R-ruxolitinib phosphate in oil-in-water cream",
+    "free_base_mg_per_g": 15,
+    "salt_mg_per_g": 19.8,
+    "label_reference": "5826015",
+    "label_revised": "2026-06",
+    "FDA_NDA": "215309",
+    "marketed_tube_g": [
+      60,
+      100
+    ],
+    "historical_case_identity_limit": "Active/concentration/route verified; not all brands, vehicles or lots authenticated",
+    "research_routes": [
+      {
+        "supplier": "Cayman",
+        "item": "11609",
+        "species": "free base",
+        "CAS": "941678-49-5"
+      },
+      {
+        "supplier": "Cayman",
+        "item": "23215",
+        "species": "phosphate",
+        "CAS": "1092939-17-7"
+      }
+    ],
+    "physical_lot_received": false,
+    "clinical_cream_replaced_by_research_powder": false
+  },
+  "PK_anchor": {
+    "indication": "AD; no HHD-specific quantitative PK verified",
+    "phaseIII_1_5_BID": {
+      "PK_n": 479,
+      "BSA_mean_percent": 9.6,
+      "Css_mean_nM": 35.7,
+      "Css_SD_nM": 55.0,
+      "Css_median_nM": 15.4
+    },
+    "maximum_use": {
+      "treated_n": 41,
+      "Css_n": 40,
+      "Css_mean_nM": 104,
+      "Css_SD_nM": 309,
+      "terminal_half_life_n": 9,
+      "terminal_half_life_mean_h": 116,
+      "terminal_half_life_SD_h": 251,
+      "highest_selected_Css_nM": [
+        711,
+        1870
+      ],
+      "corresponding_BSA_percent": [
+        45,
+        90
+      ]
+    },
+    "reference_281_nM": "Whole-blood TPO-pSTAT3 JAK2/myelosuppression proxy, not universal safety or HHD efficacy threshold",
+    "binding": "97% plasma binding does not permit a validated margin against a whole-blood assay",
+    "study_counting_rule": "Age/BSA subgroups and repeated visits overlap; no inferred new patients"
+  },
+  "HHD_exposure_questions": [
+    "Applied grams and treated surface",
+    "Active erosion, maceration and fold location",
+    "Systemic exposure early and after healing",
+    "Local tolerability and infection treatment",
+    "No imported AD threshold, washout or accumulation rule"
+  ],
+  "control_routes": [
+    {
+      "route": "Qualified matched vehicle",
+      "estimand": "Contribution of active within specified vehicle",
+      "qualification": "Quantitative composition, pH, rheology, barrier effects, stability and masking"
+    },
+    {
+      "route": "Marketed cream plus standardized care vs same care, randomized with masked outcome assessment",
+      "estimand": "Whole-product incremental clinical benefit",
+      "limitation": "Participant expectation and vehicle effects not isolated"
+    }
+  ],
+  "models": [
+    {
+      "name": "Gupta ATP2C1 mono/biallelic knockout keratinocytes",
+      "readiness": "Published research route; exact parent identity must be authenticated",
+      "lineage": "2025 preprint and 2026 final are one project",
+      "scope": "Acute spreading/regrowth; not qualified delayed mature-barrier repair",
+      "final_access": "Indexed primary sections plus full earlier preprint",
+      "CDN1163_limit": "Final indexed results report little restoration of junctional morphology; not full barrier-positive control"
+    },
+    {
+      "name": "ATCC CRL-4048 Ker-CT",
+      "readiness": "Catalog parent/alternate engineering route; not exact published N/TERT line or ready HHD model"
+    },
+    {
+      "name": "BWH N/TERT collection list",
+      "readiness": "Archival 2010 listing, not current stock/terms"
+    },
+    {
+      "name": "Ayers MEK/ROCK organotypic preprint",
+      "readiness": "Abstract-only model/comparator lead; no audited full methods/denominator or rux efficacy"
+    }
+  ],
+  "competition": {
+    "KB111": {
+      "registry": "NCT07717346",
+      "registry_update": "2026-07-21",
+      "registry_estimated_n": 7,
+      "newer_primary_update": "2026-11-02",
+      "sponsor_actual_enrolled_n": 5,
+      "status_fact": "Enrollment complete, 12-week weekly dosing ongoing",
+      "efficacy_results_verified": false,
+      "article": "Topical HSV-1 ATP2C1 gene vector; different article"
+    },
+    "guselkumab": {
+      "registry": "NCT06651489",
+      "last_update": "2026-06-22",
+      "status": "Recruiting",
+      "estimated_n": 10,
+      "design": "Phase II single group",
+      "results_verified": false
+    },
+    "Incyte_HS": "Phase III ruxolitinib cream in a different disease; Q4 2026 topline anticipated, not HHD efficacy",
+    "bounded_registry_query": {
+      "date": "2026-11-04",
+      "query": "condition=Hailey-Hailey",
+      "returned_records": 7,
+      "pagination_remaining": false,
+      "exact_rux_HHD_trial_found": false,
+      "not_global_absence_claim": true
+    }
+  },
+  "rights": {
+    "Orange_Book_internal_date": "2026-10-09",
+    "retrieved": "2026-11-04",
+    "patent_rows": 39,
+    "distinct_base_patent_numbers": 22,
+    "selected_claim_family": "US10758543B2 composition claims not confined to AD",
+    "current_sponsor_filing": "Incyte Q3 2026 10-Q",
+    "ANDA_challengers_reported": [
+      "Padagis",
+      "Taro",
+      "Zydus",
+      "Encube"
+    ],
+    "litigation": "Pending per sponsor; formulation/use claims extending 2031/2040, composition coverage incl pediatric extension to Dec2028 reported unchallenged by those notices",
+    "FTO_opinion": false,
+    "rights_owned_by_portfolio_established": false,
+    "generic_launch_inferred": false
+  },
+  "regulatory": {
+    "marketed_drug_IND_exemption": "Cannot assume when intended to support a new indication/label change; all criteria must apply",
+    "505b2": "Potential strategy, not patent clearance or an agreed application",
+    "three_year_exclusivity": "Conditional and scope-limited; March2026 Q&A is draft; not automatic control of off-label prescribing"
+  },
+  "development_proof": {
+    "file": "rux_hhd_development_proof.md",
+    "Stage_A": "Article/control, baseline and endpoint reliability, exposure/safety methods, protocol/regulatory scope and specific product contribution",
+    "Stage_B": "Randomized patient-level comparison, one preselected clinical estimand, masked outcome assessment, exposure linked to active/healed lesions",
+    "Stage_C": "Independent confirmation and measured product advantage",
+    "optional_model": "Only for discriminating article/population/mechanism/exposure questions; no immune-free negative veto",
+    "planning_window": "8–12-week controlled observation is an initial planning assumption, not a validated standard",
+    "sample_size_or_budget_invented": false,
+    "advance": "Useful controlled benefit or comparable efficacy with meaningful burden/tolerability advantage and interpretable exposure",
+    "stop_or_redirect": "Clinically unhelpful result despite adequate delivery, unacceptable effective-exposure harm, or no credible product contribution for standalone asset objective"
+  },
+  "source_audits": {
+    "PK_patents": "rux_hhd_source_audit.json",
+    "clinical_lineage": "rux_hhd_clinical_audit.json"
+  },
+  "sources": [
+    {
+      "id": "P1",
+      "description": "FDA Opzelura label, June 2026, reference ID 5826015; complete PDF retrieved.",
+      "urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215309s009sdn953lbl.pdf"
+      ]
+    },
+    {
+      "id": "P2",
+      "description": "Gong et al. 2021, phase II/III PK; primary XML, full text and Table 1.",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s40257-021-00610-x",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8200345/fullTextXML"
+      ]
+    },
+    {
+      "id": "P3",
+      "description": "Bissonnette et al. 2022, maximum-use study; primary XML; publisher supplement, complete.",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s40257-022-00690-3",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142470/fullTextXML",
+        "https://static-content.springer.com/esm/art%3A10.1007%2Fs40257-022-00690-3/MediaObjects/40257_2022_690_MOESM1_ESM.pdf"
+      ]
+    },
+    {
+      "id": "P4",
+      "description": "Gupta et al., final 2026 article, PMID 42605981; indexed primary methods/results, full final body not retrieved. 2025 preprint XML, DOI 10.64898/2025.12.15.694174, full; same project.",
+      "urls": [
+        "https://journals.physiology.org/doi/full/10.1152/ajpcell.00372.2026",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML"
+      ]
+    },
+    {
+      "id": "P5",
+      "description": "Cellosaurus N/TERT-2 identity; Brigham cell-core archival list.",
+      "urls": [
+        "https://www.cellosaurus.org/CVCL_UZ62",
+        "https://dermatology.bwh.harvard.edu/docs/Cell-Culture-Core-Cell-Lines.pdf"
+      ]
+    },
+    {
+      "id": "P6",
+      "description": "ATCC Ker-CT, CRL-4048, primary supplier identity and use conditions.",
+      "urls": [
+        "https://www.atcc.org/products/crl-4048"
+      ]
+    },
+    {
+      "id": "P7",
+      "description": "Ayers et al. 2026 preprint record, DOI 10.64898/2026.05.20.726679, PMID 42239391; abstract only.",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13228494/"
+      ]
+    },
+    {
+      "id": "P8",
+      "description": "US10758543B2, primary patent text, claims and formulation example; selected claim screen, not exhaustive legal clearance.",
+      "urls": [
+        "https://patents.google.com/patent/US10758543B2/en"
+      ]
+    },
+    {
+      "id": "P9",
+      "description": "Incyte Q3 2026 Form 10-Q, current development and litigation statements; complete primary filing retrieved.",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/879169/000087916926000066/incy-20260930.htm"
+      ]
+    },
+    {
+      "id": "P10",
+      "description": "Cayman free base 11609, product sheet; phosphate 23215.",
+      "urls": [
+        "https://www.caymanchem.com/product/11609/ruxolitinib",
+        "https://cdn.caymanchem.com/cdn/insert/11609.pdf",
+        "https://www.caymanchem.com/product/23215/ruxolitinib-phosphate"
+      ]
+    },
+    {
+      "id": "P11",
+      "description": "ClinicalTrials.gov condition-query API, seven records retrieved 4 November 2026; narrow search scope.",
+      "urls": [
+        "https://clinicaltrials.gov/api/v2/studies?query.cond=Hailey-Hailey&pageSize=100&format=json&countTotal=true"
+      ]
+    },
+    {
+      "id": "P12",
+      "description": "KB111 NCT07717346; primary registry API; Krystal 2 November primary filing.",
+      "urls": [
+        "https://clinicaltrials.gov/study/NCT07717346",
+        "https://clinicaltrials.gov/api/v2/studies/NCT07717346",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000072/exhibit991-3q26pressrelease.htm"
+      ]
+    },
+    {
+      "id": "P13",
+      "description": "Guselkumab NCT06651489; primary registry API, last updated 22 June 2026.",
+      "urls": [
+        "https://clinicaltrials.gov/study/NCT06651489",
+        "https://clinicaltrials.gov/api/v2/studies/NCT06651489"
+      ]
+    },
+    {
+      "id": "P14",
+      "description": "FDA Orange Book downloadable data; official ZIP, October 9 internal dates, retrieved November 4.",
+      "urls": [
+        "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files",
+        "https://www.fda.gov/media/76860/download?attachment="
+      ]
+    },
+    {
+      "id": "P15",
+      "description": "FDA IND exemptions.",
+      "urls": [
+        "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements"
+      ]
+    },
+    {
+      "id": "P16",
+      "description": "FDA applications covered by section 505(b)(2).",
+      "urls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applications-covered-section-505b2"
+      ]
+    },
+    {
+      "id": "P17",
+      "description": "FDA 2026 new-clinical-investigation exclusivity Q&A, draft status retained.",
+      "urls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/new-clinical-investigation-exclusivity-3-year-exclusivity-drug-products-questions-and-answers"
+      ]
+    }
+  ],
+  "download_provenance": [
+    {
+      "manifest": "download_manifest.json",
+      "records": [
+        {
+          "file": "opzelura_2026_label.pdf",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215309s009sdn953lbl.pdf",
+          "status": 200,
+          "type": "application/pdf",
+          "bytes": 636912,
+          "sha256": "7931524b4be3620ab3622b6e9cc0ecb6760d0bf7c72963058e6f2089c8e60f18"
+        },
+        {
+          "file": "rux_maxuse2022.pdf",
+          "url": "https://link.springer.com/content/pdf/10.1007/s40257-022-00690-3.pdf",
+          "status": 200,
+          "type": "application/pdf",
+          "bytes": 689767,
+          "sha256": "e115e867fc946c77002ea356c3ac6da02ae888b41066a27c76105dc21fa33093"
+        },
+        {
+          "file": "rux_maxuse2022.xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142470/fullTextXML",
+          "status": 200,
+          "type": "application/xml",
+          "bytes": 86077,
+          "sha256": "9f7710171c60326a86fdf63b5b88dcba53e6193dd1725214f47a003cbad94aa2"
+        },
+        {
+          "file": "rux_phase23_pk.xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8200345/fullTextXML",
+          "status": 200,
+          "type": "application/xml",
+          "bytes": 120156,
+          "sha256": "a050647edaed5d226dd4022e65f06663b96f48654c264a66adf648f4de28b455"
+        },
+        {
+          "file": "hhd_actin2026.xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13583997/fullTextXML",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "file": "hhd_mekrock2026.xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13228494/fullTextXML",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "file": "orangebook_2026.zip",
+          "url": "https://www.fda.gov/media/76860/download?attachment=",
+          "status": 200,
+          "type": "application/zip",
+          "bytes": 1099838,
+          "sha256": "c2088c7a36db1930a152b63db23e7a995c471bf4b18c960b1d28190580984e4d"
+        },
+        {
+          "file": "kb111_registry.json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07717346",
+          "status": 200,
+          "type": "application/json",
+          "bytes": 6949,
+          "sha256": "db0fa4cf3e166faea9be36b0dd127b519a45a912a0872ea357d18b8725943ab4"
+        }
+      ]
+    },
+    {
+      "manifest": "model_access_manifest.json",
+      "records": [
+        {
+          "file": "hhd_actin_preprint.xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML",
+          "bytes": 121881,
+          "type": "application/xml",
+          "sha256": "f01c36569f5567aeebb60328155f829c444bf9d81b7a4eb91c40e9dac76f1af5",
+          "preview": ""
+        },
+        {
+          "file": "hhd_actin_oa.xml",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13583997",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "file": "hhd_mekrock_oa.xml",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13228494",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "file": "hhd_actin_preprint.pdf",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694174v1.full.pdf",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "file": "hhd_mekrock_preprint.pdf",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726679v1.full.pdf",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "manifest": "additional_access_manifest.json",
+      "records": [
+        {
+          "file": "rux_maxuse2022_supp.pdf",
+          "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs40257-022-00690-3/MediaObjects/40257_2022_690_MOESM1_ESM.pdf",
+          "bytes": 338291,
+          "type": "application/pdf",
+          "sha256": "b282921cef2d136cff06415d572e50b0515aa39f89b09d55e2b16364347e6b75"
+        },
+        {
+          "file": "hhd_trials.json",
+          "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Hailey-Hailey&pageSize=100&format=json&countTotal=true",
+          "bytes": 61897,
+          "type": "application/json",
+          "sha256": "f6dd999704756d8f4cec5deadada29db12cec3e0f4fc9be5f2a83d9b6fd7164b"
+        },
+        {
+          "file": "guselkumab_registry.json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06651489",
+          "bytes": 11873,
+          "type": "application/json",
+          "sha256": "85005866b42698fa5d0de48bb3539526830632304017065c0a13f21b79255c42"
+        },
+        {
+          "file": "incyte_2026q3.html",
+          "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000066/incy-20260930.htm",
+          "bytes": 1699147,
+          "type": "text/html",
+          "sha256": "6ffd8dcf68545a9a56103f89021c53ad3f9fbedbd7b8cb916a4db02005234b70"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "experiments_performed": false,
+    "patients_treated": false,
+    "outreach_sent": false,
+    "purchases": false,
+    "financing_secured": false
+  }
+}

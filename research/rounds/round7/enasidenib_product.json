@@ -1,0 +1,1567 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+  "as_of": "2026-11-04",
+  "baseline_commit": "a834a480d74b1ebefbaa3fc072db17f67c2aa3d6",
+  "scope": "Exact product, exposure, materials/models, program/IP facts, staged proof; clinical effect/participant census owned by companion audit",
+  "recommended_disposition": "advance_bounded_pediatric_article_exposure_and_longitudinal_function_project; retain_as_human_signal_lead; standalone_asset_case_not_established",
+  "executed_actions": {
+    "outreach": false,
+    "purchase": false,
+    "wet_lab": false,
+    "clinical_intervention": false,
+    "rights_negotiation": false,
+    "commit_by_this_workstream": false
+  },
+  "exact_article": {
+    "molecule": "enasidenib",
+    "aliases": [
+      "AG-221",
+      "CC-90007"
+    ],
+    "free_base_CAS": "1446502-11-9",
+    "free_base_formula": "C19H17F6N7O",
+    "marketed_salt": "mesylate / methanesulfonate",
+    "marketed_route": "oral intact50/100mgbase-equivalent tablets",
+    "pediatric_sprinkle_actual_disease_use": true,
+    "clinical_lot_identity_to_EP4058028B1_example9": "plausible_not_proven",
+    "infant_preparation_or_dose_validated_by_this_review": false,
+    "source_ids": [
+      "P1",
+      "P4",
+      "P5",
+      "P9",
+      "P10",
+      "P11",
+      "P13"
+    ]
+  },
+  "key_deltas": [
+    {
+      "finding": "Public pediatric minitablet formulation and composition/process claims recovered",
+      "meaning": "Replace broad formulation feasibility hold with exact infant article/delivery/exposure qualification",
+      "source_ids": [
+        "P4"
+      ]
+    },
+    {
+      "finding": "Current adult PK shows slow accumulation, an active metabolite and substantial measured DDIs",
+      "meaning": "Longitudinal parent/metabolite exposure is necessary for dose-change interpretation; adult dose is not an infant target",
+      "source_ids": [
+        "P1",
+        "P2",
+        "P15"
+      ]
+    },
+    {
+      "finding": "Nanomolar A3 functional antagonism is real secondary pharmacology",
+      "meaning": "Enasidenib is not a perfectly selective mutant IDH2 probe; potential activity is not established harm",
+      "source_ids": [
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "finding": "ATCC actual available-type model is homozygous cancer TF-1, not exact cardiac disease",
+      "meaning": "Useful assay material route without overstating clinical-function readiness",
+      "source_ids": [
+        "P6",
+        "P6a"
+      ]
+    },
+    {
+      "finding": "AGI-026 late crossover has nonsignificant EF trend and small selected survival groups",
+      "meaning": "Keep post-deficit target rationale while avoiding exaggerated exact-compound/cardiac rescue inference",
+      "source_ids": [
+        "P7",
+        "P8"
+      ]
+    }
+  ],
+  "pharmacology_interpretation": {
+    "direct_genotype": "germline heterozygous IDH2 R140Q",
+    "wider_genotype_claim": "not_established",
+    "assay_comparability": "Preserve reaction, dimer composition, incubation time, cell context; no single universal IC50",
+    "active_human_metabolite": "AGI16903",
+    "AGI17011": "active_nonclinical_metabolite_not_detected_in_humans_in_EMA_assessment",
+    "A3": "functional antagonism plausible at adult exposure; clinical harm not established",
+    "current_adult_PK_is_infant_bridge": false,
+    "source_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P14"
+    ]
+  },
+  "safety_boundaries": {
+    "bilirubin_vs_ALT": "UGT1A1-related bilirubin elevations do not resolve direct-case aminotransferase/CK findings",
+    "adultAML_rates_to_infants": "invalid_without_disease_specific_data",
+    "differentiation_syndrome": "Preserve warning; AML biology and incidence not automatically transferred to nonmalignant infants",
+    "chronic_development": "Public adult oncology package does not establish lifelong infant developmental/reproductive safety; later unpublished sponsor data not assessed",
+    "CNS": "Rat brain/CSF findings and blood D-2-HG suppression do not establish infant CNS exposure or neurorepair",
+    "source_ids": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  },
+  "model_routes": [
+    {
+      "id": "ATCC_CRL2003IG",
+      "status": "identified_catalog_and_product_sheet",
+      "genotype": "homozygous c.419G>A / R140Q",
+      "lineage": "TF-1 erythroleukemia",
+      "control": "parental CRL-2003",
+      "role": "biochemicalPD_and_lot_assay",
+      "limits": [
+        "Not heterozygous human cardiac disease",
+        "Research only",
+        "For-profit non-commercial screening fee ACS-2103F stated; proposed commercial use requires an ATCC license",
+        "Current stock and lot not verified"
+      ],
+      "source_ids": [
+        "P6",
+        "P6a"
+      ]
+    },
+    {
+      "id": "historical_patient_lymphoblasts",
+      "status": "published_three_unrelated_patient_cultures",
+      "role": "exactdisease_biochemical_response",
+      "limits": [
+        "No current catalog accession/vial verified",
+        "Historical use is not permission"
+      ],
+      "source_ids": [
+        "P7"
+      ]
+    },
+    {
+      "id": "Wang2016_Idh2_R140Q_KI",
+      "status": "published_native_locus_heterozygous_model",
+      "role": "cardiac_organismal_function_target_modifiability",
+      "limits": [
+        "AGI-026 is a different compound",
+        "Unblinded; no formal sample-size calculation",
+        "Neonatal loss and strain kidney phenotype",
+        "No verified current colony access"
+      ],
+      "source_ids": [
+        "P7"
+      ]
+    },
+    {
+      "id": "Akbay2014_inducible_R140Q",
+      "status": "published_inducible_transgene",
+      "role": "postdeficit_genetic_positivecontrol_precedent",
+      "limits": [
+        "Non-native promoter",
+        "Not endogenous knock-in",
+        "Not enasidenib"
+      ],
+      "source_ids": [
+        "P8"
+      ]
+    },
+    {
+      "id": "human_R140Q_cardiomyocyte_isogenic",
+      "status": "proposed_engineering_route_not_verified_readymaterial",
+      "role": "optional_contractile_function_exposure_discriminant",
+      "limits": [
+        "Bounded search negative, not proof of nonexistence",
+        "Requires disease function and post-deficit modifiability qualification"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "source_id": "P9",
+      "nct_id": "NCT04310527",
+      "title": "Bioavailability of Enasidenib (CC-90007) Sprinkle Formulation Relative to the Reference Tablet Formulation and Effect of Food on the Pharmacokinetics of Sprinkle Formulation in Healthy Adults",
+      "status": "COMPLETED",
+      "last_update_posted": "2020-03-17",
+      "enrollment": {
+        "count": 28,
+        "type": "ACTUAL"
+      },
+      "has_results": false,
+      "completion": {
+        "date": "2019-12-09",
+        "type": "ACTUAL"
+      },
+      "scope": "Adult sprinkle/tablet/food; not proven bioequivalence or infant dosing"
+    },
+    {
+      "source_id": "P10",
+      "nct_id": "NCT02813135",
+      "title": "European Proof-of-Concept Therapeutic Stratification Trial of Molecular Anomalies in Relapsed or Refractory Tumors",
+      "status": "RECRUITING",
+      "last_update_posted": "2026-07-10",
+      "enrollment": {
+        "count": 472,
+        "type": "ESTIMATED"
+      },
+      "has_results": false,
+      "completion": {
+        "date": "2031-02",
+        "type": "ESTIMATED"
+      },
+      "scope": "Umbrella status; cannot establish exact D2HGA2 recruitment"
+    },
+    {
+      "source_id": "P12",
+      "nct_id": "NCT04203316",
+      "title": "Enasidenib for the Treatment of Relapsed or Refractory Acute Myeloid Leukemia Patients With an IDH2 Mutation",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "last_update_posted": "2026-01-09",
+      "enrollment": {
+        "count": 1,
+        "type": "ACTUAL"
+      },
+      "has_results": false,
+      "completion": {
+        "date": "2026-10-03",
+        "type": "ESTIMATED"
+      },
+      "scope": "Pediatric AML; not a metabolic-disease safety cohort"
+    }
+  ],
+  "ctis_product": {
+    "record": "2024-514791-40-00",
+    "published": "2026-10-23",
+    "product": "enasidenib mesilate sprinkle capsule",
+    "eu_product_id": "PRD11286460",
+    "code": "BMS-986361",
+    "ctis_pediatric_flag": false,
+    "older_EU_pediatric_flag": true,
+    "interpretation": "Metadata discrepancy preserved; does not invalidate actual pediatric use or establish current supply",
+    "source_ids": [
+      "P11",
+      "P11a"
+    ]
+  },
+  "patent_and_product_facts": {
+    "FDA_OrangeBook_selected_NDA209606_rows": {
+      "patent.txt": [
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9512107",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9512107",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10093654",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Nov 7, 2018"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10093654",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Nov 7, 2018"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10294215",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Jun 20, 2019"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10294215",
+          "Patent_Expire_Date_Text": "Jan 7, 2033",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "Y",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "Jun 20, 2019"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "10610125",
+          "Patent_Expire_Date_Text": "Jun 21, 2030",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "May 1, 2020"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "10610125",
+          "Patent_Expire_Date_Text": "Jun 21, 2030",
+          "Drug_Substance_Flag": "",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "U-2087",
+          "Delist_Flag": "",
+          "Submission_Date": "May 1, 2020"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9732062",
+          "Patent_Expire_Date_Text": "Sep 16, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "Patent_No": "9738625",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9732062",
+          "Patent_Expire_Date_Text": "Sep 16, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        },
+        {
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "Patent_No": "9738625",
+          "Patent_Expire_Date_Text": "Aug 1, 2034",
+          "Drug_Substance_Flag": "Y",
+          "Drug_Product_Flag": "",
+          "Patent_Use_Code": "",
+          "Delist_Flag": "",
+          "Submission_Date": "Aug 29, 2017"
+        }
+      ],
+      "products.txt": [
+        {
+          "Ingredient": "ENASIDENIB MESYLATE",
+          "DF;Route": "TABLET;ORAL",
+          "Trade_Name": "IDHIFA",
+          "Applicant": "BRISTOL MYERS SQUIBB",
+          "Strength": "EQ 50MG BASE",
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "001",
+          "TE_Code": "",
+          "Approval_Date": "Aug 1, 2017",
+          "RLD": "Yes",
+          "RS": "No",
+          "Type": "RX",
+          "Applicant_Full_Name": "BRISTOL MYERS SQUIBB"
+        },
+        {
+          "Ingredient": "ENASIDENIB MESYLATE",
+          "DF;Route": "TABLET;ORAL",
+          "Trade_Name": "IDHIFA",
+          "Applicant": "BRISTOL MYERS SQUIBB",
+          "Strength": "EQ 100MG BASE",
+          "Appl_Type": "N",
+          "Appl_No": "209606",
+          "Product_No": "002",
+          "TE_Code": "",
+          "Approval_Date": "Aug 1, 2017",
+          "RLD": "Yes",
+          "RS": "Yes",
+          "Type": "RX",
+          "Applicant_Full_Name": "BRISTOL MYERS SQUIBB"
+        }
+      ],
+      "exclusivity.txt": []
+    },
+    "OrangeBook_archive_member_timestamp": "2026-10-09",
+    "OrangeBook_download_date": "2026-11-04",
+    "EPO": {
+      "publication": "EP4058028B1",
+      "grant_publication": "2025-03-05",
+      "proprietor_on_publication": "Celgene Corporation",
+      "priority": "2019-11-14",
+      "claim_map": {
+        "1-7": "specified minitablet/capsule composition",
+        "8-11": "preparation process",
+        "12+": "pediatric tumor use"
+      },
+      "interpretation": "Composition/process claims are not made cancer-specific by later use claims; D2HGA2 absence is not FTO",
+      "clinical_lot_mapping": "not_proven",
+      "patient_count_credit": "None. Examples10-11 describe pediatric oncology protocols; no additional D2HGA2 patient outcome or participant credit is assigned from the patent."
+    },
+    "FTO_established": false,
+    "abandoned_ownership_inferred": false,
+    "source_ids": [
+      "P4",
+      "P13"
+    ]
+  },
+  "value_contribution": {
+    "plausible_outputs": [
+      "Reproducible small-dose/enteral article if it solves a remaining need",
+      "Interpretable infant parent/metabolite exposure-PD rule",
+      "Lower burden or better tolerability with retained benefit",
+      "Prospective organ-specific benefit/safety dataset",
+      "Alternative article only when it demonstrates advantage"
+    ],
+    "weak_contribution": "Repeating known off-label biochemical suppression without an unmet treatment question",
+    "disease_project_funding": "Scientifically justified conditional bounded project; not a financing commitment",
+    "standalone_company": "Not established: specific product differentiation, practicable rights/manufacturing route and value capture remain execution/development facts",
+    "patient_count_or_revenue_estimate_created": false
+  },
+  "staged_proof": [
+    {
+      "stage": "A",
+      "name": "One pediatric article and measurement qualification",
+      "status": "scientifically_justified_for_bounded_funding_not_executed",
+      "funded_outputs": [
+        "One exact intended article/administration-route specification with salt/base basis and a justified comparator",
+        "Content/delivery uniformity, solid form, dissolution, stability, impurities and method-validation acceptance criteria",
+        "Parent+AGI-16903 / chiral D-2-HG sampling and assay plan linked to organ function, medicines and tolerability",
+        "Prospectively specified exploratory feasibility protocol with claims separated by baseline state"
+      ],
+      "advance_if": "Delivered article and measurements can generate interpretable exposure/PD/function observations",
+      "redirect_if": [
+        "Article fails identity, uniformity, recovery, stability or analytical qualification",
+        "Proposed presentation duplicates an adequate existing option without a remaining improvement question"
+      ],
+      "not_required": "Repeating generic mouse or cell efficacy before clinical article/exposure work"
+    },
+    {
+      "stage": "B",
+      "name": "Exploratory exposure/PD and organ-function feasibility",
+      "status": "conditional_on_article_methods_and_appropriate_clinical_governance",
+      "funded_outputs": [
+        "Linked longitudinal exposure, administration, chiral D-2-HG, tolerability and concomitant-medication dataset",
+        "One claim-specific primary organ question with baseline severity retained",
+        "Appropriate repeated-baseline/natural-history comparison and masked outcome reading where feasible",
+        "Growth-aware cardiac assessment: age/body-size normalization of dimensions and mass, with contemporaneous height/weight and heart-failure medication changes."
+      ],
+      "advance_if": "Reliable delivery and measurements characterize observed exposure, sustained biochemical control, tolerability within the studied follow-up, and interpretable function or preservation; exploratory experience does not define validated infant safety bounds.",
+      "redirect_if": [
+        "Exposure or delivery insufficient",
+        "Exposure-associated harm or interaction concerns undermine article",
+        "Baseline ceiling or measurement variability prevents intended functional interpretation"
+      ],
+      "limits": [
+        "No infant dose prescribed",
+        "No deliberate withdrawal solely to manufacture evidence",
+        "Exploratory association is not a confirmed controlled efficacy estimate",
+        "A small selected cohort cannot define validated infant safety bounds."
+      ]
+    },
+    {
+      "stage": "C",
+      "name": "Confirm benefit and independent product contribution",
+      "status": "conditional_on_exploratory_information_and_feasible_population",
+      "funded_outputs": [
+        "Predeclared useful-effect threshold, independent review and defensible comparator",
+        "Genotype/severity-aware estimate with uncertainty and sensitivities for concurrent therapy, maturation and missingness",
+        "Evidence that proposed delivery/exposure adjustment improves burden/tolerability while retaining benefit",
+        "Practicable manufacturing/development and value-capture route for a larger program"
+      ],
+      "advance_if": "Benefit-exposure relation and specific product advantage survive confirmatory analysis",
+      "redirect_if": [
+        "Narrow indication when only a particular organ/genotype/baseline state benefits",
+        "Change article when target remains plausible but delivery/exposure is unsuitable"
+      ],
+      "stop_if": "No useful advantage over existing treatment is demonstrated; scientific dataset may still have value"
+    },
+    {
+      "stage": "optional_model",
+      "name": "Discriminating model subproject",
+      "status": "only_if_it_answers_a_named_exposure_tissue_function_or_alternative_article_question",
+      "funded_outputs": [
+        "Identified TF1 R140Q/parental pair for biochemical assay qualification or engineered heterozygous cardiac pair for functional question",
+        "Reproducible baseline functional deficit, post-deficit corrective control, authentic allele/mitochondrial context and measured exposure",
+        "Independent biological replication with donor/clone/differentiation structure retained"
+      ],
+      "interpretation_branches": {
+        "no_target_engagement": "article_or_exposure_failure",
+        "engagement_without_function_in_unmodifiable_assay": "model_unqualified",
+        "target_specific_failure_in_independent_qualified_modifiable_models": "challenge_or_narrow_functional_hypothesis",
+        "function_plus_unacceptable_healthy_tissue_effect": "change_article_or_exposure"
+      },
+      "limits": [
+        "Cancer-cellPD is not cardiac efficacy",
+        "AGI-026 mouse efficacy is not exact enasidenib efficacy",
+        "No currently cataloged exact-disease cardiac pair verified"
+      ]
+    }
+  ],
+  "cost_drivers_without_quotes": [
+    "Existing clinical article versus new formulation/CMC",
+    "One intended administration route and its recovery/stability",
+    "Parent/metabolite and chiral D-2-HG analytical validation and small volumes",
+    "Observation number/duration and organ-function review",
+    "Clinical data integration/quality",
+    "Optional custom isogenic-model engineering"
+  ],
+  "budget_or_quote_established": false,
+  "literature_stopping_rule": "Continue only when new primary evidence can change article, exposure, endpoint, comparator, material or contribution decisions; do not repeat known positive case counts or use an owner email as the scientific gate",
+  "audit_values": [
+    {
+      "name": "free_base_molecular_weight",
+      "value": 473.4,
+      "unit": "g/mol",
+      "source_ids": [
+        "P5"
+      ],
+      "locator": "identity block",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "mesylate_molecular_weight",
+      "value": 569.48,
+      "unit": "g/mol",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "11",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "salt_to_base_mass_factor",
+      "value": 1.2029573299535277,
+      "unit": "ratio",
+      "source_ids": [
+        "P1",
+        "P5"
+      ],
+      "locator": "11",
+      "context": "Calculated with P5 free-base MW; rounded identity conversion, not content release.",
+      "kind": "calculated"
+    },
+    {
+      "name": "marketed_strengths_base_equivalent",
+      "value": [
+        50,
+        100
+      ],
+      "unit": "mg",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "3",
+      "context": "Mesylate tablets",
+      "kind": "source_reported"
+    },
+    {
+      "name": "aqueous_solubility_upper_bound",
+      "value": 74,
+      "unit": "microgram/mL",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "11",
+      "context": "Across pH 1.2–7.4",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_capsule_salt_mass",
+      "value": 24.05,
+      "unit": "mg",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Example 9 Table 10",
+      "context": "Mesylate Form 3, Compound 1B; visually checked",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_capsule_base_equivalent",
+      "value": 20,
+      "unit": "mg",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Example 9 Table 10",
+      "context": "Footnote",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_capsule_total_core_mass",
+      "value": 250,
+      "unit": "mg",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Example 9 Table 10",
+      "context": "Aggregate minitablet-core content per capsule; not individual minitablet mass and not active-drug mass.",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_minitablets_per_capsule_approximate",
+      "value": 150,
+      "unit": "count",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Example 9 Table 10",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_minitablet_diameter_approximate",
+      "value": 1.2,
+      "unit": "mm",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Claim 3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_minitablet_height_approximate",
+      "value": 1.2,
+      "unit": "mm",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Claim 3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R140Q_IC50_FDA",
+      "value": 0.77,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Parent one-hour coupled NADPH assay; do not pool with 16 h values",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_WT_IDH2_IC50_FDA",
+      "value": 34.1,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Wild-type enzymatic assay",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R172S_IC50_FDA",
+      "value": 0.155,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Table row; do not infer pediatric genotype efficacy",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R172K_IC50_FDA",
+      "value": 0.214,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Table row",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI16903_R140Q_IC50_FDA",
+      "value": 0.016,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Metabolite 16 h context",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI16903_R172K_IC50_FDA",
+      "value": 1.2,
+      "unit": "micromolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p27 Table 3",
+      "context": "Metabolite 16 h context",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R140Q_homodimer_IC50_Yen16h",
+      "value": 0.1,
+      "unit": "micromolar",
+      "source_ids": [
+        "P14"
+      ],
+      "locator": "indexed Table 1 text",
+      "context": "Primary excerpt only",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R140Q_WT_heterodimer_IC50_Yen",
+      "value": 0.03,
+      "unit": "micromolar",
+      "source_ids": [
+        "P14"
+      ],
+      "locator": "indexed Table 1 text",
+      "context": "Slow-binding/dimer-specific primary excerpt",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_R172K_WT_heterodimer_IC50_Yen",
+      "value": 0.01,
+      "unit": "micromolar",
+      "source_ids": [
+        "P14"
+      ],
+      "locator": "indexed Table 1 text",
+      "context": "Slow-binding/dimer-specific primary excerpt",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_WT_forward_reaction_IC50_Yen16h",
+      "value": 1.8,
+      "unit": "micromolar",
+      "source_ids": [
+        "P14"
+      ],
+      "locator": "indexed Table 1 text",
+      "context": "Canonical oxidative reaction, not mutant neomorphic reaction",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_A3_functional_antagonism_IC50",
+      "value": 5.66,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "Visually checked; not binding IC50",
+      "kind": "source_reported"
+    },
+    {
+      "name": "metabolite_A3_functional_antagonism_IC50",
+      "value": 120,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "AGI16903; visually checked",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_A3_binding_IC50",
+      "value": 0.69,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "Visually checked; not functional IC50",
+      "kind": "source_reported"
+    },
+    {
+      "name": "metabolite_A3_binding_IC50",
+      "value": 28,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "AGI16903; visually checked",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_A1_functional_antagonism_IC50",
+      "value": 3080,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_A2A_functional_antagonism_IC50",
+      "value": 4670,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed p37 Table 5",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "single_dose_Cmax",
+      "value": 1.4,
+      "unit": "microgram/mL",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Adult 100 mg",
+      "kind": "source_reported"
+    },
+    {
+      "name": "steady_state_Cmax",
+      "value": 13.1,
+      "unit": "microgram/mL",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Adult 100 mg daily;CV45%;not infant",
+      "kind": "source_reported"
+    },
+    {
+      "name": "steady_state_within",
+      "value": 29,
+      "unit": "day",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Adult daily dosing",
+      "kind": "source_reported"
+    },
+    {
+      "name": "accumulation_approximate",
+      "value": 10,
+      "unit": "fold",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "terminal_half_life",
+      "value": 7.9,
+      "unit": "day",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Current label; not universal across populations",
+      "kind": "source_reported"
+    },
+    {
+      "name": "absolute_bioavailability",
+      "value": 57,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "Tmax",
+      "value": 4,
+      "unit": "hour",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "volume_distribution",
+      "value": 55.8,
+      "unit": "L",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "CV 29%",
+      "kind": "source_reported"
+    },
+    {
+      "name": "clearance_CL_F",
+      "value": 0.7,
+      "unit": "L/hour",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "CV 62.5%",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_binding",
+      "value": 98.5,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Human plasma in vitro",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI16903_binding",
+      "value": 96.6,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Human plasma in vitro",
+      "kind": "source_reported"
+    },
+    {
+      "name": "parent_radioactivity_fraction",
+      "value": 89,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Circulating radiolabel; not molecule-count fraction",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI16903_radioactivity_fraction",
+      "value": 10,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "N-dealkylated active human metabolite",
+      "kind": "source_reported"
+    },
+    {
+      "name": "adult_covariate_age_range",
+      "value": [
+        19,
+        100
+      ],
+      "unit": "year",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "Does not support infant covariate extrapolation",
+      "kind": "source_reported"
+    },
+    {
+      "name": "adult_covariate_weight_range",
+      "value": [
+        39,
+        136
+      ],
+      "unit": "kg",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "illustrative_adult_Cmax_total_molar",
+      "value": 27.672158850866076,
+      "unit": "micromolar",
+      "source_ids": [
+        "P1",
+        "P5"
+      ],
+      "locator": "12.3 + P5 MW",
+      "context": "Calculated13.1 microgram/mL / 473.4 g/mol; not infant or tissue exposure.",
+      "kind": "calculated"
+    },
+    {
+      "name": "illustrative_adult_Cmax_unbound_molar",
+      "value": 0.41508238276299114,
+      "unit": "micromolar",
+      "source_ids": [
+        "P1",
+        "P5"
+      ],
+      "locator": "12.3 + P5 MW",
+      "context": "Calculated using adult in-vitro binding; not measured free concentration or validated safety margin.",
+      "kind": "calculated"
+    },
+    {
+      "name": "caffeine_AUC_increase",
+      "value": 655,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "Measured adult probe interaction",
+      "kind": "source_reported"
+    },
+    {
+      "name": "omeprazole_AUC_increase",
+      "value": 86,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "dextromethorphan_AUC_increase",
+      "value": 37,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "IV_midazolam_AUC_change",
+      "value": -43,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "Oral first-pass effect may differ",
+      "kind": "source_reported"
+    },
+    {
+      "name": "rosuvastatin_AUC_increase",
+      "value": 244,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "digoxin_AUC_increase",
+      "value": 20,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "12.3 drug interactions",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "bilirubin_2ULN_adult_count",
+      "value": 80,
+      "unit": "participant",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "6.1",
+      "context": "Denominator214 adult AML; not pediatric risk",
+      "kind": "source_reported"
+    },
+    {
+      "name": "bilirubin_2ULN_adult_denominator",
+      "value": 214,
+      "unit": "participant",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "6.1",
+      "context": "",
+      "kind": "source_reported"
+    },
+    {
+      "name": "bilirubin_elevated_without_concurrent_hepatic_findings",
+      "value": 89,
+      "unit": "percent",
+      "source_ids": [
+        "P1"
+      ],
+      "locator": "6.1",
+      "context": "Of patients with bilirubin at least 2 ULN; no concomitant transaminase or other severe hepatic AE",
+      "kind": "source_reported"
+    },
+    {
+      "name": "rat_CSF_penetration_reported",
+      "value": 0.3,
+      "unit": "percent",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed pp41-42",
+      "context": "Single 50 mg/kg oral rat study; not infant CNS; visually checked continuation",
+      "kind": "source_reported"
+    },
+    {
+      "name": "rat_brain_penetration_reported",
+      "value": 10,
+      "unit": "percent",
+      "source_ids": [
+        "P2"
+      ],
+      "locator": "printed pp41-42",
+      "context": "Same study; not assumed unbound Kp; visually checked",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_R140Q_enzyme_IC50",
+      "value": 4.0,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / biochemical properties",
+      "context": "SD 0.2; distinct molecule",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_patient_lymphoblast_IC50",
+      "value": 5.4,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / biochemical properties",
+      "context": "SE 1.2; three unrelated patients; chiral D-2-HG",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_mouse_ES_IC50",
+      "value": 5.4,
+      "unit": "nanomolar",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / biochemical properties",
+      "context": "SD 2.8",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_total_brain_plasma_WT",
+      "value": 1.6,
+      "unit": "ratio",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / biochemical properties",
+      "context": "12 h after single 50 mg/kg mouse; not enasidenib or unbound",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_total_brain_plasma_mutant",
+      "value": 1.9,
+      "unit": "ratio",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / biochemical properties",
+      "context": "12 h after single 50 mg/kg mouse",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_initial_treatment_start_age",
+      "value": [
+        4,
+        5
+      ],
+      "unit": "week",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Results / efficacy",
+      "context": "Abnormal cardiac phenotype apparent from week 4",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_late_treated_8week_survivors",
+      "value": 7,
+      "unit": "mouse",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Figure4 text",
+      "context": "Of 7; selected prior-vehicle survivors, crossover after 13 weeks",
+      "kind": "source_reported"
+    },
+    {
+      "name": "AGI-026_withdrawal_8week_survivors",
+      "value": 2,
+      "unit": "mouse",
+      "source_ids": [
+        "P7"
+      ],
+      "locator": "Figure4 text",
+      "context": "Of 6; selected previously treated animals",
+      "kind": "source_reported"
+    },
+    {
+      "name": "patent_individual_minitablet_mass_approximate",
+      "value": 1.67,
+      "unit": "mg",
+      "source_ids": [
+        "P4"
+      ],
+      "locator": "Claim3 / Example9",
+      "context": "Individual minitablet; approximately150 per20mgfree-base-equivalent capsule; not250mg per minitablet.",
+      "kind": "source_reported"
+    }
+  ],
+  "visual_checks": [
+    {
+      "source_id": "P2",
+      "printed_page": 37,
+      "file": "round7_work/enasidenib_product_sources/fda_p38.png",
+      "checked": "Functional versus binding A3 IC50 table"
+    },
+    {
+      "source_id": "P2",
+      "printed_page": 42,
+      "file": "round7_work/enasidenib_product_sources/fda_p43.png",
+      "checked": "Brain penetration 10 percent and species protein-binding continuation"
+    },
+    {
+      "source_id": "P4",
+      "printed_page": 36,
+      "file": "round7_work/enasidenib_product_sources/ep_p36.png",
+      "checked": "Table 10 salt/base/totalcore composition and packaging"
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209606Orig1s000ClinPharmR.pdf",
+      "result": "404",
+      "resolved_by": "Full official multidisciplinary review P2"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209606Orig1s000PharmR.pdf",
+      "result": "404",
+      "resolved_by": "Full official multidisciplinary review P2"
+    },
+    {
+      "url": "https://www.caymanchem.com/product/21277/enasidenib",
+      "result": "Normal urllib returned a JS shell; web read full catalog",
+      "resolved_by": "Official downloaded insert P5; shell not used as substantive proof"
+    },
+    {
+      "url": "https://aacrjournals.org/cancerdiscovery/article/7/5/478/6259/AG-221-a-First-in-Class-Therapy-Targeting-Acute",
+      "result": "Direct publisher full open returned 403",
+      "resolved_by": "Primary indexed excerpt only P14; no full-text method claim"
+    }
+  ],
+  "sources": [
+    {
+      "id": "P1",
+      "title": "IDHIFA current DailyMed label, revised January 2025",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Adult oncology label; no infant dose/exposure or disease-specific adverse-event rate.",
+      "locators": [
+        "2.2",
+        "5",
+        "6.1",
+        "7",
+        "8.4",
+        "11",
+        "12.1",
+        "12.2",
+        "12.3",
+        "13.1"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/idhifa_current_label.html",
+      "sha256": "29b4f8763e6d064b316155111594c6b0d0f28988d7c1436eaf88cb61acc1bf01",
+      "bytes": 99643
+    },
+    {
+      "id": "P2",
+      "title": "FDA NDA209606 original multidisciplinary review (2017)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209606Orig1s000MultidisciplineR.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Adult oncology development review. Later unpublished sponsor information not assessed.",
+      "locators": [
+        "printed p27 Table 3 enzyme assay",
+        "printed p28 Table4 cellular activity",
+        "printed p37 Table 5 adenosine functional antagonism",
+        "printed pp41-42 rat brain/CSF",
+        "nonclinical and clinical pharmacology sections"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/fda2017_multidiscipline.pdf",
+      "sha256": "a899bdc76082d46b982a459315e320679e37354f678da347b6faa8f30f77aa44",
+      "bytes": 12804589
+    },
+    {
+      "id": "P3",
+      "title": "EMA IDHIFA withdrawal assessment EMA/CHMP/13746/2020",
+      "url": "https://www.ema.europa.eu/en/documents/withdrawal-report/withdrawal-assessment-report-idhifa_en.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Historical withdrawal assessment, not an EU approval or current all-indication program status.",
+      "locators": [
+        "PIP history",
+        "nonclinical pharmacology/safety",
+        "printed pp25-26 cardiac evaluation",
+        "printed pp53-54 secondary pharmacodynamics"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/ema2019_withdrawal.pdf",
+      "sha256": "e35f96b7a98b4f8055d285c215927a5611493b542de7da3a64fd7c46f7dd8872",
+      "bytes": 5865141
+    },
+    {
+      "id": "P4",
+      "title": "EPO EP4058028B1 official granted specification",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Grant publication/claims read; no live national validation, opposition, scope or FTO conclusion. Identity to historical clinical lot not proven.",
+      "locators": [
+        "front-page grant publication 2025-03-05",
+        "Examples 8-9",
+        "printed p36 Table 10",
+        "printed pp44-45 claims1-14"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/ep4058028b1.pdf",
+      "sha256": "0c001334c36c99882d49484a00cf657b3496b68d71779a377cbab63df6d38bc1",
+      "bytes": 749464
+    },
+    {
+      "id": "P5",
+      "title": "Cayman enasidenib item21277 product insert",
+      "url": "https://cdn.caymanchem.com/cdn/insert/21277.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Manufacturer specification/research-only material, not batch CoA, current stock, quote or human-use supply.",
+      "locators": [
+        "identity block",
+        "purity and handling",
+        "research-use limitation"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/cayman21277_insert.pdf",
+      "sha256": "ea765ddf474e105b397585bc7c04a8f8d7d618b80be75fb66e39a804053face2",
+      "bytes": 179955
+    },
+    {
+      "id": "P6",
+      "title": "ATCC CRL-2003IG product sheet",
+      "url": "https://www.atcc.org/atcc/productsheetpdf/generatehtmlpdf/crl-2003ig",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Full PDF confirms identity and terms. Homozygosity obtained from official catalog excerpt separately; no current vial or commercial license established.",
+      "locators": [
+        "p1 description and screening fee",
+        "legal disclaimers"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/atcc_crl2003ig.pdf",
+      "sha256": "119487785431309e327189084042c3d41c89a28d2468fd33182e7e80685446ca",
+      "bytes": 1381486
+    },
+    {
+      "id": "P6a",
+      "title": "ATCC CRL-2003IG current catalog",
+      "url": "https://www.atcc.org/products/crl-2003ig",
+      "verified_date": "2026-11-04",
+      "access_status": "primary_catalog_full_indexed_excerpt",
+      "limits": "Catalog comments explicitly identify homozygous c.419G>A. Direct web open timed out; official PDF separately downloaded; no stock verification.",
+      "locators": [
+        "Characteristics / Comments",
+        "History",
+        "Legal disclaimers"
+      ],
+      "sha256": null,
+      "raw_source_cache_path_at_audit": null
+    },
+    {
+      "id": "P7",
+      "title": "Wang et al2016 AGI-026 in endogenous R140Q D2HGA2 mouse",
+      "url": "https://link.springer.com/article/10.1007/s10545-016-9960-y",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Exact inhibitor is AGI-026, not enasidenib. Unblinded, no formal prospective sample-size calculation; mouse total2HG surrogate differs from chiral patient-cell assay.",
+      "locators": [
+        "Methods / mutant mouse generation",
+        "Methods / biochemical and cellular properties",
+        "Results / AGI-026",
+        "Figure3",
+        "Figure4 crossover"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/agi0262016.html",
+      "sha256": "b10b2d6d5f5878467aad80afb88369fda56b369aefb2ce1f7318e2bf6f7446c3",
+      "bytes": 566352
+    },
+    {
+      "id": "P8",
+      "title": "Akbay et al2014 D2HG cardiomyopathy and inducible mutant shutdown",
+      "url": "https://genesdev.cshlp.org/content/28/5/479.full.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Inducible transgene, not endogenous knock-in or exact enasidenib experiment.",
+      "locators": [
+        "printed pp485-486 / Figure6"
+      ],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/akbay2014.pdf",
+      "sha256": "4afce57011f8f0774680754fe7cc55e07744a7e822cee233c7dc0aa6043f6751",
+      "bytes": 2144115
+    },
+    {
+      "id": "P9",
+      "title": "NCT04310527 official API adult sprinkle relative BA/food",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04310527",
+      "verified_date": "2026-11-04",
+      "access_status": "full_official_json_same_day_round6_retrieval",
+      "limits": "Completed trial with no posted results; does not establish bioequivalence.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round6_work/sources/enasidenib_sprinkle_nct.json",
+      "sha256": "717bd835c6ea3c3a7bbc9937f12533ca79ebeb6823b09dc69b5e508b5536da38",
+      "bytes": 12491
+    },
+    {
+      "id": "P10",
+      "title": "NCT02813135 ESMART official API",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02813135",
+      "verified_date": "2026-11-04",
+      "access_status": "full_official_json_same_day_round6_retrieval",
+      "limits": "Umbrella recruitment status not exact D2HGA2 arm status.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round6_work/sources/esmart_nct.json",
+      "sha256": "89e5edc94f0b9c0944b73b448cbb5a651108c97aba799cb320162f46fc1d74da",
+      "bytes": 34209
+    },
+    {
+      "id": "P11",
+      "title": "CTIS2024-514791-40-00 official API",
+      "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-514791-40-00",
+      "verified_date": "2026-11-04",
+      "access_status": "full_official_json_same_day_round6_retrieval",
+      "limits": "Product metadata, not stock or approved commercial presentation; pediatric flag discrepancy retained.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round6_work/sources/ctis_pediatric_oncology.json",
+      "sha256": "b06aebefd85c60f5a00413a62b0b0bdc337ce8841248c730f5c386d511fb2028",
+      "bytes": 190321
+    },
+    {
+      "id": "P11a",
+      "title": "EU2016-000133-40/NL historical clinical product record",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000133-40/NL",
+      "verified_date": "2026-11-04",
+      "access_status": "official_registry_read_in_round6_same_day",
+      "limits": "20mg sprinkle/pediatric flag verified in round6; no local raw page archived in this workstream.",
+      "locators": [],
+      "sha256": null,
+      "raw_source_cache_path_at_audit": null
+    },
+    {
+      "id": "P12",
+      "title": "NCT04203316 ADVL18P1 official API",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04203316",
+      "verified_date": "2026-11-04",
+      "access_status": "full_official_json_same_day_round6_retrieval",
+      "limits": "Pediatric AML, one actual participant, no posted results; not infant metabolic disease evidence.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round6_work/sources/enasidenib_pediatric_aml_nct.json",
+      "sha256": "591acbde968aceab770c72360b12c1f71780510049723e07841b32e32cc6ffe9",
+      "bytes": 26862
+    },
+    {
+      "id": "P13",
+      "title": "FDA Orange Book official data ZIP",
+      "url": "https://www.fda.gov/media/76860/download?attachment=",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Downloaded2026-11-04; archive member timestamps2026-10-09. FDA listing, not live USPTO legal validity or FTO.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round7_work/root_sources/orangebook_2026.zip",
+      "sha256": "c2088c7a36db1930a152b63db23e7a995c471bf4b18c960b1d28190580984e4d",
+      "bytes": 1099838
+    },
+    {
+      "id": "P14",
+      "title": "Yen et al2017 AG-221 primary discovery paper",
+      "url": "https://aacrjournals.org/cancerdiscovery/article/7/5/478/6259/AG-221-a-First-in-Class-Therapy-Targeting-Acute",
+      "verified_date": "2026-11-04",
+      "access_status": "primary_publisher_indexed_full_text_excerpt_only",
+      "limits": "Full publisher article not locally obtained. Use restricted to displayed time/dimer-specific potency statements; no hidden full-method assumption.",
+      "locators": [
+        "indexed Table 1 explanatory text"
+      ],
+      "sha256": null,
+      "raw_source_cache_path_at_audit": null
+    },
+    {
+      "id": "P15",
+      "title": "FDA2025 supplement007 approval letter",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/209606Orig1s007ltr.pdf",
+      "verified_date": "2026-11-04",
+      "access_status": "full_primary_source",
+      "limits": "Label PK update provenance, not infant approval.",
+      "locators": [],
+      "raw_source_cache_path_at_audit": "round7_work/enasidenib_product_sources/fda2025_s007letter.pdf",
+      "sha256": "a6906784c17909747c86f75e597fa2b67b1145e8b33768a397b9e8d581f8944b",
+      "bytes": 233886
+    }
+  ]
+}

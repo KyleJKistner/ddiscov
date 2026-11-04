@@ -1,0 +1,174 @@
+{
+  "as_of": "2026-11-04",
+  "input_sha256": "566215fe8efc1ba88925c598512e55c0eef3bf875e5fcf8b8326552b24e6bc8d",
+  "status": "arithmetic and internal ledger checks passed",
+  "case_ledger": {
+    "exact_strength_peer_reviewed_case_reports": 5,
+    "individual_genotypes_verified": 0,
+    "duplicate_conference_case_not_added": "Mendez EADV abstract 3470",
+    "nonexact_strength_combination_case_not_added": "Levin 2024, 1% plus naltrexone",
+    "nine_patient_preprint_not_pooled": true,
+    "population_response_rate_estimable": false
+  },
+  "derm101": {
+    "randomized_total": 33,
+    "randomized_HHD": 16,
+    "completed_HHD": 15,
+    "response_counts": [
+      {
+        "visit": "Any time",
+        "threshold_grade_improvement": 1,
+        "active": {
+          "arithmetic_implied_responders": 5,
+          "reported_population_denominator": 10,
+          "reported_percent": 50.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 5,
+          "reported_population_denominator": 6,
+          "reported_percent": 83.3
+        }
+      },
+      {
+        "visit": "Week 4",
+        "threshold_grade_improvement": 1,
+        "active": {
+          "arithmetic_implied_responders": 2,
+          "reported_population_denominator": 10,
+          "reported_percent": 20.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 2,
+          "reported_population_denominator": 6,
+          "reported_percent": 33.3
+        }
+      },
+      {
+        "visit": "Week 8",
+        "threshold_grade_improvement": 1,
+        "active": {
+          "arithmetic_implied_responders": 1,
+          "reported_population_denominator": 10,
+          "reported_percent": 10.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 3,
+          "reported_population_denominator": 6,
+          "reported_percent": 50.0
+        }
+      },
+      {
+        "visit": "Week 12",
+        "threshold_grade_improvement": 1,
+        "active": {
+          "arithmetic_implied_responders": 5,
+          "reported_population_denominator": 10,
+          "reported_percent": 50.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 5,
+          "reported_population_denominator": 6,
+          "reported_percent": 83.3
+        }
+      },
+      {
+        "visit": "Any time",
+        "threshold_grade_improvement": 2,
+        "active": {
+          "arithmetic_implied_responders": 4,
+          "reported_population_denominator": 10,
+          "reported_percent": 40.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 4,
+          "reported_population_denominator": 6,
+          "reported_percent": 66.7
+        }
+      },
+      {
+        "visit": "Week 4",
+        "threshold_grade_improvement": 2,
+        "active": {
+          "arithmetic_implied_responders": 2,
+          "reported_population_denominator": 10,
+          "reported_percent": 20.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 1,
+          "reported_population_denominator": 6,
+          "reported_percent": 16.7
+        }
+      },
+      {
+        "visit": "Week 8",
+        "threshold_grade_improvement": 2,
+        "active": {
+          "arithmetic_implied_responders": 1,
+          "reported_population_denominator": 10,
+          "reported_percent": 10.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 3,
+          "reported_population_denominator": 6,
+          "reported_percent": 50.0
+        }
+      },
+      {
+        "visit": "Week 12",
+        "threshold_grade_improvement": 2,
+        "active": {
+          "arithmetic_implied_responders": 4,
+          "reported_population_denominator": 10,
+          "reported_percent": 40.0
+        },
+        "placebo": {
+          "arithmetic_implied_responders": 4,
+          "reported_population_denominator": 6,
+          "reported_percent": 66.7
+        }
+      }
+    ],
+    "interpretation": "Counts are arithmetic reconstructions from rounded published percentages and fixed reported populations, not recovered individual records or proof of observed week-specific denominators.",
+    "missing_data_rule_recovered": false
+  },
+  "gaumond": {
+    "table_1_recomputed": {
+      "HHD": {
+        "sample_rows": 7,
+        "mean_age": 59.42857142857143,
+        "min_age": 39,
+        "max_age": 75,
+        "female_count": 5,
+        "female_percent": 71.42857142857143
+      },
+      "AD": {
+        "sample_rows": 6,
+        "mean_age": 56.666666666666664,
+        "min_age": 39,
+        "max_age": 72,
+        "female_count": 3,
+        "female_percent": 50.0
+      },
+      "normal": {
+        "sample_rows": 4,
+        "mean_age": 42.75,
+        "min_age": 33,
+        "max_age": 63,
+        "female_count": 4,
+        "female_percent": 100.0
+      },
+      "all_groups": {
+        "sample_rows": 17,
+        "mean_age": 54.529411764705884,
+        "min_age": 33,
+        "max_age": 75,
+        "female_count": 12,
+        "female_percent": 70.58823529411765
+      }
+    },
+    "published_HHD_demographic_text_matches": "Pooled 17-sample set, not seven HHD rows",
+    "independent_donor_count_adjudicated": false,
+    "sections_or_cells_counted_as_patients": false
+  },
+  "clinical_efficacy_reanalysis": "Not performed: no controlled ruxolitinib HHD individual-level dataset was available."
+}
