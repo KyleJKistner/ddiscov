@@ -1,0 +1,179 @@
+{
+  "schema_version": "ddiscov.round12.independent_claim_structure_review.v1",
+  "round": 12,
+  "as_of": "2026-11-04",
+  "reviewer": "round12_claim_challenge",
+  "author_of_reviewed_artifacts": "round12_blu_priority",
+  "independent_of_author": true,
+  "independent_first_assessment_before_reading_drafts": true,
+  "base_commit": "823c2be978b2eaa89c0f4796342f949589d5814f",
+  "verdict": "pass",
+  "open_issues": [],
+  "resolved_issues": [],
+  "reviewed_files": [
+    {
+      "path": "blu-claim-structure-audit.md",
+      "sha256": "7888fc581733369b4eb96db4a9915bbefccbb72a8cb884bd8865260f106cab8f",
+      "bytes": 17735
+    },
+    {
+      "path": "blu-claim-structure-audit.json",
+      "sha256": "80fd84144bea0301be4c4f22e1dcd4739c0ea7e66abed1279acac337198e1705",
+      "bytes": 25261
+    }
+  ],
+  "checks": [
+    {
+      "id": "EXACT_ARTICLE",
+      "result": "pass",
+      "finding": "The named S-BLU3797 structure and Figure 1A agree. The thiazole, isoindolinone, N-side-chain configuration and 7-cyclopropylmethoxy group are not substituted with BLU2720, comparator47 or a shared precursor.",
+      "source": "JCI Insight 10.1172/jci.insight.198568, Figure1A and Methods; publisher v2 physical/printed pages3 and13",
+      "web_refs": [
+        "turn177view0",
+        "turn184view0",
+        "turn184view1"
+      ]
+    },
+    {
+      "id": "PRIMARY_PDF_AND_PAGINATION",
+      "result": "pass",
+      "finding": "Both cited cached PDF SHA-256 values match. WO has319 physical pages; cited printed/physical claim-page ranges and definition locations are consistent with the original. JCI publisher v2 has20 physical pages.",
+      "source": "Hash-verified originals and original page images"
+    },
+    {
+      "id": "FIXED_ANCHOR_GRAPH",
+      "result": "pass",
+      "finding": "Formula1 cycle b0,b1(R7/R10),b2(R11),b3(R14),b4(R8),b5(R9) is faithful to the drawing. The fusion-compatible BLU ordering is5,4,3a,7a,7,6, placing its ether on R8. R8 is a C/N ring-atom option without a separately drawn substituent handle.",
+      "source": "WO printed293-294 / physical294-295"
+    },
+    {
+      "id": "REFLECTION_AND_D_BRANCH",
+      "result": "pass",
+      "finding": "The reflected ordering5,6,7,7a,3a,4 places the ether at the R11 site but requires fusion across b3-b4, outside the depicted C and D closure pairs. The D closure across b1-b2 has anchored distances1,2, whereas BLU fusion distances are2,3. Rotating the drawing does not change this constraint.",
+      "source": "WO Formula1 drawing and closure clauses; BLU Figure1A"
+    },
+    {
+      "id": "ISOINDOLINONE_NOT_EXCLUDED_BY_TITLE",
+      "result": "pass",
+      "finding": "Claims4 and10 explicitly depict an isoindolinone among the B/C choices. The report correctly rejects scaffold-title or ring-size arguments as grounds for excluding BLU.",
+      "source": "WO printed297 / physical298 and printed304 / physical305, third B/C drawing in first row"
+    },
+    {
+      "id": "LOCAL_MATCHES_AND_SIDE_CHAIN",
+      "result": "pass",
+      "finding": "The thiazole, methyl, exocyclic acetamide, fused lactam and carbon atom identities are compatible local fragments. The proposed R15=CH(CH3), R16=cyclopropyl assignment is reasonably labeled a compatible candidate under the alkyl/cycloalkyl options and substituted-alkyl definition; it is neither a whole-compound match nor an independent exclusion.",
+      "source": "WO printed293-294,304-305 and115 / physical294-295,305-306 and116"
+    },
+    {
+      "id": "STEREOCHEMISTRY_AND_ALKOXY_CLASS",
+      "result": "pass",
+      "finding": "The source contemplates pure enantiomers and mixtures and broadly defines alkoxy to include cyclic hydrocarbon combinations. The report correctly treats S configuration and the cyclopropylmethoxy chemical class as unreliable exclusion arguments. The identified mismatch concerns attachment position.",
+      "source": "WO printed115 and119 / physical116 and120"
+    },
+    {
+      "id": "STRONGEST_COUNTERARGUMENT",
+      "result": "pass",
+      "finding": "The original aryl definition permits substitution including alkoxy. The optional-substitution passage separately refers to positions where such substitution is recited. Both are preserved, so explicit-variable mismatch is not promoted to a definitive legal noncoverage finding.",
+      "source": "WO printed116 / physical117 first paragraph, and printed117 / physical118 lines24-33",
+      "web_refs": [
+        "turn180view0",
+        "turn182view0"
+      ]
+    },
+    {
+      "id": "ALL_CLAIM_BRANCHES",
+      "result": "pass",
+      "finding": "All16 claim records are present. Claim1 and claim10 are the principal chemical structure starting points; claim11 depends on10. Claims13-16 incorporate earlier compounds. Myotubular-myopathy or C2beta use language does not erase the chemical requirements. Claim9 absence is not used alone to decide genus coverage.",
+      "source": "Original WO claims printed293-308 / physical294-309; indexed primary claim text",
+      "web_refs": [
+        "turn177view1",
+        "turn189view0",
+        "turn189view1"
+      ]
+    },
+    {
+      "id": "NULL_AND_SCOPE_SEMANTICS",
+      "result": "pass",
+      "finding": "Legal coverage, freedom to operate and commercial clearance remain unresolved/null, and legal noncoverage is not established. The review is confined to this published WO structure mapping; national operative claims, prosecution, equivalents, ownership and other families remain outside its determination."
+    },
+    {
+      "id": "DECISION_AND_NEWNESS",
+      "result": "pass",
+      "finding": "The new contribution is the exact structural mapping of an already known source. No new efficacy, safety window, qualified compound, dose, synthesis or scientific gate is claimed. BLU retains55 planning points and its existing qualification recommendation."
+    },
+    {
+      "id": "STRUCTURED_RECORD",
+      "result": "pass",
+      "finding": "Strict JSON parses;14 element rows and16 ordered claim records are present; source IDs resolve; graph correspondences agree with the Markdown; baseline commit and date match the Round12 task."
+    }
+  ],
+  "primary_sources_independently_checked": [
+    {
+      "publication": "WO2025003330A1",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+      "access": "Hash-verified cached original PDF; original Formula1/2 and relevant dependent drawings/definitions inspected visually; all claim branches cross-checked against indexed primary text.",
+      "physical_pages_visually_checked": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "web_refs": [
+        "turn174view0",
+        "turn177view1",
+        "turn180view0",
+        "turn182view0",
+        "turn189view0",
+        "turn189view1"
+      ]
+    },
+    {
+      "doi": "10.1172/jci.insight.198568",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "figure_url": "https://insight.jci.org/articles/view/198568/figure/1",
+      "publisher_v2_sha256": "b4fc9d50ec0b383bfd97f5e19247b9a67a5ecad0d7595cf626944181be781566",
+      "access": "Live primary name and figure page, cached primary Figure1 image visually inspected, cached publisher v2 hash/page count and exact name on page13 re-extracted.",
+      "web_refs": [
+        "turn177view0",
+        "turn184view0",
+        "turn184view1"
+      ]
+    }
+  ],
+  "remaining_evidence_limits": [
+    "The broad aryl-definition versus explicit R8 variable question remains a claim-construction ambiguity; this review does not adjudicate it.",
+    "No official prosecution history, national operative claim scope, equivalents, validity, ownership, licensing or freedom-to-operate determination.",
+    "No complete search for an origin patent family or other patents covering BLU, precursors, uses or future analogues.",
+    "Root-authored national publication/status companion is independently reviewed in its separate review file, not certified by this chemistry review."
+  ],
+  "activities": {
+    "reviewed_files_edited_by_reviewer": false,
+    "manual_source_and_graph_comparison": true,
+    "deterministic_integrity_checks": true,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "synthesis": false,
+    "git_actions": false
+  },
+  "review_validity": "Applies to the two final artifact hashes above. Pass confirms faithful public-source interpretation and explicit unresolved fields; it does not establish legal coverage, noncoverage or commercial clearance."
+}

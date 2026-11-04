@@ -1,12 +1,22 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 11.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 12.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Round 11 audits two existing reserves and closes the current retrieval pass with explicit resolved and unresolved fields. No new candidate or S-tier designation is added. The [Round 11 package](../research/rounds/round11/README.md) records the current zinc and SLC6A6 interpretations; earlier priorities and qualification rules remain in force.
+Round 12 audits one existing leader’s published chemical claims. No new candidate or S-tier designation is added. The [Round 12 package](../research/rounds/round12/README.md) controls the narrow claim-mapping interpretation; earlier biological priorities, clinical evidence and qualification rules remain in force.
 
-## Round 11 bounded evidence audit
+## Round 12 BLU published-claim audit
+
+The [Round 12 package](../research/rounds/round12/README.md) addresses the previously unresolved mapping of exact S-BLU3797 to the comparator family's published claims. This question was selected because it could change the leading program's independent product contribution, while the screened clinical and BLU exposure retrieval lanes supplied no new decision-changing primary content.
+
+**BLU3797 — retain 55 points and the affirmative bounded human-muscle qualification project.** The original WO2025003330A1 drawings support a precise explicit-variable mismatch: in the orientation that matches BLU's fused ring, its 7-O-CH2-cyclopropyl substituent maps to R8, where the formula supplies a C/N atom choice without a substituent handle. Reflection puts the fusion on an unsupported edge. This is not an exclusion based on the patent title: an isoindolinone is expressly depicted in the claims. The general substituted-aryl definition remains a material interpretation ambiguity. [Structure and claim audit](../research/rounds/round12/blu-claim-structure-audit.md)
+
+Do not represent this family as a demonstrated literal match to exact BLU under the explicit-variable chart, or treat the chart as a finding of legal noncoverage. The target/disease/composition/in-vitro language retains structural dependencies. Exact47 remains the first scientific comparator to qualify, with no proprietary status inferred. National published text supplies a selected cross-check; current official prosecution scope, ownership and commercial clearance remain unresolved. [Publication and status limits](../research/rounds/round12/publication-scope-and-status.md)
+
+The one-family mapping pass is closed after independent review. Reopen for a materially changed claim, relevant prosecution interpretation or a newly identified exact BLU-origin family. No biological gate, numerical qualification rule, clinical claim or allocation changed. Zinc and SLC6A6 searches remain closed. All work was document analysis and repository verification; no outreach, purchases, recruitment, experiments or simulations occurred.
+
+## Retained Round 11 bounded evidence audit
 
 The [Round 11 package](../research/rounds/round11/README.md) completes a finite source audit of the two open questions from Round 10. It adds no new candidate and leaves the entire allocation queue unchanged.
 

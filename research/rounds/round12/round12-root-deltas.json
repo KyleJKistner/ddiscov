@@ -1,0 +1,151 @@
+{
+  "schema_version": "ddiscov.round12.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "823c2be978b2eaa89c0f4796342f949589d5814f",
+  "counts": {
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "existing_candidates_reviewed": 1,
+    "published_patent_families_structurally_audited": 1,
+    "published_international_claims_reviewed": 16,
+    "national_publication_text_crosschecks": 2,
+    "official_national_statuses_verified": 0,
+    "independent_review_documents_total": 2,
+    "reviewed_authored_files": 4,
+    "new_unique_treated_people_added": 0,
+    "new_biological_results": 0,
+    "new_experiments": 0,
+    "S_tier_promotions": 0
+  },
+  "scope": "One-family exact BLU3797 published structural-claim mapping after a finite leading-program availability triage; no broader patent landscape or candidate screen.",
+  "selection_rationale": "A specific unresolved claim mapping for the leading program had readable original evidence and could alter the independent product contribution. Other sampled high-value BLU and enasidenib questions lacked newly readable decision-changing primary outcomes. Closed zinc and SLC6A6 retrievals were not reopened.",
+  "completion_rule": "The chemical chart, source-scope review, independent challenge and repository work are completed. Completion does not resolve legal construction, official national scope, ownership or commercial clearance.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "BLU3797_XLMTM",
+      "new_candidate": false,
+      "dedicated_planning_points": 55,
+      "source_scope": "research/rounds/round12/blu-claim-structure-audit.json",
+      "review_file": "research/rounds/round12/blu-claim-structure-audit.md",
+      "publication_scope": "research/rounds/round12/publication-scope-and-status.json",
+      "delta": [
+        "Original WO2025003330A1 claim drawings now support an explicit atom/position mapping rather than an uncharted genus concern. The orientation that matches BLU fused-ring connectivity places its 7-O-CH2-cyclopropyl at R8, which has no explicit substituent handle; reflected or alternative permitted fusion edges do not fix that mapping.",
+        "The patent title is not a valid scaffold-exclusion argument: an isoindolinone is expressly depicted. Broad substituted-aryl wording is a material construction counterargument. Record explicit-variable mismatch with legal construction unresolved, not definitive legal noncoverage or freedom to operate.",
+        "Claim 1 medical-use and claim 10 compound branches, and later target/disease/composition/in-vitro dependencies, remain distinct. A reference to myotubular myopathy does not erase structural limitations. Exact47 remains the first scientific comparator; no proprietary position is inferred.",
+        "EP/CN published application text supplies selected corroborating wording, but original national drawings, current official prosecution scope and status were not independently verified. Ceased/Pending labels remain aggregator observations; exact BLU-origin family, ownership and licensing availability remain unresolved.",
+        "Retain 55 planning points, the affirmative human-muscle qualification project and all existing biological/numerical gates. Close the one-family published-structure pass; reopen only for a changed claim, relevant prosecution construction or a newly identified exact-origin family."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round12/blu-claim-structure-audit.json",
+    "research/rounds/round12/publication-scope-and-status.json"
+  ],
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false,
+    "round10_review": "research/rounds/round10/round10-root-deltas.json",
+    "round10_allocation_changed": false,
+    "round11_review": "research/rounds/round11/round11-root-deltas.json",
+    "round11_allocation_changed": false,
+    "round12_review": "research/rounds/round12/round12-root-deltas.json",
+    "round12_allocation_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round12/independent-claim-structure-review.json",
+    "research/rounds/round12/independent-publication-scope-review.json"
+  ],
+  "integration_review": "research/rounds/round12/integration-review.md",
+  "local_verification": "research/rounds/round12/local-verification.json",
+  "artifact_manifest": "research/rounds/round12/artifact-manifest.json",
+  "activity_boundary": "Published-document research, chemical drawing interpretation, deterministic integrity checks and repository verification. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "retrieval_stop": {
+    "current_pass_closed": true,
+    "reopen_for": [
+      "Materially changed original claim or drawing",
+      "Relevant accessible prosecution or authoritative interpretation of ring-B substitution",
+      "Newly identified exact BLU-origin composition family as a separately scoped source"
+    ],
+    "zinc_search_remains_closed": true,
+    "slc6a6_search_remains_closed": true,
+    "generic_BLU_exposure_search_not_reopened": true,
+    "no_author_contact_or_other_outreach": true
+  },
+  "interpretation_limits": [
+    "Explicit-variable chemical mapping is not definitive legal claim construction.",
+    "The title does not exclude an isoindolinone; that core is expressly depicted.",
+    "Broad aryl-definition counterargument remains material.",
+    "Claimed target or indication language does not erase structural dependencies.",
+    "Mirrored national text does not establish original drawing equivalence or current amended scope.",
+    "Aggregator status is not official current legal status.",
+    "A scientific comparator or successful proof is not automatically an owned product.",
+    "No new biological or clinical evidence is generated."
+  ],
+  "future_access_lead_not_a_finding": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13583997/",
+    "description": "Final Gupta HHD model article route identified during selection only; no final-versus-preprint scientific delta audited or counted.",
+    "new_candidate": false,
+    "evidence_upgrade_claimed": false
+  }
+}

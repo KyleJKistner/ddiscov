@@ -1,0 +1,1001 @@
+{
+  "schema_version": "1.0",
+  "round": 12,
+  "evidence_cut": "2026-11-04",
+  "baseline_commit": "823c2be978b2eaa89c0f4796342f949589d5814f",
+  "baseline_branch": "main",
+  "workstream": "Exact BLU3797 structure-to-claim audit of WO2025003330A1",
+  "scope": {
+    "public_document_research_only": true,
+    "publication": "WO2025003330A1",
+    "claims_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "claim_count": 16,
+    "source_of_topology": "original published PDF drawings",
+    "out_of_scope": [
+      "origin patent search",
+      "precursor-family mapping",
+      "other target-use patent families",
+      "jurisdiction-specific operative claim construction",
+      "prosecution and validity",
+      "equivalents",
+      "ownership",
+      "freedom to operate",
+      "future analogues"
+    ],
+    "no_outreach": true,
+    "no_purchases": true,
+    "no_recruitment": true,
+    "no_experiments": true,
+    "no_simulations": true,
+    "no_synthesis": true,
+    "no_synthesis_protocol_proposed": true,
+    "origin_search_queries": 0
+  },
+  "exact_article": {
+    "name": "BLU3797",
+    "full_name": "(S)-N-(5-(2-(1-cyclopropylethyl)-7-(cyclopropylmethoxy)-1-oxoisoindolin-5-yl)-4-methylthiazol-2-yl)acetamide",
+    "stereochemistry": "S at the lactam N-side-chain methine",
+    "source_id": "B12-CS02",
+    "source_locations": [
+      {
+        "figure": "1A",
+        "printed_page": 3,
+        "physical_pdf_page": 3
+      },
+      {
+        "section": "Methods, Generation of PIK3C2B small molecule inhibitors; exact compound name",
+        "printed_page": 13,
+        "physical_pdf_page": 13
+      }
+    ],
+    "different_articles_not_substituted": [
+      "BLU2720",
+      "WO2025003330A1 example47",
+      "shared precursor"
+    ]
+  },
+  "sources": [
+    {
+      "id": "B12-CS01",
+      "type": "published_patent_original",
+      "publication": "WO2025003330A1",
+      "application": "PCT/EP2024/068134",
+      "publication_date": "2025-01-02",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+      "physical_page_count": 319,
+      "page_relation_at_cited_locations": "physical=printed+1",
+      "retrieval_basis": "Existing primary PDF hash verified; original drawings/definitions visually inspected; all16 claim texts read; HTML cross-check reopened",
+      "new_evidence_status": "previously reviewed source, new exact-structure mapping",
+      "web_reference": "turn173view0"
+    },
+    {
+      "id": "B12-CS02",
+      "type": "primary_article_publisher_pdf",
+      "doi": "10.1172/jci.insight.198568",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "original_pdf_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.v2.pdf",
+      "sha256": "b4fc9d50ec0b383bfd97f5e19247b9a67a5ecad0d7595cf626944181be781566",
+      "physical_page_count": 20,
+      "retrieval_basis": "Cached primary v2 Figure1A visually checked; exact name and source pages re-extracted",
+      "new_evidence_status": "carried-forward exact identity reconfirmed"
+    }
+  ],
+  "anchor_graph": {
+    "labels_are_analyst_labels": true,
+    "anchor": "b0=benzene atom linked to thiazole C5",
+    "cycle_order": [
+      "b0",
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b5",
+      "b0"
+    ],
+    "patent_positions": {
+      "b0": "A attachment",
+      "b1": "R7 with R10",
+      "b2": "carbon bearing R11",
+      "b3": "carbon bearing R14",
+      "b4": "R8",
+      "b5": "R9"
+    },
+    "allowed_fused_edges": {
+      "D": [
+        "b1",
+        "b2"
+      ],
+      "C": [
+        "b2",
+        "b3"
+      ]
+    },
+    "direct_BLU_positions": {
+      "b0": "5",
+      "b1": "4",
+      "b2": "3a",
+      "b3": "7a",
+      "b4": "7",
+      "b5": "6"
+    },
+    "reflected_BLU_positions": {
+      "b0": "5",
+      "b1": "6",
+      "b2": "7",
+      "b3": "7a",
+      "b4": "3a",
+      "b5": "4"
+    },
+    "direct_actual_fusion": [
+      "b2",
+      "b3"
+    ],
+    "reflected_actual_fusion": [
+      "b3",
+      "b4"
+    ],
+    "direct_failure": "BLU7 O-CH2-cyclopropyl at R8; no explicit external substituent variable",
+    "reflected_failure": "BLU fused edge R14-bearing-carbon/R8 is not one of the claimed closure pairs",
+    "D_branch_failure": "Anchored distances1,2 for D versus2,3 for BLU fusion",
+    "alternative_ring_assignment": "Required ring N plus adjacent externally acylated amino carbon uniquely identifies thiazole A; lactam has no corresponding exocyclic amino group; B is the linked six-membered aromatic ring",
+    "method": "manual connectivity comparison of original drawings and exact article; no simulation or synthetic execution",
+    "locations": [
+      {
+        "source_id": "B12-CS01",
+        "printed_pages": [
+          293,
+          294
+        ],
+        "physical_pdf_pages": [
+          294,
+          295
+        ],
+        "detail": "Formula1 and closure definitions"
+      }
+    ]
+  },
+  "element_matrix": [
+    {
+      "element": "A_n",
+      "BLU_assignment": "Five-membered thiazole; n=1",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293
+          ],
+          "physical_pdf_pages": [
+            294
+          ],
+          "detail": "A_n"
+        }
+      ]
+    },
+    {
+      "element": "R1_R6",
+      "BLU_assignment": "R1=S; R6 absent",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293
+          ],
+          "physical_pdf_pages": [
+            294
+          ],
+          "detail": "R1_R6"
+        }
+      ]
+    },
+    {
+      "element": "ring_N_R2_R3",
+      "BLU_assignment": "Thiazole N3; R2=C4; R3=methyl",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293
+          ],
+          "physical_pdf_pages": [
+            294
+          ],
+          "detail": "ring_N_R2_R3"
+        }
+      ]
+    },
+    {
+      "element": "R4_R5",
+      "BLU_assignment": "One H and one acetyl on the exocyclic N at thiazole C2; assignments interchangeable",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293
+          ],
+          "physical_pdf_pages": [
+            294
+          ],
+          "detail": "R4_R5"
+        }
+      ]
+    },
+    {
+      "element": "A_B_bond",
+      "BLU_assignment": "Thiazole C5 to isoindolinone aromatic C5; unique anchor",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293
+          ],
+          "physical_pdf_pages": [
+            294
+          ],
+          "detail": "A_B_bond"
+        }
+      ]
+    },
+    {
+      "element": "R7_R8_R9",
+      "BLU_assignment": "Corresponding B-ring atom elements are all C; the R8 substitution issue is separate",
+      "assessment": "supported_atom_identity_only",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293,
+            304
+          ],
+          "physical_pdf_pages": [
+            294,
+            305
+          ],
+          "detail": "R7_R8_R9"
+        }
+      ]
+    },
+    {
+      "element": "R10",
+      "BLU_assignment": "H at isoindolinone position4 in direct mapping",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            294
+          ],
+          "physical_pdf_pages": [
+            295
+          ],
+          "detail": "R10"
+        }
+      ]
+    },
+    {
+      "element": "R11_R14_C",
+      "BLU_assignment": "Five-membered N-containing fused ring across 3a-7a",
+      "assessment": "supported_local_match",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            294
+          ],
+          "physical_pdf_pages": [
+            295
+          ],
+          "detail": "R11_R14_C"
+        }
+      ]
+    },
+    {
+      "element": "lactam_topology",
+      "BLU_assignment": "Isoindolinone specifically drawn as third B/C option in first row of claims4 and10",
+      "assessment": "supported_explicit_option",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            297,
+            304
+          ],
+          "physical_pdf_pages": [
+            298,
+            305
+          ],
+          "detail": "lactam_topology"
+        }
+      ]
+    },
+    {
+      "element": "R15_R16",
+      "BLU_assignment": "Candidate R15=CH(CH3) alkyl segment; R16=cyclopropyl; substituted-alkyl definition permits cycloalkyl substitution",
+      "assessment": "compatible_not_independent_exclusion",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            294,
+            305,
+            115
+          ],
+          "physical_pdf_pages": [
+            295,
+            306,
+            116
+          ],
+          "detail": "R15_R16"
+        }
+      ]
+    },
+    {
+      "element": "R12_R13",
+      "BLU_assignment": "Absent when C closure retains R15/R16",
+      "assessment": "supported_absence_branch",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            294,
+            305
+          ],
+          "physical_pdf_pages": [
+            295,
+            306
+          ],
+          "detail": "R12_R13"
+        }
+      ]
+    },
+    {
+      "element": "seven_ether_at_R8",
+      "BLU_assignment": "Exact O-CH2-cyclopropyl substituent at BLU7 maps to b4/R8; no external substituent variable is drawn there",
+      "assessment": "explicit_variable_mismatch_with_construction_unresolved",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293,
+            294,
+            116,
+            117
+          ],
+          "physical_pdf_pages": [
+            294,
+            295,
+            117,
+            118
+          ],
+          "detail": "seven_ether_at_R8"
+        }
+      ]
+    },
+    {
+      "element": "stereochemistry",
+      "BLU_assignment": "Exact S side chain; pure enantiomers and mixtures contemplated",
+      "assessment": "no_stereo_exclusion_established",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            119
+          ],
+          "physical_pdf_pages": [
+            120
+          ],
+          "detail": "stereochemistry"
+        }
+      ]
+    },
+    {
+      "element": "medical_use",
+      "BLU_assignment": "XLMTM/C2beta intended use overlaps subject matter, conditional on chemical claim satisfaction",
+      "assessment": "relevant_use_not_chemical_scope_substitute",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            307,
+            308,
+            115
+          ],
+          "physical_pdf_pages": [
+            308,
+            309,
+            116
+          ],
+          "detail": "medical_use"
+        }
+      ]
+    }
+  ],
+  "claim_branches": [
+    {
+      "claim": 1,
+      "category": "medical_use_genus",
+      "dependency_type": "structure_starting_point",
+      "references": [],
+      "assessment": "Formula1 broad options; R8 ether mismatch under explicit variables; aryl construction unresolved",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293,
+            294
+          ],
+          "physical_pdf_pages": [
+            294,
+            295
+          ],
+          "detail": "Claim1"
+        }
+      ]
+    },
+    {
+      "claim": 2,
+      "category": "medical_use_subgenus",
+      "dependency_type": "dependent",
+      "references": [
+        1
+      ],
+      "assessment": "Narrower variables; no new R8 handle",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            295,
+            296
+          ],
+          "physical_pdf_pages": [
+            296,
+            297
+          ],
+          "detail": "Claim2"
+        }
+      ]
+    },
+    {
+      "claim": 3,
+      "category": "medical_use_formula2",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2
+      ],
+      "assessment": "Formula2 fixes smaller-ring representation; no repair of B topology",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            296,
+            297
+          ],
+          "physical_pdf_pages": [
+            297,
+            298
+          ],
+          "detail": "Claim3"
+        }
+      ]
+    },
+    {
+      "claim": 4,
+      "category": "medical_use_C_fusion",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3
+      ],
+      "assessment": "Explicit isoindolinone option; R8 retained without substituent handle",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            297,
+            298
+          ],
+          "physical_pdf_pages": [
+            298,
+            299
+          ],
+          "detail": "Claim4"
+        }
+      ]
+    },
+    {
+      "claim": 5,
+      "category": "medical_use_D_fusion",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "assessment": "D fusion wrong relative to thiazole anchor",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            298
+          ],
+          "physical_pdf_pages": [
+            299
+          ],
+          "detail": "Claim5"
+        }
+      ]
+    },
+    {
+      "claim": 6,
+      "category": "medical_use_R16_selection",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "assessment": "Cyclopropyl R16 included; no new B-ring site",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            298,
+            299
+          ],
+          "physical_pdf_pages": [
+            299,
+            300
+          ],
+          "detail": "Claim6"
+        }
+      ]
+    },
+    {
+      "claim": 7,
+      "category": "medical_use_formula5",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "assessment": "More specific six-membered fused framework; not broader parent topology",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            299,
+            300
+          ],
+          "physical_pdf_pages": [
+            300,
+            301
+          ],
+          "detail": "Claim7"
+        }
+      ]
+    },
+    {
+      "claim": 8,
+      "category": "medical_use_formula6",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "assessment": "More specific fused/sulfonyl framework; not broader parent topology",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            300
+          ],
+          "physical_pdf_pages": [
+            301
+          ],
+          "detail": "Claim8"
+        }
+      ]
+    },
+    {
+      "claim": 9,
+      "category": "medical_use_named_compounds",
+      "dependency_type": "dependent_any_preceding",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "assessment": "No exact BLU entry identified; absence from examples is not sole basis for genus assessment",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            300,
+            301,
+            302,
+            303
+          ],
+          "physical_pdf_pages": [
+            301,
+            302,
+            303,
+            304
+          ],
+          "detail": "Claim9"
+        }
+      ]
+    },
+    {
+      "claim": 10,
+      "category": "compound_formula2",
+      "dependency_type": "structure_starting_point",
+      "references": [],
+      "assessment": "Independent compound branch explicitly permits isoindolinone; same R8 issue persists",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            303,
+            304,
+            305,
+            306
+          ],
+          "physical_pdf_pages": [
+            304,
+            305,
+            306,
+            307
+          ],
+          "detail": "Claim10"
+        }
+      ]
+    },
+    {
+      "claim": 11,
+      "category": "compound_D_fusion",
+      "dependency_type": "dependent",
+      "references": [
+        10
+      ],
+      "assessment": "Not independent; D geometry does not repair BLU mapping",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            306
+          ],
+          "physical_pdf_pages": [
+            307
+          ],
+          "detail": "Claim11"
+        }
+      ]
+    },
+    {
+      "claim": 12,
+      "category": "compound_R16_selection",
+      "dependency_type": "dependent_any_referenced",
+      "references": [
+        10,
+        11
+      ],
+      "assessment": "Cyclopropyl option retained without new R8 variable",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            306,
+            307
+          ],
+          "physical_pdf_pages": [
+            307,
+            308
+          ],
+          "detail": "Claim12"
+        }
+      ]
+    },
+    {
+      "claim": 13,
+      "category": "C2beta_medical_use",
+      "dependency_type": "incorporates_any_preceding_compound",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "assessment": "No target-wide claim without compound restrictions",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            307
+          ],
+          "physical_pdf_pages": [
+            308
+          ],
+          "detail": "Claim13"
+        }
+      ]
+    },
+    {
+      "claim": 14,
+      "category": "disease_specific_medical_use",
+      "dependency_type": "incorporates_any_preceding_compound",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "assessment": "Myopathy preferably myotubular myopathy; structural conditions retained",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            307,
+            308
+          ],
+          "physical_pdf_pages": [
+            308,
+            309
+          ],
+          "detail": "Claim14"
+        }
+      ]
+    },
+    {
+      "claim": 15,
+      "category": "pharmaceutical_composition_medical_use",
+      "dependency_type": "new_category_with_incorporated_compound",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "assessment": "Earlier claimed compounds plus carrier; chemical conditions retained",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            308
+          ],
+          "physical_pdf_pages": [
+            309
+          ],
+          "detail": "Claim15"
+        }
+      ]
+    },
+    {
+      "claim": 16,
+      "category": "in_vitro_method",
+      "dependency_type": "new_category_with_incorporated_compound",
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "assessment": "Earlier claimed compound/composition to cell; chemical conditions retained; not research-use clearance",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            308
+          ],
+          "physical_pdf_pages": [
+            309
+          ],
+          "detail": "Claim16"
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "explicit_variable_result": "specific_unmatched_R8_ether_substituent",
+    "whole_compound_match_established": false,
+    "legal_noncoverage_established": false,
+    "legal_coverage_determined": null,
+    "freedom_to_operate": null,
+    "strongest_counterargument": {
+      "claim": "General aryl definition allows substitution including alkoxy; possible argument that it permits BLU ether on B despite no R8 substituent handle",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            116
+          ],
+          "physical_pdf_pages": [
+            117
+          ],
+          "detail": "first paragraph, aryl definition"
+        }
+      ]
+    },
+    "counterweight": {
+      "claim": "Formula fixes R7/R8/R9 atom identities, declares substituent handles elsewhere and restricts fusion pairs; optional-substitution passage applies where recited",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            293,
+            294,
+            304
+          ],
+          "physical_pdf_pages": [
+            294,
+            295,
+            305
+          ],
+          "detail": "fixed B atoms, variables and closures"
+        },
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            117
+          ],
+          "physical_pdf_pages": [
+            118
+          ],
+          "detail": "lines24-33 optional substituent passage"
+        }
+      ]
+    },
+    "unresolved_question": "Whether general aryl definition legally authorizes alkoxy at R8 despite explicit positional drafting",
+    "stereo_counterargument": {
+      "claim": "Pure enantiomers and mixtures contemplated; S alone is not exclusion",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            119
+          ],
+          "physical_pdf_pages": [
+            120
+          ],
+          "detail": "first stereochemistry paragraph"
+        }
+      ]
+    },
+    "alkoxy_counterargument": {
+      "claim": "Cyclopropylmethoxy fits broad alkoxy class; position rather than class is obstruction",
+      "locations": [
+        {
+          "source_id": "B12-CS01",
+          "printed_pages": [
+            115
+          ],
+          "physical_pdf_pages": [
+            116
+          ],
+          "detail": "alkyl and alkoxy definitions"
+        }
+      ]
+    },
+    "not_reliable_exclusion_arguments": [
+      "title limited to tetrahydroquinoline",
+      "isoindolinone absent from claimed alternatives",
+      "cyclopropylmethoxy not an alkoxy",
+      "pure S stereoisomer not covered",
+      "absence from named examples alone"
+    ],
+    "use_linkage": "Claims13-16 expressly incorporate earlier compounds and do not replace chemical restrictions with target identity"
+  },
+  "decision": {
+    "planning_points_before": 55,
+    "planning_points_after": 55,
+    "scientific_first_proof_recommendation": "retain",
+    "new_scientific_gate": false,
+    "new_human_efficacy": false,
+    "new_qualified_compound": false,
+    "commercial_clearance": null,
+    "changed_record": "Replace uncharted exact-BLU relationship with explicit-variable R8 mismatch plus material broader-definition ambiguity",
+    "independent_contribution": "Useful human function/exposure data and qualified assays can create information value; molecule ownership and successor rights remain separate",
+    "national_claims_or_enforceability_certified_by_this_file": false
+  },
+  "reopen_triggers": [
+    "Changed or newly recovered claim text/drawings affecting R8 substitution or fusion geometry",
+    "Material prosecution or claim-construction evidence about the aryl definition",
+    "A complete alternative atom correspondence that satisfies all mandatory elements",
+    "A different exact article requiring a fresh chart"
+  ],
+  "not_reopen_triggers": [
+    "Patent title alone",
+    "Presence of an isoindolinone example already verified",
+    "Re-demonstrating that cyclopropylmethoxy is an alkoxy",
+    "Generic C2beta pharmacology"
+  ],
+  "validation": {
+    "pdf_sha256_checked": true,
+    "BLU_figure_checked": true,
+    "claim_numbers_complete_1_to_16": true,
+    "stereochemistry_source_checked": true,
+    "broad_aryl_counterargument_in_original_checked": true,
+    "optional_substitution_counterweight_in_original_checked": true,
+    "direct_and_reflected_mapping_recorded": true,
+    "no_full_primary_documents_in_deliverable": true
+  }
+}

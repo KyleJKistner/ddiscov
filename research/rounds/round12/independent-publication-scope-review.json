@@ -1,0 +1,136 @@
+{
+  "schema_version": "ddiscov.round12.independent_publication_scope_review.v1",
+  "as_of": "2026-11-04",
+  "reviewer": "round12_clinical_priority",
+  "base_commit": "823c2be978b2eaa89c0f4796342f949589d5814f",
+  "reviewed_files": [
+    {
+      "path": "publication-scope-and-status.md",
+      "repository_path": "research/rounds/round12/publication-scope-and-status.md",
+      "sha256": "4f967d07e0cd67b37083a040668d13c355af2f3b72ae01c3caae62ddbc8a1815",
+      "bytes": 7181
+    },
+    {
+      "path": "publication-scope-and-status.json",
+      "repository_path": "research/rounds/round12/publication-scope-and-status.json",
+      "sha256": "d3ad3ca578136056411a635dceda48effeaee96924936f517e0d8db018060c22",
+      "bytes": 5317
+    }
+  ],
+  "verdict": "pass",
+  "open_issues": [],
+  "resolved_issues": [],
+  "scope": "Independent review of source provenance, selected published claim dependencies, document pagination, status language and decision boundaries. The separate full molecular mapping is outside this review.",
+  "source_checks": [
+    {
+      "id": "WO-original-document",
+      "url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "local_source": "/workspace/scratch/b5b981e77bc5/tmp/round5_blu_pharmacology/WO2025003330A1.pdf",
+      "sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+      "bytes": 18660738,
+      "method": "Independent SHA-256 and PDF page-count calculation; in-memory OCR of original physical pages 1, 294, 304, 308, 309 and 310; visual inspection of the existing physical-page-304 rendering.",
+      "result": "pass",
+      "verified": {
+        "physical_pages": 319,
+        "publication_date": "2025-01-02",
+        "application": "PCT/EP2024/068134",
+        "front_page_applicant": "FORSCHUNGSVERBUND BERLIN E.V.",
+        "claim_first_physical_page": 294,
+        "claim_first_printed_page": 293,
+        "claim_last_physical_page": 309,
+        "claim_last_printed_page": 308,
+        "last_numbered_claim": 16
+      },
+      "interpretation": "Original publication identity and pagination are supported. The abbreviated applicant name in the dossier is accurate; it is not a present chain-of-title determination."
+    },
+    {
+      "id": "EP-published-text",
+      "url": "https://patents.google.com/patent/EP4734987A1/en",
+      "access": "Published text reproduced by Google Patents; no original national drawing audit.",
+      "retrieval_refs": [
+        "turn185view0",
+        "turn187view2",
+        "turn188view0",
+        "turn188view1"
+      ],
+      "result": "pass",
+      "verified": {
+        "application": "EP24737741.9",
+        "publication_date": "2026-05-06",
+        "visible_numbered_claims": "1 through 16",
+        "displayed_aggregator_status": "Pending"
+      },
+      "selected_claim_checks": "Claim 1 is the Formula 1 medical-use branch; claim 10 introduces the Formula 2 compound branch. Both expose C/N choices for R7/R8/R9 and the two specified ring-closure alternatives. Claims 13 and 14 refer to preceding compounds; claims 15 and 16 retain those compound dependencies. No claim here was read as an unrestricted claim to every C2-beta inhibitor."
+    },
+    {
+      "id": "CN-translated-published-text",
+      "url": "https://patents.google.com/patent/CN121816181A/en",
+      "access": "Machine-translated published text reproduced by Google Patents; original Chinese drawings and legal construction not audited.",
+      "retrieval_refs": [
+        "turn185view1",
+        "turn187view0",
+        "turn188view2",
+        "turn192view0"
+      ],
+      "result": "pass",
+      "verified": {
+        "application": "CN202480055743.0",
+        "publication_date": "2026-04-07",
+        "visible_claim_count": 16,
+        "displayed_aggregator_status": "Pending"
+      },
+      "selected_claim_checks": "Formula 1/Formula 2 branches, C/N atom alternatives, ring-C/ring-D alternatives and dependencies in claims 13 through 16 are visible. The translation contains formatting and wording artifacts; the dossier correctly limits its conclusion to selected text features and does not assert entire national claim-set identity."
+    },
+    {
+      "id": "WO-aggregator-status",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "retrieval_refs": [
+        "turn190view0",
+        "turn191view0"
+      ],
+      "result": "pass",
+      "verified": "The displayed family/application timeline labels the international entry Ceased and EP/CN entries Pending. These remain aggregator observations, expressly separated from current official status, a grant, enforceability, abandonment, chain of title and licensing availability."
+    },
+    {
+      "id": "official-access-attempts",
+      "result": "properly_bounded_not_independently_retried",
+      "urls": [
+        "https://register.epo.org/espacenet/application?number=EP24737741",
+        "https://data.epo.org/publication-server/rest/v1.2/patents/EP4734987NWA1/document.pdf"
+      ],
+      "provenance": "The root author reported one inaccessible attempt per route in this pass. This reviewer did not repeat either failed route and does not independently certify those retrieval outcomes. The draft does not infer adverse status or lack of official records from either failure."
+    },
+    {
+      "id": "prior-coverage-and-decision-boundaries",
+      "local_source": "research/rounds/round5/round5_blu_pharmacology.md",
+      "result": "pass",
+      "verified": "Round 5 already identified the WO original, EP/CN publications, 47 comparator priority and status limitations while leaving exact BLU genus mapping unresolved. The reviewed files correctly describe new structural analysis of an existing source; they do not treat source-availability triage as a new treatment result."
+    }
+  ],
+  "overclaim_checks": {
+    "international_drawings_distinguished_from_national_text": true,
+    "official_status_unverified_explicit": true,
+    "no_freedom_to_operate_or_ownership_conclusion": true,
+    "no_whole_national_claim_identity_asserted": true,
+    "broad_aryl_construction_ambiguity_retained": true,
+    "no_allocation_upgrade": true,
+    "planning_points_retained": 55,
+    "no_efficacy_or_exposure_upgrade": true,
+    "no_closed_search_retrieval_promoted_to_new_evidence": true
+  },
+  "remaining_research_limits_not_review_defects": [
+    "Current official national claims, amendments, status, ownership and licensing remain unresolved.",
+    "The stated aryl-definition ambiguity remains unresolved and is not converted into a definitive exclusion or clearance conclusion.",
+    "This review does not independently validate every atom mapping in the separately authored chemistry audit."
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false,
+    "common_file_edits": false
+  },
+  "recommendation": "Accept the two reviewed files at the recorded hashes for integration; refresh this review if their substantive source or claim-scope assertions change."
+}

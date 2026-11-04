@@ -1,0 +1,122 @@
+{
+  "schema_version": "ddiscov.round12.publication_scope.v1",
+  "as_of": "2026-11-04",
+  "candidate_id": "BLU3797_XLMTM",
+  "base_commit": "823c2be978b2eaa89c0f4796342f949589d5814f",
+  "question": "Which published claim documents and national-branch facts support the one-family BLU3797 structural audit, and which legal fields remain unresolved?",
+  "new_candidate": false,
+  "primary_international_document": {
+    "publication": "WO2025003330A1",
+    "application": "PCT/EP2024/068134",
+    "publication_date": "2025-01-02",
+    "named_applicant_in_publication": "Forschungsverbund Berlin",
+    "url": "https://patents.google.com/patent/WO2025003330A1/en",
+    "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+    "original_pdf_sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+    "physical_page_count": 319,
+    "claim_physical_pages_inclusive": [294, 309],
+    "claim_printed_pages_inclusive": [293, 308],
+    "original_drawings_inspected": true,
+    "source_new_to_repository": false,
+    "new_work": "Exact structural mapping, alternative orientations and branch/dependency review, previously unresolved in Round 5."
+  },
+  "national_publications": [
+    {
+      "publication": "EP4734987A1",
+      "application": "EP24737741.9",
+      "publication_date": "2026-05-06",
+      "url": "https://patents.google.com/patent/EP4734987A1/en",
+      "access": "published_application_text_via_aggregator",
+      "language": "English",
+      "visible_claim_count": 16,
+      "selected_text_features_match_international_publication": true,
+      "original_national_drawings_independently_verified": false,
+      "whole_claim_set_byte_identity_verified": false,
+      "current_prosecution_amendments_verified": false,
+      "displayed_aggregator_status": "Pending",
+      "official_current_status": null,
+      "current_granted_scope": null
+    },
+    {
+      "publication": "CN121816181A",
+      "application": "CN202480055743.0",
+      "publication_date": "2026-04-07",
+      "url": "https://patents.google.com/patent/CN121816181A/en",
+      "access": "machine_translated_published_application_text_via_aggregator",
+      "language": "English machine translation of Chinese publication",
+      "visible_claim_count": 16,
+      "selected_text_features_match_international_publication": true,
+      "original_national_drawings_independently_verified": false,
+      "whole_claim_set_byte_identity_verified": false,
+      "current_prosecution_amendments_verified": false,
+      "displayed_aggregator_status": "Pending",
+      "official_current_status": null,
+      "current_granted_scope": null
+    }
+  ],
+  "selected_text_features_checked": [
+    "claim 1: Formula 1 medical-use branch",
+    "claim 10: Formula 2 compound branch",
+    "R7/R8/R9 defined as C or N",
+    "R10/R11 ring D or R11/R14 ring C closure alternatives",
+    "claims 13 and 14 retain references to previously defined compounds",
+    "claims 15 and 16 retain structurally defined compound dependencies"
+  ],
+  "international_displayed_aggregator_status": "Ceased",
+  "official_access_attempts": [
+    {
+      "url": "https://register.epo.org/espacenet/application?number=EP24737741",
+      "purpose": "current official EP prosecution/status record",
+      "attempts_this_pass": 1,
+      "result": "URL not accessible via retrieval tool",
+      "status_inferred_from_failure": false
+    },
+    {
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4734987NWA1/document.pdf",
+      "purpose": "official EP publication drawing cross-check",
+      "attempts_this_pass": 1,
+      "result": "URL not accessible via retrieval tool",
+      "status_inferred_from_failure": false
+    }
+  ],
+  "unresolved_legal_fields": {
+    "construction_of_broad_aryl_definition_at_unlabelled_B_positions": null,
+    "current_official_national_claim_scope": null,
+    "present_enforceability": null,
+    "complete_chain_of_title": null,
+    "license_availability": null,
+    "exact_BLU_origin_composition_family": null,
+    "freedom_to_operate": null
+  },
+  "decision": {
+    "retain_affirmative_human_muscle_qualification": true,
+    "planning_points": 55,
+    "allocation_changed": false,
+    "standalone_asset_cleared": false,
+    "exact47_comparator_priority_changed": false,
+    "new_efficacy_or_exposure_result": false,
+    "scope": "One published family and selected national text features; a literal structural result is not a territorial rights conclusion."
+  },
+  "scope_closed": true,
+  "reopen_for": [
+    "Materially changed original national claim drawing",
+    "Accessible amendment or prosecution statement addressing ring-B substitution",
+    "Authoritative interpretation resolving the specified claim-construction ambiguity",
+    "Newly identified exact BLU-origin composition family, treated as a separately scoped source"
+  ],
+  "not_audited": [
+    "Exhaustive original-BLU family discovery",
+    "Full precursor-family claim mapping",
+    "All national territories",
+    "Equivalents, validity and patentability",
+    "Complete ownership or licensing landscape"
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

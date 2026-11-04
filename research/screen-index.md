@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 11](rounds/round11/README.md) audits existing zinc/GNAO1 and taurine/SLC6A6 records. No new screen is added. Zinc’s missing-data method is resolved; exact general paired endpoint counts and the SLC6A6 abstract’s clinical content remain unavailable. Earlier tables remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 12](rounds/round12/README.md) audits the existing BLU3797 program’s exact mapping to one published patent family. No new screen is added. The explicit structural mismatch and broader-definition ambiguity remain separate; no commercial clearance or allocation change is inferred. Zinc and SLC6A6 retrieval lanes remain closed. Earlier tables remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -307,3 +307,11 @@ Archive phase `2026-11-03-human-repair-opportunities`. 6 screen records.
 | [R10-NL-01 — taurine / SLC6A6](rounds/round11/slc6a6-two-brother-audit.md) | Verified abstract identity and explicit linkage boundary with the earlier A78E family | Abstract body, exact treated genotype/outcomes and cross-report overlap remain unresolved; three directly extracted treated people retained |
 
 Both retain clinical-research reserve status, independent asset holds and zero dedicated planning points. No new exact-use or molecule count is added.
+
+## Round 12 existing-program audit
+
+| Existing program | Completed work | Remaining limit |
+|---|---|---|
+| [BLU3797 / MTM1 XLMTM](rounds/round12/blu-claim-structure-audit.md) | Original-drawing and explicit-variable mapping across the published claim branches, including alternative orientations and the actual isoindolinone embodiment | Broad aryl-definition construction, current national prosecution scope, exact-origin family, ownership and commercial clearance remain unresolved |
+
+Retain the leading qualification project and 55 planning points. No new molecule, exact-use screen, biological result or proprietary asset is counted.

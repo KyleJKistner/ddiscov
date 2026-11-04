@@ -15,6 +15,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 9](round9/README.md)** | Verified Round 8 recovery and bounded research continuation | Two new exact uses, four existing candidates reviewed, explicit BLU interpretation amendments and independent review. All 622 original records and Round 8 files retained. No S-tier promotion. |
 | **[Round 10](round10/README.md)** | Exact exposure and clinical-evidence sprint | Two new exact uses; five existing-use reviews; AGI-17011 correction, preserved source conflicts, four independent reviews and a complete publication manifest. Allocation unchanged; no S-tier promotion. |
 | **[Round 11](round11/README.md)** | Bounded zinc endpoint and SLC6A6 abstract audit | Two existing-use updates, no new screens. Missing-data method resolved; paired-count and abstract-content limits retained. Two independent reviews; allocation unchanged. |
+| **[Round 12](round12/README.md)** | BLU exact-structure mapping to published claims | One existing leader; explicit 7-ether/R8 mapping issue, broader-definition ambiguity and national-status limits. Two independent reviews; allocation unchanged. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -73,3 +74,11 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [SLC6A6 abstract and case-lineage audit](round11/slc6a6-two-brother-audit.md)
 - [Integration review](round11/integration-review.md)
 - [Publication manifest](round11/artifact-manifest.json)
+
+## Round 12
+
+- [Complete bounded sprint](round12/README.md)
+- [BLU chemical claim mapping](round12/blu-claim-structure-audit.md)
+- [Publication scope and national-branch limits](round12/publication-scope-and-status.md)
+- [Integration review](round12/integration-review.md)
+- [Publication manifest](round12/artifact-manifest.json)

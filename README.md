@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 11.** This bounded sprint revisits two existing reserves. The full zinc/GNAO1 pilot now resolves its available-case and complete-pair analysis rule, but endpoint-specific paired counts remain unavailable without the supplementary data. The SLC6A6 two-brother abstract remains bibliographically verified and clinically unresolved. No new screen, unique treated person, efficacy claim or allocation increase is added. The 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. Earlier research packages are preserved; Round 10 is published at `a66f2462541893b4dfb88b4f9aaa0d7863c204a8`.
+**Status: 4 November 2026, after Round 12.** The bounded sprint resolves a specific part of BLU3797's published-claim question: its 7-ether has no explicit substituent handle in the audited WO2025003330A1 Formula 1/2 mapping. The patent does include an isoindolinone core, and its broad aryl definition leaves a material claim-construction ambiguity. This is a structural audit, not commercial clearance. BLU's affirmative qualification recommendation, the 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. Zinc and SLC6A6 retrieval lanes stay closed. Earlier research packages are preserved; Round 11 is published at `823c2be978b2eaa89c0f4796342f949589d5814f`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 12 BLU claim mapping](research/rounds/round12/README.md) | Exact published-formula mapping, counterarguments and national-publication limits. |
 | [Round 11 bounded evidence audit](research/rounds/round11/README.md) | Zinc analysis populations and missing-data method; SLC6A6 abstract retrieval and case-lineage limits. |
 | [Round 10 exposure and clinical evidence](research/rounds/round10/README.md) | Source conflicts, exact exposure limits, current clinical dispositions and two new exact-use screens. |
 | [Round 9 continuation](research/rounds/round9/README.md) | Verified recovery, new evidence, two exact-use screens and explicit qualification amendments. |
@@ -46,3 +47,7 @@ Two new exact uses are taurine/SLC6A6 deficiency and zinc acetate dihydrate/GNAO
 ## Round 11 accounting
 
 Two existing uses were reviewed: zinc acetate dihydrate/GNAO1 (`R10-NL-02`) and taurine/SLC6A6 (`R10-NL-01`). No new exact-use screen or molecule is counted. A recovered analysis method does not fill an unreported paired denominator, and a verified abstract citation does not add two unique treatment outcomes. See the [bounded sprint record](research/rounds/round11/README.md).
+
+## Round 12 accounting
+
+One existing leading program was reviewed: BLU3797/XLMTM. No new exact-use screen, compound, clinical result or allocation change is counted. A fully specified chemical mapping question is distinct from an unresolved legal construction, and neither establishes an owned asset. See the [bounded sprint record](research/rounds/round12/README.md).
