@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 8](rounds/round8/README.md) develops BLU qualification and challenges the leading clinical programs. Its [six-record screen](rounds/round8/new_candidates.md) contains four new exact uses (one concept expansion) and two existing-use updates. The tables below remain the original archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 9](rounds/round9/README.md) adds two exact-use screens—miglustat/SCARB2-AMRF and GSK2193874/TRPV4 neuromuscular disease—and reviews four existing candidate dossiers. The controlled KCNMA1 mouse study is an existing-use update. The [Round 8 six-record screen](rounds/round8/new_candidates.md) remains unchanged. The tables below are the original archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -278,3 +278,12 @@ Archive phase `2026-11-03-human-repair-opportunities`. 6 screen records.
 | Taurine-supplemented cold-stored platelets and clot formation | `TAURINE_COLD_PLATELETS` |
 | Axcella RCitNac formulation and sickle-cell rheology | `AXCELLA_RCITNAC_SICKLE` |
 | Glibenclamide and lymphatic pumping in Cantú syndrome | `CANTU_GLIBENCLAMIDE_LYMPH` |
+
+## Round 9 exact-use screens
+
+| Record | Decision |
+|---|---|
+| [R9-NL-01 — miglustat / SCARB2-AMRF](rounds/round9/new-candidate-screen.md) | Conditional clinical-research reserve; mixed functional outcomes and renal/weight-loss constraints; not a complete treated census |
+| [R9-NL-02 — GSK2193874 / TRPV4 neuromuscular disease](rounds/round9/new-candidate-screen.md) | Preclinical benchmark; independent asset hold pending a differentiated contribution; distinct probes and clinical program retained |
+
+[Alias audit](rounds/round9/candidate-alias-audit.json) · [Existing KCNMA1 evidence update](rounds/round9/lisdexamfetamine-evidence-update.md)

@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "round": 9,
+  "as_of": "2026-11-04",
+  "date_basis": "Declared session date; not a claimed new publication date or an independently timestamped access date.",
+  "scope": "Bounded desk research; no contact, purchases, experiments, publication or git actions by this workstream.",
+  "baseline": {
+    "repository": "/workspace/scratch/b5b981e77bc5/ddiscov_round8",
+    "files": [
+      "research/rounds/round8/blu_model_function.md",
+      "research/rounds/round8/blu3797-qualification-package.md"
+    ],
+    "preserved": true
+  },
+  "decision": {
+    "candidate": "BLU3797",
+    "disposition": "Retain leading bounded qualification priority and affirmative Round8 first-proof recommendation.",
+    "ranking_change": false,
+    "blanket_development_hold": false,
+    "advance_stop_rule_change": false,
+    "new_emphasis": "Exact line, protocol, maturity and phenotype provenance before transferring sensitivity claims.",
+    "credible_positive_requires_completed_delayed_rescue_control": false,
+    "negative_reversal_interpretation_requires_post_deficit_modifiability": true,
+    "public_human_force_efficacy_established": false,
+    "experimentation_authorized_or_executed_this_round": false,
+    "planning_points": 55,
+    "planning_points_total": 100
+  },
+  "new_primary_evidence": [
+    {
+      "id": "E9-M01",
+      "source_id": "S01",
+      "year": 2024,
+      "abstract": "P345",
+      "printed_page": 455,
+      "pdf_page_zero_indexed": 454,
+      "evidence_level": "Primary conference abstract, not full methods/data article.",
+      "observations": [
+        "Transgene-free XLMTM iPSC myogenic potential showed no reported control difference.",
+        "Additional immortalized-myoblast 3D muscles had reduced diameter.",
+        "Electrical calcium release showed no significant difference despite abnormal RyR protein levels."
+      ],
+      "genotypes": null,
+      "donor_n": null,
+      "clone_n": null,
+      "batch_n": null,
+      "tissue_n": null,
+      "maturity_day": null,
+      "numeric_force_effect": null,
+      "confidence_interval": null,
+      "drug_test": false,
+      "delayed_force_rescue_reported": false,
+      "negative_observation_is_negative_pharmacology": false,
+      "matched_to_2026_abstract_models": null,
+      "interpretation": "Nonsignificance does not establish equivalence; unmatched model reports cannot establish a longitudinal change or contradiction."
+    }
+  ],
+  "model_claims": {
+    "curi_cb_skm_xlmtm": {
+      "provenance": "Round8 manufacturer review carried forward",
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "sex": "male",
+      "cell_source": "fibroblast-derived",
+      "gene": "MTM1",
+      "hgvs_c": "c.1388T>C",
+      "hgvs_p": "p.L463S",
+      "exon": 12,
+      "residual_activity": null,
+      "mtm1_protein_abundance": null,
+      "native_pi3p": null,
+      "donor_age": null,
+      "clinical_severity": null,
+      "force_evidence": "Manufacturer twitch/fatigue plots and separate 96-well force series, including day-27 traces.",
+      "day_origin_verified": false,
+      "adult_maturity_verified": false,
+      "independent_replication_verified": false,
+      "graph_control_identity": null,
+      "donor_n": null,
+      "clone_n": null,
+      "batch_n": null,
+      "tissue_n": null,
+      "error_bar_definition": null,
+      "repeatability": null,
+      "variance_for_power": null,
+      "delayed_functional_modifiability_verified": false,
+      "missense_implies_known_hypomorph": false
+    },
+    "proposed_cb_skm_6_wt_reference": {
+      "source_ids": [
+        "S03"
+      ],
+      "sex": "male",
+      "cell_source": "cord-blood-derived",
+      "isogenic_to_patient": false,
+      "identity_as_manufacturer_plot_control_verified": false,
+      "role": "Contemporaneous reference gap and nonspecific treatment comparison; not genetically established rescue fraction."
+    }
+  },
+  "alternatives": [
+    {
+      "id": "Lionello2026",
+      "source_ids": [
+        "S02"
+      ],
+      "best_supported_axis": "Independent human 3D contractile impairment precedent",
+      "genotypes": null,
+      "donor_n": null,
+      "numeric_force": null,
+      "corrected_force_rescue_verified": false,
+      "fiber_size_correction_reported": true,
+      "available_qualified_stock_verified": false,
+      "identity_with_2024_models_verified": false
+    },
+    {
+      "id": "Kora_CiRA00496",
+      "source_ids": [
+        "S05"
+      ],
+      "best_supported_axis": "Patient/corrected isogenic cellular mechanism",
+      "sex": "male",
+      "variant": "NM_000252.3:c.142G>T; p.E48*",
+      "differentiation": "Tet-inducible MyoD",
+      "mature_force_qualified": false,
+      "delayed_force_rescue_verified": false,
+      "stock_route_verified": false,
+      "online_publication_date": "2025-07-29",
+      "issue_year": 2026,
+      "issue_is_independent_replication": false
+    },
+    {
+      "id": "Kora_CiRA00656",
+      "source_ids": [
+        "S05"
+      ],
+      "best_supported_axis": "Healthy male/MTM1-KO cellular causal pair",
+      "mature_force_qualified": false
+    },
+    {
+      "id": "CRICKi008-A_iFCI006",
+      "source_ids": [
+        "S06"
+      ],
+      "variant": "c.594C>G; p.Tyr198*",
+      "best_supported_axis": "Distinct severe-XLMTM iPSC resource",
+      "mature_force_qualified": false,
+      "corrected_stock_verified": false,
+      "identity_with_2026_abstract_verified": false
+    },
+    {
+      "id": "GM06813",
+      "source_ids": [
+        "S07"
+      ],
+      "best_supported_axis": "Fibroblast reconstruction fallback",
+      "legacy_variant": "646delT and C>A at 648",
+      "allele_normalization_required": true,
+      "assay_ready_force_model": false
+    }
+  ],
+  "native_timing": {
+    "source_ids": [
+      "S09",
+      "S10"
+    ],
+    "new_evidence_this_round": false,
+    "supported_inference": "Ongoing muscle maintenance supports asking a post-deficit functional question.",
+    "unsupported_inference": "Mouse timing cannot assign human culture maturity, L463S residual function or a reversible culture window."
+  },
+  "proposed_design_carried_forward": {
+    "status": "Planning only, not performed or newly authorized",
+    "qualification": {
+      "batches": 3,
+      "backgrounds": 2,
+      "tissues_per_background_per_batch": 4,
+      "total_tissues": 24
+    },
+    "conditional_exploration": {
+      "new_batches": 3,
+      "backgrounds": 2,
+      "arms": 4,
+      "tissues_per_arm_per_background_per_batch": 4,
+      "total_tissues": 96,
+      "tissues_per_background_arm_across_batches": 12
+    },
+    "patient_donors": 1,
+    "reference_donors": 1,
+    "power_established": false,
+    "required_denominators": [
+      "donor",
+      "line",
+      "clone",
+      "differentiation lot",
+      "casting batch",
+      "plate",
+      "cast tissue",
+      "eligible tissue",
+      "randomized tissue",
+      "endpoint-evaluable tissue",
+      "serial reading"
+    ],
+    "post_randomization_loss_can_be_drug_outcome": true,
+    "repeated_twitches_are_independent_donors": false
+  },
+  "interpretation_rules": [
+    {
+      "case": "credible randomized positive",
+      "action": "Independent confirmation may proceed conceptually without requiring completion of every delayed-control program."
+    },
+    {
+      "case": "imprecise or underexposed inactivity",
+      "action": "Inconclusive; redirect exposure or precision question."
+    },
+    {
+      "case": "unreliable deficit or dynamic range",
+      "action": "Model-readiness failure, not target rejection."
+    },
+    {
+      "case": "precise adequately perturbed negative in modifiable post-deficit tissue",
+      "action": "Apply existing article/background/window-specific futility rule; broader target rejection requires orthogonal evidence and another qualified disease background."
+    }
+  ],
+  "negative_evidence_and_ceiling": {
+    "no_new_evidence_found_for": [
+      "exact p.L463S residual function",
+      "donor clinical history",
+      "manufacturer graph control identity",
+      "usable force denominator or variance",
+      "adult muscle maturity",
+      "delayed human force rescue",
+      "qualified available alternative",
+      "BLU3797 human force efficacy"
+    ],
+    "absence_claim_scope": "Not recovered in this bounded review; not proof of nonexistence.",
+    "access_gaps": [
+      {
+        "source_id": "S05",
+        "gap": "Current full-text open failed after publisher redirection; prior detailed Round8 extraction retained."
+      },
+      {
+        "source_id": "S06",
+        "gap": "Current repository PDF and registry routes did not yield a fresh complete read."
+      },
+      {
+        "source_id": "S08",
+        "gap": "Verification barrier; no clinical classification or residual function admitted."
+      }
+    ],
+    "search_ceiling_reached_for_this_round": true,
+    "further_search_performed_after_parent_stop_request": false
+  },
+  "proposed_documentary_gates": [
+    "Record exact allele, donor/clone, derivation and differentiation protocol for each phenotype.",
+    "Record culture-day origin, maturity evidence, stimulus and endpoint before importing another report’s sensitivity claim.",
+    "Preserve all denominators and uncertainty; distinguish nonsignificance from equivalence.",
+    "Retain adequate exposure, precision, force dynamic range and delayed modifiability requirements for a qualified reversal-negative claim."
+  ],
+  "next_action": {
+    "current_authorization": "Integrate bounded delta and source boundaries into Round9; retain BLU3797 priority at 55/100 planning points; close this search lane this round.",
+    "future_desk_research_trigger": "New public full report, supplement or exact-line dataset resolving a named gate.",
+    "outreach": false,
+    "procurement": false,
+    "experiments": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Myology 2024 P345",
+      "url": "https://myology2024.org/images/client/1627/files/pdfviewer/pdfviewer_36692/abstract_book_final___myology_2024.pdf",
+      "source_type": "primary_conference_abstract",
+      "retrieval_status": "current_round_read",
+      "web_refs": [
+        "turn56view0",
+        "turn38view0",
+        "turn52view0",
+        "turn52view1"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Lionello/Tedesco 2026 abstract 067",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142835/",
+      "source_type": "primary_conference_abstract",
+      "retrieval_status": "round8_extraction_carried_forward",
+      "web_refs": []
+    },
+    {
+      "id": "S03",
+      "title": "Curi catalog",
+      "url": "https://www.curibio.com/cell-media-models-overview",
+      "source_type": "manufacturer_catalog",
+      "retrieval_status": "round8_review_carried_forward",
+      "web_refs": []
+    },
+    {
+      "id": "S04",
+      "title": "Curi XLMTM model",
+      "url": "https://www.curibio.com/xlmtm-model",
+      "source_type": "manufacturer_model_page",
+      "retrieval_status": "round8_review_carried_forward",
+      "web_refs": []
+    },
+    {
+      "id": "S05",
+      "title": "Kora Brain DOI 10.1093/brain/awaf278",
+      "url": "https://academic.oup.com/brain/article/149/1/317/8217423",
+      "source_type": "primary_research_article",
+      "retrieval_status": "current_metadata_only_detailed_round8_extraction",
+      "web_refs": [
+        "turn13search0",
+        "turn13search1",
+        "turn29view0"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Devito DOI 10.1016/j.scr.2023.103079",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10168055/",
+      "source_type": "primary_cell_resource_article",
+      "retrieval_status": "round8_extraction_carried_forward_current_access_failed",
+      "web_refs": []
+    },
+    {
+      "id": "S07",
+      "title": "Coriell GM06813",
+      "url": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM06813",
+      "source_type": "cell_repository_catalog",
+      "retrieval_status": "round8_review_carried_forward",
+      "web_refs": []
+    },
+    {
+      "id": "S08",
+      "title": "ClinVar exact variant route",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000146408/",
+      "source_type": "primary_database",
+      "retrieval_status": "current_access_barrier_no_evidence_admitted",
+      "web_refs": [
+        "turn37view0"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "Myotubularin maintenance paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC524320/",
+      "source_type": "primary_research_article",
+      "retrieval_status": "earlier_round_evidence_current_search_metadata",
+      "web_refs": [
+        "turn39search0"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "Adult MTM1 deletion DOI 10.1093/hmg/ddt038",
+      "url": "https://academic.oup.com/hmg/article-abstract/22/9/1856/621976",
+      "source_type": "primary_research_article",
+      "retrieval_status": "earlier_round_evidence_carried_forward",
+      "web_refs": []
+    }
+  ]
+}

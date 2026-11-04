@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "round": 9,
+  "as_of": "2026-11-04",
+  "review_type": "finite independent identity, genotype, denominator, evidence-transfer and counting review",
+  "reviewer": "audit_round8 independent agent",
+  "base_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "status": "pass",
+  "status_scope": "Pass for the four versioned drafts and the bounded checks listed here; not a new systematic review or independent reanalysis of all primary observations.",
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/57759abf62eb/round9_work/new-candidate-screen.md",
+      "bytes": 12543,
+      "sha256": "9a2ab78967c044279b41e85a61850c0bd8ea6b1d9c357a0fb6bbea9668b9c96a"
+    },
+    {
+      "path": "/workspace/scratch/57759abf62eb/round9_work/new-candidate-screen.json",
+      "bytes": 8816,
+      "sha256": "d6414a3770bad2aa90e4a14111c95d07fd493c5d4a77100941e497726e0c01f4"
+    },
+    {
+      "path": "/workspace/scratch/57759abf62eb/round9_work/lisdexamfetamine-evidence-update.md",
+      "bytes": 6611,
+      "sha256": "6ccb369811c4336db2bb45f24919729238dc84953a185297d0d2e8674ab2aed8"
+    },
+    {
+      "path": "/workspace/scratch/57759abf62eb/round9_work/lisdexamfetamine-evidence-update.json",
+      "bytes": 3223,
+      "sha256": "13caa9fe324c0c0b39a9e342da4efef3c07cf726608228f4ecbae00c06c3400c"
+    }
+  ],
+  "issues": [],
+  "issue_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "proposed_changes": [],
+  "checks": [
+    {
+      "id": "ACCOUNTING-01",
+      "result": "pass",
+      "finding": "Two new exact intervention-use screens are represented by R9-NL-01 and R9-NL-02. Existing R8-NL-02 is an evidence update. Comparators, the structural resource and the unsupported ambroxol search do not add candidates.",
+      "independent_verification": "Literal searches of the recovered Round 8 tree found no SCARB2, AMRF, GSK2193874, GSK219, TRPV4 or R269C hit. Miglustat was already present for other uses. This supports exact-use novelty within the reviewed repository, not global novelty.",
+      "new_exact_use_screens": 2,
+      "new_molecule_claims": 0,
+      "existing_candidate_updates": 1,
+      "comparator_extra_candidates": 0
+    },
+    {
+      "id": "IDENTITY-01",
+      "result": "pass",
+      "finding": "GSK2193874, GSK2798745 and ABS-0872 remain separate articles; ABS-0871/STAR-0871 is described only as a sponsor-reported rename. Human PK/tolerability and the lung-challenge negative are not transferred to the mouse probe as exact-article evidence."
+    },
+    {
+      "id": "GENOTYPE-01",
+      "result": "pass",
+      "finding": "The TRPV4 model is explicitly homozygous R269C/R269C with limited motor-neuron soma loss at treatment initiation. The LDX update identifies heterozygous Kcnma1 N999S/WT mice, distinguishes dextroamphetamine sulfate from oral lisdexamfetamine, and does not pool other human KCNMA1 variants."
+    },
+    {
+      "id": "DENOMINATOR-01",
+      "result": "pass",
+      "finding": "Miglustat accounting is 1 + 1 + 2 individuals across three reports. The two negative cases share a family. Four reviewed treated individuals are not presented as a full treated population or a response-rate denominator.",
+      "targeted_primary_check": "Atasu identifies treated relatives II.8 and II.12, both stopping after worse myoclonus/ataxia. It reports the segregating homozygous c.134delA/p.N45MfsX88 variant.",
+      "source_url": "https://link.springer.com/article/10.1186/s12883-022-02628-y",
+      "source_refs": [
+        "turn60view1",
+        "turn61view2"
+      ]
+    },
+    {
+      "id": "DENOMINATOR-02",
+      "result": "pass",
+      "finding": "Park Figure 5C confirms mutant saline n=7, mutant drug n=6, WT saline n=7 and WT drug n=7, with adjusted p=0.0053 for mutant saline versus drug. Automated scoring reuses the behavioral experiment; it is not an additional biological cohort.",
+      "source_url": "https://elifesciences.org/articles/77953",
+      "source_refs": [
+        "turn60view0",
+        "turn61view0",
+        "turn61view1"
+      ]
+    },
+    {
+      "id": "DENOMINATOR-03",
+      "result": "pass",
+      "finding": "TRPV4 motor caption ranges, three-mouse histology cohorts and missing arm-specific survival counts are distinguished. Sections are not counted as animals. Separate human studies distinguish total enrollment from dosed/completed counts."
+    },
+    {
+      "id": "TRANSFER-01",
+      "result": "pass",
+      "finding": "The LDX update preserves responder-selection bias in the six human cases, treats the mouse result as pharmacological triangulation rather than independent human replication, and does not infer chronic neurodevelopmental benefit or direct BK inhibition. The structural resource is not promoted to a selective therapeutic article."
+    },
+    {
+      "id": "TRANSFER-02",
+      "result": "pass",
+      "finding": "Miglustat blood biomarkers do not become brain target engagement or renal repair. Case improvement does not establish a genotype responder classifier. TRPV4 post-symptom rescue does not become regeneration after extensive neuron loss or established human functional benefit."
+    },
+    {
+      "id": "COMMERCIAL-01",
+      "result": "pass",
+      "finding": "The October 2026 sponsor announcement remains attributed, the 2027 trial remains planned, and $90 million is company financing rather than a program budget. No access rights or efficacy are inferred."
+    },
+    {
+      "id": "CONSISTENCY-01",
+      "result": "pass",
+      "finding": "Each Markdown report and its JSON agree on candidate identities, dispositions, counts, qualifications and allocations. LDX remains six planning points; new screening fits the existing five-point discovery allocation. The reports do not require a change to the 100-point portfolio total."
+    }
+  ],
+  "recommendation": "Accept the reviewed drafts without factual amendments on this bounded pass. Preserve their explicit limits on genotype transfer, incomplete denominators, exact-article identity and sponsor evidence during integration.",
+  "limitations": [
+    "This pass independently reopened two primary papers for the most consequential denominator and familial-negative checks; it did not repeat the root investigator's entire literature retrieval.",
+    "Literal repository absence is not exhaustive synonym resolution or proof of global novelty.",
+    "No primary patient-level dataset, independent clinical video scoring, raw mouse measurements or complete treated-patient census was reconstructed.",
+    "Claimed source-access levels, unpublished commercial rights and historical product lots were not independently established; the drafts retain those limits."
+  ],
+  "activities": {
+    "reviewed_files_edited": false,
+    "contact": false,
+    "purchases": false,
+    "experiments": false,
+    "git_operations": false
+  }
+}

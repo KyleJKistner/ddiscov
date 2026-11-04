@@ -1,0 +1,172 @@
+{
+  "schema_version": "ddiscov.round9.independent_qualification_review.v1",
+  "as_of": "2026-11-04",
+  "reviewer": "round9_clinical independent cross-workstream reviewer",
+  "review_type": "one bounded documentary and static-code pass",
+  "baseline_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "input_snapshot": "Final staged working copies supplied by root; review applies only to SHA256 hashes below.",
+  "scope": [
+    "Qualification amendment interpretations, including all six final entries.",
+    "BLU safety and model Markdown/JSON consistency with the preserved Round8 qualification rules.",
+    "Static inspection of the unchanged decision utility to assess algorithmic-enforcement claims."
+  ],
+  "inputs": [
+    {
+      "path": "research/rounds/round9/qualification-amendments.json",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round9/qualification-amendments.json",
+      "sha256": "1e0fe3d4b570e7fb3e4c20a486a6678a19a344bdb4050ecc3efd08e9456ed30e",
+      "bytes": 4126,
+      "reviewed": true,
+      "json_parses": true
+    },
+    {
+      "path": "research/rounds/round9/blu-target-safety-update.md",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round9/blu-target-safety-update.md",
+      "sha256": "68c7716d54509470d64ce56c08c95af34b6d4c130b0d52b0b050fc5a7387a947",
+      "bytes": 19312,
+      "reviewed": true
+    },
+    {
+      "path": "research/rounds/round9/blu-target-safety-update.json",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round9/blu-target-safety-update.json",
+      "sha256": "6d2065aeb7571d0bc3d9d90f4c2faf615dd74a6548c5ffcda2387c69539b8c8f",
+      "bytes": 23055,
+      "reviewed": true,
+      "json_parses": true
+    },
+    {
+      "path": "research/rounds/round9/blu-model-new-evidence.md",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round9/blu-model-new-evidence.md",
+      "sha256": "ce05fd8cb3d91301a3725b1fe49b1f825bd89ecef2dd83d6bbd403417553e495",
+      "bytes": 16952,
+      "reviewed": true
+    },
+    {
+      "path": "research/rounds/round9/blu-model-new-evidence.json",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round9/blu-model-new-evidence.json",
+      "sha256": "c8a1160e2ee57f9d7b288b8a332e647715ce589cb12a4a17fc7bbc2e8ed07af4",
+      "bytes": 12971,
+      "reviewed": true,
+      "json_parses": true
+    },
+    {
+      "path": "research/rounds/round8/blu3797-qualification-package.md",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round8/blu3797-qualification-package.md",
+      "sha256": "5f3c0df42af3153f64cf7f16aa6603c667b8620686f9184a1c602bfb0e121845",
+      "bytes": 30396,
+      "reviewed": true,
+      "matches_recovered_round8_copy": true
+    },
+    {
+      "path": "research/rounds/round8/blu3797-qualification-spec.json",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/research/rounds/round8/blu3797-qualification-spec.json",
+      "sha256": "c8c4008095830104c4815665dc675197ed7264754b338854f2770ec1b43734ae",
+      "bytes": 7032,
+      "reviewed": true,
+      "json_parses": true,
+      "matches_recovered_round8_copy": true
+    },
+    {
+      "path": "methods/blu3797_qualification_decisions.py",
+      "absolute_path": "/workspace/scratch/57759abf62eb/ddiscov/methods/blu3797_qualification_decisions.py",
+      "sha256": "e943c7818017f77db711d0c84cbe392389c8eaaad4cd2913091aa5b482615fc0",
+      "bytes": 18367,
+      "reviewed": true,
+      "matches_recovered_round8_copy": true
+    }
+  ],
+  "amendment_ids": [
+    "G_ALPHA_NONWAIVER",
+    "G_MODEL_SENSITIVITY",
+    "G_PERTURBATION_IDENTITY",
+    "G_NATIVE_PROTEIN",
+    "G_COMPARATOR47",
+    "G_PHENOTYPE_PROVENANCE"
+  ],
+  "overall_result": "pass_with_scope_limits",
+  "blocking_issues": [],
+  "nonblocking_issues": [],
+  "checks": [
+    {
+      "id": "genetic_severity_not_drug_threshold",
+      "status": "pass",
+      "evidence_locations": [
+        "blu-target-safety-update.json#/posor_main",
+        "blu-target-safety-update.json#/unchanged_numeric_rules",
+        "qualification-amendments.json#/numeric_threshold_changes",
+        "blu-target-safety-update.md sections 2 and 4"
+      ],
+      "finding": "Near-complete persistent genetic C2alpha inactivation is explicitly distinguished from reversible drug exposure. The 2.7% activity observation is not converted into BLU occupancy, safe inhibition, duration or a human dose.",
+      "boundary": "The retained 20% antitarget objective remains a prospective interpretation target, not a demonstrated safety threshold; no numerical rule changed."
+    },
+    {
+      "id": "protein_loss_not_catalytic_drug_harm",
+      "status": "pass",
+      "evidence_locations": [
+        "qualification-amendments.json#/amendments/G_PERTURBATION_IDENTITY",
+        "qualification-amendments.json#/amendments/G_NATIVE_PROTEIN",
+        "blu-target-safety-update.json#/manupati_main",
+        "blu-target-safety-update.md section 3"
+      ],
+      "finding": "The tumor deletion and kinase-defective add-back findings remain tissue- and perturbation-specific. Neither BLU cancer harm nor protection is inferred. Stable total protein is not claimed to establish preserved scaffolding.",
+      "boundary": "The endothelial catalytic-inactivation observation is retained separately; the tumor result does not dismiss it."
+    },
+    {
+      "id": "credible_first_positive_not_obstructed",
+      "status": "pass",
+      "evidence_locations": [
+        "qualification-amendments.json#/interpretation_limits",
+        "qualification-amendments.json#/amendments/G_PHENOTYPE_PROVENANCE",
+        "blu-model-new-evidence.json#/decision",
+        "blu-model-new-evidence.md sections 1, 4 and 5",
+        "round8/blu3797-qualification-spec.json#/positive_inference_rule"
+      ],
+      "finding": "The amendments expressly preserve recognition and independent confirmation of a credible first force signal without a completed delayed-rescue-control program, fully qualified comparator, or new systemic safety battery.",
+      "boundary": "Exposure, precision, model qualification and functional-liability interpretation remain required within their original scope. Delayed modifiability and orthogonal support constrain strong negative/target conclusions, not recognition of a credible positive."
+    },
+    {
+      "id": "no_fictitious_algorithmic_enforcement",
+      "status": "pass",
+      "evidence_locations": [
+        "qualification-amendments.json#/scope",
+        "qualification-amendments.json#/implementation",
+        "methods/blu3797_qualification_decisions.py classify and input field declarations"
+      ],
+      "finding": "The amendment file labels all added conditions as manual scientific interpretation and explicitly states that the preserved utility does not automatically enforce them. Static code inspection is consistent: the utility accepts documented flags and numerical summaries and does not ingest or evaluate these six new contextual conditions.",
+      "boundary": "A software advance is neither scientific certification nor proof that manual conditions were met; no new code enforcement, execution test or biological result is claimed by this review."
+    },
+    {
+      "id": "model_nonsignificance_not_pharmacological_failure",
+      "status": "pass",
+      "evidence_locations": [
+        "blu-model-new-evidence.json#/new_primary_evidence/0",
+        "blu-model-new-evidence.json#/model_claims",
+        "qualification-amendments.json#/amendments/G_PHENOTYPE_PROVENANCE"
+      ],
+      "finding": "The 2024 abstract has no BLU test or audited force-response denominator. Nonsignificant calcium differences do not establish equivalence; unmatched 2024 and 2026 reports are not treated as one longitudinal model lineage.",
+      "boundary": "Missing exact-line residual function, maturity, variance, control identity and delayed force rescue remain explicit unknowns."
+    },
+    {
+      "id": "snapshot_integrity_and_baseline_preservation",
+      "status": "pass",
+      "finding": "All reviewed JSON files parse; the safety JSON companion hash matches the staged Markdown. The three reviewed baseline files are byte-identical to the recovered Round8 copies. The final amendment snapshot contains six entries.",
+      "boundary": "This is a file-content review, not verification of a future git commit, branch, complete manifest or any files edited after these hashes."
+    }
+  ],
+  "required_changes": [],
+  "scope_limits": [
+    "No new web search or independent re-extraction of primary figures was performed; this pass challenges translation and decision logic, not every upstream source fact.",
+    "No code was executed to generate synthetic decisions or planning outputs; algorithmic claims were assessed by static inspection.",
+    "No experimental authorization, procurement, outreach, clinical safety clearance, target validation or efficacy certification follows from this pass.",
+    "Any change to the hashed inputs requires review proportional to that change; this pass does not certify later versions."
+  ],
+  "activity": {
+    "new_searches": false,
+    "experiments": false,
+    "purchases": false,
+    "outreach": false,
+    "source_files_modified": false,
+    "git_mutation": false
+  },
+  "recommendation": "Integrate the six manual interpretation amendments with the preserved Round8 specification. Keep the first-proof recommendation and distinguish manual scientific review from numerical utility output."
+}

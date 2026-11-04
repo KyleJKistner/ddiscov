@@ -1,0 +1,72 @@
+{
+  "schema_version": "ddiscov.round9.qualification_amendments.v1",
+  "as_of": "2026-11-04",
+  "base_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "applies_to": [
+    "research/rounds/round8/blu3797-qualification-package.md",
+    "research/rounds/round8/blu3797-qualification-spec.json"
+  ],
+  "scope": "Manual scientific interpretation requirements supplement the unchanged Round8 numerical specification. The existing decision utility does not automatically enforce these additional contextual conditions.",
+  "implementation": "A numerical advance from the preserved utility is necessary only within its original scope and is not a substitute for the manual evidence interpretation recorded here.",
+  "numeric_threshold_changes": [],
+  "human_dose_recommendations": [],
+  "experiments_conducted": false,
+  "experiments_authorized": false,
+  "amendments": [
+    {
+      "id": "G_ALPHA_NONWAIVER",
+      "change": "Add explicit unresolved C2α stress-context field.",
+      "decision": "Normal baseline viability/morphology or aggregate kinome score does not waive the selectivity bridge.",
+      "numeric_threshold_change": false,
+      "source_scope": "research/rounds/round9/blu-target-safety-update.json",
+      "observed_new_blu_result": false
+    },
+    {
+      "id": "G_MODEL_SENSITIVITY",
+      "change": "Annotate whether a negative vascular assay is capable of detecting the relevant perturbation.",
+      "decision": "Unqualified negative remains inconclusive, with no systemic clearance inference.",
+      "new_experiment_instruction": false,
+      "source_scope": "research/rounds/round9/blu-target-safety-update.json",
+      "observed_new_blu_result": false
+    },
+    {
+      "id": "G_PERTURBATION_IDENTITY",
+      "change": "Record allele/construct, timing, tissue, protein abundance, catalysis versus depletion.",
+      "decision": "Do not pool protein-loss and catalytic-inactivation consequences as the same drug evidence.",
+      "source_scope": "research/rounds/round9/blu-target-safety-update.json",
+      "observed_new_blu_result": false
+    },
+    {
+      "id": "G_NATIVE_PROTEIN",
+      "change": "Retain existing unheated/total-protein control.",
+      "decision": "A target-abundance decrease is separate from thermal engagement; stable abundance alone does not prove intact scaffold function.",
+      "source_scope": "research/rounds/round9/blu-target-safety-update.json",
+      "observed_new_blu_result": false
+    },
+    {
+      "id": "G_COMPARATOR47",
+      "change": "Retain 47 first, subject to its own activity/exposure/selectivity.",
+      "decision": "Do not promote a substitute development article on single-point patent data.",
+      "source_scope": "research/rounds/round9/blu-target-safety-update.json",
+      "observed_new_blu_result": false
+    },
+    {
+      "id": "G_PHENOTYPE_PROVENANCE",
+      "change": "Record exact line, allele, derivation/differentiation protocol, culture-day origin, maturity evidence, stimulus and endpoint before transferring phenotype or negative-result sensitivity.",
+      "decision": "Nonsignificant calcium differences without effect estimates and denominators do not establish equivalence or negative pharmacology; model-specific futility retains the original exposure, precision and delayed-modifiability requirements. A credible positive does not acquire a new delayed-rescue prerequisite.",
+      "source_scope": "research/rounds/round9/blu-model-new-evidence.json",
+      "numeric_threshold_change": false,
+      "new_experiment_instruction": false
+    }
+  ],
+  "source_reference_scopes": [
+    "research/rounds/round9/blu-target-safety-update.json",
+    "research/rounds/round9/blu-model-new-evidence.json"
+  ],
+  "interpretation_limits": [
+    "No observed exact-BLU C2α toxicity or safe occupancy threshold is inferred.",
+    "Genetic catalytic inactivation and protein depletion are not interchangeable drug surrogates.",
+    "No full systemic safety battery is newly required before a bounded first muscle proof.",
+    "Missing exposure, sensitivity, article or functional fields remain unknown, never a favorable result."
+  ]
+}

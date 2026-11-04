@@ -1,0 +1,645 @@
+{
+  "schema_version": "ddiscov.round9.blu_target_safety.v1",
+  "as_of": "2026-11-04",
+  "candidate": "BLU3797 / PIK3C2B inhibition / MTM1 XLMTM",
+  "baseline_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "repository": "KyleJKistner/ddiscov",
+  "branch_at_baseline": "main",
+  "activity": {
+    "public_source_research": true,
+    "retrospective_primary_figure_extraction": true,
+    "experiments_conducted": false,
+    "simulations_conducted": false,
+    "purchases": false,
+    "outreach": false,
+    "round8_files_edited": false,
+    "git_actions_by_this_workstream": false
+  },
+  "recommendation": {
+    "disposition": "retain_bounded_human_muscle_qualification_priority",
+    "rank_change_recommended_by_this_workstream": false,
+    "planning_points_before": 55,
+    "planning_points_after": 55,
+    "planning_points_total": 100,
+    "allocation_is_money_or_experimental_authorization": false,
+    "allocation_condition": "Cross-portfolio opportunity cost may change based on other workstreams; this safety update alone supplies no basis for re-ranking.",
+    "efficacy_upgrade": false,
+    "validated_systemic_safety_window": false,
+    "new_candidate_count": 0,
+    "numeric_threshold_changes": []
+  },
+  "new_deltas": [
+    {
+      "id": "BS09-D1",
+      "source_ids": [
+        "BS09-S02",
+        "BS09-S03"
+      ],
+      "finding": "A primary C2α study demonstrates stress susceptibility despite baseline tolerance, and tested isolated lung endothelial cultures did not reproduce the in-vivo signal.",
+      "decision_change": "Do not waive C2α selectivity/stress-context uncertainty using normal resting viability or an unqualified endothelial negative.",
+      "exact_blu_or_compound47_tested": false
+    },
+    {
+      "id": "BS09-D2",
+      "source_ids": [
+        "BS09-S04"
+      ],
+      "finding": "C2β deletion and kinase-defective add-back separate protein/scaffold effects from catalytic lipid-product effects in the studied tumor context.",
+      "decision_change": "Annotate protein abundance, genetic intervention identity and catalytic effects separately; depletion is not automatically a catalytic-inhibitor safety surrogate.",
+      "exact_blu_or_compound47_tested": false
+    }
+  ],
+  "kobialka_access_ceiling": {
+    "source_id": "BS09-S01",
+    "publication_year_in_round8_correct": true,
+    "assignment_date_conflation_is_not_repository_error": true,
+    "perturbation_supported_by_accessible_abstract": "kinase-inactive C2β mice",
+    "abstract_findings": [
+      "enlarged blood vessels",
+      "increased endothelial size rather than proliferation/migration",
+      "mTORC1 activation",
+      "rapamycin normalized vascular morphogenesis"
+    ],
+    "rapamycin_target": "mTORC1, not C2β",
+    "age": null,
+    "allele_sequence": null,
+    "group_denominators": null,
+    "effect_size": null,
+    "beta_inhibitor_exposure": null,
+    "reason_for_null": "Full primary manuscript and supplement inaccessible. No borrowing from other studies.",
+    "stop_repeating_current_routes": true,
+    "reopen_trigger": "A new accessible primary manuscript, supplement, or dataset that can fill the specific fields."
+  },
+  "posor_main": {
+    "source_id": "BS09-S02",
+    "isoform": "PIK3C2A / C2α",
+    "induction": "adult, approximately 8 weeks; one constitutive D1268A allele plus an inducible flox24-25 allele",
+    "modality": "persistent genetic catalytic inactivation with retained but reduced protein; not pharmacological inhibition",
+    "remaining_total_protein_percent_range": [
+      50,
+      65
+    ],
+    "fibroblast_kinase_activity_percent_WT": {
+      "mean": 2.7,
+      "plus_minus": 0.6,
+      "uncertainty_label": "as reported; not a BLU occupancy threshold"
+    },
+    "recombination_limits": [
+      "partial in lung/heart/kidney",
+      "largely absent in brain"
+    ],
+    "denominators": [
+      {
+        "figure": "3A",
+        "endpoint": "LPS survival",
+        "unit": "mouse",
+        "groups": {
+          "WT_LPS": 7,
+          "flox24-25_D1268A_LPS": 5,
+          "WT_vehicle": 5,
+          "flox24-25_D1268A_vehicle": 3
+        },
+        "LPS_mg_per_kg": 0.5,
+        "inactive_survival_at72h_percent": 0,
+        "logrank_p": 0.0081,
+        "verification": "original figure visually inspected",
+        "interpretation": "Observed near-complete persistent genetic inactivation; not a partial C2α selectivity threshold or BLU exposure response."
+      },
+      {
+        "figure": "3C",
+        "endpoint": "LPS survival",
+        "unit": "mouse",
+        "groups": {
+          "WT": 23,
+          "flox3_heterozygote": 5,
+          "flox3_D1268A": 17
+        },
+        "verification": "original figure visually inspected"
+      },
+      {
+        "figure": "4B",
+        "endpoint": "LPS survival under Tie2-Cre deletion",
+        "unit": "mouse",
+        "groups": {
+          "WT_Tie2_Cre": 6,
+          "flox3_flox3_Tie2_Cre": 13
+        },
+        "verification": "original figure visually inspected",
+        "lineage_limit": "Tie2-Cre also has hematopoietic expression; the study includes other evidence addressing lineage attribution."
+      },
+      {
+        "endpoint": "baseline histopathology",
+        "unit": "mouse",
+        "groups": {
+          "WT_male": 4,
+          "WT_female": 4,
+          "inactive_male": 4,
+          "inactive_female": 4
+        },
+        "scope": "C2α study; cannot fill missing C2β 38-tissue denominator.",
+        "tissue_types_assessed": 25
+      }
+    ],
+    "blinding": "LPS experimenter and histopathology assessment blinded per Methods",
+    "does_not_measure": [
+      "BLU C2α inhibition",
+      "compound47 C2α cellular engagement",
+      "human stress liability",
+      "safe occupancy threshold",
+      "reversible inhibitor recovery"
+    ]
+  },
+  "posor_supplement": {
+    "source_id": "BS09-S03",
+    "denominators": [
+      {
+        "figure": "S2A",
+        "endpoint": "one-year monitoring start",
+        "unit": "mouse",
+        "groups": {
+          "WT": 10,
+          "inactive": 6
+        }
+      },
+      {
+        "figure": "S2B_D_E",
+        "endpoint": "later chemistry and immune panels",
+        "unit": "mouse",
+        "groups": {
+          "WT": 7,
+          "inactive": 6
+        }
+      },
+      {
+        "figure": "S5C",
+        "endpoint": "primary lung endothelial cell death at 72 h",
+        "unit": "donor mouse underlying culture",
+        "groups": {
+          "WT_range": [
+            3,
+            8
+          ],
+          "mutant_range": [
+            4,
+            12
+          ]
+        },
+        "exact_n_by_condition": null,
+        "result": "sensitization not reproduced under tested conditions",
+        "genotype_label_conflict": "The graph and most of the legend use flox3/D1268A; the final denominator sentence says flox24–25/D1268A. Preserved without silent correction.",
+        "replicates_not_equated_to_cell_events": true
+      },
+      {
+        "figure": "S6",
+        "endpoint": "PECAM1/cleaved-caspase3 staining after LPS",
+        "unit": "mouse",
+        "groups": {
+          "WT": 3,
+          "flox3_D1268A": 4
+        },
+        "cells_nested_within_animals": true,
+        "PECAM1_cells_by_tissue_WT_mutant": {
+          "lung": [
+            1511,
+            1494
+          ],
+          "spleen": [
+            860,
+            1426
+          ],
+          "colon": [
+            615,
+            1074
+          ],
+          "liver": [
+            505,
+            761
+          ],
+          "kidney": [
+            1161,
+            1823
+          ],
+          "heart": [
+            527,
+            799
+          ]
+        },
+        "double_positive_cells_observed": 0,
+        "interpretation": "No increased endothelial death directly demonstrated in those sampled tissues/time; cannot infer absence of the whole-organism liability."
+      }
+    ]
+  },
+  "manupati_main": {
+    "source_id": "BS09-S04",
+    "isoform": "PIK3C2B / C2β",
+    "context": "HER2-positive mammary tumor cells and female athymic nude-mouse transplantation",
+    "interventions": [
+      "C2β protein deletion",
+      "WT GFP-C2β re-expression",
+      "authors kinase-defective GFP-C2β re-expression"
+    ],
+    "KD_mutations_as_printed": [
+      "K1058A",
+      "S1077A",
+      "D1170A"
+    ],
+    "not_equated_to_other_alleles": [
+      "mouse D1212A",
+      "human D1213A"
+    ],
+    "finding": "WT and KD both reduce mTORC1 signaling, migration, and invasion after knockout; only WT restores the lipid-product signal. Formal equivalence is not established.",
+    "denominators": [
+      {
+        "figure": "1B_C_D_E",
+        "endpoint": "orthotopic metastatic-lung comparison",
+        "unit": "mouse",
+        "n_per_group": 5
+      },
+      {
+        "figure": "1J_K",
+        "endpoint": "tail-vein metastatic-lung comparison",
+        "unit": "mouse",
+        "n_per_group": 5
+      },
+      {
+        "figure": "4A_B",
+        "endpoint": "Lipid fluorescence after WT/KD add-back",
+        "n": 4,
+        "unit": "not specified sufficiently to label independent donor/animal/biological initiation",
+        "do_not_expand_unit": true
+      },
+      {
+        "figure": "4E_H",
+        "endpoint": "Migration/invasion after WT/KD add-back",
+        "n": 6,
+        "unit": "replicates as captioned; independence not separately established",
+        "do_not_expand_unit": true
+      },
+      {
+        "figure": "Supplementary S4C_D",
+        "endpoint": "WT/KD in-vivo add-back",
+        "n": null,
+        "unit": null,
+        "reason": "Main text describes result; primary supplement was not retrieved."
+      }
+    ],
+    "no_claims": [
+      "BLU cancer causation",
+      "BLU cancer protection",
+      "human cancer incidence",
+      "all tissues are kinase-independent",
+      "protein abundance guarantees preserved scaffold interactions"
+    ]
+  },
+  "selectivity_bridge": [
+    {
+      "article": "BLU3797",
+      "target": "C2β",
+      "measurements": [
+        {
+          "assay": "biochemical",
+          "IC50_nM": 28
+        },
+        {
+          "assay": "engineered NanoBRET",
+          "IC50_nM": 68.2
+        }
+      ],
+      "source_id": "BS09-S05",
+      "status": "carried_forward",
+      "limitations": [
+        "reaction/construct and enzyme floor qualifications",
+        "undisclosed custom tracer calibration",
+        "not native human muscle occupancy"
+      ]
+    },
+    {
+      "article": "BLU3797",
+      "target": "C2α",
+      "cellular_IC50_nM": null,
+      "source_id": "BS09-S05",
+      "status": "absent_from_reported_cellular_panel",
+      "decision_relevance": "new C2α stress evidence makes this unresolved measurement consequential; absence is not proof of inhibition"
+    },
+    {
+      "article": "BLU3797",
+      "target": "VPS34/PIK3C3",
+      "published_NanoBRET_IC50_nM": 14366,
+      "released_source_response": "All zero in previously audited dose-response cells.",
+      "source_id": "BS09-S05",
+      "status": "unreconciled; no refit or invented replacement"
+    },
+    {
+      "article": "exact compound 47",
+      "target": "C2β",
+      "biochemical_IC50_nM": 56,
+      "construct": "Δ1–297, DPK1248–1250→KKT",
+      "ATP_uM": 40,
+      "source_id": "BS09-S06",
+      "status": "carried_forward; not compared quantitatively across unlike BLU assays"
+    },
+    {
+      "article": "exact compound 47",
+      "targets": [
+        "C2α",
+        "VPS34"
+      ],
+      "compound_concentration_uM": 10,
+      "percent_inhibition": [
+        5,
+        -13
+      ],
+      "ATP_condition": "target-specific apparentKm",
+      "source_locator": "Table 5, physical PDF page 131 / printed 130",
+      "source_id": "BS09-S06",
+      "status": "original table visually rechecked",
+      "limitations": [
+        "single-point cell-free results",
+        "no native exposure/engagement qualification",
+        "negative normalized value retained",
+        "no exact IC50 or clinical margin inferred"
+      ]
+    }
+  ],
+  "gate_amendments": [
+    {
+      "id": "G_ALPHA_NONWAIVER",
+      "change": "Add explicit unresolved C2α stress-context field.",
+      "decision": "Normal baseline viability/morphology or aggregate kinome score does not waive the selectivity bridge.",
+      "numeric_threshold_change": false
+    },
+    {
+      "id": "G_MODEL_SENSITIVITY",
+      "change": "Annotate whether a negative vascular assay is capable of detecting the relevant perturbation.",
+      "decision": "Unqualified negative remains inconclusive, with no systemic clearance inference.",
+      "new_experiment_instruction": false
+    },
+    {
+      "id": "G_PERTURBATION_IDENTITY",
+      "change": "Record allele/construct, timing, tissue, protein abundance, catalysis versus depletion.",
+      "decision": "Do not pool protein-loss and catalytic-inactivation consequences as the same drug evidence."
+    },
+    {
+      "id": "G_NATIVE_PROTEIN",
+      "change": "Retain existing unheated/total-protein control.",
+      "decision": "A target-abundance decrease is separate from thermal engagement; stable abundance alone does not prove intact scaffold function."
+    },
+    {
+      "id": "G_COMPARATOR47",
+      "change": "Retain 47 first, subject to its own activity/exposure/selectivity.",
+      "decision": "Do not promote a substitute development article on single-point patent data."
+    }
+  ],
+  "unchanged_numeric_rules": {
+    "antitarget_goal_percent_max": 20,
+    "antitarget_goal_type": "Prospective clean interpretation goal, not a demonstrated safe level.",
+    "threefold_exposure_challenge_is_chronic_margin": false,
+    "new_human_dose": null,
+    "new_safe_occupancy": null
+  },
+  "information_ceiling": [
+    "Kobialka primary figure denominators unavailable",
+    "Aki cardiac beta-only pharmacological threshold unavailable",
+    "No new exact BLU or exact 47 safety/exposure data",
+    "Native human muscle benefit and target modulation unmeasured",
+    "No qualified human vascular stress surrogate established"
+  ],
+  "sources": [
+    {
+      "id": "BS09-S01",
+      "authors": "Kobialka et al.",
+      "year": 2023,
+      "publication_date": "2023-11-28",
+      "title": "PI3K-C2β limits mTORC1 signaling and angiogenic growth",
+      "doi": "10.1126/scisignal.adg1913",
+      "pmid": "38015911",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38015911/",
+        "https://doi.org/10.1126/scisignal.adg1913",
+        "https://discovery.ucl.ac.uk/id/eprint/10186576/",
+        "https://edoc.mdc-berlin.de/id/eprint/23911/"
+      ],
+      "web_refs": [
+        "turn6view0",
+        "turn6view1",
+        "turn8search0"
+      ],
+      "access": "primary abstract and institutional metadata; full manuscript and supplement not recovered",
+      "epmc_metadata": {
+        "pmcid": null,
+        "isOpenAccess": "N",
+        "inPMC": "N",
+        "inEPMC": "N",
+        "full_text_availability": "Subscription required"
+      },
+      "metadata_scope_note": "Europe PMC full-text metadata does not negate the separately listed green-OA UCL accepted-version record. That PDF was inaccessible in this retrieval.",
+      "new_denominators": false,
+      "local_files": [
+        {
+          "file": "kobialka_epmc.json",
+          "bytes": 12245,
+          "sha256": "a70d953504e95b78080ad228499d66ec316c330299afc907ef50f6b2a0822d58",
+          "kind": "primary_index_metadata",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "kobialka_access.json",
+          "bytes": 212,
+          "sha256": "68cb9ba57abf3f68fcc7115347aa36010f720e272a889cc4727a78da45aaeede",
+          "kind": "access_log",
+          "publication_inclusion": "research_intermediate_only"
+        }
+      ]
+    },
+    {
+      "id": "BS09-S02",
+      "authors": "Posor et al.",
+      "year": 2025,
+      "publication_date": "2025-07-17",
+      "journal": "PNAS",
+      "doi": "10.1073/pnas.2423358122",
+      "pmid": "40674428",
+      "pmcid": "PMC12304892",
+      "urls": [
+        "https://www.pnas.org/doi/10.1073/pnas.2423358122",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12304892/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12304892/fullTextXML"
+      ],
+      "web_refs": [
+        "turn25view0",
+        "turn28view3",
+        "turn24search1"
+      ],
+      "access": "full primary XML retrieved; main figures3 and4 visually inspected",
+      "local_files": [
+        {
+          "file": "posor2025_c2alpha.xml",
+          "bytes": 165812,
+          "sha256": "a27770c1a2ebe6191336432cce263aa94691ed0153403f72194791de540609fc",
+          "kind": "primary_fulltext",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "pnas.2423358122fig03.jpg",
+          "bytes": 236801,
+          "sha256": "37826d4c27ccb9277979e9038e987465a888377c76a87217f6a1767668c05f2a",
+          "kind": "primary_figure",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "pnas.2423358122fig04.jpg",
+          "bytes": 60254,
+          "sha256": "832ebfe46177563d6bf4e4cda78f616204a18fa551bbd4da6cd5a41e5de7db7c",
+          "kind": "primary_figure",
+          "publication_inclusion": "research_intermediate_only"
+        }
+      ]
+    },
+    {
+      "id": "BS09-S03",
+      "parent_source": "BS09-S02",
+      "title": "Posor 2025 supplementary appendix",
+      "urls": [
+        "https://www.pnas.org/doi/suppl/10.1073/pnas.2423358122/suppl_file/pnas.2423358122.sapp.pdf",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12304892/supplementaryFiles"
+      ],
+      "access": "publisher fetch failed; Europe PMC supplementary package retrieved; S5 original PDF page8 rendered and visually inspected; S2/S6 captions and extended methods extracted",
+      "local_files": [
+        {
+          "file": "pnas.2423358122.sapp.pdf",
+          "bytes": 8064832,
+          "sha256": "3211f7720b0d8d5ad17bb484e0dcdb99fcc33489c717b0cc8e7163fe73c3745f",
+          "kind": "primary_supplement",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "posor2025_supplementary.zip",
+          "bytes": 6730510,
+          "sha256": "ea378adfa51f479b6d04f0b1fa3f66b1511374427fa5ad7c2b2fefcdac73094a",
+          "kind": "official_supplementary_package",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "posor2025_supp_access.json",
+          "bytes": 617,
+          "sha256": "fe0401a9ce1a62509ee8a256ca2985a9e25fda3a3a74874bbdb1bb0515171bd2",
+          "kind": "access_log",
+          "publication_inclusion": "research_intermediate_only"
+        }
+      ]
+    },
+    {
+      "id": "BS09-S04",
+      "authors": "Manupati et al.",
+      "year": 2025,
+      "publication_date": "2025-09-04",
+      "journal": "Molecular Cancer Research",
+      "doi": "10.1158/1541-7786.MCR-24-1045",
+      "pmid": "40358607",
+      "pmcid": "PMC12353924",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12353924/",
+        "https://doi.org/10.1158/1541-7786.MCR-24-1045"
+      ],
+      "web_refs": [
+        "turn32view0",
+        "turn35view0",
+        "turn49view0"
+      ],
+      "access": "primary accepted full text and figure captions inspected via web; supplemental S4 not independently recovered",
+      "local_files": [
+        {
+          "file": "manupati2025_web_snapshot.json",
+          "bytes": 31302,
+          "sha256": "f44bc30f027e544b882e0e81eba5e1fb3fbb6c2f0a5293a86376c3fb527f88f4",
+          "kind": "web_extraction_snapshot_not_original_article_pdf",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "manupati_pmc_access.json",
+          "bytes": 656,
+          "sha256": "5130ee359a8c74680bb725936049260233b488ff4592f97344f41c6ad400b821",
+          "kind": "access_log",
+          "publication_inclusion": "research_intermediate_only"
+        },
+        {
+          "file": "manupati2025_bioc_access.json",
+          "bytes": 351,
+          "sha256": "b5034fb784347eadb028aaa604359289d1b8cf4887f9f088fb33050bcb71cd5f",
+          "kind": "access_log",
+          "publication_inclusion": "research_intermediate_only"
+        }
+      ],
+      "unusable_retrievals": [
+        "Europe PMC fullTextXML returned500",
+        "Local PMC main returned203 HTML challenge",
+        "PMC supplement S4 returned HTML rather than PDF",
+        "BioC returned error text despite HTTP200"
+      ]
+    },
+    {
+      "id": "BS09-S05",
+      "authors": "Shearer et al.",
+      "year": 2026,
+      "doi": "10.1172/jci.insight.198568",
+      "urls": [
+        "https://insight.jci.org/articles/view/198568",
+        "https://doi.org/10.1172/jci.insight.198568"
+      ],
+      "web_refs": [
+        "turn44view1",
+        "turn33search2"
+      ],
+      "access": "primary article reopened; source workbook conflict is carried forward from audited Round5/8 files",
+      "novel_pharmacological_data": false
+    },
+    {
+      "id": "BS09-S06",
+      "publication": "WO2025003330A1",
+      "publication_date": "2025-01-02",
+      "urls": [
+        "https://patents.google.com/patent/WO2025003330A1/en"
+      ],
+      "web_refs": [
+        "turn44view0",
+        "turn45view0"
+      ],
+      "access": "primary disclosure reopened; cached original Table5 physical131/printed130 visually re-inspected",
+      "local_original_figure": "/workspace/scratch/b5b981e77bc5/tmp/round5_blu_pharmacology/patent-page-131.png",
+      "local_original_figure_sha256": "7526745b416254c81e73d42e69d6962d635affe6a7bc9bdeee54389a1362878b",
+      "novel_pharmacological_data": false
+    },
+    {
+      "id": "BS09-S07",
+      "authors": "Aki et al.",
+      "year": 2026,
+      "doi": "10.1126/science.adx9628",
+      "pmid": "42848893",
+      "urls": [
+        "https://doi.org/10.1126/science.adx9628",
+        "https://pubmed.ncbi.nlm.nih.gov/42848893/"
+      ],
+      "access": "separate combined-C2α/C2β deletion lineage carried forward from Round8; no newly inspected full text/supplement",
+      "new_denominators": false
+    }
+  ],
+  "prior_inputs": [
+    {
+      "path": "/workspace/scratch/b5b981e77bc5/ddiscov_round8/research/rounds/round8/blu_article_exposure.md",
+      "sha256": "64a7ea66605f373b6b3e56696dd7d6bae770db854f70c56599c53e1ffcaf4f05"
+    },
+    {
+      "path": "/workspace/scratch/b5b981e77bc5/ddiscov_round8/research/rounds/round8/blu_model_function.md",
+      "sha256": "ca67d5fc4882c0c22d9e7fb5e11d6ef1abdc1e9be02893a9ae28043d816cffaa"
+    },
+    {
+      "path": "/workspace/scratch/b5b981e77bc5/ddiscov_round8/research/rounds/round8/portfolio-allocation.md",
+      "sha256": "14f507f87eb48e4766eca26f546af05af0d6be3f90c7eb1b7de1fd176ba83a55"
+    }
+  ],
+  "companion_markdown": {
+    "file": "blu-target-safety-update.md",
+    "sha256": "68c7716d54509470d64ce56c08c95af34b6d4c130b0d52b0b050fc5a7387a947"
+  },
+  "artifact_scope": "Only the two authored update files are proposed for repository integration. Third-party source downloads are scratch research intermediates."
+}

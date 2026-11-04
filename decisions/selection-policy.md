@@ -98,6 +98,16 @@ A credible randomized functional positive can justify replication while a mechan
 
 Apply product contribution and public-rights standards equally to BLU and marketed/generic clinical leaders. Data-generation value, a differentiated therapeutic and an exclusive company asset remain separate decisions.
 
+## Round 9: perturbation, stress context and comparator exposure
+
+Separate genetic deletion, catalytic inactivation, protein depletion and pharmacological inhibition. Preserve allele/construct, timing, tissue, residual protein and catalytic readouts. A kinase-defective add-back can reveal scaffold-related effects in its studied system without proving the same mechanism in another tissue. Stable protein abundance alone does not guarantee preserved scaffold interactions.
+
+Baseline tolerability and isolated-cell negatives cannot waive a demonstrated stress-context question. A negative model must be capable of detecting the relevant perturbation before it supports safety reassurance or target rejection. Near-complete persistent genetic inactivation does not define a safe occupancy threshold for a reversible drug. The BLU C2α bridge remains open; the new evidence does not show that BLU itself produces the genetic-study liability. See the [target/safety review](../research/rounds/round9/blu-target-safety-update.md) and [manual qualification amendments](../research/rounds/round9/qualification-amendments.json).
+
+Keep exact drug, formulation, genotype, disease stage and target compartment attached to exposure comparisons. Total tumor exposure, a related human-tested inhibitor, a preclinical probe and a sponsor-renamed program must not exchange efficacy, safety or clinical-readiness claims. Selected known responders cannot estimate an all-treated clinical response probability. Independent investigator replication, different measurement methods and a new biological model are also different forms of evidence.
+
+The [Round 9 screens](../research/rounds/round9/new-candidate-screen.md) apply these rules to miglustat/SCARB2 and the distinct TRPV4 articles. Planning allocations remain judgments about research effort. They are neither purchases nor experimental authorization.
+
 ## Current decisions
 
 See [the current shortlist](current-shortlist.md), [the cumulative register](../research/portfolio-register.json), and [the research-round index](../research/rounds/README.md). Current integrated decisions control over earlier domain-specific grades. This research does not authorize outreach, purchases or experimental execution.

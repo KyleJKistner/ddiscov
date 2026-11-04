@@ -1,0 +1,137 @@
+{
+  "base_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "scope": "all text research/decision/discovery files in recovered Round8, including cumulative register",
+  "checks": {
+    "miglustat_SCARB2": {
+      "SCARB2": [],
+      "AMRF": [],
+      "action myoclonus": [],
+      "miglustat": [
+        {
+          "path": "research/screen-index.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 18
+        },
+        {
+          "path": "discovery/functional-comparisons.csv",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "discovery/historical-topics.csv",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round5/round5_shortlist_challenge.json",
+          "literal_occurrences": 4
+        },
+        {
+          "path": "research/rounds/round5/round5_shortlist_challenge.md",
+          "literal_occurrences": 3
+        }
+      ]
+    },
+    "GSK2193874_TRPV4": {
+      "TRPV4": [],
+      "CMT2C": [],
+      "GSK2193874": [],
+      "GSK2798745": [],
+      "ABS-0871": [],
+      "STAR-0871": []
+    },
+    "LDX_mouse_update": {
+      "77953": [],
+      "9275823": [],
+      "KCNMA1": [
+        {
+          "path": "decisions/current-shortlist.md",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 5
+        },
+        {
+          "path": "research/rounds/round8/README.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round8/integration_review.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round8/portfolio-allocation.md",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/rounds/round8/candidate-alias-audit.json",
+          "literal_occurrences": 3
+        },
+        {
+          "path": "research/rounds/round8/clinical_challenge.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round8/new_candidates.md",
+          "literal_occurrences": 5
+        },
+        {
+          "path": "research/rounds/round8/new_candidates.json",
+          "literal_occurrences": 6
+        },
+        {
+          "path": "research/rounds/round8/clinical_challenge.json",
+          "literal_occurrences": 1
+        }
+      ],
+      "lisdexamfetamine": [
+        {
+          "path": "decisions/current-shortlist.md",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 6
+        },
+        {
+          "path": "research/rounds/round8/README.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round8/integration_review.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round8/portfolio-allocation.md",
+          "literal_occurrences": 3
+        },
+        {
+          "path": "research/rounds/round8/candidate-alias-audit.json",
+          "literal_occurrences": 3
+        },
+        {
+          "path": "research/rounds/round8/clinical_challenge.md",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/rounds/round8/new_candidates.md",
+          "literal_occurrences": 6
+        },
+        {
+          "path": "research/rounds/round8/new_candidates.json",
+          "literal_occurrences": 8
+        },
+        {
+          "path": "research/rounds/round8/review_portfolio_integration.md",
+          "literal_occurrences": 4
+        },
+        {
+          "path": "research/rounds/round8/clinical_challenge.json",
+          "literal_occurrences": 1
+        }
+      ]
+    }
+  }
+}

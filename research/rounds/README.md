@@ -12,6 +12,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 6](round6/README.md)** | Staged funding decision, translational challenge and new human-use leads | Six new exact uses; BLU, enasidenib and PPCS updates; two clinical-comparator clarifications; two continuation packages integrated. Enasidenib formulation assessment upgraded and ruxolitinib/HHD prioritized. No S-tier promotion. |
 | **[Round 7](round7/README.md)** | Two existing clinical-development dossiers brought to BLU-level diligence dimensions | Enasidenib pediatric article/exposure–function and ruxolitinib controlled HHD proof; three reproducible audits and three independent challenges. Zero new screens; no S-tier promotion. |
 | **[Round 8](round8/README.md)** | BLU qualification work order, leading-set stress test and six-record screen | Four new exact uses (one concept expansion), two existing-use updates, quantitative decisions, source/logic audits and explicit planning allocation. No S-tier promotion. |
+| **[Round 9](round9/README.md)** | Verified Round 8 recovery and bounded research continuation | Two new exact uses, four existing candidates reviewed, explicit BLU interpretation amendments and independent review. All 622 original records and Round 8 files retained. No S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -45,3 +46,11 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [Qualification, clinical challenge, new screens and independent reviews](round8/README.md)
 - [BLU execution work order](round8/blu3797-qualification-package.md)
 - [Portfolio ranking and allocation](round8/portfolio-allocation.md)
+
+## Round 9
+
+- [Complete research and recovery package](round9/README.md)
+- [Round 8 recovery verification](round9/round8-recovery-verification.json)
+- [Qualification amendments](round9/qualification-amendments.json)
+- [New exact-use screens](round9/new-candidate-screen.md)
+- [Integration review](round9/integration-review.md)

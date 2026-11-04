@@ -1,10 +1,24 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 8.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 9.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Four new exact uses were screened, including one expansion of a previous concept. Two existing uses were substantively reassessed. None earns an S-tier designation. The [Round 8 package](../research/rounds/round8/README.md) contains the complete evidence and independent challenges.
+Round 9 adds two new exact-use screens and reviews the three leading programs plus the existing KCNMA1 reserve. None earns an S-tier designation. The [Round 8 package](../research/rounds/round8/README.md) remains intact; the [Round 9 package](../research/rounds/round9/README.md) records this continuation and its source limits.
+
+## Round 9 evidence and decisions
+
+The [Round 9 continuation](../research/rounds/round9/README.md) follows the verified recovery of the unchanged Round 8 snapshot. The Round 8 work order remains the numerical baseline; [manual qualification amendments](../research/rounds/round9/qualification-amendments.json) control the additional interpretation. The existing decision utility does not automatically enforce these new contextual requirements.
+
+**BLU3797:** adult C2α genetic inactivation reveals stress susceptibility that resting viability and baseline histology can miss. Its severity cannot be converted into a BLU exposure or partial-inhibition threshold. A separate C2β study distinguishes protein-loss effects from catalytic inhibition. Retain the exact-article C2α/selectivity bridge and annotate intervention identity, timing, protein abundance and model sensitivity. These are neither demonstrated BLU toxicities nor grounds for systemic safety clearance. Human-model evidence remains bounded by the exact genotype, donor, maturation state and measured functional deficit. [Target/safety review](../research/rounds/round9/blu-target-safety-update.md) · [Human-model review](../research/rounds/round9/blu-model-new-evidence.md)
+
+**Clinical leaders:** keep enasidenib's cardiac and neurological claims separate, and require an exact-article, relevant-compartment exposure comparison before drawing a CNS superiority conclusion. Keep ruxolitinib's induction, maintenance, rescue burden and comparator populations distinct. The [clinical comparator update](../research/rounds/round9/clinical-comparator-update.md) states the evidence and unresolved quantities; neither leader receives an efficacy upgrade from this review alone.
+
+**Lisdexamfetamine / KCNMA1-N999S:** a controlled dextroamphetamine mouse result strengthens the rationale for a real movement-related effect. It does not convert the six selected human responders into an all-treated response rate, establish equivalence to oral lisdexamfetamine, or supply independent investigator replication. Retain the rank-4 reserve and six planning points. [Evidence update](../research/rounds/round9/lisdexamfetamine-evidence-update.md)
+
+**Two new exact uses:** miglustat/SCARB2-AMRF is a conditional reserve because reported functional gains coexist with neurological worsening and renal/weight-loss constraints. GSK2193874/TRPV4 is a useful preclinical benchmark; an independent development project remains on hold until it identifies a specific contribution alongside the separate ABS-0871/STAR-0871 clinical program. Neither receives new dedicated allocation or an S-tier designation. The records retain exact genotype, article, endpoint and denominator limits. [New-use screens](../research/rounds/round9/new-candidate-screen.md)
+
+The following qualification and clinical sections carry forward the Round 8 baseline subject to these Round 9 amendments. Planning points are unchanged. Proposed proofs describe decision requirements; this research authorizes no recruitment, procurement, outreach or experiments.
 
 ## Ranked next actions and allocation
 
@@ -17,7 +31,7 @@ These are **100 planning-effort points**, not dollars, secured financing or esti
 | **3** | **Ruxolitinib 1.5% cream / HHD** | **10** | Controlled useful lesion/pain/rescue/burden proof with a specified article, concurrent care, measured exposure and complete maintenance denominators. |
 | **4** | **Lisdexamfetamine / KCNMA1-N999S PNKD** | **6** | Conditional clinical-research reserve: independently adjudicated events and interrupted activity in an all-eligible cohort, including nonresponders. No exclusive asset established. |
 | **5** | **NDC-9009 / Darier plus roflumilast comparator** | **4** | Two points maintain NDC exposure/adhesion qualification; two define the exact 0.3% roflumilast clinical comparison. Symptom control and barrier repair remain distinct. |
-| **6** | **Exact 8015-P2 / MFN2-CMT2A** | **2** | Retain electrical/NMJ function, exact-article and second-allele proof. No new efficacy observation this sprint. |
+| **6** | **Exact 8015-P2 / MFN2-CMT2A** | **2** | Retain electrical/NMJ function, exact-article and second-allele proof. No new exact-article efficacy observation in Round 9. |
 | **7** | **Selective thin-filament desensitization / TNNT2-R94C** | **2** | Bounded discovery/chemistry reserve. Deprioritize exact W7 systemic development because of channel liabilities and unresolved window. |
 | **8** | **AAT / donor-lung perfusion** | **1** | Retain mass/antigen/protease-activity qualification before scarce-organ work. |
 | — | Bounded discovery and contrary-evidence updates | **5** | Seek independent useful function and an unfilled contribution; retire superseded positives and deduplicate exact uses. |
@@ -72,7 +86,7 @@ Onabotulinumtoxin A supplies a concrete sweat-control benchmark. Its tiny random
 
 A useful on-treatment cream can be valuable without genetic repair. A standalone product still needs differentiated clinical benefit and an executable product/rights route. KB111, guselkumab, existing composition/formulation claims and the branded franchise remain relevant; none is erased by another positive case. [Updated challenge](../research/rounds/round8/clinical_challenge.md) · [Controlled-proof plan](../research/rounds/round7/rux_hhd_development_proof.md)
 
-## Other decision changes from this sprint
+## Retained decision changes from Round 8
 
 | Exact use | Disposition and evidence boundary |
 |---|---|

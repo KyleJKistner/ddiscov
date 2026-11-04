@@ -1,0 +1,188 @@
+{
+  "report_id": "round9_clinical_comparator_update",
+  "evidence_cut_utc": "2026-11-04",
+  "baseline_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "scope": [
+    "enasidenib_D2HGA2_IDH2_R140Q",
+    "vorasidenib_comparator",
+    "ruxolitinib_1.5_percent_Hailey_Hailey"
+  ],
+  "activity": {
+    "public_document_research": true,
+    "outreach": false,
+    "purchase": false,
+    "experiments": false,
+    "clinical_action": false,
+    "git_mutation_by_this_agent": false
+  },
+  "new_material_delta_count": 1,
+  "new_material_delta": {
+    "id": "vorasidenib_active_metabolite_and_pediatric_model_limit",
+    "novelty": "New to recovered Round7/Round8 dossier; source itself published in 2025.",
+    "source_url": "https://www.tga.gov.au/sites/default/files/2025-05/auspar-voranigo-250521.pdf",
+    "source_date": "2025-05-21",
+    "source_type": "primary_regulatory_assessment",
+    "retrieval_refs": [
+      "turn54view1",
+      "turn55view1",
+      "turn55view2",
+      "turn57view0",
+      "turn57view1"
+    ],
+    "metabolite": "AGI-69460",
+    "active": true,
+    "molar_predose_metabolite_to_parent_ratio": {
+      "mean": 1.173,
+      "time": "day 1, cycle 10",
+      "individual_patient_denominator": null,
+      "is_auc_ratio": false,
+      "pdf_page": 16,
+      "extracted_lines": "541-547",
+      "zero_based_pdf_index": 15
+    },
+    "animal_metabolite_brain_penetration_assessed": false,
+    "brain_distribution_locator": {
+      "pdf_page": 13,
+      "extracted_lines": "453-454",
+      "zero_based_pdf_index": 12
+    },
+    "metabolite_included_in_population_pk_model": false,
+    "population_pk_locator": {
+      "pdf_page": 17,
+      "extracted_line": 598,
+      "zero_based_pdf_index": 16
+    },
+    "model_observed_participants_under_18": 1,
+    "adolescent_model_locator": {
+      "pdf_page": 18,
+      "extracted_lines": "630-644",
+      "zero_based_pdf_index": 17
+    },
+    "population_pk_context": {
+      "all": 333,
+      "healthy": 78,
+      "glioma": 255,
+      "infant_d2hga2_denominator": null
+    },
+    "interpretation": "Parent-only exposure comparison is incomplete; normal infant R140Q CNS superiority remains unidentifiable. This is a qualification constraint, not an observed toxicity or efficacy result.",
+    "metabolite_human_plasma_mean_fraction_unbound_percent": {
+      "mean": 13.0,
+      "reported_plus_minus": 1.07,
+      "pdf_page": 16,
+      "extracted_line": 548,
+      "infant_value": null,
+      "binding_sample_donor_age_verified": null,
+      "interpretation": "Reported human-plasma binding; not an observed infant unbound exposure."
+    }
+  },
+  "already_covered_context": {
+    "vorasidenib_r140q_cellular_2hg_ic50": [
+      {
+        "cell": "TF-1 IDH2-R140Q",
+        "value_nM": 14,
+        "reported_plus_minus_nM": 1.1,
+        "assay_N": 3
+      },
+      {
+        "cell": "U87MG IDH2-R140Q",
+        "value_nM": 7.1,
+        "reported_plus_minus_nM": 3,
+        "assay_N": 7
+      }
+    ],
+    "vorasidenib_wild_type_cellular_inhibition_approx_nM": 400,
+    "vorasidenib_wild_type_time_dependence": true,
+    "vorasidenib_fda_source": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000MultidisciplineR.pdf",
+    "vorasidenib_label": {
+      "protein_binding_percent": 97,
+      "total_brain_tumor_to_plasma_ratio": 1.6,
+      "terminal_half_life_days_approx": 10,
+      "source": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=31405fee-55b7-4857-987e-2724ee76be84&type=display"
+    },
+    "enasidenib_human_lineage": {
+      "outcome_records": 5,
+      "papers": 3,
+      "verified_independent_patient_count": null,
+      "major_severe_cardiomyopathy_recovery_records": 1,
+      "concurrent_cardiac_care": true,
+      "caution": "Skin-case independence unresolved; records have different baseline organ severity and cannot form one response rate.",
+      "primary_anchor": "https://www.nature.com/articles/s41591-023-02382-9"
+    },
+    "enasidenib_pediatric_sprinkle_preexists": true,
+    "enasidenib_present_infant_supply_verified": null,
+    "new_formulation_freedom_to_operate": null,
+    "formulation_sources": [
+      "https://clinicaltrials.gov/api/v2/studies/NCT02813135",
+      "https://clinicaltrials.gov/api/v2/studies/NCT04310527",
+      "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf"
+    ]
+  },
+  "human_brain_pd_context": {
+    "source": "https://www.nature.com/articles/s41591-022-02141-2",
+    "source_ref": "turn58search7",
+    "whole_study_N": 49,
+    "variant": "IDH1-R132H",
+    "tissue": "nonenhancing glioma",
+    "vorasidenib_dose_mg_per_day": 50,
+    "tumor_2hg_reduction_percent": 92.6,
+    "credible_interval_95_percent": [
+      76.1,
+      97.6
+    ],
+    "specific_dose_group_N": null,
+    "denominator_caution": "49 is the whole trial, not this dose group's denominator.",
+    "normal_infant_IDH2_R140Q_bridge_established": false
+  },
+  "unidentified_fields": {
+    "vorasidenib_infant_unbound_parent_plasma_exposure": null,
+    "vorasidenib_infant_unbound_AGI69460_plasma_exposure": null,
+    "vorasidenib_normal_infant_brain_unbound_partition": null,
+    "AGI69460_normal_infant_brain_unbound_partition": null,
+    "AGI69460_IDH2_R140Q_assay_matched_potency": null,
+    "enasidenib_infant_unbound_parent_plasma_exposure": null,
+    "enasidenib_infant_unbound_active_metabolite_plasma_exposure": null,
+    "enasidenib_normal_infant_brain_unbound_partition": null,
+    "time_matched_normal_brain_R140Q_target_engagement": null,
+    "parent_metabolite_combined_mutant_WT_margin": null,
+    "head_to_head_D2HGA2_cardiac_effect": null,
+    "head_to_head_D2HGA2_neurological_effect": null,
+    "verified_new_D2HGA2_comparator_trial_outcome": null,
+    "interpretation": "Null means not identified in this bounded review, not zero, absent everywhere, safe, or inferior."
+  },
+  "ruxolitinib_hhd": {
+    "new_verified_decision_changing_delta": false,
+    "existing_exact_strength_reports": 5,
+    "unpooled_preprint_claimed_patients": 9,
+    "pooled_response_rate": null,
+    "PMID42282850_already_in_round7": true,
+    "PMID42222696_already_in_round7": true,
+    "KB111_NCT07717346_already_in_round7": true,
+    "KB111_november2_sponsor_enrollment": 5,
+    "KB111_efficacy_outcome_disclosed_in_that_update": false,
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/42282850/",
+      "https://pubmed.ncbi.nlm.nih.gov/42222696/",
+      "https://clinicaltrials.gov/api/v2/studies/NCT07717346",
+      "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000072/exhibit991-3q26pressrelease.htm"
+    ],
+    "new_controlled_effect": null,
+    "new_auditable_maintenance_denominator": null,
+    "retrieval_limit": "Primary listing/current search was available; detailed preprint methods and cohort table were not newly recovered. No secondary reconstruction or inferred cohort independence."
+  },
+  "allocation_recommendation": {
+    "unit": "research_planning_points_out_of_100_not_probability_or_money",
+    "enasidenib": 15,
+    "ruxolitinib_hhd": 10,
+    "rank_change": false,
+    "S_tier_upgrade": false,
+    "displaces_BLU3797": false,
+    "enasidenib_gate_change": "Require active-metabolite as well as parent exposure evidence before a neurological comparator superiority claim.",
+    "hhd_gate_change": "None; preserve concurrent-care, maintenance-denominator, and treatment-burden requirements."
+  },
+  "finite_next_action": {
+    "type": "bounded_public_document_analysis",
+    "deliverable": "One parent/metabolite exposure ledger with exact variant, assay, unbound status, species, age, normal/tumor tissue, time point and exposure statistic; one primary outcome/formulation check.",
+    "stop_rule": "If matched free-brain and R140Q metabolite data remain unavailable, close CNS superiority as not identifiable from public evidence and keep the cardiac question separate.",
+    "automatically_authorizes_study": false
+  }
+}

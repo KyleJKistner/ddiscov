@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "round": 9,
+  "as_of": "2026-11-04",
+  "base_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+  "counting": {
+    "new_exact_intervention_use_screens": 2,
+    "new_molecule_claims": 0,
+    "comparators_counted_as_extra_candidates": 0,
+    "fully_deduplicated_global_patient_census": false
+  },
+  "alias_audit": "candidate-alias-audit.json",
+  "records": [
+    {
+      "candidate_id": "R9-NL-01",
+      "name": "Miglustat / SCARB2-related action myoclonus–renal failure",
+      "classification": "new_exact_use_of_previously_inventoried_drug",
+      "exact_entity": "Oral miglustat; historical manufacturer/lot/formulation not authenticated across reports.",
+      "indication": "Biallelic SCARB2-associated AMRF",
+      "biological_units": {
+        "directly_reviewed_treated_individuals": 4,
+        "primary_reports": 3,
+        "complete_population_denominator": false,
+        "two_negative_cases_same_family": true
+      },
+      "evidence": [
+        {
+          "source_id": "M1",
+          "individuals": 1,
+          "genotype": "homozygous c.1087C>A; p.His363Asn",
+          "functional_signal": "Reported independent walking/feeding regained; serial myoclonus/video follow-up through 24 months.",
+          "contrary": "Uncontrolled with concurrent symptomatic drugs; approximately 10 kg first-year weight loss.",
+          "date_online": "2024-11-08",
+          "issue_date": "2025-02"
+        },
+        {
+          "source_id": "M2",
+          "individuals": 1,
+          "genotype": "compound heterozygous c.431_432insAG (reported alias c.435_436insAG) and c.862C>T; p.Gln288Ter",
+          "functional_signal": "Reported dysphagia resolution and reacquired tasks over three years.",
+          "contrary": "Seizures already controlled; progressive renal impairment with additional urological pathology; uncontrolled.",
+          "publication_year": 2021
+        },
+        {
+          "source_id": "M3",
+          "individuals": 2,
+          "genotype": "homozygous c.134delA; p.N45MfsX88",
+          "functional_signal": null,
+          "contrary": "Both related individuals discontinued following worsening myoclonus/ataxia.",
+          "publication_year": 2022
+        }
+      ],
+      "exposure_issue": "Renal dysfunction is part of the indication; official capsule label has renal dose limits, tremor/neuropathy and gastrointestinal/weight-loss liabilities. A published CNS regimen is not a validated exposure plan.",
+      "material_model_route": "A marketed specified capsule is a future article option; case formulation equivalence and a qualified functional disease model were not established. Biochemical substrate models cannot replace motor/swallowing outcomes.",
+      "next_decision": "Reconcile all treated cases, genotype, renal exposure and independently measured useful function with failures retained.",
+      "advance_condition": "Credible function beyond natural history/cointerventions at acceptable exposure, with a specified product contribution for asset promotion.",
+      "stop_condition": "Reproducible neurological worsening, intolerable required exposure, or biomarker change without meaningful function.",
+      "disposition": "conditional clinical-research reserve below lisdexamfetamine; independent asset thesis on hold",
+      "current_S_tier": false,
+      "allocation": "initial diligence within existing five-point discovery allocation"
+    },
+    {
+      "candidate_id": "R9-NL-02",
+      "name": "GSK2193874 / TRPV4-related neuromuscular disease",
+      "classification": "new_exact_preclinical_intervention_use",
+      "exact_entity": "GSK2193874 (GSK219); distinct from GSK2798745, ABS-0872 and ABS-0871/STAR-0871",
+      "model": "symptomatic homozygous Trpv4 R269C/R269C mice",
+      "stage": "limited motor-neuron soma loss at treatment initiation",
+      "functional_signal": "Reported dose-dependent survival/motor rescue and restored blood–spinal-cord barrier function.",
+      "biological_units": {
+        "horizontal_balance_mice_range_per_caption": [
+          10,
+          15
+        ],
+        "rotarod_mice_range_per_caption": [
+          7,
+          14
+        ],
+        "barrier_histology_mice_per_cohort": 3,
+        "sections_not_independent_animals": true,
+        "arm_specific_survival_counts_recovered": false
+      },
+      "contrary": "Post-symptom rescue is not regeneration after extensive neuron loss or human heterozygous functional proof. Separate clinical GSK2798745 lung-challenge study missed efficacy criteria despite predicted relevant exposure; this is not a CMT trial.",
+      "article_mapping": [
+        {
+          "name": "GSK2193874",
+          "role": "2024 mouse functional rescue",
+          "human_safety_transfer": false
+        },
+        {
+          "name": "GSK2798745",
+          "role": "distinct early human PK/tolerability article and negative lung-challenge comparator"
+        },
+        {
+          "name": "ABS-0872",
+          "role": "2025 cellular barrier research article; identity with ABS-0871 not established"
+        },
+        {
+          "name": "ABS-0871 / STAR-0871",
+          "role": "same clinical program under sponsor-reported rename"
+        }
+      ],
+      "commercial_update": {
+        "source_id": "T4",
+        "announcement_date": "2026-10-30",
+        "sponsor": "Setara Biosciences",
+        "healthy_volunteer_phase": "completed per sponsor",
+        "CMT2C_trial": "THERON Phase 1b planned 2027 per sponsor",
+        "company_financing_USD": 90000000,
+        "financing_is_program_budget": false,
+        "efficacy_evidence": false,
+        "independent_access_rights_established": false
+      },
+      "material_model_route": "Public exact probe/model methods and separate cell-barrier work provide a research route; no stock, qualified model, native human functional transfer or rights secured.",
+      "next_decision": "Identify a differentiated exact-article contribution versus the active clinical program before independent development.",
+      "advance_condition": "Useful established-disease function, improved relevant exposure/tolerability, or another concrete contribution with credible development/rights path.",
+      "stop_condition": "No differentiated contribution or failure of qualified exact-article functional proof; do not infer target-class failure from a different-indication negative.",
+      "disposition": "preclinical benchmark and conditional differentiation reserve; hold undifferentiated independent development",
+      "current_S_tier": false,
+      "allocation": "initial diligence within existing five-point discovery allocation"
+    }
+  ],
+  "sources": [
+    {
+      "id": "M1",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mdc3.14273",
+      "access": "primary full text/video captions, no independent video scoring"
+    },
+    {
+      "id": "M2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8320328/",
+      "access": "indexed full primary text; direct retrieval intermittently blocked"
+    },
+    {
+      "id": "M3",
+      "url": "https://link.springer.com/article/10.1186/s12883-022-02628-y",
+      "access": "primary full text"
+    },
+    {
+      "id": "M4",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=professional&setid=aa9a3ab6-2376-4b52-9e54-15dc87f25260",
+      "access": "official label"
+    },
+    {
+      "id": "T1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11316273/",
+      "access": "primary full text and figure captions"
+    },
+    {
+      "id": "T2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30637626/",
+      "access": "primary abstract"
+    },
+    {
+      "id": "T3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33189900/",
+      "access": "primary abstract"
+    },
+    {
+      "id": "T4",
+      "url": "https://www.businesswire.com/news/home/20261030022827/en/",
+      "retrieved_mirror": "https://markets.financialcontent.com/bpas/article/bizwire-2026-10-30-setara-biosciences-announces-90-million-series-a-financing-to-advance-precision-medicines-for-rare-genetic-diseases-and-related-expansion-indications",
+      "access": "full sponsor-issued syndicated release; direct corporate/Business Wire unavailable"
+    },
+    {
+      "id": "T5",
+      "url": "https://academic.oup.com/hmg/article/34/9/806/8020205",
+      "access": "indexed primary methods/results"
+    }
+  ],
+  "exclusions": [
+    "Ambroxol/SCARB2 exact functional evidence not established by bounded search; not counted as a screen.",
+    "Venglustat or other substrate-reduction articles do not inherit miglustat outcomes.",
+    "Comparators do not count as extra new leads."
+  ],
+  "activities": {
+    "contact": false,
+    "purchases": false,
+    "experiments": false,
+    "materials_received": false
+  }
+}

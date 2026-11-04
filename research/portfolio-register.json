@@ -1,9 +1,9 @@
 {
-  "schema_version": "8.0",
+  "schema_version": "9.0",
   "as_of": "2026-11-04",
   "repository": "KyleJKistner/ddiscov",
   "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
-  "supersedes": "Current schema7 decisions published in f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7; original coverage, generated concepts, prior round objects and continuation files retained.",
+  "supersedes": "Current schema8 decisions recovered and published unchanged in a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3; original coverage, generated concepts, source map, prior round objects and all Round8 files retained.",
   "policy": {
     "decision_unit": "Exact product in a defined disease, route and treatment window, paired with a stage-appropriate decision-changing preclinical or clinical proof.",
     "ranking": "Rank the expected value of the next proof. Do not inherit priority from recency, number of mentions, an A label, a patent listing or supplier availability.",
@@ -180,12 +180,14 @@
         "https://pubmed.ncbi.nlm.nih.gov/23390130/",
         "https://hal.science/hal-02881178",
         "https://www.jci.org/articles/view/71206",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3938268/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3938268/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12304892/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12353924/"
       ],
       "proof_phase": "Q0_article_pharmacology_exposure_then_Q1_model_then_conditional_F1_function",
       "round4_delta": "Two public patent disclosures describe the matching S upstream intermediate, creating a plausible joined reconstruction route. Newly inspected source workbook verifies strong dose-dependent, ceiling-limited wire-hang observations but exposes an unresolved P22 schedule mismatch in the small late-start comparison, incomplete baseline records, and unlinked panel denominators.",
       "deciding_proof": "Authenticate article, fix independent construct/reaction and exposure method, qualify post-deficit absolute twitch force in one background, then test a locked primary exposure and threshold M=max(.25*Gcal,repeatability floor) in uN. Confirm independently before broader genotype work.",
-      "priority_scope": "Round8 next-action queue; 55/100 planning-effort points, not success probability or money",
+      "priority_scope": "Round9 next-action queue; 55/100 planning-effort points, not success probability or money",
       "round5_delta": "New cell audit887 values; human isogenic precedents; PIK3C3 all-zero/finite-IC50 conflict; enzyme-concentration qualification; terminal-only PK; exact comparator47 prioritized for qualification; four independent proof-design corrections accepted.",
       "current_review_files": [
         "research/rounds/round6/round6_blu_milestone.md",
@@ -195,7 +197,10 @@
         "research/rounds/round5/round5_blu_pharmacology.md",
         "research/rounds/round8/blu3797-qualification-package.md",
         "research/rounds/round8/blu_article_exposure.md",
-        "research/rounds/round8/blu_model_function.md"
+        "research/rounds/round8/blu_model_function.md",
+        "research/rounds/round9/blu-target-safety-update.md",
+        "research/rounds/round9/blu-model-new-evidence.md",
+        "research/rounds/round9/qualification-amendments.json"
       ],
       "round6_delta": [
         "New 2026 mitochondrial-fusion paper and linked 2025 thesis sharpen an on-target question; distinguish single-beta depletion, dual catalytic add-back and dual cardiomyocyte loss.",
@@ -207,7 +212,15 @@
       "round8_delta": "Original precursor connectivity, enzyme-code/substrate issues, native detection route, selected force model, staged energy/safety comparison, quantitative provenance and independently reviewed decision utility.",
       "source_reference_scopes": [
         "research/rounds/round8/blu_article_exposure.json",
-        "research/rounds/round8/blu_model_function.json"
+        "research/rounds/round8/blu_model_function.json",
+        "research/rounds/round9/blu-target-safety-update.json",
+        "research/rounds/round9/blu-model-new-evidence.json"
+      ],
+      "round9_delta": [
+        "Adult C2α genetic inactivation shows a stress susceptibility missed by baseline assessment; a tested isolated-cell system also failed to reproduce the organismal liability. This is not measured BLU toxicity or a partial-inhibition threshold.",
+        "C2β WT/kinase-defective add-back in a tumor model separates protein/scaffold consequences from catalytic lipid-product effects. Exact perturbations and replicate units remain distinct.",
+        "A newly retrieved primary Myology2024 abstract reports discordant myogenic, calcium, 3D morphology and RyR findings in its tested systems. Model line, genotype, maturity and functional endpoint provenance remain necessary; L463S residual function and model-specific negative sensitivity are unresolved.",
+        "Retain the affirmative bounded first-proof recommendation and 55 planning points. Additional manual interpretation requirements do not change the proposed numeric thresholds or establish a systemic therapeutic window."
       ]
     },
     {
@@ -215,7 +228,7 @@
       "name": "Enasidenib for germline IDH2-R140Q D2HGA2",
       "assessment_date": "2026-11-04",
       "decision": "Defined clinical development priority: recommend a bounded pediatric article/exposure project linked to prospective organ function.",
-      "priority_scope": "Round8 next-action queue; 15/100 planning-effort points",
+      "priority_scope": "Round9 next-action queue; 15/100 planning-effort points",
       "proof_phase": "pediatric_article_exposure_then_longitudinal_organ_function",
       "exact_entity": "Enasidenib; mesylate tablet reference and documented pediatric sprinkle use. Intended infant presentation must be specified; historical clinical lot identity with EP4058028B1 is unverified.",
       "population": "Direct human treatment anchor is germline heterozygous IDH2-R140Q. R140G, type-I D2HGDH disease and other IDH2 variants do not inherit efficacy.",
@@ -235,7 +248,8 @@
       "source_reference_scopes": [
         "research/rounds/round7/enasidenib_clinical.json",
         "research/rounds/round7/enasidenib_product.json",
-        "research/rounds/round8/clinical_challenge.json"
+        "research/rounds/round8/clinical_challenge.json",
+        "research/rounds/round9/clinical-comparator-update.json"
       ],
       "source_urls": [
         "https://aacrjournals.org/cancerdiscovery/article/7/5/478/6259/AG-221-a-First-in-Class-Therapy-Targeting-Acute",
@@ -268,18 +282,24 @@
         "research/rounds/round7/enasidenib_clinical.md",
         "research/rounds/round7/enasidenib_product.md",
         "research/rounds/round7/review_enas_by_rux_clinical.md",
-        "research/rounds/round8/clinical_challenge.md"
+        "research/rounds/round8/clinical_challenge.md",
+        "research/rounds/round9/clinical-comparator-update.md"
       ],
       "round7_delta": "Full clinical lineage and 177-cell laboratory audit; specific public pediatric formulation, adult PK/DDI/A3 and model audit; staged clinical proof with independent challenge. Removed from the reserve list to avoid conflicting current dispositions.",
       "priority": 2,
-      "round8_delta": "R140Q-active vorasidenib added as CNS mechanism/exposure comparator; tumor PK is not normal infant-brain exposure or safety superiority. Cardiac treatment, neurological benefit and neonatal prevention split. Existing sprinkle requires a demonstrated new administration/exposure contribution."
+      "round8_delta": "R140Q-active vorasidenib added as CNS mechanism/exposure comparator; tumor PK is not normal infant-brain exposure or safety superiority. Cardiac treatment, neurological benefit and neonatal prevention split. Existing sprinkle requires a demonstrated new administration/exposure contribution.",
+      "round9_delta": [
+        "A primary TGA2025 assessment adds the active vorasidenib metabolite AGI-69460 exposure issue. A late-cycle mean molar predose metabolite:parent ratio is not a normal infant-brain exposure measure or AUC ratio.",
+        "The cited assessment did not establish metabolite animal brain penetration and excluded it from the population PK model; observed adolescent representation was one patient under18. Metabolite R140Q potency and unbound normal-infant-brain exposure remain unresolved.",
+        "Retain enasidenib rank2 and15 planning points. Cardiac benefit, neurological treatment and neonatal prevention remain separate; parent-only exposure comparisons cannot establish CNS superiority."
+      ]
     },
     {
       "candidate_id": "R6-NL-01",
       "name": "Ruxolitinib 1.5% cream for refractory Hailey–Hailey disease",
       "assessment_date": "2026-11-04",
       "decision": "Defined controlled clinical-proof priority: recommend marketed-article, protocol and measurement qualification followed by a contemporaneously controlled patient-benefit comparison.",
-      "priority_scope": "Round8 next-action queue; 10/100 planning-effort points",
+      "priority_scope": "Round9 next-action queue; 10/100 planning-effort points",
       "proof_phase": "article_protocol_measurement_then_controlled_clinical_function",
       "exact_entity": "Prospective standardized Opzelura 1.5% cream, 15 mg/g ruxolitinib base equivalent as 19.8 mg/g phosphate. Historical cases verify active/concentration/route, not every brand, vehicle or lot.",
       "functional_evidence": "Five distinguishable exact-strength case reports support useful local control. Monotherapy-style treatment, add-on induction and topical maintenance are kept separate. No controlled exact-rux HHD effect estimate was verified.",
@@ -298,7 +318,8 @@
       "source_reference_scopes": [
         "research/rounds/round7/rux_hhd_clinical.json",
         "research/rounds/round7/rux_hhd_product.json",
-        "research/rounds/round8/clinical_challenge.json"
+        "research/rounds/round8/clinical_challenge.json",
+        "research/rounds/round9/clinical-comparator-update.json"
       ],
       "source_urls": [
         "https://cdn.caymanchem.com/cdn/insert/11609.pdf",
@@ -349,11 +370,16 @@
         "research/rounds/round7/rux_hhd_development_proof.md",
         "research/rounds/round7/review_rux_by_enas_clinical.md",
         "research/rounds/round7/rux_hhd_product_review.md",
-        "research/rounds/round8/clinical_challenge.md"
+        "research/rounds/round8/clinical_challenge.md",
+        "research/rounds/round9/clinical-comparator-update.md"
       ],
       "round7_delta": "Five-report clinical audit, DERM101 concurrent-control benchmark, mechanistic citation correction, quantitative PK/high-exposure and official-patent audit, current competitors and a staged clinical proof. No new lead counted.",
       "priority": 3,
-      "round8_delta": "OnabotulinumtoxinA sweat-control benchmark added. Seven-person randomized study is separate from30-person mixed pilot with26HHD/4Darier and11HHD relapses. Late survivor efficacy is not all-randomized maintenance. Product contribution includes sustained control and lower treatment/rescue burden."
+      "round8_delta": "OnabotulinumtoxinA sweat-control benchmark added. Seven-person randomized study is separate from30-person mixed pilot with26HHD/4Darier and11HHD relapses. Late survivor efficacy is not all-randomized maintenance. Product contribution includes sustained control and lower treatment/rescue burden.",
+      "round9_delta": [
+        "Bounded public-source comparator review found no new verified rank-changing HHD evidence beyond the preserved dossiers. Retain rank3 and10 planning points.",
+        "Keep exact1.5% article, concurrent-care comparison, all-randomized and maintenance denominators, exposure and useful pain/erosion/rescue-burden outcomes. No new HHD efficacy observation is claimed."
+      ]
     },
     {
       "candidate_id": "R3-NL-01",
@@ -23683,7 +23709,7 @@
     "physical_samples_received": false,
     "wet_lab_experiments_performed": false,
     "outreach_sent": false,
-    "current_round": 8,
+    "current_round": 9,
     "round3_unique_screen_ids": 36,
     "round3_all_have_sources": true,
     "round3_all_have_go_stop": true,
@@ -23727,9 +23753,24 @@
     "round8_fluoxetine_participants": 1,
     "round8_qualification_tissues_proposed_not_observed": 24,
     "round8_exploration_tissues_proposed_not_observed": 96,
-    "round8_publication_verification": "Expected main head,parent,Git tree and full file/blob manifest checked during publication; containing commit identifies exact content."
+    "round8_publication_verification": "Expected main head,parent,Git tree and full file/blob manifest checked during publication; containing commit identifies exact content.",
+    "round9_unique_new_screen_ids": 2,
+    "round9_existing_candidates_reviewed": 4,
+    "round9_material_new_primary_evidence_updates": 3,
+    "round9_independent_screen_reviews": 1,
+    "round9_original622_coverage_preserved": true,
+    "round9_prior_round_objects_preserved": true,
+    "round9_round8_files_preserved": true,
+    "round9_numeric_thresholds_changed": false,
+    "round9_publication_verification": "Publishing workflow checks expected main head, commit parent, full Git tree and committed manifest. The containing commit identifies final publication state.",
+    "round8_recovery_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+    "round8_recovery_tree": "cf6956718fc316db078db6f54d5c68a576f16efc",
+    "round8_recovery_file_count": 166,
+    "round8_recovery_report": "research/rounds/round9/round8-recovery-verification.json",
+    "round9_independent_qualification_reviews": 1,
+    "round9_independent_reviews_total": 2
   },
-  "reading_rule": "Current top-level decisions, Round8 qualification/portfolio documents and selection policy control. Historical rows remain unchanged; current_dispositions_by_inventory_id and Round8 updates override superseded interpretations. Source IDs are local to named dossiers. Participants, donor backgrounds, independently treated tissues, batches, repeated readings, proposed samples and synthetic logic fixtures are distinct units.",
+  "reading_rule": "Current top-level decisions, Round9 evidence/interpretation amendments and selection policy control. The unchanged Round8 qualification specification remains the numerical baseline. Its decision utility does not automatically enforce the Round9 manual contextual requirements. Historical rows and round objects remain unchanged. Source IDs are local to named dossiers. Participants, donor backgrounds, tissues, batches, repeated readings, proposed samples and synthetic logic fixtures remain distinct units. snapshot_commit identifies the original curated baseline; use the containing commit for this publication.",
   "round_history": [
     {
       "round": 2,
@@ -26317,6 +26358,925 @@
         "reproducible_audits": 3,
         "S_tier_promotions": 0
       }
+    },
+    {
+      "round": 8,
+      "as_of": "2026-11-04",
+      "schema_version": "8.0",
+      "publication_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+      "final_shortlist": [
+        {
+          "candidate_id": "BLU3797_XLMTM",
+          "priority": 1,
+          "name": "Selective PIK3C2B inhibition for MTM1 myotubular myopathy",
+          "origin": "new to repository",
+          "assessment_date": "2026-11-04",
+          "exact_entity": "Article-defined S stereoisomer BLU3797; joined public upstream and final-step route, with unresolved material-accounting details. No independent authenticated lot.",
+          "functional_evidence": "Catalytic genetic PIK3C2B inactivation rescues mouse force; exact BLU supports dose-responsive survival and ceiling-limited motor benefit. Expanded cell audit confirms differentiation/fusion evidence, not mature human force. Gene-dose and disease-stage context are retained; partial survival rescue is not force equivalence.",
+          "research_material_route": "Original CN119490502A A-1-1c drawing matches the exact S fluoroisoindolinone junction to JCI chemistry. Preferred independent route basis; unresolved quantity/yield arithmetic and no authenticated received lot.",
+          "model_route": "Primary Curi CB-SKM-XLMTM, MTM1 c.1388T>C/p.L463S male patient line. Proposed CB-SKM-6-WT male nonisogenic reference is not verified as the historical plot control.24-tissue qualification and conditional96-tissue exploration are prospective resources, not power. Public raw N/variance unavailable.",
+          "exposure_risk": "Journal PV3574l catalog mismatch and printed150nM lipid/60nM enzyme require independent reaction qualification. Native engagement unresolved; PRM-CETSA is a proposed bridge, not occupancy. Useful force and energy function must coexist at measured exposure. Kinase-inactive endothelial findings qualify old histology reassurance.",
+          "public_rights_note": "Public structure, route and catalogs do not establish ownership or commercial clearance. Blueprint-origin and independent target/compound claims apply symmetrically with clinical-leader franchises; standalone value capture unresolved.",
+          "next_decision_question": "Can the exact qualified article improve a qualified human MTM1 force/fatigue deficit, and does that signal justify confirmation with a relevant mitochondrial, neuronal, hepatic and cardiac exposure window?",
+          "proposed_advance_condition": "Exploratory point>=M and lower95% bound>0 with qualified inputs and interpretable functional safety earns independent confirmation. Independent lower95% bound>M supports the tested background. Incomplete native engagement limits mechanism, not necessarily positive function.",
+          "proposed_stop_condition": "Wrong lot/model/measurement redirects qualification. Upper95% bound<M supports model-specific futility only with adequate target perturbation, exposure and delayed modifiability. Orthogonal selective and independent-background failure is needed for bounded target downgrade. Required-exposure harm or absent product contribution can stop the article/asset thesis.",
+          "source_ids": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "decision": "Leading bounded qualification project: exact S article, independently specified assay, measured exposure and one post-deficit human-force model; conditional exploration and independent confirmation.",
+          "current_S_tier": false,
+          "outreach_needed_for_scientific_selection": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "related_inventory_ids": [],
+          "round3_delta": "More concrete model route; narrower chemistry and assay-transfer claims. No new human BLU force efficacy demonstrated.",
+          "source_urls": [
+            "https://insight.jci.org/articles/view/198568",
+            "https://insight.jci.org/articles/view/198568/sd/pdf/render/1",
+            "https://www.addgene.org/238834/",
+            "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM06813",
+            "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM24509",
+            "https://patents.google.com/patent/WO2025085810A2/en",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9337808/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11151210/",
+            "https://www.nature.com/articles/s41589-022-01118-z",
+            "https://www.probechem.com/products_BLU3797.html",
+            "https://www.curibio.com/xlmtm-model",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10243799/",
+            "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+            "https://patents.google.com/patent/US20240226104A1/en",
+            "https://patents.google.com/patent/CN119490502A/en",
+            "https://mtmcnmregistry.org/media/images/Tamoxifen-team-study-message.pdf",
+            "https://www.jci.org/articles/view/166275",
+            "https://academic.oup.com/brain/article/149/1/317/8217423",
+            "https://insight.jci.org/articles/view/189286",
+            "https://www.nature.com/articles/s42255-026-01484-1",
+            "https://patents.google.com/patent/WO2025003330A1/en",
+            "https://www.science.org/doi/10.1126/science.adx9628",
+            "https://pubmed.ncbi.nlm.nih.gov/42848893/",
+            "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20261009.html",
+            "https://www.onc.rcast.u-tokyo.ac.jp/en/news/2083/",
+            "https://www.repository.cam.ac.uk/items/2aa25ead-0909-4db0-bf05-2aa16861a7bd",
+            "https://www.repository.cam.ac.uk/bitstreams/67b4e029-7bf6-4f78-8c3c-3a401170de35/download",
+            "https://api.repository.cam.ac.uk/server/api/core/bitstreams/67b4e029-7bf6-4f78-8c3c-3a401170de35/content",
+            "https://link.springer.com/article/10.1186/s12576-020-00745-2",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675724/",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675724/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675724/supplementaryFiles",
+            "https://academic.oup.com/hmg/article-abstract/22/9/1856/621976",
+            "https://pubmed.ncbi.nlm.nih.gov/23390130/",
+            "https://hal.science/hal-02881178",
+            "https://www.jci.org/articles/view/71206",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3938268/"
+          ],
+          "proof_phase": "Q0_article_pharmacology_exposure_then_Q1_model_then_conditional_F1_function",
+          "round4_delta": "Two public patent disclosures describe the matching S upstream intermediate, creating a plausible joined reconstruction route. Newly inspected source workbook verifies strong dose-dependent, ceiling-limited wire-hang observations but exposes an unresolved P22 schedule mismatch in the small late-start comparison, incomplete baseline records, and unlinked panel denominators.",
+          "deciding_proof": "Authenticate article, fix independent construct/reaction and exposure method, qualify post-deficit absolute twitch force in one background, then test a locked primary exposure and threshold M=max(.25*Gcal,repeatability floor) in uN. Confirm independently before broader genotype work.",
+          "priority_scope": "Round8 next-action queue; 55/100 planning-effort points, not success probability or money",
+          "round5_delta": "New cell audit887 values; human isogenic precedents; PIK3C3 all-zero/finite-IC50 conflict; enzyme-concentration qualification; terminal-only PK; exact comparator47 prioritized for qualification; four independent proof-design corrections accepted.",
+          "current_review_files": [
+            "research/rounds/round6/round6_blu_milestone.md",
+            "research/rounds/round6/round6_blu_translation.md",
+            "research/rounds/round6/round6_clinical_translation.md",
+            "research/rounds/round5/blu3797-human-proof.md",
+            "research/rounds/round5/round5_blu_pharmacology.md",
+            "research/rounds/round8/blu3797-qualification-package.md",
+            "research/rounds/round8/blu_article_exposure.md",
+            "research/rounds/round8/blu_model_function.md"
+          ],
+          "round6_delta": [
+            "New 2026 mitochondrial-fusion paper and linked 2025 thesis sharpen an on-target question; distinguish single-beta depletion, dual catalytic add-back and dual cardiomyocyte loss.",
+            "Recovered long-term kinase-dead supplement does not provide an animal denominator; separate vascular single-isoform redundancy supports a plausible, endpoint-specific window.",
+            "Adult local Mtm1 deletion and diaphragm-versus-resting-breathing comparator sharpen translational claims without adding exact-BLU efficacy.",
+            "Adult clinical cohort lineage, age/sex structure, biomarker compartment and unresolved caption arithmetic inform endpoint selection; DYN101/TAM toxicity is not assigned to BLU.",
+            "Earlier continuation evidence on VPS34, withdrawal/p62 discordance, ASPIRO lineage and ASP2957 is integrated without counting it as new round6 research."
+          ],
+          "round8_delta": "Original precursor connectivity, enzyme-code/substrate issues, native detection route, selected force model, staged energy/safety comparison, quantitative provenance and independently reviewed decision utility.",
+          "source_reference_scopes": [
+            "research/rounds/round8/blu_article_exposure.json",
+            "research/rounds/round8/blu_model_function.json"
+          ]
+        },
+        {
+          "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+          "name": "Enasidenib for germline IDH2-R140Q D2HGA2",
+          "assessment_date": "2026-11-04",
+          "decision": "Defined clinical development priority: recommend a bounded pediatric article/exposure project linked to prospective organ function.",
+          "priority_scope": "Round8 next-action queue; 15/100 planning-effort points",
+          "proof_phase": "pediatric_article_exposure_then_longitudinal_organ_function",
+          "exact_entity": "Enasidenib; mesylate tablet reference and documented pediatric sprinkle use. Intended infant presentation must be specified; historical clinical lot identity with EP4058028B1 is unverified.",
+          "population": "Direct human treatment anchor is germline heterozygous IDH2-R140Q. R140G, type-I D2HGDH disease and other IDH2 variants do not inherit efficacy.",
+          "functional_evidence": "One clear severe-cardiomyopathy trajectory: LVEF 20–25% at entry, 35–40% at six months and 40–45% at eight months with later fluctuation and concurrent care. A second original child had normal baseline systolic function; Gold had milder baseline disease. Biochemical suppression is strong; neurological outcomes are less causally secure.",
+          "biological_units": "Five outcome case records across three publications; original two and Gold are clearly distinct. Cross-publication linkage of two skin cases is unresolved. Metadata-only five-week-old report adds zero verified outcomes.",
+          "material_route": "Defined marketed tablet and research free-base routes; actual studied sprinkle and concrete minitablet patent. Public route and historical use do not establish received lot, present supply or infant administration compatibility.",
+          "model_route": "ATCC R140Q TF-1/parent route is biochemical, homozygous and cancer-line specific. Endogenous heterozygous mouse and genetic reversibility precedents exist. A new human cardiac model is optional when it discriminates a consequential exposure/function question.",
+          "exposure_and_safety": "Current adult PK includes 7.9-day half-life, tenfold accumulation, 29-day steady state, active metabolite, interactions and plausible A3 antagonism. No infant dose rule or lifelong safety boundary. Direct pediatric ALT/CK observations require a coherent longitudinal exposure/laboratory timeline.",
+          "public_rights_and_contribution": "Existing clinical program and published granted pediatric minitablet composition/process claims prevent a first-pediatric-formulation or open-rights claim. Define an improvement in delivery, exposure, burden/tolerability or prospective clinical evidence; standalone value capture remains unresolved.",
+          "deciding_proof": "One specified pediatric administration/exposure question linked to chiral D-2-HG and a preselected organ-function outcome. Define cardiac, CNS or preventive claim; compare vorasidenib attributes for a CNS product. Clinical evidence and proprietary value remain separate.",
+          "advance_condition": "Reliable delivery and interpretable exposure/PD plus a useful organ-function or preservation signal justify confirmation; a larger product program requires independently supported clinical benefit and a real product advantage.",
+          "stop_or_redirect_condition": "Redirect delivery failure or exposure-related harm; narrow tissue/genotype/timing claims when appropriate. Do not reject human observations from an unqualified model. Stop a standalone product thesis if no useful incremental contribution or practicable product route exists.",
+          "current_S_tier": false,
+          "outreach_needed_for_scientific_selection": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "source_reference_scopes": [
+            "research/rounds/round7/enasidenib_clinical.json",
+            "research/rounds/round7/enasidenib_product.json",
+            "research/rounds/round8/clinical_challenge.json"
+          ],
+          "source_urls": [
+            "https://aacrjournals.org/cancerdiscovery/article/7/5/478/6259/AG-221-a-First-in-Class-Therapy-Targeting-Acute",
+            "https://cdn.caymanchem.com/cdn/insert/21277.pdf",
+            "https://clinicaltrials.gov/api/v2/studies/NCT02813135",
+            "https://clinicaltrials.gov/api/v2/studies/NCT04203316",
+            "https://clinicaltrials.gov/api/v2/studies/NCT04310527",
+            "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+            "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf",
+            "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-514791-40-00",
+            "https://genesdev.cshlp.org/content/28/5/479.full.pdf",
+            "https://link.springer.com/article/10.1007/s10545-012-9462-5",
+            "https://link.springer.com/article/10.1007/s10545-016-9960-y",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750430/",
+            "https://pubmed.ncbi.nlm.nih.gov/20847235/",
+            "https://simd.swoogo.com/2026/abstracts",
+            "https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-023-02382-9/MediaObjects/41591_2023_2382_MOESM1_ESM.pdf",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/209606Orig1s007ltr.pdf",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209606Orig1s000MultidisciplineR.pdf",
+            "https://www.atcc.org/atcc/productsheetpdf/generatehtmlpdf/crl-2003ig",
+            "https://www.atcc.org/products/crl-2003ig",
+            "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000133-40/NL",
+            "https://www.ema.europa.eu/en/documents/withdrawal-report/withdrawal-assessment-report-idhifa_en.pdf",
+            "https://www.fda.gov/media/76860/download?attachment=",
+            "https://www.nature.com/articles/s41591-023-02382-9",
+            "https://www.sciencedirect.com/science/article/pii/S109671922600377X"
+          ],
+          "current_review_files": [
+            "research/rounds/round7/enasidenib_clinical.md",
+            "research/rounds/round7/enasidenib_product.md",
+            "research/rounds/round7/review_enas_by_rux_clinical.md",
+            "research/rounds/round8/clinical_challenge.md"
+          ],
+          "round7_delta": "Full clinical lineage and 177-cell laboratory audit; specific public pediatric formulation, adult PK/DDI/A3 and model audit; staged clinical proof with independent challenge. Removed from the reserve list to avoid conflicting current dispositions.",
+          "priority": 2,
+          "round8_delta": "R140Q-active vorasidenib added as CNS mechanism/exposure comparator; tumor PK is not normal infant-brain exposure or safety superiority. Cardiac treatment, neurological benefit and neonatal prevention split. Existing sprinkle requires a demonstrated new administration/exposure contribution."
+        },
+        {
+          "candidate_id": "R6-NL-01",
+          "name": "Ruxolitinib 1.5% cream for refractory Hailey–Hailey disease",
+          "assessment_date": "2026-11-04",
+          "decision": "Defined controlled clinical-proof priority: recommend marketed-article, protocol and measurement qualification followed by a contemporaneously controlled patient-benefit comparison.",
+          "priority_scope": "Round8 next-action queue; 10/100 planning-effort points",
+          "proof_phase": "article_protocol_measurement_then_controlled_clinical_function",
+          "exact_entity": "Prospective standardized Opzelura 1.5% cream, 15 mg/g ruxolitinib base equivalent as 19.8 mg/g phosphate. Historical cases verify active/concentration/route, not every brand, vehicle or lot.",
+          "functional_evidence": "Five distinguishable exact-strength case reports support useful local control. Monotherapy-style treatment, add-on induction and topical maintenance are kept separate. No controlled exact-rux HHD effect estimate was verified.",
+          "biological_units": "Five selected single-patient reports, not a consecutive treated denominator. EADV duplicate and separate 1%+naltrexone report excluded from that count. Nine-patient preprint remains abstract-only and unpooled.",
+          "material_route": "Manufactured marketed cream defines a clinical article. Research free base/phosphate are assay routes, not equivalent clinical formulations. Qualified matched vehicle is one option; pragmatic randomized whole-product add-on comparison is a defined alternative.",
+          "model_route": "ATP2C1 engineered/organotypic research precedents, with parent identity and assay-stage limits. Optional mechanism work only; immune-free model negativity cannot rule out an inflammatory clinical mechanism.",
+          "exposure_and_safety": "AD PK: 479-person 1.5% phaseIII subgroup, mean Css 35.7 nM; maximum-use n=40 mean 104 nM with high-exposure extremes. No HHD PK boundary. 281 nM is a laboratory proxy, not a universal safety threshold; follow current label/combination context.",
+          "public_rights_and_contribution": "Existing composition/formulation claims and branded franchise; current ANDA litigation. KB111 and guselkumab are active distinct HHD programs. Controlled data may be valuable, while a proprietary asset needs a differentiated benefit and executable rights/manufacturing/regulatory route.",
+          "deciding_proof": "Controlled standardized1.5% cream plus protocolized care against the same care; preselected meaningful pain/erosion/rescue/burden outcome, masked assessment, exposure and all-randomized/maintenance denominators. Procedure avoidance requires a relevant sweat-control comparison.",
+          "advance_condition": "Controlled useful clinical benefit or comparable efficacy with a meaningful burden/tolerability advantage, interpretable exposure and acceptable observed safety; exploratory evidence can justify independent confirmation.",
+          "stop_or_redirect_condition": "Rule out a meaningful benefit only with an informative design and adequate delivery; redirect measurement/article failures. Stop the proposed product for reproducible unacceptable effective-exposure harm or no differentiated product contribution.",
+          "current_S_tier": false,
+          "outreach_needed_for_scientific_selection": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "source_reference_scopes": [
+            "research/rounds/round7/rux_hhd_clinical.json",
+            "research/rounds/round7/rux_hhd_product.json",
+            "research/rounds/round8/clinical_challenge.json"
+          ],
+          "source_urls": [
+            "https://cdn.caymanchem.com/cdn/insert/11609.pdf",
+            "https://clinicaltrials.gov/api/v2/studies/NCT06651489",
+            "https://clinicaltrials.gov/api/v2/studies/NCT07717346",
+            "https://clinicaltrials.gov/api/v2/studies?query.cond=Hailey-Hailey&pageSize=100&format=json&countTotal=true",
+            "https://clinicaltrials.gov/study/NCT06651489",
+            "https://clinicaltrials.gov/study/NCT07717346",
+            "https://dermatology.bwh.harvard.edu/docs/Cell-Culture-Core-Cell-Lines.pdf",
+            "https://github.com/OMICShub-Imagine/HaileyHailey_multiOME",
+            "https://journals.physiology.org/doi/full/10.1152/ajpcell.00372.2026",
+            "https://link.springer.com/article/10.1007/s40257-021-00610-x",
+            "https://link.springer.com/article/10.1007/s40257-022-00690-3",
+            "https://onlinelibrary.wiley.com/doi/10.1111/cup.70156",
+            "https://onlinelibrary.wiley.com/doi/10.1111/jdv.19583",
+            "https://patents.google.com/patent/US10758543B2/en",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13228494/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13252397/",
+            "https://pubmed.ncbi.nlm.nih.gov/15888147/",
+            "https://s3.us-east-1.amazonaws.com/dl.jddonline.com/pdfs/24-11_eJDD.pdf",
+            "https://static-content.springer.com/esm/art%3A10.1007%2Fs40257-022-00690-3/MediaObjects/40257_2022_690_MOESM1_ESM.pdf",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215309s009sdn953lbl.pdf",
+            "https://www.atcc.org/products/crl-4048",
+            "https://www.caymanchem.com/product/11609/ruxolitinib",
+            "https://www.caymanchem.com/product/23215/ruxolitinib-phosphate",
+            "https://www.cellosaurus.org/CVCL_UZ62",
+            "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-000373-80/results",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10696304/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12423694/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12724522/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13220019/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8200345/fullTextXML",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142470/fullTextXML",
+            "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files",
+            "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements",
+            "https://www.fda.gov/media/76860/download?attachment=",
+            "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applications-covered-section-505b2",
+            "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/new-clinical-investigation-exclusivity-3-year-exclusivity-drug-products-questions-and-answers",
+            "https://www.hmpgloballearningnetwork.com/site/thederm/case-report/successful-treatment-recalcitrant-hailey-hailey-disease",
+            "https://www.researchgate.net/publication/394926669_Refractory_anogenital_Hailey-Hailey_disease_successfully_treated_with_topical_ruxolitinib",
+            "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000072/exhibit991-3q26pressrelease.htm",
+            "https://www.sec.gov/Archives/edgar/data/879169/000087916926000066/incy-20260930.htm",
+            "https://zenodo.org/records/17803985"
+          ],
+          "current_review_files": [
+            "research/rounds/round7/rux_hhd_clinical.md",
+            "research/rounds/round7/rux_hhd_product.md",
+            "research/rounds/round7/rux_hhd_development_proof.md",
+            "research/rounds/round7/review_rux_by_enas_clinical.md",
+            "research/rounds/round7/rux_hhd_product_review.md",
+            "research/rounds/round8/clinical_challenge.md"
+          ],
+          "round7_delta": "Five-report clinical audit, DERM101 concurrent-control benchmark, mechanistic citation correction, quantitative PK/high-exposure and official-patent audit, current competitors and a staged clinical proof. No new lead counted.",
+          "priority": 3,
+          "round8_delta": "OnabotulinumtoxinA sweat-control benchmark added. Seven-person randomized study is separate from30-person mixed pilot with26HHD/4Darier and11HHD relapses. Late survivor efficacy is not all-randomized maintenance. Product contribution includes sustained control and lower treatment/rescue burden."
+        },
+        {
+          "candidate_id": "R3-NL-01",
+          "name": "NDC-9009 topical proof for ATP2A2 Darier disease",
+          "family": "Darier calcium-homeostasis repair",
+          "novelty": "new_to_reviewed_inventory",
+          "alias_basis": {
+            "regex": "\\bDarier\\b|NDC.?9009|CDN.?1163|ATP2A2",
+            "searched": [
+              "ddiscov_snapshot/atlas/*.md",
+              "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+            ],
+            "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+          },
+          "exactarticle": "NDC-9009, inferred systematic name 4-(dimethylamino)-N-(2-methylquinolin-8-yl)benzamide from published synthesis, [M+H]+306. Distinct from CDN1163. Topical formulation is a proposal, not a published clinical product.",
+          "function": "2026 patient keratinocyte dispase mechanical-adhesion rescue with 5 µM NDC-9009 during a 4-hour calcium switch. Four isolates represent three donors: DD1/DD2 same p.Asn39Asp donor; DD3/DD4 two p.Gln177Pro donors. Three experimental repeats are not three independent patient cohorts. Earlier desmoplakin localization normalizes by four hours even untreated; its one-hour rescue used CDN1163, not NDC-9009.",
+          "decision": "Provisional local qualification priority; compare directly with APR-246/AEC proof value and RM4404 replication. No overall evidentiary superiority to APR-246 established.",
+          "decidingproof": "Authenticate NDC9009; measure dissolved/free assay concentration and viable-epidermis exposure. Treat a qualified established, stable or predictable mature adhesion/permeability deficit, with donor structure, healthy-tissue effects and withdrawal/stress function preserved. Compare dantrolene and practical current care where the model can capture each mechanism. Require useful repair and a local/systemic window, not calcium-switch assembly or marker shifts.",
+          "go": "Reproducible delayed functional rescue at measured achievable epidermal exposure with a useful advantage over a simpler comparator and an adequate healthy-skin window.",
+          "stop": "Only junction assembly/prophylaxis improves, formulation or irritation explains the apparent effect, drug cannot be delivered to viable epidermis at active exposure, or simpler comparator performs as well without a meaningful product advantage.",
+          "source_urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311773/",
+            "https://patents.google.com/patent/US20190151303A1/en",
+            "https://insight.jci.org/articles/view/170739/",
+            "https://www.atcc.org/products/crl-1098",
+            "https://www.mdpi.com/1422-0067/24/18/13973",
+            "https://pubmed.ncbi.nlm.nih.gov/42849607/",
+            "https://euclinicaltrials.eu/ctis-public/view/2024-519201-36-00",
+            "https://ctis.eu/trial/2024-519201-36-00",
+            "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-519201-36-00",
+            "https://euclinicaltrials.eu/ctis-public-api/documents/2024-519201-36-00/0c63f05c-80f0-4f3a-a9ec-58c143fb1a40/download"
+          ],
+          "evidence_date": "2026-08",
+          "material_route": "Public synthesis and analytical characterization; no batch acquired/authenticated. Published neurobiology studies used Neurodon-sourced material. Public synthesis provides a research route independent of contacting that company.",
+          "exposure_gap": "5 µM nominal cell-medium concentration is not free epidermal exposure. No matched skin PK or quantitative SERCA healthy-skin window recovered.",
+          "rights": "Neurodon quinoline/SERCA patent family exists; exact NDC-9009 claim mapping and use/formulation scope not determined. No freedom-to-operate assertion.",
+          "key_uncertainty": "Treatment timing and biological donor denominator materially reduce strength relative to the headline.",
+          "screening_round": 3,
+          "research_team": "cross_domain",
+          "novelty_classification": "new_to_reviewed_inventory",
+          "exact_entity": "NDC-9009, inferred systematic name 4-(dimethylamino)-N-(2-methylquinolin-8-yl)benzamide from published synthesis, [M+H]+306. Distinct from CDN1163. Topical formulation is a proposal, not a published clinical product.",
+          "functional_evidence": "2026 patient keratinocyte dispase mechanical-adhesion rescue with 5 µM NDC-9009 during a 4-hour calcium switch. Four isolates represent three donors: DD1/DD2 same p.Asn39Asp donor; DD3/DD4 two p.Gln177Pro donors. Three experimental repeats are not three independent patient cohorts. Earlier desmoplakin localization normalizes by four hours even untreated; its one-hour rescue used CDN1163, not NDC-9009.",
+          "deciding_proof": "Authenticate NDC9009; measure dissolved/free assay concentration and viable-epidermis exposure. Treat a qualified established, stable or predictable mature adhesion/permeability deficit, with donor structure, healthy-tissue effects and withdrawal/stress function preserved. Compare dantrolene and practical current care where the model can capture each mechanism. Require useful repair and a local/systemic window, not calcium-switch assembly or marker shifts.",
+          "advance_condition": "Reproducible delayed functional rescue at measured achievable epidermal exposure with a useful advantage over a simpler comparator and an adequate healthy-skin window.",
+          "stop_condition": "Only junction assembly/prophylaxis improves, formulation or irritation explains the apparent effect, drug cannot be delivered to viable epidermis at active exposure, or simpler comparator performs as well without a meaningful product advantage.",
+          "current_S_tier": false,
+          "outreach_needed_for_scientific_selection": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "assessment_date": "2026-11-04",
+          "independent_challenge": {
+            "finding": "Published PBS pH7.4 solubility is0.23 micromolar, versus5 micromolar nominal concentration in the Darier assay (about22-fold). This is a formulation/exposure uncertainty, not proof the assay is invalid or a ceiling on skin exposure.",
+            "biological_failure_mode": "Residual SERCA may be inactivated in an established lesion. Junction-assembly protection may not translate to delayed repair.",
+            "comparator": "NAC protects mechanical adhesion in the same primary disease model. CDN1163 is a separate same-target comparator; no superiority follows from next-generation wording.",
+            "source_urls": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/"
+            ],
+            "primary_sources_verified_by_integrator": true
+          },
+          "model_route": "Public JCI170739 SERCA2-perturbed keratinocyte model can guide an independently qualified build. Original N/TERT-2G and mutant clones are not verified standard stock. Catalog Ker-CT or primary HEKa/HEKn are alternative parent routes,not validated replicas. ATCC Lei CapCRL-1098 is an archival Mission Collection fibroblast without a public ATP2A2 genotype,not ready patient epidermis. The published Addgene PX458 route has industry-access restrictions; an independently validated commercial RNP implementation is a separate alternative. Existing treated cultures represent three donors and two actuator-domain variants with approximately70% SERCA2 protein. Biopsy-only DD5–7 are not extra efficacy donors. Qualify residual functional target rather than assume every ATP2A2 variant responds.",
+          "priority": 5,
+          "proof_phase": "delivery_qualification_then_delayed_skin_repair",
+          "source_ids": [
+            "S098",
+            "S099",
+            "S100",
+            "S101",
+            "S102",
+            "S103"
+          ],
+          "round4_delta": [
+            "Both culture variants lie in the SERCA2 actuator domain. Mean protein abundance is about 70% of control; it is not a measured 50%-protein-null model. Calcium imaging in the retrieved section used DD2.",
+            "DD5–7 were biopsy immunohistochemistry samples, not additional NDC-treated culture donors.",
+            "DD3–4 required Y27632 during maintenance; all DD cultures and CTL1–2 received it for consistency. It was removed 24–36 h before assays, so there is no demonstrated concurrent ROCK-inhibitor confound.",
+            "The 2023 healthy-neuron result involved spine-neck morphology at 0.1 µM, with at least 10 neurons / 70 spines from one culture batch. It is not observed skin toxicity; the 2025 intraperitoneal CNS study does not qualify topical exposure.",
+            "The Darier paper section titled Solubility assay measures protein detergent solubility, not dissolved NDC-9009."
+          ],
+          "priority_scope": "Round8 queue;2 core points plus2 roflumilast-comparator points",
+          "round5_delta": "Actual CTIS dantrolene results recovered:16oral starters,10paired completers,6nonresponse discontinuations, uncontrolled PGA/DLQI signal, EASI/BSA nonsignificant, retinoid washout/restart and no direct barrier result. Final-submitted PDFs remain draft-labelled. Dantrolene becomes an adult clinical benchmark; it establishes neither topical delivery nor NDC benefit.",
+          "current_review_files": [
+            "research/rounds/round5/round5_ndc_comparator_update.md",
+            "research/rounds/round8/new_candidates.md"
+          ],
+          "round8_delta": "Add exact roflumilast0.3% cream/Darier human case as symptom comparator, not barrier-repair proof or HHD transfer. No new NDC efficacy; calcium-restoration/adhesion advantage must be clinically useful."
+        },
+        {
+          "candidate_id": "R3-NM-01",
+          "name": "8015-P2 mitofusin activation for MFN2-CMT2A",
+          "aliases": [
+            "8015-P2",
+            "8015 P2",
+            "MiM111",
+            "trans-MiM111",
+            "mitofusin",
+            "MFN2",
+            "Chimera C"
+          ],
+          "novelty_classification": "new_to_reviewed_inventory",
+          "novelty_type": "new_to_reviewed_inventory",
+          "alias_search_basis": {
+            "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+            "matched_prior_candidate_records": 0,
+            "prior_inventory_ids": [],
+            "searched_aliases": [
+              "8015-P2",
+              "8015 P2",
+              "MiM111",
+              "trans-MiM111",
+              "mitofusin",
+              "MFN2",
+              "Chimera C"
+            ],
+            "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+          },
+          "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+          "source_ids": [
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S056",
+            "S057"
+          ],
+          "source_urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+            "https://elifesciences.org/articles/61119",
+            "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1095725",
+            "https://patents.google.com/patent/WO2023196340A1/en",
+            "https://www.nyscf.org/wp-content/uploads/2025/05/Available-iPSCs_CMTA_051525.pdf",
+            "https://www.nyscf.org/resources/stem-cell-search/",
+            "https://cmtausa.org/simply-cmt/cmt2a-ipsc-motor-neuron-assay-cmta-star/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7332790/",
+            "https://research.kuleuven.be/portal/en/project/3M260565",
+            "https://insight.jci.org/articles/view/200106",
+            "https://academic.oup.com/brain/article/144/8/2471/6299386",
+            "https://cmtausa.org/preclinical-toolbox/",
+            "https://patentsgazette.uspto.gov/week35/OG/html/1550-1/US12721327-20260901.html",
+            "https://www.mdpi.com/article/10.3390/ijms27167376/s1"
+          ],
+          "current_S_tier": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "outreach_needed_for_scientific_selection": false,
+          "family_id": "mitofusin_activation_CMT2A",
+          "exact_entity": "The slower-eluting chiral SFC peak 8015-P2 defined in Weigele et al. 2024, with the article/supplement stereochemical and analytical reference; do not substitute parent 8015 mixture, MiM111, Chimera C, or generic piperine.",
+          "functional_evidence": "Exact P2 improves established sensory/motor phenotypes in approximately 50-week-old Mfn2 T105M knock-in mice and rats. The 2026 rat study randomized and blinded testing; dose cohorts contain four rats per dose and seven WT comparators. The 10 mg/kg cohort stopped at four weeks after normal-range values. A separate acute motility assay used 100 mg/kg, not the chronic dose.",
+          "biological_sample_counts": {
+            "2026_rat_dose_response": "4 animals/dose; WT reference 7; counts of other cohorts differ and were not imputed",
+            "2024_mouse_exact_P2": "Histology 4 mice/group and synapse counts 3/group; functional panel n values reside in the figures and were not independently transcribed",
+            "2024_human_8015_mixture": "One T105M patient background; independent culture experiments are not donors",
+            "2020_human_Chimera_C": "Four patient backgrounds; chemically different article",
+            "2020_MiM111_mouse": "6 mice/group; sample target reduced from planned 15 because effect was larger than anticipated"
+          },
+          "evidence_boundaries": "Human evidence uses the 8015 mixture (2024) or Chimera C (2020), not exact P2. Multiple species largely share the research group and T105M allele. Failure to differ from WT is not an equivalence test. The 8015 mixture binding and brain-partition values cannot be assigned to P2. Allele-specific mitochondrial shape is not a reliable substitute for measured fusion or drug-response selection. The2020 correction withdrew the incorrect R364W-based harm inference; it did not retract the whole paper.",
+          "material_route": "2024 public synthesis scheme and chiral separation permit a specified custom-chemistry brief. 2026 material was a company gift, not demonstrated catalog stock; authenticate stereochemistry, peak identity and purity before interpretation.",
+          "exposure_and_safety": "P2 glucuronidation and enterohepatic recirculation are described. Quantitative human unbound target-tissue exposure and a chronic functional safety margin remain unresolved. Do not treat a limited target panel divided by fusion EC50 as a clinical therapeutic index. The single10micromolar panel does not establish >10000fold universal selectivity: MAO-A59% is radioligand displacement, hERG-14% is binding, and neither is a functional clinical margin.",
+          "current_pipeline_and_rights": "FDA orphan designation dated 2025-10-06 is for a generic small-molecule mitofusin activator sponsored by Mitochondria in Motion Discovery, not proof that P2 has clinical clearance. WO2023196340 includes a displayed granted US family member US12396968B2; ceased PCT status does not establish open rights.",
+          "decision": "Continue staged independent exact-compound human-function proof; no S-tier promotion.",
+          "ranking_delta": "Retain human-function proof priority with a more concrete first neuronal assay route. No new exact-P2 human functional response was established in round4.",
+          "deciding_proof": "After a qualified, stable or predictably changing deficit, compare independently authenticated P2, parent mixture, less-active P1 and vehicle in mature human motor-neuron/muscle co-cultures spanning T105M and another MFN2 pathogenic background, with isogenic correction controls. Measure evoked NMJ-mediated force, transmission reliability, fatigue, direct-muscle-stimulated force and free exposure. Treat transport/morphology as mechanistic covariates. Separate continuous from pulsed exposure and measure healthy neuronal/cardiac function at the same free concentrations. Qualify delayed functional modifiability separately from genetic correction before differentiation; match final solvents and interpret tissue distribution rather than assuming equal culture exposure establishes the systemic window.",
+          "advance_condition": "Replicated recovery of established useful human function with exact P2, not only mitochondrial morphology, at an interpretable tissue exposure and tolerable functional window. A T105M-only result narrows the claim instead of supporting all CMT2A.",
+          "stop_condition": "No useful exact-P2 benefit despite adequate exposure and engagement in a model with a qualified post-deficit functional positive control; only parent mixture works; benefit is generic hyperexcitability/growth; or measured relevant-tissue exposure impairs useful healthy function. A model without a disease-functional deficit is not a target-negative result.",
+          "screening_round": 3,
+          "research_team": "neuromuscular",
+          "assessment_date": "2026-11-04",
+          "independent_challenge": {
+            "finding": "One-patient human data use parent8015 mixture; four-patient earlier work uses Chimera C. Exact P2 evidence is in animal systems. Small-n nonsignificance versus WT is not equivalence.",
+            "proof_change": "Measure low-dose free exposure directly and separate nerve-mediated from directly stimulated muscle force; acute100mg/kg motility data do not establish PD coverage at chronic1-10mg/kg doses.",
+            "source_urls": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/"
+            ],
+            "primary_sources_verified_by_integrator": true
+          },
+          "model_route": "NYSCF/CMTA catalog identifies AG0002-01-MR(MFN2 H361Y),AG0008-01-MR(c.2219G>C; protein annotation needs reconciliation),and AG0015-01-MR(R364W),with iPSC and fibroblast routes. Distribution is request-based; dates are not a stock check. No exact T105M patient stock verified. Each line requires independent neuronal/neuromuscular qualification and isogenic control; engineered T105M is a separate rebuild branch. March2026 CMTA account adds an operating R364W service based on one patient and a healthy comparator. Function means transport/morphology there, not useful nerve-muscle transmission. Do not infer T105M stock from the Summer2024 recruitment table or ready organoid function from a future grant. Round5 adds exact isogenic R94Q methods and a separate patient/isogenic electrical phenotype; choose the function actually impaired and demonstrate delayed modifiability. CMTA/PsychoGenics operating R364W rat service is distinct from unrestricted stock.",
+          "priority": 6,
+          "proof_phase": "independent_exact_compound_human_function",
+          "round4_delta": "CMTA describes an already-used BrainXell/ANANDA R364W motor-neuron screening assay. This improves a first mechanistic assay route but supplies no exact-P2 response or NMJ-force endpoint. Summer2024 T105M table was a donor wishlist, not inventory. R364W human-harm extrapolation in an older paper was withdrawn by correction.",
+          "priority_scope": "Round8 queue;2/100 maintenance points; prior exact-article function proof retained",
+          "round5_delta": "Independent isogenic R94Q transport model has no overt patch-clamp deficit at tested age; a separate corrected patient line supplies network-burst phenotype. Operating R364W rat service and model grant support a second-allele challenge. Publisher supplement recovered:75binding+12enzyme/cell rows; MAO-A59% is binding. DMSO matching remains a transfer question.",
+          "current_review_files": [
+            "research/rounds/round5/round5_existing_leader_updates.md",
+            "research/rounds/round5/p2-off-target-audit.md"
+          ]
+        },
+        {
+          "candidate_id": "AAT_EVLP",
+          "priority": 8,
+          "name": "Alpha-1-antitrypsin for donor-lung repair during perfusion",
+          "origin": "new to repository",
+          "assessment_date": "2026-11-04",
+          "exact_entity": "Plasma-derived human AAT; Zemaira is a specified manufactured starting product",
+          "functional_evidence": "Eight donor-paired human lung experiments show physiological improvement; earlier abstract likely reports the same dataset. Pig ex vivo and recipient-treatment studies support separate claims. Independent2018 mouse transplantation work used active recombinant AAT, a non-inhibitory loop mutant, albumin and PR3/NE-deficient recipients. This strengthens protease-specific causality in cold preservation and does not establish exact warm-human formulation equivalence.",
+          "research_material_route": "FDA-approved product route establishes manufacturing precedent, not permission to relabel or evidence of EVLP compatibility.",
+          "model_route": "Declined human donor lungs on paired circuits; actual institutional organ access is not secured in this desktop review.",
+          "exposure_risk": "Warm 12-hour recirculation requires activity/stability/adsorption assessment; protein and electrolyte matching can change the apparent benefit.",
+          "public_rights_note": "CSL AAT organ-perfusion patent application identified. New value must be a better qualified repair regimen/product, not rediscovery of AAT use.",
+          "next_decision_question": "Does qualified dual NE/PR3 activity add durable organ function beyond physically matched perfusate and a simpler NE-selective comparator after washout?",
+          "proposed_advance_condition": "AAT supplies persistent useful gas-transfer/compliance benefit at qualified activity and adds value beyond the simpler comparator.",
+          "proposed_stop_condition": "Stop the differentiated AAT product thesis if physical matching or the simpler comparator explains the useful effect, or if activity is lost before the intended treatment window.",
+          "source_ids": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "decision": "small formulation/potency gate before larger organ validation",
+          "current_S_tier": false,
+          "outreach_needed_for_scientific_selection": false,
+          "physical_supply_confirmed": false,
+          "experiment_performed": false,
+          "related_inventory_ids": [],
+          "round3_delta": [
+            "Patent pilot compares 10 mg/mL AAT with saline; protein/oncotic matching is unestablished.",
+            "Current label defines approximately 50 mg/mL reconstitution, mannitol/phosphate excipients, functional elastase-neutralizing potency, and a three-hour postreconstitution use interval.",
+            "Calculated contribution from a 50 mg/mL stock at 10 mg/mL final: stock fraction 20%, mannitol approximately 24–34 mM, phosphate 3–4 mM. This is a proposed formulation calculation, not the 2026 paper's recipe.",
+            "Canadian trial record last updated July 2026 lists UHN randomized Zemaira lung-transplant prevention trial as not yet recruiting; ex vivo-only route not established by record."
+          ],
+          "source_urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+            "https://www.sciencedirect.com/science/article/pii/S1053249820312997",
+            "https://patents.google.com/patent/US20190059362A1/en",
+            "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+            "https://recherche-essais-cliniques.canada.ca/en/clinical-trial/294199-lung-transplantation",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078707/",
+            "https://pubmed.ncbi.nlm.nih.gov/27095003/",
+            "https://academic.oup.com/ejcts/article/32/5/791/373916",
+            "https://pubmed.ncbi.nlm.nih.gov/15286546/",
+            "https://pubmed.ncbi.nlm.nih.gov/41811317/"
+          ],
+          "proof_phase": "formulation_then_paired_organ_function",
+          "round4_delta": [
+            "Independent 2018 study compared active recombinant AAT with a non-inhibitory reactive-center mutant and albumin during cold preservation. PR3/NE-null recipients were also protected; this strengthens protease-specific causality.",
+            "The inspected cold-storage regimen used 1 mg/mL AAT, 18h storage and 4h recipient reperfusion. This is separate from the warm human EVLP experiment."
+          ],
+          "deciding_proof": "Reconcile nominal protein mass, antigen recovery, dual NE/PR3 functional potency and perfusate mass balance during warm recirculation; match electrolytes/excipients/protein. Compare with a simpler NE-selective intervention and require useful recipient-like drug-free reperfusion function. Do not transfer systemic posttransplant evidence to an ex-vivo-only pulse.",
+          "priority_scope": "Round8 queue;1/100 maintenance point; prior formulation/activity gate retained",
+          "round5_delta": "Patent pig experiment reports3mg/mL added AAT versus0.5mg/mL measured antigen; cause unresolved, with electrolyte differences. Additional independent allograft/systemic-recipient evidence is not exact warm-EVLP replication. Separate mass, antigen recovery and functional NE/PR3 activity.",
+          "current_review_files": [
+            "research/rounds/round5/round5_existing_leader_updates.md"
+          ]
+        }
+      ],
+      "secondary_priorities": [
+        {
+          "candidate_id": "R3-NM-02",
+          "role": "serious human-sequence translation proof; staged behind exact-article front runners"
+        },
+        {
+          "candidate_id": "R3-OR-01",
+          "role": "strong organ benchmark and conditional differentiated preservation proof; active external program",
+          "round4_delta": "Analytical-deposit metadata improves traceability; full human EVLP methods remain unverified. Independent non-ferroptotic mechanisms limit specificity claims. No broad ex vivo safety inference from systemic studies."
+        }
+      ],
+      "retained_reserves": [
+        {
+          "candidate_id": "MIGF_CORNEA",
+          "decision": "retained conditional active-comparator formulation proof"
+        },
+        {
+          "candidate_id": "FEM1269_IRON",
+          "decision": "retained exact-compound human iron-transfer proof"
+        },
+        {
+          "candidate_id": "CPTX_SCI",
+          "decision": "retained independent delayed-contusion replication reserve"
+        },
+        {
+          "candidate_id": "PLCZ_FERTILITY",
+          "decision": "demoted to comparator-dependent reserve"
+        },
+        {
+          "candidate_id": "R3-NL-04",
+          "decision": "LHCGR genotype-specific reproductive-function reserve"
+        },
+        {
+          "candidate_id": "R3-NL-05",
+          "decision": "MG53 delayed optical/barrier recovery reserve"
+        },
+        {
+          "candidate_id": "R3-NM-04",
+          "decision": "XIB4035 established sensory-function reserve"
+        },
+        {
+          "candidate_id": "R3-OR-03",
+          "decision": "SAR247799 pulmonary barrier/withdrawal successor experiment"
+        },
+        {
+          "candidate_id": "R4-L02",
+          "decision": "Serious local translational challenger; independent durable barrier and skin exposure qualification.",
+          "round5_delta": "Cultured-cell intervention was differentiation pretreatment; chronic human lesions lack complete cornification/barrier proof. US12521392B2claim1 requires AEC corneal disease, with dependent skin/cream claims retaining that predicate. No all-skin legal conclusion."
+        },
+        {
+          "candidate_id": "R4-NM-01",
+          "decision": "Chronic SCI functional reserve; supported stepping and disputed compound mechanism limit claim."
+        },
+        {
+          "candidate_id": "R4-NM-02",
+          "decision": "Exact TAT-fused P110 human-cell reserve; useful circuit function and CNS window missing."
+        },
+        {
+          "candidate_id": "R4-OB-02",
+          "decision": "Genotype-aware podocyte-function reserve; explicit negative model retained."
+        },
+        {
+          "candidate_id": "R4-RT-01",
+          "decision": "Islet-manufacturing preservation reserve; donor-clustered comparison and residual clearance needed."
+        },
+        {
+          "candidate_id": "R5-C01",
+          "name": "Pantethine for PPCS-deficiency dilated cardiomyopathy",
+          "decision": "Retain defined-species/exposure cardiac reserve; CoA-Z supplies an oral PPanSH comparator without transferring PKAN efficacy.",
+          "deciding_proof": "Resolve pantethine/pantetheine identity and active species, then compare PanSH/PanSSPan/PPanSH under qualified disease-force conditions and interpretable exposure. PPanSH oral feasibility is separate from efficacy in PPCS.",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round6/round6_reserve_challenge.md"
+        },
+        {
+          "candidate_id": "R5-C02",
+          "name": "Topical gentamicin sulfate for susceptible LAMA3/LAMB3 nonsense JEB",
+          "decision": "Human functional reserve; qualify differentiated product value and treatment-area safety before advancement.",
+          "deciding_proof": "Independent established-wound/skin-resilience benefit attributable to readthrough, with measured systemic exposure and superiority to an antimicrobial-active control.",
+          "current_S_tier": false
+        },
+        {
+          "candidate_id": "R5_ORKAMBI_KCNH2_LQT2_TRAFFICKING",
+          "name": "Lumacaftor/ivacaftor for selected KCNH2 trafficking-defective LQT2",
+          "decision": "retain_scientific_challenger_development_hold",
+          "deciding_proof": "Independently compare both components and the combination after established electrical dysfunction, with free-exposure mapping, paced APD, gating/IKr and triggered activity. Include negative G604S and practical active comparator; later controlled durable clinical benefit needed.",
+          "current_S_tier": false
+        },
+        {
+          "candidate_id": "R6-NL-03",
+          "name": "Nicotinamide for NAXE deficiency",
+          "decision": "Conditional clinical-research reserve",
+          "deciding_proof": "Prospective genotype/severity-stratified functional study recording exact vitamin species, timing and background care; outcomes include mobility, consciousness, respiratory dependence and episode burden",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round6/round6_new_leads.md"
+        },
+        {
+          "candidate_id": "R6-NL-05",
+          "name": "ABX-1431 for AP4B1-SPG47 developmental functional rescue",
+          "decision": "Conditional reserve",
+          "deciding_proof": "Qualify exact lot, occupancy/time course and independent AP4B1/corrected controls; measure useful connectivity or sustained axon function, with a delayed-treatment arm after a measured deficit",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round6/round6_new_leads.md"
+        },
+        {
+          "candidate_id": "R8-NL-01",
+          "name": "Fluoxetine in KCNC1 gain-of-function disorder",
+          "decision": "Conditional clinical-research reserve and methodological benchmark; no S-tier or precision-therapy confirmation.",
+          "deciding_proof": "The immediate contribution would be better variant-specific evidence, a credible exposure bridge, or a more selective article. Generic fluoxetine availability does not create exclusivity. First determine whether the claimed channel mechanism is plausible at clinical exposure; then predefine a meaningful developmental outcome, independent masked assessment, stable cointerventions and carryover handling. Reproducible useful function and tolerability advance the clinical-research case. Failure of exposure plausibility stops the *precision Kv3.1* claim even if a nonspecific symptomatic effect remains possible. Persistent trivial/null benefit stops expansion of this product thesis. No automatic treatment-withdrawal requirement is proposed.",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round8/new_candidates.md",
+          "source_reference_scope": "research/rounds/round8/new_candidates.json",
+          "next_action_rank": null,
+          "planning_effort_points": 0
+        },
+        {
+          "candidate_id": "R8-NL-02",
+          "name": "Lisdexamfetamine in KCNMA1-N999S PNKD",
+          "decision": "Strongest new prospective clinical-evidence question in this set; selected cases and weak exclusive-product contribution remain material.",
+          "deciding_proof": "This is the strongest new **clinical-evidence** question in this set: prospectively enroll eligible genotype-defined patients, record nonresponders, independently adjudicate events and quantify interrupted daily activity. Separate attention/mood changes from PNKD benefit and preserve growth, appetite, sleep and cardiovascular tradeoffs. Advance if useful PNKD control generalizes beyond selected responders with acceptable burden. Stop a broad product claim if the effect is confined to selected cases, is only an attention benefit, or requires unacceptable coverage-related harms. The obvious value is evidence and a better coverage/burden solution; no exclusive asset has been identified.",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round8/new_candidates.md",
+          "source_reference_scope": "research/rounds/round8/new_candidates.json",
+          "next_action_rank": 4,
+          "planning_effort_points": 6
+        },
+        {
+          "candidate_id": "R8-EX-01",
+          "name": "Selective thin-filament desensitization for TNNT2-R94C; exact W7 deprioritized",
+          "decision": "Deprioritize exact W7 as a systemic article; retain selective thin-filament-desensitization discovery.",
+          "deciding_proof": "Restrict exact W7 to a bounded public-data/chemistry review unless a measured exposure window separates useful relaxation from electrical and systolic harm. If no such window emerges, redirect to a defined selective desensitizer. That stops the molecule thesis without disproving the target class. The independent Round 8 W7 review strengthens this disposition.",
+          "current_S_tier": false,
+          "current_review_file": "research/rounds/round8/w7_independent_challenge.md",
+          "next_action_rank": 7,
+          "planning_effort_points": 2,
+          "points_scope": "selective target/chemistry review, not systemic W7 development"
+        }
+      ],
+      "new_validation_priorities": [
+        {
+          "candidate_id": "R4-L01",
+          "name": "RM4404/WAY-262611 for delayed corneal sensory repair",
+          "decision": "New independent-validation priority, outside the continuing core pending replication.",
+          "reason": "Delayed corneal sensory signal and publicly defined small-molecule/formulation route; animal clustering, control composition, comparator and durability need independent qualification.",
+          "deciding_proof": "Independent masked delayed sensory replication with exact salt/formulation, molar content, matched solvent, animal clustering, active comparator, protective sensation, optics and epithelial integrity; characterize actual withdrawal exposure.",
+          "source_urls": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+            "https://www.caymanchem.com/product/17704/way-262611"
+          ],
+          "current_S_tier": false,
+          "round5_delta": "Published Calbiochem317700 is WAY262611HCl, while Cayman17704 is free base. Reconcile salt/molar loading/release and matched solvent. Public2025 provisional title located; claims not recovered. No blanket FTO assertion."
+        }
+      ],
+      "local_qualification_comparison": {
+        "candidates": [
+          "R3-NL-01",
+          "R4-L01",
+          "R4-L02",
+          "R6-NL-01",
+          "R8-NL-04"
+        ],
+        "interpretation": "Different diseases and products compete for qualification resources; APR-246 is not a same-indication comparator for Darier.",
+        "NDC9009": "Assembly-timed patient-cell evidence remains conditional; recovered oral dantrolene adult completer result supplies a real but weak clinical benchmark, not topical proof.",
+        "RM4404": "Delayed sensory result merits independent exact-salt/micelle qualification; vendor free base is not the same formulation input as published HCl.",
+        "APR246": "Chronic human erosions justify attention but incomplete cornification, cellular pretreatment and precise claim scope keep mature-barrier/local-exposure qualification open.",
+        "reallocation_rule": "Compare the value and tractability of the next proof across NDC/Darier, RM4404/cornea, APR-246/AEC and ruxolitinib/HHD. Different diseases are not same-indication comparators. A clinically useful matched-lesion proof or a clearer exposure/product route can outrank an incumbent without waiting for its experiment.",
+        "ruxolitinib_HHD": "Round7 supplies a defined clinical-proof dossier with five exact-strength case reports, source/PK audits and current competition. A concurrent clinical comparison is the next proof; direct calcium-pump repair and a new proprietary formulation are not presumed. See round7 files.",
+        "roflumilast_Darier": "One0.3% cream case supplies a same-indication symptom comparator for NDC. Exact ATP2A2 allele, branded lot, PK and barrier repair remain unverified. No HHD transfer."
+      },
+      "current_corrections": [
+        {
+          "topic": "8015-P2 MAO-A panel",
+          "historical_location": "round3 crosscheck_p2 and embedded historical notes",
+          "correction": "The59% value is MAO-A radioligand binding displacement at10micromolar, not demonstrated catalytic inhibition. See round5 P2 audit.",
+          "current_reference": "research/rounds/round5/p2-off-target-audit.md"
+        },
+        {
+          "topic": "Dantrolene Darier trial results",
+          "historical_location": "round4 NDC/comparator records",
+          "correction": "Previously unread official result documents recovered in round5; use16exposed/10paired completers and selective nonresponse attrition.",
+          "current_reference": "research/rounds/round5/round5_ndc_comparator_update.md"
+        },
+        {
+          "topic": "Enasidenib pediatric formulation",
+          "historical_location": "round5 conditional reserve and current shortlist",
+          "correction": "Actual sprinkle use in an exact-disease eight-year-old is documented in the original2023 supplement. Remove blanket pediatric-formulation absence/hold; intended infant article/exposure and differentiated contribution remain open.",
+          "current_reference": "research/rounds/round6/round6_reserve_challenge.md"
+        },
+        {
+          "topic": "Unite-CNM cohort and design",
+          "historical_location": "2026 adult baseline article wording and multiple publications",
+          "correction": "Same26-person baseline/hepatic cohort,14treated; official trial is nonrandomized sequential open-label. Do not count related reports as independent efficacy.",
+          "current_reference": "research/rounds/round6/round6_clinical_translation.md"
+        },
+        {
+          "topic": "TAM4MTM participant count",
+          "historical_location": "Public registry versus investigator transcript",
+          "correction": "Retain registry6 versus transcript7 discrepancy; no invented country split or efficacy analysis.",
+          "current_reference": "research/rounds/round6/round6_clinical_translation.md"
+        },
+        {
+          "topic": "Enasidenib patient lineage and severity",
+          "historical_location": "Source publications and prior summary-level inference",
+          "correction": "Five described outcome case records are not a verified five-person treatment census; one clear severe-cardiomyopathy trajectory, one normal baseline and one milder independent baseline must remain distinct.",
+          "current_reference": "research/rounds/round7/enasidenib_clinical.md"
+        },
+        {
+          "topic": "Enasidenib laboratory precision",
+          "historical_location": "Source publications and prior summary-level inference",
+          "correction": "Gold table/prose disagree about adverse-event timing and early reduction percentage; reported normalization includes values above the displayed reference intervals.",
+          "current_reference": "research/rounds/round7/enasidenib_clinical_audit.json"
+        },
+        {
+          "topic": "Ruxolitinib HHD count and regimen",
+          "historical_location": "Source publications and prior summary-level inference",
+          "correction": "Five detailed 1.5% reports have distinct induction/maintenance and background-treatment contexts; conference duplicate excluded, 1% combination separate and nine-person preprint unpooled.",
+          "current_reference": "research/rounds/round7/rux_hhd_clinical.md"
+        },
+        {
+          "topic": "HHD mechanism citation",
+          "historical_location": "Source publications and prior summary-level inference",
+          "correction": "The cited normal-keratinocyte study reports anti–IL-8 slightly accelerated UVB-associated suppression; it does not show both IL-6/IL-8 antibodies restored mutant ATP2C1 function.",
+          "current_reference": "research/rounds/round7/rux_hhd_clinical.md"
+        },
+        {
+          "topic": "Topical exposure and patent rows",
+          "historical_location": "Source publications and prior summary-level inference",
+          "correction": "AD PK subgroups/extremes are not HHD safety boundaries; 281 nM is an assay proxy. Official Opzelura patent snapshot has 39 rows but 22 base patent numbers.",
+          "current_reference": "research/rounds/round7/rux_hhd_source_audit.json"
+        },
+        {
+          "topic": "BLU enzyme catalog and substrate units",
+          "correction": "JCIv2p14 PV3574l conflicts with official bufferPV3574/kinasePV5374. Printed150nM lipid remains uncorrected. Independent declared assay required; no inference of investigator misuse.",
+          "current_reference": "research/rounds/round8/blu_article_exposure.md"
+        },
+        {
+          "topic": "BLU model and numerical provenance",
+          "correction": "p.L463S/reference comparison is nonisogenic.24/96-tissue grids and25% gap target are proposed, not published variance, efficacy or clinical MCID.",
+          "current_reference": "research/rounds/round8/blu3797-qualification-package.md"
+        },
+        {
+          "topic": "C2beta histology interpretation",
+          "correction": "Kinase-inactive endothelial enlargement/mTORC1 finding limits blanket no-phenotype reassurance; not BLU toxicity, with full denominators unresolved.",
+          "current_reference": "research/rounds/round8/blu_model_function.md"
+        },
+        {
+          "topic": "W7 novelty and electrophysiology",
+          "correction": "Previously inventoried TNNT2-R94C use. Direct cardiac-channel blockade lowers exact-W7 priority; no transfer of R193H mouse evidence or new-molecule claim.",
+          "current_reference": "research/rounds/round8/w7_independent_challenge.md"
+        },
+        {
+          "topic": "Epalrestat PMM2 status",
+          "correction": "Futility termination controls current decision.42 actual participants; submission-tracking dates are not posted results.",
+          "current_reference": "research/rounds/round8/new_candidates.md"
+        },
+        {
+          "topic": "Botulinum HHD pilot denominator",
+          "correction": "Eleven relapses among26HHD, not11/30 as an HHD fraction;4Darier separate. Late efficacy is survivor-enriched.",
+          "current_reference": "research/rounds/round8/clinical_challenge.md"
+        },
+        {
+          "topic": "Fluoxetine KCNC1 level versus slope",
+          "correction": "One-child6.61-point primary credible interval crosses zero; level/time-slope ratio is not demonstrated developmental acceleration.",
+          "current_reference": "research/rounds/round8/review_fluoxetine_kcnc1.md"
+        }
+      ],
+      "current_dispositions_by_inventory_id": {
+        "screen-index:accessible-cellular-01:511": {
+          "round8_id": "R8-EX-01",
+          "decision": "Deprioritize W7 systemic article; retain selective thin-filament discovery.",
+          "reason": "Direct hERG/other cardiac-channel liabilities and unresolved beneficial-exposure window.",
+          "review_file": "research/rounds/round8/w7_independent_challenge.md"
+        },
+        "historical-topics:T173": {
+          "round8_id": "R8-EX-02",
+          "decision": "Hold/deprioritize independent epalrestat/PMM2-CDG development.",
+          "reason": "NCT04925960 terminated due to futility,actual42,hasResults=false. Submission tracking is not arm outcomes.",
+          "review_file": "research/rounds/round8/new_candidates.md"
+        }
+      },
+      "current_cross_portfolio_allocation": {
+        "unit": "planning-effort points; not dollars,success probabilities or spending",
+        "total": 100,
+        "queue": [
+          {
+            "rank": 1,
+            "candidate_id": "BLU3797_XLMTM",
+            "points": 55
+          },
+          {
+            "rank": 2,
+            "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+            "points": 15
+          },
+          {
+            "rank": 3,
+            "candidate_id": "R6-NL-01",
+            "points": 10
+          },
+          {
+            "rank": 4,
+            "candidate_id": "R8-NL-02",
+            "points": 6
+          },
+          {
+            "rank": 5,
+            "candidate_id": "R3-NL-01",
+            "points": 2
+          },
+          {
+            "rank": 5,
+            "candidate_id": "R8-NL-04",
+            "points": 2,
+            "scope": "Darier comparator; not an S-tier or exclusive asset"
+          },
+          {
+            "rank": 6,
+            "candidate_id": "R3-NM-01",
+            "points": 2
+          },
+          {
+            "rank": 7,
+            "candidate_id": "R8-EX-01",
+            "points": 2,
+            "scope": "selective target discovery; exact W7 deprioritized"
+          },
+          {
+            "rank": 8,
+            "candidate_id": "AAT_EVLP",
+            "points": 1
+          },
+          {
+            "rank": null,
+            "candidate_id": null,
+            "points": 5,
+            "scope": "bounded discovery and contrary-evidence updates"
+          }
+        ],
+        "rationale_file": "research/rounds/round8/portfolio-allocation.md"
+      },
+      "reading_rule": "Current top-level decisions, Round8 qualification/portfolio documents and selection policy control. Historical rows remain unchanged; current_dispositions_by_inventory_id and Round8 updates override superseded interpretations. Source IDs are local to named dossiers. Participants, donor backgrounds, independently treated tissues, batches, repeated readings, proposed samples and synthetic logic fixtures are distinct units.",
+      "verification": {
+        "unique_inventory_rows": 622,
+        "all_rows_have_review": true,
+        "research_teams": 3,
+        "independent_challenge_memos": 3,
+        "physical_samples_received": false,
+        "wet_lab_experiments_performed": false,
+        "outreach_sent": false,
+        "current_round": 8,
+        "round3_unique_screen_ids": 36,
+        "round3_all_have_sources": true,
+        "round3_all_have_go_stop": true,
+        "round4_unique_screen_ids": 22,
+        "round4_all_have_sources": true,
+        "round4_all_have_decisive_proof_and_go_stop": true,
+        "round4_source_workbook_extraction_cells_checked": 815,
+        "publication_verification": "Git object hashes and branch head are verified by the publishing workflow; use containing commit for exact publication state.",
+        "round5_unique_screen_ids": 12,
+        "round5_all_have_sources": true,
+        "round5_all_have_decisive_proof_and_go_stop": true,
+        "round5_existing_candidates_updated": 7,
+        "round5_BLU_source_cells_checked": 887,
+        "round5_P2_panel_rows_checked": 87,
+        "round5_dantrolene_primary_results_retrieved": true,
+        "round6_unique_screen_ids": 6,
+        "round6_all_have_sources_and_advance_stop_conditions": true,
+        "round6_priority_candidates_updated": 3,
+        "round6_clinical_comparators_clarified": 2,
+        "round6_independent_review": "New-use screen, clinical audit and funding milestone independently challenged; corrections incorporated.",
+        "round6_original_coverage_and_prior_round_objects_preserved": true,
+        "round7_existing_dossiers_developed": 2,
+        "round7_new_candidate_screens": 0,
+        "round7_independent_challenge_reports": 3,
+        "round7_reproducible_audits": 3,
+        "round7_Gold_populated_measurements": 177,
+        "round7_Gold_biological_individuals": 1,
+        "round7_rux_detailed_exact_strength_reports": 5,
+        "round7_original_coverage_and_prior_round_objects_preserved": true,
+        "round7_publication_verification": "Git blob/tree and expected-head checks are performed during publication; containing commit is the publication identifier.",
+        "round7_final_integration_review": "Passed; current records, old-disposition snapshots, counts, source scopes and protocol refinements verified independently.",
+        "round8_unique_new_screen_ids": 4,
+        "round8_existing_use_updates": 2,
+        "round8_leading_programs_developed": 3,
+        "round8_independent_review_documents": 6,
+        "round8_original622_coverage_preserved": true,
+        "round8_prior_round_objects_preserved": true,
+        "round8_decision_utility_logic_cases": 20,
+        "round8_malformed_decision_inputs_rejected": 4,
+        "round8_fluoxetine_modeled_outcomes": 7,
+        "round8_fluoxetine_participants": 1,
+        "round8_qualification_tissues_proposed_not_observed": 24,
+        "round8_exploration_tissues_proposed_not_observed": 96,
+        "round8_publication_verification": "Expected main head,parent,Git tree and full file/blob manifest checked during publication; containing commit identifies exact content."
+      },
+      "publication": {
+        "repository": "KyleJKistner/ddiscov",
+        "target_branch": "main",
+        "base_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
+        "scope": "Round8 BLU qualification, leading-set challenge, four new exact uses, two existing-use updates, quantitative decisions, audits and planning allocation. Original coverage and history preserved.",
+        "activity_boundary": "Public-source research, deterministic planning arithmetic, synthetic code-logic checks and retrospective published-summary extraction. No biological experiment, simulation, procurement or outreach.",
+        "commit_identifier": "Use the containing Git commit; it is intentionally not self-referential inside this file."
+      },
+      "counts": {
+        "new_exact_intervention_use_screens": 4,
+        "new_exact_use_records_without_prior_concept": 3,
+        "exact_use_expansions_of_existing_concepts": 1,
+        "existing_exact_use_screen_updates": 2,
+        "leading_programs_developed": 3,
+        "research_workstreams_including_root": 4,
+        "independent_review_documents": 6,
+        "reproducible_utilities": 3,
+        "published_source_or_arithmetic_audits": 2,
+        "planning_and_decision_logic_utilities": 1,
+        "S_tier_promotions": 0
+      }
     }
   ],
   "secondary_priorities": [
@@ -26436,13 +27396,14 @@
     {
       "candidate_id": "R8-NL-02",
       "name": "Lisdexamfetamine in KCNMA1-N999S PNKD",
-      "decision": "Strongest new prospective clinical-evidence question in this set; selected cases and weak exclusive-product contribution remain material.",
-      "deciding_proof": "This is the strongest new **clinical-evidence** question in this set: prospectively enroll eligible genotype-defined patients, record nonresponders, independently adjudicate events and quantify interrupted daily activity. Separate attention/mood changes from PNKD benefit and preserve growth, appetite, sleep and cardiovascular tradeoffs. Advance if useful PNKD control generalizes beyond selected responders with acceptable burden. Stop a broad product claim if the effect is confined to selected cases, is only an attention benefit, or requires unacceptable coverage-related harms. The obvious value is evidence and a better coverage/burden solution; no exclusive asset has been identified.",
+      "decision": "Retain rank4 clinical-research reserve and six planning points; strengthen the pharmacological rationale without promoting an independent asset or claiming an unselected human response rate.",
+      "deciding_proof": "Future evidence must include eligible and treated nonresponders, independent event/function adjudication, background care and exposure/coverage burden. Separate attention effects from movement-related benefit and exact oral article from the mouse intervention. No recruitment or experimental execution is authorized by this research.",
       "current_S_tier": false,
-      "current_review_file": "research/rounds/round8/new_candidates.md",
-      "source_reference_scope": "research/rounds/round8/new_candidates.json",
+      "current_review_file": "research/rounds/round9/lisdexamfetamine-evidence-update.md",
+      "source_reference_scope": "research/rounds/round9/lisdexamfetamine-evidence-update.json",
       "next_action_rank": 4,
-      "planning_effort_points": 6
+      "planning_effort_points": 6,
+      "round9_delta": "Controlled heterozygous N999S mouse dextroamphetamine result strengthens movement-effect plausibility, while six selected human LDX responders remain unsuitable for an all-treated response-rate estimate. Mouse article, human prodrug, genotype aliases and investigator overlap remain explicit."
     },
     {
       "candidate_id": "R8-EX-01",
@@ -26454,6 +27415,34 @@
       "next_action_rank": 7,
       "planning_effort_points": 2,
       "points_scope": "selective target/chemistry review, not systemic W7 development"
+    },
+    {
+      "candidate_id": "R9-NL-01",
+      "name": "Miglustat / SCARB2-related action myoclonus–renal failure",
+      "decision": "conditional clinical-research reserve below lisdexamfetamine; independent asset thesis on hold",
+      "deciding_proof": "Reconcile all treated cases, genotype, renal exposure and independently measured useful function with failures retained.",
+      "advance_condition": "Credible function beyond natural history/cointerventions at acceptable exposure, with a specified product contribution for asset promotion.",
+      "stop_condition": "Reproducible neurological worsening, intolerable required exposure, or biomarker change without meaningful function.",
+      "current_S_tier": false,
+      "current_review_file": "research/rounds/round9/new-candidate-screen.md",
+      "source_reference_scope": "research/rounds/round9/new-candidate-screen.json",
+      "next_action_rank": null,
+      "dedicated_planning_effort_points": 0,
+      "allocation_scope": "Initial desk diligence within the existing five-point discovery allocation; no additional points or spending."
+    },
+    {
+      "candidate_id": "R9-NL-02",
+      "name": "GSK2193874 / TRPV4-related neuromuscular disease",
+      "decision": "preclinical benchmark and conditional differentiation reserve; hold undifferentiated independent development",
+      "deciding_proof": "Identify a differentiated exact-article contribution versus the active clinical program before independent development.",
+      "advance_condition": "Useful established-disease function, improved relevant exposure/tolerability, or another concrete contribution with credible development/rights path.",
+      "stop_condition": "No differentiated contribution or failure of qualified exact-article functional proof; do not infer target-class failure from a different-indication negative.",
+      "current_S_tier": false,
+      "current_review_file": "research/rounds/round9/new-candidate-screen.md",
+      "source_reference_scope": "research/rounds/round9/new-candidate-screen.json",
+      "next_action_rank": null,
+      "dedicated_planning_effort_points": 0,
+      "allocation_scope": "Initial desk diligence within the existing five-point discovery allocation; no additional points or spending."
     }
   ],
   "round3": {
@@ -31358,9 +32347,9 @@
   "publication": {
     "repository": "KyleJKistner/ddiscov",
     "target_branch": "main",
-    "base_commit": "f49a937206cbbf18e6c8f89f2dcb31eb704e9cd7",
-    "scope": "Round8 BLU qualification, leading-set challenge, four new exact uses, two existing-use updates, quantitative decisions, audits and planning allocation. Original coverage and history preserved.",
-    "activity_boundary": "Public-source research, deterministic planning arithmetic, synthetic code-logic checks and retrospective published-summary extraction. No biological experiment, simulation, procurement or outreach.",
+    "base_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+    "scope": "Round9 continuation: faithful Round8 recovery proof, two new exact-use screens, four existing candidates reviewed, three with material new primary-evidence deltas, and manual BLU qualification amendments.",
+    "activity_boundary": "Public-source desk research, retrospective interpretation and repository verification. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
     "commit_identifier": "Use the containing Git commit; it is intentionally not self-referential inside this file."
   },
   "round4": {
@@ -38027,6 +39016,31 @@
       "topic": "Fluoxetine KCNC1 level versus slope",
       "correction": "One-child6.61-point primary credible interval crosses zero; level/time-slope ratio is not demonstrated developmental acceleration.",
       "current_reference": "research/rounds/round8/review_fluoxetine_kcnc1.md"
+    },
+    {
+      "topic": "Round9 C2α stress-context interpretation",
+      "correction": "Baseline tolerability and an unqualified cellular negative cannot waive the missing exact-article selectivity bridge. Near-complete genetic inactivation is not a measured BLU liability or safe occupancy threshold.",
+      "current_reference": "research/rounds/round9/blu-target-safety-update.md"
+    },
+    {
+      "topic": "Round9 C2β perturbation identity",
+      "correction": "Protein depletion and catalytic inhibition may differ. Kinase-defective add-back preserves context-specific scaffold effects without establishing BLU cancer risk or safety.",
+      "current_reference": "research/rounds/round9/blu-target-safety-update.md"
+    },
+    {
+      "topic": "Round9 vorasidenib comparator exposure",
+      "correction": "Parent-only tumor/brain comparisons omit an active metabolite with unresolved relevant-compartment and R140Q quantities. The public assessment cannot establish normal infant-brain superiority.",
+      "current_reference": "research/rounds/round9/clinical-comparator-update.md"
+    },
+    {
+      "topic": "Round9 KCNMA1 human selection and mouse article",
+      "correction": "The controlled mouse dextroamphetamine experiment is not an additional human LDX cohort or independent investigator replication. Selected known responders cannot supply an all-treated response probability.",
+      "current_reference": "research/rounds/round9/lisdexamfetamine-evidence-update.md"
+    },
+    {
+      "topic": "Round9 SCARB2 case accounting and TRPV4 identity",
+      "correction": "Four detailed miglustat-treated individuals are a retrieved case set, not a treatment census. GSK2193874, GSK2798745, ABS-0872 and ABS-0871/STAR-0871 remain distinct with the last pair a sponsor-reported rename.",
+      "current_reference": "research/rounds/round9/new-candidate-screen.md"
     }
   ],
   "round6": {
@@ -39512,7 +40526,9 @@
         "scope": "bounded discovery and contrary-evidence updates"
       }
     ],
-    "rationale_file": "research/rounds/round8/portfolio-allocation.md"
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false
   },
   "round8": {
     "as_of": "2026-11-04",
@@ -40081,5 +41097,177 @@
       "biological_simulations": false,
       "received_materials": false
     }
+  },
+  "round9": {
+    "as_of": "2026-11-04",
+    "base_publication_commit": "a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3",
+    "counts": {
+      "new_exact_intervention_use_screens": 2,
+      "new_molecule_claims": 0,
+      "existing_candidates_reviewed": 4,
+      "existing_candidates_with_material_new_primary_evidence": 3,
+      "existing_candidates_without_new_rank_changing_evidence": 1,
+      "research_workstreams_including_root": 4,
+      "independent_screen_review_documents": 1,
+      "new_experiments": 0,
+      "S_tier_promotions": 0,
+      "independent_qualification_review_documents": 1,
+      "independent_review_documents_total": 2
+    },
+    "counting_rule": "Two new exact uses do not imply two new molecules. Four existing candidates were reviewed; only BLU, enasidenib and KCNMA1 receive material new primary-evidence deltas. Published experiments are historical source evidence, not experiments conducted in this sprint.",
+    "recovery_verification": "research/rounds/round9/round8-recovery-verification.json",
+    "existing_candidate_updates": [
+      {
+        "candidate_id": "BLU3797_XLMTM",
+        "rank": 1,
+        "planning_points": 55,
+        "material_new_primary_evidence": true,
+        "delta": [
+          "Adult C2α genetic inactivation shows a stress susceptibility missed by baseline assessment; a tested isolated-cell system also failed to reproduce the organismal liability. This is not measured BLU toxicity or a partial-inhibition threshold.",
+          "C2β WT/kinase-defective add-back in a tumor model separates protein/scaffold consequences from catalytic lipid-product effects. Exact perturbations and replicate units remain distinct.",
+          "A newly retrieved primary Myology2024 abstract reports discordant myogenic, calcium, 3D morphology and RyR findings in its tested systems. Model line, genotype, maturity and functional endpoint provenance remain necessary; L463S residual function and model-specific negative sensitivity are unresolved.",
+          "Retain the affirmative bounded first-proof recommendation and 55 planning points. Additional manual interpretation requirements do not change the proposed numeric thresholds or establish a systemic therapeutic window."
+        ],
+        "source_scopes": [
+          "research/rounds/round9/blu-target-safety-update.json",
+          "research/rounds/round9/blu-model-new-evidence.json"
+        ]
+      },
+      {
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "rank": 2,
+        "planning_points": 15,
+        "material_new_primary_evidence": true,
+        "delta": [
+          "A primary TGA2025 assessment adds the active vorasidenib metabolite AGI-69460 exposure issue. A late-cycle mean molar predose metabolite:parent ratio is not a normal infant-brain exposure measure or AUC ratio.",
+          "The cited assessment did not establish metabolite animal brain penetration and excluded it from the population PK model; observed adolescent representation was one patient under18. Metabolite R140Q potency and unbound normal-infant-brain exposure remain unresolved.",
+          "Retain enasidenib rank2 and15 planning points. Cardiac benefit, neurological treatment and neonatal prevention remain separate; parent-only exposure comparisons cannot establish CNS superiority."
+        ],
+        "source_scopes": [
+          "research/rounds/round9/clinical-comparator-update.json"
+        ]
+      },
+      {
+        "candidate_id": "R6-NL-01",
+        "rank": 3,
+        "planning_points": 10,
+        "material_new_primary_evidence": false,
+        "delta": [
+          "Bounded public-source comparator review found no new verified rank-changing HHD evidence beyond the preserved dossiers. Retain rank3 and10 planning points.",
+          "Keep exact1.5% article, concurrent-care comparison, all-randomized and maintenance denominators, exposure and useful pain/erosion/rescue-burden outcomes. No new HHD efficacy observation is claimed."
+        ],
+        "source_scopes": [
+          "research/rounds/round9/clinical-comparator-update.json"
+        ]
+      },
+      {
+        "candidate_id": "R8-NL-02",
+        "rank": 4,
+        "planning_points": 6,
+        "material_new_primary_evidence": true,
+        "delta": [
+          "New-to-repository controlled mouse pharmacology adds plausibility without repairing human responder selection or exact-article transfer."
+        ],
+        "source_scopes": [
+          "research/rounds/round9/lisdexamfetamine-evidence-update.json"
+        ]
+      }
+    ],
+    "new_screens": [
+      {
+        "candidate_id": "R9-NL-01",
+        "name": "Miglustat / SCARB2-related action myoclonus–renal failure",
+        "disposition": "conditional clinical-research reserve below lisdexamfetamine; independent asset thesis on hold",
+        "source_scope": "research/rounds/round9/new-candidate-screen.json"
+      },
+      {
+        "candidate_id": "R9-NL-02",
+        "name": "GSK2193874 / TRPV4-related neuromuscular disease",
+        "disposition": "preclinical benchmark and conditional differentiation reserve; hold undifferentiated independent development",
+        "source_scope": "research/rounds/round9/new-candidate-screen.json"
+      }
+    ],
+    "source_reference_scopes": [
+      "research/rounds/round9/blu-target-safety-update.json",
+      "research/rounds/round9/blu-model-new-evidence.json",
+      "research/rounds/round9/clinical-comparator-update.json",
+      "research/rounds/round9/lisdexamfetamine-evidence-update.json",
+      "research/rounds/round9/new-candidate-screen.json"
+    ],
+    "qualification_amendments": "research/rounds/round9/qualification-amendments.json",
+    "numeric_specification": {
+      "path": "research/rounds/round8/blu3797-qualification-spec.json",
+      "changed": false,
+      "observed_or_calibrated_new_thresholds": false
+    },
+    "allocation": {
+      "unit": "planning-effort points; not dollars,success probabilities or spending",
+      "total": 100,
+      "queue": [
+        {
+          "rank": 1,
+          "candidate_id": "BLU3797_XLMTM",
+          "points": 55
+        },
+        {
+          "rank": 2,
+          "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+          "points": 15
+        },
+        {
+          "rank": 3,
+          "candidate_id": "R6-NL-01",
+          "points": 10
+        },
+        {
+          "rank": 4,
+          "candidate_id": "R8-NL-02",
+          "points": 6
+        },
+        {
+          "rank": 5,
+          "candidate_id": "R3-NL-01",
+          "points": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "R8-NL-04",
+          "points": 2,
+          "scope": "Darier comparator; not an S-tier or exclusive asset"
+        },
+        {
+          "rank": 6,
+          "candidate_id": "R3-NM-01",
+          "points": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "R8-EX-01",
+          "points": 2,
+          "scope": "selective target discovery; exact W7 deprioritized"
+        },
+        {
+          "rank": 8,
+          "candidate_id": "AAT_EVLP",
+          "points": 1
+        },
+        {
+          "rank": null,
+          "candidate_id": null,
+          "points": 5,
+          "scope": "bounded discovery and contrary-evidence updates"
+        }
+      ],
+      "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+      "round9_review": "research/rounds/round9/round9-root-deltas.json",
+      "round9_allocation_changed": false
+    },
+    "independent_reviews": [
+      "research/rounds/round9/independent-screen-review.json",
+      "research/rounds/round9/independent-qualification-review.json"
+    ],
+    "integration_review": "research/rounds/round9/integration-review.md",
+    "activity_boundary": "Public-source desk research, retrospective interpretation and repository verification. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+    "next_desk_priority": "Resolve only accessible primary-data gaps that would change exact article, model inference, relevant-compartment exposure or a differentiated product contribution. Do not repeat exhausted retrieval routes or treat pending preclinical/clinical proof as authorization to execute it."
   }
 }
