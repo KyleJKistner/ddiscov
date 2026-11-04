@@ -1,0 +1,885 @@
+{
+  "schema_version": "round3-neuromuscular-1.0",
+  "as_of": "2026-11-04",
+  "reviewer": "round3_neuromuscular",
+  "review_scope": "Focused primary-source delta review plus nine exact named candidate screens; not an exhaustive global search or a claim of FTO.",
+  "inventory_basis": {
+    "file": "research/portfolio-register.json",
+    "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+    "coverage_records": 622,
+    "prior_generated_proposals": 30,
+    "alias_search_completed": true
+  },
+  "counts": {
+    "candidate_updates": 1,
+    "new_candidate_records": 9,
+    "new_to_reviewed_inventory": 9,
+    "new_intervention_disease_families": 9,
+    "new_high_priority_bounded_proof_leads": 2,
+    "additional_functional_reserve": 1,
+    "S_tier_promotions": 0
+  },
+  "family_counting_rules": [
+    "8015-P2, parent8015, trans-MiM111 and ChimeraC appear in one mitofusin family record and are not independent discoveries or interchangeable evidence.",
+    "Published murine PPMO6 and separately patented human DNM2 oligos are one translation family; human design is not a second efficacy result.",
+    "CKD504 CMT1A and CMT2D data share one intervention record but retain disease/model distinctions.",
+    "Prior BLU refinement is not a new candidate.",
+    "Surlorian and ignaseclant are new to the reviewed inventory but active external programs/benchmarks, not newly available assets."
+  ],
+  "candidate_updates": [
+    {
+      "candidate_id": "R3-NM-00",
+      "prior_candidate_id": "BLU3797_XLMTM",
+      "name": "BLU3797/PIK3C2B: human-model and assay-transfer delta",
+      "novelty_classification": "refinement",
+      "novelty_type": "refinement",
+      "exact_article": "https://insight.jci.org/articles/view/198568",
+      "source_ids": [
+        "NM-S01",
+        "NM-S02",
+        "NM-S03",
+        "NM-S04",
+        "NM-S05",
+        "NM-S06",
+        "NM-S07",
+        "NM-S08",
+        "NM-S09",
+        "NM-S34",
+        "NM-S35"
+      ],
+      "functional_evidence": "No new BLU3797 human force result or new independent drug efficacy study was found. Prior mouse and genetic reversal evidence remains; this update changes feasibility and measurement requirements, not efficacy score.",
+      "newly_resolved": [
+        {
+          "topic": "Alternative human model starting material",
+          "finding": "Coriell GM06813 catalog identifies an MTM1 exon8 frameshift (646delT with nearby648C>A); GM24509 identifies c.1180G>C, p.D394H. They are distinct mutation backgrounds. Patent WO2025085810A2 examples10–12 explicitly describe these fibroblasts being reprogrammed at iXCell, then differentiated into immature myotubes. The catalog cells are fibroblasts, not ready force tissues.",
+          "source_ids": [
+            "NM-S04",
+            "NM-S05",
+            "NM-S06"
+          ]
+        },
+        {
+          "topic": "Target-engagement assay reproducibility",
+          "finding": "Addgene238834 publicly lists a NanoLuc-PIK3C2B vector. The BLU study used tailored fusion constructs and an in-house tracer. The public vector supplies one component; the exact published NanoBRET assay is not turnkey.",
+          "source_ids": [
+            "NM-S01",
+            "NM-S03"
+          ]
+        },
+        {
+          "topic": "Chemical reproducibility scope",
+          "finding": "The main article discloses stereodefined identity and key final steps from advanced Intermediate3, with analytical data. End-to-end starting-material synthesis was not verified; narrow the old claim of a complete public route accordingly.",
+          "source_ids": [
+            "NM-S01",
+            "NM-S02"
+          ]
+        }
+      ],
+      "still_unresolved": [
+        {
+          "topic": "Free exposure and CNS separation",
+          "finding": "No human/mouse plasma fu, unbound muscle/brain partition coefficient or chronic exposure-linked EEG/liver margin was located. Total plasma with serum-adjusted cellular potency cannot supply those values.",
+          "source_ids": [
+            "NM-S01",
+            "NM-S02"
+          ]
+        },
+        {
+          "topic": "Missing cellular selectivity comparators",
+          "finding": "Reported target-engagement potency for PIK3C2B is68.2nM; the enumerated live-cell panel omits PIK3C2A and class-I PIK3CB. Broad single-concentration kinome screening does not substitute for these cellular curves.",
+          "source_ids": [
+            "NM-S01"
+          ]
+        },
+        {
+          "topic": "Orthogonal chemical controls",
+          "finding": "BLU2720 is weaker, not an assumed inactive control. PI-701 has limited selectivity characterization; PITCOIN compounds center on C2alpha and should not be mislabeled C2beta comparators. Genetic PIK3C2B perturbation is the cleaner publicly defined orthogonal route.",
+          "source_ids": [
+            "NM-S01",
+            "NM-S08",
+            "NM-S09"
+          ]
+        }
+      ],
+      "genetic_safety_delta": "The primary epilepsy study explicitly notes reduced penetrance, including an unaffected transmitting father, and one variant retaining catalytic activity. This limits deterministic interpretation. Heterozygous loss-of-function and induced-seizure susceptibility still make neuronal target inhibition a specific hazard; constitutional genetics does not provide a drug concentration threshold.",
+      "biological_sample_counts": {
+        "new_independent_human_drug_force_donors": 0,
+        "additional_catalog_mutation_backgrounds": 2,
+        "catalog_backgrounds_are_not_qualified_force_replicates": true
+      },
+      "exact_entity": "BLU3797 article-defined S stereoisomer, authenticated independently; only then interpret either supplier lot or custom material.",
+      "model_route": "Initial Curi p.L463S 3D line plus separately qualified GM06813 frameshift and GM24509 p.D394H derived models. Each requires identity, maturation, isogenic restoration/correction control, and pre-randomization stable force deficit. Distinct catalog genotypes are not three validated human responses.",
+      "decision": "Retain first neuro/muscle bounded-proof priority. Raise operational confidence in a no-outreach model route, but do not raise biological maturity or call S-tier.",
+      "ranking_delta": "More concrete and less dependent on unique investigator material; narrower claims about exact chemical route and assay transfer. No evidence-based reason to replace BLU as first proof solely because P2 is new.",
+      "deciding_proof": "Before scaling efficacy, release an assay/material qualification package: authenticate BLU stereochemistry and impurity profile; build/validate public genetic and engagement controls; measure free medium and tissue exposure and C2alpha/PIK3CB cellular selectivity. Then test post-deficit force/fatigue in independent MTM1 backgrounds and compare the same free-exposure range in neurons and hepatobiliary tissue. Use target knockdown/restoration to distinguish target failure from compound failure.",
+      "advance_condition": "Reproducible established human-force rescue with target concordance and a usable neural/hepatic separation; exact material and model can be independently rebuilt.",
+      "stop_condition": "Qualified MTM1-restorable models fail to recover with engaged PIK3C2B inhibition; required muscle engagement conflicts with neuronal/liver function; or model/assay failure prevents an interpretable test. A compound-specific failure may justify a separately scored peripheral chemistry project, not automatic carry-forward of BLU efficacy.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "source_urls": [
+        "https://insight.jci.org/articles/view/198568",
+        "https://insight.jci.org/articles/view/198568/sd/pdf/render/1",
+        "https://www.addgene.org/238834/",
+        "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM06813",
+        "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM24509",
+        "https://patents.google.com/patent/WO2025085810A2/en",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9337808/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11151210/",
+        "https://www.nature.com/articles/s41589-022-01118-z",
+        "https://www.probechem.com/products_BLU3797.html",
+        "https://www.curibio.com/xlmtm-model"
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "candidate_id": "R3-NM-01",
+      "name": "8015-P2 mitofusin activation for MFN2-CMT2A",
+      "aliases": [
+        "8015-P2",
+        "8015 P2",
+        "MiM111",
+        "trans-MiM111",
+        "mitofusin",
+        "MFN2",
+        "Chimera C"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "8015-P2",
+          "8015 P2",
+          "MiM111",
+          "trans-MiM111",
+          "mitofusin",
+          "MFN2",
+          "Chimera C"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "source_ids": [
+        "NM-S10",
+        "NM-S11",
+        "NM-S12",
+        "NM-S13",
+        "NM-S14"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+        "https://elifesciences.org/articles/61119",
+        "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1095725",
+        "https://patents.google.com/patent/WO2023196340A1/en"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "mitofusin_activation_CMT2A",
+      "exact_entity": "The slower-eluting chiral SFC peak 8015-P2 defined in Weigele et al. 2024, with the article/supplement stereochemical and analytical reference; do not substitute parent 8015 mixture, MiM111, Chimera C, or generic piperine.",
+      "functional_evidence": "Exact P2 improves established sensory/motor phenotypes in approximately 50-week-old Mfn2 T105M knock-in mice and rats. The 2026 rat study randomized and blinded testing; dose cohorts contain four rats per dose and seven WT comparators. The 10 mg/kg cohort stopped at four weeks after normal-range values. A separate acute motility assay used 100 mg/kg, not the chronic dose.",
+      "biological_sample_counts": {
+        "2026_rat_dose_response": "4 animals/dose; WT reference 7; counts of other cohorts differ and were not imputed",
+        "2024_mouse_exact_P2": "Histology 4 mice/group and synapse counts 3/group; functional panel n values reside in the figures and were not independently transcribed",
+        "2024_human_8015_mixture": "One T105M patient background; independent culture experiments are not donors",
+        "2020_human_Chimera_C": "Four patient backgrounds; chemically different article",
+        "2020_MiM111_mouse": "6 mice/group; sample target reduced from planned 15 because effect was larger than anticipated"
+      },
+      "evidence_boundaries": "Human evidence uses the 8015 mixture (2024) or Chimera C (2020), not exact P2. Multiple species largely share the research group and T105M allele. Failure to differ from WT is not an equivalence test. The 8015 mixture binding and brain-partition values cannot be assigned to P2.",
+      "material_route": "2024 public synthesis scheme and chiral separation permit a specified custom-chemistry brief. 2026 material was a company gift, not demonstrated catalog stock; authenticate stereochemistry, peak identity and purity before interpretation.",
+      "exposure_and_safety": "P2 glucuronidation and enterohepatic recirculation are described. Quantitative human unbound target-tissue exposure and a chronic functional safety margin remain unresolved. Do not treat a limited target panel divided by fusion EC50 as a clinical therapeutic index.",
+      "current_pipeline_and_rights": "FDA orphan designation dated 2025-10-06 is for a generic small-molecule mitofusin activator sponsored by Mitochondria in Motion Discovery, not proof that P2 has clinical clearance. WO2023196340 includes a displayed granted US family member US12396968B2; ceased PCT status does not establish open rights.",
+      "decision": "Advance independent bounded human functional proof; strongest new neuro/muscle lead in this round, below fully qualified S-tier.",
+      "ranking_delta": "New high-priority challenge to the existing shortlist. Retain BLU3797 as first proof priority pending cross-workstream comparison; P2 merits its own staged experiment rather than another literature-only watchlist.",
+      "deciding_proof": "After a stable deficit, compare independently authenticated P2, parent mixture, less-active P1 and vehicle in mature human motor-neuron/muscle co-cultures spanning T105M and another MFN2 pathogenic background, with isogenic correction controls. Measure evoked NMJ-mediated force, transmission reliability, fatigue, direct-muscle-stimulated force and free exposure. Treat transport/morphology as mechanistic covariates. Separate continuous from pulsed exposure and measure healthy neuronal/cardiac function at the same free concentrations.",
+      "advance_condition": "Replicated recovery of established useful human function with exact P2, not only mitochondrial morphology, at an interpretable tissue exposure and tolerable functional window. A T105M-only result narrows the claim instead of supporting all CMT2A.",
+      "stop_condition": "No P2 functional benefit in genetically rescuable models; parent mixture alone works; apparent benefit comes from hyperexcitability or generalized tissue growth; required exposure impairs healthy tissue or mitochondrial quality control."
+    },
+    {
+      "candidate_id": "R3-NM-02",
+      "name": "Pip8b2-conjugated Dnm2 exon-6 PMO for DNM2 centronuclear myopathy",
+      "aliases": [
+        "Pip8b2",
+        "PPMO6",
+        "awaf249",
+        "peptide-conjugated morpholino"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "Pip8b2",
+          "PPMO6",
+          "awaf249",
+          "peptide-conjugated morpholino"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677909/",
+      "source_ids": [
+        "NM-S15",
+        "NM-S06"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677909/",
+        "https://patents.google.com/patent/WO2025085810A2/en"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "DNM2_PPMO_CNM",
+      "exact_entity": "Published murine PMO6 sequence GGCCTCAAACCTCCGCTATACCTGG conjugated to the article-defined Pip8b2 peptide Ac-RXRRBRRYQFLIRBRXRB-OH (B beta-alanine; X aminohexanoyl). Linkage and analytical specification must follow the methods; this is not yet a selected human oligo.",
+      "functional_evidence": "In Dnm2 R369W/+ mice, three 12.5 mg/kg intravenous doses at 8, 10 and 12 weeks improved specific force at 16 weeks from 11.2 to 15.6 mN/mg; disease-control n=5 and treated n=4. Late treatment did not correct fibre size. Muscle DNM2 fell without measured liver/kidney downregulation. Total Dnm2 RNA did not fall substantially in vivo: do not claim demonstrated nonsense-mediated decay.",
+      "biological_sample_counts": {
+        "late_force": "Disease PCtrl 5, disease PPMO6 4, WT PCtrl 4, WT PPMO6 4",
+        "late_disease_RNA_protein": "3 animals per disease arm",
+        "early_liver_necrosis": "1/9 in both disease-control and treated groups; no causal inference from this sparse finding"
+      },
+      "evidence_boundaries": "Short mouse hepatic findings do not establish human PPMO chronic safety; the earlier DYN101 chemistry looked tolerable in mice but failed clinically on hepatic/hematological tolerability. The Brain PPMO6 code is not interchangeable with PPMO6 numbering in the later human patent.",
+      "material_route": "Exact mouse sequence/peptide and synthesis methods are public. Human-targeted exon-skipping sequences are disclosed separately in WO2025085810A2, but selecting a human product and proving functional rescue are additional work.",
+      "exposure_and_safety": "Define muscle protein knockdown against liver, renal, cardiac and innate-immune effects. Skeletal-muscle targeting and transient dosing are hypotheses to establish for a human sequence, not properties inherited from a mouse dose.",
+      "current_pipeline_and_rights": "Sarepta/Murdoch patent WO2025085810A2 demonstrates human MTM1 patient-derived immature myotube transcript/protein knockdown; not human force or the same test article. Existing DNM2-directed rights and DYN101 comparator make product differentiation explicit.",
+      "decision": "Advance a bounded human-sequence/functional translation package; second strongest new lead. Do not call the mouse construct a ready human asset.",
+      "ranking_delta": "Adds a mechanistically distinct, publicly specified force-rescue route beside PIK3C2B. Does not inherit BLU efficacy or MTM1 applicability from a DNM2 R369W mouse.",
+      "deciding_proof": "Select and authenticate a publicly specified human DNM2 splice oligo; verify its exact splice product and absence of persistent harmful truncated protein. In mature DNM2-mutant human muscle, compare post-deficit force and fatigue with a sequence-matched non-targeting conjugate, unconjugated PMO and an orthogonal DNM2 reduction control at matched protein suppression. Evaluate MTM1 muscle separately only if the intended indication expands.",
+      "advance_condition": "Human sequence yields reproducible force rescue after disease establishment, with durable exposure-linked muscle suppression and a credible separation from off-muscle or conjugate toxicity.",
+      "stop_condition": "Only transcript/protein change; no useful force recovery; toxicity appears at the degree of suppression required; human targeting requires a materially different conjugate whose effects have not been qualified."
+    },
+    {
+      "candidate_id": "R3-NM-03",
+      "name": "CKD504 for GARS1-CMT2D",
+      "aliases": [
+        "CKD504",
+        "CKD-504",
+        "202101308"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "CKD504",
+          "CKD-504",
+          "202101308"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8849597/",
+      "source_ids": [
+        "NM-S16",
+        "NM-S17",
+        "NM-S18"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8849597/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7589015/",
+        "https://clinicaltrials.gov/study/NCT03713892"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "HDAC6_inhibition_CMT",
+      "exact_entity": "Published clinical code CKD504/CKD-504. An unambiguous code-to-structure mapping and independently reproducible test article were not established in this review.",
+      "functional_evidence": "CKD504 at 1–2 micromolar improved MEA activity in engineered P234KY and one patient P724H neuronal background. The engineered cells received drug through 15 days of maturation, and WT firing increased too; single-cell evoked action-potential waveforms were not deficient.",
+      "biological_sample_counts": {
+        "human_backgrounds": "One engineered WTC11 background (multiple clones) plus one patient P724H background; technical neurons/mitochondria are not patients",
+        "CMT1A_mouse_context": "Separate C22 study randomized 10 mice/group; not CMT2D confirmation"
+      },
+      "evidence_boundaries": "Spontaneous firing and burst activity in mixed developing neuronal cultures do not establish reversal of a mature distal axonal/NMJ deficit. CMT1A myelination and CMT2D neuronal findings are different disease models.",
+      "material_route": "Primary CMT1A article cites WO2015/137750 and company supply; this review did not resolve the exact CKD504 example or verify catalog material. A generic patent family is not enough to order the claimed compound.",
+      "exposure_and_safety": "No public human free-exposure bridge from phase1 to the 1–2 micromolar culture concentrations was established here.",
+      "current_pipeline_and_rights": "NCT03713892 is the cited first-in-human study. The registry was checked but interpretable current results were not retrieved; do not infer success, failure, abandonment or current availability.",
+      "decision": "Hold exact-asset promotion; retain HDAC6 mechanism and assay benchmark.",
+      "ranking_delta": "Downgraded during this review after initially promising human functional evidence: identity and maturation confounding fail the immediate proof gate.",
+      "deciding_proof": "First resolve the code-to-structure mapping from a primary public disclosure. Only then ask whether post-maturation treatment restores evoked NMJ force at clinically plausible free exposure and outperforms a chemically defined HDAC6 comparator.",
+      "advance_condition": "Public authenticated article definition plus mature post-deficit function with dose/engagement relation and non-hyperexcitability controls.",
+      "stop_condition": "Exact identity remains unresolved, or effect is restricted to development/WT excitability without improved useful force."
+    },
+    {
+      "candidate_id": "R3-NM-04",
+      "name": "Topical XIB4035 for established small-fiber dysfunction",
+      "aliases": [
+        "XIB4035",
+        "XIB-4035",
+        "24449858"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "XIB4035",
+          "XIB-4035",
+          "24449858"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926041/",
+      "source_ids": [
+        "NM-S19",
+        "NM-S20",
+        "NM-S21",
+        "NM-S22"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926041/",
+        "https://focusbiomolecules.com/xib4035-gfr-alpha-1-agonist/",
+        "https://focusbiomolecules.com/wp-content/uploads/2020/07/10-1486-product-data.pdf",
+        "https://focusbiomolecules.com/wp-content/uploads/2020/07/10-1486-msds.pdf"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "GFRalpha_RET_modulation_SFN",
+      "exact_entity": "XIB4035 quinoline/styryl compound from the original paper; Focus 10-1486 lists a triphosphate salt. Product-page CAS10023-54-8 conflicts with supplier SDS CAS529507-84-4; reconcile structure, salt stoichiometry and analytical identity rather than relying on CAS alone.",
+      "functional_evidence": "In the 2014 line-D neuropathy model, starting topical treatment at P28 after severe hypoalgesia improved thermal responses within one week (n>=7 per behavioural arm). Withdrawal caused recurrence. Late treatment did not restore epidermal nerve-fibre density at P35. It modulates ligand-dependent GFRalpha/RET signaling rather than simply replacing GDNF.",
+      "biological_sample_counts": {
+        "late_behaviour": "At least 7 mice per arm",
+        "central_IB4_staining": "6 treated and 4 vehicle mice in the cited late-treatment analysis; this is not the behavioural n"
+      },
+      "evidence_boundaries": "Older functional reversal is relevant, but reflex withdrawal is not direct nerve conduction or human sensory restoration. The diabetes arm began at hyperglycemia and must not be relabeled established diabetic-neuropathy rescue.",
+      "material_route": "Public supplier catalog and product data define a custom/topical research route, conditional on analytical resolution of conflicting identifiers; current physical stock and a received lot are not verified.",
+      "exposure_and_safety": "Must establish skin/nerve penetration, retention of protective sensation, and effects at clinically plausible local rather than nominal cream concentration.",
+      "current_pipeline_and_rights": "No current human XIB4035 efficacy study was established in this focused search. This is absence of retrieved evidence, not proof of an abandoned asset or free rights.",
+      "decision": "Develop as lower-cost functional reserve after identity qualification; third lead worth a narrowly defined test, below P2 and DNM2 PPMO.",
+      "ranking_delta": "Recovers neglected post-onset function rather than prioritizing a recent biomarker-only publication.",
+      "deciding_proof": "Qualify the exact salt/active moiety, then compare vehicle and XIB4035 in a human sensory-neuron/skin system with an established sensory deficit. Measure stimulus-evoked action potentials and terminal function, with RET dependence, endogenous ligand availability and skin exposure. A regeneration claim additionally requires durable terminal reinnervation and benefit after washout.",
+      "advance_condition": "Improves impaired sensory signaling at tolerable local exposure without generalized excitability, loss of protective sensation or reliance on supraphysiologic ligand supplementation.",
+      "stop_condition": "Only changes pain/reflex thresholds or staining, lacks a human ligand context, or needs tissue exposures incompatible with local tolerability."
+    },
+    {
+      "candidate_id": "R3-NM-05",
+      "name": "NV354 succinate prodrug for complex-I Leigh disease",
+      "aliases": [
+        "NV354",
+        "NV-354",
+        "114717"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "NV354",
+          "NV-354",
+          "114717"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907114/",
+      "source_ids": [
+        "NM-S23"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907114/"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "succinate_prodrug_complexI",
+      "exact_entity": "Article-defined NV354 succinate prodrug, not NV118 or succinate salt; structure/metabolites in primary Figure1.",
+      "functional_evidence": "Ndufs4-knockout mice treated from weaning showed improved late motor/lesion measures but no lifespan extension. This is predominantly prevention. The study reports species-dependent plasma stability and substantial metabolite exposure; high-dose chronic healthy-mouse treatment produced adverse findings.",
+      "biological_sample_counts": {
+        "survival": "Study groups span 14–59 mice; exact endpoint-specific denominators must be retained from the figure, not pooled into one n",
+        "other_endpoints": "Variable by assay; not independently re-counted in this screen"
+      },
+      "evidence_boundaries": "No convincing post-onset reversal or human useful-function evidence established. Metabolite brain distribution does not automatically demonstrate parent-drug target-tissue exposure.",
+      "material_route": "Public article structure and sponsor-supplied material establish definition, not a verified independent supply route or optimized formulation.",
+      "exposure_and_safety": "Human versus rodent plasma hydrolysis differs; parent, succinate and side-chain metabolite exposures need separate quantification. No human exposure margin inferred from mg/kg.",
+      "current_pipeline_and_rights": "Sponsor-origin experimental chemistry; no current NV354 patient program was established in this focused review.",
+      "decision": "Deprioritize chronic disease-development pitch; reserve only for a distinct, qualified post-onset/acute-rescue question.",
+      "ranking_delta": "Strong title weakened by initiation timing, unchanged lifespan and exposure questions.",
+      "deciding_proof": "Established human complex-I-deficient neurons or muscle must show energy-demand function recovery after deficit at measured parent/metabolite exposure; use cell-permeant delivery controls and respiratory-flux localization.",
+      "advance_condition": "Post-deficit useful function and exposure window exceeds an appropriate substrate-bypass comparator.",
+      "stop_condition": "Prevention only, no functional rescue, or metabolite/parent toxicity overlaps active exposure."
+    },
+    {
+      "candidate_id": "R3-NM-06",
+      "name": "Surlorian / ARM210 / S48168 for RYR1 myopathy",
+      "aliases": [
+        "surlorian",
+        "ARM210",
+        "ARM-210",
+        "S48168"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "surlorian",
+          "ARM210",
+          "ARM-210",
+          "S48168"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839573/",
+      "source_ids": [
+        "NM-S24",
+        "NM-S25"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839573/",
+        "https://rycarma.com/news/rycarma-announces-first-patient-dosed-in-phase-2-clinical-trial-of-surlorian-for-the-treatment-of-ryr1-related-myopathy/"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "Rycal_RYR1",
+      "exact_entity": "S48168/ARM210, now named surlorian; do not substitute other rycals.",
+      "functional_evidence": "Open-label phase1 enrolled six unique adults, with seven dose episodes because one person reenrolled. Three of four high-dose episodes showed fatigue and physical-exam strength improvements; this was a safety-led 29-day study, not randomized efficacy proof.",
+      "biological_sample_counts": {
+        "unique_human_participants": 6,
+        "dose_episodes": 7,
+        "higher_dose_episodes": 4
+      },
+      "evidence_boundaries": "Do not count the reenrolled individual as an independent seventh patient or infer efficacy from selected exploratory endpoints.",
+      "material_route": "Named clinical manufactured asset; independent lot route and commercial access not verified.",
+      "exposure_and_safety": "Human PK/safety precedent is stronger than most preclinical proposals, but chronic efficacy and genotype-specific response remain trial questions.",
+      "current_pipeline_and_rights": "RyCarma announced first patient dosed 2026-10-26 in a 28-participant randomized crossover phase2, NCT07560020, with 2027 H2 results planned. Treat projected timing as sponsor guidance.",
+      "decision": "Retain as active clinical benchmark; do not nominate an undifferentiated new independent program.",
+      "ranking_delta": "Current clinical activity raises the differentiation bar for another RYR1 small-molecule pitch.",
+      "deciding_proof": "An independent proposal would need an unmet genotype, delivery, exposure or response-selection advantage not answered by the ongoing trial.",
+      "advance_condition": "A distinct supported product/selection hypothesis with meaningful incremental function.",
+      "stop_condition": "Proposal merely repeats the sponsor clinical program or extrapolates leak stabilization to all low-expression RYR1 genotypes."
+    },
+    {
+      "candidate_id": "R3-NM-07",
+      "name": "Ignaseclant / NMD670 for CMT neuromuscular transmission",
+      "aliases": [
+        "ignaseclant",
+        "NMD670",
+        "NMD-670"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "ignaseclant",
+          "NMD670",
+          "NMD-670"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://www.nmdpharma.com/news/topline-results",
+      "source_ids": [
+        "NM-S26",
+        "NM-S27"
+      ],
+      "source_urls": [
+        "https://www.nmdpharma.com/news/topline-results",
+        "https://www.nmdpharma.com/press-releases"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "ClC1_inhibition_neuromuscular",
+      "exact_entity": "Ignaseclant/NMD670 muscle ClC1 inhibitor; not other NMD compounds.",
+      "functional_evidence": "Sponsor-reported randomized double-blind CMT phase2a included 81 adults and 21 days of treatment. The primary 6-minute-walk endpoint was not met; selected secondary measures were positive.",
+      "biological_sample_counts": {
+        "phase2a_CMT_adults": 81
+      },
+      "evidence_boundaries": "Topline sponsor reporting is not a complete peer-reviewed analysis. Primary failure is a real negative for this study, not proof that all CMT repair or muscle therapies fail.",
+      "material_route": "Named clinical product with public program; independent exact supply and license not verified.",
+      "exposure_and_safety": "Symptomatic excitation/transmission improvement and structural axonal repair are different propositions; measure both appropriately.",
+      "current_pipeline_and_rights": "NMD continued public CMT presentations in June2026 and separate MG development; no retrieved basis to call the company program abandoned.",
+      "decision": "Benchmark and deprioritize duplicate development; preserve negative result in portfolio comparator logic.",
+      "ranking_delta": "An apparently attractive clinical-stage CMT candidate is not upgraded solely for having human data.",
+      "deciding_proof": "For an alternative CMT candidate, use clinically interpretable function and adequate treatment duration; demonstrate the proposed mechanism differs sufficiently to survive the NMD670 primary negative.",
+      "advance_condition": "A genuinely distinct response-selected or product-differentiated hypothesis, supported beyond post-hoc endpoint choice.",
+      "stop_condition": "Same short-duration generalized CMT functional pitch with no primary-endpoint plan or mechanistic distinction."
+    },
+    {
+      "candidate_id": "R3-NM-08",
+      "name": "Low-dose decitabine for recessive RYR1 myopathy",
+      "aliases": [
+        "decitabine",
+        "5-aza-2-deoxycytidine",
+        "5-aza-2′-deoxycytidine",
+        "ddaf021"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "decitabine",
+          "5-aza-2-deoxycytidine",
+          "5-aza-2′-deoxycytidine",
+          "ddaf021"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://doi.org/10.1093/hmg/ddaf021",
+      "source_ids": [
+        "NM-S28",
+        "NM-S29",
+        "NM-S30"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1093/hmg/ddaf021",
+        "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c5d6067-16a1-43ab-9e52-a33c600a5c44"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "DNMT_inhibition_RYR1",
+      "exact_entity": "Decitabine (5-aza-2-deoxycytidine), not azacitidine; exact approved chemical with multiple manufactured forms.",
+      "functional_evidence": "A 2025 mouse study used Ryr1 Q1970fsX16+A4329D compound heterozygotes and 0.05 mg/kg for15weeks, reporting improved muscle function/calcium handling. Post-onset treatment initiation was not resolved in this screen and is not claimed.",
+      "biological_sample_counts": {
+        "verified_count": "WT running-wheel arms n=8 each; mutant-arm and specific-force n were not extracted with confidence, so no aggregate sample size is asserted"
+      },
+      "evidence_boundaries": "Low mouse dose and approved oncology status do not establish a long-term pediatric myopathy therapeutic window.",
+      "material_route": "Unambiguous drug identity and manufactured-product precedent; chosen formulation still requires model compatibility and authentication.",
+      "exposure_and_safety": "Official labeling includes marrow suppression; mutagenicity findings create a substantial chronic non-oncology development hurdle. This is compound-specific counterevidence rather than a generic regulatory disclaimer.",
+      "current_pipeline_and_rights": "Surlorian is an active RYR1 comparator, though low-expression recessive disease is not identical to leak-mediated myopathy.",
+      "decision": "Hold systemic repurposing priority; consider the epigenetic mechanism only if function can be separated from genotoxic/marrow exposure.",
+      "ranking_delta": "Positive function is outweighed at present by an unbridged therapeutic-window problem.",
+      "deciding_proof": "In mature recessive-RYR1 patient muscle, require force rescue after stable deficit alongside proliferating marrow-progenitor toxicity and DNA-damage measurements at matched unbound exposure; compare a safer, exact mechanism alternative if available.",
+      "advance_condition": "Large functional improvement with a defensible separation from DNA/marrow harm, not merely a lower nominal dose.",
+      "stop_condition": "Required functional exposure overlaps genotoxic/myelosuppressive effects, or benefit needs treatment during tissue development."
+    },
+    {
+      "candidate_id": "R3-NM-09",
+      "name": "ARD-1676 androgen-receptor degradation for SBMA",
+      "aliases": [
+        "ARD-1676",
+        "ARD1676",
+        "e00732"
+      ],
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "622 coverage_records and 30 generated_concepts.proposals in research/portfolio-register.json; supplementary rg across ddiscov_snapshot and round2 files",
+        "matched_prior_candidate_records": 0,
+        "prior_inventory_ids": [],
+        "searched_aliases": [
+          "ARD-1676",
+          "ARD1676",
+          "e00732"
+        ],
+        "caveat": "New to reviewed inventory is not a claim of new invention, patent novelty, biological novelty, or unowned asset."
+      },
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12664462/",
+      "source_ids": [
+        "NM-S31",
+        "NM-S32",
+        "NM-S33"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12664462/",
+        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c01264",
+        "https://www.medchemexpress.com/ard-1676.html"
+      ],
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "family_id": "AR_PROTAC_SBMA",
+      "exact_entity": "ARD-1676, compound39 in 2023 medicinal chemistry paper, CAS2632305-36-1; published chemical/synthetic characterization and catalog MCE article.",
+      "functional_evidence": "The 2025 SBMA study shows polyglutamine-AR clearance in patient-derived neurons/muscle and mouse target engagement, with24-hour muscle transcriptome improvement. These do not establish improved force, motor function or survival.",
+      "biological_sample_counts": {
+        "cell_fig1": "3–4 experimental replicates; not independent patients",
+        "patient_donors_and_mouse_efficacy_n": "Not resolved here; no functional-efficacy n is invented"
+      },
+      "evidence_boundaries": "Human cellular target degradation is biologically relevant but below the useful-function gate; normal AR suppression also requires assessment.",
+      "material_route": "Public medicinal chemistry and catalog provide a defined route; lot inventory and physical material are not confirmed.",
+      "exposure_and_safety": "Prostate-cancer oral-exposure data establish chemistry precedent, not acceptable chronic AR-degradation consequences in SBMA.",
+      "current_pipeline_and_rights": "A published oncology-origin PROTAC with associated development landscape; no public SBMA clinical efficacy claim established.",
+      "decision": "Hold as a defined-material mechanistic reserve; behind post-onset functional leads.",
+      "ranking_delta": "Good availability does not compensate for absent useful-function evidence.",
+      "deciding_proof": "Patient-derived mature neuromuscular tissue after stable dysfunction: compare ARD-1676 with vehicle, nondegrading matched ligand and genetically reduced mutant AR. Measure force and fatigue, normal AR function and free exposure; separate target degradation from cell loss.",
+      "advance_condition": "Useful function improves at a sustainable exposure without unacceptable normal-AR suppression or cell injury.",
+      "stop_condition": "Only transcript/aggregate measures improve or normal muscle function worsens while mutant AR falls."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "NM-S01",
+      "title": "BLU3797 primary study and synthesis",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "source_type": "primary article",
+      "doi": "10.1172/jci.insight.198568"
+    },
+    {
+      "source_id": "NM-S02",
+      "title": "BLU3797 supplement",
+      "url": "https://insight.jci.org/articles/view/198568/sd/pdf/render/1",
+      "source_type": "primary supplement",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S03",
+      "title": "NanoLuc-PIK3C2B fusion vector 238834",
+      "url": "https://www.addgene.org/238834/",
+      "source_type": "primary catalog",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S04",
+      "title": "Coriell MTM1 fibroblast GM06813",
+      "url": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM06813",
+      "source_type": "primary catalog",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S05",
+      "title": "Coriell MTM1 fibroblast GM24509",
+      "url": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=GM24509",
+      "source_type": "primary catalog",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S06",
+      "title": "Antisense oligomers for treatment of centronuclear myopathies",
+      "url": "https://patents.google.com/patent/WO2025085810A2/en",
+      "source_type": "published patent disclosure",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S07",
+      "title": "PIK3C2B variants and focal epilepsy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9337808/",
+      "source_type": "primary article",
+      "doi": "10.1093/brain/awac082"
+    },
+    {
+      "source_id": "NM-S08",
+      "title": "PI3KC2 inhibitor medicinal chemistry; PI-701 limitations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11151210/",
+      "source_type": "primary article",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S09",
+      "title": "PITCOIN class II PI3K inhibitors",
+      "url": "https://www.nature.com/articles/s41589-022-01118-z",
+      "source_type": "primary article",
+      "doi": "10.1038/s41589-022-01118-z"
+    },
+    {
+      "source_id": "NM-S10",
+      "title": "8015-P2 in Mfn2 T105M knock-in rats",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "source_type": "primary article",
+      "doi": "10.3390/ijms27167376"
+    },
+    {
+      "source_id": "NM-S11",
+      "title": "8015 family and exact 8015-P2 in knock-in mice",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "source_type": "primary article",
+      "doi": "10.1124/jpet.124.002258"
+    },
+    {
+      "source_id": "NM-S12",
+      "title": "MiM111 mouse reversal and separate Chimera C patient-cell study",
+      "url": "https://elifesciences.org/articles/61119",
+      "source_type": "primary article",
+      "doi": "10.7554/eLife.61119"
+    },
+    {
+      "source_id": "NM-S13",
+      "title": "Mitofusin activator orphan designation",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1095725",
+      "source_type": "regulator database",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S14",
+      "title": "Mitofusin activator reverse-carboxamide patent family",
+      "url": "https://patents.google.com/patent/WO2023196340A1/en",
+      "source_type": "published patent and displayed family data",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S15",
+      "title": "Pip8b2-conjugated Dnm2 exon-6 PMO",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677909/",
+      "source_type": "primary article",
+      "doi": "10.1093/brain/awaf249"
+    },
+    {
+      "source_id": "NM-S16",
+      "title": "CKD504 in engineered and patient GARS1 human neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8849597/",
+      "source_type": "primary article",
+      "doi": "10.1002/adbi.202101308"
+    },
+    {
+      "source_id": "NM-S17",
+      "title": "CKD504 in CMT1A models",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7589015/",
+      "source_type": "primary article",
+      "doi": "10.1111/bph.15231"
+    },
+    {
+      "source_id": "NM-S18",
+      "title": "CKD504 first-in-human registry",
+      "url": "https://clinicaltrials.gov/study/NCT03713892",
+      "source_type": "trial registry; no results retrieved",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S19",
+      "title": "XIB4035 post-onset small-fiber neuropathy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926041/",
+      "source_type": "primary article",
+      "doi": "10.1073/pnas.1308889111"
+    },
+    {
+      "source_id": "NM-S20",
+      "title": "XIB4035 primary supplier product listing",
+      "url": "https://focusbiomolecules.com/xib4035-gfr-alpha-1-agonist/",
+      "source_type": "primary catalog",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S21",
+      "title": "XIB4035 product data",
+      "url": "https://focusbiomolecules.com/wp-content/uploads/2020/07/10-1486-product-data.pdf",
+      "source_type": "primary supplier document",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S22",
+      "title": "XIB4035 supplier SDS with conflicting CAS",
+      "url": "https://focusbiomolecules.com/wp-content/uploads/2020/07/10-1486-msds.pdf",
+      "source_type": "primary supplier document",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S23",
+      "title": "NV354 in Ndufs4 knockout complex-I deficiency",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907114/",
+      "source_type": "primary article",
+      "doi": "10.1016/j.isci.2026.114717"
+    },
+    {
+      "source_id": "NM-S24",
+      "title": "S48168/ARM210 phase one RYR1 myopathy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839573/",
+      "source_type": "primary clinical article",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S25",
+      "title": "Surlorian phase two first patient dosed October 26 2026",
+      "url": "https://rycarma.com/news/rycarma-announces-first-patient-dosed-in-phase-2-clinical-trial-of-surlorian-for-the-treatment-of-ryr1-related-myopathy/",
+      "source_type": "primary sponsor release",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S26",
+      "title": "Ignaseclant CMT phase2a topline",
+      "url": "https://www.nmdpharma.com/news/topline-results",
+      "source_type": "primary sponsor release; not peer-reviewed results",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S27",
+      "title": "NMD Pharma current releases",
+      "url": "https://www.nmdpharma.com/press-releases",
+      "source_type": "primary sponsor page",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S28",
+      "title": "Low-dose decitabine in recessive RYR1 myopathy mice",
+      "url": "https://doi.org/10.1093/hmg/ddaf021",
+      "source_type": "primary article",
+      "doi": "10.1093/hmg/ddaf021"
+    },
+    {
+      "source_id": "NM-S29",
+      "title": "Decitabine official prescribing information",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5",
+      "source_type": "official label",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S30",
+      "title": "Decitabine mutagenicity label section",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c5d6067-16a1-43ab-9e52-a33c600a5c44",
+      "source_type": "official label",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S31",
+      "title": "ARD-1676 in SBMA models",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12664462/",
+      "source_type": "primary article",
+      "doi": "10.1016/j.neurot.2025.e00732"
+    },
+    {
+      "source_id": "NM-S32",
+      "title": "ARD-1676 discovery chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c01264",
+      "source_type": "primary medicinal chemistry article",
+      "doi": "10.1021/acs.jmedchem.3c01264"
+    },
+    {
+      "source_id": "NM-S33",
+      "title": "ARD-1676 catalog",
+      "url": "https://www.medchemexpress.com/ard-1676.html",
+      "source_type": "primary catalog",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S34",
+      "title": "BLU3797 catalog PC-26519",
+      "url": "https://www.probechem.com/products_BLU3797.html",
+      "source_type": "primary catalog inherited from round2",
+      "doi": null
+    },
+    {
+      "source_id": "NM-S35",
+      "title": "Curi XLMTM force model",
+      "url": "https://www.curibio.com/xlmtm-model",
+      "source_type": "primary supplier model data inherited from round2",
+      "doi": null
+    }
+  ],
+  "verification": {
+    "all_new_alias_patterns_zero_matches_in_622_plus30": true,
+    "all_records_have_source_urls": true,
+    "all_have_advance_and_stop_conditions": true,
+    "new_experiments_performed": false,
+    "public_catalog_does_not_equal_stock": true,
+    "primary_source_counterevidence_retained": true,
+    "unresolved_counts_reported_as_unknown": true
+  },
+  "conclusion": "Retain BLU as first neuro/muscle proof; add 8015-P2 and DNM2-PPMO human translation as serious new staged-proof candidates, with XIB4035 a lower-priority functional reserve. The other six screens fail immediate priority on identity, timing, efficacy, safety or differentiation. No S-tier quota."
+}

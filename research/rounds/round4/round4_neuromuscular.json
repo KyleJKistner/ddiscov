@@ -1,0 +1,756 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "reviewer": "round4_neuromuscular",
+  "review_scope": "Leader diligence plus six new intervention–disease families; bounded public-source review.",
+  "inventory_basis": {
+    "cumulative_register_schema": "3.0",
+    "coverage_records": 622,
+    "round3_screens": 36,
+    "scope_caveat": "The 2026 Nature Metabolism source was also in a separately saved round 2 red-team memo; rechecked here and not counted as new."
+  },
+  "counts": {
+    "candidate_updates": 2,
+    "new_candidate_records": 6,
+    "new_to_reviewed_inventory": 6,
+    "new_intervention_disease_families": 6,
+    "new_high_priority_bounded_proof_leads": 0,
+    "additional_functional_reserve": 1,
+    "additional_human_cell_reserve": 1,
+    "S_tier_promotions": 0
+  },
+  "candidate_updates": [
+    {
+      "candidate_id": "R4-NM-U01",
+      "prior_candidate_id": "BLU3797_XLMTM",
+      "name": "BLU3797: MTM1-specific liver gate and compartmental biology",
+      "novelty_classification": "refinement",
+      "source_ids": [
+        "R4NM-S01",
+        "R4NM-S02",
+        "R4NM-S03",
+        "R4NM-S04",
+        "R4NM-S05",
+        "R4NM-S06"
+      ],
+      "functional_evidence": "No new exact-BLU human functional result. Add disease-specific hepatobiliary risk context and refine target readouts.",
+      "newly_resolved": [
+        {
+          "topic": "Disease-specific hepatic risk",
+          "finding": "TAM4MTM investigator communication documents a hepatic safety halt; do not transfer causation to BLU. MTM1-loss zebrafish support testing canalicular function in a deficient background.",
+          "source_ids": [
+            "R4NM-S01",
+            "R4NM-S02",
+            "R4NM-S04"
+          ]
+        },
+        {
+          "topic": "Relevant target readouts",
+          "finding": "EEA1-associated PI3P/Rab4 recycling and lysosomal PI-Rag pathways refine the assay; generic total-lipid normalization is insufficient. 2026 NatMetab is a recheck, not newly discovered evidence.",
+          "source_ids": [
+            "R4NM-S05",
+            "R4NM-S06"
+          ]
+        }
+      ],
+      "proposed_decisive_proof": "At matched measured exposures, test post-deficit mature muscle force plus MTM1-deficient canalicular transport, each with a genetic rescue control. The latter is a model-development deliverable, not verified ready assay.",
+      "stop_or_narrow": "Do not advance a systemic package that needs active muscle exposure overlapping irreducible transport impairment. A positive muscle result cannot erase a disease-specific liver contradiction.",
+      "ranking_change": "Retain leading conditional proof priority; strengthen pre-commitment to disease-specific safety/transport endpoints.",
+      "current_S_tier": false
+    },
+    {
+      "candidate_id": "R4-NM-U02",
+      "prior_candidate_id": "R3-NM-01",
+      "name": "8015-P2: public R364W assay route, source-purpose correction and allele-aware biology",
+      "novelty_classification": "refinement",
+      "source_ids": [
+        "R4NM-S07",
+        "R4NM-S08",
+        "R4NM-S09",
+        "R4NM-S10",
+        "R4NM-S11",
+        "R4NM-S12",
+        "R4NM-S13"
+      ],
+      "functional_evidence": "No new exact-P2 human functional response or free-exposure result located.",
+      "newly_resolved": [
+        {
+          "topic": "Practical assay route",
+          "finding": "CMTA describes an already-used BrainXell/ANANDA R364W motor-neuron morphology/transport service; one patient line and healthy comparator. Does not supply a force assay or a demonstrated P2 response.",
+          "source_ids": [
+            "R4NM-S07",
+            "R4NM-S08"
+          ]
+        },
+        {
+          "topic": "T105M apparent supply",
+          "finding": "The Summer 2024 table is donor recruitment, not inventory. It does not close the round 3 exact-T105M material gap.",
+          "source_ids": [
+            "R4NM-S10"
+          ]
+        },
+        {
+          "topic": "Functional platform maturity",
+          "finding": "The KU Leuven 2026 project describes MFN2/GARS1 organoid extension and stimulated function as planned development.",
+          "source_ids": [
+            "R4NM-S09"
+          ]
+        },
+        {
+          "topic": "Genotype interpretation",
+          "finding": "L248H/M376V independent work decouples shape from fusion. Prior R364W human-harm extrapolations were withdrawn in an author correction; human Chimera response is not P2 evidence.",
+          "source_ids": [
+            "R4NM-S11",
+            "R4NM-S12",
+            "R4NM-S13"
+          ]
+        }
+      ],
+      "proposed_decisive_proof": "Use exact-P2/parent/P1 comparison as a measured-exposure neuronal gate, then qualify mature transmission/force with genetic rescue and direct-muscle controls. Treat variant identity and compartment-specific function as part of the decision unit.",
+      "ranking_change": "Retain leading conditional priority; practical first assay route improves, but qualified human useful function remains a development task.",
+      "current_S_tier": false
+    }
+  ],
+  "new_candidates": [
+    {
+      "candidate_id": "R4-NM-01",
+      "name": "CLP290 for chronic SCI spasticity with preserved motor function",
+      "aliases": [
+        "CLP290",
+        "CLP 290",
+        "CLP257",
+        "CLP 257"
+      ],
+      "family_id": "CLP290_chronic_SCI",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "CLP290",
+          "CLP 290",
+          "CLP257",
+          "CLP 257"
+        ],
+        "occurrence_counts": {
+          "CLP290": 0,
+          "CLP 290": 0,
+          "CLP257": 0,
+          "CLP 257": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "CLP290 carbamate prodrug of CLP257; Tocris 6758; CAS 1181083-81-7. Do not substitute the active parent or OV350.",
+      "indication": "Chronic SCI spasticity with residual motor capacity",
+      "source_ids": [
+        "R4NM-S14",
+        "R4NM-S15",
+        "R4NM-S16",
+        "R4NM-S17",
+        "R4NM-S18",
+        "R4NM-S19"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6063786/",
+        "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP287774",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7371006/",
+        "https://www.bio-techne.com/p/small-molecules-peptides/clp-290_6758",
+        "https://patents.google.com/patent/US10525024B2/en",
+        "https://investors.ovidrx.com/overview/default.aspx"
+      ],
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6063786/",
+      "decision": "functional_reserve",
+      "functional_evidence": "2018 staggered-lesion motor benefit and independent 2025 chronic complete-SCI assisted-stepping/reflex effect. Different tasks and models; not replicated unassisted walking.",
+      "independent_biological_units": "2018: starts 10 mice per group, ends with 8 vehicle and 10 drug at week 9. 2025: starts with 7 female rats; many endpoint analyses include 6. Paired limbs and EMG channels are nested within animals.",
+      "readiness": {
+        "identity": "defined published and catalog material",
+        "sourcing": "public research catalog; stock/lot not verified",
+        "model": "public chronicSCI assay descriptions; no execution here",
+        "exposure": "2025: single 100 mg/kg i.p. exposure; no human therapeutic exposure bridge established.",
+        "rights": "issued neonatal-combination method patent exists; SCI claim mapping incomplete",
+        "differentiation": "must outperform meaningful motor tradeoff of antispastic comparator; mechanism disputed"
+      },
+      "proposed_decisive_proof": "Independent blinded vehicle/active-comparator experiment with post-deficit useful motor task, matched free exposure, force preservation and KCC2 versus GABA-A mechanism separation.",
+      "kill_or_narrow": "Stop promotion if benefit only reflects nonspecific sedation, no force preservation, or infeasible exposure; retain target separately if exact compound mechanism fails.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "key_limitations": [
+        "The 2025 within-animal design lacks a described separate vehicle session.",
+        "Treadmill uses manual support and perineal stimulation.",
+        "CLP257 primary mechanism challenge includes GABA-A potentiation; genetic KCC2 efficacy does not prove drug specificity.",
+        "Washout behavior differs by study/endpoint; do not claim universal persistent restoration."
+      ]
+    },
+    {
+      "candidate_id": "R4-NM-02",
+      "name": "TAT-fused P110 for HSP axonal dysfunction",
+      "aliases": [
+        "P110",
+        "Drp1-Fis1"
+      ],
+      "family_id": "P110_HSP",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "P110",
+          "Drp1-Fis1"
+        ],
+        "occurrence_counts": {
+          "P110": 0,
+          "Drp1-Fis1": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "Cell-penetrating P110 construct corresponding to Tocris6897/CAS2770267-63-3, not bare heptapeptide CAS1411976-18-5.",
+      "indication": "SPG11/SPG15/SPG48 hereditary spastic paraplegia",
+      "source_ids": [
+        "R4NM-S20",
+        "R4NM-S21",
+        "R4NM-S22",
+        "R4NM-S23"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10200290/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931288/",
+        "https://www.bio-techne.com/p/small-molecules-peptides/p110_6897",
+        "https://www.medchemexpress.com/p110.html"
+      ],
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10200290/",
+      "decision": "human_cell_reserve",
+      "functional_evidence": "Patient-neuron mitochondrial, degeneration and apoptosis readouts improve; genetic controls strengthen disease/mechanism association. No restored neural circuit function established.",
+      "independent_biological_units": "2025 SPG15: 2 affected siblings plus an unaffected sibling, one family. 2022 includes SPG11/SPG48 patient backgrounds plus engineered and genetic controls; the aggregate donor denominator was not fully reconstructed. Mitochondria and fields are not donors.",
+      "readiness": {
+        "identity": "Complete cell-penetrating construct mapped to primary 2025 paper and catalog.",
+        "sourcing": "two distinct P110 named products identified; stock/lot unverified",
+        "model": "Published human cortical-neuron models; no transferred, qualified functional assay.",
+        "exposure": "Nominal 1 micromolar cell exposure; human CNS exposure and therapeutic window not established.",
+        "rights": "not exhaustively searched; public synthesis/catalog does not imply FTO"
+      },
+      "proposed_decisive_proof": "Post-deficit axonal conduction or mature neuronal-network function across independent family backgrounds with exact-peptide authentication, intracellular exposure and genetic correction/DRP1 controls.",
+      "kill_or_narrow": "Do not advance on morphology/ATP alone or if healthy neuronal quality control is impaired at active exposure.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "non_independence": "The 2022 and 2025 HSP papers share investigators; adding a subtype is not independent laboratory replication."
+    },
+    {
+      "candidate_id": "R4-NM-03",
+      "name": "CDRI-1709S for established muscle atrophy",
+      "aliases": [
+        "CDRI-1709S",
+        "CDRI1709S",
+        "CDRI-1709"
+      ],
+      "family_id": "CDRI1709S_atrophy",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "CDRI-1709S",
+          "CDRI1709S",
+          "CDRI-1709"
+        ],
+        "occurrence_counts": {
+          "CDRI-1709S": 0,
+          "CDRI1709S": 0,
+          "CDRI-1709": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "Named 3-hydroxy pterocarpan salt from the 2026 AdipoR1 study; exact full salt and stereochemical mapping not reconstructed.",
+      "indication": "Established atrophy, initially distinguish glucocorticoid and denervation settings",
+      "source_ids": [
+        "R4NM-S24"
+      ],
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/jcsm.70328"
+      ],
+      "exact_article": "https://onlinelibrary.wiley.com/doi/10.1002/jcsm.70328",
+      "decision": "hold",
+      "functional_evidence": "Rat grip/wire-hang and toe-spread results support further screening; established-deficit reversal is unproven in these treatment schedules.",
+      "independent_biological_units": "Dexamethasone study: 6 rats per group. Denervation: 6 per group initially; day 7 control 5 and drug 6. Some controls were shared with separately reported medicarpin work.",
+      "readiness": {
+        "identity": "Named source and public synthesis reference; full identity mapping not independently reproduced.",
+        "sourcing": "No current physical stock verified.",
+        "model": "Standard rodent and cell models; mature human muscle proof absent.",
+        "exposure": "The paper compares nominal 100 nM in cells with an earlier approximately 120 nM total-plasma maximum; no free-muscle exposure bridge.",
+        "rights": "Paper describes prior patented osteogenic work; exact claim mapping not performed."
+      },
+      "proposed_decisive_proof": "Qualify delayed established-atrophy force rescue versus active comparator, with measured free exposure and clean exact-article release.",
+      "kill_or_narrow": "Hold if only co-treatment, prevention or passive paw-print changes persist; exclude reinnervation claims without nerve conduction.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false,
+      "key_limitations": [
+        "Co-administration in the dexamethasone study.",
+        "Denervation treatment starts 24 hours after excision and ligation; toe-print spread is not restored nerve conduction.",
+        "Large synthesis supplement referenced but not fully inspected; this is not evidence that a route is absent."
+      ]
+    },
+    {
+      "candidate_id": "R4-NM-04",
+      "name": "BCH-HSP-C01 for AP-4-associated HSP",
+      "aliases": [
+        "BCH-HSP-C01",
+        "HY-163329"
+      ],
+      "family_id": "BCHHSPC01_AP4",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "BCH-HSP-C01",
+          "HY-163329"
+        ],
+        "occurrence_counts": {
+          "BCH-HSP-C01": 0,
+          "HY-163329": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "BCH-HSP-C01, publicly defined and resynthesized small molecule; Sigma SML4139.",
+      "indication": "AP4M1/SPG50 and AP4B1/SPG47 deficiency",
+      "source_ids": [
+        "R4NM-S25",
+        "R4NM-S26"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-023-44264-1",
+        "https://www.sigmaaldrich.com/US/en/product/sigma/sml4139"
+      ],
+      "exact_article": "https://www.nature.com/articles/s41467-023-44264-1",
+      "decision": "hold_mechanism_tool",
+      "functional_evidence": "ATG9A/DAGLB trafficking response at micromolar concentrations; mature neuronal signaling/function or in-vivo efficacy not established.",
+      "independent_biological_units": "One AP4M1 and one AP4B1 patient background, each compared with a sex-matched heterozygous parent. Wells and repeated differentiations are not independent donors.",
+      "readiness": {
+        "identity": "Public chemical identity and primary resynthesis.",
+        "sourcing": "Catalog listed; current stock unverified.",
+        "model": "Public patient-neuron trafficking assay; not qualified circuit function.",
+        "exposure": "Approximately 5 micromolar cellular EC50; CNS physicochemical plausibility is not measured brain exposure.",
+        "rights": "No ownership or FTO conclusion from bounded search."
+      },
+      "proposed_decisive_proof": "Test delayed rescue of a qualified mature neuronal functional deficit with measured intracellular exposure, then CNS exposure feasibility.",
+      "kill_or_narrow": "Do not promote solely for cargo redistribution or presumed blood–brain barrier penetration.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false
+    },
+    {
+      "candidate_id": "R4-NM-05",
+      "name": "Copanlisib for GNE myopathy",
+      "aliases": [
+        "copanlisib",
+        "Aliqopa"
+      ],
+      "family_id": "copanlisib_GNE",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "copanlisib",
+          "Aliqopa"
+        ],
+        "occurrence_counts": {
+          "copanlisib": 0,
+          "Aliqopa": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "Copanlisib, pan-class-I PI3K inhibitor; exact research-material salt and purity must be specified.",
+      "indication": "GNE myopathy",
+      "source_ids": [
+        "R4NM-S27",
+        "R4NM-S28"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s12276-026-01701-7",
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals"
+      ],
+      "exact_article": "https://www.nature.com/articles/s12276-026-01701-7",
+      "decision": "deprioritize_systemic_repurposing",
+      "functional_evidence": "Organoid result is autophagic-flux/LC3 readout recovery, not contractile rescue. The immediate FDA-approved, marketed-drug premise is contradicted by the regulator.",
+      "independent_biological_units": "Isogenic I329T neuromuscular-organoid comparison and other edited/myoblast systems; organoids and fields do not provide multiple patient donors.",
+      "readiness": {
+        "identity": "Defined drug.",
+        "sourcing": "Research material may be sourced; withdrawn US marketing approval cannot be described as current approved availability.",
+        "model": "Human isogenic neuromuscular organoid described; force not demonstrated.",
+        "exposure": "Nominal 1 micromolar in selected assays; chronic muscle function and safety bridge absent.",
+        "regulatory": "FDA withdrawal on 18 March 2024 for the follicular lymphoma indication.",
+        "differentiation": "Autophagy restoration alone does not establish benefit or advantage relative to selective pathway tools."
+      },
+      "proposed_decisive_proof": "Only revisit with tolerable post-deficit functional rescue and an exposure rationale; evaluate a more selective strategy separately if warranted.",
+      "kill_or_narrow": "No current priority for an approved-drug shortcut; neither approval withdrawal nor the autophagy result establishes GNE-myopathy efficacy.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false
+    },
+    {
+      "candidate_id": "R4-NM-06",
+      "name": "Tamoxifen for XLMTM",
+      "aliases": [
+        "tamoxifen",
+        "TAM4MTM"
+      ],
+      "family_id": "tamoxifen_XLMTM",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_type": "new_to_reviewed_inventory",
+      "alias_search_basis": {
+        "scope": "Cumulative schema3 register including622 coverage rows,30 round2 proposals,36 round3 screens and embedded review texts",
+        "searched_aliases": [
+          "tamoxifen",
+          "TAM4MTM"
+        ],
+        "occurrence_counts": {
+          "tamoxifen": 0,
+          "TAM4MTM": 0
+        },
+        "matched_prior_candidate_records": 0,
+        "caveat": "Absence under named aliases is inventory novelty only, not invention/patent novelty."
+      },
+      "exact_entity": "Tamoxifen/ApoTamox clinical repurposing; not a substitute for PIK3C2B selectivity.",
+      "indication": "MTM1 X-linked myotubular myopathy",
+      "source_ids": [
+        "R4NM-S29",
+        "R4NM-S01",
+        "R4NM-S02",
+        "R4NM-S03"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6242823/",
+        "https://mtmcnmregistry.org/media/images/Tamoxifen-team-study-message.pdf",
+        "https://mtmcnmregistry.org/news/TAM4MTM/index.en.html",
+        "https://www.isrctn.com/ISRCTN34421891"
+      ],
+      "exact_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6242823/",
+      "decision": "reject_current_development_pitch",
+      "functional_evidence": "Mouse late-start survival benefit exists; the human trial was halted for liver abnormalities, outweighing the straightforward repurposing rationale.",
+      "independent_biological_units": "Late P30 low-dose mouse study: 8 treated and 4 controls. The clinical safety letter does not give the complete analyzed cohort. The webinar account describes 2 affected participants, not an efficacy denominator.",
+      "readiness": {
+        "identity": "Established chemical and clinical product.",
+        "sourcing": "Generic drug identity does not resolve indication-specific risk.",
+        "model": "Mouse disease model published; no new experiment here.",
+        "clinical": "TAM4MTM safety halt in 2024; full clinical efficacy dataset not recovered.",
+        "rights": "Not the deciding barrier for the current rejection."
+      },
+      "proposed_decisive_proof": "No independent repeat mouse-efficacy package is justified until clinical disease-specific hepatic risk has a credible mechanistic resolution.",
+      "kill_or_narrow": "Do not reclassify using generic availability or registry Completed status; do not transfer the same toxicity causation to BLU.",
+      "current_S_tier": false,
+      "physical_supply_confirmed": false,
+      "experiment_performed": false,
+      "outreach_needed_for_scientific_selection": false
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "R4NM-S01",
+      "title": "TAM4MTM investigator safety-stop letter, 21 November 2024",
+      "url": "https://mtmcnmregistry.org/media/images/Tamoxifen-team-study-message.pdf",
+      "source_type": "primary investigator communication",
+      "checked_as_of": "2026-11-04"
+    },
+    {
+      "source_id": "R4NM-S02",
+      "title": "Registry account of TAM4MTM investigator webinar",
+      "url": "https://mtmcnmregistry.org/news/TAM4MTM/index.en.html",
+      "source_type": "primary registry-hosted account of investigator presentation",
+      "checked_as_of": "2026-11-04"
+    },
+    {
+      "source_id": "R4NM-S03",
+      "title": "TAM4MTM trial registration",
+      "url": "https://www.isrctn.com/ISRCTN34421891",
+      "source_type": "trial registry",
+      "checked_as_of": "2026-11-04",
+      "other_identifier": "NCT04915846",
+      "limitation": "Registry status Completed differs from primary investigator safety-stop explanation; do not infer successful completion."
+    },
+    {
+      "source_id": "R4NM-S04",
+      "title": "MTM1-dependent cholestatic disease and canalicular rescue model",
+      "url": "https://www.jci.org/articles/view/166275",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1172/JCI166275",
+      "pmid": "37490339"
+    },
+    {
+      "source_id": "R4NM-S05",
+      "title": "PIK3C2B depletion and endosomal cargo recycling in MTM1-deficient muscle",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11930147/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1016/j.jlr.2025.100756",
+      "pmid": "39952567"
+    },
+    {
+      "source_id": "R4NM-S06",
+      "title": "Lysosomal phosphoinositides, Rag-mTORC1 and muscle growth",
+      "url": "https://www.nature.com/articles/s42255-026-01484-1",
+      "source_type": "primary experimental article, previously reviewed; rechecked here",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1038/s42255-026-01484-1",
+      "pmid": "41851531",
+      "novelty_note": "Previously reviewed in round2_blu3797_redteam.md; not new discovery evidence in round4."
+    },
+    {
+      "source_id": "R4NM-S07",
+      "title": "CMTA-STAR R364W motor-neuron assay announcement",
+      "url": "https://cmtausa.org/simply-cmt/cmt2a-ipsc-motor-neuron-assay-cmta-star/",
+      "source_type": "primary platform-provider announcement",
+      "checked_as_of": "2026-11-04",
+      "publication_date": "2026-03-06"
+    },
+    {
+      "source_id": "R4NM-S08",
+      "title": "CMTA-STAR current model and assay toolbox",
+      "url": "https://cmtausa.org/preclinical-toolbox/",
+      "source_type": "primary provider description",
+      "checked_as_of": "2026-11-04"
+    },
+    {
+      "source_id": "R4NM-S09",
+      "title": "KU Leuven CMT neuromuscular-organoid project",
+      "url": "https://research.kuleuven.be/portal/en/project/3M260565",
+      "source_type": "primary institutional project description",
+      "checked_as_of": "2026-11-04",
+      "project_period": "2026-09-30 through 2030-09-30"
+    },
+    {
+      "source_id": "R4NM-S10",
+      "title": "Summer 2024 CMTA report page 19 donor-recruitment table",
+      "url": "https://cmtausa.org/wp-content/uploads/2025/09/Summer-2024-CMTA-Report.pdf",
+      "source_type": "primary organization report; full PDF inspected locally",
+      "checked_as_of": "2026-11-04",
+      "verification": "Ordinary public URL download returned HTTP200 and 13,615,812 bytes; pdftotext raw/layout verified heading and table on printed page19. Search snippets omit recruitment context.",
+      "artifact_handling": "Source cited, not redistributed in deliverable."
+    },
+    {
+      "source_id": "R4NM-S11",
+      "title": "MFN2 L248H/M376V variants and differing fission phenotypes",
+      "url": "https://www.nature.com/articles/s41419-026-08838-3",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1038/s41419-026-08838-3",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13458151/"
+    },
+    {
+      "source_id": "R4NM-S12",
+      "title": "Correction withdrawing extrapolated R364W human-pathogenesis and pro-fusion-harm conclusions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7332790/",
+      "source_type": "primary author correction",
+      "checked_as_of": "2026-11-04",
+      "limitation": "Correction withdraws specified conclusions; it is not a retraction of the whole original Drosophila article."
+    },
+    {
+      "source_id": "R4NM-S13",
+      "title": "Human fibroblast mitochondrial phenotypes and Chimera response",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8947610/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.3390/cells11061053"
+    },
+    {
+      "source_id": "R4NM-S14",
+      "title": "CLP290 and KCC2 manipulation after staggered spinal injury",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6063786/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1016/j.cell.2018.06.005",
+      "pmid": "30033363"
+    },
+    {
+      "source_id": "R4NM-S15",
+      "title": "CLP290 reflex and assisted-stepping effects after chronic SCI",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP287774",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1113/JP287774",
+      "pmid": "40906931",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12487610/"
+    },
+    {
+      "source_id": "R4NM-S16",
+      "title": "Independent CLP257 mechanism challenge",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7371006/",
+      "source_type": "primary experimental correspondence",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1038/nm.4442",
+      "pmid": "29216042"
+    },
+    {
+      "source_id": "R4NM-S17",
+      "title": "CLP290 Tocris 6758 material identity",
+      "url": "https://www.bio-techne.com/p/small-molecules-peptides/clp-290_6758",
+      "source_type": "primary supplier catalog",
+      "checked_as_of": "2026-11-04",
+      "cas": "1181083-81-7"
+    },
+    {
+      "source_id": "R4NM-S18",
+      "title": "CLP290-containing neonatal-seizure method patent",
+      "url": "https://patents.google.com/patent/US10525024B2/en",
+      "source_type": "published issued-patent record",
+      "checked_as_of": "2026-11-04",
+      "limitation": "Specific neonatal combination-method claim; not a claim map for SCI or exhaustive landscape/FTO analysis."
+    },
+    {
+      "source_id": "R4NM-S19",
+      "title": "Ovid KCC2 clinical-program benchmark",
+      "url": "https://investors.ovidrx.com/overview/default.aspx",
+      "source_type": "primary company program description and announcement",
+      "checked_as_of": "2026-11-04",
+      "additional_url": "https://ovidtherapeutics2022ir.q4web.com/news/news-details/2025/Ovid-Therapeutics-Reports-Phase-1-Results-for-the-First-Ever-Direct-Activator-of-Potassium-Chloride-Cotransporter-2-KCC2-OV350-Intravenous-IV/default.aspx",
+      "limitation": "OV350/OV4071 are not CLP290; reported phase1 results are sponsor statements, not SCI efficacy."
+    },
+    {
+      "source_id": "R4NM-S20",
+      "title": "P110 in SPG11 and SPG48 human cortical neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10200290/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1093/brain/awab488",
+      "pmid": "35026838"
+    },
+    {
+      "source_id": "R4NM-S21",
+      "title": "TAT-fused P110 in SPG15 patient neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931288/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1016/j.nbd.2025.107174",
+      "pmid": "41192643"
+    },
+    {
+      "source_id": "R4NM-S22",
+      "title": "Cell-penetrating P110 Tocris6897 identity",
+      "url": "https://www.bio-techne.com/p/small-molecules-peptides/p110_6897",
+      "source_type": "primary supplier catalog",
+      "checked_as_of": "2026-11-04",
+      "cas": "2770267-63-3"
+    },
+    {
+      "source_id": "R4NM-S23",
+      "title": "Bare P110 heptapeptide identity",
+      "url": "https://www.medchemexpress.com/p110.html",
+      "source_type": "primary supplier catalog",
+      "checked_as_of": "2026-11-04",
+      "cas": "1411976-18-5"
+    },
+    {
+      "source_id": "R4NM-S24",
+      "title": "CDRI1709S AdipoR1 and atrophy study",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcsm.70328",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1002/jcsm.70328",
+      "pmid": "42480512",
+      "limitation": "Main text and methods inspected; large synthesis/full-blot supplement not reconstructed."
+    },
+    {
+      "source_id": "R4NM-S25",
+      "title": "BCH-HSP-C01 AP4 cargo trafficking",
+      "url": "https://www.nature.com/articles/s41467-023-44264-1",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1038/s41467-023-44264-1",
+      "pmid": "38233389"
+    },
+    {
+      "source_id": "R4NM-S26",
+      "title": "BCH-HSP-C01 SigmaSML4139 identity",
+      "url": "https://www.sigmaaldrich.com/US/en/product/sigma/sml4139",
+      "source_type": "primary supplier catalog",
+      "checked_as_of": "2026-11-04"
+    },
+    {
+      "source_id": "R4NM-S27",
+      "title": "Copanlisib autophagy readouts in GNE isogenic organoids",
+      "url": "https://www.nature.com/articles/s12276-026-01701-7",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04",
+      "doi": "10.1038/s12276-026-01701-7",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13144418/"
+    },
+    {
+      "source_id": "R4NM-S28",
+      "title": "FDA withdrawn accelerated cancer approvals",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals",
+      "source_type": "regulator record",
+      "checked_as_of": "2026-11-04",
+      "additional_url": "https://public-inspection.federalregister.gov/2024-05619.pdf",
+      "withdrawal_date": "2024-03-18"
+    },
+    {
+      "source_id": "R4NM-S29",
+      "title": "Tamoxifen in the Mtm1 mouse",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6242823/",
+      "source_type": "primary experimental article",
+      "checked_as_of": "2026-11-04"
+    }
+  ],
+  "source_semantics_corrections": [
+    {
+      "case": "CMT2A T105M resource",
+      "false_positive": "An indexed mutation table looked like available lines.",
+      "resolved": "Primary report page 19 is a donor wishlist.",
+      "source_ids": [
+        "R4NM-S10"
+      ]
+    },
+    {
+      "case": "P110",
+      "false_positive": "The bare heptapeptide and TAT-fused construct have similar product names.",
+      "resolved": "Distinct CAS numbers and masses; the complete cell-penetrating article is mapped.",
+      "source_ids": [
+        "R4NM-S21",
+        "R4NM-S22",
+        "R4NM-S23"
+      ]
+    },
+    {
+      "case": "Copanlisib",
+      "false_positive": "The 2026 paper calls the drug FDA approved and market available.",
+      "resolved": "FDA withdrew Aliqopa approval on 18 March 2024.",
+      "source_ids": [
+        "R4NM-S27",
+        "R4NM-S28"
+      ]
+    },
+    {
+      "case": "TAM4MTM",
+      "false_positive": "Completed registry status could imply a successful course.",
+      "resolved": "Investigator statement documents a safety halt.",
+      "source_ids": [
+        "R4NM-S01",
+        "R4NM-S02",
+        "R4NM-S03"
+      ]
+    }
+  ],
+  "verification": {
+    "alias_checks_passed": true,
+    "source_ids_resolved": true,
+    "current_physical_stock_verified": false,
+    "experiments_performed": false,
+    "outreach_performed": false,
+    "freedom_to_operate_established": false,
+    "date_cutoff": "2026-11-04"
+  },
+  "conclusion": "Retain BLU/P2 as conditional proof priorities; tighten liver and functional-qualification gates. Add CLP290 as a functional reserve and P110 as a human-cell reserve. Six new screens, no S-tier promotion."
+}

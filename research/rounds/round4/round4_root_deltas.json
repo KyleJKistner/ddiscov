@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-11-04",
+  "screening_round": 4,
+  "scope": "Integrating review: one new preservation candidate, BLU3797 source-data audit, independent RM4404 challenge",
+  "new_candidates": [
+    {
+      "candidate_id": "R4-RT-01",
+      "name": "Alvelestat for pancreas preservation before islet isolation",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "novelty_basis": "No alvelestat/AZD9668 occurrence in the original inventory, round2 generated proposals, or round3 candidate records. Published use is not claimed to be new to science.",
+      "exact_entity": "Alvelestat (AZD9668/MPH-966), research material from AdooQ in the source study, as an additive to extracellular-type trehalose-Kyoto pancreas-preservation solution.",
+      "functional_evidence": "A 2022 primary study compared 10 porcine pancreatic isolations per group. Treated pancreata yielded more islets and higher glucose-stimulated insulin function. At a marginal transplanted islet quantity, 11/20 recipient mice reached the study's glycemic criterion versus1/20 controls; each group of20 mice came from10 isolations, two recipients per isolation.",
+      "biological_unit": "Ten pancreatic donor/isolation units per group; recipient outcomes are nested two per isolation. Twenty recipients are not20 independent drug-treated donor pancreata.",
+      "treatment_timing": "Preservation of an already procured organ before a prolonged cold-storage/isolation challenge. This is prevention of additional processing injury, not reversal of established diabetes in the donor or regeneration of lost human islets.",
+      "comparator": "Same preservation workflow without alvelestat. The paper discusses sivelestat and ulinastatin but does not establish head-to-head superiority over an optimized active preservation regimen.",
+      "research_material_route": "Defined small molecule and named research supplier in the primary methods. No current stock, received lot, salt/formulation equivalence, GMP supply or residual clearance qualification established in this review.",
+      "model_route": "Porcine pancreas isolation route is described. Human donor-isolation access has not been secured or independently reproduced here.",
+      "exposure_product_gap": "Need measured residual drug and NE activity through storage, washout and isolation; preserve digestion performance and viable functional yield at scale.",
+      "public_commercial_facts": "Mereo and Sentynl announced an option/license agreement for alvelestat in AATD lung disease on11August2026, with Phase3 initiation projected for early2027 conditional on option exercise. That is an active external program, not an islet-use license or approval. NIH lists one related graft-rejection application as abandoned; this does not establish global clearance.",
+      "decision": "Reserve for an independently differentiated islet-manufacturing proof; does not displace the leading programs.",
+      "deciding_proof": "Test donor-level functional islet yield and sustained glucose-responsive output against optimized preservation plus an active NE-inhibitor comparator, with blinded allocation, explicit recipient clustering and residual-product clearance.",
+      "advance_condition": "A reproducible human-relevant increase in usable functional islets, or reduced donor/isolation burden, that remains after washout and exceeds the strongest practical comparator.",
+      "stop_condition": "Higher counts without useful secretion or graft function, no advantage over an existing preservation additive, or residual and processing burdens that erase the gain.",
+      "current_S_tier": false,
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9330829/",
+        "https://pubmed.ncbi.nlm.nih.gov/35893379/",
+        "https://doi.org/10.3390/jcm11154290",
+        "https://mereobiopharma.com/news/option-and-license-agreement/",
+        "https://www.mereobiopharma.com/our-pipeline/alvelestat-mph966/",
+        "https://www.techtransfer.nih.gov/patent/e-176-2022-0-us-02"
+      ]
+    }
+  ],
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "BLU3797_XLMTM",
+      "new_evidence_delta": "Two public patent disclosures describe the matching S upstream intermediate, creating a plausible joined reconstruction route. Newly inspected source workbook verifies strong dose-dependent, ceiling-limited wire-hang observations but exposes an unresolved P22 schedule mismatch in the small late-start comparison, incomplete baseline records, and unlinked panel denominators.",
+      "decision": "Retain leading staged human-function proof; improve route-definition confidence and narrow late-treatment evidence interpretation. No S-tier promotion.",
+      "source_urls": [
+        "https://insight.jci.org/articles/view/198568",
+        "https://insight.jci.org/articles/view/198568/sd/pdf/render/1",
+        "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+        "https://patents.google.com/patent/US20240226104A1/en",
+        "https://patents.google.com/patent/CN119490502A/en"
+      ],
+      "analysis_artifacts": [
+        "research/rounds/round4/blu3797-audit.md",
+        "research/rounds/round4/blu3797-source-audit.json",
+        "methods/blu3797_source_audit.py"
+      ]
+    }
+  ],
+  "independent_challenges": [
+    {
+      "candidate_name": "RM4404/WAY-262611 for delayed corneal nerve repair",
+      "conclusion": "Useful delayed functional signal merits independent replication. Randomization is reported. The mechanical-injury analysis treats two eyes of a mouse as independent, and its late durability comparisons are often against uninjured animals rather than direct drug-versus-vehicle tests. Supplement S2 supplies explicit drug-versus-vehicle tests, including a one-injured-eye chemical model. Do not claim equivalence to normal or count N22 eye observations as22 mice.",
+      "product_note": "Methods describe drug dilution from DMSO stocks into micelles; the high and low drug concentrations imply different DMSO fractions. Drug-free vehicle is described as similarly prepared, but explicit dose-matched solvent composition is not resolved. Treat this as a formulation-control qualification item, not a proven explanation of efficacy.",
+      "deciding_proof": "Independent, masked animal-level delayed-treatment replication with characterized formulation and matched vehicle, meaningful active comparator, post-withdrawal sensation, corneal optics and epithelial safety.",
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/jnr.70142"
+      ],
+      "primary_source_independently_opened": true,
+      "additional_independent_review": "A second workstream independently checked the primary paper. Section 2.9 reports blinded secondary imaging review; primary-quantifier and sensory-assessor blinding remain unresolved. At day30 axonal medians357.7 vehicle versus362.1 RM4404 do not demonstrate structural superiority from separate healthy-reference tests. Four days off treatment in the short regimen is not pharmacokinetic washout; do not merge it with the longer mechanical-injury cohort."
+    }
+  ]
+}

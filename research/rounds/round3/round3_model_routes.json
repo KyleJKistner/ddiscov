@@ -1,0 +1,262 @@
+{
+  "schema_version": "round3-model-routes-1.0",
+  "as_of": "2026-11-04",
+  "bounded_search": {
+    "completed": true,
+    "scope": [
+      "Coriell/ATCC/NYSCF/EBiSC MFN2 cell catalog searches",
+      "Darier ATP2A2 patient-cell catalog searches",
+      "JCI170739 methods and public parental-line/editor/alternative-cell sources"
+    ],
+    "limits": "Not exhaustive. Search absence is not proof that no material exists elsewhere."
+  },
+  "profiles": [
+    {
+      "candidate_id": "R3-NM-01",
+      "candidate": "8015-P2 / MFN2-CMT2A",
+      "public_starting_materials": [
+        {
+          "catalog_id": "AG0002-01-MR",
+          "gene": "MFN2",
+          "catalog_variant": "H361Y",
+          "sex": "male",
+          "donor_age": null,
+          "iPSC_listed": true,
+          "fibroblast_listed": true,
+          "T105M_match": false
+        },
+        {
+          "catalog_id": "AG0008-01-MR",
+          "gene": "MFN2",
+          "catalog_variant": "c.2219G>C (catalog prints Tryp740Ser)",
+          "normalized_protein_interpretation": "p.Trp740Ser; verify by sequencing rather than relying on catalog typography",
+          "sex": "female",
+          "donor_age": 39,
+          "iPSC_listed": true,
+          "fibroblast_listed": true,
+          "T105M_match": false
+        },
+        {
+          "catalog_id": "AG0015-01-MR",
+          "gene": "MFN2",
+          "catalog_variant": "R364W",
+          "sex": "female",
+          "donor_age": null,
+          "iPSC_listed": true,
+          "fibroblast_listed": true,
+          "T105M_match": false
+        }
+      ],
+      "source_ids": [
+        "MR01",
+        "MR02",
+        "MR03"
+      ],
+      "source_urls": [
+        "https://www.nyscf.org/wp-content/uploads/2025/05/Available-iPSCs_CMTA_051525.pdf",
+        "https://nyscf.org/wp-content/uploads/2025/02/Available-iPSCs_CMTA_020425.pdf",
+        "https://www.nyscf.org/resources/stem-cell-search/"
+      ],
+      "availability_status": "Three exact repository-listed patient backgrounds; distribution by request, current inventory/leadtime/eligibility/terms not verified. Catalogs are not ready functional motor neurons.",
+      "positive_delta": "Independent public repository route permits a multi-allele human model brief without depending on the mitofusin investigators sole T105M patient culture.",
+      "unresolved": [
+        "No exactT105M patient fibroblast/iPSC catalog found in this bounded search.",
+        "No listed isogenic corrected control for these threeMFN2 lines in the examined panel; isogenic rows elsewhere concern MPZ/NEFL and cannot be borrowed.",
+        "No exact8015-P2 response or mature functional neuron/NMJ phenotype established in these catalog backgrounds.",
+        "Distinct line IDs are not a guarantee of unrelated families or independent disease mechanisms; confirm donor provenance when qualifying material."
+      ],
+      "qualification_gate_proposed": "Authenticate line/allele and genomic integrity; establish reproducible mature neuronal/NMJ useful-function deficit and its genetic rescuability before randomizing drug. Compare at leasttwo MFN2 backgrounds and treat differentiation batches as nested replicates. Fibroblasts may provide a direct-reprogramming starting route; iPSCs provide a differentiation route; neither inherits the P2 phenotype.",
+      "T105M_bridge_proposed": "If exact-allele anchoring is important, an engineeredT105M/WT isogenic pair in an independently available parental line is a separate model-development task; it is not a cataloged patient line and is not counted as an additional patient.",
+      "rank_change": "Raises specificity of model route but does not raise efficacy tier, prove immediate stock or eliminate model qualification.",
+      "physical_stock_confirmed": false,
+      "qualified_function_confirmed": false
+    },
+    {
+      "candidate_id": "NDC9009_Darier_model_route",
+      "candidate": "NDC9009 / Darier model route",
+      "patient_material": {
+        "catalog_id": "ATCC CRL-1098",
+        "name": "Lei Cap",
+        "cell_type": "skin fibroblast",
+        "donor_sex": "female",
+        "donor_age": 62,
+        "diagnosis": "Darier-White disease; extensive family history",
+        "ATP2A2_variant": "Not provided in retrieved primary catalog",
+        "availability": "Mission Collection Item; not standard inventory. ATCC says physical inventory check and special production may be needed; general policy cites average6months and minimum$5000/vial for most mission items, not a CRL1098 quote.",
+        "decision": "Do not make this the immediate functional-model dependency. It would require genotype authentication plus reprogramming/differentiation and model qualification, if material becomes usable.",
+        "source_ids": [
+          "MR04",
+          "MR05"
+        ]
+      },
+      "published_engineered_model": {
+        "article": "https://insight.jci.org/articles/view/170739/",
+        "parental_cell": "N/TERT-2G, aliasN/TERT-2, RRIDCVCL_UZ62",
+        "disease_perturbation": "CRISPR targeting ATP2A2 exon1, selecting heterozygousframeshift and homozygousKO clones with matched control",
+        "published_guide_identity": "ATP2A2 sgRNA2 GTTTTGGCTTGGTTTGAAGA",
+        "published_control_guide_identity": "TUBAP pseudogene sgRNA1 GTATTCCGTGGGTGAACGGG",
+        "published_editor": "pSpCas9(BB)-2A-GFP PX458, Addgene48138",
+        "functional_scope": "HET/KO monolayer adhesion and calcium-handling deficits; HET organotypic differentiation abnormalities. Organotypic genetic model did not show complete acantholysis. Monolayer adhesion figure n=3 independent experiments, not three patients.",
+        "patient_origin": "Engineered healthy line; not a Darier patient line.",
+        "availability_boundary": "Original parental cells were a gift; BWH collection list and identity registry specify parent but present stock was not verified. Exact published mutant clones were not found in a standard public catalog. PX458 catalog is academic/nonprofit only, not available to industry.",
+        "source_ids": [
+          "MR06",
+          "MR07",
+          "MR08",
+          "MR09"
+        ]
+      },
+      "independent_rebuild_routes": [
+        {
+          "route": "Catalog Ker-CT plus separately qualified heterozygous ATP2A2 engineering",
+          "starting_material": "ATCC CRL4048 Ker-CT",
+          "status": "Cataloged immortalized human keratinocyte parent; a different line from N/TERT-2G",
+          "scope": "Apply publicly specified disease perturbation concept and qualify genotype, residual SERCA2, adhesion and stratification before drug testing. This is a proposed rebuild, not a validated reproduction.",
+          "limitations": "Immortalization/cell-background effects can alter the phenotype. Supplier lists research-use/commercial-use terms; catalog is not unrestricted development rights.",
+          "source_ids": [
+            "MR06",
+            "MR10"
+          ]
+        },
+        {
+          "route": "Primary keratinocyte route",
+          "starting_material": "Thermo Fisher adultHEKa C0055C or neonatalHEKn C0015C; do not pool donors when counting biological replication",
+          "status": "Public catalog parent material; no ATP2A2 disease variant",
+          "scope": "A separately designed partial ATP2A2 reduction/heterozygous engineering model would need functional qualification and retained differentiation.",
+          "limitations": "Finite lifespan and clonal engineering may complicate durable organotypic work. Chemical SERCA inhibition is a distinct perturbation and cannot replace a residual-target genetic model without validation.",
+          "source_ids": [
+            "MR06",
+            "MR11"
+          ]
+        },
+        {
+          "route": "Editor component alternative if PX458 recipient eligibility does not fit",
+          "starting_material": "Commercial Cas9 protein, e.g.Thermo Fisher A36499, with a specified synthetic guide",
+          "status": "Public reagent route for a separately validated editing workflow",
+          "scope": "An RNP workflow changes the method; clone/genotype and function require requalification. This does not imply access to or circumvention of PX458-specific terms.",
+          "limitations": "No complete alternative workflow was executed or validated; reagent terms and intended institutional use remain applicable.",
+          "source_ids": [
+            "MR07",
+            "MR12"
+          ]
+        }
+      ],
+      "qualification_gate_proposed": "Use a heterozygous residual-SERCA2 model for the proposed activation hypothesis. First confirm sustained mechanical adhesion/barrier deficit plus a genetic-restoration positive control, without counting repeatedfields as donors. A null clone is a mechanistic boundary control, not the sole decisive efficacy model. Only then test post-deficit NDC9009 function at measured exposure.",
+      "no_catalog_patient_keratinocyte_found": true,
+      "rank_change": "Rebuildable public model specification exists, but a ready disease-qualified catalog assay was not found. Patient fibroblast catalog entry is real and materially constrained, not immediately procurable. Keep model qualification as the first funding gate.",
+      "source_ids": [
+        "MR04",
+        "MR05",
+        "MR06",
+        "MR07",
+        "MR08",
+        "MR09",
+        "MR10",
+        "MR11",
+        "MR12"
+      ],
+      "source_urls": [
+        "https://www.atcc.org/products/crl-1098",
+        "https://www.atcc.org/forms/mission-collection-items",
+        "https://insight.jci.org/articles/view/170739/",
+        "https://www.addgene.org/48138/",
+        "https://dermatology.bwh.harvard.edu/docs/Cell-Culture-Core-Cell-Lines.pdf",
+        "https://www.cellosaurus.org/CVCL_UZ62",
+        "https://www.atcc.org/products/cells_and_microorganisms/htert_immortalized_cell_lines/foreskin_keratinocytes/crl-4048",
+        "https://www.thermofisher.com/us/en/home/life-science/cell-culture/primary-cell-culture/keratinocyte-culture.html",
+        "https://www.thermofisher.com/order/catalog/product/A36499"
+      ],
+      "physical_stock_confirmed": false,
+      "qualified_function_confirmed": false
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "MR01",
+      "title": "NYSCF CMTA iPSC/fibroblast panel",
+      "url": "https://www.nyscf.org/wp-content/uploads/2025/05/Available-iPSCs_CMTA_051525.pdf",
+      "type": "primary repository catalog",
+      "date_caveat": "URL/filename suggest2025 upload; printed footer says05/15/24. Catalog identity is established; present lot inventory is not."
+    },
+    {
+      "source_id": "MR02",
+      "title": "NYSCF February-path catalog",
+      "url": "https://nyscf.org/wp-content/uploads/2025/02/Available-iPSCs_CMTA_020425.pdf",
+      "type": "primary repository catalog",
+      "date_caveat": "Printed version date12/12/24; agrees on the three MFN2 entries."
+    },
+    {
+      "source_id": "MR03",
+      "title": "Current NYSCF repository page",
+      "url": "https://www.nyscf.org/resources/stem-cell-search/",
+      "type": "primary repository page",
+      "finding": "Search interface currently being updated; availability handled by request. Page links an older2017 CMT panel, so website-link date is not current-stock evidence."
+    },
+    {
+      "source_id": "MR04",
+      "title": "Lei Cap Darier patient fibroblast",
+      "url": "https://www.atcc.org/products/crl-1098",
+      "type": "primary catalog"
+    },
+    {
+      "source_id": "MR05",
+      "title": "ATCC Mission Collection availability policy",
+      "url": "https://www.atcc.org/forms/mission-collection-items",
+      "type": "primary supplier policy"
+    },
+    {
+      "source_id": "MR06",
+      "title": "Zaver et al. SERCA2 organotypic epidermis model",
+      "url": "https://insight.jci.org/articles/view/170739/",
+      "doi": "10.1172/jci.insight.170739",
+      "type": "primary article"
+    },
+    {
+      "source_id": "MR07",
+      "title": "PX458 Addgene48138",
+      "url": "https://www.addgene.org/48138/",
+      "type": "primary catalog",
+      "restriction": "Academics/nonprofits only; not available to industry in retrieved listing."
+    },
+    {
+      "source_id": "MR08",
+      "title": "BWH Cell Culture Core collection list",
+      "url": "https://dermatology.bwh.harvard.edu/docs/Cell-Culture-Core-Cell-Lines.pdf",
+      "type": "primary institutional collection list",
+      "finding": "Lists N/TERT-2; older collection document, not present-stock evidence."
+    },
+    {
+      "source_id": "MR09",
+      "title": "Cellosaurus N/TERT-2 identity",
+      "url": "https://www.cellosaurus.org/CVCL_UZ62",
+      "type": "curated identity registry",
+      "finding": "N/TERT-2 synonyms include N/TERT-2G; registry points to BWH provider list."
+    },
+    {
+      "source_id": "MR10",
+      "title": "ATCC Ker-CT CRL4048",
+      "url": "https://www.atcc.org/products/cells_and_microorganisms/htert_immortalized_cell_lines/foreskin_keratinocytes/crl-4048",
+      "type": "primary catalog"
+    },
+    {
+      "source_id": "MR11",
+      "title": "Primary adult/neonatal human keratinocyte catalog",
+      "url": "https://www.thermofisher.com/us/en/home/life-science/cell-culture/primary-cell-culture/keratinocyte-culture.html",
+      "type": "primary catalog"
+    },
+    {
+      "source_id": "MR12",
+      "title": "Commercial Cas9 protein reagent route",
+      "url": "https://www.thermofisher.com/order/catalog/product/A36499",
+      "type": "primary catalog"
+    }
+  ],
+  "verification": {
+    "no_new_candidate_count": true,
+    "no_outreach": true,
+    "no_orders": true,
+    "no_material_receipt": true,
+    "no_functional_model_validation_performed": true,
+    "catalog_vs_stock_vs_function_separated": true
+  }
+}

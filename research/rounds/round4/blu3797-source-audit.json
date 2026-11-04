@@ -1,0 +1,1262 @@
+{
+  "as_of": "2026-11-04",
+  "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+  "article_doi": "10.1172/jci.insight.198568",
+  "source_sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+  "source_bytes": 824614,
+  "workbook_sheet_count": 60,
+  "method": "Descriptive extraction with source-cell provenance. No new p-values, cohort linkage, survival inference, or missing-value imputation.",
+  "interpretation_limits": [
+    "Counts are populated measurement entries. Animal IDs and linkage across panels are not supplied in these ranges.",
+    "Asterisks appended to numeric strings are retained. No explanatory cell comments or asterisk key was found in the examined source. Unmarked-only means are sensitivity descriptions, not authorized exclusions.",
+    "The 60-second ceiling makes a matching wire-hang result insufficient to establish equivalence of muscle force.",
+    "Supplemental survival labels and caption differ on the P22 dosing course; the reported late-start benefit remains provisional for exact regimen transfer.",
+    "Two baseline entries in each S6D group do not provide a paired baseline for all five later observations.",
+    "The source workbook does not supply free muscle/brain exposure or replace functional target-window experiments."
+  ],
+  "daily_wire_hang_seconds": [
+    {
+      "sheet": "Fig 6D",
+      "range": "B3:F3",
+      "reported_entries": 5,
+      "mean_including_marked": 60.0,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        60.0,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 5,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 60.0,
+      "source_cells": [
+        {
+          "cell": "B3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "C3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "D3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "E3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "F3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "WT_vehicle",
+      "age_days": 23
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "I3:M3",
+      "reported_entries": 5,
+      "mean_including_marked": 28.166,
+      "median_including_marked": 15.35,
+      "range_including_marked": [
+        1.84,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 1,
+      "marked_entries": 1,
+      "mean_unmarked_sensitivity_only": 20.2075,
+      "source_cells": [
+        {
+          "cell": "I3",
+          "source_value": 4.91,
+          "numeric_value": 4.91,
+          "asterisk": false
+        },
+        {
+          "cell": "J3",
+          "source_value": 1.84,
+          "numeric_value": 1.84,
+          "asterisk": false
+        },
+        {
+          "cell": "K3",
+          "source_value": 15.35,
+          "numeric_value": 15.35,
+          "asterisk": false
+        },
+        {
+          "cell": "L3",
+          "source_value": 58.73,
+          "numeric_value": 58.73,
+          "asterisk": false
+        },
+        {
+          "cell": "M3",
+          "source_value": "60*",
+          "numeric_value": 60.0,
+          "asterisk": true
+        }
+      ],
+      "group": "MTM1_vehicle",
+      "age_days": 23
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "P3:U3",
+      "reported_entries": 6,
+      "mean_including_marked": 18.923333333333332,
+      "median_including_marked": 14.96,
+      "range_including_marked": [
+        2.96,
+        47.26
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 18.923333333333332,
+      "source_cells": [
+        {
+          "cell": "P3",
+          "source_value": 20.09,
+          "numeric_value": 20.09,
+          "asterisk": false
+        },
+        {
+          "cell": "Q3",
+          "source_value": 9.83,
+          "numeric_value": 9.83,
+          "asterisk": false
+        },
+        {
+          "cell": "R3",
+          "source_value": 2.96,
+          "numeric_value": 2.96,
+          "asterisk": false
+        },
+        {
+          "cell": "S3",
+          "source_value": 4.35,
+          "numeric_value": 4.35,
+          "asterisk": false
+        },
+        {
+          "cell": "T3",
+          "source_value": 47.26,
+          "numeric_value": 47.26,
+          "asterisk": false
+        },
+        {
+          "cell": "U3",
+          "source_value": 29.05,
+          "numeric_value": 29.05,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_25_mg_kg",
+      "age_days": 23
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "V3:AA3",
+      "reported_entries": 6,
+      "mean_including_marked": 18.848333333333333,
+      "median_including_marked": 15.035,
+      "range_including_marked": [
+        2.03,
+        36.28
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 18.848333333333333,
+      "source_cells": [
+        {
+          "cell": "V3",
+          "source_value": 31.83,
+          "numeric_value": 31.83,
+          "asterisk": false
+        },
+        {
+          "cell": "W3",
+          "source_value": 14.28,
+          "numeric_value": 14.28,
+          "asterisk": false
+        },
+        {
+          "cell": "X3",
+          "source_value": 12.88,
+          "numeric_value": 12.88,
+          "asterisk": false
+        },
+        {
+          "cell": "Y3",
+          "source_value": 2.03,
+          "numeric_value": 2.03,
+          "asterisk": false
+        },
+        {
+          "cell": "Z3",
+          "source_value": 36.28,
+          "numeric_value": 36.28,
+          "asterisk": false
+        },
+        {
+          "cell": "AA3",
+          "source_value": 15.79,
+          "numeric_value": 15.79,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_50_mg_kg",
+      "age_days": 23
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "AB3:AH3",
+      "reported_entries": 7,
+      "mean_including_marked": 34.347142857142856,
+      "median_including_marked": 33.92,
+      "range_including_marked": [
+        16.69,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 1,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 34.347142857142856,
+      "source_cells": [
+        {
+          "cell": "AB3",
+          "source_value": 16.69,
+          "numeric_value": 16.69,
+          "asterisk": false
+        },
+        {
+          "cell": "AC3",
+          "source_value": 30.61,
+          "numeric_value": 30.61,
+          "asterisk": false
+        },
+        {
+          "cell": "AD3",
+          "source_value": 29.19,
+          "numeric_value": 29.19,
+          "asterisk": false
+        },
+        {
+          "cell": "AE3",
+          "source_value": 35.41,
+          "numeric_value": 35.41,
+          "asterisk": false
+        },
+        {
+          "cell": "AF3",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AG3",
+          "source_value": 33.92,
+          "numeric_value": 33.92,
+          "asterisk": false
+        },
+        {
+          "cell": "AH3",
+          "source_value": 34.61,
+          "numeric_value": 34.61,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_100_mg_kg",
+      "age_days": 23
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "B4:F4",
+      "reported_entries": 5,
+      "mean_including_marked": 60.0,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        60.0,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 5,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 60.0,
+      "source_cells": [
+        {
+          "cell": "B4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "C4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "D4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "E4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "F4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "WT_vehicle",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "I4:M4",
+      "reported_entries": 5,
+      "mean_including_marked": 8.076,
+      "median_including_marked": 2.67,
+      "range_including_marked": [
+        1.85,
+        26.84
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 8.076,
+      "source_cells": [
+        {
+          "cell": "I4",
+          "source_value": 1.97,
+          "numeric_value": 1.97,
+          "asterisk": false
+        },
+        {
+          "cell": "J4",
+          "source_value": 1.85,
+          "numeric_value": 1.85,
+          "asterisk": false
+        },
+        {
+          "cell": "K4",
+          "source_value": 2.67,
+          "numeric_value": 2.67,
+          "asterisk": false
+        },
+        {
+          "cell": "L4",
+          "source_value": 7.05,
+          "numeric_value": 7.05,
+          "asterisk": false
+        },
+        {
+          "cell": "M4",
+          "source_value": 26.84,
+          "numeric_value": 26.84,
+          "asterisk": false
+        }
+      ],
+      "group": "MTM1_vehicle",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "P4:U4",
+      "reported_entries": 6,
+      "mean_including_marked": 27.311666666666667,
+      "median_including_marked": 22.310000000000002,
+      "range_including_marked": [
+        14.75,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 1,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 27.311666666666667,
+      "source_cells": [
+        {
+          "cell": "P4",
+          "source_value": 23,
+          "numeric_value": 23.0,
+          "asterisk": false
+        },
+        {
+          "cell": "Q4",
+          "source_value": 18.73,
+          "numeric_value": 18.73,
+          "asterisk": false
+        },
+        {
+          "cell": "R4",
+          "source_value": 25.77,
+          "numeric_value": 25.77,
+          "asterisk": false
+        },
+        {
+          "cell": "S4",
+          "source_value": 14.75,
+          "numeric_value": 14.75,
+          "asterisk": false
+        },
+        {
+          "cell": "T4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "U4",
+          "source_value": 21.62,
+          "numeric_value": 21.62,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_25_mg_kg",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "V4:AA4",
+      "reported_entries": 6,
+      "mean_including_marked": 37.681666666666665,
+      "median_including_marked": 32.02,
+      "range_including_marked": [
+        24.32,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 1,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 37.681666666666665,
+      "source_cells": [
+        {
+          "cell": "V4",
+          "source_value": 28.22,
+          "numeric_value": 28.22,
+          "asterisk": false
+        },
+        {
+          "cell": "W4",
+          "source_value": 33.6,
+          "numeric_value": 33.6,
+          "asterisk": false
+        },
+        {
+          "cell": "X4",
+          "source_value": 49.51,
+          "numeric_value": 49.51,
+          "asterisk": false
+        },
+        {
+          "cell": "Y4",
+          "source_value": 24.32,
+          "numeric_value": 24.32,
+          "asterisk": false
+        },
+        {
+          "cell": "Z4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AA4",
+          "source_value": 30.44,
+          "numeric_value": 30.44,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_50_mg_kg",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "AB4:AH4",
+      "reported_entries": 7,
+      "mean_including_marked": 60.0,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        60.0,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 7,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 60.0,
+      "source_cells": [
+        {
+          "cell": "AB4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AC4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AD4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AE4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AF4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AG4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AH4",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_100_mg_kg",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "B5:F5",
+      "reported_entries": 5,
+      "mean_including_marked": 60.0,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        60.0,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 5,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 60.0,
+      "source_cells": [
+        {
+          "cell": "B5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "C5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "D5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "E5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "F5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "WT_vehicle",
+      "age_days": 29
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "I5:M5",
+      "reported_entries": 0,
+      "mean_including_marked": null,
+      "median_including_marked": null,
+      "range_including_marked": null,
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": null,
+      "source_cells": [],
+      "group": "MTM1_vehicle",
+      "age_days": 29
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "P5:U5",
+      "reported_entries": 6,
+      "mean_including_marked": 11.496666666666666,
+      "median_including_marked": 7.97,
+      "range_including_marked": [
+        5.62,
+        21.11
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 11.496666666666666,
+      "source_cells": [
+        {
+          "cell": "P5",
+          "source_value": 5.62,
+          "numeric_value": 5.62,
+          "asterisk": false
+        },
+        {
+          "cell": "Q5",
+          "source_value": 9.45,
+          "numeric_value": 9.45,
+          "asterisk": false
+        },
+        {
+          "cell": "R5",
+          "source_value": 5.75,
+          "numeric_value": 5.75,
+          "asterisk": false
+        },
+        {
+          "cell": "S5",
+          "source_value": 6.49,
+          "numeric_value": 6.49,
+          "asterisk": false
+        },
+        {
+          "cell": "T5",
+          "source_value": 20.56,
+          "numeric_value": 20.56,
+          "asterisk": false
+        },
+        {
+          "cell": "U5",
+          "source_value": 21.11,
+          "numeric_value": 21.11,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_25_mg_kg",
+      "age_days": 29
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "V5:AA5",
+      "reported_entries": 6,
+      "mean_including_marked": 28.075,
+      "median_including_marked": 22.564999999999998,
+      "range_including_marked": [
+        6.47,
+        52.08
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 28.075,
+      "source_cells": [
+        {
+          "cell": "V5",
+          "source_value": 28.89,
+          "numeric_value": 28.89,
+          "asterisk": false
+        },
+        {
+          "cell": "W5",
+          "source_value": 6.47,
+          "numeric_value": 6.47,
+          "asterisk": false
+        },
+        {
+          "cell": "X5",
+          "source_value": 16.24,
+          "numeric_value": 16.24,
+          "asterisk": false
+        },
+        {
+          "cell": "Y5",
+          "source_value": 14.65,
+          "numeric_value": 14.65,
+          "asterisk": false
+        },
+        {
+          "cell": "Z5",
+          "source_value": 50.12,
+          "numeric_value": 50.12,
+          "asterisk": false
+        },
+        {
+          "cell": "AA5",
+          "source_value": 52.08,
+          "numeric_value": 52.08,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_50_mg_kg",
+      "age_days": 29
+    },
+    {
+      "sheet": "Fig 6D",
+      "range": "AB5:AH5",
+      "reported_entries": 7,
+      "mean_including_marked": 57.98571428571429,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        45.9,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 6,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 57.98571428571429,
+      "source_cells": [
+        {
+          "cell": "AB5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AC5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AD5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AE5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AF5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "AG5",
+          "source_value": 45.9,
+          "numeric_value": 45.9,
+          "asterisk": false
+        },
+        {
+          "cell": "AH5",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "BLU3797_100_mg_kg",
+      "age_days": 29
+    }
+  ],
+  "withdrawal_wire_hang_seconds": [
+    {
+      "sheet": "Fig S6D",
+      "range": "B4:F4",
+      "reported_entries": 2,
+      "mean_including_marked": 11.15,
+      "median_including_marked": 11.15,
+      "range_including_marked": [
+        6.4,
+        15.9
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 11.15,
+      "source_cells": [
+        {
+          "cell": "B4",
+          "source_value": 15.9,
+          "numeric_value": 15.9,
+          "asterisk": false
+        },
+        {
+          "cell": "C4",
+          "source_value": 6.4,
+          "numeric_value": 6.4,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 22
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "B6:F6",
+      "reported_entries": 5,
+      "mean_including_marked": 59.84,
+      "median_including_marked": 60.0,
+      "range_including_marked": [
+        59.2,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 4,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 59.84,
+      "source_cells": [
+        {
+          "cell": "B6",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "C6",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "D6",
+          "source_value": 59.2,
+          "numeric_value": 59.2,
+          "asterisk": false
+        },
+        {
+          "cell": "E6",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "F6",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 27
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "B8:F8",
+      "reported_entries": 5,
+      "mean_including_marked": 28.965999999999998,
+      "median_including_marked": 17.4,
+      "range_including_marked": [
+        13.0,
+        54.73
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 28.965999999999998,
+      "source_cells": [
+        {
+          "cell": "B8",
+          "source_value": 42.9,
+          "numeric_value": 42.9,
+          "asterisk": false
+        },
+        {
+          "cell": "C8",
+          "source_value": 17.4,
+          "numeric_value": 17.4,
+          "asterisk": false
+        },
+        {
+          "cell": "D8",
+          "source_value": 16.8,
+          "numeric_value": 16.8,
+          "asterisk": false
+        },
+        {
+          "cell": "E8",
+          "source_value": 13,
+          "numeric_value": 13.0,
+          "asterisk": false
+        },
+        {
+          "cell": "F8",
+          "source_value": 54.73,
+          "numeric_value": 54.73,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 32
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "B9:F9",
+      "reported_entries": 3,
+      "mean_including_marked": 16.603333333333335,
+      "median_including_marked": 6.6,
+      "range_including_marked": [
+        6.47,
+        36.74
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 16.603333333333335,
+      "source_cells": [
+        {
+          "cell": "B9",
+          "source_value": 6.47,
+          "numeric_value": 6.47,
+          "asterisk": false
+        },
+        {
+          "cell": "C9",
+          "source_value": 6.6,
+          "numeric_value": 6.6,
+          "asterisk": false
+        },
+        {
+          "cell": "E9",
+          "source_value": 36.74,
+          "numeric_value": 36.74,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 35
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "B10:F10",
+      "reported_entries": 2,
+      "mean_including_marked": 18.29,
+      "median_including_marked": 18.29,
+      "range_including_marked": [
+        7.89,
+        28.69
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 18.29,
+      "source_cells": [
+        {
+          "cell": "B10",
+          "source_value": 28.69,
+          "numeric_value": 28.69,
+          "asterisk": false
+        },
+        {
+          "cell": "C10",
+          "source_value": 7.89,
+          "numeric_value": 7.89,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 38
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "B11:F11",
+      "reported_entries": 2,
+      "mean_including_marked": 6.12,
+      "median_including_marked": 6.12,
+      "range_including_marked": [
+        3.91,
+        8.33
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 6.12,
+      "source_cells": [
+        {
+          "cell": "B11",
+          "source_value": 8.33,
+          "numeric_value": 8.33,
+          "asterisk": false
+        },
+        {
+          "cell": "C11",
+          "source_value": 3.91,
+          "numeric_value": 3.91,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P22",
+      "age_days": 42
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G5:K5",
+      "reported_entries": 2,
+      "mean_including_marked": 11.15,
+      "median_including_marked": 11.15,
+      "range_including_marked": [
+        6.4,
+        15.9
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 11.15,
+      "source_cells": [
+        {
+          "cell": "G5",
+          "source_value": 15.9,
+          "numeric_value": 15.9,
+          "asterisk": false
+        },
+        {
+          "cell": "H5",
+          "source_value": 6.4,
+          "numeric_value": 6.4,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 25
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G7:K7",
+      "reported_entries": 5,
+      "mean_including_marked": 53.464,
+      "median_including_marked": 56.2,
+      "range_including_marked": [
+        39.5,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 2,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 53.464,
+      "source_cells": [
+        {
+          "cell": "G7",
+          "source_value": 56.2,
+          "numeric_value": 56.2,
+          "asterisk": false
+        },
+        {
+          "cell": "H7",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "I7",
+          "source_value": 39.5,
+          "numeric_value": 39.5,
+          "asterisk": false
+        },
+        {
+          "cell": "J7",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        },
+        {
+          "cell": "K7",
+          "source_value": 51.62,
+          "numeric_value": 51.62,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 30
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G9:K9",
+      "reported_entries": 4,
+      "mean_including_marked": 26.205,
+      "median_including_marked": 18.145,
+      "range_including_marked": [
+        8.53,
+        60.0
+      ],
+      "entries_at_60_second_ceiling": 1,
+      "marked_entries": 1,
+      "mean_unmarked_sensitivity_only": 32.096666666666664,
+      "source_cells": [
+        {
+          "cell": "G9",
+          "source_value": 14.71,
+          "numeric_value": 14.71,
+          "asterisk": false
+        },
+        {
+          "cell": "H9",
+          "source_value": "8.53*",
+          "numeric_value": 8.53,
+          "asterisk": true
+        },
+        {
+          "cell": "I9",
+          "source_value": 21.58,
+          "numeric_value": 21.58,
+          "asterisk": false
+        },
+        {
+          "cell": "J9",
+          "source_value": 60,
+          "numeric_value": 60.0,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 35
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G10:K10",
+      "reported_entries": 4,
+      "mean_including_marked": 8.549999999999999,
+      "median_including_marked": 7.535,
+      "range_including_marked": [
+        3.86,
+        15.27
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 8.549999999999999,
+      "source_cells": [
+        {
+          "cell": "G10",
+          "source_value": 9.52,
+          "numeric_value": 9.52,
+          "asterisk": false
+        },
+        {
+          "cell": "H10",
+          "source_value": 3.86,
+          "numeric_value": 3.86,
+          "asterisk": false
+        },
+        {
+          "cell": "I10",
+          "source_value": 5.55,
+          "numeric_value": 5.55,
+          "asterisk": false
+        },
+        {
+          "cell": "J10",
+          "source_value": 15.27,
+          "numeric_value": 15.27,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 38
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G11:K11",
+      "reported_entries": 3,
+      "mean_including_marked": 4.43,
+      "median_including_marked": 3.54,
+      "range_including_marked": [
+        1.0,
+        8.75
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 4.43,
+      "source_cells": [
+        {
+          "cell": "G11",
+          "source_value": 8.75,
+          "numeric_value": 8.75,
+          "asterisk": false
+        },
+        {
+          "cell": "I11",
+          "source_value": 1,
+          "numeric_value": 1.0,
+          "asterisk": false
+        },
+        {
+          "cell": "J11",
+          "source_value": 3.54,
+          "numeric_value": 3.54,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 42
+    },
+    {
+      "sheet": "Fig S6D",
+      "range": "G12:K12",
+      "reported_entries": 3,
+      "mean_including_marked": 2.5233333333333334,
+      "median_including_marked": 2.61,
+      "range_including_marked": [
+        1.15,
+        3.81
+      ],
+      "entries_at_60_second_ceiling": 0,
+      "marked_entries": 0,
+      "mean_unmarked_sensitivity_only": 2.5233333333333334,
+      "source_cells": [
+        {
+          "cell": "G12",
+          "source_value": 3.81,
+          "numeric_value": 3.81,
+          "asterisk": false
+        },
+        {
+          "cell": "I12",
+          "source_value": 1.15,
+          "numeric_value": 1.15,
+          "asterisk": false
+        },
+        {
+          "cell": "J12",
+          "source_value": 2.61,
+          "numeric_value": 2.61,
+          "asterisk": false
+        }
+      ],
+      "group": "start_P25",
+      "age_days": 45
+    }
+  ],
+  "supplemental_survival_headers": {
+    "C2": "KO Day 22 - BLU797 75 mpk, BIDx5 and QDx3",
+    "D2": "KO Day 25 - BLU797 75 mpk, BIDx5"
+  },
+  "supplemental_survival_nonempty_event_entries": {
+    "start_P22": 5,
+    "start_P25": 4,
+    "note": "Five and four populated event records cannot be linked to the separate functional cohorts without animal identifiers."
+  },
+  "cellular_selectivity_headers": {
+    "B5": "PIK3C2B",
+    "F5": "PIK3CA",
+    "J5": "PIK3C3",
+    "P5": "PIK3C2G",
+    "W5": "PIK3CD",
+    "AD5": "PIK3CG",
+    "P31": "PIK3C2G",
+    "W31": "PIK3CD",
+    "AD31": "PIK3CG",
+    "B32": "PIK3C2B",
+    "D32": "PIK3CA",
+    "H32": "PIK3C3"
+  },
+  "missing_cellular_selectivity_header_checks": {
+    "PIK3C2A": true,
+    "PIK3CB": true
+  }
+}

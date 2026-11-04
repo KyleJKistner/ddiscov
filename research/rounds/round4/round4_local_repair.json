@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "round": 4,
+  "domain": "Local, barrier and sensory regeneration",
+  "scope": "Eight new exact-article/indication records across six mechanism families and two existing-lead updates. Public-evidence desk research; no outreach, material procurement or experiments.",
+  "counts": {
+    "new_candidate_screens": 8,
+    "new_exact_article_use_to_reviewed_inventory": 8,
+    "families_among_new_screens": 6,
+    "existing_candidate_updates": 2,
+    "s_tier_promotions": 0
+  },
+  "counting_rule": "Eight exact-article/use records across six mechanism families. RGN-259 and lufepirsen are clinical-program/comparator screens, not independently available assets. Two AEC and two BEST1 articles remain separate to prevent claim transfer. Related anthracycline cardioprotection hits are not diMe-Doxo AEC.",
+  "inventory_basis": {
+    "file": "research/portfolio-register.json",
+    "sha256": "2ea5b6b6f59069151bae0348ef8a993ae6edde4757e8dabf7a577861772bf803",
+    "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+    "coverage_records": 622,
+    "round3_records": 36
+  },
+  "new_candidate_screens": [
+    {
+      "id": "R4-L01",
+      "candidate": "RM4404/WAY-262611 for delayed corneal sensory repair",
+      "family": "Corneal DKK1 inhibition",
+      "exact_article": "WAY-262611 (CAS 1123231-07-1) in the disclosed Kolliphor HS-15 micellar preparation RM4404; not a new chemical entity.",
+      "disease_or_use": "Persistent corneal hypoesthesia after stromal nerve injury.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "RM[- ]?4404|WAY[- ]?262611",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "The mouse mechanical-injury study dosed on days 7–14 and observed sensation to day 30, 16 days after dosing ended. A separate days 5–10 protocol measured day-14 function in mechanical and chemical models; this is four days off treatment, not verified pharmacokinetic washout.",
+        "Supplemental S2: day-14 surgical-model medians 4.5 at either dose versus 2.79 vehicle, total N=22 across three arms; chemical-model medians 4.585/4.625 versus 2.040 vehicle, total N=12.",
+        "Randomization and blinded secondary imaging review were reported. Primary quantifier and sensory-assessor blinding remain unresolved. Both surgical-model eyes were analyzed as independent; chemical-model injury involved one eye per mouse. Main day-30 tests against healthy controls establish neither equivalence nor a reported direct drug–vehicle contrast.",
+        "At day 30, axonal-network medians were 357.7 with vehicle and 362.1 with RM4404 (healthy 394.6). Different significance results against healthy controls do not establish a drug–vehicle structural advantage."
+      ],
+      "independent_biological_unit": "Animal is the biological block. Surgical-model eyes and repeat thresholds are nested; N=22 must not be described as 22 independent mice. Chemical-model N=12 is total across three arms, not 12 treated animals.",
+      "limitations": [
+        "No retrieved independent-laboratory replication, active repair comparator, human tissue efficacy or unbound corneal exposure.",
+        "Primary-quantifier and sensory-assessor blinding remain unresolved; section 2.9 does describe blinded secondary reexamination of imaging. The supplemental questionnaire was not recovered.",
+        "Stock arithmetic implies 0.2% versus 2% DMSO. The vehicle is called similarly prepared without explicit accounting: qualification ambiguity, not proven confounding.",
+        "Stored-particle TEM does not establish chemical potency, release, sterility or shelf life."
+      ],
+      "readiness": {
+        "identity": "Parent compound and formulation publicly specified.",
+        "material_route": "Original Sigma317700 and independent Cayman17704 listing. No qualified lot received or physical stock confirmed.",
+        "model": "Public mouse strains and injury model; an independent team must qualify the disease deficit and analysis unit.",
+        "exposure": "Nominal topical 20/200 µM; relevant tissue/free exposure unknown.",
+        "rights": "UConn intellectual-property disclosure and US provisional application acknowledged; exact status/claim scope not mapped."
+      },
+      "verdict": "New high-priority reserve for independent functional replication; no S-tier promotion.",
+      "advance_if": "Animal-level randomized, masked delayed functional rescue beats an active comparator at measured corneal exposure, persists after washout, and preserves clarity, barrier and healthy protective sensation.",
+      "stop_or_deprioritize_if": "Effect disappears under animal-level analysis or solvent matching, reflects only reflex excitability, has no comparative value, or harms normal tissue.",
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+        "https://www.caymanchem.com/product/17704/way-262611"
+      ]
+    },
+    {
+      "id": "R4-L02",
+      "candidate": "Topical APR-246/PRIMA-1MET for chronic TP63-AEC erosions",
+      "family": "TP63-AEC epithelial repair",
+      "exact_article": "Eprenetapopt/PRIMA-1MET/APR-246 in the published 0.6 mg/g Seraqua cream.",
+      "disease_or_use": "Established chronic AEC skin erosions; initial human variants I576T and I537T.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "PRIMA[- ]?1MET|APR[- ]?246|eprenetapopt|TP63|AEC syndrome",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "Two children received compassionate treatment; one had an opposite-palm vehicle comparison. Re-epithelialization and pain improvement were reported, but the treated palm remained incompletely cornified at week 33.",
+        "Patient keratinocyte differentiation improved without reducing p63 aggregates.",
+        "Published chemical quality controls and three-week refrigerated formulation stability provide a material starting point."
+      ],
+      "independent_biological_unit": "Two independent patients. Two palms in one patient and in-vitro repeats do not add patients.",
+      "limitations": [
+        "No randomized efficacy estimate, long-term withdrawal result, skin exposure-response or quantitative normal-skin/DNA-damage margin recovered.",
+        "Time and wound-care effects remain possible; a contralateral control helps one case but does not establish generalizability.",
+        "Systemic oncology tolerability cannot qualify chronic exposure of damaged pediatric skin."
+      ],
+      "readiness": {
+        "identity": "Public chemical identity and formulation.",
+        "material_route": "Original study used Bio-Techne/R&D Systems powder with quality controls; independent lot still needs authentication.",
+        "model": "Published patient keratinocyte/iPSC routes; exact line stock not verified. Engineered TP63 tissue would require separate qualification.",
+        "exposure": "Nominal 30 µM differentiation assay used pretreatment; cream concentration is not measured viable-skin exposure.",
+        "rights": "US12521392B2 granted in January 2026. Claim 1 includes AEC affecting at least one cornea; dependent claims include cream/skin erosions. Neither blanket exclusion nor FTO follows."
+      },
+      "verdict": "New translational reserve; prioritize durable barrier/cornification and exposure proof.",
+      "advance_if": "Independent established-defect human epidermis shows durable mechanical/barrier recovery and cornification at measured exposure, with a normal-tissue and DNA-damage margin and an appropriate wound-care comparator.",
+      "stop_or_deprioritize_if": "Coverage lacks functional barrier, benefit depends on toxic cell selection, chronic exposure is implausible, or comparator/withdrawal removes the advantage.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41419-020-2223-8",
+        "https://patents.google.com/patent/US12521392B2/en"
+      ]
+    },
+    {
+      "id": "R4-L03",
+      "candidate": "2-NOAA for selected BEST1 bestrophinopathies",
+      "family": "BEST1 small-molecule rescue",
+      "exact_article": "2-naphthoxyacetic acid; sodium 4-phenylbutyrate is a separate active reference.",
+      "disease_or_use": "BEST1 R255Q recessive and K30R dominant patient-derived RPE models.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "2[- ]?NOAA|naphthoxyacetic|bestrophin|BEST1",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "The 2020 study reports chloride-current rescue in patient RPE. The K30R increase was significant for 4PBA, not 2-NOAA.",
+        "Key rescue assays used nominal 2.5 mM. Channel current is physiological function, but does not establish restored RPE transport, photoreceptor support or vision.",
+        "2-NOAA increases BEST1 transcription, while 4PBA has a different mode of action."
+      ],
+      "independent_biological_unit": "Two disease donor backgrounds and an unrelated normal control are described. Patched-cell n is not patient n; independent donor-stratified replication is not established.",
+      "limitations": [
+        "High nominal exposure lacks a verified unbound human RPE bridge.",
+        "No positive clinical trial or independent exact-compound tissue-function replication was established.",
+        "Normal cargo handling and effects of increased mutant expression need qualification."
+      ],
+      "readiness": {
+        "identity": "Chemical structure and synthesis literature public.",
+        "material_route": "Public chemistry route; no qualified lot received.",
+        "model": "Published patient iPSC-RPE; exact line stock unverified.",
+        "exposure": "Nominal 2.5 mM rescue without a clinical retinal exposure bridge.",
+        "rights": "No complete commercial/patent review; no availability or FTO conclusion."
+      },
+      "verdict": "Low-priority exposure-gated reserve.",
+      "advance_if": "A lower-exposure exact article restores polarized RPE function and photoreceptor support in mutant/corrected models while preserving normal cargo handling.",
+      "stop_or_deprioritize_if": "Rescue remains confined to high nominal exposure, fails at tissue function, or has no practical exposure route.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7405785/",
+        "https://pubmed.ncbi.nlm.nih.gov/23869584/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142963/"
+      ]
+    },
+    {
+      "id": "R4-L04",
+      "candidate": "RGN-259/timbetasin acetate for neurotrophic keratopathy",
+      "family": "Thymosin beta-4 corneal epithelial repair",
+      "exact_article": "0.1% sterile preservative-free RGN-259 thymosin beta-4 ophthalmic solution.",
+      "disease_or_use": "Stage 2/3 neurotrophic keratopathy with persistent epithelial defects.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "RGN[- ]?259|timbetasin|thymosin",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "SEER-1 randomized 18 participants: 6/10 active versus 1/8 placebo healed after four weeks; primary Fisher P=0.0656. A significant later day-43 secondary endpoint does not reverse the primary result.",
+        "The official HLB August 26, 2026 notice says SEER-2 procedures finished and analysis was underway, with anticipated mid-November topline. This is not an observed efficacy outcome."
+      ],
+      "independent_biological_unit": "18 actual SEER-1 participants. Planned later enrollment or site counts are not observed efficacy subjects.",
+      "limitations": [
+        "Small initial trial, imprecise effect size, and multiple secondary outcomes.",
+        "Research thymosin beta-4 is not automatically equivalent to the clinical formulation."
+      ],
+      "readiness": {
+        "identity": "Clinical product defined.",
+        "material_route": "Established sponsor program; independently synthesized peptide requires comparability.",
+        "model": "Human chronic-defect clinical precedent.",
+        "exposure": "Clinical topical precedent, without rights or comparability for an independent copy.",
+        "rights": "Active HLB/ReGenTree/RegeneRx program; not an abandoned-asset conclusion."
+      },
+      "verdict": "Clinical benchmark and public-results watch; not a new independent venture shortlist asset.",
+      "advance_if": "A differentiated product demonstrates an endpoint or administration advantage; incorporate actual SEER-2 results when published.",
+      "stop_or_deprioritize_if": "The proposal duplicates the sponsored program or treats secondary or predicted future outcomes as confirmatory efficacy.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9820614/",
+        "https://clinicaltrials.gov/study/NCT02600429",
+        "https://www.hlbtherapeutics.co.kr/kr/sub/pr/notice.php",
+        "https://euclinicaltrials.eu/ctis-public/view/2024-518969-98-00"
+      ]
+    },
+    {
+      "id": "R4-L05",
+      "candidate": "Lufepirsen/NEXAGON for persistent corneal epithelial defects",
+      "family": "Connexin43 antisense corneal epithelial repair",
+      "exact_article": "Connexin43 antisense oligonucleotide in NEXAGON ophthalmic gel; distinct from alphaCT1 and tonabersat.",
+      "disease_or_use": "Persistent corneal epithelial defects refractory to conventional care.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "lufepirsen|NEXAGON|NEXPEDE",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "A primary Glaukos filing and IRB-approved investigator-hosted brochure establish a clinical program; the brochure specifies NEXAGON 0.06% versus vehicle.",
+        "A current registry mirror reports an ongoing trial. Primary registry dynamic content and numerical randomized outcomes were not recovered."
+      ],
+      "independent_biological_unit": "No observed outcome denominator verified. Planned 84/144 figures across mirrors must not be counted as actual participants.",
+      "limitations": [
+        "Complete clinical oligonucleotide/gel manufacturing comparability was not mapped.",
+        "Same-target peptide or channel-blocker data cannot be transferred to an antisense article.",
+        "The 2026 brochure upload path contains a page marked July 2024; it alone cannot prove current recruitment."
+      ],
+      "readiness": {
+        "identity": "Clinical article identified; independent full specification not verified.",
+        "material_route": "Sponsor-controlled clinical product; a molecular name is not qualified material.",
+        "model": "Defined chronic PCED trial population.",
+        "exposure": "Clinical gel concentration described, without an independent exposure bridge.",
+        "rights": "Known Glaukos program. Current mirror status retains a primary-verification gap."
+      },
+      "verdict": "Comparator/program screen without efficacy or independent-development promotion.",
+      "advance_if": "Public results or independent exact-article evidence establish a distinct development contribution.",
+      "stop_or_deprioritize_if": "The case depends on another same-target article, unread results or assumed program neglect.",
+      "source_urls": [
+        "https://drstuartterry.com/wp-content/uploads/2026/03/Persistent-Corneal-Epithelial-Defect-Study-GLAUKOS_compressed.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1192448/000155837025004839/gkos-20250529xdef14a.htm",
+        "https://ctis.eu/trial/2023-507030-24-00"
+      ]
+    },
+    {
+      "id": "R4-L06",
+      "candidate": "Phosphosulindac/OXT-328 for aqueous-deficient dry-eye sensory dysfunction",
+      "family": "Ocular sensory modulation",
+      "exact_article": "Phosphosulindac in published Carbopol hydrogel F8; not unmodified sulindac.",
+      "disease_or_use": "Hypoesthesia in aqueous-deficient dry eye.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "phospho.?sulindac|OXT[- ]?328",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "The 2026 rabbit study reports rapid reversible corneal-sensitivity improvement; 0.2% hydrogel maintained normalization roughly 26–27 h.",
+        "Normal-eye sensitivity was suppressed. Assays report four eyes per time point. Acute comparison with cyclosporine/lifitegrast does not establish superiority to chronic clinical therapy."
+      ],
+      "independent_biological_unit": "Eyes are observational units; independent animal counts for each formulation comparison were not fully resolved.",
+      "limitations": [
+        "Immediate reversible response supports sensory modulation, not established axonal regeneration.",
+        "Blink responsiveness does not establish pain relief or useful protective function.",
+        "Healthy-eye sensory suppression needs an exposure window.",
+        "Medicon/Apis interests are disclosed; no program abandonment inferred."
+      ],
+      "readiness": {
+        "identity": "Public phosphosulindac and formulation description.",
+        "material_route": "Original material was a Medicon gift; no independently authenticated lot.",
+        "model": "Public rabbit model; anatomy/function and animal clustering need qualification.",
+        "exposure": "Formulation strength is not free corneal exposure.",
+        "rights": "Commercial development interests disclosed; claim scope unmapped."
+      },
+      "verdict": "Sensory-pharmacology comparator; not a regenerative-lead promotion.",
+      "advance_if": "Repeated dosing improves disease function beyond acute excitability while preserving healthy protective sensation, with clinically appropriate comparators.",
+      "stop_or_deprioritize_if": "Only transient reflex modulation remains, no quality-of-function advantage appears, or normal sensation is impaired at effective exposure.",
+      "source_urls": [
+        "https://www.frontiersin.org/journals/drug-delivery/articles/10.3389/fddev.2026.1778440/full"
+      ]
+    },
+    {
+      "id": "R4-L07",
+      "candidate": "N,N-dimethyldoxorubicin for TP63-AEC",
+      "family": "TP63-AEC epithelial repair",
+      "exact_article": "diMe-Doxo, separated from doxorubicin and epirubicin.",
+      "disease_or_use": "AEC-associated p63 aggregation, initially the L514F model.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "diMe.?doxo|anthracycline|doxorubicin|epirubicin",
+        "coverage_record_matches": [
+          {
+            "inventory_id": "functional-comparisons:L055",
+            "label": "Biased neuregulin receptor geometry for cardiac repair"
+          },
+          {
+            "inventory_id": "screen-index:2.3.1:443",
+            "label": "Covalent bivalent neuregulin-1β (NN) for anthracycline cardioprotection · [Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3753575/)"
+          }
+        ],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "The 2025 study reports p63 disaggregation and target-gene rescue in engineered cells and mouse primary keratinocytes.",
+        "Prior reduced cardiotoxicity does not mean no toxicity: cell-viability effects in the AEC study were comparable with other anthracyclines.",
+        "No established human barrier/wound repair or AEC patient treatment efficacy was recovered."
+      ],
+      "independent_biological_unit": "Cell/keratinocyte replicates are not patients. Independent mouse/litter denominator was not extracted for this bounded screen.",
+      "limitations": [
+        "Transcriptional rescue can coexist with cytotoxicity.",
+        "Reduced cardiotoxicity does not qualify chronic skin DNA/chromatin effects.",
+        "Exact-analog physical availability was not verified."
+      ],
+      "readiness": {
+        "identity": "Exact analog publicly described.",
+        "material_route": "Research synthesis route, without a qualified lot.",
+        "model": "Published Tp63 L514F mouse keratinocytes; human functional model needed.",
+        "exposure": "No demonstrated skin benefit-to-safety margin.",
+        "rights": "No FTO or commercial-terms conclusion."
+      },
+      "verdict": "Mechanistic reserve below APR-246 for translational proof.",
+      "advance_if": "Functional barrier/cornification benefit exceeds APR-246 at noncytotoxic measured exposure.",
+      "stop_or_deprioritize_if": "Reporter rescue tracks cell loss/DNA damage or fails to produce tissue repair.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762975/",
+        "https://www.nature.com/articles/s41419-020-2223-8"
+      ]
+    },
+    {
+      "id": "R4-L08",
+      "candidate": "Tadalafil for selected BEST1 M325T dysfunction",
+      "family": "BEST1 small-molecule rescue",
+      "exact_article": "Tadalafil; an exact repurposed molecule distinct from 2-NOAA and 4PBA.",
+      "disease_or_use": "Variant-restricted recessive bestrophinopathy.",
+      "novelty_classification": "new_exact_article_use_to_reviewed_inventory",
+      "novelty_basis": {
+        "regex": "tadalafil|Adcirca",
+        "coverage_record_matches": [],
+        "round3_matches": [],
+        "generated_concept_match": false,
+        "note": "New to this portfolio is not patent novelty or absence of an existing commercial program."
+      },
+      "evidence": [
+        "25 µM tadalafil restored M325T chloride current in transfected HEK293T cells, but not R141H or L234V.",
+        "Sec24a binding is a docking hypothesis; direct engagement and patient-RPE benefit were not established.",
+        "The 100-fold difference from 2.5 mM 4PBA is a nominal assay-concentration comparison, not demonstrated clinical potency."
+      ],
+      "independent_biological_unit": "Engineered cells; no independent patient-donor efficacy cohort.",
+      "limitations": [
+        "No verified unbound human retinal-exposure bridge for 25 µM cell treatment.",
+        "Cannot inherit 2-NOAA/4PBA patient-RPE results.",
+        "Variant restriction rules out generic all-BEST1 positioning."
+      ],
+      "readiness": {
+        "identity": "Established generic chemical identity.",
+        "material_route": "Research/manufacturing routes exist; study-lot comparability not verified.",
+        "model": "Public engineered-channel assay; disease-RPE function needs qualification.",
+        "exposure": "Nominal 25 µM, without free ocular PK bridge.",
+        "rights": "No all-indication FTO or regulatory repurposing assurance."
+      },
+      "verdict": "Variant-specific exposure-gated reserve below the priority shortlist.",
+      "advance_if": "M325T patient or corrected-isogenic RPE recovers polarized function at justified exposure while retaining normal cargo handling.",
+      "stop_or_deprioritize_if": "Only overexpression responds, exposure is implausible, or normal RPE function is compromised.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142963/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7405785/"
+      ]
+    }
+  ],
+  "existing_candidate_updates": [
+    {
+      "id": "R4-L-U01",
+      "candidate": "NDC-9009 topical Darier",
+      "verdict": "Retain conditional proof priority; no promotion",
+      "evidence_deltas": [
+        "Both culture variants lie in the SERCA2 actuator domain. Mean protein abundance is about 70% of control; it is not a measured 50%-protein-null model. Calcium imaging in the retrieved section used DD2.",
+        "DD5–7 were biopsy immunohistochemistry samples, not additional NDC-treated culture donors.",
+        "DD3–4 required Y27632 during maintenance; all DD cultures and CTL1–2 received it for consistency. It was removed 24–36 h before assays, so there is no demonstrated concurrent ROCK-inhibitor confound.",
+        "The 2023 healthy-neuron result involved spine-neck morphology at 0.1 µM, with at least 10 neurons / 70 spines from one culture batch. It is not observed skin toxicity; the 2025 intraperitoneal CNS study does not qualify topical exposure.",
+        "The Darier paper section titled Solubility assay measures protein detergent solubility, not dissolved NDC-9009."
+      ],
+      "decision_implication": "Qualify models by measured residual SERCA function and an established, rescuable adhesion/barrier deficit. Total protein and ATP2A2 diagnosis alone do not establish suitability. Link drug exposure to ER refilling and tissue function; keep genotype and donor strata separate.",
+      "advance_if": "Delayed mature-epidermis cohesion/barrier benefit exceeds appropriate NAC, CDN1163 and clinical-route comparators at measured exposure while preserving healthy epidermis.",
+      "stop_or_narrow_if": "Only junction assembly improves, benefit depends on a stressor/vehicle, no useful comparator margin exists, or the disease state lacks activatable residual protein.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+        "https://www.mdpi.com/1422-0067/24/18/13973",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311773/"
+      ]
+    },
+    {
+      "id": "R4-L-U02",
+      "candidate": "Dantrolene Darier comparator",
+      "verdict": "Strengthen comparator rationale; actual trial outcomes remain unknown",
+      "evidence_deltas": [
+        "The October 8, 2026 primary abstract reports mitochondrial calcium/respiration and adhesion improvement partly via MCU; full dose and donor denominators were not recovered.",
+        "Listing ATP2A2-knockout models does not establish which model showed the adhesion result; no knockout-specific rescue is inferred.",
+        "Official registry confirms trial completion in September 2025. A mirror lists SUM-151495 version 2, dated September 8 and submitted September 10, 2026. Actual efficacy, adverse events and actual enrollment remain unread; planned 20 is not actual N."
+      ],
+      "decision_implication": "Dantrolene provides an alternative calcium/mitochondrial comparator. Oral trial completion establishes neither topical efficacy nor failure. Investigator outreach is not a scientific-selection gate.",
+      "advance_if": "Retrieved primary trial results or independent delayed epidermal repair establishes a route-specific advantage at feasible exposure.",
+      "stop_or_narrow_if": "No mature functional benefit at a tolerable local exposure or worse healthy-tissue function than simpler comparators.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42849607/",
+        "https://euclinicaltrials.eu/ctis-public/view/2024-519201-36-00",
+        "https://ctis.eu/trial/2024-519201-36-00"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "R4L-S01",
+      "title": "Li et al. DKK1 targeting in corneal Schwann cells; J Neurosci Res 2026; DOI 10.1002/jnr.70142",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+      "source_type": "primary full text with figure captions",
+      "limits": "DataS1-3 documents not retrieved; main text and supplemental figure captions were readable. CMI counts include paired eyes."
+    },
+    {
+      "id": "R4L-S02",
+      "title": "WAY-262611 catalog, Cayman product 17704",
+      "url": "https://www.caymanchem.com/product/17704/way-262611",
+      "source_type": "primary supplier listing",
+      "limits": "Identity/procurement route; not verified current physical stock or a qualified ophthalmic lot."
+    },
+    {
+      "id": "R4L-S03",
+      "title": "Aberdam et al. Topical APR-246 in AEC; Cell Death Dis 2020; DOI 10.1038/s41419-020-2223-8",
+      "url": "https://www.nature.com/articles/s41419-020-2223-8",
+      "source_type": "primary full text/indexed text",
+      "limits": "Two compassionate-use patients; one contralateral vehicle comparison; no randomized trial."
+    },
+    {
+      "id": "R4L-S04",
+      "title": "US12521392B2, granted 13 January 2026: ED wound healing with PRIMA-1Met",
+      "url": "https://patents.google.com/patent/US12521392B2/en",
+      "source_type": "primary patent text",
+      "limits": "Claim 1 includes AEC and at least one affected cornea; claims5-6 depend on claim1. No FTO opinion or verified commercial terms."
+    },
+    {
+      "id": "R4L-S05",
+      "title": "Boncimino et al. Anthracyclines and mutant p63; Cell Death Discov 2025; DOI 10.1038/s41420-025-02307-0",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762975/",
+      "source_type": "primary indexed full text",
+      "limits": "Transcription/aggregation experiments, not clinical or established tissue repair."
+    },
+    {
+      "id": "R4L-S06",
+      "title": "Liu et al. BEST1 rescue with 4PBA/2-NOAA; IOVS 2020; DOI 10.1167/iovs.61.5.28",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7405785/",
+      "source_type": "primary indexed full text",
+      "limits": "Patched cells are not independent donors. Exact cell count by each panel not fully extracted."
+    },
+    {
+      "id": "R4L-S07",
+      "title": "Elverson et al. Tadalafil for BEST1 M325T; Molecules 2023; DOI 10.3390/molecules28083317",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142963/",
+      "source_type": "primary indexed full text",
+      "limits": "25micromolar in engineered HEK293T; no patient RPE or visual rescue."
+    },
+    {
+      "id": "R4L-S08",
+      "title": "SEER-1 RGN-259 trial report; IJMS 2023; DOI 10.3390/ijms24010554",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9820614/",
+      "source_type": "primary trial report"
+    },
+    {
+      "id": "R4L-S09",
+      "title": "SEER-1 trial NCT02600429",
+      "url": "https://clinicaltrials.gov/study/NCT02600429",
+      "source_type": "primary registry",
+      "limits": "Actual enrollment18; primary complete healing atday29."
+    },
+    {
+      "id": "R4L-S10",
+      "title": "HLB Therapeutics, 26 August 2026 SEER-2 completion notice",
+      "url": "https://www.hlbtherapeutics.co.kr/kr/sub/pr/notice.php",
+      "source_type": "primary sponsor notice",
+      "limits": "Korean notice: trial procedures complete, analysis ongoing, anticipated topline midNovember. Anticipated results are not observed outcomes."
+    },
+    {
+      "id": "R4L-S11",
+      "title": "SEER-2 EUCT2024-518969-98-00",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2024-518969-98-00",
+      "source_type": "primary registry",
+      "limits": "End dates do not establish efficacy; planned70 not verified final enrollment."
+    },
+    {
+      "id": "R4L-S12",
+      "title": "Glaukos GLK-601-01/NEXPEDE-1 investigator-hosted IRB-approved brochure",
+      "url": "https://drstuartterry.com/wp-content/uploads/2026/03/Persistent-Corneal-Epithelial-Defect-Study-GLAUKOS_compressed.pdf",
+      "source_type": "primary study material",
+      "limits": "2026upload path; page4prints16July 2024version. Describes trial, not results or proof of current recruitment."
+    },
+    {
+      "id": "R4L-S13",
+      "title": "Glaukos 2025 proxy report: Nexagon trial initiation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1192448/000155837025004839/gkos-20250529xdef14a.htm",
+      "source_type": "primary sponsor filing",
+      "limits": "2024/2025program evidence; not November2026 efficacy evidence."
+    },
+    {
+      "id": "R4L-S14",
+      "title": "CTIS.eu NEXPEDE-1 current registry mirror",
+      "url": "https://ctis.eu/trial/2023-507030-24-00",
+      "source_type": "secondary registry mirror",
+      "limits": "Used only to flag an active-program/current-status lead. Primary CTIS/NCT content retrieval was incomplete. Mirror planned totals144and84 differ; neither counted as observed participants."
+    },
+    {
+      "id": "R4L-S15",
+      "title": "Huang et al. Phosphosulindac corneal sensitivity; Front Drug Deliv 2026; DOI 10.3389/fddev.2026.1778440",
+      "url": "https://www.frontiersin.org/journals/drug-delivery/articles/10.3389/fddev.2026.1778440/full",
+      "source_type": "primary full text",
+      "limits": "n4eyes/timepoint; independent animal denominator for each formulation comparison not established."
+    },
+    {
+      "id": "R4L-S16",
+      "title": "Harmon et al. Darier metabolic adaptation; Sci Adv 2026; DOI 10.1126/sciadv.aee1599",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "source_type": "primary indexed full text",
+      "limits": "Three culture donors/two actuator-domain variants; three additional biopsy-only patients are not more NDC-treated cultures."
+    },
+    {
+      "id": "R4L-S17",
+      "title": "Rakovskaya et al. NDC-9009 chemistry, solubility and neuronal morphology, 2023",
+      "url": "https://www.mdpi.com/1422-0067/24/18/13973",
+      "source_type": "primary indexed full text",
+      "limits": "Healthy-neuron neck-morphology result came from one culture batch; not a skin toxicity result."
+    },
+    {
+      "id": "R4L-S18",
+      "title": "Gerasimov et al. NDC-9009 in 5xFAD; J Neurosci 2025; DOI 10.1523/JNEUROSCI.2337-24.2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311773/",
+      "source_type": "primary indexed full text",
+      "limits": "In vivo intraperitoneal CNS data; no topical epidermal PK or skin safety qualification."
+    },
+    {
+      "id": "R4L-S19",
+      "title": "Wang et al. Dantrolene/MCU in Darier, 2026; DOI 10.1016/j.jid.2026.08.031",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849607/",
+      "source_type": "primary abstract",
+      "limits": "Full methods/donor denominators/dose not recovered; no inferred knockout-specific adhesion response."
+    },
+    {
+      "id": "R4L-S20",
+      "title": "Dantrolene Darier EUCT2024-519201-36-00",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2024-519201-36-00",
+      "source_type": "primary registry",
+      "limits": "Ended10September 2025; actual efficacy/AE tables not recovered."
+    },
+    {
+      "id": "R4L-S21",
+      "title": "Dantrolene trial results-document listing",
+      "url": "https://ctis.eu/trial/2024-519201-36-00",
+      "source_type": "secondary registry mirror",
+      "limits": "Lists SUM-151495 version 2 dated8September2026, submitted10September; listing is not the results themselves."
+    },
+    {
+      "id": "R4L-S22",
+      "title": "Zhang et al. 4PBA analogue chemistry and ER stress effects, 2013; DOI 10.1111/bph.12306",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23869584/",
+      "source_type": "primary research",
+      "limits": "Chemistry route supports defined article; no independent retinal-function replication."
+    }
+  ],
+  "priority_changes": [
+    "Add RM4404 as a high-priority independent-validation reserve; address paired-eye analysis and formulation controls.",
+    "Add topical APR-246 as a translational reserve with human chronic-lesion precedent.",
+    "Keep NDC-9009 conditional on mature epidermal function and exposure; no promotion.",
+    "Keep RGN-259 and lufepirsen as competitive benchmarks, with public-result gaps explicit."
+  ],
+  "unresolved_retrievals": [
+    "Dantrolene CTIS actual results document SUM-151495.",
+    "RM4404 supplemental documents and primary-quantifier/sensory-assessor blinding details; secondary imaging review is described in the main text.",
+    "Primary current dynamic NEXPEDE-1 registry payload.",
+    "Independent replication and free-exposure bridges for new early leads."
+  ],
+  "s_tier_assessment": "No candidate establishes an independently replicated, exposure-qualified, differentiated and transferable development case. RM4404 and APR-246 provide concrete new proof opportunities, not funding guarantees.",
+  "comparative_priority_note": {
+    "APR246_vs_NDC9009": "APR-246 has stronger human species/timing evidence and a more concrete published formulation. Reserve status reflects unresolved durable functional barrier/cornification, withdrawal and chronic local exposure-to-harm window, not lack of an owner response or inherently weaker efficacy. NDC also lacks mature-lesion rescue and a topical margin; the public record does not establish overall superiority. Small independent qualification of both is justified. Promote APR-246 ahead if durable barrier and a useful margin are established or NDC remains prevention-only.",
+    "rights": "Map actual claims in parallel; neither patent titles nor unanswered commercial questions decide the biology."
+  }
+}

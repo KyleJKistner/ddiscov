@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-11-04",
+  "round": 3,
+  "scope": "New decision-changing findings for existing shortlist and POLG comparator; no outreach or experimental execution.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "PLCZ_FERTILITY",
+      "previous_priority": 6,
+      "decision": "move to comparator-dependent reserve",
+      "new_evidence": [
+        "A 2020 PLC-zeta-null sperm study directly compared recombinant human PLC-zeta, strontium, ionomycin and TPEN. It reported 326 MII oocytes across control and treatment conditions; that is not 326 independent donors. Recombinant PLC-zeta and ionomycin blastocyst rates were 41% and 50%, respectively, and a superiority benefit for recombinant PLC-zeta was not established. This is not proof of inferiority or equivalence.",
+        "September 2026 R385Q mechanistic work found retained recombinant catalytic activity and normal calcium oscillations after cRNA injection into mouse oocytes, supporting protein insufficiency rather than an obligatory catalytic defect in that variant. This is not a recombinant-protein treatment trial.",
+        "A 2024 39-couple retrospective ionophore study included 10 PLC-zeta-deficient patients with a fertilization improvement signal. Its historical comparison does not establish an unbiased treatment effect, but demonstrates that PLC-zeta deficiency alone does not identify an ionophore-refractory niche."
+      ],
+      "reasoning": "The physiological-oscillation narrative does not establish product differentiation. Reagent identity remains buildable from public sequence, but an independent developmental advantage or a functionally confirmed refractory subgroup must be earned before top-tier investment.",
+      "proposed_next_proof": "Use a sequence-defined, lot-qualified reagent in a donor-clustered comparison against ionomycin. Prespecify normal development rather than activation alone, and test the intended deficient subgroup. Continue only for a reproducible developmental or handling advantage; do not assume superiority from oscillation shape.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32898251/",
+        "https://academic.oup.com/molehr/article-abstract/26/11/801/5902839",
+        "https://link.springer.com/article/10.1007/s10815-026-04023-9",
+        "https://www.rbmojournal.com/article/S1472-6483%2824%2900516-9/fulltext"
+      ]
+    },
+    {
+      "candidate_id": "MIGF_CORNEA",
+      "previous_priority": 4,
+      "decision": "retain conditional proof; strengthen formulation and comparator gates",
+      "new_evidence": [
+        "The primary paper reports a corneal-sensitivity improvement and day-7 nerve measurements in the steroid-delayed model; Figure 8 labels n=3. This adds a functional signal beyond nerve staining but remains a small, single-paper result.",
+        "The paper reports a critical aggregation concentration of 205 micromolar, a 0.4 wt% formulation, and cell assays at 10-400 nanomolar with peak proliferation at 50 nanomolar. The active species and relevant free exposure therefore cannot be inferred from nominal gel concentration alone.",
+        "Single-motif, scrambled-peptide and blank-hydrogel controls exist in the delayed-healing experiment. It would be inaccurate to say the paper used no material controls."
+      ],
+      "reasoning": "A practical reduced-frequency repair product remains plausible. The intended product should be the exact biotin-D-Phe peptide gel, with assembly, release, optical quality and functional potency qualified together. Small delayed-model groups and a missing insulin comparison prevent promotion to a development-ready winner.",
+      "proposed_next_proof": "First test two independently prepared peptide lots for identity, assembly, release and clarity in tear-like medium. Then compare the exact formulation with validated topical insulin, free IGF-1 and a characterized vehicle in paired donor corneal tissue under washout. Advance on durable barrier/adhesion recovery with a meaningful dosing or functional advantage, and separately validate sensation in a relevant innervated persistent-defect model. Do not call an ex vivo cornea a sensation model.",
+      "remaining_retrieval_limit": "Full supplementary methods, delayed-treatment biological-unit accounting, and all dosing/randomization/blinding details were not verified. Indexed primary text and Figure 8 legend were retrieved; this is not a claim of complete supplemental audit.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+        "https://pubmed.ncbi.nlm.nih.gov/42502320/"
+      ]
+    },
+    {
+      "candidate_id": "FEM1269_IRON",
+      "previous_priority": 5,
+      "decision": "retain focused human iron-transfer proof; strengthen active comparator",
+      "new_evidence": [
+        "The 2022 hinokitiol study's human macrophages came from three ferroportin-disease patients with G80S, N174I or A77D variants. These findings support a donor-based ferroportin-defect model, not exact-FeM efficacy in those donors.",
+        "A separate 2023 primary study found iron-loaded deferiprone supported human cultured-red-cell hemoglobinization and oxygen-binding behavior while recycling transferrin. In that culture setting, hinokitiol was less effective than deferiprone/deferoxamine in supporting proliferation and transferrin reloading. That is a different task from extracting macrophage iron under hepcidin restriction.",
+        "A 2026 public neurodegeneration patent application explicitly depicts FeM-1269, providing additional public-rights context. It does not establish a human clinical program or clear rights for the proposed anemia use."
+      ],
+      "reasoning": "The decisive advantage must lie in accessing sequestered iron and delivering it usefully, rather than merely supplying iron to erythroblasts. The available human-culture comparator makes a vague 'better iron carrier' claim too weak.",
+      "proposed_next_proof": "Separate macrophage extraction from erythroid delivery. Use isotope-tracked donor iron, persistent hepcidin restriction, holo-transferrin as a positive control, and a defined iron-loaded-deferiprone delivery benchmark. Match delivered iron where the question is erythroid uptake, and keep loaded and unloaded chelator conditions distinct. Require heme incorporation and maturation without harmful labile-iron redistribution. A result limited to the delivery arm is insufficient for the inflammatory-anemia thesis.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9245668/",
+        "https://www.nature.com/articles/s41598-023-32706-1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10147612/",
+        "https://patents.google.com/patent/US20260124200A1/en",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831690/"
+      ]
+    },
+    {
+      "candidate_id": "CPTX_SCI",
+      "previous_priority": 3,
+      "decision": "retain independent-replication reserve; no automatic evidence upgrade",
+      "new_evidence": [
+        "A targeted current search again recovered the 2020 injected-protein study and the 2024 CPTX-expressing-cell study, without a separately verified independent delayed-contusion replication of the exact injected protein. This is a bounded search result, not proof that no other study exists.",
+        "Primary methods specify local intraspinal injection. A later review describes intrathecal dosing; the review is not sufficient evidence for substituting a different delivery route.",
+        "The current company named CPTx develops DNA-based genetic medicines. A shared name is not evidence that it owns or develops the synaptic-organizer protein."
+      ],
+      "reasoning": "A new synthesis of the public research protein plus an independent delayed-injury function/safety experiment remains concrete. Existing reviews and a separate cell product do not close that decision. Delivery and persistent excitation remain substantive product issues.",
+      "proposed_next_proof": "Use the published protein and local route as the reference. Before a larger behavioral study, establish tissue distribution and a window between useful evoked transmission and spontaneous/pathological activation. Then evaluate delayed incomplete contusion with baseline stratification, blinded coordinated function and matched rehabilitation. Treat intrathecal delivery, tag removal or a carrier as separate comparability changes.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7116145/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937157/",
+        "https://patents.google.com/patent/US20230192810A1/en",
+        "https://cptx.bio/technology/"
+      ]
+    }
+  ],
+  "additional_records": [
+    {
+      "candidate_id": "R3-RT01",
+      "name": "Iron-loaded deferiprone for ex vivo erythroid manufacture",
+      "novelty_classification": "new_to_reviewed_inventory",
+      "family": "iron_delivery_erythroid_manufacturing",
+      "alias_check": "No matches for deferiprone/deferoxamine/iron-loaded/culture-red-blood terms in snapshot or prior generated concepts; related iron-transfer biology is already present in FeM and apotransferrin concepts.",
+      "exact_entity": "Defined 3:1 deferiprone:Fe(III) complex used as an ex vivo culture-medium component; not oral chelator treatment for anemia.",
+      "evidence": "Human cultured reticulocyte hemoglobinization and oxygen-association/dissociation behavior were demonstrated with the iron-loaded complex. The study reports n>=3 experiment summaries; donor independence should be checked for a confirmatory design.",
+      "decision": "use as FeM delivery benchmark and manufacturing reserve, outside core drug shortlist",
+      "why_not_core": "A process-input opportunity already described in 2023, with differentiation requiring scale, yield, quality, residual-clearance and process-cost advantages. It is not a new clinical anemia treatment.",
+      "proposed_next_proof": "In an independently implemented erythroid process, compare enucleated-cell yield, hemoglobin content, deformability, oxygen affinity and residual reagent against the existing transferrin process, then test relevant scale. Require an all-in process advantage rather than reduced transferrin mass alone.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-023-32706-1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10147612/"
+      ],
+      "current_S_tier": false
+    },
+    {
+      "candidate_id": "R3-RT02",
+      "name": "PZL-A as the active comparator for the POLG rescue lane",
+      "novelty_classification": "expanded_previous_comparator",
+      "family": "polg_activation",
+      "previous_link": "Round2 R-N01 sulbactam/POLG cited PZL-A as a comparator; do not count PZL-A as a wholly new round3 family.",
+      "exact_entity": "PZL-A, CAS 3068830-89-4, published allosteric POLG activator. Do not equate with the separate clinical asset PX578.",
+      "evidence": "The 2025 Nature study reports exact-molecule restoration of mtDNA replication and respiration/ATP in patient fibroblasts carrying two compound-heterozygous genotype combinations, with experiment-level n=3. Most cellular rescue follows experimentally induced mtDNA depletion; native established-tissue benefit remains a separate question.",
+      "material_route": "Published structure and several research catalog listings, including Selleck and Probechem. Current stock, lot identity and potency have not been confirmed by receipt.",
+      "current_competition": "Pretzel's October30 2026 release reports UK authorization after US IND clearance for PX578, a completed healthy-volunteer Phase1, and planned late2026 Phase2 POLARIS. Sponsor statements are not patient efficacy or proof that PX578 equals PZL-A.",
+      "decision": "make PZL-A the mandatory exact-molecule benchmark; lower priority of generic sulbactam repurposing thesis",
+      "proposed_next_proof": "Compare authenticated sulbactam with PZL-A in endogenous, patient-derived POLG systems without relying solely on tagged overexpression or artificial depletion. Require feasible free exposure, respiratory function and mtDNA-quality readouts. Advance sulbactam only for a demonstrable advantage or complementary genotype/exposure niche; do not claim first-in-class POLG rescue.",
+      "source_urls": [
+        "https://link.springer.com/article/10.1038/s41586-025-08856-9",
+        "https://www.pretzeltx.com/pretzel-therapeutics-receives-uk-regulatory-authorization-to-advance-px578-into-clinical-development-in-patients-for-the-treatment-of-polg-mediated-primary-mitochondrial-disorders/",
+        "https://www.selleckchem.com/products/pzl-a.html",
+        "https://probechem.com/products_PZL-A.html"
+      ],
+      "current_S_tier": false
+    }
+  ]
+}

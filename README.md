@@ -1,23 +1,34 @@
 # Drug Discovery Research
 
-A research portfolio on restoring function with existing drugs, proteins and genetic therapies. The first milestone is a reproducible preclinical result that a development partner can use. Each program pairs a biological observation with the comparison, materials and rights needed to act on it.
+A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The first milestone is a reproducible preclinical result useful for development. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status at 3 November 2026.** The portfolio supports several specific experiments and partnership inquiries. Selection for development remains open. The work reported here consists of literature review, source reconciliation, study design and retrospective data analysis. Experimental observations are attributed to the groups that made them.
+**Status: 4 November 2026, after round 4.** The current review adds 22 exact intervention-use screens and deeper vetting of six existing candidates. BLU3797, exact 8015-P2, NDC-9009 and AAT retain staged proof roles. RM4404 becomes a new independent-validation priority, and topical APR-246 is a serious challenger for the local-repair research budget. No candidate is represented as a fully qualified S-tier asset or guaranteed to attract funding.
 
-| Start here | What you can find |
+| Start here | What it provides |
 |---|---|
-| [Development comparisons](decisions/README.md) | Seven cases compared on functional evidence, the next decision and who could use the result. |
-| [Program atlas](atlas/README.md) | The 35 families in the program registry, organized by the function they aim to restore. |
-| [Research ledger](research/README.md) | Findings and corrections from 31 research phases, including recent screens beyond the 35 families. |
-| [Discovery crosswalk](discovery/README.md) | Earlier named topics and molecular-component proposals, with repeat appearances kept visible. |
-| [Formulation screen](formulations/README.md) | Delivery and usability questions for 50 marketed brands or franchises and two boundary comparisons. |
-| [Computational methods](methods/README.md) | Reproducible analyses of public measurements, with the experimental unit and evaluation limits. |
-| [Curation and provenance](provenance/README.md) | How to trace the edition to the dated research archive and interpret its counts. |
+| [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
+| [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 4 research](research/rounds/round4/README.md) | All 22 new screens, deeper leader reviews and independent challenges. |
+| [Cumulative register](research/portfolio-register.json) | Original coverage, generated proposals, later screens, source URLs and decision history. |
+| [Research-round archive](research/rounds/README.md) | Prior diligence and portfolio resets, including the original three emphasized candidates. |
+| [BLU3797 source-data audit](research/rounds/round4/blu3797-audit.md) | Public synthesis-route reconciliation, source-cell analysis and reproducible extraction. |
+| [Program atlas](atlas/README.md) | The original 35 registry families, organized by intended restored function. |
+| [Earlier research ledger](research/README.md) | The original 31 archive phases and subsequent review entry points. |
+| [Discovery crosswalk](discovery/README.md) | Historical topics and component proposals, with repeats visible. |
+| [Formulation screen](formulations/README.md) | Delivery and usability comparisons for marketed brands/franchises and boundary cases. |
+| [Methods](methods/README.md) | Reproducible public-data analyses, experimental units and limitations. |
+| [Provenance](provenance/README.md) | The original curated edition's relationship to its dated research archive. |
 
-## From an observation to a development decision
+## How to read the portfolio
 
-A study of ODAD1 replacement illustrates the distinction. Researchers treated nasal basal cells from people with primary ciliary dyskinesia and then grew them into ciliated organoids. Cilia in two genotypes recovered much of their beat frequency. A therapy delivered to an established airway has a further job to do. It must reach mature cells and move mucus directionally. Measuring that outcome in founder-variant tissue would test a different proposition from reproducing the original beating result. [Primary ODAD1 study](https://doi.org/10.1038/s41421-026-00875-8)
+The unit of selection is an exact intervention in a defined disease, route and treatment window. A compound name, target hypothesis, catalog entry or earlier A-grade does not establish a ready development program. Public reconstructibility, a sourcing route, physical stock, a qualified disease model and commercial rights are separate facts.
 
-The portfolio also considers contributions to existing programs. NPHP5 retinal gene therapy already has a development consortium, functional animal data and a manufacturing partner. The next decision for an outside developer is which responsibility the consortium can share, together with the necessary vector, data and terms. The answer determines whether another experiment would add value. [Consortium program](https://fnih.org/news/bgtc-creating-a-roadmap-for-rare-disease-gene-therapy/) · [Penn technology listing](https://upenn.technologypublisher.com/technology/38439)
+The current work prioritizes independent useful-function proofs. Author or owner replies are not scientific-selection prerequisites. When the public record leaves a material gap, the next step is a specific qualification task, a narrower claim or a lower priority. A promising biological observation can justify a bounded experiment before a complete clinical product exists.
 
-The atlas, screening records, marketed brands and computational datasets count different things. An intervention can appear in several phases as its evidence changes. For investment comparisons, the experimental unit, quality of the comparator, available access and proposed contribution matter more than the number or recency of reviews.
+The evidence base includes positive findings, negative follow-up, primary corrections, current program facts and explicitly unresolved retrieval gaps. Original research observations belong to their source investigators. This repository reports literature review, source reconciliation, proposed comparisons and retrospective data analysis; it does not report new wet-lab experiments or received materials.
+
+## Counting and history
+
+The reviewed original inventory has 622 overlapping coverage rows and 743 review assignments. Round 2 contains 30 generated proposals. Round 3 adds 36 candidate/use screens, of which 34 were new to the reviewed inventory and two expanded earlier concepts. Round 4 adds 22 exact intervention-use records. These counts describe different units and must not be added into a count of independent validated drugs.
+
+The current shortlist governs selection. Earlier comparisons and PDFs remain historical evidence; later corrections and integrated decisions take precedence. Commit history records publication changes separately from the dates of the underlying studies.

@@ -1,0 +1,1162 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+  "purpose": "Consolidated generated-concept register; proposal counts are not counts of validated leads or patent-novel assets.",
+  "assembly_method": "Mapped from the three domain memos, neuro/metabolic generated-concepts JSON and root POLG handoff. No new literature research performed for this consolidation.",
+  "novelty_definition": {
+    "new_to_repo": "New exact lead or hypothesis relative to the reviewed inventory; may already be published, patented or in clinical development.",
+    "refinement": "An existing concept with a materially changed construct specification, route, timing, selection rule, comparator or decisive experiment.",
+    "untested_combination": "Defined parts combined in a proposed configuration whose incremental joint benefit is not established by the mapped evidence.",
+    "patent_novelty_claimed": false
+  },
+  "counts": {
+    "original_domain_proposals": 30,
+    "duplicate_domain_proposal_pairs_merged": 1,
+    "distinct_domain_proposals": 29,
+    "additional_root_proposals": 1,
+    "distinct_proposal_records": 30,
+    "retained_original_ids": 31,
+    "unique_retained_original_ids": 31,
+    "family_labels": 28,
+    "novelty_primary_counts": {
+      "new_to_repo": 19,
+      "refinement": 7,
+      "untested_combination": 4
+    },
+    "component_counts_are_not_product_readiness": true
+  },
+  "merged_proposals": [
+    {
+      "proposal_id": "BL-N09_BE-N07",
+      "original_ids": [
+        "BL-N09",
+        "BE-N07"
+      ],
+      "reason": "Both propose BPG10 plus full-length recombinant PRG4/lubricin to combine cartilage charge support and boundary lubrication.",
+      "original_dispositions": {
+        "BL-N09": "Reserve; require factorial bulk-load and friction benefit.",
+        "BE-N07": "A-minus experiment; combination unproven."
+      }
+    }
+  ],
+  "family_overlap": [
+    {
+      "family_id": "coq_precursor_bypass",
+      "proposal_ids": [
+        "NM-N05",
+        "NM-N06"
+      ],
+      "counting_rule": "Two distinct design records in one family, not two independent platform discoveries.",
+      "design_distinction": "NM-N05 uses vanillic acid plus CoQ10 in COQ9/selected COQ7 disease; NM-N06 tests 2,4-DHB add-on to CoQ10 in COQ8B nephropathy. The former combination has published mouse evidence; the latter proposed add-on still needs incremental function."
+    },
+    {
+      "family_id": "aat_evlp",
+      "proposal_ids": [
+        "BE-N01",
+        "BE-N10"
+      ],
+      "counting_rule": "A single-agent workflow and an untested add-on design share AAT evidence; do not count them as independent efficacy confirmations.",
+      "design_distinction": "BE-N01 prioritizes qualified AAT alone and washout durability; BE-N10 adds solnatide only after the single-agent proof."
+    }
+  ],
+  "cross_comparators": [
+    {
+      "proposal_ids": [
+        "BL-N03",
+        "BL-N10"
+      ],
+      "relationship": "Topical insulin is both its own product/benchmark lane and the decisive active comparator for mIGF; distinct materials, not duplicate proposals."
+    },
+    {
+      "proposal_ids": [
+        "NM-N03",
+        "NM-N08"
+      ],
+      "relationship": "Cognate tRNA and GCN2iB interrogate related GARS1 pathobiology but are different interventions; exact GCN2iB is downgraded."
+    }
+  ],
+  "proposals": [
+    {
+      "proposal_id": "BL-N01",
+      "original_ids": [
+        "BL-N01"
+      ],
+      "name": "Matrix-phenotype-selected PslG plus antibiotic",
+      "exact_component": "Soluble PslG residues 31–442 plus tobramycin as the initial antibiotic benchmark; tag state and any protease-resistance variant must be explicitly fixed.",
+      "component_specification_status": "defined_parts_variant_and_format_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "The domain screen found no PslG entry in the reviewed inventory; the new contribution is substrate-phenotype selection and a viable-clearance product test."
+      },
+      "family_id": "pslg_antibiotic",
+      "evidence_scope": {
+        "demonstrated": "Primary enzyme studies and a 2026 comparison of 14 clinical isolates support substrate-dependent biofilm disruption and antibiotic-associated effects.",
+        "not_demonstrated": "Biomass reduction is not sterilization; prior pulmonary coadministration does not prove treatment of established infection, and dissemination is a material boundary."
+      },
+      "decisive_next_proof": "In established clinical-isolate biofilms, compare PslG, antibiotic, combination and inactive enzyme; quantify viable residual and dispersed organisms after physiological protease exposure and washout.",
+      "disposition": {
+        "status": "conditional_functional_proof",
+        "reason": "Advance only if matrix selection predicts materially greater killing without increased viable dissemination."
+      },
+      "source_urls": [
+        "https://journals.asm.org/doi/10.1128/spectrum.01354-25",
+        "https://pubmed.ncbi.nlm.nih.gov/41801017/",
+        "https://pubmed.ncbi.nlm.nih.gov/26424791/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4670989/",
+        "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00760/full",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380554/",
+        "https://patents.google.com/patent/US20210138044A1/en"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S15"
+      ]
+    },
+    {
+      "proposal_id": "BL-N02",
+      "original_ids": [
+        "BL-N02"
+      ],
+      "name": "Native DNase1L2 for actin-rich airway mucus",
+      "exact_component": "Recombinant native human DNase1L2; do not substitute a PEGylated preparation without separately specifying it.",
+      "component_specification_status": "defined_protein_format_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "An exact native nuclease replaces the nonspecific idea of a better DNase."
+      },
+      "family_id": "dnase1l2_airway",
+      "evidence_scope": {
+        "demonstrated": "Recombinant protein reduced viscosity in actin-enriched artificial cystic-fibrosis mucus; production and PEGylation were reported.",
+        "not_demonstrated": "Native patient sputum transport and superiority to dornase or an actin-resistant clinical benchmark are unestablished."
+      },
+      "decisive_next_proof": "Across independent patient sputum donors, compare native DNase1L2 with dornase and an actin-resistant benchmark using mucus transport and rheology, not DNA digestion alone.",
+      "disposition": {
+        "status": "hold_for_real_substrate_function",
+        "reason": "Artificial mucus efficacy is insufficient for an inhaled product thesis."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8002113/",
+        "https://protalixbiotherapeutics.gcs-web.com/news-releases/news-release-details/protalix-biotherapeutics-announces-positive-results-phase-ii"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S27",
+        "S37"
+      ]
+    },
+    {
+      "proposal_id": "BL-N03",
+      "original_ids": [
+        "BL-N03"
+      ],
+      "name": "Qualified topical insulin for neurotrophic epithelial defects",
+      "exact_component": "Human insulin in a specifically selected and stability-validated ocular vehicle; the memo does not fix a final formulation.",
+      "component_specification_status": "active_defined_formulation_not_selected",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New to the reviewed inventory, but already an established clinical research and formulation topic."
+      },
+      "family_id": "topical_insulin_corneal",
+      "evidence_scope": {
+        "demonstrated": "Human treatment series, a registered active randomized comparison and vehicle-dependent stability studies support a practical comparator/product lane.",
+        "not_demonstrated": "A generic insulin eye-drop concept is not a differentiated asset; the ongoing trial is not completed comparative proof."
+      },
+      "decisive_next_proof": "Compare a qualified formulation under tear-like washout in persistent epithelial repair models, measuring durable closure, barrier restoration and ocular handling stability.",
+      "disposition": {
+        "status": "comparator_and_product_lane",
+        "reason": "Highly obtainable and scientifically credible, but differentiation and existing formulation claims constrain discovery priority."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42866881/",
+        "https://ctis.eu/trial/2024-518818-53-00",
+        "https://pubmed.ncbi.nlm.nih.gov/41997424/",
+        "https://pubmed.ncbi.nlm.nih.gov/40036826/",
+        "https://patents.google.com/patent/US11975049B2/en",
+        "https://patents.google.com/patent/EP4719349A1/en"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S6",
+        "S7",
+        "S8",
+        "S28"
+      ]
+    },
+    {
+      "proposal_id": "BL-N04",
+      "original_ids": [
+        "BL-N04"
+      ],
+      "name": "Retained topical losartan for established corneal fibrosis",
+      "exact_component": "Losartan in a retained ocular formulation; final excipient/retention system remains unspecified.",
+      "component_specification_status": "active_defined_formulation_not_selected",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New inventory entry for a formulation-dependent corneal indication, not a newly discovered molecule or unclaimed use."
+      },
+      "family_id": "losartan_corneal_fibrosis",
+      "evidence_scope": {
+        "demonstrated": "Published corneal work and an eight-eye 2026 series provide a direct starting point.",
+        "not_demonstrated": "The eight-eye series showed no significant group improvement in visual, topographic or densitometric outcomes."
+      },
+      "decisive_next_proof": "Test established corneal scars against an appropriate active comparator at measured, tolerable stromal exposure; require durable transparency/mechanical improvement after washout.",
+      "disposition": {
+        "status": "downgraded_broad_scar_claim",
+        "reason": "Retention must produce an incremental functional effect rather than repeat a weak broad efficacy claim."
+      },
+      "source_urls": [
+        "https://doi.org/10.1097/ico.0000000000003783",
+        "https://patents.google.com/patent/US20240350402A1/en"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S29",
+        "S30"
+      ]
+    },
+    {
+      "proposal_id": "BL-N05",
+      "original_ids": [
+        "BL-N05"
+      ],
+      "name": "Topical PDE4 inhibition for post-injury epithelial adhesion rescue",
+      "exact_component": "Topical roflumilast, with apremilast as the mechanistic benchmark; these drugs are not interchangeable evidence.",
+      "component_specification_status": "defined_active_route_specific_proof_missing",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Changes the route and post-injury product question relative to the repository oral-apremilast concept."
+      },
+      "family_id": "pde4_desmosomal_adhesion",
+      "evidence_scope": {
+        "demonstrated": "Apremilast pretreatment improved adhesion biology in injected healthy human skin; follow-up supports Epac1 involvement.",
+        "not_demonstrated": "Topical roflumilast has not reproduced that result in established human autoimmune injury; prevention and injected exposure do not establish clinical topical efficacy."
+      },
+      "decisive_next_proof": "After pathogenic-IgG injury in human skin or oral mucosa, measure tissue exposure, mechanical cohesion and barrier recovery with topical roflumilast versus relevant active therapy.",
+      "disposition": {
+        "status": "conditional_local_exposure_proof",
+        "reason": "The intended route must attain useful exposure and reverse established cohesion loss."
+      },
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-022-35741-0",
+        "https://doi.org/10.1172/jci.insight.187481",
+        "https://pubmed.ncbi.nlm.nih.gov/41177920/",
+        "https://doi.org/10.1111/ajd.14312",
+        "https://patents.google.com/patent/WO2025265054A2/en"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S16",
+        "S17",
+        "S18",
+        "S20"
+      ]
+    },
+    {
+      "proposal_id": "BL-N06",
+      "original_ids": [
+        "BL-N06"
+      ],
+      "name": "Defined dual KLK5/KLK7 cyclic peptide for local Netherton treatment",
+      "exact_component": "A disclosed SFTI-1 analogue or phage-selected dual KLK5/KLK7 cyclic peptide; the source memo does not select a single sequence.",
+      "component_specification_status": "exact_sequence_not_selected",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New specific material route in the screen; selecting the exact sequence remains a discovery decision."
+      },
+      "family_id": "dual_klk_netherton",
+      "evidence_scope": {
+        "demonstrated": "Primary peptide series disclose sequences and inhibitory potencies; LEKTI and clinical KLK programs are available comparators.",
+        "not_demonstrated": "Enzyme inhibition has not yet established durable SPINK5-deficient human epidermal barrier rescue for the proposed product."
+      },
+      "decisive_next_proof": "Select one sequence and compare barrier function, proteolysis and local exposure in SPINK5-deficient human epidermis against LEKTI/KLK benchmarks.",
+      "disposition": {
+        "status": "hold_for_exact_sequence_and_human_function",
+        "reason": "Competition and incomplete article selection prevent near-term promotion."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27824929/",
+        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.2c00306",
+        "https://www.sec.gov/Archives/edgar/data/1701478/000170147826000013/aztr-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/882796/000162828026012240/bcrx-20251231.htm"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S31",
+        "S32",
+        "S35",
+        "S36"
+      ]
+    },
+    {
+      "proposal_id": "BL-N07",
+      "original_ids": [
+        "BL-N07"
+      ],
+      "name": "GM-CSF variant escaping pathogenic aPAP autoantibodies",
+      "exact_component": "Engineered human GM-CSF with retained receptor activation and reduced pathogenic-antibody binding; no exact variant is supplied.",
+      "component_specification_status": "exact_variant_not_defined",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New exploratory protein-engineering hypothesis, not an obtainable validated drug article."
+      },
+      "family_id": "gmcsf_autoantibody_escape",
+      "evidence_scope": {
+        "demonstrated": "A 2026 primary study mapped patient-derived autoantibody epitopes/affinities across 28 patients.",
+        "not_demonstrated": "No defined escape variant with preserved receptor activity or broad patient-antibody escape is established by that evidence."
+      },
+      "decisive_next_proof": "First generate a sequence-defined variant and test receptor-dependent macrophage function across independent patient antibody preparations, including affinity-diverse controls.",
+      "disposition": {
+        "status": "exclude_from_near_term_shortlist",
+        "reason": "The crucial component must still be discovered; an epitope map is not a therapeutic construct."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42362542/"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S33"
+      ]
+    },
+    {
+      "proposal_id": "BL-N08",
+      "original_ids": [
+        "BL-N08"
+      ],
+      "name": "Genotype-defined topical readthrough for SERPINB7 Nagashima keratosis",
+      "exact_component": "Topical gentamicin in patients with a susceptible SERPINB7 nonsense variant; formulation and genotype window must be prespecified.",
+      "component_specification_status": "defined_active_genotype_and_formulation_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New inventory-level indication and functional-selection question; gentamicin readthrough itself is published."
+      },
+      "family_id": "serpinb7_readthrough",
+      "evidence_scope": {
+        "demonstrated": "A five-patient bilateral randomized study and patient-cell readthrough provide direct human starting evidence.",
+        "not_demonstrated": "Restoration of functional inhibitor versus antibiotic-mediated effects, durable benefit and commercial differentiation remain unresolved."
+      },
+      "decisive_next_proof": "Use variant-defined patient epidermis to compare gentamicin with controls, linking full-length functional SERPINB7 restoration to barrier recovery rather than antibacterial effects.",
+      "disposition": {
+        "status": "focused_reserve",
+        "reason": "Modest human evidence warrants a bounded functional proof, not an S-tier claim."
+      },
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0022202X17330865"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S34"
+      ]
+    },
+    {
+      "proposal_id": "BL-N09_BE-N07",
+      "original_ids": [
+        "BL-N09",
+        "BE-N07"
+      ],
+      "name": "BPG10 plus full-length recombinant PRG4 for cartilage mechanics",
+      "exact_component": "BPG10: approximately 180-kDa chondroitin-sulfate brush on an approximately 10-kDa poly(acrylic acid) core, plus defined full-length recombinant PRG4/lubricin.",
+      "component_specification_status": "defined_component_classes_prg4_product_and_ratio_pending",
+      "novelty_classification": {
+        "primary": "untested_combination",
+        "secondary": [],
+        "basis": "The two domain proposals name the same charge-support plus boundary-lubrication combination and are counted once."
+      },
+      "family_id": "bpg10_prg4_cartilage",
+      "evidence_scope": {
+        "demonstrated": "BPG10 has local micromechanical evidence in four normal and four OA human donors; PRG4 supplies a separately motivated boundary-lubrication comparator.",
+        "not_demonstrated": "Neither source establishes combined human bulk load support or superiority of the combination; AFM indents are technical measurements within donors."
+      },
+      "decisive_next_proof": "Paired human OA explants with both singles and combination under cyclic loading/washout, requiring incremental bulk fluid-load support and lower friction without impaired viability.",
+      "disposition": {
+        "status": "reserve_factorial_human_mechanics",
+        "reason": "Promote only if separate bulk and friction defects are corrected and combination outperforms the better single component."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11388146/",
+        "https://pubmed.ncbi.nlm.nih.gov/39133208/",
+        "https://pubs.acs.org/doi/10.1021/acsbiomaterials.4c00813",
+        "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=24982&isClinicalTrial=True"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md",
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "BL:S21",
+        "BE:C1",
+        "BE:C4"
+      ]
+    },
+    {
+      "proposal_id": "BL-N10",
+      "original_ids": [
+        "BL-N10"
+      ],
+      "name": "Low-frequency mIGF-Gel tested against insulin under washout",
+      "exact_component": "Biotin-capped D-phenylalanine–YIGSSSR peptide, assembled as the published mIGF gel; independently authenticate sequence, stereochemistry and assembly.",
+      "component_specification_status": "defined_published_construct",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "The molecular material already exists in the repository; this reframes the active comparator, washout and dosing-frequency specification."
+      },
+      "family_id": "migf_corneal_repair",
+      "evidence_scope": {
+        "demonstrated": "Rat acute debridement and steroid-suppressed delayed-healing studies support retention and epithelial repair.",
+        "not_demonstrated": "Human neurotrophic efficacy and a practical advantage over topical insulin are not established."
+      },
+      "decisive_next_proof": "In paired corneal models with persistent repair limitation and repeated tear-like washout, compare exact mIGF, an appropriate physical gel control, insulin and free IGF1 on durable closure/barrier and optical quality.",
+      "disposition": {
+        "status": "priority_bounded_proof",
+        "reason": "A meaningful reduction in dosing burden or superior durable repair against insulin would define a product; PBS superiority would not."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+        "https://pubmed.ncbi.nlm.nih.gov/42502320/",
+        "https://patents.google.com/patent/CN121949581A/en",
+        "https://patents.google.com/patent/CN113321706B/en",
+        "https://pubmed.ncbi.nlm.nih.gov/42866881/",
+        "https://pubmed.ncbi.nlm.nih.gov/41997424/",
+        "https://pubmed.ncbi.nlm.nih.gov/40036826/"
+      ],
+      "source_memos": [
+        "round2_barrier_local.md"
+      ],
+      "memo_source_ids": [
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ]
+    },
+    {
+      "proposal_id": "BE-N01",
+      "original_ids": [
+        "BE-N01"
+      ],
+      "name": "Controlled AAT additive for donor-lung repair during EVLP",
+      "exact_component": "Plasma-derived alpha-1-antitrypsin/A1PI, with Zemaira as the manufactured reference; warm-circuit compatibility and active concentration require qualification.",
+      "component_specification_status": "defined_manufactured_component_new_workflow",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "AAT perfusion repair is a newly generated product thesis relative to the reviewed inventory, with a lower-dose/washout contribution beyond published use."
+      },
+      "family_id": "aat_evlp",
+      "evidence_scope": {
+        "demonstrated": "A paired declined-human-lung study involved eight independent donors; pig EVLP and separate recipient-systemic AAT experiments support organ physiology.",
+        "not_demonstrated": "The apparent 2020/2026 reports should not be counted as independent datasets; ex-vivo-only post-washout transplant durability is unproven."
+      },
+      "decisive_next_proof": "Use donor-paired lungs and protein/excipient-matched optimized perfusion to test lower-dose active AAT and persistence after washout, followed by ex-vivo-only survival transplantation.",
+      "disposition": {
+        "status": "leading_proof_program_contender",
+        "reason": "Strong human physiological foundation and concrete supply; a new project must add durability, dose control or reproducibility, with known rights weighted separately."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+        "https://www.sciencedirect.com/science/article/pii/S1053249820312997",
+        "https://pubmed.ncbi.nlm.nih.gov/29153638/",
+        "https://pubmed.ncbi.nlm.nih.gov/27095003/",
+        "https://patents.google.com/patent/US20190059362A1/en",
+        "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/zemaira",
+        "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "proposal_id": "BE-N02",
+      "original_ids": [
+        "BE-N02"
+      ],
+      "name": "Plasminogen replenishment plus alteplase in kidney NMP",
+      "exact_component": "Human plasminogen plus alteplase in normothermic kidney perfusion; qualify activity/excipients if using a clinical plasminogen product such as Ryplazim.",
+      "component_specification_status": "defined_components_formulation_bridge_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "A newly generated substrate-complete kidney microvascular rescue thesis, distinct from existing kidney antioxidant/perfusion concepts."
+      },
+      "family_id": "plasminogen_alteplase_kidney",
+      "evidence_scope": {
+        "demonstrated": "Human kidney experiments support relief of microvascular obstruction; the central paired efficacy cohort was three donor pairs within a larger organ program.",
+        "not_demonstrated": "Thirty-nine organs are not thirty-nine independent paired efficacy observations; filtration and post-transplant benefit are not established."
+      },
+      "decisive_next_proof": "Randomized contralateral kidneys comparing combination, component controls and optimized NMP, using filtered-tracer clearance and perfusion uniformity after washout.",
+      "disposition": {
+        "status": "conditional_human_organ_proof",
+        "reason": "Clear substrate lesion and attainable components, but functional recovery must exceed histological plug clearance."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7775334/",
+        "https://pubmed.ncbi.nlm.nih.gov/32627324/",
+        "https://www.fda.gov/vaccines-blood-biologics/ryplazim",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c5a00ca-d662-46e6-b9ac-a07e9cfcc0a8",
+        "https://pubmed.ncbi.nlm.nih.gov/26448622/"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "K1",
+        "K2",
+        "K3"
+      ]
+    },
+    {
+      "proposal_id": "BE-N03",
+      "original_ids": [
+        "BE-N03"
+      ],
+      "name": "Brief MAM exposure at renal reperfusion",
+      "exact_component": "Diacetoxymethyl malonate (MAM), distinguished from dimethyl malonate (DMM), as a timed reperfusion intervention.",
+      "component_specification_status": "defined_small_molecule_timing_critical",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New exact chemical/timing concept in the inventory."
+      },
+      "family_id": "malonate_reperfusion",
+      "evidence_scope": {
+        "demonstrated": "Human/pig succinate mechanism and mouse renal functional rescue support treatment at reperfusion.",
+        "not_demonstrated": "Treated-human-kidney efficacy is absent; benefit is sensitive to timing and metabolically realistic perfusate conditions."
+      },
+      "decisive_next_proof": "Treat human donor kidneys at reperfusion with MAM versus DMM and vehicle under clinically realistic perfusion; require filtration/energy recovery after washout.",
+      "disposition": {
+        "status": "conditional_reserve",
+        "reason": "Mechanistic rationale is strong enough to test, but human treatment function and context sensitivity remain decisive."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372157/",
+        "https://pubmed.ncbi.nlm.nih.gov/42606606/"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "N1",
+        "N2"
+      ]
+    },
+    {
+      "proposal_id": "BE-N04",
+      "original_ids": [
+        "BE-N04"
+      ],
+      "name": "Local DiNAC lysis of VWF/platelet-rich obstructive clot",
+      "exact_component": "N,N′-diacetyl-L-cystine (DiNAC); it is chemically distinct from N-acetylcysteine.",
+      "component_specification_status": "defined_small_molecule_local_exposure_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New exact disulfide-directed clot-phenotype concept."
+      },
+      "family_id": "dinac_clot_lysis",
+      "evidence_scope": {
+        "demonstrated": "Human-blood flow and patient-clot work support effects on white VWF/platelet-rich clot.",
+        "not_demonstrated": "Red fibrinous clot resistance, achievable local exposure and bleeding/endothelial safety are unresolved; related NAC clinical harms cannot be ignored or equated directly."
+      },
+      "decisive_next_proof": "At measured physiological-plasma local exposure, test phenotype-defined patient clots under flow for restored passage, viable distal embolic burden and endothelial injury versus active lysis controls.",
+      "disposition": {
+        "status": "conditional_reserve",
+        "reason": "Advance only with a defined susceptible clot phenotype and a useful local exposure/safety window."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7906380/",
+        "https://pubmed.ncbi.nlm.nih.gov/38525646/",
+        "https://www.sciencedirect.com/science/article/pii/S0306452225008395",
+        "https://www.phind.fr/index.php/en/vivien-publications"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "N3",
+        "N4",
+        "N5"
+      ]
+    },
+    {
+      "proposal_id": "BE-N05",
+      "original_ids": [
+        "BE-N05"
+      ],
+      "name": "Apotransferrin timed to post-transfusion iron release",
+      "exact_component": "Human apotransferrin delivered over the transient non-transferrin-bound-iron window after transfusion.",
+      "component_specification_status": "defined_protein_timing_and_dose_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "A narrow transient-exposure thesis, distinct from chronic anemia treatment."
+      },
+      "family_id": "apotransferrin_transfusion",
+      "evidence_scope": {
+        "demonstrated": "Human serum/bacterial-growth relationships and mouse rescue support the short iron-burst hypothesis; human binding activity is reported.",
+        "not_demonstrated": "Chronic anemia benefit was not established, and transient iron binding alone is not evidence of tissue protection."
+      },
+      "decisive_next_proof": "In transfusion-relevant human material, compare timed apotransferrin with matched controls on NTBI neutralization plus a prespecified tissue or cellular functional injury endpoint.",
+      "disposition": {
+        "status": "narrow_exposure_reserve",
+        "reason": "A short-window benefit may survive the negative chronic-anemia result, but needs direct functional demonstration."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8831455/",
+        "https://haematologica.org/article/view/11733"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "N9",
+        "N10"
+      ]
+    },
+    {
+      "proposal_id": "BE-N06",
+      "original_ids": [
+        "BE-N06"
+      ],
+      "name": "Reversible calcium chelation plus taurine for cold platelet storage",
+      "exact_component": "EGTA-mediated reversible calcium chelation during storage plus taurine, with verified restoration of calcium-dependent function before use.",
+      "component_specification_status": "defined_components_combination_untested",
+      "novelty_classification": {
+        "primary": "untested_combination",
+        "secondary": [],
+        "basis": "Combines separately supported anti-activation/clearance and metabolic interventions; their joint benefit has not been demonstrated."
+      },
+      "family_id": "cold_platelet_storage",
+      "evidence_scope": {
+        "demonstrated": "Taurine was studied in ten human donors; EGTA pretreatment has mouse functional support; current unmodified cold platelets have a major randomized clinical comparator.",
+        "not_demonstrated": "Combination benefit, post-transfusion recovery and superiority over contemporary prolonged cold storage are unproven."
+      },
+      "decisive_next_proof": "Donor-blocked factorial storage study comparing each component and combination against current cold-storage practice, followed by recovery and hemostatic-function testing after calcium restoration.",
+      "disposition": {
+        "status": "conditional_factorial_proof",
+        "reason": "A storage biomarker or repeated twenty-one-day clotting result is insufficient differentiation."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38072374/",
+        "https://pubmed.ncbi.nlm.nih.gov/42606886/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8158249/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11143524/"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ]
+    },
+    {
+      "proposal_id": "BE-N08",
+      "original_ids": [
+        "BE-N08"
+      ],
+      "name": "DNase plus plasminogen to unlock retained tPA in resistant thrombi",
+      "exact_component": "DNase I plus human plasminogen in a thrombus already exposed to tPA; extra tPA is an active comparator, not an assumed required third new component.",
+      "component_specification_status": "defined_components_residual_tpa_must_be_measured",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Refines existing DNase/fibrinolysis concepts around a measured retained-tPA and substrate/NET bottleneck."
+      },
+      "family_id": "dnase_plasminogen_thrombolysis",
+      "evidence_scope": {
+        "demonstrated": "A 205-thrombus study supports the retained-tPA/substrate hypothesis.",
+        "not_demonstrated": "Clinical DNase evidence is mixed; a small pilot failed its recanalization endpoint, and a retrieved larger-trial abstract did not supply final efficacy results."
+      },
+      "decisive_next_proof": "In resistant patient thrombi with measured retained tPA, compare DNase, plasminogen combination and additional fibrinolytic under flow, using reperfusion and embolic fragments rather than clot weight alone.",
+      "disposition": {
+        "status": "conditional_reserve",
+        "reason": "A useful mechanistic refinement, but ex-vivo lysis cannot substitute for clinical recanalization."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13688063/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13145212/",
+        "https://academic.oup.com/esj/article/11/Supplement_1/i986/8668270"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "N6",
+        "N7",
+        "N8"
+      ]
+    },
+    {
+      "proposal_id": "BE-N09",
+      "original_ids": [
+        "BE-N09"
+      ],
+      "name": "Selective A2B blockade during EVLP",
+      "exact_component": "ATL802 as the exact A2B antagonist benchmark; a final manufacturable candidate/formulation remains to be specified.",
+      "component_specification_status": "defined_benchmark_product_not_finalized",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New exact pharmacological EVLP comparison in the inventory."
+      },
+      "family_id": "a2b_evlp",
+      "evidence_scope": {
+        "demonstrated": "Pig transplantation work reported improved compliance with ATL802 during EVLP.",
+        "not_demonstrated": "Oxygenation and edema were not improved over EVLP controls; human efficacy and a release-qualified product are absent."
+      },
+      "decisive_next_proof": "Independently repeat EVLP/transplant physiology with the exact benchmark, requiring a donor/graft functional gain beyond compliance alone and measuring exposure.",
+      "disposition": {
+        "status": "below_aat_reserve",
+        "reason": "Incomplete functional advantage and product specification keep this behind AAT."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6743073/"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "N11"
+      ]
+    },
+    {
+      "proposal_id": "BE-N10",
+      "original_ids": [
+        "BE-N10"
+      ],
+      "name": "AAT plus solnatide for donor-lung barrier and fluid clearance",
+      "exact_component": "Plasma-derived AAT plus solnatide/TIP peptide in EVLP, with each component separately qualified.",
+      "component_specification_status": "defined_components_combination_untested",
+      "novelty_classification": {
+        "primary": "untested_combination",
+        "secondary": [],
+        "basis": "Adds fluid-clearance support to the AAT repair thesis; it does not create independent confirmation of AAT efficacy."
+      },
+      "family_id": "aat_evlp",
+      "evidence_scope": {
+        "demonstrated": "Each component has human-lung preparation evidence addressing related physiological functions.",
+        "not_demonstrated": "The combination has no demonstrated incremental benefit; solnatide clinical boundaries remain relevant."
+      },
+      "decisive_next_proof": "Only after confirming AAT-alone performance, use a donor-paired factorial EVLP comparison on sustained gas exchange, compliance and fluid clearance after washout.",
+      "disposition": {
+        "status": "reserve_after_single_agent_proof",
+        "reason": "Do not add product complexity without superiority to the better single component."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+        "https://pubmed.ncbi.nlm.nih.gov/29153638/",
+        "https://insight.jci.org/articles/view/188325",
+        "https://pubmed.ncbi.nlm.nih.gov/40280364/"
+      ],
+      "source_memos": [
+        "round2_blood_exvivo.md"
+      ],
+      "memo_source_ids": [
+        "A1",
+        "A3",
+        "N12",
+        "N13"
+      ]
+    },
+    {
+      "proposal_id": "NM-N01",
+      "original_ids": [
+        "NM-N01"
+      ],
+      "name": "BLU3797 for MTM1-deficient muscle",
+      "exact_component": "BLU3797, the published stereodefined PIK3C2B inhibitor, with exact synthesis and Probechem PC-26519 research listing.",
+      "component_specification_status": "defined_published_small_molecule",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "Exact small-molecule counter-enzyme lead replaces earlier MTM1 protein-entry bottlenecks."
+      },
+      "family_id": "pik3c2b_mtm1",
+      "evidence_scope": {
+        "demonstrated": "Short-term late-start survival/wire-hang rescue in Mtm1-null juvenile mice, selected MTM1-null mouse cells and independent genetic target support.",
+        "not_demonstrated": "Mature human patient-muscle force, durable reversal in chronic disease, and a neural safety/exposure margin are missing."
+      },
+      "decisive_next_proof": "Mature human muscle force at measured exposure plus neural safety separation",
+      "disposition": {
+        "status": "priority_proof_funding",
+        "reason": "Potentially high-value functional rescue; prioritize human specific force and exposure/selectivity rather than another marker assay."
+      },
+      "source_urls": [
+        "https://insight.jci.org/articles/view/198568",
+        "https://www.probechem.com/products_BLU3797.html"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N02",
+      "original_ids": [
+        "NM-N02"
+      ],
+      "name": "Transient CPTX protein plus timed rehabilitation after incomplete SCI",
+      "exact_component": "CPTX recombinant fusion protein: neurexin-binding cerebellin-1 segment, trimerization element and AMPA-binding neuronal-pentraxin-1 segment; patent SEQ ID NO. 2; timed local pulse plus rehabilitation is proposed.",
+      "component_specification_status": "defined_sequence_new_regimen",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Changes timing, injury setting and activity regimen of an existing synaptic-organizer concept."
+      },
+      "family_id": "cptx_synaptic_bridge",
+      "evidence_scope": {
+        "demonstrated": "Published recombinant protein improves mouse SCI function; delayed treatment was in hemisection and immediate treatment in contusion.",
+        "not_demonstrated": "Delayed contusion protein efficacy with durable circuit safety is not established by the peer-reviewed study; cell therapy is a different product."
+      },
+      "decisive_next_proof": "Delayed contusion coordinated motor/conduction benefit after clearance without pathological excitation",
+      "disposition": {
+        "status": "conditional_delayed_protein_proof",
+        "reason": "The valuable new contribution is delayed, transient protein benefit under an active rehabilitation comparison."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7116145/",
+        "https://patents.google.com/patent/US20230192810A1/en"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N03",
+      "original_ids": [
+        "NM-N03"
+      ],
+      "name": "Post-onset cognate tRNA add-back in YARS1/GARS1 neuropathy",
+      "exact_component": "AAV9-U6-tRNATyr; GARS1 cognate tRNA is related separate product",
+      "component_specification_status": "defined_yars1_cassette_related_gars1_separate",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Specifies the cognate cassette and post-onset question; YARS1 and GARS1 are related products, not independent confirmations of one article."
+      },
+      "family_id": "cognate_trna_neuropathy",
+      "evidence_scope": {
+        "demonstrated": "Neonatal AAV9-U6-tRNATyr prevented functional neuropathy in homozygous Yars1 E196K mice; cognate specificity had informative controls.",
+        "not_demonstrated": "Adult/post-onset reversal and delivery in the intended human genotype are unproven; an existing venture program is visible."
+      },
+      "decisive_next_proof": "Adult/post-onset function; neonatal prevention does not establish reversal",
+      "disposition": {
+        "status": "existing_program_benchmark_specific_proof",
+        "reason": "Strong biology; differentiate through established-disease function and exact product rather than rediscovering the platform."
+      },
+      "source_urls": [
+        "https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awag204/8756510",
+        "https://www.nlc.health/portfolio"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N04",
+      "original_ids": [
+        "NM-N04"
+      ],
+      "name": "Exposure-matched piclidenoson in Lowe OCRL deficiency",
+      "exact_component": "IB-MECA/piclidenoson; chemically defined A3AR agonist",
+      "component_specification_status": "defined_small_molecule_owned_program",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New exact indication benchmark found in the screen, coupled to a stricter exposure test."
+      },
+      "family_id": "a3ar_ocrl_lowe",
+      "evidence_scope": {
+        "demonstrated": "Human organoid pathway/uptake rescue supports the mechanism.",
+        "not_demonstrated": "The nominal organoid concentration is about eighty-eight-fold above a cited human total Cmax comparator; relevant free kidney exposure is not established."
+      },
+      "decisive_next_proof": "Receptor-mediated uptake at human-plausible unbound kidney exposure; nominal organoid concentration is ~88x human total Cmax comparator",
+      "disposition": {
+        "status": "downgraded_exposure_gap",
+        "reason": "Do not promote unless useful receptor-mediated rescue survives human-plausible exposure constraints."
+      },
+      "source_urls": [
+        "https://www.nature.com/articles/s41392-026-03054-z",
+        "https://cdn.clinicaltrials.gov/large-docs/56/NCT03168256/Prot_000.pdf"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N05",
+      "original_ids": [
+        "NM-N05"
+      ],
+      "name": "Vanillic acid plus defined CoQ10 formulation in COQ9/selected COQ7 deficiency",
+      "exact_component": "Defined vanillic acid plus optimized existing CoQ10 comparator",
+      "component_specification_status": "defined_published_combination_formulation_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "Combination is new relative to registry questions but already tested in published mouse work; proposed human function/exposure design is a refinement."
+      },
+      "family_id": "coq_precursor_bypass",
+      "evidence_scope": {
+        "demonstrated": "Vanillic acid plus CoQ10 improved survival/motor outcomes in Coq9 R239X mice; COQ7 fibroblasts provide limited human support.",
+        "not_demonstrated": "Human COQ9 neural rescue, broad allele applicability and feasible chronic exposure are not established."
+      },
+      "decisive_next_proof": "Factorial human function, metabolic flux and feasible exposure; genotype restriction",
+      "disposition": {
+        "status": "reserve_genotype_specific_human_proof",
+        "reason": "Chemically concrete and inexpensive to falsify; require incremental tissue function over optimized CoQ10."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12246469/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N06",
+      "original_ids": [
+        "NM-N06"
+      ],
+      "name": "2,4-dihydroxybenzoate add-on in COQ8B nephropathy",
+      "exact_component": "2,4-DHB plus CoQ10; renal gene-specific comparison",
+      "component_specification_status": "defined_components_new_add_on_test",
+      "novelty_classification": {
+        "primary": "untested_combination",
+        "secondary": [],
+        "basis": "A renal gene-specific CoQ10 add-on design; shares a precursor-bypass family with NM-N05 but uses a different compound and genotype."
+      },
+      "family_id": "coq_precursor_bypass",
+      "evidence_scope": {
+        "demonstrated": "2,4-DHB showed renal prevention in a podocyte-knockout mouse model and mitochondrial rescue in human knockout cells; CoQ10 has patient comparator evidence.",
+        "not_demonstrated": "Incremental podocyte filtration-barrier benefit of the proposed add-on over optimized CoQ10 is unproven."
+      },
+      "decisive_next_proof": "Incremental human podocyte barrier function over optimized CoQ10",
+      "disposition": {
+        "status": "reserve_shared_platform",
+        "reason": "Do not count this as an independent platform win or generalize across COQ genotypes."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32381600/",
+        "https://pubmed.ncbi.nlm.nih.gov/42435122/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N07",
+      "original_ids": [
+        "NM-N07"
+      ],
+      "name": "Defined phosphatidylcholine/phosphatidylethanolamine for CMT1A",
+      "exact_component": "Composition-defined phosphatidylcholine/phosphatidylethanolamine-rich material modeled on the published approximately 55% PC / 20% PE soy-phospholipid preparation, not unspecified lecithin.",
+      "component_specification_status": "published_lipid_composition_final_product_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New inventory mechanism with pre-existing clinical research; the increment is composition, tissue exposure and conduction."
+      },
+      "family_id": "pc_pe_cmt1a",
+      "evidence_scope": {
+        "demonstrated": "A defined soy-phospholipid material, approximately fifty-five percent PC and twenty percent PE, improved myelin and neuropathic function in CMT1A rats.",
+        "not_demonstrated": "Human nerve delivery, mature conduction benefit and a differentiated product versus the existing clinical research effort remain unproven."
+      },
+      "decisive_next_proof": "Mature human conduction plus lipid incorporation; no plasma-only surrogate",
+      "disposition": {
+        "status": "reserve_not_new_invention",
+        "reason": "Generic lecithin is not a new asset; measured neural incorporation and function could define a useful product."
+      },
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-018-05420-0",
+        "https://neurologie.umg.eu/aerzte-zuweiser/spezialambulanzen/neurogenetik/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N08",
+      "original_ids": [
+        "NM-N08"
+      ],
+      "name": "GCN2iB benchmark for GARS1 neuropathy",
+      "exact_component": "GCN2iB with orthogonal GCN2 and ZAK controls",
+      "component_specification_status": "defined_benchmark_with_specificity_liability",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "New pharmacological bypass found and downgraded during the same search."
+      },
+      "family_id": "gcn2_gars1",
+      "evidence_scope": {
+        "demonstrated": "GCN2iB improved some onset-treated Gars-mutant mouse motor/conduction endpoints.",
+        "not_demonstrated": "CMAP rescue was not significant; ZAK inhibition and low-dose GCN2 activation undermine clean target attribution."
+      },
+      "decisive_next_proof": "Distinguish on-target benefit from ZAK inhibition and harmful low-dose GCN2 activation",
+      "disposition": {
+        "status": "do_not_promote_exact_compound",
+        "reason": "Retain as a mechanistic benchmark; a successor must separate GCN2 from ZAK and avoid an adverse low-exposure range."
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8908546/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13241773/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N09",
+      "original_ids": [
+        "NM-N09"
+      ],
+      "name": "Immobilized haptoglobin cartridge for CSF hemoglobin removal",
+      "exact_component": "Purified haptoglobin immobilized on defined matrix; pressure-controlled device is proposed",
+      "component_specification_status": "defined_binding_component_device_not_built",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Affinity removal already has precedent; new contribution is a controlled cartridge specification and validated capacity."
+      },
+      "family_id": "haptoglobin_csf_removal",
+      "evidence_scope": {
+        "demonstrated": "Patient-CSF/artery experiments support hemoglobin sequestration/removal and vascular-function restoration.",
+        "not_demonstrated": "An immobilized pressure-controlled device with safe flow, no leaching and adequate rebound capacity has not been validated."
+      },
+      "decisive_next_proof": "Paired patient-CSF clearance, vascular response, capacity, leachables and rebound; 8–12 independent samples proposed",
+      "disposition": {
+        "status": "reserve_engineering_proof",
+        "reason": "A tractable bench/ex-vivo step exists, but safe intracranial circulation is a later product question."
+      },
+      "source_urls": [
+        "https://www.jci.org/articles/view/130630",
+        "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/hapto-study/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "NM-N10",
+      "original_ids": [
+        "NM-N10"
+      ],
+      "name": "Sildenafil in genotype-defined ATP6 Leigh syndrome",
+      "exact_component": "Exact sildenafil exposure matched to neural model; genotype-defined prospective study",
+      "component_specification_status": "defined_marketed_drug_new_genotype_design",
+      "novelty_classification": {
+        "primary": "refinement",
+        "secondary": [],
+        "basis": "Improves exposure qualification and prospective endpoint design for a published repurposing lead."
+      },
+      "family_id": "sildenafil_leigh",
+      "evidence_scope": {
+        "demonstrated": "2026 small/large-mammal experiments and six individually treated Leigh patients support further study.",
+        "not_demonstrated": "The human observations are uncontrolled; genotype-specific benefit and relevant free neural exposure are not established."
+      },
+      "decisive_next_proof": "Human neural function at plausible free exposure then controlled motor/crisis outcomes",
+      "disposition": {
+        "status": "reserve_repurposing",
+        "reason": "Test exposure-matched human function before a controlled prospective disease study; do not claim a new molecule."
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41819105/"
+      ],
+      "source_memos": [
+        "round2_neuro_metabolic.md",
+        "round2_neuro_metabolic_coverage.json"
+      ],
+      "memo_source_ids": []
+    },
+    {
+      "proposal_id": "R-N01",
+      "original_ids": [
+        "R-N01"
+      ],
+      "name": "Sulbactam rescue of aggregation-prone POLG",
+      "exact_component": "Sulbactam as the repurposed small-molecule component; final chemical form, exposure and genotype-specific product definition require qualification.",
+      "component_specification_status": "defined_drug_exposure_and_genotype_bridge_pending",
+      "novelty_classification": {
+        "primary": "new_to_repo",
+        "secondary": [],
+        "basis": "Root identified this POLG-aggregation lead independently of the thirty domain proposals; no patent novelty is claimed."
+      },
+      "family_id": "polg_aggregation",
+      "evidence_scope": {
+        "demonstrated": "The October 2026 primary report supplies engineered-cell and mouse functional evidence, as reviewed by root.",
+        "not_demonstrated": "Engineered HEK/HCT systems are not patient models; the A449T mouse has a mild phenotype, and drug-dose/exposure details need clarification before translational inference."
+      },
+      "decisive_next_proof": "In patient-derived or isogenic human cells with endogenous, aggregation-prone POLG variants, demonstrate mtDNA maintenance and respiratory function at measured clinically plausible unbound sulbactam exposure, separating aggregation rescue from nonspecific stress effects.",
+      "disposition": {
+        "status": "exploratory_patient_function_reserve",
+        "reason": "Do not outrank direct human organ or mature-muscle proofs until genotype-appropriate patient function and exposure are demonstrated."
+      },
+      "source_urls": [
+        "https://link.springer.com/article/10.1038/s44321-026-00532-3",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8136776/"
+      ],
+      "source_memos": [
+        "root research handoff, 4 November 2026"
+      ],
+      "memo_source_ids": []
+    }
+  ]
+}

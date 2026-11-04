@@ -1,0 +1,428 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "scope": "Independent additional exact-article screen; professional research only, no outreach, purchases, experiments or remote changes.",
+  "inventory_base": "research/portfolio-register.json; snapshot c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+  "screen_count": 15,
+  "new_to_reviewed_inventory_count": 14,
+  "refinement_count": 1,
+  "family_count": 13,
+  "interpretation": "15 article/indication records, 14 new to the reviewed inventory and one existing-drug refinement; 13 families after grouping three Darier articles. Counts include benchmark and rejected candidates, not validated leads. No patent novelty claimed.",
+  "S_tier_count": 0,
+  "priority_order": [
+    "R3-NL-01",
+    "R3-NL-04",
+    "R3-NL-05"
+  ],
+  "new_candidates": [
+    {
+      "candidate_id": "R3-NL-01",
+      "name": "NDC-9009 topical proof for ATP2A2 Darier disease",
+      "family": "Darier calcium-homeostasis repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bDarier\\b|NDC.?9009|CDN.?1163|ATP2A2",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "NDC-9009, inferred systematic name 4-(dimethylamino)-N-(2-methylquinolin-8-yl)benzamide from published synthesis, [M+H]+306. Distinct from CDN1163. Topical formulation is a proposal, not a published clinical product.",
+      "function": "2026 patient keratinocyte dispase mechanical-adhesion rescue with 5 µM NDC-9009 during a 4-hour calcium switch. Four isolates represent three donors: DD1/DD2 same p.Asn39Asp donor; DD3/DD4 two p.Gln177Pro donors. Three experimental repeats are not three independent patient cohorts. Earlier desmoplakin localization normalizes by four hours even untreated; its one-hour rescue used CDN1163, not NDC-9009.",
+      "decision": "PRIORITY_NEW_PROOF; not S. Most attractive new local intervention in this domain screen because exact small molecule, disease cells and a direct adhesion readout align. Delayed lesion reversal, skin exposure and margin remain unproven.",
+      "decidingproof": "Authenticate compound against public MS/NMR; test after a stable mechanical/barrier deficit in donor-stratified mature Darier epidermis, alongside vehicle, CDN1163 and mechanistically distinct calcium-restoring comparators. Pair durable adhesion/permeability with viable-epidermis unbound drug and matched healthy-tissue injury. Predeclare a meaningful rescue threshold after measuring baseline assay variance.",
+      "go": "Advance if a reproducible donor-level mechanical and barrier recovery persists beyond washout at skin-achievable unbound exposure, with a margin to healthy-skin injury and added value against the strongest comparator.",
+      "stop": "Stop or redesign if benefit is limited to calcium-switch junction assembly, only markers improve, topical exposure cannot reach active concentrations, or rescue tracks generalized proliferation/healthy-skin damage.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311773/",
+        "https://patents.google.com/patent/US20190151303A1/en"
+      ],
+      "evidence_date": "2026-08",
+      "material_route": "Public synthesis and analytical characterization; no batch acquired/authenticated. Published neurobiology studies used Neurodon-sourced material. Public synthesis provides a research route independent of contacting that company.",
+      "exposure_gap": "5 µM nominal cell-medium concentration is not free epidermal exposure. No matched skin PK or quantitative SERCA healthy-skin window recovered.",
+      "rights": "Neurodon quinoline/SERCA patent family exists; exact NDC-9009 claim mapping and use/formulation scope not determined. No freedom-to-operate assertion.",
+      "key_uncertainty": "Treatment timing and biological donor denominator materially reduce strength relative to the headline."
+    },
+    {
+      "candidate_id": "R3-NL-02",
+      "name": "Dantrolene sodium for Darier disease; local route as comparator/proposal",
+      "family": "Darier calcium-homeostasis repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bdantrolene\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Dantrolene sodium, an identified drug; proposed local skin formulation is distinct from oral Dantrium in the completed trial.",
+      "function": "2024 work used 10 µM for 24 hours and showed calcium/junction rescue in patient cells; functional fragmentation was particularly documented in perturbation models. October 2026 follow-up abstract reports adhesion and mitochondrial-function improvement in DD keratinocytes. Same research line is not independent replication. Clinical EUCT 2024-519201-36-00 ended in 2025; a public mirror lists a September 2026 results document, but its results content was not recovered.",
+      "decision": "COMPARATOR_AND_RESERVE. Do not declare human clinical success, failure or availability from trial completion. Distinguish testable local hypothesis from the already tested oral regimen.",
+      "decidingproof": "Read the public trial-results document if recoverable, then compare local dantrolene with NDC-9009 at measured epidermal exposure after established deficit. Quantify functional benefit and local/systemic muscle-relevant exposure.",
+      "go": "Advance a separate local product only if meaningful delayed skin repair is demonstrated with a clear exposure advantage and evidence not already answered by the oral trial.",
+      "stop": "Do not promote from mechanistic markers or a completed-trial label. Stop local idea if tissue exposure required is not tolerable or no advantage over cheaper/local comparators emerges.",
+      "source_urls": [
+        "https://link.springer.com/article/10.1038/s44321-024-00104-3",
+        "https://www.sciencedirect.com/science/article/pii/S0022202X26037681",
+        "https://euclinicaltrials.eu/ctis-public/view/2024-519201-36-00",
+        "https://ctis.eu/trial/2024-519201-36-00",
+        "https://euclinicaltrials.eu/search-for-clinical-trials/?EUCT=2024-519201-36-00&lang=en"
+      ],
+      "publication_ids": [
+        "PMID42849607",
+        "DOI10.1016/j.jid.2026.08.031"
+      ],
+      "clinical_result_status": "Unknown actual results; secondary mirror document listing is not efficacy evidence.",
+      "final_result_retrieval_check": {
+        "mirror": "https://ctis.eu/trial/2024-519201-36-00",
+        "document": "SUM-151495; 2024-519201-36-00 - Summary of Results - Dantrolene Darier trial - 8 Sep 2026; version2.0",
+        "observed_status": "Mirror lists submitted10September2026. It exposes titles, not a direct results-PDF link. The Read it in the EU register link leads to the general EMA search page carrying EUCT=2024-519201-36-00, whose retrieved page contains no trial outcomes.",
+        "actual_participants": "Unknown;20 is planned enrollment only.",
+        "efficacy_safety_outcomes": "Not recovered; no positive/negative inference."
+      }
+    },
+    {
+      "candidate_id": "R3-NL-03",
+      "name": "Trametinib local formulation for Darier acantholysis",
+      "family": "Darier calcium-homeostasis repair",
+      "novelty": "refinement",
+      "alias_basis": {
+        "regex": "\\btrametinib\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "3197:      \"label\": \"Trametinib for RASopathy-associated hypertrophic cardiomyopathy\",\n3200:        \"topic\": \"Trametinib for RASopathy-associated hypertrophic cardiomyopathy\",\n3212:          \"name\": \"Trametinib for RASopathy-associated hypertrophic cardiomyopathy\","
+      },
+      "exactarticle": "Trametinib; identified MEK inhibitor. Local Darier formulation is proposed. Previous inventory already contains trametinib for RASopathy cardiomyopathy.",
+      "function": "2023 JCI Insight genetic SERCA2 and thapsigargin keratinocyte/organotypic models: 1 µM trametinib for 48 hours improved mechanical resistance. Mature-tissue work largely combined inhibitor with induced disease; it did not establish delayed repair in patient skin.",
+      "decision": "REFINEMENT_COMPARATOR; not a newly discovered compound and weaker than patient-genotype NDC-9009 evidence for this selection.",
+      "decidingproof": "Delayed-treatment mature patient epidermis with healthy-skin response, tissue exposure and a calcium-restoring active comparator.",
+      "go": "Advance only if established lesion repair is reproducible with an adequate epidermal safety margin and superiority/durability beyond calcium restoration alone.",
+      "stop": "Stop if co-treatment prevention is all that reproduces, or MEK blockade impairs healthy epidermal repair at the effective exposure.",
+      "source_urls": [
+        "https://insight.jci.org/articles/view/170739/"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-04",
+      "name": "Org43553/Org42599 pharmacochaperone for selected LHCGR loss-of-function infertility",
+      "family": "LHCGR pharmacochaperone",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "Org.?43553|Org.?42599|LHR.Chap|LHCGR",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Defined thienopyrimidine parent LHR-Chap/Org43553/Org42599, public structure (PubChem9914457; free-base CAS501444-88-8). Nomenclature/counterion differs across sources; authenticate parent and salt rather than assuming named products are identical.",
+      "function": "2026 adult homozygous mouse LhcgrT465I (human T461I analog): 25 mg/kg intraperitoneal LHR-Chap restored cycling/corpora lutea whereas matched hCG did not. Calcium analysis included 391 cells from only three treated mice. Treated-mutant live-birth rescue was not shown. Earlier human-mutant HEK293 work rescued selected receptor functions. A 2013 oral study exposed 159 healthy women across TWO compounds and several study parts; it was not a mutant-patient efficacy trial.",
+      "decision": "PRIORITY_RESERVE; strongest second new rare-disease hypothesis, with functional adult animal rescue plus a human exposure precedent. Genotype selection, ovarian exposure and meaningful fertility endpoint are decisive.",
+      "decidingproof": "Authenticate compound/salt; demonstrate hormone-responsive steroidogenesis or another qualified reproductive function in human T461I and other prespecified responsive-variant models at exposure anchored to human data, with hCG and wild-type controls. Only then test reproductive competence rather than cycles alone in the established mutant animal.",
+      "go": "Advance if genotype-specific function recovers at attainable exposure and the response proceeds to normal ovulation/fertilization and offspring outcomes in a rigorous preclinical setting.",
+      "stop": "Stop broad all-LHCGR positioning: many variants may not respond. Stop if trafficking or cycles improve without reproductive competence, or required exposure exceeds the human bridge.",
+      "source_urls": [
+        "https://link.springer.com/article/10.1038/s44321-025-00369-2",
+        "https://pubmed.ncbi.nlm.nih.gov/32316022/",
+        "https://academic.oup.com/jcem/article-abstract/98/4/1558/2536901",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/9914457",
+        "https://www.medkoo.com/products/35532",
+        "https://pubmed.ncbi.nlm.nih.gov/19088107/"
+      ],
+      "material_route": "Public chemical entity and current research-supplier listing, plus published custom synthesis route references. No product lot, purity, counterion or activity authenticated.",
+      "rights": "Historical Organon compound; no claim of abandonment/unowned status. Current public grant mentions further ORG43553 development, so absence of a named infertility trial is not proof of no competition.",
+      "caution": "The 159-person figure combines Org43553 and Org43902; do not attach all those exposures to Org43553.",
+      "additional_bridge": "Earlier normal-animal work showed oral efficacy and fertilization/normal embryo implantation. This supports reproductive pharmacology but is not fertility rescue in the LHCGR mutant disease."
+    },
+    {
+      "candidate_id": "R3-NL-05",
+      "name": "Recombinant human MG53 in an ophthalmic thermogel",
+      "family": "MG53 corneal repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bMG53\\b|mitsugumin|\\bTRIM72\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Untagged recombinant human MG53 protein, with published recombinant production methods; 2025 poloxamer407/poloxamer188/HPMC thermogel loaded at 0.8 mg/mL. Not the 2026 modified-RNA product.",
+      "function": "2025 mouse alkali injury: loaded gel applied daily improved day-one re-epithelialization, later opacity/vascularization and nerve staining. Both arms closed by day5, so persistent-defect cure is not demonstrated. Main healing figure reports nine/arm; methods say seven/arm and terminal staining uses seven. Healthy-gel tolerability had 15/arm. Donor counts for primary human fibroblast assays are not established by repeated wells.",
+      "decision": "PRIORITY_NEW_PROOF_BELOW_NDC. Local route and functional tissue outcomes exist, but differentiation must be anti-scarring/optical recovery after established injury, not just faster early closure.",
+      "decidingproof": "Use authenticated protein and released-protein bioactivity to compare delayed MG53 gel with blank gel, matched solution and a strong practical corneal-repair comparator such as insulin/mIGF. Require optical clarity, barrier integrity and sensory function after an established deficit, not nerve staining alone. Resolve n inconsistencies when estimating precision.",
+      "go": "Advance if delayed treatment adds durable optical/barrier or sensory recovery to the strongest comparator at a tolerable retained ocular exposure.",
+      "stop": "Stop if benefit consists only of day-one closure acceleration in otherwise self-healing wounds, if the gel alone explains benefit, or if antiangiogenesis accompanies toxicity.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12030682/",
+        "https://www.nature.com/articles/s42003-019-0316-7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3777623/"
+      ],
+      "material_route": "Public human sequence and E.coli/CHO production methods provide a reproducible research route. Protein aggregation/oligomer, tag removal, endotoxin and functional repair assay must be qualified; no lot authenticated.",
+      "rights": "2025 paper discloses a founder interest in TRIM-edicine developing MG53. A simple copy of the existing gel is not a differentiated new asset.",
+      "exposure_gap": "Gel loading and in-vitro release are not unbound injured-cornea exposure. 2025 text notes decreased HUVEC viability at 100 µg/mL, so antiangiogenesis is not automatically selective."
+    },
+    {
+      "candidate_id": "R3-NL-06",
+      "name": "BRD4780/AGN192403 for ADTKD-MUC1 proteinopathy",
+      "family": "TMED9 cargo clearance",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "BRD.?4780|AGN.?192403|\\bMUC1\\b|\\bTMED9\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "BRD4780, also AGN192403, racemic norbornane amine hydrochloride with public chemical structure and patent synthesis. Preserve racemate/stereochemistry and counterion in replication.",
+      "function": "2019 Cell work cleared MUC1-fs through TMED9-associated trafficking; 2024 extended cargo rescue to mutant uromodulin. Independent September2026 preprint reproduced MUC1-fs lowering but also wild-type MUC1 suppression and broad transcriptional effects. RNA-seq: four positive clones from three affected donors, plus negative clone from an affected donor and one healthy-donor clone, duplicate cultures,10 µM for24h. These are cargo outcomes, not demonstrated patient renal function.",
+      "decision": "DOWNRANK_PENDING_SELECTIVITY. The negative independent follow-up is decision-changing and must travel with all historical BRD4780 summaries.",
+      "decidingproof": "In independent patient-derived tubular models, compare mutant clearance with wild-type cargo secretion, polarity, transport and viability over matched exposure. Require functional improvement after a measurable disease deficit, not merely reduced mutant staining.",
+      "go": "Advance only if a useful functional and selective exposure window exists across independent donors; consider a defined improved analog only with explicit comparative evidence.",
+      "stop": "Stop the parent molecule if mutant reduction is inseparable from global secretory/transcriptional suppression or loss of normal transport.",
+      "source_urls": [
+        "https://heiman.mit.edu/wp-content/uploads/dvela-levitt-et-al.-2019.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645142/",
+        "https://www.medrxiv.org/content/10.64898/2026.09.16.26363125v1.full",
+        "https://patents.google.com/patent/US11840495B2/en"
+      ],
+      "caution": "September2026 report is a preprint. It raises a selectivity concern; it does not prove all TMED9 approaches fail. Four positive clones represent three affected donors, and duplicate cultures are nested."
+    },
+    {
+      "candidate_id": "R3-NL-07",
+      "name": "Exogenous MANF protein for ADTKD-UMOD",
+      "family": "MANF renal proteostasis",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bMANF\\b|mesencephalic astrocyte",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Recombinant human MANF protein as a proposed therapeutic article; do not substitute inducible intracellular gene expression for delivered-protein evidence.",
+      "function": "2023 mouse study supports post-onset benefit with tubular MANF overexpression. 2026 JCI human-organoid report used one H177-R185del UMOD patient line and one unaffected relative, with inducible lentiviral MANF days22–30. Mutant clearance/AMPK changes are not direct renal filtration and are not a demonstration that administered protein reaches the relevant compartment.",
+      "decision": "DELIVERY_GATED_RESERVE. Causal biology is useful, but published gene-expression success is not the proposed protein product.",
+      "decidingproof": "Deliver authenticated protein to mature mutant human tubular models after deficit; use gene-induced MANF as positive control and measure uptake/compartment, cargo handling and direct transport/function.",
+      "go": "Advance only when exogenous protein reproduces functional rescue with plausible tissue exposure and a route that could be developed.",
+      "stop": "Stop the protein proposal if only intracellular transgene expression rescues, or protein clearance improves without tubular function.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-023-42154-0",
+        "https://www.jci.org/articles/view/205631"
+      ],
+      "caution": "The 2026 preprint and final JCI letter are the same underlying study; do not count them as independent replications."
+    },
+    {
+      "candidate_id": "R3-NL-08",
+      "name": "αCT1/Granexin/zifogaptide chronic-wound peptide",
+      "family": "Connexin43 peptide repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\balphaCT1\\b|αCT1|\\baCT1\\b|\\bGranexin\\b|zifogaptide",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Defined connexin43 C-terminal/antennapedia peptide αCT1; published peptide identity and topical formulations. Distinct from tonabersat and connexin antisense.",
+      "function": "Randomized chronic diabetic-ulcer study reported 12-week mean area reduction72.1% vs57.1% with standard care (P=.03). This is genuine established human wound evidence. A separate venous-ulcer RCT randomized92. Phase3 NCT02667327 was terminated with the official reason sponsor decision/no safety or efficacy concerns, not a demonstrated efficacy failure.",
+      "decision": "HUMAN_BENCHMARK_EXISTING_PROGRAM. Stronger human efficacy bridge than many new leads, but Xequel has a live pipeline; ophthalmology rights are listed as globally outlicensed and dermatology as available for outlicensing. No new asset should be inferred from a supplier or old paper.",
+      "decidingproof": "If exploring a distinct formulation/use, define the novel function and test durable closure, tensile/barrier recovery and recurrence against current standard care plus a suitable active comparator. First collate public trial results rather than repeating the 2015 proof.",
+      "go": "Advance only a clearly differentiated and scientifically testable improvement, supported by current results and route-specific exposure.",
+      "stop": "Stop a generic me-too wound gel or any claim that phase3 termination alone proves failure/success.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472499/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4269806/",
+        "https://clinicaltrials.gov/study/NCT02667327?a=13&tab=history",
+        "https://xequel.com/pipeline/"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-09",
+      "name": "KUS121 for established acute central retinal artery occlusion",
+      "family": "VCP ATP preservation",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "KUS.?121",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "KUS121, exact published small molecule and intravitreal clinical formulation; current pipeline compound, not a newly unclaimed asset.",
+      "function": "2020 open-label first-human study enrolled nine CRAO patients4–48h after onset: three received25µg and six50µg intravitreally for three days. Visual function improved, but no randomized comparator establishes drug attribution. Sponsor announced a randomized sham-controlled phase2 presentation in2025; the announcement itself contains no numerical efficacy results.",
+      "decision": "EXISTING_CLINICAL_PROGRAM_BENCHMARK. Current development defeats a neglect/availability thesis; phase2 outcome must be read before proposing a duplicate.",
+      "decidingproof": "Recover numerical sham-controlled results and assess onset delay/reperfusion balance. A separate indication would require its own exact post-deficit functional and exposure proof.",
+      "go": "Reconsider only with a differentiated use and credible function beyond existing trial positioning.",
+      "stop": "Stop any new-project claim based solely on nine uncontrolled improvements or a conference announcement.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7018138/",
+        "https://clinicaltrials.gov/study/NCT06178055",
+        "https://www.kyoto-drug.com/en/August062025.pdf",
+        "https://www.kyoto-drug.com/en/"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-10",
+      "name": "Ripasudil/K-321 after DSO in Fuchs corneal dystrophy",
+      "family": "ROCK endothelial repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bripasudil\\b|\\bK.?321\\b|\\bFuchs\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Ripasudil topical K-321 formulation after Descemet stripping only; exact drug has clinical access precedents, but the tested formulation/regimen remains distinct.",
+      "function": "2026 randomized phase2 report n65: QID21/BID22/placebo22. At12wk central endothelial density531±312 vs228±298 cells/mm² QID vsplacebo (P=.0065); edema resolved17/21 vs2/22 (P<.0001). Direct tissue-function benefit after surgery, not generic target screening.",
+      "decision": "STRONG_FUNCTIONAL_BENCHMARK_ALREADY_PHASE3. Valuable comparator for new endothelial repair ideas, not an unexplored candidate.",
+      "decidingproof": "A differentiated proposal must improve a predefined unresolved patient stratum, treatment burden or repair quality beyond K-321, with endothelial pump/clarity rather than density alone.",
+      "go": "Advance only if it adds substantial function to an already effective topical regimen.",
+      "stop": "Stop if innovation is merely repackaging published QID ripasudil after DSO or relying on cell counts without optical/edema function.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42303065/",
+        "https://clinicaltrials.gov/study/NCT05795699"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-11",
+      "name": "Tonabersat for DME with good vision",
+      "family": "Connexin43 small molecule",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\btonabersat\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Tonabersat80mg oral, exact clinically tested connexin43-modulating small molecule; not interchangeable with αCT1.",
+      "function": "2026 DRCR ProtocolAN randomized129 adults:64 treated/65placebo. Six-month central-subfield thickness difference−16µm (95%CI−34to+2,P=.08); visual-acuity difference+0.82letters (CI−1.56to3.21,P=.39). Dizziness27%vs8%. A thicker-retina subgroup was exploratory.",
+      "decision": "REJECT_BROAD_DME_LEAD. Strong current human negative prevents promotion based on older animal leak/inflammation results.",
+      "decidingproof": "Only a new independently justified responder hypothesis with prespecified validation could reopen; a subgroup result alone is inadequate.",
+      "go": "Reopen only after independent confirmatory functional evidence and an acceptable exposure/adverse-effect tradeoff in a distinct defined population.",
+      "stop": "Stop broad good-vision DME positioning; do not reinterpret a missed primary endpoint as positive based on a subgroup.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42064012/"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-12",
+      "name": "ML141 for patient-derived ADPKD cyst physiology",
+      "family": "CDC42/renal cyst suppression",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bML.?141\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "ML141, public defined CDC42 chemical probe. A development candidate identity is established, but clinical selectivity and exposure suitability are not.",
+      "function": "2026 patient-derived adult renal-organoid study validated hits at0.1/1/10µM across three additional PKD1/PKD2 lines.30µM ML141 for10h caused reversible cyst shrinkage after washout; EdU assays did not show reduced proliferation. Transcriptomics used three independent donors. Organoid counts per condition are nested, not patient counts.",
+      "decision": "PROBE_RESERVE_BELOW_FUNCTIONAL_LEADS. Better than a target-only hit, but reversible volume reduction is not renal-function restoration and high test exposure is a concern.",
+      "decidingproof": "Test established cystic models with direct transepithelial transport/secretory function, viability, selectivity and unbound achievable renal exposure against tolvaptan. Show benefit survives assay conditions and is not osmotic/contractile artifact.",
+      "go": "Advance only with a meaningful functional therapeutic window and a realistic renal exposure path, preferably a better-characterized exact analog if needed.",
+      "stop": "Stop if shrinking reflects nonspecific contractility/osmotic shifts, normal tubular transport is impaired or exposure is untenable.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41946363/"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-13",
+      "name": "Amlexanox for genotype-selected PAX6 nonsense aniridia keratopathy",
+      "family": "PAX6 readthrough",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bamlexanox\\b|\\bPAX6\\b|\\baniridia\\b|2,6.diaminopurine",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Amlexanox, public exact drug, with topical corneal delivery proposed; DAP, ataluren and G418 are distinct comparators, not equivalent readthrough articles.",
+      "function": "2023 two-patient iPSC-derived optic-cup/limbal-cell work identified amlexanox as the most promising tested readthrough compound. PAX6 and tissue-specific phenotypes improved; DAP effects were tissue-dependent. No adult established human corneal barrier or vision restoration was shown. Prior ataluren clinical failure is relevant to endpoint/translation, not proof all readthrough agents fail.",
+      "decision": "RESERVE_EARLY_FUNCTION_GAP. Candidate selection should favor amlexanox over a headline DAP protein increase, but developmental models leave large uncertainty.",
+      "decidingproof": "In mature variant-matched limbal/corneal epithelial tissue after demonstrable barrier deficit, verify full-length functional PAX6, epithelial differentiation, wound repair and barrier at local achievable exposure; include non-nonsense and corrected controls.",
+      "go": "Advance only if adult-disease function, not developmental-marker normalization, is rescued at a tolerable exposure.",
+      "stop": "Stop if response depends on immature tissue, nonfunctional readthrough protein, global transcription changes or toxicity.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10362734/",
+        "https://doi.org/10.1016/j.omtn.2023.06.016",
+        "https://www.ema.europa.eu/en/documents/variation-report/translarna-h-c-2720-p46-028-epar-assessment-report_en.pdf"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-14",
+      "name": "Recombinant human TFF3 for delayed corneal repair",
+      "family": "Trefoil repair",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "\\bTFF3\\b|\\btrefoil\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "Recombinant human TFF3/intestinal trefoil factor, public protein sequence and article-defined reagent. Correct redox/dimer state and potency need matching; a generic catalog label is insufficient.",
+      "function": "2008 primary acute corneal injury study used recombinant human TFF3 drops0.1 or10 mg/mL three times daily for3days, n5 BALB/c mice/group; reported improved epithelial repair, with supporting Tff3-loss models. Chronic persistent-defect cure and current active-comparator advantage were not established.",
+      "decision": "LOW_PRIORITY_RESERVE. Exact and testable, but weaker differentiation than MG53 anti-scarring or existing insulin/mIGF programs.",
+      "decidingproof": "Require delayed persistent-defect barrier and optical-function benefit versus active corneal repair, with properly authenticated TFF3 species and local exposure.",
+      "go": "Advance only with substantial incremental mature-tissue function at a feasible topical exposure.",
+      "stop": "Stop if the result is only an early closure change in a self-healing acute wound.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2442345/",
+        "https://www.jbc.org/article/S0021925820597962/pdf"
+      ],
+      "caution": "Mouse doses and biological n extracted; exact oligomer/redox state and active-comparator superiority remain to be qualified. This is a low-priority screened reserve."
+    },
+    {
+      "candidate_id": "R3-NL-15",
+      "name": "VP1-001/compound29 oxysterol for selected crystallin cataract",
+      "family": "Crystallin pharmacochaperone",
+      "novelty": "new_to_reviewed_inventory",
+      "alias_basis": {
+        "regex": "VP1.?001|\\bcrystallin\\b",
+        "searched": [
+          "ddiscov_snapshot/atlas/*.md",
+          "research/portfolio-register.json (622 coverage records, six shortlist entries, 30 generated concepts)"
+        ],
+        "matches": "No alias match. This establishes novelty only to the reviewed inventory, not worldwide novelty."
+      },
+      "exactarticle": "VP1-001/compound29, public oxysterol structure and enantiomer-control paper. Exact stereochemistry must be matched; do not treat every oxysterol or lanosterol study as the same article.",
+      "function": "2022 study:35mice total,26received drug in one eye and vehicle contralaterally;64eyes measured.61% of lenses had improved refractive-index profiles and46% of live mice at least one-grade opacity improvement. 2019 stereoselective study supported activity versus enantiomer. Independent2019 study found no protein-solubilization improvement in human lens material with25-hydroxycholesterol; assay and sample differences prevent declaring perfect direct replication.",
+      "decision": "CONFLICTED_LOW_PRIORITY. Intriguing optical surrogate, but mixed independent human-lens evidence, formulation/exposure and ordinary-cataract generalizability make it weaker than local barrier programs.",
+      "decidingproof": "Blinded paired established human cataract-lens testing with exact authenticated drug/enantiomer and objective light scatter/refractive performance; measure intralenticular exposure and viability. Do not infer efficacy from extracted protein alone.",
+      "go": "Reopen only if independent optical-function recovery replicates in a defined human disease subset at deliverable exposure.",
+      "stop": "Stop if only subjective opacity scoring or protein-solubilization assays move, or matched human lenses remain unresponsive.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9123516/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6676924/",
+        "https://www.nature.com/articles/s41598-019-44676-4"
+      ]
+    }
+  ],
+  "unfinished_public_source_gaps": [
+    "Dantrolene EUCT actual results document content not retrieved.",
+    "KUS121 phase2 numerical results not retrieved.",
+    "NDC-9009 exact patent-claim mapping and free skin exposure unresolved.",
+    "Org43553 human free exposure, salt matching and treated-mutant reproductive competence unresolved."
+  ],
+  "source_warning": "Refs are retrieval identifiers; parent must reopen sources before citing them in final response. Supplier listings identify routes, not authenticated material, stock, licensing or clinical usability."
+}

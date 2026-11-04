@@ -1,5 +1,7 @@
 # Development comparisons
 
+> **Historical comparison, superseded for selection.** Use the [current shortlist](current-shortlist.md) and [selection policy](selection-policy.md) for current priorities. The cases below preserve the earlier comparison; owner inquiries are not current scientific-selection gates.
+
 Seven cases from the October–November 2026 review illustrate different paths to a transferable preclinical result. The three most recently emphasized leads came from three successive search rounds. Earlier leads received different amounts and kinds of review. Each row reports the observed function, the decision a comparison could settle and the access it requires. Grouping the cases by decision makes the tradeoffs visible. The portfolio-wide order of investment remains open.
 
 ## Which result would justify developing the intervention?

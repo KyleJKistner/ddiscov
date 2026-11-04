@@ -1,6 +1,6 @@
 # Measuring function across constructs, donors, and assays
 
-Two small analyses show how the choice of experimental unit changes what a result can answer. Both run with Python 3.9+ and its standard library. The numerical results are project reanalyses of published experiments. Each source supplies the measurements.
+The analyses below show how the choice of experimental unit changes what a result can answer. They run with Python 3.9+ and its standard library. The numerical results are project reanalyses of published experiments. Each source supplies the measurements.
 
 ## WNT receptor context
 
@@ -46,3 +46,15 @@ The script verifies the workbook checksum, takes each donor's median straight-li
 | YC-001 and mutant rhodopsin trafficking | In 27 variants shared between studies, six of the 16 with a significant increase in a 30 µM reporter assay also had a significant increase in 40 µM cell imaging. The other ten were unstarred in imaging. Of the eleven without a significant positive reporter call, one increased in imaging, eight were unstarred and two decreased. An unstarred measurement carries uncertainty about the effect. | Both P23H and P23L improved in the reporter. Only P23H increased significantly in imaging. The pair could test whether those assay readouts transfer to rod function. [Reporter study](https://doi.org/10.1126/sciadv.aef3518) · [Imaging study, Fig. 1A](https://doi.org/10.1172/jci.insight.153717) |
 | MAP3K15 compound ranking | The 645 PKIS2 compound rows resolved to 640 parent compounds and 369 scaffolds. Ten exceeded or equaled 80% competition-binding inhibition. In five scaffold-separated folds, a fingerprint-based tree model yielded pooled RMSE of 16.33 versus 17.38 percentage points for a training-mean baseline. Its pooled top 32 contained two positives. The folds contained 2, 2, 0, 1 and 5 positives and used different fitted models. | A fresh compound panel and catalytic counterassays could test retrieval and selectivity at the actual experimental budget. The source assay measured binding competition at a single concentration. [Drewry et al., dataset S4](https://doi.org/10.1371/journal.pone.0181585.s004) |
 | Choosing an informative experiment | In an internal simulation, adaptive selection gained about four percentage points over a tuned fixed design when the assumed mechanisms generated the observations. With a simulated, omitted mechanism that gave the same signal in the designated check, 59.24% of runs made a confident wrong call that passed the check. | Identify a measurement that separates the competing mechanisms, estimate noise in the target assay, and compare fixed and adaptive designs at equal cost. These percentages describe simulated trials. |
+
+## BLU3797 source-data audit
+
+The round-4 audit reads the publisher's unchanged supporting workbook, preserves cell addresses and marked values, and calculates descriptive summaries. It does not fit new efficacy statistics, impute missing measurements or link unidentified animals across panels. An independent openpyxl extraction agreed on all 815 populated cells checked in four selected sheets.
+
+Run from the repository root:
+
+```bash
+python methods/blu3797_source_audit.py --source research/source-data/blu3797-source-values.xlsx --output research/rounds/round4/blu3797-source-audit.json
+```
+
+Read the [interpretation and limitations](../research/rounds/round4/blu3797-audit.md), [derived data](../research/rounds/round4/blu3797-source-audit.json), and [source attribution/license](../research/source-data/README.md). An assay ceiling, a regimen-header discrepancy and incomplete panel linkage limit inference. Extraction agreement verifies the reader, not the underlying experiments.

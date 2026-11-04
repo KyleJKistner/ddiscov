@@ -1,0 +1,687 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "workstream": "round4_organ_blood",
+  "repository": "KyleJKistner/ddiscov",
+  "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+  "scope": "Public-source research only. No outreach, purchases, experiments or claims of physically authenticated material.",
+  "counts": {
+    "new_exact_candidate_use_screens": 7,
+    "existing_lead_updates": 2,
+    "s_tier_promotions": 0
+  },
+  "novelty_rule": "New means no matching exact candidate/use found in the reviewed repository snapshot, round2 proposal inventory or round3 records; not novelty to science or patentability.",
+  "deduplication": {
+    "searched_inputs": [
+      "ddiscov_snapshot",
+      "portfolio_inventory.json",
+      "round2_generated_concepts.json",
+      "round3_organ_repair.json",
+      "round3_new_leads.json"
+    ],
+    "aliases": [
+      "sivelestat",
+      "ONO-5046",
+      "Bis-T-23",
+      "Ryngo1-23",
+      "AG1717",
+      "emricasan",
+      "IDN-6556",
+      "RTR",
+      "PGP neutralization",
+      "QX77",
+      "CA77",
+      "genistein",
+      "luteolin"
+    ],
+    "boundary": "Genistein and luteolin are distinct exact screens in the same flavonoid/cystinosis family. Generic autophagy or anti-inflammatory mentions do not establish an exact matched article/use."
+  },
+  "priority_changes": [
+    "AAT mechanistic confidence increases because of independent active/inactive protein and genetic-protease controls. No core-rank promotion is asserted by this domain review.",
+    "Sivelestat enters the AAT comparator set; Bis-T-23 enters an exploratory kidney reserve.",
+    "FXT-001 remains a secondary benchmark; exact human-organ methods gap persists.",
+    "No new entry clears all S-tier gates."
+  ],
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R4-OB-U01",
+      "name": "AAT in donor-lung EVLP",
+      "exact_article": "Potency-qualified plasma-derived AAT product in a defined warm-EVLP perfusate; recombinant AAT cold-storage study is supporting mechanism, not identical finished product.",
+      "family_id": "aat_evlp",
+      "novelty": "existing_lead_update",
+      "independent_unit": {
+        "unit": "independent transplanted mouse graft/recipient; separate paired human donor blocks",
+        "human_donors_2026": 8,
+        "mouse_group_counts_in_new_mechanism_paper": null,
+        "count_boundary": "New mouse arm-level sample sizes were not recovered reliably. Neither lung sides nor tissue fields are additional donors."
+      },
+      "evidence": [
+        "Independent 2018 study compared active recombinant AAT with a non-inhibitory reactive-center mutant and albumin during cold preservation. PR3/NE-null recipients were also protected; this strengthens protease-specific causality.",
+        "The inspected cold-storage regimen used 1 mg/mL AAT, 18h storage and 4h recipient reperfusion. This is separate from the warm human EVLP experiment."
+      ],
+      "limitations": [
+        "Exact 2026 human AAT dose/formulation remains unverified; do not import the mouse dose.",
+        "Short post-transplant mouse protection is not long-term recipient outcome or proof of complete drug removal.",
+        "Label NE potency alone does not establish PR3 neutralization or activity after warm-circuit exposure."
+      ],
+      "verdict": "RETAIN_CORE_PRIORITY; mechanistic confidence increases; human formulation and durable-graft gates remain.",
+      "decisive_next_proof": "Qualify NE and PR3 inhibition in the actual warm perfusate, then compare AAT with physically matched protein/excipient control and an NE-selective comparator. Require postwashout function under recipient-like reperfusion.",
+      "go_rule": "AAT supplies persistent useful gas-transfer/compliance benefit at qualified activity and adds value beyond the simpler comparator.",
+      "stop_rule": "Stop the differentiated AAT product thesis if physical matching or the simpler comparator explains the useful effect, or if activity is lost before the intended treatment window.",
+      "material_route": "Existing manufactured AAT is a public supply route. No lot, stock, warm-circuit compatibility or clinical product identity has been established here.",
+      "model_readiness": "Bench activity qualification can precede scarce organs. Local organ access remains unverified; it is separate from scientific merit.",
+      "rights_and_program": "Previously identified CSL/UHN context persists. The independent mechanism does not establish new commercial rights.",
+      "source_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078707/",
+        "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+        "https://pubmed.ncbi.nlm.nih.gov/27095003/",
+        "https://academic.oup.com/ejcts/article/32/5/791/373916",
+        "https://pubmed.ncbi.nlm.nih.gov/15286546/",
+        "https://pubmed.ncbi.nlm.nih.gov/41811317/"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-U02",
+      "name": "FXT-001/UAMC-3203 in graft conditioning",
+      "exact_article": "Exact UAMC-3203 chemical form and active-moiety concentration must be fixed; free base and hydrochloride are distinct material records.",
+      "family_id": "fxt001_organ",
+      "novelty": "existing_lead_update",
+      "independent_unit": {
+        "unit": "organ donor in Cell study; individual animal in independent counter-context studies",
+        "cell_human_donor_n_primary_verified": null,
+        "rat_functional_groups_reported_range": [
+          8,
+          12
+        ]
+      },
+      "evidence": [
+        "Newly located author dataset is DOI10.17632/n7jbyznw8g.1 and describes NMR/MS data. Its metadata was inspected; spectra/files and donor-level physiology were not.",
+        "Independent 2024 APAP work found UAMC-3203 protection associated with Sab/pJNK effects despite little lipid peroxidation. Drug benefit alone therefore cannot identify ferroptosis as the causal injury mechanism.",
+        "A randomized rat study beginning treatment 3 days after stroke found mixed cognitive outcomes, including worse aversive learning."
+      ],
+      "limitations": [
+        "APAP and repeated systemic post-stroke exposure do not demonstrate toxicity or failure of brief ex vivo lung dosing. They limit broad mechanism/safety claims.",
+        "Cell full organ methods remain unrecovered. Human dose, exact salt, effect magnitude and washout cannot be filled from secondary accounts.",
+        "FXT-002/003 PK/safety findings cannot be assigned to FXT-001."
+      ],
+      "verdict": "RETAIN_SECONDARY_COMPARATOR; no S-tier or broad safety promotion.",
+      "decisive_next_proof": "Specify the exact material and quantify recipient carryover. In a function-led comparison, use orthogonal lipid-peroxidation/death evidence and avoid treating reduced oxidation alone as organ recovery.",
+      "go_rule": "Proceed to differentiated preservation proof if organ function persists under drug-free reperfusion and exposure is reproducible.",
+      "stop_rule": "Stop a duplicate business thesis or broad repair claim if it only repeats the existing preservation result, or if functional benefit vanishes after withdrawal.",
+      "material_route": "Public free-base and HCl research listings; author analytical-data metadata improves traceability but is not authenticated physical material.",
+      "model_readiness": "Published organ setting exists; a qualified local circuit, donor supply and exact protocol remain to be established.",
+      "rights_and_program": "Current science-park listing still identifies FiriX as developer of FXT-001; no abandoned-asset inference.",
+      "source_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0092867426004599",
+        "https://data.mendeley.com/datasets/n7jbyznw8g/1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11382325/",
+        "https://pubmed.ncbi.nlm.nih.gov/41309422/",
+        "https://www.wetenschapsparkuantwerpen.be/en/home/firix-therapeutics/",
+        "https://www.medchemexpress.com/us/en/UAMC-3203.html",
+        "https://www.medchemexpress.com/uamc-3203-hydrochloride.html"
+      ]
+    }
+  ],
+  "new_candidate_screens": [
+    {
+      "candidate_id": "R4-OB-01",
+      "name": "Sivelestat as a donor-lung protease comparator",
+      "exact_article": "Sivelestat sodium tetrahydrate, ONO-5046; use active-moiety equivalents when comparing preparations.",
+      "family_id": "neutrophil_elastase_graft",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "rat graft/recipient; patient for systemic trials",
+        "rat_groups": 3,
+        "rats_per_group": 10,
+        "STRIVE_randomized": 492,
+        "cardiac_surgery_randomized": 424,
+        "cardiac_surgery_reported_event_denominators": [
+          190,
+          192
+        ],
+        "pig_class_support_n_per_group": 6
+      },
+      "evidence": [
+        "Donor flush before 16h cold storage improved 48h transplanted-rat oxygenation; high-dose and control values were about379 versus134mmHg.",
+        "Pig EVLP abstract supports NE inhibition through four-hour recipient reperfusion, but exact inhibitor identity was not resolved in its retrieved text.",
+        "Systemic STRIVE lacked primary benefit and had a late mortality signal; 2026 cardiac-surgery study reported less ARDS in a different perioperative setting."
+      ],
+      "limitations": [
+        "Neither human clinical population establishes ex vivo-only efficacy.",
+        "A simple NE inhibitor is not a substitute for demonstrated dual NE/PR3 inhibition.",
+        "No treated-human-donor-lung study was verified."
+      ],
+      "verdict": "ACTIVE_COMPARATOR; not a standalone top-priority promotion.",
+      "decisive_next_proof": "Compare matched NE suppression with AAT in a clinically relevant protein milieu, then test persistent graft function and residual recipient exposure.",
+      "go_rule": "A simpler product is justified only by equivalent-or-better useful function with a measurable handling/exposure advantage.",
+      "stop_rule": "Stop if benefit requires prolonged systemic exposure, disappears after washout, or offers no advantage over optimized AAT/perfusion.",
+      "material_route": "Public identity and manufactured-drug precedent; the rat paper specifies sodium tetrahydrate. Current stock, specific commercial lot and perfusate qualification not established.",
+      "model_readiness": "Published rat/pig transplant models; qualified local models and human organ supply not established.",
+      "rights_and_program": "Old, extensively developed compound and known graft-use literature; no novelty/FTO claim.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "source_urls": [
+        "https://academic.oup.com/ejcts/article/32/5/791/373916",
+        "https://pubmed.ncbi.nlm.nih.gov/26346003/",
+        "https://pubmed.ncbi.nlm.nih.gov/15286546/",
+        "https://pubmed.ncbi.nlm.nih.gov/41811317/",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846209"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-02",
+      "name": "Bis-T-23 for selected proteinuric podocytopathy",
+      "exact_article": "Bis-T-23/Ryngo1-23/AG1717, CAS171674-76-3; exact E/E chemical identity must be reconciled across supplier metadata.",
+      "family_id": "dynamin_actin_kidney",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "individual rodent; glomeruli and cells are nested",
+        "PAN_rats_per_condition": 6,
+        "LPS_mice_per_condition": 10,
+        "WT_function_safety_mice_per_condition": 6,
+        "negative_NOS1AP_arm_counts": null
+      },
+      "evidence": [
+        "Treatment began 12 days after PAN injury when proteinuria was high; six daily treatments reduced proteinuria at days18 and24.",
+        "Genetic ACTN4 and other models support a post-deficit cytoskeletal strategy; later multi-nephron work supplies related rather than fully independent corroboration.",
+        "Independent 2025 NOS1AP-null mice did not reduce albuminuria, including early postdose sampling."
+      ],
+      "limitations": [
+        "The effect is genotype/context dependent; it is not universal repair of monogenic proteinuria.",
+        "No human therapeutic exposure or durable human filtration-barrier rescue was verified.",
+        "Dynamin-mediated trafficking and other cellular functions may be affected; public catalog also describes endocytosis inhibition."
+      ],
+      "verdict": "RESEARCH_RESERVE; strongest new kidney proof candidate in this workstream, below current leaders.",
+      "decisive_next_proof": "Use independently built, mutation-defined human podocyte barrier models with established leakage. Compare genuine albumin selectivity and survival with existing supportive therapy, track free exposure and preserve endocytosis.",
+      "go_rule": "Advance if post-deficit barrier repair reproduces across responsive genotypes and independent lots within a functional safety window.",
+      "stop_rule": "Stop broad CKD/genetic-disease claims if benefit is absent in human functional models or achievable exposure perturbs essential trafficking.",
+      "material_route": "Abcam AB146050 and other public chemical listings; a public dynamin-stabilizer patent discloses material. No received lot or stock verified. Supplier textual structure fields should not replace LC-MS/NMR identity.",
+      "model_readiness": "Published rodent models and public engineered-cell approach; patient-specific mature filtration model still a development task.",
+      "rights_and_program": "US8809386B2 displays active on the retrieved patent page; neither old publication nor catalog access implies commercial clearance.",
+      "source_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4458177/",
+        "https://www.nature.com/articles/s41467-022-30101-4",
+        "https://www.nature.com/articles/s41467-025-65663-6",
+        "https://www.abcam.com/en-us/products/biochemicals/ryngo-1-23-dynamin-activator-ab146050",
+        "https://patents.google.com/patent/US8809386B2/en",
+        "https://www.medkoo.com/products/26022"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-03",
+      "name": "Emricasan for injured donor-liver NMP",
+      "exact_article": "Emricasan/IDN-6556/PF-03491390, irreversible pan-caspase inhibitor; published liver study used MCE material in DMSO.",
+      "family_id": "caspase_liver_preservation",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "individual donor liver; serial biopsies not independent",
+        "treated_donors": 5,
+        "historical_control_donors": 11,
+        "control_adequate_function": 6,
+        "control_inadequate_function": 5,
+        "prior_liver_preservation_trial_randomized": 99
+      },
+      "evidence": [
+        "Five consecutive discarded human livers received emricasan before NMP; four met hepatocellular viability criteria, while one did not. Eleven controls were historical and stratified by outcome.",
+        "Caspase/cytokine suppression was clear; liver investigators explicitly did not establish definitive functional rehabilitation. Bile production did not differ.",
+        "An earlier99-patient randomized preservation trial provides human exposure precedent, with organ-only and organ-plus-recipient regimens; it is not the NMP cohort."
+      ],
+      "limitations": [
+        "Historical/outcome-stratified controls cannot establish a four-of-five causal rescue rate.",
+        "Injured cholangiocyte function and recipient durability remain unproven for the proposed NMP product."
+      ],
+      "verdict": "HOLD_FOR_FUNCTIONAL_CAUSALITY; useful comparator, not leading asset.",
+      "decisive_next_proof": "A contemporaneous donor-balanced comparison must demonstrate improved hepatocellular and biliary function after a defined injury and drug-free reperfusion, beyond caspase inhibition.",
+      "go_rule": "Advance only on clinically useful functional recovery and retained bile-duct integrity at reproducible exposure.",
+      "stop_rule": "Stop if only inflammatory/apoptosis biomarkers change, function mirrors historical selection, or cell-death suppression masks nonviable tissue.",
+      "material_route": "Exact published research supplier/formulation route exists; no lot qualification or clinical supply established.",
+      "model_readiness": "Published human NMP implementation and public GEO datasets; local organ access unverified. Transcriptomic reanalysis cannot establish treatment randomization.",
+      "rights_and_program": "US20240268372A1 displays pending and specifically addresses caspase inhibition in organ preservation; no FTO conclusion.",
+      "source_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "source_urls": [
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940094/full",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-6143.2006.01595.x",
+        "https://patents.google.com/patent/US20240268372A1/en"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-04",
+      "name": "RTR tripeptide for lung-graft reperfusion injury",
+      "exact_article": "L-arginine–threonine–arginine (RTR), PGP-neutralizing tripeptide; terminal chemistry, counterion, purity and activity must be fixed for a new lot.",
+      "family_id": "pgp_neutralization_graft",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "individual transplanted mouse; human BAL donor for observational associations",
+        "mouse_main_function_n_per_group": 4,
+        "human_PGP_table_patients": 7,
+        "human_validation_table_patients": 18,
+        "human_drug_treated": 0,
+        "count_boundary": "Human cohorts assess target association, not treatment. Tissue fields do not increase mouse N."
+      },
+      "evidence": [
+        "2026 primary study gave recipient-IV RTR immediately before reperfusion after18h cold ischemia; oxygenation/compliance improved at4h, with four mice per main functional group.",
+        "Human BAL target associations and syngeneic replication within the same study support biology, not independent therapeutic efficacy."
+      ],
+      "limitations": [
+        "Ex vivo-only administration is a new route hypothesis.",
+        "No delayed established-PGD rescue, durable graft survival, human treatment, exposure window or active comparator was demonstrated."
+      ],
+      "verdict": "EARLY_RESERVE; public short-peptide build route, insufficient translational validation.",
+      "decisive_next_proof": "Independently verify peptide identity/PGP neutralization and distinguish sequence-specific activity from charge effects. Establish whether an ex vivo pulse retains functional benefit under recipient-like reperfusion versus AAT/sivelestat.",
+      "go_rule": "Advance only if a defined local route yields useful persistent graft function with a measured exposure margin.",
+      "stop_rule": "Stop if only recipient systemic predosing works, a matched control peptide reproduces the benefit, or effects are limited to short-term markers.",
+      "material_route": "Public three-residue sequence makes independent synthesis plausible; exact published finished material not fully reconciled and no lot or stock claimed.",
+      "model_readiness": "Published murine transplantation model; human donor intervention and local access remain unverified.",
+      "rights_and_program": "Current claim-specific commercial mapping not completed; short public sequence does not establish unencumbered use.",
+      "source_ids": [
+        "R1"
+      ],
+      "source_urls": [
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1655536/full"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-05",
+      "name": "QX77/CA77 for cystinosis tubular transport",
+      "exact_article": "QX77/CA77, CAS1798331-92-6; not the distinct analogue CA77.1.",
+      "family_id": "cma_cystinosis",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "engineered HK-2 CTNS-null line and independent culture experiments",
+        "Rab11_expression_experiments": 4,
+        "trafficking_and_megalin_experiments": 3,
+        "independent_patient_donors_2019": 0
+      },
+      "evidence": [
+        "At20µM nominal exposure for48–72h, engineered CTNS-null HK-2 cells improved Rab11 trafficking and megalin localization.",
+        "2024 work found QX77/CA77 increased Rab11-FIP4; broader genetic Rab11-FIP4 rescue findings cannot all be attributed to the small molecule."
+      ],
+      "limitations": [
+        "Membrane receptor localization is not measured whole-tubule solute/protein recovery.",
+        "Cell counts are not independent patients; no therapeutic human kidney exposure or in-vivo Fanconi rescue was established."
+      ],
+      "verdict": "DISCOVERY_HOLD; functional transport and exposure must precede promotion.",
+      "decisive_next_proof": "In independent CTNS-deficient polarized human proximal tubules, require improved receptor-mediated uptake and vectorial transport, including a cysteamine background, across a measured free-exposure range.",
+      "go_rule": "Advance if transport improvement exceeds cysteamine alone without losing polarity or viability and reproduces in donor-derived disease material.",
+      "stop_rule": "Stop if only localization/vesicle-motion markers improve or functional concentration exceeds the tolerable exposure window.",
+      "material_route": "MCE HY-112483 public exact identity and catalog; lot/stock unverified. Independent reconstruction requires identity and potency assays.",
+      "model_readiness": "Published CRISPR HK-2 approach provides a rebuild route, not a ready patient-derived transport model; no exact deposited clone assumed.",
+      "rights_and_program": "No claim-specific clearance or current clinical efficacy established in this bounded search.",
+      "source_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "source_urls": [
+        "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00021/full",
+        "https://pubmed.ncbi.nlm.nih.gov/39434668/",
+        "https://www.medchemexpress.com/us/en/QX77.html"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-06",
+      "name": "Genistein for cystinosis renal progression",
+      "exact_article": "Genistein, defined flavonoid; the mouse study used a specified dietary product, not an unspecified nutraceutical mix.",
+      "family_id": "flavonoid_cystinosis",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "individual female mouse; repeated urinary samples nested",
+        "starting_n_genotype_diet_groups": 9,
+        "starting_n_cysteamine_comparator": 5,
+        "analyzed_n_varies_by_endpoint": true
+      },
+      "evidence": [
+        "Two-to16-month treatment preserved architecture and improved relative creatinine clearance (median0.62 versus0.44 untreated; WT normalized1).",
+        "Urinary Fanconi measures did not improve significantly; cysteamine comparator performed better on several tubular parameters. This was early prolonged treatment rather than reversal of an established deficit."
+      ],
+      "limitations": [
+        "A glomerular progression signal does not establish proximal-tubular functional restoration.",
+        "Add-on benefit with cysteamine was not established; the comparison was separate treatment arms.",
+        "High mouse dietary exposure and reproductive/endocrine effects require a translational window."
+      ],
+      "verdict": "DEPRIORITIZE_FANCONI_RESCUE_THESIS; progression-adjunct hypothesis remains distinct and unproven.",
+      "decisive_next_proof": "Only reopen with added transport/function over cysteamine in an established-deficit human model at plausible free exposure.",
+      "go_rule": "Require additive clinically relevant function, not lower lysosomal staining alone.",
+      "stop_rule": "Stop the present rescue thesis if tubular losses remain unchanged or benefit requires preventive high-dose exposure.",
+      "material_route": "Public exact chemical and published commercial dietary source; finished formulation/lot and achievable kidney exposure not qualified.",
+      "model_readiness": "Published Ctns-null mouse study; a suitable human transport assay needs qualification.",
+      "rights_and_program": "No independent differentiated product, exclusivity or commercial-rights conclusion established.",
+      "source_ids": [
+        "G1"
+      ],
+      "source_urls": [
+        "https://academic.oup.com/hmg/article/32/7/1090/6775268"
+      ]
+    },
+    {
+      "candidate_id": "R4-OB-07",
+      "name": "Luteolin for cystinosis Fanconi dysfunction",
+      "exact_article": "Luteolin, defined flavonoid (not genistein); published dietary exposure differs from the earlier50µM cellular screen.",
+      "family_id": "flavonoid_cystinosis",
+      "novelty": "new_to_reviewed_inventory",
+      "independent_unit": {
+        "unit": "individual female mouse",
+        "mice_per_group": 6,
+        "tissue_fields_and_tubules_are_nested": true
+      },
+      "evidence": [
+        "Earlier cellular/zebrafish results suggested improved endocytosis and lysosomal biology.",
+        "Six-month mouse treatment at150mg/kg/day improved selected cellular markers but did not improve Fanconi dysfunction or renal inflammation. Filtration remained normal during observation, so that study cannot test rescue of impaired GFR."
+      ],
+      "limitations": [
+        "The tested mechanism-marker effects did not translate to the intended tubular function.",
+        "A new exposure or formulation strategy would be a new hypothesis, not validation of the original result."
+      ],
+      "verdict": "STOP_CURRENT_FANCONI_PRODUCT_THESIS; retain as an informative negative comparator.",
+      "decisive_next_proof": "No further same-regimen promotion. Reopen only after a specific changed article/exposure produces independent post-deficit functional transport benefit.",
+      "go_rule": "A redesigned intervention must demonstrate function beyond the prior negative study.",
+      "stop_rule": "Do not progress based on repeated p62/LAMP1/apoptosis marker normalization.",
+      "material_route": "Published commercial reagent route and defined chemical; ease of acquisition does not repair the functional evidence.",
+      "model_readiness": "Published mouse and cellular models; no treatment effect on the required physiological endpoint established.",
+      "rights_and_program": "No new differentiated asset or commercial-rights determination.",
+      "source_ids": [
+        "L1",
+        "L2"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351012/",
+        "https://www.cystinosisresearch.org/wp-content/uploads/2024/09/De-Leo-Published-Study-Effects-of-Luteolin-on-Cystinosis.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "A1",
+      "title": "Independent AAT cold-storage lung-transplant mechanism study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078707/",
+      "doi": "10.1016/j.healun.2018.03.015",
+      "pmid": "29776812",
+      "scope": "primary study; abstract and indexed methods/results inspected"
+    },
+    {
+      "id": "A2",
+      "title": "AAT treatment during EVLP in declined human lungs, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+      "doi": "10.1016/j.ajt.2026.09.031",
+      "pmid": "42790593",
+      "scope": "primary abstract; exact human formulation remains unverified"
+    },
+    {
+      "id": "A3",
+      "title": "Recipient-systemic AAT pig lung transplantation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27095003/",
+      "doi": null,
+      "pmid": "27095003",
+      "scope": "primary study abstract; recipient IV rather than ex vivo-only route"
+    },
+    {
+      "id": "F1",
+      "title": "FXT-001 liver/lung graft study",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0092867426004599",
+      "doi": "10.1016/j.cell.2026.04.024",
+      "pmid": "42105762",
+      "scope": "primary abstract/highlights; full organ methods not obtained"
+    },
+    {
+      "id": "F2",
+      "title": "Author-deposited chemistry dataset associated with the Cell study",
+      "url": "https://data.mendeley.com/datasets/n7jbyznw8g/1",
+      "doi": "10.17632/n7jbyznw8g.1",
+      "pmid": null,
+      "scope": "primary data-deposition metadata; files/spectra not inspected"
+    },
+    {
+      "id": "F3",
+      "title": "UAMC-3203 protection through a non-ferroptotic mechanism in APAP injury",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11382325/",
+      "doi": "10.1002/jbt.23791",
+      "pmid": null,
+      "scope": "independent primary mouse study; not an organ-preservation trial"
+    },
+    {
+      "id": "F4",
+      "title": "Randomized UAMC-3203 post-stroke rat functional outcomes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41309422/",
+      "doi": "10.1016/j.neurot.2025.e00802",
+      "pmid": "41309422",
+      "scope": "primary randomized animal study; distinct systemic exposure/context"
+    },
+    {
+      "id": "F5",
+      "title": "Current FiriX program description",
+      "url": "https://www.wetenschapsparkuantwerpen.be/en/home/firix-therapeutics/",
+      "doi": null,
+      "pmid": null,
+      "scope": "institutional science-park program listing; not independent efficacy"
+    },
+    {
+      "id": "F6",
+      "title": "UAMC-3203 free-base identity",
+      "url": "https://www.medchemexpress.com/us/en/UAMC-3203.html",
+      "doi": null,
+      "pmid": null,
+      "scope": "manufacturer catalog; not received material"
+    },
+    {
+      "id": "F7",
+      "title": "UAMC-3203 hydrochloride identity",
+      "url": "https://www.medchemexpress.com/uamc-3203-hydrochloride.html",
+      "doi": null,
+      "pmid": null,
+      "scope": "manufacturer catalog; not received material"
+    },
+    {
+      "id": "S1",
+      "title": "Sivelestat donor-flush rat lung transplantation",
+      "url": "https://academic.oup.com/ejcts/article/32/5/791/373916",
+      "doi": "10.1016/j.ejcts.2007.07.017",
+      "pmid": null,
+      "scope": "primary full text; exact sodium tetrahydrate specified"
+    },
+    {
+      "id": "S2",
+      "title": "Neutrophil elastase inhibition during pig EVLP",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26346003/",
+      "doi": "10.1007/s11748-015-0585-0",
+      "pmid": "26346003",
+      "scope": "primary abstract; exact inhibitor identity not named in retrieved abstract, therefore class support only"
+    },
+    {
+      "id": "S3",
+      "title": "STRIVE systemic sivelestat randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15286546/",
+      "doi": null,
+      "pmid": "15286546",
+      "scope": "primary clinical trial; different setting from ex vivo-only graft treatment"
+    },
+    {
+      "id": "S4",
+      "title": "2026 cardiac-surgery sivelestat randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41811317/",
+      "doi": null,
+      "pmid": "41811317",
+      "scope": "primary clinical trial; 424 randomized, reported event denominators 190 and 192"
+    },
+    {
+      "id": "S5",
+      "title": "Full 2026 cardiac-surgery trial publication",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846209",
+      "doi": null,
+      "pmid": "41811317",
+      "scope": "same trial as S4; not independent replication"
+    },
+    {
+      "id": "B1",
+      "title": "Bis-T-23 established proteinuria and genetic renal-disease models",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4458177/",
+      "doi": "10.1038/nm.3843",
+      "pmid": "25962121",
+      "scope": "primary study; indexed full methods/results/figure captions inspected"
+    },
+    {
+      "id": "B2",
+      "title": "Bis-T-23 multi-nephron cytoskeletal study",
+      "url": "https://www.nature.com/articles/s41467-022-30101-4",
+      "doi": "10.1038/s41467-022-30101-4",
+      "pmid": null,
+      "scope": "primary study; same research line, not independent clinical proof"
+    },
+    {
+      "id": "B3",
+      "title": "Independent NOS1AP model with negative Bis-T-23 result",
+      "url": "https://www.nature.com/articles/s41467-025-65663-6",
+      "doi": "10.1038/s41467-025-65663-6",
+      "pmid": null,
+      "scope": "primary study; independent genotype-specific negative result"
+    },
+    {
+      "id": "B4",
+      "title": "Ryngo 1-23 / Bis-T-23 catalog",
+      "url": "https://www.abcam.com/en-us/products/biochemicals/ryngo-1-23-dynamin-activator-ab146050",
+      "doi": null,
+      "pmid": null,
+      "scope": "manufacturer identity route; physical stock/lot not verified"
+    },
+    {
+      "id": "B5",
+      "title": "Use of dynamin ring stabilizers",
+      "url": "https://patents.google.com/patent/US8809386B2/en",
+      "doi": null,
+      "pmid": null,
+      "scope": "published US patent; page displays active; no legal clearance opinion"
+    },
+    {
+      "id": "B6",
+      "title": "Bis-T-23 alternative chemical-identity listing",
+      "url": "https://www.medkoo.com/products/26022",
+      "doi": null,
+      "pmid": null,
+      "scope": "manufacturer identity route; not purchased/authenticated"
+    },
+    {
+      "id": "E1",
+      "title": "Emricasan in discarded human liver NMP",
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940094/full",
+      "doi": "10.3389/fimmu.2022.940094",
+      "pmid": "35958587",
+      "scope": "primary full study; five treated versus eleven historical controls"
+    },
+    {
+      "id": "E2",
+      "title": "IDN-6556 human liver-preservation trial",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-6143.2006.01595.x",
+      "doi": "10.1111/j.1600-6143.2006.01595.x",
+      "pmid": null,
+      "scope": "primary phase-II study; 99 randomized; post hoc publication analysis"
+    },
+    {
+      "id": "E3",
+      "title": "Organ-preservation caspase-inhibitor patent",
+      "url": "https://patents.google.com/patent/US20240268372A1/en",
+      "doi": null,
+      "pmid": null,
+      "scope": "published application; page displays pending; no clearance opinion"
+    },
+    {
+      "id": "R1",
+      "title": "RTR PGP-neutralizing tripeptide in murine lung transplantation",
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1655536/full",
+      "doi": "10.3389/fimmu.2026.1655536",
+      "pmid": "41798933",
+      "scope": "primary full text; four mice per main functional group; human observations untreated"
+    },
+    {
+      "id": "Q1",
+      "title": "QX77 in engineered CTNS-null human proximal-tubule cells",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00021/full",
+      "doi": "10.3389/fendo.2019.00021",
+      "pmid": "30774622",
+      "scope": "primary full text; HK-2 engineered model, not multiple patients"
+    },
+    {
+      "id": "Q2",
+      "title": "Rab11-FIP4 reconstitution in cystinosis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39434668/",
+      "doi": "10.1080/10985549.2024.2410814",
+      "pmid": "39434668",
+      "scope": "primary study; genetic rescue outcomes cannot all be assigned to QX77"
+    },
+    {
+      "id": "Q3",
+      "title": "QX77 identity/catalog",
+      "url": "https://www.medchemexpress.com/us/en/QX77.html",
+      "doi": null,
+      "pmid": null,
+      "scope": "manufacturer identity route; exact CAS1798331-92-6; not CA77.1"
+    },
+    {
+      "id": "G1",
+      "title": "Long-term genistein versus cysteamine in cystinosis",
+      "url": "https://academic.oup.com/hmg/article/32/7/1090/6775268",
+      "doi": "10.1093/hmg/ddac266",
+      "pmid": "36300303",
+      "scope": "primary study; initial n9 in genotype/diet groups, n5 cysteamine; measured n varies"
+    },
+    {
+      "id": "L1",
+      "title": "Initial luteolin phenotypic screen",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351012/",
+      "doi": "10.1681/ASN.2019090956",
+      "pmid": "32503896",
+      "scope": "primary cellular/zebrafish study; precursor to same-team mouse follow-up"
+    },
+    {
+      "id": "L2",
+      "title": "Luteolin chronic cystinosis mouse follow-up",
+      "url": "https://www.cystinosisresearch.org/wp-content/uploads/2024/09/De-Leo-Published-Study-Effects-of-Luteolin-on-Cystinosis.pdf",
+      "doi": "10.1016/j.biopha.2024.117236",
+      "pmid": "39096619",
+      "scope": "primary full paper; female mice n6/group; negative Fanconi result"
+    }
+  ],
+  "retrieval_limits": [
+    "Large FXT Cell author PDF was not retried. Public publisher access did not expose full organ methods; author data-deposit metadata is not donor-level physiology.",
+    "AAT2018 full direct PMC page hit a browser-check response; primary abstract, indexed methods/results and captions were inspected. Arm-level N is not invented.",
+    "Pig NE-inhibitor abstract omits exact drug name; it is class support rather than transferred sivelestat evidence."
+  ],
+  "process_lessons": [
+    "Screen positive cellular findings together with their long-term functional follow-up: luteolin and genistein show why mechanistic normalization cannot substitute for the selected organ task.",
+    "Negative independent context data should bound a candidate, not be erased or generalized to every context: NOS1AP limits Bis-T-23; systemic STRIVE is not an ex vivo sivelestat trial.",
+    "A mechanistic comparator can increase the information value of a leader experiment even when it is not a new standalone venture.",
+    "A verified sequence/chemical identity, a catalog listing, physical stock, authenticated lot, model access and commercial rights remain separate facts."
+  ]
+}

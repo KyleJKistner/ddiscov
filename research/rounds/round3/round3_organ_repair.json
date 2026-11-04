@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "domain": "organ repair, ex vivo conditioning, reperfusion and local graft therapy",
+  "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+  "counts": {
+    "new_exact_candidate_records": 10,
+    "new_mechanistic_families": 9,
+    "prior_candidate_updates": 1,
+    "S_tier_candidates": 0,
+    "note": "CYM5442 and SAR247799 are different exact compounds within one family. Counts are screens, not validated leads."
+  },
+  "deduplication": {
+    "corpus": [
+      "ddiscov_snapshot",
+      "portfolio_inventory.json",
+      "round2_generated_concepts.json"
+    ],
+    "method": "Alias searches plus comparison with portfolio policy, prior shortlist and generated concepts.",
+    "aliases_searched": [
+      "FXT",
+      "UAMC",
+      "M101",
+      "HEMO2life",
+      "Hemarina",
+      "PTL060",
+      "thrombalexin",
+      "mirococept",
+      "APT070",
+      "CYM5442",
+      "apyrase",
+      "APT102",
+      "AZD3366",
+      "MitoQ",
+      "mitoquinone",
+      "thiosulfate",
+      "SAR247799",
+      "sphingosine"
+    ],
+    "incidental_hits": "Thiosulfate occurs as a metabolite in a SUOX discussion, not as a therapeutic kidney-preservation lead. Generic ferroptosis entries concern different exact agents/indications.",
+    "patent_novelty_claimed": false
+  },
+  "rank_recommendation": {
+    "organ_shortlist": [
+      "AAT_EVLP",
+      "R3-OR-01"
+    ],
+    "bounded_successor_proof": "R3-OR-03 versus R3-OR-02",
+    "conditional_reserves": [
+      "R3-OR-04",
+      "R3-OR-06",
+      "R3-OR-10"
+    ],
+    "hold_for_exposure_toxicity": [
+      "R3-OR-05"
+    ],
+    "occupied_comparator_or_monitor_lanes": [
+      "R3-OR-07",
+      "R3-OR-08",
+      "R3-OR-09"
+    ],
+    "reason": "AAT has the clearer published human functional claim; FXT is the strongest new organ addition but precise human methods remain unverified. No numerical rank against the wider portfolio is inferred."
+  },
+  "candidate_updates": [
+    {
+      "candidate_id": "AAT_EVLP",
+      "update_id": "R3-OR-U01",
+      "name": "Potency-qualified alpha-1-antitrypsin ex vivo lung conditioning",
+      "novelty": "Refinement of existing BE-N01/AAT_EVLP; not counted as a new candidate.",
+      "exactarticle": "Plasma-derived AAT with Zemaira as a defined manufactured starting product; final perfusate composition and functional potency specification proposed, not yet validated.",
+      "function": "Existing human report: eight donor blocks split into paired lungs, 12-hour physiology. Exact numerical benefit and dose not primary-verified from full methods.",
+      "independent_n": {
+        "human_donor_blocks": 8,
+        "treated_and_control_sides_not_independent": true,
+        "patent_pilot_donors": 5,
+        "pilot_overlap_with_publication": "Unknown; do not add cohorts."
+      },
+      "treatment_window": "Injured-donor conditioning/peri-reperfusion protection; durable reversal of recipient graft failure unproven.",
+      "new_evidence_delta": [
+        "Patent pilot compares 10 mg/mL AAT with saline; protein/oncotic matching is unestablished.",
+        "Current label defines approximately 50 mg/mL reconstitution, mannitol/phosphate excipients, functional elastase-neutralizing potency, and a three-hour postreconstitution use interval.",
+        "Calculated contribution from a 50 mg/mL stock at 10 mg/mL final: stock fraction 20%, mannitol approximately 24–34 mM, phosphate 3–4 mM. This is a proposed formulation calculation, not the 2026 paper's recipe.",
+        "Canadian trial record last updated July 2026 lists UHN randomized Zemaira lung-transplant prevention trial as not yet recruiting; ex vivo-only route not established by record."
+      ],
+      "decision": "Retain leading organ proof; make matching, potency and postwashout function decisive.",
+      "decidingproof": "Qualified active AAT exposure compared with optimized perfusate matched for physical composition, followed by washout and recipient-blood challenge, then ex vivo-only transplant validation.",
+      "go": "Meaningful donor-level oxygenation/compliance benefit survives matching and washout, with interpretable recipient carryover and consistent lot potency.",
+      "stop": "Formulation matching explains benefit, drug-free reperfusion erases it, or molecular changes fail to translate to graft function.",
+      "material_route": "Manufactured starting product known; neither EVLP finished-product qualification nor actual supply secured.",
+      "rights_pipeline": "CSL organ-perfusion family and UHN clinical program identified; no blanket commercial-clearance claim.",
+      "retrievallimits": "2026 full methods unavailable. Patent 10 mg/mL and pig 3 mg/mL doses must not be assigned to the human paper. A survival-model abstract's existence does not establish durability.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+        "https://www.sciencedirect.com/science/article/pii/S1053249820312997",
+        "https://patents.google.com/patent/US20190059362A1/en",
+        "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+        "https://recherche-essais-cliniques.canada.ca/en/clinical-trial/294199-lung-transplantation"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    }
+  ],
+  "new_candidates": [
+    {
+      "candidate_id": "R3-OR-01",
+      "name": "FXT-001/UAMC-3203 for graft conditioning",
+      "family_id": "ferroptosis_graft_conditioning",
+      "novelty": {
+        "primary": "new_to_repo",
+        "secondary": "Defined short-exposure conditioning and active-comparator proof refinement",
+        "basis": "No FXT/UAMC alias in prior corpus; existing ferroptosis screens use different products and indications.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "UAMC-3203/FXT-001, original compound 39; free base CAS 2271358-64-4 versus hydrochloride CAS 2271358-65-5. Exact organ-study salt not yet reconciled. FXT-002/003 are separate candidates and not counted here.",
+      "function": "Cell 2026 reports protection in pig liver/lung perfusion and preservation of declined human lungs under split-organ perfusion; primary abstract only.",
+      "independent_n": {
+        "human_donors_primary_verified": null,
+        "secondary_report_five_pairs_not_promoted": true,
+        "technical_sampling_is_not_independent_n": true
+      },
+      "effect_size": "Not primary-verified; no exact numerical claim made.",
+      "dose_and_controls": "Human dose, salt, vehicle and matching not primary-verified.",
+      "treatment_window": "Procurement-injured graft conditioning and reperfusion-injury prevention; established clinical graft-failure reversal unproven.",
+      "washout_transplant": "No verified postwashout or recipient transplant benefit extracted from the primary full paper.",
+      "counterevidence": "Earlier primary multi-organ work shows context dependence, substantial tissue distribution and no injury-marker improvement in tested TNF/sepsis settings; originating-group overlap limits independent replication.",
+      "decision": "High-priority new organ shortlist, conditional on methods audit and active-comparator proof; not S-tier.",
+      "decidingproof": "Authenticated chemical-form/exposure bridge followed by donor-paired functional comparison against optimized perfusate and, in separate pair blocks, AAT; quantify postwashout benefit and tissue/recipient carryover.",
+      "go": "Robust donor-level gas transfer/compliance or other organ function changes acceptance/usefulness and persists during drug-free reperfusion, with a credible exposure margin.",
+      "stop": "Benefit is confined to markers/edema, attributable to matching artifacts, lost after washout, or coupled to harmful tissue accumulation.",
+      "material_route": "Public 2018 synthesis, patent disclosure, Cayman free-base specification, MCE hydrochloride and Probechem listings. No received lot or clinical-grade supply established.",
+      "rights_pipeline": "US11339124B2 displays active status, university/VIB assignees; university science park lists FiriX Therapeutics developing FXT-001 for IRI. Existing program, not presumed abandoned or unencumbered.",
+      "retrievallimits": "Public author postprint exists but exceeds web size limit; normal managed download failed. Secondary five-pair accounts and quantitative details are not treated as primary verification.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42105762/",
+        "https://orbi.uliege.be/handle/2268/344735",
+        "https://lirias.kuleuven.be/retrieve/0191aa52-3217-4a8b-b729-6ad6a62c59c1",
+        "https://pubs.acs.org/doi/10.1021/acs.jmedchem.8b01299",
+        "https://patents.google.com/patent/US11339124B2/en",
+        "https://cdn.caymanchem.com/cdn/insert/26525.pdf",
+        "https://www.medchemexpress.com/uamc-3203-hydrochloride.html",
+        "https://www.probechem.com/products_UAMC-3203.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8873468/",
+        "https://www.wetenschapsparkuantwerpen.be/en/home/firix-therapeutics/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-02",
+      "name": "CYM5442 hydrochloride for EVLP barrier protection",
+      "family_id": "s1pr1_graft_barrier",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No CYM5442/sphingosine receptor alias in reviewed corpus; paired with SAR successor in one family.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "CYM5442 hydrochloride, Tocris/Bio-Techne 3601, CAS 1783987-80-3.",
+      "function": "Seven donor pairs; leak/pressure benefit without significant compliance, P/F or PVR improvement. S1PR1 protein decreased during exposure.",
+      "independent_n": {
+        "human_donor_pairs": 7,
+        "endothelial_cell_donors": 2,
+        "technical_replicates_not_donors": true
+      },
+      "dose_and_controls": "0.05 micromolar, six-hour EVLP; water vehicle; DMEM/5% bovine albumin.",
+      "treatment_window": "Protection against deterioration during perfusion; durable postinjury repair unproven.",
+      "washout_transplant": "Not demonstrated.",
+      "counterevidence": "Primary functional negatives and receptor downregulation; higher exposure can disrupt cell barrier.",
+      "decision": "Mechanistic benchmark/reserve; do not promote above AAT/FXT.",
+      "decidingproof": "Free-exposure-matched comparison with SAR247799 for sustained pulmonary barrier function through withdrawal, then useful whole-organ function if justified.",
+      "go": "Barrier advantage persists without receptor-loss/rebound liability and produces useful organ-level function.",
+      "stop": "Transient leak reduction lacks postwashout functional benefit or withdrawal worsens barrier integrity.",
+      "material_route": "Current Bio-Techne listing and public batch COA; physical stock and exact received-lot activity unconfirmed.",
+      "rights_pipeline": "No commercial-clearance claim; exact current clinical program not established in this screen.",
+      "retrievallimits": "Accepted 51-page primary manuscript read; no major text-access gap.",
+      "source_urls": [
+        "https://eprints.ncl.ac.uk/313522",
+        "https://pubmed.ncbi.nlm.nih.gov/42418264/",
+        "https://www.bio-techne.com/p/small-molecules-peptides/cym-5442-hydrochloride_3601"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-03",
+      "name": "SAR247799 as a biased S1PR1 successor for pulmonary graft conditioning",
+      "family_id": "s1pr1_graft_barrier",
+      "novelty": {
+        "primary": "new_to_repo",
+        "secondary": "New exact-compound EVLP hypothesis; existing S1PR1 family",
+        "basis": "No SAR247799 alias in reviewed corpus; distinguish exact agent from CYM5442 and functional antagonist class.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "SAR247799, CAS 1315311-14-8, defined G-protein-biased S1PR1 agonist.",
+      "function": "Preclinical endothelial/renal protection; human T2D FMD surrogate signal. No direct lung-organ rescue evidence.",
+      "independent_n": {
+        "human_randomized_T2D_trial": 54,
+        "SAR_1mg": 15,
+        "SAR_5mg": 15,
+        "sildenafil": 12,
+        "placebo": 12,
+        "human_graft_experiments": 0
+      },
+      "dose_and_controls": "Human oral exposures are not a perfusate dose; proposed EVLP exposure must be measured independently.",
+      "treatment_window": "Most IRI support is preventive; proposed treatment after an established pulmonary barrier deficit is untested.",
+      "washout_transplant": "No verified ex vivo lung withdrawal/transplant evidence.",
+      "counterevidence": "Original sponsor CSR reports no microvascular laser-Doppler treatment effect and termination of development. Higher human exposures can produce heart-rate/lymphocyte effects. No inferred reason for termination.",
+      "decision": "Fund only a bounded mechanistic successor comparison before whole-organ work; not a replacement front-runner on current evidence.",
+      "decidingproof": "SAR versus CYM5442 at matched free exposure/target engagement in injured human pulmonary microvascular endothelium, with functional permeability and recovery after withdrawal.",
+      "go": "Sustained functional barrier protection with preserved receptor recovery and no rebound, then meaningful EVLP oxygenation/compliance benefit.",
+      "stop": "No pulmonary translation of bias, no advantage over CYM, rebound leak or required exposure overlapping class liabilities.",
+      "material_route": "Public exact chemical identity and research supplier listing; no authenticated lot received.",
+      "rights_pipeline": "Sanofi discontinued development per original CSR; US9782411B2 displays active status. Discontinuation does not imply available or unencumbered rights.",
+      "retrievallimits": "Human paper and sponsor CSR accessible; exact preclinical full-text timing not comprehensively extracted, so no postinjury claim borrowed.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32487716/",
+        "https://pubmed.ncbi.nlm.nih.gov/32810927/",
+        "https://pubmed.ncbi.nlm.nih.gov/33125753/",
+        "https://www.sanofi.com/assets/dotcom/content-app/clinical-studies/pharma/Letter-G/PDY15286-results-summary.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9328431/",
+        "https://patents.google.com/patent/US9782411B2/en",
+        "https://www.medchemexpress.com/sar247799.html"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-04",
+      "name": "PTL060/thrombalexin for local graft microthrombosis",
+      "family_id": "cytotopic_thrombin_inhibition",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No PTL060/thrombalexin aliases in reviewed corpus; different mechanism/product from prior kidney plasminogen/alteplase.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "PTL060/thrombalexin, hirudin-like thrombin-binding component linked to membrane-localizing lipid tail; exact current sequence-to-material specification not fully mapped.",
+      "function": "Pig renal hemoreperfusion flow improved; two human kidneys establish feasibility. Primate graft histology improved without survival benefit.",
+      "independent_n": {
+        "pig_kidneys_total": 38,
+        "pig_unmodified_controls": 15,
+        "pig_inactive_controls": 4,
+        "pig_treated": 19,
+        "human_kidneys": 2,
+        "human_donors": null,
+        "primate_n_verified": null
+      },
+      "treatment_window": "Graft pretreatment to prevent thrombotic injury; not established rejection reversal.",
+      "washout_transplant": "Primate graft-local persistence demonstrated; no transplant survival benefit.",
+      "counterevidence": "Local anticoagulant histology did not translate to survival in sensitized primate transplantation.",
+      "decision": "Narrow reserve, below human-functional organ leads.",
+      "decidingproof": "Clinically representative thrombotic graft injury with postwashout renal function, active free-thrombin-inhibitor and inactive anchored controls, and residual systemic anticoagulation measurement.",
+      "go": "Durable filtration/transport benefit with a meaningful localization/safety advantage.",
+      "stop": "Only histology or bulk flow improves, no advantage over free inhibitor, or systemic bleeding exposure persists.",
+      "material_route": "Published construct architecture and historical custom synthesis; no authenticated ready-stock exact lot established.",
+      "rights_pipeline": "Existing academic development and patent literature; no abandoned/unencumbered claim.",
+      "retrievallimits": "Primary abstract and indexed full text available; exact donor linkage and current construct sequence/production route remain incomplete.",
+      "source_urls": [
+        "https://kclpure.kcl.ac.uk/portal/en/publications/organ-pretreatment-with-cytotopic-endothelial-localizing-peptides/",
+        "https://pubmed.ncbi.nlm.nih.gov/28226413/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5519442/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-05",
+      "name": "MitoQ/mitoquinone for cold kidney preservation",
+      "family_id": "mitochondrial_quinone_preservation",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No MitoQ/mitoquinone alias in reviewed corpus; exact mitochondrial-targeted quinone distinct from other antioxidants.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "MitoQ/mitoquinone; exact chemical salt and research-grade formulation must be fixed independently of commercial oral supplements.",
+      "function": "50-micromolar human cold-storage proof improved reperfusion flow; urine output was not significant, P=.054.",
+      "independent_n": {
+        "human_pairs_verified": null,
+        "multiple_dose_groups_not_independent_replication": true
+      },
+      "treatment_window": "Cold preservation after ischemic exposure, before reperfusion.",
+      "washout_transplant": "Human reperfusion surrogate; no verified human transplant efficacy.",
+      "counterevidence": "Independent primary renal-cell work found rapid mitochondrial swelling/depolarization, including at 500 nM; different exposure conditions prevent direct therapeutic-index arithmetic.",
+      "decision": "Hold/deprioritize until exposure-dependent injury is reconciled.",
+      "decidingproof": "Measured tissue/free exposure with renal transport/filtration and mitochondrial integrity after cold-to-warm transition, not perfusion flow alone.",
+      "go": "A reproducible exposure window produces durable useful renal function without delayed mitochondrial injury.",
+      "stop": "Effective exposure overlaps mitochondrial injury or benefit disappears when measured as renal function.",
+      "material_route": "Public compound/manufacturing precedent; oral supplement availability does not qualify perfusion material.",
+      "rights_pipeline": "Established commercial ingredient; exact preservation-use rights not comprehensively cleared.",
+      "retrievallimits": "Full human study donor/dose subgroup allocation not extracted. Newer conference/thesis toxicity leads found but not used as peer-reviewed confirmatory evidence.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33963377/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880956/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-06",
+      "name": "APT102/AZD3366 for reperfusion ATP/ADP clearance",
+      "family_id": "optimized_cd39l3_apyrase",
+      "novelty": {
+        "primary": "new_to_repo",
+        "secondary": "Ex vivo-only pulse is a route hypothesis",
+        "basis": "No APT102/AZD3366/apyrase alias in reviewed corpus.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "APT102/AZD3366, optimized soluble recombinant human CD39L3 apyrase; exact source construct/lot equivalence must be verified.",
+      "function": "Canine postreperfusion treatment improved acute lung physiology; human phase 1 establishes pharmacology, not graft efficacy.",
+      "independent_n": {
+        "canine_animals": 14,
+        "canine_per_arm": 7,
+        "human_phase1_randomized": 104,
+        "human_graft_intervention": 0
+      },
+      "treatment_window": "Canine pulmonary-artery treatment seven minutes after reperfusion, acute three-hour observation; ex vivo-only regimen untested.",
+      "washout_transplant": "No verified ex vivo pulse/washout durability.",
+      "counterevidence": "Human higher-dose capillary bleeding time increased despite no detected thromboelastometric changes; prolonged enzyme action can matter after implantation.",
+      "decision": "Conditional functional reserve, below AAT/FXT.",
+      "decidingproof": "Test a defined organ-restricted exposure for persistent function with measured ATP/ADP handling, residual enzyme and recipient antiplatelet effect.",
+      "go": "Function persists after washout and residual systemic enzyme activity stays within a justified safety window.",
+      "stop": "Only purine biomarkers improve, function requires continuing systemic antiplatelet exposure, or bleeding liability offsets graft benefit.",
+      "material_route": "Defined clinical-development protein; no public authenticated ready-stock exact lot established.",
+      "rights_pipeline": "APT Therapeutics/AstraZeneca development documented; completed phase 1. No inference of discontinuation or available license from pipeline omission.",
+      "retrievallimits": "Exact present manufacturing sequence and glycoform-to-clinical-material mapping not fully extracted.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4329251/",
+        "https://pubmed.ncbi.nlm.nih.gov/38804212/",
+        "https://www.astrazenecaclinicaltrials.com/study/D2911C00001/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-07",
+      "name": "M101/HEMO2life oxygen carrier for organ preservation",
+      "family_id": "marine_extracellular_hemoglobin",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No M101/HEMO2life/Hemarina aliases in reviewed corpus; already an established external product.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "M101 extracellular marine hemoglobin formulated as HEMO2life preservation additive.",
+      "function": "Paired first-human preservation study has secondary clinical functional signals; randomized confirmatory trial protocol available.",
+      "independent_n": {
+        "first_human_donor_pairs": 58,
+        "OXYOP2_planned_recipients": 450,
+        "OXYOP2_results_verified": false
+      },
+      "treatment_window": "Preimplantation preservation, not established organ failure repair.",
+      "washout_transplant": "Human transplant follow-up exists; initial comparison not definitive randomized superiority.",
+      "counterevidence": "Secondary endpoints and initial open-label design constrain efficacy certainty; do not treat trial protocol as results.",
+      "decision": "Existing comparator/product lane; no independent asset thesis advanced.",
+      "decidingproof": "A new proposal must demonstrate a specific functional or practical advantage over the existing oxygen-carrier route.",
+      "go": "Verifiable meaningful differentiation beyond rediscovery of M101 preservation.",
+      "stop": "Proposal is generic use of an already commercialized preservation additive without a defensible advantage.",
+      "material_route": "Manufacturer-defined medical-device product; physical supply and terms not secured.",
+      "rights_pipeline": "Hemarina announced CE marking in September 2022; existing manufacturer and clinical program.",
+      "retrievallimits": "No definitive OXYOP2 results verified during this pass; no completion-to-success inference.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32012441/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10150461/",
+        "https://www.hemarina.com/wp-content/uploads/2022/09/Press-release-Hemarina-30092022-1.pdf"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-08",
+      "name": "Mirococept/APT070 for kidney graft complement control",
+      "family_id": "membrane_targeted_complement",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No mirococept/APT070 aliases in reviewed corpus; existing clinical program.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "Mirococept/APT070, membrane-targeted complement receptor-1-derived inhibitor.",
+      "function": "Initial 10-mg clinical regimen failed to reduce delayed graft function; EMPIRIKAL-2 tests revised organ-directed exposure.",
+      "independent_n": {
+        "initial_cohort_reported": 80,
+        "EMPIRIKAL2_planned_main_trial_max": 144,
+        "new_trial_efficacy_results_verified": false
+      },
+      "treatment_window": "Donor-kidney pretreatment to prevent reperfusion injury.",
+      "washout_transplant": "Clinical endpoint pathway established but prior regimen was negative.",
+      "counterevidence": "Direct earlier clinical negative; tissue saturation hypothesis is prospective, not efficacy rescue.",
+      "decision": "Active incumbent/benchmark and dose-design lesson.",
+      "decidingproof": "Evaluate organ-level target occupancy/retention and await or distinguish from the active randomized regimen.",
+      "go": "A new exact proposal solves a demonstrated exposure or functional gap beyond the active program.",
+      "stop": "Repackages target rationale while ignoring prior clinical negative or current dose-finding competition.",
+      "material_route": "Published clinical construct; independent ready-stock equivalent not established.",
+      "rights_pipeline": "EMPIRIKAL-2 2025 protocol, ISRCTN14279222, active academic clinical-development lane.",
+      "retrievallimits": "Protocol accessed through primary indexing; no new efficacy outcomes claimed.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40050053/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11887295/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-09",
+      "name": "Sodium thiosulfate for kidney preservation",
+      "family_id": "thiosulfate_preservation",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "Prior thiosulfate text concerns SUOX metabolites, not this exact therapeutic use; no matching proposal.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "Sodium thiosulfate as a defined additive to cold organ preservation solution; not AP39 or other sulfide donors.",
+      "function": "Preclinical preservation rationale plus a currently recruiting randomized human study; no completed human functional benefit verified.",
+      "independent_n": {
+        "human_completed_interventional_efficacy_verified": false,
+        "pig_abstract_n_verified": null
+      },
+      "treatment_window": "Cold kidney preservation/peri-reperfusion prevention.",
+      "washout_transplant": "Active clinical trial follows recipients for a year; outcomes pending/unverified.",
+      "counterevidence": "Accessible chemical alone does not distinguish a proposal from an active trial of the same use. Other H2S donors cannot supply exact STS efficacy.",
+      "decision": "Monitor/benchmark occupied clinical lane.",
+      "decidingproof": "A new proposal needs a specific exposure, selection or practical advantage beyond the recruiting STS-Transplant regimen.",
+      "go": "Defined incremental hypothesis with direct functional evidence and credible differentiation.",
+      "stop": "Only generic H2S biology or results from a different sulfide donor support the claim.",
+      "material_route": "Defined manufactured chemical route; perfusion formulation and lot qualification not established by existing systemic use.",
+      "rights_pipeline": "Investigator record lists NCT06288152 actively recruiting as of this review; no FTO conclusion.",
+      "retrievallimits": "New pig work retrieved at abstract level; no claim of transplant survival or completed human efficacy.",
+      "source_urls": [
+        "https://londonkidney.ca/trials/evaluation-of-thiosulfate-enhanced-organ-preservation-solution-in-kidney-transplantation",
+        "https://clinicaltrials.gov/study/NCT06288152",
+        "https://www.auajournals.org/doi/10.1097/01.JU.0001110028.22652.53.03"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    },
+    {
+      "candidate_id": "R3-OR-10",
+      "name": "Inhaled sphingosine for donor-lung decontamination",
+      "family_id": "local_sphingosine_antimicrobial",
+      "novelty": {
+        "primary": "new_to_repo",
+        "basis": "No sphingosine lead in prior corpus; direct lipid effect differs from S1PR1 agonist family.",
+        "patent_novelty_claimed": false
+      },
+      "exactarticle": "Inhaled sphingosine; exact stereochemical/formulation product specification to be locked before development. Not sphingosine-1-phosphate or CYM5442.",
+      "function": "Acute pig bronchial bacterial-burden reduction without measured short-term physiological worsening; human delivery observations remain exploratory.",
+      "independent_n": {
+        "pig_lungs_per_group": 5,
+        "pig_groups": 3,
+        "human_explants": 4,
+        "colonized_human_explants": 1,
+        "human_perfusion": false
+      },
+      "treatment_window": "Acute contamination treatment during pig EVLP; human recipient explants ventilated only.",
+      "washout_transplant": "No transplant durability or replicated human antimicrobial efficacy.",
+      "counterevidence": "No antibiotic comparator in the main pig experiment, brief observation and only one colonized human specimen.",
+      "decision": "Narrow conditional reserve; not a human graft-repair front-runner.",
+      "decidingproof": "Clinically representative colonized donor tissue with an appropriate antibiotic benchmark, viable clearance, preserved organ function and postwashout durability.",
+      "go": "Incremental clinically useful clearance without worsening graft function or viable dissemination.",
+      "stop": "Only tissue delivery/markers improve, no benefit beyond antibiotics, or functional injury offsets clearance.",
+      "material_route": "Public small-lipid identity; complete inhaled product/lot characterization not completed.",
+      "rights_pipeline": "Existing academic program; no unencumbered-rights assertion.",
+      "retrievallimits": "Primary indexed full text supplies donor/sample accounting; no clinical recipient outcomes.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-65074-7",
+        "https://pubmed.ncbi.nlm.nih.gov/42562866/"
+      ],
+      "owner_reply_required_for_scientific_selection": false,
+      "S_tier": false
+    }
+  ],
+  "verification": {
+    "physical_supply_confirmed": false,
+    "received_lot_authenticated": false,
+    "organ_access_secured": false,
+    "experiments_performed": false,
+    "outreach_performed": false,
+    "remote_repository_modified": false,
+    "rights_note": "Public patent and program facts are screening inputs, not freedom-to-operate or licensing opinions."
+  }
+}
