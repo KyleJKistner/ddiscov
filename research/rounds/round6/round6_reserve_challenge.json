@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "report_id": "round6_reserve_challenge",
+  "as_of": "2026-11-04",
+  "repository": "KyleJKistner/ddiscov",
+  "baseline_commit": "44fe86f9b5d22914ce366bcef9f6c3667b1e14b2",
+  "scope": {
+    "existing_candidate_updates": 2,
+    "new_intervention_use_pairs": 0,
+    "new_molecular_families": 0,
+    "new_verified_independent_cardiomyopathy_rescue_patients": 0,
+    "S_tier_promotions": 0,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "remote_writes_by_this_agent": false
+  },
+  "decision_principle": "A bounded exact-article qualification and functional proof can merit funding before a positive randomized human efficacy trial or a fully licensed asset exists.",
+  "updates": [
+    {
+      "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "exact_use": "Enasidenib in germline IDH2-R140 D2HGA2, especially established cardiomyopathy; directly demonstrated genotype R140Q",
+      "prior_disposition": "retain_genotype_specific_human_rescue_formulation_programme_hold",
+      "recommended_disposition": "retain_human_rescue_lead_with_demonstrated_pediatric_sprinkle_use; qualify_infant_exposure_and_differentiated_program",
+      "current_S_tier": false,
+      "decision_deltas": [
+        {
+          "delta": "Pediatric sprinkle is documented as actually administered in the exact disease, not merely planned or inferred.",
+          "direction": "positive_material_development_correction",
+          "sources": [
+            "E2",
+            "E9",
+            "E10"
+          ]
+        },
+        {
+          "delta": "Recovered severe established-DCM functional trajectory shows LVEF 20-25% baseline to 35-40% at six months, before first listed furosemide reduction at eight months.",
+          "direction": "positive_clinical_specificity_not_new_patient",
+          "sources": [
+            "E2"
+          ]
+        },
+        {
+          "delta": "Completed adult formulation study and continuing enasidenib trial-product records reduce generic formulation feasibility uncertainty; results/infant exposure unresolved.",
+          "direction": "positive_feasibility_with_limit",
+          "sources": [
+            "E6",
+            "E7",
+            "E9",
+            "E10",
+            "E11"
+          ]
+        },
+        {
+          "delta": "Disease use already within AcSe-ESMART; first pediatric formulation or first disease program is not a differentiated proposition.",
+          "direction": "commercial_scope_constraint",
+          "sources": [
+            "E2",
+            "E7",
+            "E8",
+            "E12"
+          ]
+        },
+        {
+          "delta": "2026 infant metadata verified but primary outcome/formulation inaccessible; no added efficacy credit.",
+          "direction": "unchanged_explicit_evidence_gap",
+          "sources": [
+            "E5",
+            "E13"
+          ]
+        }
+      ],
+      "patient_lineage": [
+        {
+          "family": "2023 Nature Medicine E1/E2 and Gustave Roussy account E8",
+          "n_individuals": 2,
+          "independent_reports_not_added": [
+            "main article",
+            "supplement",
+            "institutional announcement",
+            "trial description"
+          ],
+          "patients": [
+            {
+              "id": "2023_patient_1",
+              "variant": "de novo heterozygous IDH2 p.Arg140Gln",
+              "age_at_start": "7 years 1 month",
+              "start": "2019-02",
+              "duration_years": 3.9,
+              "reported_article": "enasidenib capsules",
+              "dose_reported": "50 mg/day",
+              "heart_failure_since": "4 months",
+              "baseline_LVEF_percent": [
+                20,
+                25
+              ],
+              "LVEF_6_months_percent": [
+                35,
+                40
+              ],
+              "LVEF_8_months_percent": [
+                40,
+                45
+              ],
+              "LVEF_20_months_percent": 36,
+              "LVEF_46_months_percent": [
+                40,
+                45
+              ],
+              "baseline_LVIDd_mm": [
+                57,
+                60
+              ],
+              "LVIDd_46_months_mm": [
+                44,
+                47
+              ],
+              "first_listed_furosemide_reduction_month": 8,
+              "baseline_concomitants": [
+                "captopril",
+                "carvedilol",
+                "furosemide",
+                "spironolactone",
+                "aspirin"
+              ],
+              "later_confounder": "Carvedilol increased around month 32, reduced at month 34 after LVEF decline.",
+              "interpretation": "Established disease improvement, incomplete recovery, uncontrolled and concurrent care."
+            },
+            {
+              "id": "2023_patient_2",
+              "variant": "de novo heterozygous IDH2 p.Arg140Gln",
+              "age_at_start": "8 years",
+              "start": "2021-10",
+              "duration_months": 14,
+              "reported_article_sequence": [
+                {
+                  "form": "enasidenib sprinkle formulation",
+                  "dose": "60 mg/day",
+                  "duration_months": 3
+                },
+                {
+                  "form": "enasidenib capsules",
+                  "dose": "50 mg/day"
+                }
+              ],
+              "baseline_systolic_function": "normal",
+              "fractional_shortening_percent_baseline_6mo_12mo": [
+                34,
+                32,
+                40
+              ],
+              "interpretation": "Demonstrated sprinkle use, not a second severe DCM recovery."
+            }
+          ],
+          "source_ids": [
+            "E1",
+            "E2",
+            "E8"
+          ]
+        },
+        {
+          "family": "Gold 2024",
+          "n_individuals": 1,
+          "status": "retained prior independently reviewed report, not new round-6 patient",
+          "age_at_start": "3 years 11 months",
+          "adverse_exposure_boundary": "50 mg daily associated with ALT 118 IU/L; thrice-weekly adjustment maintained suppression with improved laboratory abnormalities, twice weekly allowed metabolite reappearance.",
+          "source_ids": [
+            "E3"
+          ]
+        },
+        {
+          "family": "Roux 2024 online / 2025 issue dermatitis",
+          "n_reported_observations": 2,
+          "status": "likely additional institutional lineage; definitive cross-publication unique census not established",
+          "count_as_additional_cardiac_rescues": 0,
+          "variant": "IDH2 p.Arg140Gln",
+          "observed_effect": "Skin lesions resolved alongside metabolite improvement",
+          "limits": [
+            "Exact dose and formulation not recovered",
+            "Eight-month presentation age is not established treatment-start age",
+            "No quantitative treatment-related cardiac trajectory verified",
+            "Later conference abstract not counted independently"
+          ],
+          "source_ids": [
+            "E4"
+          ]
+        },
+        {
+          "family": "Turedi 2026 infant abstract",
+          "n_counted_efficacy_observations": 0,
+          "status": "metadata only",
+          "title": "Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria",
+          "doi": "10.1016/j.ymgme.2026.110094",
+          "source_ids": [
+            "E5",
+            "E13"
+          ]
+        }
+      ],
+      "programs": [
+        {
+          "id": "NCT04310527",
+          "sponsor": "Celgene",
+          "status": "COMPLETED",
+          "actual_enrollment": 28,
+          "population": "healthy adults",
+          "purpose": "single-dose formulation/food crossover, 100 mg reference and test",
+          "completed": "2019-12-09",
+          "last_update": "2020-03-17",
+          "has_results": false,
+          "meaning": "Formulation development occurred; equivalence and infant dosing not established.",
+          "source_ids": [
+            "E6"
+          ]
+        },
+        {
+          "id": "NCT02813135",
+          "name": "AcSe-ESMART",
+          "status": "RECRUITING",
+          "last_update": "2026-07-10",
+          "estimated_all_arm_enrollment": 472,
+          "has_results": false,
+          "enasidenib_arm": "I; tablets or sprinkle solution once daily continuous 28-day cycles",
+          "meaning": "Overall status cannot establish D2HGA2 recruitment. Original two patients treated within program.",
+          "source_ids": [
+            "E7",
+            "E8"
+          ]
+        },
+        {
+          "id": "2016-000133-40/NL",
+          "article": "20 mg enasidenib sprinkle capsule",
+          "pediatric_formulation_flag": true,
+          "source_ids": [
+            "E9"
+          ]
+        },
+        {
+          "id": "2024-514791-40-00",
+          "record_published": "2026-10-23",
+          "article": "enasidenib mesilate sprinkle capsule",
+          "product_id": "PRD11286460",
+          "code": "BMS-986361",
+          "company": "Bristol Myers Squibb International Corporation",
+          "pediatric_formulation_flag": false,
+          "meaning": "Metadata discrepancy with E9 preserved; physical stock and commercial rights unresolved.",
+          "source_ids": [
+            "E10"
+          ]
+        },
+        {
+          "id": "NCT04203316",
+          "population": "pediatric AML",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "last_update": "2026-01-09",
+          "actual_enrollment": 1,
+          "has_results": false,
+          "formulation": "intact tablets or alternate enasidenib formulation permitted",
+          "meaning": "Different disease; not an extensive pediatric safety series.",
+          "source_ids": [
+            "E11"
+          ]
+        }
+      ],
+      "first_fundable_question": "Can an exact, reproducible pediatric article provide tolerable chronic exposure with mutant-metabolite control and useful recovery in a qualified post-deficit R140Q cardiac model, adding value beyond the existing clinical program?",
+      "starting_article_status": {
+        "defined_molecule": true,
+        "pediatric_formulation_actual_use": true,
+        "full_released_infant_CMC_specification": false,
+        "BA_results_public": false,
+        "stock_received": false,
+        "commercial_clearance_established": false
+      },
+      "model_route": "Engineered commercially permissible R140Q/isogenic cardiac background is plausible independent route, not yet qualified. Show predictable deficit and post-deficit positive rescue capability.",
+      "advance_conditions": [
+        "Reproducible exact article and dosing with measured or suitably bounded exposure",
+        "Useful cardiac function after established deficit across independent backgrounds, separated from 2-HG suppression alone",
+        "Plausible chronic tolerability margin including hepatic liability",
+        "Incremental pediatric exposure, formulation or clinical-evidence contribution beyond AcSe-ESMART"
+      ],
+      "stop_or_redirect_conditions": [
+        "Precise dosing/article remains irreproducible",
+        "Adequate metabolite suppression repeatedly requires harmful exposure",
+        "Adequate target engagement fails useful function in an otherwise recoverable qualified model",
+        "Proposed product offers no measurable increment over existing program"
+      ],
+      "uncertainties": [
+        "Infant formulation, dose and outcome in 2026 report",
+        "Salt/base and exact capsule/sprinkle specifications",
+        "Adult BA study results",
+        "Chronic pediatric exposure-toxicity relationship",
+        "Unique patient census across later reports",
+        "Commercial scope, rights and addressable patient population"
+      ],
+      "inference_not_fact": "Stronger scientific candidate for disease-focused development qualification; standalone venture fundability not established."
+    },
+    {
+      "candidate_id": "R5-C01",
+      "exact_use": "Pantethine/PPCS-deficiency cardiomyopathy, with chemically distinct pantetheine and 4-prime-phosphopantetheine comparator routes",
+      "prior_disposition": "Conditional reserve; identity and oral active-species exposure gating",
+      "recommended_disposition": "retain_serious_reserve; prioritize_defined_species_and_formulation_comparison",
+      "current_S_tier": false,
+      "decision_deltas": [
+        {
+          "delta": "Human oral PPanSH formulation and completed 77-participant development program recovered; comparator delivery route is concrete.",
+          "direction": "positive_comparator_feasibility",
+          "sources": [
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "delta": "Posted randomized exploratory biomarker trend does not confirm strong dose-response; protocol-versus-posted analysis mismatch limits interpretation.",
+          "direction": "negative_qualification_of_promotional_PD_not_PPCS_failure",
+          "sources": [
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "delta": "Existing OHSU/Spoonbill medical-food pathway and petition require differentiated PPCS functional value rather than first oral bypass claim.",
+          "direction": "development_scope_constraint",
+          "sources": [
+            "P5",
+            "P6"
+          ]
+        },
+        {
+          "delta": "No recovered source links oral pantethine dose to a validated active-species myocardial exposure or transfers PPanSH efficacy to PPCS.",
+          "direction": "central_gap_remains",
+          "sources": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        }
+      ],
+      "not_new_evidence": [
+        "Original PPCS human series and later follow-up overlap",
+        "Two patient cardiac backgrounds and force stabilization rather than significant increase",
+        "Sigma 16702 pantetheine versus named pantethine discrepancy",
+        "Redox-active assay matrix and unqualified oral-to-heart exposure",
+        "Prior PPanSH cellular, yeast and mouse studies"
+      ],
+      "chemical_identity_map": [
+        {
+          "article": "pantethine",
+          "abbreviation": "PanSSPan",
+          "identity": "disulfide dimer",
+          "efficacy_transfer_to_other_articles": false
+        },
+        {
+          "article": "(R)-pantetheine",
+          "abbreviation": "PanSH",
+          "identity": "reduced monomer, current Sigma 16702",
+          "efficacy_transfer_to_other_articles": false
+        },
+        {
+          "article": "4-prime-phosphopantetheine",
+          "abbreviation": "PPanSH / 4-prime-PPT",
+          "identity": "phosphorylated downstream precursor; active in CoA-Z formulation",
+          "efficacy_transfer_to_other_articles": false
+        }
+      ],
+      "comparator_trial": {
+        "id": "NCT04182763",
+        "population": "PANK2/PKAN, not PPCS",
+        "status": "COMPLETED",
+        "actual_total": 77,
+        "randomized": 65,
+        "direct_open_label": 12,
+        "completion": "2025-01-01",
+        "results_posted": "2025-10-29",
+        "formulation": "CoA-Z, 1 mg/mL fruit-flavored semi-liquid gel/syrup; oral or gastrostomy tube",
+        "compound": "4-prime-phosphopantetheine",
+        "daily_randomized_doses_mg_per_m2": [
+          20,
+          15,
+          5,
+          0
+        ],
+        "open_label_daily_dose_mg_per_m2": 15,
+        "protocol_objective": "Safety, tolerability and exploratory blood CoASY pharmacodynamics for medical-food development; not conventional maximum tolerated dose finding or cardiac efficacy trial.",
+        "outcome_summary": {
+          "group_order": [
+            "high_20_mg_per_m2",
+            "mid_15_mg_per_m2",
+            "low_5_mg_per_m2",
+            "placebo"
+          ],
+          "randomized_denominators": [
+            15,
+            17,
+            17,
+            16
+          ],
+          "early_CoASY_mRNA": {
+            "registry_time_label": "1 month +3 days after first dose",
+            "time_interpretation": "Model includes one-month versus three-day visits; not one day-33 sample.",
+            "measure": "geometric least squares mean ratio to baseline",
+            "ci_percent": 90,
+            "values": [
+              {
+                "group": "OG000",
+                "mean": 1.31,
+                "ci90_lower": 1.05,
+                "ci90_upper": 1.57
+              },
+              {
+                "group": "OG001",
+                "mean": 1.13,
+                "ci90_lower": 0.97,
+                "ci90_upper": 1.3
+              },
+              {
+                "group": "OG002",
+                "mean": 1.04,
+                "ci90_lower": 0.86,
+                "ci90_upper": 1.22
+              },
+              {
+                "group": "OG003",
+                "mean": 1.07,
+                "ci90_lower": 0.98,
+                "ci90_upper": 1.16
+              }
+            ],
+            "ordered_trend_p": 0.105,
+            "posted_threshold": 0.1
+          },
+          "six_month_CoASY_mRNA": {
+            "measure": "geometric least squares mean ratio to baseline",
+            "ci_percent": 90,
+            "values": [
+              {
+                "group": "OG000",
+                "mean": 1.07,
+                "ci90_lower": 0.87,
+                "ci90_upper": 1.28
+              },
+              {
+                "group": "OG001",
+                "mean": 0.97,
+                "ci90_lower": 0.77,
+                "ci90_upper": 1.16
+              },
+              {
+                "group": "OG002",
+                "mean": 1.02,
+                "ci90_lower": 0.77,
+                "ci90_upper": 1.27
+              },
+              {
+                "group": "OG003",
+                "mean": 0.96,
+                "ci90_lower": 0.83,
+                "ci90_upper": 1.09
+              }
+            ],
+            "ordered_trend_p": 0.55,
+            "posted_hypothesis": "No significant variation at this time point"
+          },
+          "TEAE_adjusted_count_per_person": {
+            "means": [
+              1.15,
+              1.38,
+              1.14,
+              0.86
+            ],
+            "joint_test_p": 0.5,
+            "model": "Negative binomial, baseline prescription count adjusted",
+            "interpretation": "Nonsignificance is not equivalence."
+          },
+          "double_blind_serious_AE_affected": [
+            8,
+            7,
+            5,
+            3
+          ],
+          "double_blind_deaths": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "serious_AE_interpretation": "All-cause registry table, severe disease population; do not attribute drug causation from counts alone.",
+          "six_month_completers": [
+            15,
+            16,
+            17,
+            15
+          ],
+          "open_label_product_shortage_shortened_period_n": 10,
+          "source_ids": [
+            "P3",
+            "P4"
+          ]
+        },
+        "analysis_concordance": {
+          "protocol_early": "Pooled active-versus-placebo contrast around 3 plus/minus 2 days, two-sided alpha .1",
+          "posted_early": "Ordered high > mid > low > placebo trend across early visits, p=.105",
+          "protocol_six_month": "Expected lower expression at higher active doses; low > mid > high > placebo contrast",
+          "posted_six_month": "High > mid > low > placebo trend and stated no-significant-difference hypothesis, p=.55",
+          "interpretation": "Unresolved reporting/analysis mismatch. Do not label as clean prespecified negative clinical efficacy RCT; do not claim confirmatory dose-dependent PD."
+        },
+        "dataset_overlap": "Later open-label participants include the randomized cohort; 12 additional direct-open-label entrants. No PPCS clinical/model overlap claimed."
+      },
+      "current_program": {
+        "investigator_update": "2026-03-18",
+        "organizations": [
+          "OHSU/NBIAcure",
+          "Spoonbill Foundation",
+          "Ody Sibon collaborator"
+        ],
+        "regulatory_record": "FAP 5A4842 filing notice, 2025-07-29",
+        "status_limit": "Notice of filing is not additive approval or drug/PPCS approval. No later final approval found; not exhaustive legal clearance.",
+        "stock_status": "Development/manufacturing route, not current stock confirmation",
+        "source_ids": [
+          "P5",
+          "P6"
+        ]
+      },
+      "first_fundable_question": "Which authenticated precursor and deliverable formulation produces useful PPCS cardiac force/fatigue improvement or preservation after a qualified deficit at plausible active-species exposure?",
+      "model_route": "Independent commercially usable PPCS backgrounds require qualification; current restricted patient-line entries are not ready unrestricted models. Include isogenic controls, disease baseline and post-deficit functional positive control.",
+      "advance_conditions": [
+        "Exact PanSH, PanSSPan or PPanSH article linked to measured matrix species",
+        "Useful repeatable force/fatigue or preservation with coherent exposure across independent disease backgrounds",
+        "Meaningful effect beyond CoA biomarker restoration",
+        "Acceptable rhythm/mitochondrial behavior",
+        "Defined incremental PPCS product value compared with established oral PPanSH pathway"
+      ],
+      "stop_or_redirect_conditions": [
+        "Activity confined to undeliverable assay-specific redox mixture",
+        "Exposure cannot plausibly be achieved",
+        "Biochemical correction without useful function in a demonstrably responsive model",
+        "No increment over comparator; if only preservation is shown, stop reversal claim and evaluate preservation separately"
+      ],
+      "uncertainties": [
+        "Historical vial identity",
+        "Oral active species and myocardial exposure",
+        "Exact transferable CoA-Z formulation specification and current supply",
+        "PPCS-specific PPanSH force response",
+        "Clinical causal attribution and target population",
+        "Differentiated development and commercial rights"
+      ],
+      "inference_not_fact": "The comparator route strengthens the case for a small exact-species qualification project without establishing PPCS clinical benefit or S-tier status."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "E1",
+      "title": "Enasidenib treatment in two individuals with D-2-hydroxyglutaric aciduria carrying a germline IDH2 mutation",
+      "url": "https://www.nature.com/articles/s41591-023-02382-9",
+      "access_status": "abstract_and_public_extended_material_only",
+      "verified_date": "2026-11-04",
+      "limits": "Main text subscription limited. Direct PDF request returned HTML and was not treated as a PDF.",
+      "retrieved_bytes": 371453,
+      "sha256": "f1d3778d8af9d73ddf607b2a8c8ce434a488a187aac376113a2b9b98f4b695b7"
+    },
+    {
+      "source_id": "E2",
+      "title": "2023 original Supplementary Information",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-023-02382-9/MediaObjects/41591_2023_2382_MOESM1_ESM.pdf",
+      "access_status": "public_pdf_read_critical_pages_visually_checked",
+      "verified_date": "2026-11-04",
+      "limits": "Supplementary Table 1; same two patients as E1, not independent replication.",
+      "retrieved_bytes": 2171636,
+      "sha256": "e312513d2ffbcd651ce6ac158b0cf93d9375cbbdb630e910f70e009dc4299a11"
+    },
+    {
+      "source_id": "E3",
+      "title": "Gold 2024 enasidenib D2HGA2 case",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+      "access_status": "retained_prior_round_primary_audit",
+      "verified_date": "2026-11-04",
+      "limits": "DOI 10.1002/jmd2.12421. Existing clinical evidence and exposure limitation; not a new round-6 patient."
+    },
+    {
+      "source_id": "E4",
+      "title": "Roux et al. granulomatous dermatitis D2HGA2 cases",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750430/",
+      "access_status": "indexed_primary_full_text_and_pubmed_abstract_inspected",
+      "verified_date": "2026-11-04",
+      "limits": "DOI 10.1016/j.jdcr.2024.10.020. Direct PMC response challenged. No exact dose or quantitative cardiac outcome verified; do not infer treatment age from presentation age."
+    },
+    {
+      "source_id": "E5",
+      "title": "Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria",
+      "url": "https://api.crossref.org/works/10.1016/j.ymgme.2026.110094",
+      "access_status": "publisher_deposited_metadata_only",
+      "verified_date": "2026-11-04",
+      "limits": "No abstract. Publisher https://www.sciencedirect.com/science/article/pii/S109671922600377X inaccessible. Text endpoint returned site-unavailable HTML. No efficacy, dose or formulation counted.",
+      "retrieved_bytes": 4553,
+      "sha256": "3f8f76ef34c9bc352540d6760064f50e2f26a182a16f357131aafebf46f6104f"
+    },
+    {
+      "source_id": "E6",
+      "title": "NCT04310527 enasidenib sprinkle formulation study",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04310527",
+      "access_status": "full_public_registry_json",
+      "verified_date": "2026-11-04",
+      "limits": "Completed adult study; hasResults false. No bioavailability effect estimate recovered.",
+      "retrieved_bytes": 12491,
+      "sha256": "717bd835c6ea3c3a7bbc9937f12533ca79ebeb6823b09dc69b5e508b5536da38"
+    },
+    {
+      "source_id": "E7",
+      "title": "NCT02813135 AcSe-ESMART",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02813135",
+      "access_status": "full_public_registry_json",
+      "verified_date": "2026-11-04",
+      "limits": "Overall basket status not disease-arm recruitment. Estimated enrollment is all arms, not D2HGA2 patient count.",
+      "retrieved_bytes": 34209,
+      "sha256": "89e5edc94f0b9c0944b73b448cbb5a651108c97aba799cb320162f46fc1d74da"
+    },
+    {
+      "source_id": "E8",
+      "title": "Gustave Roussy account of two metabolically affected children in AcSe-ESMART",
+      "url": "https://www.gustaveroussy.fr/fr/deux-enfants-atteints-dune-maladie-metabolique-genetique-traites-grace-une-molecule-anti-cancereuse",
+      "access_status": "primary_investigator_page_read",
+      "verified_date": "2026-11-04",
+      "limits": "Same original 2023 patient family; no new replication."
+    },
+    {
+      "source_id": "E9",
+      "title": "EU 2016-000133-40/NL enasidenib pediatric formulation record",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000133-40/NL",
+      "access_status": "public_registry_entry_read",
+      "verified_date": "2026-11-04",
+      "limits": "20 mg sprinkle capsule, pediatric formulation yes. Clinical product entry not stock or commercial rights."
+    },
+    {
+      "source_id": "E10",
+      "title": "CTIS 2024-514791-40-00",
+      "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-514791-40-00",
+      "access_status": "full_official_public_json",
+      "verified_date": "2026-11-04",
+      "limits": "New record marks isPaediatricFormulation false despite older yes and actual pediatric use; do not silently reconcile.",
+      "retrieved_bytes": 190321,
+      "sha256": "b06aebefd85c60f5a00413a62b0b0bdc337ce8841248c730f5c386d511fb2028"
+    },
+    {
+      "source_id": "E11",
+      "title": "NCT04203316 pediatric AML",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04203316",
+      "access_status": "full_public_registry_json",
+      "verified_date": "2026-11-04",
+      "limits": "Actual enrollment one; alternate formulation allowed; no posted results; different disease.",
+      "retrieved_bytes": 26862,
+      "sha256": "591acbde968aceab770c72360b12c1f71780510049723e07841b32e32cc6ffe9"
+    },
+    {
+      "source_id": "E12",
+      "title": "ERN-ITHACA methylation collaboration in treated D2HGA2",
+      "url": "https://ern-ithaca.eu/our-research-activities/calls-for-collaboration/genome-methylation-profiling-to-elucidate-the-pathogenesis-of-d-2-hydroxyglutaric-aciduria-type-2/",
+      "access_status": "primary_collaboration_page_read",
+      "verified_date": "2026-11-04",
+      "limits": "Page marked Closed. Present-tense cohort abstract is not current recruitment evidence or countable additional patients."
+    },
+    {
+      "source_id": "E13",
+      "title": "SIMD 2026 abstracts page",
+      "url": "https://simd.swoogo.com/2026/abstracts",
+      "access_status": "public_page_read_poster_link_login_blocked",
+      "verified_date": "2026-11-04",
+      "limits": "No poster text retrieved; did not log in or contact authors."
+    },
+    {
+      "source_id": "P1",
+      "title": "Zhang 2025 PPCS clinical and cardiac model paper",
+      "url": "https://iris.unibs.it/retrieve/73dc3bf9-28fd-45b1-bcd0-5305f9fa5050/43856_2025_Article_1017.pdf",
+      "access_status": "retained_prior_round_primary_audit",
+      "verified_date": "2026-11-04",
+      "limits": "Same prior clinical/model families, not new round-6 independent replication."
+    },
+    {
+      "source_id": "P2",
+      "title": "Sigma 16702 manufacturer identity",
+      "url": "https://www.sigmaaldrich.com/US/en/product/sigma/16702",
+      "access_status": "retained_prior_round_manufacturer_audit",
+      "verified_date": "2026-11-04",
+      "limits": "Current (R)-pantetheine identity does not establish historical vial content."
+    },
+    {
+      "source_id": "P3",
+      "title": "NCT04182763 CoA-Z registry and posted results",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04182763",
+      "access_status": "full_public_registry_and_results_json",
+      "verified_date": "2026-11-04",
+      "limits": "PKAN, not PPCS; posted results are not a peer-reviewed PPCS efficacy publication.",
+      "retrieved_bytes": 112941,
+      "sha256": "9de3efd88bb41db7310b6ca4cefdd4e3e9e441f00c92f3e50e5143bc9e669b48"
+    },
+    {
+      "source_id": "P4",
+      "title": "NCT04182763 public protocol and SAP",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04182763/Prot_SAP_000.pdf",
+      "access_status": "public_pdf_read_critical_analysis_page_visually_checked",
+      "verified_date": "2026-11-04",
+      "limits": "Internal header V5.0 06OCT2022; formulation pp16-18; analysis p30. Upload label mentions V5.1. Analysis plan differs from posted summaries.",
+      "retrieved_bytes": 913630,
+      "sha256": "dbfb98523d9cbd675331d8d5a4e6925067a37b6db416d329bd3f57eb0f42539f"
+    },
+    {
+      "source_id": "P5",
+      "title": "Investigator CoA-Z development updates",
+      "url": "https://nbiacure.org/coaz-clinical-trial/",
+      "access_status": "primary_program_page_read",
+      "verified_date": "2026-11-04",
+      "limits": "Most recent substantive dated update inspected: 2026-03-18. Older optimistic PD statements are qualified by posted results; pending status at that date is not an exhaustive current legal conclusion."
+    },
+    {
+      "source_id": "P6",
+      "title": "Spoonbill Foundation food additive petition filing notice",
+      "url": "https://public-inspection.federalregister.gov/2025-14339.pdf",
+      "access_status": "primary_government_notice_read",
+      "verified_date": "2026-11-04",
+      "limits": "2025-07-29 filing notice FAP 5A4842; not additive approval or drug/PPCS indication approval."
+    }
+  ],
+  "verification": {
+    "critical_pdf_pages_visually_inspected": [
+      "Enasidenib supplement dose/table page",
+      "Enasidenib supplement severe cardiac trajectory page",
+      "CoA-Z protocol analysis p30"
+    ],
+    "full_source_documents_not_for_commit": true,
+    "prior_followups_recounted_as_new": false,
+    "no_authors_contacted": true,
+    "source_metadata_does_not_equal_stock_or_rights": true
+  }
+}

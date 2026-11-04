@@ -31,7 +31,7 @@ Record these independently:
 | Can it be reconstructed? | A route with identifiable inputs and qualification work, distinguishing a joined public route from a reproduced synthesis. |
 | Is there a sourcing route? | Current catalog or documented manufacturing/distribution route. A quote page, service offer or request-distributed line is labeled as such. |
 | Is there a physical lot? | Received material or explicit stock evidence. A literature mention does not answer this. |
-| Is the disease model ready? | Demonstrated disease-dependent function, independent biological backgrounds and controls. A fibroblast or iPSC catalog entry alone is a starting material. |
+| Is the disease model ready? | Demonstrated disease-dependent function and controls appropriate to the claimed stage: one qualified disease/control background can support exploratory work; independent backgrounds are required for confirmatory generality. A catalog entry alone is a starting material. |
 | Are commercial rights understood? | Specific public claims, licenses and active programs with their dates and scope. Research supply does not establish commercial clearance. |
 
 Classify the source itself before extracting an availability claim. A recruitment wishlist, future grant aim, archived product, conference plan and current distributed model are different types of evidence. Check corrections and dated sponsor/investigator reports as well as registry labels.
@@ -52,6 +52,18 @@ Use these dispositions consistently:
 - **Chemistry or product-development project:** target biology is useful but the present article does not meet the intended product need.
 - **Comparator or active external program:** valuable for benchmarking, with a distinct contribution required for a new project.
 - **Hold or stop:** state the missing evidence or explicit negative result that controls the decision.
+
+## Fund the next uncertainty at the appropriate stage
+
+Use separate judgments for initial qualification, exploratory function, confirmatory translation and a larger asset/company investment. A defined article, plausible model route, strong rationale and a finite decision can justify material/model qualification before human efficacy exists. Do not require the result of an experiment as a prerequisite for funding that experiment.
+
+An initial qualified disease/control background can decide whether a larger replication effort is worthwhile. It cannot establish genotype generality. Independent backgrounds, a prespecified useful effect and relevant exposure belong to confirmation; avoid imposing the complete development package before a first feasibility result. Record the smallest informative deliverable and what happens if it succeeds, fails or is inconclusive.
+
+Scientifically worthwhile clinical work, a differentiated product and a proprietary company are separate opportunities. A generic or an active external program can still support valuable research, but a new developer must identify its contribution. Comparable efficacy with a meaningful improvement in tolerability, burden, delivery or another intended benefit can be valuable; superiority on every endpoint is unnecessary.
+
+Useful ongoing control or early developmental preservation can qualify on the intended indication. Permanent off-treatment cure and reversal of every established deficit are not universal requirements. Retain those distinctions in wording and endpoint selection.
+
+Stop expanding a desktop checklist once the next finite funding decision is clear. Reopen it for new evidence likely to change the target, exact article, model, window or product contribution. A negative assay is decisive only for a claim the qualified assay can test; an unpriced execution detail is not evidence against the biology.
 
 ## S-tier standard
 

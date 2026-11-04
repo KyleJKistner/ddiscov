@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current screening:** [Round 5](rounds/round5/README.md) adds 12 exact intervention/use records, with prior rounds and source lineage retained in the [cumulative register](portfolio-register.json). The tables below describe the original November archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current screening:** [Round 6](rounds/round6/README.md) adds six exact intervention/use records, with prior rounds and source lineage retained in the [cumulative register](portfolio-register.json). The tables below describe the original November archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

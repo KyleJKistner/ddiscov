@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-04",
+  "scope": "Six newly screened exact uses; proposed decisions for root integration, not direct shortlist changes",
+  "dedup_snapshot": "KyleJKistner/ddiscov main 44fe86f9b5d22914ce366bcef9f6c3667b1e14b2; 103 files",
+  "record_count": 6,
+  "s_tier_promotions": 0,
+  "actions_not_performed": ["outreach", "purchases", "clinical treatment", "experiments", "register edits", "commits"],
+  "records": [
+    {
+      "id": "R6-NL-01",
+      "name": "Topical ruxolitinib 1.5% cream for refractory Hailey-Hailey disease",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "Ruxolitinib 1.5% cream; marketed Opzelura label defines 15 mg ruxolitinib/g cream",
+      "disease_genotype_scope": "Hailey-Hailey disease associated with ATP2C1; no individual sequence-confirmed genotype established from the accessible single-case extraction",
+      "compartment_route": "Local topical treatment of established intertriginous lesions",
+      "proposed_disposition": "New independent-validation priority",
+      "promotion_scope": "Bounded controlled clinical proof; no S-tier or financeable proprietary-asset claim",
+      "evidence_stage": "Human established-lesion improvement; uncontrolled case plus abstract-only preprint cohort",
+      "evidence_units": [
+        {
+          "source_ids": ["H1"],
+          "unit": "One patient",
+          "n": 1,
+          "baseline": "77-year-old with recalcitrant Hailey-Hailey disease",
+          "treatment_timing": "Prior agents stopped; twice-daily ruxolitinib 1.5% cream to established disease",
+          "exposure": "Nominal topical 1.5%; no disease-specific systemic exposure quantified here",
+          "comparator": "Patient before treatment; no concurrent blinded control",
+          "useful_function": "Rapid pain relief and reported resolution in three days; use became intermittent because of cost; remissions lasted weeks followed by milder flares; images at three months",
+          "limitations": ["Single uncontrolled patient", "Relapsing disease and background-care confounding", "Three-month images do not establish uninterrupted dosing or remission", "No quantified mechanical barrier strength", "Not permanent off-treatment cure"],
+          "access": "Root independently read full publisher case; this agent verified abstract, figure captions, and publisher indexing"
+        },
+        {
+          "source_ids": ["H2"],
+          "unit": "Patients reported in a preprint abstract",
+          "n": 9,
+          "baseline": "Refractory Hailey-Hailey disease",
+          "useful_function": "Abstract reports re-epithelialization and reduced pain, itch, oozing and inflammation",
+          "access": "Verified abstract only; full text and supplement not audited",
+          "limitations": ["Not peer reviewed", "Exact genotype, regimen, background treatment and individual response denominators unverified", "Overlap with case reports unresolved; do not sum counts into an independent cohort"]
+        }
+      ],
+      "availability": {
+        "article_defined": true,
+        "reconstruction": "Existing labeled manufactured cream; independent reformulation has not been bridged",
+        "sourcing_route": "Current official marketed product label H3",
+        "physical_lot": "No received lot or stock confirmation",
+        "model_readiness": "Clinical lesion endpoints are directly relevant; controlled matched-lesion design remains proposed",
+        "exposure_window": "Other-disease label exposure does not establish absorption through eroded intertriginous HHD skin",
+        "rights": "A new developer's indication/formulation rights and differentiated contribution not established"
+      },
+      "current_programs": [
+        {
+          "article": "KB111, distinct ATP2C1-directed program",
+          "identifier": "NCT07717346 HALITE-1",
+          "source_id": "H4",
+          "as_of": "2026-11-02",
+          "status": "Enrollment complete at five patients; weekly dosing for 12 weeks ongoing; interim data expected before year-end",
+          "supersession": "Older anticipated enrollment of seven is not the current enrolled count"
+        }
+      ],
+      "proposed_next_proof": "Controlled matched-lesion test on stable documented background care; measure closure, lesion-free time, pain, rescue treatment, recurrence and local/systemic exposure",
+      "advance_if": ["Prespecified useful benefit over vehicle/background care across independent patients", "Sustainable useful control with an acceptable measured exposure window", "A differentiated clinical dataset, formulation/regimen or formal indication path is feasible"],
+      "stop_if": ["No meaningful advantage in efficacy, tolerability, treatment burden or another intended product benefit over appropriate care", "Effect disappears after background-treatment control", "Effective exposure has an unacceptable local/systemic window", "No substantive contribution beyond prescribing an existing cream for the proposed new-company thesis"],
+      "not_required": ["Permanent off-treatment cure", "Author reply as scientific prerequisite"],
+      "source_ids": ["H1", "H2", "H3", "H4"]
+    },
+    {
+      "id": "R6-NL-02",
+      "name": "Manganese sulfate monohydrate for manganese-deficient SLC39A8-related ataxia",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "Oral manganese sulfate monohydrate in the 2025 adult case; preserve salt versus elemental mass",
+      "disease_genotype_scope": "SLC39A8 deficiency with low manganese; adult case homozygous c.610G>T p.Gly204Cys",
+      "compartment_route": "Oral replacement for systemic manganese deficiency with neurological functional endpoints",
+      "proposed_disposition": "Comparator or clinical-research benchmark",
+      "promotion_scope": "High human-value replacement/monitoring question; proprietary product thesis unestablished",
+      "evidence_stage": "Human established motor-deficit improvement, with within-person withdrawal/reintroduction",
+      "evidence_units": [
+        {
+          "source_ids": ["M1"],
+          "unit": "Adult patient",
+          "n": 1,
+          "baseline": "34-year-old with approximately 12 years of progressive cerebellar ataxia and low serum manganese",
+          "treatment_timing": "After longstanding deficit",
+          "exposure": "Reported monohydrated manganese sulfate 10 mg/day increased toward 60 mg/day; salt mass is not elemental manganese mass",
+          "comparator": "Before/after; inadvertent discontinuation followed by relapse and reintroduction followed by improvement",
+          "useful_function": "Gait, coordination and independence improved; baseline/nine-month video",
+          "limitations": ["Unblinded single patient", "No controlled quantitative effect estimate", "Cognitive improvement was subjective", "Likely pathogenic variant not independently functionally validated in this extraction"]
+        },
+        {
+          "source_ids": ["M2"],
+          "unit": "Patients in prior report",
+          "n": 2,
+          "useful_function": "Motor, hearing and other neurological improvement with biochemical correction",
+          "limitations": ["Different MnSO4 dose convention", "Do not add earlier diagnostic and later follow-up reports as independent cases", "Primary abstract checked; complete genotype/formulation comparison not audited"]
+        },
+        {
+          "source_ids": ["M3"],
+          "unit": "Bulgarian pediatric case",
+          "n": 1,
+          "useful_function": "Abstract reports new motor milestones during oral manganese sulfate treatment",
+          "limitations": ["Exact formulation and dosing schedule not audited from full text", "No quantitative pooled effect estimate"]
+        }
+      ],
+      "availability": {
+        "article_defined": true,
+        "reconstruction": "Defined monohydrate; qualification does not depend on author reply",
+        "sourcing_route": "Specific trial-quality oral source not verified in this screen",
+        "physical_lot": "Not received",
+        "model_readiness": "Clinical functional and biochemical monitoring route is published; prospective controlled execution not established",
+        "rights": "No proprietary product contribution or commercial clearance established"
+      },
+      "proposed_next_proof": "Prospective genotype/baseline-stratified functional cohort with defined formulation, exposure, gait/ataxia and independence measurements",
+      "advance_if": ["Interpretable prospective functional improvement and a defined safe monitoring/formulation route", "A practical clinical-research contribution beyond rediscovering replacement"],
+      "stop_if": ["Generalization to ataxia without relevant deficiency", "Commodity replacement is presented as S-tier venture asset without differentiated product value"],
+      "not_required": ["Deliberate withdrawal of beneficial replacement to recreate a published inadvertent interruption"],
+      "source_ids": ["M1", "M2", "M3"]
+    },
+    {
+      "id": "R6-NL-03",
+      "name": "Nicotinamide for NAXE deficiency",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "Nicotinamide, synonym niacinamide; distinct from nicotinic acid, nicotinamide riboside and NAXD combination therapy",
+      "disease_genotype_scope": "NAXE-related encephalopathy; 2026 cohort enriched for p.Lys245Gln, with no all-variant efficacy claim",
+      "compartment_route": "Oral NAD precursor support; functional neurological and respiratory outcomes",
+      "proposed_disposition": "Conditional clinical-research reserve",
+      "promotion_scope": "Prospective functional clinical study; no proprietary asset claim",
+      "evidence_stage": "Retrospective human cohort with functional improvements and a severe nonresponder",
+      "evidence_units": [
+        {
+          "source_ids": ["N1"],
+          "unit": "Treated NAXE patients",
+          "n": 6,
+          "parent_cohort": "Nine total: eight NAXE plus one NAXD; not nine treated NAXE",
+          "treatment_timing": "Started 0.08-3.5 years after onset",
+          "exposure": "Nicotinamide 180-500 mg/day reported",
+          "comparator": "Retrospective prior state; no randomized contemporaneous control",
+          "useful_function": "Five of six with reported ataxia/tone improvement at three to six months; median NAXE follow-up 3.76 years",
+          "negative": "Patient 7 remained unconscious and continuously ventilated despite treatment; survival is not motor rescue",
+          "confounding": "Four of six also received acute short-term vitamin cocktails, later stopped",
+          "tolerability": "One patient reduced dose for flushing/perioral rash",
+          "lineage_limits": ["Pooled 59-case literature analysis is not 59 new independent patients", "NAXD patient follow-up was previously published", "NAXD biochemical work does not demonstrate NAXE drug response", "Postmortem untreated diagnoses create selection and survival bias"]
+        },
+        {
+          "source_ids": ["N2"],
+          "unit": "Independent negative NAXE case",
+          "n": 1,
+          "article_identity": "High-dose niacin in accessible abstract; exact dispensed species requires full-text identity audit before pooling as nicotinamide",
+          "useful_function": "Initial transient stabilization followed by progression and death",
+          "access": "Abstract and figure captions verified; full-text species not independently confirmed in this extraction"
+        }
+      ],
+      "availability": {
+        "article_defined": true,
+        "reconstruction": "Known small molecule; identity need not depend on author reply",
+        "sourcing_route": "Specific trial-quality formulation/source not qualified",
+        "physical_lot": "Not received",
+        "model_readiness": "Published clinical functional endpoints; no ready NAXE neuronal drug-response assay established by the NAXD biochemical data",
+        "rights": "No demonstrated proprietary contribution or freedom-to-operate conclusion"
+      },
+      "proposed_next_proof": "Prospective genotype/severity-stratified functional study recording exact vitamin species, timing and background care; outcomes include mobility, consciousness, respiratory dependence and episode burden",
+      "advance_if": ["Interpretable durable functional benefit beyond baseline severity and concurrent care", "A concrete clinical-study or formulation contribution is established"],
+      "stop_if": ["Universal reversal claim despite severe functional nonresponse", "Survival pooled with functional recovery", "Vitamin B3 species treated as interchangeable"],
+      "source_ids": ["N1", "N2"]
+    },
+    {
+      "id": "R6-NL-04",
+      "name": "Fluoxetine for slow-channel congenital myasthenic syndrome",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "Oral fluoxetine; active norfluoxetine exposure kept separate from parent",
+      "disease_genotype_scope": "Genetically and functionally established slow-channel acetylcholine-receptor syndrome, not congenital myasthenia generally; 2022 family source reports CHRNA1 p.Gly153Ala",
+      "compartment_route": "Oral treatment of neuromuscular junction channel kinetics",
+      "proposed_disposition": "Comparator or established repurposing benchmark",
+      "promotion_scope": "Useful positive-control benchmark; new product contribution needed for fresh development",
+      "evidence_stage": "Mechanistic channel correction plus small human strength/EMG reports",
+      "evidence_units": [
+        {
+          "source_ids": ["F1"],
+          "unit": "Quinidine-allergic slow-channel patients",
+          "n": 2,
+          "treatment_timing": "Established disease; reported three-year treatment",
+          "exposure": "Historical 80-120 mg/day; serum 8-11 micromolar combined fluoxetine plus norfluoxetine, not free parent concentration",
+          "comparator": "Patient baseline; no concurrent randomized control",
+          "useful_function": "Marked quantitative strength and EMG improvement",
+          "mechanistic_support": "Receptor open bursts shortened in transfected cells at 5 micromolar, approaching normal at 10 micromolar",
+          "limitations": ["Two uncontrolled patients", "Specific clinical genotypes not recovered from verified abstract", "Combined serum analytes do not establish free-parent therapeutic margin"]
+        },
+        {
+          "source_ids": ["F2"],
+          "unit": "Published follow-up case",
+          "n": 1,
+          "useful_function": "Abstract reports strength/endurance improvement and cessation of ventilatory support",
+          "access": "Abstract-level; precise dose/genotype not independently extracted"
+        },
+        {
+          "source_ids": ["F3"],
+          "unit": "One Thai family in a prospective open-label study",
+          "n": null,
+          "useful_function": "Strength/endurance improvement with variable respiratory response",
+          "limitations": ["Participant number not audited from full text", "One shared family is not multiple independent genotypes"]
+        }
+      ],
+      "availability": {
+        "article_defined": true,
+        "sourcing_route": "Current official marketed fluoxetine hydrochloride capsule label F4",
+        "physical_lot": "Not received",
+        "model_readiness": "Published channel and clinical functional measurements; not a ready universal-CMS assay",
+        "rights": "No new indication/formulation rights assessed"
+      },
+      "proposed_next_proof": "Only if a defined unmet genotype, exposure or formulation limitation exists; evaluate strength/endurance, repetitive stimulation and respiration against appropriate existing management",
+      "advance_if": ["A proposed new product solves a meaningful limitation of established repurposing"],
+      "stop_if": ["Molecular subtype is not slow-channel gain of function", "Novelty rests solely on rediscovering the old human response"],
+      "source_ids": ["F1", "F2", "F3", "F4"]
+    },
+    {
+      "id": "R6-NL-05",
+      "name": "ABX-1431 for AP4B1-SPG47 developmental functional rescue",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "ABX-1431 = Lu AG06466 = elcubragistat; irreversible covalent MGLL inhibitor; MCE HY-117632, prepared in DMSO in the published study",
+      "disease_genotype_scope": "AP4B1-associated hereditary spastic paraplegia SPG47",
+      "compartment_route": "Human iPSC-derived neuronal culture; systemic CNS treatment remains a development hypothesis",
+      "proposed_disposition": "Conditional reserve",
+      "promotion_scope": "Bounded functional-validation project; developmental outgrowth signal is not mature disease reversal",
+      "evidence_stage": "Early human neuronal morphological rescue",
+      "evidence_units": [
+        {
+          "source_ids": ["A1"],
+          "unit": "Independent patient-derived iPSC backgrounds in drug outgrowth experiment",
+          "n": 2,
+          "donor_lines": [
+            {"line": "BCHNEUi001-A", "variants": ["AP4B1 c.1345A>T p.Arg449Ter", "AP4B1 c.1160_1161del p.Thr387ArgfsTer30"]},
+            {"line": "BCHNEUi005-A", "variants": ["AP4B1 c.1216C>T p.Arg406Ter", "AP4B1 c.1328T>C p.Leu443Pro"]}
+          ],
+          "comparator": "Unaffected sex-matched heterozygous parents, not isogenic corrected controls",
+          "treatment_timing": "Day-six neurons replated and drug added; imaging begins four hours after plating then every three hours through 25 hours",
+          "exposure": "10/50 nM improved outgrowth; 100 nM partial; 500 nM ineffective",
+          "useful_function": "Neurite length and branching; no demonstrated electrical connectivity or motor recovery",
+          "technical_units": "Main panel 18 images from two biological replicates, not 18 donors",
+          "limitations": ["Third patient line used for other measurements is not a third drug-response donor", "No established mature functional deficit before drug", "No verified three-hour delayed drug start", "Nonmonotonic dose-response", "Morphology-only rescue"]
+        },
+        {
+          "source_ids": ["A1"],
+          "unit": "Mouse brain biochemical comparison",
+          "n": null,
+          "finding": "Reduced brain 2-AG with AP-4 deficiency supports pathway",
+          "limitation": "Not a drug-treated in-vivo motor rescue experiment"
+        }
+      ],
+      "same_article_other_indication": {
+        "source_id": "A3",
+        "identifier": "NCT03625453",
+        "n": 49,
+        "population": "Adults with Tourette syndrome",
+        "finding": "Twelve-week randomized trial did not establish tic efficacy; week-eight comparison favored placebo",
+        "tolerability_detail": "Dose reductions for adverse events in 14/23 drug versus 3/26 placebo; attention/fatigue events",
+        "interpretation": "No AP4B1 efficacy transfer or target disproof; adult exposure does not establish a chronic pediatric window"
+      },
+      "availability": {
+        "article_defined": true,
+        "reconstruction": "Published exact article and study supplier identifier; independent synthesis not performed",
+        "sourcing_route": "Current MCE elcubragistat HY-117632 catalog, research use only",
+        "physical_lot": "Not received or independently qualified",
+        "model_readiness": "Published donor lines and early outgrowth assay; useful connectivity or maintenance endpoint still to qualify",
+        "rights": "Prior Abide/Lundbeck development is public; current commercial rights and AP4-specific program status not established"
+      },
+      "proposed_next_proof": "Qualify exact lot, occupancy/time course and independent AP4B1/corrected controls; measure useful connectivity or sustained axon function, with a delayed-treatment arm after a measured deficit",
+      "advance_if": ["Functional benefit replicates beyond morphology across independent backgrounds", "Measured occupancy/exposure supports a plausible chronic window", "Developmental preservation or mature rescue is explicitly matched to the intended use"],
+      "stop_if": ["Effect remains imaging-only or nonspecific developmental acceleration", "Effect depends on one line", "No useful benefit at a plausible occupancy/tolerability window"],
+      "not_required": ["Human AP4 efficacy before funding a bounded preclinical proof", "Adult reversal if a useful developmental-preservation product is supported"],
+      "source_ids": ["A1", "A2", "A3"]
+    },
+    {
+      "id": "R6-NL-06",
+      "name": "Erythromycin MYD-0124 for adult myotonic dystrophy type 1",
+      "new_exact_use_in_snapshot": true,
+      "exact_article": "Erythromycin clinical trial article MYD-0124; generic salt/formulation interchangeability not established",
+      "disease_genotype_scope": "Adult ambulatory DM1 with expanded DMPK CTG repeats; trial population selected for safety",
+      "compartment_route": "Oral treatment with skeletal-muscle and functional clinical endpoints",
+      "proposed_disposition": "Hold",
+      "promotion_scope": "Do not initiate a new independent product thesis on biomarker positivity alone",
+      "evidence_stage": "Randomized human trial supports tolerability but does not establish useful functional benefit",
+      "evidence_units": [
+        {
+          "source_ids": ["E1", "E2"],
+          "identifier": "jRCT2051190069",
+          "unit": "Randomized adult participants",
+          "n": 30,
+          "groups": {"placebo": 6, "500_mg_per_day": 12, "800_mg_per_day": 12},
+          "treatment_timing": "24 weeks in established adult disease",
+          "primary_endpoint": "Safety and tolerability",
+          "useful_function": "No established useful between-group benefit in six-minute walk, strength, myotonia and related clinical measures",
+          "biomarker_detail": "Six prespecified splice markers not significant between groups; two of five added post-hoc markers nominally positive in pooled drug comparison; CK not conventionally significant",
+          "biological_denominator": "Half the randomized participants assigned to biopsy, not all 30",
+          "safety_limits": "Major ECG/cardiac and other abnormalities excluded; safety does not transfer to unrestricted DM1",
+          "source_consistency": "Registry sex counts have apparent transcription inconsistency; use publication for demographic extraction",
+          "claim_limit": "Low power does not prove zero benefit; published trial does not establish compelling functional restoration"
+        }
+      ],
+      "availability": {
+        "article_defined": "Trial code and erythromycin exposure defined; exact substitution bridge not complete",
+        "sourcing_route": "AMED historical report describes audited Mylan EPD trial manufacture and supply",
+        "physical_lot": "No present stock or received lot established",
+        "model_readiness": "Published controlled clinical functional endpoints; no new differentiated proof ready",
+        "rights": "Publication discloses Osaka University patents JP6460552B2, US10500223B2 and EP3323419B1; no FTO conclusion"
+      },
+      "current_program_search": "Completed phase 2 registry recovered; no current later-phase registration verified in the targeted search. Future-trial intent in a paper is not current enrollment.",
+      "proposed_next_proof": "Only reopen for a defined exposure/formulation improvement with prespecified useful function or a new controlled clinical result",
+      "advance_if": ["Useful functional result changes the conclusion", "A differentiated contribution beyond the existing university program is demonstrated"],
+      "stop_if": ["Promotion relies on exploratory splice markers or nonsignificant CK without functional benefit"],
+      "source_ids": ["E1", "E2", "E3"]
+    }
+  ],
+  "sources": [
+    {"id":"H1","date":"2026-03-13","doi":"10.1093/skinhd/vzag002","url":"https://academic.oup.com/skinhd/article/6/3/310/8519347","alternate_url":"https://pubmed.ncbi.nlm.nih.gov/42222696/","type":"Primary peer-reviewed case report","access":"Full case read independently by root; abstract/figures and publisher indexing verified by this agent"},
+    {"id":"H2","date":"2026-06-04","doi":"10.64898/2026.06.01.729262","url":"https://pubmed.ncbi.nlm.nih.gov/42282850/","type":"Primary preprint","access":"Abstract only; full text and supplement not audited"},
+    {"id":"H3","date":"2026-06-30","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24da5509-6631-4795-9d42-273faecd08e7","type":"Official product label","access":"Current label independently checked by root and indexed source checked by this agent"},
+    {"id":"H4","date":"2026-11-02","url":"https://www.sec.gov/Archives/edgar/data/1711279/000171127926000072/exhibit991-3q26pressrelease.htm","type":"Primary sponsor SEC filing","access":"Full relevant text verified"},
+    {"id":"M1","date":"2025","doi":"10.1002/mdc3.70001","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12070170/","type":"Primary case report","access":"Full relevant text verified through web retrieval"},
+    {"id":"M2","date":"2017-07-27","issue_date":"2018-02","doi":"10.1038/gim.2017.106","url":"https://pubmed.ncbi.nlm.nih.gov/28749473/","type":"Primary two-patient report","access":"Abstract verified"},
+    {"id":"M3","date":"2026-01-09","doi":"10.7759/cureus.101202","url":"https://pubmed.ncbi.nlm.nih.gov/41669571/","type":"Primary pediatric case report","access":"Abstract verified; full formulation and timing not audited"},
+    {"id":"N1","date":"2026-01-23","doi":"10.1186/s13023-026-04218-4","url":"https://link.springer.com/article/10.1186/s13023-026-04218-4","type":"Primary retrospective cohort","access":"Full text verified"},
+    {"id":"N2","date":"2024-05-09","doi":"10.1002/jmd2.12425","url":"https://pubmed.ncbi.nlm.nih.gov/38974613/","type":"Primary negative case report","access":"Abstract and figures verified; exact dispensed vitamin species not independently confirmed"},
+    {"id":"F1","date":"2003-05-27","doi":"10.1212/01.WNL.0000061483.11417.1B","url":"https://pubmed.ncbi.nlm.nih.gov/12771277/","alternate_url":"https://mayoclinic.elsevierpure.com/en/publications/treatment-of-slow-channel-congenital-myasthenic-syndrome-with-flu/","type":"Primary two-patient and channel study","access":"Published and author-institution abstracts verified"},
+    {"id":"F2","date":"2006","url":"https://pubmed.ncbi.nlm.nih.gov/16621558/","type":"Primary case report","access":"Abstract-level extraction"},
+    {"id":"F3","date":"2022","url":"https://pubmed.ncbi.nlm.nih.gov/34999496/","type":"Primary prospective open-label family study","access":"Abstract-level extraction"},
+    {"id":"F4","date":null,"verified_date":"2026-11-04","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d121146e-7439-4169-a421-dab7b882b8aa","type":"Official product label","access":"Current label source indexed"},
+    {"id":"A1","date":"2022-02-25","doi":"10.1038/s41467-022-28609-w","url":"https://www.nature.com/articles/s41467-022-28609-w","alternate_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8881493/","type":"Primary human iPSC and mechanistic study","access":"Full relevant text and methods verified through web retrieval"},
+    {"id":"A2","date":null,"verified_date":"2026-11-04","url":"https://www.medchemexpress.com/elcubragistat.html","type":"Primary manufacturer catalog","access":"Current listing verified; research use only"},
+    {"id":"A3","date":"2021-06-12","doi":"10.1002/mds.28681","url":"https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28681","alternate_url":"https://pubmed.ncbi.nlm.nih.gov/34117788/","type":"Primary randomized controlled trial in different indication","access":"Abstract and adverse-event table verified"},
+    {"id":"E1","date":"2023-12-26","doi":"10.1016/j.eclinm.2023.102390","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10837534/","type":"Primary randomized phase 2 trial","access":"Full relevant text verified through web retrieval"},
+    {"id":"E2","date":"2024-01-11","verified_date":"2026-11-04","url":"https://jrct.mhlw.go.jp/en-latest-detail/jRCT2051190069","type":"Official trial registry and submitted results","access":"Current record verified"},
+    {"id":"E3","date":"2023-04","url":"https://www.amed.go.jp/content/000116267.pdf","type":"Primary funder project report","access":"Indexed manufacturing text verified; historical supply only"}
+  ]
+}

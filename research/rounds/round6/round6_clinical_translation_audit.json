@@ -1,0 +1,99 @@
+{
+  "evidence_cut": "2026-11-04",
+  "source": {
+    "doi": "10.1177/22143602261471202",
+    "url": "https://journals.sagepub.com/doi/10.1177/22143602261471202",
+    "published_online": "2026-08-14",
+    "source_locations": [
+      "Table 1",
+      "Results: study subjects",
+      "Figure 5 caption"
+    ]
+  },
+  "cohort": {
+    "screened": 26,
+    "DNM2": 15,
+    "MTM1": 11,
+    "entered_interventional_trial": 14,
+    "prior_NatHis": 8,
+    "run_in_only": 18,
+    "same_cohort_as_2025_liver_report": true
+  },
+  "MTM1_age_audit": {
+    "male_n": 6,
+    "male_ages_years": [
+      19,
+      24,
+      20,
+      25,
+      18,
+      58
+    ],
+    "male_median_years": 22.0,
+    "female_n": 5,
+    "female_ages_years": [
+      52,
+      53,
+      57,
+      58,
+      61
+    ],
+    "female_median_years": 57,
+    "pooled_median_years": 52,
+    "interpretation": "The reported mixed-sex MTM1 median of 52 is not the median age of the six male patients; this is a descriptive cohort calculation, not a population estimate."
+  },
+  "DNM2_figure5_caption_arithmetic": {
+    "combined_CNM_mean_ng_per_ug": 0.0663,
+    "combined_n": 12,
+    "DNM2_subgroup_mean": 0.0601,
+    "DNM2_n": 8,
+    "MTM1_subgroup_mean": 0.0457,
+    "MTM1_n": 4,
+    "derived_weighted_mean": 0.055299999999999995,
+    "status": "Unreconciled. A weighted mean of the stated two subgroups cannot exceed both subgroup means. No corrected biological mean, effect size or p value inferred. Figure image and participant-level raw data were not retrieved."
+  },
+  "registry_checks": [
+    {
+      "nct": "NCT04033159",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04033159",
+      "sha256": "4410b2def24ef7125b5c8fa5d436ac74ec419ee26837167b38c3b3a2ffbc2124",
+      "status": "TERMINATED",
+      "last_update_posted": "2023-06-27",
+      "has_results": true,
+      "actual_enrollment": {
+        "count": 14,
+        "type": "ACTUAL"
+      },
+      "allocation": "NON_RANDOMIZED",
+      "locations": [
+        "Antwerp University Hospital (UZA)",
+        "Rigshospitalet, Copenhagen Neuromuscular Center, Neurocentret",
+        "Institut de Myologie",
+        "universit\u00e4tsklinikum Essen, Kinderklinik I, Sozialp\u00e4diatrisches Zentrum",
+        "Friedrich Baur Institut - Neurologische Klinik LMV, Klinikum Innenstadt",
+        "Radboud University Medical Centre",
+        "MRC centre for Neuromuscular Disease, National Hospital for Neurology and Neurosurgery",
+        "Royal Victoria Infirmary"
+      ]
+    },
+    {
+      "nct": "NCT04915846",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04915846",
+      "sha256": "63f51db84f82e9b75495d9357ee887a1388a5877db7c26b1bddcbfdb5be212ea",
+      "status": "TERMINATED",
+      "last_update_posted": "2024-09-19",
+      "has_results": false,
+      "actual_enrollment": {
+        "count": 6,
+        "type": "ACTUAL"
+      },
+      "allocation": "RANDOMIZED",
+      "locations": [
+        "Ann and Robert H. Lurie Children's Hospital of Chicago",
+        "National Institutes of Health",
+        "Hospital for Sick Children",
+        "Great Ormond Street Hospital for Children"
+      ]
+    }
+  ]
+}

@@ -2,16 +2,16 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The first milestone is a reproducible preclinical result useful for development. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after round 5.** BLU3797 remains the leading staged human-function proof after additional target, pharmacology, source-data and human-model review. This round adds 12 exact intervention/use screens and updates seven existing candidates, including the recovered dantrolene clinical comparator. Four new human-evidence reserves strengthen the shortlist. No candidate is represented as a fully qualified S-tier asset or guaranteed to attract funding.
+**Status: 4 November 2026, after round 6.** BLU3797 merits an initial material/model qualification project with a conditional human-function comparison. Enasidenib's broad pediatric-formulation hold is removed after direct sprinkle-use evidence; topical ruxolitinib/Hailey–Hailey joins the independent-validation priorities. This sprint adds six exact intervention/use screens, updates three priority candidates and separately clarifies two clinical comparators. No candidate is yet a fully qualified S-tier asset; a finite early research milestone can still be worth funding.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
-| [Round 5 research](research/rounds/round5/README.md) | BLU development proof, 12 new screens, seven existing-candidate updates and recovered clinical results. |
+| [Round 6 research](research/rounds/round6/README.md) | BLU translational challenge, stronger enasidenib evidence, six new screens and integrated continuation findings. |
 | [Cumulative register](research/portfolio-register.json) | Original coverage, generated proposals, later screens, source URLs and decision history. |
 | [Research-round archive](research/rounds/README.md) | Prior diligence and portfolio resets, including the original three emphasized candidates. |
-| [BLU3797 human-function proof](research/rounds/round5/blu3797-human-proof.md) | Exact article, human models, functional decision and relevant-tissue exposure window. |
+| [BLU3797 funding milestone](research/rounds/round6/round6_blu_milestone.md) | Finite qualification, exploratory human function, then confirmation and relevant exposure. |
 | [Earlier BLU source audit](research/rounds/round4/blu3797-audit.md) | Source-cell analysis, animal-regimen limits and public synthesis-route reconciliation. |
 | [Program atlas](atlas/README.md) | The original 35 registry families, organized by intended restored function. |
 | [Earlier research ledger](research/README.md) | The original 31 archive phases and subsequent review entry points. |
@@ -30,6 +30,6 @@ The evidence base includes positive findings, negative follow-up, primary correc
 
 ## Counting and history
 
-The reviewed original inventory has 622 overlapping coverage rows and 743 review assignments. Round 2 contains 30 generated proposals. Round 3 adds 36 candidate/use screens, of which 34 were new to the reviewed inventory and two expanded earlier concepts. Round 4 adds 22 exact intervention-use records. Round 5 adds 12 further exact uses and seven existing-candidate updates. These counts describe different units and must not be added into a count of independent validated drugs.
+The reviewed original inventory has 622 overlapping coverage rows and 743 review assignments. Round 2 contains 30 generated proposals. Round 3 adds 36 candidate/use screens, of which 34 were new to the reviewed inventory and two expanded earlier concepts. Round 4 adds 22 exact intervention-use records. Round 5 adds 12 further exact uses and seven existing-candidate updates. Round 6 adds six new exact uses, three priority-candidate updates and two separately identified clinical-comparator clarifications. These counts describe different units and must not be added into a count of independent validated drugs.
 
 The current shortlist governs selection. Earlier comparisons and PDFs remain historical evidence; later corrections and integrated decisions take precedence. Commit history records publication changes separately from the dates of the underlying studies.

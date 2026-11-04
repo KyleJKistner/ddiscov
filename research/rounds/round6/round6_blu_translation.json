@@ -1,0 +1,525 @@
+{
+  "schema_version": "1.0",
+  "review_id": "round6_blu_translation",
+  "reviewed_at": "2026-11-04",
+  "base_commit": "44fe86f9b5d22914ce366bcef9f6c3667b1e14b2",
+  "scope": "Public-source BLU3797/MTM1 translational evidence extension. No outreach, experiments, purchases, commercial clearance or shared-register changes.",
+  "article": "BLU3797",
+  "target": "PIK3C2B",
+  "disease": "MTM1-related myotubular myopathy",
+  "decision": {
+    "disposition": "Leading staged proof",
+    "s_tier": false,
+    "rank_change": "No automatic promotion or rejection",
+    "material_delta": "Add cellular C2alpha sparing and exposure-matched mitochondrial function to the focused muscle proof; preserve adult-stage and respiratory-function questions as distinct bridges.",
+    "reason": "New mitochondrial-fusion evidence creates a testable target/isoform hazard. Selective vascular and chronic catalytic-loss evidence prevents assigning combined-deletion injury to exact BLU3797.",
+    "exact_blu_toxicity_demonstrated_by_new_sources": false,
+    "exact_blu_new_efficacy_dataset_found": false
+  },
+  "findings": [
+    {
+      "id": "R6-BT-F01",
+      "novelty": "New-to-portfolio mechanism, including October 2026 primary publication and directly audited underlying thesis",
+      "title": "Class-II PI3K-dependent mitochondrial fusion requires an exposure-linked challenge",
+      "evidence_ids": [
+        "BT-E01",
+        "BT-E02",
+        "BT-E03"
+      ],
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "decision_delta": "Measure cellular C2alpha sparing and useful mitochondrial/contractile function at muscle-effective free exposure.",
+      "boundaries": [
+        "Cardiac injury is from combined C2alpha/C2beta deletion, not selective C2beta inhibition.",
+        "Individual C2beta protein depletion fragments mitochondria in transformed cells, so alpha sparing cannot by itself dismiss a beta-related mechanism.",
+        "The kinase-dead add-back experiment is under double depletion and does not isolate beta-only catalysis.",
+        "Thesis and Science paper share research lineage and are not independent replications."
+      ]
+    },
+    {
+      "id": "R6-BT-F02",
+      "novelty": "New vascular comparison to portfolio and new verification of previously cited catalytic-loss supplement",
+      "title": "Tissue-specific redundancy and bounded chronic reassurance preserve a plausible selective window",
+      "evidence_ids": [
+        "BT-E04",
+        "BT-E05",
+        "BT-E06"
+      ],
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "decision_delta": "Do not reject all selective C2beta inhibition from dual-loss injury; do not treat normal histology as a quantitative systemic safety margin.",
+      "boundaries": [
+        "Vascular experiment shares Aki/Takuwa investigators with the newer mitochondrial work.",
+        "Blood-pressure and cell-contraction results do not establish cardiac mitochondrial safety.",
+        "Animal denominator for the 38-tissue histology claim was not recovered; 38 denotes tissue categories."
+      ]
+    },
+    {
+      "id": "R6-BT-F03",
+      "novelty": "New adult-maintenance model route to this review",
+      "title": "Adult-local Mtm1 deletion separates adult dependence from juvenile development",
+      "evidence_ids": [
+        "BT-E07"
+      ],
+      "source_ids": [
+        "S05"
+      ],
+      "decision_delta": "Retain as an optional orthogonal adult bridge, requiring a delayed positive rescue control before negative target inference.",
+      "boundaries": [
+        "No PIK3C2B or BLU3797 intervention in the accessed primary abstract.",
+        "Local adult onset does not reproduce longstanding congenital systemic disease.",
+        "No animal N or exact force magnitude assigned because full publisher article was not retrieved."
+      ]
+    },
+    {
+      "id": "R6-BT-F04",
+      "novelty": "New endpoint and denominator audit of an established comparator",
+      "title": "Resting respiratory normalization can coexist with reduced diaphragm maximal force",
+      "evidence_ids": [
+        "BT-E08"
+      ],
+      "source_ids": [
+        "S06"
+      ],
+      "decision_delta": "Withhold BLU respiratory claims until respiratory-muscle capacity is demonstrated; motor/limb endpoints are insufficient.",
+      "boundaries": [
+        "Different target and germline intervention; not exact-BLU or delayed-treatment evidence.",
+        "Six-month untreated Mtm1-null comparison unavailable because those animals did not survive.",
+        "Figure and methods use different denominator wording."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "BT-E01",
+      "source_ids": [
+        "S01"
+      ],
+      "model": "Cardiomyocyte-specific C2alpha/C2beta double-deletion mice",
+      "intervention_type": "Protein deletion, two isoforms",
+      "tissue": "Heart",
+      "timing": "Not verified from accessible abstract",
+      "baseline_deficit": "Not applicable to an MTM1 rescue experiment",
+      "endpoint": "Mitochondrial fragmentation and heart failure",
+      "result_direction": "Adverse after combined deletion",
+      "denominator": {
+        "animals": null,
+        "reason": "Final full article and supplement inaccessible"
+      },
+      "exact_blu": false,
+      "catalytic_inhibition_isolated": false,
+      "single_c2beta_cardiac_outcome": "Unverified",
+      "primary_support": "Indexed original abstract and author-institution release"
+    },
+    {
+      "id": "BT-E02",
+      "source_ids": [
+        "S02"
+      ],
+      "locator": "Figures 4-10, 4-15, 4-16; printed pages 153, 160, 161",
+      "model": [
+        "HeLa",
+        "COS7",
+        "A549"
+      ],
+      "intervention_type": "Individual C2alpha siRNA, individual C2beta siRNA, combined siRNA",
+      "endpoint": "Mitochondrial morphology",
+      "result": "Individual and combined depletion produce fragmentation",
+      "denominator": {
+        "cells_per_condition_per_experiment_minimum": 30,
+        "independent_experiments": 3,
+        "independent_donors": null,
+        "structure": "Cells nested within experiments; multiple cell lines are distinct contexts, not multiple patient donors"
+      },
+      "raw_values_reanalyzed": false,
+      "effect_size_numeric": null,
+      "limitations": [
+        "Deep protein depletion is not equivalent to reversible catalytic inhibition.",
+        "Transformed cells are not adult cardiomyocytes or MTM1-patient myofibers.",
+        "Author text notes limited peripheral-ROI dynamic range; quantified double depletion not more severe than individual depletion."
+      ]
+    },
+    {
+      "id": "BT-E03",
+      "source_ids": [
+        "S02"
+      ],
+      "locator": "Figure 4-14; printed page 158; physical PDF page 168",
+      "model": "HeLa under combined C2alpha/C2beta siRNA depletion",
+      "intervention_type": "siRNA-resistant WT and kinase-dead add-back",
+      "constructs": [
+        "C2alpha-D1268A",
+        "C2beta-D1213A"
+      ],
+      "comparators": [
+        "Control",
+        "Double depletion",
+        "WT alpha",
+        "WT beta",
+        "WT alpha plus WT beta",
+        "KD alpha",
+        "KD beta",
+        "KD alpha plus KD beta"
+      ],
+      "endpoint": "Mitochondrial morphology",
+      "result": "The clearly restored group is combined WT alpha plus WT beta; kinase-dead combinations fail.",
+      "interpretation": "Supports a catalytic contribution in the combined-depletion context. Does not establish a clean beta-only catalytic-rescue result.",
+      "denominator": {
+        "cells_per_condition_per_experiment_minimum": 15,
+        "independent_experiments": 3
+      },
+      "visual_figure_checked": true,
+      "exact_blu": false,
+      "raw_values_reanalyzed": false,
+      "effect_size_numeric": null
+    },
+    {
+      "id": "BT-E04",
+      "source_ids": [
+        "S03"
+      ],
+      "locator": "Methods; Figure 3; Figure 4",
+      "model": "Male mice, 10 to 12 weeks",
+      "intervention_type": "Constitutive SM22alpha-Cre C2alpha deletion and global C2beta deletion",
+      "comparisons": [
+        {
+          "name": "Smooth-muscle C2alpha-only deletion",
+          "control_genotype": "C2alpha flox/flox",
+          "control_n": 10,
+          "treated_genotype": "C2alpha flox/flox; SM22alpha-Cre",
+          "treated_n": 10,
+          "unit": "Mice",
+          "endpoint": "Systolic, diastolic and mean blood pressure",
+          "result": "No difference detected"
+        },
+        {
+          "name": "Global C2beta-only deletion",
+          "control_genotype": "C2beta WT",
+          "control_n": 10,
+          "treated_genotype": "C2beta null",
+          "treated_n": 9,
+          "unit": "Mice",
+          "endpoint": "Systolic, diastolic and mean blood pressure",
+          "result": "No difference detected"
+        },
+        {
+          "name": "Double deletion",
+          "control_genotype": "C2alpha flox/flox; C2beta null",
+          "control_n": 13,
+          "treated_genotype": "C2alpha flox/flox; C2beta null; SM22alpha-Cre",
+          "treated_n": 10,
+          "unit": "Mice",
+          "endpoint": "Systolic, diastolic and mean blood pressure",
+          "result": "Reduced"
+        },
+        {
+          "name": "Double deletion aortic rings",
+          "control_n": 3,
+          "treated_n": 3,
+          "unit_as_reported": "n per group",
+          "endpoint": "Noradrenaline- and KCl-evoked isometric contraction",
+          "result": "Attenuated"
+        }
+      ],
+      "unique_total_animals": null,
+      "unique_total_reason": "Do not sum figure-group counts across experiments without animal identity linkage.",
+      "exact_blu": false,
+      "selective_drug_test": false,
+      "raw_data_access": "Article says available on reasonable request; no public individual-level dataset recovered and no request made."
+    },
+    {
+      "id": "BT-E05",
+      "source_ids": [
+        "S03"
+      ],
+      "locator": "Figure 6 and Results",
+      "model": "Commercial human aortic smooth-muscle cells",
+      "intervention_type": "C2alpha and C2beta siRNA individually or together",
+      "reported_protein_depletion_percent": "75 to 80",
+      "endpoint": "Ionomycin-induced cell contraction",
+      "result": "Individual knockdowns retained contraction; combined knockdown attenuated it",
+      "denominator": {
+        "independent_donors": null,
+        "independent_experiments": null,
+        "reason": "Figure 6 text/legend did not resolve these counts"
+      },
+      "exact_blu": false,
+      "limitations": [
+        "This smooth-muscle endpoint does not settle cardiac or skeletal-muscle energetic consequences.",
+        "Morphological or protein-marker changes are not interchangeable with functional contraction."
+      ]
+    },
+    {
+      "id": "BT-E06",
+      "source_ids": [
+        "S04"
+      ],
+      "locator": "Main text Results; Document S1 Table S1, physical PDF page 10",
+      "model": "Healthy germline C2beta-D1212A homozygous mice, protein retained",
+      "intervention_type": "Catalytic inactivation",
+      "endpoint": "Viability, growth, fertility and tissue histopathology",
+      "result": "Main article reports normal viability/growth/fertility and no histopathological abnormalities across 38 tissues up to 20 months",
+      "denominator": {
+        "tissue_categories": 38,
+        "animals": null,
+        "age_distribution": null,
+        "sex_distribution": null,
+        "reason": "Table S1 is an organ list, not an animal-count or lesion table; denominator not recovered from main text or Document S1"
+      },
+      "supplement_downloaded": true,
+      "table_visually_checked": true,
+      "exact_blu": false,
+      "limitations": [
+        "No recovered quantitative chronic safety margin.",
+        "Developmental compensation possible.",
+        "Healthy tissue histology does not establish MTM1-disease functional safety or respiratory/cardiac reserve."
+      ]
+    },
+    {
+      "id": "BT-E07",
+      "source_ids": [
+        "S05"
+      ],
+      "locator": "Primary abstract",
+      "model": "Three-month-old conditional Mtm1 mice with local muscle deletion",
+      "intervention_type": "Desmin-promoter AAV-Cre",
+      "endpoint": "Muscle weakness, atrophy, organelle positioning and T-tubule abnormalities",
+      "result": "Adult-onset local Mtm1 loss causes disease features",
+      "denominator": {
+        "animals": null,
+        "reason": "Only primary abstract verified; no numeric force or N claim retained"
+      },
+      "persistence": "Adult maintenance requirement supported; recoverability not tested by the accessed result",
+      "exact_blu": false,
+      "pik3c2b_intervention": false,
+      "full_text_verified": false,
+      "development_implication": "Potential adult-stage bridge after disease-model qualification and a functioning delayed positive intervention."
+    },
+    {
+      "id": "BT-E08",
+      "source_ids": [
+        "S06"
+      ],
+      "locator": "Figure 7F/G; Results; Plethysmograph and contractility Methods",
+      "model": "Six-month-old Mtm1-null/Dnm2-heterozygous mice",
+      "intervention_type": "Germline Dnm2 heterozygosity",
+      "endpoints": [
+        {
+          "name": "Resting spontaneous breathing",
+          "result": "No significant difference versus WT and Dnm2 heterozygote controls"
+        },
+        {
+          "name": "Diaphragm force-frequency relationship",
+          "result": "No significant difference detected"
+        },
+        {
+          "name": "Diaphragm specific maximal force",
+          "result": "Reduced"
+        }
+      ],
+      "denominator": {
+        "figure_7": "Minimum five mice",
+        "methods_plethysmography": "Three to five mice per group",
+        "methods_diaphragm": "Three to five mice per group",
+        "exact_n": null,
+        "inconsistency_preserved": true
+      },
+      "untreated_age_matched_mtm1_control": false,
+      "exact_blu": false,
+      "delayed_treatment": false,
+      "implication": "Normal resting pattern cannot establish normal respiratory-muscle capacity."
+    }
+  ],
+  "proof_amendments": [
+    {
+      "id": "BT-P01",
+      "action": "At force-restoring measured free exposures, assess mitochondrial organization with energetic or contractile-fatigue function in the same qualified muscle system.",
+      "advance": "Useful force benefit without corresponding useful-function loss over an interpretable exposure range.",
+      "inconclusive": "Morphology-only change, uncertain engagement, high-only exposure effect or an estimate crossing the useful threshold.",
+      "stop_or_redirect": "Reproducible functional harm overlapping rescue after appropriate controls and orthogonal attribution."
+    },
+    {
+      "id": "BT-P02",
+      "action": "Resolve cellular C2alpha selectivity rather than inferring it from a biochemical panel.",
+      "reason": "Vascular combined-loss injury and the new mitochondrial mechanism make this missing comparison decision-relevant.",
+      "limitation": "C2alpha sparing does not by itself exclude beta-mediated mitochondrial effects."
+    },
+    {
+      "id": "BT-P03",
+      "action": "Keep adult-local Mtm1 loss as an optional orthogonal route after human functional qualification.",
+      "condition": "Show established deficit, interpretable control trajectory and delayed positive rescue before interpreting target-negative findings.",
+      "limitation": "Does not reproduce lifelong congenital multi-organ disease."
+    },
+    {
+      "id": "BT-P04",
+      "action": "Require a direct respiratory-muscle capacity endpoint for any later respiratory product claim.",
+      "reason": "DNM2 benchmark demonstrates endpoint dissociation.",
+      "limitation": "Not required to claim a preliminary human muscle-force proof; exact-BLU respiratory efficacy remains open."
+    }
+  ],
+  "unknowns": [
+    "Exact BLU3797 mitochondrial effects at measured muscle-effective free exposure.",
+    "Final Science single-C2beta and single-C2alpha cardiac phenotypes, animal counts and final supplemental controls.",
+    "Dose/engagement relationship for isolated catalytic C2beta inhibition and mitochondrial function in mature MTM1 muscle.",
+    "An exposure-linked cellular C2alpha margin for BLU3797.",
+    "An exact-BLU adult-established-disease respiratory-muscle rescue dataset.",
+    "Timed free-muscle/free-brain exposure and active-species data beyond prior review.",
+    "Histopathology animal denominator and age-resolved results behind the 2015 38-tissue statement."
+  ],
+  "search_log": [
+    {
+      "query": "\"BLU3797\" (\"diaphragm\" OR \"respiratory\" OR \"mitochondrial\" OR \"cardiac\")",
+      "engines": [
+        "system1"
+      ],
+      "outcome": "Recovered the known 2026 JCI lineage; no additional exact-article functional dataset found."
+    },
+    {
+      "query": "\"BLU3797\" pharmacokinetic brain muscle 2026",
+      "engines": [
+        "system2"
+      ],
+      "outcome": "Known JCI article and derivatives; no new timed free-tissue dataset found."
+    },
+    {
+      "query": "\"Golgi-derived vesicles\" \"adx9628\" supplementary; DOI plus data/repository terms",
+      "engines": [
+        "system1",
+        "system2"
+      ],
+      "outcome": "Primary abstract and official institution pages; final publisher supplement inaccessible; underlying official thesis recovered."
+    },
+    {
+      "query": "\"Inactivation of the Class II PI3K-C2beta\" \"Table S1\"",
+      "engines": [
+        "system1"
+      ],
+      "outcome": "Official full text and Europe PMC supplementary archive retrieved; table gives organ list without animal N."
+    },
+    {
+      "query": "\"Site-specific Mtm1 mutagenesis\" adult 3-month-old",
+      "engines": [
+        "system1"
+      ],
+      "outcome": "Primary publisher abstract verified; full PDF retrieval unsuccessful; excluded unverified indexed quantitative details."
+    }
+  ],
+  "not_counted_as_new": [
+    "Juvenile delayed PIK3C2B genetics",
+    "Protein-retaining PIK3C2B catalytic rescue of Mtm1-null mice",
+    "BLU withdrawal decline despite p62 improvement",
+    "VPS34 antitarget genetics",
+    "Ten-boy ASPIRO histology mismatch",
+    "ASP2957 eligibility",
+    "PIK3C2B CNS susceptibility",
+    "AZD8055 comparator",
+    "TAM4MTM",
+    "Parallel round6 clinical natural-history and liver work"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "citation": "Aki et al. Golgi-derived vesicles containing PI(3,4)P2 drive mitochondrial fusion. Science.",
+      "publication_date": "2026-10-08",
+      "doi": "10.1126/science.adx9628",
+      "pmid": "42848893",
+      "urls": [
+        "https://www.science.org/doi/10.1126/science.adx9628",
+        "https://pubmed.ncbi.nlm.nih.gov/42848893/",
+        "https://www.rcast.u-tokyo.ac.jp/ja/news/release/20261009.html",
+        "https://www.onc.rcast.u-tokyo.ac.jp/en/news/2083/"
+      ],
+      "access": "Indexed primary abstract and official author-institution pages; final publisher full text/supplement inaccessible.",
+      "lineage": "Aki/Segawa/Prudent/Osawa/Takuwa mitochondrial-fusion project; overlaps S02."
+    },
+    {
+      "id": "S02",
+      "citation": "Segawa M. Role of trans-Golgi network vesicles in mitochondrial fusion. University of Cambridge PhD thesis.",
+      "publication_date": "2025-01",
+      "date_basis": "Thesis title page, not a verified exact repository release day",
+      "doi": "10.17863/CAM.120109",
+      "urls": [
+        "https://www.repository.cam.ac.uk/items/2aa25ead-0909-4db0-bf05-2aa16861a7bd",
+        "https://www.repository.cam.ac.uk/bitstreams/67b4e029-7bf6-4f78-8c3c-3a401170de35/download",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/67b4e029-7bf6-4f78-8c3c-3a401170de35/content"
+      ],
+      "access": "Full official PDF retrieved; relevant text and rendered figures inspected.",
+      "file_bytes": 124848986,
+      "sha256": "3246554b121142d5f68d722c255bc1767f04ec4ecb30750265536bc67de273fb",
+      "lineage": "Underlying same project as S01; final-publication equivalence not assumed."
+    },
+    {
+      "id": "S03",
+      "citation": "Islam et al. Class II phosphatidylinositol 3-kinase alpha and beta isoforms are required for vascular smooth muscle Rho activation, contraction and blood pressure regulation in mice. J Physiol Sci.",
+      "publication_date": "2020-03-19",
+      "doi": "10.1186/s12576-020-00745-2",
+      "urls": [
+        "https://link.springer.com/article/10.1186/s12576-020-00745-2"
+      ],
+      "access": "Full primary HTML, methods, results and figure legends. Linked videos not analyzed. Individual-level dataset not recovered.",
+      "lineage": "Distinct vascular dataset; Aki/Takuwa investigator overlap with S01."
+    },
+    {
+      "id": "S04",
+      "citation": "Alliouachene et al. Inactivation of the Class II PI3K-C2beta Potentiates Insulin Signaling and Sensitivity. Cell Reports.",
+      "publication_date": "2015-11-19",
+      "doi": "10.1016/j.celrep.2015.10.052",
+      "pmid": "26655903",
+      "pmcid": "PMC4675724",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675724/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675724/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675724/supplementaryFiles"
+      ],
+      "access": "Full primary text and Document S1 retrieved; Table S1 visually inspected.",
+      "supplement_file": "mmc1.pdf",
+      "supplement_bytes": 2784546,
+      "supplement_sha256": "0250749064f48537bff37a0e8a92bc45d42b6829df4f6b6e038be67b5ef776f2",
+      "lineage": "Prior-review catalytic allele evidence; supplement audit is the new contribution."
+    },
+    {
+      "id": "S05",
+      "citation": "Joubert et al. Site-specific Mtm1 mutagenesis by an AAV-Cre vector reveals that myotubularin is essential in adult muscle. Human Molecular Genetics.",
+      "publication_date": "2013-02-05",
+      "doi": "10.1093/hmg/ddt038",
+      "pmid": "23390130",
+      "urls": [
+        "https://academic.oup.com/hmg/article-abstract/22/9/1856/621976",
+        "https://pubmed.ncbi.nlm.nih.gov/23390130/",
+        "https://hal.science/hal-02881178"
+      ],
+      "access": "Primary abstract verified; full publisher PDF not retrieved. Quantitative data from indexed copies excluded.",
+      "lineage": "Adult-local Mtm1 maintenance model, distinct from juvenile BLU or Pik3c2b rescue."
+    },
+    {
+      "id": "S06",
+      "citation": "Cowling et al. Reducing dynamin 2 expression rescues X-linked centronuclear myopathy. JCI.",
+      "publication_date": "2014-02-24",
+      "doi": "10.1172/JCI71206",
+      "pmid": "24569376",
+      "pmcid": "PMC3938268",
+      "urls": [
+        "https://www.jci.org/articles/view/71206",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3938268/"
+      ],
+      "access": "Full primary article including Figure 7 legend and respiratory/contractility methods.",
+      "lineage": "Orthogonal target benchmark; not exact-BLU replication."
+    },
+    {
+      "id": "S07",
+      "citation": "Shearer et al. Pharmacological PIK3C2B inhibition rescues XLMTM phenotype in mouse models and identifies molecular markers of disease. JCI Insight.",
+      "publication_date": "2026",
+      "doi": "10.1172/jci.insight.198568",
+      "pmid": "41955018",
+      "urls": [
+        "https://insight.jci.org/articles/view/198568"
+      ],
+      "access": "Previously audited exact-article source, rediscovered in targeted searches; no new dataset counted.",
+      "lineage": "Same 2026 exact-BLU dataset already in round4/round5."
+    }
+  ]
+}

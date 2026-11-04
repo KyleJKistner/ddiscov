@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "round": 6,
+  "base_publication_commit": "44fe86f9b5d22914ce366bcef9f6c3667b1e14b2",
+  "counts": {
+    "new_exact_intervention_use_screens": 6,
+    "new_to_reviewed_exact_use_inventory": 6,
+    "distinct_existing_priority_candidates_updated": 3,
+    "existing_core_candidates_updated": 1,
+    "existing_human_evidence_reserves_updated": 2,
+    "separate_existing_clinical_comparators_clarified": 2,
+    "earlier_continuation_packages_integrated": 2,
+    "earlier_continuation_files_preserved": 6,
+    "new_independent_validation_priorities": 1,
+    "new_conditional_reserves": 2,
+    "new_clinical_or_repurposing_benchmarks": 2,
+    "new_holds": 1,
+    "S_tier_promotions": 0
+  },
+  "existing_priority_candidate_ids": [
+    "BLU3797_XLMTM",
+    "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+    "R5-C01"
+  ],
+  "new_exact_use_ids": [
+    "R6-NL-01",
+    "R6-NL-02",
+    "R6-NL-03",
+    "R6-NL-04",
+    "R6-NL-05",
+    "R6-NL-06"
+  ],
+  "integrated_decisions": {
+    "BLU3797": "Affirmative staged qualification recommendation; mitochondrial function and C2alpha/VPS34 selectivity are focused questions, not proof of exact-molecule toxicity.",
+    "enasidenib": "Upgrade actual pediatric formulation assessment; retain infant exposure, tolerability and contribution questions.",
+    "PPCS": "Add an exact downstream oral precursor comparator without chemical-species or disease-efficacy transfer.",
+    "ruxolitinib_HHD": "New independent-validation priority; useful maintenance and meaningful burden/tolerability gains can justify a product.",
+    "ABX1431_AP4B1": "Conditional early functional reserve; developmental morphology is not mature recovery, and adult tolerability does not establish chronic pediatric exposure."
+  },
+  "clinical_comparator_clarifications": [
+    {
+      "name": "DYN101 / Unite-CNM",
+      "role": "Existing different-article comparator and human baseline cohort",
+      "current_finding": "26 screened,14 treated; same baseline/hepatic cohort; official design nonrandomized sequential open-label despite inconsistent article wording. No new efficacy cohort or BLU toxicity inference.",
+      "source_reference": "research/rounds/round6/round6_clinical_translation.md"
+    },
+    {
+      "name": "TAM4MTM / tamoxifen",
+      "role": "Existing different-article comparator",
+      "current_finding": "Investigator transcript reports7 participants and2 hepatic SAEs versus older registry actual6/no results. Preserve discrepancy, no efficacy denominator or assumed country split. Generic formulation/IND documentation impeded US sites.",
+      "source_reference": "research/rounds/round6/round6_clinical_translation.md"
+    }
+  ],
+  "earlier_continuations": [
+    {
+      "commit": "bd181191cf1eed4524d063befeea68b6e82fffc4",
+      "directory": "research/continuations/2026-11-04T0900-0800",
+      "topics": [
+        "VPS34 antitarget",
+        "portfolio challenge"
+      ]
+    },
+    {
+      "commit": "44fe86f9b5d22914ce366bcef9f6c3667b1e14b2",
+      "directory": "research/continuations/2026-11-04-biomarker-durability-comparator-b",
+      "topics": [
+        "BLU withdrawal/biomarker discordance",
+        "ASPIRO lineage",
+        "ASP2957 active comparator"
+      ]
+    }
+  ],
+  "historical_objects_preserved": [
+    "coverage_records",
+    "generated_concepts",
+    "sources",
+    "round3",
+    "round4",
+    "round5"
+  ],
+  "independent_review": {
+    "new_leads": "Separate reviewer checked exact-use novelty, counts, source scope, competitor status and useful-maintenance/meaningful-benefit gates.",
+    "clinical_context": "Separate reviewer confirmed cohort lineage, age/sex arithmetic, caption inconsistency, trial design and TAM count discrepancy.",
+    "funding_milestone": "Separate reviewer corrected diaphragm wording and the distribution condition for a harmful-exposure branch.",
+    "integrated_decisions": "Separate final review confirmed counts, stage-appropriate funding, no BLU toxicity transfer, clear enasidenib upgrade and independent challenger allocation. A model-readiness table was corrected to distinguish one-background exploration from independent-background confirmation."
+  },
+  "primary_access_limits": [
+    "Science final full text/supplement not recovered; indexed abstract and underlying thesis distinguished.",
+    "HHD nine-person preprint abstract only; full regimen/overlap unverified.",
+    "Five-week-old enasidenib report metadata only; zero new verified efficacy patients.",
+    "CoA-Z protocol/result contrast differences unresolved; nominal p-values do not establish equivalence or PPCS efficacy.",
+    "Adult DNM2 figure caption arithmetic inconsistent; no corrected biological mean inferred."
+  ],
+  "artifact_sha256": {
+    "round6_blu_translation.md": "8a6d9b016fa9a71b29d039e8823eafb848036c3b0199db594e647471a10cc415",
+    "round6_blu_translation.json": "dde580fe7074aad3bbfb4c575be332db52aa32167014a85c1519fac2880b8e27",
+    "round6_reserve_challenge.md": "b4e7f50a1d0a6d7ab0dd910dc716282ce02b4c83a538c939a1c415021d302b5b",
+    "round6_reserve_challenge.json": "4d605848c9b5f2a4425c1bf6bfc484c24e75e46b6ee56342edc6e49dbe0a0d9a",
+    "round6_new_leads.md": "7ed1fb642f4abba058ccd6df98f7cc6644d86ca8640076fde2398e6635f2eb08",
+    "round6_new_leads.json": "50937edbf018be635cc90da8b5b57871d42bf06883c25bf3e2a5c72db8e9eb77",
+    "round6_clinical_translation.md": "f6fc656e2422e3b9eadfccd7c1fb199baba08211635f5bb17906225d94a8c78c",
+    "round6_clinical_translation_audit.json": "bb3d1256a1360c28e4e37a89f80b3795fa0e76a5842990d2348c077b16fd1171",
+    "round6_blu_milestone.md": "604acbc8838e55590f825749d532983b864e000576d2e89e333c20fce9c2f3b7"
+  },
+  "activity_boundary": {
+    "outreach": false,
+    "purchases": false,
+    "wet_lab": false,
+    "received_materials": false,
+    "clinical_trial_execution": false
+  }
+}
