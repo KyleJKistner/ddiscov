@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 10](rounds/round10/README.md) adds taurine/SLC6A6 and zinc acetate dihydrate/GNAO1 as two new exact-use screens, with five existing-use reviews. ManNAc/GNE remains original inventory T060; the additional SCARB2 case is an existing-use update. Earlier tables and round packages remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 11](rounds/round11/README.md) audits existing zinc/GNAO1 and taurine/SLC6A6 records. No new screen is added. Zinc’s missing-data method is resolved; exact general paired endpoint counts and the SLC6A6 abstract’s clinical content remain unavailable. Earlier tables remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -298,3 +298,12 @@ Archive phase `2026-11-03-human-repair-opportunities`. 6 screen records.
 | [R9-NL-01 — miglustat / SCARB2-AMRF](rounds/round10/scarb2-case-lineage-update.md) | Existing reserve retained; retrieved case set expands to five treated people across four reports |
 
 [Alias audit](rounds/round10/candidate-alias-audit.json) · [HHD active-care comparator](rounds/round10/hhd-active-care-comparator.md) · [IDH exposure ledger](rounds/round10/idh-exposure-ledger.md) · [BLU exposure ledger](rounds/round10/blu-exposure-feasibility.md)
+
+## Round 11 existing-use audits
+
+| Existing record | Resolved this round | Remaining limit |
+|---|---|---|
+| [R10-NL-02 — zinc acetate dihydrate / GNAO1](rounds/round11/zinc-endpoint-audit.md) | Primary available-case/complete-pair rule; full versus modified feasibility denominators; P3/P8 roles | Exact paired counts for general secondary endpoints and achieved propensity-match details unavailable without supplementary records |
+| [R10-NL-01 — taurine / SLC6A6](rounds/round11/slc6a6-two-brother-audit.md) | Verified abstract identity and explicit linkage boundary with the earlier A78E family | Abstract body, exact treated genotype/outcomes and cross-report overlap remain unresolved; three directly extracted treated people retained |
+
+Both retain clinical-research reserve status, independent asset holds and zero dedicated planning points. No new exact-use or molecule count is added.

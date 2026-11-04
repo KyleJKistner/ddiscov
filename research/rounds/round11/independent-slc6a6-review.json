@@ -1,0 +1,126 @@
+{
+  "schema_version": "ddiscov.round11.independent_slc6a6_review.v1",
+  "round": 11,
+  "as_of": "2026-11-04",
+  "reviewer": "round11_review",
+  "author_of_reviewed_artifacts": "round11_slc6a6",
+  "independent_of_author": true,
+  "base_commit": "a66f2462541893b4dfb88b4f9aaa0d7863c204a8",
+  "verdict": "pass",
+  "open_issues": [],
+  "reviewed_files": [
+    {
+      "path": "slc6a6-two-brother-audit.md",
+      "sha256": "e213160f15fcf7a7fc5674deb9b4b108a6b56371226cc38df0ae96f76c3d3e72",
+      "bytes": 8309
+    },
+    {
+      "path": "slc6a6-two-brother-audit.json",
+      "sha256": "e39d9e208b54e0843b2154c318561c28816b622e703f3ef298602af7ab94a2ff",
+      "bytes": 15781
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "SLC11-IR-01",
+      "severity": "minor_clarity",
+      "finding": "The initial heading referred to three report lineages while four report records retain an unresolved 2019-to-2023 linkage. A fixed lineage count could be read as an unsupported merge.",
+      "fix": "Author replaced the heading with a report-separation instruction pending verified linkage.",
+      "status": "resolved",
+      "verification": "Reconstructing only the original heading reproduces the original Markdown SHA-256; JSON is unchanged.",
+      "effect_on_values_or_decisions": "None."
+    }
+  ],
+  "checks": [
+    {
+      "id": "TARGET_METADATA",
+      "result": "pass",
+      "finding": "The full primary citing paper, reference 17, corroborates the target title, first three cited authors, year, volume, issue, abstract number and ARVO URL. This is kept distinct from access to the target body.",
+      "primary_ref": "turn152view1",
+      "locator": "Ullah et al., reference 17, retrieved line 529; introduction line 383"
+    },
+    {
+      "id": "UNREAD_TARGET_FIELDS",
+      "result": "pass",
+      "finding": "Exact target genotype, patients, ages, intervention, timing, outcomes, denominator and overlap remain null. The title supplies no clinical response or treatment regimen; unread is not a biological negative."
+    },
+    {
+      "id": "PREISING2019_IDENTITY",
+      "result": "pass",
+      "finding": "The independently recovered indexed original PubMed abstract describes two p.A78E brothers. It supplies lineage context, with no inspected supplementation outcome and no verified link to the 2023 target. A78E is not assigned to the unread target.",
+      "primary_ref": "turn154search0",
+      "locator": "Preising et al. 2019, original PubMed abstract, PMID 31345061"
+    },
+    {
+      "id": "KNOWN_TREATED_RECORDS",
+      "result": "pass",
+      "finding": "The carried F315 Gly399Val boy/girl pair and the treated female proband from Ullah family 3 remain distinct records. The newer seven-affected-person cohort is not counted as seven treated people.",
+      "primary_refs": [
+        "turn157view0",
+        "turn157view2"
+      ],
+      "locator": "Ullah clinical family 3 and genetic-analysis sections; original F315 extraction carried from Round 10"
+    },
+    {
+      "id": "CASE_COUNTS_AND_NULL_SEMANTICS",
+      "result": "pass",
+      "finding": "Three directly extracted treated people across two pedigrees remain the working set. Zero newly extracted treatment records does not mean zero possible additional unique people in the unread abstract; that number remains unknown. No complete census or response rate is claimed."
+    },
+    {
+      "id": "GENOTYPE_DISCREPANCY",
+      "result": "pass",
+      "finding": "The inherited Thr113Ter abstract versus sequence-linked Trp113Ter main-text discrepancy remains explicit and is not assigned to the 2023 target.",
+      "primary_refs": [
+        "turn157view0",
+        "turn157view2"
+      ],
+      "locator": "Ullah abstract Results and genetic analysis of family 4"
+    },
+    {
+      "id": "STRUCTURE_AND_DECISION",
+      "result": "pass",
+      "finding": "Strict JSON parses; local source IDs resolve; existing candidate ID, reserve, asset hold and zero new allocation are retained. No new functional observation or candidate is claimed."
+    },
+    {
+      "id": "SOURCE_SCOPE_AND_STOPPING_RULE",
+      "result": "pass",
+      "finding": "Author retrieval failures and bibliographic-only routes are explicitly labeled. Reopening requires an accessible primary case/treatment record; the audit does not demand repeated failed searches or authorize outreach."
+    }
+  ],
+  "primary_sources_independently_checked": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12679424/",
+      "access": "Full primary HTML sections: introduction, reference 17, family 3 identity, exact variants and abstract/main-text notation conflict.",
+      "web_refs": [
+        "turn152view1",
+        "turn157view0",
+        "turn157view2"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31345061/",
+      "access": "Direct current opens returned a shell. One exact PMID/variant search recovered the indexed original PubMed abstract; no full 2019 paper was read.",
+      "web_refs": [
+        "turn152view0",
+        "turn153view0",
+        "turn154search0"
+      ]
+    }
+  ],
+  "access_limits": [
+    "Target 2023 abstract body was not read by this reviewer.",
+    "The author's full failed-route search was not repeated; its record is reviewed as provenance, not a proof of global absence.",
+    "No fresh 2019 full-paper or 2025/26 supplement audit; no independent global treated census."
+  ],
+  "activities": {
+    "reviewed_files_edited_by_reviewer": false,
+    "new_author_heading_revision_checked": true,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false
+  },
+  "review_validity": "Applies to the two final file hashes above. This is an independent source and logic review of a completed bounded audit, not a claim that the target clinical fields were resolved."
+}

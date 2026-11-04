@@ -1,0 +1,139 @@
+{
+  "schema_version": "ddiscov.round11.independent_zinc_endpoint_review.v1",
+  "round": 11,
+  "as_of": "2026-11-04",
+  "reviewer": "round11_review",
+  "author_of_reviewed_artifacts": "round11_zinc",
+  "independent_of_author": true,
+  "base_commit": "a66f2462541893b4dfb88b4f9aaa0d7863c204a8",
+  "verdict": "pass",
+  "open_issues": [],
+  "resolved_issues": [],
+  "reviewed_files": [
+    {
+      "path": "zinc-endpoint-audit.md",
+      "sha256": "6214cfda4deab1feb2b471d0cdf2168738fcce911b89693ae50551d07b7bd39b",
+      "bytes": 11659
+    },
+    {
+      "path": "zinc-endpoint-audit.json",
+      "sha256": "cb8a80813fc0f10484882c3c6eb2cc0a2f79560fafeb3a65c5552efae2464d39",
+      "bytes": 36503
+    }
+  ],
+  "checks": [
+    {
+      "id": "REPORTED_MISSING_DATA_METHOD",
+      "result": "pass",
+      "finding": "Primary Methods explicitly reports available-case analyses and complete observations for each paired time comparison, with no formal missing-data methods. The audit attributes this to the publication and does not claim the executed data or code were reproduced.",
+      "primary_ref": "turn141view0",
+      "locator": "Statistical analysis, retrieved lines 281-286"
+    },
+    {
+      "id": "ANALYSIS_SET_MEMBERSHIP",
+      "result": "pass",
+      "finding": "FAS 13, safety 12, mFAS 12 and 11 completers remain distinct. P3 received zinc but is excluded from mFAS; never-exposed P8 remains in mFAS and is excluded from safety. These memberships do not supply actual outcome availability.",
+      "primary_refs": [
+        "turn141view1",
+        "turn156view0"
+      ],
+      "locator": "Methods; Figure 1; Results on P3/P8, retrieved lines 299-313"
+    },
+    {
+      "id": "FEASIBILITY_VS_COMPLETION",
+      "result": "pass",
+      "finding": "The published 11/13 FAS and 10/12 mFAS feasibility results, plus P3 prewithdrawal adherence, support the explicitly labeled set-accounting inference. Neither feasible set is silently replaced by the completer set; the unidentified other failure remains null. Feasibility is not an efficacy response rate.",
+      "primary_ref": "turn141view1",
+      "locator": "Outcomes and Results on adherence/withdrawals"
+    },
+    {
+      "id": "EXACT_ENDPOINT_COUNTS",
+      "result": "pass",
+      "finding": "All 21 observed-visit and 14 general complete-pair query slots remain null. The seven outcomes and day 0/90/180 slots are explicit; queried contrasts are not asserted to have published results. No denominator is reconstructed from mFAS size, completer count, plotted dots or nominal P values."
+    },
+    {
+      "id": "REPORTED_VALUES_AND_MASKING",
+      "result": "pass",
+      "finding": "Extracted main-text means, SDs and four nominal baseline-to-six-month P values match the source. The blinded BFMDRS movement assessment remains distinct from unblinded disability and caregiver measures, and the unchanged movement finding is retained.",
+      "primary_refs": [
+        "turn141view2",
+        "turn156view1"
+      ],
+      "locator": "Results and Figure 2, retrieved lines 355-372"
+    },
+    {
+      "id": "PAIRED_VS_MARGINAL_SUMMARY",
+      "result": "pass",
+      "finding": "The difference between reported GMFM visit means is not promoted to a verified within-person mean change while contributor identity and paired N remain unknown. No participant values were imputed."
+    },
+    {
+      "id": "TEST_FAMILY_AND_MULTIPLICITY",
+      "result": "pass",
+      "finding": "Paired t-test/Wilcoxon options, exploratory normality checks, post-hoc Wilcoxon sensitivity, two-sided nominal P values and lack of multiplicity adjustment agree with the main text. Per-comparison test assignment and numeric sensitivity results remain unresolved without the appendix.",
+      "primary_ref": "turn156view0",
+      "locator": "Statistical analysis, retrieved lines 285-293"
+    },
+    {
+      "id": "CP_SUBSETS",
+      "result": "pass",
+      "finding": "Known n=8 complete GMFM pairs belong to the age-restricted CP reference-trajectory comparison. A separate propensity-matched analysis is identified, with achieved matched-group Ns and matching details unresolved. Neither becomes a concurrent GNAO1 control.",
+      "primary_refs": [
+        "turn141view0",
+        "turn156view1"
+      ],
+      "locator": "Statistical analysis; Figure 3; matched-comparison Results"
+    },
+    {
+      "id": "DATA_ACCESS_SCOPE",
+      "result": "pass",
+      "finding": "Full main HTML access is distinguished from unread appendix, protocol and registry content. The source describes future controlled access to individual data/scripts; the audit makes no request, substitutes no synthetic data and leaves registry hasResults null.",
+      "primary_ref": "turn156view3",
+      "locator": "Data sharing statement and Appendix A"
+    },
+    {
+      "id": "STRUCTURE_AND_DECISION",
+      "result": "pass",
+      "finding": "Strict JSON and source IDs pass. Existing candidate identity, reserve, asset hold and zero new dedicated allocation remain; seven outcome records do not become extra candidates or efficacy replications."
+    }
+  ],
+  "structural_verification": {
+    "seven_unique_general_secondary_endpoints": true,
+    "unresolved_visit_counts": 21,
+    "unresolved_general_pair_counts": 14,
+    "known_reference_subset_pairs": 8,
+    "reported_feasibility_percentages_recomputed": true,
+    "local_source_ids_resolve": true,
+    "reviewed_hashes_match_author_final": true
+  },
+  "primary_sources_independently_checked": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/",
+      "access": "Primary main-text HTML: Methods, analysis sets, figure captions, outcome and feasibility Results, data sharing and appendix identification. No full supplement or protocol contents.",
+      "web_refs": [
+        "turn140view0",
+        "turn141view0",
+        "turn141view1",
+        "turn141view2",
+        "turn141view3",
+        "turn156view0",
+        "turn156view1",
+        "turn156view3"
+      ]
+    }
+  ],
+  "access_limits": [
+    "The seven general outcome visit and paired Ns are not resolved by this review.",
+    "Appendix and protocol contents were not independently retrieved; the authors' and root's failed retrieval routes were not repeated.",
+    "No patient-level dataset/code reanalysis, missingness-mechanism validation or causal efficacy validation."
+  ],
+  "activities": {
+    "reviewed_files_edited_by_reviewer": false,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false
+  },
+  "review_validity": "Applies to the two file hashes above. Pass means faithful extraction, accounting and explicit uncertainty within the source-access ceiling; it does not mean all requested endpoint counts were recovered."
+}

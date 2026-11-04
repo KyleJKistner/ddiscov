@@ -14,6 +14,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 8](round8/README.md)** | BLU qualification work order, leading-set stress test and six-record screen | Four new exact uses (one concept expansion), two existing-use updates, quantitative decisions, source/logic audits and explicit planning allocation. No S-tier promotion. |
 | **[Round 9](round9/README.md)** | Verified Round 8 recovery and bounded research continuation | Two new exact uses, four existing candidates reviewed, explicit BLU interpretation amendments and independent review. All 622 original records and Round 8 files retained. No S-tier promotion. |
 | **[Round 10](round10/README.md)** | Exact exposure and clinical-evidence sprint | Two new exact uses; five existing-use reviews; AGI-17011 correction, preserved source conflicts, four independent reviews and a complete publication manifest. Allocation unchanged; no S-tier promotion. |
+| **[Round 11](round11/README.md)** | Bounded zinc endpoint and SLC6A6 abstract audit | Two existing-use updates, no new screens. Missing-data method resolved; paired-count and abstract-content limits retained. Two independent reviews; allocation unchanged. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -64,3 +65,11 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [New exact-use screens](round10/new-candidate-screen.md)
 - [Integration review](round10/integration-review.md)
 - [Complete publication manifest](round10/artifact-manifest.json)
+
+## Round 11
+
+- [Complete bounded sprint](round11/README.md)
+- [Zinc endpoint and missing-data audit](round11/zinc-endpoint-audit.md)
+- [SLC6A6 abstract and case-lineage audit](round11/slc6a6-two-brother-audit.md)
+- [Integration review](round11/integration-review.md)
+- [Publication manifest](round11/artifact-manifest.json)

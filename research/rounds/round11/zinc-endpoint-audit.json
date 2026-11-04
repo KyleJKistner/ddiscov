@@ -1,0 +1,1032 @@
+{
+  "schema_version": "ddiscov.round11.zinc_endpoint_audit.v1",
+  "round": 11,
+  "as_of": "2026-11-04",
+  "base_commit": "a66f2462541893b4dfb88b4f9aaa0d7863c204a8",
+  "candidate_id": "R10-NL-02",
+  "new_candidate": false,
+  "classification": "bounded existing-use primary-methods and denominator audit",
+  "scope": {
+    "study": "ZINCGNAO1",
+    "DOI": "10.1016/j.eclinm.2026.104092",
+    "PMID": "42542632",
+    "PMCID": "PMC13427569",
+    "NCT": "NCT06412653",
+    "EU_CT": "2024-512735-72-00",
+    "article": "Wilzin zinc acetate dihydrate; reported doses expressed as elemental zinc",
+    "duration_months": 6,
+    "general_assessment_days": [
+      0,
+      90,
+      180
+    ],
+    "additional_virtual_visit_days": [
+      10,
+      210
+    ],
+    "no_other_study_counts_pooled": true
+  },
+  "question_resolution": {
+    "reported_missing_data_handling": "resolved_from_full_primary_main_text",
+    "general_secondary_endpoint_visit_counts": "unresolved_after_bounded_primary_retrieval",
+    "general_secondary_endpoint_pair_counts": "unresolved_after_bounded_primary_retrieval",
+    "known_reference_subset_complete_pair_N": 8,
+    "known_reference_subset_N_is_new": false,
+    "supplement_and_protocol_read": false,
+    "executed_analysis_dataset_independently_reproduced": false,
+    "new_completed_work": "Recovered method, refined set/feasibility accounting, explicit endpoint-count ledger and bounded source-access ceiling."
+  },
+  "new_to_current_extraction": [
+    "Full main primary HTML became accessible; prior R10 scope was abstract/captions plus selected indexed passages.",
+    "Available-case descriptions and complete-observation rule for each paired comparison.",
+    "P3 and P8 identities behind distinct mFAS and safety set membership.",
+    "mFAS feasibility10/12 and P3 prewithdrawal80% adherence, separating feasible and completed people.",
+    "Described parametric/nonparametric test family, exploratory normality checks and post-hoc Wilcoxon sensitivity.",
+    "Separate post-hoc propensity-score cerebral-palsy comparison in addition to trajectory comparison; achieved matching Ns remain unknown."
+  ],
+  "carried_forward": [
+    "13 enrolled,12 exposed,11 completed; mFAS12 excludes unrelated-SAE withdrawal but includes never-exposed refuser.",
+    "Eight-person age-restricted complete-pair GMFM reference subset uses cerebral-palsy trajectories.",
+    "Uncontrolled design, exploratory function signals, unchanged blinded movement severity and independent asset hold."
+  ],
+  "analysis_sets": [
+    {
+      "id": "SCREENED",
+      "N": 16,
+      "unit": "people screened",
+      "source_id": "Z11-S1",
+      "locator": "Figure1; Results line306"
+    },
+    {
+      "id": "FAS",
+      "N": 13,
+      "unit": "all enrolled people",
+      "P3_included": true,
+      "P8_included": true,
+      "source_id": "Z11-S1",
+      "locator": "Figure1; Results line306"
+    },
+    {
+      "id": "SAFETY",
+      "N": 12,
+      "unit": "people receiving at least one dose",
+      "P3_included": true,
+      "P8_included": false,
+      "source_id": "Z11-S1",
+      "locator": "Statistical analysis; Figure1; Table2"
+    },
+    {
+      "id": "mFAS",
+      "N": 12,
+      "unit": "eligible people for modified analysis; not per-endpoint observed/pair N",
+      "P3_included": false,
+      "P8_included": true,
+      "source_id": "Z11-S1",
+      "locator": "Statistical analysis; Figure1; Results lines306,355"
+    },
+    {
+      "id": "COMPLETED",
+      "N": 11,
+      "unit": "people completing six-month trial",
+      "P3_included": false,
+      "P8_included": false,
+      "source_id": "Z11-S1",
+      "locator": "Results lines311-313"
+    },
+    {
+      "id": "GMFM_REFERENCE_SUBSET",
+      "N": 8,
+      "unit": "people aged2-18 with complete baseline/day180 GMFM66",
+      "complete_pair_N": 8,
+      "pair": [
+        0,
+        180
+      ],
+      "not_general_GMFM_pair_N": true,
+      "source_id": "Z11-S1",
+      "locator": "Statistical analysis lines287-289; Results line357; Figure3"
+    }
+  ],
+  "discontinuation_and_feasibility": {
+    "definition": "Treatment feasible if trial medication taken as recommended on at least80% of trial days; caregiver diaries and drug accountability.",
+    "FAS": {
+      "numerator": 11,
+      "denominator": 13,
+      "reported_percent": 84.6,
+      "reported_CI95_percent": [
+        54.6,
+        98.1
+      ],
+      "CI_method_explicitly_named_in_main_sentence": null
+    },
+    "mFAS": {
+      "numerator": 10,
+      "denominator": 12,
+      "reported_percent": 83.3,
+      "reported_CI95_percent": [
+        51.6,
+        97.9
+      ],
+      "CI_method": "Clopper-Pearson"
+    },
+    "persons": [
+      {
+        "id": "P3",
+        "variant": "c.138A>T,p.Lys46Asn",
+        "exposed": true,
+        "completed": false,
+        "withdrawal": "Non-treatment-related serious adverse event; fracture of dens axis with incomplete cervical myelopathy and subsequent C0-C2 spondylodesis.",
+        "adherence_before_withdrawal_percent": 80,
+        "in_FAS": true,
+        "in_mFAS": false,
+        "in_safety": true,
+        "actual_secondary_endpoint_availability": null,
+        "feasible_in_FAS": true,
+        "feasible_in_FAS_provenance": "Accounting inference: FAS11/13 to mFAS10/12 removes only P3, consistent with reported80% adherence; not recovered individual analysis row."
+      },
+      {
+        "id": "P8",
+        "variant": "c.625C>T,p.Arg209Cys",
+        "exposed": false,
+        "completed": false,
+        "withdrawal": "Refusal before any dose after swallowing/taste difficulties.",
+        "adherence_before_withdrawal_percent": null,
+        "in_FAS": true,
+        "in_mFAS": true,
+        "in_safety": false,
+        "actual_secondary_endpoint_availability": null,
+        "feasible_in_FAS": false,
+        "feasibility_provenance": "Explicitly called not feasible in Results.",
+        "received_doses": 0,
+        "adherence_percent_not_reconstructed": "Never exposed and explicitly classified not feasible; no independently reported adherence percentage/denominator recovered."
+      }
+    ],
+    "accounting_inferences": [
+      {
+        "claim": "The11 feasible FAS participants are not identical to the11 completers.",
+        "basis": "P3 is a noncompleter removed from both denominator and feasibility numerator in mFAS."
+      },
+      {
+        "claim": "One of the11 completers did not meet the feasibility criterion under the stated counts.",
+        "basis": "mFAS comprises11 completers plus nonfeasible never-exposed P8, with10 feasible; identity of the other failure is unknown."
+      }
+    ],
+    "unidentified_other_feasibility_failure_ID": null,
+    "no_efficacy_responder_rate_estimated": true,
+    "source_id": "Z11-S1",
+    "source_locator": "Outcomes line274; Results lines311-314"
+  },
+  "missing_data_and_statistics": {
+    "source_id": "Z11-S1",
+    "source_locator": "Statistical analysis lines279-293; Results line372",
+    "reported_description_rule": "Available-case analyses of valid data.",
+    "reported_pair_rule": "Only complete observations at both relevant timepoints enter a paired comparison.",
+    "reported_formal_missing_data_methods_applied": false,
+    "imputation_algorithm_reported_in_inspected_main_text": null,
+    "no_imputation_assumed_to_create_a_balanced_N": true,
+    "specific_missingness_reasons_by_outcome_and_visit": null,
+    "missing_at_random_claim_established": false,
+    "complete_all_visit_panel_claim_established": false,
+    "normality_check": {
+      "methods": [
+        "Shapiro-Wilk",
+        "visual Q-Q plots"
+      ],
+      "alpha": 0.05,
+      "author_caveat": "Exploratory and inherently inconclusive with very small sample size."
+    },
+    "paired_test_options": [
+      "paired t-test",
+      "Wilcoxon signed-rank test"
+    ],
+    "exact_test_by_endpoint_and_pair": null,
+    "sensitivity": {
+      "prespecified_formal_sensitivity": false,
+      "reported_posthoc_method": "Wilcoxon signed-rank tests for main secondary comparisons irrespective of normality",
+      "reported_result": "Consistent with corresponding parametric analyses; no change to interpretation",
+      "table_S2_verified": false,
+      "numeric_sensitivity_results": null
+    },
+    "two_sided": true,
+    "multiplicity_adjusted": false,
+    "confirmatory_hierarchy_prespecified": false,
+    "effect_sizes_and_CI95_reported_as_computed": true,
+    "complete_effect_interval_table_recovered": false,
+    "prespecification_source": "Main manuscript author statement only; protocol/SAP not independently read.",
+    "software_as_reported": [
+      "R4.4.0",
+      "SPSS30.0.0.0"
+    ],
+    "executed_dataset_or_code_reproduced": false,
+    "not_inferred": [
+      "all12 mFAS participants observed at all visits",
+      "all11 completers observed for every endpoint",
+      "LOCF or multiple imputation",
+      "a mixed-effects or GEE missing-data solution",
+      "missingness is random or ignorable",
+      "equal denominator for all nominal P values"
+    ]
+  },
+  "secondary_endpoint_ledger": [
+    {
+      "endpoint_id": "GMFM66",
+      "name": "Gross Motor Function Measure-66",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": 33.1,
+          "SD": 12.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": 35.0,
+          "SD": 13.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": 37.8,
+          "SD": 12.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": 0.006,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": true
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Physiotherapists; general trial personnel unmasked",
+      "reported_direction": "Exploratory improvement reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, lines355-357",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "COPM_P",
+      "name": "Canadian Occupational Performance Measure performance",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": 2.6,
+          "SD": 0.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": 3.8,
+          "SD": 1.3,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": 0.003,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": true
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Participant/caregiver performance rating; no masking reported",
+      "reported_direction": "Exploratory improvement reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, line355; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "COPM_S",
+      "name": "Canadian Occupational Performance Measure satisfaction",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": 2.7,
+          "SD": 0.9,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": 4.1,
+          "SD": 1.7,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": 0.002,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": true
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Participant/caregiver satisfaction rating; no masking reported",
+      "reported_direction": "Exploratory improvement reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, line355; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "BFMDRS_M",
+      "name": "Burke-Fahn-Marsden Dystonia Rating Scale movement",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": 57.8,
+          "SD": 20.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": 54.3,
+          "SD": 20.1,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": 54.3,
+          "SD": 20.3,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Independent rater masked to identity, visit time and video order",
+      "reported_direction": "No clear change reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Randomisation and masking, line271; Results, line370; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "BFMDRS_D",
+      "name": "Burke-Fahn-Marsden Dystonia Rating Scale disability",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": 25.5,
+          "SD": 2.6,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": 24.2,
+          "SD": 2.6,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": 23.5,
+          "SD": 2.8,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": 0.005,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": true
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Unblinded rater",
+      "reported_direction": "Exploratory improvement reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, line370; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "AIMS",
+      "name": "Abnormal Involuntary Movement Scale",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "No additional masking established",
+      "reported_direction": "No clear change reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, line370; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    },
+    {
+      "endpoint_id": "CPCHILD",
+      "name": "Caregiver Priorities and Child Health Index of Life with Disabilities",
+      "primary_or_secondary": "exploratory secondary",
+      "analysis_set": "mFAS",
+      "analysis_set_size": 12,
+      "analysis_set_size_is_endpoint_observed_N": false,
+      "visits": [
+        {
+          "day": 0,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 90,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        },
+        {
+          "day": 180,
+          "mean": null,
+          "SD": null,
+          "observed_N": null,
+          "same_contributors_across_visits_verified": false
+        }
+      ],
+      "pair_count_queries": [
+        {
+          "from_day": 0,
+          "to_day": 90,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        },
+        {
+          "from_day": 0,
+          "to_day": 180,
+          "complete_pair_N": null,
+          "nominal_p": null,
+          "exact_test_assignment": null,
+          "specific_pair_result_identified_in_main_text": null
+        }
+      ],
+      "paired_mean_change": null,
+      "paired_change_CI95": null,
+      "test_family_described_for_secondary_changes": [
+        "paired t-test",
+        "Wilcoxon signed-rank test"
+      ],
+      "pair_missing_data_rule": "Complete observations at both relevant time points; no count inferred from mFAS size.",
+      "assessment_masking": "Caregiver reported; trial open label",
+      "reported_direction": "No clear change reported",
+      "source_id": "Z11-S1",
+      "source_locator": "Results, line370; Figure2",
+      "reason_for_unknown_counts": "Accessible main text supplies mFAS membership but not endpoint-specific visit or paired Ns; linked appendix not recovered."
+    }
+  ],
+  "external_comparisons": {
+    "reference_trajectory": {
+      "status": "post-hoc exploratory",
+      "disease": "dyskinetic cerebral palsy",
+      "GNAO1_age_range_years": [
+        2,
+        18
+      ],
+      "GNAO1_complete_pair_N": 8,
+      "pair_days": [
+        0,
+        180
+      ],
+      "concurrent_control": false,
+      "general_secondary_N": false,
+      "source_locator": "Methods lines287-289; Results line357; Figure3"
+    },
+    "propensity_score_matched": {
+      "status": "post-hoc exploratory",
+      "disease": "dyskinetic cerebral palsy",
+      "stated_candidate_population": "GMFM comparative subset",
+      "candidate_subset_N": 8,
+      "achieved_matched_GNAO1_N": null,
+      "achieved_matched_CP_N": null,
+      "matching_ratio": null,
+      "caliper": null,
+      "replacement_rule": null,
+      "matching_variables": [
+        "age",
+        "baseline GMFM66",
+        "body weight",
+        "height"
+      ],
+      "variables_not_included_as_reported": [
+        "sex",
+        "baseline movement-disorder severity",
+        "seizure burden",
+        "concomitant treatments"
+      ],
+      "reported_GNAO1_mean_change": 2.21,
+      "reported_GNAO1_SD_change": 2.17,
+      "reported_CP_mean_change": 0.43,
+      "reported_CP_SD_change": 2.06,
+      "nominal_p": 0.04,
+      "reported_Cohen_d": 0.88,
+      "reported_Cohen_d_CI95": [
+        0.05,
+        1.71
+      ],
+      "balance_table_recovered": false,
+      "concurrent_GNAO1_control": false,
+      "source_locator": "Methods lines287-290; Results lines368-369; Supplementary Methods/TableS1 inaccessible"
+    },
+    "source_id": "Z11-S1",
+    "no_new_causal_efficacy_conclusion": true
+  },
+  "marginal_vs_paired_mean_rule": {
+    "example_endpoint": "GMFM66",
+    "reported_baseline_mean": 33.1,
+    "reported_day180_mean": 37.8,
+    "arithmetic_difference_of_reported_marginal_means": 4.7,
+    "this_is_a_verified_paired_mean_change": false,
+    "verified_paired_mean_change": null,
+    "reason": "Observed visit Ns and contributor identities are unknown; available-case summaries may differ from the complete-pair set. No participant measurements were reconstructed."
+  },
+  "data_access_ceiling": {
+    "manuscript_full_text": true,
+    "supplementary_appendix_read": false,
+    "protocol_read": false,
+    "original_SAP_read": false,
+    "registry_results_or_history_read": false,
+    "registry_hasResults": null,
+    "paper_states_individual_data_public_release_planned": false,
+    "paper_states_individual_data_access_window_years_after_publication": [
+      2,
+      5
+    ],
+    "paper_states_approved_data_access_required": true,
+    "paper_states_protocol_SAP_support_available_immediately": true,
+    "statement_is_not_evidence_of_successful_retrieval": true,
+    "requests_made": false,
+    "remaining_specific_documents": [
+      "Supplementary Methods",
+      "TableS1 matching/balance",
+      "TableS2 sensitivity",
+      "TableS3 patient effect trajectories",
+      "FigureS1 individual outcome trajectories",
+      "Protocol/SAP"
+    ],
+    "source_id": "Z11-S1",
+    "source_locator": "Results lines369-372; Data sharing lines421-425; AppendixA lines448-460"
+  },
+  "decision": {
+    "disposition": "retain conditional clinical-research reserve; independent asset on hold",
+    "current_S_tier": false,
+    "dedicated_planning_points": 0,
+    "allocation_changed": false,
+    "why": "Method-level uncertainty reduced; no exact endpoint-pair counts or causal efficacy established. Blinded movement null, uncontrolled design and non-disease-specific external comparison remain.",
+    "stop_rule": "Close current retrieval pass; do not repeat failed public routes or infer sample sizes from plots, P values, set labels or completer count.",
+    "reopening_trigger": "A newly accessible linked appendix/protocol or public correction/results release supplies endpoint visit and pair Ns, missingness reasons or analysis-set rules.",
+    "does_not_authorize": "Clinical treatment, recruitment, data-access outreach, acquisition or experimental execution."
+  },
+  "retrieval_log": [
+    {
+      "step": "primary_full_HTML",
+      "operator": "round11_zinc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/",
+      "result": "Full main-text HTML readable; Methods, Results, Tables1-2 and original figure captions reviewed.",
+      "web_refs": [
+        "turn129view1",
+        "turn130view0",
+        "turn130view2",
+        "turn143view0",
+        "turn143view1",
+        "turn146view0"
+      ]
+    },
+    {
+      "step": "primary_abstract_captions",
+      "operator": "round11_zinc",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42542632/",
+      "result": "Primary abstract and captions readable; same article, no additional cohort.",
+      "web_refs": [
+        "turn129view0"
+      ]
+    },
+    {
+      "step": "EuropePMC_XML",
+      "operator": "round11_zinc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13427569/fullTextXML",
+      "result": "Tool inaccessible; no XML inspected.",
+      "web_refs": [
+        "turn129view2"
+      ]
+    },
+    {
+      "step": "linked_appendix",
+      "operator": "round11_zinc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13427569/bin/mmc1.pdf",
+      "result": "Preparing-to-download HTML shell, not PDF contents.",
+      "web_refs": [
+        "turn132view0"
+      ]
+    },
+    {
+      "step": "linked_protocol",
+      "operator": "round11_zinc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13427569/bin/mmc3.pdf",
+      "result": "Preparing-to-download HTML shell, not PDF contents.",
+      "web_refs": [
+        "turn132view1"
+      ]
+    },
+    {
+      "step": "main_PDF",
+      "operator": "round11_zinc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/pdf/main.pdf",
+      "result": "CAPTCHA; no PDF inspected.",
+      "web_refs": [
+        "turn132view2"
+      ]
+    },
+    {
+      "step": "targeted_primary_search",
+      "operator": "round11_zinc",
+      "queries": [
+        "\"104092\" \"zinc\" \"supplementary\"",
+        "\"ZINCGNAO1\" \"paired\" \"data\"",
+        "\"ZINCGNAO1\" \"Table S3\""
+      ],
+      "result": "Located exact article PII and original main-text passages; no accessible appendix. Distinct earlier Med case result excluded from pilot counts.",
+      "web_refs": [
+        "turn135search0",
+        "turn135search1",
+        "turn135search2",
+        "turn135search3"
+      ]
+    },
+    {
+      "step": "DOI",
+      "operator": "round11_zinc",
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104092",
+      "result": "Tool inaccessible.",
+      "web_refs": [
+        "turn135view0"
+      ]
+    },
+    {
+      "step": "publisher_fulltext",
+      "operator": "round11_zinc",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2589537026003457",
+        "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00345-7/fulltext"
+      ],
+      "result": "Both403; no full publisher text inspected through these URLs.",
+      "web_refs": [
+        "turn137view0",
+        "turn137view1"
+      ]
+    },
+    {
+      "step": "publisher_CDN",
+      "operator": "root complementary retrieval",
+      "urls": [
+        "https://ars.els-cdn.com/content/image/1-s2.0-S2589537026003457-mmc1.pdf",
+        "https://ars.els-cdn.com/content/image/1-s2.0-S2589537026003457-mmc3.pdf"
+      ],
+      "result": "Inaccessible, reported by root; not repeated by this workstream.",
+      "web_refs": [
+        "turn138view0",
+        "turn138view1"
+      ]
+    },
+    {
+      "step": "institutional_and_filename_search",
+      "operator": "root complementary retrieval",
+      "result": "No new pilot repository copy; original PMC and distinct earlier Med case only.",
+      "web_refs": [],
+      "provenance": "Root message, 4Nov2026; no claim of independent repetition."
+    },
+    {
+      "step": "older_PMC_and_public_OA_metadata",
+      "operator": "root complementary retrieval",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/bin/mmc1.pdf",
+      "result": "Older PMC appendix route and public OA metadata API inaccessible; not repeated by this workstream.",
+      "web_refs": [
+        "turn144view0",
+        "turn144view1"
+      ]
+    },
+    {
+      "step": "official_registry",
+      "operator": "round11_zinc",
+      "urls": [
+        "https://clinicaltrials.gov/study/NCT06412653",
+        "https://clinicaltrials.gov/api/v2/studies/NCT06412653"
+      ],
+      "result": "Study page is a JavaScript shell; API inaccessible. No results/history/attached protocol independently reviewed.",
+      "web_refs": [
+        "turn149view0",
+        "turn149view1"
+      ]
+    },
+    {
+      "step": "registry_result_search",
+      "operator": "round11_zinc",
+      "queries": [
+        "site:clinicaltrials.gov \"NCT06412653\" \"results\""
+      ],
+      "result": "No usable exact-study result returned; unrelated trials excluded. This is not evidence that hasResults is false.",
+      "web_refs": [
+        "turn149search0",
+        "turn149search1",
+        "turn149search2",
+        "turn149search3",
+        "turn149search4"
+      ]
+    },
+    {
+      "step": "main_figure_full_pages",
+      "operator": "round11_zinc",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/figure/fig2/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/figure/fig3/"
+      ],
+      "result": "Both CAPTCHA. No counts extracted or inferred from plot dots. Original captions remain readable in main HTML.",
+      "web_refs": [
+        "turn151view0",
+        "turn151view1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "Z11-S1",
+      "title": "Safety and feasibility of oral zinc for patients with GNAO1-related disorders (ZINCGNAO1): an open-label, single-arm, single-centre, pilot trial in Germany",
+      "authors": "Thiel et al.",
+      "DOI": "10.1016/j.eclinm.2026.104092",
+      "PMID": "42542632",
+      "PMCID": "PMC13427569",
+      "publication_date": "2026-07-23",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/",
+      "source_type": "full primary main manuscript",
+      "license_as_displayed": "CC BY",
+      "access": "Full main-text HTML read; linked appendix/protocol and complete figure images not read.",
+      "stable_locators": [
+        "Methods: Study design and ethics",
+        "Methods: Randomisation and masking",
+        "Methods: Outcomes",
+        "Methods: Statistical analysis",
+        "Figure1 caption",
+        "Results paragraphs on P3/P8, feasibility and secondary outcomes",
+        "Figure2 and Figure3 captions",
+        "Data sharing statement",
+        "AppendixA"
+      ],
+      "web_refs": [
+        "turn129view1",
+        "turn130view0",
+        "turn130view2",
+        "turn143view0",
+        "turn143view1",
+        "turn146view0"
+      ]
+    },
+    {
+      "id": "Z11-S2",
+      "title": "PubMed primary abstract and original figure captions",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42542632/",
+      "same_report_as": "Z11-S1",
+      "independent_cohort": false,
+      "access": "Abstract and original captions read",
+      "web_refs": [
+        "turn129view0"
+      ]
+    },
+    {
+      "id": "Z11-S3",
+      "title": "Supplementary Appendix, mmc1.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13427569/bin/mmc1.pdf",
+      "source_type": "linked primary supplement",
+      "access": "Identified; PDF content not retrieved",
+      "evidence_used_for_values": false,
+      "web_refs": [
+        "turn132view0"
+      ]
+    },
+    {
+      "id": "Z11-S4",
+      "title": "Protocol, mmc3.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13427569/bin/mmc3.pdf",
+      "source_type": "linked primary protocol",
+      "access": "Identified; PDF content not retrieved",
+      "evidence_used_for_values": false,
+      "web_refs": [
+        "turn132view1"
+      ]
+    },
+    {
+      "id": "Z11-S5",
+      "title": "ClinicalTrials.gov NCT06412653",
+      "url": "https://clinicaltrials.gov/study/NCT06412653",
+      "source_type": "official registry",
+      "access": "JavaScript shell/API inaccessible; no independent registry content/history audit",
+      "evidence_used_for_values": false,
+      "web_refs": [
+        "turn149view0",
+        "turn149view1"
+      ]
+    }
+  ],
+  "activities": {
+    "public_document_research": true,
+    "retrospective_set_accounting": true,
+    "new_measurements": false,
+    "statistical_reanalysis_of_patient_data": false,
+    "imputed_or_synthetic_patient_data": false,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false
+  },
+  "validation": {
+    "general_secondary_endpoints": 7,
+    "unresolved_observed_visit_count_fields": 21,
+    "unresolved_general_complete_pair_count_fields": 14,
+    "complete_pair_N_in_reference_subset": 8,
+    "reference_subset_N_not_transferred": true,
+    "FAS_feasibility_rounded_percent": 84.6,
+    "mFAS_feasibility_rounded_percent": 83.3
+  }
+}

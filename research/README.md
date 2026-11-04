@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 10 — exposure and clinical evidence](rounds/round10/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 11 — zinc and SLC6A6 bounded audit](rounds/round11/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 
@@ -59,3 +59,7 @@ The completed Round 8 tree was recovered and verified at commit `a7f10cd8b84bc2f
 ## Round 10 continuation — 4 November 2026
 
 The [Round 10 package](rounds/round10/README.md) follows verified Round 9 commit `b21aaddd2270b6670a745c2197867316d46b5879`. It adds two exact-use screens, five existing-use reviews, exact parent/metabolite and comparator-exposure ledgers, an inherited interpretation correction, current clinical dispositions, and four independent review documents. All original 622 coverage rows and earlier round packages remain intact. Allocation remains unchanged; no S-tier promotion or new experiment is claimed.
+
+## Round 11 bounded sprint — 4 November 2026
+
+The [Round 11 package](rounds/round11/README.md) reviews two existing reserves. Zinc’s full primary manuscript resolves available-case/complete-pair handling and separates feasibility from completion; exact general endpoint-paired counts remain unresolved. The SLC6A6 abstract identity is verified while its clinical content and patient linkage remain unavailable. The package preserves both limits, two independent reviews, all 622 original rows and all earlier round packages. No new candidate, treatment recipient, allocation or experiment is claimed.

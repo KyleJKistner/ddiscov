@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 10.** Round 10 adds exact-analyte exposure ledgers for BLU3797 and the IDH comparators, a correction to the inherited AGI-17011 interpretation, active-care evidence for the HHD proof, a controlled-result disposition for the existing ManNAc/GNE record, an expanded SCARB2 case ledger, and two new exact-use screens. BLU3797, enasidenib and topical ruxolitinib remain the first three priorities at 55/15/10 of 100 planning-effort points. All original 622 coverage rows and earlier round packages remain intact. The completed Round 8 recovery and Round 9 continuation are published at `a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3` and `b21aaddd2270b6670a745c2197867316d46b5879`. No S-tier promotion or new experimental result is claimed.
+**Status: 4 November 2026, after Round 11.** This bounded sprint revisits two existing reserves. The full zinc/GNAO1 pilot now resolves its available-case and complete-pair analysis rule, but endpoint-specific paired counts remain unavailable without the supplementary data. The SLC6A6 two-brother abstract remains bibliographically verified and clinically unresolved. No new screen, unique treated person, efficacy claim or allocation increase is added. The 55/15/10 leading allocation and all original 622 coverage rows remain unchanged. Earlier research packages are preserved; Round 10 is published at `a66f2462541893b4dfb88b4f9aaa0d7863c204a8`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 11 bounded evidence audit](research/rounds/round11/README.md) | Zinc analysis populations and missing-data method; SLC6A6 abstract retrieval and case-lineage limits. |
 | [Round 10 exposure and clinical evidence](research/rounds/round10/README.md) | Source conflicts, exact exposure limits, current clinical dispositions and two new exact-use screens. |
 | [Round 9 continuation](research/rounds/round9/README.md) | Verified recovery, new evidence, two exact-use screens and explicit qualification amendments. |
 | [Round 8 qualification and challenge](research/rounds/round8/README.md) | BLU execution work order, six-record screen, independent reviews and portfolio allocation. |
@@ -41,3 +42,7 @@ The current shortlist governs selection. Earlier comparisons and PDFs remain his
 ## Round 10 counting
 
 Two new exact uses are taurine/SLC6A6 deficiency and zinc acetate dihydrate/GNAO1-related disorder. Five existing candidates or inventory uses were reviewed: BLU3797, enasidenib, topical ruxolitinib/HHD, miglustat/SCARB2 and ManNAc/GNE. ManNAc was already in the original inventory and already linked the same negative trial abstract; the new work supplies its primary review and current disposition. A historical miglustat case adds one treated person, not a new candidate. These counts describe repository work and do not imply scientific novelty, independent cohorts or new molecules.
+
+## Round 11 accounting
+
+Two existing uses were reviewed: zinc acetate dihydrate/GNAO1 (`R10-NL-02`) and taurine/SLC6A6 (`R10-NL-01`). No new exact-use screen or molecule is counted. A recovered analysis method does not fill an unreported paired denominator, and a verified abstract citation does not add two unique treatment outcomes. See the [bounded sprint record](research/rounds/round11/README.md).

@@ -1,0 +1,142 @@
+{
+  "schema_version": "ddiscov.round11.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "a66f2462541893b4dfb88b4f9aaa0d7863c204a8",
+  "counts": {
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "existing_candidates_reviewed": 2,
+    "primary_study_full_text_access_upgrades": 1,
+    "independent_review_documents_total": 2,
+    "reviewed_authored_files": 4,
+    "new_unique_treated_people_added": 0,
+    "new_experiments": 0,
+    "S_tier_promotions": 0
+  },
+  "scope": "Finite primary-source recovery and interpretation for the two specifically requested questions; no broader candidate search.",
+  "completion_rule": "The bounded research and repository work are complete. Clinical evidence fields remain unresolved where exact primary content could not be recovered; completion never denotes fabricated endpoint counts or patient linkage.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R10-NL-02",
+      "new_candidate": false,
+      "dedicated_planning_points": 0,
+      "source_scope": "research/rounds/round11/zinc-endpoint-audit.json",
+      "review_file": "research/rounds/round11/zinc-endpoint-audit.md",
+      "delta": [
+        "Full primary manuscript newly accessible. It explicitly reports available-case summaries, complete observations for the relevant paired time comparisons, and no formal missing-data handling. Paired t-test or Wilcoxon testing and nominal unadjusted secondary P values are documented.",
+        "The modified full analysis set contains 12 people but does not identify each endpoint visit or paired denominator. General secondary endpoint Ns remain null; the known n=8 GMFM reference subset is separate. A difference between marginal means is not automatically a mean paired change.",
+        "Full-set feasibility 11/13 and modified-set feasibility 10/12 differ from the 11 completers. P3 met 80% adherence before unrelated-SAE withdrawal; P8 was never exposed. Do not equate same-sized feasibility/completion sets or mFAS/safety sets.",
+        "The full manuscript adds a post-hoc propensity-matched cerebral-palsy comparison. Achieved matching counts and specifications remain unavailable without the supplement; it does not establish a concurrent disease-matched control.",
+        "Retain the conditional research reserve and independent asset hold with 0 dedicated points. Close this retrieval pass; reopen only for newly accessible exact supplementary outcomes, results or protocol records that resolve the remaining fields."
+      ]
+    },
+    {
+      "candidate_id": "R10-NL-01",
+      "new_candidate": false,
+      "dedicated_planning_points": 0,
+      "source_scope": "research/rounds/round11/slc6a6-two-brother-audit.json",
+      "review_file": "research/rounds/round11/slc6a6-two-brother-audit.md",
+      "delta": [
+        "The 2023 Preising/Holve/Schuetz et al IOVS abstract citation, volume 64(8), 1535 and articleid 2787051 are verified, but the abstract body was not recovered through the bounded official and institutional routes.",
+        "The earlier 2019 Preising primary report identifies two A78E brothers. It is an identity lead, not a primary statement that the same people, genotype or supplementation outcomes populate the 2023 abstract.",
+        "The 2023 exact genotype, treatment article/regimen, outcome trajectories and overlap remain unresolved. Preserve the directly extracted 3 treated people across 2 pedigrees; no additional unique treated person, response or global census is claimed.",
+        "Retain the genotype/organ/stage-limited research reserve and independent asset hold with 0 dedicated points. Close this retrieval pass and reopen only for accessible abstract text or explicit primary case linkage."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round11/zinc-endpoint-audit.json",
+    "research/rounds/round11/slc6a6-two-brother-audit.json"
+  ],
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false,
+    "round10_review": "research/rounds/round10/round10-root-deltas.json",
+    "round10_allocation_changed": false,
+    "round11_review": "research/rounds/round11/round11-root-deltas.json",
+    "round11_allocation_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round11/independent-zinc-endpoint-review.json",
+    "research/rounds/round11/independent-slc6a6-review.json"
+  ],
+  "integration_review": "research/rounds/round11/integration-review.md",
+  "local_verification": "research/rounds/round11/local-verification.json",
+  "artifact_manifest": "research/rounds/round11/artifact-manifest.json",
+  "activity_boundary": "Public-document research, evidence interpretation, deterministic record checks and repository verification. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "retrieval_stop": {
+    "current_pass_closed": true,
+    "zinc_reopen_for": "Newly accessible exact supplementary methods/tables, protocol or actual results with endpoint-specific observed and paired counts; do not repeat the same unavailable routes.",
+    "slc6a6_reopen_for": "Accessible 2023 abstract body or explicit primary cross-report linkage; metadata repetitions do not supply outcomes.",
+    "no_author_contact_or_other_outreach": true
+  },
+  "interpretation_limits": [
+    "mFAS size is not endpoint paired N.",
+    "A reported marginal mean difference is not automatically a paired mean change.",
+    "A post-hoc matched different-disease comparison does not establish causal efficacy.",
+    "Equal-sized feasibility/completion or mFAS/safety sets need not contain the same people.",
+    "Unrecovered abstract content is not a negative treatment result or evidence of nonexistence.",
+    "A family/genotype match inferred from authorship and sibling description is not verified patient linkage."
+  ]
+}

@@ -1,14 +1,26 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 10.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 11.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Round 10 adds two new exact-use screens and reviews five existing candidates or inventory uses. None earns an S-tier designation. Earlier round packages remain unchanged; the [Round 10 package](../research/rounds/round10/README.md) records the current evidence, source conflicts and review limits.
+Round 11 audits two existing reserves and closes the current retrieval pass with explicit resolved and unresolved fields. No new candidate or S-tier designation is added. The [Round 11 package](../research/rounds/round11/README.md) records the current zinc and SLC6A6 interpretations; earlier priorities and qualification rules remain in force.
 
-## Round 10 evidence and decisions
+## Round 11 bounded evidence audit
 
-The [Round 10 package](../research/rounds/round10/README.md) controls the new interpretations below. The Round 8 numerical qualification specification and six Round 9 manual amendments remain unchanged. The existing decision utility does not automatically enforce these additional context checks.
+The [Round 11 package](../research/rounds/round11/README.md) completes a finite source audit of the two open questions from Round 10. It adds no new candidate and leaves the entire allocation queue unchanged.
+
+**Zinc acetate dihydrate/GNAO1 (`R10-NL-02`): missing-data method resolved; general endpoint-paired counts remain unresolved.** The full primary manuscript states that summaries used available cases and paired comparisons required complete observations at the relevant visits. It reports no formal missing-data handling. The modified full analysis set contains 12 people, but that label is not the observed denominator for each endpoint or pair. The seven general secondary outcomes retain explicit unknown visit and paired counts. The known eight-person GMFM reference subset is separate.
+
+The full analysis set's feasibility result is 11/13; the modified set's is 10/12. P3, who later withdrew because of an unrelated serious adverse event, had 80% adherence before withdrawal. P8 never received treatment. Eleven people completing the study and eleven meeting its feasibility criterion therefore do not establish the same participant set. The additional propensity-matched cerebral-palsy analysis is post hoc, and its achieved matching counts and details remain unresolved without the supplement. Retain the clinical-research reserve and independent asset hold. [Endpoint and missing-data audit](../research/rounds/round11/zinc-endpoint-audit.md)
+
+**Taurine/SLC6A6 (`R10-NL-01`): the two-brother abstract remains unresolved at the clinical-content level.** The 2023 IOVS record's bibliographic identity is verified, but its treatment results and genotype were not recovered. The earlier Preising A78E family is a separate identifiable primary report; it cannot be assigned to the 2023 abstract from authorship or a two-brother description alone. Preserve the directly extracted three treated people across two pedigrees, with no global census or added success count. Retain the genotype/organ/stage-limited reserve and independent asset hold. [Abstract and lineage audit](../research/rounds/round11/slc6a6-two-brother-audit.md)
+
+Both retrieval lanes are closed after this bounded pass. Reopen for newly accessible exact primary supplementary tables, protocol/results records, abstract text or explicit patient linkage. Repeating the same unavailable routes or reconstructing counts from plots, P values or shared authorship will not fill the missing fields. Current work is document analysis and repository verification; no outreach, purchases, recruitment, experiments or simulations occurred.
+
+## Retained Round 10 evidence and decisions
+
+The [Round 10 package](../research/rounds/round10/README.md) supplies the retained interpretations below, subject to the Round 11 zinc and SLC6A6 updates above. The Round 8 numerical qualification specification and six Round 9 manual amendments remain unchanged. The existing decision utility does not automatically enforce these additional context checks.
 
 **BLU3797 — retain 55 points and the affirmative bounded human-muscle qualification project.** The released plasma workbook contains 26 numeric measurements across five groups, without a verified 26-animal denominator, individual endpoint pairing or elapsed postdose times. Bound/free analytical basis, tissue exposure and metabolites remain unresolved. The comparator patent's Figure 4B uses GFP-PI3KC2β HEK cells and different numbered compounds; it establishes neither native-muscle engagement nor exact47 cellular activity. The legend's 36/40/90/96 mapping was confirmed. Three unnamed conference leads cannot qualify 47, 91 or BLU. Exact47 remains the first comparator to qualify. [Exposure and comparator ledger](../research/rounds/round10/blu-exposure-feasibility.md)
 

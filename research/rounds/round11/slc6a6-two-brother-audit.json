@@ -1,0 +1,379 @@
+{
+  "schema_version": "ddiscov.round11.slc6a6_two_brother_audit.v1",
+  "round": 11,
+  "as_of": "2026-11-04",
+  "base_commit": "a66f2462541893b4dfb88b4f9aaa0d7863c204a8",
+  "candidate_id": "R10-NL-01",
+  "name": "Oral taurine / SLC6A6 taurine-transporter deficiency",
+  "classification": "bounded_existing_use_source_access_and_case_lineage_audit",
+  "new_candidate": false,
+  "scope": "Resolve the Preising 2023 two-brother abstract and its relationship to the already extracted treatment records, using accessible primary evidence only.",
+  "result": {
+    "status": "bibliographic_identity_corroborated_primary_abstract_body_unrecovered",
+    "primary_target_body_read": false,
+    "new_directly_extracted_treated_people": 0,
+    "directly_extracted_treated_people_total": 3,
+    "directly_extracted_treated_pedigrees_total": 2,
+    "unknown_additional_unique_treated_people_in_target": null,
+    "complete_global_treated_census": false,
+    "new_functional_outcomes_extracted": 0,
+    "clinical_efficacy_upgrade": false,
+    "current_S_tier": false,
+    "allocation_changed": false,
+    "dedicated_planning_points": 0,
+    "disposition": "retain conditional clinical-research reserve; independent asset thesis on hold"
+  },
+  "target_identity": {
+    "title_as_cited": "Taurin supplementation in two brothers with a homozygous mutation in SLC6A6",
+    "authors_as_cited": [
+      "Preising MN",
+      "Holve K",
+      "Schuetz S",
+      "et al."
+    ],
+    "complete_author_list": null,
+    "journal": "Investigative Ophthalmology & Visual Science",
+    "year": 2023,
+    "volume": 64,
+    "issue": 8,
+    "abstract_number_or_page": "1535",
+    "exact_publication_date": null,
+    "url": "https://iovs.arvojournals.org/article.aspx?articleid=2787051",
+    "doi": null,
+    "metadata_verification_source": "S11-S02",
+    "metadata_locator": "Reference 17, retrieved PMC line 529; introduction line 383 cites supplementation investigations but gives no case detail.",
+    "basis": "Bibliographic citation in a full primary citing study; not an independently readable target abstract.",
+    "title_describes_brothers": 2,
+    "directly_verified_treatment_denominator_from_target_body": null,
+    "title_is_outcome_evidence": false
+  },
+  "unresolved_target_fields": {
+    "patient_identifiers": null,
+    "pedigree_identifier": null,
+    "exact_variant_protein": null,
+    "exact_variant_cDNA": null,
+    "transcript": null,
+    "ages_at_examination": null,
+    "ages_at_treatment_start": null,
+    "baseline_retinal_stage_by_patient": null,
+    "baseline_cardiac_function_by_patient": null,
+    "exact_taurine_product": null,
+    "formulation": null,
+    "route": null,
+    "dose": null,
+    "schedule": null,
+    "duration": null,
+    "adherence": null,
+    "visual_function_by_patient": null,
+    "retinal_anatomy_by_patient": null,
+    "plasma_taurine_by_patient": null,
+    "tissue_taurine_by_patient": null,
+    "cardiac_outcome_by_patient": null,
+    "adverse_events_by_patient": null,
+    "background_care": null,
+    "comparison_group": null,
+    "outcome_methods": null,
+    "endpoint_evaluable_counts": null,
+    "overlap_with_Preising2019": null,
+    "overlap_with_Ansar2020": null,
+    "overlap_with_Ullah2025_2026": null,
+    "null_semantics": "Not recovered in this bounded review; not proof the original source omits the field or the clinical event did not occur."
+  },
+  "lineage_ledger": [
+    {
+      "record_id": "SLC6A6_ANSAR_F315",
+      "source_id": "S11-S04",
+      "status": "carried_from_round10",
+      "people_described_in_treatment_record": 2,
+      "pedigrees": 1,
+      "sex_description": "one boy and one girl",
+      "genotype": "homozygous p.Gly399Val; family F315",
+      "directly_extracted_treated_people_carried": 2,
+      "new_treatment_people_in_round11": 0,
+      "identity_limit": "This reported boy/girl pair must not be relabeled as two brothers. No individual linkage to the unread 2023 abstract is inferred."
+    },
+    {
+      "record_id": "SLC6A6_PREISING2019_A78E",
+      "source_id": "S11-S03",
+      "status": "newly_inspected_primary_abstract_for_linkage_context_only",
+      "people_described": 2,
+      "sex_description": "two brothers",
+      "genotype_protein_as_reported": "p.A78E",
+      "genotype_cDNA_verified_here": null,
+      "treatment_outcome_recovered_in_inspected_abstract": false,
+      "directly_extracted_treated_people_added": 0,
+      "overlap_with_target": null,
+      "identity_limit": "Shared first author and two-brother description are an unverified linkage hypothesis, not sufficient primary identification of the 2023 patients."
+    },
+    {
+      "record_id": "SLC6A6_PREISING2023_TARGET",
+      "source_id": "S11-S01",
+      "metadata_source_id": "S11-S02",
+      "status": "unresolved_target_record",
+      "brothers_described_by_title": 2,
+      "primary_treatment_denominator": null,
+      "unique_additional_treated_people": null,
+      "genotype": null,
+      "overlap_with_other_reports": null,
+      "directly_extracted_treated_people_added": 0,
+      "counting_rule": "Keep an unresolved source record. Do not add two people or merge into any known pedigree from bibliographic metadata alone."
+    },
+    {
+      "record_id": "SLC6A6_ULLAH_FAMILY3",
+      "source_id": "S11-S02",
+      "status": "carried_from_round10_identity_rechecked",
+      "people_described_in_treatment_record": 1,
+      "pedigrees": 1,
+      "sex_description": "female proband; family 3",
+      "genotype": "homozygous NM_003043.6:c.1210-2389_1348-331del; p.Phe404_Glu449del; exon 11 deletion",
+      "directly_extracted_treated_people_carried": 1,
+      "new_treatment_people_in_round11": 0,
+      "identity_limit": "Seven affected people across four families are not seven treated people. No linkage from this treated female to the 2023 brothers is made."
+    }
+  ],
+  "carried_source_discrepancy": {
+    "source_id": "S11-S02",
+    "field": "family 4 stop variant",
+    "abstract": "p.Thr113Ter",
+    "sequence_linked_main_text": "NM_003043.6:c.338G>A; p.Trp113Ter",
+    "status": "Previously preserved in Round 10; not silently repaired and not assigned to the 2023 target."
+  },
+  "decision": {
+    "clinical_research_reserve_retained": true,
+    "independent_asset_hold_retained": true,
+    "new_dedicated_allocation": false,
+    "new_independent_cardiac_replication": false,
+    "new_retinal_rescue_evidence": false,
+    "response_rate_estimated": false,
+    "rationale": "The bounded review recovers no new target treatment or functional outcome. The prior organ/genotype/stage limits and lack of differentiated independent product contribution remain.",
+    "retrieval_status": "closed_for_current_sprint_at_primary_access_ceiling",
+    "reopen_for": "An accessible original abstract, authorized author manuscript/poster, or later primary report with patient linkage plus exact treatment and functional outcomes.",
+    "do_not_reopen_for": "The same failed URLs, additional citation-only mirrors, repeated title matches, or assumed correspondence to p.A78E.",
+    "no_absence_inference": "Source-access failure is not a biological negative or proof that further public data do not exist."
+  },
+  "sources": [
+    {
+      "source_id": "S11-S01",
+      "type": "target primary meeting abstract; body not recovered",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2787051",
+      "access": "Canonical article returned 403 on one direct attempt in this sprint.",
+      "metadata_supported_by": "S11-S02 reference 17",
+      "primary_body_read": false,
+      "efficacy_evidence_used": false,
+      "web_refs": [
+        "turn131view0"
+      ]
+    },
+    {
+      "source_id": "S11-S02",
+      "type": "primary observational cohort and functional study",
+      "title": "Early-Onset Retinopathy in Patients With Variants in SLC6A6 Leading to Impaired Taurine Transport",
+      "doi": "10.1001/jamaophthalmol.2025.4875",
+      "pmid": "41343195",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12679424/",
+      "access": "Primary full-text HTML accessed; relevant citation, introduction and family-description passages read. No fresh supplement audit.",
+      "locators": [
+        "Introduction, line 383",
+        "Family 3 results, lines422-427",
+        "Family 4 results, lines428-429",
+        "Genetic-variant results",
+        "Conclusion, lines484-485",
+        "References 15–17, lines527-529"
+      ],
+      "web_refs": [
+        "turn133view1",
+        "turn136view0",
+        "turn142view0"
+      ],
+      "supports": [
+        "target bibliographic citation",
+        "Ullah family identity and existing treatment record",
+        "four-family cohort is not seven treated people",
+        "carried family 4 notation discrepancy"
+      ]
+    },
+    {
+      "source_id": "S11-S03",
+      "type": "primary disease-characterization study; original abstract read",
+      "title": "Biallelic mutation of human SLC6A6 encoding the taurine transporter TAUT is linked to early retinal degeneration",
+      "doi": "10.1096/fj.201900914RR",
+      "pmid": "31345061",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31345061/",
+      "author_hosted_pdf_url": "https://mbilab.uni-frankfurt.de/data/_uploaded/file/paper/189.pdf",
+      "access": "Original primary abstract read through PubMed; full author-hosted PDF timed out and was not read.",
+      "locators": [
+        "PubMed abstract, lines256-260"
+      ],
+      "web_refs": [
+        "turn131search0",
+        "turn148view0",
+        "turn133view0"
+      ],
+      "supports": [
+        "2019 report describes two p.A78E brothers",
+        "linkage context only; no 2023 patient assignment or new treatment outcome"
+      ]
+    },
+    {
+      "source_id": "S11-S04",
+      "type": "primary case and functional study; carried evidence",
+      "title": "Taurine treatment of retinal degeneration and cardiomyopathy in a consanguineous family with SLC6A6 taurine transporter deficiency",
+      "doi": "10.1093/hmg/ddz303",
+      "pmid": "31903486",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068170/",
+      "access": "Primary case extraction carried from Round 10; indexed original clinical and treatment passages encountered in current search. No additional outcome extracted.",
+      "locators": [
+        "Clinical evaluation",
+        "Taurine supplementation treatment"
+      ],
+      "web_refs": [
+        "turn136search3"
+      ],
+      "supports": [
+        "existing F315 Gly399Val boy/girl pair",
+        "two prior treatment records retained"
+      ]
+    },
+    {
+      "source_id": "S11-S05",
+      "type": "official conference navigation; no clinical evidence",
+      "url": "https://www.arvo.org/annual-meeting/about/past-meetings",
+      "access": "Official archive page read; linked 2023 issue and pocket guide each attempted once.",
+      "locators": [
+        "ARVO 2023 section, lines63-70"
+      ],
+      "web_refs": [
+        "turn142view1",
+        "turn145view0",
+        "turn145view1"
+      ],
+      "efficacy_evidence_used": false
+    }
+  ],
+  "retrieval_log": [
+    {
+      "route": "canonical target article",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2787051",
+      "outcome": "403 Forbidden",
+      "body_recovered": false,
+      "web_ref": "turn131view0"
+    },
+    {
+      "route": "exact-title and author searches through two public search engines",
+      "representative_queries": [
+        "\"Taurin supplementation in two brothers\" SLC6A6",
+        "\"SLC6A6\" \"Holve\"",
+        "\"Preising\" \"Holve\" \"Schuetz\" taurine",
+        "\"SLC6A6\" \"1535\" -site:pmc.ncbi.nlm.nih.gov -site:jamanetwork.com"
+      ],
+      "outcome": "Citing-paper and bibliographic matches, no indexed target abstract body. Bare article-number search was nonspecific and was not used as evidence.",
+      "body_recovered": false,
+      "web_refs": [
+        "turn131search2",
+        "turn133search4",
+        "turn136search0",
+        "turn139search1"
+      ]
+    },
+    {
+      "route": "official 2023 issue link from ARVO archive",
+      "url": "https://iovs.arvojournals.org/issues.aspx?issueid=938637&journalid=177",
+      "outcome": "403 Forbidden",
+      "body_recovered": false,
+      "web_ref": "turn145view0"
+    },
+    {
+      "route": "official 2023 pocket-guide link from ARVO archive",
+      "url": "https://www.arvo.org/uploads/files/general/Annual-Meeting/Pocket-Guides/arvo-2023-pocket-guide.pdf",
+      "outcome": "Reader rejected 12,813,269-byte PDF as too large. Guide contents were not inspected and availability of the target abstract within it is unknown.",
+      "body_recovered": false,
+      "web_ref": "turn145view1"
+    },
+    {
+      "route": "author and institutional publication searches",
+      "representative_queries": [
+        "site:uni-giessen.de \"Holve\" \"Preising\"",
+        "site:ukgm.de \"Holve\" \"Taurin\"",
+        "\"Taurin supplementation in two brothers\" pdf"
+      ],
+      "outcome": "Institutional author/publication records and a Basel thesis citation; no accessible target manuscript or poster. Staff-directory data were not used as patient or treatment evidence.",
+      "body_recovered": false,
+      "web_refs": [
+        "turn145search3",
+        "turn147search0",
+        "turn147search1"
+      ]
+    },
+    {
+      "route": "Basel thesis bibliographic lead",
+      "url": "https://edoc.unibas.ch/96905/1/Thesis_version%202_CR-MU_Final.pdf",
+      "outcome": "Indexed citation corroborates title/year/volume/number; direct PDF inaccessible to reader. No body evidence imported.",
+      "body_recovered": false,
+      "web_refs": [
+        "turn145search3",
+        "turn147view0"
+      ]
+    },
+    {
+      "route": "third-party bibliographic lead",
+      "url": "https://www.scienceopen.com/document?vid=cb434236-f80f-4250-8d56-a65f8c8b6441",
+      "outcome": "Search result lists the target as similar content; direct page 403. No primary text or efficacy extracted.",
+      "body_recovered": false,
+      "web_refs": [
+        "turn131search3",
+        "turn142view2"
+      ]
+    },
+    {
+      "route": "targeted public bibliographic/author-copy searches",
+      "representative_queries": [
+        "\"Taurin supplementation\" site:researchgate.net",
+        "\"Taurin supplementation\" site:openalex.org",
+        "site:iovs.arvojournals.org \"SLC6A6\" \"A78E\""
+      ],
+      "outcome": "No accessible target primary body recovered. Unrelated transporter papers and citation-only mirrors excluded.",
+      "body_recovered": false,
+      "web_refs": [
+        "turn147search8",
+        "turn147search9",
+        "turn148search0",
+        "turn148search4"
+      ]
+    },
+    {
+      "route": "2019 primary lineage-context paper",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31345061/",
+        "https://mbilab.uni-frankfurt.de/data/_uploaded/file/paper/189.pdf"
+      ],
+      "outcome": "Original 2019 abstract read; author-hosted PDF timeout. Neither supplies a verified linkage to the 2023 patients.",
+      "target_body_recovered": false,
+      "web_refs": [
+        "turn148view0",
+        "turn133view0"
+      ]
+    }
+  ],
+  "activities": {
+    "public_document_research": true,
+    "repository_baseline_read_only": true,
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "git_actions": false
+  },
+  "validation": {
+    "same_candidate_id_as_round10": true,
+    "new_candidate_count": 0,
+    "new_direct_treatment_records": 0,
+    "primary_unknowns_not_imputed": true,
+    "A78E_not_assigned_to_target": true,
+    "unread_abstract_not_efficacy_evidence": true,
+    "no_global_census_claim": true,
+    "no_response_rate": true,
+    "source_ids_local_to_this_dossier": true
+  }
+}
