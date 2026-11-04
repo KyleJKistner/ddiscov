@@ -1,0 +1,185 @@
+{
+  "schema_version": "ddiscov.round10.independent_clinical_review.v1",
+  "review_date": "2026-11-04",
+  "reviewer": "round10_blu independent bounded pass",
+  "reviewed_base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "overall_verdict": "pass_with_explicit_primary_access_limits",
+  "blocking_issue_count": 0,
+  "nonblocking_issue_count": 0,
+  "requested_fixes": [],
+  "reviewed_files": [
+    {
+      "path": "mannac-controlled-result.md",
+      "sha256": "141bcffdf6181039bfb8b0e05c249ba9064ebd425099e05ce5d853228af4a452",
+      "bytes": 4422,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    },
+    {
+      "path": "mannac-controlled-result.json",
+      "sha256": "3b04734e99d35c5c7782215581b23c135e4e92159a0416abbdd9a9ad6dd316b1",
+      "bytes": 4296,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    },
+    {
+      "path": "scarb2-case-lineage-update.md",
+      "sha256": "5f74d98da968fa3eae7e1ed6b6ffc392321158b12a66974771eb0a1bb51e5305",
+      "bytes": 4587,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    },
+    {
+      "path": "scarb2-case-lineage-update.json",
+      "sha256": "8a4a58ce0324cbe33f30752a404fd80276b14aa65fb6acadc57f42f0cf55726c",
+      "bytes": 3694,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    },
+    {
+      "path": "hhd-active-care-comparator.md",
+      "sha256": "64d88058a2f92362487123cdcdccf9159e5718a2d4b9724450b3905f727c2f8f",
+      "bytes": 6142,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    },
+    {
+      "path": "hhd-active-care-comparator.json",
+      "sha256": "6facf47441934ae4dc4661d55b09d844639bd27fa940f3013613309dc4b75784",
+      "bytes": 5236,
+      "read_in_full": true,
+      "modified_by_reviewer": false
+    }
+  ],
+  "review_scope": {
+    "single_bounded_pass": true,
+    "six_deliverables_read_in_full": true,
+    "source_documents_reopened": 1,
+    "broad_search_repeated": false,
+    "reviewed_files_edited": false,
+    "git_actions": false,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false,
+    "limitations": "This is an identity, denominator, source-scope and inference review. It independently reopens the Cao primary case series only; it does not claim fresh full-primary verification of AAN, Chaves or Mehrabian passages."
+  },
+  "checks": [
+    {
+      "id": "ICR-01",
+      "domain": "Exact article and disease identity",
+      "result": "pass",
+      "findings": [
+        "ManNAc remains N-acetylmannosamine in GNE myopathy, separate from aceneuramic acid and other pathway interventions.",
+        "SCARB2 treatment is miglustat; preceding imiglucerase is a distinct intervention and contributes no miglustat nonresponders.",
+        "Naltrexone is an active-care comparator, not new ruxolitinib efficacy or a newly counted candidate."
+      ],
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-02",
+      "domain": "ManNAc participant and analysis denominators",
+      "result": "pass",
+      "findings": [
+        "37 treated ManNAc plus 17 treated placebo equals 54; the exact endpoint-analysis N remains null.",
+        "Registry actual enrollment 54 and older planned 51 are separately stored; no pooled or inferred attrition denominator.",
+        "AAN and Neurology versions are treated as one report, and abstract-level uncertainty is preserved."
+      ],
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-03",
+      "domain": "Original inventory versus new-screen accounting",
+      "result": "pass",
+      "findings": [
+        "Baseline discovery/historical-topics.csv T060 already contains the exact AAN2026-006191 URL.",
+        "Baseline portfolio-register.json T060 review is repository_registry with fresh_primary_review=false, matching the new file.",
+        "All three updates have new_candidate=false. Existing candidate identifiers R9-NL-01 and R6-NL-01 are retained."
+      ],
+      "baseline_locators": [
+        "discovery/historical-topics.csv row topic_id=T060",
+        "research/portfolio-register.json coverage_records inventory_id=historical-topics:T060"
+      ],
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-04",
+      "domain": "SCARB2 patient lineage and contrary evidence",
+      "result": "pass",
+      "findings": [
+        "Chaves describes two siblings but adds one miglustat-treated person, patient2.",
+        "Current ledger 1 Chaves + 1 Quraishi + 2 Atasu + 1 Colucci = 5 people across 4 reports.",
+        "Round 9 was explicitly a bounded four-person retrieved set; the new file does not falsely correct a historical global census.",
+        "The Atasu pair retains its shared-family relationship and unfavorable trajectories; no response probability is estimated.",
+        "Exact Chaves allele remains null, and primary-access limits are explicitly disclosed."
+      ],
+      "baseline_locator": "research/rounds/round9/new-candidate-screen.md, R9-NL-01 case table and denominator paragraph",
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-05",
+      "domain": "Naltrexone cases, cointerventions and dose inference",
+      "result": "pass",
+      "findings": [
+        "The independent Cao primary-source recheck confirms three biopsy-proven patients and the recorded treatment sequences.",
+        "Cao case1 includes topical rescue/maintenance; case3 includes changing systemic and procedural rescue.",
+        "Case2 stopping and restarting at different historical doses is not a randomized dose comparison.",
+        "The fourth record is the separate Mehrabian case; its BAD presentation is deduplicated.",
+        "Four records are explicitly selected cases rather than the all-treated denominator, and are not pooled with ruxolitinib.",
+        "No dose escalation, dose superiority, chronic safety margin or head-to-head effect is inferred."
+      ],
+      "primary_locator": "Cao et al., JAMA Dermatology, Methods and Results Cases 1-3; Discussion dosing claim explicitly not adopted",
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-06",
+      "domain": "Primary-access scope",
+      "result": "pass",
+      "findings": [
+        "ManNAc source scope is an investigator abstract plus indexed registry, not a recovered full analysis dataset.",
+        "Chaves scope is abstract/indexed original passages; complete PDF and genotype audit are not claimed.",
+        "Cao original HTML scope is independently confirmed. Mehrabian remains primary abstract/indexed passages, not a newly retrieved complete PDF.",
+        "Ceccacci remains abstract-level; review metadata contributes no primary dose-response data."
+      ],
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-07",
+      "domain": "Phenotype/function versus mechanism and causal inference",
+      "result": "pass",
+      "findings": [
+        "ManNAc no significant benefit is not converted into zero possible effect or proven target-engagement failure.",
+        "SCARB2 daily-function gains remain uncontrolled observations; renal repair, survival benefit and death/drug causality are not inferred.",
+        "HHD author-estimated improvement is not equated with a validated trial endpoint; symptomatic control is separated from ATP2C1/SPCA1 correction."
+      ],
+      "requested_fixes": []
+    },
+    {
+      "id": "ICR-08",
+      "domain": "No unintended current clinical or experimental actions",
+      "result": "pass",
+      "findings": [
+        "Historical regimens are labelled as historical evidence, not prescribing advice.",
+        "HHD comparator and cointervention statements are documentary requirements for the existing future proof plan, with no present trial execution or patient treatment instruction.",
+        "Each update expressly limits current activities to public-document analysis and excludes outreach, purchases and experiments."
+      ],
+      "requested_fixes": []
+    }
+  ],
+  "independently_reopened_primary_source": {
+    "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2668140",
+    "doi": "10.1001/jamadermatol.2017.5463",
+    "title": "Variable Response to Naltrexone in Patients With Hailey-Hailey Disease",
+    "access": "Original full HTML read",
+    "locators": [
+      "Methods, retrieved lines91-92",
+      "Results Cases1-3, retrieved lines96-115",
+      "Discussion, retrieved lines116-120",
+      "Article Information, publication date line129"
+    ],
+    "web_reference": "turn114view0",
+    "purpose": "Resolve exact historical treatment-sequence/cointervention and dose-superiority concerns without reopening the wider search",
+    "outcome": "No disagreement with reviewed case extraction or limitations"
+  },
+  "review_validity": "Applies only to the six file hashes recorded above; content changes require a scoped follow-up review of the changed claims."
+}

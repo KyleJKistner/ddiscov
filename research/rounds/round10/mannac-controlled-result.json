@@ -1,0 +1,123 @@
+{
+  "schema_version": "ddiscov.round10.mannac_update.v1",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "activities": {
+    "public_document_analysis": true,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false
+  },
+  "review_id": "R10-EX-01",
+  "inventory_id": "historical-topics:T060",
+  "name": "N-acetylmannosamine / GNE myopathy",
+  "classification": "existing_inventory_current_disposition_update",
+  "new_candidate": false,
+  "novelty": "Primary report was already linked in original inventory; current review and explicit disposition are new. No new publication or trial is claimed.",
+  "prior_review": {
+    "depth": "repository_registry",
+    "fresh_primary_review": false,
+    "triage": "program_or_clinical_development_track"
+  },
+  "trial": {
+    "id": "NCT04231266",
+    "protocol_id": "NN109",
+    "acronym": "MAGiNE",
+    "phase": "2",
+    "source_ids": [
+      "M10-S01",
+      "M10-S02"
+    ],
+    "design": "randomized double-blind placebo-controlled multicenter",
+    "allocation_ratio": "2:1",
+    "intervention": {
+      "entity": "N-acetylmannosamine",
+      "historical_regimen": "4 g three times daily",
+      "minimum_treatment_months": 24,
+      "authenticated_lot": null
+    },
+    "control": "erythritol",
+    "people": {
+      "treated_total": 54,
+      "mannac": 37,
+      "placebo": 17,
+      "endpoint_analysis_N": null,
+      "registry_actual_enrollment": 54,
+      "older_narrative_planned_N": 51
+    },
+    "primary_endpoint": "maximum voluntary isometric contraction/QMA with GNE progression model, as described in abstract",
+    "result": {
+      "primary": "no significant benefit demonstrated",
+      "per_protocol": "direction favors ManNAc, not significant",
+      "secondary_exploratory": "negative per abstract",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null
+    },
+    "limitations": {
+      "baseline_active_arm_weaker": true,
+      "arm_attrition": null,
+      "variant_subgroups": null,
+      "on_trial_target_engagement": null,
+      "full_analysis_report_recovered": false
+    },
+    "adverse_observations": {
+      "increased": [
+        "flatulence",
+        "ophthalmic events"
+      ],
+      "counts": null,
+      "severity": null
+    },
+    "registry_snapshot": {
+      "last_update_posted": "2025-06-13",
+      "status_as_displayed": "ACTIVE_NOT_RECRUITING",
+      "current_API_hasResults": null,
+      "direct_API_access": "failed",
+      "interpretation": "Administrative snapshot predates 2026 abstract; not contrary efficacy evidence"
+    }
+  },
+  "decision": {
+    "disposition": "hold undifferentiated independent ManNAc development; retain controlled-evidence benchmark",
+    "current_S_tier": false,
+    "dedicated_planning_points": 0,
+    "not_inferred": [
+      "zero possible effect",
+      "confirmed target-engagement failure",
+      "all sialic-acid interventions fail",
+      "a favorable genotype subgroup",
+      "benefit from a nonsignificant per-protocol direction"
+    ],
+    "reopening_condition": "Public full results or data support a credible prespecified functional effect or a defined article/exposure/differentiation problem with a substantiated solution.",
+    "stop_rule": "Do not reopen the same abstract or substitute a biochemical signal for controlled functional benefit."
+  },
+  "sources": [
+    {
+      "id": "M10-S01",
+      "type": "primary_investigator_conference_abstract",
+      "url": "https://index.mirasmart.com/AAN2026/PDFfiles/AAN2026-006191.html",
+      "same_report_mirror": "https://www.neurology.org/doi/10.1212/WNL.0000000000217922",
+      "doi": "10.1212/WNL.0000000000217922",
+      "journal_publication_date": "2026-06-09",
+      "access": "original AAN HTML read; journal abstract retrieved",
+      "source_refs": [
+        "turn104view1",
+        "turn87search0"
+      ],
+      "independent_reports": 1,
+      "journal_editorial_review_of_abstract": false
+    },
+    {
+      "id": "M10-S02",
+      "type": "official_registry",
+      "url": "https://clinicaltrials.gov/study/NCT04231266",
+      "access": "indexed primary record; API access failed",
+      "source_refs": [
+        "turn101search0",
+        "turn104view0"
+      ]
+    }
+  ]
+}

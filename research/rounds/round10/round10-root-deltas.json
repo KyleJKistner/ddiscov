@@ -1,0 +1,222 @@
+{
+  "schema_version": "ddiscov.round10.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "base_publication_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "counts": {
+    "new_exact_intervention_use_screens": 2,
+    "new_molecule_claims": 0,
+    "existing_candidates_or_inventory_uses_reviewed": 5,
+    "existing_inventory_uses_with_new_current_hold": 1,
+    "inherited_interpretation_corrections": 1,
+    "additional_primary_source_text_table_conflicts_preserved": 1,
+    "research_workstreams_including_root": 4,
+    "independent_review_documents_total": 4,
+    "reviewed_authored_files": 13,
+    "IDH_contextual_ledger_rows": 43,
+    "BLU_recounted_plasma_numeric_entries": 26,
+    "new_experiments": 0,
+    "S_tier_promotions": 0
+  },
+  "counting_rule": "Two new exact uses do not imply two new molecules. Five existing candidates or inventory uses received current reviews. ManNAc already linked the same source; case-set expansion, a source conflict, an assay-context extraction and a recount of existing observations are not newly generated efficacy data. Published experiments remain historical evidence.",
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "BLU3797_XLMTM",
+      "new_candidate": false,
+      "planning_points": 55,
+      "delta": [
+        "Recounted the same released workbook as 26 numeric plasma measurements across five groups, without converting observations into verified unique animals or paired outcomes. Postdose hours, bound/free analytical basis, parent-selective assay and tissue/metabolite profiles remain unresolved.",
+        "Newly extracted patent Figure4B context is GFP-PI3KC2beta HEK cells in full medium; the figure legend confirms examples 36/40/90/96. This engineered pathway readout does not qualify exact 47/91 or native muscle engagement.",
+        "A newly retrieved 2024 primary conference abstract describes three unnamed leads and a 117-kinase panel excluding C2gamma. No identity, potency, exposure or selectivity transfer to exact 47/91/BLU is allowed.",
+        "Retain 55 points, exact 47 first, and the affirmative bounded human-muscle qualification project. No human exposure window or new exact-article efficacy established."
+      ],
+      "source_scope": "research/rounds/round10/blu-exposure-feasibility.json",
+      "review_file": "research/rounds/round10/blu-exposure-feasibility.md"
+    },
+    {
+      "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "new_candidate": false,
+      "planning_points": 15,
+      "delta": [
+        "Correct the inherited blanket AGI-17011 absence statement: EMA p18 conflicts with clinical pp33-34 and 46, which report M2/AGI-17011 as a minor human plasma metabolite at 0.3% of single-dose circulating radioactivity exposure. Chronic pediatric contribution remains unknown.",
+        "The43-row ledger preserves analyte, exact assay/variant, formulation, age/species, compartment, bound/free basis, timing, statistic and denominator. Adult repeated-dose exposure and in-vitro binding arithmetic do not establish infant organ exposure.",
+        "FDA vorasidenib Table 21 reverses tumor:Cavg dose assignments relative to adjacent prose. Preserve the source conflict. PMDA AGI-69460 R172K activity does not supply R140Q potency.",
+        "Close CNS superiority as not identifiable from the bounded public evidence; retain 15 points and the separate cardiac question. No new D2HGA2 clinical outcome or infant dose established."
+      ],
+      "source_scope": "research/rounds/round10/idh-exposure-ledger.json",
+      "review_file": "research/rounds/round10/idh-exposure-ledger.md"
+    },
+    {
+      "candidate_id": "R6-NL-01",
+      "new_candidate": false,
+      "planning_points": 10,
+      "delta": [
+        "Four selected naltrexone case records across two primary reports add a documented active-care option for the HHD comparison. Cointerventions, author-estimated outcomes, recurrence and related presentation deduplication remain explicit.",
+        "This is not new ruxolitinib efficacy, an all-treated naltrexone response rate, a head-to-head comparison or a validated dose-escalation regimen.",
+        "Retain 10 points and the existing proof recommendation. Make the vehicle/add-on/replacement claim explicit, and preserve background care, useful control, pain, rescue burden and all-randomized maintenance denominators. The9-patient preprint remains abstract-level."
+      ],
+      "source_scope": "research/rounds/round10/hhd-active-care-comparator.json",
+      "review_file": "research/rounds/round10/hhd-active-care-comparator.md"
+    },
+    {
+      "candidate_id": "R9-NL-01",
+      "new_candidate": false,
+      "planning_points": 0,
+      "delta": [
+        "Chaves 2011 describes two sisters but only one miglustat-treated person. New retrieval expands the bounded ledger from 4 to 5 treated people across 4 reports; it is not a complete global census.",
+        "Functional gains remain uncontrolled; exact Chaves allele and exact formulation remain unresolved. Unfavorable trajectories and shared-family dependence remain visible; no pooled response probability.",
+        "Retain the conditional clinical-research reserve below lisdexamfetamine with independent asset hold and 0 dedicated points."
+      ],
+      "source_scope": "research/rounds/round10/scarb2-case-lineage-update.json",
+      "review_file": "research/rounds/round10/scarb2-case-lineage-update.md"
+    },
+    {
+      "candidate_id": "historical-topics:T060",
+      "new_candidate": false,
+      "planning_points": 0,
+      "delta": [
+        "The original inventory already linked the same MAGiNE negative-result abstract. This is a fresh primary review and current disposition for an existing use, not a new candidate or newly published finding.",
+        "The investigator abstract reports 54 treated (37 ManNAc/17 placebo) and no significant primary muscle-strength benefit. Endpoint-analysis N, effect estimate and interval, arm attrition and actual target engagement are not recovered.",
+        "Hold undifferentiated independent ManNAc/GNE muscle-strength development; retain the randomized controlled-evidence benchmark. Do not infer zero effect, target-engagement failure or failure of every related pathway intervention."
+      ],
+      "source_scope": "research/rounds/round10/mannac-controlled-result.json",
+      "review_file": "research/rounds/round10/mannac-controlled-result.md"
+    }
+  ],
+  "new_screens": [
+    {
+      "candidate_id": "R10-NL-01",
+      "name": "Oral taurine / SLC6A6 taurine-transporter deficiency",
+      "disposition": "conditional clinical-research reserve; independent asset thesis on hold",
+      "source_scope": "research/rounds/round10/new-candidate-screen.json"
+    },
+    {
+      "candidate_id": "R10-NL-02",
+      "name": "Zinc acetate dihydrate (Wilzin) / GNAO1-related disorder",
+      "disposition": "conditional clinical-research reserve, ahead of taurine for the next bounded clinical-evidence review; independent asset thesis on hold",
+      "source_scope": "research/rounds/round10/new-candidate-screen.json"
+    }
+  ],
+  "source_reference_scopes": [
+    "research/rounds/round10/blu-exposure-feasibility.json",
+    "research/rounds/round10/idh-exposure-ledger.json",
+    "research/rounds/round10/hhd-active-care-comparator.json",
+    "research/rounds/round10/mannac-controlled-result.json",
+    "research/rounds/round10/scarb2-case-lineage-update.json",
+    "research/rounds/round10/new-candidate-screen.json"
+  ],
+  "alias_audit": "research/rounds/round10/candidate-alias-audit.json",
+  "numeric_specification": {
+    "path": "research/rounds/round8/blu3797-qualification-spec.json",
+    "changed": false,
+    "observed_or_calibrated_new_thresholds": false
+  },
+  "manual_qualification_amendments": {
+    "path": "research/rounds/round9/qualification-amendments.json",
+    "changed": false,
+    "count": 6,
+    "automatically_enforced_by_existing_utility": false
+  },
+  "allocation": {
+    "unit": "planning-effort points; not dollars,success probabilities or spending",
+    "total": 100,
+    "queue": [
+      {
+        "rank": 1,
+        "candidate_id": "BLU3797_XLMTM",
+        "points": 55
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "candidate_id": "R6-NL-01",
+        "points": 10
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R8-NL-02",
+        "points": 6
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R3-NL-01",
+        "points": 2
+      },
+      {
+        "rank": 5,
+        "candidate_id": "R8-NL-04",
+        "points": 2,
+        "scope": "Darier comparator; not an S-tier or exclusive asset"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "points": 2
+      },
+      {
+        "rank": 7,
+        "candidate_id": "R8-EX-01",
+        "points": 2,
+        "scope": "selective target discovery; exact W7 deprioritized"
+      },
+      {
+        "rank": 8,
+        "candidate_id": "AAT_EVLP",
+        "points": 1
+      },
+      {
+        "rank": null,
+        "candidate_id": null,
+        "points": 5,
+        "scope": "bounded discovery and contrary-evidence updates"
+      }
+    ],
+    "rationale_file": "research/rounds/round8/portfolio-allocation.md",
+    "round9_review": "research/rounds/round9/round9-root-deltas.json",
+    "round9_allocation_changed": false,
+    "round10_review": "research/rounds/round10/round10-root-deltas.json",
+    "round10_allocation_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round10/independent-clinical-update-review.json",
+    "research/rounds/round10/independent-idh-exposure-review.json",
+    "research/rounds/round10/independent-new-candidate-review.json",
+    "research/rounds/round10/independent-blu-exposure-review.json"
+  ],
+  "integration_review": "research/rounds/round10/integration-review.md",
+  "local_verification": "research/rounds/round10/local-verification.json",
+  "artifact_manifest": "research/rounds/round10/artifact-manifest.json",
+  "activity_boundary": "Public-source desk research, retrospective interpretation, deterministic arithmetic on published observations and repository verification. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "closed_or_bounded_questions": [
+    {
+      "question": "IDH drug normal-infant-brain superiority",
+      "status": "Not identifiable from reviewed public data; stop repeated adult tumor-ratio comparisons.",
+      "reopen_for": "Exact AGI-69460 R140Q activity, matched normal-brain free exposure or age-relevant human PK that could change drug choice."
+    },
+    {
+      "question": "Exact BLU exposure and numbered comparator feasibility",
+      "status": "Specific missing fields enumerated; no further generic C2beta or exhausted model search.",
+      "reopen_for": "Exact-article disclosure that fills native-muscle exposure, time-aligned activity, selectivity or metabolite identity."
+    },
+    {
+      "question": "ManNAc undifferentiated muscle-strength development",
+      "status": "Current hold after the already-linked controlled primary result.",
+      "reopen_for": "Full results supporting a credible prespecified functional effect or a defined article/exposure problem with a substantiated solution."
+    },
+    {
+      "question": "Ceccacci 9-patient HHD preprint",
+      "status": "Abstract-only access ceiling retained; no repeated failed access chase.",
+      "reopen_for": "New accessible primary version or supplement with denominators, treatment and controlled outcomes."
+    }
+  ],
+  "next_bounded_desk_questions": [
+    "Recover exact endpoint-paired counts and missing-data handling for the zinc pilot from a newly accessible full report or supplement before an efficacy claim.",
+    "Resolve the identified two-brother SLC6A6 abstract identity/outcomes/overlap before any complete treated-census statement.",
+    "Maintain the existing prioritized qualification and clinical evidence requirements; publish only decision-changing source additions or contrary evidence, with no experimental execution."
+  ]
+}

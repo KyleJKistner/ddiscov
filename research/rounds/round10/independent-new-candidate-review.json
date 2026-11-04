@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "reviewer": "round10_clinical",
+  "author_of_reviewed_artifacts": "round10_discovery",
+  "independent_of_author": true,
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "verdict": "pass",
+  "fixes_required": [],
+  "issues": [],
+  "reviewed_files": [
+    {
+      "path": "new-candidate-screen.md",
+      "sha256": "0b12b1aba306597fa585d48acdbd1033bf8ad8905165d2e33c970ea2d009f48a",
+      "bytes": 14521
+    },
+    {
+      "path": "new-candidate-screen.json",
+      "sha256": "d02f075570348dbef73038825f58001f8389fdb665e28d49e214d16a215d425f",
+      "bytes": 24603
+    },
+    {
+      "path": "candidate-alias-audit.json",
+      "sha256": "2b72dc100e1e78995e465052bb419249c62ce01ffe348b76cc909f89ca6e300b",
+      "bytes": 7214
+    }
+  ],
+  "checks": [
+    {
+      "id": "ZINC_DENOMINATORS",
+      "status": "pass",
+      "finding": "16 screened, 13 enrolled, 12 exposed, 11 completed are distinct. The mFAS includes all enrolled except the unrelated-SAE withdrawal, so its 12 includes the never-exposed refuser. Endpoint-specific paired counts remain explicitly unresolved.",
+      "source_id": "R10D-S04",
+      "locator": "PubMed abstract and Figure1 caption, lines259,283-285",
+      "primary_ref": "turn127view0"
+    },
+    {
+      "id": "ZINC_FEASIBILITY",
+      "status": "pass",
+      "finding": "11/13 rounds to 84.6%; defined as adherence on at least 80% of days, not an efficacy responder fraction.",
+      "source_id": "R10D-S04",
+      "locator": "Abstract Methods/Findings, lines255-260",
+      "primary_ref": "turn127view0"
+    },
+    {
+      "id": "ZINC_EXTERNAL_COMPARATOR",
+      "status": "pass",
+      "finding": "Figure3 uses n=8 eligible paired observations against published dyskinetic cerebral-palsy trajectories. Screen correctly excludes a concurrent GNAO1-control interpretation and retains missing endpoint denominators.",
+      "source_id": "R10D-S04",
+      "locator": "Figure3 caption, lines305-307",
+      "primary_ref": "turn118view2"
+    },
+    {
+      "id": "ZINC_MASKING_AND_FUNCTION",
+      "status": "pass",
+      "finding": "Blinded movement score and unblinded disability score are distinguished. Unchanged movement severity remains a counterweight to exploratory GMFM/disability changes.",
+      "source_id": "R10D-S04",
+      "locator": "Abstract Findings and Figure2 caption, lines259-260,295-296",
+      "primary_ref": "turn127view0"
+    },
+    {
+      "id": "EARLIER_ZINC_CASE",
+      "status": "pass",
+      "finding": "Published PDF confirms gluconate then acetate dihydrate, elemental-zinc units, twice-daily to weekly residual crises, unchanged GMFM-66 and hydromorphone cointervention. No all-crises-eliminated or acetate-only causal claim is made.",
+      "source_id": "R10D-S05",
+      "locator": "Printed p5 / physical p6, lines270-294; cointervention discussion printed p7",
+      "primary_ref": "turn120view1",
+      "additional_primary_ref": "turn118view3"
+    },
+    {
+      "id": "SLC6A6_ORIGINAL_SIGNAL",
+      "status": "pass",
+      "finding": "Original report supports two related G399V treated patients with residual transport, mild cardiomyopathy and fractional-shortening improvement; screen does not relabel this as LVEF, severe-heart-failure rescue or independent-family replication.",
+      "source_id": "R10D-S01",
+      "locator": "Functional analysis, Clinical evaluation, Taurine supplementation treatment; lines308-335",
+      "primary_ref": "turn118view4"
+    },
+    {
+      "id": "SLC6A6_STAGE_AND_GENOTYPE",
+      "status": "pass",
+      "finding": "Newer exon11-deletion patient had advanced retinal disease, normalization of plasma taurine and unchanged FST through successive 8- and 9-month follow-ups. T249I/A294T transport losses are not assigned the G399V clinical response. Trp113Ter main-text/Thr113Ter abstract discrepancy is preserved.",
+      "source_id": "R10D-S02",
+      "locator": "Clinical evaluation and Genetic/Functional analysis, lines424-459; abstract line375",
+      "primary_ref": "turn128view0"
+    },
+    {
+      "id": "SLC6A6_COUNTING",
+      "status": "pass",
+      "finding": "Three directly extracted treated people across two pedigrees is explicitly an incomplete census; the 7 affected/10 unaffected newer cohort is not counted as 7 treated. Unread two-brother meeting abstract is not efficacy evidence.",
+      "source_ids": [
+        "R10D-S01",
+        "R10D-S02",
+        "R10D-S03"
+      ],
+      "locator": "Screen biological-unit ledger and source-access qualifications; main clinical narratives of S01/S02"
+    },
+    {
+      "id": "BASELINE_ALIAS_AUDIT",
+      "status": "pass",
+      "finding": "Independently reproduced 186-file baseline corpus digest and 622 coverage rows; independently decoded XLSX sheet 21 row 677: GNAO_MOUSE / ENSMUSG00000031748 / Gnao1. This is a gene-only hit, not a zinc intervention-use record.",
+      "corpus_sha256": "6a8ac5180ef7769a7bb926f1eb8d24ab05686a18893aa65626b698e3e2431464",
+      "baseline_file_count": 186,
+      "register_coverage_rows": 622,
+      "source": "Local baseline read only"
+    },
+    {
+      "id": "STRUCTURE_AND_DECISION",
+      "status": "pass",
+      "finding": "Strict JSON, 13 variant-ledger rows / 12 started / 11 distinct variants, consistent 2 exact-use screens / 0 new molecules, no S-tier promotion or new dedicated allocation. Historical regimens are marked nonrecommendations; restrictions remain observed.",
+      "source": "Local reviewed artifacts"
+    }
+  ],
+  "scope": "One bounded independent pass over final screen artifacts, targeted primary sections and baseline corpus metadata. No broad new literature search.",
+  "primary_urls_independently_opened": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068170/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12679424/",
+    "https://pubmed.ncbi.nlm.nih.gov/42542632/",
+    "https://access.archive-ouverte.unige.ch/access/metadata/b38fa5a4-bb7a-42b9-b110-2ad4a6ce8400/download"
+  ],
+  "retained_limitations": [
+    "Full 2026 zinc manuscript and supplement not recovered; endpoint-specific paired denominators and missing-data rules remain unresolved and are disclosed.",
+    "The 2023 taurine abstract remains unread; no complete treatment census was verified.",
+    "This is source and logic review, not raw-data reanalysis, independent clinical efficacy validation or complete IP review.",
+    "Only critical baseline counts/digest and gene-only workbook location were independently reproduced; the full term-by-term 186-file extraction was not rerun."
+  ],
+  "activities": {
+    "read_only_review": true,
+    "changed_reviewed_files": false,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false
+  }
+}

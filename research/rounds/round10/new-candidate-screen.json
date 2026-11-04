@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.1",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "counting": {
+    "new_exact_intervention_use_screens": 2,
+    "new_molecule_claims": 0,
+    "comparators_counted_as_extra_candidates": 0,
+    "fully_deduplicated_global_patient_census": false
+  },
+  "alias_audit": "candidate-alias-audit.json",
+  "records": [
+    {
+      "candidate_id": "R10-NL-01",
+      "name": "Oral taurine / SLC6A6 taurine-transporter deficiency",
+      "classification": "new_exact_use_of_previously_inventoried_molecule",
+      "exact_entity": "Oral taurine; Burgerstein tablets named in the original loading-test methods. Therapeutic batch and present supply equivalence not authenticated.",
+      "indication": "Biallelic SLC6A6 deficiency with organ- and genotype-specific claims; cardiac dysfunction and viable residual retina assessed separately.",
+      "stage": "Human uncontrolled treatment reports plus patient-cell/heterologous transport evidence.",
+      "source_ids": [
+        "R10D-S01",
+        "R10D-S02",
+        "R10D-S03"
+      ],
+      "biological_units": {
+        "directly_extracted_treated_individuals": 3,
+        "directly_extracted_treated_pedigrees": 2,
+        "cardiac_treated_individuals": 2,
+        "cardiac_treated_pedigrees": 1,
+        "newer_cohort_affected_individuals": 7,
+        "newer_cohort_unaffected_individuals": 10,
+        "newer_cohort_families": 4,
+        "newer_cohort_explicitly_described_treated_individuals": 1,
+        "complete_global_treated_census": false,
+        "additional_primary_abstract_with_two_brothers_metadata_only": true,
+        "heterozygous_loading_test_parents_counted_as_disease_outcome_replicates": false
+      },
+      "evidence": [
+        {
+          "source_id": "R10D-S01",
+          "unit": "two affected siblings, family F315",
+          "genotype": "NM_003043.5:c.1196G>T; p.Gly399Val; homozygous",
+          "ages_years": [
+            15,
+            6
+          ],
+          "residual_transport_approx_percent": 15,
+          "transport_units": "heterologous cells and patient fibroblasts; not direct organ target engagement",
+          "baseline_stage": "Mild hypokinetic cardiomyopathy; normal effort test. Older sibling had advanced macular atrophy; younger sibling retained central photoreceptors.",
+          "historical_regimen": {
+            "route": "oral",
+            "taurine_mg_per_kg_per_day": 100,
+            "divisions_per_day": 3,
+            "duration_months": 24,
+            "is_recommendation": false
+          },
+          "fractional_shortening_percent": {
+            "baseline_range": [
+              24,
+              27
+            ],
+            "after_24_months_both": 32,
+            "paper_normal_range": [
+              30,
+              40
+            ]
+          },
+          "ocular_outcome": {
+            "younger_sibling": "Reported visual performance improved; central retinal anatomy stable.",
+            "older_sibling": "No restored vision demonstrated in advanced retinal disease."
+          },
+          "adverse_events_reported": false,
+          "background_cardiac_care_fully_reconstructed": false,
+          "concurrent_control": false
+        },
+        {
+          "source_id": "R10D-S02",
+          "unit": "one explicitly treated proband among a seven-affected-person observational cohort",
+          "genotype": "NM_003043.6:c.1210-2389_1348-331del; p.Phe404_Glu449del; homozygous exon 11 deletion",
+          "age_at_treatment_years": 18,
+          "baseline_stage": "Advanced retinal degeneration; no dilated cardiomyopathy documented.",
+          "historical_regimen": {
+            "route": "oral",
+            "taurine_g_per_day_suggested_then_taken": [
+              1,
+              2
+            ],
+            "follow_up_months": [
+              8,
+              17
+            ],
+            "is_recommendation": false
+          },
+          "plasma_taurine_nmol_per_mL": [
+            5,
+            12,
+            29
+          ],
+          "reported_age_adjusted_normal_range": [
+            21,
+            123
+          ],
+          "outcome": "Examination and full-field stimulus testing essentially unchanged at both follow-ups; plasma normalization without demonstrated visual recovery.",
+          "lvef_percent": 56,
+          "concurrent_control": false
+        },
+        {
+          "source_id": "R10D-S02",
+          "unit": "variant assays; assay repetitions are not patients",
+          "variants": [
+            "p.Thr249Ile",
+            "p.Ala294Thr"
+          ],
+          "result": "Complete or near-complete taurine-transport loss in the tested cell systems. Missense status does not ensure a rescuable hypomorph.",
+          "independent_experiment_n": {
+            "HEK_uptake_Thr249Ile": 8,
+            "HEK_uptake_Ala294Thr": 6,
+            "patient_fibroblast_uptake_Ala294Thr": 6
+          },
+          "clinical_taurine_response_for_these_variants_established": false
+        }
+      ],
+      "source_discrepancy": {
+        "source_id": "R10D-S02",
+        "location": "family 4 stop variant",
+        "abstract": "p.Thr113Ter",
+        "main_text": "NM_003043.6:c.338G>A; p.Trp113Ter",
+        "handling": "Main-text sequence-linked notation retained, with discrepancy explicitly preserved; not a new treated outcome."
+      },
+      "causal_assessment": "Genetic deficiency, residual transport and temporally associated organ improvement support a plausible narrow cardiac signal. Two siblings do not establish independent replication, severe-heart-failure recovery, retinal regeneration, or benefit across transport-null genotypes. Stable late-stage retina has no untreated comparator and cannot establish prevention.",
+      "comparator_gap": "No concurrent untreated or standard-care control; original cardiac cointervention timeline not fully reconstructed.",
+      "material_model_route": "Published loading tablets, exact SLC6A6 constructs and patient fibroblast/HEK assays are public leads only. No material acquired, model commissioned, supply qualification or experiment performed. Transport correction would require useful organ function to justify development.",
+      "exposure_issue": "Plasma taurine correction is not proof of retinal or myocardial intracellular delivery; residual transporter function and remaining tissue must be separated.",
+      "development_contribution": "A genotype/stage/organ-specific evidence and outcome package could define where supplementation adds useful function. Generic taurine availability and an already published treatment idea alone provide no differentiated independent asset.",
+      "active_developer_and_rights": "Academic treatment/variant work is ongoing in the published literature. No exclusive product contribution or complete rights/FTO analysis established; current supply/lot identity unverified.",
+      "next_decision": "Resolve the 2023 two-brother report and complete treated-case lineage before claiming a census; prioritize independent useful cardiac or preserved-vision outcomes with genotype, stage, cointerventions and exposure retained.",
+      "advance_condition": "Independent meaningful organ function beyond plausible care/natural-history effects in a defined genotype and viable-tissue setting; a concrete additional product or evidence contribution is required for asset promotion.",
+      "stop_condition": "Do not generalize absent vision restoration to global taurine failure or presume that plasma normalization rescues lost tissue. Hold an undifferentiated supplementation asset; redirect if adequate exposure in a viable, defined subgroup fails useful function.",
+      "disposition": "conditional clinical-research reserve; independent asset thesis on hold",
+      "current_S_tier": false,
+      "allocation": "initial diligence within the existing five-point discovery allocation; no new dedicated allocation"
+    },
+    {
+      "candidate_id": "R10-NL-02",
+      "name": "Zinc acetate dihydrate (Wilzin) / GNAO1-related disorder",
+      "classification": "new_exact_intervention_use_screen",
+      "exact_entity": "Wilzin zinc acetate dihydrate capsules, 25 mg or 50 mg elemental zinc per capsule; distinct from zinc gluconate, zinc sulfate, zinc chloride and zinc pyrithione.",
+      "indication": "Genetically confirmed GNAO1-related disorder; useful motor/daily-function benefit remains unproven in a controlled comparison.",
+      "stage": "Completed six-month open-label prospective safety/feasibility pilot plus earlier single case and biochemical studies.",
+      "source_ids": [
+        "R10D-S04",
+        "R10D-S05",
+        "R10D-S06",
+        "R10D-S07"
+      ],
+      "biological_units": {
+        "screened": 16,
+        "enrolled_full_analysis_set": 13,
+        "initiated_at_least_one_dose_safety_set": 12,
+        "completed": 11,
+        "distinct_enrolled_variants": 11,
+        "modified_full_analysis_set_inferred_from_caption": 12,
+        "mFAS_definition": "All enrolled except the participant with an unrelated SAE; therefore includes the never-exposed refuser.",
+        "exploratory_GMFM_reference_comparison_subset": 8,
+        "per_endpoint_paired_counts_recovered": false,
+        "missing_data_imputation_rule_recovered": false,
+        "earlier_case_individuals": 1,
+        "earlier_case_is_pilot_G203R_infant": false,
+        "pooled_responder_rate_calculated": false
+      },
+      "trial": {
+        "name": "ZINCGNAO1",
+        "registration": "NCT06412653",
+        "EU_trial": "2024-512735-72-00",
+        "design": "single-centre, open-label, single-arm",
+        "duration_months": 6,
+        "enrollment_dates": [
+          "2024-08-02",
+          "2025-01-27"
+        ],
+        "eligible_age_years": [
+          0.5,
+          30
+        ],
+        "observed_age_approx_years": [
+          0.5,
+          25
+        ],
+        "GMFM66_eligibility_max": 75,
+        "exact_article": "Wilzin zinc acetate dihydrate",
+        "historical_elemental_zinc_mg_per_day_range": [
+          50,
+          150
+        ],
+        "historical_regimen_is_recommendation": false,
+        "primary_question": "safety and feasibility",
+        "feasibility_numerator": 11,
+        "feasibility_denominator": 13,
+        "feasibility_percent": 84.6,
+        "feasibility_definition": "adherence on at least 80% of treatment days",
+        "feasibility_is_efficacy_response": false,
+        "treatment_related_serious_adverse_events": 0,
+        "complete_SmPC_or_lifetime_safety_review": false
+      },
+      "enrolled_variant_ledger": [
+        {
+          "study_id": 1,
+          "variant": "p.Arg209Cys",
+          "started": true
+        },
+        {
+          "study_id": 2,
+          "variant": "p.Phe288Ser",
+          "started": true
+        },
+        {
+          "study_id": 3,
+          "variant": "p.Lys46Asn",
+          "started": true,
+          "completed": false,
+          "reason": "SAE judged unrelated to article"
+        },
+        {
+          "study_id": 4,
+          "variant": "p.Glu246Lys",
+          "started": true
+        },
+        {
+          "study_id": 5,
+          "variant": "p.Arg209His",
+          "started": true
+        },
+        {
+          "study_id": 6,
+          "variant": "p.Arg209Leu",
+          "started": true
+        },
+        {
+          "study_id": 7,
+          "variant": "p.Cys225Tyr",
+          "started": true
+        },
+        {
+          "study_id": 8,
+          "variant": "p.Arg209Cys",
+          "started": false,
+          "reason": "refusal before first dose"
+        },
+        {
+          "study_id": 9,
+          "variant": "p.Ser229Arg",
+          "started": true
+        },
+        {
+          "study_id": 10,
+          "variant": "p.Gly203Arg",
+          "started": true,
+          "age_years": 0.5
+        },
+        {
+          "study_id": 11,
+          "variant": "p.Ile56Ser",
+          "started": true
+        },
+        {
+          "study_id": 12,
+          "variant": "p.Ile55Thr",
+          "started": true
+        },
+        {
+          "study_id": 13,
+          "variant": "p.Arg209Cys",
+          "started": true
+        }
+      ],
+      "exploratory_outcomes": {
+        "GMFM66": {
+          "baseline_mean": 33.1,
+          "month6_mean": 37.8,
+          "nominal_p": 0.006
+        },
+        "BFMDRS_disability": {
+          "baseline_mean": 25.5,
+          "month6_mean": 23.5,
+          "nominal_p": 0.005,
+          "rater": "unblinded"
+        },
+        "movement_severity": "no change; BFMDRS movement was assessed by a blinded rater",
+        "COPM": "exploratory improvements reported",
+        "CPCHILD_and_seizures": "no clear treatment-related change",
+        "multiple_exploratory_endpoints": true,
+        "per_endpoint_paired_n": null,
+        "reference_comparison": {
+          "n": 8,
+          "age_range_years": [
+            2,
+            18
+          ],
+          "reference": "published dyskinetic cerebral palsy standard-care trajectories",
+          "concurrent_GNAO1_control": false,
+          "validated_GNAO1_minimum_important_difference": false
+        }
+      },
+      "earlier_case": {
+        "source_id": "R10D-S05",
+        "genotype": "GNAO1 c.607G>A; p.Gly203Arg",
+        "age_years": 3.4,
+        "total_treatment_months": 11,
+        "historical_article_sequence": [
+          "zinc gluconate",
+          "zinc acetate dihydrate"
+        ],
+        "historical_elemental_zinc_mg_per_day_sequence": [
+          40,
+          50
+        ],
+        "route": "gastrostomy water suspension",
+        "crises_per_period": {
+          "before": "approximately twice daily",
+          "after": "approximately weekly"
+        },
+        "BFMDRS_movement_improvement_points_at_8_months": 46.5,
+        "GMFM66": "unchanged",
+        "new_concomitant_drug": "hydromorphone in a palliative respiratory/agitation setting",
+        "acute_context": "severe infection and respiratory deterioration preceded treatment",
+        "concurrent_control": false,
+        "all_effects_attributed_to_acetate_alone": false,
+        "abstract_main_text_interpretation": "Cessation of daily crises means loss of daily frequency, not disappearance of all crises. Published main text supplies weekly residual crises and unchanged GMFM."
+      },
+      "preclinical_transfer_limit": {
+        "source_id": "R10D-S05",
+        "missense_variants_profiled": 16,
+        "response_classes": 3,
+        "predictive_clinical_validation": false,
+        "mouse_article": "zinc sulfate",
+        "mouse_variant": "p.Cys215Tyr",
+        "finding_boundary": "Rotarod/exploratory gains also occurred in wild-type mice; hyperactivity did not improve. This is not genotype-specific on-target motor rescue and not exact-acetate clinical proof."
+      },
+      "causal_assessment": "Useful function is measured, but open-label maturation, practice, background treatment and expectation remain explanations. The blinded movement-severity null and earlier unchanged GMFM constrain efficacy claims. Nominal pilot P values and an unmatched cerebral-palsy reference do not supply causal efficacy.",
+      "comparator_gap": "Stable and documented disease-specific symptomatic care and an appropriate GNAO1 comparison remain necessary; the study includes polytherapy and prior DBS. No recommendation to interrupt effective care follows from this screen.",
+      "material_model_route": "A named marketed oral article and published variant assays/cell and animal models are public routes. Availability, actual stock, trial supply and qualified assays not established by this screen; nothing acquired or commissioned.",
+      "exposure_issue": "Elemental zinc units must be retained. Serum increase does not establish CNS exposure. Wilson-labelled intestinal copper reduction and swallowing/palatability burdens matter for chronic use in GNAO1.",
+      "development_contribution": "Highest-value incremental work is a genotype-aware controlled useful-function evidence package with transparent exposure/completion and care denominators. A tolerability/administration improvement could be a separate product contribution only if it solves an observed burden; no invasive or novel delivery program is warranted by these data.",
+      "active_developer_and_rights": {
+        "academic_program": "University of Cologne and University of Geneva investigators; pilot funded by GNAO1-Gemeinsam nicht allein e.V.",
+        "marketed_product_holder": "Recordati Rare Diseases",
+        "approved_indication": "Wilson disease",
+        "GNAO1_approval_established": false,
+        "independent_rights_or_exclusivity_established": false,
+        "complete_patent_or_FTO_review": false
+      },
+      "next_decision": "Recover endpoint-level paired denominators and missing-data handling, and evaluate whether variant responsiveness predicts clinically useful benefit beyond disease-specific comparator care.",
+      "advance_condition": "Controlled, clinically meaningful motor or daily-function benefit, durable enough to matter, with acceptable sustained exposure and a distinct evidence/product contribution beyond the active program.",
+      "stop_condition": "No meaningful controlled function despite adequate exposure, an unacceptable copper/other safety or administration burden, or no differentiated contribution. Retain symptomatic-care access; do not infer a whole-target failure from heterogeneous unresponsive variants.",
+      "disposition": "conditional clinical-research reserve, ahead of taurine for the next bounded clinical-evidence review; independent asset thesis on hold",
+      "current_S_tier": false,
+      "allocation": "initial diligence within the existing five-point discovery allocation; no new dedicated allocation"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "R10D-S01",
+      "title": "Taurine treatment of retinal degeneration and cardiomyopathy in a consanguineous family with SLC6A6 taurine transporter deficiency",
+      "doi": "10.1093/hmg/ddz303",
+      "pmid": "31903486",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068170/",
+      "date_online": "2019-12-31",
+      "issue_date": "2020-03-13",
+      "type": "primary case and functional study",
+      "retrieval": "Full primary article text read; isolated Figure 3 image retrieval blocked, so no unverified patient-level LVEF values extracted.",
+      "supports": [
+        "two-sibling treatment outcomes",
+        "G399V residual transport",
+        "historical oral article"
+      ]
+    },
+    {
+      "source_id": "R10D-S02",
+      "title": "Early-Onset Retinopathy in Patients With Variants in SLC6A6 Leading to Impaired Taurine Transport",
+      "doi": "10.1001/jamaophthalmol.2025.4875",
+      "pmid": "41343195",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12679424/",
+      "date_online": "2025-12-04",
+      "issue_date": "2026-01",
+      "type": "primary observational cohort and functional study",
+      "retrieval": "Full primary article text read; supplementary raw datasets not independently audited.",
+      "supports": [
+        "seven affected people in four families, not seven treated people",
+        "one explicitly described treated exon-11-deletion patient",
+        "variant transport boundary",
+        "abstract/main-text variant discrepancy"
+      ]
+    },
+    {
+      "source_id": "R10D-S03",
+      "title": "Taurin supplementation in two brothers with a homozygous mutation in SLC6A6",
+      "citation": "Preising et al. IOVS 2023;64(8):1535",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2787051",
+      "type": "primary meeting abstract identified through S02 bibliography",
+      "retrieval": "Metadata only; official page returned 403. Genotype, outcomes, regimen and overlap with earlier pedigrees unresolved.",
+      "supports": [
+        "treated-case census is incomplete"
+      ],
+      "efficacy_evidence_used": false
+    },
+    {
+      "source_id": "R10D-S04",
+      "title": "Safety and feasibility of oral zinc for patients with GNAO1-related disorders (ZINCGNAO1): an open-label, single-arm, single-centre, pilot trial in Germany",
+      "doi": "10.1016/j.eclinm.2026.104092",
+      "pmid": "42542632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42542632/",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427569/",
+      "date_online": "2026-07-23",
+      "issue_date": "2026-08",
+      "type": "primary prospective pilot",
+      "retrieval": "PubMed abstract and original figure captions read; indexed primary full-text Table 1 and selected methods/discussion extracts read. Direct PMC CAPTCHA and publisher 403 prevented complete manuscript/supplement retrieval. Exact endpoint paired denominators and missing-data rules not recovered.",
+      "supports": [
+        "16 screened / 13 enrolled / 12 exposed / 11 completed",
+        "mFAS definition",
+        "exact Wilzin article and variants",
+        "exploratory functional signal and unchanged movement severity",
+        "n=8 cerebral-palsy reference comparison",
+        "existing academic development program"
+      ]
+    },
+    {
+      "source_id": "R10D-S05",
+      "title": "Zinc for GNAO1 encephalopathy: Preclinical profiling and a clinical case",
+      "doi": "10.1016/j.medj.2024.07.023",
+      "pmid": "39153472",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39153472/",
+      "author_repository_url": "https://archive-ouverte.unige.ch/unige:179389",
+      "published_pdf_url": "https://access.archive-ouverte.unige.ch/access/metadata/b38fa5a4-bb7a-42b9-b110-2ad4a6ce8400/download",
+      "date_online": "2024-08-16",
+      "issue_date": "2025-01-10",
+      "type": "primary preclinical and single-patient study",
+      "retrieval": "PubMed abstract and published-version PDF in author institution repository read. Published PDF preferred to an earlier indexed passage: hydromorphone, weekly residual crises, and unchanged GMFM-66 retained. Supplemental Table S3 not independently retrieved.",
+      "supports": [
+        "single p.Gly203Arg case",
+        "gluconate-to-acetate sequence",
+        "crisis reduction and unchanged GMFM",
+        "hydromorphone cointervention",
+        "variant responsiveness classes",
+        "genotype-independent mouse benefit is not on-target rescue"
+      ]
+    },
+    {
+      "source_id": "R10D-S06",
+      "title": "Wilzin EPAR",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wilzin",
+      "product_number": "EMEA/H/C/000535",
+      "type": "official regulatory product record",
+      "page_last_updated": "2024-12-18",
+      "retrieval": "Product page, public summary and current holder fields read; English product-information PDF returned 429 and was not independently read.",
+      "supports": [
+        "marketed 25/50 mg article",
+        "Wilson indication only",
+        "Recordati Rare Diseases marketing-authorisation holder",
+        "intestinal copper-lowering mechanism",
+        "gastric irritation and enzyme elevations"
+      ]
+    },
+    {
+      "source_id": "R10D-S07",
+      "title": "NCT06412653 official trial registration",
+      "url": "https://clinicaltrials.gov/study/NCT06412653",
+      "type": "official registry",
+      "retrieval": "Direct page yielded JavaScript shell and API route was unavailable; registration ID and completed pilot details are supported by S04, not an independently audited registry history.",
+      "efficacy_evidence_used": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "N-acetylmannosamine / GNE myopathy",
+      "reason": "Already inventoried as historical-topics:T060; parent handles any new evidence as an update.",
+      "new_count": 0
+    },
+    {
+      "name": "Existing leading priorities and specified prior screens",
+      "reason": "SCARB2/miglustat, TRPV4, KCNMA1, fluoxetine/KCNC1, epalrestat/PMM2, roflumilast/Darier and arimoclomol/GM2 not re-counted or re-screened."
+    }
+  ],
+  "portfolio_judgment": {
+    "new_S_tier_promotions": 0,
+    "existing_leaders_displaced": false,
+    "new_dedicated_allocation_points": 0,
+    "relative_order_of_this_pair": [
+      "R10-NL-02",
+      "R10-NL-01"
+    ],
+    "ranking_is_analyst_judgment": true
+  },
+  "activities": {
+    "public_literature_and_repository_review": true,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false,
+    "material_acquisition": false
+  },
+  "retrieval_limit": "Finite two-screen review. No claim that unobserved failures, all treated cases, all patents, current product lots or every protocol/supplement were recovered."
+}

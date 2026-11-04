@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 9](rounds/round9/README.md) adds two exact-use screens—miglustat/SCARB2-AMRF and GSK2193874/TRPV4 neuromuscular disease—and reviews four existing candidate dossiers. The controlled KCNMA1 mouse study is an existing-use update. The [Round 8 six-record screen](rounds/round8/new_candidates.md) remains unchanged. The tables below are the original archive; the [current shortlist](../decisions/current-shortlist.md) governs selection.
+> **Current work:** [Round 10](rounds/round10/README.md) adds taurine/SLC6A6 and zinc acetate dihydrate/GNAO1 as two new exact-use screens, with five existing-use reviews. ManNAc/GNE remains original inventory T060; the additional SCARB2 case is an existing-use update. Earlier tables and round packages remain historical records; the [current shortlist](../decisions/current-shortlist.md) governs selection.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 
@@ -287,3 +287,14 @@ Archive phase `2026-11-03-human-repair-opportunities`. 6 screen records.
 | [R9-NL-02 — GSK2193874 / TRPV4 neuromuscular disease](rounds/round9/new-candidate-screen.md) | Preclinical benchmark; independent asset hold pending a differentiated contribution; distinct probes and clinical program retained |
 
 [Alias audit](rounds/round9/candidate-alias-audit.json) · [Existing KCNMA1 evidence update](rounds/round9/lisdexamfetamine-evidence-update.md)
+
+## Round 10 exact-use screens and existing-use dispositions
+
+| Record | Current decision |
+|---|---|
+| [R10-NL-01 — taurine / SLC6A6 deficiency](rounds/round10/new-candidate-screen.md) | Genotype/organ/stage-limited clinical-research reserve; independent supplementation asset on hold |
+| [R10-NL-02 — zinc acetate dihydrate / GNAO1-related disorder](rounds/round10/new-candidate-screen.md) | Conditional clinical-research reserve; first of this pair for bounded review; independent asset on hold |
+| [T060 / R10-EX-01 — ManNAc / GNE myopathy](rounds/round10/mannac-controlled-result.md) | Existing inventory; hold undifferentiated independent muscle-strength development after the reported nonsignificant randomized primary result |
+| [R9-NL-01 — miglustat / SCARB2-AMRF](rounds/round10/scarb2-case-lineage-update.md) | Existing reserve retained; retrieved case set expands to five treated people across four reports |
+
+[Alias audit](rounds/round10/candidate-alias-audit.json) · [HHD active-care comparator](rounds/round10/hhd-active-care-comparator.md) · [IDH exposure ledger](rounds/round10/idh-exposure-ledger.md) · [BLU exposure ledger](rounds/round10/blu-exposure-feasibility.md)

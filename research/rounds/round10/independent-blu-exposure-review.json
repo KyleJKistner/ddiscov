@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "round": 10,
+  "review_date": "2026-11-04",
+  "reviewer": "round10_discovery",
+  "reviewed_workstream": "BLU exposure feasibility",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "review_result": "pass",
+  "blocking_fixes": [],
+  "reviewed_artifacts": [
+    {
+      "path": "blu-exposure-feasibility.md",
+      "sha256": "46f89214075d08466c0ba8716315e832cb1a950012aaed9109c4b53aff7d5b64",
+      "bytes": 15648
+    },
+    {
+      "path": "blu-exposure-feasibility.json",
+      "sha256": "8b38aa07e82a66b35a6e7f062389454dd1d5fea2094153a7e2c9fdd39257b303",
+      "bytes": 18745
+    }
+  ],
+  "bounded_scope": "One independent pass over both finalized files, source workbook values and headers, primary JCI methods/caption, patent Figure 4 drawing and text legend, and official 2024 conference abstract. No broad research expansion or editing of the reviewed artifacts.",
+  "checks": [
+    {
+      "id": "B10R-01",
+      "question": "Are 26 numeric entries correctly counted without becoming 26 verified independent animals?",
+      "result": "pass",
+      "independent_verification": "Read XLSX values directly by resolving workbook relationships and shared strings. All five exact cell ranges and every value match. Recomputed group means, medians and ranges match.",
+      "observed_counts": [
+        6,
+        6,
+        7,
+        3,
+        4
+      ],
+      "total_numeric_observations": 26,
+      "verified_unique_animal_count": null,
+      "interpretation": "The files keep animal identity and cross-endpoint pairing unresolved; no new cohort or independent dataset is invented.",
+      "source_ids": [
+        "B10R-S1"
+      ]
+    },
+    {
+      "id": "B10R-02",
+      "question": "Are regimen and timing ambiguities preserved?",
+      "result": "pass",
+      "independent_verification": "Fig 6A headers are 25/50/100; Fig S6B headers are D22/D25. Fig S6A C2 contains the BIDx5 and QDx3 P22 regimen. JCI describes terminal collection and the pilot twice-daily narrative.",
+      "source_cell_exact_text": "KO Day 22 - BLU797 75 mpk, BIDx5 and QDx3",
+      "source_cell_text_normalization": "Nonbreaking spaces normalized to spaces; source BLU797 spelling preserved here.",
+      "interpretation": "The source wording is not silently reconciled. Elapsed sample hours, trough status, AUC and half-life remain unassigned.",
+      "source_ids": [
+        "B10R-S1",
+        "B10R-S2"
+      ]
+    },
+    {
+      "id": "B10R-03",
+      "question": "Does engineered HEK evidence remain distinct from native cellular access and exact47 activity?",
+      "result": "pass",
+      "independent_verification": "Visually inspected original-PDF Figure 4B image: GFP-PI3KC2beta HEK context, full medium, 1 micromolar, overnight then two-hour PKN1/2 co-treatment, pS6K/total-S6K endpoint. Drawing names DC-03-036/040/090/096.",
+      "interpretation": "The files do not assign these results to exact47, exact91, BLU NanoBRET host/construct, native muscle, fractional occupancy or intracellular unbound exposure. First/second blot labels are not converted to independent biological N.",
+      "source_ids": [
+        "B10R-S3"
+      ]
+    },
+    {
+      "id": "B10R-04",
+      "question": "Is the numerical example mapping correctly treated as a checked non-error?",
+      "result": "pass",
+      "independent_verification": "Patent Figure 4 text legend explicitly names examples 36, 40, 90 and 96; it agrees with drawing labels. Figure 5 and the text place examples47/91 in HEK293 lysate profiling.",
+      "interpretation": "No unsupported historical correction and no live-cell transfer from other examples or lysate affinity.",
+      "source_ids": [
+        "B10R-S3"
+      ]
+    },
+    {
+      "id": "B10R-05",
+      "question": "Are the conference panel and article-identity limits accurately represented?",
+      "result": "pass",
+      "independent_verification": "Official 2024 abstract printed p23/physical p24 reports three lead compounds and a117-kinase panel excluding C2gamma. It supplies no compound numbers/structures, full numerical panel or exposure package. Authors Cirillo, Lo, Haucke and Nazare overlap the patent inventors.",
+      "interpretation": "C2gamma omission is not sparing; unspecified leads do not fill exact47/91/BLU fields, create qualified assets or establish independent replication.",
+      "source_ids": [
+        "B10R-S4",
+        "B10R-S3"
+      ]
+    },
+    {
+      "id": "B10R-06",
+      "question": "Does the exposure conclusion respect what is and is not identifiable?",
+      "result": "pass",
+      "independent_verification": "Both files separate biochemical potency, engineered cellular readout, reported plasma concentrations, and unmeasured native target-site exposure.",
+      "interpretation": "They neither claim inadequate exposure nor invent an unbound human-muscle therapeutic window. Not-located ADME/metabolite information is scoped to the inspected sources. The score and qualification status are unchanged.",
+      "source_ids": [
+        "B10R-S2"
+      ]
+    },
+    {
+      "id": "B10R-07",
+      "question": "Are new contributions separated from repeated evidence?",
+      "result": "pass",
+      "independent_verification": "New assay-context metadata and the new program-level abstract are distinguished from recounted workbook observations and carried-forward comparator panels.",
+      "interpretation": "No cumulative inflation of observations, candidates or qualified compounds."
+    }
+  ],
+  "sources": [
+    {
+      "id": "B10R-S1",
+      "type": "original released XLSX read locally",
+      "path": "research/source-data/blu3797-source-values.xlsx",
+      "sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+      "url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+      "locators": [
+        "Fig 6A!A3:C9",
+        "Fig S6B!A3:B6",
+        "Fig S6A!C2"
+      ],
+      "reading_method": "ZIP/XML text and numeric values; no editing or recalculation of workbook formulas."
+    },
+    {
+      "id": "B10R-S2",
+      "type": "primary JCI study reopened",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "locators": [
+        "Figure6 caption and associated treatment text",
+        "Oral dosing of PIK3C2B inhibitors methods",
+        "Target engagement methods"
+      ],
+      "retrieval": "Read source text; no exact postdose time or muscle unbound profile recovered in these sections."
+    },
+    {
+      "id": "B10R-S3",
+      "type": "primary patent",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "original_pdf_sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+      "drawing_image_path": "blu_intermediates/comparator-drawing-313.png",
+      "drawing_image_sha256": "f2db259cb5207f967de180afe239199ec7b33cbc07d13bc8944249042f666a48",
+      "locators": [
+        "Figure4B-D, original PDF physical p313/drawing4of5",
+        "Figure4 text legend",
+        "Example4 cellular assay",
+        "Figure5 lysate assay text"
+      ],
+      "retrieval": "Original drawing visually inspected and original cached PDF hash matched; text legend independently reopened. OCR micromolar-to-pM error not propagated."
+    },
+    {
+      "id": "B10R-S4",
+      "type": "primary conference abstract",
+      "url": "https://newtrends-timisoara.ro/2024/docs/Book-of-abstracts-NewChemRes2024.pdf",
+      "title": "A Torch to Shed Light on the Dark Kinome: The Discovery of PI3K-C2beta Highly Selective Inhibitors",
+      "locator": "printed p23 / physical p24",
+      "retrieval": "Read the full relevant abstract on official conference-hosted PDF."
+    }
+  ],
+  "limitations": [
+    "This pass does not establish unique animal identity, sampling times or a clinical exposure margin.",
+    "Historical exact47/exact91 single-point numeric panels were reviewed for handling and consistency but were not re-extracted from every original table cell in this bounded review.",
+    "This is not an independent experimental replication, a complete ADME search, or an IP/FTO review."
+  ],
+  "reviewed_files_modified": false,
+  "reviewed_hashes_still_match_at_completion": true,
+  "activities": {
+    "document_review": true,
+    "descriptive_arithmetic_on_released_data": true,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions": false
+  }
+}

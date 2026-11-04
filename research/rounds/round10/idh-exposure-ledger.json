@@ -1,0 +1,1638 @@
+{
+  "schema_version": "1.0",
+  "round": 10,
+  "as_of_date": "2026-11-04",
+  "baseline_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "scope": "Finite public-source parent/metabolite comparison for IDH2-R140Q D2HGA2",
+  "decision": {
+    "CNS_superiority_status": "not_identifiable_from_reviewed_public_evidence",
+    "enasidenib_planning_points": 15,
+    "allocation_denominator": 100,
+    "allocation_change": 0,
+    "new_candidate_promoted": false,
+    "new_clinical_efficacy_evidence": false,
+    "separate_cardiac_question_retained": true,
+    "product_contribution": "Exposure-qualified, time-resolved component accounting and one demonstrated administration or outcome-measurement improvement over the existing pediatric article; no newly established formulation or rights clearance.",
+    "CNS_search_state": "Closed at present public-evidence ceiling; reopen only for exact-variant metabolite potency, matched normal-brain unbound evidence or age-relevant PK that could change the decision."
+  },
+  "restrictions_observed": [
+    "No outreach",
+    "No purchases",
+    "No experiments",
+    "No simulations",
+    "No Git actions by this workstream"
+  ],
+  "sources": {
+    "EFDA": {
+      "title": "FDA enasidenib multidisciplinary review, 2017",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209606Orig1s000MultidisciplineR.pdf",
+      "reference_id": "4131433",
+      "archive": "/workspace/scratch/b5b981e77bc5/round7_work/enasidenib_product_sources/fda2017_multidiscipline.pdf",
+      "sha256": "a899bdc76082d46b982a459315e320679e37354f678da347b6faa8f30f77aa44",
+      "access": "Full archived primary PDF; Tables 76B and 77B visually checked",
+      "page_rule": "physical=printed+1"
+    },
+    "EEMA": {
+      "title": "EMA IDHIFA withdrawal assessment, EMA/CHMP/13746/2020",
+      "url": "https://www.ema.europa.eu/en/documents/withdrawal-report/withdrawal-assessment-report-idhifa_en.pdf",
+      "archive": "/workspace/scratch/b5b981e77bc5/round7_work/enasidenib_product_sources/ema2019_withdrawal.pdf",
+      "sha256": "e35f96b7a98b4f8055d285c215927a5611493b542de7da3a64fd7c46f7dd8872",
+      "access": "Full archived primary PDF text; current web open 429",
+      "page_rule": "physical=printed"
+    },
+    "VFDA": {
+      "title": "FDA vorasidenib multidisciplinary review, 2024",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000MultidisciplineR.pdf",
+      "reference_id": "5425021",
+      "archive": "/workspace/scratch/b5b981e77bc5/round8_work/discovery_sources/vorasidenib_fda_review.pdf",
+      "sha256": "f3a6961d101b12b52c3dba750a481ea362852306fec5dd62709fe8020116cd1d",
+      "access": "Full archived primary PDF; Table 21 visually checked; current web PDF exceeded retrieval size limit",
+      "page_rule": "physical=printed+1",
+      "authorship_caution": "Applicant-labeled sections do not necessarily represent FDA conclusions."
+    },
+    "TGA": {
+      "title": "TGA AusPAR Voranigo; finalized 21 May 2025",
+      "url": "https://www.tga.gov.au/sites/default/files/2025-05/auspar-voranigo-250521.pdf",
+      "sha256": null,
+      "access": "Full primary PDF via web",
+      "page_rule": "physical=printed"
+    },
+    "PMDA": {
+      "title": "PMDA Voranigo assessment, 2025; deliberation cover 29 August; review 7 August",
+      "url": "https://www.pmda.go.jp/drugs/2025/P20251023001/530457000_30700AMX00228_A100_1.pdf",
+      "sha256": null,
+      "access": "Full Japanese primary assessment via web; section 3.1.2.1 read",
+      "page_rule": "Relevant printed p6=physical p9"
+    },
+    "ELBL": {
+      "title": "IDHIFA label, January 2025 revision",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+      "access": "Primary label extraction carried from R7"
+    },
+    "VLBL": {
+      "title": "VORANIGO label, June 2026 revision",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=31405fee-55b7-4857-987e-2724ee76be84&type=display",
+      "access": "Archived official HTML/text checked; label identity already in R8/R9"
+    }
+  },
+  "ledger": [
+    {
+      "id": "E_PARENT_R140Q",
+      "species": "Human recombinant enzyme",
+      "age_scope": "Not applicable",
+      "population_or_model": "Purified IDH2",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "IDH2-R140Q",
+      "assay": "Diaphorase/resazurin coupled NADPH assay; reports AG221-N-047-R and AG221-N-081-R1",
+      "compartment": "Assay solution",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "1 hour",
+      "statistic": "Reported IC50",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not a clinical threshold. Incubation, dimer and cell context must be preserved."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "IC50",
+      "value": 0.77,
+      "unit": "micromolar",
+      "source_id": "EFDA",
+      "source_locator": "printed p27 / physical p28, Table 3",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "E_M1_R140Q",
+      "species": "Human recombinant enzyme",
+      "age_scope": "Not applicable",
+      "population_or_model": "Purified IDH2",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Diaphorase/resazurin coupled NADPH assay; reports AG221-N-047-R and AG221-N-081-R1",
+      "compartment": "Assay solution",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "16 hours",
+      "statistic": "Reported IC50",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not a clinical threshold. Incubation, dimer and cell context must be preserved."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "IC50",
+      "value": 0.016,
+      "unit": "micromolar",
+      "source_id": "EFDA",
+      "source_locator": "printed p27 / physical p28, Table 3",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "E_M2_R140Q",
+      "species": "Human recombinant enzyme",
+      "age_scope": "Not applicable",
+      "population_or_model": "Purified IDH2",
+      "drug": "enasidenib",
+      "analyte": "AGI-17011",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Diaphorase/resazurin coupled NADPH assay; reports AG221-N-047-R and AG221-N-081-R1",
+      "compartment": "Assay solution",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "16 hours",
+      "statistic": "Reported IC50",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not a clinical threshold. Incubation, dimer and cell context must be preserved."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "IC50",
+      "value": 0.205,
+      "unit": "micromolar",
+      "source_id": "EFDA",
+      "source_locator": "printed p27 / physical p28, Table 3",
+      "novelty": "exact_value_added; activity already known"
+    },
+    {
+      "id": "E_PARENT_BINDING",
+      "species": "Human plasma",
+      "age_scope": "Specimen age not reported",
+      "population_or_model": "In-vitro human plasma",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Protein binding",
+      "compartment": "Plasma",
+      "concentration_basis": "Bound fraction",
+      "formulation_and_regimen": null,
+      "time_context": "In-vitro experiment",
+      "statistic": "Reported percent",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not infant free exposure or brain partition."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "protein binding",
+      "value": 98.5,
+      "unit": "percent",
+      "source_id": "ELBL",
+      "source_locator": "section 12.3",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "E_M1_BINDING",
+      "species": "Human plasma",
+      "age_scope": "Specimen age not reported",
+      "population_or_model": "In-vitro human plasma",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Protein binding",
+      "compartment": "Plasma",
+      "concentration_basis": "Bound fraction",
+      "formulation_and_regimen": null,
+      "time_context": "In-vitro experiment",
+      "statistic": "Reported percent",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not infant free exposure or brain partition."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "protein binding",
+      "value": 96.6,
+      "unit": "percent",
+      "source_id": "ELBL",
+      "source_locator": "section 12.3",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "E_PARENT_TRA",
+      "species": "Human",
+      "age_scope": "Healthy adult study; age distribution not given in cited paragraph",
+      "population_or_model": "Radiolabeled mass balance",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Metabolite profiling",
+      "compartment": "Plasma",
+      "concentration_basis": "Total-radioactivity exposure fraction",
+      "formulation_and_regimen": "Single oral 100 mg [14C]-enasidenib; formulation not specified in paragraph",
+      "time_context": "AUC0-24h after one dose",
+      "statistic": "Source-reported exposure fraction",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not steady-state exposure or a molar active-drug fraction."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "circulating total-radioactivity exposure fraction",
+      "value": 89,
+      "unit": "percent",
+      "source_id": "EEMA",
+      "source_locator": "printed/physical pp33-34; minor human metabolite identity reaffirmed p46",
+      "novelty": "carried_R7; interval clarified"
+    },
+    {
+      "id": "E_M1_TRA",
+      "species": "Human",
+      "age_scope": "Healthy adult study; age distribution not given in cited paragraph",
+      "population_or_model": "Radiolabeled mass balance",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903 (M1)",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Metabolite profiling",
+      "compartment": "Plasma",
+      "concentration_basis": "Total-radioactivity exposure fraction",
+      "formulation_and_regimen": "Single oral 100 mg [14C]-enasidenib; formulation not specified in paragraph",
+      "time_context": "AUC0-24h after one dose",
+      "statistic": "Source-reported exposure fraction",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not steady-state exposure or a molar active-drug fraction."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "circulating total-radioactivity exposure fraction",
+      "value": 10,
+      "unit": "percent",
+      "source_id": "EEMA",
+      "source_locator": "printed/physical pp33-34; minor human metabolite identity reaffirmed p46",
+      "novelty": "carried_R7; interval clarified"
+    },
+    {
+      "id": "E_M2_TRA",
+      "species": "Human",
+      "age_scope": "Healthy adult study; age distribution not given in cited paragraph",
+      "population_or_model": "Radiolabeled mass balance",
+      "drug": "enasidenib",
+      "analyte": "AGI-17011 (M2)",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Metabolite profiling",
+      "compartment": "Plasma",
+      "concentration_basis": "Total-radioactivity exposure fraction",
+      "formulation_and_regimen": "Single oral 100 mg [14C]-enasidenib; formulation not specified in paragraph",
+      "time_context": "AUC0-24h after one dose",
+      "statistic": "Source-reported exposure fraction",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not steady-state exposure or a molar active-drug fraction."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "circulating total-radioactivity exposure fraction",
+      "value": 0.3,
+      "unit": "percent",
+      "source_id": "EEMA",
+      "source_locator": "printed/physical pp33-34; minor human metabolite identity reaffirmed p46",
+      "novelty": "new_correction_of_R7_human_absence_claim"
+    },
+    {
+      "id": "E_PARENT_CMAX",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration/AUC",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Multiple-dose steady-state-cycle summary; exact cycle not uniform or specified here",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 102,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "Cmax",
+      "value": 13255,
+      "unit": "ng/mL",
+      "source_id": "EFDA",
+      "source_locator": "printed p154 / physical p155, Table 76B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 46.3,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_PARENT_AUC0_10",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration/AUC",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Multiple-dose steady-state-cycle summary; exact cycle not uniform or specified here",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 90,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "AUC0-10h",
+      "value": 106661,
+      "unit": "ng*h/mL",
+      "source_id": "EFDA",
+      "source_locator": "printed p154 / physical p155, Table 76B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 47.7,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_PARENT_RAUC",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Within-participant total-concentration PK ratio, then summarized",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Only participants with both Day -3 single-dose and multiple-dose steady-state-cycle PK",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 35,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "AUC0-10h accumulation ratio",
+      "value": 11.82,
+      "unit": "dimensionless",
+      "source_id": "EFDA",
+      "source_locator": "printed p154 / physical p155, Table 76B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 65.1,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_PARENT_RCMAX",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Within-participant total-concentration PK ratio, then summarized",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Only participants with both Day -3 single-dose and multiple-dose steady-state-cycle PK",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 40,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "Cmax accumulation ratio",
+      "value": 10.31,
+      "unit": "dimensionless",
+      "source_id": "EFDA",
+      "source_locator": "printed p154 / physical p155, Table 76B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 59.7,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_M1_CMAX",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration/AUC",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Multiple-dose steady-state-cycle summary; exact cycle not uniform or specified here",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 102,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "Cmax",
+      "value": 1220,
+      "unit": "ng/mL",
+      "source_id": "EFDA",
+      "source_locator": "printed p156 / physical p157, Table 77B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 41.8,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_M1_AUC0_10",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration/AUC",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Multiple-dose steady-state-cycle summary; exact cycle not uniform or specified here",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 90,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "AUC0-10h",
+      "value": 9640,
+      "unit": "ng*h/mL",
+      "source_id": "EFDA",
+      "source_locator": "printed p156 / physical p157, Table 77B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 41.8,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_M1_RAUC",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Within-participant total-concentration PK ratio, then summarized",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Only participants with both Day -3 single-dose and multiple-dose steady-state-cycle PK",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 35,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "AUC0-10h accumulation ratio",
+      "value": 23.1,
+      "unit": "dimensionless",
+      "source_id": "EFDA",
+      "source_locator": "printed p156 / physical p157, Table 77B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 96,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "E_M1_RCMAX",
+      "species": "Human",
+      "age_scope": "Adult advanced hematologic malignancy population; 100 mg subgroup age distribution not in table",
+      "population_or_model": "AG221-C-001 phase 1; data cutoff 15 April 2016",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "Mixed IDH2 mutation population; PK not R140Q-stratified",
+      "assay": "Clinical plasma pharmacokinetics",
+      "compartment": "Plasma",
+      "concentration_basis": "Within-participant total-concentration PK ratio, then summarized",
+      "formulation_and_regimen": "100 mg oral once daily; exact article/lot not resolved by these summary tables",
+      "time_context": "Only participants with both Day -3 single-dose and multiple-dose steady-state-cycle PK",
+      "statistic": "Geometric mean",
+      "denominator": {
+        "n": 40,
+        "unit": "Participants evaluable for parameter",
+        "cohort_column_n": 102
+      },
+      "limitations": [
+        "Not infant D2HGA2 exposure. Separate analyte summaries do not establish synchronized peaks or individual pairing."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "Cmax accumulation ratio",
+      "value": 14.35,
+      "unit": "dimensionless",
+      "source_id": "EFDA",
+      "source_locator": "printed p156 / physical p157, Table 77B, 100 mg QD",
+      "novelty": "new_exact_parameter_and_denominator",
+      "dispersion": {
+        "kind": "geometric CV",
+        "value": 56.7,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "V_PARENT_R140Q_TF1",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "TF-1 overexpressing IDH2-R140Q",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH2-R140Q",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Mean",
+      "denominator": {
+        "n": 3,
+        "unit": "Reported assay N"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 14,
+      "unit": "nM",
+      "source_id": "VFDA",
+      "source_locator": "printed pp47-48 / physical pp48-49, Table 2; AG881-N-043-R1",
+      "novelty": "carried_R8_R9",
+      "dispersion": {
+        "kind": "SD",
+        "value": 1.1,
+        "unit": "nM"
+      }
+    },
+    {
+      "id": "V_PARENT_R140Q_U87",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "U87MG overexpressing IDH2-R140Q",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH2-R140Q",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Mean",
+      "denominator": {
+        "n": 7,
+        "unit": "Reported assay N"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 7.1,
+      "unit": "nM",
+      "source_id": "VFDA",
+      "source_locator": "printed pp47-48 / physical pp48-49, Table 2; AG881-N-043-R1",
+      "novelty": "carried_R8_R9",
+      "dispersion": {
+        "kind": "SD",
+        "value": 3,
+        "unit": "nM"
+      }
+    },
+    {
+      "id": "V_PARENT_R132C_MATCHED",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "HT1080",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132C",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Reported IC50; parent n not in FDA paragraph",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 46.97,
+      "unit": "nM",
+      "source_id": "VFDA",
+      "source_locator": "printed p47 / physical p48, AG881-N-068/-069",
+      "novelty": "new_exact_matched_parent_value"
+    },
+    {
+      "id": "V_M_R132C",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "HT1080",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "IDH1-R132C",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Single reported assay value",
+      "denominator": {
+        "n": 1,
+        "unit": "Reported assay n; replication unit not further described"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 264.0,
+      "unit": "nM",
+      "source_id": "PMDA",
+      "source_locator": "printed p6 / physical p9, section 3.1.2.1",
+      "novelty": "new_exact_metabolite_value_and_assay_n",
+      "corroboration": {
+        "source_id": "VFDA",
+        "locator": "printed p47 / physical p48"
+      }
+    },
+    {
+      "id": "V_PARENT_R132H_MATCHED",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "TS603",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132H",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Reported IC50; parent n not in FDA paragraph",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 0.117,
+      "unit": "nM",
+      "source_id": "VFDA",
+      "source_locator": "printed p47 / physical p48, AG881-N-068/-069",
+      "novelty": "new_exact_matched_parent_value"
+    },
+    {
+      "id": "V_M_R132H",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "TS603",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "IDH1-R132H",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Single reported assay value",
+      "denominator": {
+        "n": 1,
+        "unit": "Reported assay n; replication unit not further described"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 6.709,
+      "unit": "nM",
+      "source_id": "PMDA",
+      "source_locator": "printed p6 / physical p9, section 3.1.2.1",
+      "novelty": "new_exact_metabolite_value_and_assay_n",
+      "corroboration": {
+        "source_id": "VFDA",
+        "locator": "printed p47 / physical p48"
+      }
+    },
+    {
+      "id": "V_M_R172K",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "HCT-116 engineered to express IDH2-R172K",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "IDH2-R172K",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Mean",
+      "denominator": {
+        "n": 3,
+        "unit": "Reported assay n; replication unit not further described"
+      },
+      "limitations": [
+        "Not a free-plasma or free-brain threshold.",
+        "Reported assay n is not patient n; independence unit not fully described."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "2-HG IC50",
+      "value": 585,
+      "unit": "nM",
+      "source_id": "PMDA",
+      "source_locator": "printed p6 / physical p9, section 3.1.2.1",
+      "novelty": "new_exact_variant_and_assay",
+      "dispersion": {
+        "kind": "SD",
+        "value": 338,
+        "unit": "nM"
+      }
+    },
+    {
+      "id": "V_M_R140Q_MISSING",
+      "species": "Human-derived cell line",
+      "age_scope": "Not applicable to culture; no pediatric inference",
+      "population_or_model": "No exact assay identified in reviewed sections",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Cellular 2-HG suppression",
+      "compartment": "Cultured malignant cells, not normal brain",
+      "concentration_basis": "Nominal assay concentration",
+      "formulation_and_regimen": "Assay test article",
+      "time_context": "Incubation duration not given in cited summary",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Missing does not mean inactive. R132H, R132C and R172K cannot substitute for R140Q."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "IDH2-R140Q potency",
+      "value": null,
+      "unit": "nM",
+      "source_id": "VFDA",
+      "source_locator": "p47 and pp95,105-106; PMDA printed p6; TGA p16",
+      "novelty": "bounded_negative_finding"
+    },
+    {
+      "id": "V_PARENT_FU",
+      "species": "Human plasma",
+      "age_scope": "Specimen age unestablished",
+      "population_or_model": "In-vitro plasma binding; metabolite AG881-N-067 per FDA p106",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Protein binding",
+      "compartment": "Plasma",
+      "concentration_basis": "Fraction unbound",
+      "formulation_and_regimen": null,
+      "time_context": "In-vitro experiment",
+      "statistic": "Mean",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not infant binding. Does not identify brain Kp,uu."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "fraction unbound",
+      "value": 2.66,
+      "unit": "percent",
+      "source_id": "TGA",
+      "source_locator": "printed/physical p15",
+      "novelty": "carried_R9_metabolite; parent_precision_added",
+      "reported_plus_minus": {
+        "value": 0.18,
+        "unit": "percentage points",
+        "kind": "Not specified in cited TGA passage"
+      }
+    },
+    {
+      "id": "V_M_FU",
+      "species": "Human plasma",
+      "age_scope": "Specimen age unestablished",
+      "population_or_model": "In-vitro plasma binding; metabolite AG881-N-067 per FDA p106",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Protein binding",
+      "compartment": "Plasma",
+      "concentration_basis": "Fraction unbound",
+      "formulation_and_regimen": null,
+      "time_context": "In-vitro experiment",
+      "statistic": "Mean",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not infant binding. Does not identify brain Kp,uu."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "fraction unbound",
+      "value": 13,
+      "unit": "percent",
+      "source_id": "TGA",
+      "source_locator": "printed/physical p16",
+      "novelty": "carried_R9_metabolite; parent_precision_added",
+      "reported_plus_minus": {
+        "value": 1.07,
+        "unit": "percentage points",
+        "kind": "Not specified in cited TGA passage"
+      }
+    },
+    {
+      "id": "V_PARENT_LABEL_CMAX",
+      "species": "Human",
+      "age_scope": "Approved glioma dosing context, not infant D2HGA2",
+      "population_or_model": "Label clinical PK summary",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Plasma PK",
+      "compartment": "Plasma",
+      "concentration_basis": "Total concentration",
+      "formulation_and_regimen": "Highest approved recommended regimen, 40 mg oral tablets once daily",
+      "time_context": "Steady state; label states within 28 days",
+      "statistic": "Mean as labeled; subtype not specified",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not synchronized with Cycle 10 metabolite trough. Summary n not given."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "Cmax",
+      "value": 133,
+      "unit": "ng/mL",
+      "source_id": "VLBL",
+      "source_locator": "section 12.3",
+      "novelty": "label_parameter_added_to_ledger",
+      "dispersion": {
+        "kind": "CV",
+        "value": 73,
+        "unit": "percent"
+      }
+    },
+    {
+      "id": "V_M_TROUGH_C2",
+      "species": "Human",
+      "age_scope": "Glioma trial population; parameter-specific ages not reported; no infant inference",
+      "population_or_model": "Pivotal AG881-C-004",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "Aggregate mixed IDH1/IDH2 trial; not R140Q-stratified PK",
+      "assay": "Clinical plasma PK",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration",
+      "formulation_and_regimen": "Vorasidenib 40 mg once daily oral tablets; pivotal-study article",
+      "time_context": "After one cycle of treatment",
+      "statistic": "Mean",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Intensive samples predose, 0.5, 2, 4 hours only on Cycle 1 and 2 Day 1; subsequent predose samples.",
+        "Metabolite profile incompletely characterized; trough is not AUC."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "trough concentration",
+      "value": 61.72,
+      "unit": "ng/mL",
+      "source_id": "VFDA",
+      "source_locator": "printed pp105-106 / physical pp106-107, section6.2.1.4",
+      "novelty": "new_time_resolved_trough"
+    },
+    {
+      "id": "V_M_TROUGH_C10",
+      "species": "Human",
+      "age_scope": "Glioma trial population; parameter-specific ages not reported; no infant inference",
+      "population_or_model": "Pivotal AG881-C-004",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "Aggregate mixed IDH1/IDH2 trial; not R140Q-stratified PK",
+      "assay": "Clinical plasma PK",
+      "compartment": "Plasma",
+      "concentration_basis": "Total analyte concentration",
+      "formulation_and_regimen": "Vorasidenib 40 mg once daily oral tablets; pivotal-study article",
+      "time_context": "Predose Cycle 10 Day 1",
+      "statistic": "Mean",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Intensive samples predose, 0.5, 2, 4 hours only on Cycle 1 and 2 Day 1; subsequent predose samples.",
+        "Metabolite profile incompletely characterized; trough is not AUC."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "trough concentration",
+      "value": 128,
+      "unit": "ng/mL",
+      "source_id": "VFDA",
+      "source_locator": "printed pp105-106 / physical pp106-107, section6.2.1.4",
+      "novelty": "new_time_resolved_trough"
+    },
+    {
+      "id": "V_M_PARENT_RATIO",
+      "species": "Human",
+      "age_scope": "Glioma trial population; parameter-specific ages not reported; no infant inference",
+      "population_or_model": "Pivotal AG881-C-004",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460 / vorasidenib",
+      "role": "comparison",
+      "variant": "Aggregate mixed IDH1/IDH2 trial; not R140Q-stratified PK",
+      "assay": "Clinical plasma PK",
+      "compartment": "Plasma",
+      "concentration_basis": "Molar trough ratio, not AUC ratio",
+      "formulation_and_regimen": "Vorasidenib 40 mg once daily oral tablets; pivotal-study article",
+      "time_context": "Predose Cycle 10 Day 1; source calls steady state",
+      "statistic": "Mean",
+      "denominator": {
+        "n": null,
+        "unit": "Participants with relevant samples",
+        "reason_if_missing": "Not reported in cited paragraph",
+        "ratio_denominator": "Parent molar predose concentration"
+      },
+      "limitations": [
+        "Intensive samples predose, 0.5, 2, 4 hours only on Cycle 1 and 2 Day 1; subsequent predose samples.",
+        "Metabolite profile incompletely characterized; trough is not AUC."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "metabolite/parent molar trough ratio",
+      "value": 1.173,
+      "unit": "dimensionless",
+      "source_id": "TGA",
+      "source_locator": "printed/physical p16; FDA p106 rounds to1.17",
+      "novelty": "carried_R9"
+    },
+    {
+      "id": "V_M_TRA_EARLY",
+      "species": "Human",
+      "age_scope": "Healthy adult study; ages not in paragraph",
+      "population_or_model": "AG881-C-005",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460 (M458)",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Radiolabeled metabolite profiling",
+      "compartment": "Pooled plasma",
+      "concentration_basis": "Total-radioactivity exposure fraction",
+      "formulation_and_regimen": "Single oral 50 mg [14C]-vorasidenib, powder-in-capsule, fasted",
+      "time_context": "AUC0-72h after one dose",
+      "statistic": "Approximate pooled exposure fraction",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not repeated-dose concentration, molar active fraction or efficacy contribution."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "total-radioactivity fraction",
+      "value": 9,
+      "unit": "percent",
+      "source_id": "VFDA",
+      "source_locator": "printed pp105-106 / physical pp106-107",
+      "novelty": "new_interval_specific_fraction"
+    },
+    {
+      "id": "V_M_TRA_LATE",
+      "species": "Human",
+      "age_scope": "Healthy adult study; ages not in paragraph",
+      "population_or_model": "AG881-C-005",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460 (M458)",
+      "role": "metabolite",
+      "variant": null,
+      "assay": "Radiolabeled metabolite profiling",
+      "compartment": "Pooled plasma",
+      "concentration_basis": "Total-radioactivity exposure fraction",
+      "formulation_and_regimen": "Single oral 50 mg [14C]-vorasidenib, powder-in-capsule, fasted",
+      "time_context": "AUC96-336h after one dose",
+      "statistic": "Approximate pooled exposure fraction",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not repeated-dose concentration, molar active fraction or efficacy contribution."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "total-radioactivity fraction",
+      "value": 44,
+      "unit": "percent",
+      "source_id": "VFDA",
+      "source_locator": "printed pp105-106 / physical pp106-107",
+      "novelty": "new_interval_specific_fraction"
+    },
+    {
+      "id": "V_TUMOR_50_CONCURRENT",
+      "species": "Human",
+      "age_scope": "Adult perioperative glioma context; dose-group ages not provided in table",
+      "population_or_model": "AG120-881-C-001, Grade 2/3 glioma",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132H perioperative PD context; not R140Q D2HGA2",
+      "assay": "Tumor and plasma drug concentrations",
+      "compartment": "Resected brain tumor / plasma",
+      "concentration_basis": "Total concentrations, not free drug",
+      "formulation_and_regimen": "Early F1 tablets 50 mg once daily",
+      "time_context": "Surgery after preoperative treatment; adjacent PD section specifies minimum28 days",
+      "statistic": "Mean with90% CI",
+      "denominator": {
+        "n": 7,
+        "unit": "Participants with evaluable ratio",
+        "ratio_denominator": "Concurrent plasma concentration"
+      },
+      "limitations": [
+        "Tumor is not normal brain. Neither ratio is Kp,uu. Cavg dose assignments conflict with adjacent prose."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "tumor/concurrent plasma",
+      "value": 2.08,
+      "unit": "ratio",
+      "source_id": "VFDA",
+      "source_locator": "printed p105 / physical p106, Table21; transcription follows table headings",
+      "novelty": "new_denominators_and_source_conflict",
+      "confidence_interval": {
+        "level_percent": 90,
+        "lower": 1.5,
+        "upper": 2.67
+      }
+    },
+    {
+      "id": "V_TUMOR_10_CONCURRENT",
+      "species": "Human",
+      "age_scope": "Adult perioperative glioma context; dose-group ages not provided in table",
+      "population_or_model": "AG120-881-C-001, Grade 2/3 glioma",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132H perioperative PD context; not R140Q D2HGA2",
+      "assay": "Tumor and plasma drug concentrations",
+      "compartment": "Resected brain tumor / plasma",
+      "concentration_basis": "Total concentrations, not free drug",
+      "formulation_and_regimen": "Early F1 tablets 10 mg once daily",
+      "time_context": "Surgery after preoperative treatment; adjacent PD section specifies minimum28 days",
+      "statistic": "Mean with90% CI",
+      "denominator": {
+        "n": 7,
+        "unit": "Participants with evaluable ratio",
+        "ratio_denominator": "Concurrent plasma concentration"
+      },
+      "limitations": [
+        "Tumor is not normal brain. Neither ratio is Kp,uu. Cavg dose assignments conflict with adjacent prose."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "tumor/concurrent plasma",
+      "value": 2.3,
+      "unit": "ratio",
+      "source_id": "VFDA",
+      "source_locator": "printed p105 / physical p106, Table21; transcription follows table headings",
+      "novelty": "new_denominators_and_source_conflict",
+      "confidence_interval": {
+        "level_percent": 90,
+        "lower": 1.74,
+        "upper": 2.85
+      }
+    },
+    {
+      "id": "V_TUMOR_50_CAVG",
+      "species": "Human",
+      "age_scope": "Adult perioperative glioma context; dose-group ages not provided in table",
+      "population_or_model": "AG120-881-C-001, Grade 2/3 glioma",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132H perioperative PD context; not R140Q D2HGA2",
+      "assay": "Tumor and plasma drug concentrations",
+      "compartment": "Resected brain tumor / plasma",
+      "concentration_basis": "Total concentrations, not free drug",
+      "formulation_and_regimen": "Early F1 tablets 50 mg once daily",
+      "time_context": "Surgery after preoperative treatment; adjacent PD section specifies minimum28 days",
+      "statistic": "Mean with90% CI",
+      "denominator": {
+        "n": 9,
+        "unit": "Participants with evaluable ratio",
+        "ratio_denominator": "Plasma Cavg"
+      },
+      "limitations": [
+        "Tumor is not normal brain. Neither ratio is Kp,uu. Cavg dose assignments conflict with adjacent prose."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "tumor/plasma Cavg",
+      "value": 1.69,
+      "unit": "ratio",
+      "source_id": "VFDA",
+      "source_locator": "printed p105 / physical p106, Table21; transcription follows table headings",
+      "novelty": "new_denominators_and_source_conflict",
+      "confidence_interval": {
+        "level_percent": 90,
+        "lower": 1.35,
+        "upper": 2.03
+      }
+    },
+    {
+      "id": "V_TUMOR_10_CAVG",
+      "species": "Human",
+      "age_scope": "Adult perioperative glioma context; dose-group ages not provided in table",
+      "population_or_model": "AG120-881-C-001, Grade 2/3 glioma",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH1-R132H perioperative PD context; not R140Q D2HGA2",
+      "assay": "Tumor and plasma drug concentrations",
+      "compartment": "Resected brain tumor / plasma",
+      "concentration_basis": "Total concentrations, not free drug",
+      "formulation_and_regimen": "Early F1 tablets 10 mg once daily",
+      "time_context": "Surgery after preoperative treatment; adjacent PD section specifies minimum28 days",
+      "statistic": "Mean with90% CI",
+      "denominator": {
+        "n": 7,
+        "unit": "Participants with evaluable ratio",
+        "ratio_denominator": "Plasma Cavg"
+      },
+      "limitations": [
+        "Tumor is not normal brain. Neither ratio is Kp,uu. Cavg dose assignments conflict with adjacent prose."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "tumor/plasma Cavg",
+      "value": 2.94,
+      "unit": "ratio",
+      "source_id": "VFDA",
+      "source_locator": "printed p105 / physical p106, Table21; transcription follows table headings",
+      "novelty": "new_denominators_and_source_conflict",
+      "confidence_interval": {
+        "level_percent": 90,
+        "lower": 2.07,
+        "upper": 3.82
+      }
+    },
+    {
+      "id": "E_RAT_BRAIN",
+      "species": "Rat",
+      "age_scope": "Age not in carried extraction; not pediatric human",
+      "population_or_model": "Single-dose distribution study",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Distribution summary",
+      "compartment": "Brain",
+      "concentration_basis": "Source penetration summary; not established as Kp,uu",
+      "formulation_and_regimen": "Single oral50 mg/kg",
+      "time_context": "Single-dose study; exact interval underlying percentage not carried forward",
+      "statistic": "Source-reported percent",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not matched to human tumor data or human normal-brain free exposure."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "reported penetration",
+      "value": 10,
+      "unit": "percent",
+      "source_id": "EFDA",
+      "source_locator": "printed pp41-42 / physical pp42-43",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "E_RAT_CSF",
+      "species": "Rat",
+      "age_scope": "Age not in carried extraction; not pediatric human",
+      "population_or_model": "Single-dose distribution study",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": null,
+      "assay": "Distribution summary",
+      "compartment": "Cerebrospinal fluid",
+      "concentration_basis": "Source penetration summary; not established as Kp,uu",
+      "formulation_and_regimen": "Single oral50 mg/kg",
+      "time_context": "Single-dose study; exact interval underlying percentage not carried forward",
+      "statistic": "Source-reported percent",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Not matched to human tumor data or human normal-brain free exposure."
+      ],
+      "evidence_type": "source_reported",
+      "metric": "reported penetration",
+      "value": 0.3,
+      "unit": "percent",
+      "source_id": "EFDA",
+      "source_locator": "printed pp41-42 / physical pp42-43",
+      "novelty": "carried_R7"
+    },
+    {
+      "id": "GAP_ENASIDENIB",
+      "species": "Human required population",
+      "age_scope": "Infant/young-child D2HGA2 required population",
+      "population_or_model": "Not identified in reviewed public sources",
+      "drug": "enasidenib",
+      "analyte": "enasidenib",
+      "role": "parent",
+      "variant": "IDH2-R140Q",
+      "assay": "Matched free normal-brain and free plasma exposure unavailable",
+      "compartment": "Normal brain / plasma",
+      "concentration_basis": "Unbound numerator / unbound denominator",
+      "formulation_and_regimen": null,
+      "time_context": "Matched time and repeated-dose state required; unavailable",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Null is unidentified evidence, not zero penetration. No infant concentration or CNS efficacy computed."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "matched normal-brain unbound partition",
+      "value": null,
+      "unit": "Kp,uu",
+      "source_id": "EFDA",
+      "source_locator": "Bounded review: EFDA printed pp27,41-42,153-154 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound parent profile identified.",
+      "novelty": "bounded_negative_finding"
+    },
+    {
+      "id": "GAP_AGI_16903",
+      "species": "Human required population",
+      "age_scope": "Infant/young-child D2HGA2 required population",
+      "population_or_model": "Not identified in reviewed public sources",
+      "drug": "enasidenib",
+      "analyte": "AGI-16903",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Matched free normal-brain and free plasma exposure unavailable",
+      "compartment": "Normal brain / plasma",
+      "concentration_basis": "Unbound numerator / unbound denominator",
+      "formulation_and_regimen": null,
+      "time_context": "Matched time and repeated-dose state required; unavailable",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Null is unidentified evidence, not zero penetration. No infant concentration or CNS efficacy computed."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "matched normal-brain unbound partition",
+      "value": null,
+      "unit": "Kp,uu",
+      "source_id": "EFDA",
+      "source_locator": "Bounded review: EFDA printed p27,pp155-156 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound AGI-16903 profile identified.",
+      "novelty": "bounded_negative_finding"
+    },
+    {
+      "id": "GAP_AGI_17011",
+      "species": "Human required population",
+      "age_scope": "Infant/young-child D2HGA2 required population",
+      "population_or_model": "Not identified in reviewed public sources",
+      "drug": "enasidenib",
+      "analyte": "AGI-17011",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Matched free normal-brain and free plasma exposure unavailable",
+      "compartment": "Normal brain / plasma",
+      "concentration_basis": "Unbound numerator / unbound denominator",
+      "formulation_and_regimen": null,
+      "time_context": "Matched time and repeated-dose state required; unavailable",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Null is unidentified evidence, not zero penetration. No infant concentration or CNS efficacy computed."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "matched normal-brain unbound partition",
+      "value": null,
+      "unit": "Kp,uu",
+      "source_id": "EFDA",
+      "source_locator": "Bounded review: EFDA printed p27 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound AGI-17011 profile identified.",
+      "novelty": "bounded_negative_finding"
+    },
+    {
+      "id": "GAP_VORASIDENIB",
+      "species": "Human required population",
+      "age_scope": "Infant/young-child D2HGA2 required population",
+      "population_or_model": "Not identified in reviewed public sources",
+      "drug": "vorasidenib",
+      "analyte": "vorasidenib",
+      "role": "parent",
+      "variant": "IDH2-R140Q",
+      "assay": "Matched free normal-brain and free plasma exposure unavailable",
+      "compartment": "Normal brain / plasma",
+      "concentration_basis": "Unbound numerator / unbound denominator",
+      "formulation_and_regimen": null,
+      "time_context": "Matched time and repeated-dose state required; unavailable",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Null is unidentified evidence, not zero penetration. No infant concentration or CNS efficacy computed."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "matched normal-brain unbound partition",
+      "value": null,
+      "unit": "Kp,uu",
+      "source_id": "TGA",
+      "source_locator": "Bounded review: TGA printed pp15-18 and VFDA printed pp105-106; tumor total-concentration ratios do not supply a matched pediatric normal-brain unbound parent profile.",
+      "novelty": "bounded_negative_finding"
+    },
+    {
+      "id": "GAP_AGI_69460",
+      "species": "Human required population",
+      "age_scope": "Infant/young-child D2HGA2 required population",
+      "population_or_model": "Not identified in reviewed public sources",
+      "drug": "vorasidenib",
+      "analyte": "AGI-69460",
+      "role": "metabolite",
+      "variant": "IDH2-R140Q",
+      "assay": "Matched free normal-brain and free plasma exposure unavailable",
+      "compartment": "Normal brain / plasma",
+      "concentration_basis": "Unbound numerator / unbound denominator",
+      "formulation_and_regimen": null,
+      "time_context": "Matched time and repeated-dose state required; unavailable",
+      "statistic": "Unavailable",
+      "denominator": {
+        "n": null,
+        "unit": null,
+        "reason_if_missing": "Not reported in cited summary"
+      },
+      "limitations": [
+        "Null is unidentified evidence, not zero penetration. No infant concentration or CNS efficacy computed."
+      ],
+      "evidence_type": "bounded_negative_finding",
+      "metric": "matched normal-brain unbound partition",
+      "value": null,
+      "unit": "Kp,uu",
+      "source_id": "TGA",
+      "source_locator": "Bounded review: TGA printed p13 explicitly notes unassessed animal brain penetration for AGI-69460; pp16-18 and VFDA pp105-106 do not supply a matched pediatric normal-brain unbound metabolite profile.",
+      "novelty": "bounded_negative_finding"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "CORR_AGI17011",
+      "historical_files": [
+        "research/rounds/round7/enasidenib_product.md",
+        "research/rounds/round7/enasidenib_product.json"
+      ],
+      "historical_json_pointer": "/pharmacology_interpretation/AGI17011",
+      "historical_claim": "Active nonclinical metabolite not detected in humans in EMA assessment",
+      "replacement": "AGI-17011 (M2) is reported as a minor human plasma metabolite in EMA clinical sections, despite inconsistent earlier absence wording. Steady-state, pediatric and brain contribution remain unidentified.",
+      "conflicting_passages": [
+        {
+          "source_id": "EEMA",
+          "locator": "p18",
+          "claim": "Not found in rats, monkeys and humans"
+        },
+        {
+          "source_id": "EEMA",
+          "locator": "pp33-34",
+          "claim": "M2 (AGI-17011)0.3% of human circulating radioactivity exposure after single100 mg dose"
+        },
+        {
+          "source_id": "EEMA",
+          "locator": "p46",
+          "claim": "Lists M2 (AGI-17011) among minor human plasma metabolites"
+        }
+      ],
+      "preserve_historical_files": true,
+      "scope": "Correct categorical absence. Do not infer important chronic active burden."
+    }
+  ],
+  "source_conflicts": [
+    {
+      "id": "VFDA_TABLE21_DOSE_ASSIGNMENT",
+      "source_id": "VFDA",
+      "locator": "printed p105 / physical p106",
+      "table": {
+        "50_mg_Cavg_ratio": 1.69,
+        "10_mg_Cavg_ratio": 2.94
+      },
+      "prose": {
+        "10_mg_Cavg_ratio": 1.69,
+        "50_mg_Cavg_ratio": 2.94
+      },
+      "resolution": "Unresolved; both preserved, no source repair or dose-response inference",
+      "visual_check": true
+    }
+  ],
+  "calculations": [
+    {
+      "id": "E_PARENT_BINDING_PRODUCT",
+      "expression": "13255 ng/mL * (1 -98.5/100) =198.825 ng/mL",
+      "result": 198.825,
+      "unit": "ng/mL",
+      "inputs": [
+        "E_PARENT_CMAX",
+        "E_PARENT_BINDING"
+      ],
+      "type": "Explicit dimensional arithmetic, no model",
+      "interpretation": "Illustrative adult total geometric-mean Cmax times in-vitro fraction unbound. Separate peaks must not be added as synchronized free exposure.",
+      "is_measured_free_exposure": false,
+      "is_infant_exposure": false,
+      "is_brain_exposure": false
+    },
+    {
+      "id": "E_M1_BINDING_PRODUCT",
+      "expression": "1220 ng/mL * (1 -96.6/100) =41.48 ng/mL",
+      "result": 41.48,
+      "unit": "ng/mL",
+      "inputs": [
+        "E_M1_CMAX",
+        "E_M1_BINDING"
+      ],
+      "type": "Explicit dimensional arithmetic, no model",
+      "interpretation": "Illustrative adult total geometric-mean Cmax times in-vitro fraction unbound. Separate peaks must not be added as synchronized free exposure.",
+      "is_measured_free_exposure": false,
+      "is_infant_exposure": false,
+      "is_brain_exposure": false
+    }
+  ],
+  "comparison_rules": [
+    "Tumor total partition is not normal-brain Kp,uu.",
+    "IDH1 or IDH2-R172K potency is not R140Q potency.",
+    "Single-dose radioactivity fraction is not steady-state active exposure.",
+    "Separate analyte peaks are not synchronized.",
+    "AUC0-10h is not AUC0-24h.",
+    "Molar predose ratio is not AUC ratio.",
+    "Adult oncology PK is not an infant dose or therapeutic window.",
+    "Access failure does not prove evidence absence."
+  ],
+  "bounded_search": {
+    "state": "complete",
+    "useful_blocks": [
+      "Component identity and exact variant activity",
+      "Time-resolved adult parent/metabolite exposure",
+      "Compartment/denominator integrity and CNS-superiority closure"
+    ],
+    "primary_sections_reviewed": [
+      "FDA enasidenib p27,pp41-42,pp153-156",
+      "EMA enasidenib p18,pp33-34,p46",
+      "FDA vorasidenib p47/Table2,pp95,105-106/Table21",
+      "TGA vorasidenib pp13,15-18",
+      "PMDA vorasidenib printed p6 section3.1.2.1"
+    ],
+    "access_limits": [
+      "FDA vorasidenib web PDF size limit; archived full official copy used",
+      "EMA enasidenib web429; archived full official copy used",
+      "EMA vorasidenib web429; full source not treated as read, no missing R140Q/CNS field filled from it"
+    ],
+    "closure_reason": "Exact AGI-69460 R140Q potency and matched infant normal-brain free parent/metabolite exposure not identified in reviewed sections."
+  },
+  "validation": {
+    "strict_json": true,
+    "no_nonfinite_values": true,
+    "source_table_visual_checks": [
+      "EFDA Tables76B/77B",
+      "VFDA Table21"
+    ],
+    "unknowns_explicit_null": true,
+    "published_datasets_only": true
+  }
+}

@@ -13,6 +13,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 7](round7/README.md)** | Two existing clinical-development dossiers brought to BLU-level diligence dimensions | Enasidenib pediatric article/exposure–function and ruxolitinib controlled HHD proof; three reproducible audits and three independent challenges. Zero new screens; no S-tier promotion. |
 | **[Round 8](round8/README.md)** | BLU qualification work order, leading-set stress test and six-record screen | Four new exact uses (one concept expansion), two existing-use updates, quantitative decisions, source/logic audits and explicit planning allocation. No S-tier promotion. |
 | **[Round 9](round9/README.md)** | Verified Round 8 recovery and bounded research continuation | Two new exact uses, four existing candidates reviewed, explicit BLU interpretation amendments and independent review. All 622 original records and Round 8 files retained. No S-tier promotion. |
+| **[Round 10](round10/README.md)** | Exact exposure and clinical-evidence sprint | Two new exact uses; five existing-use reviews; AGI-17011 correction, preserved source conflicts, four independent reviews and a complete publication manifest. Allocation unchanged; no S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -54,3 +55,12 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [Qualification amendments](round9/qualification-amendments.json)
 - [New exact-use screens](round9/new-candidate-screen.md)
 - [Integration review](round9/integration-review.md)
+
+## Round 10
+
+- [Complete research package](round10/README.md)
+- [IDH parent/metabolite ledger](round10/idh-exposure-ledger.md)
+- [BLU exposure and comparator ledger](round10/blu-exposure-feasibility.md)
+- [New exact-use screens](round10/new-candidate-screen.md)
+- [Integration review](round10/integration-review.md)
+- [Complete publication manifest](round10/artifact-manifest.json)

@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 9 — verified recovery and continued research](rounds/round9/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 10 — exposure and clinical evidence](rounds/round10/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 
@@ -55,3 +55,7 @@ The 31 dated phases below trace how questions about therapeutic function became 
 ## Round 9 continuation — 4 November 2026
 
 The completed Round 8 tree was recovered and verified at commit `a7f10cd8b84bc2ffe6a4cf0160f29e9ab443dad3`. The [Round 9 package](rounds/round9/README.md) adds BLU target/safety and model interpretation, clinical comparator review, an existing KCNMA1 evidence update and two exact-use screens. The original 622 coverage rows and all Round 8 files remain intact. The 55/15/10 leading allocation is unchanged; there is no S-tier promotion.
+
+## Round 10 continuation — 4 November 2026
+
+The [Round 10 package](rounds/round10/README.md) follows verified Round 9 commit `b21aaddd2270b6670a745c2197867316d46b5879`. It adds two exact-use screens, five existing-use reviews, exact parent/metabolite and comparator-exposure ledgers, an inherited interpretation correction, current clinical dispositions, and four independent review documents. All original 622 coverage rows and earlier round packages remain intact. Allocation remains unchanged; no S-tier promotion or new experiment is claimed.

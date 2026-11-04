@@ -1,12 +1,30 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 9.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
+**Evidence cut: 4 November 2026. Round 10.** This is the controlling portfolio decision. The [selection policy](selection-policy.md) defines the standard; the [cumulative register](../research/portfolio-register.json) preserves original coverage, source records and decision history.
 
 **BLU3797 remains the leading qualification project. Enasidenib and topical ruxolitinib retain affirmative clinical-development proof recommendations.** BLU now has an execution-ready *qualification work order*: exact inputs, required measurements, a selected first human muscle model, finite resource blocks and quantitative advance/stop decisions. This does not represent an already validated laboratory assay, received material or a clinical-ready asset.
 
-Round 9 adds two new exact-use screens and reviews the three leading programs plus the existing KCNMA1 reserve. None earns an S-tier designation. The [Round 8 package](../research/rounds/round8/README.md) remains intact; the [Round 9 package](../research/rounds/round9/README.md) records this continuation and its source limits.
+Round 10 adds two new exact-use screens and reviews five existing candidates or inventory uses. None earns an S-tier designation. Earlier round packages remain unchanged; the [Round 10 package](../research/rounds/round10/README.md) records the current evidence, source conflicts and review limits.
 
-## Round 9 evidence and decisions
+## Round 10 evidence and decisions
+
+The [Round 10 package](../research/rounds/round10/README.md) controls the new interpretations below. The Round 8 numerical qualification specification and six Round 9 manual amendments remain unchanged. The existing decision utility does not automatically enforce these additional context checks.
+
+**BLU3797 — retain 55 points and the affirmative bounded human-muscle qualification project.** The released plasma workbook contains 26 numeric measurements across five groups, without a verified 26-animal denominator, individual endpoint pairing or elapsed postdose times. Bound/free analytical basis, tissue exposure and metabolites remain unresolved. The comparator patent's Figure 4B uses GFP-PI3KC2β HEK cells and different numbered compounds; it establishes neither native-muscle engagement nor exact47 cellular activity. The legend's 36/40/90/96 mapping was confirmed. Three unnamed conference leads cannot qualify 47, 91 or BLU. Exact47 remains the first comparator to qualify. [Exposure and comparator ledger](../research/rounds/round10/blu-exposure-feasibility.md)
+
+**Enasidenib — retain 15 points and the separate cardiac development question.** Correct the inherited blanket statement that AGI-17011 is absent from humans: the EMA report conflicts internally, and its clinical sections report the metabolite at 0.3% of circulating radioactivity exposure. That does not establish its chronic or pediatric contribution. A 43-row parent/metabolite ledger also preserves FDA's text/table reversal of vorasidenib tumor:Cavg dose assignments. New AGI-69460 R172K activity is not R140Q activity. Public evidence cannot identify a normal-infant-brain exposure advantage for either drug; close that comparison until exact-variant and relevant free-tissue evidence changes it. [IDH exposure ledger](../research/rounds/round10/idh-exposure-ledger.md)
+
+**Topical ruxolitinib/HHD — retain 10 points.** Four selected naltrexone case records across two reports add an explicit active-care comparator option, with cointerventions and outcome limitations retained. They do not constitute new ruxolitinib efficacy, a head-to-head comparison, a validated dose-escalation regimen or an all-treated response rate. Preserve the chosen vehicle/add-on/replacement claim and assess useful control, pain and rescue burden with the appropriate denominator. [HHD active-care review](../research/rounds/round10/hhd-active-care-comparator.md)
+
+**ManNAc/GNE — hold undifferentiated independent muscle-strength development.** The original inventory record `historical-topics:T060` already linked the MAGiNE result. Its primary abstract reports 54 treated people (37 active, 17 placebo) without significant primary strength benefit. Endpoint-analysis counts, effect estimates and uncertainty are not available in that abstract. Apply the current hold while retaining the randomized trial as a benchmark; do not infer zero possible effect, failed target engagement or failure of every related pathway intervention. This is an existing-use update. [Controlled-result review](../research/rounds/round10/mannac-controlled-result.md)
+
+**Miglustat/SCARB2 — retain the conditional reserve below lisdexamfetamine.** Chaves describes two siblings but only one miglustat recipient. The retrieved set increases from four to five treated people across four reports. Functional gains, unfavorable trajectories, shared pedigrees, cointerventions and incomplete source access remain visible. This is neither a global treatment census nor a response-rate estimate. [Case-lineage update](../research/rounds/round10/scarb2-case-lineage-update.md)
+
+**Two new exact-use screens — conditional research reserves with independent asset holds.** Taurine/SLC6A6 has a two-sibling cardiac signal bounded by residual transport, genotype, organ and remaining tissue. Zinc acetate dihydrate/GNAO1 has prospective feasibility evidence and exploratory function signals, but unchanged blinded movement severity. Its 13 enrolled, 12 exposed and 11 completed participants are different populations; its external motor reference is cerebral palsy. Zinc is the stronger next clinical-evidence question of this pair. Neither receives dedicated points or displaces a leader. [New-use screens](../research/rounds/round10/new-candidate-screen.md)
+
+The complete 100-point queue below is unchanged. Proposed evidence requirements describe decisions; all current activity remains document analysis and repository work. No outreach, purchases, recruitment, experiments or simulations were conducted.
+
+## Retained Round 9 evidence and decisions
 
 The [Round 9 continuation](../research/rounds/round9/README.md) follows the verified recovery of the unchanged Round 8 snapshot. The Round 8 work order remains the numerical baseline; [manual qualification amendments](../research/rounds/round9/qualification-amendments.json) control the additional interpretation. The existing decision utility does not automatically enforce these new contextual requirements.
 
@@ -18,7 +36,7 @@ The [Round 9 continuation](../research/rounds/round9/README.md) follows the veri
 
 **Two new exact uses:** miglustat/SCARB2-AMRF is a conditional reserve because reported functional gains coexist with neurological worsening and renal/weight-loss constraints. GSK2193874/TRPV4 is a useful preclinical benchmark; an independent development project remains on hold until it identifies a specific contribution alongside the separate ABS-0871/STAR-0871 clinical program. Neither receives new dedicated allocation or an S-tier designation. The records retain exact genotype, article, endpoint and denominator limits. [New-use screens](../research/rounds/round9/new-candidate-screen.md)
 
-The following qualification and clinical sections carry forward the Round 8 baseline subject to these Round 9 amendments. Planning points are unchanged. Proposed proofs describe decision requirements; this research authorizes no recruitment, procurement, outreach or experiments.
+The following qualification and clinical sections carry forward the Round 8 baseline subject to the Round 9 amendments and the current Round 10 interpretations above. Planning points are unchanged. Proposed proofs describe decision requirements; this research authorizes no recruitment, procurement, outreach or experiments.
 
 ## Ranked next actions and allocation
 

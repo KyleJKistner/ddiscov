@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.1",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "scope": {
+    "repository": "ddiscov",
+    "all_non_git_files": 186,
+    "utf8_text_files_scanned": 182,
+    "register_coverage_rows": 622,
+    "corpus_digest_sha256": "6a8ac5180ef7769a7bb926f1eb8d24ab05686a18893aa65626b698e3e2431464",
+    "corpus_digest_definition": "SHA256 of sorted relative-path + NUL + file SHA256 hex + newline for every non-Git file.",
+    "search_method": "Case-insensitive literal searches over all 186 file contents, including 182 UTF-8 files, three PDFs via pdftotext, and XLSX XML text. TauT uses word boundaries. Exact-use classification additionally reviewed cumulative register rows and historical-topic source aliases.",
+    "limits": "Repository deduplication only; no claim of global scientific novelty or comprehensive IP clearance.",
+    "non_utf8_files": [
+      "research/reports/ddiscov_diligence_report.pdf",
+      "research/reports/ddiscov_portfolio_reset.pdf",
+      "research/reports/ddiscov_screening_round3.pdf",
+      "research/source-data/blu3797-source-values.xlsx"
+    ],
+    "binary_content_extractions": [
+      {
+        "path": "research/reports/ddiscov_diligence_report.pdf",
+        "method": "pdftotext -layout to stdout",
+        "extracted_characters": 57883
+      },
+      {
+        "path": "research/reports/ddiscov_portfolio_reset.pdf",
+        "method": "pdftotext -layout to stdout",
+        "extracted_characters": 76650
+      },
+      {
+        "path": "research/reports/ddiscov_screening_round3.pdf",
+        "method": "pdftotext -layout to stdout",
+        "extracted_characters": 58492
+      },
+      {
+        "path": "research/source-data/blu3797-source-values.xlsx",
+        "method": "Read XML text nodes from XLSX ZIP; no modification or recalculation",
+        "extracted_characters": 1076766
+      }
+    ],
+    "all_files_content_scanned": 186,
+    "unreadable_files": []
+  },
+  "checks": {
+    "taurine_SLC6A6": {
+      "SLC6A6": [],
+      "taurine transporter": [],
+      "TauT": [],
+      "Gly399Val": [],
+      "G399V": [],
+      "ddz303": [],
+      "31903486": [],
+      "41343195": [],
+      "taurine": [
+        {
+          "path": "discovery/historical-topics.csv",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 17
+        },
+        {
+          "path": "research/reports/ddiscov_portfolio_reset.pdf",
+          "literal_occurrences": 3,
+          "content_extracted_from_binary": true
+        },
+        {
+          "path": "research/rounds/round2/round2_blood_exvivo.md",
+          "literal_occurrences": 7
+        },
+        {
+          "path": "research/rounds/round2/round2_generated_concepts.json",
+          "literal_occurrences": 3
+        },
+        {
+          "path": "research/screen-index.md",
+          "literal_occurrences": 2
+        }
+      ]
+    },
+    "zinc_acetate_GNAO1": {
+      "GNAO1": [
+        {
+          "path": "research/source-data/blu3797-source-values.xlsx",
+          "literal_occurrences": 1,
+          "content_extracted_from_binary": true
+        }
+      ],
+      "GNAO1-RD": [],
+      "ZINCGNAO1": [],
+      "NCT06412653": [],
+      "zinc acetate": [],
+      "zinc acetate dihydrate": [],
+      "Wilzin": [],
+      "42542632": [],
+      "39153472": [],
+      "104092": []
+    },
+    "ManNAc_GNE_existing_use": {
+      "ManNAc": [],
+      "N-acetylmannosamine": [
+        {
+          "path": "discovery/historical-topics.csv",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 3
+        }
+      ],
+      "GNE myopathy": [
+        {
+          "path": "discovery/historical-topics.csv",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 10
+        },
+        {
+          "path": "research/rounds/round4/README.md",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round4/round4_neuromuscular.json",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/rounds/round4/round4_neuromuscular.md",
+          "literal_occurrences": 1
+        }
+      ],
+      "MAGiNE": [
+        {
+          "path": "research/portfolio-register.json",
+          "literal_occurrences": 5
+        },
+        {
+          "path": "research/rounds/round7/round7_root_deltas.json",
+          "literal_occurrences": 1
+        },
+        {
+          "path": "research/rounds/round7/rux_hhd_clinical.json",
+          "literal_occurrences": 2
+        },
+        {
+          "path": "research/rounds/round7/rux_hhd_clinical.md",
+          "literal_occurrences": 1
+        }
+      ]
+    }
+  },
+  "existing_alias_records": [
+    {
+      "inventory_id": "historical-topics:T060",
+      "record_id": "T060",
+      "label": "N-acetylmannosamine in GNE myopathy"
+    },
+    {
+      "inventory_id": "historical-topics:T076",
+      "record_id": "T076",
+      "label": "Taurine for MELAS"
+    },
+    {
+      "inventory_id": "historical-topics:T077",
+      "record_id": "T077",
+      "label": "L-arginine and taurine comparisons in MELAS"
+    },
+    {
+      "inventory_id": "screen-index:TAURINE_COLD_PLATELETS:567",
+      "record_id": "TAURINE_COLD_PLATELETS",
+      "label": "Taurine-supplemented cold-stored platelets and clot formation"
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "R10-NL-01",
+      "exact_use": "oral taurine / biallelic SLC6A6 taurine-transporter deficiency",
+      "classification": "new exact use of an already inventoried molecule",
+      "disease_gene_hits": 0,
+      "molecule_already_inventoried": true,
+      "new_exact_use_count": 1
+    },
+    {
+      "candidate_id": "R10-NL-02",
+      "exact_use": "zinc acetate dihydrate / GNAO1-related disorder",
+      "classification": "new exact intervention-use screen; no new molecule or ownership claim",
+      "disease_gene_hits": 1,
+      "new_exact_use_count": 1,
+      "disease_gene_hit_adjudication": "One Gnao1 mouse-gene row in BLU3797 source workbook shared strings, adjacent to GNAO_MOUSE and ENSMUSG00000031748; no zinc/GNAO1 intervention-use record. This gene-only hit does not make the use an existing candidate.",
+      "gene_only_hit_location": {
+        "path": "research/source-data/blu3797-source-values.xlsx",
+        "worksheet_xml": "xl/worksheets/sheet21.xml",
+        "row": 677,
+        "cells": {
+          "A677": "GNAO_MOUSE",
+          "B677": "ENSMUSG00000031748",
+          "C677": "Gnao1"
+        }
+      }
+    },
+    {
+      "exact_use": "N-acetylmannosamine / GNE myopathy",
+      "classification": "existing use; update only, excluded from new-screen count",
+      "inventory_id": "historical-topics:T060",
+      "record_id": "T060",
+      "new_exact_use_count": 0,
+      "audit_lesson": "An abbreviation-only ManNAc search missed the full-name baseline entry."
+    }
+  ],
+  "counting": {
+    "new_exact_intervention_use_screens": 2,
+    "new_molecule_claims": 0,
+    "ManNAc_new_screen_count": 0
+  },
+  "baseline_untouched": true
+}

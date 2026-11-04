@@ -1,0 +1,165 @@
+{
+  "schema_version": "ddiscov.round10.hhd_active_comparator.v1",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "activities": {
+    "public_document_analysis": true,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false
+  },
+  "candidate_id": "R6-NL-01",
+  "classification": "existing_leader_active_comparator_refinement",
+  "new_candidate": false,
+  "new_ruxolitinib_efficacy": false,
+  "primary_comparator_cases": [
+    {
+      "id": "Cao2018_1",
+      "source_id": "H10-S01",
+      "sex": "female",
+      "age_band": "30s",
+      "diagnosis": "biopsy-proven HHD",
+      "allele": null,
+      "historical_regimen": "naltrexone 4.5 mg nightly",
+      "cointerventions": [
+        "clobetasol rescue",
+        "tacrolimus maintenance"
+      ],
+      "outcome": "about 95% clearance at 18 months",
+      "standardized_response_measure": false
+    },
+    {
+      "id": "Cao2018_2",
+      "source_id": "H10-S01",
+      "sex": "female",
+      "age_band": "30s",
+      "diagnosis": "biopsy-proven HHD",
+      "allele": null,
+      "historical_regimen": "12.5 mg from quartered 50-mg tablets, interruption, then 4.5 mg",
+      "outcome": "initial clearance; flare off; slower improvement on restart",
+      "randomized_dose_comparison": false
+    },
+    {
+      "id": "Cao2018_3",
+      "source_id": "H10-S01",
+      "sex": "female",
+      "age_band": "60s",
+      "diagnosis": "biopsy-proven HHD",
+      "allele": null,
+      "historical_regimen": "50 mg initially; later 4.5 mg with changing adjuncts",
+      "outcome": "no initial improvement; partial control after additional drugs",
+      "cointerventions": [
+        "acitretin",
+        "systemic/intralesional corticosteroids",
+        "glycopyrrolate"
+      ]
+    },
+    {
+      "id": "Mehrabian2026",
+      "source_id": "H10-S02",
+      "sex": "male",
+      "age_years": 65,
+      "diagnosis": "biopsy-proven HHD",
+      "allele": null,
+      "historical_regimen": "2.5 mg then 5 mg oral naltrexone",
+      "outcome": "author-estimated 80% improvement at six weeks; reported control over two years",
+      "prior_functional_burden": "pain limiting walking",
+      "standardized_severity_or_QOL_scale": false,
+      "infection_flares_and_background_care": true,
+      "duplicate_presentation": "same case at 2025 BAD meeting"
+    }
+  ],
+  "denominator": {
+    "described_people": 4,
+    "reports": 2,
+    "selected_case_set": true,
+    "all_treated_population": false,
+    "pooled_response_rate": null,
+    "combined_with_rux_cases": false
+  },
+  "decision": {
+    "rank": 3,
+    "planning_effort_points": 10,
+    "current_S_tier": false,
+    "update": "Make oral naltrexone-based care an explicit possible active-care comparator; select comparator to match the intended claim.",
+    "naltrexone_mandatory_for_all": false,
+    "dose_escalation_validated": false,
+    "gates": [
+      "Declare vehicle, add-on or replacement estimand.",
+      "Record important background/rescue therapies and stabilize when clinically appropriate.",
+      "Preserve all randomized and maintenance denominators and total treatment burden."
+    ],
+    "no_head_to_head_effect_estimate": true,
+    "no_cost_effectiveness_estimate": true,
+    "standalone_asset": "still requires differentiated benefit and an executable product contribution"
+  },
+  "unresolved_preprint": {
+    "pmid": "42282850",
+    "patients_claimed_in_abstract": 9,
+    "new_full_detail_recovered": false,
+    "pooled": false,
+    "attempted_routes": [
+      "PMC primary",
+      "bioRxiv full text",
+      "EuropePMC fullTextXML"
+    ],
+    "stop_repeating_routes_this_round": true
+  },
+  "metadata_only_review": {
+    "pmid": "41845571",
+    "doi": "10.1111/ijd.70372",
+    "primary_dose_response_data_admitted": false
+  },
+  "sources": [
+    {
+      "id": "H10-S01",
+      "type": "primary_case_series",
+      "doi": "10.1001/jamadermatol.2017.5463",
+      "pmid": "29344611",
+      "online_date": "2018-01-17",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2668140",
+      "access": "original full HTML read",
+      "source_refs": [
+        "turn104view3",
+        "turn101search3"
+      ]
+    },
+    {
+      "id": "H10-S02",
+      "type": "primary_case_report",
+      "doi": "10.7759/cureus.110281",
+      "pmid": "42256828",
+      "date": "2026-06-05",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13237576/",
+        "https://pubmed.ncbi.nlm.nih.gov/42256828/"
+      ],
+      "access": "primary abstract and indexed full-text passages; direct PMC verification barrier",
+      "source_refs": [
+        "turn75search5",
+        "turn87search5",
+        "turn87search6"
+      ]
+    },
+    {
+      "id": "H10-S03",
+      "type": "primary_preprint_abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42282850/",
+      "source_refs": [
+        "turn75search0"
+      ],
+      "status": "carried forward; full-detail ceiling unchanged"
+    },
+    {
+      "id": "H10-S04",
+      "type": "review_metadata_only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41845571/",
+      "source_refs": [
+        "turn75search3"
+      ],
+      "admitted_as_primary_result": false
+    }
+  ]
+}

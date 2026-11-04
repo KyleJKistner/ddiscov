@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0",
+  "round": 10,
+  "review_date": "2026-11-04",
+  "title": "BLU3797 exposure ceiling and exact-comparator feasibility",
+  "baseline": {
+    "commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+    "branch": "main",
+    "tracked_files": 186,
+    "read_only_inputs": [
+      {
+        "path": "research/rounds/round8/blu_article_exposure.md",
+        "sha256": "64a7ea66605f373b6b3e56696dd7d6bae770db854f70c56599c53e1ffcaf4f05"
+      },
+      {
+        "path": "research/rounds/round9/blu-target-safety-update.md",
+        "sha256": "68c7716d54509470d64ce56c08c95af34b6d4c130b0d52b0b050fc5a7387a947"
+      },
+      {
+        "path": "research/rounds/round5/round5_blu_pharmacology.md",
+        "sha256": "78b33a4f1890798fdb144f96770c9fde04e40925af6766b4a34c31aaef4831dc"
+      }
+    ]
+  },
+  "scope": {
+    "activity": "Public-source document research and descriptive arithmetic on released measurements",
+    "primary_document_groups": 3,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false,
+    "git_actions_by_this_workstream": false,
+    "exhausted_model_searches_reopened": false,
+    "search_status": "Closed after the three bounded primary document groups; no further retrieval chase",
+    "negative_evidence_scope": "Not located in the inspected source set; not proof that data do not exist elsewhere"
+  },
+  "decision": {
+    "BLU3797_planning_score_before": 55,
+    "BLU3797_planning_score_after": 55,
+    "score_denominator": 100,
+    "status": "Continue bounded human-muscle qualification project",
+    "first_comparator": "WO2025003330A1 exact example compound 47",
+    "new_validated_candidate": false,
+    "target_rejection": false,
+    "native_human_muscle_window_established": false,
+    "reason": "Exact-article exposure and target-site translation remain unidentified; clarified comparator context does not supply these quantities"
+  },
+  "deltas": [
+    {
+      "id": "B10-D1",
+      "status": "new_to_repository_extracted_metadata",
+      "finding": "Patent Figure 4B explicitly identifies GFP-PI3KC2beta HEK cells and full medium",
+      "source": "B10-S2",
+      "locator": "Figure 4B, drawing 4/5, physical PDF page 313",
+      "interpretation": "Engineered tagged-cell pS6K context; not native-muscle occupancy and not an exact47 cell-access result",
+      "score_change": 0
+    },
+    {
+      "id": "B10-D2",
+      "status": "checked_non_error",
+      "finding": "Figure 4 text legend identifies examples 36, 40, 90 and 96, supporting the existing mapping of DC-coded drawing labels",
+      "source": "B10-S2",
+      "locator": "Figure 4 text legend and Example 4 cellular activity; HTML lines 1698-1699 and 1713-1715 at retrieval",
+      "historical_correction_required": false,
+      "interpretation": "The provisional mapping concern was resolved against the primary source; prior numbering is retained"
+    },
+    {
+      "id": "B10-D3",
+      "status": "new_primary_source_program_level_only",
+      "finding": "2024 conference abstract describes three unnamed C2beta leads and a panel of 117 kinases excluding C2gamma",
+      "source": "B10-S3",
+      "locator": "Printed page 23; physical PDF page 24",
+      "article_identity_mapping": null,
+      "independent_replication": false,
+      "interpretation": "No exact47, exact91 or BLU exposure/selectivity field can be filled from unnamed program-level leads"
+    },
+    {
+      "id": "B10-D4",
+      "status": "carried_forward_independently_recounted",
+      "finding": "26 released numeric plasma entries across five groups in the same JCI source workbook",
+      "source": "B10-S1",
+      "new_observations": 0,
+      "verified_unique_animal_count": null,
+      "interpretation": "A measurement count, not a verified independent-animal denominator or a new study"
+    }
+  ],
+  "BLU_plasma_ledger": {
+    "article": "BLU3797",
+    "reported_analyte": "BLU3797",
+    "metabolite_identity": null,
+    "parent_metabolite_analytical_separation_described": false,
+    "species": "Mus musculus",
+    "sex": "male",
+    "genotype": "Mtm1-/y",
+    "matrix": "plasma",
+    "concentration_units": "ng/mL",
+    "bound_free_basis": "Reported plasma concentration; unbound measurement not established and a reconstructible total/free bioanalytical method is not supplied",
+    "collection_context": "Terminal or after-final-dose collection; elapsed hours after last dose are not supplied for these released entries",
+    "individual_animal_identifiers": null,
+    "cross_endpoint_matching": null,
+    "source": "B10-S1",
+    "workbook_repository_path": "research/source-data/blu3797-source-values.xlsx",
+    "workbook_sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+    "groups": [
+      {
+        "id": "Fig6A_25",
+        "dose_mg_per_kg": 25,
+        "route": "oral",
+        "frequency": "once daily",
+        "start_postnatal_day": 22,
+        "study_days_described": 10,
+        "sheet": "Fig 6A",
+        "cells": "A3:A8",
+        "values_ng_per_mL": [3520, 5430, 6450, 3370, 6030, 5340],
+        "released_numeric_entry_count": 6,
+        "verified_independent_mouse_count": null,
+        "elapsed_postdose_hours": null,
+        "mean_ng_per_mL": 5023.333333333333,
+        "median_ng_per_mL": 5385,
+        "range_ng_per_mL": [3370, 6450],
+        "evidence_status": "carried_forward_recounted"
+      },
+      {
+        "id": "Fig6A_50",
+        "dose_mg_per_kg": 50,
+        "route": "oral",
+        "frequency": "once daily",
+        "start_postnatal_day": 22,
+        "study_days_described": 10,
+        "sheet": "Fig 6A",
+        "cells": "B3:B8",
+        "values_ng_per_mL": [6370, 7720, 8320, 7980, 7090, 6380],
+        "released_numeric_entry_count": 6,
+        "verified_independent_mouse_count": null,
+        "elapsed_postdose_hours": null,
+        "mean_ng_per_mL": 7310,
+        "median_ng_per_mL": 7405,
+        "range_ng_per_mL": [6370, 8320],
+        "evidence_status": "carried_forward_recounted"
+      },
+      {
+        "id": "Fig6A_100",
+        "dose_mg_per_kg": 100,
+        "route": "oral",
+        "frequency": "once daily",
+        "start_postnatal_day": 22,
+        "study_days_described": 10,
+        "sheet": "Fig 6A",
+        "cells": "C3:C9",
+        "values_ng_per_mL": [5590, 10300, 12400, 11000, 9000, 10900, 8990],
+        "released_numeric_entry_count": 7,
+        "verified_independent_mouse_count": null,
+        "elapsed_postdose_hours": null,
+        "mean_ng_per_mL": 9740,
+        "median_ng_per_mL": 10300,
+        "range_ng_per_mL": [5590, 12400],
+        "evidence_status": "carried_forward_recounted"
+      },
+      {
+        "id": "FigS6B_P22",
+        "dose_mg_per_kg": 75,
+        "route": "oral",
+        "frequency": "Caption describes twice daily; workbook regimen history differs",
+        "start_postnatal_day": 22,
+        "study_days_described": null,
+        "sheet": "Fig S6B",
+        "cells": "A3:A5",
+        "values_ng_per_mL": [22600, 28400, 21000],
+        "released_numeric_entry_count": 3,
+        "verified_independent_mouse_count": null,
+        "elapsed_postdose_hours": null,
+        "mean_ng_per_mL": 24000,
+        "median_ng_per_mL": 22600,
+        "range_ng_per_mL": [21000, 28400],
+        "regimen_discrepancy": "Fig S6A!C2 specifies BIDx5 and QDx3; no silent resolution of full treatment history",
+        "evidence_status": "carried_forward_recounted"
+      },
+      {
+        "id": "FigS6B_P25",
+        "dose_mg_per_kg": 75,
+        "route": "oral",
+        "frequency": "twice daily as caption describes",
+        "start_postnatal_day": 25,
+        "study_days_described": null,
+        "sheet": "Fig S6B",
+        "cells": "B3:B6",
+        "values_ng_per_mL": [32700, 29200, 26900, 23400],
+        "released_numeric_entry_count": 4,
+        "verified_independent_mouse_count": null,
+        "elapsed_postdose_hours": null,
+        "mean_ng_per_mL": 28050,
+        "median_ng_per_mL": 28050,
+        "range_ng_per_mL": [23400, 32700],
+        "evidence_status": "carried_forward_recounted"
+      }
+    ],
+    "released_numeric_entry_total": 26,
+    "verified_unique_mouse_total": null,
+    "independence_assumed": false,
+    "fitted_PK_model": false,
+    "human_dose_inferred": false,
+    "formulation": {
+      "vehicle": "Fresh aqueous 0.5% w/v sodium carboxymethylcellulose plus 1% v/v Tween 80",
+      "source_locator": "JCI main Methods, pharmacological treatment of mice",
+      "bioavailability_inferred": false,
+      "status": "carried_forward"
+    }
+  },
+  "unfilled_exposure_fields": [
+    {"field": "plasma_free_fraction", "value": null, "scope": "exact BLU3797, mouse or human", "reason": "Not located in inspected sources; FBS adjustment is not plasma binding"},
+    {"field": "muscle_unbound_concentration_time_profile", "value": null, "scope": "exact BLU3797", "reason": "Muscle collection does not establish measured drug concentration"},
+    {"field": "brain_heart_liver_unbound_distribution", "value": null, "scope": "exact BLU3797", "reason": "No matched tissue profile located"},
+    {"field": "native_human_muscle_intracellular_exposure", "value": null, "scope": "exact BLU3797", "reason": "No native human-muscle exposure or occupancy profile located"},
+    {"field": "bioavailability", "value": null, "scope": "exact BLU3797", "reason": "Oral terminal concentrations do not establish absolute bioavailability"},
+    {"field": "half_life_AUC_Cmax_trough", "value": null, "scope": "exact BLU3797", "reason": "Elapsed sampling times and longitudinal profiles unavailable here"},
+    {"field": "permeability_transporters_microsomal_hepatocyte_clearance", "value": null, "scope": "exact BLU3797", "reason": "No exact-article ADME package located"},
+    {"field": "metabolite_identity_and_activity", "value": null, "scope": "exact BLU3797", "reason": "No identified metabolite series or parent-metabolite quantitative separation located"},
+    {"field": "matched_native_cell_C2alpha_VPS34_selectivity", "value": null, "scope": "exact BLU3797", "reason": "No new corresponding data found; prior assay omissions/discrepancies remain"}
+  ],
+  "noninterchangeable_pharmacology": [
+    {"article": "BLU3797", "quantity": "biochemical C2beta IC50", "reported_value_nM": 28, "ATP_mM": 1, "native_unbound_threshold": false, "status": "carried_forward", "source": "B10-S1"},
+    {"article": "BLU3797", "quantity": "engineered cellular C2beta NanoBRET", "reported_value_nM": 68.2, "native_unbound_threshold": false, "status": "carried_forward", "source": "B10-S1"},
+    {"article": "BLU3797", "quantity": "reported mouse plasma concentration", "native_unbound_threshold": false, "status": "carried_forward_recounted", "source": "B10-S1"},
+    {"article": "BLU3797", "quantity": "native human muscle unbound exposure and target engagement", "reported_value_nM": null, "status": "not_located", "source_scope": ["B10-S1", "B10-S2", "B10-S3"]}
+  ],
+  "comparators": {
+    "biochemical_assay": {
+      "source": "B10-S2",
+      "species": "human engineered protein",
+      "construct": "PI3KC2beta delta1-297, DPK1248-1250 to KKT",
+      "ATP_uM": 40,
+      "PI_uM": 200,
+      "matched_to_BLU_assay": false,
+      "status": "carried_forward"
+    },
+    "exact47": {
+      "source": "B10-S2",
+      "reported_C2beta_biochemical_IC50_nM": 56,
+      "single_point_panel_concentration_uM": 10,
+      "single_point_percent_inhibition": {"C2alpha": 5, "VPS34": -13},
+      "C2gamma_table5_value": null,
+      "single_point_replicate_count": null,
+      "matrix_of_kinobead_profiling": "HEK293 cell lysate",
+      "native_muscle_cell_access_demonstrated": false,
+      "exact_article_PK_located": false,
+      "inferred_off_target_IC50": null,
+      "role": "first comparator for qualification",
+      "status": "carried_forward"
+    },
+    "exact91": {
+      "source": "B10-S2",
+      "reported_C2beta_biochemical_IC50_nM": 48,
+      "single_point_panel_concentration_uM": 10,
+      "single_point_percent_inhibition": {"C2alpha": 6, "C2gamma": 77, "VPS34": 31, "class_I_alpha": 59, "class_I_gamma": 60},
+      "single_point_replicate_count": null,
+      "matrix_of_kinobead_profiling": "HEK293 cell lysate",
+      "native_muscle_cell_access_demonstrated": false,
+      "exact_article_PK_located": false,
+      "inferred_off_target_IC50": null,
+      "role": "secondary comparator; broader functional panel limits beta-specific interpretation",
+      "status": "carried_forward"
+    },
+    "other_cellular_examples": {
+      "source": "B10-S2",
+      "example_numbers": [36, 40, 90, 96],
+      "drawing_codes": ["DC-03-036", "DC-03-040", "DC-03-090", "DC-03-096"],
+      "mapping_basis": "Figure 4 text legend names numbered examples; Figure 4 drawing labels corresponding DC codes",
+      "mapping_status": "checked_non_error",
+      "cell_context": "GFP-PI3KC2beta HEK cells",
+      "medium": "full medium; composition not specified in the drawing",
+      "nominal_compound_uM": 1,
+      "exposure_context": "Overnight followed by two-hour PKN1/2 inhibition",
+      "endpoint": "pS6K pathway readout",
+      "blot_sets_labelled": ["1st", "2nd"],
+      "independent_biological_replicate_count": null,
+      "quantitative_fractional_occupancy": false,
+      "intracellular_unbound_exposure": null,
+      "transfer_to_exact47_or_91": false,
+      "new_metadata": ["GFP-PI3KC2beta HEK cells", "full medium"],
+      "source_locator": "Figure 4B-D, drawing 4/5, physical PDF page 313; text legend and Example 4"
+    },
+    "unnamed_2024_leads": {
+      "source": "B10-S3",
+      "lead_count_reported": 3,
+      "kinase_panel_count_reported": 117,
+      "C2gamma_in_panel": false,
+      "exact_compound_identities": null,
+      "numerical_cellular_potency": null,
+      "panel_test_concentrations": null,
+      "replicate_count": null,
+      "PK": null,
+      "same_articles_as_numbered_patent_examples": null,
+      "independent_validation": false,
+      "status": "new_source_program_level_only",
+      "interpretation": "Cannot transfer the abstract-level selectivity or preliminary cellular claims to named BLU or patent articles"
+    }
+  },
+  "contrary_and_limiting_evidence": [
+    "Author-reported 24-hour IC50/IC90 coverage is not independently reconstructible from the released plasma snapshots and missing sample times",
+    "Figure S6A workbook regimen history is not fully reconciled with caption-level twice-daily wording",
+    "Exact47's cleaner single-point panel does not establish intracellular selectivity; C2gamma is not supplied there",
+    "Exact91 has material C2gamma, VPS34 and class-I/protein-kinase panel signals despite a narrower lysate-profile summary",
+    "Conference abstract excludes C2gamma from its 117-kinase panel and does not identify exact articles",
+    "A tagged, sensitized HEK pS6K response is distinct from native target engagement and useful human-muscle function",
+    "The prior exact-BLU VPS34 publication/workbook discrepancy is unresolved; this sprint adds no resolving dataset"
+  ],
+  "decision_changing_missing_inputs": [
+    {"input": "Exact-BLU sample times, parent-selective analytical method and matched total/unbound plasma profile", "changes": "Auditable interpretation of systemic coverage", "insufficient_substitute": "Terminal snapshot or FBS-adjusted figure line"},
+    {"input": "Time-aligned muscle-accessible exposure, native target modulation and useful human-muscle function", "changes": "Interpretability of the first proof and of a negative result", "insufficient_substitute": "Nominal concentration, pellet total or fusion-assay potency"},
+    {"input": "Exact-BLU C2alpha/VPS34 activity under comparable cellular exposure", "changes": "Selectivity of the beneficial intervention", "insufficient_substitute": "Patent47 single-point panel or omitted NanoBRET rows"},
+    {"input": "Identified metabolites and relevant activity if present", "changes": "Parent-versus-metabolite attribution", "insufficient_substitute": "Another inhibitor's metabolism"},
+    {"input": "Exact47 identity/content, accessible exposure and target-linked cellular activity", "changes": "Whether it is an interpretable comparator", "insufficient_substitute": "Other numbered examples, lysate binding or unnamed leads"},
+    {"input": "Matched tissue distribution and tissue-specific functional evidence", "changes": "Existence of a useful systemic exposure window", "insufficient_substitute": "Unmeasured brain exclusion, liver safety or clinical margin"}
+  ],
+  "sources": [
+    {
+      "id": "B10-S1",
+      "type": "primary_publication_and_released_source_values",
+      "title": "Shearer et al., JCI Insight, DOI 10.1172/jci.insight.198568",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "workbook_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+      "locators": ["Figure 6A", "Supplemental Figure 6A-B", "PIK3C2B biochemical assay Methods", "Cellular target engagement Methods", "Pharmacological treatment of mice Methods", "Fig 6A!A3:C9", "Fig S6B!A3:B6", "Fig S6A!C2"],
+      "new_to_repository": false,
+      "read_status": "Reopened main record; audited the existing released workbook and prior supplement extraction"
+    },
+    {
+      "id": "B10-S2",
+      "type": "primary_patent",
+      "title": "WO2025003330A1",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "original_pdf_sha256": "4862b6b3d24e135e200ef57c23276c68c9b38ee6f1fb0d8041150f60b316fe23",
+      "locators": ["Figure 4 text legend", "Example 4 cellular activity", "Figure 4B-D drawing 4/5, physical PDF page 313", "Table 1 printed pages 78 and 89 / physical pages 79 and 90", "Tables 5-6 printed pages 129-132 / physical pages 130-133"],
+      "new_to_repository": false,
+      "new_extracted_metadata": true,
+      "read_status": "HTML text retrieved; original cached PDF drawings visually inspected after web PDF size limit",
+      "OCR_caution": "Google Patents sometimes renders micromolar as pM; reported units follow original-PDF audit"
+    },
+    {
+      "id": "B10-S3",
+      "type": "primary_conference_abstract",
+      "title": "Cirillo et al., C2beta inhibitor discovery abstract, New Trends in Chemistry Research 2024",
+      "url": "https://newtrends-timisoara.ro/2024/docs/Book-of-abstracts-NewChemRes2024.pdf",
+      "locators": ["Printed page 23 / physical PDF page 24", "PDF extracted text lines 798-845 at retrieval"],
+      "new_to_repository": true,
+      "read_status": "Full relevant abstract text retrieved from official conference PDF",
+      "evidence_level": "Program-level abstract; incomplete exact-article data"
+    }
+  ]
+}

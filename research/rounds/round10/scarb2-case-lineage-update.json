@@ -1,0 +1,109 @@
+{
+  "schema_version": "ddiscov.round10.scarb2_lineage.v1",
+  "round": 10,
+  "as_of": "2026-11-04",
+  "base_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "activities": {
+    "public_document_analysis": true,
+    "outreach": false,
+    "purchases": false,
+    "experiments": false,
+    "simulations": false
+  },
+  "candidate_id": "R9-NL-01",
+  "classification": "existing_candidate_case_lineage_update",
+  "new_candidate": false,
+  "current_reviewed_treated_count": 5,
+  "prior_reviewed_treated_count": 4,
+  "primary_report_count": 4,
+  "complete_global_treated_census": false,
+  "new_case": {
+    "source_id": "SC10-S01",
+    "report": "Chaves 2011",
+    "described_siblings": 2,
+    "miglustat_treated": 1,
+    "treated_person": "patient2",
+    "start_age_years": 24,
+    "gene": "SCARB2",
+    "exact_allele": null,
+    "exact_allele_reason": "Not recovered from available primary passages",
+    "renal_pathology_as_reported": "C1q nephropathy",
+    "historical_miglustat_mg_per_day": 600,
+    "manufacturer": null,
+    "lot": null,
+    "exact_formulation": null,
+    "functional_direction": "regained sitting, oral feeding and some speech",
+    "reported_benefit_duration": "almost two years",
+    "death": {
+      "age_years": 26,
+      "reported_cause": "pneumonia",
+      "drug_causality_established": false
+    },
+    "preceding_ERT": {
+      "entity": "imiglucerase",
+      "treated_siblings": 2,
+      "reported_neurologic_improvement": false,
+      "does_not_add_miglustat_nonresponders": true
+    },
+    "concurrent_control": false,
+    "standardized_response_endpoint": false,
+    "independent_masked_assessment": false,
+    "renal_repair_established": false
+  },
+  "case_ledger": [
+    {
+      "report": "Chaves2011",
+      "treated_people": 1,
+      "status": "newly retrieved",
+      "source_id": "SC10-S01"
+    },
+    {
+      "report": "Quraishi2021",
+      "treated_people": 1,
+      "status": "carried forward",
+      "source_scope": "research/rounds/round9/new-candidate-screen.json"
+    },
+    {
+      "report": "Atasu2022",
+      "treated_people": 2,
+      "shared_family": true,
+      "status": "carried forward",
+      "source_scope": "research/rounds/round9/new-candidate-screen.json"
+    },
+    {
+      "report": "Colucci2024online_2025issue",
+      "treated_people": 1,
+      "status": "carried forward",
+      "source_scope": "research/rounds/round9/new-candidate-screen.json"
+    }
+  ],
+  "decision": {
+    "disposition": "retain conditional clinical-research reserve below lisdexamfetamine; independent asset hold",
+    "current_S_tier": false,
+    "dedicated_planning_points": 0,
+    "response_probability_estimated": false,
+    "interpretation": "Post-deficit function gains strengthen plausibility without controlling cointerventions, progressive disease, formulation or selection; contrary trajectories remain.",
+    "next_useful_evidence": "Complete eligible/treated case, genotype, exposure, renal status, function and discontinuation ledger or controlled result.",
+    "activity_scope": "document analysis only"
+  },
+  "sources": [
+    {
+      "id": "SC10-S01",
+      "type": "primary_case_report",
+      "doi": "10.1016/j.seizure.2011.06.018",
+      "pmid": "21782476",
+      "publication_year": 2011,
+      "urls": [
+        "https://www.seizure-journal.com/article/S1059-1311%2811%2900177-4/fulltext",
+        "https://pubmed.ncbi.nlm.nih.gov/21782476/"
+      ],
+      "access": "primary abstract and indexed publisher clinical passages; direct publisher open403; no complete PDF or genotype audit claimed",
+      "source_refs": [
+        "turn78search1",
+        "turn87search2",
+        "turn87search7",
+        "turn81view0"
+      ]
+    }
+  ]
+}

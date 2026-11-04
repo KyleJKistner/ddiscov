@@ -108,6 +108,16 @@ Keep exact drug, formulation, genotype, disease stage and target compartment att
 
 The [Round 9 screens](../research/rounds/round9/new-candidate-screen.md) apply these rules to miglustat/SCARB2 and the distinct TRPV4 articles. Planning allocations remain judgments about research effort. They are neither purchases nor experimental authorization.
 
+## Round 10: analyte, source conflict and analysis population
+
+Attach each exposure value to its exact parent or metabolite, formulation, species and age, compartment, bound/free basis, sampling time, statistic and denominator. Single-dose radioactivity share, repeated-dose plasma concentration, trough ratio, tumor partition and free normal-tissue exposure are different quantities. Do not add separate peak summaries as a simultaneous active-moiety concentration or transfer activity between R172K and R140Q. The [IDH ledger](../research/rounds/round10/idh-exposure-ledger.md) applies this rule and closes the present CNS-superiority comparison at its identified evidence ceiling.
+
+When a primary source conflicts internally, preserve both passages and their locators. Correct the current interpretation without silently rewriting historical evidence. A source saying “not found” in one section cannot settle absence when another section reports the analyte. Table/prose disagreements are unresolved source conflicts unless a primary correction establishes which is right. Failed access and a bounded search do not prove biological absence.
+
+Keep described people, treated people, completers, analysis populations, selected responders and related family members separate. An enrolled person who never received treatment cannot silently enter the exposed denominator. A comparison against cerebral-palsy trajectories is not a GNAO1 control. An existing inventory entry that already links a result remains an existing-use review even when the result first receives a current disposition. See the [new-use screens](../research/rounds/round10/new-candidate-screen.md) and [ManNAc review](../research/rounds/round10/mannac-controlled-result.md).
+
+Patient function, biomarker correction and causal efficacy remain distinct. A controlled primary result outweighs an uncontrolled mechanistic story for the same defined claim, while an imprecise negative does not prove a zero effect. Historical care sequences do not validate a dose regimen or drug ranking. Comparator care should match the proposed product claim and retain background care, rescue burden and maintenance attrition; it need not expand every early proof into an indiscriminate multiarm program. See the [HHD comparator review](../research/rounds/round10/hhd-active-care-comparator.md).
+
 ## Current decisions
 
 See [the current shortlist](current-shortlist.md), [the cumulative register](../research/portfolio-register.json), and [the research-round index](../research/rounds/README.md). Current integrated decisions control over earlier domain-specific grades. This research does not authorize outreach, purchases or experimental execution.

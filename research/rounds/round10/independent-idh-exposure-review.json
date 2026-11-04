@@ -1,0 +1,156 @@
+{
+  "schema_version": "ddiscov.round10.independent_idh_exposure_review.v1",
+  "review_date": "2026-11-04",
+  "reviewer": "round10_blu independent bounded pass",
+  "baseline_commit": "b21aaddd2270b6670a745c2197867316d46b5879",
+  "verdict": "pass_after_resolved_provenance_fix",
+  "open_blocking_issues": 0,
+  "open_nonblocking_issues": 0,
+  "requested_fixes_remaining": [],
+  "reviewed_files": [
+    {
+      "path": "idh-exposure-ledger.md",
+      "sha256": "bae6ddc201846f611c057b903ba1e1415bb1a9e539cf3f67df0860a64ebde5ba",
+      "bytes": 14389,
+      "initial_and_final_same": true
+    },
+    {
+      "path": "idh-exposure-ledger.json",
+      "sha256": "55ce53d32cd778d82688d997835f74aba9a32cd88aa8d7f9abad82e23327de91",
+      "bytes": 65774,
+      "initial_sha256": "0326bccc859db01f0f7fe8b54bdd462eb8e79d0036b209dc334a541b59bbf6c9",
+      "limited_author_revision_verified": true
+    }
+  ],
+  "coordination": {
+    "author": "round10_clinical",
+    "author_confirmed_initial_final_files_before_review": true,
+    "author_applied_requested_provenance_fix": true,
+    "author_confirmed_pause_before_final_hash": true,
+    "reviewer_edited_reviewed_files": false,
+    "revision_scope_verification": "Restoring only the five GAP source_locator strings in memory reconstructs the exact initial JSON SHA-256; all other JSON bytes and the entire Markdown are unchanged."
+  },
+  "resolved_issues": [
+    {
+      "id": "IDH-IR-01",
+      "severity": "minor_provenance",
+      "finding": "The enasidenib-family GAP rows originally reused the AGI-69460-specific TGA animal-brain locator despite referring to different analytes.",
+      "affected_initial_rows": [
+        "GAP_ENASIDENIB",
+        "GAP_AGI_16903",
+        "GAP_AGI_17011"
+      ],
+      "requested_fix": "Use analyte-appropriate EFDA/EEMA bounded-review locators; retain the TGA p13 unassessed-metabolite-brain note only for AGI-69460.",
+      "author_changes": [
+        {
+          "row_id": "GAP_ENASIDENIB",
+          "final_source_locator": "Bounded review: EFDA printed pp27,41-42,153-154 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound parent profile identified."
+        },
+        {
+          "row_id": "GAP_AGI_16903",
+          "final_source_locator": "Bounded review: EFDA printed p27,pp155-156 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound AGI-16903 profile identified."
+        },
+        {
+          "row_id": "GAP_AGI_17011",
+          "final_source_locator": "Bounded review: EFDA printed p27 and EEMA pp18,33-34,46; no matched pediatric normal-brain unbound AGI-17011 profile identified."
+        },
+        {
+          "row_id": "GAP_VORASIDENIB",
+          "final_source_locator": "Bounded review: TGA printed pp15-18 and VFDA printed pp105-106; tumor total-concentration ratios do not supply a matched pediatric normal-brain unbound parent profile."
+        },
+        {
+          "row_id": "GAP_AGI_69460",
+          "final_source_locator": "Bounded review: TGA printed p13 explicitly notes unassessed animal brain penetration for AGI-69460; pp16-18 and VFDA pp105-106 do not supply a matched pediatric normal-brain unbound metabolite profile."
+        }
+      ],
+      "status": "resolved_and_independently_verified",
+      "effect_on_values_or_decision": "None; all numeric values, unknowns, interpretation, 15-point allocation and CNS evidence ceiling retained."
+    }
+  ],
+  "checks": [
+    {
+      "id": "IDH-IR-02",
+      "domain": "AGI-17011 human detection correction",
+      "result": "pass",
+      "evidence": "EMA p18 says AGI-17011 was not found in humans. Clinical pp33-34 name M2 as AGI-17011 and give 0.3% of circulating radioactivity exposure after a single 100-mg radiolabeled dose, with AUC0-24h context. Page46 again lists M2 among minor human plasma metabolites.",
+      "interpretation_check": "Corrects categorical absence while preserving the internal source inconsistency. Does not convert a small single-dose fraction into a steady-state pediatric active burden. The unrelated p46 parent urinary excretion percentage is not used as the metabolite value.",
+      "source_id": "EEMA"
+    },
+    {
+      "id": "IDH-IR-03",
+      "domain": "FDA Table21 text/table conflict",
+      "result": "pass",
+      "evidence": "Original page rendered and visually inspected. Table headings assign Cavg ratios 1.69 to 50 mg and 2.94 to 10 mg; adjacent prose assigns the reverse. Table parameter counts are 9 and7 respectively, with separate concurrent-plasma counts of7 and7.",
+      "interpretation_check": "Both conflicting source statements remain visible; neither an editorial repair nor a dose-response claim is invented. Tumor total-concentration ratios are not converted into normal-brain unbound partition.",
+      "source_id": "VFDA"
+    },
+    {
+      "id": "IDH-IR-04",
+      "domain": "Exact allele, analyte and assay distinctions",
+      "result": "pass",
+      "findings": [
+        "Parent vorasidenib R140Q cellular activity remains distinct from its metabolite.",
+        "AGI-69460 R132C/R132H and R172K evidence is not substituted for missing R140Q activity.",
+        "FDA p47 independently confirms the matched parent/metabolite R132C and R132H values; its other HT1080 parent study is not substituted as the matched comparator.",
+        "Recombinant enzyme, engineered malignant cells, clinical plasma and brain tumor compartments remain distinct."
+      ],
+      "scope_limit": "The PMDA R172K value and assay counts were checked for internal consistency and exact-variant limits; this reviewer did not reopen the Japanese primary document."
+    },
+    {
+      "id": "IDH-IR-05",
+      "domain": "Time, concentration basis and denominator integrity",
+      "result": "pass",
+      "findings": [
+        "43 unique ledger rows with explicit nulls for missing quantities.",
+        "Multiple-dose parent/metabolite PK uses metric-specific counts 102,90,35,40 rather than the column cohort for every parameter.",
+        "AUC0-10h remains distinct from AUC0-24h; single-dose radioactivity fractions remain distinct from steady-state exposure.",
+        "Parent peaks are not added to metabolite peaks or late troughs as a synchronized active-moiety concentration.",
+        "In-vitro binding arithmetic is correctly calculated and explicitly not measured infant or brain exposure.",
+        "FDA pp105-106 independently confirm sparse metabolite sampling, delayed formation and the 61.72/128 ng/mL trough observations."
+      ],
+      "scope_limit": "The enasidenib Tables76B/77B values and counts were checked across the delivered files and their parameter labels; their primary-table extraction had already been visually checked by the author and was not repeated in this bounded review."
+    },
+    {
+      "id": "IDH-IR-06",
+      "domain": "Decision limits and scope of action",
+      "result": "pass",
+      "findings": [
+        "Enasidenib retains 15/100 planning points with no new clinical efficacy claim or candidate promotion.",
+        "Separate confounded cardiac evidence is not promoted into neurological rescue.",
+        "Normal-brain pediatric CNS superiority is closed as unidentifiable within reviewed evidence, not impossible or universally absent.",
+        "No infant dose, treatment recommendation, newly validated formulation or rights-clearance claim follows.",
+        "No experiments, simulations, purchases, outreach or Git actions were conducted by this review."
+      ]
+    }
+  ],
+  "primary_sources_independently_checked": [
+    {
+      "source_id": "EEMA",
+      "url": "https://www.ema.europa.eu/en/documents/withdrawal-report/withdrawal-assessment-report-idhifa_en.pdf",
+      "archive_sha256_verified": "e35f96b7a98b4f8055d285c215927a5611493b542de7da3a64fd7c46f7dd8872",
+      "independently_read_sections": [
+        "physical/printed page18",
+        "physical/printed pages33-34",
+        "physical/printed page46"
+      ]
+    },
+    {
+      "source_id": "VFDA",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000MultidisciplineR.pdf",
+      "archive_sha256_verified": "f3a6961d101b12b52c3dba750a481ea362852306fec5dd62709fe8020116cd1d",
+      "independently_read_sections": [
+        "printed47 / physical48",
+        "printed105 / physical106 including original Table21 rendered image",
+        "printed106 / physical107"
+      ]
+    }
+  ],
+  "access_scope": {
+    "archived_official_primary_documents_reopened": 2,
+    "broad_source_expansion": false,
+    "full_independent_reaudit_of_all_seven_source_records": false,
+    "unavailable_vorasidenib_EMA_report_claimed_as_read": false,
+    "review_scope": "One bounded scientific/provenance pass focused on the two disputed primary-source findings, exact-allele/exposure boundaries, source-scope labels, arithmetic and decision limits."
+  },
+  "review_validity": "Pass applies only to the final two file hashes recorded here. The prior provenance issue is resolved; no requested fix remains."
+}
