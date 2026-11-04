@@ -55,9 +55,25 @@ Use these dispositions consistently:
 
 ## S-tier standard
 
-Require meaningful established-disease rescue, independent or orthogonal support, reproducible material, plausible exposure, differentiation from current care, no unresolved fatal safety contradiction at effective exposure, and a compelling next milestone with plausible value capture. A preventive preservation product can qualify on its intended clinical use, but must demonstrate durable useful graft or manufacturing benefit and cannot be described as reversal of established disease.
+Require meaningful established-disease rescue, independent or orthogonal support, reproducible material, plausible exposure, differentiation from current care, no unresolved fatal safety contradiction at effective exposure, and a compelling next milestone with plausible value capture. A preventive preservation product can qualify on its intended clinical use, but must demonstrate durable useful native-organ, graft or manufacturing benefit and cannot be described as reversal of established disease.
 
 S-tier is not a quota or a guarantee of investor interest. Unanswered commercial terms do not defeat a strong scientific proof, while an interesting experiment does not establish a financeable clinical product.
+
+## Distinguish target, molecule and assay failure
+
+A gene-corrected line made before differentiation can establish disease causality while preventing the deficit. It does not establish that an already-deficient tissue can recover. Before using a negative delayed-treatment result to reject a target, demonstrate a functional positive intervention after the same qualified deficit. A ready transport or imaging assay is not automatically a ready force, conduction or barrier-repair assay.
+
+Require a measurable baseline and a stable or predictable untreated trajectory. Perfectly flat tissue function is unnecessary when contemporaneous controls and baseline adjustment can distinguish a treatment effect from maturation. Keep developmental compensation, preservation and mature reversal as separate claims; useful preservation is not discarded merely because it is not reversal.
+
+Prespecify both an assay-repeatability threshold and a minimum useful effect. Use the corrected disease gap, a practical active comparator and the intended product benefit to inform usefulness. Preserve donor and batch structure in uncertainty estimates. A precise trivial effect is not enough; an imprecise estimate crossing the useful threshold is inconclusive rather than proven failure.
+
+## Match exposure, chemical species and the selected population
+
+Equal unbound concentrations across cultured tissues estimate intrinsic sensitivity. A systemic window additionally depends on measured or suitably bounded distribution into muscle, brain, liver and other relevant compartments, including active metabolites. Unknown distribution leaves a concerning culture overlap unresolved; it does not establish either in-vivo toxicity or safe tissue exclusion.
+
+The bottle label, nominal added amount, chemical species present in the assay, and active species reaching a patient are distinct. Redox interconversion, salt form, congener composition, metabolites and a combination product must remain attached to the evidence. A biological signal can be real while its transferable chemical article is not yet defined.
+
+Keep all-treated, completer and responder-enriched populations visible. Discontinuation for insufficient response can bias the apparent effect among remaining participants. A positive paired result without a concurrent control does not isolate treatment causality, and subsequent background-treatment changes prevent a simple durability claim. Record submitted-result status, draft labels and internal inconsistencies without treating an uploaded report as peer-reviewed confirmation.
 
 ## Current decisions
 

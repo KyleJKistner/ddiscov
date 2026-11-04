@@ -1,0 +1,4740 @@
+{
+  "as_of": "2026-11-04",
+  "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+  "article_url": "https://insight.jci.org/articles/view/198568",
+  "article_doi": "10.1172/jci.insight.198568",
+  "source_sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+  "source_bytes": 824614,
+  "workbook_sheet_count": 60,
+  "method": "Descriptive extraction with source cells. No fitted potency, new p-values, pooled biological n, or missing-value imputation.",
+  "cell_imaging_context": {
+    "selected_clones": "The article selected one MTM1-null clone after observing clone heterogeneity and impaired myogenesis even in nontargeting controls.",
+    "timing": "Compound added after 72 hours of differentiation, then imaged after a further 48 hours. This is treatment during differentiation, not pretreatment from differentiation day zero and not established mature-force reversal.",
+    "reported_repetition": "Figure3 calls B-E representative quantification from three independent experiments; B-G use five random nonoverlapping fields and report n=10. Complete experiment/well/field identifiers are absent from these source sheets.",
+    "inference_unit": "Ten reported values per group cannot be relabeled ten independent cultures, donors or experiments.",
+    "asterisks": "Numeric strings bearing an asterisk are retained. An unmarked-only mean is a descriptive sensitivity calculation, not an authorized exclusion.",
+    "endpoint": "Fusion index, nuclei per MYH-positive structure and structure count are morphology. They do not measure twitch force, tetanic force, fatigue or respiratory performance.",
+    "S2_context": "S2 is target-depleted MTM1-null cells. Its baseline is not a WT normalization denominator for Figure3.",
+    "cross_panel_linkage": "Row positions alone do not establish matched images or experimental blocks across panels; no cross-panel product, paired test or shared baseline is computed."
+  },
+  "main_imaging": [
+    {
+      "sheet": "Fig 3B",
+      "source_title": "Fusion index across BLU3797 concentrations",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.45326,
+          "median_including_marked": 0.46535000000000004,
+          "range_including_marked": [
+            0.3258,
+            0.5036
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.45326,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 0.4428,
+              "numeric_value": 0.4428,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 0.466,
+              "numeric_value": 0.466,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 0.5036,
+              "numeric_value": 0.5036,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 0.4754,
+              "numeric_value": 0.4754,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 0.4647,
+              "numeric_value": 0.4647,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 0.4515,
+              "numeric_value": 0.4515,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 0.4981,
+              "numeric_value": 0.4981,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 0.4702,
+              "numeric_value": 0.4702,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 0.4345,
+              "numeric_value": 0.4345,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 0.3258,
+              "numeric_value": 0.3258,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.6233,
+          "median_including_marked": 0.60015,
+          "range_including_marked": [
+            0.533,
+            0.7947
+          ],
+          "marked_entries": 1,
+          "mean_unmarked_sensitivity_only": 0.6042555555555555,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 0.5361,
+              "numeric_value": 0.5361,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 0.6154,
+              "numeric_value": 0.6154,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": "0.7947*",
+              "numeric_value": 0.7947,
+              "asterisk": true
+            },
+            {
+              "cell": "B6",
+              "source_value": 0.6953,
+              "numeric_value": 0.6953,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 0.5581,
+              "numeric_value": 0.5581,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 0.6915,
+              "numeric_value": 0.6915,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 0.6435,
+              "numeric_value": 0.6435,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 0.5849,
+              "numeric_value": 0.5849,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 0.5805,
+              "numeric_value": 0.5805,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 0.533,
+              "numeric_value": 0.533,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.63881,
+          "median_including_marked": 0.6236999999999999,
+          "range_including_marked": [
+            0.5956,
+            0.7324
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.63881,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 0.6171,
+              "numeric_value": 0.6171,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 0.6404,
+              "numeric_value": 0.6404,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 0.6722,
+              "numeric_value": 0.6722,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 0.7324,
+              "numeric_value": 0.7324,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 0.6189,
+              "numeric_value": 0.6189,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 0.5956,
+              "numeric_value": 0.5956,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 0.5979,
+              "numeric_value": 0.5979,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 0.6691,
+              "numeric_value": 0.6691,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 0.6285,
+              "numeric_value": 0.6285,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 0.616,
+              "numeric_value": 0.616,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.64155,
+          "median_including_marked": 0.6589499999999999,
+          "range_including_marked": [
+            0.4735,
+            0.7443
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.64155,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 0.6298,
+              "numeric_value": 0.6298,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 0.7102,
+              "numeric_value": 0.7102,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 0.6406,
+              "numeric_value": 0.6406,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 0.6917,
+              "numeric_value": 0.6917,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 0.6773,
+              "numeric_value": 0.6773,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 0.57,
+              "numeric_value": 0.57,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 0.5833,
+              "numeric_value": 0.5833,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 0.6948,
+              "numeric_value": 0.6948,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 0.7443,
+              "numeric_value": 0.7443,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 0.4735,
+              "numeric_value": 0.4735,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.61265,
+          "median_including_marked": 0.6286,
+          "range_including_marked": [
+            0.5066,
+            0.7137
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.61265,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 0.6404,
+              "numeric_value": 0.6404,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 0.6722,
+              "numeric_value": 0.6722,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 0.7137,
+              "numeric_value": 0.7137,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 0.595,
+              "numeric_value": 0.595,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 0.6561,
+              "numeric_value": 0.6561,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 0.6299,
+              "numeric_value": 0.6299,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 0.6273,
+              "numeric_value": 0.6273,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 0.5161,
+              "numeric_value": 0.5161,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 0.5692,
+              "numeric_value": 0.5692,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 0.5066,
+              "numeric_value": 0.5066,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.5085500000000001,
+          "median_including_marked": 0.5105999999999999,
+          "range_including_marked": [
+            0.335,
+            0.645
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.5085500000000001,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 0.5548,
+              "numeric_value": 0.5548,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 0.6146,
+              "numeric_value": 0.6146,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 0.5276,
+              "numeric_value": 0.5276,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 0.645,
+              "numeric_value": 0.645,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 0.531,
+              "numeric_value": 0.531,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 0.4517,
+              "numeric_value": 0.4517,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 0.4936,
+              "numeric_value": 0.4936,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 0.461,
+              "numeric_value": 0.461,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 0.4712,
+              "numeric_value": 0.4712,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 0.335,
+              "numeric_value": 0.335,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig 3C",
+      "source_title": "Fusion index across BLU2720 concentrations",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.53131,
+          "median_including_marked": 0.56555,
+          "range_including_marked": [
+            0.3727,
+            0.6381
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.53131,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 0.4239,
+              "numeric_value": 0.4239,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 0.6087,
+              "numeric_value": 0.6087,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 0.5638,
+              "numeric_value": 0.5638,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 0.6381,
+              "numeric_value": 0.6381,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 0.5764,
+              "numeric_value": 0.5764,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 0.5697,
+              "numeric_value": 0.5697,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 0.5281,
+              "numeric_value": 0.5281,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 0.5673,
+              "numeric_value": 0.5673,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 0.4644,
+              "numeric_value": 0.4644,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 0.3727,
+              "numeric_value": 0.3727,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.62079,
+          "median_including_marked": 0.6169,
+          "range_including_marked": [
+            0.5403,
+            0.669
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.62079,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 0.6555,
+              "numeric_value": 0.6555,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 0.577,
+              "numeric_value": 0.577,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 0.6176,
+              "numeric_value": 0.6176,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 0.6135,
+              "numeric_value": 0.6135,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 0.6668,
+              "numeric_value": 0.6668,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 0.5929,
+              "numeric_value": 0.5929,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 0.669,
+              "numeric_value": 0.669,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 0.6162,
+              "numeric_value": 0.6162,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 0.6591,
+              "numeric_value": 0.6591,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 0.5403,
+              "numeric_value": 0.5403,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.62501,
+          "median_including_marked": 0.6197,
+          "range_including_marked": [
+            0.5519,
+            0.7068
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.62501,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 0.7068,
+              "numeric_value": 0.7068,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 0.689,
+              "numeric_value": 0.689,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 0.5679,
+              "numeric_value": 0.5679,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 0.6603,
+              "numeric_value": 0.6603,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 0.6425,
+              "numeric_value": 0.6425,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 0.627,
+              "numeric_value": 0.627,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 0.5935,
+              "numeric_value": 0.5935,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 0.5988,
+              "numeric_value": 0.5988,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 0.6124,
+              "numeric_value": 0.6124,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 0.5519,
+              "numeric_value": 0.5519,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.59738,
+          "median_including_marked": 0.59785,
+          "range_including_marked": [
+            0.506,
+            0.6585
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.59738,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 0.6337,
+              "numeric_value": 0.6337,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 0.5917,
+              "numeric_value": 0.5917,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 0.6585,
+              "numeric_value": 0.6585,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 0.604,
+              "numeric_value": 0.604,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 0.6339,
+              "numeric_value": 0.6339,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 0.506,
+              "numeric_value": 0.506,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 0.5897,
+              "numeric_value": 0.5897,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 0.5689,
+              "numeric_value": 0.5689,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 0.624,
+              "numeric_value": 0.624,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 0.5634,
+              "numeric_value": 0.5634,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.5994,
+          "median_including_marked": 0.5945,
+          "range_including_marked": [
+            0.5347,
+            0.6645
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.5994,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 0.6004,
+              "numeric_value": 0.6004,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 0.5745,
+              "numeric_value": 0.5745,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 0.6382,
+              "numeric_value": 0.6382,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 0.5935,
+              "numeric_value": 0.5935,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 0.5955,
+              "numeric_value": 0.5955,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 0.5547,
+              "numeric_value": 0.5547,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 0.5347,
+              "numeric_value": 0.5347,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 0.6645,
+              "numeric_value": 0.6645,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 0.6491,
+              "numeric_value": 0.6491,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 0.5889,
+              "numeric_value": 0.5889,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 0.56595,
+          "median_including_marked": 0.5919000000000001,
+          "range_including_marked": [
+            0.3922,
+            0.6582
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.56595,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 0.475,
+              "numeric_value": 0.475,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 0.6156,
+              "numeric_value": 0.6156,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 0.5914,
+              "numeric_value": 0.5914,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 0.6085,
+              "numeric_value": 0.6085,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 0.6254,
+              "numeric_value": 0.6254,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 0.6582,
+              "numeric_value": 0.6582,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 0.5908,
+              "numeric_value": 0.5908,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 0.51,
+              "numeric_value": 0.51,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 0.5924,
+              "numeric_value": 0.5924,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 0.3922,
+              "numeric_value": 0.3922,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig 3D",
+      "source_title": "Nuclei/myotubes for BLU3797",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 7.4389,
+          "median_including_marked": 7.5985,
+          "range_including_marked": [
+            3.857,
+            9.664
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 7.4389,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 8.187,
+              "numeric_value": 8.187,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 7.824,
+              "numeric_value": 7.824,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 8.832,
+              "numeric_value": 8.832,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 7.428,
+              "numeric_value": 7.428,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 7.769,
+              "numeric_value": 7.769,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 7.118,
+              "numeric_value": 7.118,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 9.664,
+              "numeric_value": 9.664,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 6.502,
+              "numeric_value": 6.502,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 7.208,
+              "numeric_value": 7.208,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 3.857,
+              "numeric_value": 3.857,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 16.213,
+          "median_including_marked": 13.684999999999999,
+          "range_including_marked": [
+            10.56,
+            36.23
+          ],
+          "marked_entries": 1,
+          "mean_unmarked_sensitivity_only": 13.988888888888889,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 10.56,
+              "numeric_value": 10.56,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 13.78,
+              "numeric_value": 13.78,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": "36.23*",
+              "numeric_value": 36.23,
+              "asterisk": true
+            },
+            {
+              "cell": "B6",
+              "source_value": 17.99,
+              "numeric_value": 17.99,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 11.23,
+              "numeric_value": 11.23,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 18.34,
+              "numeric_value": 18.34,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 16.98,
+              "numeric_value": 16.98,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 12.12,
+              "numeric_value": 12.12,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 13.59,
+              "numeric_value": 13.59,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 11.31,
+              "numeric_value": 11.31,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 15.078,
+          "median_including_marked": 15.36,
+          "range_including_marked": [
+            10.22,
+            19.54
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 15.078,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 14.28,
+              "numeric_value": 14.28,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 14.7,
+              "numeric_value": 14.7,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 18.9,
+              "numeric_value": 18.9,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 19.54,
+              "numeric_value": 19.54,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 11.81,
+              "numeric_value": 11.81,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 11.02,
+              "numeric_value": 11.02,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 10.22,
+              "numeric_value": 10.22,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 17.13,
+              "numeric_value": 17.13,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 17.16,
+              "numeric_value": 17.16,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 16.02,
+              "numeric_value": 16.02,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 17.0577,
+          "median_including_marked": 17.855,
+          "range_including_marked": [
+            7.117,
+            25.07
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 17.0577,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 18.19,
+              "numeric_value": 18.19,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 19.75,
+              "numeric_value": 19.75,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 17.52,
+              "numeric_value": 17.52,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 22.5,
+              "numeric_value": 22.5,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 15.52,
+              "numeric_value": 15.52,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 11.66,
+              "numeric_value": 11.66,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 12.53,
+              "numeric_value": 12.53,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 20.72,
+              "numeric_value": 20.72,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 25.07,
+              "numeric_value": 25.07,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 7.117,
+              "numeric_value": 7.117,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 13.8589,
+          "median_including_marked": 13.16,
+          "range_including_marked": [
+            7.789,
+            21.23
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 13.8589,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 14.64,
+              "numeric_value": 14.64,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 18.38,
+              "numeric_value": 18.38,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 21.23,
+              "numeric_value": 21.23,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 12.34,
+              "numeric_value": 12.34,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 15.68,
+              "numeric_value": 15.68,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 13.21,
+              "numeric_value": 13.21,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 13.11,
+              "numeric_value": 13.11,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 7.789,
+              "numeric_value": 7.789,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 11.73,
+              "numeric_value": 11.73,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 10.48,
+              "numeric_value": 10.48,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 9.8182,
+          "median_including_marked": 9.604,
+          "range_including_marked": [
+            3.791,
+            15.94
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 9.8182,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 12.15,
+              "numeric_value": 12.15,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 14.44,
+              "numeric_value": 14.44,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 11.95,
+              "numeric_value": 11.95,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 15.94,
+              "numeric_value": 15.94,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 10.19,
+              "numeric_value": 10.19,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 6.723,
+              "numeric_value": 6.723,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 9.018,
+              "numeric_value": 9.018,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 7.051,
+              "numeric_value": 7.051,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 6.929,
+              "numeric_value": 6.929,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 3.791,
+              "numeric_value": 3.791,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig 3E",
+      "source_title": "Nuclei/myotubes for BLU2720",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 10.3455,
+          "median_including_marked": 10.879999999999999,
+          "range_including_marked": [
+            5.411,
+            16.15
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 10.3455,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 5.982,
+              "numeric_value": 5.982,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 11.9,
+              "numeric_value": 11.9,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 10.6,
+              "numeric_value": 10.6,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 16.15,
+              "numeric_value": 16.15,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 12.08,
+              "numeric_value": 12.08,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 11.16,
+              "numeric_value": 11.16,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 9.303,
+              "numeric_value": 9.303,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 13.19,
+              "numeric_value": 13.19,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 7.679,
+              "numeric_value": 7.679,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 5.411,
+              "numeric_value": 5.411,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 13.672,
+          "median_including_marked": 13.23,
+          "range_including_marked": [
+            10.19,
+            18.74
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 13.672,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 18.74,
+              "numeric_value": 18.74,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 10.19,
+              "numeric_value": 10.19,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 13.16,
+              "numeric_value": 13.16,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 11.25,
+              "numeric_value": 11.25,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 15.35,
+              "numeric_value": 15.35,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 13.3,
+              "numeric_value": 13.3,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 12.87,
+              "numeric_value": 12.87,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 15.68,
+              "numeric_value": 15.68,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 15.64,
+              "numeric_value": 15.64,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 10.54,
+              "numeric_value": 10.54,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 15.084,
+          "median_including_marked": 14.14,
+          "range_including_marked": [
+            10.82,
+            24.93
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 15.084,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 24.93,
+              "numeric_value": 24.93,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 17.13,
+              "numeric_value": 17.13,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 13.11,
+              "numeric_value": 13.11,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 15.07,
+              "numeric_value": 15.07,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 19.22,
+              "numeric_value": 19.22,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 14.83,
+              "numeric_value": 14.83,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 11.15,
+              "numeric_value": 11.15,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 13.45,
+              "numeric_value": 13.45,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 11.13,
+              "numeric_value": 11.13,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 10.82,
+              "numeric_value": 10.82,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 12.2813,
+          "median_including_marked": 11.809999999999999,
+          "range_including_marked": [
+            8.143,
+            17.31
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 12.2813,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 17.31,
+              "numeric_value": 17.31,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 10.68,
+              "numeric_value": 10.68,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 14.7,
+              "numeric_value": 14.7,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 12.18,
+              "numeric_value": 12.18,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 14.17,
+              "numeric_value": 14.17,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 8.143,
+              "numeric_value": 8.143,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 11.44,
+              "numeric_value": 11.44,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 10.26,
+              "numeric_value": 10.26,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 13.28,
+              "numeric_value": 13.28,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 10.65,
+              "numeric_value": 10.65,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 12.7732,
+          "median_including_marked": 12.08,
+          "range_including_marked": [
+            8.418,
+            19.03
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 12.7732,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 12.78,
+              "numeric_value": 12.78,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 11.38,
+              "numeric_value": 11.38,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 15.01,
+              "numeric_value": 15.01,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 10.64,
+              "numeric_value": 10.64,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 10.57,
+              "numeric_value": 10.57,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 9.044,
+              "numeric_value": 9.044,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 8.418,
+              "numeric_value": 8.418,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 16.08,
+              "numeric_value": 16.08,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 19.03,
+              "numeric_value": 19.03,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 14.78,
+              "numeric_value": 14.78,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 13.1452,
+          "median_including_marked": 14.16,
+          "range_including_marked": [
+            5.066,
+            17.73
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 13.1452,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 9.486,
+              "numeric_value": 9.486,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 12.47,
+              "numeric_value": 12.47,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 14.76,
+              "numeric_value": 14.76,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 14.75,
+              "numeric_value": 14.75,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 16.9,
+              "numeric_value": 16.9,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 17.73,
+              "numeric_value": 17.73,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 13.57,
+              "numeric_value": 13.57,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 11.33,
+              "numeric_value": 11.33,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 15.39,
+              "numeric_value": 15.39,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 5.066,
+              "numeric_value": 5.066,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig 3F",
+      "source_title": "Total myotubes for BLU3797",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 184.2,
+          "median_including_marked": 181.5,
+          "range_including_marked": [
+            149.0,
+            224.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 184.2,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 150,
+              "numeric_value": 150.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 176,
+              "numeric_value": 176.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 173,
+              "numeric_value": 173.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 194,
+              "numeric_value": 194.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 199,
+              "numeric_value": 199.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 187,
+              "numeric_value": 187.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 149,
+              "numeric_value": 149.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 217,
+              "numeric_value": 217.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 173,
+              "numeric_value": 173.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 224,
+              "numeric_value": 224.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 137.6,
+          "median_including_marked": 146.0,
+          "range_including_marked": [
+            78.0,
+            162.0
+          ],
+          "marked_entries": 1,
+          "mean_unmarked_sensitivity_only": 144.22222222222223,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 151,
+              "numeric_value": 151.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 154,
+              "numeric_value": 154.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": "78*",
+              "numeric_value": 78.0,
+              "asterisk": true
+            },
+            {
+              "cell": "B6",
+              "source_value": 131,
+              "numeric_value": 131.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 162,
+              "numeric_value": 162.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 128,
+              "numeric_value": 128.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 129,
+              "numeric_value": 129.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 151,
+              "numeric_value": 151.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 142,
+              "numeric_value": 142.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 150,
+              "numeric_value": 150.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 148.3,
+          "median_including_marked": 136.5,
+          "range_including_marked": [
+            120.0,
+            199.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 148.3,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 143,
+              "numeric_value": 143.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 149,
+              "numeric_value": 149.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 120,
+              "numeric_value": 120.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 130,
+              "numeric_value": 130.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 176,
+              "numeric_value": 176.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 192,
+              "numeric_value": 192.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 199,
+              "numeric_value": 199.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 127,
+              "numeric_value": 127.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 120,
+              "numeric_value": 120.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 127,
+              "numeric_value": 127.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 137.8,
+          "median_including_marked": 132.0,
+          "range_including_marked": [
+            103.0,
+            197.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 137.8,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 108,
+              "numeric_value": 108.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 134,
+              "numeric_value": 134.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 130,
+              "numeric_value": 130.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 113,
+              "numeric_value": 113.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 157,
+              "numeric_value": 157.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 161,
+              "numeric_value": 161.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 157,
+              "numeric_value": 157.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 118,
+              "numeric_value": 118.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 103,
+              "numeric_value": 103.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 197,
+              "numeric_value": 197.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 155.2,
+          "median_including_marked": 153.5,
+          "range_including_marked": [
+            115.0,
+            227.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 155.2,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 143,
+              "numeric_value": 143.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 120,
+              "numeric_value": 120.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 115,
+              "numeric_value": 115.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 161,
+              "numeric_value": 161.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 142,
+              "numeric_value": 142.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 167,
+              "numeric_value": 167.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 170,
+              "numeric_value": 170.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 227,
+              "numeric_value": 227.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 154,
+              "numeric_value": 154.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 153,
+              "numeric_value": 153.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 169.7,
+          "median_including_marked": 169.5,
+          "range_including_marked": [
+            128.0,
+            225.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 169.7,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 142,
+              "numeric_value": 142.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 128,
+              "numeric_value": 128.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 139,
+              "numeric_value": 139.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 132,
+              "numeric_value": 132.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 173,
+              "numeric_value": 173.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 213,
+              "numeric_value": 213.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 166,
+              "numeric_value": 166.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 197,
+              "numeric_value": 197.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 182,
+              "numeric_value": 182.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 225,
+              "numeric_value": 225.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig 3G",
+      "source_title": "Total myotubes for BLU2720",
+      "model": "Selected MTM1-null C2C12 clone",
+      "groups": [
+        {
+          "range": "A3:A12",
+          "reported_entries": 10,
+          "mean_including_marked": 173.1,
+          "median_including_marked": 168.0,
+          "range_including_marked": [
+            130.0,
+            219.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 173.1,
+          "source_cells": [
+            {
+              "cell": "A3",
+              "source_value": 219,
+              "numeric_value": 219.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A4",
+              "source_value": 166,
+              "numeric_value": 166.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 170,
+              "numeric_value": 170.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 130,
+              "numeric_value": 130.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 158,
+              "numeric_value": 158.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 166,
+              "numeric_value": 166.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 188,
+              "numeric_value": 188.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 140,
+              "numeric_value": 140.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 187,
+              "numeric_value": 187.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 207,
+              "numeric_value": 207.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B3:B12",
+          "reported_entries": 10,
+          "mean_including_marked": 161.6,
+          "median_including_marked": 160.0,
+          "range_including_marked": [
+            120.0,
+            202.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 161.6,
+          "source_cells": [
+            {
+              "cell": "B3",
+              "source_value": 120,
+              "numeric_value": 120.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B4",
+              "source_value": 202,
+              "numeric_value": 202.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 166,
+              "numeric_value": 166.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 194,
+              "numeric_value": 194.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 152,
+              "numeric_value": 152.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 156,
+              "numeric_value": 156.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 182,
+              "numeric_value": 182.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 136,
+              "numeric_value": 136.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 144,
+              "numeric_value": 144.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 164,
+              "numeric_value": 164.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "C3:C12",
+          "reported_entries": 10,
+          "mean_including_marked": 153.0,
+          "median_including_marked": 157.5,
+          "range_including_marked": [
+            99.0,
+            188.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 153.0,
+          "source_cells": [
+            {
+              "cell": "C3",
+              "source_value": 99,
+              "numeric_value": 99.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C4",
+              "source_value": 142,
+              "numeric_value": 142.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 158,
+              "numeric_value": 158.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 164,
+              "numeric_value": 164.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 122,
+              "numeric_value": 122.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 150,
+              "numeric_value": 150.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 185,
+              "numeric_value": 185.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 157,
+              "numeric_value": 157.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 188,
+              "numeric_value": 188.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 165,
+              "numeric_value": 165.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "D3:D12",
+          "reported_entries": 10,
+          "mean_including_marked": 176.0,
+          "median_including_marked": 173.5,
+          "range_including_marked": [
+            125.0,
+            223.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 176.0,
+          "source_cells": [
+            {
+              "cell": "D3",
+              "source_value": 125,
+              "numeric_value": 125.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D4",
+              "source_value": 209,
+              "numeric_value": 209.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 162,
+              "numeric_value": 162.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 170,
+              "numeric_value": 170.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 156,
+              "numeric_value": 156.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 223,
+              "numeric_value": 223.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 179,
+              "numeric_value": 179.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 194,
+              "numeric_value": 194.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 165,
+              "numeric_value": 165.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 177,
+              "numeric_value": 177.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "E3:E12",
+          "reported_entries": 10,
+          "mean_including_marked": 174.9,
+          "median_including_marked": 168.5,
+          "range_including_marked": [
+            117.0,
+            226.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 174.9,
+          "source_cells": [
+            {
+              "cell": "E3",
+              "source_value": 156,
+              "numeric_value": 156.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E4",
+              "source_value": 181,
+              "numeric_value": 181.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 151,
+              "numeric_value": 151.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 214,
+              "numeric_value": 214.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 210,
+              "numeric_value": 210.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 226,
+              "numeric_value": 226.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 225,
+              "numeric_value": 225.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 143,
+              "numeric_value": 143.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 117,
+              "numeric_value": 117.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 126,
+              "numeric_value": 126.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "F3:F12",
+          "reported_entries": 10,
+          "mean_including_marked": 145.2,
+          "median_including_marked": 139.5,
+          "range_including_marked": [
+            122.0,
+            227.0
+          ],
+          "marked_entries": 1,
+          "mean_unmarked_sensitivity_only": 136.11111111111111,
+          "source_cells": [
+            {
+              "cell": "F3",
+              "source_value": 148,
+              "numeric_value": 148.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F4",
+              "source_value": 158,
+              "numeric_value": 158.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 131,
+              "numeric_value": 131.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 141,
+              "numeric_value": 141.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 122,
+              "numeric_value": 122.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 124,
+              "numeric_value": 124.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 140,
+              "numeric_value": 140.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 139,
+              "numeric_value": 139.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 122,
+              "numeric_value": 122.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": "227*",
+              "numeric_value": 227.0,
+              "asterisk": true
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    }
+  ],
+  "target_depleted_imaging": [
+    {
+      "sheet": "FigS2B ",
+      "source_title": "Fusion index across BLU3797 concentrations",
+      "model": "PIK3C2B-depleted MTM1-null C2C12 cells; source caption, not healthy WT",
+      "groups": [
+        {
+          "range": "A4:A13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.123713,
+          "median_including_marked": 0.11775,
+          "range_including_marked": [
+            0.09605,
+            0.1666
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.123713,
+          "source_cells": [
+            {
+              "cell": "A4",
+              "source_value": 0.09818,
+              "numeric_value": 0.09818,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 0.1086,
+              "numeric_value": 0.1086,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 0.09605,
+              "numeric_value": 0.09605,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 0.1404,
+              "numeric_value": 0.1404,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 0.1329,
+              "numeric_value": 0.1329,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 0.1161,
+              "numeric_value": 0.1161,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 0.1666,
+              "numeric_value": 0.1666,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 0.1448,
+              "numeric_value": 0.1448,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 0.1141,
+              "numeric_value": 0.1141,
+              "asterisk": false
+            },
+            {
+              "cell": "A13",
+              "source_value": 0.1194,
+              "numeric_value": 0.1194,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Control",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B4:B13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.14784,
+          "median_including_marked": 0.14684999999999998,
+          "range_including_marked": [
+            0.1266,
+            0.1817
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.14784,
+          "source_cells": [
+            {
+              "cell": "B4",
+              "source_value": 0.1531,
+              "numeric_value": 0.1531,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 0.1472,
+              "numeric_value": 0.1472,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 0.1465,
+              "numeric_value": 0.1465,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 0.1323,
+              "numeric_value": 0.1323,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 0.1417,
+              "numeric_value": 0.1417,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 0.1367,
+              "numeric_value": 0.1367,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 0.1646,
+              "numeric_value": 0.1646,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 0.148,
+              "numeric_value": 0.148,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 0.1266,
+              "numeric_value": 0.1266,
+              "asterisk": false
+            },
+            {
+              "cell": "B13",
+              "source_value": 0.1817,
+              "numeric_value": 0.1817,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "C4:C13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.15639,
+          "median_including_marked": 0.1533,
+          "range_including_marked": [
+            0.1388,
+            0.1731
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.15639,
+          "source_cells": [
+            {
+              "cell": "C4",
+              "source_value": 0.1388,
+              "numeric_value": 0.1388,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 0.1446,
+              "numeric_value": 0.1446,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 0.1428,
+              "numeric_value": 0.1428,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 0.1526,
+              "numeric_value": 0.1526,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 0.1731,
+              "numeric_value": 0.1731,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 0.1427,
+              "numeric_value": 0.1427,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 0.1714,
+              "numeric_value": 0.1714,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 0.1708,
+              "numeric_value": 0.1708,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 0.1731,
+              "numeric_value": 0.1731,
+              "asterisk": false
+            },
+            {
+              "cell": "C13",
+              "source_value": 0.154,
+              "numeric_value": 0.154,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "D4:D13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.14774,
+          "median_including_marked": 0.14645,
+          "range_including_marked": [
+            0.1288,
+            0.1761
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.14774,
+          "source_cells": [
+            {
+              "cell": "D4",
+              "source_value": 0.1295,
+              "numeric_value": 0.1295,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 0.1542,
+              "numeric_value": 0.1542,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 0.1629,
+              "numeric_value": 0.1629,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 0.1581,
+              "numeric_value": 0.1581,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 0.1492,
+              "numeric_value": 0.1492,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 0.1313,
+              "numeric_value": 0.1313,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 0.1437,
+              "numeric_value": 0.1437,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 0.1761,
+              "numeric_value": 0.1761,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 0.1288,
+              "numeric_value": 0.1288,
+              "asterisk": false
+            },
+            {
+              "cell": "D13",
+              "source_value": 0.1436,
+              "numeric_value": 0.1436,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": 750,
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "E4:E13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.13764,
+          "median_including_marked": 0.1324,
+          "range_including_marked": [
+            0.1002,
+            0.1853
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.13764,
+          "source_cells": [
+            {
+              "cell": "E4",
+              "source_value": 0.1173,
+              "numeric_value": 0.1173,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 0.1236,
+              "numeric_value": 0.1236,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 0.1412,
+              "numeric_value": 0.1412,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 0.1853,
+              "numeric_value": 0.1853,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 0.12,
+              "numeric_value": 0.12,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 0.1164,
+              "numeric_value": 0.1164,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 0.1498,
+              "numeric_value": 0.1498,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 0.1705,
+              "numeric_value": 0.1705,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 0.1521,
+              "numeric_value": 0.1521,
+              "asterisk": false
+            },
+            {
+              "cell": "E13",
+              "source_value": 0.1002,
+              "numeric_value": 0.1002,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": 188,
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "F4:F13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.15769,
+          "median_including_marked": 0.1593,
+          "range_including_marked": [
+            0.1144,
+            0.1856
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.15769,
+          "source_cells": [
+            {
+              "cell": "F4",
+              "source_value": 0.1571,
+              "numeric_value": 0.1571,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 0.1372,
+              "numeric_value": 0.1372,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 0.1547,
+              "numeric_value": 0.1547,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 0.168,
+              "numeric_value": 0.168,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 0.165,
+              "numeric_value": 0.165,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 0.1581,
+              "numeric_value": 0.1581,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 0.1605,
+              "numeric_value": 0.1605,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 0.1763,
+              "numeric_value": 0.1763,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 0.1144,
+              "numeric_value": 0.1144,
+              "asterisk": false
+            },
+            {
+              "cell": "F13",
+              "source_value": 0.1856,
+              "numeric_value": 0.1856,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": 47,
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "G4:G13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.14001,
+          "median_including_marked": 0.1433,
+          "range_including_marked": [
+            0.1187,
+            0.1612
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.14001,
+          "source_cells": [
+            {
+              "cell": "G4",
+              "source_value": 0.1187,
+              "numeric_value": 0.1187,
+              "asterisk": false
+            },
+            {
+              "cell": "G5",
+              "source_value": 0.1443,
+              "numeric_value": 0.1443,
+              "asterisk": false
+            },
+            {
+              "cell": "G6",
+              "source_value": 0.123,
+              "numeric_value": 0.123,
+              "asterisk": false
+            },
+            {
+              "cell": "G7",
+              "source_value": 0.1423,
+              "numeric_value": 0.1423,
+              "asterisk": false
+            },
+            {
+              "cell": "G8",
+              "source_value": 0.1518,
+              "numeric_value": 0.1518,
+              "asterisk": false
+            },
+            {
+              "cell": "G9",
+              "source_value": 0.1283,
+              "numeric_value": 0.1283,
+              "asterisk": false
+            },
+            {
+              "cell": "G10",
+              "source_value": 0.1576,
+              "numeric_value": 0.1576,
+              "asterisk": false
+            },
+            {
+              "cell": "G11",
+              "source_value": 0.1612,
+              "numeric_value": 0.1612,
+              "asterisk": false
+            },
+            {
+              "cell": "G12",
+              "source_value": 0.1283,
+              "numeric_value": 0.1283,
+              "asterisk": false
+            },
+            {
+              "cell": "G13",
+              "source_value": 0.1446,
+              "numeric_value": 0.1446,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "FigS2C",
+      "source_title": "Nuclei/myotubes for BLU3797",
+      "model": "PIK3C2B-depleted MTM1-null C2C12 cells; source caption, not healthy WT",
+      "groups": [
+        {
+          "range": "A4:A13",
+          "reported_entries": 10,
+          "mean_including_marked": 0.98602,
+          "median_including_marked": 0.9898,
+          "range_including_marked": [
+            0.7902,
+            1.143
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 0.98602,
+          "source_cells": [
+            {
+              "cell": "A4",
+              "source_value": 0.9531,
+              "numeric_value": 0.9531,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 1.005,
+              "numeric_value": 1.005,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 0.8852,
+              "numeric_value": 0.8852,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 1.041,
+              "numeric_value": 1.041,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 1.022,
+              "numeric_value": 1.022,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 0.9251,
+              "numeric_value": 0.9251,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 1.143,
+              "numeric_value": 1.143,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 1.121,
+              "numeric_value": 1.121,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 0.7902,
+              "numeric_value": 0.7902,
+              "asterisk": false
+            },
+            {
+              "cell": "A13",
+              "source_value": 0.9746,
+              "numeric_value": 0.9746,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Control",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B4:B13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.9631,
+          "median_including_marked": 1.9215,
+          "range_including_marked": [
+            1.714,
+            2.318
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.9631,
+          "source_cells": [
+            {
+              "cell": "B4",
+              "source_value": 2.123,
+              "numeric_value": 2.123,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 1.966,
+              "numeric_value": 1.966,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 1.877,
+              "numeric_value": 1.877,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 1.824,
+              "numeric_value": 1.824,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 2.187,
+              "numeric_value": 2.187,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 1.714,
+              "numeric_value": 1.714,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 2.052,
+              "numeric_value": 2.052,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 1.835,
+              "numeric_value": 1.835,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 1.735,
+              "numeric_value": 1.735,
+              "asterisk": false
+            },
+            {
+              "cell": "B13",
+              "source_value": 2.318,
+              "numeric_value": 2.318,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "C4:C13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.9702,
+          "median_including_marked": 1.972,
+          "range_including_marked": [
+            1.719,
+            2.181
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.9702,
+          "source_cells": [
+            {
+              "cell": "C4",
+              "source_value": 1.719,
+              "numeric_value": 1.719,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 1.829,
+              "numeric_value": 1.829,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 2.005,
+              "numeric_value": 2.005,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 2.025,
+              "numeric_value": 2.025,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 2.181,
+              "numeric_value": 2.181,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 1.808,
+              "numeric_value": 1.808,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 2.145,
+              "numeric_value": 2.145,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 1.939,
+              "numeric_value": 1.939,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 2.127,
+              "numeric_value": 2.127,
+              "asterisk": false
+            },
+            {
+              "cell": "C13",
+              "source_value": 1.924,
+              "numeric_value": 1.924,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "D4:D13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.9622,
+          "median_including_marked": 1.9785,
+          "range_including_marked": [
+            1.594,
+            2.251
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.9622,
+          "source_cells": [
+            {
+              "cell": "D4",
+              "source_value": 1.657,
+              "numeric_value": 1.657,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 1.876,
+              "numeric_value": 1.876,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 2.185,
+              "numeric_value": 2.185,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 1.917,
+              "numeric_value": 1.917,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 2.085,
+              "numeric_value": 2.085,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 1.813,
+              "numeric_value": 1.813,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 1.594,
+              "numeric_value": 1.594,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 2.251,
+              "numeric_value": 2.251,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 2.04,
+              "numeric_value": 2.04,
+              "asterisk": false
+            },
+            {
+              "cell": "D13",
+              "source_value": 2.204,
+              "numeric_value": 2.204,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "E4:E13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.7931,
+          "median_including_marked": 1.7774999999999999,
+          "range_including_marked": [
+            1.34,
+            2.212
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.7931,
+          "source_cells": [
+            {
+              "cell": "E4",
+              "source_value": 1.688,
+              "numeric_value": 1.688,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 1.642,
+              "numeric_value": 1.642,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 1.923,
+              "numeric_value": 1.923,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 2.092,
+              "numeric_value": 2.092,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 1.601,
+              "numeric_value": 1.601,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 1.878,
+              "numeric_value": 1.878,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 1.79,
+              "numeric_value": 1.79,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 2.212,
+              "numeric_value": 2.212,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 1.765,
+              "numeric_value": 1.765,
+              "asterisk": false
+            },
+            {
+              "cell": "E13",
+              "source_value": 1.34,
+              "numeric_value": 1.34,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "F4:F13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.9681,
+          "median_including_marked": 1.933,
+          "range_including_marked": [
+            1.647,
+            2.495
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.9681,
+          "source_cells": [
+            {
+              "cell": "F4",
+              "source_value": 2,
+              "numeric_value": 2.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 1.786,
+              "numeric_value": 1.786,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 1.895,
+              "numeric_value": 1.895,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 2.495,
+              "numeric_value": 2.495,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 1.836,
+              "numeric_value": 1.836,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 1.971,
+              "numeric_value": 1.971,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 1.86,
+              "numeric_value": 1.86,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 2.146,
+              "numeric_value": 2.146,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 1.647,
+              "numeric_value": 1.647,
+              "asterisk": false
+            },
+            {
+              "cell": "F13",
+              "source_value": 2.045,
+              "numeric_value": 2.045,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "G4:G13",
+          "reported_entries": 10,
+          "mean_including_marked": 1.9355,
+          "median_including_marked": 1.9165,
+          "range_including_marked": [
+            1.713,
+            2.2
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 1.9355,
+          "source_cells": [
+            {
+              "cell": "G4",
+              "source_value": 2.031,
+              "numeric_value": 2.031,
+              "asterisk": false
+            },
+            {
+              "cell": "G5",
+              "source_value": 2.2,
+              "numeric_value": 2.2,
+              "asterisk": false
+            },
+            {
+              "cell": "G6",
+              "source_value": 1.713,
+              "numeric_value": 1.713,
+              "asterisk": false
+            },
+            {
+              "cell": "G7",
+              "source_value": 2.065,
+              "numeric_value": 2.065,
+              "asterisk": false
+            },
+            {
+              "cell": "G8",
+              "source_value": 1.852,
+              "numeric_value": 1.852,
+              "asterisk": false
+            },
+            {
+              "cell": "G9",
+              "source_value": 1.721,
+              "numeric_value": 1.721,
+              "asterisk": false
+            },
+            {
+              "cell": "G10",
+              "source_value": 1.927,
+              "numeric_value": 1.927,
+              "asterisk": false
+            },
+            {
+              "cell": "G11",
+              "source_value": 2.124,
+              "numeric_value": 2.124,
+              "asterisk": false
+            },
+            {
+              "cell": "G12",
+              "source_value": 1.906,
+              "numeric_value": 1.906,
+              "asterisk": false
+            },
+            {
+              "cell": "G13",
+              "source_value": 1.816,
+              "numeric_value": 1.816,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    },
+    {
+      "sheet": "FigS2D",
+      "source_title": "Myotubes for BLU3797",
+      "model": "PIK3C2B-depleted MTM1-null C2C12 cells; source caption, not healthy WT",
+      "groups": [
+        {
+          "range": "A4:A13",
+          "reported_entries": 10,
+          "mean_including_marked": 237.3,
+          "median_including_marked": 246.0,
+          "range_including_marked": [
+            189.0,
+            273.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 237.3,
+          "source_cells": [
+            {
+              "cell": "A4",
+              "source_value": 192,
+              "numeric_value": 192.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A5",
+              "source_value": 189,
+              "numeric_value": 189.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A6",
+              "source_value": 209,
+              "numeric_value": 209.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A7",
+              "source_value": 269,
+              "numeric_value": 269.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A8",
+              "source_value": 273,
+              "numeric_value": 273.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A9",
+              "source_value": 267,
+              "numeric_value": 267.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A10",
+              "source_value": 258,
+              "numeric_value": 258.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A11",
+              "source_value": 256,
+              "numeric_value": 256.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A12",
+              "source_value": 224,
+              "numeric_value": 224.0,
+              "asterisk": false
+            },
+            {
+              "cell": "A13",
+              "source_value": 236,
+              "numeric_value": 236.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Control",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "B4:B13",
+          "reported_entries": 10,
+          "mean_including_marked": 219.0,
+          "median_including_marked": 219.5,
+          "range_including_marked": [
+            193.0,
+            245.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 219.0,
+          "source_cells": [
+            {
+              "cell": "B4",
+              "source_value": 219,
+              "numeric_value": 219.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B5",
+              "source_value": 208,
+              "numeric_value": 208.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B6",
+              "source_value": 220,
+              "numeric_value": 220.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B7",
+              "source_value": 204,
+              "numeric_value": 204.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B8",
+              "source_value": 193,
+              "numeric_value": 193.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B9",
+              "source_value": 234,
+              "numeric_value": 234.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B10",
+              "source_value": 232,
+              "numeric_value": 232.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B11",
+              "source_value": 224,
+              "numeric_value": 224.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B12",
+              "source_value": 211,
+              "numeric_value": 211.0,
+              "asterisk": false
+            },
+            {
+              "cell": "B13",
+              "source_value": 245,
+              "numeric_value": 245.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "Vehicle",
+          "nominal_concentration_nM": null
+        },
+        {
+          "range": "C4:C13",
+          "reported_entries": 10,
+          "mean_including_marked": 225.0,
+          "median_including_marked": 225.5,
+          "range_including_marked": [
+            201.0,
+            262.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 225.0,
+          "source_cells": [
+            {
+              "cell": "C4",
+              "source_value": 228,
+              "numeric_value": 228.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C5",
+              "source_value": 216,
+              "numeric_value": 216.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C6",
+              "source_value": 201,
+              "numeric_value": 201.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C7",
+              "source_value": 202,
+              "numeric_value": 202.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C8",
+              "source_value": 227,
+              "numeric_value": 227.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C9",
+              "source_value": 224,
+              "numeric_value": 224.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C10",
+              "source_value": 234,
+              "numeric_value": 234.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C11",
+              "source_value": 262,
+              "numeric_value": 262.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C12",
+              "source_value": 220,
+              "numeric_value": 220.0,
+              "asterisk": false
+            },
+            {
+              "cell": "C13",
+              "source_value": 236,
+              "numeric_value": 236.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "3000",
+          "nominal_concentration_nM": 3000.0
+        },
+        {
+          "range": "D4:D13",
+          "reported_entries": 10,
+          "mean_including_marked": 211.2,
+          "median_including_marked": 209.5,
+          "range_including_marked": [
+            175.0,
+            249.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 211.2,
+          "source_cells": [
+            {
+              "cell": "D4",
+              "source_value": 213,
+              "numeric_value": 213.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D5",
+              "source_value": 242,
+              "numeric_value": 242.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D6",
+              "source_value": 211,
+              "numeric_value": 211.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D7",
+              "source_value": 205,
+              "numeric_value": 205.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D8",
+              "source_value": 200,
+              "numeric_value": 200.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D9",
+              "source_value": 208,
+              "numeric_value": 208.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D10",
+              "source_value": 249,
+              "numeric_value": 249.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D11",
+              "source_value": 223,
+              "numeric_value": 223.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D12",
+              "source_value": 175,
+              "numeric_value": 175.0,
+              "asterisk": false
+            },
+            {
+              "cell": "D13",
+              "source_value": 186,
+              "numeric_value": 186.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "750",
+          "nominal_concentration_nM": 750.0
+        },
+        {
+          "range": "E4:E13",
+          "reported_entries": 10,
+          "mean_including_marked": 208.1,
+          "median_including_marked": 204.5,
+          "range_including_marked": [
+            164.0,
+            250.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 208.1,
+          "source_cells": [
+            {
+              "cell": "E4",
+              "source_value": 189,
+              "numeric_value": 189.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E5",
+              "source_value": 201,
+              "numeric_value": 201.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E6",
+              "source_value": 194,
+              "numeric_value": 194.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E7",
+              "source_value": 250,
+              "numeric_value": 250.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E8",
+              "source_value": 203,
+              "numeric_value": 203.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E9",
+              "source_value": 164,
+              "numeric_value": 164.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E10",
+              "source_value": 214,
+              "numeric_value": 214.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E11",
+              "source_value": 222,
+              "numeric_value": 222.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E12",
+              "source_value": 238,
+              "numeric_value": 238.0,
+              "asterisk": false
+            },
+            {
+              "cell": "E13",
+              "source_value": 206,
+              "numeric_value": 206.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "188",
+          "nominal_concentration_nM": 188.0
+        },
+        {
+          "range": "F4:F13",
+          "reported_entries": 10,
+          "mean_including_marked": 232.4,
+          "median_including_marked": 239.0,
+          "range_including_marked": [
+            190.0,
+            264.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 232.4,
+          "source_cells": [
+            {
+              "cell": "F4",
+              "source_value": 239,
+              "numeric_value": 239.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F5",
+              "source_value": 234,
+              "numeric_value": 234.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F6",
+              "source_value": 229,
+              "numeric_value": 229.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F7",
+              "source_value": 198,
+              "numeric_value": 198.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F8",
+              "source_value": 250,
+              "numeric_value": 250.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F9",
+              "source_value": 239,
+              "numeric_value": 239.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F10",
+              "source_value": 242,
+              "numeric_value": 242.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F11",
+              "source_value": 239,
+              "numeric_value": 239.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F12",
+              "source_value": 190,
+              "numeric_value": 190.0,
+              "asterisk": false
+            },
+            {
+              "cell": "F13",
+              "source_value": 264,
+              "numeric_value": 264.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "47",
+          "nominal_concentration_nM": 47.0
+        },
+        {
+          "range": "G4:G13",
+          "reported_entries": 10,
+          "mean_including_marked": 209.3,
+          "median_including_marked": 203.5,
+          "range_including_marked": [
+            161.0,
+            250.0
+          ],
+          "marked_entries": 0,
+          "mean_unmarked_sensitivity_only": 209.3,
+          "source_cells": [
+            {
+              "cell": "G4",
+              "source_value": 161,
+              "numeric_value": 161.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G5",
+              "source_value": 205,
+              "numeric_value": 205.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G6",
+              "source_value": 202,
+              "numeric_value": 202.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G7",
+              "source_value": 199,
+              "numeric_value": 199.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G8",
+              "source_value": 250,
+              "numeric_value": 250.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G9",
+              "source_value": 215,
+              "numeric_value": 215.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G10",
+              "source_value": 247,
+              "numeric_value": 247.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G11",
+              "source_value": 177,
+              "numeric_value": 177.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G12",
+              "source_value": 192,
+              "numeric_value": 192.0,
+              "asterisk": false
+            },
+            {
+              "cell": "G13",
+              "source_value": 245,
+              "numeric_value": 245.0,
+              "asterisk": false
+            }
+          ],
+          "source_group_label": "12",
+          "nominal_concentration_nM": 12.0
+        }
+      ]
+    }
+  ],
+  "lipidomic_context": {
+    "model": "PIK3C3/VPS34-KO and PIK3C3-WT C2C12 cells, each with or without 1 micromolar PIK3C2B inhibitor",
+    "context_consistency": "The PIK3C3 labels in Fig5E are consistent with the article caption, Results and Methods. They are not a labeling discrepancy.",
+    "separate_from": "Figure5A-D proteomics/phosphoproteomics uses MTM1-null mouse muscle with versus without constitutive PIK3C2B kinase inactivation.",
+    "reported_pca_group_entries": 4,
+    "reported_lipid_classes": 21,
+    "reported_KO_nominal_significance_flags": 7,
+    "reported_WT_nominal_significance_flags": 1,
+    "multiplicity": "Figure5F reports significance at P<0.05 and this sheet contains p.value columns without adjusted q-value columns. No new multiplicity correction is asserted.",
+    "interpretation": "This separate lipid-kinase perturbation experiment cannot be presented as direct lipidomic normalization of MTM1-null human muscle by BLU3797, nor as a validated functional-response biomarker.",
+    "pca_records": [
+      {
+        "source_row": 3,
+        "label": "PIK3C3-KO-no inhibitor-1",
+        "PC1": 2.934112715,
+        "PC2": 0.957652408
+      },
+      {
+        "source_row": 4,
+        "label": "PIK3C3-KO-no inhibitor-2",
+        "PC1": 3.033079033,
+        "PC2": 0.783873325
+      },
+      {
+        "source_row": 5,
+        "label": "PIK3C3-KO-no inhibitor-3",
+        "PC1": 4.136614794,
+        "PC2": 3.440735753
+      },
+      {
+        "source_row": 6,
+        "label": "PIK3C3-KO-no inhibitor-4",
+        "PC1": 2.813764152,
+        "PC2": -0.035148384
+      },
+      {
+        "source_row": 7,
+        "label": "PIK3C3-KO-PIK3C2B inhibitor-1uM-1",
+        "PC1": 1.951240009,
+        "PC2": -2.406882418
+      },
+      {
+        "source_row": 8,
+        "label": "PIK3C3-KO-PIK3C2B inhibitor-1uM-2",
+        "PC1": 1.446337529,
+        "PC2": -3.71812746
+      },
+      {
+        "source_row": 9,
+        "label": "PIK3C3-KO-PIK3C2B inhibitor-1uM-3",
+        "PC1": 1.790397785,
+        "PC2": -2.470220506
+      },
+      {
+        "source_row": 10,
+        "label": "PIK3C3-KO-PIK3C2B inhibitor-1uM-4",
+        "PC1": 2.135183508,
+        "PC2": -1.757138512
+      },
+      {
+        "source_row": 11,
+        "label": "WT-no inhibitor-1",
+        "PC1": -3.784878008,
+        "PC2": -2.93790866
+      },
+      {
+        "source_row": 12,
+        "label": "WT-no inhibitor-2",
+        "PC1": -2.526370319,
+        "PC2": 0.844686542
+      },
+      {
+        "source_row": 13,
+        "label": "WT-no inhibitor-3",
+        "PC1": -1.247717748,
+        "PC2": 4.114114152
+      },
+      {
+        "source_row": 14,
+        "label": "WT-no inhibitor-4",
+        "PC1": -3.121682449,
+        "PC2": -0.420921477
+      },
+      {
+        "source_row": 15,
+        "label": "WT-PIK3C2B inhibitor-1uM--1",
+        "PC1": -2.872775079,
+        "PC2": -0.479480639
+      },
+      {
+        "source_row": 16,
+        "label": "WT-PIK3C2B inhibitor-1uM--2",
+        "PC1": -2.342225107,
+        "PC2": 0.402603621
+      },
+      {
+        "source_row": 17,
+        "label": "WT-PIK3C2B inhibitor-1uM--3",
+        "PC1": -2.830196194,
+        "PC2": 0.833043319
+      },
+      {
+        "source_row": 18,
+        "label": "WT-PIK3C2B inhibitor-1uM--4",
+        "PC1": -1.51488462,
+        "PC2": 2.849118937
+      }
+    ],
+    "lipid_class_records": [
+      {
+        "source_row": 3,
+        "lipid_class": "HexCer",
+        "reported_KO_treatment_effect": 0.622478301413161,
+        "reported_WT_treatment_effect": 0.157067019493392,
+        "reported_KO_p_value": 0.0132396605950533,
+        "reported_WT_p_value": 0.604580830582999,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 4,
+        "lipid_class": "LPC O-",
+        "reported_KO_treatment_effect": 1.3533027190369,
+        "reported_WT_treatment_effect": 0.635908129606759,
+        "reported_KO_p_value": 0.0173191673532947,
+        "reported_WT_p_value": 0.113089696746196,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 5,
+        "lipid_class": "LPE O-",
+        "reported_KO_treatment_effect": 1.77113824317979,
+        "reported_WT_treatment_effect": 0.287133671127987,
+        "reported_KO_p_value": 0.00998203165091821,
+        "reported_WT_p_value": 0.560729485428437,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 6,
+        "lipid_class": "LPI",
+        "reported_KO_treatment_effect": -1.81824391683641,
+        "reported_WT_treatment_effect": -0.403714100760052,
+        "reported_KO_p_value": 0.00434036366303521,
+        "reported_WT_p_value": 0.165628712356841,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 7,
+        "lipid_class": "SM",
+        "reported_KO_treatment_effect": 1.351109313208,
+        "reported_WT_treatment_effect": 0.516830969251751,
+        "reported_KO_p_value": 0.0171083528760539,
+        "reported_WT_p_value": 0.387812083665803,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 8,
+        "lipid_class": "CL",
+        "reported_KO_treatment_effect": -1.64454407457956,
+        "reported_WT_treatment_effect": 0.0363545012910316,
+        "reported_KO_p_value": 0.0330705017669764,
+        "reported_WT_p_value": 0.941672815578913,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 9,
+        "lipid_class": "PI",
+        "reported_KO_treatment_effect": -1.35319451046133,
+        "reported_WT_treatment_effect": 0.0994684450768208,
+        "reported_KO_p_value": 0.0440341345199629,
+        "reported_WT_p_value": 0.859794832317372,
+        "reported_KO_significance_flag": "S",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 10,
+        "lipid_class": "CE",
+        "reported_KO_treatment_effect": 0.579321869129988,
+        "reported_WT_treatment_effect": 0.670358794713346,
+        "reported_KO_p_value": 0.0870522355555559,
+        "reported_WT_p_value": 0.297880894982071,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 11,
+        "lipid_class": "PS",
+        "reported_KO_treatment_effect": -1.11803763757592,
+        "reported_WT_treatment_effect": -0.117665879368465,
+        "reported_KO_p_value": 0.079547343090254,
+        "reported_WT_p_value": 0.830979266827301,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 12,
+        "lipid_class": "LPC",
+        "reported_KO_treatment_effect": 0.597530941287818,
+        "reported_WT_treatment_effect": -1.03822481910544,
+        "reported_KO_p_value": 0.12677496691523,
+        "reported_WT_p_value": 0.0200232144771816,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "S"
+      },
+      {
+        "source_row": 13,
+        "lipid_class": "LPE",
+        "reported_KO_treatment_effect": 0.762254109876848,
+        "reported_WT_treatment_effect": -1.08758132077854,
+        "reported_KO_p_value": 0.121470287325965,
+        "reported_WT_p_value": 0.061878298386283,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 14,
+        "lipid_class": "PG",
+        "reported_KO_treatment_effect": 0.609153635571912,
+        "reported_WT_treatment_effect": 0.171637104864941,
+        "reported_KO_p_value": 0.112223336774224,
+        "reported_WT_p_value": 0.701675737505356,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 15,
+        "lipid_class": "PC",
+        "reported_KO_treatment_effect": 1.11381080024156,
+        "reported_WT_treatment_effect": -0.276643543680977,
+        "reported_KO_p_value": 0.20729427854296,
+        "reported_WT_p_value": 0.509558222907657,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 16,
+        "lipid_class": "LPG",
+        "reported_KO_treatment_effect": -0.250622063165683,
+        "reported_WT_treatment_effect": 0.412170362152562,
+        "reported_KO_p_value": 0.247635522173203,
+        "reported_WT_p_value": 0.0690113711316624,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 17,
+        "lipid_class": "PC O-",
+        "reported_KO_treatment_effect": 0.997368912499917,
+        "reported_WT_treatment_effect": -0.139757885339979,
+        "reported_KO_p_value": 0.250572233260219,
+        "reported_WT_p_value": 0.719040132746946,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 18,
+        "lipid_class": "PE",
+        "reported_KO_treatment_effect": 0.428289529846338,
+        "reported_WT_treatment_effect": -0.803830588865797,
+        "reported_KO_p_value": 0.337015883612083,
+        "reported_WT_p_value": 0.285386388678944,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 19,
+        "lipid_class": "PE O-",
+        "reported_KO_treatment_effect": 0.434314922303036,
+        "reported_WT_treatment_effect": -0.649474382459505,
+        "reported_KO_p_value": 0.327495510298449,
+        "reported_WT_p_value": 0.337852397166444,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 20,
+        "lipid_class": "TAG",
+        "reported_KO_treatment_effect": 0.142622462751967,
+        "reported_WT_treatment_effect": 0.136582519150404,
+        "reported_KO_p_value": 0.387463906815809,
+        "reported_WT_p_value": 0.505575905353442,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 21,
+        "lipid_class": "Chol",
+        "reported_KO_treatment_effect": 0.160335585892778,
+        "reported_WT_treatment_effect": 0.0931131335738692,
+        "reported_KO_p_value": 0.450929920943575,
+        "reported_WT_p_value": 0.707530293682803,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 22,
+        "lipid_class": "Cer",
+        "reported_KO_treatment_effect": 0.152751777117797,
+        "reported_WT_treatment_effect": -1.06741045728781,
+        "reported_KO_p_value": 0.783532391537662,
+        "reported_WT_p_value": 0.180921102676159,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      },
+      {
+        "source_row": 23,
+        "lipid_class": "DAG",
+        "reported_KO_treatment_effect": -0.032350436724595,
+        "reported_WT_treatment_effect": -0.281952539304242,
+        "reported_KO_p_value": 0.86656590402266,
+        "reported_WT_p_value": 0.192037258807735,
+        "reported_KO_significance_flag": "NS",
+        "reported_WT_significance_flag": "NS"
+      }
+    ]
+  }
+}

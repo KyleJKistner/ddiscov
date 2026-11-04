@@ -1,0 +1,215 @@
+{
+  "schema_version": "round5-existing-leader-updates-1.0",
+  "as_of": "2026-11-04",
+  "scope": "Focused follow-up on exact 8015-P2 and AAT after delivery of seven new challenger screens. These are existing-leader updates and do not increase new-candidate counts.",
+  "decision": "Retain both existing staged priorities; no S-tier promotion. New findings chiefly improve independent model choices and expose transfer/attribution errors to prevent.",
+  "updates": [
+    {
+      "update_id": "R5-ELU01",
+      "candidate_id": "R3-NM-01",
+      "name": "Exact 8015-P2 for MFN2-CMT2A",
+      "decision": "Continue human functional qualification; add an independent allele/model challenge and specify solvent controls.",
+      "findings": [
+        {
+          "id": "P2-F1",
+          "category": "independent_human_model",
+          "finding": "A 2026 independent JCI Insight study provides isogenic MFN2 R94Q/+ hESC-derived motor neurons with exact clone identifiers. At days34–36, electrophysiological activity was present but overt WT-versus-mutant electrophysiological differences were absent, despite mitochondrial transport defects.",
+          "denominator": "One parental MShef11 hESC background with independently edited clones, not multiple donors. Patch-clamp total n33 cells. Transport treatment comparison n6 WT/n12 variant neurons from three differentiations, not eighteen people.",
+          "consequence": "This is a concrete mechanistic-screen route, not an already qualified human restored-function assay. An absent disease functional deficit must not be called drug failure or rescue.",
+          "proposed_action": "Qualify genotype-linked transmission/force or an appropriately mature network deficit before testing restoration; retain transport as a mechanistic readout.",
+          "sources": [
+            "P2S1"
+          ]
+        },
+        {
+          "id": "P2-F2",
+          "category": "orthogonal_compound_comparator",
+          "finding": "In that model ACY-738 at100nM for24h partially improved mitochondrial trafficking. A second deacetylase inhibitor supported a tubulin-acetylation mechanism. Fish swimming benefit came from exposure beginning at8days postfertilization, with oral exposure later, rather than a clean delayed adult-onset intervention.",
+          "consequence": "ACY-738 is useful as a transport-positive control. It cannot supply exact-P2 evidence, established human functional rescue or independently replicated delayed-disease restoration.",
+          "new_lead_count": 0,
+          "sources": [
+            "P2S1"
+          ]
+        },
+        {
+          "id": "P2-F3",
+          "category": "functional_model_anchor",
+          "finding": "The 2021 VanLent primary study includes a patient MFN2 R94Q line and isogenic correction. The mutant had elevated MEA burst rate; correction restored the network phenotype. Patient data involve one MFN2 background within a larger multi-CMT cohort.",
+          "denominator": "Burst-rate figure uses9–16 wells pooled from two differentiations; wells are nested observations. Genetic correction occurs before differentiation and is not drug reversal of an established network deficit.",
+          "consequence": "Useful human electrophysiological disease features can be qualified, but are protocol/background/endpoint dependent. Patch-clamp equivalence atd34 in another model does not contradict a separate network hyperactivity phenotype.",
+          "proposed_action": "Require stable, genetically reversible network or neuromuscular deficit. Track evoked performance and healthy-culture effects so sedation or cytotoxicity is not misclassified as normalization of burst rate.",
+          "sources": [
+            "P2S2"
+          ]
+        },
+        {
+          "id": "P2-F4",
+          "category": "operating_independent_allele_route",
+          "finding": "CMTA's completed May2026 Manor project, updatedSeptember24, reports patient-derived neuronal models and an operating R364W rat model. CMTA's toolbox lists two CMT2A rat models and a CRO route for behavior, electrophysiology and peripheral-nerve PK. PsychoGenics publicly reports grip/gait/conduction characterization.",
+          "consequence": "An orthogonal allele challenge beyond the originating T105M group has a publicly documented operating route. This is model capability evidence, not exact-P2 efficacy, secured capacity, quoted price or unrestricted animal stock.",
+          "rights": "USPTO official gazette confirms US12,721,327B2 grantedSeptember1,2026. Claim1 describes R364W/H361Y knock-in rats with spatially/age-dependent peripheral axon/Schwann-cell degeneration. This is a model right, distinct from compound patents; the public service path includes access/licensing.",
+          "sources": [
+            "P2S3",
+            "P2S4",
+            "P2S5",
+            "P2S6"
+          ]
+        },
+        {
+          "id": "P2-F5",
+          "category": "formulation_transfer",
+          "finding": "The2026rat methods describe250mg/mL P2 inDMSO diluted to a typical10mg/mL working solution in30%HP-beta-cyclodextrin. The listed vehicle is30%HP-beta-cyclodextrin without explicitly stating finalDMSO.",
+          "calculation": "10/250=0.04: a4%v/v DMSO contribution under simple stock dilution. This is a calculation conditional on the reported concentrations, not proof of the control's composition or every dose cohort's recipe.",
+          "consequence": "The final-solvent match is unresolved in the text. Do not infer DMSO caused efficacy or that the authors omitted it in practice.",
+          "proposed_action": "Prespecify identical finalDMSO/HP-beta-cyclodextrin across active, P1, mixture and vehicle formulations and analytically verify concentration/purity.",
+          "sources": [
+            "P2S7"
+          ]
+        },
+        {
+          "id": "P2-F6",
+          "category": "different_mechanism_competitor",
+          "finding": "A2026PNAS primary abstract reports AAV9-MFN2 and an ER-targeting MFN1 isoform, with post-symptom motor benefit in a transgenic CMT2A model. The paper's PMC record is embargoed untilDecember16,2026; complete construct/dose/denominator details were not retrieved in this pass.",
+          "consequence": "ER-mitochondria contact restoration is a relevant orthogonal comparator hypothesis. It is not exact-P2 evidence or a fully qualified new candidate from an abstract.",
+          "new_lead_count": 0,
+          "sources": [
+            "P2S8"
+          ]
+        }
+      ],
+      "go": "Independent, exact-P2 restoration of a stable genetically attributable human functional deficit at qualified free exposure, with meaningful healthy-cell window and a second allele/background challenge.",
+      "stop_or_narrow": "Only transport improves; the chosen model has no functional deficit; healthy-network suppression creates an apparent normalization; mixture alone works; or a second allele fails, requiring a narrower indication.",
+      "retrieval_limit": "The public381.3KB primary-dataZIP was located, but web and direct download returned a challengeHTML page rather than binary data. No new animal-level recalculation is claimed."
+    },
+    {
+      "update_id": "R5-ELU02",
+      "candidate_id": "AAT_EVLP",
+      "name": "Qualified AAT during donor-lung perfusion",
+      "decision": "Retain small formulation/activity gate before further scarce-organ validation; no new exact-route transplant durability established.",
+      "findings": [
+        {
+          "id": "AAT-F1",
+          "category": "nominal_measured_exposure",
+          "finding": "CSL patent pig methods describe3mg/mL nominal AAT, but Example8 reports0.5mg/mL human AAT antigen throughout12h byELISA. The difference is unexplained in the inspected text. Sodium/chloride and late calcium concentrations also differed between groups.",
+          "consequence": "Nominal added mass, immunoreactive concentration and activeNE/PR3 inhibitory capacity must be separate quantities. The record does not justify assigning83%loss, a specific adsorption mechanism, or this recipe to the2026human study.",
+          "proposed_action": "Resolve antigen assay recovery/calibration, active-protein mass balance and final perfusate physicochemistry before using a nominal dose as a transferable exposure target.",
+          "sources": [
+            "AS1"
+          ]
+        },
+        {
+          "id": "AAT-F2",
+          "category": "independent_research_boundary",
+          "finding": "An independent2021 murine allograft study used buffer-exchangedRespreeza/Prolastin, administered systemically to recipients before/after surgery. Histologic rejection improved atday3. About40%of experiments involved intraoperative death and were excluded; analyzedgroups were10AAT/5control.",
+          "consequence": "It adds independent short-term biological support, with preparation-specific confounding partly addressed by buffer exchange. It does not establish warm-EVLP product equivalence, graft gas-exchange durability, survival benefit or complete enrolled-animal outcomes.",
+          "proposed_action": "Keep route, exact preparation, attrition denominator and endpoint attached to the evidence. Do not count this as another controlled human EVLP replication.",
+          "sources": [
+            "AS2"
+          ]
+        },
+        {
+          "id": "AAT-F3",
+          "category": "human_signal_other_route",
+          "finding": "A2025retrospectiveSRTR/pharmacy analysis included447lung recipients with AATdeficiency;109used augmentation before transplant and32continued afterward. Age-adjusted survival associations favored posttransplant augmentation, with differing baseline age and ischemic time and incomplete pharmacy capture.",
+          "consequence": "This is a nonrandomized systemic replacement/augmentation question in AATdeficient recipients. It cannot verify repair from a finite ex-vivo-only pulse in generally injured donor lungs.",
+          "proposed_action": "Retain as separate human biological context; do not pool its447recipients with eight paired human EVLP donors or describe the estimated association as a randomized causal effect.",
+          "sources": [
+            "AS3"
+          ]
+        }
+      ],
+      "unchanged_critical_evidence": "The eight-donor2026human EVLP abstract and likely corresponding2020conference report remain one probable underlying dataset. The2018cold-storage active/inactive-AAT/protease-knockout study remains the stronger causal protease evidence; this pass does not replace or duplicate that prior finding.",
+      "go": "QualifiedNE/PR3 activity and a persistent useful gas-transfer/compliance advantage versus physically matched control and a simplerNE-selective comparator under drug-free recipient-like reperfusion.",
+      "stop": "Physicochemical matching or the simpler comparator accounts for useful effect, no activity remains through the intended window, or benefit requires ongoing systemic recipient treatment outside the proposed product.",
+      "retrieval_limit": "The2026human full methods and2018pig survival-abstract dataset were not retrieved through accessible primary routes in this bounded pass. No dose/recipe/recipient outcome was imputed from their titles."
+    }
+  ],
+  "counts": {
+    "existing_leaders_updated": 2,
+    "new_intervention_use_pairs": 0,
+    "S_tier_promotions": 0
+  },
+  "sources": {
+    "P2S1": {
+      "title": "HDAC6 inhibition alleviates mitochondrial trafficking in models of CMT2A",
+      "url": "https://insight.jci.org/articles/view/200106",
+      "doi": "10.1172/jci.insight.200106",
+      "kind": "primary_research"
+    },
+    "P2S2": {
+      "title": "Patient CMT2 neurons, MFN2 R94Q isogenic correction and network physiology",
+      "url": "https://academic.oup.com/brain/article/144/8/2471/6299386",
+      "doi": "10.1093/brain/awab226",
+      "kind": "primary_research"
+    },
+    "P2S3": {
+      "title": "CMTA completed Manor model project",
+      "url": "https://cmtausa.org/research-projects/tiny-movers-big-clues-cmt2a/",
+      "kind": "funder_primary_status"
+    },
+    "P2S4": {
+      "title": "CMTA operating preclinical toolbox and licensing/service route",
+      "url": "https://cmtausa.org/preclinical-toolbox/",
+      "kind": "model_provider"
+    },
+    "P2S5": {
+      "title": "PsychoGenics CMT2A model characterization",
+      "url": "https://psychogenics.com/resources/characterization-of-a-rat-model-of-cmt2a/",
+      "service_url": "https://psychogenics.com/services/therapeutic-areas/preclinical-neuromuscular-disorders-research/charcot-marie-tooth-cmt/",
+      "kind": "model_provider"
+    },
+    "P2S6": {
+      "title": "USPTO September2026 grant12,721,327: R364W/H361Y rat models",
+      "url": "https://patentsgazette.uspto.gov/week35/OG/html/1550-1/US12721327-20260901.html",
+      "kind": "official_patent_gazette"
+    },
+    "P2S7": {
+      "title": "ExactP2 T105M rat primary study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "doi": "10.3390/ijms27167376",
+      "supplement_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13513834/bin/ijms-27-07376-s001.zip",
+      "kind": "primary_research"
+    },
+    "P2S8": {
+      "title": "ER-mitochondria contact gene-therapy comparator",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42301793/",
+      "doi": "10.1073/pnas.2530774123",
+      "institutional_url": "https://graphsearch.epfl.ch/en/publication/780ca402-5624-4461-a457-ec80659cceab",
+      "kind": "primary_abstract"
+    },
+    "AS1": {
+      "title": "CSL organ-perfusion patent experimental disclosure",
+      "url": "https://patents.google.com/patent/US20190059362A1/en",
+      "kind": "published_patent_document"
+    },
+    "AS2": {
+      "title": "AAT in independent mouse lung allograft rejection study",
+      "url": "https://link.springer.com/article/10.1186/s12931-021-01890-x",
+      "doi": "10.1186/s12931-021-01890-x",
+      "kind": "primary_research"
+    },
+    "AS3": {
+      "title": "Posttransplant AAT augmentation observational recipient study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11935422/",
+      "doi": "10.1016/j.jhlto.2024.100201",
+      "kind": "primary_research"
+    },
+    "AS4": {
+      "title": "2026humanAAT EVLP abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+      "doi": "10.1016/j.ajt.2026.09.031",
+      "kind": "primary_abstract"
+    },
+    "AS5": {
+      "title": "2018pig survival-model conference report existence only",
+      "url": "https://doi.org/10.1016/j.healun.2018.01.184",
+      "kind": "primary_citation_not_full_data"
+    }
+  },
+  "subsequent_supplement_resolution": {
+    "note": "Initial PMC retrieval failed; ordinary publisher URL subsequently returned the actual ZIP. It contains an axon-size figure and an off-target assay table, not animal-level efficacy data.",
+    "audit": "p2-off-target-audit.json",
+    "interpretation": "p2-off-target-audit.md",
+    "new_candidate_count": 0
+  }
+}

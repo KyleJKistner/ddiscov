@@ -1,0 +1,604 @@
+{
+  "schema_version": "1.0",
+  "report": "round5_blu_biology",
+  "evidence_cut": "2026-11-04",
+  "parent_baseline": "research/rounds/round4/blu3797-audit.md",
+  "decision": {
+    "candidate": "BLU3797",
+    "disease": "MTM1-related XLMTM",
+    "retain": true,
+    "s_tier": false,
+    "target_validation": "substantial_preclinical",
+    "exact_article_validation": "encouraging_mouse_signal",
+    "human_post_deficit_force": "not_established",
+    "measured_therapeutic_window": "not_established",
+    "next_value": "qualified_human_function_and_exposure_window"
+  },
+  "hypothesis": "Selective reversible PIK3C2B inhibition improves established human MTM1-deficient contractile dysfunction across relevant genotypes at measured free tissue exposures preserving neural and hepatobiliary function.",
+  "changes_vs_round4": [
+    "Integrated endogenous MTM1-C375S catalytic-loss model and reconciled local protein rescue.",
+    "Separated juvenile genetic rescue, acute fiber physiology and exact-drug delayed treatment.",
+    "Elevated AZD8055 to a bounded functional comparator; audited bias and label limitations.",
+    "Added 2026 diet-sensitized liver biology and large-animal safety-prediction failure.",
+    "Verified current ASP2957 registry state without assuming efficacy.",
+    "Added female/genotype and secondary immune-function boundaries."
+  ],
+  "evidence": [
+    {
+      "id": "R5-BIO-01",
+      "sources": [
+        "B01"
+      ],
+      "claim": "PIK3C2B reduction can rescue after juvenile disease onset.",
+      "status": "supported_in_mouse",
+      "intervention": "Pik3c2b conditional deletion",
+      "timing": "P21/P30 induction",
+      "unit": "animal",
+      "quantitative": {
+        "late_survival_n": 7,
+        "late_P100_grip_n": 4
+      },
+      "limits": [
+        "Temporal Cre is distinct from constitutive muscle-specific deletion.",
+        "No chronic adult human inference.",
+        "Earlier-figure baseline is not necessarily paired."
+      ]
+    },
+    {
+      "id": "R5-BIO-02",
+      "sources": [
+        "B02"
+      ],
+      "claim": "Protein-retaining kinase inactivation supports catalytic target validity.",
+      "status": "supported_in_mouse",
+      "intervention": "D1212A",
+      "genotype": "Mtm1-null male",
+      "quantitative": {
+        "allele_states": [
+          "heterozygous",
+          "homozygous"
+        ]
+      },
+      "limits": [
+        "Heterozygous survival/motor benefit did not establish TA-force rescue.",
+        "Allele dosage is not measured drug occupancy.",
+        "Not pan-CNM efficacy."
+      ]
+    },
+    {
+      "id": "R5-BIO-03",
+      "sources": [
+        "B03"
+      ],
+      "claim": "Exact BLU has animal efficacy evidence.",
+      "status": "supported_but_bounded",
+      "intervention": "BLU3797",
+      "unit": "animal",
+      "limits": [
+        "Not mature human force.",
+        "Round4 delayed-start/workbook limitations persist.",
+        "Do not transfer genetic force into drug evidence."
+      ]
+    },
+    {
+      "id": "R5-BIO-04",
+      "sources": [
+        "B04",
+        "B05"
+      ],
+      "claim": "Catalytic and noncatalytic MTM1 functions both matter.",
+      "status": "supported_with_context_dependence",
+      "interventions": [
+        "local phosphatase-dead MTM1 delivery",
+        "endogenous C375S"
+      ],
+      "limits": [
+        "Bulk PI3P is not a complete functional surrogate.",
+        "C375S engineered genotype is untested for BLU rescue.",
+        "Historical-strain severity comparisons are not head-to-head."
+      ]
+    },
+    {
+      "id": "R5-BIO-05",
+      "sources": [
+        "B06"
+      ],
+      "claim": "A physiological component responds acutely in isolated fibers.",
+      "status": "supported_but_not_c2b_specific",
+      "intervention": "broad PI3K inhibition",
+      "unit": "fiber",
+      "timing": "one_hour",
+      "limits": [
+        "Animal-age and animal-denominator details unresolved here.",
+        "No human force.",
+        "CaV1.1 defect remained."
+      ]
+    },
+    {
+      "id": "R5-BIO-06",
+      "sources": [
+        "B07",
+        "B08"
+      ],
+      "claim": "C2β-linked trafficking correction supports a mechanistic chain.",
+      "status": "supported_in_cell_models",
+      "unit": "cell_model",
+      "limits": [
+        "Mixed PITCOIN2 isoform pharmacology.",
+        "No functional force inference.",
+        "Overlapping investigators are not independent clinical replication."
+      ]
+    },
+    {
+      "id": "R5-BIO-07",
+      "sources": [
+        "B09",
+        "B17",
+        "B18"
+      ],
+      "claim": "AZD8055 is a within-MTM1 functional comparator, not a preferred clinical article.",
+      "status": "comparator_only",
+      "quantitative": {
+        "explicit_late_start_weeks": 5,
+        "late_force_n_per_group": 6
+      },
+      "limits": [
+        "Nonrandomized, unblinded, survivor exclusion.",
+        "Main-figure cohort labels mixed.",
+        "20 versus30-day duration wording.",
+        "Dual mTORC1/2 and historical human hepatic liability."
+      ]
+    },
+    {
+      "id": "R5-BIO-08",
+      "sources": [
+        "B22"
+      ],
+      "claim": "MTM1 pathway abnormalities have human isogenic-cell relevance.",
+      "status": "supported_cellular_not_force",
+      "unit": "isogenic_cell_pair",
+      "limits": [
+        "Myogenesis-stage model.",
+        "Exact BLU not tested.",
+        "Full genotype/access qualification belongs to root workstream."
+      ]
+    },
+    {
+      "id": "R5-BIO-09",
+      "sources": [
+        "B10"
+      ],
+      "claim": "CNS exposure is a target-related susceptibility concern.",
+      "status": "hazard_signal_not_blu_toxicity",
+      "interventions": [
+        "KO/HET",
+        "G1501fs*1",
+        "human variants"
+      ],
+      "limits": [
+        "Human penetrance incomplete.",
+        "Behavioral seizures experimentally provoked.",
+        "No D1212A neural experiment asserted.",
+        "No numeric adult inhibitor safety threshold."
+      ]
+    },
+    {
+      "id": "R5-BIO-10",
+      "sources": [
+        "B13",
+        "B14",
+        "B15"
+      ],
+      "claim": "MTM1 disease context can change hepatobiliary safety.",
+      "status": "supported_vulnerability_not_blu_toxicity",
+      "unit": "organism_or_liver_model",
+      "limits": [
+        "AAV-specific effects are not BLU effects.",
+        "PIK3C2B-mediated liver rescue not established.",
+        "2026 papers assessed at abstract level."
+      ]
+    },
+    {
+      "id": "R5-BIO-11",
+      "sources": [
+        "B11",
+        "B12"
+      ],
+      "claim": "Other systemic effects require functional context.",
+      "status": "bounded_reassurance_plus_secondary_hazard",
+      "limits": [
+        "Healthy metabolic phenotype does not clear disease liver or CNS.",
+        "Human CD4 silencing does not prove clinical immunosuppression."
+      ]
+    },
+    {
+      "id": "R5-BIO-12",
+      "sources": [
+        "B19"
+      ],
+      "claim": "Male null results do not establish female breadth.",
+      "status": "population_boundary",
+      "limits": [
+        "Symptomatic females exist.",
+        "X-inactivation alone is incomplete explanation.",
+        "No BLU female efficacy inference."
+      ]
+    }
+  ],
+  "causal_links": [
+    {
+      "from": "MTM1 dysfunction",
+      "to": "compartmental phosphoinositide imbalance",
+      "status": "experimental_support",
+      "sources": [
+        "B04",
+        "B05",
+        "B08",
+        "B09",
+        "B22"
+      ]
+    },
+    {
+      "from": "PIK3C2B catalytic inactivation",
+      "to": "mouse muscle functional rescue",
+      "status": "experimental_support",
+      "sources": [
+        "B02"
+      ]
+    },
+    {
+      "from": "exact BLU exposure",
+      "to": "mature human post-deficit force",
+      "status": "open",
+      "sources": [
+        "B03"
+      ]
+    },
+    {
+      "from": "compartmental lipid correction",
+      "to": "trafficking and mTOR regulation",
+      "status": "experimental_support_context_dependent",
+      "sources": [
+        "B07",
+        "B08",
+        "B09",
+        "B10"
+      ]
+    },
+    {
+      "from": "muscle-effective BLU exposure",
+      "to": "acceptable brain/liver window",
+      "status": "open",
+      "sources": [
+        "B10",
+        "B13",
+        "B14"
+      ]
+    },
+    {
+      "from": "global bulk PI3P normalization",
+      "to": "complete functional rescue",
+      "status": "not_validated_surrogate",
+      "sources": [
+        "B04",
+        "B05"
+      ]
+    }
+  ],
+  "proposed_gates": [
+    {
+      "id": "A",
+      "name": "qualified_model",
+      "advance": "Reproducible pre-treatment deficit and interpretable trajectory; genetic disease dependence; separate demonstration of post-deficit modifiability.",
+      "stop": "Model not genetically rescuable or dynamic range inadequate; classify assay failure.",
+      "status": "not_run"
+    },
+    {
+      "id": "B",
+      "name": "post_deficit_function",
+      "advance": "At least two relevant patient backgrounds; sustained force plus fatigue/relaxation; lower confidence bound exceeds both repeatability floor and predeclared minimum useful effect; donor/batch-aware inference.",
+      "stop": "Only differentiation or markers improve, or confidence interval lies below the minimum useful effect. Crossing the threshold is inconclusive.",
+      "status": "not_run"
+    },
+    {
+      "id": "C",
+      "name": "target_attribution",
+      "advance": "Engagement and compartmental PD align with orthogonal functional perturbation.",
+      "stop": "Effect requires off-target exposure or is uncoupled from target.",
+      "status": "not_run"
+    },
+    {
+      "id": "D",
+      "name": "exposure_window",
+      "advance": "Measure intrinsic tissue sensitivity and unbound muscle/plasma and vulnerable-tissue/plasma relationships; preserve function across exposure uncertainty.",
+      "stop": "Measured required exposure in a vulnerable tissue overlaps adverse function without usable separation. In-vitro overlap with unknown tissue distribution is a hold, not an automatic systemic stop.",
+      "status": "not_run",
+      "caution": "No BBB exclusion or favorable muscle targeting is assumed for BLU3797."
+    },
+    {
+      "id": "E",
+      "name": "sustained_response",
+      "advance": "Sustained gain and interpretable washout/rechallenge without progressive adverse function.",
+      "stop": "Early gains reverse during maintained exposure or toxicity accumulates.",
+      "status": "not_run"
+    },
+    {
+      "id": "F",
+      "name": "differentiation",
+      "advance": "Useful advantage versus same-model comparator in function, durability, tolerability or delivery.",
+      "stop": "No practical advantage despite target biology.",
+      "status": "not_run"
+    }
+  ],
+  "current_program": {
+    "exact_article": "ASP2957",
+    "trial_id": "NCT07052929",
+    "status": "RECRUITING",
+    "status_verified": "2026-09",
+    "last_update_posted": "2026-09-03",
+    "actual_start": "2025-12-15",
+    "enrollment": {
+      "count": 9,
+      "type": "ESTIMATED"
+    },
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "results_posted": false,
+    "population": "Male, <=36 months at dosing, invasive ventilation >=20h/day",
+    "important_boundary": "Prior cholestatic dysfunction/treatment excluded.",
+    "interpretation": "Prospective comparator; not established efficacy or a proven BLU niche.",
+    "sources": [
+      "B20",
+      "B21"
+    ]
+  },
+  "method_audit": {
+    "key_distinctions": [
+      "animal_vs_fiber_vs_cell",
+      "genetic_vs_article",
+      "scaffold_loss_vs_catalytic_loss",
+      "prevention_vs_rescue",
+      "marker_vs_useful_function",
+      "healthy_vs_disease_liver",
+      "total_vs_unbound_exposure"
+    ],
+    "correction_search": {
+      "status": "bounded_search_no_formal_notice_found",
+      "terms": [
+        "151933 correction erratum retraction",
+        "189286 correction erratum retraction",
+        "s42255-026-01484-1 correction",
+        "awac082 correction corrigendum",
+        "Pharmacological PIK3C2B inhibition correction"
+      ],
+      "limitation": "Search absence does not prove absence of notices."
+    },
+    "prohibited_inferences": [
+      "Gene-dose percentages are not drug occupancy.",
+      "Mouse neural KO is not demonstrated BLU toxicity.",
+      "AAV liver failure is not demonstrated BLU toxicity.",
+      "Main AZD figure n8 is not unambiguously an early-start force cohort.",
+      "Cross-study force sizes do not establish compound superiority."
+    ],
+    "local_files": [
+      {
+        "path": "round5_blu_biology_sources/natmetab2026_01484.pdf",
+        "sha256": "befe1fdb818d9c7c280e3d58aeba158f5ab121f7ef3ebbf522f98011e6c0775e",
+        "publish": false
+      },
+      {
+        "path": "round5_blu_biology_sources/nct07052929.json",
+        "sha256": "02dd5c49a7e3725e0bf98f6cdb2172fb4d4878844b3a677c7815b6a2a12ed5f1",
+        "publish": false
+      }
+    ],
+    "actions": {
+      "outreach": false,
+      "purchases": false,
+      "experiments": false,
+      "remote_mutations": false
+    }
+  },
+  "sources": [
+    {
+      "id": "B01",
+      "publication_date": "2016",
+      "doi": "10.1172/JCI86841",
+      "url": "https://www.jci.org/articles/view/86841",
+      "access": "full_text_figures_methods",
+      "kind": "mouse_genetic_rescue",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B02",
+      "publication_date": "2023",
+      "doi": "10.1172/jci.insight.151933",
+      "url": "https://insight.jci.org/articles/view/151933",
+      "access": "full_text_figures",
+      "kind": "mouse_catalytic_genetic_rescue",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B03",
+      "publication_date": "2026",
+      "doi": "10.1172/jci.insight.198568",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "access": "primary_text_plus_round4_workbook_audit",
+      "kind": "exact_article_mouse_pharmacology",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B04",
+      "publication_date": "2012",
+      "doi": "10.1371/journal.pgen.1002965",
+      "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002965",
+      "access": "full_text",
+      "kind": "local_protein_rescue",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B05",
+      "publication_date": "2025-10-14",
+      "doi": "10.1172/jci.insight.189286",
+      "url": "https://insight.jci.org/articles/view/189286",
+      "access": "full_text_figures_methods",
+      "kind": "endogenous_catalytic_loss",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B06",
+      "publication_date": "2016",
+      "doi": "10.1073/pnas.1604099113",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27911767/",
+      "access": "indexed_primary_text_and_figure_captions",
+      "kind": "acute_isolated_fiber_physiology",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B07",
+      "publication_date": "2022",
+      "doi": "10.1073/pnas.2202236119",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9549396/",
+      "access": "indexed_primary_text_pharmacology_team_crosscheck",
+      "kind": "cell_trafficking",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B08",
+      "publication_date": "2025",
+      "doi": "10.1016/j.jlr.2025.100756",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39952567/",
+      "access": "indexed_primary_text",
+      "kind": "cell_recycling",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B09",
+      "publication_date": "2026-03-18",
+      "doi": "10.1038/s42255-026-01484-1",
+      "url": "https://www.nature.com/articles/s42255-026-01484-1.pdf",
+      "access": "full_pdf_methods_visual_figures",
+      "kind": "lysosomal_mechanism_and_azd8055_mouse_function",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B10",
+      "publication_date": "2022",
+      "doi": "10.1093/brain/awac082",
+      "url": "https://air.unimi.it/retrieve/c4f0e35b-fdbd-4f0e-8d8f-d2f23722ddf9/Defective%20lipid%20signalling%20caused%20by%20mutations%20in%20PIK3C2B.1.pdf",
+      "access": "full_indexed_institutional_pdf",
+      "kind": "human_variants_and_mouse_neural_susceptibility",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B11",
+      "publication_date": "2015",
+      "doi": "10.1016/j.celrep.2015.10.052",
+      "url": "https://www.babraham.ac.uk/sites/default/files/media/files/26655903.pdf",
+      "access": "indexed_primary_pdf",
+      "kind": "healthy_kinase_dead_mouse_metabolism",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B12",
+      "publication_date": "2009",
+      "doi": "10.1091/mbc.e09-05-0390",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19587117/",
+      "access": "primary_abstract",
+      "kind": "human_cd4_cell_target_perturbation",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B13",
+      "publication_date": "2023",
+      "doi": "10.1172/JCI166275",
+      "url": "https://www.jci.org/articles/view/166275",
+      "access": "full_text_results",
+      "kind": "zebrafish_disease_liver",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B14",
+      "publication_date": "2026-02-18",
+      "doi": "10.1126/scitranslmed.adr1483",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41706871/",
+      "access": "primary_abstract",
+      "kind": "diet_sensitized_mouse_liver",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B15",
+      "publication_date": "2026-10-29",
+      "doi": "10.1016/j.ymthe.2026.10.027",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42958795/",
+      "access": "primary_abstract",
+      "kind": "retrospective_large_animal_aav_safety",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B16",
+      "publication_date": "2025",
+      "doi": "10.1177/22143602251329215",
+      "url": "https://journals.sagepub.com/doi/10.1177/22143602251329215",
+      "access": "full_text",
+      "kind": "human_dyn101_tolerability_and_liver",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B17",
+      "publication_date": "2012",
+      "doi": "10.1038/bjc.2012.368",
+      "url": "https://www.nature.com/articles/bjc2012368",
+      "access": "full_text",
+      "kind": "human_azd8055_oncology_phase1",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B18",
+      "publication_date": "2010",
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20028854/",
+      "access": "primary_abstract",
+      "kind": "azd8055_dual_mtor_pharmacology",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B19",
+      "publication_date": "2019",
+      "doi": "10.1212/WNL.0000000000008316",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815204/",
+      "access": "indexed_primary_text",
+      "kind": "female_carrier_deep_phenotyping",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B20",
+      "publication_date": "2026-09-03",
+      "doi": null,
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07052929",
+      "access": "downloaded_primary_registry_json",
+      "kind": "prospective_competing_program",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B21",
+      "publication_date": "2025",
+      "doi": null,
+      "url": "https://myotubulartrust.org/wp-content/uploads/Astellas_XLMTM-Community-Information-VALOR-clinical-trial-overview_FINAL.pdf",
+      "access": "sponsor_primary_pdf",
+      "kind": "asp2957_program_eligibility",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "id": "B22",
+      "publication_date": "online_2025_issue_2026",
+      "doi": "10.1093/brain/awaf278",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40729434/",
+      "access": "primary_abstract_root_full_model_review_separate",
+      "kind": "human_isogenic_myogenesis",
+      "retrieved_at": "2026-11-04"
+    }
+  ]
+}

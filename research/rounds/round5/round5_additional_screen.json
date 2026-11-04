@@ -1,0 +1,759 @@
+{
+  "schema_version": "round5-additional-screen-1.0",
+  "as_of": "2026-11-04",
+  "parent_repo": "ddiscov",
+  "scope": "Five exact-use pairs outside skin/cornea and skeletal muscle; public research only.",
+  "no_external_actions": true,
+  "s_tier_found": false,
+  "record_count": 5,
+  "dedup_against": {
+    "register": "research/portfolio-register.json",
+    "register_schema": "4",
+    "round5_exclusions": [
+      "pantethine/PPCS",
+      "efavirenz/NPC",
+      "perampanel/Lafora",
+      "RCM-1/EoE",
+      "artesunate/JEB",
+      "gentamicin/JEB",
+      "diacerein/EBS"
+    ],
+    "rejected_prior_to_deep_review": [
+      "4-aminopyridine/KCNA2 already present"
+    ]
+  },
+  "sources": {
+    "L1": {
+      "title": "Crotti et al. 2026 LQT2 phase 2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42771720/",
+      "inspection_status": "primary_publication_abstract",
+      "doi": "10.1093/eurheartj/ehag753",
+      "publication_or_last_update_date": "2026-09-22",
+      "retrieved": "2026-11-04"
+    },
+    "L2": {
+      "title": "MAST2 NCT04581408",
+      "url": "https://clinicaltrials.gov/study/NCT04581408",
+      "inspection_status": "primary_registry_full",
+      "doi": null,
+      "publication_or_last_update_date": "2025-04-25",
+      "retrieved": "2026-11-04",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04581408",
+      "raw_snapshot_sha256": "3bac557609f02171c82e23cb74776470e17edb0b85443694f570710607ae7ada",
+      "raw_snapshot_publish": false
+    },
+    "L3": {
+      "title": "Milano-Bicocca MAST2 investigator announcement",
+      "url": "https://www.medicina.unimib.it/it/news/sindrome-del-qt-lungo-studio-apre-nuove-prospettive-terapeutiche-alcuni-pazienti",
+      "inspection_status": "investigator_institution_identity_confirmation",
+      "doi": null,
+      "publication_or_last_update_date": null,
+      "retrieved": "2026-11-04",
+      "use_limit": "Confirms article/trial/combination identity only; no independent efficacy weight."
+    },
+    "L4": {
+      "title": "Crotti et al. 2026 public supplement S1-S5",
+      "url": "https://academic.oup.com/eurheartj/advance-article-abstract/doi/10.1093/eurheartj/ehag753/8828978",
+      "inspection_status": "primary_supplement_full",
+      "doi": "10.1093/eurheartj/ehag753",
+      "publication_or_last_update_date": "2026-09-22",
+      "retrieved": "2026-11-04",
+      "relationship": "Same study as L1; accessible six-page supplement, not independent replication."
+    },
+    "L5": {
+      "title": "O Hare et al. 2020 promise and potential peril",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32940533/",
+      "inspection_status": "primary_publication_abstract",
+      "doi": "10.1161/CIRCGEN.120.002950",
+      "publication_or_last_update_date": "2020-09-17",
+      "retrieved": "2026-11-04"
+    },
+    "L6": {
+      "title": "Orkambi official label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600",
+      "inspection_status": "official_label",
+      "doi": null,
+      "publication_or_last_update_date": "2026-03-24",
+      "retrieved": "2026-11-04"
+    },
+    "L7": {
+      "title": "Mexiletine in potassium-channel LQTS",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31006312/",
+      "inspection_status": "primary_retrospective_series_abstract",
+      "doi": null,
+      "publication_or_last_update_date": "2019",
+      "retrieved": "2026-11-04"
+    },
+    "E1": {
+      "title": "Geoerger et al. 2023 enasidenib two children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37248298/",
+      "inspection_status": "primary_publication_abstract",
+      "doi": "10.1038/s41591-023-02382-9",
+      "publication_or_last_update_date": "2023-05-29",
+      "retrieved": "2026-11-04"
+    },
+    "E2": {
+      "title": "Gold et al. 2024 enasidenib hepatitis case",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+      "inspection_status": "primary_case_full",
+      "doi": "10.1002/jmd2.12421",
+      "publication_or_last_update_date": "2024-04-16",
+      "retrieved": "2026-11-04"
+    },
+    "E3": {
+      "title": "IDHIFA official label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+      "inspection_status": "official_label",
+      "doi": null,
+      "publication_or_last_update_date": "2025-01-16",
+      "retrieved": "2026-11-04"
+    },
+    "P1": {
+      "title": "Gonzales et al. 2015 PFIC2 series",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25716872/",
+      "inspection_status": "primary_abstract_and_indexed_methods",
+      "doi": "10.1002/hep.27767",
+      "publication_or_last_update_date": "2015-04-08",
+      "retrieved": "2026-11-04",
+      "methods_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hep.27767"
+    },
+    "P2": {
+      "title": "Gonzales et al. 2012 T1210P case",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22609309/",
+      "inspection_status": "primary_publication_abstract",
+      "doi": null,
+      "publication_or_last_update_date": "2012",
+      "retrieved": "2026-11-04",
+      "overlap": "Potential overlap with P1; do not sum as an additional independent patient."
+    },
+    "P3": {
+      "title": "OrphanPacific PFIC approval announcement",
+      "url": "https://en.cmicgroup.com/news-events/notice-regarding-approval-of-a-partial-change-to-the-marketing-authorization-for-sodium-phenylbutyrate-for-progressive-familial-intrahepatic-cholestasis-pfic-types-1-and-2/",
+      "inspection_status": "sponsor_announcement",
+      "doi": null,
+      "publication_or_last_update_date": "2026-08-24",
+      "retrieved": "2026-11-04"
+    },
+    "P4": {
+      "title": "PMDA Buphenyl indication-extension review",
+      "url": "https://www.pmda.go.jp/drugs/2026/P20260903002/181251000_22400AMX01398_A100_1.pdf",
+      "inspection_status": "primary_regulatory_review_selected_sections",
+      "doi": null,
+      "publication_or_last_update_date": "2026",
+      "retrieved": "2026-11-04"
+    },
+    "P5": {
+      "title": "NCT04531878 funding withdrawal",
+      "url": "https://clinicaltrials.gov/study/NCT04531878",
+      "inspection_status": "primary_registry_full",
+      "doi": null,
+      "publication_or_last_update_date": "2023-02-09",
+      "retrieved": "2026-11-04",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04531878",
+      "raw_snapshot_sha256": "6cfaa5aca193a88c12fc10ee128d0675f8cd39fe6b6b0effdcf4c78a6aecaa9a",
+      "raw_snapshot_publish": false
+    },
+    "D1": {
+      "title": "Sevoz-Couche et al. 2024 CCHS progestins",
+      "url": "https://link.springer.com/article/10.1186/s12931-023-02625-w",
+      "inspection_status": "primary_publication_full",
+      "doi": "10.1186/s12931-023-02625-w",
+      "publication_or_last_update_date": "2024-02-09",
+      "retrieved": "2026-11-04"
+    },
+    "D2": {
+      "title": "NCT01500473 posted results and termination",
+      "url": "https://clinicaltrials.gov/study/NCT01500473",
+      "inspection_status": "primary_registry_results_full",
+      "doi": null,
+      "publication_or_last_update_date": "2023-11-18",
+      "retrieved": "2026-11-04",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT01500473",
+      "raw_snapshot_sha256": "b1110fb72898027a266a3fcf3701bd0a2117ac87781bed0c9fa5728ae9db61d5",
+      "raw_snapshot_publish": false
+    },
+    "T1": {
+      "title": "de Wilde et al. 2025 tebapivat HX study",
+      "url": "https://www.sciencedirect.com/science/article/pii/S3050598425000241",
+      "inspection_status": "primary_publisher_abstract",
+      "doi": "10.1016/j.brci.2025.100024",
+      "publication_or_last_update_date": "2025",
+      "retrieved": "2026-11-04"
+    },
+    "E4": {
+      "title": "2026 infant enasidenib report publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.ymgme.2026.110094",
+      "doi": "10.1016/j.ymgme.2026.110094",
+      "inspection_status": "metadata_only_no_results",
+      "publication_or_last_update_date": "2026-05",
+      "retrieved": "2026-11-04",
+      "raw_snapshot_sha256": "3f8f76ef34c9bc352540d6760064f50e2f26a182a16f357131aafebf46f6104f",
+      "raw_snapshot_publish": false,
+      "use_limit": "Bibliographic identity only; no efficacy contribution."
+    },
+    "T2": {
+      "title": "Agios tebapivat SCD trial NCT06924970",
+      "url": "https://clinicaltrials.gov/study/NCT06924970",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06924970",
+      "inspection_status": "primary_registry_full",
+      "publication_or_last_update_date": "2026-10-28",
+      "retrieved": "2026-11-04",
+      "raw_snapshot_sha256": "f94dee00cd5d641b5235671fbce45a7e9a7c5c2ef7a50f648518bc8907800b9f",
+      "raw_snapshot_publish": false,
+      "use_limit": "Exact AG-946 identity and existing clinical programme only; no HX efficacy or material access inference."
+    }
+  },
+  "records": [
+    {
+      "id": "R5_ORKAMBI_KCNH2_LQT2_TRAFFICKING",
+      "name": "Lumacaftor/ivacaftor for selected KCNH2 trafficking-defective LQT2",
+      "exact_entity": {
+        "clinical_product": "Orkambi oral tablets",
+        "components": [
+          "lumacaftor",
+          "ivacaftor"
+        ],
+        "dose_as_reported": {
+          "lumacaftor_mg_per_day": 800,
+          "ivacaftor_mg_per_day": 500,
+          "duration_max_days": 7
+        },
+        "cellular_article": "lumacaftor alone",
+        "cell_exposure": {
+          "nominal_uM": 5,
+          "days": 7
+        },
+        "identity_status": "Clinical combination verified using registry and investigator institutional confirmation; pure-LUM clinical efficacy not established.",
+        "sources": [
+          "L2",
+          "L3",
+          "L4"
+        ]
+      },
+      "use": {
+        "gene": "KCNH2",
+        "disease": "LQT2",
+        "timing": "Established adult electrical phenotype; cell rescue after differentiation.",
+        "restriction": "Variant-level functional response required; trafficking defect alone insufficient."
+      },
+      "dedup": {
+        "status": "new_exact_use_in_schema4",
+        "aliases_searched": [
+          "lumacaftor",
+          "VX-809",
+          "ivacaftor",
+          "Orkambi",
+          "KCNH2",
+          "LQT2"
+        ],
+        "do_not_double_count": [
+          "2026 Heart Rhythm meeting abstract and EHJ article",
+          "serial ECGs",
+          "multiple differentiations per donor"
+        ]
+      },
+      "evidence": [
+        {
+          "sources": [
+            "L1"
+          ],
+          "status": "supportive_uncontrolled_human",
+          "human_n": 16,
+          "mean_per_patient_qtc_change_ms": -31,
+          "sd_ms": 21,
+          "cell_variant_rescue": "3/5",
+          "duration_days": 7
+        },
+        {
+          "sources": [
+            "L4"
+          ],
+          "status": "supportive_and_nonresponse",
+          "negative_variant": "W568C",
+          "qtc_timecourse_n": {
+            "baseline": 14,
+            "day6": 12,
+            "day7": 10
+          }
+        },
+        {
+          "sources": [
+            "L5"
+          ],
+          "status": "functional_disconfirmation",
+          "trafficking_rescue_but_apd90_worsened": "G604S",
+          "functional_improvement_variants": [
+            "N633S",
+            "R685P"
+          ]
+        }
+      ],
+      "comparator": {
+        "practical": "Unchanged beta-blocker background plus mexiletine where appropriate to the research question.",
+        "sources": [
+          "L2",
+          "L7"
+        ],
+        "claim_limit": "No head-to-head efficacy inference."
+      },
+      "decision": "retain_scientific_challenger_development_hold",
+      "s_tier": false,
+      "decisive_proof": "Independently compare both components and the combination after established electrical dysfunction, with free-exposure mapping, paced APD, gating/IKr and triggered activity. Include negative G604S and practical active comparator; later controlled durable clinical benefit needed.",
+      "stop_conditions": [
+        "Trafficking correction worsens repolarization or triggered activity for the intended variant.",
+        "Apparent clinical response disappears with heart-rate-robust repeated baseline/control assessment.",
+        "Useful exposure cannot coexist with chronic tolerability or background therapy."
+      ],
+      "availability": {
+        "public_identity": "verified",
+        "marketed_product": "verified for CF, not LQT2",
+        "research_supply": "not checked",
+        "clinical_component_bridge": "open",
+        "development_rights": "not established",
+        "sources": [
+          "L6"
+        ]
+      },
+      "material_unknowns": [
+        "Full main-article methods not retrieved",
+        "QT correction/adjudication details",
+        "Patient-level PK/free cardiac exposure",
+        "Reasons for time-course missingness",
+        "Chronic safety and arrhythmia reduction",
+        "Commercial differentiation"
+      ],
+      "screen_date": "2026-11-04",
+      "primary_source_urls": [
+        "https://academic.oup.com/eurheartj/advance-article-abstract/doi/10.1093/eurheartj/ehag753/8828978",
+        "https://clinicaltrials.gov/study/NCT04581408",
+        "https://pubmed.ncbi.nlm.nih.gov/32940533/",
+        "https://pubmed.ncbi.nlm.nih.gov/42771720/",
+        "https://www.medicina.unimib.it/it/news/sindrome-del-qt-lungo-studio-apre-nuove-prospettive-terapeutiche-alcuni-pazienti"
+      ]
+    },
+    {
+      "id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "name": "Enasidenib for germline IDH2-R140 D2HGA2 with established organ disease",
+      "exact_entity": {
+        "name": "enasidenib",
+        "marketed_form": "enasidenib mesylate (IDHIFA)",
+        "label_strengths_mg_enasidenib": [
+          50,
+          100
+        ],
+        "article_doses_as_reported_mg_daily": [
+          50,
+          60
+        ],
+        "dose_basis_caveat": "E1 doses preserved as reported; no salt/base conversion inferred.",
+        "sources": [
+          "E1",
+          "E3"
+        ]
+      },
+      "use": {
+        "gene": "IDH2",
+        "allele_class": "R140 neomorphic gain of function",
+        "disease": "D-2-hydroxyglutaric aciduria type II",
+        "timing": "Established disease; cardiomyopathy in reports",
+        "not_inherited_by": [
+          "D2HGDH type I",
+          "L-2-HGA",
+          "combined D,L-2-HGA"
+        ]
+      },
+      "dedup": {
+        "status": "new_exact_use_in_schema4",
+        "aliases_searched": [
+          "enasidenib",
+          "AG-221",
+          "IDHIFA",
+          "D2HGA",
+          "D-2-hydroxyglutaric",
+          "IDH2"
+        ],
+        "dataset_limit": "Two-patient 2023 series and separate 2024 case; no count assigned to unretrieved infant-report lead."
+      },
+      "evidence": [
+        {
+          "sources": [
+            "E1"
+          ],
+          "status": "supportive_uncontrolled_human",
+          "human_n": 2,
+          "phenotype": "Metabolite normalization and cardiac improvement in affected child; numerical function trajectory not audited."
+        },
+        {
+          "sources": [
+            "E2"
+          ],
+          "status": "supportive_with_exact_disease_adverse_event",
+          "human_n": 1,
+          "start_age_months": 47,
+          "daily_dose_mg": 50,
+          "alt_peak_IU_L": 118,
+          "reduced_frequency_per_week": 3,
+          "twice_weekly": "Trough metabolite recurrence."
+        }
+      ],
+      "comparator": {
+        "practical": "Standardized supportive cardiac and metabolic care with longitudinal pretreatment trajectory.",
+        "claim_limit": "No randomized comparator in inspected treatment reports."
+      },
+      "decision": "retain_genotype_specific_human_rescue_formulation_programme_hold",
+      "s_tier": false,
+      "decisive_proof": "Precise pediatric formulation and durable tolerable exposure linked to metabolite control and independently assessed cardiac/developmental function; post-deficit patient-derived cardiac response can test biochemical/function separation.",
+      "stop_conditions": [
+        "Sustained hepatic injury at exposures required for pathway control.",
+        "Adequate engagement repeatedly fails to improve the selected reversible function.",
+        "No differentiated deliverable beyond an existing marketed ingredient and published repurposing."
+      ],
+      "availability": {
+        "public_identity": "verified",
+        "marketed_product": "verified for adult AML",
+        "pediatric_delivery": "unresolved; label directs whole tablets",
+        "study_supply": "not checked",
+        "commercial_attribution": "BMS/Celgene; licensed from Servier in label",
+        "development_rights": "not established",
+        "sources": [
+          "E3"
+        ]
+      },
+      "material_unknowns": [
+        "2023 full report and exact serial cardiac data not retrieved",
+        "Independent controlled long-term benefit",
+        "Chronic childhood PK and formulation",
+        "Current population census/economics",
+        "2026 infant report primary results unverified"
+      ],
+      "screen_date": "2026-11-04",
+      "primary_source_urls": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/jmd2.12421",
+        "https://pubmed.ncbi.nlm.nih.gov/37248298/"
+      ]
+    },
+    {
+      "id": "R5_SODIUM_PHENYLBUTYRATE_BSEP_PFIC2",
+      "name": "Sodium phenylbutyrate for ABCB11/BSEP-trafficking PFIC2",
+      "exact_entity": {
+        "name": "sodium 4-phenylbutyrate",
+        "products": [
+          "Ammonaps in 2015 series",
+          "Buphenyl in Japan programme"
+        ],
+        "2015_dose_as_reported": {
+          "initial_mg_kg_day": [
+            150,
+            250
+          ],
+          "doses_per_day": 2,
+          "maximum_mg_kg_day": 500,
+          "maximum_g_day": 20
+        },
+        "not_equivalent_by_assumption": "glycerol phenylbutyrate",
+        "sources": [
+          "P1",
+          "P3",
+          "P4"
+        ]
+      },
+      "use": {
+        "gene": "ABCB11",
+        "target": "BSEP",
+        "disease": "PFIC2",
+        "alleles_in_2015_series": [
+          "G982R",
+          "R1128C",
+          "T1210P"
+        ],
+        "timing": "Established cholestatic disease",
+        "restriction": "Evidence for mistrafficking/residual pump function; do not transfer to null or transport-dead alleles."
+      },
+      "dedup": {
+        "status": "new_exact_use_in_schema4",
+        "aliases_searched": [
+          "PFIC2",
+          "ABCB11",
+          "BSEP",
+          "phenylbutyrate"
+        ],
+        "existing_related": "Phenylbutyrate is already screened for other disease/use pairs.",
+        "do_not_double_count": [
+          "2012 T1210P case potentially overlaps 2015 series",
+          "Regulatory reuse of existing clinical datasets"
+        ]
+      },
+      "evidence": [
+        {
+          "sources": [
+            "P1"
+          ],
+          "status": "supportive_human_transport_series",
+          "human_n": 4,
+          "cointerventions_unchanged": [
+            "UDCA",
+            "rifampicin"
+          ],
+          "functional_bridge": "Canalicular localization and biliary bile-acid concentration."
+        },
+        {
+          "sources": [
+            "P4"
+          ],
+          "status": "regulatory_uncontrolled_phase2",
+          "human_n": 6,
+          "week24_histology_criterion_met": 3
+        },
+        {
+          "sources": [
+            "P3",
+            "P4"
+          ],
+          "status": "approved_occupied_programme",
+          "jurisdiction": "Japan",
+          "approval_announced": "2026-08-24",
+          "indication_scope": [
+            "PFIC1",
+            "PFIC2"
+          ]
+        },
+        {
+          "sources": [
+            "P5"
+          ],
+          "status": "non_efficacy_termination",
+          "reason": "Funding withdrawal; no efficacy result."
+        }
+      ],
+      "comparator": {
+        "practical": "Existing sodium phenylbutyrate programme, stable UDCA/background care, and relevant IBAT inhibition.",
+        "sources": [
+          "P1",
+          "P4"
+        ]
+      },
+      "decision": "occupied_approved_benchmark_not_new_open_asset",
+      "s_tier": false,
+      "decisive_proof": "A defined new product must improve transport, tolerability or native-liver outcomes beyond existing approaches; no differentiated product means stop the new-asset branch.",
+      "stop_conditions": [
+        "No measurable advantage over the existing programme.",
+        "Variant has no rescuable transporter function.",
+        "Only localization improves without useful transport/function."
+      ],
+      "availability": {
+        "public_identity": "verified",
+        "japan_approved_programme": "verified",
+        "commercial_attribution": "OrphanPacific exclusive Immedica licence in Japan",
+        "rights_elsewhere": "not determined",
+        "stock_or_study_supply": "not checked",
+        "sources": [
+          "P3",
+          "P4"
+        ]
+      },
+      "material_unknowns": [
+        "Detailed participant overlap of historical series",
+        "Effect size versus contemporary comparator",
+        "Genotype-specific benefit outside published responders",
+        "New-project value capture"
+      ],
+      "screen_date": "2026-11-04",
+      "primary_source_urls": [
+        "https://clinicaltrials.gov/study/NCT04531878",
+        "https://en.cmicgroup.com/news-events/notice-regarding-approval-of-a-partial-change-to-the-marketing-authorization-for-sodium-phenylbutyrate-for-progressive-familial-intrahepatic-cholestasis-pfic-types-1-and-2/",
+        "https://pubmed.ncbi.nlm.nih.gov/25716872/",
+        "https://www.pmda.go.jp/drugs/2026/P20260903002/181251000_22400AMX01398_A100_1.pdf"
+      ]
+    },
+    {
+      "id": "R5_DESOGESTREL_PHOX2B_PARM_CCHS",
+      "name": "Desogestrel for PHOX2B-PARM CCHS ventilatory rescue",
+      "exact_entity": {
+        "candidate": "desogestrel 75 micrograms/day",
+        "new_initiation_duration": "3 weeks to 3 months",
+        "separate_negative_trial_product": {
+          "desogestrel_mg": 0.15,
+          "ethinylestradiol_mg": 0.03,
+          "brand": "Reclipsen",
+          "duration_weeks": 3
+        },
+        "sources": [
+          "D1",
+          "D2"
+        ]
+      },
+      "use": {
+        "gene": "PHOX2B",
+        "allele_class": "PARM",
+        "disease": "congenital central hypoventilation syndrome",
+        "phenotype": "Established deficient ventilatory control",
+        "population_limit": "Adult/pubertal women in the inspected reports; no generalized sex/age claim."
+      },
+      "dedup": {
+        "status": "new_exact_use_in_schema4",
+        "aliases_searched": [
+          "desogestrel",
+          "levonorgestrel",
+          "PHOX2B",
+          "CCHS",
+          "hypoventilation"
+        ],
+        "do_not_double_count": [
+          "Previously published responder included in 2024 cohort",
+          "2014/2015 abstract and 2024 full report",
+          "Different progestin regimens pooled as one exact product"
+        ]
+      },
+      "evidence": [
+        {
+          "sources": [
+            "D1"
+          ],
+          "status": "negative_new_initiation_confounded_existing_responders",
+          "cohort_n": 5,
+          "new_initiation_n": 3,
+          "new_initiation_robust_responders": 0,
+          "longstanding_preselected_responders": 2,
+          "responder_product_difference": true,
+          "response_persisted_after_washout": true
+        },
+        {
+          "sources": [
+            "D2"
+          ],
+          "status": "primary_posted_negative_combination_trial",
+          "n": 1,
+          "stopped_for_nonresponse": true,
+          "sleep_off_ventilation_seconds": 89,
+          "change_from_baseline": "not established"
+        }
+      ],
+      "comparator": {
+        "practical": "Within-person pretreatment and controlled physiological assessment; established ventilatory support remains the functional benchmark.",
+        "claim_limit": "Awake CO2 response is not adequate sleep ventilation."
+      },
+      "decision": "stop_broad_fundable_ventilatory_rescue_claim",
+      "s_tier": false,
+      "decisive_proof": "Independent prospective responders on a defined product, prespecified selection rule, and sustained improvement in actual sleep ventilation; historical responder reuse cannot qualify.",
+      "stop_conditions": [
+        "New initiation fails the relevant functional deficit.",
+        "Selection biomarker is identified only after years of treatment.",
+        "Only awake chemosensitivity changes without meaningful sleep ventilation benefit."
+      ],
+      "availability": {
+        "product_identity": "resolved for the inspected regimens",
+        "material_supply": "not checked",
+        "development_rights": "not assessed because efficacy gate fails"
+      },
+      "material_unknowns": [
+        "Prospective predictive value of HRV",
+        "Duration dependence",
+        "Sex/age generalization",
+        "Sustained sleep-ventilation rescue"
+      ],
+      "screen_date": "2026-11-04",
+      "primary_source_urls": [
+        "https://clinicaltrials.gov/study/NCT01500473",
+        "https://link.springer.com/article/10.1186/s12931-023-02625-w"
+      ]
+    },
+    {
+      "id": "R5_TEBAPIVAT_PIEZO1_HX_MATURE_RBC",
+      "name": "Tebapivat for mature-red-cell rescue in PIEZO1 hereditary xerocytosis",
+      "exact_entity": {
+        "name": "tebapivat",
+        "alias": "AG-946",
+        "concentration": null,
+        "incubation_duration": null,
+        "missing_reason": "Not recovered from inspected primary publisher abstract; no transfer from mitapivat or another study.",
+        "sources": [
+          "T1",
+          "T2"
+        ]
+      },
+      "use": {
+        "gene": "PIEZO1",
+        "allele_class": "gain of function",
+        "disease": "hereditary xerocytosis/dehydrated hereditary stomatocytosis",
+        "timing": "Ex vivo treatment of already abnormal mature patient RBCs"
+      },
+      "dedup": {
+        "status": "new_exact_use_in_schema4",
+        "aliases_searched": [
+          "tebapivat",
+          "AG-946",
+          "PIEZO1",
+          "xerocytosis"
+        ],
+        "existing_related": "Senicapoc/KCNN4 already present.",
+        "not_counted_as_sixth_candidate": "KCNN4 subgroup within same study",
+        "not_interchangeable": "Mitapivat or intervention during erythropoiesis"
+      },
+      "evidence": [
+        {
+          "sources": [
+            "T1"
+          ],
+          "status": "pathway_engagement_without_general_functional_rescue",
+          "piezo1_patient_n": 12,
+          "kcnn4_patient_n": 3,
+          "control_n": 10,
+          "pk_activity_increase_percent": ">40",
+          "piezo1_dehydration": "Generally not corrected",
+          "kcnn4_ohyper_change_mOsm_kg": ">10",
+          "independent_family_count": null
+        }
+      ],
+      "comparator": {
+        "practical": "Genotype-stratified vehicle and hydration/deformability/survival outcomes; senicapoc for KCNN4 only as separately justified comparator.",
+        "claim_limit": "Enzyme activity is not the desired physical or survival endpoint."
+      },
+      "decision": "stop_high_priority_mature_PIEZO1_rescue_claim",
+      "s_tier": false,
+      "decisive_proof": "Replicated variant-defined functional rescue or survival benefit at documented exposure, beyond enzyme activation. KCNN4 needs its own evidence and decision.",
+      "stop_conditions": [
+        "Continued failure of meaningful physical/survival rescue despite engagement.",
+        "Only other-compound or earlier-erythropoiesis results support the claim."
+      ],
+      "availability": {
+        "public_identity": "named exact molecule in primary study",
+        "research_supply": "not checked",
+        "commercial_rights": "not established",
+        "availability_failure_claimed": false,
+        "clinical_programme": "Agios SCD phase 2 ACTIVE_NOT_RECRUITING; does not establish HX efficacy or supply.",
+        "sources": [
+          "T2"
+        ]
+      },
+      "material_unknowns": [
+        "Exact concentration and timing",
+        "Genotypes/family independence within cohort",
+        "Longer-term survival/haemolysis benefit",
+        "Human HX dosing and outcomes"
+      ],
+      "screen_date": "2026-11-04",
+      "primary_source_urls": [
+        "https://clinicaltrials.gov/study/NCT06924970",
+        "https://www.sciencedirect.com/science/article/pii/S3050598425000241"
+      ]
+    }
+  ],
+  "interpretation_limits": [
+    "Scientific signal, exact material, study access, development rights and value capture are separate.",
+    "No candidate inherits analogue or combination evidence without a bridge.",
+    "No counts are added across duplicate article/abstract/regulatory reporting.",
+    "No S-tier assignment is required by the screen."
+  ],
+  "companion_report": "round5_additional_screen.md",
+  "unverified_discovery_only": [
+    {
+      "title": "Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria",
+      "candidate_doi": "10.1016/j.ymgme.2026.110094",
+      "status": "Bibliographic identity verified via publisher-deposited metadata; primary efficacy results not retrieved or counted.",
+      "sources": [
+        "E4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "schema_version": 1,
+  "round": 5,
+  "evidence_cut": "2026-11-04",
+  "workstream": "BLU3797 pharmacology, exposure, chemistry, public comparators and bounded patent review",
+  "candidate": "BLU3797 for MTM1-associated XLMTM",
+  "decision": "Continue a staged independent proof; no S-tier or development-candidate promotion",
+  "scope_constraints": [
+    "No outreach",
+    "No procurement",
+    "No experiments",
+    "No remote writes",
+    "No FTO opinion",
+    "No human dosing inference"
+  ],
+  "main_conclusion": "Published evidence supports a potent mouse-active PIK3C2B tool. Released data do not establish sustained selective free-muscle exposure or a quantified neural safety margin.",
+  "new_findings": [
+    {
+      "id": "PH5-01",
+      "kind": "unresolved_source_reconciliation",
+      "finding": "Published BLU3797 PIK3C3 NanoBRET IC50 14,366 nM is not supported by released response cells, all twenty of which are zero. Duplicate Fig1C cells and plotted curve agree with the zero-response dataset.",
+      "source_cells": [
+        "Table 1!A16:A25",
+        "Table 1!J16:K25",
+        "Fig 1C!J13:K22"
+      ],
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ],
+      "interpretation": "Do not substitute a new IC50 or infer a new off-target toxicity. Root independently confirmed."
+    },
+    {
+      "id": "PH5-02",
+      "kind": "assay_interpretation_inference",
+      "finding": "Biochemical IC50 28 nM is near half the nominal final enzyme concentration 60 nM.",
+      "sources": [
+        "PH-S01",
+        "PH-S07",
+        "PH-S08"
+      ],
+      "interpretation": "Possible tight-binding/ligand-depletion floor; no Ki derived. Active enzyme fraction or method transcription could differ. Not a falsification of inhibition."
+    },
+    {
+      "id": "PH5-03",
+      "kind": "measurement_scope",
+      "finding": "Fig6A and S6B contain cross-sectional end-of-study/after-final-dose plasma values without post-dose hours or free-versus-total bioanalysis specification.",
+      "sources": [
+        "PH-S01",
+        "PH-S02",
+        "PH-S03"
+      ],
+      "interpretation": "Cannot reconstruct 24h Ctrough, free-muscle exposure, AUC, half-life, clearance, bioavailability or Kp,uu."
+    },
+    {
+      "id": "PH5-04",
+      "kind": "missing_parameter",
+      "finding": "FBS-corrected NanoBRET thresholds appear only as graphical lines; binding fraction, correction equation and numeric threshold values not supplied in inspected package.",
+      "sources": [
+        "PH-S01",
+        "PH-S02",
+        "PH-S03"
+      ],
+      "interpretation": "Do not infer 1% unbound fraction or equate serum correction with mouse-muscle free exposure."
+    },
+    {
+      "id": "PH5-05",
+      "kind": "material_accounting_reconciliation",
+      "finding": "Final BLU3797 product 21.7 mg from 0.114 mmol is reported as 38% yield; neutral-MW arithmetic gives approximately44.7% if no purity/form correction.",
+      "sources": [
+        "PH-S01",
+        "PH-S04"
+      ],
+      "interpretation": "Omitted correction, material form or transcription possible; no cause or corrected yield asserted."
+    },
+    {
+      "id": "PH5-06",
+      "kind": "new_comparator_route",
+      "finding": "WO2025003330A1 provides exact distinct-core C2β inhibitor examples47/91. Functional panel favors47;91 has substantial off-target inhibition at10µM despite a clean lysate-kinobead summary.",
+      "sources": [
+        "PH-S12"
+      ],
+      "interpretation": "47 is a comparator qualification candidate, not validated human-muscle treatment or rights-free asset."
+    },
+    {
+      "id": "PH5-07",
+      "kind": "bounded_patent_status",
+      "finding": "PCT entry is labeled ceased but EP4734987A1/CN121816181A national branches are displayed pending. Actual Formula1 claim is broader than title examples.",
+      "sources": [
+        "PH-S12",
+        "PH-S15",
+        "PH-S16"
+      ],
+      "interpretation": "No definitive BLU Markush mapping or FTO conclusion. Official EPO register retrieval403."
+    },
+    {
+      "id": "PH5-08",
+      "kind": "public_program_search",
+      "finding": "ClinicalTrials.gov exact-code API search returns0 studies; code/target query returns1 unrelated observational biomarker study.",
+      "sources": [
+        "PH-S19",
+        "PH-S20"
+      ],
+      "interpretation": "No named clinical BLU program located; not proof of abandonment or licensing availability."
+    }
+  ],
+  "exact_article": {
+    "name": "(S)-N-(5-(2-(1-cyclopropylethyl)-7-(cyclopropylmethoxy)-1-oxoisoindolin-5-yl)-4-methylthiazol-2-yl)acetamide",
+    "stereochemistry": "S as named and drawn in primary paper",
+    "formula": "C23H27N3O3S",
+    "formula_provenance": "vendor listing, consistent with named structure",
+    "molecular_weight_g_per_mol": 425.55,
+    "mw_provenance": "vendor listing",
+    "lcms_reported": {
+      "mz": 426,
+      "ion": "[M+H]+"
+    },
+    "analytical_support": [
+      "Primary chemical structure",
+      "Named S synthesis",
+      "Nominal LCMS",
+      "1H-NMR peak list"
+    ],
+    "not_established": [
+      "Final BLU3797 numerical purity",
+      "Absolute assay content",
+      "Counterion/solvate of actual isolated solid",
+      "Enantiomeric purity",
+      "Lot-specific vendor COA",
+      "Residual Pd/impurity profile",
+      "Stability"
+    ],
+    "vendor": {
+      "name": "Probechem",
+      "catalog": "PC-26519",
+      "sizes_mg": [
+        50,
+        100,
+        250
+      ],
+      "status": "quote-only listing, not verified physical stock",
+      "claimed_purity": ">98% HPLC",
+      "cas": "blank on inspected page"
+    },
+    "route": {
+      "advanced_intermediate": "(S)-5-bromo-2-(1-cyclopropylethyl)-7-fluoroisoindolin-1-one",
+      "journal_final_transformations": 2,
+      "reported_final_stage_yields_percent": [
+        85,
+        38
+      ],
+      "upstream_disclosures": [
+        "US20240226104A1",
+        "CN119490502A A-1-1c"
+      ],
+      "status": "Public reconstruction plausible; not independently reproduced; not FTO"
+    },
+    "yield_arithmetic": {
+      "reported_product_mg": 21.7,
+      "starting_intermediate_mmol": 0.114,
+      "reported_yield_percent": 38,
+      "derived_neutral_no_correction_yield_percent": 44.73055509175947,
+      "assumptions": [
+        "Neutral named structure MW425.55",
+        "No purity/form correction"
+      ],
+      "cause": "unresolved"
+    },
+    "sources": [
+      "PH-S01",
+      "PH-S04",
+      "PH-S05",
+      "PH-S06"
+    ]
+  },
+  "biochemical_assay": {
+    "target": "human PIK3C2B",
+    "enzyme_supplier_catalog_as_printed": "Thermo Fisher PV3574l",
+    "assay": "ADP-Glo",
+    "final_enzyme_nM": 60,
+    "ATP_mM": 1,
+    "lipid_substrate": "phosphatidylinositol diC8",
+    "lipid_substrate_nM_as_printed": 150,
+    "preincubation_minutes": 10,
+    "catalytic_reaction_duration": "not specified in inspected method",
+    "fit": "four-parameter logistic",
+    "full_inhibition_control": "10 µM BGT-226",
+    "BLU3797_ic50_nM": 28,
+    "BLU2720_ic50_nM": 1000,
+    "BLU3797_raw_cells": "Fig 1B!F3:H12",
+    "BLU2720_raw_cells": "Fig 1B!C3:D12",
+    "doses_cells": "Fig 1B!A3:A12",
+    "half_nominal_enzyme_nM": 30,
+    "Ki_calculated": false,
+    "sources": [
+      "PH-S01",
+      "PH-S02",
+      "PH-S07",
+      "PH-S08"
+    ]
+  },
+  "cellular_pharmacology": [
+    {
+      "compound": "BLU3797",
+      "target": "PIK3C2B",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 68.2,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!A6:A15",
+      "raw_response_cells": "Table 1!B6:E15",
+      "n_value_columns": 4,
+      "raw_dose_unit_status": "nM explicitly labeled",
+      "qualification": "Supported dose-response; independent-versus-technical replicate structure unspecified",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    },
+    {
+      "compound": "BLU3797",
+      "target": "PIK3CA",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 20000,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!A16:A25",
+      "raw_response_cells": "Table 1!F16:I25",
+      "n_value_columns": 4,
+      "raw_dose_unit_status": "nM explicitly labeled",
+      "qualification": "At assay ceiling; top-dose mean inhibition 43.2631625%; not a well-resolved finite IC50",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    },
+    {
+      "compound": "BLU3797",
+      "target": "PIK3C3",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 14366,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!A16:A25",
+      "raw_response_cells": "Table 1!J16:K25",
+      "n_value_columns": 2,
+      "raw_dose_unit_status": "nM explicitly labeled",
+      "qualification": "All 20 released response values are zero; finite IC50 unreconciled",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    },
+    {
+      "compound": "BLU3797",
+      "target": "PIK3CG",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 7233,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!N6:N15",
+      "raw_response_cells": "Table 1!AD6:AI15",
+      "n_value_columns": 6,
+      "raw_dose_unit_status": "raw dose block unit not labeled",
+      "qualification": "Published fitted value retained; no raw curve refitted",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    },
+    {
+      "compound": "BLU3797",
+      "target": "PIK3CD",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 12364,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!N6:N15",
+      "raw_response_cells": "Table 1!W6:AB15",
+      "n_value_columns": 6,
+      "raw_dose_unit_status": "raw dose block unit not labeled",
+      "qualification": "Published fitted value retained; no raw curve refitted",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    },
+    {
+      "compound": "BLU3797",
+      "target": "PIK3C2G",
+      "assay": "NanoBRET live-cell target engagement",
+      "reported_ic50": 6759,
+      "reported_units": "nM",
+      "species": "human target construct; assay host cell not specified in inspected Methods",
+      "matrix": "live cells expressing NanoLuc target fusion",
+      "duration": "not specified",
+      "free_or_total": "nominal assay concentration; free intracellular concentration not measured",
+      "raw_dose_cells": "Table 1!N6:N15",
+      "raw_response_cells": "Table 1!P6:U15",
+      "n_value_columns": 6,
+      "raw_dose_unit_status": "raw dose block unit not labeled",
+      "qualification": "Published fitted value retained; no raw curve refitted",
+      "sources": [
+        "PH-S01",
+        "PH-S02"
+      ]
+    }
+  ],
+  "cellular_missing_isoforms": [
+    "PIK3C2A",
+    "PIK3CB"
+  ],
+  "nanobret_transfer_gaps": [
+    "Tracer identity",
+    "Tracer concentration and affinity",
+    "Host cell line in inspected Methods",
+    "Serum and assay incubation conditions",
+    "Equilibrium validation",
+    "Unbound intracellular exposure"
+  ],
+  "kinomescan": {
+    "compound": "BLU3797",
+    "test_concentration_uM": 3,
+    "S10": 0.015,
+    "format": "cell-free binding screen",
+    "target_level_raw_table_located": false,
+    "raw_workbook_Fig1E_sheet_present": false,
+    "not_equivalent_to": "functional selectivity at sustained tissue exposure",
+    "sources": [
+      "PH-S01",
+      "PH-S02"
+    ]
+  },
+  "pk_measurements": [
+    {
+      "compound": "BLU3797",
+      "species": "Mus musculus",
+      "sex": "male",
+      "genotype": "Mtm1-/y",
+      "matrix": "plasma",
+      "units": "ng/mL",
+      "dose_mg_per_kg": 25,
+      "regimen": "P22 QD",
+      "sampling_time": "end of 10-day study; post-dose interval not reported",
+      "free_or_total": "not explicitly reported; not established as unbound",
+      "cell_range": "Fig 6A!A3:A8",
+      "n_values": 6,
+      "values": [
+        3520,
+        5430,
+        6450,
+        3370,
+        6030,
+        5340
+      ],
+      "mean": 5023.333333333333,
+      "median": 5385.0,
+      "minimum": 3370,
+      "maximum": 6450,
+      "sd_sample": 1289.0254716904033,
+      "sem_descriptive": 526.2424451819818,
+      "n_biological": "cell count consistent with reported animals, individual IDs absent"
+    },
+    {
+      "compound": "BLU3797",
+      "species": "Mus musculus",
+      "sex": "male",
+      "genotype": "Mtm1-/y",
+      "matrix": "plasma",
+      "units": "ng/mL",
+      "dose_mg_per_kg": 50,
+      "regimen": "P22 QD",
+      "sampling_time": "end of 10-day study; post-dose interval not reported",
+      "free_or_total": "not explicitly reported; not established as unbound",
+      "cell_range": "Fig 6A!B3:B8",
+      "n_values": 6,
+      "values": [
+        6370,
+        7720,
+        8320,
+        7980,
+        7090,
+        6380
+      ],
+      "mean": 7310,
+      "median": 7405.0,
+      "minimum": 6370,
+      "maximum": 8320,
+      "sd_sample": 828.7339742040265,
+      "sem_descriptive": 338.329228218117,
+      "n_biological": "cell count consistent with reported animals, individual IDs absent"
+    },
+    {
+      "compound": "BLU3797",
+      "species": "Mus musculus",
+      "sex": "male",
+      "genotype": "Mtm1-/y",
+      "matrix": "plasma",
+      "units": "ng/mL",
+      "dose_mg_per_kg": 100,
+      "regimen": "P22 QD",
+      "sampling_time": "end of 10-day study; post-dose interval not reported",
+      "free_or_total": "not explicitly reported; not established as unbound",
+      "cell_range": "Fig 6A!C3:C9",
+      "n_values": 7,
+      "values": [
+        5590,
+        10300,
+        12400,
+        11000,
+        9000,
+        10900,
+        8990
+      ],
+      "mean": 9740,
+      "median": 10300,
+      "minimum": 5590,
+      "maximum": 12400,
+      "sd_sample": 2185.368008673444,
+      "sem_descriptive": 825.9914677294825,
+      "n_biological": "cell count consistent with reported animals, individual IDs absent"
+    },
+    {
+      "compound": "BLU3797",
+      "species": "Mus musculus",
+      "sex": "male",
+      "genotype": "Mtm1-/y",
+      "matrix": "plasma",
+      "units": "ng/mL",
+      "dose_mg_per_kg": 75,
+      "regimen": "P22 BID caption; source dosing-history discrepancy",
+      "sampling_time": "after final dose; post-dose interval not reported",
+      "free_or_total": "not explicitly reported; not established as unbound",
+      "cell_range": "Fig S6B!A3:A5",
+      "n_values": 3,
+      "values": [
+        22600,
+        28400,
+        21000
+      ],
+      "mean": 24000,
+      "median": 22600,
+      "minimum": 21000,
+      "maximum": 28400,
+      "sd_sample": 3893.584466786357,
+      "sem_descriptive": 2247.9620400116487,
+      "n_biological": "cell count consistent with reported animals, individual IDs absent"
+    },
+    {
+      "compound": "BLU3797",
+      "species": "Mus musculus",
+      "sex": "male",
+      "genotype": "Mtm1-/y",
+      "matrix": "plasma",
+      "units": "ng/mL",
+      "dose_mg_per_kg": 75,
+      "regimen": "P25 BID",
+      "sampling_time": "after final dose; post-dose interval not reported",
+      "free_or_total": "not explicitly reported; not established as unbound",
+      "cell_range": "Fig S6B!B3:B6",
+      "n_values": 4,
+      "values": [
+        32700,
+        29200,
+        26900,
+        23400
+      ],
+      "mean": 28050,
+      "median": 28050.0,
+      "minimum": 23400,
+      "maximum": 32700,
+      "sd_sample": 3911.095328250983,
+      "sem_descriptive": 1955.5476641254916,
+      "n_biological": "cell count consistent with reported animals, individual IDs absent"
+    }
+  ],
+  "pk_qualifications": {
+    "unit_source": "Visually inspected y axes Fig6A and S6B: ng/mL",
+    "free_or_total": "not explicitly reported; cannot assert measured unbound",
+    "graphical_thresholds": {
+      "ic50_approx_ng_per_mL": 3000,
+      "ic90_approx_ng_per_mL": 30000,
+      "precision": "approximate visual reading only; not used for exposure-margin calculation",
+      "label": "FBS-corrected NanoBRET",
+      "formula_and_binding_fraction": "not located"
+    },
+    "author_claims": [
+      "QD could furnish24-hour Ctrough at target IC50",
+      "75mg/kg BID intended to achieve IC90 trough"
+    ],
+    "claim_status": "Author interpretation; raw released snapshots do not independently reconstruct concentration–time course",
+    "inherited_schedule_discrepancy": "Fig S6A!C2 BIDx5 and QDx3 versus five days BID in S6 caption",
+    "not_calculated": [
+      "Unbound fraction",
+      "Free muscle or brain concentration",
+      "Cmax",
+      "AUC",
+      "Half-life",
+      "Clearance",
+      "Oral bioavailability fraction",
+      "Kp",
+      "Kp,uu",
+      "Human dose",
+      "Neural safety margin"
+    ],
+    "sources": [
+      "PH-S01",
+      "PH-S02",
+      "PH-S03"
+    ]
+  },
+  "adme_public_gaps": [
+    "Species-specific plasma binding",
+    "Blood/plasma partitioning",
+    "Muscle/brain total and unbound distribution",
+    "Hepatocyte/microsomal clearance",
+    "Metabolite identification",
+    "CYP inhibition/induction",
+    "Transporter profile",
+    "Permeability/efflux",
+    "Aqueous solubility",
+    "Plasma stability",
+    "Chronic exposure-linked neural/hepatic safety"
+  ],
+  "adme_interpretation": "No located public measurement; absence is not a negative result or proof sponsor never measured it. No structure-derived metabolic liability asserted.",
+  "new_comparator_family": {
+    "family": "WO2025003330A1",
+    "applicant": "Forschungsverbund Berlin",
+    "priority_date": "2023-06-30",
+    "publication_date": "2025-01-02",
+    "assay": {
+      "species": "human engineered protein",
+      "construct": "PI3KC2β Δ1–297, DPK1248–1250→KKT, N-terminal His10",
+      "enzyme_ng_per_uL": 10,
+      "ATP_uM": 40,
+      "PI_uM": 200,
+      "reported_ATP_Km_uM": 63.7,
+      "comparability": "Not matched to BLU 1mM ATP/commercial enzyme assay",
+      "replication": "Triplicates apply to enzyme/ATP characterization; individual IC50/panel replicate counts unclear"
+    },
+    "examples": [
+      {
+        "number": 47,
+        "name": "N-(5-(1-((2,3-dichlorophenyl)sulfonyl)-1,2,3,4-tetrahydroquinolin-6-yl)-4-methylthiazol-2-yl)acetamide",
+        "PIK3C2B_ic50_nM": 56,
+        "PIK3CG_ic50_nM_lower_bound": 10000,
+        "functional_panel_compound_uM": 10,
+        "functional_panel_percent_inhibition": {
+          "PIK3C2A": 5,
+          "PIK3CA_PIK3R1": 24,
+          "PIK3CB_PIK3R1": 14,
+          "PIK3C3": -13,
+          "PIK3CG_row1": 14,
+          "PIK3CG_row2": 22
+        },
+        "PIK3C2G_row_status": "not located in Table5",
+        "source_locations": [
+          "Table1 printedp78/PDFp79",
+          "Table5 printedpp129–131/PDFpp130–132"
+        ],
+        "decision": "Prioritize as exact comparator for qualification, not clinical lead"
+      },
+      {
+        "number": 91,
+        "name": "N-(5-(1-((2,3-dihydrobenzo[b][1,4]dioxin-6-yl)sulfonyl)-1,2,3,4-tetrahydroquinolin-6-yl)-4-methylthiazol-2-yl)acetamide",
+        "PIK3C2B_ic50_nM": 48,
+        "PIK3CG_ic50_nM_lower_bound": 10000,
+        "functional_panel_compound_uM": 10,
+        "functional_panel_percent_inhibition": {
+          "PIK3C2A": 6,
+          "PIK3C2G": 77,
+          "PIK3CA_PIK3R1": 59,
+          "PIK3CB_PIK3R1": 2,
+          "PIK3C3": 31,
+          "PIK3CG": 60,
+          "CLK2": 62,
+          "PI4KB": 53,
+          "MAPK14_p38alpha": 50,
+          "AURKB": 48
+        },
+        "source_locations": [
+          "Table1 printedp89/PDFp90",
+          "Table6 printedpp131–132/PDFpp132–133"
+        ],
+        "decision": "Secondary comparator; broader functional inhibition than lysate summary implies"
+      }
+    ],
+    "separate_cellular_articles": {
+      "numbers": [
+        36,
+        40,
+        90,
+        96
+      ],
+      "identifiers": [
+        "DC-03-036",
+        "DC-03-040",
+        "DC-03-090",
+        "DC-03-096"
+      ],
+      "matrix": "HEK cells",
+      "nominal_compound_uM": 1,
+      "duration": "overnight followed by2h PKN1/2 inhibition",
+      "endpoint": "pS6K increase in sensitized system",
+      "not_established": "Native-muscle target occupancy or force; cannot transfer to compounds47/91"
+    },
+    "kinobead_assay": {
+      "matrix": "HEK293 cell lysate",
+      "hit_criterion_apparent_ic50_uM_less_than": 10,
+      "asserted_only_hit": "PIK3C2B for47/91",
+      "qualification": "Lysate assay, not live-cell permeability or complete functional selectivity; figure5 also marks C2G biochemical-only target"
+    },
+    "public_XLMTM_functional_rescue_for_exact_47_or_91_located": false,
+    "public_PK_for_exact_47_or_91_located": false,
+    "chemical_independence": "Distinct core from BLU but shared acetamidothiazole motif; not wholly unrelated chemistry",
+    "sources": [
+      "PH-S12"
+    ]
+  },
+  "other_comparators": [
+    {
+      "article": "PITCOIN2",
+      "finding": "Reported C2β IC50 1.5µM with C2α co-inhibition; partially restored activeβ1-integrin surface in MTM1-KO myoblasts; PITCOIN3 and genetic comparisons strengthen inference",
+      "qualification": "Not clean C2β-selective; no force extrapolation",
+      "sources": [
+        "PH-S13"
+      ]
+    },
+    {
+      "article": "PI-701/PI-702",
+      "finding": "Legacy C2β-focused tools with incomplete class-II/kinome selectivity coverage",
+      "qualification": "Do not use isoform-selective label as a fully profiled orthogonal control",
+      "sources": [
+        "PH-S14"
+      ]
+    }
+  ],
+  "patent_review": {
+    "scope": "Bounded public disclosure/claim review, not legal FTO or patentability opinion",
+    "route_patents": [
+      "US20240226104A1",
+      "CN119490502A"
+    ],
+    "new_family": "WO2025003330A1",
+    "actual_claim_observation": "Formula1 use claim permits broader heteroaromatic/fused-ring substitution than title examples. Definitive BLU Markush inclusion/exclusion not charted.",
+    "national_branches": [
+      {
+        "publication": "EP4734987A1",
+        "publication_date": "2026-05-06",
+        "displayed_status": "Pending"
+      },
+      {
+        "publication": "CN121816181A",
+        "publication_date": "2026-04-07",
+        "displayed_status": "Pending"
+      }
+    ],
+    "PCT_displayed_status": "Ceased",
+    "PCT_status_interpretation": "Does not imply national claims ceased or rights-free material",
+    "official_register_attempt": {
+      "url": "https://register.epo.org/espacenet/application?number=EP24737741",
+      "result": "403 Forbidden",
+      "consequence": "Status remains aggregator observation"
+    },
+    "exact_BLU3797_patent_family_confirmed": false,
+    "sources": [
+      "PH-S05",
+      "PH-S06",
+      "PH-S12",
+      "PH-S15",
+      "PH-S16"
+    ]
+  },
+  "program_status": {
+    "sponsor": "Blueprint Medicines, Sanofi subsidiary",
+    "acquisition_completed": "2025-07-18",
+    "current_core_programs_page": [
+      "avapritinib",
+      "elenestinib",
+      "BLU-808"
+    ],
+    "exact_code_CTgov_count": 0,
+    "target_or_code_CTgov_count": 1,
+    "only_target_query_record": "NCT07695467",
+    "only_target_query_record_type": "unrelated observational obstetric biomarker study",
+    "conclusion": "No named clinical BLU3797 program located; no abandonment/licensing-availability inference",
+    "sources": [
+      "PH-S17",
+      "PH-S18",
+      "PH-S19",
+      "PH-S20"
+    ]
+  },
+  "decision_rules": [
+    "Continue exact BLU only if authenticated material and qualified engagement support useful post-deficit human muscle function with a relevant injury margin.",
+    "Continue target with another exact article if orthogonal catalytic evidence supports function while BLU fails on its own chemistry or distribution.",
+    "Reduce target priority if an engaged catalytic intervention fails in a qualified disease model with a demonstrated post-deficit functional positive control, or measured relevant-tissue exposure shows that necessary muscle inhibition cannot be separated from injury. Prior genetic correction alone establishes disease causality, not delayed modifiability; equal-concentration culture overlap alone leaves in-vivo distribution unresolved.",
+    "Do not interpret unqualified article/assay/model negatives as target falsification."
+  ],
+  "sources": [
+    {
+      "id": "PH-S01",
+      "title": "Shearer et al. BLU3797 primary article",
+      "source_type": "primary_research",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "doi": "10.1172/jci.insight.198568",
+      "location": "Methods; Table 1; Figures 1 and 6; source disclosure",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S02",
+      "title": "Publisher supporting data workbook",
+      "source_type": "primary_source_data",
+      "url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/198000/198568/jci.insight.198568.sdval.xlsx",
+      "doi": null,
+      "location": "Table 1; Fig 1B/C/D; Fig 6A; Fig S6B",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S03",
+      "title": "Publisher BLU3797 supplement",
+      "source_type": "primary_supplement",
+      "url": "https://insight.jci.org/articles/view/198568/sd/pdf/render/1",
+      "doi": null,
+      "location": "PDF page 8, Supplemental Figure 6; original rendered and visually inspected",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S04",
+      "title": "Probechem BLU3797 PC-26519",
+      "source_type": "primary_vendor_listing",
+      "url": "https://www.probechem.com/products_BLU3797.html",
+      "doi": null,
+      "location": "Named S structure; formula; MW; quote-only listing; claimed purity",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S05",
+      "title": "US20240226104A1",
+      "source_type": "published_patent",
+      "url": "https://patents.google.com/patent/US20240226104A1/en",
+      "doi": null,
+      "location": "Matching S fluoroisoindolinone intermediate; claims; applicant",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S06",
+      "title": "CN119490502A",
+      "source_type": "published_patent_translated",
+      "url": "https://patents.google.com/patent/CN119490502A/en",
+      "doi": null,
+      "location": "Key intermediate A-1, A-1-1c, steps 1–3",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S07",
+      "title": "Assay Guidance Manual: Basics of Enzymatic Assays for HTS",
+      "source_type": "official_technical_guidance",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK92007/?report=printable",
+      "doi": null,
+      "location": "IC50 lower limit at half enzyme concentration",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S08",
+      "title": "Assay Guidance Manual: Mechanism of Action Assays for Enzymes",
+      "source_type": "official_technical_guidance",
+      "url": "https://ncbi.nlm.nih.gov/sites/books/NBK92001/",
+      "doi": null,
+      "location": "Tight-binding/ligand depletion",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S09",
+      "title": "Vasta et al. Quantitative wide-spectrum kinase profiling in live cells",
+      "source_type": "primary_research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5814754/",
+      "doi": null,
+      "location": "Cellular ATP and quantitative target engagement",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S10",
+      "title": "Promega NanoBRET target engagement documentation",
+      "source_type": "primary_manufacturer_protocol",
+      "url": "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=NF1200",
+      "doi": null,
+      "location": "Tracer concentration near calibrated EC50",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S11",
+      "title": "Addgene NanoLuc-PIK3C2B Fusion Vector 238834",
+      "source_type": "primary_construct_catalog",
+      "url": "https://www.addgene.org/238834/",
+      "doi": null,
+      "location": "Promega-deposited mammalian expression vector",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S12",
+      "title": "WO2025003330A1",
+      "source_type": "published_patent",
+      "url": "https://patents.google.com/patent/WO2025003330A1/en",
+      "doi": null,
+      "location": "Table 1 pp78/89; assays pp124–125,133–134; Tables 5–6 pp129–132; claims p293 onwards; drawing 5/5",
+      "retrieved_date": "2026-11-04",
+      "original_pdf_url": "https://patentimages.storage.googleapis.com/0c/02/82/d70291e8e8f99d/WO2025003330A1.pdf",
+      "visual_verification": {
+        "pdf_total_pages": 319,
+        "printed_to_pdf_page_offset": 1,
+        "verified_pdf_pages": [
+          5,
+          6,
+          79,
+          90,
+          125,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          294,
+          295,
+          314
+        ],
+        "unit_correction": "Original PDF confirms µM; web text frequently OCRs µM as pM. No biological unit changed without visual verification."
+      }
+    },
+    {
+      "id": "PH-S13",
+      "title": "Samsó et al. MTM1/PIK3C2B integrin trafficking",
+      "source_type": "primary_research",
+      "url": "https://pnas.org/doi/full/10.1073/pnas.2202236119",
+      "doi": "10.1073/pnas.2202236119",
+      "location": "PITCOIN2/PITCOIN3 comparison and MTM1-KO myoblasts",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S14",
+      "title": "Kücükdisli et al. PI3KC2 alpha medicinal chemistry",
+      "source_type": "primary_research",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.3c01319",
+      "doi": "10.1021/acs.jmedchem.3c01319",
+      "location": "PI-701 selectivity limits and PITCOIN structures",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S15",
+      "title": "EP4734987A1 national publication",
+      "source_type": "published_patent_with_aggregated_status",
+      "url": "https://patents.google.com/patent/EP4734987A1/en",
+      "doi": null,
+      "location": "Applicant; national publication 2026-05-06; pending displayed",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S16",
+      "title": "CN121816181A national publication",
+      "source_type": "published_patent_with_aggregated_status",
+      "url": "https://patents.google.com/patent/CN121816181A/en",
+      "doi": null,
+      "location": "Applicant; national publication 2026-04-07; pending displayed",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S17",
+      "title": "Sanofi completed Blueprint acquisition",
+      "source_type": "primary_company_release",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-07-18-05-00-00-3117709",
+      "doi": null,
+      "location": "2025-07-18 completion",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S18",
+      "title": "Blueprint current core programs",
+      "source_type": "primary_company_page",
+      "url": "https://www.blueprintmedicines.com/pipeline/core-programs/",
+      "doi": null,
+      "location": "Avapritinib, elenestinib, BLU-808 listed; absence is not abandonment proof",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S19",
+      "title": "ClinicalTrials.gov exact-code API search",
+      "source_type": "primary_registry_query",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=BLU3797+OR+BLU-3797&countTotal=true&format=json",
+      "doi": null,
+      "location": "Direct API retrieval: totalCount 0",
+      "retrieved_date": "2026-11-04"
+    },
+    {
+      "id": "PH-S20",
+      "title": "ClinicalTrials.gov code/target API search",
+      "source_type": "primary_registry_query",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=BLU3797+OR+BLU-3797+OR+PIK3C2B&countTotal=true&format=json",
+      "doi": null,
+      "location": "Direct API retrieval: totalCount 1; NCT07695467 unrelated observational biomarker study",
+      "retrieved_date": "2026-11-04"
+    }
+  ],
+  "files": {
+    "memo": "round5_blu_pharmacology.md",
+    "source_workbook": "research/source-data/blu3797-source-values.xlsx",
+    "source_workbook_sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3"
+  }
+}

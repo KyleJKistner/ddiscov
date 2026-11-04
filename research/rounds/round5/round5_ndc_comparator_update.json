@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "report": "round5_ndc_comparator_update",
+  "task_scope": "Bounded public-source resolution for existing NDC/Darier comparator; no new-lead screen count",
+  "counts": {
+    "new_candidates": 0,
+    "existing_candidates_updated": 2,
+    "S_tier_promotions": 0
+  },
+  "updates": [
+    {
+      "update_id": "R5-NDCU01",
+      "candidate_id": "R3-NL-01",
+      "name": "NDC-9009 / Darier local proof",
+      "new_or_update": "update",
+      "decision": "Retain conditional local qualification; require interpretable dantrolene and current-care benchmarks before advancement. No S tier.",
+      "what_changed": "Dantrolene has an adult clinical completer signal; NDC value must clear a real clinical comparator instead of relying on unknown trial outcomes.",
+      "go": "Identity/free exposure/topical delivery and delayed mature adhesion/permeability rescue, with healthy-tissue and systemic margin plus active comparator.",
+      "stop": "No functional exposure without injury, only markers or differentiation timing, or no meaningful advantage over an obtainable comparator.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6"
+      ]
+    },
+    {
+      "update_id": "R5-NDCU02",
+      "candidate_id": "R3-NL-02",
+      "name": "Dantrolene sodium / Darier",
+      "new_or_update": "update",
+      "decision": "Adult clinical benchmark and mechanistic comparator; weak positive available-case signal, not durable barrier restoration or topical proof.",
+      "supersedes": "Actual SUM-151495 result tables unread; do not infer outcome from trial completion.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S7"
+      ]
+    }
+  ],
+  "trial": {
+    "euct": "2024-519201-36-00",
+    "eudract": "2020-004281-19",
+    "result_notification": "SUM-151495",
+    "metadata_status": {
+      "status": "Submitted",
+      "versionType": "Final",
+      "isFinalResult": true,
+      "submission_date": "2026-09-10",
+      "last_registry_publish_date": "2026-09-11"
+    },
+    "document_status": {
+      "version": "2.0",
+      "date": "2026-09-08",
+      "internal_label": "Draft version 2.0; incorporates sponsor review",
+      "signature_date": "2026-09-10",
+      "peer_reviewed_clinical_paper_verified": false,
+      "caution": "Both public uploads retain draft/editorial text; use as sponsor-submitted evidence. The lay summary identifies a manuscript."
+    },
+    "sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "intervention": {
+      "drug": "dantrolene sodium",
+      "product": "Dantrium hard capsules",
+      "registry_capsule_strength_mg": 25,
+      "route": "oral",
+      "target_daily_mg": 100,
+      "target_schedule": "50 mg twice daily",
+      "titration_weeks": 4,
+      "treatment_months": 6,
+      "followup_months_from_baseline": 9,
+      "achieved_plasma_exposure": null,
+      "epidermal_exposure": null,
+      "topical_product_tested": false
+    },
+    "design": {
+      "center_count": 1,
+      "randomized": false,
+      "blinded": false,
+      "concurrent_control": false,
+      "comparator": "within-participant pretreatment baseline",
+      "analysis": "available paired cases without imputation",
+      "intention_to_treat": false,
+      "protocol_version": "1.6",
+      "protocol_date": "2023-06-05",
+      "first_enrolled": "2023-09-15",
+      "ctis_transition": "2024-11-07",
+      "global_end": "2025-09-10"
+    },
+    "denominators": {
+      "planned": 20,
+      "screened": 19,
+      "screen_failures": 3,
+      "enrolled_and_exposed": 16,
+      "female": 10,
+      "male": 6,
+      "age_range_years": [
+        23,
+        74
+      ],
+      "at_one_month": 16,
+      "at_three_months": 14,
+      "at_six_months": 10,
+      "at_nine_months": 10,
+      "primary_paired_n": 10,
+      "early_discontinuations": 6,
+      "early_discontinuation_fraction": 0.375,
+      "stopped_after_one_month": 2,
+      "stopped_after_three_months": 4,
+      "reported_reason": "Insufficient response for all six in manuscript flow diagram, according to summary; surrounding prose says most commonly",
+      "verified_responder_count": null,
+      "do_not_infer": "10 completers does not mean 10 responders; enrolled n is 16, not planned n20."
+    },
+    "concomitant_therapy": {
+      "acitretin_at_screening_n": 12,
+      "isotretinoin_at_screening_n": 1,
+      "no_systemic_therapy_n": 3,
+      "retinoid_washout_months": 3,
+      "retinoid_restarted_before_nine_month_followup_n": 6,
+      "nine_month_denominator": 10,
+      "permitted_during_trial": [
+        "short courses topical corticosteroids",
+        "emollients",
+        "intercurrent skin infection treatment"
+      ]
+    },
+    "efficacy": [
+      {
+        "endpoint": "PGA",
+        "role": "primary",
+        "paired_n": 10,
+        "paired_baseline_median": 3,
+        "paired_six_month_median": 2,
+        "hodges_lehmann_difference": 1.5,
+        "ci95": [
+          1.0,
+          1.5
+        ],
+        "p": 0.02,
+        "unit": "points",
+        "threshold_predeclared": 1,
+        "threshold_validated_in_Darier": false
+      },
+      {
+        "endpoint": "DLQI",
+        "role": "main secondary",
+        "paired_n": 10,
+        "paired_baseline_median": 10.5,
+        "paired_six_month_median": 3.5,
+        "hodges_lehmann_difference": 4.8,
+        "ci95": [
+          1.5,
+          14.5
+        ],
+        "p": 0.01,
+        "unit": "points",
+        "threshold_predeclared": 4
+      },
+      {
+        "endpoint": "EASI",
+        "role": "secondary",
+        "paired_n": 10,
+        "hodges_lehmann_difference": 3.6,
+        "ci95": [
+          -2.4,
+          18.4
+        ],
+        "p": 0.13,
+        "unit": "points"
+      },
+      {
+        "endpoint": "BSA",
+        "role": "secondary",
+        "paired_n": 10,
+        "hodges_lehmann_difference": 4.0,
+        "ci95": [
+          -0.5,
+          24.0
+        ],
+        "p": 0.1,
+        "unit": "percentage points"
+      }
+    ],
+    "efficacy_notes": [
+      "Positive difference is a reduction/improvement. Reported paired estimates, not independent reanalysis.",
+      "MADRS-S and treatment satisfaction differences were nonsignificant.",
+      "Visit means have changing denominators; secondary analyses are exploratory without multiplicity adjustment.",
+      "The six discontinuers supplied no later outcomes, creating favorable selection.",
+      "Retinoid washout worsened baseline disease; six of ten restarted retinoids before nine-month followup.",
+      "Short half-life alone cannot exclude lasting biology, but these data cannot identify durability because of co-treatment and no control."
+    ],
+    "functional_scope": {
+      "clinical_lesion_severity_signal": true,
+      "quality_of_life_signal": true,
+      "direct_barrier_function_reported": false,
+      "tewl_result": null,
+      "permeability_result": null,
+      "mechanical_strength_result": null,
+      "biopsies_collected": true,
+      "biopsy_results_reported": false,
+      "independent_replication": false
+    },
+    "safety": {
+      "exposed_n": 16,
+      "total_event_occurrences": 17,
+      "serious_event_occurrences": 3,
+      "nonserious_event_occurrences": 14,
+      "unique_affected_patient_n": null,
+      "deaths_reported": 0,
+      "suspected_unexpected_serious_adverse_reactions_reported": 0,
+      "adverse_event_discontinuations_reported": 0,
+      "events": [
+        {
+          "term": "bacterial skin infection",
+          "occurrences": 9,
+          "serious": 1,
+          "nonserious": 8,
+          "timing": "Serious event predose during washout; infections continued on treatment",
+          "unique_patient_count": null
+        },
+        {
+          "term": "upper respiratory tract infection",
+          "occurrences": 2,
+          "serious": 0,
+          "nonserious": 2,
+          "unique_patient_count": null
+        },
+        {
+          "term": "pneumonia",
+          "occurrences": 1,
+          "serious": 1,
+          "nonserious": 0,
+          "timing": "Predose during washout"
+        },
+        {
+          "term": "elective gynecological surgery",
+          "occurrences": 1,
+          "serious": 1,
+          "nonserious": 0,
+          "timing": "Not during washout; hospitalization; investigator unrelated"
+        },
+        {
+          "term": "laryngitis",
+          "occurrences": 1,
+          "serious": 0,
+          "nonserious": 1
+        },
+        {
+          "term": "amenorrhoea",
+          "occurrences": 1,
+          "serious": 0,
+          "nonserious": 1
+        },
+        {
+          "term": "sinusitis",
+          "occurrences": 1,
+          "serious": 0,
+          "nonserious": 1
+        },
+        {
+          "term": "hiatal hernia",
+          "occurrences": 1,
+          "serious": 0,
+          "nonserious": 1
+        }
+      ],
+      "clinically_significant_laboratory_abnormality_reported": false,
+      "hepatotoxicity_reported": false,
+      "numeric_ALT_AST_results": null,
+      "CK_muscle_enzymes_measured": false,
+      "quantified_muscle_function_result": null,
+      "mild_expected_events_excluded": true,
+      "excluded_event_example": "tiredness",
+      "limitations": [
+        "Baseline liver disease/abnormal chemistry and relevant comorbidities excluded.",
+        "Event counts divided by n16 are not verified unique-patient incidence.",
+        "Narrative possible pneumonia causality conflicts with the only pneumonia explicitly predose; retain timing.",
+        "No no-muscle-toxicity conclusion: expected mild events excluded and muscle enzymes not tested."
+      ]
+    },
+    "historical_record_discrepancy": {
+      "old_planned_n": 14,
+      "old_primary": "EASI",
+      "final_planned_n": 20,
+      "final_primary": "PGA",
+      "interpretation": "Use conducted-study result document; do not combine historical protocol fields into final analysis. Underlying SAP and manuscript not recovered."
+    }
+  },
+  "additional_comparator_evidence": [
+    {
+      "id": "R5-NDC-C01",
+      "candidate_count": 0,
+      "type": "existing comparator mechanistic update",
+      "source": "S7",
+      "date": "2026-10-08",
+      "after_NDC_paper": true,
+      "evidence": "Patient-cell and other model mitochondrial calcium/respiration and cell adhesion response to dantrolene.",
+      "limit": "Abstract only; not adult trial or proof exact ATP2A2 knockout adhesion result rescued."
+    },
+    {
+      "id": "R5-NDC-C02",
+      "candidate_count": 0,
+      "type": "unresolved primary method detail",
+      "source": "S8",
+      "date": "2026-10-09",
+      "after_NDC_paper": true,
+      "evidence": "Publisher listing reports inflammatory changes, clinical improvement, partial barrier-marker normalization.",
+      "limit": "No full text; drugs/n/comparator/direct barrier and tolerability unverified. Do not convert markers into function."
+    },
+    {
+      "id": "R5-NDC-C03",
+      "candidate_count": 0,
+      "type": "comparative context",
+      "source": "S9",
+      "date": "2026-06-23",
+      "after_NDC_paper": false,
+      "n_patients": 6,
+      "n_ustekinumab": 2,
+      "evidence": "Ustekinumab 45 mg weeks0/4 then12-weekly disease control with co-therapy; other courses heterogeneous.",
+      "limit": "Between-patient observational comparison, no direct barrier readout, one early infectious readmission. Not randomized active comparison."
+    },
+    {
+      "id": "R5-NDC-C04",
+      "candidate_count": 0,
+      "type": "negative clinical context",
+      "source": "S10",
+      "date": "2026-04-22",
+      "after_NDC_paper": false,
+      "n_patients": 8,
+      "outcomes": {
+        "modest_response": 1,
+        "stable": 2,
+        "worsened": 3,
+        "early_adverse_event_discontinuation": 2
+      },
+      "evidence": "Mixed IL17/IL23/JAK/TYK2 series; IL17-high patient nonresponse; hospitalized herpes on upadacitinib and dizziness/hypotension on ixekizumab.",
+      "limit": "Small heterogeneous series with co-treatment; does not establish comparative efficacy for any single product."
+    },
+    {
+      "id": "R5-NDC-C05",
+      "candidate_count": 0,
+      "type": "positive clinical context",
+      "source": "S11",
+      "date": "2026-08-04",
+      "after_NDC_paper": false,
+      "n_patients": 1,
+      "intervention": "Upadacitinib15 mg/day plus acitretin20 mg/day",
+      "evidence": "Symptom, lesion and DLQI improvement followed by retinoid discontinuation.",
+      "limit": "Single uncontrolled combination case, no direct barrier endpoint."
+    }
+  ],
+  "new_direct_adult_barrier_result": {
+    "verified": false,
+    "qualified_conclusion": "No controlled adult-patient direct pharmacological barrier-restoration result was verified in this bounded pass. Not proof of absence.",
+    "unresolved": [
+      "Full October Th2/Th17 article",
+      "Clinical manuscript and participant-level dantrolene outcomes"
+    ]
+  },
+  "noninferences": [
+    "Do not equate clinical rating/QoL with direct barrier function.",
+    "Do not infer topical delivery from oral dosing.",
+    "Do not treat planned n20 as actual n.",
+    "Do not treat 10 completers as 10 responders.",
+    "Do not use nine-month retinoid-confounded improvement as dantrolene durability.",
+    "Do not treat one group clinical and cell papers as independent clinical replication.",
+    "A keratinocyte-only model may be unsuitable for an immune-biologic comparison."
+  ],
+  "research_actions": {
+    "outreach": false,
+    "procurement": false,
+    "wet_lab": false,
+    "browser_session": false,
+    "sign_in_bypass": false,
+    "remote_mutations": false,
+    "ordinary_public_https": true
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "type": "official_registry",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2024-519201-36-00",
+      "api_url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-519201-36-00",
+      "retrieval": "Ordinary public HTTPS; complete JSON recovered"
+    },
+    {
+      "id": "S2",
+      "type": "sponsor_submitted_results",
+      "url": "https://euclinicaltrials.eu/ctis-public-api/documents/2024-519201-36-00/0c63f05c-80f0-4f3a-a9ec-58c143fb1a40/download",
+      "document_uuid": "0c63f05c-80f0-4f3a-a9ec-58c143fb1a40",
+      "bytes": 481600,
+      "sha256": "8cc599c0f33308d66f03e337272238433ad85afee9ce860add2329d12fba996c",
+      "access": "Resolver returned public S3 URL; downloaded with ordinary urllib HTTPS",
+      "pages": 14,
+      "visually_verified_pages": [
+        8,
+        9,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "sponsor_submitted_lay_results",
+      "url": "https://euclinicaltrials.eu/ctis-public-api/documents/2024-519201-36-00/762ac81a-b09d-49ad-95f7-db0895f88eed/download",
+      "document_uuid": "762ac81a-b09d-49ad-95f7-db0895f88eed",
+      "bytes": 229483,
+      "sha256": "cefebff04a12a826e24682b7e462810778bf5fd4254233806d72d1cff38274d6",
+      "language": "Swedish",
+      "access": "Ordinary public download; text extracted and cross-checked"
+    },
+    {
+      "id": "S4",
+      "type": "official_public_frontend",
+      "url": "https://euclinicaltrials.eu/ctis-public/chunk-TT6KNQDE.js",
+      "related_urls": [
+        "https://euclinicaltrials.eu/ctis-public/main-XRBOMS6O.js",
+        "https://euclinicaltrials.eu/ctis-public/chunk-NI4HHJ4V.js"
+      ],
+      "finding": "getDocument() uses /ctis-public-api/documents/{trial}/{uuid}/download"
+    },
+    {
+      "id": "S5",
+      "type": "official_historical_registry",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004281-19/SE",
+      "finding": "Transitioned; no actual results here. Historical target n14/EASI differs from final record."
+    },
+    {
+      "id": "S6",
+      "type": "primary_paper",
+      "doi": "10.1126/sciadv.aee1599",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42555718/",
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "retrieval": "Publication timing confirmed; existing full experimental review retained from prior rounds"
+    },
+    {
+      "id": "S7",
+      "type": "primary_paper_abstract",
+      "doi": "10.1016/j.jid.2026.08.031",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849607/",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0022202X26037681",
+      "retrieval": "Primary abstract; full denominators, dosing and exact KO rescue allocation not recovered"
+    },
+    {
+      "id": "S8",
+      "type": "primary_publisher_listing_only",
+      "doi": "10.1002/jvc2.70463",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jvc2.70463",
+      "readable_listing": "https://onlinelibrary.wiley.com/toc/27686566/0/0",
+      "retrieval": "Listing read; ordinary PDF request HTTP403, no repeated bypass attempts",
+      "unknown": [
+        "exact intervention",
+        "Darier versus Hailey-Hailey sample denominators",
+        "comparison",
+        "direct barrier assay",
+        "tolerability"
+      ]
+    },
+    {
+      "id": "S9",
+      "type": "primary_case_series",
+      "doi": "10.1093/skinhd/vzag072",
+      "url": "https://academic.oup.com/skinhd/article/6/4/593/8713716",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42539885/",
+      "retrieval": "Public indexed primary article text and abstract reviewed"
+    },
+    {
+      "id": "S10",
+      "type": "primary_case_series",
+      "doi": "10.2340/actadv.v106.adv-2026-0322",
+      "url": "https://medicaljournalssweden.se/actadv/article/download/46003/53637?inline=1",
+      "retrieval": "Full primary HTML read"
+    },
+    {
+      "id": "S11",
+      "type": "primary_case_report",
+      "doi": "10.2340/actadv.v106.adv-2026-0662",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13434539/",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42549604/",
+      "retrieval": "Primary indexed case text read; full-page fetch recaptcha"
+    }
+  ]
+}

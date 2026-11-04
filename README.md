@@ -2,16 +2,17 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The first milestone is a reproducible preclinical result useful for development. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after round 4.** The current review adds 22 exact intervention-use screens and deeper vetting of six existing candidates. BLU3797, exact 8015-P2, NDC-9009 and AAT retain staged proof roles. RM4404 becomes a new independent-validation priority, and topical APR-246 is a serious challenger for the local-repair research budget. No candidate is represented as a fully qualified S-tier asset or guaranteed to attract funding.
+**Status: 4 November 2026, after round 5.** BLU3797 remains the leading staged human-function proof after additional target, pharmacology, source-data and human-model review. This round adds 12 exact intervention/use screens and updates seven existing candidates, including the recovered dantrolene clinical comparator. Four new human-evidence reserves strengthen the shortlist. No candidate is represented as a fully qualified S-tier asset or guaranteed to attract funding.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
-| [Round 4 research](research/rounds/round4/README.md) | All 22 new screens, deeper leader reviews and independent challenges. |
+| [Round 5 research](research/rounds/round5/README.md) | BLU development proof, 12 new screens, seven existing-candidate updates and recovered clinical results. |
 | [Cumulative register](research/portfolio-register.json) | Original coverage, generated proposals, later screens, source URLs and decision history. |
 | [Research-round archive](research/rounds/README.md) | Prior diligence and portfolio resets, including the original three emphasized candidates. |
-| [BLU3797 source-data audit](research/rounds/round4/blu3797-audit.md) | Public synthesis-route reconciliation, source-cell analysis and reproducible extraction. |
+| [BLU3797 human-function proof](research/rounds/round5/blu3797-human-proof.md) | Exact article, human models, functional decision and relevant-tissue exposure window. |
+| [Earlier BLU source audit](research/rounds/round4/blu3797-audit.md) | Source-cell analysis, animal-regimen limits and public synthesis-route reconciliation. |
 | [Program atlas](atlas/README.md) | The original 35 registry families, organized by intended restored function. |
 | [Earlier research ledger](research/README.md) | The original 31 archive phases and subsequent review entry points. |
 | [Discovery crosswalk](discovery/README.md) | Historical topics and component proposals, with repeats visible. |
@@ -29,6 +30,6 @@ The evidence base includes positive findings, negative follow-up, primary correc
 
 ## Counting and history
 
-The reviewed original inventory has 622 overlapping coverage rows and 743 review assignments. Round 2 contains 30 generated proposals. Round 3 adds 36 candidate/use screens, of which 34 were new to the reviewed inventory and two expanded earlier concepts. Round 4 adds 22 exact intervention-use records. These counts describe different units and must not be added into a count of independent validated drugs.
+The reviewed original inventory has 622 overlapping coverage rows and 743 review assignments. Round 2 contains 30 generated proposals. Round 3 adds 36 candidate/use screens, of which 34 were new to the reviewed inventory and two expanded earlier concepts. Round 4 adds 22 exact intervention-use records. Round 5 adds 12 further exact uses and seven existing-candidate updates. These counts describe different units and must not be added into a count of independent validated drugs.
 
 The current shortlist governs selection. Earlier comparisons and PDFs remain historical evidence; later corrections and integrated decisions take precedence. Commit history records publication changes separately from the dates of the underlying studies.

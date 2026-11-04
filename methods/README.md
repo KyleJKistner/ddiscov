@@ -58,3 +58,15 @@ python methods/blu3797_source_audit.py --source research/source-data/blu3797-sou
 ```
 
 Read the [interpretation and limitations](../research/rounds/round4/blu3797-audit.md), [derived data](../research/rounds/round4/blu3797-source-audit.json), and [source attribution/license](../research/source-data/README.md). An assay ceiling, a regimen-header discrepancy and incomplete panel linkage limit inference. Extraction agreement verifies the reader, not the underlying experiments.
+
+## BLU3797 cell and lipidomic context
+
+Round 5 extends the unchanged workbook audit to Figure 3, Supplemental Figure 2 and Figure 5E–F. Independent openpyxl extraction matched 887 populated cells across eleven sheets. These do not overlap the four sheets checked in round 4.
+
+```bash
+python methods/blu3797_cell_context_audit.py --source research/source-data/blu3797-source-values.xlsx --output research/rounds/round5/blu3797-cell-context-audit.json
+```
+
+The script preserves asterisk-marked values, cell addresses and group labels. Means are descriptive; technical fields do not become independent cultures, and no cross-panel pairing or new significance test is manufactured. Figure 5E–F deliberately uses VPS34/PIK3C3-knockout cells; its labels agree with the article. Read the [human-proof interpretation](../research/rounds/round5/blu3797-human-proof.md) and [derived audit](../research/rounds/round5/blu3797-cell-context-audit.json).
+
+The separate [P2 panel extraction](../research/rounds/round5/p2-off-target-audit.json) preserves 87 single-concentration assay entries with source pages and assay classes. Its [interpretation](../research/rounds/round5/p2-off-target-audit.md) distinguishes binding displacement from catalytic inhibition and electrical function. It does not generate new selectivity curves or an animal efficacy analysis.

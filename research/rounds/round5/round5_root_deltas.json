@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "round": 5,
+  "base_publication_commit": "3dd9bf879d0555f60e27de649a9eb4620832ffec",
+  "BLU3797": {
+    "decision": "Leading staged human-function proof; target, exact molecule and assay qualification remain separate.",
+    "cell_audit": {
+      "source_sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+      "independent_parser_cells_checked": 887,
+      "mismatches": 0,
+      "sheets": 11,
+      "scope": "Fig3B-G, FigS2B/C/D, Fig5E/F; additional to the four sheets audited in round4.",
+      "fig5_context": "VPS34/PIK3C3 knockout is intentional and agrees between article and workbook, not a source-label error.",
+      "inference_limit": "Imaging values do not supply biological donor counts or human force."
+    },
+    "human_models": [
+      "Curi p.L463S is a standalone patient line; its force trajectory varies with maturation and plate format.",
+      "Published Kora2025/2026 study supplies healthy/MTM1-knockout and patient p.E48*/gene-corrected pairs, not exact-BLU human force evidence.",
+      "Coriell fibroblasts offer distinct starting backgrounds; qualified muscle and use-compatible terms remain separate."
+    ],
+    "proof_corrections": [
+      "Prior correction establishes disease causality; an intervention after the same deficit is needed to establish delayed modifiability.",
+      "Use a stable or predictable trajectory and baseline-adjusted useful function, not a required flat developmental trajectory.",
+      "Lower confidence bound should exceed both repeatability and minimum useful effect; crossing the useful threshold is inconclusive.",
+      "Equal-concentration culture comparisons measure intrinsic sensitivity; systemic interpretation requires relevant unbound tissue distribution.",
+      "Force transmission/geometry and intrinsic contractile physiology need separate interpretation."
+    ],
+    "source_urls": [
+      "https://insight.jci.org/articles/view/198568",
+      "https://academic.oup.com/brain/article/149/1/317/8217423",
+      "https://www.curibio.com/xlmtm-model",
+      "https://www.curibio.com/cell-media-models-overview"
+    ]
+  },
+  "PPCS": {
+    "candidate_id": "R5-C01",
+    "separate_infant_case_verified": true,
+    "variant": "PPCS c.727G>C p.Ala243Pro homozygous",
+    "evidence": "Distinct severe infant case reports rapid cardiac improvement after supplementation and normal measurements during continued follow-up; uncontrolled and concurrent-care confounded. Not a response-rate estimate or exhaustive case census.",
+    "larger_series_limits": [
+      "One patient had cardiac recoveries before pantethine.",
+      "A treated post-arrest case also received cardiac medication and ICD; later asymptomatic VT is reported.",
+      "Force patches use two patient backgrounds, one clone each, with nonisogenic healthy controls.",
+      "Treatment during chamber maturation stabilized force without a significant increase.",
+      "Nominal100/500micromolar reagent and redox-containing medium do not establish oral myocardial exposure."
+    ],
+    "disposition": "Retain conditional reserve; preserve useful-preservation hypothesis separately from full reversal.",
+    "clinical_memo": "ppcs-clinical-function-challenge.md",
+    "chemistry_memo": "round5_pantethine_chemistry_challenge.md",
+    "source_urls": [
+      "https://www.nature.com/articles/s43856-025-01017-z",
+      "https://academic.oup.com/eschf/article/12/4/3195/8488057",
+      "https://www.sigmaaldrich.com/US/en/product/sigma/16702"
+    ]
+  },
+  "P2": {
+    "candidate_id": "R3-NM-01",
+    "supplement_recovered": true,
+    "zip_sha256": "5fb7c6c29196145afde0b42900d0a9a302fc6e87454a1b0838f2bbe276047b85",
+    "contents": "Axon-size figure and87 single-concentration assay rows; no animal-level efficacy dataset.",
+    "binding_rows": 75,
+    "enzyme_cell_rows": 12,
+    "independent_review_agreed": true,
+    "correction": "MAO-A59% is radioligand binding displacement. hERG-14% is binding, not electrophysiology. Nominal screening concentration divided by fusionEC50 is not universal selectivity or clinical safety.",
+    "source_urls": [
+      "https://www.mdpi.com/article/10.3390/ijms27167376/s1"
+    ]
+  },
+  "Darier_comparator": {
+    "candidate_ids": [
+      "R3-NL-01",
+      "R3-NL-02"
+    ],
+    "results_recovered": true,
+    "root_primary_download_hash_verified": true,
+    "english_pdf_sha256": "8cc599c0f33308d66f03e337272238433ad85afee9ce860add2329d12fba996c",
+    "english_pdf_bytes": 481600,
+    "root_read_scope": "Primary English report design, analyses, outcome tables, safety, limitations; primary endpoint download independently matched hash.",
+    "status": "Final-submitted CTIS results retain internal draft labels; not verified peer-reviewed clinical paper.",
+    "enrolled": 16,
+    "paired_completers": 10,
+    "early_discontinuations": 6,
+    "inference": "Positive completer PGA/DLQI signal with selective nonresponse attrition, no control, retinoid confounding, no direct barrier result.",
+    "source_urls": [
+      "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-519201-36-00",
+      "https://euclinicaltrials.eu/ctis-public-api/documents/2024-519201-36-00/0c63f05c-80f0-4f3a-a9ec-58c143fb1a40/download"
+    ]
+  },
+  "counting": {
+    "new_exact_use_screens": 12,
+    "new_biological_experiments": 0,
+    "new_physical_materials": 0,
+    "S_tier_promotions": 0
+  },
+  "scope": "Public-source research, retrospective extraction and proposed discriminating proofs; no outreach, procurement or biological execution."
+}

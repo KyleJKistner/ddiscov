@@ -1,0 +1,661 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "candidate_id": "R3-NM-01",
+  "exact_article": "8015-P2",
+  "source": {
+    "article_doi": "10.3390/ijms27167376",
+    "article_url": "https://www.mdpi.com/1422-0067/27/16/7376",
+    "supplement_url": "https://www.mdpi.com/article/10.3390/ijms27167376/s1",
+    "direct_zip_url": "https://mdpi-res.com/d_attachment/ijms/ijms-27-07376/article_deploy/ijms-27-07376-s001.zip",
+    "zip_bytes": 390445,
+    "zip_sha256": "5fb7c6c29196145afde0b42900d0a9a302fc6e87454a1b0838f2bbe276047b85",
+    "zip_members": [
+      "Supplemental Figure S1 axon size.jpg",
+      "Supplemetnal Table S1.pdf"
+    ],
+    "pdf_sha256": "d5e9715043681f579e03c0ddc1ab7bfd1c1fbec957f963bf047c96526aeaf82c",
+    "contents_limit": "Figure image and single-concentration off-target table; no animal-level efficacy data."
+  },
+  "method": {
+    "extraction": "pdftotext -layout, compound/percentage/reference row extraction, preserved source page and assay section; critical rows visually checked against PDF.",
+    "independent_check": "A separate reviewer confirmed archive hash, 75 binding plus 12 enzyme/cell assay rows, MAO-A/MAO-B/hERG/5-HT2B assay types and threshold count.",
+    "nominal_compound_uM": 10,
+    "missing": [
+      "replicate-level observations",
+      "uncertainty estimates",
+      "off-target concentration-response curves",
+      "comparable free concentrations",
+      "clinical exposure margin"
+    ]
+  },
+  "counts": {
+    "assay_rows": 87,
+    "binding_rows": 75,
+    "enzyme_or_cell_based_rows": 12,
+    "rows_over_50_percent": 1,
+    "rows_under_50_percent": 86,
+    "unique_protein_count": "not inferred"
+  },
+  "interpretation": [
+    "MAO-A 59% is radioligand binding displacement, not a measured 59% catalytic-inhibition result.",
+    "hERG -14% is dofetilide binding, not a functional current assay.",
+    "5-HT2B 42% is agonist-radioligand binding; this does not establish agonism.",
+    "MAO-B -5% belongs to a recombinant enzyme assay; MAO-A and MAO-B evidence are not interchangeable.",
+    "Negative normalized percentages do not establish activation or protection.",
+    "10 micromolar divided by the supplement approximately0.8nM fusion EC50 gives a nominal12500 ratio. The article elsewhere quotes approximately0.6nM. Neither cross-assay concentration ratio is a universal selectivity ratio or clinical safety margin."
+  ],
+  "assays": [
+    {
+      "assay": "Adenosine Guinea Pig Transporter Mass Spectrometry Binding (Antagonist Ligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 26,
+      "reference_compound": "Dilazep",
+      "pdf_page": 1
+    },
+    {
+      "assay": "Non-Selective Rat Glycine Ion Channel Strychnine Mass Spectrometry Binding Assay Cerep",
+      "section": "binding",
+      "reported_percent_inhibition": -1,
+      "reference_compound": "guanabenz",
+      "pdf_page": 1
+    },
+    {
+      "assay": "Glutamate (Non-Selective) Rat Ion Channel Glycine (Strychnine-Insensitive),Mass Spectrometry Binding Assay, Cerep",
+      "section": "binding",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "5,7 dichlorokynurenic acid",
+      "pdf_page": 1
+    },
+    {
+      "assay": "GABAB(B1b/B2) Human GABA B GPCR Mass Spectrometry Binding (Antagonist Ligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 15,
+      "reference_compound": "CGP 52432",
+      "pdf_page": 1
+    },
+    {
+      "assay": "A1 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -16,
+      "reference_compound": "DPCPX",
+      "pdf_page": 1
+    },
+    {
+      "assay": "A2A (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "NECA",
+      "pdf_page": 1
+    },
+    {
+      "assay": "alpha1A (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 35,
+      "reference_compound": "WB 4101",
+      "pdf_page": 1
+    },
+    {
+      "assay": "alpha1B (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 33,
+      "reference_compound": "prazosin",
+      "pdf_page": 1
+    },
+    {
+      "assay": "alpha1D (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 43,
+      "reference_compound": "prazosin",
+      "pdf_page": 1
+    },
+    {
+      "assay": "alpha2A (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 6,
+      "reference_compound": "yohimbine",
+      "pdf_page": 1
+    },
+    {
+      "assay": "alpha2B (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 17,
+      "reference_compound": "yohimbine",
+      "pdf_page": 1
+    },
+    {
+      "assay": "beta1 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 1,
+      "reference_compound": "atenolol",
+      "pdf_page": 1
+    },
+    {
+      "assay": "beta2 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -3,
+      "reference_compound": "ICI 118551",
+      "pdf_page": 1
+    },
+    {
+      "assay": "AT1 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 8,
+      "reference_compound": "saralasin",
+      "pdf_page": 1
+    },
+    {
+      "assay": "BZD (central) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "diazepam",
+      "pdf_page": 1
+    },
+    {
+      "assay": "Cl- channel (GABA-gated) (TBOB site) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -3,
+      "reference_compound": "Picrotoxin",
+      "pdf_page": 1
+    },
+    {
+      "assay": "B2 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "NPC 567",
+      "pdf_page": 1
+    },
+    {
+      "assay": "CB2 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 33,
+      "reference_compound": "WIN 55212-2",
+      "pdf_page": 1
+    },
+    {
+      "assay": "CB1 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -36,
+      "reference_compound": "CP 55940",
+      "pdf_page": 1
+    },
+    {
+      "assay": "CCK1 (CCKA) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 9,
+      "reference_compound": "CCK-8s",
+      "pdf_page": 1
+    },
+    {
+      "assay": "CCK2 (CCKB) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "CCK-8s",
+      "pdf_page": 1
+    },
+    {
+      "assay": "D1 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 5,
+      "reference_compound": "SCH 23390",
+      "pdf_page": 1
+    },
+    {
+      "assay": "D2S (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 19,
+      "reference_compound": "7-OH-DPAT",
+      "pdf_page": 1
+    },
+    {
+      "assay": "D2L (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -1,
+      "reference_compound": "butaclamol",
+      "pdf_page": 1
+    },
+    {
+      "assay": "ETA (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "endothelin-1",
+      "pdf_page": 1
+    },
+    {
+      "assay": "GABAA1 (h) (alpha1,beta2,gamma2) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 4,
+      "reference_compound": "muscimol",
+      "pdf_page": 1
+    },
+    {
+      "assay": "AMPA (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -5,
+      "reference_compound": "L-glutamate",
+      "pdf_page": 1
+    },
+    {
+      "assay": "kainate (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -9,
+      "reference_compound": "kainic acid",
+      "pdf_page": 1
+    },
+    {
+      "assay": "NMDA (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "CGS 19755",
+      "pdf_page": 1
+    },
+    {
+      "assay": "mGluR5 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -6,
+      "reference_compound": "L-Quisqualate",
+      "pdf_page": 2
+    },
+    {
+      "assay": "CXCR2 (IL-8B) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "IL-8",
+      "pdf_page": 2
+    },
+    {
+      "assay": "CCR1 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "MIP-1alpha",
+      "pdf_page": 2
+    },
+    {
+      "assay": "H1 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -6,
+      "reference_compound": "pyrilamine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "H2 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -9,
+      "reference_compound": "cimetidine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "CysLT1 (LTD4) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -14,
+      "reference_compound": "LTD4",
+      "pdf_page": 2
+    },
+    {
+      "assay": "MC1 (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 6,
+      "reference_compound": "NDP-alpha -MSH",
+      "pdf_page": 2
+    },
+    {
+      "assay": "MC4 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -1,
+      "reference_compound": "NDP-alpha -MSH",
+      "pdf_page": 2
+    },
+    {
+      "assay": "MAO-A (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 59,
+      "reference_compound": "clorgyline",
+      "pdf_page": 2
+    },
+    {
+      "assay": "M1 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 1,
+      "reference_compound": "pirenzepine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "M2 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "methoctramine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "M3 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -5,
+      "reference_compound": "4-DAMP",
+      "pdf_page": 2
+    },
+    {
+      "assay": "M4 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "4-DAMP",
+      "pdf_page": 2
+    },
+    {
+      "assay": "NK1 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 12,
+      "reference_compound": "[Sar9,Met(O2)11]-SP",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Y1 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "NPY",
+      "pdf_page": 2
+    },
+    {
+      "assay": "N neuronal alpha4beta2 (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 3,
+      "reference_compound": "nicotine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "N muscle-type (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -15,
+      "reference_compound": "alpha -bungarotoxin",
+      "pdf_page": 2
+    },
+    {
+      "assay": "delta (DOP) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 1,
+      "reference_compound": "DPDPE",
+      "pdf_page": 2
+    },
+    {
+      "assay": "kappa (h) (KOP) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 8,
+      "reference_compound": "U50488",
+      "pdf_page": 2
+    },
+    {
+      "assay": "mu (MOP) (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 21,
+      "reference_compound": "DAMGO",
+      "pdf_page": 2
+    },
+    {
+      "assay": "PPARgamma (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 7,
+      "reference_compound": "rosiglitazone",
+      "pdf_page": 2
+    },
+    {
+      "assay": "PCP (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "MK 801",
+      "pdf_page": 2
+    },
+    {
+      "assay": "PAF (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 0,
+      "reference_compound": "C16-PAF",
+      "pdf_page": 2
+    },
+    {
+      "assay": "RARalpha (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -7,
+      "reference_compound": "all-trans-retinoic acid",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT1A (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 40,
+      "reference_compound": "8-OH-DPAT",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT1B (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -1,
+      "reference_compound": "Serotonine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT2A (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 30,
+      "reference_compound": "(±)DOI",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT2B (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 42,
+      "reference_compound": "(±)DOI",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT2C (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 7,
+      "reference_compound": "RS 102221",
+      "pdf_page": 2
+    },
+    {
+      "assay": "5-HT3 (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "MDL 72222",
+      "pdf_page": 2
+    },
+    {
+      "assay": "GR (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "dexamethasone",
+      "pdf_page": 2
+    },
+    {
+      "assay": "ER Alpha Human Estrogen NHR Binding (Agonist radioligand) Assay, Cerep",
+      "section": "binding",
+      "reported_percent_inhibition": -3,
+      "reference_compound": "Diethylstilbestrol",
+      "pdf_page": 2
+    },
+    {
+      "assay": "PR (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 5,
+      "reference_compound": "promegestone",
+      "pdf_page": 2
+    },
+    {
+      "assay": "AR(h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 10,
+      "reference_compound": "testosterone",
+      "pdf_page": 2
+    },
+    {
+      "assay": "V1a (h) (agonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -1,
+      "reference_compound": "[d(CH2)51,Tyr(Me)2]-AVP",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Ca2+ channel (L, dihydropyridine site) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 10,
+      "reference_compound": "nitrendipine",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Ca2+ channel (L, diltiazem site) (benzothiazepines) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -15,
+      "reference_compound": "diltiazem",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Ca2+ channel (L, verapamil site) (phenylalkylamine) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -10,
+      "reference_compound": "D 600",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Ca2+ channel (N) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 0,
+      "reference_compound": "omega -conotoxin GVIA",
+      "pdf_page": 2
+    },
+    {
+      "assay": "Potassium Channel hERG (human)- [3H] Dofetilide",
+      "section": "binding",
+      "reported_percent_inhibition": -14,
+      "reference_compound": "Terfenadine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "KV channel (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 3,
+      "reference_compound": "alpha -dendrotoxin",
+      "pdf_page": 3
+    },
+    {
+      "assay": "Na+ channel (site 2) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -13,
+      "reference_compound": "veratridine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "norepinephrine transporter (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": -3,
+      "reference_compound": "protriptyline",
+      "pdf_page": 3
+    },
+    {
+      "assay": "dopamine transporter (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 28,
+      "reference_compound": "BTCP",
+      "pdf_page": 3
+    },
+    {
+      "assay": "GABA transporter (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 5,
+      "reference_compound": "nipecotic acid",
+      "pdf_page": 3
+    },
+    {
+      "assay": "5-HT transporter (h) (antagonist radioligand)",
+      "section": "binding",
+      "reported_percent_inhibition": 4,
+      "reference_compound": "imipramine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "COX1(h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 6,
+      "reference_compound": "Diclofenac",
+      "pdf_page": 3
+    },
+    {
+      "assay": "COX2(h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 5,
+      "reference_compound": "NS398",
+      "pdf_page": 3
+    },
+    {
+      "assay": "PDE3A (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 2,
+      "reference_compound": "milrinone",
+      "pdf_page": 3
+    },
+    {
+      "assay": "PDE4D2 (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -12,
+      "reference_compound": "Ro 20-1724",
+      "pdf_page": 3
+    },
+    {
+      "assay": "ACE (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -4,
+      "reference_compound": "captopril",
+      "pdf_page": 3
+    },
+    {
+      "assay": "cathepsin G (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -28,
+      "reference_compound": "3',4' dichloroisocoumarin",
+      "pdf_page": 3
+    },
+    {
+      "assay": "IRK (h) (InsR)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 3,
+      "reference_compound": "staurosporine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "Lck kinase (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 5,
+      "reference_compound": "staurosporine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "PKCalpha (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -2,
+      "reference_compound": "Bis 10",
+      "pdf_page": 3
+    },
+    {
+      "assay": "acetylcholinesterase (h)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -3,
+      "reference_compound": "galanthamine",
+      "pdf_page": 3
+    },
+    {
+      "assay": "MAO-B (h) recombinant enzyme",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": -5,
+      "reference_compound": "deprenyl",
+      "pdf_page": 3
+    },
+    {
+      "assay": "ATPase (Na+/K+)",
+      "section": "enzyme_or_cell_based",
+      "reported_percent_inhibition": 4,
+      "reference_compound": "ouabain",
+      "pdf_page": 3
+    }
+  ],
+  "new_candidate_count": 0,
+  "new_experiments_performed": false
+}

@@ -8,6 +8,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **Round 2** | Portfolio reset and broad coverage | Reviewed 622 overlapping source rows with 743 assignments; consolidated 30 generated proposals. Shifted toward useful-function proofs instead of owner-response gates. |
 | **Round 3** | Expanded search and model routes | 36 intervention/use screens: 34 new records and two expansions; six former-shortlist updates and three challenges. Added exact 8015-P2 and NDC-9009 to leading proofs. |
 | **[Round 4](round4/README.md)** | Continued screening and deeper vetting | 22 new intervention/use screens; six existing candidates updated; BLU3797 raw-data audit; RM4404 independent-validation priority and APR-246 local challenger. No S-tier promotion. |
+| **[Round 5](round5/README.md)** | BLU3797 development proof and clinical challengers | 12 new exact-use screens; seven existing candidates updated; 887 additional BLU source cells; P2 panel correction; actual dantrolene results recovered; four new human-evidence reserves. No S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 

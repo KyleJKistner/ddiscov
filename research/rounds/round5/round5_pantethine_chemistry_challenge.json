@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "research_round": 5,
+  "research_date": "2026-11-04",
+  "candidate": "pantethine / pantetheine for PPCS deficiency",
+  "memo": "round5_pantethine_chemistry_challenge.md",
+  "decision": {
+    "portfolio_status": "retain biological rescue lead; exposure qualification unresolved",
+    "s_tier": false,
+    "confirmed_negative": [
+      "Intestinal/plasma hydrolysis is a substantive exposure liability."
+    ],
+    "confirmed_discrepancy": [
+      "Zhang 2025 material name pantethine conflicts with Sigma 16702 manufacturer and independent 2025 reagent-table identity."
+    ],
+    "unresolved": [
+      "Historical reagent vial and stock concentration convention",
+      "Redox-species concentration-time profile in efficacy culture",
+      "Oral human PPCS exposure of intact bypass-competent species",
+      "Human cardiac uptake mechanism and tissue coverage"
+    ],
+    "not_supported": [
+      "Wrong historical vial allegation",
+      "Zero intact drug reaches any tissue",
+      "Culture effect necessarily invalid",
+      "1985 pantothenate 28-hour half-life equals parent half-life",
+      "2026 relative LC-MS establishes oral PPCS PK",
+      "Yeast Opt1 proves a mammalian transporter",
+      "PPanSH can be substituted without separate evidence"
+    ]
+  },
+  "identities": [
+    {
+      "id": "PanSH",
+      "name": "(R)-pantetheine",
+      "state": "reduced monomer",
+      "cas": "496-65-1",
+      "formula": "C11H22N2O4S",
+      "molecular_weight_g_mol": 278.37,
+      "catalog": "Sigma 16702",
+      "smiles": "OCC(C)(C)[C@@H](O)C(NCCC(NCCS)=O)=O",
+      "inchikey": "ZNXZGRMVNNHPCA-VIFPVBQESA-N",
+      "source_ids": [
+        "S1",
+        "S4"
+      ],
+      "historical_vial_verified": false
+    },
+    {
+      "id": "PanSSPan",
+      "name": "D-pantethine",
+      "state": "disulfide dimer",
+      "cas": "16816-67-4",
+      "formula": "C22H42N4O8S2",
+      "molecular_weight_g_mol": 554.72,
+      "catalog": "Sigma/Supelco P2125",
+      "smiles": "CC(C)(CO)[C@@H](O)C(=O)NCCC(=O)NCCSSCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO",
+      "inchikey": "DJWYOLJPSHDSAL-ROUUACIJSA-N",
+      "source_ids": [
+        "S2",
+        "S4"
+      ],
+      "pantetheine_moieties_per_molecule": 2
+    },
+    {
+      "id": "PPanSH",
+      "name": "4′-phosphopantetheine",
+      "state": "phosphorylated downstream precursor",
+      "source_ids": [
+        "S4",
+        "S7"
+      ],
+      "interchangeable_with_pantethine": false
+    }
+  ],
+  "stoichiometric_illustration": {
+    "status": "arithmetic only; not correction of original experiment",
+    "nominal_concentration_micromolar": 100,
+    "PanSH_mass_mg_L": 27.837,
+    "PanSSPan_mass_mg_L": 55.472,
+    "PanSH_moiety_micromolar": 100,
+    "PanSSPan_moiety_micromolar": 200,
+    "assumptions": [
+      "pure stated compound",
+      "molarity assigned to molecules as named"
+    ],
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "actual_stock_preparation_known": false,
+    "pharmacokinetic_conversion": false
+  },
+  "exposure_observations": [
+    {
+      "id": "E1",
+      "source_ids": [
+        "S3"
+      ],
+      "locator": "Methods p3; FigS7",
+      "species": "human donor-derived cells",
+      "disease": "PPCS deficiency",
+      "article_as_named": "pantethine",
+      "catalog_as_printed": "Sigma 16702",
+      "actual_vial_species": "unresolved name-catalog discrepancy",
+      "matrix": "EB2 culture medium, 2% heat-inactivated FBS, 0.1 mM beta-mercaptoethanol",
+      "dose": 100,
+      "dose_unit": "micromolar nominal added",
+      "duration": "5 days",
+      "schedule": "medium changed every other day",
+      "measured_active_species_concentration": null,
+      "free_fraction": null,
+      "intracellular_precursor_concentration": null,
+      "endpoint": "functional cellular readouts",
+      "sample_number_scope": "two patient-derived lines and control; not an exposure assay"
+    },
+    {
+      "id": "E2",
+      "source_ids": [
+        "S3"
+      ],
+      "locator": "Methods p3; Fig3",
+      "species": "human donor-derived cells on porcine acellular matrix",
+      "disease": "PPCS deficiency",
+      "article_as_named": "pantethine",
+      "actual_vial_species": "unresolved name-catalog discrepancy",
+      "matrix": "EB2 culture medium, 2% FBS, 0.1 mM beta-mercaptoethanol; global treatment method says heat-inactivated serum",
+      "dose": 500,
+      "dose_unit": "micromolar nominal added",
+      "duration": "3D culture days 7–21",
+      "schedule": "medium changed every other day",
+      "measured_active_species_concentration": null,
+      "free_fraction": null,
+      "endpoint": "cardiac force/electrophysiologic readouts",
+      "interpretation": "Force stabilization is distinct from reversal; parent audit owns full efficacy review."
+    },
+    {
+      "id": "E3",
+      "source_ids": [
+        "S3"
+      ],
+      "locator": "Methods p2",
+      "species": "human",
+      "disease": "PPCS deficiency",
+      "route": "oral",
+      "article_as_named": "pantethine supplements",
+      "dose_summary": "approximately 10–17 mg/kg/day in described regimens; some subsequent dose changes",
+      "manufacturers_named": [
+        "Jarrow Formulas",
+        "Pure Encapsulation",
+        "Coenzyme-A Technologies"
+      ],
+      "lot_identity_verified": false,
+      "matrix": "no active-species blood or heart PK supplied",
+      "plasma_concentration": null,
+      "myocardial_concentration": null,
+      "free_fraction": null,
+      "interpretation": "Do not infer exposure equivalence from supplement name or clinical response."
+    },
+    {
+      "id": "E4",
+      "source_ids": [
+        "S5"
+      ],
+      "locator": "pp1666–1669",
+      "species": "human",
+      "disease": "cystinosis with renal impairment",
+      "patient_n": 4,
+      "route": "oral",
+      "article_as_named": "D-pantethine aqueous solution from 70% syrup",
+      "dose_min": 70,
+      "dose_max": 1000,
+      "dose_unit": "mg/kg/day",
+      "main_schedule": "divided every 6 h; individual schedule variations",
+      "main_sampling_time_hours_after_dose": [
+        1,
+        5
+      ],
+      "matrix": "plasma",
+      "plasma_sample_n": 32,
+      "measurement": "increment in radioimmunoassayed pantothenate following pantetheinase and 5 mM DTT",
+      "outcome": "not detected",
+      "reported_detection_limit": "5–10% of concurrent pantothenate concentration",
+      "fixed_molar_lloq": null,
+      "redox_resolved": false,
+      "validated_ppansh_quantification": false,
+      "renal_clearance_range": {
+        "min": 17,
+        "max": 67,
+        "unit": "mL/min/1.73m2"
+      },
+      "limitation": "Not a zero-exposure result or modern absolute speciation assay."
+    },
+    {
+      "id": "E5",
+      "source_ids": [
+        "S5"
+      ],
+      "locator": "pp1666–1667",
+      "species": "human",
+      "disease": "cystinosis",
+      "matrix": "urine after ion-exchange enrichment",
+      "measurement": "pantethine-equivalent material by hydrolysis assay",
+      "sample_n": 23,
+      "mean": 0.57,
+      "sd": 0.32,
+      "unit": "percent of excreted pantothenate",
+      "percent_of_administered_dose": false,
+      "interpretation": "Authors acknowledged possible transient circulation; does not quantify cardiac precursor delivery."
+    },
+    {
+      "id": "E6",
+      "source_ids": [
+        "S6"
+      ],
+      "locator": "FigS3M; mouse methods",
+      "species": "mouse",
+      "model": "IMQ-associated inflammatory skin model",
+      "route": "intraperitoneal",
+      "article_as_named": "pantethine",
+      "catalog": "Sigma P2125",
+      "dose": 50,
+      "dose_unit": "mg/kg",
+      "schedule": "daily 1 h before IMQ; collection on day 6",
+      "precise_postdose_plasma_time": null,
+      "matrix": "plasma",
+      "measurement": "relative LC-MS pantethine signal",
+      "outcome": "increased versus vehicle",
+      "absolute_concentration": null,
+      "free_fraction": null,
+      "sample_n": "caption range 3–7 mice/group across panels; exact S3M count not transcribed",
+      "limitation": "Different route and model from oral human PPCS treatment; no absolute concentration-time profile."
+    },
+    {
+      "id": "E7",
+      "source_ids": [
+        "S6"
+      ],
+      "locator": "FigS5S",
+      "species": "human",
+      "matrix": "serum",
+      "groups": {
+        "healthy_donors": 17,
+        "psoriasis_patients": 12
+      },
+      "interventional_postdose_PK": false,
+      "measurement": "relative LC-MS pantethine",
+      "absolute_concentration": null,
+      "redox_speciation_preservation_validated_in_inspected_methods": false,
+      "limitation": "Observational endogenous comparison, not oral PPCS exposure."
+    },
+    {
+      "id": "E8",
+      "source_ids": [
+        "S4"
+      ],
+      "locator": "Figs1–3",
+      "species": "Saccharomyces cerevisiae",
+      "matrix": "defined culture medium",
+      "precursors": [
+        "PanSH",
+        "PPanSH"
+      ],
+      "precursor_concentration": 27,
+      "precursor_unit": "micromolar",
+      "gsh_concentration": 67,
+      "gsh_unit": "micromolar",
+      "measurement": "growth, chemical characterization and transporter genetics",
+      "mechanism": "glutathione mixed-disulfide uptake via Opt1",
+      "mammalian_transport_verified": false,
+      "human_PK": false
+    },
+    {
+      "id": "E9",
+      "source_ids": [
+        "S8"
+      ],
+      "locator": "Fig6A; treatment protocols",
+      "species": "mouse",
+      "disease": "Pank2 knockout PKAN model",
+      "route": "oral in 10% sucrose",
+      "article": "PPanSH versus molar-equivalent pantetheine, pantothenate, CoA",
+      "ppansh_dose": 5,
+      "dose_unit": "microgram/gram body weight as printed",
+      "duration_days": 14,
+      "endpoint": "Coasy gene expression in globus pallidus",
+      "response": "PPanSH normalized marker; other three did not",
+      "primary_group_n": {
+        "WT_vehicle": 8,
+        "KO_vehicle": 5,
+        "KO_PPAnSH": 5,
+        "KO_eachothercompound": 4
+      },
+      "direct_brain_PK": false,
+      "interpretation": "Pharmacodynamic support for separate precursor, not inherited pantethine or PPCS exposure."
+    }
+  ],
+  "reconciliation": {
+    "1985_vs_2026": "Not logically inconsistent: oral versus intraperitoneal route, different disease/species, indirect difference assay versus relative LC-MS, different detection capability and species handling. Neither provides quantitative oral PPCS myocardial exposure.",
+    "caution": "Relative LC-MS extraction lacks reported redox quench/calibration/transition/LOQ information in inspected main methods; this limits independent exposure reconstruction, not proof of invalidity."
+  },
+  "additional_mechanisms": [
+    {
+      "source_ids": [
+        "S9"
+      ],
+      "finding": "Fly microbiome processing allows pantethine-derived salvage precursor to rescue PANK-null development; depletion reduces rescue and PPanSH can rescue without the microbiome.",
+      "human_confirmation": false
+    },
+    {
+      "source_ids": [
+        "S7",
+        "S8"
+      ],
+      "finding": "Separate PPanSH has serum-stability and functional model support.",
+      "pantethine_exposure_inheritance": false
+    }
+  ],
+  "public_evidence_requirements": [
+    "Versioned exact reagent/stock/formulation identity chain",
+    "Validated oral active-precursor exposure sufficient for cardiac bridge",
+    "Separate direct uptake, microbial conversion and non-bypass mechanisms when material to product selection"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "manufacturer_identity",
+      "title": "Sigma 16702 (R)-Pantetheine",
+      "url": "https://www.sigmaaldrich.com/US/en/product/sigma/16702"
+    },
+    {
+      "id": "S2",
+      "type": "manufacturer_identity",
+      "title": "Sigma/Supelco P2125 D-Pantethine",
+      "url": "https://www.sigmaaldrich.com/US/en/product/sial/p2125"
+    },
+    {
+      "id": "S3",
+      "type": "primary_research",
+      "title": "Pantethine ameliorates dilated cardiomyopathy features in PPCS deficiency disorder in patients and cell line models",
+      "authors": "Zhang et al.",
+      "year": 2025,
+      "doi": "10.1038/s43856-025-01017-z",
+      "url": "https://iris.unibs.it/retrieve/73dc3bf9-28fd-45b1-bcd0-5305f9fa5050/43856_2025_Article_1017.pdf",
+      "locators": [
+        "Methods p2: clinical formulations",
+        "Methods p3: EB2 and 2D/3D culture",
+        "Methods p4: Sigma 16702",
+        "Fig3: day 7–21 nominal exposure"
+      ]
+    },
+    {
+      "id": "S4",
+      "type": "primary_research",
+      "title": "Opt1 imports CoA precursors as glutathione mixed disulfides",
+      "authors": "Wedman et al.",
+      "year": 2025,
+      "doi": "10.1016/j.jbc.2025.110503",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406275/",
+      "pdf_url": "https://research-portal.uu.nl/ws/portalfiles/portal/271138401/PIIS0021925825023531.pdf",
+      "locators": [
+        "Reagents table printed p12 / PDF p13",
+        "Figures1–3",
+        "Discussion printed p11 / PDF p12"
+      ],
+      "publication_date": "2025-09",
+      "online_publication_date": "2025-07-21"
+    },
+    {
+      "id": "S5",
+      "type": "primary_research",
+      "title": "Metabolism of pantethine in cystinosis",
+      "authors": "Wittwer et al.",
+      "year": 1985,
+      "doi": "10.1172/JCI112152",
+      "url": "https://jci.org/articles/view/112152",
+      "locators": [
+        "p1666 Methods and assay",
+        "p1667 plasma detection limits and urinary finding",
+        "p1669 Discussion"
+      ],
+      "original_images_independently_viewed": [
+        "https://dm5migu4zj3pb.cloudfront.net/manuscripts/112000/112152/scanned_pages/large/1666.gif",
+        "https://dm5migu4zj3pb.cloudfront.net/manuscripts/112000/112152/scanned_pages/large/1669.gif"
+      ]
+    },
+    {
+      "id": "S6",
+      "type": "primary_research",
+      "title": "Vanin-pantethine metabolic axis shapes dendritic cell function and affects inflammatory disorder progression",
+      "authors": "Cao et al.",
+      "year": 2026,
+      "publication_date": "2026-10-27",
+      "doi": "10.1084/jem.20252558",
+      "url": "https://rupress.org/jem/article/223/11/e20252558/283127/Vanin-pantethine-metabolic-axis-shapes-dendritic",
+      "locators": [
+        "FigS3M: post-i.p. relative plasma signal",
+        "FigS5S: human serum relative signal",
+        "LC/MS methods",
+        "Cell isolation and culture"
+      ],
+      "scope_limitation": "Chemistry/exposure use only; psoriasis efficacy not independently qualified here."
+    },
+    {
+      "id": "S7",
+      "type": "primary_research",
+      "title": "Extracellular 4′-phosphopantetheine is a source for intracellular coenzyme A synthesis",
+      "authors": "Srinivasan et al.",
+      "year": 2015,
+      "doi": "10.1038/nchembio.1906",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26322826/",
+      "pdf_url": "https://eriba.umcg.nl/wp-content/uploads/2017/02/Nollen-2015-10-11-Nat-Chem-Biol..pdf"
+    },
+    {
+      "id": "S8",
+      "type": "primary_research",
+      "title": "4′-Phosphopantetheine corrects CoA, iron, and dopamine metabolic defects in mammalian models of PKAN",
+      "authors": "Jeong et al.",
+      "year": 2019,
+      "doi": "10.15252/emmm.201910489",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6895607/",
+      "locators": [
+        "Figure6",
+        "Treatment protocols"
+      ]
+    },
+    {
+      "id": "S9",
+      "type": "primary_research",
+      "title": "Coenzyme A precursors flow from mother to zygote and from microbiome to host",
+      "authors": "Yu et al.",
+      "year": 2022,
+      "doi": "10.1016/j.molcel.2022.05.006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35662397/",
+      "pdf_url": "https://www.cell.com/article/S1097276522004403/pdf",
+      "locators": [
+        "Figures1–2",
+        "Microbiome-dependent rescue results"
+      ]
+    }
+  ],
+  "actions": {
+    "outreach": false,
+    "procurement": false,
+    "new_experiments": false,
+    "remote_writes": false
+  },
+  "retrieval_limitations": [
+    "Institutional JBC and Zhang PDFs readable through web retrieval; direct filesystem downloads returned 403.",
+    "JCI original page images obtained from official page-linked CDN and independently viewed.",
+    "2015 institutional PDF initially readable but subsequent find requests returned 404; use PubMed/DOI primary citation.",
+    "2025 independent infant clinical case belongs to parent clinical audit, not used as quantitative PK evidence here."
+  ]
+}

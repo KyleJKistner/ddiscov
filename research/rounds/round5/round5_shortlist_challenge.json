@@ -1,0 +1,536 @@
+{
+  "schema_version": "round5-shortlist-challenge-1.0",
+  "as_of": "2026-11-04",
+  "author_role": "Independent shortlist challenge",
+  "scope": "Seven new exact intervention/use screens plus two previously counted lead updates; no outreach, procurement, experiments or remote writes.",
+  "inventory_basis": {
+    "path": "research/portfolio-register.json",
+    "schema_version": "4.0",
+    "sha256": "0351ff29994bef1a14b63db0c9e990ef53ec00bc506e8d15354f0711b6a0bb65",
+    "historical_snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
+    "round4_publication_commit": "3dd9bf879d0555f60e27de649a9eb4620832ffec",
+    "dedup_method": "Case-insensitive serialized inventory and intervention/use label review. The historical snapshot commit is not represented as the current publication commit."
+  },
+  "counts": {
+    "new_intervention_use_pairs": 7,
+    "new_molecular_families": 6,
+    "new_use_of_previously_known_molecule": 1,
+    "existing_candidate_updates": 2,
+    "S_tier_promotions": 0
+  },
+  "counting_rule": "Do not add comparator names, later supportive papers, related APR-246/JEB context, repeated cohorts, wounds, clones or wells to the candidate/patient counts.",
+  "priority_conclusion": "Pantethine/PPCS and topical gentamicin/JEB earn constrained reserves. RM4404 and APR-246 retain their existing validation status with sharpened product/function gates. No evidence reviewed justifies an S-tier or obviously fundable declaration.",
+  "new_candidate_screens": [
+    {
+      "id": "R5-C01",
+      "kind": "new",
+      "name": "Pantethine for PPCS-deficiency dilated cardiomyopathy",
+      "novelty": "New molecule/use in schema4; literal pantethine and PPCS searches had no prior records.",
+      "decision": "Conditional non-core reserve; exact chemical species and exposure bridge are first gating experiments.",
+      "current_S_tier": false,
+      "exact_product": "Oral pantethine supplementation is the clinical claim. The functional in-vitro paper labels its reagent pantethine but cites Sigma 16702, currently (R)-pantetheine monomer, CAS 496-65-1. Pantethine is a disulfide, CAS 16816-67-4. Interconversion is plausible; historical vial identity and molar basis are unresolved.",
+      "evidence": "Zhang 2025 reports four pantethine-treated patients with standard cardiac care and models from two patient iPSC backgrounds. Cardiac patches received 500 micromolar reagent on days 7–21; force decline stabilized without significant force increase, and force-frequency behavior remained abnormal. Day-60 cardiomyocytes treated at 100 micromolar for five days showed partial calcium/sarcomere improvement. Recovery after arrest included concurrent ICD, beta-blocker and ACE inhibition.",
+      "denominator": {
+        "human": "Four treated patients described in Zhang 2025; two are follow-up of previously reported cases. A separately verified infant case with homozygous p.Ala243Pro is distinct from that series. These are selected records, not an exhaustive patient census or a controlled responder rate.",
+        "patient_iPSC_backgrounds": 2,
+        "controls": "Two control lines; one clone per line.",
+        "patches": "Controls: 8 across 2 lines. Patient 95595: 15 untreated, 13 treated. Patient 103596: 9 untreated, 8 treated. Patches/cells are not independent patients."
+      },
+      "timing_and_function": "Some functional deficits existed before treatment. Evidence is partial rescue/stabilization; no normalization of established cardiac force, no prospective controlled human attribution, no established withdrawal durability.",
+      "material_model_route": "Public chemical specifications and cardiac protocol are available. HMGUi003-A is marked not readily obtainable. MRIi028-A allows research but prohibits commercial development/for-profit use. A separately licensed parental iPSC line with engineered PPCS variants is a possible new route requiring model qualification; it does not confer permission to use restricted patient lines commercially.",
+      "exposure_and_safety": "Historical four-child pantethine metabolism study found rapid conversion and no detectable intact parent in plasma by its assay. This is not proof of absent active metabolite exposure in PPCS. Heat-inactivated-serum bath activity at 100–500 micromolar has not been connected to free human myocardial exposure of the actual active species.",
+      "comparator": "Standard heart-failure care background; genetic correction as causal control; chemically authenticated pantethine/pantetheine and appropriate precursor/metabolite controls for pathway specificity.",
+      "value": "Potentially inexpensive and disease-specific. Small reported case count, product identity, commercial model permissions and reproducible functional efficacy prevent a fundable-asset claim.",
+      "deciding_proof": "Resolve the reagent discrepancy analytically and test the clinically generated species at measured feasible exposure after a qualified, predictable force/fatigue deficit in independent commercially usable PPCS models. Prespecify preservation versus reversal as distinct claims. A controlled useful functional effect with an acceptable arrhythmia and mitochondrial window would justify the next development tranche.",
+      "go": "Reproducible reversal of established force/fatigue deficit at defensible human exposure, with a precise molecule/formulation and independent-genotype support.",
+      "stop": "Stop the full-reversal claim if the result only slows deterioration; preserve a separate preservation hypothesis if clinically useful and supported. Stop the exact-product thesis for infeasible exposure, an undocumented active chemical species that cannot be defined, or no qualified model route compatible with the intended use. Do not reject pathway biology solely because an original patient line has restricted terms.",
+      "source_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "independent_review": "ppcs-clinical-function-challenge.md"
+    },
+    {
+      "id": "R5-C02",
+      "kind": "new_use_of_existing_molecule",
+      "name": "Topical gentamicin sulfate for susceptible LAMA3/LAMB3 nonsense JEB",
+      "novelty": "Gentamicin already appears in schema4 under SERPINB7/Nagashima palmoplantar keratosis. This exact JEB intervention/use is new and is counted once.",
+      "decision": "Human functional reserve; qualify differentiated product value and treatment-area safety before advancement.",
+      "current_S_tier": false,
+      "exact_product": "The topical study used 0.5% gentamicin sulfate in white petrolatum, applied to selected wounds for two weeks. This product is separate from intravenous gentamicin regimens.",
+      "evidence": "Three children supplied primary keratinocytes and underwent open-label topical treatment. Functional laminin-332 and improved wound closure persisted through three months. A separate five-child IV series supports biological activity but is not a replication of the topical formulation. Open-label local comparisons do not exclude wound-care or antimicrobial effects.",
+      "denominator": {
+        "human_topical": 3,
+        "wounds_topical": 9,
+        "human_IV": 5,
+        "independence": "Do not sum topical and IV participants as eight unique people; overlap was not excluded. Wounds and biopsies are within-patient observations.",
+        "genotypes": "Topical patients: LAMB3 C325X/c.629-12T>A; LAMA3 Y63X/Y63X; LAMA3 Q625X/c.4909+1G>A."
+      },
+      "timing_and_function": "Treats existing wounds and includes cell adhesion/laminin assembly rather than expression alone. Short treatment followed by later closure is encouraging; durability of mechanical resilience and full barrier after withdrawal remain unproven.",
+      "material_model_route": "Standardized research/clinical gentamicin identities and published patient-cell/engineered readthrough models provide a public replication route. Precise susceptibility must be established per allele; research product existence is not validated batch quality or stock.",
+      "exposure_and_safety": "No renal, auditory or anti-laminin safety signal was observed in the small short-course studies. Limited-area observations do not establish repeated large-body-area exposure safety, cumulative ototoxicity or nephrotoxicity.",
+      "comparator": "Matched vehicle, optimized wound care and an antibacterial comparator lacking the desired readthrough action; genotype-matched controls.",
+      "value": "Closer to human functional evidence than many candidates. An off-the-shelf antibiotic protocol has uncertain new-venture differentiation; a defined safer pulse formulation or validated genotype-response strategy would need to add measurable value.",
+      "deciding_proof": "Independent established-wound/skin-resilience benefit attributable to readthrough, with measured systemic exposure and superiority to an antimicrobial-active control.",
+      "go": "Durable functional adhesion/barrier advantage with a clinically meaningful product improvement and bounded exposure.",
+      "stop": "Benefit is indistinguishable from antibacterial/wound-care effects or the required exposure lacks an acceptable repeated-use window.",
+      "source_ids": [
+        "G1",
+        "G2",
+        "G3",
+        "G4"
+      ],
+      "product_qualification_addendum": "Gentamicin is a congener mixture. Match composition and disease-specific readthrough potency; antibacterial potency and total mass alone do not establish equivalent rescue activity. A separate gentamicin-B1 readthrough paper was retracted after the supplied material proved to be G418; this does not invalidate the 2020 topical JEB results."
+    },
+    {
+      "id": "R5-C03",
+      "kind": "new",
+      "name": "Low-dose efavirenz for cognitive dysfunction in juvenile/adult NPC1",
+      "novelty": "No efavirenz record in schema4.",
+      "decision": "Hold for controlled functional benefit on contemporary standard care.",
+      "current_S_tier": false,
+      "exact_product": "Oral low-dose efavirenz, 25 mg daily initially and 100 mg after week 26 in the 52-week pilot; distinct from standard HIV exposure.",
+      "evidence": "All 16 participants, ages 15–60, completed a miglustat-background open-label pilot. Its 100% response means no threshold-defined deterioration in at least two of three cognitive domains, not universal restoration. Continuous cognitive outcomes were mixed; disability/ataxia were stable and a swallowing signal was reported. Favorable/unfavorable clusters were generated from the response data.",
+      "denominator": {
+        "human": 16,
+        "control": 0,
+        "background": "All participants received miglustat.",
+        "posthoc_clusters": "Seven favorable and nine unfavorable response-defined clusters are not externally validated predictive strata."
+      },
+      "timing_and_function": "Established human disease was treated, but uncontrolled stability and repeated cognitive tests cannot isolate drug effect or establish restored function.",
+      "material_model_route": "Known oral molecule and published dose range. No proprietary access response is needed for the next evidence decision. Formulation and low-dose accuracy would require qualification.",
+      "exposure_and_safety": "No efavirenz-attributed adverse event in this small NPC pilot. A tiny Alzheimer target-engagement study supports CYP46A1 modulation, not NPC efficacy. High-concentration efavirenz ataxia in a different population makes exposure monitoring relevant without proving low-dose NPC harm.",
+      "comparator": "Contemporary NPC care must account for FDA-approved levacetylleucine and arimoclomol plus miglustat, as applicable. The trial's historical 'miglustat only' context is not current US care.",
+      "value": "Repurposing simplicity is favorable; incremental function over current care and a protectable/otherwise fundable product package are not established.",
+      "deciding_proof": "Prespecified controlled add-on improvement in cognition/swallowing or daily function at measured exposure, rather than a permissive stability composite or post-hoc subgroup.",
+      "go": "A replicated, patient-important functional advantage over current background treatment with a clean exposure-response window.",
+      "stop": "Only post-hoc selection or non-deterioration by permissive criteria supports efficacy.",
+      "source_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    {
+      "id": "R5-C04",
+      "kind": "new",
+      "name": "Artesunate for homozygous LAMB3 R635X severe JEB",
+      "novelty": "No artesunate record in schema4.",
+      "decision": "Stop the current product/restoration thesis; preserve this negative clinical result.",
+      "current_S_tier": false,
+      "exact_product": "One clinical report used sequential IV, oral and topical artesunate; the topical preparation was 10 mg/mL. These are not one validated interchangeable product.",
+      "evidence": "One child had no early wound-healing improvement, marginal skin laminin signal after months, and no response to topical treatment on the flanks. Late buttock improvement coincided with amnion transplantation. The child died in calendar week 19 of 2024; this does not establish drug-caused death. The cultured-cell figure reports p=0.053 despite stronger abstract language.",
+      "denominator": {
+        "human": 1,
+        "genotype": "Homozygous LAMB3 R635X.",
+        "controls": "No controlled clinical comparator; concurrent care and sequential routes confound attribution."
+      },
+      "timing_and_function": "Established wounds were treated, but a reproducible functional rescue attributable to artesunate was not demonstrated.",
+      "material_model_route": "Drug identity is public; the unresolved issue is useful skin exposure and a demonstrable phenotype, not an author response. A modified derivative or new delivery product would be a fresh hypothesis requiring its own identity and evidence.",
+      "exposure_and_safety": "Severe-malaria short-course IV experience cannot establish chronic pediatric oral/topical JEB exposure or safety. The clinical course does not establish either benefit or a causal toxicity mechanism.",
+      "comparator": "Optimized wound care and variant-responsive readthrough comparators such as gentamicin; account for graft procedures.",
+      "value": "No present evidence-based advantage over the better developed gentamicin readthrough route.",
+      "deciding_proof": "Only reopen for a chemically defined materially different product that shows independent post-deficit adhesion/barrier benefit at feasible skin exposure before another efficacy narrative.",
+      "go": "New exact product clears exposure and functional-rescue gates.",
+      "stop": "Rebranding the same mixed-route, confounded single case as established efficacy.",
+      "source_ids": [
+        "A1",
+        "G1"
+      ]
+    },
+    {
+      "id": "R5-C05",
+      "kind": "new",
+      "name": "RCM-1 FOXM1 inhibition for established EoE epithelial barrier loss",
+      "novelty": "No RCM-1/FOXM1 record in schema4.",
+      "decision": "Hold; functional timing and patient-model relevance must change before advancement.",
+      "current_S_tier": false,
+      "exact_product": "RCM-1, CAS 339163-65-4, research catalog Selleck S6898. The reviewed work used 20 micromolar for the epithelial resistance assay.",
+      "evidence": "The TEER experiment used EPC2-hTERT immortalized normal human epithelial cells with IL-13 and RCM-1 co-treatment on days 9–15. It therefore tests protection during injury induction. Patient organoids/biopsies inform biology, and delayed mouse treatment improves pathology; neither establishes restored human swallowing or reversal of established patient-barrier failure.",
+      "denominator": {
+        "TEER": "n=4 culture observations; three independent experiments reported, not four patients.",
+        "patient_function": "No established-deficit patient-derived barrier rescue denominator or human functional trial.",
+        "mouse_timing": "Therapeutic treatment began after disease establishment around day 18; acknowledge this delayed animal pathology arm."
+      },
+      "timing_and_function": "TEER is a functional measure, but simultaneous insult and treatment is a prevention experiment. Mouse tissue remodeling is supportive but not a swallowing-function endpoint.",
+      "material_model_route": "Public compound specification and assay methods. Actual patient-organoid material permissions/availability were not established. A qualified primary/engineered epithelial model remains possible without waiting for the originating group.",
+      "exposure_and_safety": "No demonstrated human esophageal exposure bridge for 20 micromolar RCM-1 or defined local formulation. Healthy epithelial repair and proliferation require an explicit window because the target has broader cell-cycle functions.",
+      "comparator": "A suitable active anti-inflammatory/cytokine-pathway treatment and matched vehicle under the same established-deficit timing.",
+      "value": "A locally effective repair effect could differentiate; current data do not separate barrier restoration from suppressing injury induction.",
+      "deciding_proof": "Initiate after a stable TEER/permeability deficit in multiple independent patient-derived cultures; measure restored barrier and regenerative capacity at achievable local free exposure.",
+      "go": "Delayed functional rescue with an adequate healthy-epithelium window and a public reproducible exact material route.",
+      "stop": "Activity is restricted to prevention/co-treatment or disappears at feasible exposure.",
+      "source_ids": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "id": "R5-C06",
+      "kind": "new",
+      "name": "Perampanel for restoration of daily function in established Lafora disease",
+      "novelty": "No perampanel record in schema4.",
+      "decision": "Stop the restoration-focused development thesis; symptomatic seizure use is a separate question.",
+      "current_S_tier": false,
+      "exact_product": "Oral perampanel added to ongoing antiseizure therapy; mean dose 6.7 mg/day in the ten-person series.",
+      "evidence": "An initial single-patient report described regained walking and communication. The subsequent ten-patient series found seizure/myoclonus improvement in some participants, but no significant improvement in disability or cognition; three discontinued for ineffectiveness or adverse effects. This larger result tempers the dramatic index case.",
+      "denominator": {
+        "later_series": 10,
+        "initial_case": 1,
+        "withdrawals": 3,
+        "independence": "Do not count case reports/series patients as independent without overlap checks. Co-medication changes and open-label assessments limit attribution."
+      },
+      "timing_and_function": "Established disease was treated. Symptom relief is meaningful, but sustained restoration of daily function or underlying disease correction was not established.",
+      "material_model_route": "A clinically characterized small molecule provides a clear exact-entity route; access is not the deciding obstacle.",
+      "exposure_and_safety": "Tolerability-related withdrawals and concomitant antiseizure treatments require attention. No new safety claim is inferred from the limited series.",
+      "comparator": "Optimized symptomatic antiseizure care, with objective daily-function measurements beyond seizure counts.",
+      "value": "Insufficient novel disease-restoration or differentiated-product case for this portfolio.",
+      "deciding_proof": "Reopen only after independently replicated functional recovery beyond seizure suppression with a distinct, developable product/use proposition.",
+      "go": "Controlled or robust independently replicated improvement in daily function attributable to the intervention.",
+      "stop": "Seizure reduction is recast as restored cognition or disease modification.",
+      "source_ids": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "id": "R5-C07",
+      "kind": "new",
+      "name": "Diacerein 1% ointment / AC-203 for generalized epidermolysis bullosa simplex",
+      "novelty": "No diacerein/AC-203 record in schema4.",
+      "decision": "Stop new neglected-asset pursuit; retain two negative randomized efficacy results and monitor the active sponsor program.",
+      "current_S_tier": false,
+      "exact_product": "Diacerein 1% topical ointment; AC-203 EBShield is an actively developed sponsor product, not evidence of an unclaimed abandoned asset.",
+      "evidence": "A 54-person randomized trial found no significant primary or key secondary advantage over vehicle after eight weeks. On October 18, 2026, the sponsor reported that the 81-person EBShield pivotal study also missed its week-eight IGA primary endpoint (p=0.426); BSA, EBDASI and QOLEB secondary endpoints were not significant. Pain/itch signals do not by themselves demonstrate restored skin resilience.",
+      "denominator": {
+        "earlier_RCT": 54,
+        "EBShield_RCT": 81,
+        "extension": "77 entered open-label extension; this uncontrolled extension does not repair the randomized efficacy miss."
+      },
+      "timing_and_function": "Clinical existing disease was treated, but randomized benefit on the chosen primary severity outcome was not established in either study.",
+      "material_model_route": "Public exact concentration and active sponsor development are established. No access enquiry is needed to recognize this is an externally advanced program.",
+      "exposure_and_safety": "Sponsor reported generally good tolerability and no treatment-related serious adverse events in its October 30 update; the announcement is not a full independent safety dataset.",
+      "comparator": "Vehicle-controlled randomized trials already provide a stronger test than biomarker or uncontrolled reports.",
+      "value": "Pain/itch benefit may have clinical value, but the current portfolio objective requires a substantiated restoration and differentiated asset thesis. The active sponsor has announced ongoing regulatory plans.",
+      "deciding_proof": "Prespecified replicated functional or clinically meaningful severity evidence; post-hoc geographic/genetic subgroup exploration is hypothesis-generating.",
+      "go": "New robust comparator-controlled evidence for a defined responder/product strategy.",
+      "stop": "Promoting secondary symptom signals, uncontrolled extension response or post-hoc subgroup p-values into an S-tier restoration claim.",
+      "source_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ]
+    }
+  ],
+  "existing_candidate_updates": [
+    {
+      "id": "R5-C-U01",
+      "kind": "update",
+      "existing_candidate_id": "R4-L01",
+      "name": "RM4404 / WAY-262611 corneal sensory repair",
+      "decision": "Retain independent-validation priority outside core; require exact salt/formulation and sensory-comparator qualification.",
+      "current_S_tier": false,
+      "new_findings": [
+        "The paper's Calbiochem/Sigma catalog 317700 is currently labeled WAY-262611 hydrochloride; Cayman 17704 is the free base. Same active moiety does not establish equal micellar loading, molar basis or release. Historical batch identity needs analytical qualification, not an assumed substitution.",
+        "The original discovery uses a DKK1-associated functional Wnt/TCF reporter. A reviewed direct binding constant or cell-specific target-occupancy result was not established; pharmacological phenotype alone does not prove exclusive DKK1 engagement in corneal Schwann cells.",
+        "The inventor's institutional profile names a 2025 US provisional for corneal nerve regeneration via DKK1 inhibition. No application number or claim text was located in this bounded search; there is no public basis for asserting licensing availability or freedom to operate.",
+        "Oxervate's randomized label studies established epithelial healing, but mean sensitivity changes were not clinically significant. A separate early-stage open-label cenegermin study reports sensory improvement, so neither 'cenegermin restores nothing' nor 'RM4404 is superior' is supported."
+      ],
+      "denominator": "Retain round4's animal-versus-eye accounting: supplementary mechanical-model N=22 eye observations across three groups; chemical N=12 across three groups with one injured eye per mouse. These are not human efficacy denominators.",
+      "preserved_corrections": "Randomization and blinded secondary image review were reported; primary sensory-assessor masking remains unclear. The 7–14 dpi course was observed at day30, but days off treatment are not measured pharmacological washout. At day30, axon-length significance versus healthy tissue is not an RM-versus-vehicle effect.",
+      "exact_product": "Paper-defined WAY-262611 in Kolliphor HS15 micelles. Salt, final DMSO, loading, free versus encapsulated drug, release and stability must be measured. TEM appearance after storage does not establish potency, sterility or shelf life.",
+      "model_and_comparator": "Independent delayed-injury model with animal-level allocation, masked sensation, matched final solvent and cenegermin/appropriate repair control; intended human hypoesthesia population must match actual model. Add optical/epithelial integrity and pain discrimination.",
+      "exposure_and_safety": "Local delivery is plausible but ocular free exposure, target engagement, epithelial safety and hyperalgesia are not resolved.",
+      "rights_scope": "Named provisional and institutional commercialization statements are public evidence of rights activity. Actual enforceable claim scope was not established.",
+      "deciding_proof": "Delayed functional sensation benefit exceeding matched vehicle, durable after measured clearance, with a useful comparator and no optical, epithelial or pain penalty.",
+      "go": "Independent animal-level replication and qualified exact formulation plus clinically relevant functional advantage.",
+      "stop": "Effect disappears with solvent/salt correction, reflects sensitization rather than repair, or is supported only by healthy-reference normalization.",
+      "source_ids": [
+        "RM1",
+        "RM2",
+        "RM3",
+        "RM4",
+        "RM5",
+        "RM6",
+        "RM7",
+        "RM8"
+      ]
+    },
+    {
+      "id": "R5-C-U02",
+      "kind": "update",
+      "existing_candidate_id": "R4-L02",
+      "name": "APR-246 / PRIMA-1MET topical treatment for AEC skin erosions",
+      "decision": "Retain serious local translational challenger; coverage is not established mature barrier restoration.",
+      "current_S_tier": false,
+      "new_findings": [
+        "The cell experiment began APR-246 two days before calcium-induced differentiation. This is not reversal of a mature defective barrier. LOR/SPRR1A remained unrescued, matching incomplete clinical cornification; p63 aggregate clearance was not demonstrated.",
+        "Biopsies came from nonerosive arm skin, which healed normally after sampling. A genotype-positive culture may not reproduce the anatomical/environmental lesion context.",
+        "The paper reports 0.6 mg/g cream and a literal 5 mg APR-246 per day; taken literally these imply about 8.33 g cream/day. This is a reporting/transfer ambiguity, not proof of dosing error. Applied mass, area and tissue exposure require an independently defined formulation specification.",
+        "The US issued patent's claim1 includes AEC, PRIMA-1MET and ectodermal dysplasia affecting at least one cornea; dependent cream/skin claims retain that predicate. This is neither a blanket all-skin claim nor proof that topical skin treatment of patients with corneal disease is outside it.",
+        "The European published application has broader proposed wound-healing/p63-compound claims; published claims are not a verified granted/current enforceable scope.",
+        "A later JEB keratinocyte paper reports partial adhesion rescue in three patient lines with overlapping investigators. It supports broader phenotype activity, not independent AEC clinical or mature-barrier replication."
+      ],
+      "denominator": "Original clinical evidence remains two children with TP63 SAM variants I576T and I537T. Their patient-derived experiments are linked evidence, not an independent cohort. Later JEB three-line result is a different use and not counted as a new lead in this round.",
+      "exact_product": "PRIMA-1MET/APR-246, CAS5291-32-7, catalog3710; not PRIMA-1 catalog1862. The original topical article used 0.6mg/g in Seraqua and reported three-week refrigerated stability, not an established commercial dosage product.",
+      "model_and_comparator": "Established-lesion or independently qualified AEC skin model, matched vehicle and optimized wound care, at least two disease backgrounds and regional/healthy-skin controls. Functional readouts should measure permeability and mechanical resilience plus cornification after withdrawal.",
+      "exposure_and_safety": "MQ/thiol-redox biology provides an alternative/complementary mechanism and a testable exposure-window concern. Cancer-cell glutathione effects do not prove dermal toxicity. One-week healthy-mouse irritation data reported without display do not establish chronic safety.",
+      "rights_scope": "US12521392B2 granted January13,2026, assignees APHP/INSERM/UniversitéParisCité; claim-level review is preliminary and territory/product/patient-population dependent. EP3823622A1 publication is not a freedom-to-operate result.",
+      "deciding_proof": "A defined topical dose restores durable mechanical/barrier function after established deficit, with a healthy-skin exposure window; clinical coverage/pain improvement alone cannot settle this.",
+      "go": "Independent durable functional barrier restoration, measured local exposure and a tractable product/territory claim path.",
+      "stop": "Surface coverage persists without mature resilience, apparent rescue is confined to differentiation pretreatment, or active exposure injures healthy repair.",
+      "source_ids": [
+        "APR1",
+        "APR2",
+        "APR3",
+        "APR4",
+        "APR5",
+        "APR6",
+        "APR7"
+      ]
+    }
+  ],
+  "evidence_limits": [
+    "PPCS additional infant paper 10.1002/ehf2.15283 is reserved for root's independent review and overlap check; this artifact does not assert Zhang2025 exhausts human cases.",
+    "Several PMC/publisher views were intermittently blocked; conclusions use full primary institutional PDFs, accessible primary text or indexed primary article passages as noted. Artesunate letter full PDF parser failed, but indexed full letter passages and figure caption were reviewed.",
+    "Catalog listings establish a described material route, not current inventory, batch identity or clinical-grade suitability.",
+    "Patent document review is claim-specific and bounded; no complete family/prosecution/assignment or freedom-to-operate opinion is asserted.",
+    "RCT sponsor October2026 results are current primary disclosures, not independently peer-reviewed participant-level analysis. Regulatory outcomes are not predicted.",
+    "No prevalence, sales, cost or probability-of-success estimate was invented."
+  ],
+  "sources": {
+    "RM1": {
+      "title": "RM4404 corneal nerve regeneration primary study",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+      "kind": "primary_research",
+      "doi": "10.1002/jnr.70142"
+    },
+    "RM2": {
+      "title": "Calbiochem 317700 manufacturer identity: WAY-262611 hydrochloride",
+      "url": "https://www.merckmillipore.com/INTL/en/product/Dkk-1-Inhibitor-WAY-262611-HCl-Calbiochem,EMD_BIO-317700",
+      "kind": "manufacturer"
+    },
+    "RM3": {
+      "title": "Cayman 17704 manufacturer identity: WAY-262611 free base",
+      "url": "https://www.caymanchem.com/product/17704/way-262611",
+      "kind": "manufacturer"
+    },
+    "RM4": {
+      "title": "WAY-262611 original discovery publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19856966/",
+      "kind": "primary_research",
+      "doi": "10.1021/jm9014197"
+    },
+    "RM5": {
+      "title": "Inventor institution profile listing 2025 corneal DKK1 provisional",
+      "url": "https://facultydirectory.uchc.edu/profile?profileId=Bargagna-Mohan-Paola",
+      "kind": "institutional_primary"
+    },
+    "RM6": {
+      "title": "UConn topical formulation and patent-pending report",
+      "url": "https://today.uconn.edu/2026/06/targeting-schwann-cells-a-new-approach-to-repairing-corneal-injury/",
+      "kind": "institutional_primary"
+    },
+    "RM7": {
+      "title": "Oxervate prescribing information: healing and corneal sensitivity results",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89e4bfec-d710-40ed-8885-5d13ba46b1cd",
+      "kind": "regulatory_label"
+    },
+    "RM8": {
+      "title": "DEFENDO cenegermin early neurotrophic keratopathy open-label study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10787719/",
+      "kind": "primary_research"
+    },
+    "APR1": {
+      "title": "PRIMA-1MET topical treatment in two children with AEC",
+      "url": "https://www.nature.com/articles/s41419-020-2223-8",
+      "kind": "primary_research",
+      "doi": "10.1038/s41419-020-2223-8"
+    },
+    "APR2": {
+      "title": "PRIMA-1MET / APR-246 research product 3710",
+      "url": "https://www.rndsystems.com/products/prima-1met_3710",
+      "kind": "manufacturer"
+    },
+    "APR3": {
+      "title": "APR-246/MQ glutathione mechanism",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26086967/",
+      "kind": "primary_research"
+    },
+    "APR4": {
+      "title": "MQ effects on thioredoxin and glutaredoxin",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6107631/",
+      "kind": "primary_research"
+    },
+    "APR5": {
+      "title": "US12521392B2 issued patent including AEC/corneal predicate",
+      "url": "https://patents.google.com/patent/US12521392B2/en",
+      "kind": "published_patent_document"
+    },
+    "APR6": {
+      "title": "EP3823622A1 published application",
+      "url": "https://patents.google.com/patent/EP3823622A1/en",
+      "kind": "published_patent_document"
+    },
+    "APR7": {
+      "title": "APR-246 partial adhesion rescue in JEB keratinocytes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022202X23025861",
+      "kind": "primary_research",
+      "doi": "10.1016/j.jid.2023.08.021"
+    },
+    "P1": {
+      "title": "PPCS cardiomyopathy cohort and patient-derived cardiac models",
+      "url": "https://www.nature.com/articles/s43856-025-01017-z",
+      "full_text_url": "https://iris.unibs.it/retrieve/73dc3bf9-28fd-45b1-bcd0-5305f9fa5050/43856_2025_Article_1017.pdf",
+      "kind": "primary_research",
+      "doi": "10.1038/s43856-025-01017-z"
+    },
+    "P2": {
+      "title": "Sigma 16702: (R)-pantetheine monomer",
+      "url": "https://www.sigmaaldrich.com/US/en/product/sigma/16702",
+      "kind": "manufacturer"
+    },
+    "P3": {
+      "title": "Historical human metabolism of pantethine in cystinosis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC424158/",
+      "full_text_url": "https://content-assets.jci.org/manuscripts/112000/112152/JCI85112152.pdf",
+      "kind": "primary_research"
+    },
+    "P4": {
+      "title": "HMGUi003-A registered PPCS patient iPSC line",
+      "url": "https://hpscreg.eu/cell-line/HMGUi003-A",
+      "kind": "model_registry"
+    },
+    "P5": {
+      "title": "MRIi028-A PPCS line and commercial-use restrictions",
+      "url": "https://hpscreg.eu/cell-line/MRIi028-A",
+      "kind": "model_registry"
+    },
+    "P6": {
+      "title": "2018 original PPCS deficiency families",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5992122/",
+      "kind": "primary_research",
+      "doi": "10.1016/j.ajhg.2018.03.022"
+    },
+    "P7": {
+      "title": "Additional infant PPCS rescue report under independent root review",
+      "url": "https://academic.oup.com/eschf/article/12/4/3195/8488057",
+      "kind": "primary_research_independently_reviewed",
+      "doi": "10.1002/ehf2.15283"
+    },
+    "G1": {
+      "title": "Topical gentamicin, functional laminin 332 and JEB wound closure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7210719/",
+      "kind": "primary_research",
+      "doi": "10.1016/j.ymthe.2020.03.006"
+    },
+    "G2": {
+      "title": "Intravenous gentamicin in five children with JEB",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892363/",
+      "kind": "primary_research",
+      "doi": "10.1001/jamadermatol.2021.5992"
+    },
+    "G3": {
+      "title": "Gentamicin readthrough and JEB adhesion in cell/skin constructs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048497/",
+      "kind": "primary_research"
+    },
+    "E1": {
+      "title": "Low-dose efavirenz pilot in NPC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40701909/",
+      "full_text_url": "https://sms.carm.es/ricsmur/bitstream/handle/123456789/25242/10.1016j.neurot.2025.e00706.pdf?sequence=1",
+      "kind": "primary_research",
+      "doi": "10.1016/j.neurot.2025.e00706"
+    },
+    "E2": {
+      "title": "FDA Aqneursa approval",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-drug-treat-niemann-pick-disease-type-c",
+      "kind": "regulatory_primary"
+    },
+    "E3": {
+      "title": "FDA Miplyffa approval",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-niemann-pick-disease-type-c",
+      "kind": "regulatory_primary"
+    },
+    "E4": {
+      "title": "N-acetyl-L-leucine randomized NPC trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38294974/",
+      "kind": "primary_research"
+    },
+    "E5": {
+      "title": "Small efavirenz CYP46A1 target-engagement study in Alzheimer disease",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9797897/",
+      "kind": "primary_research"
+    },
+    "E6": {
+      "title": "Severe ataxia and high efavirenz concentrations in HIV treatment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5532735/",
+      "kind": "primary_research"
+    },
+    "A1": {
+      "title": "Artesunate in one child with severe JEB, clinical letter",
+      "url": "https://zenodo.org/records/17812353",
+      "full_text_url": "https://zenodo.org/records/17812353/files/skinonline_article_169584.pdf?download=1",
+      "kind": "primary_research",
+      "doi": "10.1553/skindeep.2025.169584"
+    },
+    "R1": {
+      "title": "FOXM1 inhibition in EoE",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13151461/",
+      "alternate_url": "https://gut.bmj.com/content/75/5/857.full",
+      "kind": "primary_research",
+      "doi": "10.1136/gutjnl-2025-335163"
+    },
+    "R2": {
+      "title": "Selleck RCM-1 S6898 material safety/identity document",
+      "url": "https://www.selleckchem.com/msds/MSDS_S6898.pdf",
+      "kind": "manufacturer"
+    },
+    "L1": {
+      "title": "Perampanel ten-patient Lafora series",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5691360/",
+      "kind": "primary_research"
+    },
+    "L2": {
+      "title": "Initial striking perampanel Lafora single-patient report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4307869/",
+      "kind": "primary_research"
+    },
+    "D1": {
+      "title": "Randomized 54-person diacerein 1% trial in EBS",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37276163/",
+      "kind": "primary_research",
+      "doi": "10.36849/JDD.7108"
+    },
+    "D2": {
+      "title": "EBShield 81-person primary endpoint results, October 18 2026",
+      "url": "https://www.twibiotech.com/en/news/content/twi_biotechnology_announces_primary_endpoint_results_from_phase_2_3_trial_of_ac_203_in_epidermolysis_bullosa_simplex?category=Press",
+      "kind": "sponsor_primary"
+    },
+    "D3": {
+      "title": "AC-203 development after failed primary endpoint, October 30 2026",
+      "url": "https://www.twibiotech.com/en/news/content/twi_biotechnology_announces_ac_203_clinical_trial_results_and_future_regulatory_strategy_at_investor_conference",
+      "kind": "sponsor_primary"
+    },
+    "D4": {
+      "title": "AC-203 EBShield registration",
+      "url": "https://clinicaltrials.gov/study/NCT06073132",
+      "kind": "trial_registry"
+    },
+    "G4": {
+      "title": "Retraction of gentamicin-B1 readthrough report following compound-identity correction",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6294919/",
+      "doi": "10.1073/pnas.1818172115",
+      "kind": "primary_retraction",
+      "scope": "A separate B1 study, not a retraction of the topical JEB trial."
+    }
+  }
+}
