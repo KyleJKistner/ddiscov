@@ -2,6 +2,14 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 17: selecting information and interpreting useful corneal function
+
+The [RM4404 decision](../research/rounds/round17/marginal-dollar-decision.md) distinguishes the next eligible public-source sprint from the conditional development ranking. APR's completed source pass does not demote its development opportunity. Retain the independent review order APR1/RM2/BLU3 unless substantive evidence changes the next marginal-dollar comparison. Do not use historical allocation, elapsed effort or an exhausted search as an EV proxy.
+
+For RM4404, keep the injury model, regimen, endpoint, biological unit and time since treatment explicit. Direct chemical-model effects do not resolve a weak surgical-model contrast; a preliminary conference p value does not supply a missing final animal-level analysis. Sections and readings from the same mouse are not independent animals. A comparison that changes both dosing phase and recency does not isolate phase-specific repair. Ceiling-limited blink recovery needs interpretation appropriate to the intended patient benefit.
+
+Useful ongoing control or finite-course benefit can have value. Stronger off-treatment repair claims require relevant follow-up and exposure interpretation. An initial informative qualification route need not include every model or a complete sterile ophthalmic package. If article, model, sterile-product or rights work expands the assumed small tranche, compare its actual cost, time, information and retained value with alternatives and waiting before extending scope. Source-pass completion does not authorize scientific execution or spending.
+
 ## Unit of selection
 
 Specify the exact article, disease and genotype, target compartment, route, treatment timing and useful functional endpoint. Separate the value of a biological target, the quality of a particular molecule, and readiness to execute the next experiment.

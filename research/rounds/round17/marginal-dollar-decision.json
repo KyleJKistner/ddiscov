@@ -1,0 +1,231 @@
+{
+  "schema_version": "ddiscov.round17.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+  "candidate_id": "R4-L01",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Whether RM4404 offers reproducible useful corneal function with an interpretable article/exposure and a bounded product contribution, rather than a sensory-surrogate or major sterile-product project",
+    "basis": "Next eligible public-source sprint after APR closure, following independent conditional development order APR1/RM2/BLU3 and testing fresh evidence that could reverse the selection",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 2,
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_conditional_qualification_priority_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true,
+    "new_evidence_clearly_favoring_another_candidate": false
+  },
+  "decision": "Complete the selected RM4404 public-source sprint; retain conditional independent qualification and the review's APR1/RM2/BLU3 development ordering. No full program, new allocation or spending commitment.",
+  "scientific_tier": "existing independent-validation priority; no S-tier promotion",
+  "independent_review": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "read_scope": "Ten-page review recovered in Round16; RM-specific objective, rank, scope and budget passages rechecked in this sprint",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "kind": "analytical_input_not_primary_efficacy",
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "ordinal_not_calculated_financial_returns": true
+  },
+  "intended_claim": "Useful recovery or sustained control of injury-related corneal hypoesthesia, with tissue integrity/clarity and symptom burden appropriate to the selected clinical use",
+  "claim_limits": {
+    "blink_threshold_alone_establishes_useful_repair": false,
+    "healthy_reference_nonsignificance_establishes_equivalence": false,
+    "calendar_off_dose_time_establishes_PK_washout": false,
+    "permanent_drug_free_cure_universally_required": false,
+    "complete_histologic_normalization_universally_required": false,
+    "exclusive_Schwann_DKK1_mechanism_universally_required": false,
+    "off_treatment_repair_claim_requires_relevant_followup_and_exposure_interpretation": true,
+    "CMI_NM_NK_PCED_interchangeable": false,
+    "all_models_and_full_CMC_required_before_initial_qualification": false
+  },
+  "tranche_assumption": {
+    "currency": "USD",
+    "cost_range": [
+      50000,
+      175000
+    ],
+    "months_range": [
+      3,
+      6
+    ],
+    "source": "Independent review page 2",
+    "status": "analyst assumption, not a verified budget or timeline",
+    "specific_exclusion": "Complete sterile ophthalmic development package",
+    "general_exclusions": [
+      "Rights and licensing",
+      "GLP toxicology",
+      "GMP clinical manufacture",
+      "Clinical trials",
+      "Commercialization"
+    ],
+    "purpose": "Product/exposure and independent functional corroboration",
+    "quotes_obtained": false,
+    "external_commitment_usd": 0,
+    "scope_expansion_requires_new_comparison": true
+  },
+  "completed_evidence_gains": [
+    {
+      "id": "G1",
+      "finding": "Model-specific source audit preserves direct delayed chemical-injury structural contrasts instead of generalizing the weak late surgical contrast to all RM evidence.",
+      "kind": "newly_extracted_existing_primary_results",
+      "new_experiment": false
+    },
+    {
+      "id": "G2",
+      "finding": "Early-versus-delayed chemical-injury comparison differs in time since last dose; finite-course follow-up and treatment-timing inference remain separate.",
+      "kind": "design_inference_correction",
+      "new_experiment": false
+    },
+    {
+      "id": "G3",
+      "finding": "Thickness evidence uses readings nested within sections and three mice/group; large figure N values and inconsistent statistical labels do not establish large independent-animal support.",
+      "kind": "biological_unit_and_source_notation_audit",
+      "new_experiment": false
+    },
+    {
+      "id": "G4",
+      "finding": "The 2025 institutional abstract provides preliminary direct sensory contrasts, but different analysis descriptions and unlinked observations prevent importing its p-values into the final paper or counting independent replication.",
+      "kind": "new_to_repository_primary_report_reconciliation",
+      "new_independent_replication": false
+    },
+    {
+      "id": "G5",
+      "finding": "Exact article and carrier evidence remain formulation-specific; nominal composition, morphology, analogous-carrier tolerance and research catalogs do not validate transferred content, release, exposure or ocular safety.",
+      "kind": "bounded_transfer_audit"
+    },
+    {
+      "id": "G6",
+      "finding": "A longer cenegermin extension is observational, permits additional care, defines responder-specific endpoints and prespecifies observed-case analyses. An active Phase3 epithelial-healing program is competition, not a sensory result.",
+      "kind": "new_comparator_source_and_endpoint_update"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R1",
+      "name": "Defined existing-article qualification plus one appropriate existing injury/function route",
+      "status": "conditional_small_tranche",
+      "question": "Can an interpretable article support useful sensory recovery with coherent tissue condition and acceptable local exposure?",
+      "full_sterile_commercial_package_required_upfront": false,
+      "all_models_required_upfront": false,
+      "execution_now": false
+    },
+    {
+      "id": "R2",
+      "name": "Product contribution for a specified clinical population",
+      "status": "conditional_following_informative_qualification",
+      "question": "Does the product add useful benefit, burden/tolerability improvement or another credible contribution versus appropriate care in post-injury hypoesthesia or a separately defined NK/PCED population?",
+      "automatic_NK_or_PCED_transfer": false,
+      "execution_now": false
+    },
+    {
+      "id": "R3",
+      "name": "Major formulation, model or rights development",
+      "status": "scope_change_recompare_before_commitment",
+      "question": "Does the revised opportunity still exceed alternatives after the added cost, time and capture burden?",
+      "automatic_scope_extension": false,
+      "execution_now": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "B1",
+      "condition": "Article, matched control and an appropriate existing model can yield an informative useful-function decision at genuinely small scope",
+      "decision": "Retain RM as a conditional qualification opportunity at the independent review's second development position",
+      "current_result": "plausible_not_execution_qualified",
+      "execution_now": false
+    },
+    {
+      "id": "B2",
+      "condition": "Only a blink-threshold change survives, without evidence adequate to the intended patient benefit or with pain/ocular harm",
+      "decision": "Do not promote the repair product on the surrogate; narrow the claim or stop the corresponding route",
+      "current_result": "future_rule_not_observed_RM_failure",
+      "execution_now": false
+    },
+    {
+      "id": "B3",
+      "condition": "Salt, solvent, article degradation or exposure makes the result uninterpretable",
+      "decision": "Resolve the consequential transfer ambiguity within the bounded scope; do not call target failure from an unqualified article",
+      "current_result": "unresolved_not_proven_confounding",
+      "execution_now": false
+    },
+    {
+      "id": "B4",
+      "condition": "Sterile product, new model or rights work materially exceeds the assumed small tranche",
+      "decision": "Recompare actual remaining cost/time/information/capture against BLU, other eligible opportunities and waiting before extending scope",
+      "current_result": "risk_not_demonstrated_cost_overrun",
+      "execution_now": false
+    },
+    {
+      "id": "B5",
+      "condition": "Scientific benefit remains but incremental clinical contribution or retained financial value is inadequate",
+      "decision": "Defer or redirect asset development; separately justify evidence/public-benefit work",
+      "current_result": "capture_unresolved",
+      "execution_now": false
+    }
+  ],
+  "decision_inputs_remaining": [
+    "Exact reproducible article and matched vehicle",
+    "Relevant local exposure and tolerability",
+    "Independent useful function with appropriate biological units and masking",
+    "Specific target population, comparator and clinical contribution",
+    "Applicable rights, access terms and retained economics",
+    "Actual cost/time of the next finite deliverable"
+  ],
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "completion": {
+    "public_source_pass_closed": true,
+    "APR_public_source_pass_reopened": false,
+    "generic_BLU_exposure_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "RM_transparency_questionnaire_directly_read": false,
+    "RM_raw_animal_level_dataset_recovered": false,
+    "cenegermin_extension_numeric_result_tables_recovered": false,
+    "full_current_patent_claim_scope_established": false,
+    "reopen_only_for": [
+      "Accessible substantive transparency/raw-observation document or primary correction",
+      "Independent exact-article functional result with relevant units and comparator",
+      "New exact-product stability, release, exposure or ocular-tolerance data",
+      "Substantive current comparator result or identifiable published claim record",
+      "Defined product/access/transaction facts changing a specific next commitment"
+    ]
+  },
+  "source_scopes": [
+    "research/rounds/round17/rm-function-evidence.json",
+    "research/rounds/round17/rm-product-capture.json",
+    "research/rounds/round4/round4_local_repair.json",
+    "research/rounds/round5/round5_shortlist_challenge.json",
+    "research/rounds/round16/marginal-dollar-decision.json"
+  ],
+  "new_exact_intervention_use_screens": 0,
+  "new_RM_treated_people": 0,
+  "new_RM_independent_replications_verified": 0,
+  "new_experiments_generated": 0,
+  "S_tier_promotions": 0,
+  "development_execution_authorized": false,
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

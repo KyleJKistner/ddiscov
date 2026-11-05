@@ -1,0 +1,142 @@
+{
+  "schema_version": "ddiscov.round17.independent_marginal_decision_review.v1",
+  "reviewer": "r17_rm_capture",
+  "review_date_utc": "2026-11-05",
+  "evidence_cut": "2026-11-04 America/Los_Angeles",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/marginal-dollar-decision.md",
+      "bytes": 12728,
+      "sha256": "06aa3cdbc3f9d87a20f824e9f9d96278a3e4b925c5f2b1844e90bc0daafde3fe"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/marginal-dollar-decision.json",
+      "bytes": 11316,
+      "sha256": "57339179f0d7786e6fd83145f6c3506e0280e89f039e08f82bc819abeba79dba"
+    }
+  ],
+  "scope": "Independent review of the decision narrative and structured decision for marginal-dollar selection, development-rank distinction, finite scope, comparator and rights accuracy, source-access limits and all six restrictions. The reviewer did not author or edit these repository files.",
+  "basis": [
+    "Round 4 and Round 5 RM comparator/rights baseline",
+    "Bounded primary comparator and known-family rights audit recorded in round17_work/capture/rm-comparator-capture-audit.md and rm-comparator-capture-ledger.json",
+    "Official indexed NCT05552261 endpoint/design record and NGF0122 SAP v2.0 dated 22 March 2024",
+    "Domp\u00e9 9 June 2026 Orunea announcement",
+    "Known UConn institutional provisional and commercialization records"
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "status": "pass",
+      "topic": "Marginal decision versus development ranking",
+      "finding": "The source sprint is selected first among currently eligible information tasks while the independent review conditional development order remains APR1/RM2/BLU3. APR public-source closure is not treated as scientific rejection; historical allocation is not an EV proxy."
+    },
+    {
+      "id": "F2",
+      "status": "pass",
+      "topic": "Finite scope and stop option",
+      "finding": "The selected useful-function and exact-article question does not imply an all-model program or complete commercial CMC package. Material formulation, model or rights expansion triggers comparison with BLU, other opportunities and waiting."
+    },
+    {
+      "id": "F3",
+      "status": "pass",
+      "topic": "Comparator lineage and endpoint interpretation",
+      "finding": "The extension remains follow-up of the original cohort with further care including Oxervate allowed. Responder-specific endpoints, planned observed-case analysis and unread numeric result tables are distinct. Orunea is development competition in epithelial healing, not a completed sensory comparison."
+    },
+    {
+      "id": "F4",
+      "status": "pass",
+      "topic": "Rights and retained value",
+      "finding": "A known university provisional/disclosure is not treated as verified claim coverage, FTO, a license offer, available materials or favorable financial terms. Scientific selection does not require an owner reply; spending cannot assume free rights."
+    },
+    {
+      "id": "F5",
+      "status": "pass",
+      "topic": "Financial provenance",
+      "finding": "The USD50,000\u2013175,000 and 3\u20136 month range remains an illustrative analyst assumption with exclusions. No validated budget, numerical financial return, market size, success probability, new allocation or full program commitment is assigned."
+    },
+    {
+      "id": "F6",
+      "status": "pass",
+      "topic": "Source-access ceilings",
+      "finding": "The decision explicitly preserves unread extension numeric tables, unrecovered animal-level data and questionnaire, unresolved exact-product exposure/stability and unavailable complete current claim scope. Failed access is not treated as biological failure or nonexistence."
+    },
+    {
+      "id": "F7",
+      "status": "pass",
+      "topic": "Restriction consistency",
+      "finding": "Both documents preserve no outreach, purchases, recruitment, experiments, simulations or material receipt. All structured activity fields and execution authorization remain false."
+    },
+    {
+      "id": "F8",
+      "status": "pass",
+      "topic": "Cross-format consistency",
+      "finding": "Narrative and JSON match on selected RM sprint, second conditional development position, no rank reversal, no numerical EV and no execution. Strict JSON parsing and targeted deterministic checks pass."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "R1",
+      "severity": "precision",
+      "issue": "Initial comparator wording said the extension uses observed-case analyses despite unread numeric result tables, which could imply a verified implementation audit.",
+      "resolution": "Narrative now says the extension defines responder-specific endpoints and prespecifies observed-case analyses in its SAP. JSON G6 likewise says prespecifies. The numeric-table access ceiling remains explicit.",
+      "decision_impact": "No change in selection or ranking.",
+      "verified_in_bound_bytes": true
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "L1",
+      "severity": "nonblocking_evidence_limit",
+      "blocking_for_public_source_close": false,
+      "issue": "Extension numeric result tables, actual rescue/retreatment histories and clinical study report were not inspected.",
+      "consequence": "Do not calculate a maintenance rate or claim durable benefit from one untreated course; reopen only for substantive accessible data."
+    },
+    {
+      "id": "L2",
+      "severity": "nonblocking_evidence_limit",
+      "blocking_for_public_source_close": false,
+      "issue": "Applicable published claims, current rights availability and transaction terms remain unresolved.",
+      "consequence": "The known lead supports bounded future diligence, not capture economics or FTO conclusions."
+    },
+    {
+      "id": "L3",
+      "severity": "nonblocking_evidence_limit",
+      "blocking_for_public_source_close": false,
+      "issue": "The small-tranche cost and schedule are analyst illustrations rather than qualified project costs.",
+      "consequence": "Any actual commitment requires a finite deliverable and credible cost/time; enlarged scope requires a fresh marginal comparison."
+    },
+    {
+      "id": "L4",
+      "severity": "nonblocking_evidence_limit",
+      "blocking_for_public_source_close": false,
+      "issue": "Exact-article independent useful-function evidence, appropriate population, exposure and tolerability remain qualification questions.",
+      "consequence": "The source pass does not establish execution readiness, RM clinical benefit or a full development program."
+    },
+    {
+      "id": "L5",
+      "severity": "nonblocking_evidence_limit",
+      "blocking_for_public_source_close": false,
+      "issue": "The review does not reproduce inaccessible third-party source bytes or conduct a full clinical, patent or financial diligence program.",
+      "consequence": "Hashes bind the reviewed authored decision pair only; companion source ledgers preserve narrower evidence access."
+    }
+  ],
+  "review_method": {
+    "read_only_repository_access": true,
+    "deterministic_document_checks": true,
+    "scientific_or_financial_simulation": false,
+    "new_experiment": false,
+    "reviewed_document_hash_algorithm": "SHA256"
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "ddiscov.round17.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_publication_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "new_RM_treated_people": 0,
+    "new_RM_independent_replications_verified": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "function_primary_source_records": 2,
+    "function_evidence_rows": 21,
+    "function_claim_decisions": 8,
+    "newly_reconciled_primary_conference_reports": 1,
+    "product_source_records": 6,
+    "product_claim_rows": 10,
+    "comparator_and_rights_source_records": 8,
+    "opportunity_routes": 3,
+    "decision_branches": 5,
+    "independent_review_documents_total": 3,
+    "reviewed_authored_files": 6
+  },
+  "scope": "One existing candidate: primary corneal function and source lineage, article/exposure, current comparator/known-rights limits and a bounded marginal-dollar decision.",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Whether RM4404 offers reproducible useful corneal function with an interpretable article/exposure and a bounded product contribution, rather than a sensory-surrogate or major sterile-product project",
+    "basis": "Next eligible public-source sprint after APR closure, following independent conditional development order APR1/RM2/BLU3 and testing fresh evidence that could reverse the selection",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 2,
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_conditional_qualification_priority_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true,
+    "new_evidence_clearly_favoring_another_candidate": false
+  },
+  "independent_review_input": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "read_scope": "Ten-page review recovered in Round16; RM-specific objective, rank, scope and budget passages rechecked in this sprint",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "kind": "analytical_input_not_primary_efficacy",
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "ordinal_not_calculated_financial_returns": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R4-L01",
+      "new_candidate": false,
+      "source_scopes": [
+        "research/rounds/round17/rm-function-evidence.json",
+        "research/rounds/round17/rm-product-capture.json",
+        "research/rounds/round17/marginal-dollar-decision.json"
+      ],
+      "decision_scope": "research/rounds/round17/marginal-dollar-decision.json",
+      "delta": [
+        "RM is the selected public-source sprint, not an automatic new first development asset. APR1/RM2/BLU3 is retained as the independent review conditional order; no calculated return or new allocation.",
+        "A 2025 institutional abstract publicly reports direct delayed-CMI sensory contrasts but lacks denominators and uses different methods from the final report. No additional independent cohort or final clustered result is credited.",
+        "Figure 18 three-digit counts are nested readings from three mice per group; its mixed statistical notation remains unresolved. Stronger unilateral chemical-model contrasts and early-regimen off-dosing results remain separate from late CMI limits.",
+        "Early-versus-delayed comparison changes treatment phase and time since dosing together. A ceiling-limited blink endpoint cannot independently establish sensory quality, optics, barrier protection or absence of hypersensitivity.",
+        "Literal filtration wording, fresh batch preparation and carrier-specific primary evidence narrow product inference. Salt/solvent, chemical stability, release, exact ocular exposure and tolerance remain unqualified; neither blanket carrier rejection nor full CMC as an initial universal gate is justified.",
+        "Cenegermin extension permits additional treatment and defines responder-specific outcomes; its SAP prespecifies observed-case analysis. Numeric result tables were not recovered. Orunea is an initiated epithelial-healing study, not a completed sensory result.",
+        "Known-family rights and retained economics remain unresolved. Close the bounded source pass; reopen only for a named substantive artifact or fact that changes the next commitment."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round17/rm-function-evidence.json",
+    "research/rounds/round17/rm-product-capture.json",
+    "research/rounds/round17/marginal-dollar-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null,
+    "conditional_development_order_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round17/independent-function-review.json",
+    "research/rounds/round17/independent-product-capture-review.json",
+    "research/rounds/round17/independent-marginal-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round17/integration-review.md",
+  "local_verification": "research/rounds/round17/local-verification.json",
+  "artifact_manifest": "research/rounds/round17/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "APR_public_source_pass_reopened": false,
+    "generic_BLU_exposure_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "RM_transparency_questionnaire_directly_read": false,
+    "RM_raw_animal_level_dataset_recovered": false,
+    "cenegermin_extension_numeric_result_tables_recovered": false,
+    "full_current_patent_claim_scope_established": false,
+    "reopen_only_for": [
+      "Accessible substantive transparency/raw-observation document or primary correction",
+      "Independent exact-article functional result with relevant units and comparator",
+      "New exact-product stability, release, exposure or ocular-tolerance data",
+      "Substantive current comparator result or identifiable published claim record",
+      "Defined product/access/transaction facts changing a specific next commitment"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "Canonical raw supplements and Transparent Science Questionnaire for Authors were not read; no raw animal-level dataset or resolving correction was recovered.",
+    "The 2025 abstract is preliminary same-program evidence; formal animal linkage and final clustered contrast remain unestablished.",
+    "No historic article/lot authentication, exact RM chemical stability, release, quantitative corneal PK or transferable ocular tolerance established.",
+    "Extension numeric result tables were not recovered; SAP methods are prespecified rather than verified implementation.",
+    "Current applicable claim scope, transaction terms, actual qualification costs and retained financial value remain unresolved.",
+    "The independent review cost/time envelope and ordinal development order are analytical assumptions; no calculated EV per dollar, quote or execution commitment."
+  ]
+}

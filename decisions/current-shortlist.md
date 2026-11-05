@@ -1,8 +1,20 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 16.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 17.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 16: APR-246/AEC and the next marginal dollar
+## Round 17: RM4404/corneal repair and the next information dollar
+
+**RM4404 was selected for this bounded public-source sprint after APR closure.** The completed audit finds no fresh evidence that clearly favors another candidate. The independent review conditional development order remains **APR-246 first, RM4404 second, BLU third**. Closing an information pass does not automatically demote its candidate. Historical allocation does not determine this choice; no numerical return, new allocation or full-program commitment is asserted. [Decision and branches](../research/rounds/round17/marginal-dollar-decision.md)
+
+The key uncertainty is whether an interpretable existing article can support useful corneal recovery at small qualification scope. Direct unilateral chemical-model structural findings and early-regimen off-dosing sensory findings remain supportive. They do not resolve the weaker late surgical structural comparison or establish independent replication. A newly recovered 2025 abstract reports direct sensory contrasts but omits denominators and uses different methods from the final paper. Figure 18 has three mice per group with repeated readings; Figure 15 changes treatment phase and dosing recency together. Blink recovery alone cannot establish useful sensory quality, protection, optics or absence of pain. [Function audit](../research/rounds/round17/rm-function-evidence.md)
+
+Salt, matched solvent, chemical stability, release and quantitative exact-product corneal exposure remain unresolved. Carrier findings are context dependent. The cenegermin extension permits additional treatment and has responder-specific endpoints; its observed-case method is prespecified in a SAP, while numeric outcome tables were not recovered. The initiated Orunea PCED study supplies current competition, not a completed sensory result. Known-family claims, access terms and retained economics remain unresolved. [Article and capture audit](../research/rounds/round17/rm-product-capture.md)
+
+The independent review's **$50–175k / 3–6-month** RM envelope is an analyst assumption. It excludes a complete sterile ophthalmic development package as well as rights/licensing, GLP, GMP clinical manufacture, trials and commercialization. Useful ongoing control or finite-course benefit can have value. Every injury model, permanent drug-free correction and full sterile development are not universal initial gates. Major article/model/rights expansion requires a fresh comparison with eligible alternatives and waiting.
+
+The RM public-source pass is now closed. Reopen only for substantive new function, exact-product, comparator, correction or rights/access evidence likely to change a specific next commitment. APR's existing priority and claim amendment below remain in force. No outreach, purchases, recruitment, experiments, simulations or material receipt occurred or is authorized.
+
+## Retained Round 16: APR-246/AEC and the next marginal dollar
 
 **Topical APR-246/AEC is first for a conditional, bounded qualification tranche.** The independent review ranked its next dollar ahead of RM4404 and BLU; the completed fresh source audit found no clear reason to switch candidates. This is a conditional ordinal judgment, not a calculated return, a new allocation or a full-program commitment. The historical 100-point queue below has no control over this decision. [Decision and branches](../research/rounds/round16/marginal-dollar-decision.md)
 

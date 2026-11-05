@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 16 — APR-246/AEC marginal-dollar qualification](rounds/round16/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 17 — RM4404/corneal-repair marginal-dollar source sprint](rounds/round17/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). RM is the completed next source sprint after APR closure; the independent conditional development order remains APR1/RM2/BLU3. The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 

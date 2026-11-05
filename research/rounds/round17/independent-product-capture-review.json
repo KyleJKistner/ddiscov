@@ -1,0 +1,350 @@
+{
+  "schema_version": "ddiscov.round17.independent_product_capture_review.v1",
+  "reviewer": "/root/r17_rm_function",
+  "review_date_utc": "2026-11-05",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "independence": "Reviewer authored the separate functional-evidence audit and did not author or edit the reviewed product/capture files.",
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-product-capture.md",
+      "bytes": 13631,
+      "sha256": "75b36478fbd8e0f51ecbfba97c8afbcacb8254db5bd8b4ecf999816b4dbeda7e"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-product-capture.json",
+      "bytes": 30504,
+      "sha256": "c5c53ceea1f592429d6aa5c2d8bd3aad6665fa8dd336a24be82e478ca91aeab0"
+    }
+  ],
+  "verdict": "pass",
+  "substantive_decision_reversal_required": false,
+  "blocking_for_this_review": false,
+  "scope": "Independent source and inference audit of the completed product/capture pair, including targeted primary-source verification and comparison to Round 4–5 and the current marginal-dollar decision. No new broad search program, experiment, reanalysis or execution.",
+  "findings": [
+    {
+      "id": "PC01",
+      "topic": "Old versus new findings",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Salt/article, solvent arithmetic, absence of measured exposure and the known provisional are explicitly retained from earlier rounds. Carrier-context, literal handling, Axin2 discrepancy and comparator extension/program records are identified as newly integrated details, without counting them as independent RM efficacy.",
+      "checked_context": [
+        "research/rounds/round4/round4_local_repair.md",
+        "research/rounds/round5/round5_shortlist_challenge.md"
+      ]
+    },
+    {
+      "id": "PC02",
+      "topic": "Article identity and conditional solvent arithmetic",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Current HCl catalog and free-base insert are not treated as authenticated historical lots or interchangeable finished products. Literal stock arithmetic is explicitly conditional and does not establish an observed solvent confound.",
+      "sources": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "PC03",
+      "topic": "Literal filtration and short-use handling",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "The source's 45-micron wording and 1–2-day preparation timing are preserved. No silent correction, sterile-processing validation, contamination event or chemical shelf-life is inferred.",
+      "sources": [
+        "P1"
+      ],
+      "locator": "Methods 2.5"
+    },
+    {
+      "id": "PC04",
+      "topic": "Axin2 and mechanism",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "The low-dose CMI prose/caption stromal discrepancy is real and remains unresolved. Corneal pathway staining is not promoted into Schwann-cell occupancy or exclusive DKK1 causality.",
+      "sources": [
+        "P1"
+      ],
+      "locator": "Section 3.12 and Figure 19"
+    },
+    {
+      "id": "PC05",
+      "topic": "Leonardi carrier context",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "The report retains the Dynasan solid-lipid system and abstract-only limit. It does not treat the reported HS15 concentration as a universal ocular ceiling or demonstrate RM toxicity.",
+      "sources": [
+        "P5"
+      ]
+    },
+    {
+      "id": "PC06",
+      "topic": "Hou carrier counterevidence",
+      "status": "pass_after_precision_correction",
+      "blocking_for_this_review": false,
+      "assessment": "Acute rabbit tolerance, the 21:1 ratio and the different loaded-product boundary check out. Final prose and structured P07 now identify coumarin-6 tracer permeation rather than direct myricetin or RM concentration measurement.",
+      "sources": [
+        "P6"
+      ],
+      "related_issue": "EDIT02"
+    },
+    {
+      "id": "PC07",
+      "topic": "Existing article versus full development package",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "The conditional starting premise does not require a new carrier or completed commercial CMC. It also does not waive basic article quality, tolerability or matched control. Major development expansion triggers a revised tranche comparison.",
+      "basis": "Decision judgment consistent with stated scope; not execution authorization."
+    },
+    {
+      "id": "PC08",
+      "topic": "Label and original DEFENDO",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "The label's healing and sensory distinction is accurate. The uncontrolled DEFENDO signal retains its visit-specific denominators and any-increase definition, with no RM superiority or validated clinical-benefit threshold inferred.",
+      "sources": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "PC09",
+      "topic": "Extension lineage, treatment and missingness",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Official indexed data support 24 actual participants, original-cohort lineage and permitted further care. The responder and non-improver missingness strata are separate. Missing numeric result tables do not become a claim that results are absent.",
+      "sources": [
+        "C3"
+      ]
+    },
+    {
+      "id": "PC10",
+      "topic": "Extension SAP is a plan",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "FAS attendance, exploratory observed-case methods and exclusion of missing categorical observations from percentage denominators agree with the SAP. The report does not claim audited implementation or a clean untreated single-course effect.",
+      "sources": [
+        "C4"
+      ],
+      "locator": "Sections 2.5, 2.9 and 2.10"
+    },
+    {
+      "id": "PC11",
+      "topic": "Orunea stage and endpoint",
+      "status": "pass_after_precision_correction",
+      "blocking_for_this_review": false,
+      "assessment": "The planned participant count, Phase 3 status, healing endpoint and absence of inspected results are correctly bounded. Final JSON uses placebo-controlled, matching the inspected sponsor announcement.",
+      "sources": [
+        "C5"
+      ],
+      "related_issue": "EDIT01"
+    },
+    {
+      "id": "PC12",
+      "topic": "Known-family rights",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Institutional provisional and commercialization statements are treated as leads. They do not establish claims, grant, freedom to operate, exclusivity, availability or transaction terms. No absence-of-rights inference or broad patent-search loop is used.",
+      "sources": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "id": "PC13",
+      "topic": "Marginal-dollar and capital rank",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Selected RM source work remains distinct from the independent review's conditional APR/RM/BLU development order. Illustrative budget and duration are not quotes or validated inputs. Numerical RM-versus-BLU financial ordering is explicitly unresolved.",
+      "checked_context": "research/rounds/round17/marginal-dollar-decision.md",
+      "scope_limit": "The original external capital-review PDF was not separately reopened by this reviewer; attribution, exclusions and rank distinction were checked for consistency with supplied context and the root decision."
+    },
+    {
+      "id": "PC14",
+      "topic": "Restrictions and activity",
+      "status": "pass",
+      "blocking_for_this_review": false,
+      "assessment": "Both files preserve all six restrictions and do not authorize execution. This review used only public-source reading, local baseline comparison and scratch artifact writing."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "EDIT01",
+      "severity": "minor_source_precision",
+      "blocking_for_this_review": false,
+      "location": "rm-product-capture.json: comparator_capture_audit.comparator_facts.orunea.design_at_announcement",
+      "issue": "The inspected sponsor source says placebo, while JSON says vehicle-controlled.",
+      "requested_change": "Use Randomized, double-masked, placebo-controlled, or cite an actually inspected primary source specifying vehicle.",
+      "source": "C5",
+      "reported_to_root": true,
+      "previously_blocking_for_this_review": true,
+      "resolved_by": "Root author; reviewer did not edit repository files.",
+      "resolution_verified": true,
+      "resolution": "Final JSON uses placebo-controlled, matching the inspected sponsor announcement."
+    },
+    {
+      "id": "EDIT02",
+      "severity": "minor_source_precision",
+      "blocking_for_this_review": false,
+      "location": "rm-product-capture.md: Hou carrier paragraph",
+      "issue": "The corneal permeability work measures coumarin-6 tracer rather than direct myricetin concentrations.",
+      "requested_change": "Distinguish myricetin-content/stability characterization from coumarin-6 tracer permeation; remove wording implying direct myricetin permeability measurement.",
+      "source": "P6",
+      "reported_to_root": true,
+      "previously_blocking_for_this_review": true,
+      "resolved_by": "Root author; reviewer did not edit repository files.",
+      "resolution_verified": true,
+      "resolution": "Final markdown separates myricetin content/stability from coumarin-6 tracer observations. P6 records the targeted direct cross-review and P07 explicitly identifies tracer measurement without direct RM permeation."
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "LIMIT01",
+      "severity": "underlying_evidence_limit",
+      "blocking_for_this_review": false,
+      "issue": "Exact RM stability, tissue exposure, release, lot identity and matched-control performance remain unverified.",
+      "reason_not_blocking": "The reviewed pair makes these limits explicit and does not claim execution readiness."
+    },
+    {
+      "id": "LIMIT02",
+      "severity": "source_access_limit",
+      "blocking_for_this_review": false,
+      "issue": "Leonardi full text, RM supplements/questionnaire and extension numeric tables/actual retreatment histories were not obtained in the reviewed source pass.",
+      "reason_not_blocking": "Read scopes and missingness are preserved. The reviewer did not reopen failed supplement loops or substitute secondary results."
+    },
+    {
+      "id": "LIMIT03",
+      "severity": "commercial_evidence_limit",
+      "blocking_for_this_review": false,
+      "issue": "Relevant claim status, rights terms, retained value and validated cost/schedule remain unknown.",
+      "reason_not_blocking": "The report explicitly refuses financial or freedom-to-operate certainty."
+    }
+  ],
+  "primary_checks": [
+    {
+      "id": "P1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13266094/",
+      "locators": [
+        "Methods 2.5",
+        "Section 3.12",
+        "Figure 19"
+      ]
+    },
+    {
+      "id": "P2",
+      "url": "https://www.merckmillipore.com/INTL/en/product/Dkk-1-Inhibitor-WAY-262611-HCl-Calbiochem,EMD_BIO-317700",
+      "locators": [
+        "Product identity and formula"
+      ]
+    },
+    {
+      "id": "P3",
+      "url": "https://cdn.caymanchem.com/cdn/insert/17704.pdf",
+      "locators": [
+        "One-page product identity and handling insert"
+      ]
+    },
+    {
+      "id": "P5",
+      "url": "https://www.iris.unict.it/handle/20.500.11769/18224",
+      "locators": [
+        "Primary institutional abstract"
+      ]
+    },
+    {
+      "id": "P6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6407586/",
+      "locators": [
+        "Preparation and characterization",
+        "Ocular tolerance methods and results",
+        "Figure 4",
+        "Corneal permeation results and Figure 5"
+      ],
+      "access_note": "Targeted full-text passages were readable during this independent review. The underlying auditor's earlier access account remains historical."
+    },
+    {
+      "id": "C1",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89e4bfec-d710-40ed-8885-5d13ba46b1cd",
+      "locators": [
+        "Updated 5 October 2026",
+        "Section 14"
+      ]
+    },
+    {
+      "id": "C2",
+      "url": "https://link.springer.com/article/10.1007/s40123-023-00866-y",
+      "locators": [
+        "Sensory results and Figure 3 caption"
+      ]
+    },
+    {
+      "id": "C3",
+      "url": "https://clinicaltrials.gov/study/NCT05552261",
+      "locators": [
+        "Official indexed study overview and enrollment",
+        "Sensory outcome definitions and missingness"
+      ],
+      "access_note": "Direct page was a shell; official-domain indexed primary text supported the targeted facts."
+    },
+    {
+      "id": "C4",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT05552261/SAP_001.pdf",
+      "locators": [
+        "Sections 1.2, 2.5, 2.9 and 2.10"
+      ]
+    },
+    {
+      "id": "C5",
+      "url": "https://www.dompe.com/media/news/press-release/dompe-doses-first-patient-in-phase-3-study-of-cenegermin-bkbj-in-pced/",
+      "locators": [
+        "9 June 2026 announcement paragraphs specifying design, planned enrollment, primary endpoint and investigational status"
+      ]
+    },
+    {
+      "id": "R1",
+      "url": "https://facultydirectory.uchc.edu/profile?profileId=Bargagna-Mohan-Paola",
+      "locators": [
+        "Other: 2025 provisional title"
+      ]
+    },
+    {
+      "id": "R2",
+      "url": "https://today.uconn.edu/2026/06/targeting-schwann-cells-a-new-approach-to-repairing-corneal-injury/",
+      "locators": [
+        "Patent-pending formulation and commercialization paragraphs"
+      ]
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "repository_edits": false,
+    "remote_writes": false
+  },
+  "rebind_required_after_any_reviewed_file_change": true,
+  "initial_reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-product-capture.md",
+      "bytes": 13510,
+      "sha256": "935c10126b7158f0253dd3a49a2330572d47afe025e6c2bbda7d74a13fe85fad"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-product-capture.json",
+      "bytes": 30076,
+      "sha256": "bc15e5cec93e8bed29ec8e216f61311f1477033c2d42331820f350621a62d6ad"
+    }
+  ],
+  "verdict_detail": "Both minor source-precision issues were corrected by root and independently rechecked. Remaining evidence/access/commercial limits are explicit and nonblocking for this bounded source review.",
+  "final_binding_checks": {
+    "both_files_reopened_after_root_corrections": true,
+    "reviewed_bytes_and_sha256_from_final_files": true,
+    "structured_json_parsed": true,
+    "product_source_references_resolve": true,
+    "no_open_blocking_issues": true,
+    "repo_edits_by_reviewer": false
+  }
+}

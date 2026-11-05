@@ -1,0 +1,751 @@
+{
+  "schema_version": "ddiscov.round17.rm_function_evidence.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+  "candidate_id": "R4-L01",
+  "scope": "Finite primary sensory/structure/clinical-claim audit, including a newly recovered preliminary institutional abstract; no new experimental result.",
+  "sources": [
+    {
+      "id": "F1",
+      "kind": "primary_animal_study",
+      "authors": "Li, Tallo, Eddy, Kolli, Paramo, Bargagna-Mohan and Mohan",
+      "title": "DKK1 Targeting in Corneal Schwann Cells Rescues Axonal Regeneration and Mechanosensory Function After Corneal Injury",
+      "doi": "10.1002/jnr.70142",
+      "pmid": "42289930",
+      "pmcid": "PMC13266094",
+      "publication_date": "2026-06-14",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13266094/",
+      "read_scope": "Primary full-text representations accessed; targeted review of Methods2.4,2.6,2.9, Results3.6–3.12, Figures10–20 and the HTML-rendered FigureS2/S3 captions; no raw supplement content or figure-only measurements claimed.",
+      "license": "CC BY-NC-ND4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "new_source_to_round16": false,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "F2",
+      "kind": "primary_institutional_conference_abstract",
+      "authors": "Li, Paramo, Tallo, Bargagna-Mohan and Mohan",
+      "title": "Schwann Dance: Nerve Regeneration in Corneal Axonopathy",
+      "publication": "2025 UConn Clinician Scholar Symposium booklet",
+      "publication_year": 2025,
+      "url": "https://today.uconn.edu/wp-content/uploads/2025/02/CSS_Booklet_2025_FINAL_2.26.25.pdf",
+      "locator": "PDF page index69 (70th page); title and complete abstract; web-reader lines2597–2631",
+      "read_scope": "Complete abstract text",
+      "new_source_to_round16": true,
+      "verification_date": "2026-11-04",
+      "formal_individual_animal_linkage": false,
+      "independent_cohort_established": false
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "R01",
+      "source": "F1",
+      "locator": "Methods2.6; Figure5 caption",
+      "kind": "sensory_assay",
+      "readout": "Central corneal mechanically evoked blink threshold",
+      "instrument": "Cochet-Bonnet",
+      "upper_setting": 6.0,
+      "reported_unit": "instrument filament/dial setting; no force-calibrated scale recovered",
+      "confirmatory_samplings_per_eye": 6,
+      "per_eye_repeats_are_independent_animals": false,
+      "anesthesia_during_testing": false,
+      "multitimepoint_testing": "Morning before that day’s drug application",
+      "sensory_assessor_masking_verified": false,
+      "ceiling_limit": "A normal reference at the upper setting cannot quantify supra-normal sensitivity beyond that ceiling; no pain-specific outcome recovered.",
+      "ceiling_interpretation_is_analysis": true
+    },
+    {
+      "id": "R02",
+      "source": "F1",
+      "locator": "Methods2.9",
+      "kind": "design_and_missingness",
+      "randomization_reported": true,
+      "randomization_method": null,
+      "allocation_concealment": null,
+      "planned_mice_per_group_range": [
+        8,
+        10
+      ],
+      "planned_power": 0.8,
+      "planned_alpha": 0.05,
+      "CMI_injured_eyes_per_mouse": 2,
+      "CMI_eye_independence_assumed_by_authors": true,
+      "NM_injured_eyes_per_mouse": 1,
+      "imaging_primary_quantifier": "Original experimenter",
+      "secondary_imaging_review": "Random reexamination by uninvolved investigator blinded to samples",
+      "primary_quantifier_blinding_verified": false,
+      "sensory_assessor_blinding_verified": false,
+      "explicit_exclusion": "Corneal specimens damaged during ex vivo processing were excluded",
+      "excluded_counts_by_arm": null,
+      "complete_enrolled_to_analyzed_flow_available": false,
+      "technical_outcome_screening": "Pilot training and routine biomicroscopy sought to minimize unintended CMI fibrosis/neovascularization; not an all-treated adverse-event incidence.",
+      "sex": "Both sexes; typically equal representation, not a verified count for every endpoint"
+    },
+    {
+      "id": "R03",
+      "source": "F1",
+      "locator": "Figure10A–C; Results3.6",
+      "kind": "CMI_delayed_day14_structure",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "endpoint": "cSC network",
+      "medians": {
+        "injured_untreated": 385.4,
+        "vehicle": 357.7,
+        "RM4404": 309.1
+      },
+      "reported_N": 33,
+      "N_scope": "Total eye observations across3groups",
+      "p_vehicle_vs_untreated": 0.5571,
+      "p_RM_vs_untreated": 0.4327,
+      "p_RM_vs_vehicle": null,
+      "source_conflict": "Results3.6 prose names uninjured samples, whereas the Figure10B caption identifies injured untreated14-day samples.",
+      "physical_length_unit_verified": false
+    },
+    {
+      "id": "R04",
+      "source": "F1",
+      "locator": "Figure10C",
+      "kind": "CMI_delayed_day14_structure",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "endpoint": "Axonal network",
+      "medians": {
+        "injured_untreated": 187.9,
+        "vehicle": 273.0,
+        "RM4404": 364.4
+      },
+      "reported_N": 36,
+      "N_scope": "Total eye observations across3groups",
+      "p_vehicle_vs_untreated": 0.0585,
+      "p_RM_vs_untreated": 0.0042,
+      "p_RM_vs_vehicle": null,
+      "analysis": "A significant comparison against untreated injury plus a nonsignificant vehicle comparison is not a direct RM–vehicle contrast.",
+      "physical_length_unit_verified": false
+    },
+    {
+      "id": "R05",
+      "source": "F1",
+      "locator": "Figure10J–K",
+      "kind": "CMI_delayed_day30_structure",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 30,
+      "calendar_days_since_last_treatment": 16,
+      "pharmacokinetic_washout_verified": false,
+      "endpoint": "Axonal network",
+      "medians": {
+        "uninjured": 394.6,
+        "vehicle": 357.7,
+        "RM4404": 362.1
+      },
+      "reported_N": 24,
+      "N_scope": "Total eye observations across3groups",
+      "p_vehicle_vs_uninjured": 0.0404,
+      "p_RM_vs_uninjured": 0.4246,
+      "p_RM_vs_vehicle": null,
+      "equivalence_established": false,
+      "analysis": "Do not derive structural drug–vehicle superiority from different healthy-reference significance results.",
+      "physical_length_unit_verified": false
+    },
+    {
+      "id": "R06",
+      "source": "F1",
+      "locator": "Figure11B",
+      "kind": "CMI_delayed_day14_sensation",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "medians": {
+        "uninjured": 6.0,
+        "vehicle_male": 2.5,
+        "vehicle_female": 2.0,
+        "RM4404_male": 4.5,
+        "RM4404_female": 4.0
+      },
+      "reported_N": 40,
+      "N_scope": "Total eye observations across5groups",
+      "drug_vehicle_contrast_reported_in_caption": false,
+      "healthy_reference_equivalence_established": false
+    },
+    {
+      "id": "R07",
+      "source": "F1",
+      "locator": "Figure11C",
+      "kind": "CMI_delayed_day30_sensation",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 30,
+      "calendar_days_since_last_treatment": 16,
+      "pharmacokinetic_washout_verified": false,
+      "medians": {
+        "uninjured": 6.0,
+        "vehicle_male": 3.0,
+        "vehicle_female": 3.0,
+        "RM4404_male": 5.0,
+        "RM4404_female": 5.5
+      },
+      "reported_N": 38,
+      "N_scope": "Total eye observations across5groups",
+      "drug_vehicle_contrast_reported_in_caption": false,
+      "healthy_reference_equivalence_established": false,
+      "animal_ID_linkage_and_attrition": null,
+      "analysis": "The different totalN at14and30 does not itself establish two dropouts or a complete-case trajectory."
+    },
+    {
+      "id": "R08",
+      "source": "F1",
+      "locator": "Figure12G",
+      "kind": "NM_delayed_day14_structure",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "endpoint": "cSC network",
+      "medians": {
+        "RM4404": 136.1,
+        "vehicle": 61.12
+      },
+      "n_RM": 8,
+      "n_vehicle": 7,
+      "n_unit": "Eyes; one injured eye per mouse inNM model",
+      "p": 0.0012,
+      "U": 2,
+      "test": "Mann–Whitney two-tailed unpaired",
+      "direct_drug_vehicle_comparison": true,
+      "physical_length_unit_verified": false
+    },
+    {
+      "id": "R09",
+      "source": "F1",
+      "locator": "Figure12H",
+      "kind": "NM_delayed_day14_structure",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "endpoint": "Axonal network",
+      "medians": {
+        "RM4404": 557.1,
+        "vehicle": 425.8
+      },
+      "n_RM": 8,
+      "n_vehicle": 7,
+      "n_unit": "Eyes; one injured eye per mouse inNM model",
+      "p": 0.0006,
+      "U": 1,
+      "test": "Mann–Whitney two-tailed unpaired",
+      "direct_drug_vehicle_comparison": true,
+      "physical_length_unit_verified": false,
+      "analysis": "Retain this positive structural contrast separately from weak day30CMI contrasts; it does not establish an independent laboratory replication or chronic human NK efficacy."
+    },
+    {
+      "id": "R10",
+      "source": "F1",
+      "locator": "Figure13",
+      "kind": "NM_delayed_day14_sensation",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_day": 14,
+      "medians": {
+        "uninjured": 5.37,
+        "injured_day7": 4.0,
+        "vehicle_day14": 3.0,
+        "RM4404_day14": 5.0
+      },
+      "reported_N": 35,
+      "N_scope": "Total eye observations across4groups; one injured eye per mouse",
+      "p_RM_vs_uninjured": 0.6941,
+      "p_RM_vs_vehicle": null,
+      "n_RM_from_Figure15": 8,
+      "n_vehicle_verified_in_caption": null,
+      "analysis": "Final-article caption reports healthy-reference comparisons; lack of significance is not equivalence. Do not substitute Figure12 structural counts for this endpoint."
+    },
+    {
+      "id": "R11",
+      "source": "F1",
+      "locator": "Figure14B–C",
+      "kind": "NM_early_day14_structure",
+      "dosing_days_post_injury": [
+        0,
+        7
+      ],
+      "assessment_day": 14,
+      "calendar_days_since_last_treatment": 7,
+      "pharmacokinetic_washout_verified": false,
+      "n_RM": 5,
+      "n_vehicle": 5,
+      "n_unit": "One injured eye per mouse",
+      "cSC_medians": {
+        "RM4404": 58.17,
+        "vehicle": 31.27
+      },
+      "cSC_p": 0.0317,
+      "cSC_U": 2,
+      "axon_medians": {
+        "RM4404": 402.5,
+        "vehicle": 310.4
+      },
+      "axon_p": 0.0159,
+      "axon_U": 1,
+      "direct_drug_vehicle_comparison": true,
+      "physical_length_unit_verified": false
+    },
+    {
+      "id": "R12",
+      "source": "F1",
+      "locator": "Figure14E",
+      "kind": "NM_early_day7_sensation",
+      "dosing_days_post_injury": [
+        0,
+        7
+      ],
+      "assessment_day": 7,
+      "n_RM": 6,
+      "n_vehicle": 6,
+      "n_unit": "One injured eye per mouse",
+      "medians": {
+        "RM4404": 4.0,
+        "vehicle": 1.5
+      },
+      "p": 0.0238,
+      "U": 3.5,
+      "direct_drug_vehicle_comparison": true
+    },
+    {
+      "id": "R13",
+      "source": "F1",
+      "locator": "Figure14F",
+      "kind": "NM_early_day14_sensation",
+      "dosing_days_post_injury": [
+        0,
+        7
+      ],
+      "assessment_day": 14,
+      "calendar_days_since_last_treatment": 7,
+      "pharmacokinetic_washout_verified": false,
+      "n_RM": 6,
+      "n_vehicle": 6,
+      "n_unit": "One injured eye per mouse",
+      "medians": {
+        "RM4404": 4.0,
+        "vehicle": 0.0
+      },
+      "p": 0.0043,
+      "U": 0.5,
+      "direct_drug_vehicle_comparison": true,
+      "analysis": "Real source-reported off-dosing signal in the early chemical regimen. Do not import it as delayed-regimen durability or measured clearance."
+    },
+    {
+      "id": "R14",
+      "source": "F1",
+      "locator": "Figure15",
+      "kind": "NM_early_vs_delayed_comparison",
+      "assessment_day": 14,
+      "early_dosing_days": [
+        0,
+        7
+      ],
+      "delayed_dosing_days": [
+        7,
+        14
+      ],
+      "early_calendar_days_since_last_scheduled_treatment": 7,
+      "delayed_exact_time_since_last_dose": null,
+      "delayed_assessment_exposure_context": "Assessed during the scheduled day7–14 course; multitimepoint testing was in the morning before that day’s dose, so no exact zero-hour interval or completed multi-day withdrawal is asserted.",
+      "sensory_medians": {
+        "delayed": 5.0,
+        "early": 4.0
+      },
+      "sensory_n_delayed": 8,
+      "sensory_n_early": 6,
+      "sensory_p": 0.0496,
+      "structure_n_delayed": 8,
+      "structure_n_early": 5,
+      "pure_regenerative_phase_superiority_established": false,
+      "analysis": "Different time since last dose/recent exposure accompanies the phase difference. Shared medians/counts match Figures12–14, so this comparison is not another independently verified experiment."
+    },
+    {
+      "id": "R15",
+      "source": "F1",
+      "locator": "FigureS2 caption rendered in primaryHTML",
+      "kind": "CMI_modified_delayed_sensation",
+      "dosing_days_post_injury": [
+        5,
+        10
+      ],
+      "assessment_day": 14,
+      "calendar_days_since_last_treatment": 4,
+      "pharmacokinetic_washout_verified": false,
+      "nominal_doses_uM": [
+        20,
+        200
+      ],
+      "medians": {
+        "vehicle": 2.79,
+        "low": 4.5,
+        "high": 4.5
+      },
+      "p_low_vs_vehicle": 0.0016,
+      "p_high_vs_vehicle": 0.0016,
+      "reported_N": 22,
+      "N_scope": "Total eye observations across3groups; paired eyes inCMI",
+      "independent_mice_count": null,
+      "equal_dose_efficacy_or_noninferiority_established": false
+    },
+    {
+      "id": "R16",
+      "source": "F1",
+      "locator": "FigureS2 caption rendered in primaryHTML",
+      "kind": "NM_modified_delayed_sensation",
+      "dosing_days_post_injury": [
+        5,
+        10
+      ],
+      "assessment_day": 14,
+      "calendar_days_since_last_treatment": 4,
+      "pharmacokinetic_washout_verified": false,
+      "nominal_doses_uM": [
+        20,
+        200
+      ],
+      "medians": {
+        "vehicle": 2.04,
+        "low": 4.585,
+        "high": 4.625
+      },
+      "p_low_vs_vehicle": 0.0304,
+      "p_high_vs_vehicle": 0.0397,
+      "reported_N": 12,
+      "N_scope": "Total observations across3groups; one injured eye per mouse",
+      "per_arm_counts_not_explicit_in_read_caption": true,
+      "equal_dose_efficacy_or_noninferiority_established": false
+    },
+    {
+      "id": "R17",
+      "source": "F1",
+      "locator": "Figure18D–E caption",
+      "kind": "CMI_modified_day14_thickness",
+      "dosing_days_post_injury": [
+        5,
+        10
+      ],
+      "assessment_day": 14,
+      "independent_mice_per_group": 3,
+      "sections_per_mouse_range": [
+        4,
+        5
+      ],
+      "readings_per_section": 3,
+      "reported_total_stromal_measurements": 123,
+      "reported_total_epithelial_measurements": 123,
+      "stromal_medians": {
+        "vehicle": 311,
+        "low": 333,
+        "high": 333
+      },
+      "epithelial_medians": {
+        "vehicle": 75,
+        "low": 79.5,
+        "high": 79
+      },
+      "source_reports_significant_active_vehicle_change": false,
+      "axis_physical_units_verified": false,
+      "animal_level_reanalysis_available": false,
+      "analysis": "Repeated sections/readings do not create123independent animals. A nonsignificant difference is not histological equivalence."
+    },
+    {
+      "id": "R18",
+      "source": "F1",
+      "locator": "Figure18I–J caption",
+      "kind": "NM_modified_day14_thickness",
+      "dosing_days_post_injury": [
+        5,
+        10
+      ],
+      "assessment_day": 14,
+      "independent_mice_per_group": 3,
+      "sections_per_mouse_range": [
+        4,
+        5
+      ],
+      "readings_per_section": 3,
+      "reported_total_stromal_measurements": 129,
+      "reported_total_epithelial_measurements": 125,
+      "stromal_medians": {
+        "vehicle": 298,
+        "low": 325.3,
+        "high": 325.3
+      },
+      "epithelial_medians": {
+        "vehicle": 52,
+        "low": 78.75,
+        "high": 71.75
+      },
+      "reported_stromal_p": {
+        "low_vs_vehicle": 0.0038,
+        "high_vs_vehicle": 0.0066
+      },
+      "reported_epithelial_p_bounds": {
+        "low_vs_vehicle": "<0.0001",
+        "high_vs_vehicle": "<0.0001"
+      },
+      "axis_physical_units_verified": false,
+      "animal_level_reanalysis_available": false,
+      "functional_barrier_restoration_established": false,
+      "analysis": "Author-reported architectural improvement is supportive, but repeated-read analysis and no recovered permeability result limit a barrier-repair claim."
+    },
+    {
+      "id": "R19",
+      "source": "F1",
+      "locator": "Figure18 caption",
+      "kind": "statistical_reporting_conflict",
+      "source_test_wording": "Two-way ANOVA using Kruskal–Wallis nonparametric test with Dunn multiple comparisons",
+      "source_H_first_argument": 3,
+      "caption_treatment_groups": [
+        "vehicle",
+        "low",
+        "high"
+      ],
+      "caption_group_count": 3,
+      "graph_group_count_visually_verified": false,
+      "correction_or_resolution_recovered": false,
+      "cluster_corrected_pvalues_computed": false,
+      "analysis": "Retain ambiguous statistical labels and sourceH notation; do not silently choose a method, correct degrees of freedom or manufacture a clustered result."
+    },
+    {
+      "id": "R20",
+      "source": "F1",
+      "locator": "Methods2.4,2.9; FigureS3 caption",
+      "kind": "clarity_and_safety_readout",
+      "observation": "Routine biomicroscopy and representative clarity images",
+      "quantified_optical_performance_endpoint_recovered": false,
+      "masked_clarity_score_recovered": false,
+      "pain_specific_endpoint_recovered": false,
+      "functional_permeability_endpoint_recovered": false,
+      "all_treated_long_term_ocular_safety_window_established": false,
+      "analysis": "Descriptive clarity and tissue thickness are useful context, not proof of vision, mature barrier function or absence of hyperalgesia."
+    },
+    {
+      "id": "R21",
+      "source": "F2",
+      "locator": "Complete abstract, PDFpageindex69",
+      "kind": "preliminary_CMI_sensory_contrast",
+      "dosing_days_post_injury": [
+        7,
+        14
+      ],
+      "assessment_days": [
+        14,
+        30
+      ],
+      "p_vehicle_vs_RM_day14": 0.0007,
+      "p_vehicle_vs_RM_day30": 0.0002,
+      "reported_statistical_methods": [
+        "t-test",
+        "ANOVA"
+      ],
+      "denominators": null,
+      "sex_stratification": null,
+      "effect_magnitudes": null,
+      "confidence_intervals": null,
+      "assessor_masking": null,
+      "animal_level_clustering": null,
+      "endpoint": "Cochet-Bonnet mechanosensation",
+      "analysis": "A direct contrast is publicly reported, at preliminary abstract level; it cannot be substituted for missing final-paper clustered analysis."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "C01",
+      "claim": "RM4404 merits a bounded independent useful-function question",
+      "decision": "retain_conditional",
+      "support": [
+        "R08",
+        "R09",
+        "R11",
+        "R13",
+        "R15",
+        "R16",
+        "R21"
+      ],
+      "reason": "Concordant source-reported sensory/structural findings survive correct endpoint-specific reading; no independent replication or human benefit established."
+    },
+    {
+      "id": "C02",
+      "claim": "No public direct drug–vehicle contrast exists for the long CMI sensory regimen",
+      "decision": "amend_scope",
+      "support": [
+        "R06",
+        "R07",
+        "R21"
+      ],
+      "reason": "The 2025abstract reports one; the final-paper caption still uses healthy-reference contrasts. Preliminary and final methods/units are not interchangeable."
+    },
+    {
+      "id": "C03",
+      "claim": "Three-digit histologyN is an animal denominator or proves barrier repair",
+      "decision": "reject",
+      "support": [
+        "R17",
+        "R18",
+        "R19"
+      ],
+      "reason": "Three mice/group with nested sections/readings; retain author observation but no invented animal-level significance or functional barrier proof."
+    },
+    {
+      "id": "C04",
+      "claim": "Normal-range blink threshold excludes hyperalgesia or establishes useful sensory quality",
+      "decision": "not_established",
+      "support": [
+        "R01",
+        "R20"
+      ],
+      "reason": "Ceiling-limited mechanically evoked blink cannot separately identify pain, visual performance, epithelium protection or supra-normal sensitivity."
+    },
+    {
+      "id": "C05",
+      "claim": "Delayed dosing is intrinsically superior because it targets a unique regenerative phase",
+      "decision": "not_isolated_by_comparison",
+      "support": [
+        "R14"
+      ],
+      "reason": "Phase and time since last dose differ; a plausible phase hypothesis is not a clean causal timing result."
+    },
+    {
+      "id": "C06",
+      "claim": "All structure evidence is undermined by weak late CMI contrasts",
+      "decision": "reject_overgeneralization",
+      "support": [
+        "R04",
+        "R05",
+        "R08",
+        "R09",
+        "R11"
+      ],
+      "reason": "Unilateral NM supplies direct drug–vehicle structural comparisons; keep injury and timing specific."
+    },
+    {
+      "id": "C07",
+      "claim": "Early-NM day14 signal proves delayed-CMI durable repair or clearance",
+      "decision": "reject_transfer",
+      "support": [
+        "R05",
+        "R07",
+        "R13",
+        "R15",
+        "R16"
+      ],
+      "reason": "Regimens/cohorts and calendar off-dosing intervals remain distinct; no PK washout established."
+    },
+    {
+      "id": "C08",
+      "claim": "Permanent off-treatment regeneration is the only valuable product outcome",
+      "decision": "not_required_universally",
+      "support": [
+        "R01",
+        "R13",
+        "R20"
+      ],
+      "reason": "Useful ongoing control or a useful finite-course benefit can have value; durable drug-free repair needs the additional evidence appropriate to that stronger claim.",
+      "basis_kind": "stage_and_claim_judgment"
+    }
+  ],
+  "source_lineage": {
+    "preliminary_2025_abstract_and_2026_paper_same_program": true,
+    "overlapping_investigators": true,
+    "matching_long_CMI_regimen": true,
+    "formal_individual_animal_overlap_established": false,
+    "conservative_deduplication": true,
+    "new_independent_cohorts_verified": 0,
+    "new_treated_people": 0,
+    "new_experimental_results_generated": 0,
+    "Figure15_counted_as_independent_replication": false
+  },
+  "new_to_current_record": [
+    "2025institutional abstract direct sensory contrasts with different preliminary statistical reporting",
+    "Figure18 three-mice versus repeated-section/readings denominator and ambiguous statistical labels",
+    "Ceiling-aware sensory inference and stage-specific early-versus-delayed timing comparison",
+    "Explicit separation of unilateralNM direct structure/early off-dosing signal from the weak lateCMI structural inference"
+  ],
+  "prior_facts_preserved": [
+    "CMI paired-eye clustering",
+    "Randomization and secondary blinded imaging review, unresolved primary sensory masking",
+    "Separate day7–14/day30 and day5–10/day14 regimens",
+    "Calendar off-dosing interval is not measured washout",
+    "Healthy-reference significance does not establish drug–vehicle superiority or equivalence"
+  ],
+  "retrieval": {
+    "pass_closed": true,
+    "additional_primary_RM_clinical_or_independent_replication_verified": false,
+    "absence_of_all_other_studies_proven": false,
+    "questionnaire_name": "Transparent Science Questionnaire for Authors",
+    "supplement_raw_content_recovered": false,
+    "supplement_access_attempts": [
+      {
+        "host": "Wiley",
+        "files": [
+          "DataS1.docx",
+          "DataS2.docx",
+          "DataS3.docx"
+        ],
+        "result": "Canonical downloadSupplement URLs returned403"
+      },
+      {
+        "host": "PMC",
+        "files": [
+          "JNR-104-e70142-s004.docx",
+          "JNR-104-e70142-s003.docx",
+          "JNR-104-e70142-s001.docx"
+        ],
+        "result": "Linked canonical downloads returned only preparing-to-download HTML shells; no substantive DOCX read"
+      }
+    ],
+    "figure18_actual_image_bytes_seen": false,
+    "figure18_visual_measurement_performed": false,
+    "raw_animal_data_recovered": false,
+    "analysis_or_simulation_run": false,
+    "search_queries": [
+      "\"10.1002/jnr.70142\"",
+      "\"RM4404\" corneal sensitivity supplement",
+      "\"RM4404\" erratum OR correction OR corrigendum",
+      "\"RM4404\" site:pubmed.ncbi.nlm.nih.gov",
+      "\"RM4404\" -\"70142\" -\"Schwann Dance\" -\"Targeting Schwann Cells\""
+    ],
+    "reopen_for": [
+      "A substantive raw animal-level dataset or corrected endpoint analysis",
+      "Readable questionnaire/supplement resolving methods or counts",
+      "New independent exact-product functional study",
+      "Controlled human or appropriately scoped safety/functional evidence"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "development_execution_authorized": false
+}

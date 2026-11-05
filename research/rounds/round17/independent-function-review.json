@@ -1,0 +1,196 @@
+{
+  "schema_version": "ddiscov.round17.independent_function_review.v1",
+  "reviewer": "r17_rm_product",
+  "review_date_utc": "2026-11-05",
+  "evidence_cut": "2026-11-04 America/Los_Angeles",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-function-evidence.md",
+      "bytes": 10045,
+      "sha256": "33485089cb47b73e37f8c863f9e3ca33627e865a9546636189037b26e4f92251"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/research/rounds/round17/rm-function-evidence.json",
+      "bytes": 25934,
+      "sha256": "95b6621d23a369aafb6b233c229fce1f8996d592fb0dbf74999fbf6d070ccae4"
+    }
+  ],
+  "scope": "Independent review of the final function narrative and JSON for source/model/endpoint/units, timing, lineage, comparison hierarchy, missingness, claim limits and restricted activities. The reviewer neither authored nor edited these repository files.",
+  "source_checks": [
+    {
+      "id": "CR-F1",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+      "doi": "10.1002/jnr.70142",
+      "read_scope": "Reopened primary HTML. Independently checked methods 2.4, 2.6 and 2.9; Figure 5; results and captions for Figures 10–15 and 18; supporting Figure S2/S3 captions and supplement labels.",
+      "raw_supplement_accessed": false,
+      "raw_images_or_animal_data_accessed": false
+    },
+    {
+      "id": "CR-F2",
+      "url": "https://today.uconn.edu/wp-content/uploads/2025/02/CSS_Booklet_2025_FINAL_2.26.25.pdf",
+      "read_scope": "Reopened official institutional booklet; complete Schwann Dance abstract on PDF page index 69, including investigators, model, regimen, preliminary statistical methods and explicit sensory contrasts."
+    }
+  ],
+  "findings": [
+    {
+      "id": "RF01",
+      "topic": "Source and ledger integrity",
+      "result": "pass",
+      "detail": "Two unique source IDs, 21 unique evidence rows and eight claim decisions; all row sources and decision support references resolve. Narrative source identifiers match the ledger. Primary paper and institutional abstract have distinct read scopes.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF02",
+      "topic": "Preliminary source lineage",
+      "result": "pass",
+      "detail": "The 2025 abstract contains the stated direct vehicle–drug sensory comparisons. It is conservatively treated as the same research program, with actual animal overlap unverified. Preliminary methods are not substituted for the final analysis; zero new independent cohorts are counted.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF03",
+      "topic": "Model and biological units",
+      "result": "pass",
+      "detail": "CMI paired eyes, NM one injured eye per mouse, repeated sensory samplings, and histology sections/readings are kept distinct. Planned sample size is not assigned to every endpoint. Unverified per-arm counts and animal linkage remain null or qualified.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF04",
+      "topic": "Direct NM positive evidence",
+      "result": "pass",
+      "detail": "Delayed and early NM structural drug–vehicle comparisons, early NM off-dosing sensation and modified-regimen direct sensory contrasts are retained. Weak late CMI healthy-reference inference is not generalized into dismissal of all structural evidence.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF05",
+      "topic": "Timing and dosing context",
+      "result": "pass",
+      "detail": "Long delayed, early chemical and modified delayed courses remain distinct. Figure 15 timing is qualified by different withdrawal intervals and morning testing before the scheduled daily dose. No exact delayed post-dose hour or pharmacokinetic clearance is invented.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF06",
+      "topic": "Figure 18 denominator and notation",
+      "result": "pass",
+      "detail": "The true mouse denominator is separated from repeated measurements. Printed statistical-label and group-notation inconsistencies are preserved. The audit neither repairs the source nor computes a clustered significance result. Physical axis units are not invented from text alone.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF07",
+      "topic": "Endpoint and clinical-claim boundaries",
+      "result": "pass",
+      "detail": "Blink threshold is not equated with pain, visual function, permeability or chronic tissue protection. Both an established hyperalgesia claim and an absence-of-hyperalgesia claim are avoided. Acute injury observations are not promoted to established chronic human NK or PCED benefit.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF08",
+      "topic": "Comparators and missingness",
+      "result": "pass",
+      "detail": "Injured untreated and healthy references remain explicit. Nonsignificance is not presented as equivalence or a direct vehicle contrast. Primary sensory masking, arm-specific exclusions and animal-level longitudinal linkage remain unresolved.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF09",
+      "topic": "Proportional product claim",
+      "result": "pass",
+      "detail": "Useful ongoing control and useful finite-course benefit remain permissible value propositions. Permanent drug-free regeneration or exclusive cellular mechanism is not made a universal initial gate. The files do not authorize development execution.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RF10",
+      "topic": "Access and activity limits",
+      "result": "pass",
+      "detail": "Readable HTML captions are distinguished from inaccessible DOCX contents and unavailable raw figures/data. Source-absence statements are bounded. All six restricted-activity flags are false and no new scientific experiment or simulation is claimed.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "RS01",
+      "issue": "Overbroad assertion that no public direct long-CMI sensory contrast exists",
+      "resolution": "The preliminary 2025 report is acknowledged while the final-paper contrast and clustering limitations remain.",
+      "resolved_in_reviewed_version": true,
+      "reviewer_edit_required": false,
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RS02",
+      "issue": "Potential omission of supportive unilateral NM comparisons",
+      "resolution": "Endpoint-specific direct positive comparisons are preserved alongside CMI limitations.",
+      "resolved_in_reviewed_version": true,
+      "reviewer_edit_required": false,
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RS03",
+      "issue": "Potential confusion between treatment phase and exposure recency",
+      "resolution": "Different withdrawal intervals and before-dose testing are explicit.",
+      "resolved_in_reviewed_version": true,
+      "reviewer_edit_required": false,
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "RS04",
+      "issue": "Potential inflation of histology sample size or silent correction of source statistics",
+      "resolution": "Mouse and repeated-measure denominators are separated; ambiguous source notation remains unresolved.",
+      "resolved_in_reviewed_version": true,
+      "reviewer_edit_required": false,
+      "blocking_for_this_review": false
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "OF01",
+      "issue": "Animal-level clustering, primary sensory masking, exclusions and longitudinal linkage",
+      "status": "Open source-evidence limitation, explicitly disclosed.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "OF02",
+      "issue": "Figure 18 statistical-label/group-notation conflict and unverified graph-axis units",
+      "status": "Open; no official correction, graph-only inference or animal-level reanalysis available.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "OF03",
+      "issue": "Formal animal overlap between preliminary abstract and final paper",
+      "status": "Open; conservative same-program deduplication prevents independent-cohort inflation.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "OF04",
+      "issue": "Unread supplementary documents, questionnaire and raw data",
+      "status": "Open access limit; readable HTML captions are correctly distinguished. This review did not repeat the closed download attempts.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "OF05",
+      "issue": "Clinical function, tissue protection, durability and safety transfer",
+      "status": "Unestablished by the reviewed mouse data; files preserve this as the future uncertainty rather than claiming resolution.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    }
+  ],
+  "review_method": {
+    "read_only_repository_access": true,
+    "deterministic_document_checks": true,
+    "scientific_or_financial_simulation": false,
+    "new_experiment": false,
+    "reviewed_document_hash_algorithm": "SHA256"
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

@@ -1,0 +1,686 @@
+{
+  "schema_version": "ddiscov.round17.rm_product_capture.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+  "candidate_id": "R4-L01",
+  "scope": "Bounded exact-product exposure/transfer, claim-matched comparator and known university-rights audit; no broad FTO or full clinical development package.",
+  "decision": {
+    "existing_article_qualification_premise": "plausible_but_unvalidated",
+    "new_evidence_clearly_displaces_RM": false,
+    "historical_salt_or_lot_authenticated": false,
+    "matched_solvent_measured": false,
+    "quantitative_RM_corneal_PK_verified": false,
+    "carrier_analogy_establishes_RM_safe_limit": false,
+    "major_reformulation_automatically_required": false,
+    "full_sterile_CMC_required_before_initial_information": false,
+    "current_license_terms_available": false,
+    "commercial_clearance_established": false,
+    "financial_npv": null,
+    "quantitative_RM_chemical_stability_verified": false
+  },
+  "product_audit": {
+    "schema_version": "ddiscov.round17.rm_product_exposure_audit.v1",
+    "as_of": "2026-11-04",
+    "timezone": "America/Los_Angeles",
+    "retrieval_completed_utc_date": "2026-11-05",
+    "candidate_id": "R4-L01",
+    "base_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+    "scope": "Bounded exactarticle/formulation/exposure/mechanism-transfer audit with cited carrier evidence; no execution",
+    "decision": "Retain a conditional existing-article qualification premise; qualify exact-vehicle exposure/tolerability rather than assuming safety or toxicity from carrier identity. Recompare if major reformulation or full sterile-product development is required.",
+    "sources": [
+      {
+        "id": "P1",
+        "kind": "primary_cornea_mouse_article",
+        "title": "DKK1 Targeting in Corneal Schwann Cells Rescues Axonal Regeneration and Mechanosensory Function After Corneal Injury",
+        "doi": "10.1002/jnr.70142",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+        "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13266094/",
+        "publication_date": "2026-06-14",
+        "read_scope": "Full Wiley text and captions; product-focused sections2.5,3.5,3.11–3.12 andDiscussion; no independent raw image measurement",
+        "new_source_to_round16": false,
+        "source_data_retrieved": false,
+        "access_limits": [
+          "Supporting DOCX/transparent reviewer reports inaccessible",
+          "No correction to literal45-micron filtration recovered"
+        ],
+        "verification_date": "2026-11-04"
+      },
+      {
+        "id": "P2",
+        "kind": "manufacturer_catalog",
+        "title": "Dkk-1 Inhibitor, WAY-262611, HCl — Calbiochem317700",
+        "url": "https://www.merckmillipore.com/INTL/en/product/Dkk-1-Inhibitor-WAY-262611-HCl-Calbiochem,EMD_BIO-317700",
+        "read_scope": "Formula/formulation, specifications, storage and non-lot-specific notice",
+        "new_source_to_round16": false,
+        "lot_specific": false,
+        "verified_stock": false,
+        "price_quote_obtained": false,
+        "verification_date": "2026-11-04"
+      },
+      {
+        "id": "P3",
+        "kind": "manufacturer_insert",
+        "title": "Cayman WAY-262611 item17704",
+        "url": "https://cdn.caymanchem.com/cdn/insert/17704.pdf",
+        "publication_date": "2022-12-14",
+        "read_scope": "Complete one-page product insert",
+        "new_source_to_round16": false,
+        "lot_specific": false,
+        "verification_date": "2026-11-04"
+      },
+      {
+        "id": "P4",
+        "kind": "primary_discovery_abstract",
+        "title": "(1-(4-(Naphthalen-2-yl)pyrimidin-2-yl)piperidin-4-yl)methanamine: a wingless beta-catenin agonist that increases bone formation rate",
+        "doi": "10.1021/jm9014197",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19856966/",
+        "publication_date": "2009-11-26",
+        "read_scope": "Primary abstract; publisher full text403",
+        "new_source_to_round16": false,
+        "verification_date": "2026-11-04"
+      },
+      {
+        "id": "P5",
+        "kind": "primary_carrier_tolerability_abstract",
+        "title": "Influence of different surfactants on the technological properties and in vivo ocular tolerability of lipid nanoparticles",
+        "doi": "10.1016/j.ijpharm.2014.04.061",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24792979/",
+        "alternate_url": "https://www.iris.unict.it/handle/20.500.11769/18224",
+        "publication_date": "2014-05-02",
+        "read_scope": "Indexed primary abstract and institutional abstract; complete article not recovered",
+        "new_source_to_round16": true,
+        "full_text_read": false,
+        "verification_date": "2026-11-04"
+      },
+      {
+        "id": "P6",
+        "kind": "primary_carrier_article_excerpt",
+        "title": "Ultra-small micelles based on polyoxyl15hydroxystearate for ocular delivery of myricetin: optimization,in vitro,and in vivo evaluation",
+        "doi": "10.1080/10717544.2019.1568624",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6407586/",
+        "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/30822157/",
+        "publication_date": "2019-03-01",
+        "read_scope": "Primary abstract and indexed preparation/results/Figure4 passages in initial audit; independent cross-review directly inspected PMC tolerance and Figure5/results tracer-permeation passages. No continuous whole-article or supplement audit claimed.",
+        "new_source_to_round16": true,
+        "full_continuous_article_read": false,
+        "supplement_read": false,
+        "license": "CC BY4.0",
+        "verification_date": "2026-11-04",
+        "cross_review_source_precision": "Permeation observations use coumarin-6 tracer fluorescence, not direct myricetin concentrations."
+      }
+    ],
+    "claim_rows": [
+      {
+        "id": "P01",
+        "topic": "Exact salt and article identity",
+        "sources": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "prior_round_fact": true,
+        "finding": "Published317700 maps to current HCl product;17704isfreebase;sharedCASdoesnotestablishsamefinishedproduct",
+        "conclusion": "retain_exact_salt_batch_and_molar_basis_qualification",
+        "historical_clinical_lot_authenticated": false
+      },
+      {
+        "id": "P02",
+        "topic": "Nominal solvent and control",
+        "sources": [
+          "P1"
+        ],
+        "prior_round_fact": true,
+        "reported_nominal_concentrations_uM": [
+          20,
+          200
+        ],
+        "conditional_DMSO_percent_vv": [
+          0.2,
+          2.0
+        ],
+        "derivation": "Literal published stock/dilution arithmetic,notmeasurement",
+        "matched_control_composition_verified": false,
+        "observed_solvent_confound_established": false
+      },
+      {
+        "id": "P03",
+        "topic": "Published handling boundary",
+        "sources": [
+          "P1"
+        ],
+        "prior_round_fact": false,
+        "reported_filter_pore_um_literal": 45,
+        "reported_in_vivo_preparation_days_before_use": [
+          1,
+          2
+        ],
+        "filter_typographical_correction_verified": false,
+        "sterilizing_process_or_microbiological_quality_validated": false,
+        "conclusion": "short_use_research_preparation_not_established_clinical_product"
+      },
+      {
+        "id": "P04",
+        "topic": "Particle versus chemical stability",
+        "sources": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "prior_round_fact": true,
+        "particle_TEM_after_one_month": true,
+        "quantitative_RM_drug_stability_data_recovered": false,
+        "finished_product_shelf_life_validated": false,
+        "supplier_storage_transferred_to_finished_product": false
+      },
+      {
+        "id": "P05",
+        "topic": "Exposure and washout",
+        "sources": [
+          "P1",
+          "P4"
+        ],
+        "prior_round_fact": true,
+        "corneal_concentration_time_profile_recovered": false,
+        "free_fraction_recovered": false,
+        "systemic_RM_exposure_recovered": false,
+        "pharmacokinetic_washout_verified": false,
+        "oral_WAY_pharmacology_is_ocular_bridge": false
+      },
+      {
+        "id": "P06",
+        "topic": "Carrier caution is formulation specific",
+        "sources": [
+          "P5",
+          "P1"
+        ],
+        "prior_round_fact": false,
+        "source_carrier": "Dynasan solid-lipid nanoparticles",
+        "reported_HS15_fully_nonirritant_max_percent": 0.05,
+        "RM_starting_HS15_suspension_percent_wv": 0.5,
+        "universal_ocular_limit_established": false,
+        "RM_toxicity_demonstrated": false,
+        "complete_source_protocol_verified": false,
+        "conclusion": "qualify_exact_vehicle_and_control_without_tenfold_safety_margin_inference"
+      },
+      {
+        "id": "P07",
+        "topic": "Counterbalancing carrier tolerability",
+        "sources": [
+          "P6"
+        ],
+        "prior_round_fact": false,
+        "product": "HS15–myricetin micelles",
+        "reported_HS15_to_Myr_weight_ratio": [
+          21,
+          1
+        ],
+        "species": "rabbit",
+        "reported_acute_followup_hours_after_repeated_instillation": 24,
+        "reported_clinical_scores": [
+          0,
+          2
+        ],
+        "reported_preserved_histology": true,
+        "quantitative_payload_content_and_stability_characterization_described": true,
+        "RM_safety_or_permeation_transferred": false,
+        "normal_vs_injured_eye_equivalence_established": false,
+        "empty_carrier_qualified_by_loaded_product": false,
+        "permeation_readout": "Coumarin-6 tracer fluorescence; not direct myricetin concentration measurement",
+        "direct_RM_permeation_measured": false
+      },
+      {
+        "id": "P08",
+        "topic": "Pathway marker does not establish target occupancy",
+        "sources": [
+          "P1",
+          "P4",
+          "P2"
+        ],
+        "prior_round_fact": "general_mechanism_limit_preexisting;Axin2_detail_new",
+        "Axin2_epithelial_and_stromal_response_reported": true,
+        "cSC_specific_drug_occupancy_established": false,
+        "exclusive_DKK1_causality_established": false,
+        "exact_drug_binding_constant_verified": false,
+        "complete_mechanism_required_before_any_useful_proof": false
+      },
+      {
+        "id": "P09",
+        "topic": "Low-dose CMI Axin2 source conflict",
+        "sources": [
+          "P1"
+        ],
+        "prior_round_fact": false,
+        "prose_locator": "Section3.12",
+        "caption_locator": "Figure19",
+        "prose": "epithelialincrease_without_stromalincrease",
+        "caption": "increase_across_epithelium_and_stroma",
+        "resolution_verified": false,
+        "image_based_adjudication_performed": false
+      },
+      {
+        "id": "P10",
+        "topic": "Finite tranche and scope change",
+        "sources": [
+          "P1",
+          "P2",
+          "P3",
+          "P5",
+          "P6"
+        ],
+        "kind": "analytical_judgment",
+        "small_existing_article_qualification_premise": "plausible_conditional",
+        "de_novo_vehicle_assumed_necessary": false,
+        "full_commercial_CMC_required_before_first_proof": false,
+        "illustrative_cost_usd": [
+          50000,
+          175000
+        ],
+        "illustrative_months": [
+          3,
+          6
+        ],
+        "budget_source": "Independent marginal-capital review; supplied task context",
+        "budget_validated": false,
+        "full_sterile_ophthalmic_package_included": false,
+        "new_product_evidence_clearly_displaces_RM": false
+      }
+    ],
+    "new_source_details_not_new_independent_RM_efficacy": true,
+    "new_RM_experiments_or_clinical_results_generated": 0,
+    "new_candidate_screens": 0,
+    "prior_repository_sources": [
+      "research/rounds/round4/round4_local_repair.md",
+      "research/rounds/round4/round4_local_repair.json",
+      "research/rounds/round5/round5_shortlist_challenge.md",
+      "research/rounds/round5/round5_shortlist_challenge.json"
+    ],
+    "retrieval": {
+      "public_source_pass_closed": true,
+      "bounded_exact_RM_search_found_separate_quantitative_stability_or_PK_dataset": false,
+      "absence_of_unpublished_data_proven": false,
+      "transparent_review_reports_accessible": false,
+      "cohort_and_questionnaire_review_delegated_to_sibling": true,
+      "root_owner_of_final_marginal_selection": true,
+      "reopen_for": [
+        "Substantive RMcomposition/lot correction",
+        "Quantitative exactarticle drug-stability or corneal-exposure dataset",
+        "Exactvehicle tolerability evidence",
+        "Qualified transfer record likely to change a specific tranche"
+      ]
+    },
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false
+    }
+  },
+  "comparator_capture_audit": {
+    "schema_version": "ddiscov.round17.rm_comparator_capture_audit.v1",
+    "candidate_id": "R4-L01",
+    "candidate_name": "RM4404 / WAY-262611 corneal repair",
+    "evidence_cut": {
+      "date": "2026-11-04",
+      "timezone": "America/Los_Angeles",
+      "retrieval_utc_date": "2026-11-05"
+    },
+    "baseline_commit": "f23b7f7d0224c940143497030d4f402a1e4708b2",
+    "scope": "Bounded public-source comparator, intended-product and known-family rights audit; scratch work only.",
+    "decision": {
+      "fresh_evidence_clearly_displaces_rm_source_sprint": false,
+      "decision_contribution": "Retain RM4404 for the selected finite article/function source question; sharpen comparator and capture boundaries.",
+      "independent_review_conditional_capital_order": [
+        "topical APR-246/AEC",
+        "RM4404/corneal repair",
+        "BLU"
+      ],
+      "rm_independent_review_capital_rank": 2,
+      "selected_source_sprint_is_not_new_capital_ranking": true,
+      "apr_source_pass_closed_is_not_scientific_rejection": true,
+      "rm_versus_blu_financial_order_resolved": false,
+      "new_independent_rm_cohorts_established": 0,
+      "new_rm_human_patients_established": 0,
+      "numeric_financial_ev": null,
+      "validated_budget": null,
+      "license_price": null,
+      "commercial_population_estimate": null,
+      "execution_authorized_or_performed": false
+    },
+    "sources": [
+      {
+        "source_id": "C1",
+        "title": "OXERVATE (cenegermin-bkbj) ophthalmic solution — DailyMed label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89e4bfec-d710-40ed-8885-5d13ba46b1cd",
+        "source_type": "regulatory_label",
+        "record_updated": "2026-10-05",
+        "novelty": "Existing Round 5 source rechecked; clinical endpoint findings not new",
+        "inspected": "Indication, clinical studies section 14, Tables 1 and 2",
+        "access": "Readable primary label",
+        "supports": "Approved NK indication; controlled epithelial healing; mean sensitivity change not clinically significant"
+      },
+      {
+        "source_id": "C2",
+        "title": "Phase IV Multicenter, Prospective, Open-Label Clinical Trial of Cenegermin (rhNGF) for Stage 1 Neurotrophic Keratopathy (DEFENDO)",
+        "doi": "10.1007/s40123-023-00866-y",
+        "url": "https://link.springer.com/article/10.1007/s40123-023-00866-y",
+        "source_type": "primary_clinical_report",
+        "published": "2024-01-04",
+        "novelty": "Already known in Round 5; sensory denominators and threshold made explicit",
+        "inspected": "Publisher full article, sensory results and Figure 3, safety discussion",
+        "access": "Publisher full text readable; PMC direct access presented captcha",
+        "supports": "Open-label uncontrolled stage 1 sensory signal; visit-specific denominators and any increase threshold"
+      },
+      {
+        "source_id": "C3",
+        "title": "DEFENDO long-term follow-up — NCT05552261 / NGF0122",
+        "url": "https://clinicaltrials.gov/study/NCT05552261",
+        "source_type": "official_trial_registry",
+        "results_first_posted": "2025-11-28",
+        "record_last_updated": "2025-11-28",
+        "novelty": "Newly integrated official comparator extension record; not an independent cohort",
+        "inspected": "Official indexed full record: enrollment, design, permitted concomitant care, outcome definitions and missingness",
+        "access": "Primary-domain indexed text readable. Direct API failed; results tab yielded a shell. Numeric results tables not recovered.",
+        "supports": "Actual 24; observational original-cohort extension; additional Oxervate permitted; conditional endpoints with missing data exclusions",
+        "numeric_result_tables_read": false
+      },
+      {
+        "source_id": "C4",
+        "title": "NGF0122 Statistical Analysis Plan",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT05552261/SAP_001.pdf",
+        "source_type": "sponsor_uploaded_analysis_plan_on_official_registry",
+        "version": "Final 2.0",
+        "dated": "2024-03-22",
+        "novelty": "Newly integrated comparator analysis plan",
+        "inspected": "Printed pages 9–11, especially sections 2.5, 2.9 and 2.10; 33 PDF pages including attachments",
+        "access": "Readable primary PDF text",
+        "supports": "FAS attendance rule; exploratory descriptive analysis; observed cases; categorical missing observations excluded from percentage denominators",
+        "implementation_or_clinical_study_report_read": false
+      },
+      {
+        "source_id": "C5",
+        "title": "Dompé doses first patient in Phase 3 study of cenegermin-bkbj in PCED",
+        "url": "https://www.dompe.com/media/news/press-release/dompe-doses-first-patient-in-phase-3-study-of-cenegermin-bkbj-in-pced/",
+        "source_type": "primary_sponsor_program_announcement",
+        "published": "2026-06-09",
+        "registry_url": "https://clinicaltrials.gov/study/NCT07519902",
+        "novelty": "Newly integrated current comparator program",
+        "inspected": "Announcement of first participant, planned sample, randomization, masking, indication and healing endpoint",
+        "access": "Sponsor announcement readable. Direct trial page/API not substantively readable. No current enrollment or outcome substituted from secondary mirrors.",
+        "supports": "Orunea PCED Phase 3 initiated; approximately 150 planned at announcement; epithelial healing endpoint; investigational PCED use"
+      },
+      {
+        "source_id": "R1",
+        "title": "UConn Paola Bargagna-Mohan faculty directory",
+        "url": "https://facultydirectory.uchc.edu/profile?profileId=Bargagna-Mohan-Paola",
+        "source_type": "institutional_faculty_record",
+        "novelty": "Known Round 5 provisional lead rechecked",
+        "inspected": "Other section, 2025 US provisional title and inventor names",
+        "access": "Readable institutional record, not an official USPTO application/claim/status record",
+        "supports": "Known provisional title and 2025 attribution only"
+      },
+      {
+        "source_id": "R2",
+        "title": "Targeting Schwann cells: a new approach to repairing corneal injury",
+        "url": "https://today.uconn.edu/2026/06/targeting-schwann-cells-a-new-approach-to-repairing-corneal-injury/",
+        "source_type": "institutional_commercialization_account",
+        "published": "2026-06-17",
+        "novelty": "Known Round 5 account rechecked; not a second efficacy cohort",
+        "inspected": "Patent-pending formulation and UConn Technology Commercialization Services involvement",
+        "access": "Readable primary institutional account, not license terms or patent claims",
+        "supports": "Commercialization and protection activity; no license availability, pricing or human product-performance proof"
+      },
+      {
+        "source_id": "F0",
+        "title": "Schwann Dance: Nerve Regeneration in Corneal Axonopathy",
+        "url": "https://today.uconn.edu/wp-content/uploads/2025/02/CSS_Booklet_2025_FINAL_2.26.25.pdf",
+        "source_type": "institutional_research_day_abstract",
+        "dated": "2025",
+        "novelty": "Newly identified source-lineage lead; assigned to functional audit for reconciliation",
+        "inspected": "Indexed primary abstract",
+        "access": "Indexed abstract readable",
+        "supports": "Potential overlapping preliminary RM program; no independent replication counted",
+        "independent_rm_efficacy_counted": false
+      }
+    ],
+    "comparator_facts": {
+      "oxervate_controlled_label": {
+        "source_ids": [
+          "C1"
+        ],
+        "approved_indication": "Neurotrophic keratitis",
+        "epithelial_healing_established_against_vehicle": true,
+        "label_mean_sensitivity_change_clinically_significant": false,
+        "inference_prohibited": "Do not infer that cenegermin has no sensory biology or that RM4404 has demonstrated comparative superiority."
+      },
+      "original_defendo": {
+        "source_ids": [
+          "C2"
+        ],
+        "registry_id": "NCT04485546",
+        "original_protocol_id": "NGF0120",
+        "design": "Prospective open-label uncontrolled stage 1 NK",
+        "treated_n": 37,
+        "sensitivity_improvement_definition": "Increase greater than zero centimetres from baseline",
+        "observed_sensitivity": [
+          {
+            "time": "week 8",
+            "improved_n": 31,
+            "observed_denominator": 34
+          },
+          {
+            "time": "week 32",
+            "improved_n": 23,
+            "observed_denominator": 28
+          }
+        ],
+        "threshold_is_validated_useful_function_or_superiority_threshold": false,
+        "between_study_rm_effect_estimate_permitted": false,
+        "safety_interpretation": "Sensory changes must be interpreted with symptoms and ocular health; cross-trial pain comparison is not established."
+      },
+      "defendo_extension": {
+        "source_ids": [
+          "C3",
+          "C4"
+        ],
+        "registry_id": "NCT05552261",
+        "protocol_id": "NGF0122",
+        "actual_enrollment": 24,
+        "study_status": "Completed",
+        "study_completion_date": "2024-04-12",
+        "results_first_posted": "2025-11-28",
+        "design": "Observational prospective extension of the original treated DEFENDO cohort",
+        "follow_up_months": [
+          24,
+          30
+        ],
+        "independent_new_cohort": false,
+        "standard_care_permitted": true,
+        "additional_oxervate_permitted": true,
+        "treatment_histories_read": false,
+        "numeric_result_tables_read": false,
+        "results_absent_claimed": false,
+        "sensory_response_percentage": null,
+        "sensory_maintenance_stratum": "Participants with sensory improvement at original week 8",
+        "sensory_maintenance_missing": [
+          {
+            "month": 24,
+            "n": 4
+          },
+          {
+            "month": 30,
+            "n": 3
+          }
+        ],
+        "previous_nonimprover_missing": [
+          {
+            "month": 30,
+            "n": 1
+          }
+        ],
+        "missing_yes_no_outcomes_excluded_from_denominator": true,
+        "sap_full_analysis_set": "Enrolled participants attending month 24, month 30, or both",
+        "sap_analysis_status": "Exploratory, hypothesis-generating; descriptive analyses without type I error control",
+        "sap_missing_data": "Observed-case analysis; missing categorical observations reported but excluded from percentage denominators",
+        "sap_implementation_audited": false,
+        "inference_prohibited": [
+          "Do not use original treated 37 as extension enrollment.",
+          "Do not convert responder-conditioned maintenance into an all-original-patient response rate.",
+          "Do not infer a durable untreated effect from one cenegermin course when subsequent care or retreatment was allowed.",
+          "Do not treat a posted-results date as an inspected numeric result."
+        ]
+      },
+      "orunea": {
+        "source_ids": [
+          "C5"
+        ],
+        "registry_id": "NCT07519902",
+        "phase": 3,
+        "intended_indication": "Persistent corneal epithelial defect",
+        "design_at_announcement": "Randomized, double-masked, placebo-controlled",
+        "first_participant_dosed_announcement": "2026-06-09",
+        "planned_adults_at_announcement_approximately": 150,
+        "verified_current_enrollment": null,
+        "primary_endpoint": "Complete epithelial healing",
+        "pced_use_investigational_at_announcement": true,
+        "efficacy_result_inspected": false,
+        "rm_head_to_head_result": false,
+        "inference": "Competitive development constrains a broad healing thesis but does not supply a clinical result or establish RM inferiority."
+      }
+    },
+    "intended_product_claims": [
+      {
+        "patient_problem": "Persistent harmful hypoesthesia after corneal injury or surgery",
+        "decision_judgment": "Define useful protective function and symptoms in the relevant injury context; transient postoperative sensory reduction alone is not a validated commercial indication.",
+        "established_rm_human_efficacy": false
+      },
+      {
+        "patient_problem": "Neurotrophic keratitis with epithelial disease",
+        "decision_judgment": "Cenegermin supplies an active benchmark; future contribution might involve function, safety, burden or cost, without requiring superiority on every endpoint.",
+        "source_ids": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "patient_problem": "Persistent epithelial defect or broad wound healing",
+        "decision_judgment": "Treat healing separately from sensory repair and optical function; Orunea makes active current competition explicit.",
+        "source_ids": [
+          "C5"
+        ]
+      },
+      {
+        "patient_problem": "Painful dry eye or neuropathic corneal pain",
+        "decision_judgment": "An increased mechanosensory reading is not automatically a benefit; distinguish protection from unwanted sensitization.",
+        "established_rm_clinical_pain_efficacy": false
+      }
+    ],
+    "known_family_rights": {
+      "source_ids": [
+        "R1",
+        "R2"
+      ],
+      "title": "Compositions and Methods for Corneal Nerve Regeneration via DKK1 Inhibition",
+      "institutional_description": "US provisional application, 2025",
+      "named_inventors": [
+        "Royce Mohan",
+        "Paola Bargagna-Mohan"
+      ],
+      "identifiable_application_number": null,
+      "claim_set_recovered": false,
+      "grant_verified": false,
+      "license_offer_recovered": false,
+      "current_availability": "Unknown",
+      "exclusivity": "Unknown",
+      "price_or_terms": null,
+      "search_scope": "Known title, inventors and product family only",
+      "unrelated_patents_excluded": true,
+      "full_freedom_to_operate_review_performed": false,
+      "absence_of_rights_inferred": false,
+      "university_press_or_title_is_evidence_of_license_availability": false
+    },
+    "marginal_dollar_constraints": {
+      "financial_inputs_fabricated": false,
+      "independent_review_illustration": {
+        "usd_low": 50000,
+        "usd_high": 175000,
+        "months_low": 3,
+        "months_high": 6,
+        "status": "Independent analyst illustration, not quote or validated budget/schedule",
+        "scope": "Product/exposure and independent functional corroboration",
+        "specific_exclusion": "Complete sterile ophthalmic development package",
+        "general_exclusions": [
+          "Rights and licensing",
+          "GLP",
+          "GMP clinical manufacture",
+          "Clinical trials",
+          "Commercialization"
+        ]
+      },
+      "article_quality_and_tolerability_waived": false,
+      "broad_patient_populations_borrowed_for_market_model": false,
+      "recompare_with_blu_or_waiting_if": [
+        "Substantial new formulation qualification is necessary before interpretable evidence.",
+        "A prolonged new disease-model program is necessary.",
+        "Rights or product-access costs materially enlarge the decision tranche.",
+        "Accessible primary comparative outcomes in the intended indication change expected contribution."
+      ],
+      "permitted_advance": "Complete the bounded article and useful-function evidence synthesis; execution remains outside this sprint."
+    },
+    "retrieval_close": {
+      "state": "Closed",
+      "reason": "Meaningful comparator lineage, endpoint, missingness, program-stage and rights boundaries recovered; additional inaccessible table/terms searching has low marginal value.",
+      "baseline_exact_string_search": {
+        "terms": [
+          "NCT05552261",
+          "NGF0122",
+          "NCT07519902",
+          "Orunea",
+          "CSS_Booklet_2025_FINAL_2.26.25",
+          "Schwann Dance"
+        ],
+        "baseline_matches": 0,
+        "interpretation": "New to the Round 16 repository; not necessarily newly published."
+      },
+      "no_broad_fto_loop": true,
+      "no_generic_regulatory_or_voucher_loop": true,
+      "no_secondary_mirror_overrode_official_record": true,
+      "reopen_for": [
+        "Accessible substantive comparator outcome data with usable denominators.",
+        "Actual rescue or retreatment information that changes durability interpretation.",
+        "A material comparator result in the intended indication.",
+        "An identifiable applicable claim record.",
+        "Defined product or transaction facts that materially change the next commitment."
+      ]
+    },
+    "activity_attestation": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false,
+      "repository_edits": false,
+      "remote_writes": false,
+      "performed": [
+        "Public-source reading",
+        "Baseline document comparison",
+        "Scratch narrative and structured ledger writing",
+        "Deterministic artifact validation"
+      ]
+    }
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "execution_authorized": false
+}
