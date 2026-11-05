@@ -1,0 +1,300 @@
+{
+  "schema_version": "ddiscov.round18.human_model_update.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+  "candidate_id": "BLU3797_XLMTM",
+  "scope": "One bounded primary-publication update check for the named human-model programs and exact-BLU human function; follow only a newly identified official manuscript route.",
+  "decision": {
+    "human_model_qualification_decision_changed": false,
+    "new_substantive_manuscript_content_recovered": false,
+    "new_institutional_provenance_route_identified": true,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "scope_is_cross_portfolio_reranking": false,
+    "current_model_access_or_cost_verified": false,
+    "existing_bounded_qualification_question_retained": true,
+    "new_development_gate_added": false,
+    "financial_npv": null,
+    "budget_validated": false,
+    "execution_authorized": false
+  },
+  "sources": [
+    {
+      "id": "H01",
+      "kind": "official_institutional_deposit_metadata_aggregated_by_NDL_IRDB",
+      "title": "Aberrant lysosomal dynamics disrupt myogenesis via mTORC1 signalling in X-linked myotubular myopathy",
+      "url": "https://ndlsearch.ndl.go.jp/books/R000000025-I012210007265555",
+      "institution": "Kyoto University",
+      "doi": "10.14989/doctor.k26388",
+      "canonical_handle": "https://hdl.handle.net/2433/299659",
+      "canonical_redirect": "https://repository.kulib.kyoto-u.ac.jp/handle/2433/299659",
+      "degree_date": "2026-01-23",
+      "metadata_release_date": "2026-07-29",
+      "underlying_article_doi": "10.1093/brain/awaf278",
+      "underlying_article_online_date": "2025-07-29",
+      "read_scope": "Complete NDL/IRDB metadata record, including rights note, file link and dates; no manuscript content",
+      "locator": "Metadata lines 182–218 in retrieved representation",
+      "new_to_round17_record": true,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "H02",
+      "kind": "existing_primary_article_metadata",
+      "title": "Aberrant lysosomal dynamics disrupt myogenesis via mTORC1 signalling in X-linked myotubular myopathy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40729434/",
+      "publisher_url": "https://academic.oup.com/brain/article/149/1/317/8217423",
+      "doi": "10.1093/brain/awaf278",
+      "pmid": "40729434",
+      "original_online_date": "2025-07-29",
+      "issue_date": "2026-01-08",
+      "read_scope": "Indexed primary bibliographic metadata; direct PubMed open yielded only a disclosure footer",
+      "new_source_to_round17": false,
+      "new_full_text_read": false,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "H03",
+      "kind": "existing_primary_conference_abstract",
+      "title": "Advanced modelling of X-linked myotubular myopathy using human myogenic stem cells and 3D tissue engineering",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142835/",
+      "publisher_url": "https://journals.sagepub.com/doi/10.1177/22143602261437712",
+      "doi": "10.1177/22143602261437712",
+      "locator": "Abstract 067, 19th UK Neuromuscular Translational Research Conference, 17–18 April 2026",
+      "read_scope": "Indexed title, investigator list and abstract opening returned; no fresh complete abstract or full model paper read. Prior complete abstract extraction retained as prior repository evidence.",
+      "direct_access_result": "PMC browser-verification wall",
+      "new_source_to_round17": false,
+      "fuller_model_report_recovered": false,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "H04",
+      "kind": "existing_primary_mouse_pharmacology_article",
+      "title": "Pharmacological PIK3C2B inhibition rescues XLMTM phenotype in mouse models and identifies molecular markers of disease",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13232722/",
+      "doi": "10.1172/jci.insight.198568",
+      "publication_date": "2026-04-09",
+      "read_scope": "Search-indexed primary abstract and selected body passages only; no new full-paper audit in this lane",
+      "new_source_to_round17": false,
+      "new_human_function_result": false,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "H05",
+      "kind": "official_linked_manuscript_unread",
+      "url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/a2683b0a-e6c9-4fa6-9811-7c9587eaa36a/download",
+      "file_label": "digak05231.pdf",
+      "source_of_link": "H01",
+      "underlying_article_doi": "10.1093/brain/awaf278",
+      "read_scope": "No manuscript content recovered",
+      "content_read": false,
+      "downloaded_bytes_verified": false,
+      "version_described_by_specific_rights_note": "Accepted Manuscript",
+      "generic_metadata_publication_type": "VoR",
+      "actual_PDF_version_verified": false,
+      "metadata_version_difference_resolved": false,
+      "verification_date": "2026-11-04"
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "H18-R01",
+      "source_ids": [
+        "H01",
+        "H05"
+      ],
+      "kind": "new_documentary_provenance",
+      "finding": "An official metadata record identifies a public Kyoto manuscript manifestation of the existing Kora article, with a specific release date and file link.",
+      "new_biological_result": false,
+      "new_independent_replication": false,
+      "source_version_verified_from_PDF": false
+    },
+    {
+      "id": "H18-R02",
+      "source_ids": [
+        "H01",
+        "H05"
+      ],
+      "kind": "retrieval_boundary",
+      "finding": "The direct PDF, thesis DOI and canonical handle route did not return manuscript content. The canonical redirect was reported non-retryable.",
+      "publication_exists_implies_content_read": false,
+      "access_failure_is_biological_negative": false
+    },
+    {
+      "id": "H18-R03",
+      "source_ids": [
+        "H01",
+        "H02",
+        "H05"
+      ],
+      "kind": "publication_lineage",
+      "finding": "The deposit rights note identifies the same Brain DOI and original 2025 online article. Thesis deposit, 2026 issue date and manuscript release are not additional experiments.",
+      "same_article_deduplication": true,
+      "additional_independent_cohorts_credited": 0
+    },
+    {
+      "id": "H18-R04",
+      "source_ids": [
+        "H03",
+        "H04"
+      ],
+      "kind": "bounded_update_result",
+      "finding": "The finite update returned the same 2026 Lionello/Tedesco abstract and BLU mouse study. It recovered no fuller human-model validation report or new independent human BLU force result.",
+      "absence_of_all_other_studies_proven": false,
+      "new_human_function_qualification": false
+    },
+    {
+      "id": "H18-R05",
+      "source_ids": [
+        "H01",
+        "H05"
+      ],
+      "kind": "unread_manuscript_fields",
+      "patient_genotypes_newly_verified": null,
+      "donor_clone_batch_tissue_counts_newly_verified": null,
+      "force_readout_newly_verified": null,
+      "rescue_timing_newly_verified": null,
+      "assembly_vs_established_deficit_adjudicated": false,
+      "BLU_pharmacology_newly_verified": null,
+      "material_transfer_access_newly_verified": false,
+      "actual_project_cost_newly_verified": false
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "H18-C01",
+      "claim": "The new institutional manuscript lead supplies a qualified human-force route",
+      "decision": "not_established",
+      "support": [
+        "H18-R01",
+        "H18-R02",
+        "H18-R05"
+      ],
+      "reason": "Metadata and a failed content retrieval cannot resolve model function, timing, access or cost."
+    },
+    {
+      "id": "H18-C02",
+      "claim": "The 2026 manuscript deposit is independent replication of Kora's result",
+      "decision": "reject_duplicate_counting",
+      "support": [
+        "H18-R03"
+      ],
+      "reason": "The record explicitly points to the existing Brain article."
+    },
+    {
+      "id": "H18-C03",
+      "claim": "No human BLU result exists anywhere",
+      "decision": "not_proven",
+      "support": [
+        "H18-R04"
+      ],
+      "reason": "A bounded retrieval can report no recovered new result, not universal absence."
+    },
+    {
+      "id": "H18-C04",
+      "claim": "The human-model lane should remain open for repeated generic searches",
+      "decision": "close_after_finite_update",
+      "support": [
+        "H18-R02",
+        "H18-R04",
+        "H18-R05"
+      ],
+      "reason": "No recovered artifact resolves a named qualification input. Reopen for accessible substantive content or exact-line functional evidence."
+    }
+  ],
+  "prior_repository_evidence": [
+    "research/rounds/round8/blu_model_function.md",
+    "research/rounds/round8/blu3797-qualification-package.md",
+    "research/rounds/round9/blu-model-new-evidence.md"
+  ],
+  "prior_interpretation_preserved": {
+    "manufacturer_model_not_independent_validation": true,
+    "nonisogenic_reference_gap_not_genetic_rescue_fraction": true,
+    "morphology_or_fiber_size_not_force_rescue": true,
+    "qualified_positive_can_precede_full_delayed_control_engineering": true,
+    "qualified_target_negative_requires_stronger_exposure_model_and_perturbation_support": true,
+    "catalog_and_publication_do_not_establish_access_or_cost": true,
+    "new_protocol_or_numerical_threshold_designed": false
+  },
+  "retrieval": {
+    "initial_update_queries": [
+      {
+        "q": "\"Lionello\" \"Tedesco\" \"myotubular\" \"2026\"",
+        "recency_days": 365
+      },
+      {
+        "q": "\"Kora\" \"awaf278\" full text",
+        "recency_days": 730
+      },
+      {
+        "q": "\"BLU3797\" \"human\" \"muscle\"",
+        "recency_days": 365
+      }
+    ],
+    "new_route_identifier_queries": [
+      {
+        "q": "\"doctor.k26388\"",
+        "domain": "repository.kulib.kyoto-u.ac.jp"
+      },
+      {
+        "q": "\"digak05231.pdf\"",
+        "domain": "repository.kulib.kyoto-u.ac.jp"
+      }
+    ],
+    "identifier_query_result": "Irrelevant repository records returned and excluded without substantive reading; no manuscript content obtained",
+    "access_attempts": [
+      {
+        "url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/a2683b0a-e6c9-4fa6-9811-7c9587eaa36a/download",
+        "outcome": "Tool access error; no PDF content"
+      },
+      {
+        "url": "https://doi.org/10.14989/doctor.k26388",
+        "outcome": "Tool access error; no manuscript or repository record content"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40729434/",
+        "outcome": "Only disclosure footer in direct open; indexed metadata retained"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142835/",
+        "outcome": "Browser-verification wall; no fresh full abstract read"
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R000000025-I012210007265555",
+        "outcome": "Full official metadata record read"
+      },
+      {
+        "url": "https://hdl.handle.net/2433/299659",
+        "outcome": "Canonical click redirected to Kyoto handle; non-retryable access error"
+      }
+    ],
+    "generic_model_variant_catalog_search_reopened": false,
+    "generic_BLU_exposure_search_reopened": false,
+    "BLU_claim_mapping_reopened": false,
+    "inaccessible_url_loop_repeated": false,
+    "pass_closed": true,
+    "reopen_only_for": [
+      "Accessible substantive manuscript or methods content resolving a named human qualification input",
+      "A new exact-line functional dataset with genotype, biological units and timing",
+      "An independent exact-product human functional result"
+    ]
+  },
+  "counts": {
+    "new_documentary_provenance_route": 1,
+    "new_manuscript_content_recovered": 0,
+    "new_independent_human_BLU_results": 0,
+    "new_cohorts_credited": 0,
+    "new_experiments_generated": 0,
+    "new_candidate_screens": 0
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_model_utilities_executed": false
+}

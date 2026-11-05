@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 17](rounds/round17/README.md) completes the selected RM4404/corneal-repair public-source sprint after APR closure. The review refines function, units, timing, article and comparator/capture limits without new screens or experiments. The independent conditional development order remains APR1/RM2/BLU3; historical allocation does not control the next dollar. Closed searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
+> **Current work:** [Round 18](rounds/round18/README.md) completes the selected BLU3797/XLMTM source sprint after APR/RM closure. Specific publication/context updates leave human force qualification, actual costs and retained value unresolved. Retain affirmative staged qualification and APR1/RM2/BLU3 conditional development order. No new candidate screen or experiment; historical allocation does not control the next dollar. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

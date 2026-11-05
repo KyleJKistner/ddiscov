@@ -1,0 +1,172 @@
+{
+  "schema_version": "ddiscov.round18.independent_human_model_review.v1",
+  "reviewer": "/root/r18_blu_decision",
+  "review_date_utc": "2026-11-05",
+  "evidence_cut": "2026-11-04 America/Los_Angeles",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-human-model-update.md",
+      "bytes": 6867,
+      "sha256": "4a9df13cededf5adaf39c6258b04846e22d65d77cdbd1ccef85ac85e6c26d8b6"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-human-model-update.json",
+      "bytes": 12210,
+      "sha256": "cf9782271bd8f185a7eb4ff2b64c2d32f99b12a6c6fbf9d5735284cd7209070a"
+    }
+  ],
+  "scope": "Independent review of final human-model narrative and JSON for primary metadata fidelity, source/content boundaries, same-article lineage, missing fields, decision inference and closure.",
+  "source_checks": [
+    {
+      "source": "NDL/IRDB metadata record",
+      "url": "https://ndlsearch.ndl.go.jp/books/R000000025-I012210007265555",
+      "read_scope": "Direct complete metadata record; title, institution, degree date, DOI, file link, release note, generic VoR and specific Accepted Manuscript labels independently checked.",
+      "ref": "turn181view0",
+      "manuscript_access_retried": false
+    },
+    {
+      "source": "PubMed PMID40729434",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40729434/",
+      "read_scope": "Targeted exact-PMID indexed metadata check confirms 2026 Jan8 issue date, volume/page and same Brain DOI. No new full-paper or supplement read.",
+      "ref": "turn182search0"
+    }
+  ],
+  "findings": [
+    {
+      "id": "HM01",
+      "topic": "Institutional metadata provenance",
+      "status": "pass",
+      "detail": "The independently reopened NDL/IRDB record matches the title, Kyoto institution, degree date, thesis DOI and named official full-text link. Its content is metadata; the files do not represent it as manuscript text.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM02",
+      "topic": "Publication events and lineage",
+      "status": "pass",
+      "detail": "The January 2026 degree and issue dates and July 2026 manuscript-release note are separated from the July 2025 online Brain publication. The record identifies the same underlying DOI; no additional biological cohort is counted.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM03",
+      "topic": "Version-label boundary",
+      "status": "pass",
+      "detail": "Generic VoR and the specific Accepted Manuscript rights note are both retained. These are differing metadata labels; the actual PDF version remains unverified and no source corruption or full-version reconciliation is asserted.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM04",
+      "topic": "Unread scientific fields",
+      "status": "pass",
+      "detail": "Genotypes, donor/clone/batch/tissue counts, force outcome, rescue timing and BLU pharmacology newly verified from the unread manuscript remain null. Assembly-versus-established-deficit adjudication stays false.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM05",
+      "topic": "Bounded retrieval conclusion",
+      "status": "pass",
+      "detail": "The narrative and ledger report no recovered fuller exact model report or human BLU result from the finite named-program update. They expressly reject universal absence and treat access failure as an information limit.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM06",
+      "topic": "Prior evidence and fresh reads",
+      "status": "pass",
+      "detail": "Kora, Lionello/Tedesco and JCI prior findings are distinguished from freshly read metadata or indexed fragments. The manuscript manifestation, article mirror and conference record do not inflate independent efficacy counts.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM07",
+      "topic": "Access, tractability and cost",
+      "status": "pass",
+      "detail": "A public manuscript or model catalog does not establish available material, assay transfer, a project price or budget validation. The update asserts neither new ready access nor infeasibility.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM08",
+      "topic": "Scientific and marginal decision",
+      "status": "pass",
+      "detail": "Existing bounded human qualification remains affirmative. A source-retrieval negative does not create a biological downgrade, new universal gate, financial return or cross-portfolio rerank.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM09",
+      "topic": "Closure and restrictions",
+      "status": "pass",
+      "detail": "The documented finite publication update closes at the unavailable content boundary, preserves prior generic search closures and has all six activity fields false. The review did not repeat failed manuscript accesses.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "HM10",
+      "topic": "Structured consistency and file binding",
+      "status": "pass",
+      "detail": "Strict JSON parses; five unique sources, five evidence rows and four claim decisions resolve all references. New outcome counts, null fields, base commit, candidate and local narrative link are coherent.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "resolved_issues": [],
+  "open_issues": [
+    {
+      "id": "HO01",
+      "issue": "Official linked manuscript content and actual PDF version remain unread.",
+      "status": "Disclosed source-access/version limit; no correction required to publish this bounded update.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "HO02",
+      "issue": "The update supplies no new exact-line force, biological-unit, genotype or post-deficit timing qualification.",
+      "status": "Disclosed substantive qualification gap; no new biological negative inferred.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "HO03",
+      "issue": "Exact model transfer, material access and actual project cost remain unverified.",
+      "status": "Execution and economic inputs remain separate from publication existence.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "HO04",
+      "issue": "A finite publication search cannot establish the absence of all other studies.",
+      "status": "Explicit scope ceiling; reopening is limited to substantive decision-changing artifacts.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    }
+  ],
+  "review_method": {
+    "local_final_files_read": true,
+    "strict_json_checked": true,
+    "unique_source_ids": 5,
+    "unique_evidence_ids": 5,
+    "claim_decisions": 4,
+    "references_resolve": true,
+    "new_document_scientific_null_fields_checked": [
+      "patient_genotypes_newly_verified",
+      "donor_clone_batch_tissue_counts_newly_verified",
+      "force_readout_newly_verified",
+      "rescue_timing_newly_verified",
+      "BLU_pharmacology_newly_verified"
+    ],
+    "prior_repository_context": [
+      "research/rounds/round8/blu_model_function.md",
+      "research/rounds/round8/blu3797-qualification-package.md",
+      "research/rounds/round9/blu-model-new-evidence.md"
+    ],
+    "failed_manuscript_accesses_repeated": false,
+    "new_candidate_search": false,
+    "scientific_or_model_utilities_executed": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

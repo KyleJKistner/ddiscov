@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 17.** The RM4404/corneal-repair source sprint is complete after APR closure. Model-specific function, biological units, treatment timing, exact-article limits and current comparator endpoints refine its next conditional qualification question. RM was selected for this information sprint; the independent review development order remains APR-246, RM4404, then BLU. No fresh evidence clearly favors switching, and historical planning points do not control the next dollar. No new screen, experimental result or S-tier promotion. The original 622 coverage rows and all prior packages are preserved. Round 16 is published at `f23b7f7d0224c940143497030d4f402a1e4708b2`.
+**Status: 4 November 2026, after Round 18.** The selected BLU3797/XLMTM public-source sprint is complete after APR and RM closure. Specific manuscript metadata, organ-readout evidence and comparator plans refine source boundaries without a new human BLU force result or qualified execution route. Retain affirmative staged scientific qualification, with initial qualification and additional conditional function kept separate. The independent conditional development order remains APR-246, RM4404, then BLU; historical planning points do not control the next dollar. No new screen, experimental result, allocation or S-tier promotion. All 622 original coverage rows and prior packages are preserved. Round 17 is published at `fc6202ddb2e00ece75e423c34c7a89ac46200825`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 18 BLU marginal-dollar source close](research/rounds/round18/README.md) | Human-model publication limits, systemic/comparator updates and separate qualification/function commitments. |
 | [Round 17 RM4404 marginal-dollar decision](research/rounds/round17/README.md) | Corneal function, timing/units, exact article, current comparator limits and a bounded information decision. |
 | [Round 16 APR-246 marginal-dollar decision](research/rounds/round16/README.md) | Clinical lineage, existing article/model routes, current rights limits and a bounded qualification decision. |
 | [Round 15 marginal-dollar decision](research/rounds/round15/README.md) | Enasidenib contribution beyond the existing sprinkle, current approval incentives and a finite funding decision. |

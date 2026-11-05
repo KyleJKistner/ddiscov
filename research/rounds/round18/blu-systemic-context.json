@@ -1,0 +1,963 @@
+{
+  "schema_version": "ddiscov.round18.blu_systemic_context.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+  "candidate_id": "BLU3797_XLMTM",
+  "scope": "Finite disease-liver, current comparator and primary clinical-report update; source context for the next bounded qualification dollar",
+  "decision": {
+    "new_fact_clearly_displaces_BLU": false,
+    "new_BLU_human_force_result": false,
+    "exact_BLU_hepatic_window_established": false,
+    "qualified_liver_assay_or_cost_established": false,
+    "new_universal_liver_gate": false,
+    "permanent_gene_therapy_excluded_niche_established": false,
+    "ASP2957_human_safety_or_efficacy_advantage_established": false,
+    "rights_or_retained_value_established": false,
+    "financial_npv": null,
+    "development_order_changed": false,
+    "public_source_pass_closed": true
+  },
+  "hepatic_audit": {
+    "schema_version": "ddiscov.round18.blu_hepatic_context_audit.v1",
+    "as_of": "2026-11-04",
+    "as_of_timezone": "America/Los_Angeles",
+    "retrieval_completed_utc_date": "2026-11-05",
+    "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+    "candidate_id": "BLU3797_XLMTM",
+    "scope": "Finite disease-liver/organ-readout audit; public reading and source comparison only. No generic BLU ADME, closed claim mapping or inaccessible endothelial-source repetition.",
+    "decision": {
+      "result": "retain_existing_conditional_qualification_and_close_this_source_pass",
+      "new_evidence_clearly_displaces_BLU": false,
+      "development_rank_changed": false,
+      "numerical_EV": null,
+      "budget_validated": false,
+      "new_universal_liver_gate": false,
+      "complete_liver_program_required_before_initial_muscle_information": false,
+      "liver_related_gene_therapy_exclusion_establishes_BLU_niche": false,
+      "exact_BLU_hepatic_safety_or_efficacy_established": false
+    },
+    "sources": [
+      {
+        "id": "L18-S1",
+        "kind": "primary_human_tissue_report_abstract",
+        "title": "X-Linked Myotubular Myopathy and Mitochondrial Function in Muscle and Liver Samples",
+        "authors": "Inoue et al.",
+        "doi": "10.1055/s-0044-1788333",
+        "pmid": "39008988",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39008988/",
+        "publication_online": "2024-07-15",
+        "issue_date": "2025-02",
+        "verification_date": "2026-11-04",
+        "new_to_round17": true,
+        "read_scope": "Initial auditor read indexed primary abstract and metadata; root independently read the complete PubMed abstract and bibliographic record. Publisher full paper and supplement remain unread.",
+        "full_text_read": false
+      },
+      {
+        "id": "L18-S2",
+        "kind": "primary_sponsor_study_notice",
+        "title": "Epidemiologic Study of XLMTM and Clinical Expression in the Liver (EXCEL)",
+        "sponsor": "Astellas Gene Therapies",
+        "trial_id": "NCT06581146",
+        "document_id": "MAT-GB-NON-2024-00649",
+        "url": "https://mtmcnmregistry.org/media/images/MAT-GB-NON-2024-00_649_HTML_Draft1PDF.pdf",
+        "publication_date": "2025-01",
+        "verification_date": "2026-11-04",
+        "new_to_round17": true,
+        "read_scope": "Complete one-page sponsor notice hosted by the patient registry. Prospective design/eligibility only; live registry status and results not recovered.",
+        "source_date_not_current_status": true
+      },
+      {
+        "id": "L18-S3",
+        "kind": "primary_zebrafish_disease_liver_study",
+        "title": "Loss of Mtm1 causes cholestatic liver disease in a model of X-linked myotubular myopathy",
+        "authors": "Karolczak et al.",
+        "doi": "10.1172/JCI166275",
+        "pmid": "37490339",
+        "url": "https://www.jci.org/articles/view/166275",
+        "publication_date": "2023-09-15",
+        "verification_date": "2026-11-04",
+        "new_to_round17": false,
+        "read_scope": "Primary publisher full-text representation; targeted results and discussion on liver-specific rescue, transport and dynamin compounds. Earlier Round5 evidence retained; no new independent experiment credited.",
+        "prior_reference": "research/rounds/round5/round5_blu_biology.json#B13"
+      },
+      {
+        "id": "L18-S4",
+        "kind": "primary_mouse_disease_liver_study_abstract",
+        "title": "AAV8 gene therapy and dietary insults together precipitate cholestatic liver disease in a mouse model of X-linked myotubular myopathy",
+        "authors": "Pannia et al.",
+        "doi": "10.1126/scitranslmed.adr1483",
+        "pmid": "41706871",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41706871/",
+        "publisher_url": "https://www.science.org/doi/10.1126/scitranslmed.adr1483",
+        "publication_date": "2026-02-18",
+        "verification_date": "2026-11-04",
+        "new_to_round17": false,
+        "read_scope": "Indexed primary abstract rechecked. Exact-DOI update search and one canonical publisher open did not recover substantive full text; publisher returned403. No fresh denominator or detailed protocol extraction.",
+        "full_text_read": false,
+        "prior_reference": "research/rounds/round5/round5_blu_biology.json#B14"
+      },
+      {
+        "id": "L18-S5",
+        "kind": "primary_human_baseline_liver_study",
+        "title": "Liver function in X-linked myotubular myopathy and autosomal dominant centronuclear myopathy: Data of the unite-CNM study",
+        "authors": "Colombo et al.",
+        "doi": "10.1177/22143602251329215",
+        "pmid": "40275672",
+        "pmcid": "PMC13142885",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142885/",
+        "publication_online": "2025-04-24",
+        "issue_date": "2025-07",
+        "verification_date": "2026-11-04",
+        "new_to_round17": false,
+        "read_scope": "Primary PMC abstract/introduction/methods and baseline table passages rechecked. Previously audited source; no new clinical cohort or DYN101 efficacy claim.",
+        "prior_reference": "research/rounds/round6/round6_clinical_translation.md#R6-CT03"
+      },
+      {
+        "id": "L18-S6",
+        "kind": "primary_catalytic_inactivation_study_carried_forward",
+        "title": "Inactivation of the Class II PI3K-C2beta Potentiates Insulin Signaling and Sensitivity",
+        "authors": "Alliouachene et al.",
+        "doi": "10.1016/j.celrep.2015.10.052",
+        "pmid": "26655903",
+        "pmcid": "PMC4675724",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675724/",
+        "publication_online": "2015-11-19",
+        "new_to_round17": false,
+        "read_scope": "Prior Round6 full-text/supplement audit carried forward; not freshly reopened here.",
+        "prior_reference": "research/rounds/round6/round6_blu_translation.json#BT-E06"
+      }
+    ],
+    "evidence_rows": [
+      {
+        "id": "L18-E1",
+        "sources": [
+          "L18-S1"
+        ],
+        "status": "new_to_repository_primary_report",
+        "observation": "Reported respiratory-chain enzyme activity was reduced in muscle specimens but normal in the liver specimen.",
+        "biological_units": {
+          "reported_people": 2,
+          "muscle_specimens": 2,
+          "liver_specimens": 1
+        },
+        "genotypes": null,
+        "ages": null,
+        "quantitative_enzyme_values": null,
+        "complex_specific_results": null,
+        "specimen_to_patient_linkage": null,
+        "treatment_exposure": null,
+        "BLU_exposure_reported_in_read_abstract": false,
+        "inference": "Organ-specific assay evidence; one normal hepatic enzyme assessment does not establish normal hepatobiliary transport, reserve, other mitochondrial functions or drug tolerance."
+      },
+      {
+        "id": "L18-E2",
+        "sources": [
+          "L18-S1"
+        ],
+        "status": "interpretation_boundary",
+        "independently_new_BLU_treated_people": 0,
+        "independent_BLU_efficacy_cohorts_added": 0,
+        "overlap_with_other_XLMTM_cohorts_resolved": false,
+        "whole_liver_safety_established": false,
+        "universal_hepatic_mitochondrial_failure_established": false,
+        "universal_new_liver_gate_created": false,
+        "inference": "Retain the existing separate muscle/liver function question without adding an unvalidated universal mitochondrial gate."
+      },
+      {
+        "id": "L18-E3",
+        "sources": [
+          "L18-S2"
+        ],
+        "status": "new_to_repository_prospective_source",
+        "design": "Prospective observational liver-focused study; no specific study treatment",
+        "planned_participants_approximately": 50,
+        "planned_sex": "male",
+        "planned_age_at_enrollment_years_upper_exclusive": 18,
+        "planned_genotype": "Genetically confirmed MTM1 mutation",
+        "planned_respiratory_requirement": "Some mechanical ventilatory support",
+        "planned_duration_approximately_years": 1,
+        "planned_liver_gallbladder_assessment_interval_weeks": 6,
+        "exclusion_in_notice": "Current enrollment in an XLMTM interventional treatment study",
+        "actual_enrollment": null,
+        "current_status": null,
+        "efficacy_or_liver_outcomes_recovered": false,
+        "inference": "A named future longitudinal evidence source, not completed evidence or a qualified assay/material/data-access route."
+      },
+      {
+        "id": "L18-E4",
+        "sources": [
+          "L18-S2"
+        ],
+        "status": "access_and_current_status_limit",
+        "live_registry_url": "https://clinicaltrials.gov/study/NCT06581146",
+        "registry_API_url": "https://clinicaltrials.gov/api/v2/studies/NCT06581146",
+        "live_record_result": "Non-substantive page shell",
+        "API_result": "Inaccessible through web tool",
+        "current_recruitment_verified": false,
+        "current_completion_verified": false,
+        "registry_results_posted_flag": null,
+        "absence_of_results_proven": false,
+        "conclusion": "January2025 sponsor plans cannot establish November2026 status or completed enrollment; no inference from elapsed planned dates."
+      },
+      {
+        "id": "L18-E5",
+        "sources": [
+          "L18-S3"
+        ],
+        "status": "carried_forward_rechecked",
+        "model": "mtm1-deficient zebrafish",
+        "observation": "Abnormal bile transport/canalicular organization with partial improvement after hepatocyte Mtm1 reexpression or dynamin-directed compounds.",
+        "exact_BLU_result_recovered": false,
+        "selective_PIK3C2B_hepatic_rescue_established": false,
+        "inference": "Supports disease-related hepatic biology; the identified interventions do not supply a BLU or C2beta exposure-response bridge."
+      },
+      {
+        "id": "L18-E6",
+        "sources": [
+          "L18-S4"
+        ],
+        "status": "carried_forward_abstract_ceiling",
+        "model": "Mtm1-deficient, diet-sensitized mice and liver-specific Mtm1 loss",
+        "observation": "Disease/environment interactions and AAV8-associated injury; LNP-MTM1 prevented selected histopathology in the abstract.",
+        "exact_BLU_result_recovered": false,
+        "animal_denominators_recovered_in_this_pass": null,
+        "full_protocol_verified_in_this_pass": false,
+        "inference": "AAV8 findings cannot be assigned to BLU. No new model-access, cost, exposure threshold or ready human assay is established."
+      },
+      {
+        "id": "L18-E7",
+        "sources": [
+          "L18-S5"
+        ],
+        "status": "carried_forward_rechecked",
+        "observation": "Adult XLMTM/ADCNM baseline liver findings and a DNM2 antisense program with tolerability limitations remain distinct from C2beta inhibition.",
+        "original_screened_population": 26,
+        "XLMTM_subgroup": 11,
+        "ADCNM_subgroup": 15,
+        "new_people_credited": 0,
+        "exact_BLU_result_recovered": false,
+        "inference": "Adult survival or eligibility for another trial does not establish BLU hepatic safety or a quantified liver-ineligible commercial niche."
+      },
+      {
+        "id": "L18-E8",
+        "sources": [
+          "L18-S6"
+        ],
+        "status": "carried_forward_without_new_primary_read",
+        "perturbation": "Lifelong protein-retaining C2beta-D1212A catalytic inactivation in otherwise healthy mice",
+        "observation": "Previously reviewed metabolic and tissue-histology reassurance.",
+        "MTM1_disease_liver_model": false,
+        "reversible_drug_exposure": false,
+        "native_BLU_hepatic_window_established": false,
+        "quantitative_safety_threshold_derived": false,
+        "inference": "Healthy genetic reassurance cannot substitute for interpretable systemic exposure and disease-relevant hepatic function."
+      }
+    ],
+    "claim_decisions": [
+      {
+        "id": "L18-C1",
+        "claim": "BLU deserves continued bounded article/exposure/human-function qualification",
+        "disposition": "unchanged_conditional",
+        "support": [
+          "L18-E1",
+          "L18-E5",
+          "L18-E6",
+          "L18-E8"
+        ],
+        "reason": "No new exact-BLU harm or rescue, executable liver-model route, qualified cost, or evidence clearly favoring another candidate emerged."
+      },
+      {
+        "id": "L18-C2",
+        "claim": "A normal muscle or generic viability result clears the liver question",
+        "disposition": "not_established",
+        "support": [
+          "L18-E1",
+          "L18-E2",
+          "L18-E5"
+        ],
+        "reason": "Keep tissue, functional endpoint and disease context separate; the newly recovered report adds a narrow example rather than a universal extra gate."
+      },
+      {
+        "id": "L18-C3",
+        "claim": "Liver-related gene-therapy exclusions define an inherently safer oral-drug niche",
+        "disposition": "not_established",
+        "support": [
+          "L18-E5",
+          "L18-E6",
+          "L18-E7",
+          "L18-E8"
+        ],
+        "reason": "Disease vulnerability, modality-specific injury and exact drug exposure are different causal quantities; eligibility exclusions are not safety or market-size evidence."
+      },
+      {
+        "id": "L18-C4",
+        "claim": "EXCEL is a completed dataset or available qualification resource",
+        "disposition": "not_established",
+        "support": [
+          "L18-E3",
+          "L18-E4"
+        ],
+        "reason": "The recovered source specifies planned observation. Actual status, outcomes, access terms and sample availability remain unverified."
+      },
+      {
+        "id": "L18-C5",
+        "claim": "A complete new liver model program must precede any informative muscle feasibility result",
+        "disposition": "not_required_universally",
+        "support": [
+          "L18-E2",
+          "L18-E6",
+          "L18-E8"
+        ],
+        "reason": "The existing conditional hepatobiliary question remains. Stage the work according to the next decision and recompare if its actual scope/cost expands."
+      },
+      {
+        "id": "L18-C6",
+        "claim": "Another generic liver literature pass is currently the best next information dollar",
+        "disposition": "close_bounded_pass",
+        "support": [
+          "L18-E1",
+          "L18-E3",
+          "L18-E4",
+          "L18-E6"
+        ],
+        "reason": "Two narrow additions are integrated; larger causal and exposure questions already have explicit source ceilings. Reopen for substantive new primary data, not repeated access attempts."
+      }
+    ],
+    "counts": {
+      "new_to_repository_primary_human_reports": 1,
+      "new_to_repository_sponsor_study_notices": 1,
+      "new_independently_verified_BLU_treated_people": 0,
+      "new_BLU_efficacy_replications": 0,
+      "new_candidate_screens": 0,
+      "new_experimental_results_generated": 0,
+      "source_records": 6,
+      "evidence_rows": 8,
+      "claim_decisions": 6
+    },
+    "prior_repository_files": [
+      "research/rounds/round5/round5_blu_biology.md",
+      "research/rounds/round5/round5_blu_biology.json",
+      "research/rounds/round6/round6_clinical_translation.md",
+      "research/rounds/round6/round6_blu_translation.json",
+      "research/rounds/round8/blu_model_function.md",
+      "research/rounds/round9/blu-target-safety-update.md",
+      "research/continuations/2026-11-04-biomarker-durability-comparator-b/aspiro-asp2957-product-challenge.md",
+      "decisions/selection-policy.md"
+    ],
+    "baseline_identifier_checks": {
+      "Inoue_PMID_or_DOI_present": false,
+      "EXCEL_NCT_or_expanded_study_name_present": false,
+      "method": "Exact case-insensitive text search in all baseline Markdown/JSON files; no claim of semantic completeness."
+    },
+    "retrieval": {
+      "pass_closed": true,
+      "exact_BLU_hepatic_result_recovered": false,
+      "selective_C2beta_MTM1_cholestasis_bridge_recovered": false,
+      "all_other_studies_absent_proven": false,
+      "source_queries": [
+        "MTM1 myotubular myopathy liver cholestasis PIK3C2B hepatocyte primary study",
+        "PI3K-C2beta kinase inactive liver bile cholestasis myotubularin",
+        "X linked myotubular myopathy hepatobiliary disease primary study 2025 2026",
+        "\"PIK3C2B\" \"cholestasis\"",
+        "\"PI3K-C2β\" \"liver\" \"myotubular\"",
+        "\"X-Linked Myotubular Myopathy and Mitochondrial Function in Muscle and Liver Samples\"",
+        "\"10.1126/scitranslmed.adr1483\" full text liver mice",
+        "\"39008988\" \"complex\"",
+        "\"X-Linked Myotubular Myopathy and Mitochondrial Function\" site:thieme-connect.com",
+        "EXCEL liver study myotubular centronuclear site:mtmcnmregistry.org",
+        "EXCEL liver myotubular site:clinicaltrials.gov",
+        "\"NCT06581146\" site:clinicaltrials.gov",
+        "\"EXCEL\" \"Liver\" site:clinicaltrials.astellas.com"
+      ],
+      "access_limits": [
+        "Inoue: initial indexed abstract read followed by root direct complete PubMed abstract/metadata read; publisher full paper and supplement remain unread.",
+        "Pannia2026: exact-DOI update search and one publisher open;403; no primary full report or new methods/denominators recovered.",
+        "EXCEL: complete January2025 sponsor notice; ClinicalTrials live record was a shell, API inaccessible; no current status or results inferred.",
+        "No repeating the closed generic BLU exposure, patent claim-mapping, or inaccessible Kobialka routes."
+      ],
+      "reopen_for": [
+        "Substantive exact-drug or selective-catalytic C2beta hepatic exposure/function evidence in a relevant disease context",
+        "A readable full primary report or dataset that resolves the selected liver model capability and its limitations",
+        "Published EXCEL longitudinal observations with actual denominators, missingness and cohort/treatment lineage",
+        "Defined scope/cost/access facts that change a specific next qualification commitment"
+      ],
+      "no_new_monitoring_automation": true
+    },
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false
+    },
+    "execution_authorized": false
+  },
+  "competitor_audit": {
+    "schema_version": "ddiscov.round18.blu_competitor_marginal_challenge.v1",
+    "as_of": "2026-11-04",
+    "as_of_timezone": "America/Los_Angeles",
+    "retrieval_completed_utc_date": "2026-11-05",
+    "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+    "candidate_id": "BLU3797_XLMTM",
+    "scope": "Finite current competitor/program and marginal-cost challenge; no broad market valuation, new candidate screen, patent/FTO repeat, or generic exposure search.",
+    "decision": {
+      "recommendation": "No recovered comparator fact clearly defeats the selected BLU public-source sprint; preserve conditional staged qualification and APR1/RM2/BLU3 development order.",
+      "selected_information_sprint_only": true,
+      "numerical_EV_per_dollar": null,
+      "full_program_commitment": false,
+      "paid_commitment_usd": 0,
+      "new_development_rank_1": false,
+      "financial_inputs_complete": false,
+      "underlying_assay_or_product_ready": false
+    },
+    "sources": [
+      {
+        "id": "C1",
+        "kind": "primary_sponsor_trial_record",
+        "title": "Study of ASP2957 in male participants with X-linked Myotubular Myopathy who need ventilators",
+        "sponsor": "Astellas",
+        "registry_id": "NCT07052929",
+        "protocol_id": "2957-CL-0101",
+        "url": "https://www.clinicaltrials.astellas.com/study/2957-CL-0101",
+        "verification_date": "2026-11-04",
+        "read_scope": "Current directly readable sponsor study summary, design, enrollment field, recruitment locations and eligibility text; no submitted outcome report or full protocol audited.",
+        "new_source_to_round17": false,
+        "fresh_read": true
+      },
+      {
+        "id": "C2",
+        "kind": "primary_sponsor_presentation",
+        "title": "FY2025 Financial Results",
+        "sponsor": "Astellas",
+        "publication_date": "2026-04-27",
+        "url": "https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/4q2025_pre_en.pdf",
+        "locator": "PDF page index 10 / printed slide 11; context slides 10, 37 and 39",
+        "verification_date": "2026-11-04",
+        "read_scope": "Targeted PDF text for ASP2957 program description, capsid, nonclinical targeting claim and relative starting dose; no graph digitization, mouse denominator audit or original nonclinical dataset recovered.",
+        "new_source_to_round17": true,
+        "primary_clinical_efficacy_result": false
+      },
+      {
+        "id": "C3",
+        "kind": "primary_sponsor_earnings_transcript",
+        "title": "Earnings Call for FY2025",
+        "sponsor": "Astellas",
+        "publication_date": "2026-04-27",
+        "url": "https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/4q2025_script_en.pdf",
+        "locator": "PDF page index 11 / printed page 11, ASP2957 discussion",
+        "verification_date": "2026-11-04",
+        "read_scope": "Targeted ASP2957 passage clarifying that about 100-fold lower dose refers to clinical-study initiation; same sponsor event as C2, not independent corroboration or clinical cohort.",
+        "new_source_to_round17": true,
+        "same_event_as": "C2",
+        "independent_efficacy_replication": false
+      },
+      {
+        "id": "C4",
+        "kind": "primary_sponsor_trial_listing_indexed",
+        "title": "A Long-term Follow-up Study in Male Participants with X-linked Myotubular Myopathy Treated with ASP2957",
+        "sponsor": "Astellas",
+        "registry_id": "NCT07876804",
+        "protocol_id": "2957-CL-4001",
+        "url": "https://www.clinicaltrials.astellas.com/studies",
+        "alternate_url": "https://www.clinicaltrials.astellas.com/studies?phases=PHASE_1~PHASE_2~PHASE_3",
+        "publication_date": null,
+        "verification_date": "2026-11-04",
+        "read_scope": "Official-domain indexed listing supplied title, protocol/NCT IDs, male/age label and Will Be Recruiting status. Direct unfiltered list rendered an application shell without this study. Detailed study page failed; ClinicalTrials.gov HTML was a shell and canonical API was inaccessible. No detailed protocol, actual enrollment, dates, cohort linkage, follow-up duration or results read.",
+        "new_source_to_round17": true,
+        "full_record_read": false,
+        "source_access_limit": true
+      },
+      {
+        "id": "C5",
+        "kind": "primary_clinical_article_abstract",
+        "title": "Safety and efficacy of gene replacement therapy for X-linked myotubular myopathy (ASPIRO): a multinational, open-label, dose-escalation trial",
+        "authors": "Shieh et al.",
+        "publication_year": 2023,
+        "doi": "10.1016/S1474-4422(23)00313-7",
+        "pmid": "37977713",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37977713/",
+        "verification_date": "2026-11-04",
+        "read_scope": "Primary abstract retrieved in this pass; full trial report/appendix not re-audited. Existing repository clinical and biopsy analyses retained as prior work.",
+        "new_source_to_round17": false,
+        "fresh_read": true
+      },
+      {
+        "id": "I1",
+        "kind": "independent_analytical_input",
+        "title": "ddiscov_marginal_capital_ranking.pdf",
+        "publication_date": "2026-11-04",
+        "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+        "locator": "Page 2 cost/time table; page 4 BLU discussion; sensitivity section",
+        "read_scope": "BLU passages and cost/time figures recovered by root from the ten-page independent review and supplied in current task context; this auditor did not fetch the original file again.",
+        "evidence_type": "ordinal analytical judgment, not a primary clinical or financial measurement"
+      }
+    ],
+    "evidence_rows": [
+      {
+        "id": "D01",
+        "sources": [
+          "C1"
+        ],
+        "subject": "Current VALOR population and study aim",
+        "new_fact": false,
+        "observation": "Sponsor continues to describe a first-in-human open-label phase 1/2 safety/tolerability/dose-finding program in invasively ventilated males projected to be at most 36 months at dosing.",
+        "planned_enrollment": 9,
+        "actual_dosed_denominator_verified": null,
+        "age_months_max_at_dosing": 36,
+        "invasive_ventilation_hours_per_day_min": 20,
+        "tracheostomy_required": true,
+        "liver_eligibility_limits_present": true,
+        "primary_claim": "Dose and tolerability qualification; no interpretable efficacy result recovered here.",
+        "inference": "Trial eligibility describes the tested subset; it is not an eventual indication label, number of commercially reachable patients, or evidence that BLU is adequate in excluded patients."
+      },
+      {
+        "id": "D02",
+        "sources": [
+          "C2",
+          "C3"
+        ],
+        "subject": "Exact next-generation program description",
+        "new_fact": true,
+        "observation": "Sponsor identifies ASP2957 as human MTM1 delivery using MyoAAV3.8 and reports greater muscle specificity/reduced liver targeting in nonclinical work.",
+        "capsid": "MyoAAV3.8",
+        "nonclinical_claim_source": "Sponsor presentation referencing MDA 2026",
+        "original_nonclinical_dataset_audited": false,
+        "clinical_liver_safety_established": false,
+        "inference": "The active competitor is specifically attempting to improve the organ-distribution problem. Do not assume AT132 failure fixes a permanent liver-ineligible niche for BLU."
+      },
+      {
+        "id": "D03",
+        "sources": [
+          "C2",
+          "C3"
+        ],
+        "subject": "Relative dose claim",
+        "new_fact": true,
+        "observation": "Sponsor describes starting the clinical study at about 100-fold lower dose than AT132.",
+        "approximate_lower_starting_dose_factor": 100,
+        "absolute_ASP2957_dose_verified": null,
+        "exact_AT132_comparator_dose_verified": null,
+        "unit_normalization_verified": false,
+        "clinical_efficacy_equivalence_established": false,
+        "clinical_safety_improvement_established": false,
+        "inference": "This is a starting-dose/program claim. It does not demonstrate a 100-fold therapeutic index, equal efficacy, a final recommended dose, or a numerical reduction in patient risk. Do not back-calculate an ASP2957 dose from one historical AT132 cohort."
+      },
+      {
+        "id": "D04",
+        "sources": [
+          "C4"
+        ],
+        "subject": "Long-term follow-up plan",
+        "new_fact": true,
+        "observation": "An official-domain indexed sponsor listing identifies NCT07876804 / 2957-CL-4001 as long-term follow-up for males treated with ASP2957, with status Will Be Recruiting.",
+        "detailed_record_read": false,
+        "actual_enrollment": null,
+        "followup_duration": null,
+        "efficacy_result": null,
+        "safety_result": null,
+        "independent_new_efficacy_cohort_verified": false,
+        "inference": "This shows a stated follow-up plan. It does not demonstrate durability, an additional treated cohort or observed outcomes. Listing details should remain bounded to the indexed source."
+      },
+      {
+        "id": "D05",
+        "sources": [
+          "C5"
+        ],
+        "subject": "Retained human benchmark",
+        "new_fact": false,
+        "observation": "ASPIRO supplies human ventilatory and motor-function evidence for AT132, together with four treated deaths with cholestatic liver failure; the modified analyses are exploratory/as treated.",
+        "exact_product": "AT132/resamirigene bilparvovec",
+        "treated_total": 24,
+        "treated_deaths_with_cholestatic_liver_failure": 4,
+        "new_independent_trial_added": false,
+        "inference": "Keep this predecessor product distinct from ASP2957 and BLU. A dish-force result cannot be converted into hours off ventilation, and AT132 harms cannot be assigned to BLU or ASP2957."
+      },
+      {
+        "id": "D06",
+        "sources": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "subject": "Bounded comparator challenge result",
+        "new_fact": "current synthesis",
+        "observation": "This finite pass did not recover an ASP2957 clinical efficacy estimate, dose-defined human safety improvement, a broad eligible population or a directly comparative BLU result.",
+        "exhaustive_absence_claim": false,
+        "new_fact_clearly_displacing_BLU_source_sprint": false,
+        "inference": "Retain the selected bounded information sprint. Favorable future competitor data can change the useful product contribution; the present program plans cannot settle that comparison."
+      },
+      {
+        "id": "D07",
+        "sources": [
+          "I1"
+        ],
+        "subject": "Initial qualification envelope",
+        "new_fact": false,
+        "cost_currency": "USD",
+        "illustrative_cost_range": [
+          60000,
+          180000
+        ],
+        "illustrative_months_range": [
+          3,
+          6
+        ],
+        "purpose": "Article, exposure and model qualification",
+        "cost_verified": false,
+        "quotes_obtained": false,
+        "execution_authorized": false,
+        "inference": "Initial qualification can end before an interpretable human functional answer; this envelope is not a complete proof budget."
+      },
+      {
+        "id": "D08",
+        "sources": [
+          "I1"
+        ],
+        "subject": "Conditional functional increment",
+        "new_fact": false,
+        "cost_currency": "USD",
+        "illustrative_additional_cost_range": [
+          100000,
+          300000
+        ],
+        "illustrative_additional_months_range": [
+          4,
+          8
+        ],
+        "contingent_on_initial_qualification": true,
+        "actual_timing_or_overlap_verified": false,
+        "cost_verified": false,
+        "execution_authorized": false,
+        "inference": "Keep the additional scope visible when comparing cost to the actual decision-changing endpoint. No automatic release, guaranteed sequential schedule or full-program total is asserted."
+      },
+      {
+        "id": "D09",
+        "sources": [
+          "I1"
+        ],
+        "subject": "Information priority versus development rank",
+        "new_fact": "current selection interpretation",
+        "selected_source_sprint_candidate": "BLU3797_XLMTM",
+        "independent_review_conditional_development_rank": 3,
+        "conditional_development_prefix": [
+          "R4-L02",
+          "R4-L01",
+          "BLU3797_XLMTM"
+        ],
+        "prior_source_pass_closure_demotes_APR_or_RM": false,
+        "historical_allocation_used_as_EV_proxy": false,
+        "financial_rank_1_asserted": false,
+        "inference": "Being next eligible for source work does not make BLU the best actual development investment; compare the specific next commitment after its inputs are known."
+      },
+      {
+        "id": "D10",
+        "sources": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "I1"
+        ],
+        "subject": "Product contribution and capture",
+        "new_fact": "updated synthesis",
+        "candidate_population_or_use": [
+          "Specified older or less severely ventilated patients if benefit and tolerability are established",
+          "Useful repeatable control or a defined complementary role if meaningful incremental value is shown"
+        ],
+        "proven_population_size": null,
+        "retained_financial_value": null,
+        "license_terms": null,
+        "contribution_proven": false,
+        "inference": "Do not monetize the entire XLMTM population, assume all gene-therapy exclusions are addressable by BLU, infer oral dosing is cheaper or safer, or count assay/data-generation value as an exclusive asset."
+      },
+      {
+        "id": "D11",
+        "sources": [
+          "I1"
+        ],
+        "subject": "Reversal and waiting option",
+        "new_fact": "stage-specific decision judgment",
+        "waiting_option": true,
+        "stop_scope_inflation": true,
+        "inference": "If a reproducible existing formulation/model route becomes a major chemistry, model-construction, systemic-safety or rights program before an informative result, stop extending the illustrative small tranche and rerank its actual cost, time, learning and retained value against eligible alternatives and waiting. Missing public price is not evidence of biological failure."
+      }
+    ],
+    "accounting": {
+      "new_BLU_treated_people": 0,
+      "new_independent_BLU_efficacy_cohorts": 0,
+      "new_experimental_results_generated": 0,
+      "new_exact_intervention_use_screens": 0,
+      "S_tier_promotions": 0,
+      "newly_audited_sponsor_documents": 2,
+      "new_indexed_followup_listing": 1,
+      "sponsor_documents_same_event": true,
+      "comparator_scientific_replication_added": 0
+    },
+    "contribution_logic": {
+      "clinical_endpoint": "Useful muscle/respiratory function and treatment burden appropriate to the selected population",
+      "exploratory_force_is_clinical_ventilator_outcome": false,
+      "drug_free_cure_universally_required": false,
+      "every_organ_safety_battery_before_initial_signal_required": false,
+      "actual_development_scope_expansion_requires_recomparison": true,
+      "asset_rights_and_retained_value_unresolved": true,
+      "novelty_of_lower_dose_claim_is_clinical_validation": false
+    },
+    "tranche_assumptions": {
+      "source": "I1",
+      "initial": {
+        "currency": "USD",
+        "cost_range": [
+          60000,
+          180000
+        ],
+        "months_range": [
+          3,
+          6
+        ],
+        "purpose": "Article/exposure/model qualification"
+      },
+      "conditional_increment": {
+        "currency": "USD",
+        "cost_range": [
+          100000,
+          300000
+        ],
+        "additional_months_range": [
+          4,
+          8
+        ],
+        "purpose": "Conditional functional work"
+      },
+      "analyst_assumptions": true,
+      "validated_budget": false,
+      "quotes": false,
+      "timing_overlap_verified": false,
+      "total_program_estimate": null,
+      "exclusions": [
+        "Rights and licensing",
+        "GLP toxicology",
+        "GMP clinical manufacture",
+        "Clinical trials",
+        "Commercialization"
+      ],
+      "development_execution_authorized": false
+    },
+    "routes": [
+      {
+        "id": "R1",
+        "label": "Qualify one existing exact-article/model route",
+        "smallest_decision": "Can the selected route yield an interpretable useful-function comparison?",
+        "result_now": "Scientifically supported but inputs unqualified",
+        "scope_ceiling": "No automatic new chemistry/model/systemic development program",
+        "execution_now": false
+      },
+      {
+        "id": "R2",
+        "label": "Conditional functional information",
+        "smallest_decision": "Does useful function at interpretable exposure justify independent confirmation and the selected product claim?",
+        "result_now": "No BLU human-force outcome supplied by this pass",
+        "scope_ceiling": "Additional cost/time are distinct from initial qualification",
+        "execution_now": false
+      },
+      {
+        "id": "R3",
+        "label": "Recompare or defer expanded scope",
+        "smallest_decision": "Does the actual larger commitment still exceed alternatives after costs, timing, clinical contribution and capture?",
+        "result_now": "Waiting and switching remain live options",
+        "scope_ceiling": "No automatic tranche continuation",
+        "execution_now": false
+      }
+    ],
+    "retrieval": {
+      "pass_closed": true,
+      "queries": [
+        {
+          "query": "\"ASP2957\" results update VALOR",
+          "recency_days": 180,
+          "domains": [
+            "astellas.com",
+            "clinicaltrials.gov"
+          ]
+        },
+        {
+          "query": "\"X-linked myotubular myopathy\" 2026 clinical trial results",
+          "recency_days": 365
+        },
+        {
+          "query": "\"NCT07876804\"",
+          "recency_days": 120,
+          "domains": [
+            "clinicaltrials.gov",
+            "astellas.com"
+          ]
+        },
+        {
+          "query": "\"ASP2957\" October November 2026 results",
+          "recency_days": 90,
+          "domains": [
+            "astellas.com"
+          ]
+        }
+      ],
+      "canonical_access_attempts": [
+        {
+          "url": "https://www.clinicaltrials.astellas.com/study/2957-CL-4001",
+          "result": "Not accessible through web reader"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT07876804",
+          "result": "HTML shell only"
+        },
+        {
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07876804",
+          "result": "Not accessible through web reader"
+        }
+      ],
+      "current_pipeline_indexed_only": true,
+      "no_numeric_ASP2957_clinical_results_recovered": true,
+      "no_exhaustive_absence_claim": true,
+      "no_further_retry_loop": true,
+      "reopen_for": [
+        "Substantive ASP2957 human efficacy/safety result with interpretable denominators and population",
+        "Readable detailed follow-up record or outcomes changing the comparator claim",
+        "New exact-product or population-specific evidence changing BLU incremental value",
+        "Actual finite-deliverable cost or access/transaction fact changing marginal choice"
+      ]
+    },
+    "closed_lanes": {
+      "APR_public_source_reopened": false,
+      "RM_public_source_reopened": false,
+      "BLU_generic_exposure_reopened": false,
+      "BLU_claim_mapping_reopened": false,
+      "generic_licensing_or_FTO_screen": false,
+      "broad_new_candidate_screen": false
+    },
+    "prior_repository_sources": [
+      "decisions/selection-policy.md",
+      "decisions/current-shortlist.md",
+      "research/rounds/round6/round6_blu_milestone.md",
+      "research/rounds/round8/blu3797-qualification-package.md",
+      "research/continuations/2026-11-04-biomarker-durability-comparator-b/aspiro-asp2957-product-challenge.md",
+      "research/rounds/round17/marginal-dollar-decision.md"
+    ],
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false
+    }
+  },
+  "tamoxifen_update": {
+    "scope": "One exact TAM4MTM public-result update, without a new efficacy report or registry denominator reconciliation",
+    "sources": [
+      {
+        "id": "T1",
+        "kind": "official_trial_registry_indexed_record",
+        "url": "https://www.isrctn.com/ISRCTN34421891",
+        "registry_id": "ISRCTN34421891",
+        "verification_date": "2026-11-04",
+        "new_to_round17_record": true,
+        "read_scope": "Official-domain indexed study design and Results/Publications fields; direct URL redirected to holding page. No completed efficacy report or patient-level dataset read.",
+        "full_live_record_read": false
+      },
+      {
+        "id": "T2",
+        "kind": "primary_investigator_presentation_transcript",
+        "url": "https://myotubulartrust.org/wp-content/uploads/TAM4MTM-TRANSCRIPT.pdf",
+        "publication_date": "2024-12-03",
+        "verification_date": "2026-11-04",
+        "new_to_round17_record": false,
+        "read_scope": "Fresh indexed investigator excerpts and prior Round6 full-transcript extraction; no new full transcript audit or new completed efficacy analysis."
+      },
+      {
+        "id": "T3",
+        "kind": "official_trial_record_access_limit",
+        "url": "https://clinicaltrials.gov/study/NCT04915846",
+        "registry_id": "NCT04915846",
+        "verification_date": "2026-11-04",
+        "new_to_round17_record": false,
+        "read_scope": "Current live HTML returned a non-substantive study shell; prior Round6 actual-enrollment and no-results observation are carried forward, not freshly reverified.",
+        "live_substantive_record_read": false
+      }
+    ],
+    "evidence_rows": [
+      {
+        "id": "T18-E1",
+        "sources": [
+          "T1"
+        ],
+        "kind": "planned_reporting_not_results",
+        "finding": "Indexed registry Results/Publications text describes future publication/data inclusion; no numeric completed efficacy result was recovered in the finite update.",
+        "completed_efficacy_dataset_read": false,
+        "all_unpublished_or_other_public_results_absent": false
+      },
+      {
+        "id": "T18-E2",
+        "sources": [
+          "T2",
+          "T3"
+        ],
+        "kind": "prior_denominator_discrepancy_retained",
+        "prior_registry_actual_enrollment": 6,
+        "prior_investigator_completed_participants": 7,
+        "prior_investigator_hepatic_SAEs": 2,
+        "registry_counts_freshly_reverified": false,
+        "denominator_discrepancy_resolved": false,
+        "new_people_counted": 0,
+        "BLU_harm_inferred": false,
+        "finding": "Keep the prior source-specific counts without pooling, substituting a planned target, or inventing a geographic explanation."
+      },
+      {
+        "id": "T18-E3",
+        "sources": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "kind": "bounded_negative_retrieval",
+        "finding": "A planned publication date, including an elapsed date, does not establish an actual report. The retained tamoxifen safety history does not supply BLU efficacy or toxicity.",
+        "no_new_completed_report_recovered": true,
+        "pass_closed": true
+      }
+    ],
+    "retrieval": {
+      "queries": [
+        "\"TAM4MTM\" results tamoxifen myotubular",
+        "\"tamoxifen\" \"myotubular\" trial results 2026",
+        "\"TAM4MTM\" results; primary/registry domains"
+      ],
+      "direct_access_limits": [
+        "ISRCTN redirected to holding page",
+        "ClinicalTrials.gov returned HTML shell"
+      ],
+      "no_generic_BLU_exposure_or_claim_search": true,
+      "pass_closed": true,
+      "reopen_for": "A substantive completed TAM4MTM efficacy/safety report or primary correction resolving a decision-relevant denominator or outcome"
+    },
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false
+    }
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "development_execution_authorized": false,
+  "scientific_or_model_utilities_executed": false
+}

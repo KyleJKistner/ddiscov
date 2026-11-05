@@ -1,8 +1,22 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 17.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 18.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 17: RM4404/corneal repair and the next information dollar
+## Round 18: BLU3797/XLMTM and the bounded information decision
+
+**The selected BLU source sprint is complete; retain affirmative staged qualification.** No recovered fresh evidence clearly favors switching candidates. The independent review conditional development order remains **APR-246 → RM4404 → BLU**. Selecting the next eligible information task after APR/RM closure does not establish BLU as the first financial asset, revive the historical 55-point allocation, or authorize a complete program. [Decision and branches](../research/rounds/round18/marginal-dollar-decision.md)
+
+The key uncertainty is whether an existing exact-article/exposure/model route can produce an informative human muscle result at bounded cost. A new official manuscript record points to the existing Kora paper, but its PDF remained unread. The finite update supplies no new force, timing, donor, material-access or model-price qualification. The current Curi and alternative routes retain their prior limitations; no numerical threshold or proposed tissue grid is recalibrated. [Human-model update](../research/rounds/round18/blu-human-model-update.md)
+
+A newly recovered two-patient abstract reports two muscle and one liver respiratory-chain observations; it supplies neither BLU safety nor a universal liver gate. EXCEL and ASP2957 follow-up records identify planned future evidence. Sponsor MyoAAV3.8/relative starting-dose detail does not establish human safety, equal efficacy, or a permanent excluded market for BLU. TAM4MTM still contributes no recovered completed efficacy dataset in this update. [Systemic/comparator context](../research/rounds/round18/blu-systemic-context.md)
+
+The review's **$60–180k / 3–6-month** initial qualification assumption is separate from **an additional conditional $100–300k / 4–8 months** for functional work. Initial qualification can stop before human efficacy is tested. Neither block is priced or committed; rights/licensing, GLP, GMP clinical manufacture, trials and commercialization are excluded. Major chemistry/model/systemic/rights expansion triggers a new comparison with eligible alternatives and waiting.
+
+Preserve claim-specific interpretation: a credible functional positive can justify confirmation before every delayed-control or systemic module is complete. An inadequately qualified negative is inconclusive; post-deficit modifiability specifically constrains a negative reversal claim. Useful on-treatment benefit need not be a permanent cure. No existing quantitative operational condition is changed.
+
+The BLU public-source pass is closed. Reopen for substantive methods/data, exact-product results, relevant competitor outcomes or concrete cost/access/rights facts that change a named commitment. APR/RM and all earlier named closed lanes remain closed. No outreach, purchases, recruitment, experiments, simulations or material receipt occurred or is authorized.
+
+## Retained Round 17: RM4404/corneal repair and the next information dollar
 
 **RM4404 was selected for this bounded public-source sprint after APR closure.** The completed audit finds no fresh evidence that clearly favors another candidate. The independent review conditional development order remains **APR-246 first, RM4404 second, BLU third**. Closing an information pass does not automatically demote its candidate. Historical allocation does not determine this choice; no numerical return, new allocation or full-program commitment is asserted. [Decision and branches](../research/rounds/round17/marginal-dollar-decision.md)
 

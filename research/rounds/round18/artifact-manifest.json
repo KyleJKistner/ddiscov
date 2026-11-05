@@ -1,0 +1,2785 @@
+{
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+  "base_tree": "cd4e0d25c37d2f23ca972b18ad83534babe7bb2a",
+  "manifest_type": "Complete expected repository path manifest with content hashes; this manifest itself is bound by its containing Git tree.",
+  "file_count": 306,
+  "new_files": [
+    "research/rounds/round18/README.md",
+    "research/rounds/round18/artifact-manifest.json",
+    "research/rounds/round18/blu-human-model-update.json",
+    "research/rounds/round18/blu-human-model-update.md",
+    "research/rounds/round18/blu-systemic-context.json",
+    "research/rounds/round18/blu-systemic-context.md",
+    "research/rounds/round18/independent-human-model-review.json",
+    "research/rounds/round18/independent-marginal-decision-review.json",
+    "research/rounds/round18/independent-systemic-context-review.json",
+    "research/rounds/round18/integration-review.md",
+    "research/rounds/round18/local-verification.json",
+    "research/rounds/round18/marginal-dollar-decision.json",
+    "research/rounds/round18/marginal-dollar-decision.md",
+    "research/rounds/round18/round18-root-deltas.json"
+  ],
+  "modified_files": [
+    "README.md",
+    "decisions/current-shortlist.md",
+    "decisions/selection-policy.md",
+    "research/README.md",
+    "research/portfolio-register.json",
+    "research/rounds/README.md",
+    "research/screen-index.md"
+  ],
+  "deleted_files": [],
+  "unchanged_baseline_files": 285,
+  "files": [
+    ".gitignore",
+    "README.md",
+    "atlas/README.md",
+    "atlas/barriers.md",
+    "atlas/blood.md",
+    "atlas/index.json",
+    "atlas/kidney.md",
+    "atlas/metabolism.md",
+    "atlas/neuromuscular.md",
+    "atlas/sensory.md",
+    "decisions/README.md",
+    "decisions/current-shortlist.md",
+    "decisions/selection-policy.md",
+    "discovery/README.md",
+    "discovery/broad-screen.csv",
+    "discovery/component-proposals.csv",
+    "discovery/functional-comparisons.csv",
+    "discovery/historical-topics.csv",
+    "discovery/topic-occurrences.csv",
+    "formulations/README.md",
+    "formulations/comparisons.json",
+    "methods/README.md",
+    "methods/airway_transport.py",
+    "methods/blu3797_cell_context_audit.py",
+    "methods/blu3797_identity_audit.py",
+    "methods/blu3797_qualification_decisions.py",
+    "methods/blu3797_source_audit.py",
+    "methods/enasidenib_clinical_audit.py",
+    "methods/fluoxetine_endpoint_audit.py",
+    "methods/rux_hhd_clinical_audit.py",
+    "methods/rux_hhd_source_audit.py",
+    "methods/wnt-panel-means.csv",
+    "methods/wnt_context.py",
+    "provenance/README.md",
+    "provenance/archive-anchors.json",
+    "provenance/verify_archive.py",
+    "research/README.md",
+    "research/continuations/2026-11-04-biomarker-durability-comparator-b/README.md",
+    "research/continuations/2026-11-04-biomarker-durability-comparator-b/aspiro-asp2957-product-challenge.md",
+    "research/continuations/2026-11-04-biomarker-durability-comparator-b/blu3797-durability-human-anchor.md",
+    "research/continuations/2026-11-04T0900-0800/README.md",
+    "research/continuations/2026-11-04T0900-0800/blu3797-vps34-antitarget.md",
+    "research/continuations/2026-11-04T0900-0800/competitive-portfolio-challenge.md",
+    "research/portfolio-register.json",
+    "research/reports/README.md",
+    "research/reports/ddiscov_diligence_report.pdf",
+    "research/reports/ddiscov_portfolio_reset.pdf",
+    "research/reports/ddiscov_screening_round3.pdf",
+    "research/rounds/README.md",
+    "research/rounds/round1/ds1211_reassessment.md",
+    "research/rounds/round1/hj02_diligence.md",
+    "research/rounds/round1/icerguastat_diligence.md",
+    "research/rounds/round1/odad1_diligence.md",
+    "research/rounds/round1/slit2_redteam.md",
+    "research/rounds/round1/sym2081_redteam.md",
+    "research/rounds/round10/README.md",
+    "research/rounds/round10/artifact-manifest.json",
+    "research/rounds/round10/blu-exposure-feasibility.json",
+    "research/rounds/round10/blu-exposure-feasibility.md",
+    "research/rounds/round10/candidate-alias-audit.json",
+    "research/rounds/round10/hhd-active-care-comparator.json",
+    "research/rounds/round10/hhd-active-care-comparator.md",
+    "research/rounds/round10/idh-exposure-ledger.json",
+    "research/rounds/round10/idh-exposure-ledger.md",
+    "research/rounds/round10/independent-blu-exposure-review.json",
+    "research/rounds/round10/independent-clinical-update-review.json",
+    "research/rounds/round10/independent-idh-exposure-review.json",
+    "research/rounds/round10/independent-new-candidate-review.json",
+    "research/rounds/round10/integration-review.md",
+    "research/rounds/round10/local-verification.json",
+    "research/rounds/round10/mannac-controlled-result.json",
+    "research/rounds/round10/mannac-controlled-result.md",
+    "research/rounds/round10/new-candidate-screen.json",
+    "research/rounds/round10/new-candidate-screen.md",
+    "research/rounds/round10/round10-root-deltas.json",
+    "research/rounds/round10/scarb2-case-lineage-update.json",
+    "research/rounds/round10/scarb2-case-lineage-update.md",
+    "research/rounds/round11/README.md",
+    "research/rounds/round11/artifact-manifest.json",
+    "research/rounds/round11/independent-slc6a6-review.json",
+    "research/rounds/round11/independent-zinc-endpoint-review.json",
+    "research/rounds/round11/integration-review.md",
+    "research/rounds/round11/local-verification.json",
+    "research/rounds/round11/round11-root-deltas.json",
+    "research/rounds/round11/slc6a6-two-brother-audit.json",
+    "research/rounds/round11/slc6a6-two-brother-audit.md",
+    "research/rounds/round11/zinc-endpoint-audit.json",
+    "research/rounds/round11/zinc-endpoint-audit.md",
+    "research/rounds/round12/README.md",
+    "research/rounds/round12/artifact-manifest.json",
+    "research/rounds/round12/blu-claim-structure-audit.json",
+    "research/rounds/round12/blu-claim-structure-audit.md",
+    "research/rounds/round12/independent-claim-structure-review.json",
+    "research/rounds/round12/independent-publication-scope-review.json",
+    "research/rounds/round12/integration-review.md",
+    "research/rounds/round12/local-verification.json",
+    "research/rounds/round12/publication-scope-and-status.json",
+    "research/rounds/round12/publication-scope-and-status.md",
+    "research/rounds/round12/round12-root-deltas.json",
+    "research/rounds/round13/README.md",
+    "research/rounds/round13/artifact-manifest.json",
+    "research/rounds/round13/hhd-comparator-decision.json",
+    "research/rounds/round13/hhd-comparator-decision.md",
+    "research/rounds/round13/hhd-model-version-audit.json",
+    "research/rounds/round13/hhd-model-version-audit.md",
+    "research/rounds/round13/independent-comparator-decision-review.json",
+    "research/rounds/round13/independent-model-evidence-review.json",
+    "research/rounds/round13/integration-review.md",
+    "research/rounds/round13/local-verification.json",
+    "research/rounds/round13/round13-root-deltas.json",
+    "research/rounds/round14/README.md",
+    "research/rounds/round14/artifact-manifest.json",
+    "research/rounds/round14/hhd-clinical-claim-amendment.json",
+    "research/rounds/round14/hhd-clinical-claim-amendment.md",
+    "research/rounds/round14/independent-clinical-decision-review.json",
+    "research/rounds/round14/independent-trial-methods-review.json",
+    "research/rounds/round14/integration-review.md",
+    "research/rounds/round14/local-verification.json",
+    "research/rounds/round14/round14-root-deltas.json",
+    "research/rounds/round14/rux-hs-trial-evidence.json",
+    "research/rounds/round14/rux-hs-trial-evidence.md",
+    "research/rounds/round15/README.md",
+    "research/rounds/round15/artifact-manifest.json",
+    "research/rounds/round15/enasidenib-product-capture.json",
+    "research/rounds/round15/enasidenib-product-capture.md",
+    "research/rounds/round15/funding-decision.json",
+    "research/rounds/round15/funding-decision.md",
+    "research/rounds/round15/independent-contribution-decision-review.json",
+    "research/rounds/round15/independent-regulatory-review.json",
+    "research/rounds/round15/integration-review.md",
+    "research/rounds/round15/local-verification.json",
+    "research/rounds/round15/marginal-dollar-selection.md",
+    "research/rounds/round15/round15-root-deltas.json",
+    "research/rounds/round16/README.md",
+    "research/rounds/round16/apr-clinical-evidence.json",
+    "research/rounds/round16/apr-clinical-evidence.md",
+    "research/rounds/round16/apr-product-capture.json",
+    "research/rounds/round16/apr-product-capture.md",
+    "research/rounds/round16/artifact-manifest.json",
+    "research/rounds/round16/independent-clinical-review.json",
+    "research/rounds/round16/independent-marginal-decision-review.json",
+    "research/rounds/round16/independent-product-capture-review.json",
+    "research/rounds/round16/integration-review.md",
+    "research/rounds/round16/local-verification.json",
+    "research/rounds/round16/marginal-dollar-decision.json",
+    "research/rounds/round16/marginal-dollar-decision.md",
+    "research/rounds/round16/round16-root-deltas.json",
+    "research/rounds/round17/README.md",
+    "research/rounds/round17/artifact-manifest.json",
+    "research/rounds/round17/independent-function-review.json",
+    "research/rounds/round17/independent-marginal-decision-review.json",
+    "research/rounds/round17/independent-product-capture-review.json",
+    "research/rounds/round17/integration-review.md",
+    "research/rounds/round17/local-verification.json",
+    "research/rounds/round17/marginal-dollar-decision.json",
+    "research/rounds/round17/marginal-dollar-decision.md",
+    "research/rounds/round17/rm-function-evidence.json",
+    "research/rounds/round17/rm-function-evidence.md",
+    "research/rounds/round17/rm-product-capture.json",
+    "research/rounds/round17/rm-product-capture.md",
+    "research/rounds/round17/round17-root-deltas.json",
+    "research/rounds/round18/README.md",
+    "research/rounds/round18/artifact-manifest.json",
+    "research/rounds/round18/blu-human-model-update.json",
+    "research/rounds/round18/blu-human-model-update.md",
+    "research/rounds/round18/blu-systemic-context.json",
+    "research/rounds/round18/blu-systemic-context.md",
+    "research/rounds/round18/independent-human-model-review.json",
+    "research/rounds/round18/independent-marginal-decision-review.json",
+    "research/rounds/round18/independent-systemic-context-review.json",
+    "research/rounds/round18/integration-review.md",
+    "research/rounds/round18/local-verification.json",
+    "research/rounds/round18/marginal-dollar-decision.json",
+    "research/rounds/round18/marginal-dollar-decision.md",
+    "research/rounds/round18/round18-root-deltas.json",
+    "research/rounds/round2/round2_barrier_local.md",
+    "research/rounds/round2/round2_blood_exvivo.md",
+    "research/rounds/round2/round2_blu3797_redteam.md",
+    "research/rounds/round2/round2_cptx_dao_redteam.md",
+    "research/rounds/round2/round2_generated_concepts.json",
+    "research/rounds/round2/round2_neuro_metabolic.md",
+    "research/rounds/round2/round2_plcz_fem_redteam.md",
+    "research/rounds/round3/round3_crosscheck_fxt.md",
+    "research/rounds/round3/round3_crosscheck_ndc.md",
+    "research/rounds/round3/round3_crosscheck_p2.md",
+    "research/rounds/round3/round3_model_routes.json",
+    "research/rounds/round3/round3_model_routes.md",
+    "research/rounds/round3/round3_neuromuscular.json",
+    "research/rounds/round3/round3_neuromuscular.md",
+    "research/rounds/round3/round3_new_leads.json",
+    "research/rounds/round3/round3_new_leads.md",
+    "research/rounds/round3/round3_organ_repair.json",
+    "research/rounds/round3/round3_organ_repair.md",
+    "research/rounds/round3/round3_root_deltas.json",
+    "research/rounds/round4/README.md",
+    "research/rounds/round4/blu3797-audit.md",
+    "research/rounds/round4/blu3797-source-audit.json",
+    "research/rounds/round4/round4_local_repair.json",
+    "research/rounds/round4/round4_local_repair.md",
+    "research/rounds/round4/round4_neuromuscular.json",
+    "research/rounds/round4/round4_neuromuscular.md",
+    "research/rounds/round4/round4_organ_blood.json",
+    "research/rounds/round4/round4_organ_blood.md",
+    "research/rounds/round4/round4_root_deltas.json",
+    "research/rounds/round5/README.md",
+    "research/rounds/round5/blu3797-cell-context-audit.json",
+    "research/rounds/round5/blu3797-human-proof.md",
+    "research/rounds/round5/p2-off-target-audit.json",
+    "research/rounds/round5/p2-off-target-audit.md",
+    "research/rounds/round5/ppcs-clinical-function-challenge.md",
+    "research/rounds/round5/round5_additional_screen.json",
+    "research/rounds/round5/round5_additional_screen.md",
+    "research/rounds/round5/round5_blu_biology.json",
+    "research/rounds/round5/round5_blu_biology.md",
+    "research/rounds/round5/round5_blu_pharmacology.json",
+    "research/rounds/round5/round5_blu_pharmacology.md",
+    "research/rounds/round5/round5_blu_proof_challenge.md",
+    "research/rounds/round5/round5_existing_leader_updates.json",
+    "research/rounds/round5/round5_existing_leader_updates.md",
+    "research/rounds/round5/round5_ndc_comparator_update.json",
+    "research/rounds/round5/round5_ndc_comparator_update.md",
+    "research/rounds/round5/round5_pantethine_chemistry_challenge.json",
+    "research/rounds/round5/round5_pantethine_chemistry_challenge.md",
+    "research/rounds/round5/round5_root_deltas.json",
+    "research/rounds/round5/round5_shortlist_challenge.json",
+    "research/rounds/round5/round5_shortlist_challenge.md",
+    "research/rounds/round6/README.md",
+    "research/rounds/round6/round6_blu_milestone.md",
+    "research/rounds/round6/round6_blu_translation.json",
+    "research/rounds/round6/round6_blu_translation.md",
+    "research/rounds/round6/round6_clinical_translation.md",
+    "research/rounds/round6/round6_clinical_translation_audit.json",
+    "research/rounds/round6/round6_new_leads.json",
+    "research/rounds/round6/round6_new_leads.md",
+    "research/rounds/round6/round6_reserve_challenge.json",
+    "research/rounds/round6/round6_reserve_challenge.md",
+    "research/rounds/round6/round6_root_deltas.json",
+    "research/rounds/round7/README.md",
+    "research/rounds/round7/enasidenib_clinical.json",
+    "research/rounds/round7/enasidenib_clinical.md",
+    "research/rounds/round7/enasidenib_clinical_audit.json",
+    "research/rounds/round7/enasidenib_product.json",
+    "research/rounds/round7/enasidenib_product.md",
+    "research/rounds/round7/integration_review.md",
+    "research/rounds/round7/review_enas_by_rux_clinical.md",
+    "research/rounds/round7/review_rux_by_enas_clinical.md",
+    "research/rounds/round7/round7_root_deltas.json",
+    "research/rounds/round7/rux_hhd_clinical.json",
+    "research/rounds/round7/rux_hhd_clinical.md",
+    "research/rounds/round7/rux_hhd_clinical_audit.json",
+    "research/rounds/round7/rux_hhd_development_proof.md",
+    "research/rounds/round7/rux_hhd_product.json",
+    "research/rounds/round7/rux_hhd_product.md",
+    "research/rounds/round7/rux_hhd_product_review.md",
+    "research/rounds/round7/rux_hhd_source_audit.json",
+    "research/rounds/round8/README.md",
+    "research/rounds/round8/artifact-manifest.json",
+    "research/rounds/round8/blu3797-decision-input-template.json",
+    "research/rounds/round8/blu3797-qualification-package.md",
+    "research/rounds/round8/blu3797-qualification-spec.json",
+    "research/rounds/round8/blu3797-run-record-template.json",
+    "research/rounds/round8/blu_article_exposure.json",
+    "research/rounds/round8/blu_article_exposure.md",
+    "research/rounds/round8/blu_identity_numeric_audit.json",
+    "research/rounds/round8/blu_model_function.json",
+    "research/rounds/round8/blu_model_function.md",
+    "research/rounds/round8/candidate-alias-audit.json",
+    "research/rounds/round8/clinical_challenge.json",
+    "research/rounds/round8/clinical_challenge.md",
+    "research/rounds/round8/fluoxetine_endpoint_audit.json",
+    "research/rounds/round8/integration_review.md",
+    "research/rounds/round8/new_candidates.json",
+    "research/rounds/round8/new_candidates.md",
+    "research/rounds/round8/portfolio-allocation.md",
+    "research/rounds/round8/qualification-planning-audit.json",
+    "research/rounds/round8/review_decision_utility.md",
+    "research/rounds/round8/review_fluoxetine_kcnc1.md",
+    "research/rounds/round8/review_portfolio_integration.md",
+    "research/rounds/round8/review_qualification_article.md",
+    "research/rounds/round8/review_qualification_model.md",
+    "research/rounds/round8/round8_root_deltas.json",
+    "research/rounds/round8/w7_independent_challenge.json",
+    "research/rounds/round8/w7_independent_challenge.md",
+    "research/rounds/round9/README.md",
+    "research/rounds/round9/artifact-manifest.json",
+    "research/rounds/round9/blu-model-new-evidence.json",
+    "research/rounds/round9/blu-model-new-evidence.md",
+    "research/rounds/round9/blu-target-safety-update.json",
+    "research/rounds/round9/blu-target-safety-update.md",
+    "research/rounds/round9/candidate-alias-audit.json",
+    "research/rounds/round9/clinical-comparator-update.json",
+    "research/rounds/round9/clinical-comparator-update.md",
+    "research/rounds/round9/independent-qualification-review.json",
+    "research/rounds/round9/independent-screen-review.json",
+    "research/rounds/round9/integration-review.md",
+    "research/rounds/round9/lisdexamfetamine-evidence-update.json",
+    "research/rounds/round9/lisdexamfetamine-evidence-update.md",
+    "research/rounds/round9/local-verification.json",
+    "research/rounds/round9/new-candidate-screen.json",
+    "research/rounds/round9/new-candidate-screen.md",
+    "research/rounds/round9/qualification-amendments.json",
+    "research/rounds/round9/round8-recovery-verification.json",
+    "research/rounds/round9/round9-root-deltas.json",
+    "research/screen-index.md",
+    "research/source-data/README.md",
+    "research/source-data/blu3797-source-values.xlsx"
+  ],
+  "content_hashes": [
+    {
+      "path": ".gitignore",
+      "bytes": 45,
+      "git_blob_sha": "35835791f4f5a1612baff2ae3aadacf549a07225",
+      "sha256": "81e6ce8e73d0943aae730758d61353273a4944d5ffca99840d1c1b81be302731",
+      "mode": "100644",
+      "characters": 45
+    },
+    {
+      "path": "README.md",
+      "bytes": 9995,
+      "git_blob_sha": "9da88329fe7f57bf87f0b14d1216f34fbbbaa9d7",
+      "sha256": "0fc08be34256004d104e565eeeae9383a6bba6871a3862cda89f28440b9a7c9c",
+      "mode": "100644",
+      "characters": 9995
+    },
+    {
+      "path": "atlas/README.md",
+      "bytes": 1407,
+      "git_blob_sha": "322463d74d1ff3a173ef6614143573016512e27d",
+      "sha256": "5b7fb20b443c841fe543e5a130871596cf1ebf40b38e7cf1070132c8bbc9e561",
+      "mode": "100644",
+      "characters": 1401
+    },
+    {
+      "path": "atlas/barriers.md",
+      "bytes": 6624,
+      "git_blob_sha": "836a3d30de74d1324f6399a9f31068c211d5181d",
+      "sha256": "f50d5f1f67e8058ac37107e80a8c715cfe62e0de727b4c36fd159c3fc54cded4",
+      "mode": "100644",
+      "characters": 6611
+    },
+    {
+      "path": "atlas/blood.md",
+      "bytes": 3321,
+      "git_blob_sha": "01277b0545e690c81b69d01d5532b6317c1b5ef1",
+      "sha256": "de6dd7c1cba9b540eee53d0e5aa49b1f6e09140cbb1a319008cdd91556583210",
+      "mode": "100644",
+      "characters": 3312
+    },
+    {
+      "path": "atlas/index.json",
+      "bytes": 6619,
+      "git_blob_sha": "bd476049b590e274766efa153aadc5dcb6b5df47",
+      "sha256": "cc7134fed0b005dcefb9359fb3fef6cb8b41a72ad5531c9cf2f1ec64e293dc6d",
+      "mode": "100644",
+      "characters": 6617
+    },
+    {
+      "path": "atlas/kidney.md",
+      "bytes": 3968,
+      "git_blob_sha": "1e210a68b89c8ce969d731af6fa0b06f138bbdc2",
+      "sha256": "a7366b65e29ac39ac04212fda4b97dca070c684b420eae7babc5bd9e3cefb6a7",
+      "mode": "100644",
+      "characters": 3961
+    },
+    {
+      "path": "atlas/metabolism.md",
+      "bytes": 6403,
+      "git_blob_sha": "403d5895dea6481819628023c9865311dee8dce1",
+      "sha256": "b831afa8c80c98429055fe453fa9ae8b4d02c477843b3385aeed85cf61d437ad",
+      "mode": "100644",
+      "characters": 6389
+    },
+    {
+      "path": "atlas/neuromuscular.md",
+      "bytes": 4153,
+      "git_blob_sha": "1e61bfdb87318a54b6e3f2bf10b8f7ebaea3008c",
+      "sha256": "372eb4eae67a2117ebefb53652e7a175e74174d4644ab7ace02640c29a3c174a",
+      "mode": "100644",
+      "characters": 4143
+    },
+    {
+      "path": "atlas/sensory.md",
+      "bytes": 4763,
+      "git_blob_sha": "50c6c5c44b88874c7aa871eb0adbe74e0f1ef9e8",
+      "sha256": "8c42b05b076ab783a75f6f61ee8dc5634e3dc0dc86b2861946efced0e189c1d7",
+      "mode": "100644",
+      "characters": 4752
+    },
+    {
+      "path": "decisions/README.md",
+      "bytes": 9035,
+      "git_blob_sha": "fd6240b9bb115f397d07a461f4edd03f21331e8f",
+      "sha256": "8ee394509d82004d21f030f727e25d043a7d67b8b06872f8c8cc59b50e99107a",
+      "mode": "100644",
+      "characters": 9011
+    },
+    {
+      "path": "decisions/current-shortlist.md",
+      "bytes": 40729,
+      "git_blob_sha": "9f22cbfcf61065e1d6d0fa22fb899395ac00d39f",
+      "sha256": "18cfc3532f3a3c8ef97b68fb725344146feded2336ccf31c2593cd30c1e66c16",
+      "mode": "100644",
+      "characters": 40651
+    },
+    {
+      "path": "decisions/selection-policy.md",
+      "bytes": 23431,
+      "git_blob_sha": "8f938a29ac5d2e2a40440ff2f38b8a07da9998f5",
+      "sha256": "5f9c39c8cea4f009b67152eb99cf4e902bc03b9f4bee3071cf330965dd09ac72",
+      "mode": "100644",
+      "characters": 23422
+    },
+    {
+      "path": "discovery/README.md",
+      "bytes": 4390,
+      "git_blob_sha": "ba81d921794fc0f00d3205151db943405a5e7f3e",
+      "sha256": "71fe0480f885ec616a62d971a5ab12fd187f8c76d680d61f3cbc1b7effd68d4f",
+      "mode": "100644",
+      "characters": 4386
+    },
+    {
+      "path": "discovery/broad-screen.csv",
+      "bytes": 7950,
+      "git_blob_sha": "3c3dc27f67419cd2b8555391e8bc8c26867759d3",
+      "sha256": "fd546575aae283a428093496900ca1849ba3e457c81ef2d009dec43c662f55e5",
+      "mode": "100644",
+      "characters": 7946
+    },
+    {
+      "path": "discovery/component-proposals.csv",
+      "bytes": 16137,
+      "git_blob_sha": "e8b6b8035ffc6a8f0a687220331c86a0c1be018a",
+      "sha256": "70788605d7fe46ef2413ba3cb8bd1be12ca5e0529cc4540e595bb9d68bc8d219",
+      "mode": "100644",
+      "characters": 16127
+    },
+    {
+      "path": "discovery/functional-comparisons.csv",
+      "bytes": 14378,
+      "git_blob_sha": "321a9b47591b22f29222cc3e280ff3b28253366b",
+      "sha256": "a06d808764b29c2c65c1d851b85c30aa03b90ddb501f4a7d964bd77ac9174999",
+      "mode": "100644",
+      "characters": 14374
+    },
+    {
+      "path": "discovery/historical-topics.csv",
+      "bytes": 29746,
+      "git_blob_sha": "f06843b51626c800440931636f2fa3694fe59519",
+      "sha256": "0235562c1d5790c6f212ac583c8cd71d6b3df33874a44c8f13277883828d0023",
+      "mode": "100644",
+      "characters": 29730
+    },
+    {
+      "path": "discovery/topic-occurrences.csv",
+      "bytes": 28889,
+      "git_blob_sha": "4924b7001fc6be6c2cf241f709d6926643bf5582",
+      "sha256": "10cd71b726f2c09089e8c12782890708f58b6f25572384ed05d8d4bc85d87dd4",
+      "mode": "100644",
+      "characters": 28889
+    },
+    {
+      "path": "formulations/README.md",
+      "bytes": 24279,
+      "git_blob_sha": "993d02890382039a3217816a6f15cd913cf5b3eb",
+      "sha256": "3d09e2825919cb2c5f0180cfdf24f064c51a9acdfd2d9a8e0b96eee616c79dd9",
+      "mode": "100644",
+      "characters": 24216
+    },
+    {
+      "path": "formulations/comparisons.json",
+      "bytes": 27523,
+      "git_blob_sha": "4645e4c6ca8e896cf8bdad6121ba8f6ea3a3a38b",
+      "sha256": "2dc6216a77ba461aff50425f9953e6c95392db5f9cae7349590ed526cb32aa83",
+      "mode": "100644",
+      "characters": 27523
+    },
+    {
+      "path": "methods/README.md",
+      "bytes": 15228,
+      "git_blob_sha": "fc6258bb329629c76f938de0eac0a1b939da0551",
+      "sha256": "330b19a19fe8cda32ca646669c077529b88f25f687cee0de46b9da9b8d502ead",
+      "mode": "100644",
+      "characters": 15215
+    },
+    {
+      "path": "methods/airway_transport.py",
+      "bytes": 3042,
+      "git_blob_sha": "c185a457a2e931d65392a2be4a13258efe55853a",
+      "sha256": "83dda127c36d7935d7fab0b064dc8eb27105be592cda95b9fbd91bb2c849d39c",
+      "mode": "100644",
+      "characters": 3042
+    },
+    {
+      "path": "methods/blu3797_cell_context_audit.py",
+      "bytes": 8413,
+      "git_blob_sha": "78f6a5a754fe044dac073faceae09a6cd26da0f8",
+      "sha256": "a48c3e936e7b3a87813583644734b796a59870f5d8b87d8632816e6a78fd10e4",
+      "mode": "100644",
+      "characters": 8413
+    },
+    {
+      "path": "methods/blu3797_identity_audit.py",
+      "bytes": 4134,
+      "git_blob_sha": "4eed5d4d73e0abd1cac8975bacddf418a81d436d",
+      "sha256": "30154cbd43b643b24d91e70c7289eb2b93539682e9db0fe2cf01fbc29e098927",
+      "mode": "100644",
+      "characters": 4134
+    },
+    {
+      "path": "methods/blu3797_qualification_decisions.py",
+      "bytes": 18367,
+      "git_blob_sha": "71b63df0e6e8a32fb9349c5a3832d362b070dafb",
+      "sha256": "e943c7818017f77db711d0c84cbe392389c8eaaad4cd2913091aa5b482615fc0",
+      "mode": "100644",
+      "characters": 18367
+    },
+    {
+      "path": "methods/blu3797_source_audit.py",
+      "bytes": 7868,
+      "git_blob_sha": "9c6463cfbdb69e96db6cf39edf9d302fe8b273c7",
+      "sha256": "022bbd9019cbf4a1389ae167fbfca587bb8b4dffc949485bccedefd6e604cb5f",
+      "mode": "100644",
+      "characters": 7868
+    },
+    {
+      "path": "methods/enasidenib_clinical_audit.py",
+      "bytes": 7016,
+      "git_blob_sha": "4d9a5d5c34941b742f2cc6521c1fe605b4b07b40",
+      "sha256": "2f882be0ba6ed850473a42c91c5651b930fa457ae9c4961cc427c3904d62f301",
+      "mode": "100644",
+      "characters": 7008
+    },
+    {
+      "path": "methods/fluoxetine_endpoint_audit.py",
+      "bytes": 2873,
+      "git_blob_sha": "e591403df29601d83a7750a4f08b1f2142ac7542",
+      "sha256": "cf8230e636d1ecb7248373fbf301b842029e94e34f64d08026128993e53c42bc",
+      "mode": "100644",
+      "characters": 2871
+    },
+    {
+      "path": "methods/rux_hhd_clinical_audit.py",
+      "bytes": 5472,
+      "git_blob_sha": "cd0f4afb127f3b60f3d75847b184dea7ba4f5428",
+      "sha256": "52498fd8f46fd9e31b814aacc5562a5856732a7f25891d865ac209e39ed912a9",
+      "mode": "100644",
+      "characters": 5472
+    },
+    {
+      "path": "methods/rux_hhd_source_audit.py",
+      "bytes": 7955,
+      "git_blob_sha": "a67a0e0e75dbc7b15c539df199f4ab6c7cd6cfb1",
+      "sha256": "72a6907f1e090c55811e5176a551988fa021784985621e23087f2172f1799385",
+      "mode": "100644",
+      "characters": 7953
+    },
+    {
+      "path": "methods/wnt-panel-means.csv",
+      "bytes": 630,
+      "git_blob_sha": "62461bfdf2a148eeceb06b1c27c26356f3a3ab43",
+      "sha256": "0e5faf83ca2354e2f3d779d445010f9bbf6a43382a5a588cda3d5213bed23956",
+      "mode": "100644",
+      "characters": 630
+    },
+    {
+      "path": "methods/wnt_context.py",
+      "bytes": 2329,
+      "git_blob_sha": "6536b9725d1027068048e0b9f301db3355bc5341",
+      "sha256": "76f8864fe41114569e5cf73fc3e2529783efd3c3fb30e85f4d7c615977a10f1a",
+      "mode": "100644",
+      "characters": 2329
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 4774,
+      "git_blob_sha": "3938a002d40570a9884cfbc136d3d42a570a1431",
+      "sha256": "9664504ae8f22bc41fe7b7d4bff0062529792b381e1acb6ff5779a84953cffb1",
+      "mode": "100644",
+      "characters": 4769
+    },
+    {
+      "path": "provenance/archive-anchors.json",
+      "bytes": 25862,
+      "git_blob_sha": "e7b353218b0d6be1b89e1ade4067e467cbe64a02",
+      "sha256": "3ef56d21d46b121c478b51edc65c643e7ea776fb83b87e00338e3107209203af",
+      "mode": "100644",
+      "characters": 25862
+    },
+    {
+      "path": "provenance/verify_archive.py",
+      "bytes": 1424,
+      "git_blob_sha": "be527944c654f4cb38df26724dd6d28fbe8e89e4",
+      "sha256": "353f2475d7d017ea973429928564b3d3e0ebc7abb7cf6f0d3870d3f8a7308873",
+      "mode": "100644",
+      "characters": 1424
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 18134,
+      "git_blob_sha": "d1bd1d437def00d5af815a67a5576149ab79199c",
+      "sha256": "84ee38f39bee359e85d42e1e66388d64223cda4b7ff845218b8efea09e57c3b2",
+      "mode": "100644",
+      "characters": 18107
+    },
+    {
+      "path": "research/continuations/2026-11-04-biomarker-durability-comparator-b/README.md",
+      "bytes": 5732,
+      "git_blob_sha": "8c6b92009d0baebca50aedee6359c1c6a57ae9c7",
+      "sha256": "de271c5f2530d6804b1551b592eaed6b378820e40377afcc6c9c6240cffc40cb",
+      "mode": "100644",
+      "characters": 5726
+    },
+    {
+      "path": "research/continuations/2026-11-04-biomarker-durability-comparator-b/aspiro-asp2957-product-challenge.md",
+      "bytes": 10357,
+      "git_blob_sha": "bb0edcda620dceb53f598dc4ccfd5d0481f76dc0",
+      "sha256": "c22b943d87d219baeaeaf2563daa58d6c453b397bf6f949ea9ef4aba0f991e53",
+      "mode": "100644",
+      "characters": 10343
+    },
+    {
+      "path": "research/continuations/2026-11-04-biomarker-durability-comparator-b/blu3797-durability-human-anchor.md",
+      "bytes": 13539,
+      "git_blob_sha": "2e0bcd510088cac57cc421a55a5cc5cc586e8aab",
+      "sha256": "5288848362bdcc8a5c053728c76779ea2a8d659a6266231ae3148e2ebfeca0d4",
+      "mode": "100644",
+      "characters": 13522
+    },
+    {
+      "path": "research/continuations/2026-11-04T0900-0800/README.md",
+      "bytes": 4639,
+      "git_blob_sha": "56fdbb883d7bbdd7cd2f6a6ecb1eb8578cb01c82",
+      "sha256": "dc81979c73593e4b634f8ae4f2ccd9367b31d87dae86dc65d66df78807397e48",
+      "mode": "100644",
+      "characters": 4635
+    },
+    {
+      "path": "research/continuations/2026-11-04T0900-0800/blu3797-vps34-antitarget.md",
+      "bytes": 15549,
+      "git_blob_sha": "876f7c63ffc9465ff4ba5fad81d14b6dde72bd7a",
+      "sha256": "799661c80ce66f89ecc6b1351e1731374eb42dd74c13264acde27d5e75f090aa",
+      "mode": "100644",
+      "characters": 15520
+    },
+    {
+      "path": "research/continuations/2026-11-04T0900-0800/competitive-portfolio-challenge.md",
+      "bytes": 6515,
+      "git_blob_sha": "7acc22a8d8f07bca9a7f3d306f27890bf8f10252",
+      "sha256": "bcfbad3245fe8aa2828d2275315d50d7381e9b58366247dc50e3d50991510c59",
+      "mode": "100644",
+      "characters": 6509
+    },
+    {
+      "path": "research/portfolio-register.json",
+      "bytes": 3789800,
+      "git_blob_sha": "ace55dee409e0aba75e9df7d75a3b84fa933e049",
+      "sha256": "a118704c51dd303274572f8858bf74ec4f6580e3cfa9f68b9cf6ac0222678f1a",
+      "mode": "100644",
+      "characters": 3788332
+    },
+    {
+      "path": "research/reports/README.md",
+      "bytes": 1006,
+      "git_blob_sha": "17a6f66044cdcd6187c20699756c59f6f8e3d223",
+      "sha256": "18b0ce7bb0d3ff22b03cf4690f72c0fab2bc1cc5938e88551a97b6fca33eeb88",
+      "mode": "100644",
+      "characters": 1006
+    },
+    {
+      "path": "research/reports/ddiscov_diligence_report.pdf",
+      "bytes": 154204,
+      "git_blob_sha": "324bebca17dd0a180c56d2dad2c9c25823dbd1ee",
+      "sha256": "4ed96268610c413763fdb60028e88ef91b42e47d119798df24f2ccf3eaa15a42",
+      "mode": "100644"
+    },
+    {
+      "path": "research/reports/ddiscov_portfolio_reset.pdf",
+      "bytes": 179291,
+      "git_blob_sha": "62167b70034e94b815f49ca74b3e4cca141ac3ac",
+      "sha256": "775a6d59ec6ed95814d5d795abc3eac11b22291ecda51466f1b369b4766736f3",
+      "mode": "100644"
+    },
+    {
+      "path": "research/reports/ddiscov_screening_round3.pdf",
+      "bytes": 221534,
+      "git_blob_sha": "4611a492635416acdc3392f7af7f3de7c8406970",
+      "sha256": "066e566d4b391112cfd814effc7ff98606647cb9a4fc9ab746ac9f6c43301355",
+      "mode": "100644"
+    },
+    {
+      "path": "research/rounds/README.md",
+      "bytes": 9497,
+      "git_blob_sha": "b47560b5c30e925fb012e5cb80f934ad643b1314",
+      "sha256": "2a64a05d7fc3f6d35a85a45a9c406cc62da77ddd00a8dff5c5945ae88f149e61",
+      "mode": "100644",
+      "characters": 9495
+    },
+    {
+      "path": "research/rounds/round1/ds1211_reassessment.md",
+      "bytes": 11222,
+      "git_blob_sha": "b7f2ee91b7ed148290ad6224374306978d71bf17",
+      "sha256": "1425dde9fb99113ca3c4c9dc551ab3b971734009affd96bb408499bc1475b6fd",
+      "mode": "100644",
+      "characters": 11194
+    },
+    {
+      "path": "research/rounds/round1/hj02_diligence.md",
+      "bytes": 14822,
+      "git_blob_sha": "403453fe871ca43598fe29784815408f0403413f",
+      "sha256": "43489e0dc13c98248d5c2878a19185760a12d696bbaa3efc2bf42641c5dd6992",
+      "mode": "100644",
+      "characters": 14797
+    },
+    {
+      "path": "research/rounds/round1/icerguastat_diligence.md",
+      "bytes": 13603,
+      "git_blob_sha": "528d4ff72c238bc7cac6c95518df1e0bacb05b0a",
+      "sha256": "e2851bd34ac789ede488016580a1ed6b32e75e716066902e56c2659a537a4d50",
+      "mode": "100644",
+      "characters": 13548
+    },
+    {
+      "path": "research/rounds/round1/odad1_diligence.md",
+      "bytes": 19566,
+      "git_blob_sha": "a54148f3daff95b3e68685a2cda8c81deeab45cf",
+      "sha256": "073110763eccd5779105f1257a1e442706a45be1371fbebcb52e08333e1e193c",
+      "mode": "100644",
+      "characters": 19518
+    },
+    {
+      "path": "research/rounds/round1/slit2_redteam.md",
+      "bytes": 8871,
+      "git_blob_sha": "3c904730851209aa67bd0572fca20500ea4afe81",
+      "sha256": "d9fb90aaa498defd9c0d7a9bd2ba462256baacfd6cd5b63d6528d1ea866652eb",
+      "mode": "100644",
+      "characters": 8837
+    },
+    {
+      "path": "research/rounds/round1/sym2081_redteam.md",
+      "bytes": 13035,
+      "git_blob_sha": "001187ecbbe4902b08141f1bb87b873174025edd",
+      "sha256": "43f7ba31a3e5ba057a902de0d1b3aa52bd1100dcff754beb4e9e8fe51279d684",
+      "mode": "100644",
+      "characters": 12997
+    },
+    {
+      "path": "research/rounds/round10/README.md",
+      "bytes": 6836,
+      "git_blob_sha": "b3dc69c0def2c5402707d78d0f2d067cd6a89849",
+      "sha256": "ee1ba42ab1188150f6c73b63c3e3114607c14ef6f1e44e5dd4933e98db655b68",
+      "mode": "100644",
+      "characters": 6826
+    },
+    {
+      "path": "research/rounds/round10/artifact-manifest.json",
+      "bytes": 74496,
+      "git_blob_sha": "336301c5df11e0058531d82f58fe9303406c283c",
+      "sha256": "00ec000c12a6e6ae9bc8c79ce1e6717fa4414937d8ef1452ae45e3eb7c9c2770",
+      "mode": "100644",
+      "characters": 74496
+    },
+    {
+      "path": "research/rounds/round10/blu-exposure-feasibility.json",
+      "bytes": 18745,
+      "git_blob_sha": "d16233cb9bc9652ce6dee67f0856991442e8797e",
+      "sha256": "8b38aa07e82a66b35a6e7f062389454dd1d5fea2094153a7e2c9fdd39257b303",
+      "mode": "100644",
+      "characters": 18745
+    },
+    {
+      "path": "research/rounds/round10/blu-exposure-feasibility.md",
+      "bytes": 15648,
+      "git_blob_sha": "2b7e0937ccbfc882688d927444fbf727d66aaf29",
+      "sha256": "46f89214075d08466c0ba8716315e832cb1a950012aaed9109c4b53aff7d5b64",
+      "mode": "100644",
+      "characters": 15572
+    },
+    {
+      "path": "research/rounds/round10/candidate-alias-audit.json",
+      "bytes": 7214,
+      "git_blob_sha": "673d0ee99188311961f44804e902f73df791654a",
+      "sha256": "2b72dc100e1e78995e465052bb419249c62ce01ffe348b76cc909f89ca6e300b",
+      "mode": "100644",
+      "characters": 7214
+    },
+    {
+      "path": "research/rounds/round10/hhd-active-care-comparator.json",
+      "bytes": 5236,
+      "git_blob_sha": "9e81dd492b97a086e6a2a92e3dc2c3f2c5485d28",
+      "sha256": "6facf47441934ae4dc4661d55b09d844639bd27fa940f3013613309dc4b75784",
+      "mode": "100644",
+      "characters": 5236
+    },
+    {
+      "path": "research/rounds/round10/hhd-active-care-comparator.md",
+      "bytes": 6142,
+      "git_blob_sha": "e2ae0f75d6ab7ee8469bdf059431a785f7988124",
+      "sha256": "64d88058a2f92362487123cdcdccf9159e5718a2d4b9724450b3905f727c2f8f",
+      "mode": "100644",
+      "characters": 6140
+    },
+    {
+      "path": "research/rounds/round10/idh-exposure-ledger.json",
+      "bytes": 65774,
+      "git_blob_sha": "f9870a8b20c02c191a9de88b2323a567b0e8162b",
+      "sha256": "55ce53d32cd778d82688d997835f74aba9a32cd88aa8d7f9abad82e23327de91",
+      "mode": "100644",
+      "characters": 65774
+    },
+    {
+      "path": "research/rounds/round10/idh-exposure-ledger.md",
+      "bytes": 14389,
+      "git_blob_sha": "e439f89a1cf9f915715cf7cfc1c918fc4c99931a",
+      "sha256": "bae6ddc201846f611c057b903ba1e1415bb1a9e539cf3f67df0860a64ebde5ba",
+      "mode": "100644",
+      "characters": 14313
+    },
+    {
+      "path": "research/rounds/round10/independent-blu-exposure-review.json",
+      "bytes": 8562,
+      "git_blob_sha": "9b29e3976488df1469a78cd675289f3a8fae9b6e",
+      "sha256": "199ecedfb5f6ea868f7e10ecfb6fbbb8ccd6bdee917be8f63e7b264ed70f1a2a",
+      "mode": "100644",
+      "characters": 8562
+    },
+    {
+      "path": "research/rounds/round10/independent-clinical-update-review.json",
+      "bytes": 8834,
+      "git_blob_sha": "def9a3ad6f55325d32ec317ea3c3e8316d105c4c",
+      "sha256": "d2dcca96098d742ba61ed20b90d6ff702841d5f9b9b9c7b65e86688da70c6100",
+      "mode": "100644",
+      "characters": 8834
+    },
+    {
+      "path": "research/rounds/round10/independent-idh-exposure-review.json",
+      "bytes": 8970,
+      "git_blob_sha": "b69af0822624335d4b153ec2ff21315e64b347f3",
+      "sha256": "407d86b26d176d130bffc013a93bc985d3d13778ce2d6eb869bc5d14dac01a5d",
+      "mode": "100644",
+      "characters": 8970
+    },
+    {
+      "path": "research/rounds/round10/independent-new-candidate-review.json",
+      "bytes": 6801,
+      "git_blob_sha": "a89e7b69d214322b3b65c4edfa6335401f2a84d1",
+      "sha256": "5f9f791632c7fe7735e6f0072d62d446381b80f9d77a88157e4f0ace159cd879",
+      "mode": "100644",
+      "characters": 6801
+    },
+    {
+      "path": "research/rounds/round10/integration-review.md",
+      "bytes": 11362,
+      "git_blob_sha": "b8ae751fcc7c656d91ac07bad38f8f5750320553",
+      "sha256": "20ef7e23e6c3d4746505443bf5e7713f82e7018c03448e83e3bca4f2f05191ad",
+      "mode": "100644",
+      "characters": 11356
+    },
+    {
+      "path": "research/rounds/round10/local-verification.json",
+      "bytes": 4989,
+      "git_blob_sha": "2d5d68f87b01a4bb6ceba63986bb08383823e74e",
+      "sha256": "321eb148062aa284d46795dfba4e0e8735ccec01440a88d0ecf64261d095c7df",
+      "mode": "100644",
+      "characters": 4989
+    },
+    {
+      "path": "research/rounds/round10/mannac-controlled-result.json",
+      "bytes": 4296,
+      "git_blob_sha": "2057b6e6f9be58a965bff4a03fc222fcc0df4c23",
+      "sha256": "3b04734e99d35c5c7782215581b23c135e4e92159a0416abbdd9a9ad6dd316b1",
+      "mode": "100644",
+      "characters": 4296
+    },
+    {
+      "path": "research/rounds/round10/mannac-controlled-result.md",
+      "bytes": 4422,
+      "git_blob_sha": "5131d6d661e15ee2bd77197fcbb5e0ed9acb5d38",
+      "sha256": "141bcffdf6181039bfb8b0e05c249ba9064ebd425099e05ce5d853228af4a452",
+      "mode": "100644",
+      "characters": 4416
+    },
+    {
+      "path": "research/rounds/round10/new-candidate-screen.json",
+      "bytes": 24603,
+      "git_blob_sha": "1d89f476b5c1b599dd458a24fc2b0015da7749e2",
+      "sha256": "d02f075570348dbef73038825f58001f8389fdb665e28d49e214d16a215d425f",
+      "mode": "100644",
+      "characters": 24603
+    },
+    {
+      "path": "research/rounds/round10/new-candidate-screen.md",
+      "bytes": 14521,
+      "git_blob_sha": "ce5561ca1f3afe6eee267296fcae38294040d0ee",
+      "sha256": "0b12b1aba306597fa585d48acdbd1033bf8ad8905165d2e33c970ea2d009f48a",
+      "mode": "100644",
+      "characters": 14495
+    },
+    {
+      "path": "research/rounds/round10/round10-root-deltas.json",
+      "bytes": 12209,
+      "git_blob_sha": "68b252c916c963bff86e2df5cb43b8c1127a606a",
+      "sha256": "0b67c29a952f9478d790d1384e48d0d78d429030cf4c2b2ffd937b7c8ecb0824",
+      "mode": "100644",
+      "characters": 12209
+    },
+    {
+      "path": "research/rounds/round10/scarb2-case-lineage-update.json",
+      "bytes": 3694,
+      "git_blob_sha": "4174e53cf88dd3a4ffcb82e6ed5ad30e64e7481b",
+      "sha256": "8a4a58ce0324cbe33f30752a404fd80276b14aa65fb6acadc57f42f0cf55726c",
+      "mode": "100644",
+      "characters": 3694
+    },
+    {
+      "path": "research/rounds/round10/scarb2-case-lineage-update.md",
+      "bytes": 4587,
+      "git_blob_sha": "bc3077d80c0d4a5244775ffc2fd829c953b56c4f",
+      "sha256": "5f74d98da968fa3eae7e1ed6b6ffc392321158b12a66974771eb0a1bb51e5305",
+      "mode": "100644",
+      "characters": 4583
+    },
+    {
+      "path": "research/rounds/round11/README.md",
+      "bytes": 3676,
+      "git_blob_sha": "bb93ac93d57a4df8101bab0b488daf37127bf1bf",
+      "sha256": "08920078b1c4acd1a43f94359bb3b113bf42e82c6caec2d7a3e80d11f35b023f",
+      "mode": "100644",
+      "characters": 3672
+    },
+    {
+      "path": "research/rounds/round11/artifact-manifest.json",
+      "bytes": 77698,
+      "git_blob_sha": "ae7d6fcc331d720faed10f374c538c96b3d7702d",
+      "sha256": "9033e0544286d51697f93e45da251eb9bb003acb83b05ff0bfc749cd22cd0f58",
+      "mode": "100644",
+      "characters": 77698
+    },
+    {
+      "path": "research/rounds/round11/independent-slc6a6-review.json",
+      "bytes": 5869,
+      "git_blob_sha": "7c1fdc90af7fad2d4a49c1fbe87b0d7a991c68d8",
+      "sha256": "452f561b78b1cdbcbba9a2a89834ed12b7eccfc4b5e13c90f2804023f0b2da5a",
+      "mode": "100644",
+      "characters": 5869
+    },
+    {
+      "path": "research/rounds/round11/independent-zinc-endpoint-review.json",
+      "bytes": 6790,
+      "git_blob_sha": "b3c7dbb4ad603027eae69bb1c35d213695310df8",
+      "sha256": "e53e57fb3ee6e9adcf155e1c49011b8440a64480b86cebb727d93fd5f74b60d9",
+      "mode": "100644",
+      "characters": 6790
+    },
+    {
+      "path": "research/rounds/round11/integration-review.md",
+      "bytes": 4843,
+      "git_blob_sha": "bb5a49c61276b6158e457dfdf6e94c08c76816b7",
+      "sha256": "87bc4159deb4f9cd9db963481594cdec76057a135ff49e34b7697f3008401580",
+      "mode": "100644",
+      "characters": 4843
+    },
+    {
+      "path": "research/rounds/round11/local-verification.json",
+      "bytes": 3907,
+      "git_blob_sha": "bda7abbcf23583a9ddf12fdea1c4f7a3270db569",
+      "sha256": "951c20736c46c6c4bcac8e9ca9f5ae0be2d79ee8cc9fa8d4a1115e7d163aee6a",
+      "mode": "100644",
+      "characters": 3907
+    },
+    {
+      "path": "research/rounds/round11/round11-root-deltas.json",
+      "bytes": 7345,
+      "git_blob_sha": "f428c6876192616e0804ef7e809cc8ca98007052",
+      "sha256": "f56e446650af1302aad331e4ab799b0d06a30261a280b35d3490d15095a12313",
+      "mode": "100644",
+      "characters": 7345
+    },
+    {
+      "path": "research/rounds/round11/slc6a6-two-brother-audit.json",
+      "bytes": 15781,
+      "git_blob_sha": "6ee2538714a54d144daf21711e174722a70aa681",
+      "sha256": "e39d9e208b54e0843b2154c318561c28816b622e703f3ef298602af7ab94a2ff",
+      "mode": "100644",
+      "characters": 15779
+    },
+    {
+      "path": "research/rounds/round11/slc6a6-two-brother-audit.md",
+      "bytes": 8309,
+      "git_blob_sha": "cc900716e9143232184800b21d3b907baf4b817f",
+      "sha256": "e213160f15fcf7a7fc5674deb9b4b108a6b56371226cc38df0ae96f76c3d3e72",
+      "mode": "100644",
+      "characters": 8301
+    },
+    {
+      "path": "research/rounds/round11/zinc-endpoint-audit.json",
+      "bytes": 36503,
+      "git_blob_sha": "e89288090cf4da072ce9243186e68636eedc1e7f",
+      "sha256": "cb8a80813fc0f10484882c3c6eb2cc0a2f79560fafeb3a65c5552efae2464d39",
+      "mode": "100644",
+      "characters": 36503
+    },
+    {
+      "path": "research/rounds/round11/zinc-endpoint-audit.md",
+      "bytes": 11659,
+      "git_blob_sha": "1c633118d52b6fa1a085070dcbf81b7f7a78677c",
+      "sha256": "6214cfda4deab1feb2b471d0cdf2168738fcce911b89693ae50551d07b7bd39b",
+      "mode": "100644",
+      "characters": 11637
+    },
+    {
+      "path": "research/rounds/round12/README.md",
+      "bytes": 7003,
+      "git_blob_sha": "825e846bdd623b983efeb0391de3ef216d32dcf9",
+      "sha256": "a599c36bdd8c8bdccfac7ccce34d50771f4c1b4f41cd6f3fae22444e3d985c93",
+      "mode": "100644",
+      "characters": 6995
+    },
+    {
+      "path": "research/rounds/round12/artifact-manifest.json",
+      "bytes": 81716,
+      "git_blob_sha": "9accc5136a81bbb9ab16a94da6eb23a61331c2ad",
+      "sha256": "addc2b330e7887821c5d55819b59588c27df4500c0202bbc5ea9943a351546cb",
+      "mode": "100644",
+      "characters": 81716
+    },
+    {
+      "path": "research/rounds/round12/blu-claim-structure-audit.json",
+      "bytes": 25261,
+      "git_blob_sha": "38e48447613b4521a0d4834979c942ece7d052f6",
+      "sha256": "80fd84144bea0301be4c4f22e1dcd4739c0ea7e66abed1279acac337198e1705",
+      "mode": "100644",
+      "characters": 25261
+    },
+    {
+      "path": "research/rounds/round12/blu-claim-structure-audit.md",
+      "bytes": 17735,
+      "git_blob_sha": "ec1fcd338772afdb69551f1bd9f5b03f1b4e2a88",
+      "sha256": "7888fc581733369b4eb96db4a9915bbefccbb72a8cb884bd8865260f106cab8f",
+      "mode": "100644",
+      "characters": 17735
+    },
+    {
+      "path": "research/rounds/round12/independent-claim-structure-review.json",
+      "bytes": 8914,
+      "git_blob_sha": "661722b2ede7c3a5ff3c121fec9c7e227dda459b",
+      "sha256": "2ceaacd49bf06f2ef1683cd85fde7ce2cd96adc0ee4f3eabd9eed4e4c8d6ae5e",
+      "mode": "100644",
+      "characters": 8914
+    },
+    {
+      "path": "research/rounds/round12/independent-publication-scope-review.json",
+      "bytes": 7100,
+      "git_blob_sha": "ffdfaee375020e6444ec6218400c9296cdc4f5f6",
+      "sha256": "d14efa3571377517ed7cfba3d281eded80bff759fc6408b1e8ef5d93e551158a",
+      "mode": "100644",
+      "characters": 7100
+    },
+    {
+      "path": "research/rounds/round12/integration-review.md",
+      "bytes": 4872,
+      "git_blob_sha": "48ae13da83f7fe993b9889f0ca45eef7995504bd",
+      "sha256": "d6e9cd443d8773d476b1459b7dd8497441f39ec02d4803fe74fc6eb2b45f6a8b",
+      "mode": "100644",
+      "characters": 4870
+    },
+    {
+      "path": "research/rounds/round12/local-verification.json",
+      "bytes": 4125,
+      "git_blob_sha": "26796378a02362a5c5228659027323021cf1379b",
+      "sha256": "bb79a27e4bb4756412f81548b4870070aecba02f17858654beaf3b2aa3246a53",
+      "mode": "100644",
+      "characters": 4125
+    },
+    {
+      "path": "research/rounds/round12/publication-scope-and-status.json",
+      "bytes": 5317,
+      "git_blob_sha": "a58fed99ae0b26f93911497d5b675797c568ecb6",
+      "sha256": "d3ad3ca578136056411a635dceda48effeaee96924936f517e0d8db018060c22",
+      "mode": "100644",
+      "characters": 5317
+    },
+    {
+      "path": "research/rounds/round12/publication-scope-and-status.md",
+      "bytes": 7181,
+      "git_blob_sha": "ae50905f24ba4a2b588e5ca886d301e0b46eeecc",
+      "sha256": "4f967d07e0cd67b37083a040668d13c355af2f3b72ae01c3caae62ddbc8a1815",
+      "mode": "100644",
+      "characters": 7172
+    },
+    {
+      "path": "research/rounds/round12/round12-root-deltas.json",
+      "bytes": 7662,
+      "git_blob_sha": "83a204ac74c3023e2eea1ded54d2551add42f284",
+      "sha256": "e22100a859f630db4c6bb228af0a4935c35d37857002868b87efa735280e6959",
+      "mode": "100644",
+      "characters": 7662
+    },
+    {
+      "path": "research/rounds/round13/README.md",
+      "bytes": 7393,
+      "git_blob_sha": "1d049d1cecb92e45a087fb1f80247f0dc8240d3a",
+      "sha256": "5d51dbffc9060c277e399765548836db748dc0330dee62b71445befcade4812c",
+      "mode": "100644",
+      "characters": 7388
+    },
+    {
+      "path": "research/rounds/round13/artifact-manifest.json",
+      "bytes": 85660,
+      "git_blob_sha": "be59528264a1c84845965e98d3b3bf8d4f911dd4",
+      "sha256": "92b3ad316e9314c1e0fe7434e93a1744f315e980c79110a8e539594a19da9b88",
+      "mode": "100644",
+      "characters": 85660
+    },
+    {
+      "path": "research/rounds/round13/hhd-comparator-decision.json",
+      "bytes": 9092,
+      "git_blob_sha": "17b604f7ace546c333d8d6f0c7a021fffafa3f0d",
+      "sha256": "1b10c4c70ccbbc843c14434cabb74d00396d5e9d739266584ab17d5645d805e4",
+      "mode": "100644",
+      "characters": 9092
+    },
+    {
+      "path": "research/rounds/round13/hhd-comparator-decision.md",
+      "bytes": 8063,
+      "git_blob_sha": "13c60a126dc8d95a1b8bed669d5c028be98a1ede",
+      "sha256": "7c27e0b3d094e0702296ead0201af37891005e8982c4a9fd6598ed79abec52ea",
+      "mode": "100644",
+      "characters": 8061
+    },
+    {
+      "path": "research/rounds/round13/hhd-model-version-audit.json",
+      "bytes": 14476,
+      "git_blob_sha": "d7f50dc68ff23c3683e0cd2e67265f37fc59bade",
+      "sha256": "8fe9560bdf3c881a5e3048cc67cce107313ea389a79577333f42d3cf1445b09e",
+      "mode": "100644",
+      "characters": 14476
+    },
+    {
+      "path": "research/rounds/round13/hhd-model-version-audit.md",
+      "bytes": 5368,
+      "git_blob_sha": "4ac0860b78d5183c58cbda29d1f1b10c4d8300b8",
+      "sha256": "6e9d4ab03423ad4d4832882cc72f8134b04d4031bc38e41e5852c457f8687aa4",
+      "mode": "100644",
+      "characters": 5360
+    },
+    {
+      "path": "research/rounds/round13/independent-comparator-decision-review.json",
+      "bytes": 7017,
+      "git_blob_sha": "32f1b1aa02702928407f676f1651fdb8af9b2792",
+      "sha256": "798fce541544cd06f60bd0f8df0dddb5f0b0f97e3d789658c802f05895c6abff",
+      "mode": "100644",
+      "characters": 7017
+    },
+    {
+      "path": "research/rounds/round13/independent-model-evidence-review.json",
+      "bytes": 5416,
+      "git_blob_sha": "3599613c000d0a43de2bed286cb68c867ef9b831",
+      "sha256": "4cded5f0cbb959133b527eb070611334ee58e52cd538132aaddb2f35b18dc1ff",
+      "mode": "100644",
+      "characters": 5416
+    },
+    {
+      "path": "research/rounds/round13/integration-review.md",
+      "bytes": 4822,
+      "git_blob_sha": "2dc033183802d1cd8d294b90cdfe90d63dfd229d",
+      "sha256": "4c08aba5cc84929f7ffd18e647f56a03a0742384b751c56bd6fa685c0e5be2b7",
+      "mode": "100644",
+      "characters": 4822
+    },
+    {
+      "path": "research/rounds/round13/local-verification.json",
+      "bytes": 4262,
+      "git_blob_sha": "ecbdb53ff245f7c2fc387f23a1e90b2f33218914",
+      "sha256": "0a7a4f384f5d322ddfc2eac4538d4481a6719c36353f246174c2f5fe8d474880",
+      "mode": "100644",
+      "characters": 4262
+    },
+    {
+      "path": "research/rounds/round13/round13-root-deltas.json",
+      "bytes": 7559,
+      "git_blob_sha": "30d25ca61935f3c49b350b673eec787d990357ec",
+      "sha256": "07975c2e9bbadeecb011c337fc76a4cfa244785460a4a60286ac43b7b31b5ffa",
+      "mode": "100644",
+      "characters": 7559
+    },
+    {
+      "path": "research/rounds/round14/README.md",
+      "bytes": 6500,
+      "git_blob_sha": "ad1e50979d6296bef75e92d8615491f1bd082f1b",
+      "sha256": "758df7bd01c8cc21006e0b32a6bbc161e15e818f267a04798ac21800f3821454",
+      "mode": "100644",
+      "characters": 6479
+    },
+    {
+      "path": "research/rounds/round14/artifact-manifest.json",
+      "bytes": 89632,
+      "git_blob_sha": "eee8ac13badf2fb4d07fae2e1ffd136224ca1259",
+      "sha256": "04ddb48a9136a301c12e766270e588469e089f96460262d8ecc0478e1eb7e6bf",
+      "mode": "100644",
+      "characters": 89632
+    },
+    {
+      "path": "research/rounds/round14/hhd-clinical-claim-amendment.json",
+      "bytes": 12378,
+      "git_blob_sha": "9ef04dea2c700ef0ab61d0f7d9f9510193f9ceab",
+      "sha256": "2d75912a516e18c43b3039f641b096e426a8059af74ccd41687be52071098690",
+      "mode": "100644",
+      "characters": 12378
+    },
+    {
+      "path": "research/rounds/round14/hhd-clinical-claim-amendment.md",
+      "bytes": 14303,
+      "git_blob_sha": "eafa2eb810b5bab051fa6e35ceaa5edc8be2ec93",
+      "sha256": "5debec15cd6e0b235c7cd91379d462128f639821efe702777b3627d3744791f6",
+      "mode": "100644",
+      "characters": 14231
+    },
+    {
+      "path": "research/rounds/round14/independent-clinical-decision-review.json",
+      "bytes": 8400,
+      "git_blob_sha": "34cbd283b833786ff365067de6fe22d4c1ae6f31",
+      "sha256": "fba28e02ab92f79577a571c611a051486436208c2bc05018155d448928b86e2f",
+      "mode": "100644",
+      "characters": 8400
+    },
+    {
+      "path": "research/rounds/round14/independent-trial-methods-review.json",
+      "bytes": 8978,
+      "git_blob_sha": "91cc0945b1686f8f21af8b32288ff876cc20b1a4",
+      "sha256": "dca5e6402eed7b269bae5376667944534baf34a29bee23eeb29b8ec3b0d1e016",
+      "mode": "100644",
+      "characters": 8976
+    },
+    {
+      "path": "research/rounds/round14/integration-review.md",
+      "bytes": 4746,
+      "git_blob_sha": "72ea285556080ec23f6c02a6175abef0d787a63d",
+      "sha256": "e2bb1fca202ff5fbc39eb07056d8e95fe60637676489f9be878b60fae2ad1840",
+      "mode": "100644",
+      "characters": 4742
+    },
+    {
+      "path": "research/rounds/round14/local-verification.json",
+      "bytes": 4854,
+      "git_blob_sha": "d8871a59d5c6c1888f1d0c0621a8abad60c63e5c",
+      "sha256": "6125db035a923b301960bb6d3f9baf90ac586fdab696fc362220203e4f49a0b1",
+      "mode": "100644",
+      "characters": 4854
+    },
+    {
+      "path": "research/rounds/round14/round14-root-deltas.json",
+      "bytes": 9501,
+      "git_blob_sha": "0d4b8de3659cf2428842f3af5e7656c99810a1e1",
+      "sha256": "a78fda61883b1167d394fd59d453b4e1646665564425c5bf72e85186b6feab19",
+      "mode": "100644",
+      "characters": 9501
+    },
+    {
+      "path": "research/rounds/round14/rux-hs-trial-evidence.json",
+      "bytes": 36767,
+      "git_blob_sha": "814f5f3b94552549a0bfe8831ad156a6b4e7809b",
+      "sha256": "5ef310260ae63b7d205417d77e699c7d6952b039d0613a56a59dcd45fef86e59",
+      "mode": "100644",
+      "characters": 36767
+    },
+    {
+      "path": "research/rounds/round14/rux-hs-trial-evidence.md",
+      "bytes": 11642,
+      "git_blob_sha": "090ea1367cf5bd8943c519c004229d2521a18ed3",
+      "sha256": "f25e32dec8af1502c78b5719ec64ea8d6c5ebd24a362011c6d4cba700be7f452",
+      "mode": "100644",
+      "characters": 11551
+    },
+    {
+      "path": "research/rounds/round15/README.md",
+      "bytes": 4276,
+      "git_blob_sha": "4283bf2593616eafdb254a81d7e31447d5e108e3",
+      "sha256": "d5a7416e99d8fb7b0a2780df364d8334cf3596a0f2a4493c1e03cd47324091d6",
+      "mode": "100644",
+      "characters": 4273
+    },
+    {
+      "path": "research/rounds/round15/artifact-manifest.json",
+      "bytes": 94020,
+      "git_blob_sha": "6ebc58a264f51d886dd761a5dc41a8265d5bd4fc",
+      "sha256": "8a840f2d30ec25ce09b3a2156097c3a0def23893205d64839ab3625a3d3f2a9c",
+      "mode": "100644",
+      "characters": 94020
+    },
+    {
+      "path": "research/rounds/round15/enasidenib-product-capture.json",
+      "bytes": 16870,
+      "git_blob_sha": "37ce001d14a94ed5d327837af77fcc5f109b1167",
+      "sha256": "95aa8bcd9dfb637b2244015dd281cf1265602a92e21f94916be4581a0962ee45",
+      "mode": "100644",
+      "characters": 16846
+    },
+    {
+      "path": "research/rounds/round15/enasidenib-product-capture.md",
+      "bytes": 10952,
+      "git_blob_sha": "5ff936a1d5da3fab100c4529243cfdb40fca5268",
+      "sha256": "47c84b975ff65c88a2b865c4a46cddbf14afd98bd3706ab9990765c040015185",
+      "mode": "100644",
+      "characters": 10946
+    },
+    {
+      "path": "research/rounds/round15/funding-decision.json",
+      "bytes": 5477,
+      "git_blob_sha": "15138cd2e958d6250b999f628c714f2f65bb5040",
+      "sha256": "7f8b48f6129659931c5bad4aa1df58a0ecf3677311a4123a56435d5d765d0d5f",
+      "mode": "100644",
+      "characters": 5477
+    },
+    {
+      "path": "research/rounds/round15/funding-decision.md",
+      "bytes": 6738,
+      "git_blob_sha": "423e7761cefd8cd04ed4d4b00814aa5182642b38",
+      "sha256": "80a17681a5331b614ea88a65f55a252717f82fe751f0c750b54bdab43599696f",
+      "mode": "100644",
+      "characters": 6736
+    },
+    {
+      "path": "research/rounds/round15/independent-contribution-decision-review.json",
+      "bytes": 10519,
+      "git_blob_sha": "63fda2425c732e037170759252fb5e6215b1c4a8",
+      "sha256": "a9af6560240acda22924c7a13a7134b32d4d9b7a82a32a7caeb400edb7c86766",
+      "mode": "100644",
+      "characters": 10519
+    },
+    {
+      "path": "research/rounds/round15/independent-regulatory-review.json",
+      "bytes": 7999,
+      "git_blob_sha": "fe7802c24b4bc8f5b81f718268aa6c4c14a1aaf0",
+      "sha256": "311bcd10fee89453542f7fb3d0b7cd3963d6b20f39bc7db9b85cd22430cea062",
+      "mode": "100644",
+      "characters": 7999
+    },
+    {
+      "path": "research/rounds/round15/integration-review.md",
+      "bytes": 4710,
+      "git_blob_sha": "71a148d397ed69a179e1396930eb45af3d3ea454",
+      "sha256": "aea2466676570e20415c5aad95301517e06efa71216f57d9fb3421a1f5296579",
+      "mode": "100644",
+      "characters": 4706
+    },
+    {
+      "path": "research/rounds/round15/local-verification.json",
+      "bytes": 4579,
+      "git_blob_sha": "48c65ca599bded078e3e083eae0d2bc66d45e351",
+      "sha256": "f700a05134bba91b4055aeb3113d8ffb5f0cd1d49a3a68c41c03356aff7b447a",
+      "mode": "100644",
+      "characters": 4579
+    },
+    {
+      "path": "research/rounds/round15/marginal-dollar-selection.md",
+      "bytes": 8112,
+      "git_blob_sha": "bf84600f9743f8f771e151ee7e5bcebf9246c62a",
+      "sha256": "580c99217ba355226856c735d071e53b5f4c1fcd132afc8377bf4834307131be",
+      "mode": "100644",
+      "characters": 8110
+    },
+    {
+      "path": "research/rounds/round15/round15-root-deltas.json",
+      "bytes": 5172,
+      "git_blob_sha": "02b8939adc5420522ad45693dbd0db70dff48e1d",
+      "sha256": "922c6e2146c3c5ebe9434f231eb430e9365f25fd015424a148a66ffd19695130",
+      "mode": "100644",
+      "characters": 5172
+    },
+    {
+      "path": "research/rounds/round16/README.md",
+      "bytes": 3185,
+      "git_blob_sha": "f37ac331e3875d24a9450d549e01effcefa961db",
+      "sha256": "7819ce3b9e75de14ce5e3a7fb0f08194e1130146fcae96ceeeaffff6f695551c",
+      "mode": "100644",
+      "characters": 3172
+    },
+    {
+      "path": "research/rounds/round16/apr-clinical-evidence.json",
+      "bytes": 13132,
+      "git_blob_sha": "7a64921139944c8b84ba382346fcc7d84580e775",
+      "sha256": "be8ea08fa065a61216d6945f7d53a75ad7e24f31f7e27548f12edc58061c3be5",
+      "mode": "100644",
+      "characters": 13132
+    },
+    {
+      "path": "research/rounds/round16/apr-clinical-evidence.md",
+      "bytes": 9393,
+      "git_blob_sha": "31c65e30eab11d7dfaabfaf8d3f3bd24a51a35c7",
+      "sha256": "9e8eeb25ddcfe7971f4ba4c793c1aca187b49a65cdee3f6690b82c09482bdda3",
+      "mode": "100644",
+      "characters": 9375
+    },
+    {
+      "path": "research/rounds/round16/apr-product-capture.json",
+      "bytes": 10923,
+      "git_blob_sha": "e4b06c8079b0c253670589279553c8c482b710b4",
+      "sha256": "05bed38fc6aad1005bc5c3971b24520395421b87c5a7e0ff065c3283d387cafb",
+      "mode": "100644",
+      "characters": 10917
+    },
+    {
+      "path": "research/rounds/round16/apr-product-capture.md",
+      "bytes": 12600,
+      "git_blob_sha": "31c4fd698a60b02e4ac760a12bedcd6890220132",
+      "sha256": "4e068508dbdcf0419bbb94ac7fa0804dccffbf312508b60db7efede6111ad7ce",
+      "mode": "100644",
+      "characters": 12561
+    },
+    {
+      "path": "research/rounds/round16/artifact-manifest.json",
+      "bytes": 99177,
+      "git_blob_sha": "77c187f785eae0f6bbda1808a985eeb79d3996da",
+      "sha256": "a5fd0774a091b872f03553aeb867352dc47d4f455a7fd06611b89ac7d9063412",
+      "mode": "100644",
+      "characters": 99177
+    },
+    {
+      "path": "research/rounds/round16/independent-clinical-review.json",
+      "bytes": 8354,
+      "git_blob_sha": "3a439b307a1858794b1f2ea692b5028b042e63fb",
+      "sha256": "21d4e6d642b17c94046db837fe0a784f783eae86091986c20434151ab5337277",
+      "mode": "100644",
+      "characters": 8354
+    },
+    {
+      "path": "research/rounds/round16/independent-marginal-decision-review.json",
+      "bytes": 8688,
+      "git_blob_sha": "304ee72ab70a9828cd7c8abd9481ea52c2d37243",
+      "sha256": "98bd0194c29404232c9b6cd410c30353d83c493206164004b85645fbc66748b6",
+      "mode": "100644",
+      "characters": 8688
+    },
+    {
+      "path": "research/rounds/round16/independent-product-capture-review.json",
+      "bytes": 8790,
+      "git_blob_sha": "cba4d1de5c2e905d7a2be6a061be27ba67b9ace6",
+      "sha256": "765e10035af29bd83417dd0e1be14dde7578b64865c7f6b257b54aa743e92027",
+      "mode": "100644",
+      "characters": 8790
+    },
+    {
+      "path": "research/rounds/round16/integration-review.md",
+      "bytes": 4095,
+      "git_blob_sha": "83362f0267723a5a13489819028988d9b50ac5fd",
+      "sha256": "203318ae75048470e925877636d12a8d151df997a8d5c266222be07e7b3db47b",
+      "mode": "100644",
+      "characters": 4092
+    },
+    {
+      "path": "research/rounds/round16/local-verification.json",
+      "bytes": 5360,
+      "git_blob_sha": "9d169a6dc02acc3af2a6060996d1113fe36dd0fa",
+      "sha256": "e29db4e784f804d9fe89635306d6335b8ac472a47be1d1733ab3ea5cf714c7ef",
+      "mode": "100644",
+      "characters": 5360
+    },
+    {
+      "path": "research/rounds/round16/marginal-dollar-decision.json",
+      "bytes": 14193,
+      "git_blob_sha": "630599ad416eac3e4323110288fd28c509f6b897",
+      "sha256": "f8f582e7fc15394eb1324f266c974e0170093c6163e7afb5679e8f742ac27f24",
+      "mode": "100644",
+      "characters": 14187
+    },
+    {
+      "path": "research/rounds/round16/marginal-dollar-decision.md",
+      "bytes": 14755,
+      "git_blob_sha": "c24b4d7f91e4d084c6357f60302ac55ea21ac879",
+      "sha256": "0a6b67b2ae5fb76b2a36ffbabd551835f802d989105a1cc45d3270520c3f0cca",
+      "mode": "100644",
+      "characters": 14714
+    },
+    {
+      "path": "research/rounds/round16/round16-root-deltas.json",
+      "bytes": 7716,
+      "git_blob_sha": "c1d54dfc0e7debb3eee172e580884976369ae1e3",
+      "sha256": "c1708991a3f0fadc0ea43c18a7abbcfaf1f32af2e3a964299cef697253f4eff7",
+      "mode": "100644",
+      "characters": 7716
+    },
+    {
+      "path": "research/rounds/round17/README.md",
+      "bytes": 3786,
+      "git_blob_sha": "ba2563933e600f8fb789c04381ed058b4920493f",
+      "sha256": "6460f919479fb748b7e43860f31080d198ccba64f07287352f6a101decf8d605",
+      "mode": "100644",
+      "characters": 3769
+    },
+    {
+      "path": "research/rounds/round17/artifact-manifest.json",
+      "bytes": 104205,
+      "git_blob_sha": "a49ed7658213514db07cd45f1cf00f1b32ace67a",
+      "sha256": "c82aeff24a31f1b33e971454949cad9f037ba7b0c4fa4c111a1051628abce295",
+      "mode": "100644",
+      "characters": 104205
+    },
+    {
+      "path": "research/rounds/round17/independent-function-review.json",
+      "bytes": 9758,
+      "git_blob_sha": "41534f56c8bc64a52a7a1f4bc2057e3de2bf7395",
+      "sha256": "3ea4c243a48ea3338f22a9c4b1a8eb9bd11e189b5de8424aac339f8797d773cd",
+      "mode": "100644",
+      "characters": 9752
+    },
+    {
+      "path": "research/rounds/round17/independent-marginal-decision-review.json",
+      "bytes": 7621,
+      "git_blob_sha": "fd72986780f19d69818c1dc6d629e58b9df4c7b3",
+      "sha256": "c7c2f4a7095ec22da2d7fce774f81c6e37a961533f9fac70ee59ce32f7a86ac3",
+      "mode": "100644",
+      "characters": 7621
+    },
+    {
+      "path": "research/rounds/round17/independent-product-capture-review.json",
+      "bytes": 15264,
+      "git_blob_sha": "e29b67746d9ab879b3fdb512b1c0b7766ed38685",
+      "sha256": "d4f17736359f6629b8cc23253951873d91840bbb77b39af0545ce12a7e74729e",
+      "mode": "100644",
+      "characters": 15260
+    },
+    {
+      "path": "research/rounds/round17/integration-review.md",
+      "bytes": 4030,
+      "git_blob_sha": "477f86deb0e77ea60ffb280164c5a35727d1c999",
+      "sha256": "92059730b66ad9e3b595dc8f974282988902e3da65c54a21143165fa2956f591",
+      "mode": "100644",
+      "characters": 4030
+    },
+    {
+      "path": "research/rounds/round17/local-verification.json",
+      "bytes": 5658,
+      "git_blob_sha": "0cf0dff39489218cece116df69c864da234614e1",
+      "sha256": "36085f24d83875bad7e003d831055e7664a311a039fa1578b974becc3f97f2ed",
+      "mode": "100644",
+      "characters": 5658
+    },
+    {
+      "path": "research/rounds/round17/marginal-dollar-decision.json",
+      "bytes": 11316,
+      "git_blob_sha": "e3e2487374413cfabf1821e81dc8e257fea9061c",
+      "sha256": "57339179f0d7786e6fd83145f6c3506e0280e89f039e08f82bc819abeba79dba",
+      "mode": "100644",
+      "characters": 11316
+    },
+    {
+      "path": "research/rounds/round17/marginal-dollar-decision.md",
+      "bytes": 12728,
+      "git_blob_sha": "b450d6381c64167205c3797c35e6567673d3d1f7",
+      "sha256": "06aa3cdbc3f9d87a20f824e9f9d96278a3e4b925c5f2b1844e90bc0daafde3fe",
+      "mode": "100644",
+      "characters": 12713
+    },
+    {
+      "path": "research/rounds/round17/rm-function-evidence.json",
+      "bytes": 25934,
+      "git_blob_sha": "e6e5ae5cc9ccbaf8b9e68b69fe0e7f470c8fcad8",
+      "sha256": "95b6621d23a369aafb6b233c229fce1f8996d592fb0dbf74999fbf6d070ccae4",
+      "mode": "100644",
+      "characters": 25890
+    },
+    {
+      "path": "research/rounds/round17/rm-function-evidence.md",
+      "bytes": 10045,
+      "git_blob_sha": "9e4cd6d0f2a017c6f9325160af1b622af268961e",
+      "sha256": "33485089cb47b73e37f8c863f9e3ca33627e865a9546636189037b26e4f92251",
+      "mode": "100644",
+      "characters": 10023
+    },
+    {
+      "path": "research/rounds/round17/rm-product-capture.json",
+      "bytes": 30504,
+      "git_blob_sha": "9e87dfa4ac68bf70a1b5a7a3f5885f2c198e4dac",
+      "sha256": "c5c53ceea1f592429d6aa5c2d8bd3aad6665fa8dd336a24be82e478ca91aeab0",
+      "mode": "100644",
+      "characters": 30491
+    },
+    {
+      "path": "research/rounds/round17/rm-product-capture.md",
+      "bytes": 13631,
+      "git_blob_sha": "318dab88ee7b28a989a559fcdac67f64584353fc",
+      "sha256": "75b36478fbd8e0f51ecbfba97c8afbcacb8254db5bd8b4ecf999816b4dbeda7e",
+      "mode": "100644",
+      "characters": 13585
+    },
+    {
+      "path": "research/rounds/round17/round17-root-deltas.json",
+      "bytes": 8347,
+      "git_blob_sha": "e76d351b549819040f2f7ff52532f785c1f2f537",
+      "sha256": "4aa4b4c23902df6e81b6ec7c0dd6a90f38d1d01ede263402e61b4dba94414ef3",
+      "mode": "100644",
+      "characters": 8347
+    },
+    {
+      "path": "research/rounds/round18/README.md",
+      "bytes": 3977,
+      "git_blob_sha": "2c6cc292e4c39f7730f5c552e22f1bb22afdf8e0",
+      "sha256": "1362d2aee5deb4a9f59b7f3a5f130dd76506ad4122ce09b818719961a6d19fd6",
+      "mode": "100644",
+      "characters": 3956
+    },
+    {
+      "path": "research/rounds/round18/blu-human-model-update.json",
+      "bytes": 12210,
+      "git_blob_sha": "244669323e70f6fbcd0ef099e8364381580a0f95",
+      "sha256": "cf9782271bd8f185a7eb4ff2b64c2d32f99b12a6c6fbf9d5735284cd7209070a",
+      "mode": "100644",
+      "characters": 12206
+    },
+    {
+      "path": "research/rounds/round18/blu-human-model-update.md",
+      "bytes": 6867,
+      "git_blob_sha": "8b7c6199f97ebc22440f0a4671fe6fae230bed15",
+      "sha256": "4a9df13cededf5adaf39c6258b04846e22d65d77cdbd1ccef85ac85e6c26d8b6",
+      "mode": "100644",
+      "characters": 6863
+    },
+    {
+      "path": "research/rounds/round18/blu-systemic-context.json",
+      "bytes": 44071,
+      "git_blob_sha": "59b940fa3f2970d783abcd943d068e4a614f97b7",
+      "sha256": "284470f3257c703401b9d0eccb49d2fd4527422976d8cc51665771e728cd30dc",
+      "mode": "100644",
+      "characters": 44070
+    },
+    {
+      "path": "research/rounds/round18/blu-systemic-context.md",
+      "bytes": 12541,
+      "git_blob_sha": "5b06163772c785ffd9c02470da38ea26823c22e2",
+      "sha256": "9641932ab13677e07bb70195c92a3582746c7f12717a08dd1c5576fe7c7d074f",
+      "mode": "100644",
+      "characters": 12514
+    },
+    {
+      "path": "research/rounds/round18/independent-human-model-review.json",
+      "bytes": 7977,
+      "git_blob_sha": "d931fb259c7aeadc50fc6bf74a2041d54745c18f",
+      "sha256": "4a37951f3191650f5b931b42a05f64f45160b4b94892e586f3aa5cb230e21893",
+      "mode": "100644",
+      "characters": 7977
+    },
+    {
+      "path": "research/rounds/round18/independent-marginal-decision-review.json",
+      "bytes": 10747,
+      "git_blob_sha": "1c91c5c8ada112664b2c0cb4a8137f9a7bea7fe9",
+      "sha256": "69a19ddc965a75d9f2ddac35e85df80e0e68e6f60077c0dca8c6933c77c9d2f6",
+      "mode": "100644",
+      "characters": 10739
+    },
+    {
+      "path": "research/rounds/round18/independent-systemic-context-review.json",
+      "bytes": 16766,
+      "git_blob_sha": "26de251766a60757c1c3d45f2ab86d070dfeb553",
+      "sha256": "c43dd4bed07a3a3ac7206bd4c6a095b113b6ca6e61d66b5160cb016fdb53c617",
+      "mode": "100644",
+      "characters": 16750
+    },
+    {
+      "path": "research/rounds/round18/integration-review.md",
+      "bytes": 4037,
+      "git_blob_sha": "37530703211a92b32edfac50e283f74a9c47c17b",
+      "sha256": "361959720cdca953444827224e63f9938b59cd4b5b729589e9e2645f13145f3f",
+      "mode": "100644",
+      "characters": 4037
+    },
+    {
+      "path": "research/rounds/round18/local-verification.json",
+      "bytes": 5992,
+      "git_blob_sha": "87fbee9e4661e85c81e49905d7480a7b56696fc6",
+      "sha256": "4c2a2c010a1fc54976adeaf590cb2edd41dbac7750caca6d8fbddc80113f6fd4",
+      "mode": "100644",
+      "characters": 5992
+    },
+    {
+      "path": "research/rounds/round18/marginal-dollar-decision.json",
+      "bytes": 13502,
+      "git_blob_sha": "0563dad5858ddab93d60d18baea79ce0057f2c5f",
+      "sha256": "610996ea9d3b530641c48e0e079fe1a4aef8dd168f3d3aa7a322523d51f9d216",
+      "mode": "100644",
+      "characters": 13502
+    },
+    {
+      "path": "research/rounds/round18/marginal-dollar-decision.md",
+      "bytes": 9631,
+      "git_blob_sha": "3ab16248d90584406d16d04ba7ee2eb1bb78f748",
+      "sha256": "4b83396320f3fe79496abe39efd4df3604d2d63938d33b17935d13f60a10e28f",
+      "mode": "100644",
+      "characters": 9613
+    },
+    {
+      "path": "research/rounds/round18/round18-root-deltas.json",
+      "bytes": 8702,
+      "git_blob_sha": "686f5448a739ba74b812be6459a6ac81085a1270",
+      "sha256": "04f2783b9b4c041e4c6188b67bccf9351a905d202b24c53d699c1572fdb51a47",
+      "mode": "100644",
+      "characters": 8698
+    },
+    {
+      "path": "research/rounds/round2/round2_barrier_local.md",
+      "bytes": 34295,
+      "git_blob_sha": "25a336474819964da609a0800d469d30ca243204",
+      "sha256": "75d2bcc632c981a8791c681e7281ba5f2b1b67f32eca4d1404558b26977f14eb",
+      "mode": "100644",
+      "characters": 34208
+    },
+    {
+      "path": "research/rounds/round2/round2_blood_exvivo.md",
+      "bytes": 29112,
+      "git_blob_sha": "4a8aea5bea342e913f43a85f49f1cfd0b6240c3c",
+      "sha256": "b98a09b39d1bfb405d7f6088d8fa237b3f6205f8e405328a74e48a08e45e1818",
+      "mode": "100644",
+      "characters": 29044
+    },
+    {
+      "path": "research/rounds/round2/round2_blu3797_redteam.md",
+      "bytes": 19049,
+      "git_blob_sha": "2919351a2be1decfbd3e643f92d39de3b8ca5516",
+      "sha256": "2d67e1278651426a87491abbad72848f91b80a71fdee665cd110e7530611d135",
+      "mode": "100644",
+      "characters": 19029
+    },
+    {
+      "path": "research/rounds/round2/round2_cptx_dao_redteam.md",
+      "bytes": 22935,
+      "git_blob_sha": "af3fa8ba7192e0e7593a5f8d99b6ae18bb0a3f66",
+      "sha256": "25e7ac51748d0cd98152467bff6b653b8341e6831dc641c0add85bd71b539aad",
+      "mode": "100644",
+      "characters": 22920
+    },
+    {
+      "path": "research/rounds/round2/round2_generated_concepts.json",
+      "bytes": 56726,
+      "git_blob_sha": "d476a5c47aaa4c93dd70974bbd7b992b0d625c5d",
+      "sha256": "61a65c9e8a9a1977f428f4a7b5e0c0a540321410310d6df61f259ce2178e2ea7",
+      "mode": "100644",
+      "characters": 56718
+    },
+    {
+      "path": "research/rounds/round2/round2_neuro_metabolic.md",
+      "bytes": 40435,
+      "git_blob_sha": "227ecf6394d356a2608669ccf70a36733fde159b",
+      "sha256": "deeffa71d9189a3b5b41550306ce7a1ef6f6514cf1c77d2e3d5fc397ca36f966",
+      "mode": "100644",
+      "characters": 40349
+    },
+    {
+      "path": "research/rounds/round2/round2_plcz_fem_redteam.md",
+      "bytes": 27157,
+      "git_blob_sha": "72afff9a633ea1abd5870bb9b7a12736aa8851de",
+      "sha256": "304fcb05c3b0b19fb4edb47626eada852d99c23613c49d77f78deacc638d9447",
+      "mode": "100644",
+      "characters": 27079
+    },
+    {
+      "path": "research/rounds/round3/round3_crosscheck_fxt.md",
+      "bytes": 6092,
+      "git_blob_sha": "e57e2fc49ef2b90646bd94223b0408e5f375a764",
+      "sha256": "76aa73b5481187f1fc9a02a6bcdcbc1cc6df7d128c53ab9c73e8910c56975ce9",
+      "mode": "100644",
+      "characters": 6082
+    },
+    {
+      "path": "research/rounds/round3/round3_crosscheck_ndc.md",
+      "bytes": 7010,
+      "git_blob_sha": "6d4eba8a00fed27464d631022d07574249a16281",
+      "sha256": "daade0ce8e56789a067eac479f46d88ffcfddb764e4f0afa07cc5f152d6cefa7",
+      "mode": "100644",
+      "characters": 6981
+    },
+    {
+      "path": "research/rounds/round3/round3_crosscheck_p2.md",
+      "bytes": 8326,
+      "git_blob_sha": "e0e2982ff00e6003151cb317930432d94fe389ac",
+      "sha256": "d84e267350501038d83ca4e2d7d47b63f4fee9b8c641cd2306e41602b5ed0ac0",
+      "mode": "100644",
+      "characters": 8313
+    },
+    {
+      "path": "research/rounds/round3/round3_model_routes.json",
+      "bytes": 13726,
+      "git_blob_sha": "20be8dafe8c3a66e1f759ff96d6f3876449bc32d",
+      "sha256": "53dd903e5ef91ea9ddeb5608a375ce3c2526dcd28458641401b6dfd328d947cd",
+      "mode": "100644",
+      "characters": 13726
+    },
+    {
+      "path": "research/rounds/round3/round3_model_routes.md",
+      "bytes": 8857,
+      "git_blob_sha": "5f840e149d64861e4843cd02c64165e9a25cac3e",
+      "sha256": "91c7abd07652b38679390f747375dba5bfdace063d3c7130f759b3d4133f6b12",
+      "mode": "100644",
+      "characters": 8817
+    },
+    {
+      "path": "research/rounds/round3/round3_neuromuscular.json",
+      "bytes": 54218,
+      "git_blob_sha": "1721dfa57400007357ef9dfdf061f01bd9d8e120",
+      "sha256": "cc8b30ddb0030e842dde9535e0fa205d1fa39e5fe274752d0901d3e56ef7eb69",
+      "mode": "100644",
+      "characters": 54204
+    },
+    {
+      "path": "research/rounds/round3/round3_neuromuscular.md",
+      "bytes": 23418,
+      "git_blob_sha": "a733e41738687b4758f45001f85d0d9d4cb153b4",
+      "sha256": "c9eaef9dd95b38b046b265acb468c2e2e269965af2b6fb1d32d8de0eb52b666a",
+      "mode": "100644",
+      "characters": 23319
+    },
+    {
+      "path": "research/rounds/round3/round3_new_leads.json",
+      "bytes": 37914,
+      "git_blob_sha": "7202aad85e4e4cc5f0595036ec73dd015eb9b39d",
+      "sha256": "f7a1749af00b3ead583d9f051b013a8f49c6f1bf1de3c2b52e2aeabe2e1133eb",
+      "mode": "100644",
+      "characters": 37886
+    },
+    {
+      "path": "research/rounds/round3/round3_new_leads.md",
+      "bytes": 24446,
+      "git_blob_sha": "f29ddf59825bda769ff9649c75eb728f11df8151",
+      "sha256": "8415338c326558a76730a3fd5b6db20a875facad471ffc3c4db69c1ec92a0661",
+      "mode": "100644",
+      "characters": 24424
+    },
+    {
+      "path": "research/rounds/round3/round3_organ_repair.json",
+      "bytes": 31974,
+      "git_blob_sha": "35a86053863ebaffb1e6752cc896e84e44f837a1",
+      "sha256": "5aaf2b1f5952e25153a9da557eef57c24d884bd91ebca5cbf95707bf48545dd5",
+      "mode": "100644",
+      "characters": 31970
+    },
+    {
+      "path": "research/rounds/round3/round3_organ_repair.md",
+      "bytes": 29222,
+      "git_blob_sha": "6a172301910b122cdfa7fd40b113794f24c6175f",
+      "sha256": "120e0e8f12b13a1e2422bb94abc2093f62ab1f9b4edb4e5d44f22faa3f487d32",
+      "mode": "100644",
+      "characters": 29136
+    },
+    {
+      "path": "research/rounds/round3/round3_root_deltas.json",
+      "bytes": 12802,
+      "git_blob_sha": "d81754e5a2cc7c8f015e8c96db544fe2f8c64d3a",
+      "sha256": "8b90b7e334e3cc54bcbf3de4451fcef85441a3450520807314299dd4a31c7adf",
+      "mode": "100644",
+      "characters": 12802
+    },
+    {
+      "path": "research/rounds/round4/README.md",
+      "bytes": 13191,
+      "git_blob_sha": "de239074ef15c22a7983000ba64268e258114b58",
+      "sha256": "20217238cff3922891522e1343eaab9a80556b584111f05305a34586605cf269",
+      "mode": "100644",
+      "characters": 13190
+    },
+    {
+      "path": "research/rounds/round4/blu3797-audit.md",
+      "bytes": 8125,
+      "git_blob_sha": "21d3a385be9cc0ac3cbceaacaa69095169a4729a",
+      "sha256": "0b403429e64c7feacfb7c4b9988425e4c00018409172c69a9e8c7b97fc5da40e",
+      "mode": "100644",
+      "characters": 8119
+    },
+    {
+      "path": "research/rounds/round4/blu3797-source-audit.json",
+      "bytes": 31196,
+      "git_blob_sha": "ba54c277c30ab8bc79f4fb5ac8ca4b9d55c3851a",
+      "sha256": "65e1b020d1da2816c168c64b617f6811de17dfdcd98dcba17ebeb1fe324d659b",
+      "mode": "100644",
+      "characters": 31180
+    },
+    {
+      "path": "research/rounds/round4/round4_local_repair.json",
+      "bytes": 37771,
+      "git_blob_sha": "1c4f112ab318468837e8cf13af1506ac36cb20b2",
+      "sha256": "860ffb471f9c873f27e95dd53d522a1fc357815818139c255cd68461b2cb825c",
+      "mode": "100644",
+      "characters": 37745
+    },
+    {
+      "path": "research/rounds/round4/round4_local_repair.md",
+      "bytes": 21278,
+      "git_blob_sha": "4ec282154bbb325a075703ba4565984d0203d553",
+      "sha256": "f6d97a746be50915f8e961a4fe425e3020e05d2413e2e3bf7626c6469321278c",
+      "mode": "100644",
+      "characters": 21247
+    },
+    {
+      "path": "research/rounds/round4/round4_neuromuscular.json",
+      "bytes": 36180,
+      "git_blob_sha": "0e75805f168ddbcdf8a301565a43968ffc3f6321",
+      "sha256": "d3f97d7a5690d6394823344611eeaa793f20244379d99d1e2ea41dd2247956ed",
+      "mode": "100644",
+      "characters": 36176
+    },
+    {
+      "path": "research/rounds/round4/round4_neuromuscular.md",
+      "bytes": 20419,
+      "git_blob_sha": "c232009285d7c9d2e1c20c31a0837e231d01b672",
+      "sha256": "726bd5c2798ac0d3d2b2ab45d311e188ac6cd73a65c8ab83a254b11825c9aeeb",
+      "mode": "100644",
+      "characters": 20311
+    },
+    {
+      "path": "research/rounds/round4/round4_organ_blood.json",
+      "bytes": 38161,
+      "git_blob_sha": "547afc87f864015c3136f10e1e59cfc43e3f60d1",
+      "sha256": "724d0477da8ea5f73763daf396917993b5ffec5e21006c59aea98e890e8acf74",
+      "mode": "100644",
+      "characters": 38153
+    },
+    {
+      "path": "research/rounds/round4/round4_organ_blood.md",
+      "bytes": 18252,
+      "git_blob_sha": "f6ade08ca2604a6a662dea68fdbb0925f3053e00",
+      "sha256": "d2b4cbd9ce55e2e695dd1b7f2d9360033748aa626b2d3dbb935c7709b750b1b5",
+      "mode": "100644",
+      "characters": 18170
+    },
+    {
+      "path": "research/rounds/round4/round4_root_deltas.json",
+      "bytes": 7169,
+      "git_blob_sha": "b70c91eec38e5bf51fe6ff64c06f463ef6edaf1b",
+      "sha256": "ec046638599fb46529a12fb15c9e4506a6b4a93389e1fbc99f7719d66b1196b7",
+      "mode": "100644",
+      "characters": 7169
+    },
+    {
+      "path": "research/rounds/round5/README.md",
+      "bytes": 12309,
+      "git_blob_sha": "960045bc0e26e3da8275f1c9239f6087f55a32f3",
+      "sha256": "b28c8b057a514178ebd8ead1dac2291eedb0e8c8981487148971cdb975068850",
+      "mode": "100644",
+      "characters": 12307
+    },
+    {
+      "path": "research/rounds/round5/blu3797-cell-context-audit.json",
+      "bytes": 135555,
+      "git_blob_sha": "059a9104267287e518e83f4904dc2b63cbdf9f21",
+      "sha256": "5b83e4ab8218048dc3d2bbf333f8c6ba0e40d0eaa3f3de1e30916c4f5a30c79b",
+      "mode": "100644",
+      "characters": 135555
+    },
+    {
+      "path": "research/rounds/round5/blu3797-human-proof.md",
+      "bytes": 20893,
+      "git_blob_sha": "443934ba89fdd186595083048bb069c9f0b04ee0",
+      "sha256": "12a058967f91ba8b333afe010b3ed5f53636e0c1e1d3b019d9e6a3e4a78384d3",
+      "mode": "100644",
+      "characters": 20891
+    },
+    {
+      "path": "research/rounds/round5/p2-off-target-audit.json",
+      "bytes": 19925,
+      "git_blob_sha": "a0640f7608215e21617289a1679c085ba5beeb10",
+      "sha256": "fccaa25a17c599e09d937978f4a2ba5fed086710857d6ac5ee84f739fcdcc443",
+      "mode": "100644",
+      "characters": 19923
+    },
+    {
+      "path": "research/rounds/round5/p2-off-target-audit.md",
+      "bytes": 4148,
+      "git_blob_sha": "f8429a61b0201ec72ed1bedce262a3f327199f2e",
+      "sha256": "597a6859e8217aba409bdd40b5e27b9a89be54f3e17f250d9c987458f4c42056",
+      "mode": "100644",
+      "characters": 4137
+    },
+    {
+      "path": "research/rounds/round5/ppcs-clinical-function-challenge.md",
+      "bytes": 13849,
+      "git_blob_sha": "9afbcee3667d6ea0c26d9308779b0b6e0e8a6ad0",
+      "sha256": "a1e8bfd2b6cb8a33b34b2adce73cfe14e1c92ffb6ea845fc4e4a5d7967468f27",
+      "mode": "100644",
+      "characters": 13833
+    },
+    {
+      "path": "research/rounds/round5/round5_additional_screen.json",
+      "bytes": 29368,
+      "git_blob_sha": "56bba5d55d50fb67de51dca98fcb095417a80d61",
+      "sha256": "0279443203ba718f87cd416b56b639f9fda5ba2f914236dd9309a740ad5d155a",
+      "mode": "100644",
+      "characters": 29368
+    },
+    {
+      "path": "research/rounds/round5/round5_additional_screen.md",
+      "bytes": 21100,
+      "git_blob_sha": "bee4fea81a8ada97fbe8b89b6d1258a1d75eee10",
+      "sha256": "6507667b965856a775bab850c540364ca4f8997097eba422c67f17527d4b5376",
+      "mode": "100644",
+      "characters": 21071
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_biology.json",
+      "bytes": 19799,
+      "git_blob_sha": "27de88ee9d860a8422dcf5be17e8aa4d88e47e12",
+      "sha256": "ff5b8fb2b23604118a4a59b6262dde071c49da1818f648e9523a4d4a06072adf",
+      "mode": "100644",
+      "characters": 19798
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_biology.md",
+      "bytes": 28437,
+      "git_blob_sha": "bff90a0d5da21fd4c99f48ef15329b51e2792895",
+      "sha256": "90d67f99ddc8e033e2521fc7744c7942adc3b1e1986a0cce26c97033ecfb2452",
+      "mode": "100644",
+      "characters": 28382
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_pharmacology.json",
+      "bytes": 33601,
+      "git_blob_sha": "8641a8b28a18caaf0e2ab669b46ff055700b4736",
+      "sha256": "93c53875794f2ff6c196d494efe8bb307da15c70630deb2f2906bf6ad7dc4870",
+      "mode": "100644",
+      "characters": 33559
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_pharmacology.md",
+      "bytes": 30369,
+      "git_blob_sha": "a9891d148be6b13ddeb8703e39c4e6a5eb509861",
+      "sha256": "78b33a4f1890798fdb144f96770c9fde04e40925af6766b4a34c31aaef4831dc",
+      "mode": "100644",
+      "characters": 30233
+    },
+    {
+      "path": "research/rounds/round5/round5_blu_proof_challenge.md",
+      "bytes": 8974,
+      "git_blob_sha": "b7063759d70ffd02628dde76dd5aae60b27d9115",
+      "sha256": "7b01a2c6d12d3d97057327f3af4c7c81de26900aa09e463a8b5ff418f3b0ea5f",
+      "mode": "100644",
+      "characters": 8945
+    },
+    {
+      "path": "research/rounds/round5/round5_existing_leader_updates.json",
+      "bytes": 14968,
+      "git_blob_sha": "6ef7e139cb42b88488d22b78eb8b7e54565bd3d9",
+      "sha256": "27b98835b2a7612186e87688c05fa39eb880c44a41650a88b1eff314cffb382b",
+      "mode": "100644",
+      "characters": 14964
+    },
+    {
+      "path": "research/rounds/round5/round5_existing_leader_updates.md",
+      "bytes": 11444,
+      "git_blob_sha": "0c0efc63782cee286c601fe1a373e0efd8bb2d1e",
+      "sha256": "5a425860ce32e6967cd0cfbf3f5fca0b8c44490fbf671b4a39ed4f800da490d7",
+      "mode": "100644",
+      "characters": 11436
+    },
+    {
+      "path": "research/rounds/round5/round5_ndc_comparator_update.json",
+      "bytes": 17866,
+      "git_blob_sha": "0095a282d9b60cbed928eae3eaa57651f6f80b79",
+      "sha256": "a14d78e9a68385ccb5b426493e8d7bfbe90a293ec0c98c7c55356fea0b5b88ed",
+      "mode": "100644",
+      "characters": 17866
+    },
+    {
+      "path": "research/rounds/round5/round5_ndc_comparator_update.md",
+      "bytes": 16704,
+      "git_blob_sha": "01be3494ffa82aef80b62b24761534c1c4460928",
+      "sha256": "982a92ceeba3b5fe05175dc15d240b602204e69ef9b9b871cc55d0c023cec806",
+      "mode": "100644",
+      "characters": 16634
+    },
+    {
+      "path": "research/rounds/round5/round5_pantethine_chemistry_challenge.json",
+      "bytes": 16480,
+      "git_blob_sha": "3a9590a7ac3237e9a7415cf01cadbebcc07559d9",
+      "sha256": "b965b94d8b4f74694396cbfa6ea71ddc4d1b5f61b8fe7d8fc4a7d7f343fa7269",
+      "mode": "100644",
+      "characters": 16454
+    },
+    {
+      "path": "research/rounds/round5/round5_pantethine_chemistry_challenge.md",
+      "bytes": 14294,
+      "git_blob_sha": "9529f6bf035cdb703f63bf3b58b31b78f4595766",
+      "sha256": "f148023cdbb191ae953dd969cf57c6c70b5dfc5933dc4bba382e909b5266e54c",
+      "mode": "100644",
+      "characters": 14235
+    },
+    {
+      "path": "research/rounds/round5/round5_root_deltas.json",
+      "bytes": 5581,
+      "git_blob_sha": "5eccb921ed48b1b442df8d641b4c2db9c08f4a93",
+      "sha256": "a454c8df2923a1486aee6567bab9605bc6130ffcfb8ca47ae3438a1bfbf747b0",
+      "mode": "100644",
+      "characters": 5581
+    },
+    {
+      "path": "research/rounds/round5/round5_shortlist_challenge.json",
+      "bytes": 40842,
+      "git_blob_sha": "f31fc7c9fd782d132a2ad074c9ea47f66a13f2ff",
+      "sha256": "a7a33771bdbb150cb4683431fbefaf65f9b67e28200f04a9c3a62a62fb355ec3",
+      "mode": "100644",
+      "characters": 40830
+    },
+    {
+      "path": "research/rounds/round5/round5_shortlist_challenge.md",
+      "bytes": 20491,
+      "git_blob_sha": "d8e41c27259006a6eaf77a9cf7966619e884d9ff",
+      "sha256": "07f6056e3c5ad180b94fdb39475b685e1d7b615abfdc45ade73a97280988689f",
+      "mode": "100644",
+      "characters": 20449
+    },
+    {
+      "path": "research/rounds/round6/README.md",
+      "bytes": 9085,
+      "git_blob_sha": "c6408b4f20c4f71afcde4473b529ead8e05b4a76",
+      "sha256": "e419cce899dac62c727e857b263f6ba2658ce2303d7cf60e7aea0c6a04e9c64c",
+      "mode": "100644",
+      "characters": 9072
+    },
+    {
+      "path": "research/rounds/round6/round6_blu_milestone.md",
+      "bytes": 8981,
+      "git_blob_sha": "0d2787a25c7a0a095b2e9a20ec426566561e1c7b",
+      "sha256": "604acbc8838e55590f825749d532983b864e000576d2e89e333c20fce9c2f3b7",
+      "mode": "100644",
+      "characters": 8974
+    },
+    {
+      "path": "research/rounds/round6/round6_blu_translation.json",
+      "bytes": 23524,
+      "git_blob_sha": "ef7b74c788782a83be3d6cce3534bf3abe2f57d7",
+      "sha256": "dde580fe7074aad3bbfb4c575be332db52aa32167014a85c1519fac2880b8e27",
+      "mode": "100644",
+      "characters": 23524
+    },
+    {
+      "path": "research/rounds/round6/round6_blu_translation.md",
+      "bytes": 18382,
+      "git_blob_sha": "70174aa70f37654f9fad86e38dde8d594f6c35f0",
+      "sha256": "8a6d9b016fa9a71b29d039e8823eafb848036c3b0199db594e647471a10cc415",
+      "mode": "100644",
+      "characters": 18339
+    },
+    {
+      "path": "research/rounds/round6/round6_clinical_translation.md",
+      "bytes": 10318,
+      "git_blob_sha": "277a1f5b62c2a08c09f0ae869927324845d6256d",
+      "sha256": "f6fc656e2422e3b9eadfccd7c1fb199baba08211635f5bb17906225d94a8c78c",
+      "mode": "100644",
+      "characters": 10306
+    },
+    {
+      "path": "research/rounds/round6/round6_clinical_translation_audit.json",
+      "bytes": 3138,
+      "git_blob_sha": "8a218f055c9fec317d90e322fc9b5f1ede807b6f",
+      "sha256": "bb3d1256a1360c28e4e37a89f80b3795fa0e76a5842990d2348c077b16fd1171",
+      "mode": "100644",
+      "characters": 3138
+    },
+    {
+      "path": "research/rounds/round6/round6_new_leads.json",
+      "bytes": 28357,
+      "git_blob_sha": "471e64a76bb96bb646d297f7bcbf183592ddcaee",
+      "sha256": "50937edbf018be635cc90da8b5b57871d42bf06883c25bf3e2a5c72db8e9eb77",
+      "mode": "100644",
+      "characters": 28357
+    },
+    {
+      "path": "research/rounds/round6/round6_new_leads.md",
+      "bytes": 26396,
+      "git_blob_sha": "4503e1186f01fb89c04b515586fbe3d66afafece",
+      "sha256": "7ed1fb642f4abba058ccd6df98f7cc6644d86ca8640076fde2398e6635f2eb08",
+      "mode": "100644",
+      "characters": 26350
+    },
+    {
+      "path": "research/rounds/round6/round6_reserve_challenge.json",
+      "bytes": 31783,
+      "git_blob_sha": "d258c568ee812090bb314159230892abfcd11182",
+      "sha256": "4d605848c9b5f2a4425c1bf6bfc484c24e75e46b6ee56342edc6e49dbe0a0d9a",
+      "mode": "100644",
+      "characters": 31783
+    },
+    {
+      "path": "research/rounds/round6/round6_reserve_challenge.md",
+      "bytes": 22188,
+      "git_blob_sha": "903c4d47214a1ce048935b60b0cc5fcc3b754358",
+      "sha256": "b4e7f50a1d0a6d7ab0dd910dc716282ce02b4c83a538c939a1c415021d302b5b",
+      "mode": "100644",
+      "characters": 22096
+    },
+    {
+      "path": "research/rounds/round6/round6_root_deltas.json",
+      "bytes": 5847,
+      "git_blob_sha": "873e960cd0229e60f3519d1066aab79c51b43b9a",
+      "sha256": "288737bd155ab626c3d42030cee627a9f8b1dedd8be07511ad3113e4f67c72a0",
+      "mode": "100644",
+      "characters": 5847
+    },
+    {
+      "path": "research/rounds/round7/README.md",
+      "bytes": 9443,
+      "git_blob_sha": "848414ed6f3c7e03a3b1bd192eda956069f9c2d2",
+      "sha256": "a0246de1d3ae2b1fe2d80886bc7109cd8300000dbfaa13a04bb045ea3fd35426",
+      "mode": "100644",
+      "characters": 9420
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_clinical.json",
+      "bytes": 27929,
+      "git_blob_sha": "aca17a54014f0ef21905dc012cc1e193d7393430",
+      "sha256": "d9859517e13808236f2d5e54de94b3838a1d47d3806cb85639500b6b747672e7",
+      "mode": "100644",
+      "characters": 27921
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_clinical.md",
+      "bytes": 24492,
+      "git_blob_sha": "f176b3d1ffa038a7414cb5ef86dbbef9288057f3",
+      "sha256": "a40b26de78ae6cc2ceeaa25a7ba06c75be629d5d2d33d8fd944b4353a4e6cdba",
+      "mode": "100644",
+      "characters": 24421
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_clinical_audit.json",
+      "bytes": 14307,
+      "git_blob_sha": "82693ec538e6030e5496816d511cab1d71fa34dd",
+      "sha256": "e81f705c7ce413c81034778cbd57a957489cb73b1437be4eff452e178f25daaa",
+      "mode": "100644",
+      "characters": 14253
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_product.json",
+      "bytes": 52131,
+      "git_blob_sha": "aaefab6fd6445b1d9a0cb3e4f113c1e25ca09664",
+      "sha256": "3e16de9bcd6dc855ddf09737488e64400917c102c69e0249b8667be48a711383",
+      "mode": "100644",
+      "characters": 52129
+    },
+    {
+      "path": "research/rounds/round7/enasidenib_product.md",
+      "bytes": 33206,
+      "git_blob_sha": "80fe146cb154d747c6e5af458f345408eab5707c",
+      "sha256": "bd80fb8d3473b44da34a23c1a6a11408903c3fd12e2a0a3fb8975a2cbe327508",
+      "mode": "100644",
+      "characters": 33114
+    },
+    {
+      "path": "research/rounds/round7/integration_review.md",
+      "bytes": 7861,
+      "git_blob_sha": "bb76ac9ae09e6995d1c591633e7ad822e323d977",
+      "sha256": "a8cd568458fe0cf73ffe85880f97627f13081a9d1a335595a0ede88ee263dcd4",
+      "mode": "100644",
+      "characters": 7857
+    },
+    {
+      "path": "research/rounds/round7/review_enas_by_rux_clinical.md",
+      "bytes": 9960,
+      "git_blob_sha": "a5ee8242c00a6c69f7d4e594a6439b9ca6ed3f99",
+      "sha256": "af415b6ff7e1c2881a2c592a1279933152e5b7be0eba570d37ddafbc57f9f8f5",
+      "mode": "100644",
+      "characters": 9934
+    },
+    {
+      "path": "research/rounds/round7/review_rux_by_enas_clinical.md",
+      "bytes": 9411,
+      "git_blob_sha": "c1178e0929dc497154915e836c53fadc02da3de3",
+      "sha256": "2e5775a402a64e026ade5d920479d399ccba9198e5202e9086edbf98eea6745e",
+      "mode": "100644",
+      "characters": 9399
+    },
+    {
+      "path": "research/rounds/round7/round7_root_deltas.json",
+      "bytes": 17153,
+      "git_blob_sha": "6f6b3d86609c92200238ddbe5d52bdc3e3e8fced",
+      "sha256": "8cc74cc8561c84839f3ffa296296189eccbda17e12c8beddd9c4dc00670f1654",
+      "mode": "100644",
+      "characters": 17143
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_clinical.json",
+      "bytes": 29376,
+      "git_blob_sha": "a5d87cc80836b9d8370225479bdd27ca492d6fea",
+      "sha256": "566215fe8efc1ba88925c598512e55c0eef3bf875e5fcf8b8326552b24e6bc8d",
+      "mode": "100644",
+      "characters": 29376
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_clinical.md",
+      "bytes": 21620,
+      "git_blob_sha": "27214827ca13ff2170082b8112ac3450ae85be9d",
+      "sha256": "bf212ee56848f6eb1b032443bc1381038153e1f659d55a6d659a3802643aaca8",
+      "mode": "100644",
+      "characters": 21568
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_clinical_audit.json",
+      "bytes": 5354,
+      "git_blob_sha": "a54c504d467931f5e02c414f36de8d5baa50cbd3",
+      "sha256": "dcdd9261ec349bac71a02778f62cc315025bbae71b826da4138b0b81f27a4cc5",
+      "mode": "100644",
+      "characters": 5354
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_development_proof.md",
+      "bytes": 16346,
+      "git_blob_sha": "61a097bddebe07addd60414d09ca0cd632ca035a",
+      "sha256": "fc7ff8bd9a12936fe9540d74b20fa7e0c00d55372ac3fdd17151ea851eaace49",
+      "mode": "100644",
+      "characters": 16330
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_product.json",
+      "bytes": 17945,
+      "git_blob_sha": "f2a952ee8ae15351b1f01ea27d443ffef0fa1cf1",
+      "sha256": "e752ee80a781b6a2fb30eaf531a4b4a539077ff54d9d675021fef3b6791ed875",
+      "mode": "100644",
+      "characters": 17943
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_product.md",
+      "bytes": 23065,
+      "git_blob_sha": "9dd8a577fbaa9431ccceedf157491394fabf07a5",
+      "sha256": "26ed10e16b4057da5e469c20d7d583a0bd71f8c9f008dd7c97c64a86b839b774",
+      "mode": "100644",
+      "characters": 23034
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_product_review.md",
+      "bytes": 6599,
+      "git_blob_sha": "26c2850156b5bf00b88466991e4173b0284c2bc1",
+      "sha256": "daa8e6e8bf2968ff11de901affb01945d21ba93b2067a4228102799e088a386a",
+      "mode": "100644",
+      "characters": 6593
+    },
+    {
+      "path": "research/rounds/round7/rux_hhd_source_audit.json",
+      "bytes": 34702,
+      "git_blob_sha": "a3b35980044e585eac1dbdc683b87406eb85cd1f",
+      "sha256": "338545627583ea1ae1f4c6231443aa078f8ffa7c1e6b41f97cd980ee4dedbab5",
+      "mode": "100644",
+      "characters": 34645
+    },
+    {
+      "path": "research/rounds/round8/README.md",
+      "bytes": 5653,
+      "git_blob_sha": "07455c7a52f7e8942df067a1b78558a4b3cc9b36",
+      "sha256": "4bfaf402f4a7a9db899051fe0978fa28f42adca61250f8c9cf0bdc499137c71e",
+      "mode": "100644",
+      "characters": 5650
+    },
+    {
+      "path": "research/rounds/round8/artifact-manifest.json",
+      "bytes": 11110,
+      "git_blob_sha": "30040ce087ff5cabd8f7e2ccb921446eda64ecc7",
+      "sha256": "b24def1e226600b19dd64c1d0f2e1f981c2155ec79e53683c64a418480e48b75",
+      "mode": "100644",
+      "characters": 11110
+    },
+    {
+      "path": "research/rounds/round8/blu3797-decision-input-template.json",
+      "bytes": 1975,
+      "git_blob_sha": "e6125c4993fc766b85cbd85c96943bcb32aad155",
+      "sha256": "dee7c6463928b8a1645f7bc9314e076158fd010869d1bc5cbae3645cdfb8d8f2",
+      "mode": "100644",
+      "characters": 1975
+    },
+    {
+      "path": "research/rounds/round8/blu3797-qualification-package.md",
+      "bytes": 30396,
+      "git_blob_sha": "9116e05e16ca0f12fc26b76b9cb8351c1b63f6ed",
+      "sha256": "5f3c0df42af3153f64cf7f16aa6603c667b8620686f9184a1c602bfb0e121845",
+      "mode": "100644",
+      "characters": 30320
+    },
+    {
+      "path": "research/rounds/round8/blu3797-qualification-spec.json",
+      "bytes": 7032,
+      "git_blob_sha": "d8f335706227a81ccbb31c08ce7193db6b930edf",
+      "sha256": "c8c4008095830104c4815665dc675197ed7264754b338854f2770ec1b43734ae",
+      "mode": "100644",
+      "characters": 7032
+    },
+    {
+      "path": "research/rounds/round8/blu3797-run-record-template.json",
+      "bytes": 3058,
+      "git_blob_sha": "58654435e1b9945d672116670d019bc57944f09e",
+      "sha256": "357a0a9a3d414d8119cb2b17e7b06c8749bc547d0b0426fd059f1768644c5561",
+      "mode": "100644",
+      "characters": 3058
+    },
+    {
+      "path": "research/rounds/round8/blu_article_exposure.json",
+      "bytes": 16317,
+      "git_blob_sha": "e7dacd1bc216547489379b0c369234864f5253e6",
+      "sha256": "731fa6b52ab1ecc67ca8fd0eb9c7d2137d265e648da52c08695a3d41db0afe96",
+      "mode": "100644",
+      "characters": 16297
+    },
+    {
+      "path": "research/rounds/round8/blu_article_exposure.md",
+      "bytes": 35096,
+      "git_blob_sha": "7b8fa81882324872a65c7b685a5cb5f00c786e3b",
+      "sha256": "64a7ea66605f373b6b3e56696dd7d6bae770db854f70c56599c53e1ffcaf4f05",
+      "mode": "100644",
+      "characters": 34991
+    },
+    {
+      "path": "research/rounds/round8/blu_identity_numeric_audit.json",
+      "bytes": 5785,
+      "git_blob_sha": "6b6db9c45dd8647b4452d92f53e6f19510d4adc0",
+      "sha256": "75b01a5bcd9bbbe47c7fdf092dc6bf20d51d3a9dddd1a6e5fcf82fb1cb3cf264",
+      "mode": "100644",
+      "characters": 5785
+    },
+    {
+      "path": "research/rounds/round8/blu_model_function.json",
+      "bytes": 16485,
+      "git_blob_sha": "8702538b4b7f45eb7c21e9ac71e523c677812ee3",
+      "sha256": "6f0a9f3ce83260a16e20f9595b05c28f4ebc1e8bd8680681bf1c39f2167aef6c",
+      "mode": "100644",
+      "characters": 16485
+    },
+    {
+      "path": "research/rounds/round8/blu_model_function.md",
+      "bytes": 37881,
+      "git_blob_sha": "ddf814150fd0a49cd88eb5453f44180cbd7391f4",
+      "sha256": "ca67d5fc4882c0c22d9e7fb5e11d6ef1abdc1e9be02893a9ae28043d816cffaa",
+      "mode": "100644",
+      "characters": 37799
+    },
+    {
+      "path": "research/rounds/round8/candidate-alias-audit.json",
+      "bytes": 11633,
+      "git_blob_sha": "52a0541581dcfec66634ffe945d578fb470eb0bc",
+      "sha256": "017eb48015c3a16c71111b4b1fde360ae48f2844458e60f3d19f5f0dd32929fb",
+      "mode": "100644",
+      "characters": 11633
+    },
+    {
+      "path": "research/rounds/round8/clinical_challenge.json",
+      "bytes": 17443,
+      "git_blob_sha": "db1fc37696a797bd72312738a0cbd402aab7616c",
+      "sha256": "d30483b40b0666ac7b56b884a741de0dac8d422abb0935e987ececab3b8920a5",
+      "mode": "100644",
+      "characters": 17427
+    },
+    {
+      "path": "research/rounds/round8/clinical_challenge.md",
+      "bytes": 16168,
+      "git_blob_sha": "c83ef3577f7c53268e120a0e3ab72731cff96ea5",
+      "sha256": "ac884a4f53e349f57d75b5e6ee5341375b387e56bdaaa3aa5206a492441cee62",
+      "mode": "100644",
+      "characters": 16152
+    },
+    {
+      "path": "research/rounds/round8/fluoxetine_endpoint_audit.json",
+      "bytes": 5203,
+      "git_blob_sha": "5c35731cf93354c5d9a9e3583ae3601582f67332",
+      "sha256": "c72b113f59e3ce447c044f33d9883b6702496e866c15728ec092850882174033",
+      "mode": "100644",
+      "characters": 5197
+    },
+    {
+      "path": "research/rounds/round8/integration_review.md",
+      "bytes": 8692,
+      "git_blob_sha": "1ee50c09ddd6496b8dddad01ace337db652a2573",
+      "sha256": "69806aa57d92146d6468ba15638795183aae72f3106495a2de75bfb55e2717ac",
+      "mode": "100644",
+      "characters": 8690
+    },
+    {
+      "path": "research/rounds/round8/new_candidates.json",
+      "bytes": 32471,
+      "git_blob_sha": "9c337575b734031e3923e898442745457c98140d",
+      "sha256": "d4a5c57860d4c7909df136c69e8512ee407cd36110b731c09f905e141b1ba42e",
+      "mode": "100644",
+      "characters": 32425
+    },
+    {
+      "path": "research/rounds/round8/new_candidates.md",
+      "bytes": 21783,
+      "git_blob_sha": "32b01e9a79143eea0041858066357798e655d082",
+      "sha256": "e2d2eec3e259b86f2a592181b72f2a969289a4785db280af5b8e80a0237311a6",
+      "mode": "100644",
+      "characters": 21721
+    },
+    {
+      "path": "research/rounds/round8/portfolio-allocation.md",
+      "bytes": 13430,
+      "git_blob_sha": "a9c32c70c42294d05f629d9a309bcc93b2968a3c",
+      "sha256": "14f507f87eb48e4766eca26f546af05af0d6be3f90c7eb1b7de1fd176ba83a55",
+      "mode": "100644",
+      "characters": 13421
+    },
+    {
+      "path": "research/rounds/round8/qualification-planning-audit.json",
+      "bytes": 2734,
+      "git_blob_sha": "aa18216c45a14e45681ef63b98e11e469292ee78",
+      "sha256": "5cb3aa359487857615d5db7a74b6984b5dc12ecf1d742ac3c711e3d1c9381a0b",
+      "mode": "100644",
+      "characters": 2734
+    },
+    {
+      "path": "research/rounds/round8/review_decision_utility.md",
+      "bytes": 6837,
+      "git_blob_sha": "ba604fd951add2723c6717d51e78f08a23486dbf",
+      "sha256": "d1c704a52a837b45ce62bf6737d3a80e921732b4e1a1ae645df42ebcfab2bb09",
+      "mode": "100644",
+      "characters": 6831
+    },
+    {
+      "path": "research/rounds/round8/review_fluoxetine_kcnc1.md",
+      "bytes": 9122,
+      "git_blob_sha": "726951cf6ff54674a715c0d0b80e18ff38028497",
+      "sha256": "0e1f5865460c970ec1199052ccadecbe05d7d6b308400ddc4af30c27d92fa971",
+      "mode": "100644",
+      "characters": 9106
+    },
+    {
+      "path": "research/rounds/round8/review_portfolio_integration.md",
+      "bytes": 14123,
+      "git_blob_sha": "9eb34b1f4266dedb154acdbeaf3b5fd6811e2804",
+      "sha256": "64950b75d9b69848ccd161e3997cd5c3e1cb8cb157bdc04f2312bc3102a0cff2",
+      "mode": "100644",
+      "characters": 14095
+    },
+    {
+      "path": "research/rounds/round8/review_qualification_article.md",
+      "bytes": 4151,
+      "git_blob_sha": "39317a11a84610811777c1f67805c11aa5dc84c1",
+      "sha256": "7975e5b3b8543546c79a72a5f723e872a7041740f9d68a96f13fabe4af2830e0",
+      "mode": "100644",
+      "characters": 4115
+    },
+    {
+      "path": "research/rounds/round8/review_qualification_model.md",
+      "bytes": 6246,
+      "git_blob_sha": "a2ea5a608348de3d78d90ebf76bb0263aac4ce50",
+      "sha256": "4d2b9681db00cf6cf4cbe3d3ee61a67f62cc90e7588286cc2c25d6b5211c4f0f",
+      "mode": "100644",
+      "characters": 6237
+    },
+    {
+      "path": "research/rounds/round8/round8_root_deltas.json",
+      "bytes": 4482,
+      "git_blob_sha": "4f186a83d77f85e248448fe1da3aabba4942ccc0",
+      "sha256": "7e8657c9a0e26cf6a468eaa127511dd4c9a9018c1157c3816b14e9315120d538",
+      "mode": "100644",
+      "characters": 4482
+    },
+    {
+      "path": "research/rounds/round8/w7_independent_challenge.json",
+      "bytes": 4467,
+      "git_blob_sha": "13b6134f8e3e38311aeabc6a49de2d9f4f6de6c7",
+      "sha256": "b2e17384d8001221863d1bb0514bbc491dc21d06f8459932b88748c030a0ae4a",
+      "mode": "100644",
+      "characters": 4459
+    },
+    {
+      "path": "research/rounds/round8/w7_independent_challenge.md",
+      "bytes": 12154,
+      "git_blob_sha": "dd28e577b2cdc897abf6f4200422e5783dda2c60",
+      "sha256": "14e06b0879c92afb200aa8eafcbd614b4782d1d8bf0a35d4e297de3bca4817ac",
+      "mode": "100644",
+      "characters": 12118
+    },
+    {
+      "path": "research/rounds/round9/README.md",
+      "bytes": 5218,
+      "git_blob_sha": "d244f9631d2dd132ce08fc32f3227b89e7799c8f",
+      "sha256": "9e6872b4c60ecde212078f76f8e2fde7fa0970f9a64effe567f38f8f685eaaf8",
+      "mode": "100644",
+      "characters": 5210
+    },
+    {
+      "path": "research/rounds/round9/artifact-manifest.json",
+      "bytes": 66384,
+      "git_blob_sha": "c273d7257cb01c68a7fe1072a02143bb494304a6",
+      "sha256": "95325d6097995436d9a8440a0ce5148f8f7dbc02bdf691f948b7c4558df23544",
+      "mode": "100644",
+      "characters": 66384
+    },
+    {
+      "path": "research/rounds/round9/blu-model-new-evidence.json",
+      "bytes": 12971,
+      "git_blob_sha": "4b0db11c4ef84915dc25021f401343d1ec37991a",
+      "sha256": "c8a1160e2ee57f9d7b288b8a332e647715ce589cb12a4a17fc7bbc2e8ed07af4",
+      "mode": "100644",
+      "characters": 12969
+    },
+    {
+      "path": "research/rounds/round9/blu-model-new-evidence.md",
+      "bytes": 16952,
+      "git_blob_sha": "ecd98157a0ad602951451b2933bb3d192cded179",
+      "sha256": "ce05fd8cb3d91301a3725b1fe49b1f825bd89ecef2dd83d6bbd403417553e495",
+      "mode": "100644",
+      "characters": 16923
+    },
+    {
+      "path": "research/rounds/round9/blu-target-safety-update.json",
+      "bytes": 23055,
+      "git_blob_sha": "f3713c8b345d231bd9d9b98bf87e4ed0275f74e5",
+      "sha256": "6d2065aeb7571d0bc3d9d90f4c2faf615dd74a6548c5ffcda2387c69539b8c8f",
+      "mode": "100644",
+      "characters": 23022
+    },
+    {
+      "path": "research/rounds/round9/blu-target-safety-update.md",
+      "bytes": 19312,
+      "git_blob_sha": "94cc24fb1fb783901b446e29f3d6b80d08a0b9bb",
+      "sha256": "68c7716d54509470d64ce56c08c95af34b6d4c130b0d52b0b050fc5a7387a947",
+      "mode": "100644",
+      "characters": 19205
+    },
+    {
+      "path": "research/rounds/round9/candidate-alias-audit.json",
+      "bytes": 3816,
+      "git_blob_sha": "1066ab9d86177d8c641299584761e30efcbc13c7",
+      "sha256": "553ecd40fb7de4da4ea020e8879b13176bc520b8bce5340658ab80345c2c8636",
+      "mode": "100644",
+      "characters": 3816
+    },
+    {
+      "path": "research/rounds/round9/clinical-comparator-update.json",
+      "bytes": 7919,
+      "git_blob_sha": "9a6ae17643c7e1415662a6fe97a682bd5e898232",
+      "sha256": "2ea5197b14560f38c5e5390915fc17000a8d3bd69db41477f5bfac412f9ac8b5",
+      "mode": "100644",
+      "characters": 7919
+    },
+    {
+      "path": "research/rounds/round9/clinical-comparator-update.md",
+      "bytes": 11866,
+      "git_blob_sha": "fd1a087e407823432fb81b0e7fc8021c1d30f905",
+      "sha256": "76a3393ca767367d7f4d63599f976b67afb3f87c860c637af674d71556881fed",
+      "mode": "100644",
+      "characters": 11827
+    },
+    {
+      "path": "research/rounds/round9/independent-qualification-review.json",
+      "bytes": 9557,
+      "git_blob_sha": "8df47969460dabc094237817c8bed7e87a449bd8",
+      "sha256": "99521b98048c34d36f1fa266d451e6b4ab870594598b731ab5832d3dd6f12c02",
+      "mode": "100644",
+      "characters": 9557
+    },
+    {
+      "path": "research/rounds/round9/independent-screen-review.json",
+      "bytes": 6855,
+      "git_blob_sha": "7ec1ee3ae95f45a97ecc19fb214206322535f9f0",
+      "sha256": "7c6177f663ef629b76e4e754e34a0d421de1800a1d38b01ac89377cf968238e0",
+      "mode": "100644",
+      "characters": 6855
+    },
+    {
+      "path": "research/rounds/round9/integration-review.md",
+      "bytes": 6959,
+      "git_blob_sha": "6d1c051871d22989baa0064dd42614725586a9ec",
+      "sha256": "958c1f2e08672ba37b16769739c047486cfa2136d88beed5e62e3e731778b005",
+      "mode": "100644",
+      "characters": 6948
+    },
+    {
+      "path": "research/rounds/round9/lisdexamfetamine-evidence-update.json",
+      "bytes": 3223,
+      "git_blob_sha": "25933f9774857a1d8e4bbb44ceca5b6a4e4d657b",
+      "sha256": "13caa9fe324c0c0b39a9e342da4efef3c07cf726608228f4ecbae00c06c3400c",
+      "mode": "100644",
+      "characters": 3223
+    },
+    {
+      "path": "research/rounds/round9/lisdexamfetamine-evidence-update.md",
+      "bytes": 6611,
+      "git_blob_sha": "bb6c3ef2a4932a49ec68d5b3bb8f9ce2efc03c79",
+      "sha256": "6ccb369811c4336db2bb45f24919729238dc84953a185297d0d2e8674ab2aed8",
+      "mode": "100644",
+      "characters": 6608
+    },
+    {
+      "path": "research/rounds/round9/local-verification.json",
+      "bytes": 4094,
+      "git_blob_sha": "4ce5dedd2e15807c00471085c0b0013b78314640",
+      "sha256": "dca2e596fd8362e328db0cf7dab29b4213294be82a02e81a25bfdeeab5557e5d",
+      "mode": "100644",
+      "characters": 4094
+    },
+    {
+      "path": "research/rounds/round9/new-candidate-screen.json",
+      "bytes": 8816,
+      "git_blob_sha": "5ffba983993f2933f1057dbf655b57fe9ec1bd8e",
+      "sha256": "d6414a3770bad2aa90e4a14111c95d07fd493c5d4a77100941e497726e0c01f4",
+      "mode": "100644",
+      "characters": 8812
+    },
+    {
+      "path": "research/rounds/round9/new-candidate-screen.md",
+      "bytes": 12543,
+      "git_blob_sha": "16761c9f092d36a14a7042f91c6546e9ba9ada5f",
+      "sha256": "9a2ab78967c044279b41e85a61850c0bd8ea6b1d9c357a0fb6bbea9668b9c96a",
+      "mode": "100644",
+      "characters": 12527
+    },
+    {
+      "path": "research/rounds/round9/qualification-amendments.json",
+      "bytes": 4126,
+      "git_blob_sha": "c6857a07c3a1d0c48abaa9ed84e85c5d4a41128c",
+      "sha256": "1e0fe3d4b570e7fb3e4c20a486a6678a19a344bdb4050ecc3efd08e9456ed30e",
+      "mode": "100644",
+      "characters": 4124
+    },
+    {
+      "path": "research/rounds/round9/round8-recovery-verification.json",
+      "bytes": 47692,
+      "git_blob_sha": "9dd8c98151f34f90b0f70413e334b14061b3ce93",
+      "sha256": "118e2e501dd6fe40ad17633e3f005482d05d2db39ce0ec032994ca3067ebba4e",
+      "mode": "100644",
+      "characters": 47692
+    },
+    {
+      "path": "research/rounds/round9/round9-root-deltas.json",
+      "bytes": 7974,
+      "git_blob_sha": "14b15a498b04306caf9ca7ed966766e93ac67b25",
+      "sha256": "d5401b93906ecd808a3d95733590e19d9e619e7ce77610b0a7dbc0e05c6f539d",
+      "mode": "100644",
+      "characters": 7970
+    },
+    {
+      "path": "research/screen-index.md",
+      "bytes": 28658,
+      "git_blob_sha": "761aa9a6c93978136d8b8671d5770a0ae8d21597",
+      "sha256": "4ae4140bb16beed6247d42a4bd25b2ea2481082fa22a8fb3f60e373001c7d8a2",
+      "mode": "100644",
+      "characters": 28546
+    },
+    {
+      "path": "research/source-data/README.md",
+      "bytes": 2553,
+      "git_blob_sha": "449298d6897b968f5d7e36c0914d3ea5fb7e94ac",
+      "sha256": "96e9a7fc1e52e21b02398be1618f0f420d8bae3a84155103f7ea48f9438fe864",
+      "mode": "100644",
+      "characters": 2552
+    },
+    {
+      "path": "research/source-data/blu3797-source-values.xlsx",
+      "bytes": 824614,
+      "git_blob_sha": "6c99f56423aec44455f36bbe47321eed316bd42d",
+      "sha256": "61b73e018b4c294a7df77eb2dd1f6358035fc20d8073071d693ae5678cae0cb3",
+      "mode": "100644"
+    }
+  ],
+  "self_digest_binding": {
+    "path": "research/rounds/round18/artifact-manifest.json",
+    "method": "The containing Git tree records this file blob SHA; no recursive self-hash is embedded."
+  }
+}

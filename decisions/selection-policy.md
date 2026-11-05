@@ -2,6 +2,16 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 18: the cost of an informative decision and a finite source stop
+
+The [BLU decision](../research/rounds/round18/marginal-dollar-decision.md) keeps initial article/exposure/model qualification separate from additional conditional human-function work. An initial qualification price is not automatically the cost of learning whether a drug improves function. Keep each stage's assumptions, deliverable and option to stop explicit. An existing-source search is worth repeating only when a substantive artifact can resolve a named decision input.
+
+Metadata that identify an accepted manuscript do not establish its content or a qualified model. Planned observational participants and follow-up records are not observed outcomes. Sponsor nonclinical targeting and relative starting-dose claims do not establish clinical safety, equal efficacy or an enduring comparator-excluded market. A muscle energetic readout cannot settle a different organ's disease or drug-response question.
+
+Interpretation remains claim specific. Inadequate article, exposure, deficit or precision limits a negative. Post-deficit modifiability additionally matters for a strong negative reversal inference; it is not a universal entry gate for every ongoing-control or preservation claim. A credible positive may justify confirmation before a complete mechanistic/systemic program. None of these rules changes the historical numerical BLU work-order conditions or authorizes execution.
+
+BLU is the selected completed information sprint; APR1/RM2/BLU3 remains the independent review conditional development order. Closure of a source pass does not automatically demote the candidate. Retain the historical queue as provenance and compare the actual next marginal commitment, including waiting.
+
 ## Round 17: selecting information and interpreting useful corneal function
 
 The [RM4404 decision](../research/rounds/round17/marginal-dollar-decision.md) distinguishes the next eligible public-source sprint from the conditional development ranking. APR's completed source pass does not demote its development opportunity. Retain the independent review order APR1/RM2/BLU3 unless substantive evidence changes the next marginal-dollar comparison. Do not use historical allocation, elapsed effort or an exhausted search as an EV proxy.

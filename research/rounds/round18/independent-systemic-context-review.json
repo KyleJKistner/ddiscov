@@ -1,0 +1,363 @@
+{
+  "schema_version": "ddiscov.round18.independent_systemic_context_review.v1",
+  "reviewer": "/root/r18_blu_human",
+  "review_date_utc": "2026-11-05T01:08:11.252107+00:00",
+  "evidence_cut": "2026-11-04 America/Los_Angeles",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-systemic-context.md",
+      "bytes": 12541,
+      "sha256": "9641932ab13677e07bb70195c92a3582746c7f12717a08dd1c5576fe7c7d074f"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-systemic-context.json",
+      "bytes": 44071,
+      "sha256": "284470f3257c703401b9d0eccb49d2fd4527422976d8cc51665771e728cd30dc"
+    }
+  ],
+  "scope": "Independent accuracy, source-scope, causal-interpretation, staged-cost and integrity review of the final systemic-context narrative and JSON. No failed source path was retried and no source lane was reopened.",
+  "source_checks": [
+    {
+      "id": "SC1",
+      "source_ids": [
+        "L18-S1"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39008988/",
+      "locator": "Complete abstract and bibliographic record; retrieved lines 245–249",
+      "read_scope": "Directly read the full primary abstract. Full paper and supplement not sought again.",
+      "check": "Two reported patients, two muscle specimens and one liver specimen; reduced muscle and normal liver respiratory-chain enzyme activity. No person/specimen linkage, quantitative values or exact-drug exposure inferred.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC2",
+      "source_ids": [
+        "L18-S2"
+      ],
+      "url": "https://mtmcnmregistry.org/media/images/MAT-GB-NON-2024-00_649_HTML_Draft1PDF.pdf",
+      "locator": "Entire one-page January 2025 sponsor notice",
+      "read_scope": "Complete PDF text directly read.",
+      "check": "Prospective observation, approximately 50 planned males, age below 18, some ventilation, about one year, approximately six-week liver/gallbladder assessments, interventional-study exclusion. No current registry/status/result inference.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC3",
+      "source_ids": [
+        "C2"
+      ],
+      "url": "https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/4q2025_pre_en.pdf",
+      "locator": "PDF page index 10 / printed slide 11, visually inspected",
+      "read_scope": "Targeted sponsor slide read as an actual rendered image; PDF text alone omitted the capsid name.",
+      "check": "MyoAAV3.8 appears explicitly; muscle specificity/reduced liver targeting is a nonclinical sponsor claim; dose wording concerns clinical-study initiation. No original nonclinical dataset or denominator audit.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC4",
+      "source_ids": [
+        "C3"
+      ],
+      "url": "https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/4q2025_script_en.pdf",
+      "locator": "Printed page 11, ASP2957 passage",
+      "read_scope": "Targeted transcript text directly read.",
+      "check": "The approximately 100-fold comparison is explicitly a starting-dose/program statement versus AT132. Same April 27, 2026 event as the slide; no independent cohort or clinical window established.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC5",
+      "source_ids": [
+        "C1"
+      ],
+      "url": "https://www.clinicaltrials.astellas.com/study/2957-CL-0101",
+      "locator": "Study summary, enrollment field and inclusion/exclusion criteria",
+      "read_scope": "Current sponsor page directly read, including planned enrollment and selected population.",
+      "check": "Phase 1/2 open label, enrollment field nine, projected age at most 36 months, invasive support at least 20 hours/day and tracheostomy. No actual dosed denominator or efficacy report implied.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC6",
+      "source_ids": [
+        "C4"
+      ],
+      "url": "https://www.clinicaltrials.astellas.com/studies?phases=PHASE_1~PHASE_2~PHASE_3",
+      "locator": "Official-domain indexed NCT07876804 / 2957-CL-4001 listing",
+      "read_scope": "Reproduced the indexed title/IDs and Will Be Recruiting label. Did not retry the failed detailed page, ClinicalTrials HTML or API.",
+      "check": "Plan-only scope and null outcome/enrollment/duration fields are preserved.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC7",
+      "source_ids": [
+        "C5"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37977713/",
+      "locator": "Methods, findings and interpretation in the primary abstract",
+      "read_scope": "Complete relevant primary abstract sections directly read.",
+      "check": "Twenty-four dosed participants across the two actual dose cohorts; four treated deaths with cholestatic liver failure; altered design, exploratory as-treated analyses. Benefits/harms attach to AT132, not ASP2957 or BLU.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC8",
+      "source_ids": [
+        "T1"
+      ],
+      "url": "https://www.isrctn.com/ISRCTN34421891",
+      "additional_official_indexed_url": "https://www.isrctn.com/pdf/34421891",
+      "locator": "Official-domain indexed Results and Publications/IPD fields",
+      "read_scope": "Indexed fields only; no failed live record retried. PDF search excerpt gives an intention-to-publish date in 2024, not a completed result.",
+      "check": "Planned reporting is not evidence that an efficacy publication appeared. Final wording explicitly handles an elapsed planned date.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC9",
+      "source_ids": [
+        "T2",
+        "T3",
+        "L18-S3",
+        "L18-S4",
+        "L18-S6"
+      ],
+      "prior_repository_paths": [
+        "research/rounds/round6/round6_clinical_translation.md",
+        "research/rounds/round5/round5_blu_biology.json",
+        "research/rounds/round6/round6_blu_translation.json",
+        "research/rounds/round8/blu_model_function.md"
+      ],
+      "read_scope": "Baseline source records and relevant prior passages checked; no new audit of inaccessible full articles or re-extraction of prior patient data.",
+      "check": "TAM4MTM six-versus-seven and two hepatic serious adverse events are explicitly prior observations. Historical disease-liver and genetic findings retain their original perturbation limits.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "SC10",
+      "source_ids": [
+        "I1"
+      ],
+      "document": "ddiscov_marginal_capital_ranking.pdf",
+      "locator": "Page 2 cost table and BLU discussion as provided in parent context",
+      "read_scope": "Checked against the independent-review extract inherited from root; did not reacquire the original file.",
+      "check": "Initial $60–180k/3–6 months and additional conditional $100–300k/4–8 months remain distinct analyst assumptions, with no validated combined total, quote or automatic release.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "subject": "Human biological units",
+      "assessment": "People and specimens remain separate. Full-paper fields are null; one liver specimen is not an independent population or a universal mechanism.",
+      "evidence": [
+        "SC1"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F02",
+      "subject": "Organ-specific causal inference",
+      "assessment": "Normal hepatic respiratory-chain activity is not promoted to normal canalicular transport, reserve, all mitochondrial function or exact-drug tolerance. No universal new liver gate is added.",
+      "evidence": [
+        "SC1",
+        "hepatic_audit.decision",
+        "hepatic_audit.evidence_rows L18-E1–E2"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F03",
+      "subject": "Prior model and clinical context",
+      "assessment": "Zebrafish, diet-sensitive mouse, DNM2 antisense and lifelong healthy catalytic-inactivation findings remain attached to their original systems and are not counted as new BLU evidence.",
+      "evidence": [
+        "SC9"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F04",
+      "subject": "EXCEL plan/status distinction",
+      "assessment": "Dated planned enrollment, duration and assessments are not presented as actual current enrollment, completion, outcomes or a ready assay/data route.",
+      "evidence": [
+        "SC2",
+        "hepatic_audit.evidence_rows L18-E3–E4"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F05",
+      "subject": "Exact capsid and dose claim",
+      "assessment": "MyoAAV3.8 is verified visually. The 100-fold claim remains a sponsor starting-dose comparison with no absolute dose, equal efficacy, risk reduction or therapeutic-window calculation.",
+      "evidence": [
+        "SC3",
+        "SC4"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F06",
+      "subject": "Same-event deduplication",
+      "assessment": "Slide and transcript are correctly one April 27, 2026 sponsor event, not independent biological corroboration.",
+      "evidence": [
+        "SC3",
+        "SC4",
+        "competitor_audit.accounting"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F07",
+      "subject": "VALOR population and outcome limits",
+      "assessment": "Selected young, severely ventilated eligibility is not an eventual label, actual dosed denominator or residual-market estimate. No ASP2957 clinical result is asserted.",
+      "evidence": [
+        "SC5"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F08",
+      "subject": "Long-term follow-up source ceiling",
+      "assessment": "The detailed LTFU record remains unread; indexed status and identifiers are not promoted into duration, observed durability, actual enrollment or an independent treated cohort.",
+      "evidence": [
+        "SC6"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F09",
+      "subject": "Exact product identity",
+      "assessment": "AT132 clinical benefits and cholestatic deaths are not transferred to ASP2957 or BLU. Dish force is not converted into ventilator independence.",
+      "evidence": [
+        "SC7",
+        "competitor_audit.evidence_rows D05"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F10",
+      "subject": "TAM4MTM counts and reporting",
+      "assessment": "Fresh indexed publication plans remain separate from carried-forward six registry participants, seven investigator-reported completions and two hepatic serious adverse events. No new outcome or invented national split.",
+      "evidence": [
+        "SC8",
+        "SC9"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F11",
+      "subject": "Staged economic scope",
+      "assessment": "Qualification and conditional function increments remain separate, illustrative and unvalidated. Scope escalation triggers a new comparison; no automatic investment or complete organ program is imposed.",
+      "evidence": [
+        "SC10",
+        "competitor_audit.tranche_assumptions"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F12",
+      "subject": "Contribution, rights and ranking",
+      "assessment": "No fixed gene-therapy-excluded niche, broad population monetization, safer/cheaper oral assumption or retained financial value is asserted. BLU source priority does not change APR1/RM2/BLU3 development order.",
+      "evidence": [
+        "competitor_audit.contribution_logic",
+        "competitor_audit.evidence_rows D09–D11",
+        "decision"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "F13",
+      "subject": "Integrity and restrictions",
+      "assessment": "Strict JSON parsed; all 15 source records and 22 evidence rows resolve within their ledgers, six hepatic claim supports resolve, local links exist and all six activity fields are false.",
+      "evidence": [
+        "deterministic_checks"
+      ],
+      "status": "pass",
+      "blocking_for_this_review": false
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "R01",
+      "issue": "Inoue retrieval limit retained an initial indexed-only phrase despite the recorded root direct abstract read.",
+      "resolution": "Root amended the access-limit string to distinguish the initial indexed read from its complete direct PubMed abstract/metadata read. Full paper/supplement remain unread. Rechecked in the exact bound JSON.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "R02",
+      "issue": "TAM4MTM wording called a planned publication date future even though the indexed official date is elapsed.",
+      "resolution": "Root changed T18-E3 to state that a planned publication date, including an elapsed date, does not establish a report. No result or denominator was inferred. Rechecked in exact bound JSON.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "O01",
+      "issue": "Inoue full paper, quantitative/complex-specific values, variants and specimen-to-person linkage remain unread or unverified.",
+      "consequence": "Keep the organ comparison narrow and avoid universal mechanism or safety claims.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "O02",
+      "issue": "EXCEL current registry status, actual enrollment and longitudinal outcomes are unverified.",
+      "consequence": "Treat the dated notice as planned evidence only, with no available resource or results claim.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "O03",
+      "issue": "ASP2957 original nonclinical data, exact comparative dose basis, clinical efficacy/safety estimates and detailed LTFU data remain unaudited.",
+      "consequence": "The sponsor program claims cannot establish a clinical advantage, therapeutic window or durable benefit.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "O04",
+      "issue": "TAM4MTM source-specific denominator discrepancy and completed efficacy report remain unresolved.",
+      "consequence": "Preserve six and seven as prior source observations; do not pool or infer new outcomes.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    },
+    {
+      "id": "O05",
+      "issue": "Exact-BLU disease-liver exposure/function, clinically useful benefit, execution costs, rights/access and retained value remain unqualified.",
+      "consequence": "The public-source pass may close while later commitments remain conditional; no new universal experimental gate or validated investment return.",
+      "blocking_for_this_review": false,
+      "material_to_later_development_decision": true
+    }
+  ],
+  "deterministic_checks": {
+    "strict_json_parse": true,
+    "duplicate_keys_rejected": true,
+    "source_records": 15,
+    "evidence_rows": 22,
+    "hepatic_claim_decisions": 6,
+    "all_source_and_claim_ids_resolve": true,
+    "relative_links_checked": [
+      "blu-systemic-context.json",
+      "blu-human-model-update.md",
+      "marginal-dollar-decision.md"
+    ],
+    "activity_fields_all_false": true,
+    "reviewed_bytes_rechecked_before_binding": true
+  },
+  "review_method": "Read both complete authored files; independently inspect accessible primary abstract, sponsor notice, program slide/transcript and VALOR/ASPIRO passages; reproduce only the stated official indexed LTFU and TAM reporting fields; compare relevant prior repository records; check scope/causality/cost logic; perform document integrity checks and bind final bytes. No failed path retried.",
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false,
+  "scientific_or_model_utilities_executed": false
+}

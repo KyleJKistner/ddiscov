@@ -1,0 +1,155 @@
+{
+  "schema_version": "ddiscov.round18.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_publication_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "new_BLU_treated_people": 0,
+    "new_independent_human_BLU_function_results": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "human_source_access_records": 5,
+    "human_evidence_rows": 5,
+    "human_claim_decisions": 4,
+    "new_institutional_manuscript_provenance_routes": 1,
+    "new_manuscript_content_reads": 0,
+    "hepatic_source_records": 6,
+    "hepatic_evidence_rows": 8,
+    "hepatic_claim_decisions": 6,
+    "new_to_repository_human_tissue_reports": 1,
+    "competitor_source_records": 6,
+    "competitor_evidence_decision_rows": 11,
+    "tamoxifen_source_records": 3,
+    "tamoxifen_update_rows": 3,
+    "completed_information_updates": 5,
+    "opportunity_routes": 3,
+    "decision_branches": 5,
+    "independent_review_documents_total": 3,
+    "reviewed_authored_files": 6
+  },
+  "scope": "One existing candidate: named human-model publication update, disease-liver and comparator context, staged marginal-dollar decision and finite source close.",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar, including remaining cost, time, clinical risk and retained value",
+    "selected_uncertainty": "Whether the existing BLU article/exposure and human-muscle route can produce an interpretable useful-function decision at bounded qualification scope",
+    "basis": "Next eligible source sprint after APR and RM closure, following the independent conditional order and checking specific fresh primary artifacts that could change the next commitment",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 3,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_or_RM_development_priority_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "zero_or_wait_option_included": true
+  },
+  "independent_review_input": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "read_scope": "Ten-page review recovered in Round16; BLU-specific objective, conditional order, two-stage budget, scope and promotion/stop passages rechecked in Round18",
+    "kind": "analytical_input_not_primary_efficacy",
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "ordinal_not_calculated_financial_return": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "BLU3797_XLMTM",
+      "new_candidate": false,
+      "source_scopes": [
+        "research/rounds/round18/blu-human-model-update.json",
+        "research/rounds/round18/blu-systemic-context.json",
+        "research/rounds/round18/marginal-dollar-decision.json"
+      ],
+      "decision_scope": "research/rounds/round18/marginal-dollar-decision.json",
+      "delta": [
+        "Complete the selected marginal-information sprint after APR/RM source closure; retain APR1/RM2/BLU3 conditional development order, the existing scientific recommendation and no numerical EV or new allocation.",
+        "A new official Kyoto/NDL manuscript record points to the existing Kora Brain article. Metadata read, manuscript unread; no new genotype, donor/force/timing result, access or model-cost qualification.",
+        "A newly recovered two-patient primary abstract separates two muscle respiratory-chain observations from one liver observation. It establishes neither BLU pharmacology nor generalized hepatic normality; no new universal gate.",
+        "EXCEL and ASP2957 follow-up records supply planned future evidence sources. ASP2957 sponsor capsid/starting-dose detail is not clinical efficacy, proven safety improvement or a permanent excluded market for BLU.",
+        "TAM4MTM exact update recovers no completed efficacy dataset; earlier six-versus-seven reporting discrepancy remains unresolved and is not refreshed from a live record shell.",
+        "Keep the illustrative $60–180k qualification scope separate from the additional conditional $100–300k functional scope; neither is validated or committed. Major scope expansion requires a new comparison, including waiting.",
+        "Close the bounded public-source pass. Existing article/model/numerical gates and exact-claim/exposure stop rules remain; reopen only for substantive content or facts changing a named commitment."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round18/blu-human-model-update.json",
+    "research/rounds/round18/blu-systemic-context.json",
+    "research/rounds/round18/marginal-dollar-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null,
+    "conditional_development_order_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round18/independent-human-model-review.json",
+    "research/rounds/round18/independent-systemic-context-review.json",
+    "research/rounds/round18/independent-marginal-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round18/integration-review.md",
+  "local_verification": "research/rounds/round18/local-verification.json",
+  "artifact_manifest": "research/rounds/round18/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "generic_BLU_exposure_search_reopened": false,
+    "BLU_claim_mapping_reopened": false,
+    "generic_human_model_variant_catalog_search_reopened": false,
+    "specific_new_manuscript_record_checked": true,
+    "accepted_manuscript_content_recovered": false,
+    "new_exact_human_force_dataset_recovered": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_only_for": [
+      "Accessible substantive Kora/Lionello methods or exact-line data resolving a named model input",
+      "New independent exact-article human functional evidence or an exact exposure/selectivity correction",
+      "Substantive disease-liver or competitor outcome data relevant to a specified population",
+      "A changed relevant claim/prosecution fact or newly identified exact-origin family under the existing Round12 stop rule",
+      "Concrete article/model/access/cost/transaction facts changing a finite next commitment"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "Kora official deposit metadata read; manuscript content not recovered, version labels unresolved and no new functional fields inferred.",
+    "Inoue abstract only, with two muscle/one liver specimens; no full-paper genotype, quantitative enzyme or specimen-person linkage recovered.",
+    "Dated EXCEL notice and indexed ASP2957 follow-up listing are plans; actual enrollment/outcomes and data access not established.",
+    "Sponsor ASP2957 relative starting dose and nonclinical targeting do not establish equal efficacy, a therapeutic window or human safety improvement.",
+    "TAM4MTM fresh update supplies no completed efficacy report or fresh reconciliation of the old six-versus-seven counts.",
+    "No actual project cost/time, native useful exposure window, exact-asset rights terms or financial EV established."
+  ]
+}

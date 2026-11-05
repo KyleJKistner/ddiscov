@@ -1,0 +1,263 @@
+{
+  "schema_version": "ddiscov.round18.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "fc6202ddb2e00ece75e423c34c7a89ac46200825",
+  "candidate_id": "BLU3797_XLMTM",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar, including remaining cost, time, clinical risk and retained value",
+    "selected_uncertainty": "Whether the existing BLU article/exposure and human-muscle route can produce an interpretable useful-function decision at bounded qualification scope",
+    "basis": "Next eligible source sprint after APR and RM closure, following the independent conditional order and checking specific fresh primary artifacts that could change the next commitment",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 3,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_or_RM_development_priority_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "zero_or_wait_option_included": true
+  },
+  "decision": "Complete and close this bounded BLU public-source pass. Retain affirmative staged article/exposure/model qualification and conditional human-function work, without a financial-rank promotion, paid commitment or execution authorization.",
+  "scientific_tier": "Existing bounded qualification project; no S-tier promotion or new efficacy tier",
+  "independent_review": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "read_scope": "Ten-page review recovered in Round16; BLU-specific objective, conditional order, two-stage budget, scope and promotion/stop passages rechecked in Round18",
+    "kind": "analytical_input_not_primary_efficacy",
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM"
+    ],
+    "ordinal_not_calculated_financial_return": true
+  },
+  "intended_first_claim": "Useful on-treatment human muscle function in one qualified MTM1 background; preservation during maturation, reversal of an established deficit and respiratory benefit are distinct claims",
+  "claim_and_stage_limits": {
+    "human_function_missing_is_question_not_automatic_rejection": true,
+    "positive_function_can_precede_full_delayed_control_engineering": true,
+    "negative_target_inference_requires_qualified_exposure_model_and_perturbation": true,
+    "publication_metadata_qualifies_force_model": false,
+    "publication_implies_material_access_or_price": false,
+    "morphology_or_molecular_marker_substitutes_for_force": false,
+    "muscle_energy_readout_clears_disease_liver": false,
+    "other_drug_or_AAV_harm_is_BLU_harm": false,
+    "normal_single_liver_MRC_sample_excludes_hepatobiliary_disease": false,
+    "sponsor_nonclinical_comparison_establishes_human_safety": false,
+    "all_genotypes_and_systemic_modules_required_before_first_signal": false,
+    "permanent_drug_free_cure_universally_required": false,
+    "existing_quantitative_thresholds_recalibrated": false,
+    "new_experimental_protocol_designed": false
+  },
+  "tranche_assumptions": {
+    "currency": "USD",
+    "qualification": {
+      "cost_range": [
+        60000,
+        180000
+      ],
+      "months_range": [
+        3,
+        6
+      ],
+      "scope": "Article, exposure and model qualification"
+    },
+    "conditional_function": {
+      "additional_cost_range": [
+        100000,
+        300000
+      ],
+      "additional_months_range": [
+        4,
+        8
+      ],
+      "scope": "Conditional functional work after interpretable inputs"
+    },
+    "source": "Independent review page2",
+    "status": "Analyst planning assumptions; not quotes, validated schedules, all-in development budgets or probability estimates",
+    "general_exclusions": [
+      "Rights and licensing",
+      "GLP toxicology",
+      "GMP clinical manufacture",
+      "Clinical trials",
+      "Commercialization"
+    ],
+    "quotes_obtained": false,
+    "external_commitment_usd": 0,
+    "combined_budget_validated": false,
+    "scope_expansion_requires_new_comparison": true
+  },
+  "completed_information_updates": [
+    {
+      "id": "U1",
+      "kind": "new_documentary_provenance_with_unread_content",
+      "finding": "Official NDL/IRDB metadata links a Kyoto accepted-manuscript manifestation to the existing Kora Brain article. Metadata were read; manuscript content was not recovered. No new force, timing, donor or access qualification follows.",
+      "new_independent_efficacy": false
+    },
+    {
+      "id": "U2",
+      "kind": "new_to_repository_primary_case_report_abstract",
+      "finding": "Inoue reports two muscle specimens with reduced respiratory-chain activity and one liver specimen with normal activity in two patients with liver involvement. This supports tissue-specific interpretation, not generalized liver reassurance or BLU injury/rescue.",
+      "new_BLU_efficacy_or_safety": false
+    },
+    {
+      "id": "U3",
+      "kind": "new_to_repository_observational_program_plan",
+      "finding": "The January2025 EXCEL notice describes prospective liver-focused observational work. Its planned participants and measurements supply a specific future evidence trigger, not current enrollment, results, data access or a new study to initiate.",
+      "new_clinical_result": false
+    },
+    {
+      "id": "U4",
+      "kind": "new_to_repository_competitor_program_detail",
+      "finding": "Sponsor ASP2957 platform/dose-positioning and long-term follow-up planning add program specificity without a recovered clinical efficacy result, established safer exposure, validated residual market or direct BLU comparison.",
+      "new_BLU_efficacy_or_safety": false
+    },
+    {
+      "id": "U5",
+      "kind": "bounded_clinical_update_without_new_completed_report",
+      "finding": "The exact TAM4MTM update returns the prior termination/account and registry plans. No completed efficacy dataset was recovered and the old six-versus-seven denominator discrepancy remains unresolved.",
+      "new_clinical_result": false
+    }
+  ],
+  "marginal_value_judgment": {
+    "positive_case": "Strong carried-forward causal and exact-mouse rationale plus a specified first human-function question preserve a potentially valuable conditional qualification option.",
+    "limiting_case": "The current public update does not qualify an exact human force route, establish a native exposure/selectivity window, verify actual project cost or demonstrate retained asset economics.",
+    "decision_after_this_information": "Stop repeating generic public searches and preserve the finite staged decision. Reopen only for a substantive document/data/product fact capable of changing a named input.",
+    "observed_new_BLU_function_effect": null,
+    "updated_numerical_success_probability": null,
+    "absence_of_retrieved_result_is_biological_failure": false,
+    "closed_source_pass_is_automatic_development_demote": false,
+    "scope_is_fundability_judgment_not_execution": true
+  },
+  "routes": [
+    {
+      "id": "R1",
+      "name": "Bounded existing-article/exposure/model qualification",
+      "status": "affirmative_scientific_recommendation_execution_unqualified",
+      "question": "Can one existing route yield an interpretable human useful-function decision without expanding into open-ended model or chemistry development?",
+      "all_models_required": false,
+      "full_systemic_development_required_upfront": false,
+      "execution_now": false
+    },
+    {
+      "id": "R2",
+      "name": "Conditional human-function comparison and independent confirmation",
+      "status": "conditional_on_interpretable_inputs",
+      "question": "Does useful force/fatigue improve at interpretable exposure in the selected background, and does that result justify confirmation and broader translation?",
+      "human_BLU_force_verified": false,
+      "execution_now": false
+    },
+    {
+      "id": "R3",
+      "name": "Major new model, chemistry, systemic-window or rights program",
+      "status": "scope_change_recompare",
+      "question": "Do the actual added cost, delay, learning value and retained economics still outrank eligible alternatives and waiting?",
+      "automatic_scope_extension": false,
+      "execution_now": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "B1",
+      "condition": "A finite existing route can resolve the first human-function decision at credible cost/time",
+      "decision": "Retain the conditional qualification opportunity; require actual execution inputs before any later authorized run",
+      "current_result": "plausible_not_cost_or_execution_qualified",
+      "execution_now": false
+    },
+    {
+      "id": "B2",
+      "condition": "A credible within-background functional positive is obtained with interpretable article/exposure and acceptable function",
+      "decision": "Independent confirmation can be justified without waiting for every causal-control or systemic module",
+      "current_result": "future_rule_no_new_positive",
+      "execution_now": false
+    },
+    {
+      "id": "B3",
+      "condition": "The result is negative but article, exposure, deficit or precision is inadequate, or, for an intended reversal claim, post-deficit modifiability is inadequate",
+      "decision": "Classify the relevant result as inconclusive or redirect the deficient route; do not reject the target from an uninformative result",
+      "current_result": "future_rule_no_new_negative",
+      "execution_now": false
+    },
+    {
+      "id": "B4",
+      "condition": "Qualification expands into major new model, chemistry, supply or rights work",
+      "decision": "Recompare actual incremental cost/time/information/capture against eligible alternatives and waiting; do not inherit the small-tranche label or historical allocation",
+      "current_result": "risk_not_observed_cost_overrun",
+      "execution_now": false
+    },
+    {
+      "id": "B5",
+      "condition": "Useful biology survives but relevant exposure safety, product contribution or retained economics is inadequate",
+      "decision": "Change article, narrow the product proposition, defer asset development or separately justify a scientific/public-benefit project",
+      "current_result": "unresolved_not_established_failure",
+      "execution_now": false
+    }
+  ],
+  "decision_inputs_remaining": [
+    "Authenticated exact article and independently specified pharmacology",
+    "Native useful exposure/selectivity interpretation",
+    "Reproducible qualified human force deficit and informative result interpretation",
+    "Intended population and relevant systemic/respiratory claim bridge",
+    "Actual finite qualification cost and time",
+    "Applicable exact-asset rights, access terms and retained economics"
+  ],
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "completion": {
+    "public_source_pass_closed": true,
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "generic_BLU_exposure_search_reopened": false,
+    "BLU_claim_mapping_reopened": false,
+    "generic_human_model_variant_catalog_search_reopened": false,
+    "specific_new_manuscript_record_checked": true,
+    "accepted_manuscript_content_recovered": false,
+    "new_exact_human_force_dataset_recovered": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_only_for": [
+      "Accessible substantive Kora/Lionello methods or exact-line data resolving a named model input",
+      "New independent exact-article human functional evidence or an exact exposure/selectivity correction",
+      "Substantive disease-liver or competitor outcome data relevant to a specified population",
+      "A changed relevant claim/prosecution fact or newly identified exact-origin family under the existing Round12 stop rule",
+      "Concrete article/model/access/cost/transaction facts changing a finite next commitment"
+    ]
+  },
+  "source_scopes": [
+    "research/rounds/round18/blu-human-model-update.json",
+    "research/rounds/round18/blu-systemic-context.json",
+    "research/rounds/round8/blu3797-qualification-spec.json",
+    "research/rounds/round9/blu-model-new-evidence.json",
+    "research/rounds/round10/blu-exposure-feasibility.json",
+    "research/rounds/round12/blu-claim-structure-audit.json"
+  ],
+  "new_exact_intervention_use_screens": 0,
+  "new_BLU_treated_people": 0,
+  "new_independent_human_BLU_function_results": 0,
+  "new_experimental_results_generated": 0,
+  "S_tier_promotions": 0,
+  "development_execution_authorized": false,
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

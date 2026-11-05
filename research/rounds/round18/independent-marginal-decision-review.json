@@ -1,0 +1,199 @@
+{
+  "schema_version": "ddiscov.round18.independent_marginal_decision_review.v1",
+  "reviewer": "/root/r18_blu_liver",
+  "review_date_utc": "2026-11-05",
+  "evidence_cut": "2026-11-04 America/Los_Angeles",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/marginal-dollar-decision.md",
+      "bytes": 9631,
+      "sha256": "4b83396320f3fe79496abe39efd4df3604d2d63938d33b17935d13f60a10e28f"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/marginal-dollar-decision.json",
+      "bytes": 13502,
+      "sha256": "610996ea9d3b530641c48e0e079fe1a4aef8dd168f3d3aa7a322523d51f9d216"
+    }
+  ],
+  "scope": "Independent review of the root-authored marginal-dollar decision pair: information versus development rank, retained-value objective, staged cost assumptions, source-content limits, hepatic/competitor inference, asymmetric functional interpretation, closure and restrictions.",
+  "basis": [
+    {
+      "record": "ddiscov_marginal_capital_ranking.pdf",
+      "scope": "Recovered independent-review passages in session context, including BLU rank, qualification and additional conditional-function envelopes; checked against Round18 context. Analytical input, not measured cost or efficacy."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round17/decisions/selection-policy.md",
+      "scope": "Current inherited marginal-dollar, claim-specific, asymmetric-result and scope-change rules."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-human-model-update.md",
+      "scope": "Companion source/provenance narrative read for consistency; manuscript metadata are distinguished from unread PDF content."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round18/research/rounds/round18/blu-human-model-update.json",
+      "scope": "Structured source limits and no new human-force evidence reviewed; this decision review does not bind the companion file."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/round18_work/liver/blu-hepatic-context-audit.json",
+      "scope": "Underlying finite primary liver audit previously performed by this reviewer; Inoue abstract and EXCEL sponsor plan limits checked directly against decision language."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/round18_work/decision_challenge/blu-competitor-marginal-challenge.md",
+      "scope": "Competitor auditor's primary-source extraction and stage-cost challenge reviewed for consistency. Underlying sponsor sources were not reread in this cross-review."
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/round18_work/round18-context.json",
+      "scope": "Parent, candidate, two-stage budget/rank context and restrictions checked."
+    }
+  ],
+  "findings": [
+    {
+      "id": "D18-F01",
+      "status": "pass",
+      "finding": "The objective includes the next decision's information value, remaining cost/time/clinical risk and retained economics. Historical effort and the old55-point allocation are not treated as EV evidence.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F02",
+      "status": "pass",
+      "finding": "BLU information-sprint rank1 is kept distinct from the independent review development rank3. APR1/RM2/BLU3 is preserved; source closure does not automatically demote APR/RM or promote BLU.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F03",
+      "status": "pass",
+      "finding": "The $60–180k/3–6-month qualification assumption is separate from an additional conditional $100–300k/4–8-month functional phase. No combined validated budget, guaranteed timing, quote, success probability or spending commitment is asserted.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F04",
+      "status": "pass",
+      "finding": "The general rights/licensing, GLP, GMP clinical manufacture, clinical trial and commercialization exclusions remain explicit. Major model/chemistry/systemic/rights expansion requires a new marginal comparison including waiting.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F05",
+      "status": "pass",
+      "finding": "The Kora deposit is a metadata/provenance update for an existing paper; unread manuscript content is not converted into a new force endpoint, independent cohort, qualified access or actual project price.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F06",
+      "status": "pass",
+      "finding": "The Inoue observation retains two patients and two muscle/one liver specimens. One normal liver enzyme assessment does not clear hepatobiliary disease, BLU safety or systemic exposure and does not create a universal new gate.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F07",
+      "status": "pass",
+      "finding": "EXCEL remains a dated prospective plan with unverified current status, actual enrollment, outcomes and access. The decision neither counts planned people as observed patients nor initiates a parallel study.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F08",
+      "status": "pass",
+      "finding": "ASP2957 claims remain sponsor program/nonclinical and follow-up detail without a recovered clinical efficacy or direct BLU comparison. No safer human product, permanent liver-ineligible market or measured residual commercial population is inferred.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F09",
+      "status": "pass",
+      "finding": "The TAM4MTM update is described as no recovered completed efficacy dataset; old reporting disagreement and distinct-drug adverse events are not promoted into fresh BLU failure.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F10",
+      "status": "pass_after_scope_correction",
+      "finding": "A credible interpretable within-background functional positive can justify confirmation before every delayed-control/systemic module is complete. The post-deficit modifiability requirement is now explicitly limited to an intended reversal claim in JSONB3, matching the narrative.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F11",
+      "status": "pass",
+      "finding": "Model/article/exposure failure stays separate from target failure. A qualified narrow negative can constrain its article/window while broader target rejection needs selective and independent support; preservation and ongoing benefit retain their own claim scope.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F12",
+      "status": "pass",
+      "finding": "Public-source closure is not scientific rejection. Reopening conditions name substantive documents/data/facts, and all prior generic exposure, model/catalog, patent and other closed lanes remain closed.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "D18-F13",
+      "status": "pass",
+      "finding": "No numerical EV/NPV, replacement allocation, new S-tier, human BLU efficacy, experimental result or execution authority is created. All activity flags and route/branch execution flags are false.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "D18-R01",
+      "issue": "JSONB3 originally left post-deficit modifiability as a generic prerequisite for interpreting any negative result, although the narrative correctly scoped it to reversal.",
+      "correction": "Root qualified the condition with 'for an intended reversal claim' while keeping article/exposure/deficit/precision limits general.",
+      "verification": "Final JSON branch B3 and narrative were reread before binding; no universal delayed-reversal gate remains.",
+      "blocking_for_this_review": false,
+      "status": "resolved"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "D18-O01",
+      "issue": "Exact human-force route, transferable article/exposure/selectivity, credible cost and execution capacity remain unqualified.",
+      "status": "Explicit decision inputs, not defects in the source-pass conclusion.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "D18-O02",
+      "issue": "The new institutional manuscript remains unread; its model details and the deposited file's version are not independently established by this review.",
+      "status": "Metadata-only limit preserved, with companion evidence carrying the detailed version-label discrepancy.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "D18-O03",
+      "issue": "Inoue full-report details, exact BLU hepatic effects, EXCEL actual status/outcomes and meaningful systemic exposure remain unresolved.",
+      "status": "No safety, adverse-effect or niche assertion is inferred from these gaps.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "D18-O04",
+      "issue": "Sponsor competitor nonclinical positioning and a follow-up listing do not supply an audited clinical outcome or quantitative clinical safety comparison.",
+      "status": "The decision retains program-level attribution and outcome limits.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "D18-O05",
+      "issue": "Applicable exact-asset control, actual transaction terms, reachable population, retained economics and full development cost are unknown.",
+      "status": "Ordinal conditional judgment retained; no calculated return or financial-rank promotion.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    }
+  ],
+  "requested_revisions": [],
+  "review_method": {
+    "full_decision_pair_read": true,
+    "cross_file_consistency_checked": true,
+    "primary_liver_sources_reviewed_in_prior_same_sprint_audit": true,
+    "new_network_retrieval_during_cross_review": false,
+    "no_access_retry_loops": true,
+    "deterministic_JSON_and_hash_checks_only": true,
+    "numerical_EV_or_scientific_model_executed": false,
+    "review_binding_scope": "The two decision files only; companion evidence and remote publication verification have separate reviews/checks."
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}
