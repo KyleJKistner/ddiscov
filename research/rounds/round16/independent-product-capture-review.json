@@ -1,0 +1,151 @@
+{
+  "schema_version": "ddiscov.round16.independent_product_capture_review.v1",
+  "reviewer": "/root/r16_apr_clinical",
+  "reviewed_domain": "Product transfer and retained value/rights; independent cross-review of a domain not authored by this reviewer",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "verdict": "pass",
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/apr-product-capture.md",
+      "bytes": 12600,
+      "sha256": "4e068508dbdcf0419bbb94ac7fa0804dccffbf312508b60db7efede6111ad7ce"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/apr-product-capture.json",
+      "bytes": 10923,
+      "sha256": "05bed38fc6aad1005bc5c3971b24520395421b87c5a7e0ff065c3283d387cafb"
+    }
+  ],
+  "findings": [
+    {
+      "id": "PC-01",
+      "status": "pass",
+      "topic": "Formulation consistency versus validated transfer",
+      "finding": "The patent example agrees arithmetically with the paper concentrations, while the text explicitly withholds historical lot identity, validated manufacture, independent stability and clinical supply equivalence. This is a credible qualification premise, not a validated product claim.",
+      "checked_against": [
+        "2020 primary article previously independently read by reviewer",
+        "US12521392B2 description, reader lines379-384, re-opened during cross-review",
+        "R&D/Tocris catalog3710 specifications and solubility, re-opened during cross-review"
+      ]
+    },
+    {
+      "id": "PC-02",
+      "status": "pass",
+      "topic": "Dose and treated sole",
+      "finding": "The added right-sole exposure is retained. The reported active amount is not assigned solely to the palm or converted into verified consumption, dose per area or delivered exposure. Patient2 amount remains unknown; no future regimen is prescribed.",
+      "checked_against": [
+        "ESPD2021 O020 full abstract and original clinical paper independently read during this sprint",
+        "Companion clinical lineage audit"
+      ]
+    },
+    {
+      "id": "PC-03",
+      "status": "pass",
+      "topic": "Vehicle and storage equivalence",
+      "finding": "Current manufacturer label and product page support the named base and qualitative ingredient overlap. The reviewed synthesis does not infer exact historical French/current US lot equivalence, finished-product tolerability, or cream stability from generic base or supplier storage statements.",
+      "checked_against": [
+        "Fagron Seraqua product page and public US label re-opened during cross-review",
+        "Product-transfer source audit"
+      ]
+    },
+    {
+      "id": "PC-04",
+      "status": "pass",
+      "topic": "Active species and dermal extrapolation",
+      "finding": "The Ceder primary cancer/cell-free findings justify distinguishing parent content from active-species retention. The synthesis does not import kinetics, a safe dermal threshold, MRP1 combination treatment or an obligatory complete metabolomics program into AEC.",
+      "checked_against": [
+        "DOI10.15252/emmm.201910852 abstract, results/LC-MS interpretation and reversible MQ-glutathione reservoir discussion re-opened during cross-review"
+      ]
+    },
+    {
+      "id": "PC-05",
+      "status": "pass",
+      "topic": "Current company filing and rights availability",
+      "finding": "The November4 Q3 filing and index independently re-opened during cross-review support the stated company program and patent-maintenance findings. The synthesis preserves the distinctions between company trial inactivity, worldwide trial absence, patent abandonment, license willingness, access to data/manufacture, and a development-cost quote.",
+      "checked_against": [
+        "https://ir.aprea.com/financial-information/sec-filings index line17",
+        "https://ir.aprea.com/node/10221/html lines683,855,1748-1749,1783-1789"
+      ]
+    },
+    {
+      "id": "PC-06",
+      "status": "pass",
+      "topic": "Corneal patient predicate and legal-access ceiling",
+      "finding": "US claim1 includes an AEC patient whose ED affects at least one cornea; dependent skin-route and pain claims retain that condition. The synthesis does not infer corneal involvement from AEC or ankyloblepharon, or noninfringement from skin administration. Google transcription is identified as such; no official current status, enforceability or all-party FTO is claimed.",
+      "checked_against": [
+        "US12521392B2 published claim transcription, claims1-8, re-opened during cross-review",
+        "Rights/program source audit"
+      ]
+    },
+    {
+      "id": "PC-07",
+      "status": "pass",
+      "topic": "Proportionate development and clinical claim",
+      "finding": "Useful continued treatment is allowed; full cornification, drug-free cure, new chemistry, a new vehicle or a commercial manufacturing package are not universal prerequisites. The synthesis still requires meaningful benefit and acceptable tissue integrity/safety and calls for a fresh marginal comparison if the assumed small scope expands.",
+      "checked_against": [
+        "Reviewed product-capture decision and completion sections",
+        "Reviewer clinical source audit",
+        "Independent-review interpretation supplied and source-checked by root"
+      ]
+    },
+    {
+      "id": "PC-08",
+      "status": "pass",
+      "topic": "Budget exclusions and marginal value",
+      "finding": "The range is explicitly illustrative, with no verified price, timeline or financial NPV. Root confirmed that the independent review page2 expressly excludes rights, licensing, GLP toxicology, GMP clinical manufacture, trials and commercialization, and that the APR row separately excludes a patient trial and major new model construction. The prose attribution is therefore retained; this reviewer did not independently re-open that PDF during this cross-review.",
+      "checked_against": [
+        "Root source verification of independent review full text, page2 and APR row",
+        "Reviewed capture-conditions section"
+      ]
+    },
+    {
+      "id": "PC-09",
+      "status": "pass",
+      "topic": "Uncertainty and source-access honesty",
+      "finding": "Unread sources and failed official/registry retrievals are not used as positive findings or zero counts. A negative search does not establish universal absence. CoA values are traceable to the product reviewer original extraction, with the re-access limit recorded separately below. Scientific gaps remain disclosed and are not review defects."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "PC-R01",
+      "issue": "Nested source_note pointed to an intermediate scratch filename absent from the package.",
+      "resolution": "Changed to apr-product-capture.md, present in the package; verified in final JSON."
+    },
+    {
+      "id": "PC-R02",
+      "issue": "Nested ESPD deduplication field still said the clinical lineage review was pending.",
+      "resolution": "Replaced with conservative deduplication completed=true, formal person linkage=false and P2 variant conflict resolved=false; verified in final JSON."
+    },
+    {
+      "id": "PC-R03",
+      "issue": "Checked whether the longer budget-exclusion list was attributed to the independent review without support.",
+      "resolution": "Root confirmed explicit exclusions in full independent-review page2 and separate APR-row exclusions. No prose correction was necessary."
+    }
+  ],
+  "open_issues": [],
+  "source_access_limitations": [
+    {
+      "source": "Tocris3710 batch7 CoA",
+      "original_url": "https://documents.tocris.com/pdfs/tocris_coa/3710_7_coa.pdf?1754418137=",
+      "review_access": "Direct URL, canonical redirected URL and original successful tool reference could not be re-opened during cross-review because of redirect/access errors.",
+      "reliance": "Product reviewer confirmed its earlier successful two-page primary-source read and exact batch/date/analytical extraction. This cross-review does not claim independently re-reading that CoA or its images. Current catalog specifications were independently re-opened."
+    },
+    {
+      "source": "Independent marginal-dollar review PDF",
+      "review_access": "Not independently re-opened in this cross-review.",
+      "reliance": "Root confirmed budget exclusions against full text; review records that attribution instead of claiming independent PDF inspection."
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 15](rounds/round15/README.md) selects enasidenib contribution/capture by marginal information value, independent of historical allocation. The audit retains existing-article indication development, holds automatic formulation spending and excludes RPD voucher credit for the approved moiety. No new screen or patient result is added. Existing closed searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
+> **Current work:** [Round 16](rounds/round16/README.md) retains topical APR-246/AEC as the first conditional marginal-dollar qualification priority after clinical lineage, article/model and capture review. It adds no new candidate screen or treated patient. The current ongoing-control gate supersedes the prior universal withdrawal requirement. Historical allocation does not determine this priority; closed searches remain closed. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

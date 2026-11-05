@@ -1,0 +1,179 @@
+{
+  "schema_version": "ddiscov.round16.independent_clinical_review.v1",
+  "reviewer": "r16_apr_rights",
+  "reviewer_independence": "Reviewer authored the separate rights/program scratch audit, not the clinical evidence artifacts under review.",
+  "verdict": "pass",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "review_completed_utc": "2026-11-05T00:18:02.476983+00:00",
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/apr-clinical-evidence.md",
+      "bytes": 9393,
+      "sha256": "9e8eeb25ddcfe7971f4ba4c793c1aca187b49a65cdee3f6690b82c09482bdda3"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/apr-clinical-evidence.json",
+      "bytes": 13132,
+      "sha256": "be8ea08fa065a61216d6945f7d53a75ad7e24f31f7e27548f12edc58061c3be5"
+    }
+  ],
+  "scope": "Bounded independent content review of the clinical Markdown and JSON against original primary clinical full text and two conference abstracts. Does not certify clinical efficacy, safety, regulatory suitability, rights clearance, the entire repository or source-byte authenticity.",
+  "findings": [
+    {
+      "id": "CR1",
+      "status": "pass",
+      "topic": "Source lineage and cohort denominator",
+      "finding": "C1 is the original two-child clinical/cell report. C2 and C3 are primary conference reports of strongly overlapping cases; the artifacts do not count them as independent replication or extend follow-up because of their later publication dates. Formal patient linkage remains unverified; zero new patients and zero new cohorts is conservative accounting rather than proven person identity.",
+      "artifact_locators": [
+        "Markdown: Sources recovered and what is new; Consequences of the source reconciliation",
+        "JSON: sources; H15; D7; cohort_accounting"
+      ],
+      "primary_locators": [
+        "C1 Phenotype and genotype description; Improvement of epidermal covering",
+        "C2 O020 Method and Results",
+        "C3 abstract324, PDF page index60, printed S205"
+      ]
+    },
+    {
+      "id": "CR2",
+      "status": "pass",
+      "topic": "Sites and dose",
+      "finding": "P1 active right palm and vehicle left palm are separate from C2 additional active right sole and untreated left sole. The reported daily active amount is not converted into a per-palm or per-area regimen. P2 scalp treatment is separately recorded with unknown daily active amount.",
+      "artifact_locators": [
+        "Markdown: Patient, site and timeline extraction; daily active amount paragraph",
+        "JSON: H03; H07; H10; D5"
+      ],
+      "primary_locators": [
+        "C1 Improvement of epidermal covering and Figures3/4 captions",
+        "C2 O020 Method"
+      ]
+    },
+    {
+      "id": "CR3",
+      "status": "pass",
+      "topic": "Pain, timelines and tolerability",
+      "finding": "The numerical baseline belongs to P2 and later numerical follow-up to P1; the artifacts reject a fabricated change score and do not attribute global analgesic cessation to the paired-palm contrast. C2 earlier P2 analgesic cessation is source-specific. Descriptive tolerance is not inflated into measured long-term safety or a systemic exposure margin.",
+      "artifact_locators": [
+        "Markdown: pain-response and descriptive-tolerance paragraphs",
+        "JSON: H04; H06; H08; H11; H12; H13; D4; D6"
+      ],
+      "primary_locators": [
+        "C1 P2 phenotype; Improvement of epidermal covering",
+        "C2 O020 Results"
+      ]
+    },
+    {
+      "id": "CR4",
+      "status": "pass",
+      "topic": "Genotype conflict",
+      "finding": "The original and later P2 cDNA/protein descriptions remain explicitly inconsistent. No transcript accession, isoform conversion, editorial-error conclusion, or phenotype-based adjudication is fabricated.",
+      "artifact_locators": [
+        "Markdown: paragraph following patient table",
+        "JSON: H02; H14; source_variant_conflict_resolved"
+      ],
+      "primary_locators": [
+        "C1 P2 phenotype",
+        "C2 O020 Method",
+        "C3 abstract324"
+      ]
+    },
+    {
+      "id": "CR5",
+      "status": "pass",
+      "topic": "Intended claim and mechanistic evidence limits",
+      "finding": "Useful wound control during continued treatment is retained as an analytical development question, not established efficacy. Off-treatment persistence and complete barrier restoration remain separate unproved claims. Pretreatment before induced cell differentiation, incomplete cornification, and unchanged aggregation are not mislabeled as delayed mature-tissue rescue. No unconditional requirement for an additional experiment is introduced.",
+      "artifact_locators": [
+        "Markdown: Decision-changing result; What is measured, inferred and still absent",
+        "JSON: D1; D2; D3; D8; cell_evidence_boundary"
+      ],
+      "primary_locators": [
+        "C1 Figures1/2 and Improvement of epidermal covering",
+        "C1 Cell culture and epidermal differentiation; conclusion on permanent versus temporary application"
+      ]
+    },
+    {
+      "id": "CR6",
+      "status": "pass",
+      "topic": "Source ceilings and prohibited-activity boundary",
+      "finding": "The files retain metadata-only access for the infant case, exclude a later review from primary outcomes, and describe the bounded search without claiming universal absence. No figure-derived planimetry, raw source-byte hash, new patient treatment, experimental output, simulated evidence, purchasing, recruitment, outreach or material receipt is claimed.",
+      "artifact_locators": [
+        "Markdown: Bounded update search and access ceiling; Close / reopen",
+        "JSON: A1; X1; retrieval; activity"
+      ],
+      "primary_locators": [
+        "C1 full text and captions were independently inspected; no new figure measurement performed"
+      ]
+    }
+  ],
+  "resolved_issues": [],
+  "open_issues": [
+    {
+      "id": "CO1",
+      "kind": "retained_evidence_limitation",
+      "blocking_for_this_review": false,
+      "issue": "P2 genotype/transcript discrepancy remains unresolved; explicit artifact handling is adequate."
+    },
+    {
+      "id": "CO2",
+      "kind": "retained_evidence_limitation",
+      "blocking_for_this_review": false,
+      "issue": "Formal patient linkage, site-specific dose/area, and causal pain/lesion effect size remain unavailable; no new clinical denominator is credited."
+    },
+    {
+      "id": "CO3",
+      "kind": "retained_evidence_limitation",
+      "blocking_for_this_review": false,
+      "issue": "Chronic dermal/systemic exposure, robust safety ascertainment, functional tissue measurements and withdrawal outcomes remain unestablished."
+    },
+    {
+      "id": "CO4",
+      "kind": "review_scope_limit",
+      "blocking_for_this_review": false,
+      "issue": "This review independently reopened the three core clinical primary texts. It did not repeat the complete update search, authenticate unpublished records, or resolve metadata-only peripheral sources."
+    }
+  ],
+  "requested_revisions": [],
+  "sources_independently_inspected": [
+    {
+      "id": "C1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "doi": "10.1038/s41419-020-2223-8",
+      "locators": "Primary phenotype, clinical-treatment text, Figures1/2/3/4 captions, cell-culture methods and formulation discussion; reader lines200-251",
+      "web_refs": [
+        "turn92view0",
+        "turn93view0",
+        "turn95view0",
+        "turn95view1"
+      ]
+    },
+    {
+      "id": "C2",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/pde.14593",
+      "doi": "10.1111/pde.14593",
+      "locators": "Complete O020 abstract, reader lines242-256",
+      "web_refs": [
+        "turn92view1",
+        "turn95view2"
+      ]
+    },
+    {
+      "id": "C3",
+      "url": "https://esdrmeeting.org/wp-content/uploads/2021/09/2021ESDRabstracts.pdf",
+      "locators": "Abstract324, PDF page index60, printed S205, reader lines8085-8110",
+      "web_refs": [
+        "turn92view2",
+        "turn95view3"
+      ]
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_files_edited": false
+}

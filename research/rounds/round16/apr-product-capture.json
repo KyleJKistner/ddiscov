@@ -1,0 +1,279 @@
+{
+  "schema_version": "ddiscov.round16.apr_product_capture.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "candidate_id": "R4-L02",
+  "scope": "Bounded existing-article transfer, known-family claim context and current company-program/capture review; no broad FTO or commercial valuation.",
+  "decision": {
+    "existing_article_qualification_premise": "credible_but_unvalidated",
+    "nominal_formulation_consistency_clarified": true,
+    "clinical_lot_equivalence_established": false,
+    "per_site_dose_resolved": false,
+    "quantitative_cream_stability_verified": false,
+    "dermal_or_systemic_exposure_margin_established": false,
+    "de_novo_formulation_required": false,
+    "current_license_terms_available": false,
+    "commercial_clearance_established": false,
+    "financial_npv": null,
+    "new_evidence_clearly_displaces_APR": false
+  },
+  "article_transfer": {
+    "schema_version": "ddiscov.round16.intermediate.product_transfer.v1",
+    "evidence_date_user_timezone": "2026-11-04",
+    "timezone": "America/Los_Angeles",
+    "candidate_id": "R4-L02",
+    "candidate": "Topical APR-246/PRIMA-1MET/eprenetapopt for TP63-AEC erosions",
+    "source_note": "apr-product-capture.md",
+    "decision": {
+      "bounded_transfer_premise": "credible_qualification_hypothesis_not_validated_product",
+      "new_vehicle_required_by_public_evidence": false,
+      "novel_chemistry_required_by_public_evidence": false,
+      "exact_historical_clinical_lot_identified": false,
+      "current_clinical_supply_verified": false,
+      "illustrative_budget_verified": false,
+      "illustrative_timeline_verified": false,
+      "broad_new_CMC_program_assumed": false,
+      "new_evidence_clearly_defeats_APR_priority": false,
+      "financial_EV_estimate": null,
+      "new_dosing_recommendation": null
+    },
+    "article": {
+      "name": "PRIMA-1MET",
+      "aliases": [
+        "APR-246",
+        "eprenetapopt"
+      ],
+      "CAS": "5291-32-7",
+      "current_catalog": "R&D/Tocris 3710",
+      "not_interchangeable_catalog": "PRIMA-1 1862",
+      "molecular_weight_g_per_mol": 199.25,
+      "historical_supplier_reported": "R&D Systems/Bio-Techne, France",
+      "historical_batch_identifier": null,
+      "current_public_CoA": {
+        "catalog": "3710",
+        "batch": "7",
+        "print_date": "2024-10-07",
+        "HPLC_purity_percent": 98.3,
+        "NMR_and_MS": "reported consistent with structure",
+        "research_use_only": true,
+        "historical_patient_lot_match_established": false
+      }
+    },
+    "formulation_evidence": {
+      "2020_report": {
+        "aqueous_precursor_mg_per_mL": 36,
+        "finished_article_mg_per_g": 0.6,
+        "vehicle": "Seraqua, Fagron France",
+        "reported_stability_weeks": 3,
+        "reported_storage_C": [
+          2,
+          8
+        ],
+        "raw_stability_data_displayed_in_retrieved_text": false,
+        "analytical_method_or_acceptance_criteria_recovered": false,
+        "validated_in_use_and_microbiological_stability_recovered": false,
+        "source": "A1",
+        "preexisting_in_Round5": true
+      },
+      "newly_extracted_patent_description_example": {
+        "APR246_mass_mg": 18,
+        "purified_water_mL": 0.5,
+        "total_finished_mass_g": 30,
+        "aqueous_ratio_matches_paper": true,
+        "finished_ratio_matches_paper": true,
+        "ratios_are_arithmetic_checks_not_execution": true,
+        "new_independent_validation": false,
+        "official_facsimile_independently_read": false,
+        "source": "A2"
+      },
+      "current_vehicle_bridge": {
+        "public_product_page": true,
+        "public_qualitative_ingredient_label": true,
+        "substantial_qualitative_overlap_with_patent_description": true,
+        "historic_French_and_current_lot_equivalence_established": false,
+        "exact_quantitative_composition_verified": false,
+        "sources": [
+          "A2",
+          "A5",
+          "A6"
+        ]
+      }
+    },
+    "exposure_boundaries": {
+      "nominal_applied_mass_reported_for_patient1_mg_per_day": 5,
+      "source_derived_cream_mass_if_literal_g_per_day": "5 / 0.6 = 8.33",
+      "arithmetic_preexisting_in_Round5": true,
+      "ESPD2021_active_sites_patient1": [
+        "right palm",
+        "right sole"
+      ],
+      "ESPD2021_control_sites_patient1": {
+        "left palm": "vehicle",
+        "left sole": "untreated"
+      },
+      "source_dose_assignable_only_to_right_palm": false,
+      "per_site_split_known": false,
+      "applied_mass_per_area_known": false,
+      "viable_skin_exposure_known": false,
+      "systemic_topical_exposure_known": false,
+      "supplier_water_solubility_record_mM": 100,
+      "supplier_record_is_established_saturation_ceiling": false,
+      "paper_precursor_impossibility_established": false,
+      "sources": [
+        "A1",
+        "A3",
+        "A4",
+        "A9"
+      ]
+    },
+    "active_species_scope": {
+      "APR246_and_MQ_not_equated": true,
+      "MQ_thiol_conjugation_and_reservoir_evidence": "primary cancer/cell-free study",
+      "parent_only_measurement_may_not_describe_all_active_product": "interpretation inference",
+      "AEC_skin_same_kinetics_demonstrated": false,
+      "safe_dermal_threshold_derived_from_oncology": false,
+      "combination_therapy_proposed": false,
+      "source": "A8"
+    },
+    "bounded_retrieval": {
+      "pass_complete": true,
+      "separate_public_quantitative_APR246_Seraqua_stability_dataset_recovered": false,
+      "dermal_permeation_or_local_PK_result_recovered": false,
+      "negative_search_proves_absence": false,
+      "unread_sources_not_relied_on": [
+        "NCT02098343 oncology protocol PDF: reader size limit",
+        "Fagron current TDS/PDS embedded substantive documents: loading-only landing pages"
+      ],
+      "new_independent_AEC_clinical_cohort_from_product_audit": false,
+      "ESPD2021_conservative_deduplication_completed": true,
+      "formal_person_linkage_established": false,
+      "P2_variant_conflict_resolved": false
+    },
+    "sources": {
+      "A1": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "A2": "https://patents.google.com/patent/US12521392B2/en",
+      "A3": "https://www.rndsystems.com/products/prima-1met_3710",
+      "A4": "https://documents.tocris.com/pdfs/tocris_coa/3710_7_coa.pdf?1754418137=",
+      "A5": "https://fagron.us/bases/product/seraqua",
+      "A6": "https://d84823jj91l2.cloudfront.net/fagron/uploads/2024/12/06102852/Seraqua-250-ml-US.pdf",
+      "A7": "https://cdn.caymanchem.com/cdn/insert/9000487.pdf",
+      "A8": "https://link.springer.com/article/10.15252/emmm.201910852",
+      "A9": "https://onlinelibrary.wiley.com/doi/full/10.1111/pde.14593"
+    },
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false,
+      "repository_edits": false,
+      "remote_writes": false
+    }
+  },
+  "rights_program": {
+    "schema_version": "ddiscov.round16.rights_program_review.v1",
+    "as_of": "2026-11-04",
+    "existing_candidate_id": "R4-L02",
+    "selected_candidate_displaced_by_new_rights_evidence": false,
+    "new_primary_findings": [
+      {
+        "id": "AR1",
+        "source_url": "https://ir.aprea.com/node/10221/html",
+        "filing_index_url": "https://ir.aprea.com/financial-information/sec-filings",
+        "document_type": "company Form 10-Q",
+        "period_end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accession": "0001104659-26-122405",
+        "locator": [
+          "MD&A overview, reader line683",
+          "nine-month R&D explanation, reader line855",
+          "IP risk factors, printed pp57–58, reader lines1748–1749 and1783–1789"
+        ],
+        "finding_codes": [
+          "no_company_ongoing_APR246_trials_reported",
+          "expense_is_patent_maintenance_regulatory_program_closeout",
+          "company_disclaims_compound_composition_ownership_or_license",
+          "other_use_formulation_process_crystal_combination_rights_remain_reported"
+        ],
+        "global_trial_absence_established": false,
+        "commercial_clearance_established": false,
+        "license_availability_established": false,
+        "development_cost_quote_obtained": false
+      }
+    ],
+    "known_family": {
+      "US12521392B2": {
+        "claim1_cornea_patient_predicate_preserved": true,
+        "skin_only_route_does_not_remove_predicate": true,
+        "claims_checked": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "readable_source": "third_party_published_claim_transcription",
+        "official_grant_facsimile_recovered": false,
+        "current_assignment_verified": false,
+        "enforceability_verified": false,
+        "source_url": "https://patents.google.com/patent/US12521392B2/en"
+      },
+      "EP3823622A1": {
+        "published_A1_scope_preserved": true,
+        "current_official_status": null,
+        "current_claims": null,
+        "grant_verified": false,
+        "google_pending_label_used_as_official_status": false,
+        "source_url": "https://patents.google.com/patent/EP3823622A1/en"
+      }
+    },
+    "program_boundary": {
+      "new_exact_AEC_trial_result_verified": false,
+      "absence_of_any_AEC_program_established": false,
+      "ANR_2013_EEC_corneal_plan_counted_as_active_AEC_trial": false,
+      "unreadable_ClinicalTrialsGov_query_counted_as_zero": false
+    },
+    "claim_limits": {
+      "AEC_diagnosis_implies_corneal_involvement": false,
+      "ankyloblepharon_implies_corneal_involvement": false,
+      "skin_application_implies_patent_noninfringement": false,
+      "inactive_company_trial_program_implies_abandoned_rights": false,
+      "public_chemical_structure_implies_all_party_FTO": false,
+      "specific_APR246_RPD_PRV_or_orphan_entitlement_established": false,
+      "generic_regulatory_law_reopened": false
+    },
+    "retrieval_stop": {
+      "bounded_known_family_pass_closed": true,
+      "reopen_for": [
+        "Accessible official current register/prosecution/grant record",
+        "Substantive new exact-AEC program result",
+        "Defined product or transaction facts changing applicable rights"
+      ],
+      "broader_patent_landscape_completed": false,
+      "no_owner_reply_gate_for_scientific_selection": true
+    },
+    "activity": {
+      "outreach": false,
+      "purchases": false,
+      "recruitment": false,
+      "experiments": false,
+      "simulations": false,
+      "material_receipt": false
+    }
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "execution_authorized": false
+}

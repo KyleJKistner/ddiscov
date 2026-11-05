@@ -128,6 +128,12 @@ Missing public qualification is not observed incumbent failure. A new presentati
 
 End a source pass once its finite spending decision is clear. A subsequent review needs a named new artifact or materially changed fact likely to alter the decision. Unknown commercial terms can block a specific commitment without making an owner reply a scientific-selection prerequisite. The [Round 15 selection](../research/rounds/round15/marginal-dollar-selection.md) and [decision](../research/rounds/round15/funding-decision.md) apply this rule.
 
+## Round 16: claim-specific qualification and scope changes
+
+For APR-246/AEC, the [current decision](../research/rounds/round16/marginal-dollar-decision.md) expressly supersedes the historical universal withdrawal-persistence gate when the intended product is useful ongoing erosion control. Perfect cornification and a particular mechanism are not universal requirements. Meaningful benefit, adequate tissue integrity and acceptable exposure remain necessary. Full barrier restoration and drug-free regeneration are stronger claims requiring their own evidence. Historical package text remains unchanged as provenance.
+
+An independent review's conditional ordinal priority can guide a bounded sprint while quantitative financial inputs remain missing. Record the objective, assumptions, fresh evidence and reversal conditions. An illustrative small article/model tranche is not a verified budget or full-development estimate. Major new formulation, model or rights work changes its scope and must trigger a new marginal comparison, including deferral. Published model existence does not establish access, native fidelity, exact-drug responsiveness or price.
+
 ## Current decisions
 
 See [the current shortlist](current-shortlist.md), [the cumulative register](../research/portfolio-register.json), and [the research-round index](../research/rounds/README.md). Current integrated decisions control over earlier domain-specific grades. This research does not authorize outreach, purchases, recruitment, experiments, simulations or material receipt.

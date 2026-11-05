@@ -1,0 +1,324 @@
+{
+  "schema_version": "ddiscov.round16.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "candidate_id": "R4-L02",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Whether the existing human APR-246/AEC signal admits a small, interpretable existing-article qualification route, or instead requires major article/model/rights development",
+    "basis": "User-directed priority from independent conditional marginal-capital review, tested against fresh clinical, article, model and rights evidence",
+    "historical_allocation_used_as_EV_proxy": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true,
+    "conditional_marginal_priority_rank": 1,
+    "independent_review_rank": 1,
+    "new_evidence_clearly_favoring_another_candidate": false
+  },
+  "independent_review": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "pages": 10,
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "read_scope": "All ten pages through the connected file text reader",
+    "kind": "independent analytical review supplied in the user context; not primary experimental evidence",
+    "objective": "Discounted financial value retained by ddiscov after remaining development/commercial costs, rights, royalties, partner sharing and dilution",
+    "conditional_top_seven": [
+      {
+        "rank": 1,
+        "candidate_id": "R4-L02",
+        "name": "Topical APR-246 / AEC"
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R4-L01",
+        "name": "RM4404 / corneal sensory repair"
+      },
+      {
+        "rank": 3,
+        "candidate_id": "BLU3797_XLMTM",
+        "name": "BLU-3797 / XLMTM"
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R3-NL-01",
+        "name": "NDC-9009 / Darier"
+      },
+      {
+        "rank": 5,
+        "candidate_id": "MIGF_CORNEA",
+        "name": "mIGF-Gel / cornea"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "name": "Exact 8015-P2 / MFN2-CMT2A"
+      },
+      {
+        "rank": 7,
+        "candidate_id": "AAT_EVLP",
+        "name": "AAT / donor-lung EVLP"
+      }
+    ],
+    "root_reaudited_all_candidates": false,
+    "ordinal_not_calculated_financial_returns": true,
+    "alphaCT1_separate_cheap_public_screen_not_development_rank": true
+  },
+  "decision": "Retain APR-246/AEC as first conditional marginal-dollar qualification priority; close this public-source sprint; no full program or spending commitment.",
+  "scientific_tier": "existing local translational challenger; no S-tier promotion",
+  "intended_claim": "Clinically useful sustained control of persistent AEC erosions and treatment burden during the intended regimen, at acceptable local/systemic exposure",
+  "current_gate_override": {
+    "historical_source": "research/rounds/round5/round5_shortlist_challenge.md",
+    "historical_bytes_preserved": true,
+    "universal_withdrawal_persistence_required": false,
+    "perfect_cornification_required": false,
+    "particular_mechanism_or_aggregate_clearance_required": false,
+    "meaningful_benefit_and_tissue_integrity_required": true,
+    "full_barrier_restoration_claim_needs_functional_evidence": true,
+    "drug_free_regeneration_claim_needs_off_treatment_evidence": true,
+    "mandatory_preclinical_reset": false
+  },
+  "tranche_assumption": {
+    "currency": "USD",
+    "cost_low": 25000,
+    "cost_high": 100000,
+    "months_low": 2,
+    "months_high": 5,
+    "source": "Independent review page 2",
+    "status": "analyst_assumption_not_verified_budget_or_timeline",
+    "purpose": "Article/formulation and bounded epidermal-function qualification",
+    "excluded": [
+      "Patient trial",
+      "Major new model construction",
+      "Rights and licensing",
+      "GLP toxicology",
+      "GMP clinical manufacture",
+      "Commercialization"
+    ],
+    "quotes_obtained": false,
+    "amount_committed": 0,
+    "scope_expansion_requires_new_comparison": true
+  },
+  "completed_evidence_gains": [
+    {
+      "id": "G1",
+      "gain": "Two later primary abstracts reconciled to original two children; added sole/site/pain details and preserved P2 variant conflict",
+      "sources": [
+        "clinical:C1",
+        "clinical:C2",
+        "clinical:C3"
+      ],
+      "new_unique_people": 0
+    },
+    {
+      "id": "G2",
+      "gain": "Patent composition example agrees with historical concentration statements; per-site amount and stability transfer remain unresolved",
+      "sources": [
+        "product:A1",
+        "product:A2",
+        "product:A9"
+      ]
+    },
+    {
+      "id": "G3",
+      "gain": "Two 2026 model/functional-comparator papers identify existing routes with expression, timing, genotype and access limits",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "new_APR_efficacy": false
+    },
+    {
+      "id": "G4",
+      "gain": "Current company filing distinguishes no ongoing company trials from maintained rights and closeout spending",
+      "sources": [
+        "rights:AR1"
+      ]
+    },
+    {
+      "id": "G5",
+      "gain": "Current ongoing-control claim supersedes APR-specific universal withdrawal/cornification gate without rewriting prior packages",
+      "sources": [
+        "clinical:C1",
+        "clinical:C2",
+        "independent_review"
+      ],
+      "kind": "decision_amendment"
+    }
+  ],
+  "model_routes": [
+    {
+      "id": "M1",
+      "title": "A Novel Model System to Identify Cellular and Molecular Defects Underlying Rare Genetic Disorders",
+      "authors": "Salois et al.",
+      "doi": "10.1111/exd.70238",
+      "pubmed_id": "41795154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41795154/",
+      "publication": "Experimental Dermatology 2026;35(3):e70238",
+      "read_scope": "Primary PubMed abstract and Figure 1–2 legends; complete article/supplement not recovered",
+      "new_to_round15": true,
+      "model": "Engineered NTERT keratinocytes and 3D epidermal equivalents",
+      "findings": [
+        "AEC-associated adhesion/differentiation phenotypes",
+        "Approximately 1:1 mutant:WT TP63, with total TP63 approximately twice nontransduced cells",
+        "Reduced cell-ECM adhesion to collagen IV/fibronectin in reported comparisons"
+      ],
+      "native_absolute_expression_established": false,
+      "APR_rescue_verified": false,
+      "post_deficit_mature_barrier_reversal_verified": false,
+      "qualified_transfer_access_verified": false,
+      "cost_or_time_quote": null,
+      "interpretation": "A specific existing-model lead; not evidence that a new platform must be built or that this platform is ready to decide topical APR benefit."
+    },
+    {
+      "id": "M2",
+      "title": "Therapeutic p63 isoform switching rescues epidermal defects in AEC syndrome",
+      "authors": "Di Girolamo et al.",
+      "doi": "10.1016/j.ymthe.2025.12.045",
+      "pubmed_id": "41445194",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41445194/",
+      "full_text_url": "https://www.iris.unina.it/retrieve/a3757b5b-70e5-417f-a0c6-dc1d3976025a/Di%20Girolamo%20p63%20alpha%20KO%20Molec%20Therapy.pdf",
+      "publication": "Molecular Therapy 2026;34(4):2324–2342; online 24 December 2025",
+      "read_scope": "Complete 19-page institutional article text available; focused assessment of Figure 6/results and sheet-assay context. Supplement not independently audited.",
+      "locator": "Institutional PDF article pages 9–11, Figure 6; methods page 16",
+      "PMC_embargo_does_not_imply_no_public_full_text": true,
+      "new_to_round15": true,
+      "patient_culture_variants": [
+        "T533P",
+        "I537T"
+      ],
+      "mechanical_rescue_variant": "I537T",
+      "mechanical_independent_experiments": 3,
+      "mechanical_independent_patient_donors": 1,
+      "findings": [
+        "Genetic exon-13 deletion shifted isoforms and reduced aggregation in patient-derived cultures",
+        "I537T sheets generated from edited cultures showed restored mechanical cohesion relative to mutant control"
+      ],
+      "APR_rescue_verified": false,
+      "post_deficit_mature_barrier_reversal_verified": false,
+      "clinical_intervention_result": false,
+      "qualified_transfer_access_verified": false,
+      "cost_or_time_quote": null,
+      "interpretation": "Functional responsiveness of a patient-cell phenotype to a different intervention supports a possible comparator/readout; it is not topical APR evidence or a required gene-editing program."
+    }
+  ],
+  "routes": [
+    {
+      "id": "R1",
+      "name": "Existing-article / existing-model qualification",
+      "scientific_question": "Can the article and interpretable tissue-function evidence support or reject a useful ongoing-control product at small scope?",
+      "status": "conditional_primary_route",
+      "new_vehicle_assumed": false,
+      "major_model_build_in_scope": false
+    },
+    {
+      "id": "R2",
+      "name": "Appropriate controlled clinical-development route",
+      "scientific_question": "Can meaningful lesion and care-burden benefit be causally demonstrated against appropriate care with acceptable exposure?",
+      "status": "legitimate_alternative_outside_this_sprint_and_budget",
+      "automatic_preclinical_reset": false
+    },
+    {
+      "id": "R3",
+      "name": "Major product/model/rights program",
+      "scientific_question": "Does a materially larger project still beat the next feasible alternative after costs and capture?",
+      "status": "scope_change_rerank_before_commitment",
+      "automatic_extension": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "B1",
+      "condition": "Existing article and an appropriate already available functional model can support a consequential, interpretable question within a genuinely small scope",
+      "decision": "Retain APR as first conditional qualification priority",
+      "current_status": "plausible_not_validated",
+      "execution_now": false
+    },
+    {
+      "id": "B2",
+      "condition": "An informative approved clinical-development route is more valuable than additional model work after article/exposure and governance needs are addressed",
+      "decision": "Do not require an automatic preclinical reset; assess that route on its actual separate cost and requirements",
+      "current_status": "not_evaluated_as_funded_protocol",
+      "inside_illustrative_budget": false,
+      "execution_now": false
+    },
+    {
+      "id": "B3",
+      "condition": "Useful progress requires major new vehicle/chemistry, model construction or costly/inaccessible rights",
+      "decision": "End the assumed small tranche and compare revised cost/information/capture against RM4404, BLU and waiting; do not automatically extend scope",
+      "current_status": "risk_not_observed_failure",
+      "execution_now": false
+    },
+    {
+      "id": "B4",
+      "condition": "Later credible evidence shows no worthwhile benefit versus appropriate care, unacceptable exposure, or no useful tissue function for the intended claim",
+      "decision": "Stop or narrow the corresponding product claim; distinguish failed repair claim from an independently supported symptom-control claim",
+      "current_status": "future_decision_rule_not_new_result",
+      "execution_now": false
+    },
+    {
+      "id": "B5",
+      "condition": "Useful patient benefit remains but ddiscov cannot retain adequate value after rights, reach and remaining costs",
+      "decision": "Do not represent patient evidence as an owned financial asset; defer, redirect or separately justify an evidence/public-benefit route",
+      "current_status": "capture_unresolved",
+      "execution_now": false
+    }
+  ],
+  "decision_inputs_remaining": [
+    "Actual transfer/stability/exposure performance",
+    "Model fit and obtainable access, if a model route is chosen",
+    "Causal useful benefit and chronic safety",
+    "Reachable AEC patients, realistic adoption and economics",
+    "Applicable product/data/commercial rights and terms"
+  ],
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "completion": {
+    "public_source_pass_closed": true,
+    "clinical_lineage_reconciliation_complete": true,
+    "nominal_article_consistency_clarified": true,
+    "full_quantitative_stability_or_PK_dataset_recovered": false,
+    "official_European_current_claim_status_verified": false,
+    "all_candidate_reranking_performed": false,
+    "generic_CNS_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "reopen_only_for": [
+      "Substantive new patient/site/dose or transcript correction",
+      "New exact-article stability, skin-exposure or controlled clinical evidence",
+      "Accessible substantive model fit/access documentation or official claim record",
+      "Defined product or transaction facts changing a specific marginal commitment"
+    ],
+    "no_next_generic_search_for_missing_private_terms": true
+  },
+  "source_scopes": [
+    "research/rounds/round16/apr-clinical-evidence.json",
+    "research/rounds/round16/apr-product-capture.json",
+    "research/rounds/round4/round4_local_repair.json",
+    "research/rounds/round5/round5_shortlist_challenge.json",
+    "research/rounds/round15/funding-decision.json"
+  ],
+  "new_exact_intervention_use_screens": 0,
+  "new_treated_people": 0,
+  "new_independent_clinical_cohorts": 0,
+  "new_experiments_generated": 0,
+  "S_tier_promotions": 0,
+  "development_execution_authorized": false,
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

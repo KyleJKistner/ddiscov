@@ -1,0 +1,415 @@
+{
+  "schema_version": "ddiscov.round16.apr_clinical_evidence.v1",
+  "as_of": "2026-11-04",
+  "candidate_id": "R4-L02",
+  "base_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "scope": "Primary clinical report and conference reconciliation; no new treatment result generated",
+  "sources": [
+    {
+      "id": "C1",
+      "kind": "peer_reviewed_primary_case_and_cell_report",
+      "title": "Improvement of epidermal covering on AEC patients with severe skin erosions by PRIMA-1MET/APR-246",
+      "doi": "10.1038/s41419-020-2223-8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "publisher_pdf": "https://www.nature.com/articles/s41419-020-2223-8.pdf",
+      "publication_date": "2020-01-16",
+      "read_scope": "Full text and figure captions; no figure-only planimetry",
+      "new_to_round15": false,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "C2",
+      "kind": "primary_conference_abstract",
+      "title": "O020 | Repositioning molecules in dermatology: Improvement of epidermal covering on AEC patients with severe skin erosions by PRIMA-1MET/APR-246",
+      "doi": "10.1111/pde.14593",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/pde.14593",
+      "publication_date": "2021-05-10",
+      "read_scope": "Complete O020 abstract",
+      "new_to_round15": true,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "C3",
+      "kind": "primary_conference_abstract",
+      "title": "324 | Improvement of epidermal covering on AEC patients with severe skin erosions by PRIMA-1MET",
+      "url": "https://esdrmeeting.org/wp-content/uploads/2021/09/2021ESDRabstracts.pdf",
+      "publication_date": "2021-10",
+      "locator": "PDF page index60; printed S205; abstract324",
+      "read_scope": "Complete abstract text",
+      "new_to_round15": true,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "A1",
+      "kind": "case_report_metadata_only",
+      "title": "A General Paediatric Approach to Ankyloblepharon-Ectodermal Dysplasia-Cleft Lip/Palate Syndrome in Infancy: A Case Report",
+      "doi": "10.1111/jpc.70020",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jpc.70020",
+      "publication_date": "2025-02-20",
+      "read_scope": "Metadata and references only; substantive case text not recovered",
+      "new_to_round15": true,
+      "APR_treatment_verified": false,
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "X1",
+      "kind": "review_excluded_from_new_primary_outcomes",
+      "doi": "10.1038/s41420-026-03060-8",
+      "url": "https://www.nature.com/articles/s41420-026-03060-8",
+      "publication_date": "2026-03-24",
+      "APR_new_primary_outcomes": false,
+      "verification_date": "2026-11-04"
+    }
+  ],
+  "clinical_rows": [
+    {
+      "id": "H01",
+      "patient": "P1",
+      "source": "C1",
+      "locator": "Phenotype and genotype description; Fig1a",
+      "age_years": 9,
+      "sex": "female",
+      "cDNA": "c.1727T>C",
+      "protein": "p.Ile576Thr",
+      "preexisting_lesions": "Palms and soles; since infancy; never completely healed"
+    },
+    {
+      "id": "H02",
+      "patient": "P2",
+      "source": "C1",
+      "locator": "Phenotype and genotype description",
+      "age_years": 15,
+      "sex": "female",
+      "cDNA": "c.1610T>C",
+      "protein": "p.Ile537Thr",
+      "preexisting_lesions": "Scalp aplasia/erosion since birth; spread to forehead/ears"
+    },
+    {
+      "id": "H03",
+      "patient": "P1",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering; Fig3 legend",
+      "frequency": "daily",
+      "active_sites": [
+        "right palm"
+      ],
+      "vehicle_sites": [
+        "left palm"
+      ],
+      "reported_active_mg_per_day": 5,
+      "active_mass_per_site": null,
+      "cream_mass_per_site": null,
+      "application_area": null
+    },
+    {
+      "id": "H04",
+      "patient": "P1",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering",
+      "week": 11,
+      "reported_outcomes": [
+        "reepithelialization",
+        "less pain",
+        "analgesic cessation"
+      ],
+      "numeric_pain_baseline": null,
+      "numeric_pain_followup": null
+    },
+    {
+      "id": "H05",
+      "patient": "P1",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering; Fig3",
+      "week": 33,
+      "reported_coverage": "almost complete",
+      "fully_cornified": false,
+      "barrier_permeability_measurement": null,
+      "mechanical_integrity_measurement": null
+    },
+    {
+      "id": "H06",
+      "patient": "P2",
+      "source": "C1",
+      "locator": "Phenotype and genotype description",
+      "baseline_pain_instrument": "visual analog scale",
+      "baseline_pain_score": 6,
+      "scale_range": null,
+      "context": "during dressings",
+      "reported_background": "daily dressings; paracetamol before and after"
+    },
+    {
+      "id": "H07",
+      "patient": "P2",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering; Fig4c legend",
+      "frequency": "daily",
+      "active_sites": [
+        "entire scalp erosion"
+      ],
+      "vehicle_sites": [],
+      "active_mg_per_day": null,
+      "week_oozing_decreased_within": 3,
+      "week_first_epidermalization_areas": 4,
+      "week_early_improvement": 5,
+      "week_confluence": 17,
+      "week_most_scalp_covered": 32
+    },
+    {
+      "id": "H08",
+      "patient": "P2",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering; Fig4c legend",
+      "last_reported_week": 32,
+      "reported_outcomes": [
+        "most scalp covered",
+        "peripheral scalp reepithelialized",
+        "dressings easier",
+        "analgesics stopped"
+      ],
+      "fully_cornified": false,
+      "numeric_pain_followup": null
+    },
+    {
+      "id": "H09",
+      "patient": "P2",
+      "source": "C1",
+      "locator": "Improvement of epidermal covering",
+      "growth_interval_months": 3,
+      "weight_change_kg": 6,
+      "height_change_cm": 4,
+      "causal_treatment_growth_effect_established": false
+    },
+    {
+      "id": "H10",
+      "patient": "P1",
+      "source": "C2",
+      "locator": "O020 Method",
+      "frequency": "once daily",
+      "active_sites": [
+        "right palm",
+        "right sole"
+      ],
+      "vehicle_sites": [
+        "left palm"
+      ],
+      "untreated_sites": [
+        "left sole"
+      ],
+      "reported_active_mg_per_day": 5,
+      "active_mass_allocation_between_sites": null
+    },
+    {
+      "id": "H11",
+      "patient": "P1",
+      "source": "C2",
+      "locator": "O020 Results",
+      "week": 11,
+      "pain_instrument": "EVA",
+      "pain_score": 2,
+      "pain_scale_range": null,
+      "patient_numeric_baseline": null,
+      "paired_numeric_change": null
+    },
+    {
+      "id": "H12",
+      "patient": "P2",
+      "source": "C2",
+      "locator": "O020 Results",
+      "week": 17,
+      "reported_outcomes": [
+        "scalp incompletely recovered",
+        "analgesics stopped",
+        "scalp border reepithelialized"
+      ]
+    },
+    {
+      "id": "H13",
+      "patient": "both",
+      "source": "C2",
+      "locator": "O020 Results",
+      "author_tolerability_statement": "well tolerated without any side effect",
+      "structured_adverse_event_count": null,
+      "ascertainment_method": null,
+      "chronic_exposure_margin_established": false
+    },
+    {
+      "id": "H14",
+      "patient": "P2",
+      "source": "C2",
+      "locator": "O020 Method",
+      "cDNA": "c.1646T>C",
+      "protein": "p.Ile549Thr",
+      "conflicts_with": "H02",
+      "transcript_accession": null,
+      "isoform_reconciliation_verified": false
+    },
+    {
+      "id": "H15",
+      "patient": "both",
+      "source": "C3",
+      "locator": "abstract324",
+      "protein_variants": [
+        "I576T",
+        "I537T"
+      ],
+      "active_sites": [
+        "right hand of one patient",
+        "scalp of second patient"
+      ],
+      "additional_unique_patients_counted": 0,
+      "extended_followup_verified": false
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "D1",
+      "claim": "Useful ongoing wound control",
+      "decision": "retain_as_development_question",
+      "support": [
+        "H04",
+        "H05",
+        "H07",
+        "H08",
+        "H11",
+        "H12"
+      ],
+      "limit": "Two-case signal; no causal effect size or response rate"
+    },
+    {
+      "id": "D2",
+      "claim": "Durable off-treatment repair",
+      "decision": "unestablished_separate_claim",
+      "support": [
+        "C1"
+      ],
+      "limit": "No withdrawal, interruption or rechallenge outcome recovered"
+    },
+    {
+      "id": "D3",
+      "claim": "Complete mature barrier restoration",
+      "decision": "not_established",
+      "support": [
+        "H05",
+        "H08"
+      ],
+      "limit": "Coverage/cornification descriptions do not supply permeability or mechanical measurements"
+    },
+    {
+      "id": "D4",
+      "claim": "P1 pain benefit quantified from 6 to 2",
+      "decision": "invalid_cross_patient_pairing",
+      "support": [
+        "H06",
+        "H11"
+      ],
+      "limit": "P2 baseline and P1 follow-up cannot form one change score"
+    },
+    {
+      "id": "D5",
+      "claim": "Five mg active applied to one palm",
+      "decision": "unsupported_allocation",
+      "support": [
+        "H03",
+        "H10"
+      ],
+      "limit": "Later report includes right sole; per-site mass and area unresolved"
+    },
+    {
+      "id": "D6",
+      "claim": "Long-term safe local exposure",
+      "decision": "not_established",
+      "support": [
+        "H13"
+      ],
+      "limit": "Descriptive tolerability lacks structured ascertainment and exposure measurements"
+    },
+    {
+      "id": "D7",
+      "claim": "Two new conference cohorts",
+      "decision": "do_not_count",
+      "support": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "limit": "Strong overlap evidence; no independent cohort established; variant conflict preserved"
+    },
+    {
+      "id": "D8",
+      "claim": "Mandatory preclinical reset or drug-free cure before next tranche",
+      "decision": "not_required_for_ongoing_control",
+      "support": [
+        "C1"
+      ],
+      "limit": "Choose stage-appropriate article/exposure or useful clinical proof; additional tissue work must answer a consequential uncertainty",
+      "basis_kind": "analytical_stage_and_intended_claim_judgment"
+    }
+  ],
+  "cohort_accounting": {
+    "original_treated_children": 2,
+    "independent_clinical_cohorts": 1,
+    "conference_overlap": "strongly_supported_conservative_deduplication",
+    "formal_public_person_linkage": false,
+    "new_unique_people_added": 0,
+    "new_independent_cohorts_added": 0,
+    "all_treated_response_probability": null,
+    "source_variant_conflict_resolved": false,
+    "palms_soles_and_repeated_visits_are_not_additional_patients": true
+  },
+  "omitted_or_unestablished": [
+    "Randomization/masking",
+    "Standardized comparable background wound care",
+    "Baseline contralateral lesion comparability",
+    "Numerical lesion-area trajectory",
+    "Permeability/TEWL or mechanical integrity",
+    "Reported scale range and within-patient numerical pain change",
+    "Adherence and interruptions",
+    "Withdrawal/rechallenge",
+    "Dermal or systemic drug/metabolite exposure",
+    "Structured adverse-event ascertainment and long-term surveillance"
+  ],
+  "cell_evidence_boundary": {
+    "source": "C1",
+    "prior_round5_fact": true,
+    "nonerosive_back_arm_biopsies": true,
+    "APR_pretreatment_before_differentiation": true,
+    "direct_delayed_mature_barrier_rescue": false,
+    "marker_normalization_equals_function": false,
+    "aggregate_clearance_established": false,
+    "mandatory_preclinical_reset_recommended": false,
+    "patient_keratinocyte_sources": 2,
+    "patient_culture_sources_linked_to_clinical_cases": true,
+    "figure1_qPCR_reported_n": 3,
+    "figure1_immunofluorescence_reported_n": 4,
+    "figure1_repeats_are_not_patient_denominators": true,
+    "independent_WT_donor_count_verified": null
+  },
+  "retrieval": {
+    "bounded_pass_closed": true,
+    "additional_APR_treated_AEC_clinical_cohort_verified": false,
+    "additional_controlled_trial_result_verified": false,
+    "absence_of_all_other_programs_proven": false,
+    "supplementary_clinical_file_recovered": false,
+    "figures_visually_quantified": false,
+    "web_reader_raw_byte_hash_claimed": false,
+    "reopen_for": [
+      "New clinical cohort or controlled result",
+      "Primary patient/site/dose correction",
+      "Source-supported transcript mapping",
+      "New exposure/safety or maintenance/withdrawal results"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "retrieval_completed_utc_date": "2026-11-05",
+  "as_of_timezone": "America/Los_Angeles",
+  "decision_reference": "research/rounds/round16/marginal-dollar-decision.json"
+}

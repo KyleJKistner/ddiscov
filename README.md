@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 15.** The next evidence sprint was selected by expected marginal information and capturable development value, independently of the historical allocation. The enasidenib audit retains a first-D2HGA2-indication opportunity using an adequate existing article, holds automatic new-formulation spending, and excludes RPD voucher credit for the approved moiety. Orphan and qualifying clinical-investigation exclusivity remain conditional. No new screen, patient outcome or S-tier promotion. The old 100-point queue is historical; it does not control the next dollar. All 622 original coverage rows and earlier packages remain intact. Round 14 is published at `81b3a4393605dc282a295912db2f787089b15ac3`.
+**Status: 4 November 2026, after Round 16.** Topical APR-246/AEC is the first conditional marginal-dollar qualification priority after the independent review and a bounded clinical/article/model/rights sprint. Later abstracts add source detail without new patients; a consistent nominal formulation and existing model leads support a specific route without validating transfer, cost or capture. Useful ongoing wound control supersedes the earlier universal withdrawal-persistence gate. No new screen, experimental result or S-tier promotion. The 100-point queue remains historical. All 622 original coverage rows and earlier packages are preserved. Round 15 is published at `7707f09703be11af8befdfda85b8a840f82dd8fd`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 16 APR-246 marginal-dollar decision](research/rounds/round16/README.md) | Clinical lineage, existing article/model routes, current rights limits and a bounded qualification decision. |
 | [Round 15 marginal-dollar decision](research/rounds/round15/README.md) | Enasidenib contribution beyond the existing sprinkle, current approval incentives and a finite funding decision. |
 | [Round 14 controlled HS evidence](research/rounds/round14/README.md) | Official results, endpoint-specific denominators, missingness and the HHD claim amendment. |
 | [Round 13 HHD comparator audit](research/rounds/round13/README.md) | Final-versus-preprint model evidence, endpoint-specific comparator decision and explicit supplement limits. |

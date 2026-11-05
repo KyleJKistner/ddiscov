@@ -1,0 +1,145 @@
+{
+  "schema_version": "ddiscov.round16.independent_marginal_decision_review.v1",
+  "review_date": "2026-11-04",
+  "review_timezone": "America/Los_Angeles",
+  "review_completed_utc_date": "2026-11-05",
+  "reviewer": "r16_apr_product",
+  "verdict": "pass",
+  "blocking_issues": [],
+  "reviewed_files": [
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/marginal-dollar-decision.md",
+      "bytes": 14755,
+      "sha256": "0a6b67b2ae5fb76b2a36ffbabd551835f802d989105a1cc45d3270520c3f0cca"
+    },
+    {
+      "path": "/workspace/scratch/275efd815397/ddiscov_round16/research/rounds/round16/marginal-dollar-decision.json",
+      "bytes": 14193,
+      "sha256": "f8f582e7fc15394eb1324f266c974e0170093c6163e7afb5679e8f742ac27f24"
+    }
+  ],
+  "scope": "Independent substantive review of the final authored marginal-dollar decision Markdown and JSON; source audit of product-transfer and model-route claims; exact byte/hash binding. This is not certification of remote publication, main, the complete tree, or manifest, which remain the parent verification task.",
+  "evidence_basis": [
+    "Read both final decision files in full, then rehashed them before recording this review.",
+    "Independent earlier audit of 2020 AEC article, explicit patent formulation example, supplier/vehicle primary documents, relevant mechanism source, and 2021 O020 abstract; saved in product scratch notes.",
+    "Independent primary Salois PubMed indexed abstract/Figure 1-2 legend audit; full article/supplement not recovered.",
+    "Independent discovery/read of Di Girolamo publicly hosted 19-page institutional article, with focused Figure 6/results and sheet-assay context audit. Supplement not independently audited.",
+    "Independent review ordering/budget attribution assessed against the supplied task context and parent verification of report page 2; this child does not claim independently retrieving all ten report pages.",
+    "Clinical-lineage and current-rights details assessed for faithful decision-level representation; their complete ledgers receive separate independent reviews."
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "status": "pass",
+      "topic": "Marginal-dollar selection",
+      "finding": "APR priority follows the user-directed independent ordinal review and the next consequential uncertainty. Sunk effort and historical allocation are explicitly excluded as EV proxies. Conditional rank is not represented as computed return per dollar; no invented probability, NPV or allocation appears."
+    },
+    {
+      "id": "F2",
+      "status": "pass",
+      "topic": "Actual gains and bounded comparison",
+      "finding": "New gains are specific source reconciliation, nominal article clarification, two model leads, current company filing and an explicit claim amendment. No exhaustive fresh portfolio revaluation is claimed; lack of a new alternative-favoring fact is not presented as universal superiority."
+    },
+    {
+      "id": "F3",
+      "status": "pass",
+      "topic": "Budget and exclusions",
+      "finding": "USD25000-100000 and 2-5 months are attributed analyst assumptions, with quotes, actual spending and verified delivery time excluded. Patient trials, major model construction, licensing, GLP, GMP clinical manufacture and commercialization are outside the envelope."
+    },
+    {
+      "id": "F4",
+      "status": "pass",
+      "topic": "Clinical units",
+      "finding": "The decision preserves the original two-child denominator, zero additional verified people/cohorts, site additions and unresolved P2 annotation conflict. It rejects crossing a P2 baseline score with a P1 follow-up score and does not infer a causal response magnitude."
+    },
+    {
+      "id": "F5",
+      "status": "pass",
+      "topic": "Article and exposure",
+      "finding": "Nominal formula consistency is separated from clinical-lot identity, stability transfer, delivered dose per area and tissue/systemic exposure. Existing-article qualification is plausible, not free, validated or necessarily accessible."
+    },
+    {
+      "id": "F6",
+      "status": "pass",
+      "topic": "Model sources and units",
+      "finding": "Salois access and expression limits are retained. Di Girolamo is correctly updated to public institutional full text; I537T mechanical repetitions are distinguished from donors and from broader genotype responsiveness. Different-intervention cell cohesion is not represented as APR rescue or mature-barrier reversal."
+    },
+    {
+      "id": "F7",
+      "status": "pass",
+      "topic": "Claim-specific gates",
+      "finding": "Ongoing clinically useful control is distinguished from full barrier restoration and off-treatment regeneration. Tissue integrity, benefit and acceptable exposure remain required for the intended claim, without compulsory perfect cornification, mechanism, withdrawal persistence or new preclinical reset."
+    },
+    {
+      "id": "F8",
+      "status": "pass",
+      "topic": "Scope-change and capture branches",
+      "finding": "Major chemistry, vehicle, model or rights burden triggers renewed marginal comparison rather than automatic extension. A separately evaluated clinical route, narrower claim, evidence/public-benefit route and cash/wait remain possible. Company inactivity is not equated with abandoned rights."
+    },
+    {
+      "id": "F9",
+      "status": "pass",
+      "topic": "Restrictions and closure",
+      "finding": "All six restrictions are explicitly false in activity and no execution is authorized. Public-source pass is closed; reopening requires a substantive source/access/product/transaction fact. Previously closed searches remain closed; no automation is created."
+    },
+    {
+      "id": "F10",
+      "status": "pass",
+      "topic": "MD/JSON consistency",
+      "finding": "Decision, rank basis, model limits, claim override, budget assumptions, route boundaries, zero new clinical/experimental units and all restrictions are consistent between the reviewed files."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "R1",
+      "issue": "Di Girolamo initially appeared abstract-only because PMC is embargoed.",
+      "resolution": "An accessible primary institutional full-text PDF was recovered, independently audited and cited; the final files correctly update read scope without claiming a supplement audit."
+    },
+    {
+      "id": "R2",
+      "issue": "Existing model publications could be mistaken for APR rescue or ready transfer.",
+      "resolution": "Final files explicitly limit M1/M2 to disease phenotype and different-intervention responsiveness, with unverified access/cost and no APR or established mature-barrier reversal claim."
+    },
+    {
+      "id": "R3",
+      "issue": "The historical withdrawal/cornification gate could reject useful ongoing control before its actual marginal value was considered.",
+      "resolution": "Final decision explicitly supersedes the universal gate for the intended ongoing-control claim while preserving stronger-claim requirements and historical-file integrity."
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "O1",
+      "blocking_for_this_review": false,
+      "issue": "Actual exact-article transfer, quantitative stability, local/systemic exposure and continued-use performance remain unknown.",
+      "disposition": "Explicit remaining decision inputs; not represented as completed qualification."
+    },
+    {
+      "id": "O2",
+      "blocking_for_this_review": false,
+      "issue": "Appropriate model fit/access, clinical causality/chronic safety, AEC reach/economics and applicable rights/terms remain unresolved.",
+      "disposition": "Explicit conditional branches; no funding or execution commitment is inferred."
+    },
+    {
+      "id": "O3",
+      "blocking_for_this_review": false,
+      "issue": "P2 variant discrepancy, Salois full text/supplement and current official European claim status remain limited.",
+      "disposition": "Clearly preserved source limits and bounded reopening triggers; no forced resolution or absence inference."
+    },
+    {
+      "id": "O4",
+      "blocking_for_this_review": false,
+      "issue": "The ordinal ranking and illustrative envelope are analytical judgments rather than calibrated numerical EV.",
+      "disposition": "Prominently labeled; the task supports a conditional next-evidence priority, not a calculated financial investment case."
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "repository_files_modified_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

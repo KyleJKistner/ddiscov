@@ -1,10 +1,20 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 15.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 16.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-**Select the next marginal dollar independently of the historical allocation.** Round 15 chose the enasidenib product/indication contribution and value-capture uncertainty through a bounded qualitative information-value comparison. This is not a numerical portfolio valuation. The legacy ranks and 100-point queue below are retained planning history, not a current financial order.
+## Round 16: APR-246/AEC and the next marginal dollar
 
-## Round 15: enasidenib contribution and capture
+**Topical APR-246/AEC is first for a conditional, bounded qualification tranche.** The independent review ranked its next dollar ahead of RM4404 and BLU; the completed fresh source audit found no clear reason to switch candidates. This is a conditional ordinal judgment, not a calculated return, a new allocation or a full-program commitment. The historical 100-point queue below has no control over this decision. [Decision and branches](../research/rounds/round16/marginal-dollar-decision.md)
+
+The intended claim is useful sustained control of persistent erosions and treatment burden during the intended regimen, at acceptable exposure. The prior APR-specific demand for benefit after withdrawal is superseded for this claim. Perfect cornification and a mandatory preclinical reset are not universal entry gates. Full barrier restoration and durable off-treatment regeneration remain separate, unestablished claims.
+
+Two later primary abstracts are reconciled to the original two children; they add site/pain details and preserve an unresolved P2 variant discrepancy without adding patients or independent cohorts. The patent composition agrees with the paper's nominal concentrations, while site-specific dose and transferable stability remain unresolved. Two existing AEC model/functional papers supply concrete routes, not APR efficacy, ready access or verified costs. The latest company filing distinguishes inactive APR trials from maintained rights. [Clinical audit](../research/rounds/round16/apr-clinical-evidence.md) · [Article and capture](../research/rounds/round16/apr-product-capture.md)
+
+The independent review's $25–100k / 2–5-month envelope is illustrative. If the route requires major new formulation/model work or costly/inaccessible rights, stop extending that assumed tranche and compare the actual revised opportunity with RM4404, BLU and waiting. The public-source pass is closed. APR retains its local translational challenger evidence tier; no S-tier promotion, new candidate screen or new experimental result is claimed.
+
+All restrictions remain: no outreach, purchases, recruitment, experiments, simulations or material receipt. Earlier clinical-development decisions and closed searches below remain in force unless explicitly amended here.
+
+## Retained Round 15: enasidenib contribution and capture
 
 **Retain affirmative clinical development; hold automatic spending on a new pediatric formulation.** A first D2HGA2 indication-development package using an adequate existing article remains a live route. A new presentation must solve a documented meaningful problem beyond the existing sprinkle. Missing public infant/water/tube qualification establishes neither incumbent failure nor adequacy. Investigator-led evidence can have value without automatically creating an exclusive drug asset. [Funding decision](../research/rounds/round15/funding-decision.md)
 
@@ -163,7 +173,7 @@ A useful on-treatment cream can be valuable without genetic repair. A standalone
 
 ## Retained programs and common commercial standard
 
-Pantethine/PPCS, RM4404/corneal sensation, APR-246/AEC, selected LQT2 correction, gentamicin/nonsense JEB and other reserves retain their earlier defined gates. This sprint supplies no new exact-article efficacy for them. The cumulative register preserves all prior screens and corrections rather than silently replacing the portfolio with the most recent candidates.
+Pantethine/PPCS, RM4404/corneal sensation, selected LQT2 correction, gentamicin/nonsense JEB and other reserves retain their earlier defined gates. APR-246/AEC follows the explicit Round 16 ongoing-control amendment and conditional marginal priority above. This sprint supplies no new exact-article efficacy. The cumulative register preserves all prior screens and corrections rather than silently replacing the portfolio with the most recent candidates.
 
 Apply the same product standard to every leader: public chemistry, a supplier listing, an approved generic or a marketed brand does not establish ownership or commercial clearance. BLU's origin and existing target/compound claims matter as much as the clinical leaders' franchises and formulation claims. A research project may be justified while its standalone asset thesis remains unresolved.
 

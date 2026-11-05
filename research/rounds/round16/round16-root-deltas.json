@@ -1,0 +1,166 @@
+{
+  "schema_version": "ddiscov.round16.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_publication_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_molecule_claims": 0,
+    "new_treated_people": 0,
+    "new_independent_clinical_cohorts": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "clinical_observation_rows": 15,
+    "clinical_claim_decisions": 8,
+    "newly_reconciled_primary_conference_reports": 2,
+    "new_to_repository_model_sources": 2,
+    "opportunity_routes": 3,
+    "decision_branches": 5,
+    "independent_review_documents_total": 3,
+    "reviewed_authored_files": 6
+  },
+  "scope": "One existing candidate: clinical-source lineage, article/model qualification premise, current program/known-rights limits and marginal-dollar decision.",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar",
+    "selected_uncertainty": "Whether the existing human APR-246/AEC signal admits a small, interpretable existing-article qualification route, or instead requires major article/model/rights development",
+    "basis": "User-directed priority from independent conditional marginal-capital review, tested against fresh clinical, article, model and rights evidence",
+    "historical_allocation_used_as_EV_proxy": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "zero_or_stop_option_included": true,
+    "conditional_marginal_priority_rank": 1,
+    "independent_review_rank": 1,
+    "new_evidence_clearly_favoring_another_candidate": false
+  },
+  "independent_review_input": {
+    "document": "ddiscov_marginal_capital_ranking.pdf",
+    "date": "2026-11-04",
+    "pages": 10,
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "read_scope": "All ten pages through the connected file text reader",
+    "kind": "independent analytical review supplied in the user context; not primary experimental evidence",
+    "objective": "Discounted financial value retained by ddiscov after remaining development/commercial costs, rights, royalties, partner sharing and dilution",
+    "conditional_top_seven": [
+      {
+        "rank": 1,
+        "candidate_id": "R4-L02",
+        "name": "Topical APR-246 / AEC"
+      },
+      {
+        "rank": 2,
+        "candidate_id": "R4-L01",
+        "name": "RM4404 / corneal sensory repair"
+      },
+      {
+        "rank": 3,
+        "candidate_id": "BLU3797_XLMTM",
+        "name": "BLU-3797 / XLMTM"
+      },
+      {
+        "rank": 4,
+        "candidate_id": "R3-NL-01",
+        "name": "NDC-9009 / Darier"
+      },
+      {
+        "rank": 5,
+        "candidate_id": "MIGF_CORNEA",
+        "name": "mIGF-Gel / cornea"
+      },
+      {
+        "rank": 6,
+        "candidate_id": "R3-NM-01",
+        "name": "Exact 8015-P2 / MFN2-CMT2A"
+      },
+      {
+        "rank": 7,
+        "candidate_id": "AAT_EVLP",
+        "name": "AAT / donor-lung EVLP"
+      }
+    ],
+    "root_reaudited_all_candidates": false,
+    "ordinal_not_calculated_financial_returns": true,
+    "alphaCT1_separate_cheap_public_screen_not_development_rank": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R4-L02",
+      "new_candidate": false,
+      "source_scopes": [
+        "research/rounds/round16/apr-clinical-evidence.json",
+        "research/rounds/round16/apr-product-capture.json",
+        "research/rounds/round16/marginal-dollar-decision.json"
+      ],
+      "decision_scope": "research/rounds/round16/marginal-dollar-decision.json",
+      "delta": [
+        "Selected from the independent conditional review by next marginal-dollar value, not historical allocation; no numerical return or full-program award.",
+        "Later O020 and abstract324 conservatively overlap the original two children; added site/pain details and P2 variant conflict do not create new cohorts.",
+        "Patent composition agrees with the historical nominal formulation; actual per-site dose, stability transfer and chronic exposure margin remain unresolved.",
+        "Two 2026 model/functional-comparator sources identify existing routes with expression, genotype, timing and access limits; neither supplies APR efficacy.",
+        "Current Aprea filing reports inactive company APR trials but continuing rights/closeout activity; known corneal patient predicate and official EP-status limits remain.",
+        "Close the bounded public-source pass. Major new article/model/rights work requires a new marginal comparison; no scientific execution or S-tier promotion."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round16/apr-clinical-evidence.json",
+    "research/rounds/round16/apr-product-capture.json",
+    "research/rounds/round16/marginal-dollar-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null
+  },
+  "independent_reviews": [
+    "research/rounds/round16/independent-clinical-review.json",
+    "research/rounds/round16/independent-product-capture-review.json",
+    "research/rounds/round16/independent-marginal-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round16/integration-review.md",
+  "local_verification": "research/rounds/round16/local-verification.json",
+  "artifact_manifest": "research/rounds/round16/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "clinical_lineage_reconciliation_complete": true,
+    "nominal_article_consistency_clarified": true,
+    "full_quantitative_stability_or_PK_dataset_recovered": false,
+    "official_European_current_claim_status_verified": false,
+    "all_candidate_reranking_performed": false,
+    "generic_CNS_search_reopened": false,
+    "blu_claim_mapping_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "owner_reply_scientific_selection_gate": false,
+    "monitoring_automation_created": false,
+    "reopen_only_for": [
+      "Substantive new patient/site/dose or transcript correction",
+      "New exact-article stability, skin-exposure or controlled clinical evidence",
+      "Accessible substantive model fit/access documentation or official claim record",
+      "Defined product or transaction facts changing a specific marginal commitment"
+    ],
+    "no_next_generic_search_for_missing_private_terms": true
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "No full Salois article/supplement audit; Di Girolamo institutional full text recovered, supplement not audited.",
+    "Known-family Google transcription does not establish current official EP claims/status or all-party FTO.",
+    "Current supplier documentation is not historic clinical-lot authentication; no quantitative cream stability or dermal PK verified.",
+    "Ordinal independent-review priority and illustrative cost/time are judgments, not calculated financial value or quotes."
+  ]
+}
