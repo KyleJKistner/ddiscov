@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 20](rounds/round20/README.md) completes the selected mIGF-Gel/corneal-repair source sprint after APR/RM/BLU/NDC closure. Exact product/model, practical insulin comparator and patent/capture audits sharpen the conditional reserve without new human mIGF efficacy. The inherited order and rank-five informative scope remain conditional; preliminary qualification does not inherit their EV. No new screen or experiment. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
+> **Current work:** [Round 21](rounds/round21/README.md) closes a bounded review of existing Exact 8015-P2/MFN2-CMT2A. Exact-article, useful human-function/model, allele and product/rights distinctions sharpen the conditional rank-six option under its original informative scope. No broader new-opportunity screening, new exact P2 human result, experiment or allocation. APR/RM/BLU/NDC/mIGF source closures remain unchanged. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

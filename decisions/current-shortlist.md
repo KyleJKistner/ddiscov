@@ -1,6 +1,14 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 20.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 21.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+
+## Round 21: existing Exact 8015-P2/MFN2-CMT2A
+
+**Retain a conditional exact-P2 human-function option and close this bounded source review.** The inherited conditional development order remains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2**. This user-selected review does not reopen those five passes or perform broader new-opportunity screening. [Decision](../research/rounds/round21/marginal-dollar-decision.md)
+
+The animal functional signal remains credible within its T105M, investigator-lineage, sex, regimen and biological-unit scope. Human 8015-mixture/Chimera C results and operating R364W transport assays do not establish useful exact-P2 motor-unit function. AG0008's public c.2219G>C annotation is resolved to W740S; physical lot identity, access and functional qualification remain separate. [Article/exposure](../research/rounds/round21/p2-article-exposure.md) · [Human translation](../research/rounds/round21/p2-human-translation.md)
+
+WO2026044165A1 adds an explicit P2/(R,R) documentary link and stereoisomer-focused application. Earlier compound grants/continuations, rat-model patents and generic orphan designation have different scopes; no license or FTO is established. Original-scope rank 6 and US$75–250k/four-to-eight-month assumptions do not transfer automatically to qualification-only work. A first qualified background can inform exploration; broader claims, strong negative reversal inference and useful direct-muscle/ongoing-control claims require their own evidence. [Product/capture](../research/rounds/round21/p2-product-capture.md)
 
 ## Round 20: mIGF-Gel and a useful practical comparator decision
 

@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 20 — mIGF-Gel/corneal-repair marginal-dollar source close](rounds/round20/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). Retain the conditional APR/RM/BLU/NDC/mIGF order under the original informative scope. Exact-product, practical comparator and capture updates sharpen the mIGF reserve; all five source passes are closed. The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 21 — Exact 8015-P2/MFN2-CMT2A bounded marginal-dollar review](rounds/round21/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). Retain conditional rank 6 under the original informative human-function scope; article/model lineage, stereochemical disclosure and distinct rights layers sharpen the next decision. No broader new-opportunity screen; APR/RM/BLU/NDC/mIGF source closures remain intact. The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 

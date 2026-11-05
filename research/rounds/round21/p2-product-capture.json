@@ -1,0 +1,717 @@
+{
+  "schema_version": "ddiscov.round21.p2_product_capture.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieved_utc_date": "2026-11-05",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "candidate_id": "R3-NM-01",
+  "candidate": "Exact 8015-P2 / MFN2-CMT2A",
+  "scope": "Existing exact-P2 article, material, drug/model patent and regulatory/development attribution only; no new-opportunity screening.",
+  "exact_article": {
+    "name": "8015-P2",
+    "chemical_name": "(1r,4r)-4-hydroxy-N-[(1R,2R)-2-(4-phenylbutyl)cyclopropyl]cyclohexane-1-carboxamide",
+    "operational_reference": "slower-eluting 8015 chiral SFC peak",
+    "interchangeable_with": [
+      "none"
+    ],
+    "excluded_substitutions": [
+      "parent8015mixture",
+      "MiM111",
+      "ChimeraC",
+      "genericpiperine"
+    ]
+  },
+  "sources": [
+    {
+      "id": "PC21-S01",
+      "title": "Weigele et al., J Pharmacol Exp Ther 2024;391:361–374",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "document_date": "2024-11",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_research_article",
+      "read_scope": "Identity, Fig3 narrative, abbreviations, acknowledgments and development limitations.",
+      "access": "readable_HTML",
+      "limits": "No lot, MTA terms or independent manufacturing authentication."
+    },
+    {
+      "id": "PC21-S02",
+      "title": "Weigele et al., Cells 2026;15:1789",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13664537/",
+      "document_date": "2026-09-30",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_research_article",
+      "read_scope": "Sections2.2 and3.3, author disclosures; chemical name and supply context only.",
+      "access": "readable_HTML",
+      "limits": "Worm endpoints are not human-CMT efficacy; raw data not reanalyzed."
+    },
+    {
+      "id": "PC21-S03",
+      "title": "Weigele et al., Int J Mol Sci 2026;27:7376",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "document_date": "2026-08-18",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_research_article",
+      "read_scope": "Sections3.2,4.10 and author disclosures.",
+      "access": "readable_HTML",
+      "limits": "Production statement does not certify a new lot or chronic clinical product."
+    },
+    {
+      "id": "PC21-S04",
+      "title": "WO2023196340A1",
+      "url": "https://patents.google.com/patent/WO2023196340A1/en",
+      "document_date": "2023-10-12",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_patent_text_reproduced_by_Google_Patents",
+      "read_scope": "Bibliography and US family links.",
+      "access": "readable_HTML",
+      "limits": "PCT status display does not establish national rights or current title."
+    },
+    {
+      "id": "PC21-S05",
+      "title": "US20240050386A1",
+      "url": "https://patents.google.com/patent/US20240050386A1/en",
+      "document_date": "2024-02-15",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_patent_text_reproduced_by_Google_Patents",
+      "read_scope": "Rendered claims, descriptive clauses and family links.",
+      "access": "readable_HTML",
+      "limits": "Original claim PDF not independently audited; cancelled positions retained."
+    },
+    {
+      "id": "PC21-S06",
+      "title": "US12396968B2",
+      "url": "https://patents.google.com/patent/US12396968B2/en",
+      "document_date": "2025-08-26",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_patent_text_reproduced_by_Google_Patents",
+      "read_scope": "19 issued composition claims as rendered, selected variables and bibliography.",
+      "access": "readable_HTML",
+      "limits": "Chemical drawing and prosecution review incomplete; displayed legal metadata not audited title."
+    },
+    {
+      "id": "PC21-S07",
+      "title": "US20250332124A1",
+      "url": "https://patents.google.com/patent/US20250332124A1/en",
+      "document_date": "2025-10-30",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_patent_text_reproduced_by_Google_Patents",
+      "read_scope": "Continuation relationship and rendered claims1–21.",
+      "access": "readable_HTML",
+      "limits": "Position19 blank in retrieved rendering; no new grant verified."
+    },
+    {
+      "id": "PC21-S08",
+      "title": "WO2026044165A1",
+      "url": "https://patents.google.com/patent/WO2026044165A1/en",
+      "document_date": "2026-02-26",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "primary_patent_text_reproduced_by_Google_Patents",
+      "read_scope": "Paragraphs0001,0013–0021,0104–0108; claims1–28 and bibliography.",
+      "access": "readable_HTML",
+      "limits": "Published application; original formula images, title and prosecution not fully verified. Related efficacy is not independent replication."
+    },
+    {
+      "id": "PC21-S09",
+      "title": "USPTO Official Gazette: US12721327B2",
+      "url": "https://patentsgazette.uspto.gov/week35/OG/html/1550-1/US12721327-20260901.html",
+      "document_date": "2026-09-01",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "official_public_record",
+      "read_scope": "Official bibliographic entry and representative claim1.",
+      "access": "readable_HTML",
+      "limits": "Other six claims not inspected here; no general model clearance conclusion."
+    },
+    {
+      "id": "PC21-S10",
+      "title": "FDA Orphan Drug Designations and Approvals, record1095725",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1095725",
+      "document_date": "2025-10-06",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "official_public_record",
+      "read_scope": "Generic article, indication, sponsor and approval-status fields.",
+      "access": "readable_HTML",
+      "limits": "Exact P2 identity and IND status not provided."
+    },
+    {
+      "id": "PC21-S11",
+      "title": "SBA/NIH STTR award193346",
+      "url": "https://www.sbir.gov/awards/193346",
+      "document_date": "2021",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "official_public_record",
+      "read_scope": "Award classification and applicant abstract naming trans-MiM111 and pre-IND goals.",
+      "access": "readable_HTML",
+      "limits": "Historical award; goals and STTR phases do not establish completed clinical phases."
+    },
+    {
+      "id": "PC21-S12",
+      "title": "SBA/NIH STTR award197703",
+      "url": "https://www.sbir.gov/awards/197703",
+      "document_date": "2022",
+      "retrieved_utc_date": "2026-11-05",
+      "source_type": "official_public_record",
+      "read_scope": "Award classification and abstract distinguishing CPR1-B and MiM111.",
+      "access": "readable_HTML",
+      "limits": "Other exact articles; no status transfer to P2."
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "PC21-L01",
+      "title": "Prior independent marginal-capital report authored input",
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "read_scope": "Blocks4,14,44,45; original rank, scope and cost assumptions."
+    },
+    {
+      "id": "PC21-L02",
+      "title": "Round21 context and baseline policy/P2 record",
+      "path": "/workspace/scratch/e8635471e089/round21_work/round21-context.json",
+      "read_scope": "Complete context plus baseline decisions/selection-policy.md; Round5 separates model and compound rights."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "PC21-E01",
+      "source_ids": [
+        "PC21-S01",
+        "PC21-S02",
+        "PC21-S03"
+      ],
+      "finding_type": "revalidated",
+      "observation": "P2 is the slower chiral fraction; later descriptions assign the cyclopropane (1R,2R) configuration.",
+      "exact_article": "(1r,4r)-4-hydroxy-N-[(1R,2R)-2-(4-phenylbutyl)cyclopropyl]cyclohexane-1-carboxamide",
+      "limitation": "Operational peak identity and chemical name do not authenticate a delivered lot.",
+      "decision_impact": "Preserve exact article; aliases are not substitutions."
+    },
+    {
+      "id": "PC21-E02",
+      "source_ids": [
+        "PC21-S01",
+        "PC21-S02",
+        "PC21-S03"
+      ],
+      "finding_type": "production_detail_added_to_current_decision",
+      "observation": "Research supply used an MTA; rat powder was reported >99% pure and company gifted; worm material was WuXi-made, >95% pure and company provided under MTA.",
+      "lot_equivalence_verified": false,
+      "current_stock_verified": false,
+      "limitation": "Study-specific purity statements and agreements are not transferable release specifications or available terms.",
+      "decision_impact": "A production history supports qualification planning but no procurement/readiness claim."
+    },
+    {
+      "id": "PC21-E03",
+      "source_ids": [
+        "PC21-S04",
+        "PC21-S05",
+        "PC21-S06"
+      ],
+      "finding_type": "revalidated",
+      "observation": "The older international family links to issued US12396968B2 despite a ceased PCT display.",
+      "US_grant_publication": "2025-08-26",
+      "current_maintenance_audited": false,
+      "limitation": "Aggregator status and listed assignee are not a complete title or enforceability audit.",
+      "decision_impact": "Do not infer open rights from the PCT display."
+    },
+    {
+      "id": "PC21-E04",
+      "source_ids": [
+        "PC21-S06"
+      ],
+      "finding_type": "new_bounded_claim_read",
+      "issued_claims": 19,
+      "claim_type": "composition",
+      "claim_relevance": "Claim1 G=CH/X=NR1Cyc; claims4/6 specify cyclopropyl/hydroxycyclohexyl; claim9 fixes cyclopropyl/(CH2)4; stereoisomers are included.",
+      "complete_claim_chart": false,
+      "limitation": "Textual structural relevance only; full drawings and prosecution not independently audited.",
+      "decision_impact": "Specific existing claims require product-level review before material commercial commitment; no FTO conclusion."
+    },
+    {
+      "id": "PC21-E05",
+      "source_ids": [
+        "PC21-S05"
+      ],
+      "finding_type": "new_version_scope_read",
+      "rendered_numbered_positions": 27,
+      "rendered_cancelled_positions": [
+        13,
+        14,
+        25,
+        26,
+        27
+      ],
+      "observation": "Descriptive method clauses remain although method claim positions are cancelled in the retrieved rendering.",
+      "original_claim_PDF_read": false,
+      "limitation": "Do not treat descriptive or earlier application scope as granted scope.",
+      "decision_impact": "Preserve document/version-specific claims."
+    },
+    {
+      "id": "PC21-E06",
+      "source_ids": [
+        "PC21-S07"
+      ],
+      "finding_type": "new_continuation_detail",
+      "application_number": "19/262607",
+      "publication": "US20250332124A1",
+      "filed": "2025-07-08",
+      "published": "2025-10-30",
+      "rendered_numbered_positions": 21,
+      "rendered_blank_positions": [
+        19
+      ],
+      "observation": "The compound continuation begins claim1 at G=N; methods20/21 refer to different composition claims.",
+      "grant_verified": false,
+      "limitation": "Displayed pending status is not a current official prosecution audit; no exclusion inferred from a partial branch.",
+      "decision_impact": "Keep the actual compound continuation distinct from the model grant."
+    },
+    {
+      "id": "PC21-E07",
+      "source_ids": [
+        "PC21-S08"
+      ],
+      "finding_type": "new_current_program_document",
+      "publication": "WO2026044165A1",
+      "priority_date": "2024-08-22",
+      "filing_date": "2025-08-22",
+      "publication_date": "2026-02-26",
+      "observation": "Paragraphs0105–0107 report resynthesis/elution matching of slower P2 to (R,R).",
+      "government_rights_statement_present": true,
+      "limitation": "Patent assertion; not independent article authentication or efficacy replication.",
+      "decision_impact": "Strengthens the exact-stereoisomer documentary relationship."
+    },
+    {
+      "id": "PC21-E08",
+      "source_ids": [
+        "PC21-S08"
+      ],
+      "finding_type": "new_current_program_claim_detail",
+      "published_claims": 28,
+      "claim1_mass_ratios": [
+        "about60:40_or_greater",
+        "about40:60_or_less"
+      ],
+      "claim5_mass_ratios": [
+        "about95:5_or_greater",
+        "about5:95_or_less"
+      ],
+      "observation": "Phenyl, substantially single-isomer and treatment provisions are separately claimed.",
+      "grant_verified": false,
+      "full_original_formula_image_audit": false,
+      "limitation": "Published application; no validity, exclusivity, formulation-readiness or ownership conclusion.",
+      "decision_impact": "Do not assume stereoisomer purification creates an unclaimed proprietary asset."
+    },
+    {
+      "id": "PC21-E09",
+      "source_ids": [
+        "PC21-S09"
+      ],
+      "finding_type": "revalidated_with_explicit_family_separation",
+      "publication": "US12721327B2",
+      "grant_date": "2026-09-01",
+      "continuation_of": "US11800859",
+      "official_assignees": [
+        "Charcot-Marie-Tooth Association",
+        "Trustees of the University of Pennsylvania"
+      ],
+      "representative_claim1_variants": [
+        "R364W",
+        "H361Y"
+      ],
+      "document_claim_count": 7,
+      "claims_read": [
+        1
+      ],
+      "same_family_as_P2_compound": false,
+      "limitation": "Representative claim includes specified progressive pathology; remaining claims and broader model clearance were not assessed.",
+      "decision_impact": "Preserve model rights separately; historical Round5 already did so correctly."
+    },
+    {
+      "id": "PC21-E10",
+      "source_ids": [
+        "PC21-S10"
+      ],
+      "finding_type": "revalidated_current_record",
+      "generic_name": "small molecule mitofusin activator",
+      "designation_date": "2025-10-06",
+      "indication": "Treatment of Charcot-Marie-Tooth disease (CMT)",
+      "sponsor": "Mitochondria in Motion Discovery, Inc",
+      "designation_status": "Designated",
+      "orphan_approval_status": "Not FDA Approved for Orphan Indication",
+      "exact_P2_identity_verified": false,
+      "IND_status_verified": false,
+      "decision_impact": "Designation is program context, not exact-P2 human readiness."
+    },
+    {
+      "id": "PC21-E11",
+      "source_ids": [
+        "PC21-S11",
+        "PC21-S12"
+      ],
+      "finding_type": "new_program_lineage_clarification",
+      "observation": "The2021 STTR award names trans-MiM111 and pre-IND goals; the2022 award distinguishes MiM111 and CPR1-B.",
+      "STTR_Phase_II_is_human_clinical_Phase_II": false,
+      "limitation": "Historical funding abstracts describe plans for distinct articles.",
+      "decision_impact": "Do not transfer funding phases or development milestones to exactP2."
+    },
+    {
+      "id": "PC21-E12",
+      "source_ids": [
+        "PC21-S02",
+        "PC21-S10",
+        "PC21-S11",
+        "PC21-S12"
+      ],
+      "finding_type": "bounded_search_result",
+      "exact_P2_human_trial_identifier_recovered": false,
+      "exact_P2_administered_human_result_recovered": false,
+      "public_exact_P2_IND_authorization_recovered": false,
+      "observation": "Targeted exact-article/company/IND/registry-index searches recovered no verifiable human development record; the2026 worm paper uses future-potential language.",
+      "limitation": "No exhaustive trial-registry export or confidential IND review; lack of retrieval is not proof of nonexistence.",
+      "decision_impact": "No new clinical de-risking assigned."
+    },
+    {
+      "id": "PC21-E13",
+      "source_ids": [
+        "PC21-S01",
+        "PC21-S02",
+        "PC21-S03",
+        "PC21-S08"
+      ],
+      "finding_type": "product_readiness_inference",
+      "observation": "Research identity and formulation statements leave chronic human product exposure, tolerability, validated manufacture and shelf life unresolved.",
+      "measured_human_product_window_established": false,
+      "decision_impact": "Separate article qualification from a financeable chronic systemic product; no new formulation selected.",
+      "limitation": "An unresolved later-stage requirement does not make early qualification worthless."
+    },
+    {
+      "id": "PC21-E14",
+      "source_ids": [
+        "PC21-S06",
+        "PC21-S07",
+        "PC21-S08",
+        "PC21-S09",
+        "PC21-S10"
+      ],
+      "finding_type": "capture_status_inference",
+      "observation": "Specific rights and incumbent context are public; usable terms and financial capture by ddiscov are not established.",
+      "current_chain_of_title_verified": false,
+      "license_availability_verified": false,
+      "license_terms_verified": false,
+      "ddiscov_ownership_asserted": false,
+      "freedom_to_operate_asserted": false,
+      "decision_impact": "Scientific information and retained commercial value must be valued separately.",
+      "limitation": "Official dossier/assignment access was incomplete; no conclusion that permission is impossible."
+    },
+    {
+      "id": "PC21-E15",
+      "source_ids": [
+        "PC21-L01"
+      ],
+      "finding_type": "preserved_analyst_assumption",
+      "original_conditional_rank": 6,
+      "illustrative_cost_usd": [
+        75000,
+        250000
+      ],
+      "illustrative_months": [
+        4,
+        8
+      ],
+      "original_scope": "Exact article and independent human functional bridge; excludes chronic toxicology and clinical supply.",
+      "qualification_only_scope_inherits_rank_or_EV": false,
+      "verified_quote": false,
+      "verified_feasible_scope": false,
+      "decision_impact": "Recompare reduced information yield or added platform, rights, product cost or time—even if price is unchanged."
+    },
+    {
+      "id": "PC21-E16",
+      "source_ids": [
+        "PC21-L01",
+        "PC21-L02"
+      ],
+      "finding_type": "bounded_marginal_decision",
+      "decision_basis": "Consider preliminary qualification, informative exact-P2 data, authorized product development, separately rescored successor work, and waiting; no route is executed.",
+      "full_portfolio_revaluation": false,
+      "new_opportunity_screen": false,
+      "numerical_financial_EV": null,
+      "execution_now": false,
+      "decision_impact": "Retain the conditional option and close this finite source pass with specific reopening evidence."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "PC21-C01",
+      "claim": "Pure P2 is a specified article, interchangeable with the parent mixture or other activators.",
+      "decision": "Split: exact identity supported; interchangeability rejected.",
+      "support": [
+        "PC21-E01",
+        "PC21-E02"
+      ]
+    },
+    {
+      "id": "PC21-C02",
+      "claim": "Named production and research purity prove currently available or clinical-grade supply.",
+      "decision": "Not supported.",
+      "support": [
+        "PC21-E02",
+        "PC21-E13"
+      ]
+    },
+    {
+      "id": "PC21-C03",
+      "claim": "The compound-family continuation and model grant are the same right.",
+      "decision": "Rejected; preserve separate article, model and version scopes.",
+      "support": [
+        "PC21-E03",
+        "PC21-E04",
+        "PC21-E05",
+        "PC21-E06",
+        "PC21-E09"
+      ]
+    },
+    {
+      "id": "PC21-C04",
+      "claim": "New stereo-focused patent evidence establishes an owned or independently replicated P2 asset.",
+      "decision": "New documentary relevance only; no ownership, granted-rights or replication upgrade.",
+      "support": [
+        "PC21-E07",
+        "PC21-E08",
+        "PC21-E14"
+      ]
+    },
+    {
+      "id": "PC21-C05",
+      "claim": "Orphan designation or STTR funding phase establishes exact-P2 clinical readiness.",
+      "decision": "Rejected.",
+      "support": [
+        "PC21-E10",
+        "PC21-E11",
+        "PC21-E12"
+      ]
+    },
+    {
+      "id": "PC21-C06",
+      "claim": "A good independent result automatically creates equivalent retained financial value.",
+      "decision": "Not supported; data permission, product contribution and capture remain separate.",
+      "support": [
+        "PC21-E13",
+        "PC21-E14",
+        "PC21-E16"
+      ]
+    },
+    {
+      "id": "PC21-C07",
+      "claim": "Qualification-only work inherits rank6 and the original marginal EV at the same price.",
+      "decision": "Rejected; recompare actual useful information and remaining costs.",
+      "support": [
+        "PC21-E15",
+        "PC21-E16"
+      ]
+    },
+    {
+      "id": "PC21-C08",
+      "claim": "Another generic source search is the next useful milestone.",
+      "decision": "Close the bounded pass; reopen only for a concrete action-changing artifact.",
+      "support": [
+        "PC21-E12",
+        "PC21-E14",
+        "PC21-E15",
+        "PC21-E16"
+      ]
+    }
+  ],
+  "counts": {
+    "source_records": 12,
+    "evidence_rows": 16,
+    "claim_decisions": 8,
+    "opportunity_routes": 5,
+    "new_candidate_screens": 0,
+    "new_exact_P2_human_results": 0,
+    "external_commitment_usd": 0
+  },
+  "rights_records": {
+    "compound_grant": "US12396968B2",
+    "compound_continuation": "US20250332124A1",
+    "newer_stereoisomer_application": "WO2026044165A1",
+    "separate_model_grant": "US12721327B2",
+    "model_grant_parent": "US11800859",
+    "compound_and_model_rights_distinct": true,
+    "historical_round5_model_rights_distinction_preserved": true
+  },
+  "rights_status": {
+    "full_exact_article_claim_chart_completed": false,
+    "original_all_formula_images_audited": false,
+    "newer_stereoisomer_application_grant_verified": false,
+    "compound_continuation_grant_verified": false,
+    "current_official_chain_of_title_verified": false,
+    "current_maintenance_enforceability_verified": false,
+    "all_jurisdictions_reviewed": false,
+    "global_family_clearance_completed": false,
+    "license_availability_verified": false,
+    "license_terms_verified": false,
+    "exact_model_permission_terms_verified": false,
+    "regulatory_data_reliance_rights_verified": false,
+    "freedom_to_operate_asserted": false,
+    "ddiscov_ownership_asserted": false,
+    "commercial_capture_route_qualified": false
+  },
+  "product_readiness": {
+    "current_order_or_stock_verified": false,
+    "independently_authenticated_physical_lot": false,
+    "lot_equivalence_verified": false,
+    "scalable_GMP_supply_verified": false,
+    "chronic_human_tissue_exposure_verified": false,
+    "human_tolerability_window_verified": false,
+    "validated_clinical_formulation_shelf_life": false,
+    "delivered_product_cost_verified": false,
+    "exact_P2_IND_authorization_verified": false,
+    "exact_P2_human_trial_record_verified": false
+  },
+  "tranche_assumptions": {
+    "original_rank": 6,
+    "cost_range_usd": [
+      75000,
+      250000
+    ],
+    "months_range": [
+      4,
+      8
+    ],
+    "original_informative_scope": "Exact article and independent human functional bridge.",
+    "original_specific_exclusions": [
+      "chronic_toxicology",
+      "clinical_supply"
+    ],
+    "broader_exclusions": [
+      "rights",
+      "licensing",
+      "GLP",
+      "GMP_clinical_manufacture",
+      "trials",
+      "commercialization"
+    ],
+    "verified_quote": false,
+    "verified_feasible_scope": false,
+    "full_program_budget_established": false,
+    "qualification_only_scope_inherits_prior_rank_without_recomparison": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "new_model_platform_or_major_product_work_requires_recomparison": true,
+    "quotes_obtained": false,
+    "external_commitment_usd": 0
+  },
+  "marginal_decision": {
+    "recommendation": "Retain conditional exact-P2 option; no rank promotion or new allocation supported by capture evidence.",
+    "inherited_conditional_rank": 6,
+    "no_new_global_portfolio_valuation": true,
+    "numerical_financial_EV": null,
+    "probability_model_run": false,
+    "scientific_information_product_value_and_private_capture_distinct": true,
+    "owner_reply_required_for_scientific_selection": false,
+    "human_efficacy_required_before_initial_qualification": false,
+    "all_alleles_required_before_first_exploratory_result": false,
+    "direct_muscle_or_useful_ongoing_control_automatically_rejected": false,
+    "routes": [
+      {
+        "id": "PC21-R01",
+        "route": "Preliminary article/model qualification",
+        "value": "Whether an informative exact-P2 question is feasible.",
+        "condition": "Reduced scope requires fresh EV/rank comparison, including subsequent bridge costs.",
+        "execution_now": false
+      },
+      {
+        "id": "PC21-R02",
+        "route": "Independent exact-P2 human functional package",
+        "value": "Translation information with exact article and exposure provenance.",
+        "condition": "Useful-function yield and permitted data use must be distinguished from ownership of the compound.",
+        "execution_now": false
+      },
+      {
+        "id": "PC21-R03",
+        "route": "Authorized exact-P2 product development",
+        "value": "Possible retained commercial option.",
+        "condition": "Actual product contribution, available rights, terms and obligations unverified.",
+        "execution_now": false
+      },
+      {
+        "id": "PC21-R04",
+        "route": "Separate successor or major product redesign",
+        "value": "Possible response to a demonstrated article/product limitation.",
+        "condition": "Not selected, designed or screened; different project requires new scope/cost/value comparison.",
+        "execution_now": false
+      },
+      {
+        "id": "PC21-R05",
+        "route": "Wait, narrow or stop",
+        "value": "Preserve capital when incremental information is not decision-changing.",
+        "condition": "Specific material change in identity/function/exposure/cost/rights reopens review.",
+        "execution_now": false
+      }
+    ]
+  },
+  "retrieval": {
+    "pass_closed": true,
+    "boundary": "Exact-P2 identity and production; specified compound/model patent records and one directly cited stereoisomer publication; exact-name clinical/development evidence.",
+    "queries": [
+      "\"US12396968B2\" mitofusin",
+      "\"US12721327\" mitofusin",
+      "\"8015-P2\" \"Mitochondria\" clinical",
+      "\"Mitochondria in Motion Discovery\" pipeline trial",
+      "\"Mitochondria in Motion Discovery\" \"8015\"",
+      "\"Mitochondria in Motion\" clinical trial2026",
+      "\"8015-P2\" \"IND\"",
+      "\"8015-P2\" site:clinicaltrials.gov",
+      "\"mitofusin activator\" site:clinicaltrials.gov/study",
+      "\"US12396968\" site:patentsgazette.uspto.gov"
+    ],
+    "newly_recovered_current_program_document": "WO2026044165A1",
+    "new_document_bounded_read_not_new_opportunity_screen": true,
+    "limitations": [
+      {
+        "url": "https://patentcenter.uspto.gov/applications/18547996",
+        "result": "No readable dossier text."
+      },
+      {
+        "url": "https://assignment.uspto.gov/patent/index.html",
+        "result": "502 fetch failure; no current assignment-chain verification."
+      },
+      {
+        "url": "https://patentscope.wipo.int/search/en/WO2026044165",
+        "result": "403; no bypass."
+      },
+      {
+        "scope": "Original patent chemical formula images and all original claim pages",
+        "result": "Not comprehensively audited; textual map only."
+      },
+      {
+        "scope": "Clinical development",
+        "result": "No exact-P2 human trial/IND record recovered in bounded indexed searches; not an exhaustive registry or confidential-record audit."
+      }
+    ],
+    "blocked_challenge_bypassed": false,
+    "broader_new_opportunity_screening_performed": false,
+    "prior_APR_RM_BLU_NDC_mIGF_passes_reopened": false,
+    "monitoring_automation_created": false,
+    "third_party_raw_downloads_added": false,
+    "reopen_only_for": [
+      "Authenticated exact-P2 human useful-function or exposure artifact that changes the next finite decision.",
+      "Specific readable product-to-claim, prosecution or title event with decision impact.",
+      "Actual permitted data/product rights and cost information relevant to retained value.",
+      "Exact-identity human clinical/IND record materially changing program status."
+    ],
+    "search_absence_interpreted_as_nonexistence": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "restrictions": "No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "scientific_or_financial_models_run": false,
+  "new_manufacturing_or_experimental_protocol_created": false,
+  "development_execution_authorized": false
+}

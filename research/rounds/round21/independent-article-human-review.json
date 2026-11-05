@@ -1,0 +1,333 @@
+{
+  "schema_version": "ddiscov.round21.independent_article_human_review.v1",
+  "round": 21,
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "reviewed_utc_date": "2026-11-05",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "candidate_id": "R3-NM-01",
+  "candidate": "Exact 8015-P2 / MFN2-CMT2A",
+  "reviewer": "p2_product_capture",
+  "review_independence": {
+    "authored_reviewed_files": false,
+    "edited_reviewed_files": false,
+    "author_of_separate_product_capture_lane": true,
+    "scope": "Independent review of the final article/exposure and human/translation pairs only. No broader candidate search, scientific reanalysis, protocol, experiment, simulation, financial model, or repository mutation."
+  },
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round21/p2-article-exposure.md",
+      "bytes": 14316,
+      "sha256": "b40c56c50db9a64cdcf3b204d3bd0ece94c4f8a23e4b0ba2dfc9e3c58c011690"
+    },
+    {
+      "path": "research/rounds/round21/p2-article-exposure.json",
+      "bytes": 29265,
+      "sha256": "f5a838c7365e8a8e87cbcb7d6bf07fb441b9f058cb054855300f09552f61dfb4"
+    },
+    {
+      "path": "research/rounds/round21/p2-human-translation.md",
+      "bytes": 14295,
+      "sha256": "9a40143b80e73705476876fd27b1e0e48374432c70ca827de6f2608d4a25fcbc"
+    },
+    {
+      "path": "research/rounds/round21/p2-human-translation.json",
+      "bytes": 31155,
+      "sha256": "ad55c2de944aaae6987419067b939a396d8e0022e38372898ba4d91f89d45637"
+    }
+  ],
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "corrections_required": [],
+  "corrections_required_flag": false,
+  "conclusion": "The four bound files consistently preserve the exact-P2 conditional option without assigning mixture or related-compound human data to P2, treating repeated observations as independent patients, claiming human efficacy, promoting the program, or authorizing restricted activity. The source and model limitations are explicit and do not block publication of this bounded review.",
+  "checks": [
+    {
+      "id": "IAH21-C01",
+      "pass": true,
+      "topic": "Base, scope and restriction identity",
+      "finding": "Both JSON files match the Round 20 base commit/tree and R3-NM-01. Both record all six restricted activities as false and limit the current decision to the existing program. The prose has no new-opportunity screening recommendation or execution instruction.",
+      "file_paths": [
+        "research/rounds/round21/p2-article-exposure.json",
+        "research/rounds/round21/p2-human-translation.json"
+      ]
+    },
+    {
+      "id": "IAH21-C02",
+      "pass": true,
+      "topic": "Strict structure and evidence references",
+      "finding": "Strict JSON parsing rejected duplicate keys and nonfinite constants; neither was present. Source, local-input, evidence and claim IDs are unique within each pair. All source_ids and claim support references resolve. Counts are article 4 sources/4 local inputs/16 evidence rows/11 claim decisions and human 13/4/17/8. Markdown gives a readable synthesis rather than repeating every JSON row identifier; no substantive pair disagreement was found."
+    },
+    {
+      "id": "IAH21-C03",
+      "pass": true,
+      "topic": "Exact article versus mixture and related compounds",
+      "finding": "The files preserve P2 as the slower fraction and trans-(1R,2R) article. They assign the one-background human T105M cellular findings to parent 8015, and older four-background findings to Chimera C. They do not substitute P1, MiM111, CPR1-B or generic piperine for P2.",
+      "support": [
+        "P2AE21-E01",
+        "P2AE21-E02",
+        "HT21-E01",
+        "HT21-E02"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+        "https://elifesciences.org/articles/61119"
+      ]
+    },
+    {
+      "id": "IAH21-C04",
+      "pass": true,
+      "topic": "Animal cohort and repeated-measure units",
+      "finding": "The papers support late established-disease treatment, pooled mouse sexes and male-only rat therapeutic cohorts. The files preserve animal-level interpretation of repeated readings, limbs, fields and cell measurements. Rat Figure 6A reports four animals/group and seven WT comparators; unread image-only counts remain null.",
+      "support": [
+        "P2AE21-E03",
+        "P2AE21-E04",
+        "P2AE21-E06",
+        "P2AE21-E07",
+        "P2AE21-E09"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/"
+      ]
+    },
+    {
+      "id": "IAH21-C05",
+      "pass": true,
+      "topic": "Dose, timing and source conflicts",
+      "finding": "The report distinguishes the rat paper's partial benefit at the lowest studied level from its stated minimum for fuller response. It separates acute and chronic evidence, stops short of human dose inference, and does not interpret cohort termination as withdrawal durability. Mouse charcoal units and rat sensory-paw location conflicts remain unresolved.",
+      "support": [
+        "P2AE21-E07",
+        "P2AE21-E08",
+        "P2AE21-E09",
+        "P2AE21-E12",
+        "P2AE21-E13"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/"
+      ]
+    },
+    {
+      "id": "IAH21-C06",
+      "pass": true,
+      "topic": "Animal efficacy interpretation and exposure limits",
+      "finding": "Nonsignificance versus WT is not called an equivalence test or a human cure. Functional improvement is not restricted to an exclusive nerve-regrowth explanation. Parent-mixture distribution/binding and acute mechanistic evidence are not promoted into an exact-P2 human free-exposure window.",
+      "support": [
+        "P2AE21-E08",
+        "P2AE21-E10",
+        "P2AE21-E11",
+        "P2AE21-E13",
+        "P2AE21-C03",
+        "P2AE21-C04",
+        "P2AE21-C05",
+        "P2AE21-C06"
+      ]
+    },
+    {
+      "id": "IAH21-C07",
+      "pass": true,
+      "topic": "R94Q provenance and function",
+      "finding": "JCI 200106 describes one engineered MShef11 genetic background, four subclones from two editing rounds, and reuse of the patient model cited to Van Lent. Its 33-cell patch-clamp observations and 6 WT/12 variant neuron transport observations from three differentiations are not donor counts. The no-overt-difference single-cell result is distinguished from the older patient network-burst phenotype.",
+      "support": [
+        "HT21-E03",
+        "HT21-E04",
+        "HT21-E05"
+      ],
+      "primary_urls": [
+        "https://insight.jci.org/articles/view/200106",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8418338/"
+      ]
+    },
+    {
+      "id": "IAH21-C08",
+      "pass": true,
+      "topic": "Human correction and intervention timing",
+      "finding": "Van Lent's corrected line is formed before neuronal differentiation. The files do not call genetic correction or intervention during differentiation a delayed exact-P2 rescue of established mature motor-unit dysfunction. They distinguish motor-neuron electrical properties and mitochondrial transport from innervated muscle force.",
+      "support": [
+        "HT21-E05",
+        "HT21-E06"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8418338/"
+      ]
+    },
+    {
+      "id": "IAH21-C09",
+      "pass": true,
+      "topic": "NYSCF identifiers and version date",
+      "finding": "The catalog extraction independently confirms AG0002-01-MR/H361Y, AG0008-01-MR with c2219G>C and printed Tryp740Ser text, AG0015-01-MR/R364W, and the printed 05/15/24 version. The document URL's 2025 components are not substituted for that printed date. Current stock, lot identity and acceptance terms remain unverified.",
+      "support": [
+        "HT21-E08",
+        "HT21-E09"
+      ],
+      "primary_urls": [
+        "https://www.nyscf.org/wp-content/uploads/2025/05/Available-iPSCs_CMTA_051525.pdf"
+      ]
+    },
+    {
+      "id": "IAH21-C10",
+      "pass": true,
+      "topic": "AG0008 public annotation",
+      "finding": "Official ClinVar indexed RCV000002357.8 maps NM_014874.4:c.2219G>C to p.Trp740Ser/W740S. This supports public annotation clarification, not authentication of a physical AG0008 lot. Direct ClinVar opens returned a browser challenge during this independent check; indexed official record text was available.",
+      "support": [
+        "HT21-E08"
+      ],
+      "primary_urls": [
+        "https://www.ncbi.nlm.nih.gov/clinvar/RCV000002357.8/"
+      ]
+    },
+    {
+      "id": "IAH21-C11",
+      "pass": true,
+      "topic": "R364W correction and historical table conflict",
+      "finding": "The indexed primary correction confirms that the disputed MEF construct was R364T and withdraws the specified panels/text, rather than the entire paper. The reviewed files avoid a universal pro-fusion harm or safety conclusion. The separate eLife Table 1 His364Trp versus R364W narrative conflict is recorded; the 2022 report explicitly says Arg364Trp.",
+      "support": [
+        "HT21-E02",
+        "HT21-E10",
+        "HT21-E11"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7332790/",
+        "https://elifesciences.org/articles/61119",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8947610/"
+      ]
+    },
+    {
+      "id": "IAH21-C12",
+      "pass": true,
+      "topic": "Operating substrate versus ready functional assay",
+      "finding": "The CMTA page supports an operating R364W cellular assay with one patient line and one healthy line and morphology/mobility readouts. It does not identify pure-P2 rescue or motor-unit force. The Leuven project period is September 30, 2026 to September 30, 2030; extending a primarily CMT1A-validated platform to MFN2 is an aim, not a completed CMT2A force result.",
+      "support": [
+        "HT21-E07",
+        "HT21-E13",
+        "HT21-E14"
+      ],
+      "primary_urls": [
+        "https://cmtausa.org/simply-cmt/cmt2a-ipsc-motor-neuron-assay-cmta-star/",
+        "https://research.kuleuven.be/portal/en/project/3M260565"
+      ]
+    },
+    {
+      "id": "IAH21-C13",
+      "pass": true,
+      "topic": "Access limits, historical carry-forward and negative findings",
+      "finding": "Freshly read evidence is separated from inherited off-target transcription and the unread Summer 2024 report. Failed supplementary retrievals are not represented as successful reads or as biological failure. Bounded failure to recover a human P2 trial/result is not stated as proof of global absence.",
+      "support": [
+        "P2AE21-E15",
+        "P2AE21-E16",
+        "HT21-E09",
+        "HT21-E15"
+      ]
+    },
+    {
+      "id": "IAH21-C14",
+      "pass": true,
+      "topic": "Stage-specific function, allele scope and marginal-dollar policy",
+      "finding": "The files permit a useful first qualified background, reserve broad donor/allele claims for broader evidence, and do not make all-allele replication or isogenic correction universal initial funding requirements. Model modifiability controls the force of a strong negative reversal interpretation. Direct-muscle and useful ongoing-control benefit remain admissible.",
+      "support": [
+        "HT21-E16",
+        "HT21-E17",
+        "P2AE21-C06",
+        "P2AE21-C08"
+      ]
+    },
+    {
+      "id": "IAH21-C15",
+      "pass": true,
+      "topic": "Inherited economics and publication readiness",
+      "finding": "Rank 6 and the illustrative $75–250k / 4–8 month scope remain inherited and conditional on an informative exact-P2 human-function package. Qualification-only scope receives no automatic rank or EV. There is no new numerical financial allocation, promotion, authorization, broad rescore, or claim of clinical readiness. The files can be integrated as a bounded public-source review."
+    }
+  ],
+  "primary_recheck": {
+    "methods": [
+      "Targeted opens and finds of already cited primary sources",
+      "Exact-document searches where direct primary opens challenged access",
+      "Catalog PDF text reread",
+      "Strict local JSON and reference validation",
+      "Final artifact byte and SHA256 calculation"
+    ],
+    "new_opportunity_searches": 0,
+    "scientific_reanalysis_performed": false,
+    "image_only_animal_counts_digitized": false,
+    "supplement_or_raw_data_reanalysis": false,
+    "accessible_primary_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "https://insight.jci.org/articles/view/200106",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8418338/",
+      "https://www.nyscf.org/wp-content/uploads/2025/05/Available-iPSCs_CMTA_051525.pdf",
+      "https://cmtausa.org/simply-cmt/cmt2a-ipsc-motor-neuron-assay-cmta-star/",
+      "https://research.kuleuven.be/portal/en/project/3M260565",
+      "https://elifesciences.org/articles/61119",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8947610/"
+    ],
+    "indexed_primary_only_in_this_review": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000002357.8/",
+        "reason": "Direct open browser challenge; official indexed allele identity available."
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7332790/",
+        "reason": "Direct open browser challenge; indexed primary correction text available."
+      }
+    ]
+  },
+  "open_issues": [
+    {
+      "id": "IAH21-O01",
+      "blocking": false,
+      "issue": "Some animal functional denominators remain image-only and null in the authored record; complete animal flow, allocation and raw-data review are not established.",
+      "disposition": "Preserve as a precision limit; do not silently fill counts or treat the limitation as absence of benefit."
+    },
+    {
+      "id": "IAH21-O02",
+      "blocking": false,
+      "issue": "The mouse charcoal units, rat front-versus-hind paw labeling, and older His364Trp/R364W table inconsistency remain source conflicts.",
+      "disposition": "The paired files explicitly retain the conflicts without resolving them by assumption."
+    },
+    {
+      "id": "IAH21-O03",
+      "blocking": false,
+      "issue": "The original off-target supplement and historical CMTA newsletter were not freshly read in the authored sprint; this review does not authenticate their underlying files anew.",
+      "disposition": "Keep verified historical provenance separate from fresh reads; no additional inference was based on failed access."
+    },
+    {
+      "id": "IAH21-O04",
+      "blocking": false,
+      "issue": "Public catalog and operating-assay descriptions do not establish authenticated, accessible lots, current stock, accepted terms, cost or a ready exact-P2 useful-function package.",
+      "disposition": "Keep these unresolved in the conditional option; no contact, order or material receipt is authorized."
+    },
+    {
+      "id": "IAH21-O05",
+      "blocking": false,
+      "issue": "The reviewed public evidence does not close exact-P2 human useful function, human exposure, chronic safety, or broader allele generality.",
+      "disposition": "No promotion or execution follows; reopening requires decision-changing primary evidence within the existing program."
+    },
+    {
+      "id": "IAH21-O06",
+      "blocking": false,
+      "issue": "No global clinical-trial absence proof, comprehensive rights assessment, or independently replicated CMT efficacy claim is established.",
+      "disposition": "Keep bounded retrieval and shared lineage wording. Product/rights analysis belongs to the separate capture lane and does not change this review's verdict."
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "other_activity": {
+    "broader_candidate_screening": false,
+    "scientific_modeling": false,
+    "financial_EV_modeling": false,
+    "external_commitments_usd": 0,
+    "repository_edits": false,
+    "commits": false,
+    "reviewed_files_modified": false
+  }
+}

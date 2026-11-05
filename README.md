@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 20.** The selected mIGF-Gel/corneal-repair source sprint is complete after APR, RM, BLU and NDC closure. Exact-product/model and comparator audits sharpen the useful repair and total-burden question; older exact disclosure and an unresolved sequence-list discrepancy refine capture limits. Retain the inherited conditional order with mIGF fifth under its original informative scope. Preliminary qualification does not inherit that rank or EV. No new mIGF human efficacy, candidate screen, experiment, allocation or S-tier promotion. All 622 original coverage rows and prior packages are preserved. Round 19 is published at `357c57c29c3916c005f07e37bf8420ec82d63905`.
+**Status: 4 November 2026, after Round 21.** The bounded existing Exact 8015-P2/MFN2-CMT2A source review is complete. Exact animal and human-model attribution, a new stereoisomer-focused publication, distinct rights layers and original information/cost scope sharpen the conditional rank-six option. APR/RM/BLU/NDC/mIGF decisions and source closures remain unchanged. No broader new-opportunity screen, exact P2 human result, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 20 is published at `8aa186ce010b4e173fe63ee4217075efa11c7e81`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 21 exact P2 marginal-dollar source close](research/rounds/round21/README.md) | Exact article/exposure, useful human-function scope, allele/model provenance and product/rights decision. |
 | [Round 20 mIGF marginal-dollar source close](research/rounds/round20/README.md) | Exact product/model, practical insulin comparator and patent/product capture limits. |
 | [Round 19 NDC marginal-dollar source close](research/rounds/round19/README.md) | Exact article/capture provenance, controlled comparator context and claim-specific qualification. |
 | [Round 18 BLU marginal-dollar source close](research/rounds/round18/README.md) | Human-model publication limits, systemic/comparator updates and separate qualification/function commitments. |

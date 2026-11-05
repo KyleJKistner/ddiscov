@@ -1,0 +1,306 @@
+{
+  "schema_version": "ddiscov.round21.independent_marginal_decision_review.v1",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "candidate_id": "R3-NM-01",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "review_completed_utc_date": "2026-11-05",
+  "reviewer": "p2_human_translation",
+  "review_scope": "Independent review of the three root-authored decision files for exact fidelity to the original marginal-capital input, stage-appropriate interpretation of human/model evidence, informative scope and remaining-cost reasoning, and preservation of restrictions. Article/exposure and product/capture MD audits were read as supporting inputs; this is not an independent rerun of every primary animal, PK or patent-source audit.",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round21/marginal-dollar-decision.md",
+      "bytes": 15248,
+      "sha256": "f35df792a63b986f020de9a088810f4ac96c76b8c3f8d616317a2c4aa7f6b426"
+    },
+    {
+      "path": "research/rounds/round21/marginal-dollar-decision.json",
+      "bytes": 14827,
+      "sha256": "8a4e5b2f7843f40a55c7587864fdbcdee11a8c47788de0e4e5f608b8c67a6881"
+    },
+    {
+      "path": "research/rounds/round21/independent-review-input.json",
+      "bytes": 6843,
+      "sha256": "f9fc5adbfaf5426ac3d44dde95ae7dc6884caaa00d35f2c3175ccc4347650336"
+    }
+  ],
+  "original_input_verification": {
+    "source_path": "/workspace/scratch/cde848be1ee7/report_content.json",
+    "source_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "selected_block_checks": [
+      {
+        "index": 2,
+        "exact_match": true
+      },
+      {
+        "index": 9,
+        "exact_match": true
+      },
+      {
+        "index": 10,
+        "exact_match": true
+      },
+      {
+        "index": 11,
+        "exact_match": true
+      },
+      {
+        "index": 12,
+        "exact_match": true
+      },
+      {
+        "index": 15,
+        "exact_match": true
+      },
+      {
+        "index": 44,
+        "exact_match": true
+      },
+      {
+        "index": 45,
+        "exact_match": true
+      },
+      {
+        "index": 76,
+        "exact_match": true
+      }
+    ],
+    "all_9_selected_blocks_exact": true,
+    "original_rank_row_exact": true,
+    "original_rank_row_location": {
+      "block": 4,
+      "row": 6
+    },
+    "original_cost_row_exact": true,
+    "original_cost_row_location": {
+      "block": 14,
+      "row": 6
+    }
+  },
+  "supporting_lane_inputs": [
+    {
+      "path": "research/rounds/round21/p2-article-exposure.md",
+      "scope": "Read for consistency of animal unit, regimen, source-conflict, exposure and claim limits; separate lane review supplies primary-source challenge."
+    },
+    {
+      "path": "research/rounds/round21/p2-human-translation.md",
+      "scope": "Reviewed decision against this reviewer's primary-source human/model lane; not counted as an independently reviewed authored file here."
+    },
+    {
+      "path": "research/rounds/round21/p2-product-capture.md",
+      "scope": "Read for consistency of exact-P2 disclosure, patent family and application/grant boundaries, model rights, and generic regulatory designation; no independent legal opinion."
+    }
+  ],
+  "checks": [
+    {
+      "id": "MR21-01",
+      "status": "pass",
+      "check": "All nine selected original blocks and both ranking/cost rows match the recovered authored report input exactly; its SHA256 matches the pinned value.",
+      "support": [
+        "independent-review-input.json: selected_original_blocks, original_rank_row, original_cost_row and source_report_input_sha256",
+        "Recovered report_content.json: blocks 2,9,10,11,12,15,44,45,76; rank table block4 row6; cost table block14 row6"
+      ]
+    },
+    {
+      "id": "MR21-02",
+      "status": "pass",
+      "check": "Conditional development rank six is retained under the original informative scope. The review is explicitly user-selected for the existing program; source-sprint rank one is not a new financial promotion or all-portfolio ranking.",
+      "support": [
+        "marginal-dollar-decision.md: Decision and scope",
+        "marginal-dollar-decision.json: selection",
+        "independent-review-input.json: original rank row and block2"
+      ]
+    },
+    {
+      "id": "MR21-03",
+      "status": "pass",
+      "check": "US$75–250k / four-to-eight-month scope is the original exact-article independent human-function bridge, not a quote or feasibility demonstration. Chronic toxicology, clinical supply and wider development exclusions remain explicit.",
+      "support": [
+        "independent-review-input.json: original_cost_row and blocks12/15",
+        "marginal-dollar-decision.md: opening and What the next dollar would have to buy",
+        "marginal-dollar-decision.json: tranche_assumptions"
+      ]
+    },
+    {
+      "id": "MR21-04",
+      "status": "pass",
+      "check": "Qualification-only or mechanism-only work cannot inherit the original rank or EV merely by retaining the old price. Changed information yield, remaining work, cost and time require a new comparison including waiting.",
+      "support": [
+        "marginal-dollar-decision.md: commitment table and staged discussion",
+        "marginal-dollar-decision.json: tranche_assumptions, routes R21-01/R21-05 and branch B21-03"
+      ]
+    },
+    {
+      "id": "MR21-05",
+      "status": "pass",
+      "check": "The marginal comparison values a change in the best continuation net of costs; it does not divide whole-drug upside by a desktop-review bill. No invented success probabilities, NPV, EV-per-dollar estimate or allocation is supplied.",
+      "support": [
+        "independent-review-input.json: blocks9-12",
+        "marginal-dollar-decision.md: What the next dollar would have to buy",
+        "marginal-dollar-decision.json: selection, financial_npv, replacement_allocation"
+      ]
+    },
+    {
+      "id": "MR21-06",
+      "status": "pass",
+      "check": "Pure P2 remains distinct from 8015 mixture, P1, MiM111 and Chimera C. One-patient mixture and four-patient related-compound evidence are not credited as exact-P2 human-function results; biological units and shared lineage remain visible.",
+      "support": [
+        "marginal-dollar-decision.md: Exact article and biological units",
+        "marginal-dollar-decision.json: claim_and_stage_limits and U21-01/U21-03",
+        "p2-human-translation.md: exact-article table and human-lineage discussion"
+      ]
+    },
+    {
+      "id": "MR21-07",
+      "status": "pass",
+      "check": "Animal improvement is retained without equating small-n nonsignificance with WT equivalence, within-animal observations with animals, or acute high-dose transport with chronic low-dose exposure. The charcoal conflict and binding-versus-functional panel limits remain unresolved rather than repaired by assumption.",
+      "support": [
+        "marginal-dollar-decision.md: animal and exposure paragraphs",
+        "marginal-dollar-decision.json: claim_and_stage_limits and U21-01/U21-02",
+        "p2-article-exposure.md: measurement and exposure sections"
+      ]
+    },
+    {
+      "id": "MR21-08",
+      "status": "pass",
+      "check": "The operating R364W platform is credited for its actual morphology/mobility task, not a ready NMJ-force/P2-response package. R94Q patch-clamp and network-burst results remain distinct, and reused patient material does not increase donor replication.",
+      "support": [
+        "marginal-dollar-decision.md: Human function and allele coverage",
+        "marginal-dollar-decision.json: U21-03 and transport-model claim limits",
+        "p2-human-translation.md: Sections2-3"
+      ]
+    },
+    {
+      "id": "MR21-09",
+      "status": "pass",
+      "check": "AG0008's public c.2219G>C mapping to W740S is correctly limited to documentary annotation. Printed catalog date, current inventory, lot identity, disease phenotype and responsiveness remain separate; the old donor wishlist is not treated as supply.",
+      "support": [
+        "marginal-dollar-decision.md: NYSCF paragraph",
+        "marginal-dollar-decision.json: U21-04 and catalog/wishlist claim limits",
+        "p2-human-translation.json: HT21-E08/HT21-E09"
+      ]
+    },
+    {
+      "id": "MR21-10",
+      "status": "pass",
+      "check": "A first qualified disease/control background can inform exploration without completed multi-allele confirmation. A narrow positive cannot establish broad CMT2A generality; genotype-limited or useful direct-muscle benefit can support a narrower option.",
+      "support": [
+        "marginal-dollar-decision.md: Human function and allele coverage and branches2/6",
+        "marginal-dollar-decision.json: claim_and_stage_limits and branches B21-02/B21-06",
+        "independent-review-input.json: inherited_interpretation"
+      ]
+    },
+    {
+      "id": "MR21-11",
+      "status": "pass",
+      "check": "Strong negative reversal inference requires suitable article/exposure/model/precision and model modifiability appropriate to that claim. This does not become a universal initial gate for a credible positive, useful ongoing control, preservation, or permanent off-treatment cure.",
+      "support": [
+        "marginal-dollar-decision.md: branches1/5/6 and advance paragraph",
+        "marginal-dollar-decision.json: relevant claim_and_stage_limits",
+        "p2-human-translation.json: HT21-E06/HT21-E17"
+      ]
+    },
+    {
+      "id": "MR21-12",
+      "status": "pass",
+      "check": "WO2026044165A1 is treated as an exact-stereoisomer application and documentary link, not a grant or independent replication. The compound continuation, issued claims, and separate rat-model patent retain distinct scopes; no FTO, title or license inference is made.",
+      "support": [
+        "marginal-dollar-decision.md: Product and rights",
+        "marginal-dollar-decision.json: U21-05 and rights claim limits",
+        "p2-product-capture.md: Sections1-2"
+      ]
+    },
+    {
+      "id": "MR21-13",
+      "status": "pass",
+      "check": "Generic orphan designation does not identify exact P2, establish an IND, or supply clinical de-risking. Scientific information, practical product, regulatory data use and private financial capture remain separate; an owner reply is not a scientific selection prerequisite.",
+      "support": [
+        "marginal-dollar-decision.md: FDA paragraph, commercial contribution route and source stop",
+        "marginal-dollar-decision.json: rights claim limits, route R21-04 and completion",
+        "p2-product-capture.md: Sections3-4"
+      ]
+    },
+    {
+      "id": "MR21-14",
+      "status": "pass",
+      "check": "Six information updates, five unexecuted routes and seven unexecuted branches are recorded. All six prohibited activities, scientific/financial modeling, broader opportunity screening, monitoring creation and earlier-source reopening remain false.",
+      "support": [
+        "marginal-dollar-decision.md: scope and final closure paragraphs",
+        "marginal-dollar-decision.json: completed_information_updates, routes, branches, completion and activity"
+      ]
+    },
+    {
+      "id": "MR21-15",
+      "status": "pass",
+      "check": "All three reviewed root files remained byte-identical from the first hash capture through review completion; strict JSON and key scope/activity assertions passed.",
+      "support": [
+        "reviewed_files SHA256 and byte counts",
+        "Deterministic reviewer provenance checks; no biological or financial model execution"
+      ]
+    }
+  ],
+  "resolved_issues": [],
+  "corrections_required": false,
+  "requested_revisions": [],
+  "open_issues": [
+    {
+      "id": "MR21-O01",
+      "blocking": false,
+      "issue": "The useful exact-P2 human-functional bridge and systemic human exposure/tolerability window remain unestablished in the bounded evidence.",
+      "why_nonblocking": "The decision retains a conditional option and explicitly refuses to treat family mechanisms, animal function or source completeness as the missing result.",
+      "reopen_trigger": "A specific exact-P2 functional or relevant exposure dataset that changes the continuation decision."
+    },
+    {
+      "id": "MR21-O02",
+      "blocking": false,
+      "issue": "Model access, exact deliverable, cost, timing and retained financial economics are unpriced; the original envelope is not a demonstrated feasible package.",
+      "why_nonblocking": "Scope-dependent ranking, separate qualification/confirmation, re-comparison of reduced yield and the wait option are explicit. Publication authorizes no spending.",
+      "reopen_trigger": "A concrete scoped-cost or access fact that changes information value and remaining commitments."
+    },
+    {
+      "id": "MR21-O03",
+      "blocking": false,
+      "issue": "The product lane has not established complete current title, all claim-image/prosecution details, enforceability, license terms or global freedom to operate.",
+      "why_nonblocking": "The root decision accurately reports bounded documentary relevance and an application/grant distinction, without a coverage or commercial-clearance conclusion.",
+      "reopen_trigger": "Specific material-to-claim, title or permitted-rights evidence needed for an actual commercial decision."
+    },
+    {
+      "id": "MR21-O04",
+      "blocking": false,
+      "issue": "Some source access and underlying-unit limits persist, including image-only animal counts, prior supplement transcription, the historical wishlist PDF reread and selected indexed-primary content.",
+      "why_nonblocking": "The source lanes and root decision retain those limits and do not infer data absence, efficacy failure, access or a completed independent reanalysis.",
+      "reopen_trigger": "A readable primary artifact resolving a named decision-changing uncertainty, rather than a generic repeat search."
+    }
+  ],
+  "blocking_flags": {
+    "original_input_mismatch": false,
+    "development_rank_or_scope_misrepresented": false,
+    "qualification_only_scope_inherits_prior_rank": false,
+    "human_article_or_unit_conflation": false,
+    "functional_model_readiness_overstated": false,
+    "broad_allele_or_reversal_gate_imposed_before_every_exploration": false,
+    "patent_or_regulatory_status_overstated": false,
+    "whole_program_upside_divided_by_desktop_cost": false,
+    "new_protocol_or_restricted_activity": false,
+    "broader_opportunity_screening_performed": false,
+    "earlier_closed_source_pass_reopened": false,
+    "reviewed_file_changed_during_review": false,
+    "unresolved_blocking_issue": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "reviewed_files_edited_by_reviewer": false,
+  "repository_mutations_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

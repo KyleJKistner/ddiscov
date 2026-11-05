@@ -1,0 +1,326 @@
+{
+  "schema_version": "ddiscov.round21.independent_product_capture_review.v1",
+  "round": 21,
+  "candidate_id": "R3-NM-01",
+  "candidate": "Exact 8015-P2 / MFN2-CMT2A",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "independent_article_exposure_agent",
+  "author_of_reviewed_artifacts": "product_capture_agent",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "intended_repo_path": "research/rounds/round21/independent-product-capture-review.json",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round21/p2-product-capture.md",
+      "bytes": 15931,
+      "sha256": "7005939ff694f4909e3c66eae7601a1ced2a488ff7cb818ff5211a4c2985e76c",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round21/p2-product-capture.json",
+      "bytes": 29071,
+      "sha256": "ed16b615bbd75222dbc43a480c832430683fbdb7a7d5c0eacb216d7c6103a489",
+      "read_in_full": true
+    }
+  ],
+  "review_scope": {
+    "full_pair_read": true,
+    "exact_article_identity_and_research_supply": true,
+    "newer_stereoisomer_application_identity_and_claim_scope": true,
+    "older_application_granted_claims_and_actual_continuation_distinguished": true,
+    "separate_model_patent_scope": true,
+    "orphan_and_STTR_record_scope": true,
+    "original_rank_cost_scope_and_retained_value": true,
+    "negative_search_and_access_limits": true,
+    "restriction_flags_and_internal_references": true,
+    "independent_legal_title_opinion": false,
+    "complete_global_claim_chart_or_FTO_opinion": false,
+    "all_original_formula_images_visually_audited": false,
+    "new_numerical_valuation": false,
+    "reviewed_artifacts_edited_by_reviewer": false
+  },
+  "checks": [
+    {
+      "id": "PCR21-C01",
+      "status": "pass",
+      "subject": "Exact article identity",
+      "finding": "The pair identifies exact chiral 8015-P2 and preserves distinctions from the parent mixture, P1 and other mitofusin activators. Primary article identity statements and the new stereoisomer application support the P2/(R,R) mapping; they do not establish future batch identity, interchangeability or independent replication."
+    },
+    {
+      "id": "PCR21-C02",
+      "status": "pass",
+      "subject": "Research production and product readiness",
+      "finding": "Named production, research purity and company gift or MTA context remain historical research provenance. The pair does not convert these statements into current stock, an available offer, clinical-grade material, validated chronic supply or actionable permission."
+    },
+    {
+      "id": "PCR21-C03",
+      "status": "pass",
+      "subject": "New WO2026044165A1 application",
+      "finding": "The independently inspected public record identifies publication on 26 February 2026. Paragraphs [0105]-[0107] connect slower-eluting P2 with the reported (R,R) article. The rendered claim section has 28 positions spanning specified enrichment, narrower variants, single-isomer and treatment/use claims. The pair consistently calls this a published application, distinguishes disclosed research from granted rights and independent replication, and retains the government-support statement without inferring present title or license."
+    },
+    {
+      "id": "PCR21-C04",
+      "status": "pass",
+      "subject": "Original A1 and issued B2 claim versions",
+      "finding": "US20240050386A1 renders 27 positions, including cancelled 13, 14 and 25-27. US12396968B2 instead renders 19 composition claims; claim 1 specifies G=CH and X=NR1Cyc, with relevant narrower cyclopropyl and hydroxycyclohexyl limitations. The pair does not substitute broad descriptive method clauses or the older claim set for the issued claims. Chemical-drawing and prosecution limits remain explicit."
+    },
+    {
+      "id": "PCR21-C05",
+      "status": "pass",
+      "subject": "Actual compound continuation",
+      "finding": "US20250332124A1 is the identified continuation, with application 19/262,607 and publication on 30 October 2025. The inspected rendering has 21 positions, claim 1 with G=N, blank position 19 and method claims 20 and 21 dependent on specified compositions. The pair neither repairs the blank position by inference nor substitutes the separate rat-model patent for this continuation."
+    },
+    {
+      "id": "PCR21-C06",
+      "status": "pass",
+      "subject": "Separate model right and inherited record",
+      "finding": "The official Gazette identifies US12721327B2 as the transgenic-rat grant, with CMTA and University of Pennsylvania assignee names, continuation of the earlier model application, seven total claims and a representative claim involving specified MFN2 mutations and degeneration. The pair limits its claim read to that representative claim. It also accurately treats Round5's existing separation of compound and model rights as revalidation rather than inventing an earlier conflation."
+    },
+    {
+      "id": "PCR21-C07",
+      "status": "pass",
+      "subject": "Regulatory and funding record specificity",
+      "finding": "The official FDA record gives a generic small-molecule mitofusin activator designation dated 6 October 2025 for CMT and reports no approval for the orphan indication; it does not identify exact P2 or establish an IND. The 2021 and 2022 STTR records name trans-MiM111 and/or CPR1-B and pre-IND goals. Their funding phase is not a completed clinical trial phase and their status does not transfer to P2."
+    },
+    {
+      "id": "PCR21-C08",
+      "status": "pass",
+      "subject": "Conditional marginal rank and original cost scope",
+      "finding": "The original authored input was independently read and its SHA256 matched. Blocks 4 and 14 support inherited conditional rank six and illustrative USD 75,000-250,000 over 4-8 months for exact article plus independent human functional bridge, excluding chronic toxicology and clinical supply. The pair does not call this a quote, a validated offer, a complete program budget or present authorization. Qualification-only work cannot inherit the same rank or EV without comparing its reduced information and remaining costs."
+    },
+    {
+      "id": "PCR21-C09",
+      "status": "pass",
+      "subject": "Useful information and retained financial value",
+      "finding": "The pair separates scientific information, useful product contribution, permissions and retained commercial value. A first qualified exploratory human result need not prove every donor or allele; wider claims require wider evidence. Useful direct-muscle or ongoing-control benefit remains eligible for evaluation. An unqualified route can fail to buy an informative answer without disproving the biology. No new numeric EV, portfolio valuation, development promotion or ownership assertion is made."
+    },
+    {
+      "id": "PCR21-C10",
+      "status": "pass",
+      "subject": "Bounded search and access limits",
+      "finding": "The report states the exact-article search scope and treats failure to recover a public exact-P2 trial or IND record as a bounded negative retrieval, not proof of nonexistence. Unread official prosecution/title resources remain unread; no access bypass or exhaustive family clearance is claimed. Prior candidate passes stay closed and the new evidence remains within the existing P2 program."
+    },
+    {
+      "id": "PCR21-C11",
+      "status": "pass",
+      "subject": "Machine-readable graph and execution restrictions",
+      "finding": "Strict JSON parsing found no duplicate keys or non-finite numeric constants. All sixteen evidence rows resolve to the twelve public-source records or two local inputs; all eight claim decisions resolve to evidence rows. All five opportunity routes have execution_now false. All six prohibited activity flags are false, external commitment is zero, and no science or financial model, new manufacturing protocol, experimental protocol or development execution is reported."
+    },
+    {
+      "id": "PCR21-C12",
+      "status": "pass",
+      "subject": "Final version binding",
+      "finding": "The final Markdown and JSON were read and hashed from their file bytes. This review binds their intended repository paths, byte lengths and SHA256 values. The reviewer did not edit either reviewed artifact."
+    }
+  ],
+  "targeted_primary_spot_checks": [
+    {
+      "id": "PCR21-S01",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "access_level": "primary_article_readable_HTML",
+      "sections": "Exact article identity, chiral separation and research provenance; relevant text read independently in the article/exposure lane.",
+      "limitations": "No lot authentication, supply commitment or complete visual supplementary audit.",
+      "web_refs": [
+        "turn94view0",
+        "turn96view0",
+        "turn118view0"
+      ]
+    },
+    {
+      "id": "PCR21-S02",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "access_level": "primary_article_readable_HTML",
+      "sections": "Methods and production/context statements; independent article/exposure lane read.",
+      "limitations": "Historical research preparation does not certify a future lot or clinical product.",
+      "web_refs": [
+        "turn96view1",
+        "turn99view0"
+      ]
+    },
+    {
+      "id": "PCR21-S03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13664537/",
+      "access_level": "primary_article_readable_HTML",
+      "sections": "Exact chemical identity, supply and disclosure context only.",
+      "limitations": "Worm outcomes are not human CMT evidence and were not used to open an aging or other new opportunity.",
+      "web_refs": [
+        "turn91view5"
+      ]
+    },
+    {
+      "id": "PCR21-S04",
+      "url": "https://patents.google.com/patent/WO2026044165A1/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Bibliography; paragraphs [0001] and [0105]-[0108]; claims 1-28 and relevant stereoisomer text.",
+      "limitations": "Original formula images, full prosecution and present title were not audited; application text is not a grant or independent efficacy replication.",
+      "web_refs": [
+        "turn129view0",
+        "turn130view2",
+        "turn131view0",
+        "turn132view0"
+      ]
+    },
+    {
+      "id": "PCR21-S05",
+      "url": "https://patents.google.com/patent/US20240050386A1/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Bibliography, related publications/continuation and rendered claim positions including cancellations.",
+      "limitations": "No original claim-PDF or complete prosecution audit; older application is kept distinct from issued claims.",
+      "web_refs": [
+        "turn130view1",
+        "turn131view2"
+      ]
+    },
+    {
+      "id": "PCR21-S06",
+      "url": "https://patents.google.com/patent/US12396968B2/en",
+      "access_level": "issued_primary_patent_text_on_hosted_index",
+      "sections": "Rendered 19-claim section, selected variables, publication date and continuation links.",
+      "limitations": "No complete original chemical-drawing, title, enforceability or legal coverage opinion. Initial direct open failed; the ordinary related-publication link returned readable text.",
+      "web_refs": [
+        "turn131view1",
+        "turn133view0"
+      ]
+    },
+    {
+      "id": "PCR21-S07",
+      "url": "https://patents.google.com/patent/US20250332124A1/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Bibliography, continuation relation and rendered claim positions 1-21.",
+      "limitations": "Blank rendered position 19 remains a rendering limitation; no continuation grant independently verified.",
+      "web_refs": [
+        "turn130view0",
+        "turn131view3"
+      ]
+    },
+    {
+      "id": "PCR21-S08",
+      "url": "https://patentsgazette.uspto.gov/week35/OG/html/1550-1/US12721327-20260901.html",
+      "access_level": "official_USPTO_Gazette_entry",
+      "sections": "Grant metadata, listed assignees, continuation information, total claim count and representative claim 1.",
+      "limitations": "Other six model claims were not inspected; no model-access or freedom-to-operate clearance.",
+      "web_refs": [
+        "turn129view2"
+      ]
+    },
+    {
+      "id": "PCR21-S09",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1095725",
+      "access_level": "official_FDA_record",
+      "sections": "Generic name, designation date, indication, sponsor and approval-status fields.",
+      "limitations": "Does not identify exact P2 or establish an IND.",
+      "web_refs": [
+        "turn129view3"
+      ]
+    },
+    {
+      "id": "PCR21-S10",
+      "url": "https://www.sbir.gov/awards/193346",
+      "access_level": "official_SBA_award_record",
+      "sections": "2021 STTR classification, trans-MiM111 identity and stated pre-IND goals.",
+      "limitations": "Historical funding goals do not establish subsequent completion or exact-P2 clinical status.",
+      "web_refs": [
+        "turn132view1"
+      ]
+    },
+    {
+      "id": "PCR21-S11",
+      "url": "https://www.sbir.gov/awards/197703",
+      "access_level": "official_SBA_award_record",
+      "sections": "2022 STTR classification, MiM111/CPR1-B distinctions and stated pre-IND development goals.",
+      "limitations": "Different exact articles and historical plans; no status transfer to P2.",
+      "web_refs": [
+        "turn132view2"
+      ]
+    }
+  ],
+  "local_input_spot_checks": [
+    {
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "read_scope": "Blocks 4, 14, 44 and 45; original rank, cost, scope and human-function rationale.",
+      "hash_verified": true
+    },
+    {
+      "path": "/workspace/scratch/e8635471e089/round21_work/round21-context.json",
+      "read_scope": "Round21 base identity, candidate, inherited scope and restrictions; selection policy and Round5 rights distinction read in preceding article lane.",
+      "hash_verified": false
+    }
+  ],
+  "resolved_issues": [],
+  "open_issues": [
+    {
+      "id": "PCR21-O01",
+      "blocking": false,
+      "scope": "Underlying legal evidence limit",
+      "finding": "Complete original formula images, prosecution, current official chain of title, enforceability, territorial coverage and actionable license terms remain unverified. Published application relevance does not establish a grant or legal entitlement. The reviewed pair explicitly retains these limits.",
+      "reopen_trigger": "Decision-relevant official prosecution/title records or a scoped qualified analysis of the exact article and intended territory; no broader family crawl is required for acceptance of this bounded report."
+    },
+    {
+      "id": "PCR21-O02",
+      "blocking": false,
+      "scope": "Underlying product and access evidence limit",
+      "finding": "Current exact-article or model availability, a qualified future batch, chronic clinical product, permitted data use and an actionable commercial capture route have not been demonstrated.",
+      "reopen_trigger": "Concrete exact-product, exposure, supply, permission or retained-value evidence that changes a feasible next decision; acquisition or outreach is not authorized."
+    },
+    {
+      "id": "PCR21-O03",
+      "blocking": false,
+      "scope": "Underlying marginal-cost and information limit",
+      "finding": "The illustrative original human-function tranche is not a feasible quote. A reduced qualification-only deliverable buys different information and has additional downstream costs.",
+      "reopen_trigger": "An actual scoped informative deliverable, credible costs and access route, followed by a fresh marginal comparison including narrowing or waiting."
+    },
+    {
+      "id": "PCR21-O04",
+      "blocking": false,
+      "scope": "Bounded negative-retrieval limit",
+      "finding": "No exact-P2 public human result or specific trial/IND record was recovered within the declared scope. This is not an exhaustive global or confidential regulatory search and does not prove such a record cannot exist.",
+      "reopen_trigger": "A concrete exact-P2 clinical registry, public regulatory record or human functional result with verifiable identity and endpoints."
+    }
+  ],
+  "corrections_required": [],
+  "corrections_required_before_acceptance": false,
+  "verification": {
+    "reviewed_file_count": 2,
+    "reviewed_sources_count": 12,
+    "reviewed_local_inputs_count": 2,
+    "reviewed_evidence_rows_count": 16,
+    "reviewed_claim_decisions_count": 8,
+    "reviewed_marginal_routes_count": 5,
+    "independently_read_primary_source_count": 11,
+    "source_references_resolve": true,
+    "claim_support_references_resolve": true,
+    "all_route_execution_flags_false": true,
+    "all_six_restricted_activity_flags_false": true,
+    "original_cost_source_hash_verified": true,
+    "final_hashes_recomputed_from_file_bytes": true
+  },
+  "retrieval_stop": {
+    "status": "bounded_review_complete",
+    "further_broad_search_performed": false,
+    "exhaustive_global_family_crawl_performed": false,
+    "further_research_required_for_review_acceptance": false,
+    "evidence_limits_are_not_document_defects": true
+  },
+  "completion": {
+    "scientific_or_financial_models_run": false,
+    "new_protocol_generated": false,
+    "reviewed_artifacts_edited_by_reviewer": false,
+    "repository_snapshot_mutations": false,
+    "remote_writes": false,
+    "external_messages_sent": false,
+    "material_requested": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

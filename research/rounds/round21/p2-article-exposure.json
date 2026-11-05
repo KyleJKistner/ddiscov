@@ -1,0 +1,609 @@
+{
+  "schema_version": "ddiscov.round21.p2_article_exposure.v1",
+  "round": 21,
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "candidate_id": "R3-NM-01",
+  "candidate": "Exact 8015-P2 / MFN2-CMT2A",
+  "scope": "Bounded exact-article efficacy, biological-unit, exposure and safety review of an existing program. No broader new-opportunity screening.",
+  "sources": [
+    {
+      "id": "P2AE21-S01",
+      "title": "Sensory-Motor Neuropathy in Mfn2 T105M Knock-in Mice and Its Reversal by a Novel Piperine-Derived Mitofusin Activator",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "doi": "10.1124/jpet.124.002258",
+      "pmid": "39284622",
+      "publication_year": 2024,
+      "issue_date": "2024-11",
+      "source_type": "primary_article",
+      "read_scope": "Main text, methods, Table 1 and figure legends; image-only functional denominators were not independently transcribed.",
+      "retrieved_utc_date": "2026-11-05",
+      "access": "main_text_read; Figure 5 landing page returned a browser challenge; publisher supplement and publisher fulltext routes returned 403; DOI redirect failed",
+      "web_refs": [
+        "turn94view0",
+        "turn96view0",
+        "turn118view0",
+        "turn118view1"
+      ],
+      "fresh_primary_read": true
+    },
+    {
+      "id": "P2AE21-S02",
+      "title": "Neuromuscular Dysfunction and Charcot-Marie-Tooth Disease Reversal in Mfn2 T105M Knock-In Rats",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13513834/",
+      "doi": "10.3390/ijms27167376",
+      "pmid": "42653381",
+      "publication_year": 2026,
+      "source_type": "primary_article",
+      "read_scope": "Main text, methods and figure legends. Figure 5/6 image links were identified but their pixels were not independently audited; Figure 6A n is explicit in its legend.",
+      "retrieved_utc_date": "2026-11-05",
+      "access": "main_text_read; PMC PDF challenged; publisher PDF unread; publisher supplement and review-report routes returned 429",
+      "web_refs": [
+        "turn96view1",
+        "turn99view0",
+        "turn103search2"
+      ],
+      "fresh_primary_read": true
+    },
+    {
+      "id": "P2AE21-S03",
+      "title": "Mitofusin Activation Delays Aging in Caenorhabditis elegans",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13664537/",
+      "doi": "10.3390/cells15191789",
+      "pmid": "42882487",
+      "publication_date": "2026-09-30",
+      "source_type": "primary_article_context_only",
+      "read_scope": "Exact compound name, sourcing, study organism, target-dependence and authorship. Not a new indication screen; worm outcome estimates are not transferred to CMT2A.",
+      "retrieved_utc_date": "2026-11-05",
+      "access": "main_text_read",
+      "web_refs": [
+        "turn90view2",
+        "turn91view5"
+      ],
+      "fresh_primary_read": true
+    },
+    {
+      "id": "P2AE21-S04",
+      "title": "2026 rat-paper Supplemental Table S1 and Supplemental Figure S1",
+      "url": "https://www.mdpi.com/article/10.3390/ijms27167376/s1",
+      "direct_zip_url": "https://mdpi-res.com/d_attachment/ijms/ijms-27-07376/article_deploy/ijms-27-07376-s001.zip",
+      "source_type": "primary_supplement_previously_audited",
+      "retrieved_utc_date": "2026-11-05",
+      "access": "Current landing-page request returned 429. Carry forward the published Round 5 audited transcription and archive provenance; no fresh full supplement read is claimed.",
+      "fresh_primary_read": false,
+      "prior_audit_local_input": "P2AE21-L02",
+      "prior_zip_bytes": 390445,
+      "prior_zip_sha256": "5fb7c6c29196145afde0b42900d0a9a302fc6e87454a1b0838f2bbe276047b85",
+      "prior_pdf_sha256": "d5e9715043681f579e03c0ddc1ab7bfd1c1fbec957f963bf047c96526aeaf82c",
+      "prior_contents": [
+        "Supplemental Figure S1 axon size.jpg",
+        "Supplemetnal Table S1.pdf"
+      ],
+      "prior_contents_limit": "No animal-level efficacy dataset in the previously audited archive."
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "P2AE21-L01",
+      "path": "research/rounds/round3/round3_crosscheck_p2.md",
+      "role": "Historical exact-article challenge; later Round 5 assay correction controls."
+    },
+    {
+      "id": "P2AE21-L02",
+      "path": "research/rounds/round5/p2-off-target-audit.json",
+      "role": "Previously independently verified 87-row off-target transcription and source archive provenance."
+    },
+    {
+      "id": "P2AE21-L03",
+      "path": "decisions/selection-policy.md",
+      "role": "Current stage-specific useful-function, evidence, marginal-dollar and preservation policy."
+    },
+    {
+      "id": "P2AE21-L04",
+      "path": "research/portfolio-register.json",
+      "role": "Published Round 20 P2 record; no new candidate counted."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "P2AE21-E01",
+      "source_ids": [
+        "P2AE21-S01",
+        "P2AE21-S02",
+        "P2AE21-S03"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "2024 stereoisomer section/Figure 3; 2026 rat section 3.2; worm section 3.3",
+      "observation": "P2 is the slower chiral-SFC fraction and the trans-(1R,2R) cyclopropyl article. The 2024 parent-8015 abbreviation is not a safe stand-in for pure P2.",
+      "exact_article": "(1r,4r)-4-hydroxy-N-[(1R,2R)-2-(4-phenylbutyl)cyclopropyl]cyclohexane-1-carboxamide",
+      "excluded_substitutions": [
+        "8015 enantiomer mixture",
+        "8015-P1",
+        "MiM111",
+        "CPR1-B",
+        "Chimera C",
+        "generic piperine"
+      ],
+      "denominator": "2024 P2 fusogenic concentration-response: four independent experiments; not four human donors.",
+      "reported_fusion_EC50_pM": 623,
+      "reported_95CI_pM": [
+        439,
+        863
+      ],
+      "limits": "A morphology-derived fusion potency is not a human useful-function concentration or clinical exposure target.",
+      "decision_impact": "Bind every evidence and exposure claim to the exact chemical article."
+    },
+    {
+      "id": "P2AE21-E02",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "Cultured Cells; Figure 1H/I and caption",
+      "observation": "The human fibroblast and directly reprogrammed motor-neuron observations used parent 8015 from one T105M patient and measured mitochondrial morphology, polarization and transport.",
+      "human_article": "8015 mixture",
+      "human_donor_backgrounds": 1,
+      "denominator": "Cell n values include 30–50 mitochondria per cell from 3–4 independent experiments; these are not independent patient denominators.",
+      "exact_P2_human_useful_function": false,
+      "limits": "No human motor-unit force, transmission or patient efficacy result is supplied by these panels.",
+      "decision_impact": "Do not credit exact P2 with an already established human functional bridge."
+    },
+    {
+      "id": "P2AE21-E03",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "revalidated_with_explicit_access_limit",
+      "locator": "Evaluation of Mouse Neuromuscular Phenotypes; Figure 5C–G",
+      "observation": "Exact P2 treatment followed the approximately 50-week baseline in T105M knock-in mice of both sexes; the reported regimen was 50 mg/kg orally each day for six weeks, with improved motor, sensory and CMAP readouts.",
+      "species": "mouse",
+      "allele": "Mfn2 T105M heterozygous knock-in",
+      "sex": "both; pooled",
+      "treatment_start_age_weeks_approx": 50,
+      "reported_mg_per_kg": 50,
+      "reported_days_per_week": 7,
+      "reported_duration_weeks": 6,
+      "functional_panel_animal_n": null,
+      "denominator": "Figure 5 says each panel contains animal counts, but image-only counts were not independently recovered in this pass.",
+      "limits": "No new effect-size reconstruction, equivalence analysis, or animal-level reanalysis was performed. Functional n values remain unknown rather than borrowed from histology.",
+      "decision_impact": "Retain an established-disease animal signal with its unresolved precision and design limits."
+    },
+    {
+      "id": "P2AE21-E04",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "revalidated_and_clarified",
+      "locator": "Figure 6 legend; Figure 4H–J and accompanying text",
+      "observation": "Mouse axon/myocyte histology uses four mice per group; synapse-density histology uses three. The M376V comparison had no measured neuromuscular deficit and was not an exact-P2 nonresponse test.",
+      "axon_and_myocyte_histology_mice_per_group": 4,
+      "synapse_histology_mice_per_group": 3,
+      "denominator": "Approximately 100 axon or myocyte measurements contribute to an individual mouse mean; microscopic observations are not animals.",
+      "M376V_drug_negative_result": false,
+      "limits": "Neither normal M376V baseline nor the T105M efficacy result establishes broad clinical allele coverage.",
+      "decision_impact": "Require the claim to match the responding model without rejecting an untested genotype."
+    },
+    {
+      "id": "P2AE21-E05",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "new_reporting_precision",
+      "locator": "Evaluation of Mouse Neuromuscular Phenotypes; full main-text searches for random/blind",
+      "observation": "Mouse rotarod readings were aggregated within each mouse; inverted-grid reporting used the longest trial and preemptively excluded obese mice. A randomization or blinding statement was not recovered from the readable main text.",
+      "mouse_randomization_verified": false,
+      "mouse_blinding_verified": false,
+      "denominator": "Repeated trials and days are nested within mice.",
+      "limits": "Unrecovered reporting is not proof those safeguards were absent. Excluded-animal counts and complete group flow were not recovered.",
+      "decision_impact": "Independent confirmation has value; do not pool nominal trials as additional biological replication."
+    },
+    {
+      "id": "P2AE21-E06",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "new_scope_precision_on_existing_study",
+      "locator": "Sections 2.4, 4.1, 4.10; Figure 5",
+      "observation": "Only males entered rat disease-reversal studies. The initial comparison randomized treatment 2:1 against vehicle after 50-week baseline phenotyping; functional and postmortem analyses were blinded.",
+      "therapeutic_cohort_sex": "male",
+      "baseline_age_weeks": 50,
+      "allocation_ratio_P2_to_vehicle": [
+        2,
+        1
+      ],
+      "randomization_reported": true,
+      "blinded_function_and_pathology_reported": true,
+      "main_comparison_group_n": null,
+      "denominator": "Individual rats; Figure 5 image-only group counts were not independently transcribed.",
+      "limits": "Both sexes in baseline characterization do not establish drug response in females; the ratio alone cannot recover group sizes.",
+      "decision_impact": "Keep a credible controlled animal comparison while bounding sex and precision generality."
+    },
+    {
+      "id": "P2AE21-E07",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "Section 2.5 and Figure 6A legend; section 4.10",
+      "observation": "The rat dose cohorts used 1, 2, 5 or 10 mg/kg, Monday–Friday. Figure 6A states four rats per dose and seven WT references; the 10 mg/kg group ended at four weeks after reaching the authors' normal-range criterion.",
+      "dose_levels_mg_per_kg": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "administration_days_per_week": 5,
+      "dose_response_animals_per_dose": 4,
+      "WT_reference_animals": 7,
+      "highest_dose_group_termination_week": 4,
+      "denominator": "These counts apply to Figure 6A; they are not imputed into Figure 5 or the separate detailed time-course/histology cohort.",
+      "limits": "This is outcome-dependent stopping of the highest-dose dose-response arm, not a verified drug-withdrawal durability study.",
+      "decision_impact": "Do not treat every regimen as eight weeks of comparable exposure or follow-up."
+    },
+    {
+      "id": "P2AE21-E08",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "new_claim_precision",
+      "locator": "Abstract; section 2.5; discussion 3.1; Figure 6A",
+      "observation": "The abstract/discussion label 2 mg/kg as minimally effective, while the results say every tested dose showed some benefit. Several 'normalization' claims use nonsignificance versus WT.",
+      "published_minimum_effective_mg_per_kg": 2,
+      "lowest_tested_dose_with_some_reported_benefit_mg_per_kg": 1,
+      "formal_equivalence_established": false,
+      "human_dose_threshold_established": false,
+      "denominator": "Four rats per dose and seven WT reference animals for Figure 6A.",
+      "limits": "Partial improvement and the authors' fuller-response criterion are distinct. Raw endpoint-specific values, precision and a transferable clinical threshold were not established here.",
+      "decision_impact": "Retain dose/time responsiveness without creating an absolute pharmacological threshold or a human dosing inference."
+    },
+    {
+      "id": "P2AE21-E09",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "new_reporting_precision_and_source_conflict",
+      "locator": "Sections 4.4–4.7; section 2.1 and Figure 1 caption",
+      "observation": "Rat grip reporting selects the maximum of eight readings, CMAP averages three selected best recordings, sensation averages ten readings, and MRI averages the two legs. Results describe front-paw sensitivity, whereas the methods specify hind paws.",
+      "grip_summary": "maximum of 8 readings over 2 days",
+      "CMAP_summary": "mean of 3 selected best recordings",
+      "sensory_summary": "mean of 10 readings, 5 per paw",
+      "MRI_summary": "mean of left and right muscle volume per animal",
+      "paw_site_conflict": {
+        "results": "front paw",
+        "methods": "hind paws",
+        "resolved": false
+      },
+      "denominator": "These are within-rat measurement rules, not additional rats. Imaging fields and bilateral limbs do not increase independent animal n.",
+      "limits": "The source conflict does not prove a treatment effect is artifactual. The precise sensory site needs clarification for exact transfer.",
+      "decision_impact": "Preserve the measurement rule and biological unit when judging reproducibility and useful effect."
+    },
+    {
+      "id": "P2AE21-E10",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "revalidated_with_claim_boundary",
+      "locator": "Section 2.5, Figure 6B–E, discussion 3.4",
+      "observation": "Early functional improvement preceded substantial synapse-density recovery; the authors discuss direct muscle effects and possible synaptic sprouting as contributors.",
+      "denominator": "Separate time-course and postmortem histology cohorts; complete endpoint-specific counts were not recovered.",
+      "direct_muscle_contribution_proven": false,
+      "axonal_regeneration_as_exclusive_mechanism_proven": false,
+      "limits": "Integrated force and CMAP do not identify a unique neuronal mechanism. Postmortem histology is not assumed to be serial biopsy in the same animal.",
+      "decision_impact": "Useful muscle or ongoing-control benefit remains valuable; nerve-regrowth and durable regeneration claims require their own evidence."
+    },
+    {
+      "id": "P2AE21-E11",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "Table 1; Figure 2A; Figure 3D/G; Mitofusin Activators methods",
+      "observation": "The commonly repeated protein-binding and brain/plasma values belong to parent 8015. Exact-P2 plasma PK used small mouse/rat groups, and its mouse enterohepatic challenge was a separate comparison.",
+      "parent_8015_human_plasma_binding_percent": 95.3,
+      "parent_8015_brain_to_plasma_ratio": 0.865,
+      "exact_P2_PK_animals_per_condition": 3,
+      "exact_P2_EHR_challenge_animals_per_group": 4,
+      "exact_P2_human_unbound_tissue_exposure_verified": false,
+      "denominator": "PK plasma profiles: n=3 per dose/species as captioned; charcoal comparison: n=4 each. Neither is a human exposure dataset.",
+      "limits": "Parent-mixture partitioning and binding cannot establish exact-P2 human free nerve, muscle, cardiac or CNS exposure. PK and efficacy vehicles also differ.",
+      "decision_impact": "An exposure-linked functional question remains more informative than a nominal potency comparison."
+    },
+    {
+      "id": "P2AE21-E12",
+      "source_ids": [
+        "P2AE21-S01"
+      ],
+      "status": "new_source_conflict",
+      "locator": "Mitofusin Activators methods versus EHR results paragraph",
+      "observation": "The charcoal intervention is printed as 2 g/kg in Methods and 2 mg/kg in Results. Both passages refer to the mouse P2 enterohepatic investigation.",
+      "charcoal_dose_methods": {
+        "value": 2,
+        "unit": "g/kg"
+      },
+      "charcoal_dose_results": {
+        "value": 2,
+        "unit": "mg/kg"
+      },
+      "source_discrepancy_resolved": false,
+      "denominator": "Figure 3G: four mice per group.",
+      "limits": "The discrepancy is left unresolved; this pass neither selects a dose nor reruns the published PK model. The published qualitative EHR evidence is retained with a reproducibility limit.",
+      "decision_impact": "Do not turn a documented PK interpretation into an independently transferable regimen or human exposure guarantee."
+    },
+    {
+      "id": "P2AE21-E13",
+      "source_ids": [
+        "P2AE21-S01",
+        "P2AE21-S02"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "2024 Figure 5B; 2026 Figure 5A and treatment methods",
+      "observation": "The acute sciatic-nerve motility observations used 100 mg/kg P2; the rat observation was two hours after dosing. Chronic functional efficacy used a different dose and schedule.",
+      "acute_motility_dose_mg_per_kg": 100,
+      "rat_acute_observation_hours": 2,
+      "rat_chronic_doses_mg_per_kg": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "mouse_chronic_dose_mg_per_kg": 50,
+      "denominator": "Rat Figure 5A labels individual ex vivo neuron data; animal n for that assay was not independently recovered.",
+      "steady_state_low_dose_free_PD_coverage_verified": false,
+      "limits": "Motility is a pharmacodynamic readout, not direct occupancy. Acute high-dose PD cannot establish sustained target engagement or human tissue coverage at the chronic regimen.",
+      "decision_impact": "Keep target/PD plausibility and useful-dose exposure as distinct decision inputs."
+    },
+    {
+      "id": "P2AE21-E14",
+      "source_ids": [
+        "P2AE21-S02"
+      ],
+      "status": "revalidated_with_explicit_transfer_limit",
+      "locator": "Section 4.10",
+      "observation": "The active formulation is made from a DMSO stock diluted into hydroxypropyl-beta-cyclodextrin; the stated vehicle control is 30% cyclodextrin. Matched final DMSO in the controls is not explicitly documented.",
+      "matched_final_solvent_verified": false,
+      "administered_article_purity_reported": ">99% powder",
+      "denominator": "Formulation/reporting statement, not an additional efficacy cohort.",
+      "limits": "No claim of solvent-induced efficacy or toxicity is made. Powder purity and weekly preparation do not establish clinical-product stability or a qualified human formulation.",
+      "decision_impact": "Article/formulation qualification is distinct from proof of useful human function; do not price one as though it completes the other."
+    },
+    {
+      "id": "P2AE21-E15",
+      "source_ids": [
+        "P2AE21-S04",
+        "P2AE21-L02"
+      ],
+      "status": "preserved_prior_independent_audit_not_new_primary_read",
+      "locator": "Round 5 audited Supplemental Table S1, three pages",
+      "observation": "The inherited audit records 75 binding and 12 enzyme/cell rows at 10 micromolar. MAO-A 59% and hERG -14% are binding readouts; the separate MAO-B -5% value is enzymatic.",
+      "assay_rows": 87,
+      "binding_rows": 75,
+      "enzyme_or_cell_rows": 12,
+      "nominal_test_uM": 10,
+      "MAO_A_percent": 59,
+      "MAO_A_assay": "antagonist-radioligand binding displacement",
+      "hERG_percent": -14,
+      "hERG_assay": "dofetilide binding",
+      "MAO_B_percent": -5,
+      "MAO_B_assay": "recombinant enzyme",
+      "fresh_concentration_response": false,
+      "denominator": "87 assay rows, not 87 independent safety margins or necessarily 87 unique proteins.",
+      "limits": "No new exposure-linked MAO-A function, hERG current or chronic safety result was recovered. The nominal cross-assay ratio is not a universal selectivity ratio; a binding interaction is not a demonstrated clinical adverse event.",
+      "decision_impact": "Retain the useful preliminary panel and its corrected interpretation without upgrading it to systemic safety."
+    },
+    {
+      "id": "P2AE21-E16",
+      "source_ids": [
+        "P2AE21-S01",
+        "P2AE21-S02",
+        "P2AE21-S03",
+        "P2AE21-L04"
+      ],
+      "status": "bounded_search_update_and_lineage_check",
+      "locator": "Authorship/conflict statements; worm methods/results; exact-name searches on 2026-11-05",
+      "observation": "Mouse, rat and worm articles share investigators and a company-linked material lineage. The worm paper is exact-article non-CMT context. This bounded pass recovered no new exact-P2 human useful-function or treated-patient result.",
+      "new_exact_P2_human_function_result": false,
+      "new_exact_P2_treated_people": 0,
+      "independent_lab_CMT_replication_recovered": false,
+      "new_opportunity_screen": false,
+      "denominator": "No additional human cohort or patient is counted; source and species counts do not equal independent laboratories.",
+      "limits": "A bounded search does not prove universal absence. Worm aging findings do not expand this CMT2A program into an aging opportunity or resolve the human bridge.",
+      "decision_impact": "Close this article lane until a specific functional, exposure, reproducibility or correction artifact can change the continuation decision."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "P2AE21-C01",
+      "claim": "Exact P2 has a legitimate established-disease animal functional signal.",
+      "decision": "retain_with_design_and_precision_limits",
+      "support": [
+        "P2AE21-E03",
+        "P2AE21-E06",
+        "P2AE21-E07",
+        "P2AE21-E08"
+      ]
+    },
+    {
+      "id": "P2AE21-C02",
+      "claim": "Useful human function or human clinical efficacy is already established for exact P2.",
+      "decision": "not_established",
+      "support": [
+        "P2AE21-E02",
+        "P2AE21-E16"
+      ]
+    },
+    {
+      "id": "P2AE21-C03",
+      "claim": "The current evidence proves all-allele, both-sex CMT2A responsiveness.",
+      "decision": "not_established; narrow any initial claim to qualified tested backgrounds",
+      "support": [
+        "P2AE21-E04",
+        "P2AE21-E06",
+        "P2AE21-E16"
+      ]
+    },
+    {
+      "id": "P2AE21-C04",
+      "claim": "The published compound-family PK supplies a human systemic therapeutic window for P2.",
+      "decision": "not_established",
+      "support": [
+        "P2AE21-E11",
+        "P2AE21-E12",
+        "P2AE21-E13",
+        "P2AE21-E15"
+      ]
+    },
+    {
+      "id": "P2AE21-C05",
+      "claim": "Nonsignificance against WT establishes complete equivalence or cure.",
+      "decision": "reject_inference",
+      "support": [
+        "P2AE21-E07",
+        "P2AE21-E08"
+      ]
+    },
+    {
+      "id": "P2AE21-C06",
+      "claim": "A direct muscle contribution or need for continued treatment eliminates useful product value.",
+      "decision": "reject_universal_rule; require meaningful useful benefit and tolerability for the intended claim",
+      "support": [
+        "P2AE21-E10",
+        "P2AE21-L03"
+      ]
+    },
+    {
+      "id": "P2AE21-C07",
+      "claim": "The single-concentration panel proves a greater-than-10000-fold safety margin, or conversely proves clinical MAO toxicity.",
+      "decision": "neither_inference_supported",
+      "support": [
+        "P2AE21-E15"
+      ]
+    },
+    {
+      "id": "P2AE21-C08",
+      "claim": "A preliminary article/model qualification deliverable automatically inherits the original rank-six EV.",
+      "decision": "reject_automatic_inheritance; recompare actual information yield, remaining cost, time and capture",
+      "support": [
+        "P2AE21-E14",
+        "P2AE21-L03",
+        "P2AE21-L04"
+      ]
+    },
+    {
+      "id": "P2AE21-C09",
+      "claim": "The rat minimum-effective statement provides a human dose or exposure threshold.",
+      "decision": "not_established",
+      "support": [
+        "P2AE21-E08",
+        "P2AE21-E11",
+        "P2AE21-E13"
+      ]
+    },
+    {
+      "id": "P2AE21-C10",
+      "claim": "Multiple species and multiple endpoints are equivalent to independent exact-P2 human replication.",
+      "decision": "reject_inference",
+      "support": [
+        "P2AE21-E02",
+        "P2AE21-E09",
+        "P2AE21-E16"
+      ]
+    },
+    {
+      "id": "P2AE21-C11",
+      "claim": "Unrecovered figure counts, source inconsistencies or an unqualified human assay already falsify P2 biology.",
+      "decision": "reject_inference; retain specific unresolved facts",
+      "support": [
+        "P2AE21-E03",
+        "P2AE21-E05",
+        "P2AE21-E09",
+        "P2AE21-E12",
+        "P2AE21-E14",
+        "P2AE21-L03"
+      ]
+    }
+  ],
+  "decision": {
+    "retain_conditional_exact_P2_option": true,
+    "inherited_conditional_development_rank": 6,
+    "new_S_tier_promotion": false,
+    "new_exact_P2_human_function": false,
+    "new_independent_CMT_replication": false,
+    "full_portfolio_reranked": false,
+    "financial_EV": null
+  },
+  "economic_scope": {
+    "illustrative_original_cost_usd": [
+      75000,
+      250000
+    ],
+    "illustrative_original_months": [
+      4,
+      8
+    ],
+    "verified_quote": false,
+    "original_scope": "Informative exact-article human-function question across relevant disease backgrounds, conditional on usable model/article access; not a full program.",
+    "qualification_only_scope_inherits_rank6_or_EV": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "external_commitment_usd": 0,
+    "execution_now": false
+  },
+  "interpretation_limits": {
+    "one_qualified_background_can_support_exploratory_decision": true,
+    "independent_backgrounds_needed_for_broader_generality": true,
+    "exact_P2_human_efficacy_required_before_any_qualification": false,
+    "owner_reply_required_for_scientific_selection": false,
+    "post_deficit_modifiability_required_for_strong_negative_reversal_inference": true,
+    "permanent_off_treatment_cure_universal_gate": false,
+    "exclusive_neuronal_mechanism_universal_value_gate": false,
+    "practical_useful_muscle_contribution_can_have_value": true,
+    "normalization_is_equivalence": false,
+    "parent_mixture_PK_is_exact_P2_PK": false,
+    "acute_motility_is_direct_occupancy": false
+  },
+  "retrieval": {
+    "retrieval_utc_date": "2026-11-05",
+    "pass_closed": true,
+    "bounded_exact_name_queries": [
+      "\"8015-P2\" \"human\" clinical",
+      "\"8015-P2\" \"T105M\" \"2026\"",
+      "\"8015-P2\" \"clinical trial\"",
+      "\"8015-P2\" \"human\" -site:patents.google.com"
+    ],
+    "search_engines": [
+      "system1",
+      "system2"
+    ],
+    "fresh_primary_main_texts_read": 3,
+    "blocked_routes": [
+      "2024 Figure 5 PMC landing page: browser challenge",
+      "2024 publisher supplement and fulltext: 403",
+      "2024 DOI redirect: retrieval error",
+      "2026 rat PMC PDF: browser challenge",
+      "2026 rat publisher PDF: unread",
+      "2026 rat publisher supplement and review report: 429",
+      "2026 rat figure image endpoints: no independent pixel audit"
+    ],
+    "image_only_denominators_imputed": false,
+    "figure_pixels_independently_audited": false,
+    "rat_off_target_supplement_fresh_full_read": false,
+    "blocked_challenge_bypassed": false,
+    "absence_of_data_inferred_from_block": false,
+    "new_opportunity_screening_performed": false,
+    "prior_APR_RM_BLU_NDC_mIGF_source_passes_reopened": false,
+    "reopen_triggers": [
+      "Independent exact-P2 useful human motor-unit or other intended functional result with article, genotype and exposure retained.",
+      "Exact-P2 exposure-linked functional safety or human-relevant distribution evidence that changes the feasible window.",
+      "A primary correction or readable animal-level/figure record that materially changes efficacy precision, cohort flow, vehicle interpretation or the EHR/source-conflict interpretation."
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

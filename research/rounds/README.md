@@ -24,6 +24,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 18](round18/README.md)** | BLU human-model and systemic/comparator source close | One existing candidate; official manuscript metadata with unread content, tissue-specific human context, sponsor plans and staged cost/decision limits. Three independent reviews; no new human BLU force result, screen, experiment or S-tier promotion. |
 | **[Round 19](round19/README.md)** | NDC9009 article, comparator, capture and claim-specific source close | One existing candidate; later C18 disclosure, sponsor overlap, controlled contrary comparator and PDE4 lineage. Three independent reviews; original-scope rank4 retained, preliminary-only rank inheritance rejected. No new NDC human result, screen, experiment or S-tier promotion. |
 | **[Round 20](round20/README.md)** | mIGF-Gel product, comparator and capture source close | One existing candidate; model/exposure precision, exact insulin evidence, older sequence-list discrepancy and practical product value. Three independent reviews; conditional rank five retains its original information scope. No new mIGF human result, screen, experiment or S-tier promotion. |
+| **[Round 21](round21/README.md)** | Existing exact 8015-P2/MFN2-CMT2A article, human-translation and product/capture source close | One existing program only; biological-unit/exposure precision, human-model lineage and W740S annotation, new stereochemical application and distinct rights scopes. Three independent reviews; original-scope conditional rank 6 retained, no broader screen or execution. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -114,3 +115,9 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 ## Round 20
 
 - [mIGF-Gel/corneal repair source close, decision and verified manifest](round20/README.md)
+
+## Round 21
+
+- [Package and decision](round21/README.md).
+- [Article/exposure](round21/p2-article-exposure.md), [human translation](round21/p2-human-translation.md), and [product/capture](round21/p2-product-capture.md).
+- [Marginal-dollar decision](round21/marginal-dollar-decision.md), [integration review](round21/integration-review.md), [local verification](round21/local-verification.json), and [artifact manifest](round21/artifact-manifest.json).

@@ -2,6 +2,14 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 21: exact article, useful function and a priced information scope
+
+The [P2 decision](../research/rounds/round21/marginal-dollar-decision.md) retains conditional rank 6 for the original informative exact-article human-function question. A pure stereoisomer, mixture and related compound cannot exchange efficacy or exposure. Preserve animal/allele/investigator lineage, therapeutic sex, actual regimen, within-animal measurement selection and source-unit conflicts. WT nonsignificance is not equivalence; an acute mechanistic dose or binding panel is not a chronic human functional window.
+
+Catalog annotation, request-based starting cells, an operating mitochondrial assay and a qualified human motor-unit function model are separate. A first disease/control background can inform an exploratory decision; independent and allele confirmation should answer later generality questions. Strong negative post-deficit reversal inference requires relevant model modifiability, while useful direct-muscle or ongoing-control benefit need not prove axonal regeneration or permanent cure.
+
+Read exact stereochemical disclosure, issued compound claims, later application claims, rat-model rights and generic orphan designation in their own scope. No publication or research-material route establishes an available commercial license or FTO. Recompare reduced information yield and expanded model/product/rights cost, including waiting. A preliminary qualification substitute cannot inherit the original rank/EV merely by keeping the same budget. This review covers the existing P2 program only and leaves all prior source closures intact.
+
 ## Round 20: exact product, practical comparator and useful information
 
 The [mIGF decision](../research/rounds/round20/marginal-dollar-decision.md) preserves the original conditional order while sharpening the active-comparator question. Separate acute or steroid-suppressed repair from treatment of an established persistent defect. Tracer retention, aqueous PK and nominal concentration are not interchangeable with intact epithelial exposure. Existing controls and biological-unit uncertainty must remain visible.

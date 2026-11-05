@@ -1,0 +1,294 @@
+{
+  "schema_version": "ddiscov.round21.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "base_commit": "8aa186ce010b4e173fe63ee4217075efa11c7e81",
+  "base_tree": "fa67db6c5b03bf2905193592a185f154d430eab1",
+  "candidate_id": "R3-NM-01",
+  "decision": "Retain the conditional exact-P2 human-function option at inherited development rank6 under the original informative scope; close this bounded existing-program source review. No new allocation or execution authorization.",
+  "selection": {
+    "objective": "Expected discounted financial value retained by ddiscov after remaining development costs, commercial costs, rights payments, sharing and financing.",
+    "selected_uncertainty": "Whether an affordable independent exact-8015-P2 useful human functional bridge can change the MFN2-CMT2A development decision and support a commercially retained contribution.",
+    "basis": "User-selected bounded review of the existing exact-P2 program following five completed source passes. Inherited conditional rank6; no broader new-opportunity screening or fresh full-portfolio valuation.",
+    "selected_public_source_sprint_rank": 1,
+    "user_selected_existing_program": true,
+    "independent_review_conditional_development_rank": 6,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "broader_new_opportunity_screening": false,
+    "numerical_success_probabilities": false,
+    "estimated_return_per_dollar": null,
+    "ordinal_rank_conditional_on_original_informative_scope": true,
+    "zero_or_wait_option_included": true
+  },
+  "independent_review": {
+    "input_file": "research/rounds/round21/independent-review-input.json",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "ordinal_conditional_development_rank": 6
+  },
+  "local_inputs": [
+    {
+      "id": "D21-L1",
+      "path": "research/rounds/round21/p2-article-exposure.json"
+    },
+    {
+      "id": "D21-L2",
+      "path": "research/rounds/round21/p2-human-translation.json"
+    },
+    {
+      "id": "D21-L3",
+      "path": "research/rounds/round21/p2-product-capture.json"
+    },
+    {
+      "id": "D21-L4",
+      "path": "research/rounds/round21/independent-review-input.json"
+    }
+  ],
+  "source_scopes": [
+    "research/rounds/round21/p2-article-exposure.json",
+    "research/rounds/round21/p2-human-translation.json",
+    "research/rounds/round21/p2-product-capture.json",
+    "research/rounds/round21/marginal-dollar-decision.json"
+  ],
+  "tranche_assumptions": {
+    "original_informative_bridge": {
+      "currency": "USD",
+      "cost_range": [
+        75000,
+        250000
+      ],
+      "months_range": [
+        4,
+        8
+      ],
+      "scope": "Exact article and independent human functional bridge; excludes chronic toxicology and clinical supply.",
+      "nature": "Prior analyst planning judgment, not quotation, full-program budget, feasibility demonstration or approval probability.",
+      "verified_quote": false,
+      "verified_feasible_scope": false
+    },
+    "preliminary_qualification_only": {
+      "cost_range": null,
+      "months_range": null,
+      "priced": false,
+      "information_scope": "Article and/or functional-model feasibility; not automatically the original useful human-function bridge."
+    },
+    "exclusions": [
+      "Rights and licensing",
+      "Major new model or chemistry platform",
+      "Chronic toxicology including GLP package",
+      "GMP clinical manufacture and supply",
+      "Clinical trials",
+      "Commercialization"
+    ],
+    "qualification_only_scope_inherits_prior_rank_without_recomparison": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "expanded_cost_or_time_requires_recomparison": true,
+    "quotes_obtained": false,
+    "external_commitment_usd": 0,
+    "full_program_budget_established": false
+  },
+  "claim_and_stage_limits": {
+    "human_mixture_or_related_compound_result_is_exact_P2": false,
+    "exact_P2_useful_human_function_established": false,
+    "exact_P2_treated_human_result_established": false,
+    "multiple_species_equal_independent_laboratory_or_allele_replication": false,
+    "repeated_readings_or_image_fields_equal_independent_animals": false,
+    "nonsignificance_against_WT_establishes_equivalence": false,
+    "animal_minimum_effective_dose_is_human_threshold": false,
+    "acute_high_dose_motility_establishes_chronic_low_dose_coverage": false,
+    "mixture_PK_transfers_to_P2": false,
+    "radioligand_binding_is_functional_safety_margin": false,
+    "published_charcoal_unit_conflict_resolved": false,
+    "operating_transport_assay_is_qualified_NMJ_force_model": false,
+    "catalog_annotation_is_physical_lot_authentication": false,
+    "recruitment_wishlist_is_available_T105M_inventory": false,
+    "corrected_R364W_harm_inference_can_be_reused": false,
+    "first_qualified_background_can_inform_exploratory_decision": true,
+    "multi_allele_confirmation_required_before_any_informative_qualification": false,
+    "first_background_result_establishes_all_CMT2A_generalization": false,
+    "direct_muscle_benefit_can_be_useful": true,
+    "direct_muscle_benefit_proves_axonal_regrowth": false,
+    "useful_ongoing_control_requires_permanent_off_treatment_cure": false,
+    "delayed_modifiability_needed_for_strong_negative_reversal_inference": true,
+    "post_deficit_positive_control_is_universal_gate_before_recognizing_positive": false,
+    "continuous_exposure_universal_requirement": false,
+    "public_P2_stereochemical_disclosure_authenticates_future_batch": false,
+    "WO2026044165A1_is_verified_grant": false,
+    "application_prose_or_claims_are_granted_unchanged": false,
+    "rat_model_patent_is_P2_compound_continuation": false,
+    "generic_orphan_designation_identifies_exact_P2_or_IND": false,
+    "public_disclosure_or_supply_route_establishes_commercial_rights": false,
+    "full_claim_chart_title_license_or_FTO_established": false,
+    "information_value_equals_whole_program_upside": false,
+    "qualification_only_scope_inherits_original_rank_or_EV": false,
+    "model_or_rights_cost_expansion_requires_recomparison": true,
+    "owner_reply_required_for_scientific_selection": false
+  },
+  "completed_information_updates": [
+    {
+      "id": "U21-01",
+      "finding": "Animal efficacy remains exact-P2/T105M evidence; male-only therapeutic rat cohorts, within-animal measurements, dose/time stopping and WT comparison limits are explicit.",
+      "decision_effect": "Retain a useful established-disease rationale without equivalence, all-allele or independent-network inflation."
+    },
+    {
+      "id": "U21-02",
+      "finding": "Acute/chronic regimen distinctions, mixture-versus-P2 exposure, the charcoal-unit conflict and binding-versus-functional safety distinctions remain attached to the result.",
+      "decision_effect": "Keep the human functional exposure/window question open; do not infer failure or safety from missing transfer information."
+    },
+    {
+      "id": "U21-03",
+      "finding": "Human mixture/Chimera C lineage, R94Q model reuse and operating R364W morphology/motility scope do not establish exact-P2 motor-unit function.",
+      "decision_effect": "Price actual function/model qualification information; a convenient organelle assay cannot inherit the original functional-bridge value."
+    },
+    {
+      "id": "U21-04",
+      "finding": "Public AG0008 c.2219G>C annotation can be mapped to p.Trp740Ser/W740S; the catalog printed date differs from its URL.",
+      "decision_effect": "Clarify starting-material documentation without claiming stock, authenticated lot, functional deficit or responsiveness."
+    },
+    {
+      "id": "U21-05",
+      "finding": "WO2026044165A1 supplies a new-to-record P2 stereochemical link and stereoisomer-focused application; drug claims, continuation and separately patented rat models have distinct scopes.",
+      "decision_effect": "Improve documentary identity and rights specificity without assuming a grant, available license, unowned asset or FTO."
+    },
+    {
+      "id": "U21-06",
+      "finding": "Original rank6/$75–250k4–8month scope is an informative exact-article human-function bridge; access, practical feasibility and retained economics remain unpriced.",
+      "decision_effect": "Retain the conditional option, separate qualification and confirmation, recompare reduced information or expanded costs, and close repetitive source work."
+    }
+  ],
+  "routes": [
+    {
+      "id": "R21-01",
+      "route": "Exact-article and model feasibility",
+      "informative_output": "Whether the actual article and disease-functional system can support an interpretable useful-function question.",
+      "value_boundary": "Qualification-only scope is distinct; compare information and remaining costs even at unchanged price.",
+      "execution_now": false
+    },
+    {
+      "id": "R21-02",
+      "route": "Independent useful human function",
+      "informative_output": "Useful exact-P2 function at interpretable exposure in a qualified disease/control background.",
+      "value_boundary": "The original envelope is conditional, not an executable quote or demonstrated feasibility.",
+      "execution_now": false
+    },
+    {
+      "id": "R21-03",
+      "route": "Confirmation and allele generality",
+      "informative_output": "Whether a credible first result generalizes sufficiently for the intended product claim.",
+      "value_boundary": "Additional cost and a separate release decision; a first result is not an all-CMT2A claim.",
+      "execution_now": false
+    },
+    {
+      "id": "R21-04",
+      "route": "Commercially retained contribution",
+      "informative_output": "A lawful, usable contribution with adequate data/regulatory/supply/development rights and acceptable remaining economics.",
+      "value_boundary": "Scientific information, ownership, regulatory use/reference and commercial rights are distinct.",
+      "execution_now": false
+    },
+    {
+      "id": "R21-05",
+      "route": "Wait or stop",
+      "informative_output": "Preserve capital when available actions are uninformative or unattractive after remaining costs.",
+      "value_boundary": "Source closure does not demote biology or justify another repetitive desktop pass.",
+      "execution_now": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "B21-01",
+      "observation": "Article, exposure or disease-functional model unqualified",
+      "decision": "Compare a finite qualification scope or defer; no drug/target-negative inference from inadequate material or model.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-02",
+      "observation": "Credible useful exact-P2 positive in one qualified background",
+      "decision": "Consider independent confirmation and relevant exposure/safety follow-up; preserve narrow genotype/claim.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-03",
+      "observation": "Only organelle morphology or motility improves",
+      "decision": "Retain mechanism information; the original functional bridge remains unanswered and any next mechanistic tranche needs its own value case.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-04",
+      "observation": "Only mixture or related article works",
+      "decision": "Do not credit P2; another article requires a separately defined marginal decision.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-05",
+      "observation": "No useful exact-P2 function in an interpretable comparison",
+      "decision": "Scope the negative to article/exposure/model/precision. Strong target-reversal rejection additionally needs post-deficit modifiability evidence.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-06",
+      "observation": "Genotype-limited, direct-muscle, symptomatic or exposure-dependent benefit",
+      "decision": "Narrow the useful claim; distinguish direct muscle from axonal regeneration and useful ongoing control from permanent cure. Reject trivial/toxic nonspecific excitation.",
+      "execution_now": false
+    },
+    {
+      "id": "B21-07",
+      "observation": "Relevant functional injury or unattractive product/rights economics",
+      "decision": "Stop the adequately tested article/claim or financial route; any successor or science-only purpose requires a separate comparison. Waiting remains available.",
+      "execution_now": false
+    }
+  ],
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "numerical_probability_model_run": false,
+  "scientific_or_financial_models_run": false,
+  "development_execution_authorized": false,
+  "completion": {
+    "public_source_pass_closed": true,
+    "completed_information_sprint": "Bounded existing exact 8015-P2/MFN2-CMT2A article/exposure, human-model/allele and product/capture review.",
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "BLU_public_source_pass_reopened": false,
+    "NDC_public_source_pass_reopened": false,
+    "mIGF_public_source_pass_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "BLU_claim_exposure_model_search_reopened": false,
+    "new_P2_treated_people": 0,
+    "new_exact_P2_independent_human_function_results": 0,
+    "new_exact_intervention_use_screens": 0,
+    "new_experimental_results_generated": 0,
+    "broader_new_opportunity_screening_performed": false,
+    "monitoring_automation_created": false,
+    "owner_reply_scientific_selection_gate": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_for": [
+      "Substantive exact-P2 human functional or relevant exposure/safety data that change the intended claim or feasibility.",
+      "Specific missing primary data that resolve a decision-changing unit, regimen, causal or model-interpretability issue.",
+      "Demonstrably relevant qualified functional model or a concrete current rights, supply, access or scoped-cost fact likely to change the next commitment."
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}
