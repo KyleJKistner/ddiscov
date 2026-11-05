@@ -1,6 +1,6 @@
 # November therapeutic screens
 
-> **Current work:** [Round 21](rounds/round21/README.md) closes a bounded review of existing Exact 8015-P2/MFN2-CMT2A. Exact-article, useful human-function/model, allele and product/rights distinctions sharpen the conditional rank-six option under its original informative scope. No broader new-opportunity screening, new exact P2 human result, experiment or allocation. APR/RM/BLU/NDC/mIGF source closures remain unchanged. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
+> **Current work:** [Round 22](rounds/round22/README.md) closes a bounded review of existing AAT/donor-lung preservation. Human donor-study provenance, active formulation exposure, processing versus recipient function and product/rights distinctions sharpen the conditional rank-seven qualification option. No broader new-opportunity screen, experiment, allocation or S-tier promotion. APR/RM/BLU/NDC/mIGF/P2 source closures remain unchanged. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
 

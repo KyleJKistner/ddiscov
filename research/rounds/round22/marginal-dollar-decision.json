@@ -1,0 +1,258 @@
+{
+  "schema_version": "ddiscov.round22.marginal_dollar_decision.v1",
+  "round": 22,
+  "candidate_id": "AAT_EVLP",
+  "candidate": "Qualified alpha-1-antitrypsin for donor-lung preservation/perfusion",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieved_utc_date": "2026-11-05",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "decision": "Retain the conditional initial AAT formulation/potency/process qualification option at inherited rank7; close this bounded source review without authorizing spend or broader screening.",
+  "selection": {
+    "objective": "Expected discounted financial value retained by ddiscov after remaining development, commercial and rights costs, sharing and financing.",
+    "selected_uncertainty": "Whether a bounded AAT formulation/potency/process qualification can enable an informative usable-graft decision and a commercially retained contribution.",
+    "basis": "User-selected bounded existing-program review after six closed source passes. Inherited conditional rank7; no broader new-opportunity screening or fresh full-portfolio valuation.",
+    "selected_public_source_sprint_rank": 1,
+    "user_selected_existing_program": true,
+    "independent_review_conditional_development_rank": 7,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "broader_new_opportunity_screening": false,
+    "numerical_success_probabilities": false,
+    "estimated_return_per_dollar": null,
+    "ordinal_rank_conditional_on_original_informative_scope": true,
+    "qualification_is_original_priced_scope": true,
+    "zero_or_wait_option_included": true
+  },
+  "independent_review": {
+    "input_file": "research/rounds/round22/independent-review-input.json",
+    "ordinal_conditional_development_rank": 7,
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "original_cost_row": [
+      "AAT",
+      "US$30–100k",
+      "2–4 months",
+      "Initial formulation/potency/process qualification only; scarce organs and transplant validation excluded."
+    ],
+    "selected_original_blocks": 10,
+    "qualification_is_original_priced_scope": true,
+    "scarce_organs_and_transplant_validation_excluded": true
+  },
+  "source_scopes": [
+    "research/rounds/round22/aat-formulation-exposure.json",
+    "research/rounds/round22/aat-human-function.json",
+    "research/rounds/round22/aat-product-capture.json"
+  ],
+  "completed_information_updates": [
+    {
+      "id": "MD22-U01",
+      "topic": "Original AAT tranche",
+      "finding": "Exact recovered rank7 cost row prices initial formulation/potency/process qualification only at US$30–100k/two-to-four months; scarce organs and transplant validation are excluded.",
+      "impact": "Preserve qualification as the original priced action. Do not transfer the P2 human-function budget or impose a completed graft result before informative feasibility."
+    },
+    {
+      "id": "MD22-U02",
+      "topic": "Human study version, unit and missingness",
+      "finding": "A primary2019 author thesis provides eight-pair methods, replenished nominal exposure and incomplete repeated observations;2020/2026 lineage likely overlaps. Full2026 methods remain unverified; patent five-donor provenance is not additive.",
+      "impact": "Narrow feasibility uncertainty without creating independent replication, complete12h denominators or proven transplantability."
+    },
+    {
+      "id": "MD22-U03",
+      "topic": "Processing versus recipient evidence",
+      "finding": "2018 cold recombinant-AAT preservation includes a storage-solution rinse with retained graft AAT at4h. Published2023 pig systemic-recipient treatment improves early oxygen recovery;2025 AATD augmentation remains observational with distinct enrollment/comparison sets.",
+      "impact": "Retain early functional support without relabeling it as warm-EVLP-only durable recipient benefit or survival superiority."
+    },
+    {
+      "id": "MD22-U04",
+      "topic": "Exposure and competing physical explanation",
+      "finding": "Nominal added AAT, human-antigen ELISA and functional inhibitory activity differ; pig3mg/mL versus0.5mg/mL antigen remains unexplained. Perfusate replacement, protein/excipients/electrolytes and IV handling limits constrain interpretation.",
+      "impact": "An activity/process qualification is informative. Do not invent a loss fraction, inactive fraction, warm stability specification or clinical safety margin."
+    },
+    {
+      "id": "MD22-U05",
+      "topic": "Product, granted claims and clinical stage",
+      "finding": "AU/KR grant existence was already recorded; this review inspects original granted versions and limitations. US status remains unresolved, Canadian UHN trial remains displayed notyetrecruiting, and approved-IV biological product/platform labeling do not establish an EVLP product route.",
+      "impact": "Price a specific retained contribution rather than assume generic availability, licensed rights, FTO, clinical results or an automatic regulatory pathway."
+    },
+    {
+      "id": "MD22-U06",
+      "topic": "Claim-proportionate value",
+      "finding": "Useful finite-processing protection may involve retained tissue AAT or physical formulation. Dualprotease mechanistic uniqueness, complete drug-free tissue and permanent repair are not universal requirements for a valuable graft outcome.",
+      "impact": "Compare actual clinically useful and practical advantage plus remaining costs and retained economics. Mechanistic claims and stronger repair/durability claims require their own evidence."
+    }
+  ],
+  "routes": [
+    {
+      "id": "MD22-R1",
+      "route_id": "initial_qualification",
+      "title": "Initial formulation/potency/process qualification",
+      "decision_useful_output": "Interpretable active exposure and practical process definition that enable a later relevant graft comparison.",
+      "limit": "Original illustrative priced tranche; actual scope/feasibility/follow-on cost remain conditional.",
+      "executed": false
+    },
+    {
+      "id": "MD22-R2",
+      "route_id": "paired_organ_function",
+      "title": "Paired donor-organ function",
+      "decision_useful_output": "Useful graft performance against an optimized clinically relevant comparator with donor pairing and missingness preserved.",
+      "limit": "Scarce organs and this validation stage are outside the initial envelope.",
+      "executed": false
+    },
+    {
+      "id": "MD22-R3",
+      "route_id": "recipient_relevant_processing",
+      "title": "Recipient-relevant processing benefit",
+      "decision_useful_output": "Intended organ-treatment route improves graft use or worthwhile recipient function with acceptable carryover and workflow.",
+      "limit": "Systemic recipient treatment is not substitutable; retained local protection may be useful.",
+      "executed": false
+    },
+    {
+      "id": "MD22-R4",
+      "route_id": "retained_contribution",
+      "title": "Commercially retained contribution",
+      "decision_useful_output": "Differentiated formulation/process or contracted usable data/service contribution with acceptable development and sharing economics.",
+      "limit": "No secured supply, access, license, FTO, quote or regulatory route established.",
+      "executed": false
+    },
+    {
+      "id": "MD22-R5",
+      "route_id": "wait_or_stop",
+      "title": "Wait or stop",
+      "decision_useful_output": "Preserve capital when an action is uninformative or its continuation is unattractive.",
+      "limit": "Source closure does not automatically demote the candidate or authorize repetitive review.",
+      "executed": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "MD22-B1",
+      "condition": "Unresolved activity or process compatibility",
+      "decision": "Compare finite informative qualification and its enabling value. Failed formulation or recovery assay is not biological target failure.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B2",
+      "condition": "Qualification succeeds",
+      "decision": "Consider a separately priced organ/recipient stage; no automatic larger spend or clinical efficacy claim.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B3",
+      "condition": "Physical matching removes the AAT-specific increment",
+      "decision": "Reduce protein-specific advantage; a practical formulation may still matter if useful outcomes and retained contribution exist.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B4",
+      "condition": "Simpler comparator has similar useful outcomes",
+      "decision": "Compare totalcost/handling/exposure/safety/workflow; no unique dualNEPR3 gate and no nonsignificance-as-equivalence.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B5",
+      "condition": "Intended processing improves meaningful graft or recipient outcome",
+      "decision": "Consider confirmation and claim-specific carryover/exposure. Retained tissue protection can be useful without complete drug elimination or permanent repair.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B6",
+      "condition": "Only systemic recipient or different-article benefit is supported",
+      "decision": "Keep its route/population separate; no silent completion or conversion of the EVLP-only program.",
+      "executed": false
+    },
+    {
+      "id": "MD22-B7",
+      "condition": "Interpretable lack of benefit, liability or unattractive economics",
+      "decision": "Stop or narrow the affected product/financial claim; useful patientcare alone does not establish privately retained return; waiting remains available.",
+      "executed": false
+    }
+  ],
+  "claim_and_stage_limits": {
+    "qualification_is_original_priced_tranche": true,
+    "qualification_requires_final_positive_graft_result": false,
+    "initial_cost_envelope_includes_scarce_organs": false,
+    "initial_cost_envelope_includes_transplant_validation": false,
+    "initial_cost_envelope_is_quote": false,
+    "initial_cost_envelope_is_full_program_budget": false,
+    "qualification_success_automatically_releases_organ_budget": false,
+    "complete_drug_free_tissue_is_universal_value_gate": false,
+    "unique_dual_NE_PR3_mechanism_is_universal_value_gate": false,
+    "permanent_repair_is_universal_value_gate": false,
+    "meaningful_practical_or_clinical_advantage_required_for_incremental_value": true,
+    "human_thesis_methods_assumed_identical_to_2026_article": false,
+    "related_human_reports_counted_as_independent_replication": false,
+    "repeated_observations_are_independent_donors": false,
+    "nominal_mass_or_antigen_equals_warm_functional_activity": false,
+    "nominal_antigen_difference_establishes_fraction_lost": false,
+    "systemic_recipient_effect_inherits_EVLP_only_claim": false,
+    "survival_model_proves_survival_superiority": false,
+    "cold_recombinant_result_establishes_warm_Zemaira_equivalence": false,
+    "rinse_establishes_drug_free_tissue": false,
+    "statistical_nonsignificance_establishes_equivalence": false,
+    "foreign_grant_existence_newly_discovered": false,
+    "US_current_legal_status_verified": false,
+    "regulatory_route_established": false,
+    "current_license_or_FTO_established": false,
+    "commercial_capture_may_use_formulation_process_or_contract": true,
+    "all_portfolio_candidates_freshly_reranked": false
+  },
+  "existing_translational_benchmark": {
+    "existing_repository_benchmark": true,
+    "new_candidate_screen": false,
+    "title": "Regadenoson blinded multicenter donor-lung EVLP trial",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12745136/",
+    "doi": "10.1016/j.xjon.2025.09.017",
+    "randomized_donor_pairs": 48,
+    "evaluable_donor_pairs": 34,
+    "regadenoson_evaluable": 26,
+    "placebo_evaluable": 8,
+    "accepted_pairs_regadenoson": 17,
+    "accepted_pairs_placebo": 6,
+    "recipient_safety_denominator": 24,
+    "recipient_denominator_note": "One accepted donor pair was split for two single-lung recipients.",
+    "inference": "No statistically significant use/PGD improvement; baseline imbalance, excluded randomized pairs and wide uncertainty prevent a strong universal null. AAT efficacy is not tested by this trial."
+  },
+  "completion": {
+    "public_source_pass_closed": true,
+    "broader_new_opportunity_screening": false,
+    "prior_six_source_closures_preserved": true,
+    "spending_authorized": false,
+    "monitoring_created": false,
+    "new_experiments": false,
+    "scientific_or_financial_models_run": false,
+    "stop_reason": "Named primary evidence, source-version, activity/formulation and product/capture questions reviewed to stated access ceilings; no additional broad search justified.",
+    "reopen_for": [
+      "Full2026human methods or missing donor-level data likely to change interpretation.",
+      "Substantive intended-route graft/recipient outcome.",
+      "Exact-article activity or process-compatibility fact that changes qualification.",
+      "Concrete current access/supply/rights/scoped-cost fact likely to change commitment."
+    ],
+    "insufficient_to_reopen": [
+      "Repeated abstract or dataset.",
+      "Generic AAT mention.",
+      "Future clinical plan without results.",
+      "Price-free service description."
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

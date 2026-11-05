@@ -1,0 +1,688 @@
+{
+  "schema_version": "ddiscov.round22.aat_formulation_exposure.v1",
+  "round": 22,
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "candidate_id": "AAT_EVLP",
+  "candidate": "AAT / donor-lung preservation",
+  "aliases": [
+    "BE-N01",
+    "Plasma-derived AAT during EVLP"
+  ],
+  "scope": "Bounded existing-program formulation, potency, active-exposure and causal-control audit. No broader new-opportunity screening.",
+  "sources": [
+    {
+      "id": "AATFE22-S01",
+      "title": "Zemaira prescribing information",
+      "url": "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+      "source_type": "manufacturer_regulatory_label",
+      "version": "Revised January 2024; served at retrieval",
+      "read_scope": "Sections 2, 3 and 11; product amount, preparation, administration and composition.",
+      "fresh_primary_read": true,
+      "access": "PDF parsed; six pages",
+      "web_refs": [
+        "turn146view3"
+      ],
+      "same_work_as": [
+        "AATFE22-S02"
+      ],
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S02",
+      "title": "DailyMed Zemaira label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0c3354b5-a1d8-4f98-ad55-2eafe4265c4e",
+      "source_type": "official_label_repository",
+      "version": "January 2024 prescribing text; DailyMed listing updated September 23, 2024",
+      "read_scope": "Sections 2, 3 and 11; corroborates S01, not independent efficacy evidence.",
+      "fresh_primary_read": true,
+      "access": "HTML read",
+      "web_refs": [
+        "turn146view2",
+        "turn152view4",
+        "turn180search6"
+      ],
+      "same_work_as": [
+        "AATFE22-S01"
+      ],
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S03",
+      "title": "STEEN Solution Instructions for Use",
+      "url": "https://www.xvivogroup.com/wp-content/uploads/2024/02/xvivo_steen_solution_ifu_20924-14_955x390mm_221128_print.pdf",
+      "source_type": "manufacturer_instructions_for_use",
+      "version": "Document filename 20924-14; current manufacturer index linked this file; no claim that URL year equals study-lot date",
+      "read_scope": "English product description and Additives sections, first page; existing perfusate comparator only.",
+      "fresh_primary_read": true,
+      "access": "Two-page multilingual PDF parsed; English section read",
+      "web_refs": [
+        "turn191view0"
+      ],
+      "listing_url": "https://www.xvivogroup.com/resource-type/instructions-for-use/",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S04",
+      "title": "Perfusion compositions and methods of using alpha-1 anti-trypsin in ex vivo organ perfusion",
+      "url": "https://patents.google.com/patent/US20190059362A1/en",
+      "source_type": "primary_patent_experimental_disclosure",
+      "publication_date": "2019-02-28",
+      "read_scope": "Examples 1, 2, 8, 11 and 13; source text only, not a rights/FTO opinion or confirmation of all underlying data.",
+      "fresh_primary_read": true,
+      "access": "HTML text read; no graph digitization",
+      "web_refs": [
+        "turn146view0",
+        "turn154view0",
+        "turn152view1",
+        "turn154view1",
+        "turn152view2"
+      ],
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S05",
+      "title": "Alpha 1 Antitrypsin Treatment of Donor Lungs: A Translational Pathway to Clinical Application",
+      "author": "Andrea Mariscal de Alba",
+      "publication_year": 2019,
+      "url": "https://www.academia.edu/88941544/Alpha_1_Antitrypsin_Treatment_of_Donor_Lungs_A_Translational_Pathway_to_Clinical_Application",
+      "source_type": "authored_thesis_public_third_party_copy",
+      "read_scope": "Chapter 5 printed pp. 127–137; whole-lung formulation/replenishment, antigen/complex measurement, separate cell-culture methods. No claim to have read final 2026 article full methods.",
+      "fresh_primary_read": true,
+      "access": "Public host parsed authored thesis text. Official university-hosted file not obtained in this bounded review.",
+      "web_refs": [
+        "turn169view1",
+        "turn172view3",
+        "turn196view0"
+      ],
+      "provenance_limit": "Eight-donor thesis lineage may overlap later reports. Do not count a new independent dataset or assume all details unchanged in the final publication.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S06",
+      "title": "Preservation with alpha-1-antitrypsin improves primary graft function of murine lung transplants",
+      "publication_year": 2018,
+      "doi": "10.1016/j.healun.2018.03.015",
+      "pmid": "29776812",
+      "url": "https://push-zb.helmholtz-munich.de/deliver.php?id=21907",
+      "published_record_url": "https://pubmed.ncbi.nlm.nih.gov/29776812/",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078707/",
+      "source_type": "primary_accepted_manuscript_official_author_institution",
+      "read_scope": "Methods, Results, Discussion and figure legends; pages 20–22 visually checked. PubMed indexed final-paper captions corroborate group range.",
+      "fresh_primary_read": true,
+      "access": "Official Helmholtz PDF read. PMC later challenged; Max Planck PDF returned 403; no bypass. Supplement not read.",
+      "web_refs": [
+        "turn169view0",
+        "turn173view0",
+        "turn173view1",
+        "turn173view2",
+        "turn173view3",
+        "turn173view4",
+        "turn167search0",
+        "turn163search1"
+      ],
+      "version_limit": "Accepted manuscript can differ typographically from final article. No raw data or figure-digitized effect estimates recovered.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S07",
+      "title": "Addition of a neutrophil elastase inhibitor to the organ flushing solution decreases lung reperfusion injury in rat lung transplantation",
+      "publication_year": 2007,
+      "doi": "10.1016/j.ejcts.2007.07.017",
+      "pmid": "17888675",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17888675/",
+      "publisher_url": "https://academic.oup.com/ejcts/article/32/5/791/373916",
+      "source_type": "primary_existing_comparator_abstract",
+      "read_scope": "Primary abstract recovered from PubMed indexed search; exact-use comparator only. Prior Round 4 full-text identity record retained separately.",
+      "fresh_primary_read": true,
+      "access": "PubMed direct open had no readable lines; indexed abstract read. Publisher fulltext redirected to inaccessible CDN.",
+      "web_refs": [
+        "turn180search0",
+        "turn189search0"
+      ],
+      "prior_record": "research/rounds/round4/round4_organ_blood.json, S1",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AATFE22-S08",
+      "title": "A neutrophil elastase inhibitor improves lung function during ex vivo lung perfusion",
+      "publication_year": 2015,
+      "doi": "10.1007/s11748-015-0585-0",
+      "pmid": "26346003",
+      "url": "https://link.springer.com/article/10.1007/s11748-015-0585-0",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26346003/",
+      "source_type": "primary_existing_comparator_abstract",
+      "read_scope": "Publisher abstract; exact inhibitor identity and full recipe not recovered.",
+      "fresh_primary_read": true,
+      "access": "Abstract read; full text requires institutional/subscription access. No purchase, sign-in or bypass.",
+      "web_refs": [
+        "turn184view2",
+        "turn180search4",
+        "turn189search1"
+      ],
+      "retrieved_utc_date": "2026-11-05"
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "AATFE22-L01",
+      "path": "research/rounds/round2/round2_blood_exvivo.md",
+      "role": "Original AAT program and separate route evidence."
+    },
+    {
+      "id": "AATFE22-L02",
+      "path": "research/rounds/round3/round3_organ_repair.md",
+      "role": "Historical physical-formulation challenge; conditional stock arithmetic is not a recovered recipe."
+    },
+    {
+      "id": "AATFE22-L03",
+      "path": "research/rounds/round4/round4_organ_blood.md",
+      "role": "Historical mechanistic/comparator gate; current claim-specific interpretation narrows universal mechanism/washout requirements."
+    },
+    {
+      "id": "AATFE22-L04",
+      "path": "research/rounds/round5/round5_existing_leader_updates.md",
+      "role": "Previously recorded nominal/antigen discrepancy; retained without inventing loss mechanism."
+    },
+    {
+      "id": "AATFE22-L05",
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "role": "Original independent marginal-dollar review, AAT blocks48–49 and rank/cost rows supplied to root review input. This external scratch path is provenance, not a repository dependency."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "AATFE22-E01",
+      "source_ids": [
+        "AATFE22-S01",
+        "AATFE22-S02"
+      ],
+      "status": "revalidated_and_clarified",
+      "locator": "Zemaira PI sections 3 and 11",
+      "observation": "Vial content is functional A1PI defined by human-NE neutralization, distinct from total protein or antigen.",
+      "exact_article": "Plasma-derived Zemaira A1PI",
+      "reported_purity_min_percent": 90,
+      "reported_specific_activity_min_functional_mg_per_total_protein_mg": 0.7,
+      "vial_presentations": [
+        {
+          "nominal_functional_mg": 1000,
+          "reconstitution_mL": 20
+        },
+        {
+          "nominal_functional_mg": 4000,
+          "reconstitution_mL": 76
+        },
+        {
+          "nominal_functional_mg": 5000,
+          "reconstitution_mL": 95
+        }
+      ],
+      "limits": "Actual labeled functional quantity is lot specific. This label is not a warm-circuit release assay.",
+      "decision_impact": "Start from an existing manufactured article specification while separating delivered and retained active exposure."
+    },
+    {
+      "id": "AATFE22-E02",
+      "source_ids": [
+        "AATFE22-S01",
+        "AATFE22-S02"
+      ],
+      "status": "revalidated_existing_fact",
+      "locator": "Zemaira PI sections 2.2 and 11",
+      "observation": "Reconstitution introduces defined excipients; administration instructions have a three-hour room-temperature limit and no mixing with other medicinal products.",
+      "reconstituted_excipient_ranges_mM": {
+        "sodium": [
+          73,
+          89
+        ],
+        "chloride": [
+          30,
+          39
+        ],
+        "phosphate": [
+          15,
+          20
+        ],
+        "mannitol": [
+          121,
+          168
+        ]
+      },
+      "reported_administration_window_hours": 3,
+      "limits": "Neither sudden inactivation after three hours nor twelve-hour EVLP stability follows. Historical stock-contribution arithmetic is conditional, not the human recipe.",
+      "decision_impact": "Qualify the actual process; do not dismiss the article or assume its compatibility from the clinical label."
+    },
+    {
+      "id": "AATFE22-E03",
+      "source_ids": [
+        "AATFE22-S03"
+      ],
+      "status": "fresh_primary_product_context",
+      "locator": "STEEN IFU English product description and Additives",
+      "observation": "Base perfusate contains human serum albumin and dextran; replacement-fluid additives are part of the process.",
+      "base_HSA_g_per_L": 70,
+      "base_dextran40_g_per_L": 5,
+      "limits": "Current document does not authenticate historical study lots or validate adding AAT. The base fluid already has physical preservation functions.",
+      "decision_impact": "Compare final compositions and practical process burden; a saline control cannot alone isolate AAT-specific biology."
+    },
+    {
+      "id": "AATFE22-E04",
+      "source_ids": [
+        "AATFE22-S04"
+      ],
+      "status": "revalidated_unresolved_source_discrepancy",
+      "locator": "Patent Examples 1, 2, 8 and 11",
+      "observation": "Pig study nominal AAT and measured human-AAT antigen differ without a reconciled explanation in the inspected text.",
+      "exact_article": "Zemaira in Steen",
+      "nominal_added_mg_per_mL": 3,
+      "reported_perfused_human_AAT_antigen_mg_per_mL": 0.5,
+      "reported_duration_hours": 12,
+      "assay": "Abcam ab189579 human-AAT ELISA",
+      "reported_endpoint_tissue_antigen_ug_per_mg_protein": {
+        "mean": 13.49,
+        "plus_minus": 1.78,
+        "error_type": "not assigned beyond source text"
+      },
+      "animal_denominator": {
+        "retrieved": 15,
+        "technical_exclusions": 3,
+        "randomized": 12,
+        "per_arm": 6,
+        "sex": "male",
+        "species": "Yorkshire pig"
+      },
+      "electrolyte_direction": "Sodium/chloride lower in treatment, calcium lower late; no potassium difference reported.",
+      "limits": "No inferred fractional adsorption, consumption, oxidation or analytical-recovery loss. No direct residual NE/PR3 activity supplied by antigen measurements.",
+      "decision_impact": "The informative task is reconciling relevant concentration/activity measurements, not copying a nominal literature dose."
+    },
+    {
+      "id": "AATFE22-E05",
+      "source_ids": [
+        "AATFE22-S04"
+      ],
+      "status": "revalidated_with_measurement_scope_clarification",
+      "locator": "Patent Example 13, particularly Case 2",
+      "observation": "Five paired human donors; nominal AAT versus saline, with differential replacement/dilution and antigen-based NE content.",
+      "biological_donors": 5,
+      "nominal_AAT_mg_per_mL": 10,
+      "printed_circuit_volume": "1.5 mL, apparent error retained rather than operationally corrected",
+      "NE_measurement": "ELISA content, not direct activity",
+      "limits": "Physical matching unestablished. Control-only Steen replacement affects cytokine concentration interpretation. Do not assign this recipe or denominator to final eight-donor publication.",
+      "decision_impact": "Preserve functionality observations without overclaiming causal molecular specificity or a validated exposure target."
+    },
+    {
+      "id": "AATFE22-E06",
+      "source_ids": [
+        "AATFE22-S05"
+      ],
+      "status": "newly_recovered_version_specific_methods",
+      "locator": "Thesis chapter 5 §5.3.1, printed pp. 127–129",
+      "observation": "Eight-donor thesis names Zemaira and describes fresh solution replacement during EVLP.",
+      "biological_donors": 8,
+      "exact_article_printed": "Zemaira; manufacturer printed CLS Behring",
+      "nominal_AAT_mg_per_mL": 10,
+      "Steen_prime_L": 1.5,
+      "reported_replacement": {
+        "after_one_hour_mL": 250,
+        "subsequent_hourly_mL": 100,
+        "group_specific_AAT": "fresh solution with/without AAT"
+      },
+      "background_additives": [
+        "methylprednisolone",
+        "unfractionated heparin",
+        "cefazolin"
+      ],
+      "stopping": "twelve hours or failure",
+      "limits": "Version-specific primary thesis text; full final 2026 methods unavailable. Whole-lung stock reconstitution and fully matched placebo are not established.",
+      "decision_impact": "Do not describe one initial addition as demonstrating twelve-hour unchanged-stock stability; account for replenishment in the product and cost question."
+    },
+    {
+      "id": "AATFE22-E07",
+      "source_ids": [
+        "AATFE22-S05"
+      ],
+      "status": "newly_recovered_assay_scope_and_source_inconsistency",
+      "locator": "Thesis §5.3.1 AAT Levels/NE–AAT Complex; §5.4.1–2, pp. 130–137",
+      "observation": "AAT-antigen and NE–AAT-complex ELISAs provide different information from remaining inhibitory activity. Nominal, expected and measured antigen values are not reconciled.",
+      "assays": [
+        "Human AAT antigen ELISA ab189579",
+        "NE–AAT complex capture ELISA"
+      ],
+      "nominal_delivered_mg_per_mL": 10,
+      "author_expected_antigen_g_per_L_approx": 5,
+      "reported_antigen_means_g_per_L": [
+        {
+          "hour": 1,
+          "mean": 3.075,
+          "SD": 5.2967
+        },
+        {
+          "hour": 3,
+          "mean": 3.4277,
+          "SD": 5.088
+        },
+        {
+          "hour": 6,
+          "mean": 5.9761,
+          "SD": 6.5695
+        },
+        {
+          "hour": 9,
+          "mean": 6.64343,
+          "SD": 6.225
+        },
+        {
+          "hour": 12,
+          "mean": 11.028,
+          "SD": 7.6948
+        }
+      ],
+      "NE_complex_reported_p_values": {
+        "body": 0.043,
+        "figure19_caption": 0.0043
+      },
+      "limits": "Do not silently resolve source conflicts, infer a clinical threshold from author supratherapeutic wording, or treat complexes as a direct free-active-AAT/PR3 assay. No new calculation or modeling.",
+      "decision_impact": "Known interaction supports plausibility while active exposure and mass balance remain qualification questions."
+    },
+    {
+      "id": "AATFE22-E08",
+      "source_ids": [
+        "AATFE22-S05"
+      ],
+      "status": "newly_clarified_nontransferable_method",
+      "locator": "Thesis §5.3.2 cell-culture AAT treatment, printed p. 134",
+      "observation": "Manufacturer-directed reconstitution is stated for the separate endothelial cell-culture subsection.",
+      "limits": "This sentence does not establish the whole-lung stock volume or physically matched EVLP control. Cell-culture pretreatment/removal is followed by AAT during cold and warm phases; it is not a drug-free whole-organ proof.",
+      "decision_impact": "Avoid filling the remaining organ-formulation gap with a neighboring method."
+    },
+    {
+      "id": "AATFE22-E09",
+      "source_ids": [
+        "AATFE22-S06"
+      ],
+      "status": "revalidated_with_exact_article_and_unit_detail",
+      "locator": "Accepted manuscript Methods pp. 4–7; Figures 2–4 legends pp. 20–21",
+      "observation": "Independent cold-storage study uses recombinant rather than plasma-derived AAT.",
+      "exact_article": "HEK293-produced human M1(V213) AAT and A355D/I356P/P357D/M358S reactive-loop mutant",
+      "comparator": "albumin",
+      "preservation_solution": "Perfadex",
+      "reported_protein_mg_per_mL": 1,
+      "reported_cold_storage_hours": 18,
+      "reported_storage_C": 4,
+      "reported_post_transplant_hours": 4,
+      "species": "C57BL/6J mice; WT donor to WT or Ela2/Prtn3-double-deficient recipient",
+      "sex": "male donors and recipients",
+      "reported_age_weeks": [
+        8,
+        12
+      ],
+      "denominator": {
+        "unit": "transplanted left graft/recipient",
+        "main_group_range": [
+          4,
+          5
+        ],
+        "biochemical_NE_PR3_experiments": 3,
+        "western_blot_recipients": 4,
+        "microscope_fields_per_assessment": 10
+      },
+      "limits": "Group range retained; no exact per-panel arm counts imputed. Microscope fields and biochemical replicates do not enlarge the transplant n.",
+      "decision_impact": "Retain independent mechanistic/function support with its exact preparation, cold route and short interval."
+    },
+    {
+      "id": "AATFE22-E10",
+      "source_ids": [
+        "AATFE22-S06"
+      ],
+      "status": "newly_explicit_rinse_and_retention_scope",
+      "locator": "Accepted manuscript Methods p. 5; Results p. 8; Figure 1",
+      "observation": "Grafts were rinsed with plain Perfadex before implantation; AAT remained detectable in graft tissue four hours after reperfusion.",
+      "recipient_systemic_AAT_regimen_reported": false,
+      "complete_tissue_drug_removal_demonstrated": false,
+      "warm_plasma_derived_product_validated": false,
+      "limits": "Western blot establishes retained immunoreactive protein, not a quantitative active-tissue concentration, zero systemic carryover or long-term benefit.",
+      "decision_impact": "Early benefit after a rinse supports local protection. Retained AAT can be useful and is not by itself a stop condition; drug-free repair needs separate proof."
+    },
+    {
+      "id": "AATFE22-E11",
+      "source_ids": [
+        "AATFE22-S06"
+      ],
+      "status": "revalidated_with_causal_scope_refinement",
+      "locator": "Accepted manuscript Results/Discussion pp. 9–14; Figures 3–4",
+      "observation": "Active AAT, noninhibitory mutant and recipient NE/PR3 double knockout provide convergent protease-related evidence.",
+      "mutant_scope": "Reactive-loop sequence changes also affect charge/conformation and potential membrane interaction.",
+      "double_knockout_scope": "Both enzymes removed together; does not identify each enzyme as individually necessary.",
+      "limits": "Not perfect one-property control; no proof of obligatory dual inhibition or superiority over an NE-selective comparator. No universal warm-human mechanism claim.",
+      "decision_impact": "Measure activity appropriate to the proposed claim; mechanistic uniqueness is not a prerequisite to recognizing practical benefit."
+    },
+    {
+      "id": "AATFE22-E12",
+      "source_ids": [
+        "AATFE22-S06"
+      ],
+      "status": "newly_explicit_primary_read_limits",
+      "locator": "Accepted manuscript main Methods/Discussion and caption inspection",
+      "observation": "Main text notes limited post-transplant hemodynamic monitoring; observation is early and graft/recipient context is isogenic.",
+      "random_allocation_recovered": false,
+      "blinded_functional_assessment_recovered": false,
+      "complete_exclusion_accounting_recovered": false,
+      "supplement_read": false,
+      "figure_pages_visually_checked": [
+        20,
+        21,
+        22
+      ],
+      "limits": "False recovery flags mean unverified, not proved absent. No figure digitization, animal-level reanalysis or additional biological result.",
+      "decision_impact": "Do not assign clinical durability or precise failure probabilities from this small acute study."
+    },
+    {
+      "id": "AATFE22-E13",
+      "source_ids": [
+        "AATFE22-S07"
+      ],
+      "status": "revalidated_existing_comparator",
+      "locator": "Primary abstract Methods/Results",
+      "observation": "Sivelestat donor-flush rat transplantation provides direct organ-context rationale for the existing comparator.",
+      "exact_article_freshly_recovered": "sivelestat; prior Round4 fulltext specified sodium tetrahydrate",
+      "groups": 3,
+      "reported_rats_per_group": 10,
+      "reported_cold_storage_hours": 16,
+      "reported_assessment_hours_after_reperfusion": 48,
+      "result_scope": "Higher-dose arm improved oxygenation, airway pressure, edema and MPO measures.",
+      "limits": "No direct AAT comparison; no established exact warm-human regimen or automatic clinical superiority. Fresh fulltext inaccessible.",
+      "decision_impact": "An appropriately scoped simpler-comparator question can test incremental product value without screening another opportunity."
+    },
+    {
+      "id": "AATFE22-E14",
+      "source_ids": [
+        "AATFE22-S08"
+      ],
+      "status": "revalidated_class_context_with_identity_limit",
+      "locator": "Publisher abstract",
+      "observation": "Pig NE-inhibitor EVLP study reports during-EVLP functional benefits and a post-transplant PVR difference.",
+      "reported_warm_ischemia_hours": 2,
+      "reported_EVLP_hours": 4,
+      "reported_post_transplant_observation_hours": 4,
+      "reported_n_text": "treated and control groups, respectively; n=6",
+      "exact_inhibitor_identity": null,
+      "full_exposure_recipe": null,
+      "limits": "Abstract does not name the inhibitor. Do not infer identity from cited literature or convert the post-transplant PVR result into verified oxygenation/durability benefit.",
+      "decision_impact": "Context for an existing comparator class, not AAT replication or a new candidate."
+    }
+  ],
+  "claims": [
+    {
+      "id": "AATFE22-C01",
+      "claim": "A manufactured starting article is identifiable; warm-process compatibility and retained active exposure remain separate.",
+      "evidence_ids": [
+        "AATFE22-E01",
+        "AATFE22-E02",
+        "AATFE22-E03"
+      ],
+      "assessment": "supported_with_scope_limit"
+    },
+    {
+      "id": "AATFE22-C02",
+      "claim": "The nominal-versus-antigen discrepancy remains unresolved; a specific loss mechanism cannot be assigned.",
+      "evidence_ids": [
+        "AATFE22-E04",
+        "AATFE22-E07"
+      ],
+      "assessment": "unresolved_source_question"
+    },
+    {
+      "id": "AATFE22-C03",
+      "claim": "The newly recovered eight-donor thesis describes replenishment, not validated unchanged-stock twelve-hour stability.",
+      "evidence_ids": [
+        "AATFE22-E06",
+        "AATFE22-E07",
+        "AATFE22-E08"
+      ],
+      "assessment": "supported_for_thesis_version_only"
+    },
+    {
+      "id": "AATFE22-C04",
+      "claim": "Antigen, NE–AAT complexes and remaining NE/PR3 inhibitory capacity are not interchangeable.",
+      "evidence_ids": [
+        "AATFE22-E01",
+        "AATFE22-E04",
+        "AATFE22-E05",
+        "AATFE22-E07"
+      ],
+      "assessment": "measurement_scope_and_analyst_inference"
+    },
+    {
+      "id": "AATFE22-C05",
+      "claim": "Independent cold recombinant-AAT evidence supports early post-rinse protection without proving complete drug removal or the warm product.",
+      "evidence_ids": [
+        "AATFE22-E09",
+        "AATFE22-E10",
+        "AATFE22-E12"
+      ],
+      "assessment": "supported_with_route_and_duration_limit"
+    },
+    {
+      "id": "AATFE22-C06",
+      "claim": "Convergent protease evidence does not establish obligatory dual NE/PR3 action or a unique-mechanism commercial advantage.",
+      "evidence_ids": [
+        "AATFE22-E11"
+      ],
+      "assessment": "causal_scope_inference"
+    },
+    {
+      "id": "AATFE22-C07",
+      "claim": "Existing NE-inhibitor comparators have relevant evidence but no recovered AAT head-to-head or interchangeable warm-human recipe.",
+      "evidence_ids": [
+        "AATFE22-E13",
+        "AATFE22-E14"
+      ],
+      "assessment": "supported_existing_comparator_context"
+    },
+    {
+      "id": "AATFE22-C08",
+      "claim": "A finite preservation process can have value through useful graft outcomes even if physical formulation or retained local AAT contributes.",
+      "evidence_ids": [
+        "AATFE22-E03",
+        "AATFE22-E05",
+        "AATFE22-E10",
+        "AATFE22-E11"
+      ],
+      "assessment": "analyst_product_and_marginal_value_inference_not_new_efficacy"
+    }
+  ],
+  "marginal_decision": {
+    "status": "retain_conditional_initial_qualification_option",
+    "conditional_development_rank": 7,
+    "inherited_illustrative_cost_USD": [
+      30000,
+      100000
+    ],
+    "inherited_illustrative_time_months": [
+      2,
+      4
+    ],
+    "original_priced_scope": "Initial formulation/potency/process qualification only; scarce organs and transplant validation excluded.",
+    "rank_scope": "Inherited independent-review order, not a new all-portfolio ranking. Historical priority8/one planning point is separate.",
+    "qualification_is_original_priced_deliverable": true,
+    "new_quote_or_feasibility_demonstration": false,
+    "reason": "Known starting product, human-organ signal and independent mechanistic evidence justify retaining an informative bounded qualification option, conditional on remaining cost, meaningful next decisions and retained value.",
+    "not_required_for_every_first_qualification_step": [
+      "Previously proved human transplant efficacy",
+      "Complete mechanism uniqueness",
+      "Permanent drug-free repair",
+      "Proof that both NE and PR3 are individually necessary"
+    ],
+    "requires_for_claim_specific_interpretation": [
+      "Appropriate actual article and process specification",
+      "Interpretable active exposure or relevant measurement needed by the decision",
+      "A practical incremental comparator for useful product benefit",
+      "Carryover/recipient considerations when clinically relevant",
+      "A viable contribution and retained-value route"
+    ],
+    "no_financial_EV_number_calculated": true,
+    "no_spending_authorized_or_executed_by_this_review": true
+  },
+  "source_close": {
+    "status": "bounded_formulation_exposure_public_source_pass_closed",
+    "open_fields": [
+      "Final 2026 full methods and supplement",
+      "Whole-lung stock preparation/final physical matching",
+      "Direct warm-process residual NE and PR3 inhibition where required for the claim",
+      "Validated aggregate/adsorption/compatibility and active mass balance",
+      "Quantitative tissue/recipient active exposure and clinically useful downstream outcome",
+      "Current scoped quotation, material/model access and value-capture feasibility"
+    ],
+    "reopen_for": [
+      "A named final-methods artifact changing process interpretation",
+      "Relevant direct activity or compatibility evidence",
+      "A reconciled concentration/accounting record",
+      "A concrete scoped cost/access fact affecting qualification value"
+    ],
+    "do_not_reopen_for": [
+      "Another generic AAT mechanism citation",
+      "A repeated dataset presented as new replication",
+      "A source mention without decision-changing detail"
+    ]
+  },
+  "access_limits": [
+    {
+      "source_id": "AATFE22-S05",
+      "limit": "Third-party-hosted authored thesis; no official university copy/final2026method equivalence established."
+    },
+    {
+      "source_id": "AATFE22-S06",
+      "limit": "PMC main page challenged on subsequent reads; official Helmholtz accepted manuscript recovered. MaxPlanckPDF403 and EuropePMC tool failure were not bypassed. Supplement unread."
+    },
+    {
+      "source_id": "AATFE22-S07",
+      "limit": "Fresh fulltext inaccessible, PubMed indexed primary abstract used; prior fulltext identity separate."
+    },
+    {
+      "source_id": "AATFE22-S08",
+      "limit": "Subscription fulltext not accessed; exact inhibitor remains null."
+    }
+  ],
+  "counts": {
+    "source_records": 8,
+    "evidence_rows": 14,
+    "claims": 8,
+    "new_candidates": 0,
+    "new_experiments": 0,
+    "new_human_results_generated": 0
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "new_opportunity_screening": false,
+    "scientific_model_execution": false,
+    "financial_model_execution": false,
+    "clinical_or_experimental_work_order": false
+  }
+}

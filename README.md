@@ -2,12 +2,13 @@
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 21.** The bounded existing Exact 8015-P2/MFN2-CMT2A source review is complete. Exact animal and human-model attribution, a new stereoisomer-focused publication, distinct rights layers and original information/cost scope sharpen the conditional rank-six option. APR/RM/BLU/NDC/mIGF decisions and source closures remain unchanged. No broader new-opportunity screen, exact P2 human result, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 20 is published at `8aa186ce010b4e173fe63ee4217075efa11c7e81`.
+**Status: 4 November 2026, after Round 22.** The bounded existing AAT/donor-lung-preservation source review is complete. Human study versions and units, exact active exposure, processing versus systemic recipient evidence and granted-claim scope sharpen the conditional rank-seven qualification option. Its original US$30–100k/two-to-four-month envelope excludes scarce organs and transplant validation. APR/RM/BLU/NDC/mIGF/P2 decisions and closures remain unchanged. No broader screen, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 21 is published at `2db430cd752292d82a6e6a94bd7b08cf2ebb3614`.
 
 | Start here | What it provides |
 |---|---|
 | [Current shortlist](decisions/current-shortlist.md) | Current decisions, changed evidence and experiments that would alter priority. |
 | [Selection policy](decisions/selection-policy.md) | Useful function, exact identity, exposure, comparators, source semantics and stopping rules. |
+| [Round 22 AAT marginal-dollar source close](research/rounds/round22/README.md) | Human donor-study provenance, formulation/activity, processing versus recipient function, product/rights and original qualification scope. |
 | [Round 21 exact P2 marginal-dollar source close](research/rounds/round21/README.md) | Exact article/exposure, useful human-function scope, allele/model provenance and product/rights decision. |
 | [Round 20 mIGF marginal-dollar source close](research/rounds/round20/README.md) | Exact product/model, practical insulin comparator and patent/product capture limits. |
 | [Round 19 NDC marginal-dollar source close](research/rounds/round19/README.md) | Exact article/capture provenance, controlled comparator context and claim-specific qualification. |

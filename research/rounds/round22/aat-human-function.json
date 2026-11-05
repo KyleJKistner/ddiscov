@@ -1,0 +1,742 @@
+{
+  "schema_version": "ddiscov.round22.aat_human_function.v1",
+  "round": 22,
+  "candidate_id": "AAT_EVLP",
+  "inventory_id": "BE-N01",
+  "candidate": "AAT / donor-lung preservation",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieved_utc_date": "2026-11-05",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "scope": "Bounded existing-program audit of human-organ function, report lineage, biological units and route-specific transplantation evidence. No broader new-opportunity screening.",
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "sources": [
+    {
+      "id": "H22-S01",
+      "title": "Alpha-1-Antitrypsin Treatment during Ex Vivo Lung Perfusion Improves Function of Severely Injured Human Lungs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+      "doi": "10.1016/j.ajt.2026.09.031",
+      "pmid": "42790593",
+      "publication_date": "2026-09-25",
+      "type": "primary_article_abstract",
+      "access": "indexed_primary_abstract; direct PubMed, DOI and publisher fulltext/PDF unavailable",
+      "read_scope": "Abstract and bibliographic record",
+      "freshness": "revalidated",
+      "tool_refs": [
+        "turn143search0",
+        "turn147search0"
+      ]
+    },
+    {
+      "id": "H22-S02",
+      "title": "Alpha 1 Antitrypsin Treatment during Human Ex Vivo Lung Perfusion Improves Lung Function by Protecting Lung Endothelium",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053249820312997",
+      "doi": "10.1016/j.healun.2020.01.1282",
+      "publication": "2020;39(4 Suppl):S71-S72, abstract 154",
+      "type": "primary_conference_abstract",
+      "access": "indexed_publisher_abstract; direct page returned 403",
+      "read_scope": "Methods and Results",
+      "freshness": "revalidated_with_numerical_pressure_details",
+      "tool_refs": [
+        "turn147search3",
+        "turn151search1"
+      ]
+    },
+    {
+      "id": "H22-S03",
+      "title": "Alpha 1 Antitrypsin Treatment of Donor Lungs: A Translational Pathway to Clinical Application",
+      "author": "Andrea Mariscal de Alba",
+      "url": "https://www.academia.edu/88941544/Alpha_1_Antitrypsin_Treatment_of_Donor_Lungs_A_Translational_Pathway_to_Clinical_Application",
+      "publication": "University of Toronto doctoral thesis, 2019; primary authored text hosted on Academia",
+      "type": "primary_author_thesis_copy",
+      "access": "readable_extracted_text; official repository copy and native PDF not recovered",
+      "read_scope": "Chapters 4–5; printed pp. 104, 108–120, 127–145; no independent figure-pixel interpretation",
+      "freshness": "newly_retrieved_existing_source",
+      "limitations": "Version-specific extraction. Identity of every donor with 2020/2026 reports is unverified. Some numerical/source inconsistencies remain unresolved.",
+      "tool_refs": [
+        "turn151view0",
+        "turn156view2",
+        "turn161view0",
+        "turn161view1",
+        "turn195view4",
+        "turn195view5"
+      ]
+    },
+    {
+      "id": "H22-S04",
+      "title": "Perfusion compositions and methods of using alpha-1 anti-trypsin in ex vivo organ perfusion",
+      "url": "https://patents.google.com/patent/US20190059362A1/en",
+      "publication": "US20190059362A1,2019-02-28",
+      "type": "primary_patent_disclosure",
+      "access": "readable_text",
+      "read_scope": "Example 13, Figures 13–32; study provenance and clinical-example distinction",
+      "freshness": "revalidated",
+      "limitations": "No legal conclusion; five-pilot/eight-donor overlap unverified.",
+      "tool_refs": [
+        "turn194view1",
+        "turn195view3"
+      ]
+    },
+    {
+      "id": "H22-S05",
+      "title": "Alpha1-Anti-trypsin improves function of porcine donor lungs during ex-vivo lung perfusion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29153638/",
+      "doi": "10.1016/j.healun.2017.09.019",
+      "pmid": "29153638",
+      "publication": "2017 online; 2018 May;37(5):656–666",
+      "type": "primary_article_abstract",
+      "access": "readable_primary_abstract",
+      "read_scope": "Methods and Results; no unpublished raw data",
+      "freshness": "revalidated",
+      "tool_refs": [
+        "turn142view2",
+        "turn151search2"
+      ]
+    },
+    {
+      "id": "H22-S06",
+      "title": "Human alpha1-antitrypsin improves early post-transplant lung function: Pre-clinical studies in a pig lung transplant model",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27095003/",
+      "doi": "10.1016/j.healun.2016.03.006",
+      "pmid": "27095003",
+      "publication": "2016;35(7):913–921",
+      "type": "primary_article_abstract",
+      "access": "indexed_primary_abstract; direct PubMed challenged",
+      "read_scope": "Methods and Results",
+      "freshness": "revalidated",
+      "tool_refs": [
+        "turn151search6"
+      ]
+    },
+    {
+      "id": "H22-S07",
+      "title": "Alpha-1-antitrypsin safely promotes rapid recovery of pigs after lung transplantation",
+      "url": "https://www.amjtransplant.org/article/S1600-6135(23)00370-2/pdf",
+      "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/37004914/",
+      "doi": "10.1016/j.ajt.2023.03.021",
+      "pmid": "37004914",
+      "publication": "2023;23(7):1082–1084",
+      "type": "primary_experimental_letter",
+      "access": "publisher_PDF_text_readable; screenshots returned 403",
+      "read_scope": "Three-page letter text and figure legend; no pixel digitization",
+      "freshness": "newly_retrieved_existing_source",
+      "tool_refs": [
+        "turn177view3",
+        "turn168view0"
+      ]
+    },
+    {
+      "id": "H22-S08",
+      "title": "Preservation with alpha-1-antitrypsin improves primary graft function of murine lung transplants",
+      "url": "https://push-zb.helmholtz-munich.de/deliver.php?id=21907",
+      "doi": "10.1016/j.healun.2018.03.015",
+      "publication": "2018 accepted manuscript",
+      "type": "primary_article_accepted_manuscript",
+      "access": "official_repository_PDF",
+      "read_scope": "Methods and route-specific Results; detailed biochemical audit in parallel formulation lane",
+      "freshness": "revalidated_with_explicit_rinse_and_retained_article_distinction",
+      "tool_refs": [
+        "turn194view0",
+        "turn195view6"
+      ]
+    },
+    {
+      "id": "H22-S09",
+      "title": "Alpha-1 Antitrypsin Attenuates Acute Lung Allograft Injury in a Rat Lung Transplant Model",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6791593/",
+      "doi": "10.1097/TXD.0000000000000898",
+      "pmid": "31723592",
+      "publication": "2019;5(6):e458",
+      "type": "primary_experimental_article",
+      "access": "readable_main_text_and_indexed_primary_methods_results; later direct finds challenged",
+      "read_scope": "Abstract, Methods, Results, Figure 3 legend and limitations",
+      "freshness": "route_and_control_description_refined",
+      "tool_refs": [
+        "turn177view2",
+        "turn185search1",
+        "turn188search3"
+      ]
+    },
+    {
+      "id": "H22-S10",
+      "title": "Alpha1-Antitrypsin attenuates acute rejection of orthotopic murine lung allografts",
+      "url": "https://link.springer.com/article/10.1186/s12931-021-01890-x",
+      "doi": "10.1186/s12931-021-01890-x",
+      "publication": "2021;22:295",
+      "type": "primary_experimental_article",
+      "access": "readable_publisher_main_text",
+      "read_scope": "Administration, attrition, histology and discussion; source's updated link returned current same article",
+      "freshness": "revalidated",
+      "tool_refs": [
+        "turn177view1",
+        "turn182view2",
+        "turn182view3"
+      ]
+    },
+    {
+      "id": "H22-S11",
+      "title": "Lung transplant outcomes for recipients with alpha-1 antitrypsin deficiency, by use of alpha-1 antitrypsin augmentation therapy",
+      "url": "https://www.jhltopen.org/article/S2950-1334%2824%2900151-4/pdf",
+      "doi": "10.1016/j.jhlto.2024.100201",
+      "pmid": "40144856",
+      "publication": "2024-12-24 online; 2025 Feb;7:100201",
+      "type": "primary_observational_recipient_study",
+      "access": "publisher_PDF_text_readable; initial PMC access challenged",
+      "read_scope": "Methods, cohort flow, Table 2, Results and related text",
+      "freshness": "revalidated_with_denominator_and_bias_handling_refinement",
+      "tool_refs": [
+        "turn190view0",
+        "turn188search0"
+      ]
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "H22-L01",
+      "path": "research/rounds/round2/round2_blood_exvivo.md",
+      "scope": "Existing AAT program and 2018 survival-abstract reference; other candidate screens not reopened."
+    },
+    {
+      "id": "H22-L02",
+      "path": "research/rounds/round3/round3_organ_repair.md",
+      "scope": "Existing human/patent lineage and formulation limits."
+    },
+    {
+      "id": "H22-L03",
+      "path": "research/rounds/round5/round5_existing_leader_updates.md",
+      "scope": "Prior antigen/activity distinction and other-route support."
+    },
+    {
+      "id": "H22-L04",
+      "path": "research/rounds/round22/independent-review-input.json",
+      "scope": "Exact original rank 7 and qualification-only cost/time scope; supplied by root."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "H22-E01",
+      "source_ids": [
+        "H22-S01"
+      ],
+      "evidence_status": "revalidated",
+      "population": "declined human donor organs",
+      "biological_units": {
+        "donor_pairs": 8,
+        "independent_donors_not_lungs": true
+      },
+      "randomization_reported": true,
+      "blinding_in_abstract": null,
+      "duration_hours": 12,
+      "observation": "Qualitative oxygenation/compliance and fluid-handling benefit.",
+      "exact_product": null,
+      "nominal_dose": null,
+      "effect_estimates": null,
+      "all_lungs_complete_12h": null,
+      "transplant_outcomes": null,
+      "decision_impact": "Human-organ functional rationale retained; final-paper methods remain unresolved."
+    },
+    {
+      "id": "H22-E02",
+      "source_ids": [
+        "H22-S01",
+        "H22-S02",
+        "H22-S03"
+      ],
+      "evidence_status": "revalidated_with_lineage_inference",
+      "2020_report": {
+        "donor_pairs": 8,
+        "hours": 12,
+        "PAP_difference_mmHg": -0.4,
+        "PAP_p": 0.04,
+        "PVR_difference_dyn_s_cm_minus5": -30.4,
+        "PVR_p": 0.01
+      },
+      "lineage_inference": "Probable related thesis/conference/article series; not verified independent donor replication.",
+      "individual_donor_mapping_verified": false,
+      "pooled_independent_human_donor_total": null,
+      "decision_impact": "Preserve the existing eight-pair signal without adding counts across versions."
+    },
+    {
+      "id": "H22-E03",
+      "source_ids": [
+        "H22-S03"
+      ],
+      "evidence_status": "newly_recovered_thesis_specific_methods",
+      "locator": "Chapter 5 §5.3.1; printed pp. 127–129",
+      "article": "Zemaira",
+      "nominal_mg_per_mL": 10,
+      "Steen_prime_L": 1.5,
+      "replacement_reported": {
+        "hour1_mL": 250,
+        "subsequent_hourly_mL": 100,
+        "fresh_solution": "with/without AAT"
+      },
+      "manufacturers_reconstitution_sentence_scope": "cell-culture subsection only",
+      "whole_organ_stock_recipe_verified": false,
+      "physicochemical_matching_established": false,
+      "2026_recipe_identity_verified": false,
+      "decision_impact": "Qualification must distinguish nominal addition, replacement and active exposure."
+    },
+    {
+      "id": "H22-E04",
+      "source_ids": [
+        "H22-S03"
+      ],
+      "evidence_status": "newly_recovered_thesis_specific_analysis",
+      "locator": "Chapter 5 §5.3.1; printed pp. 128–133",
+      "physiology_observations": {
+        "reported": 184,
+        "scheduled": 192
+      },
+      "cytokine_observations": {
+        "reported": 78,
+        "scheduled": 80
+      },
+      "biological_pairs": 8,
+      "termination": "12h or organ failure",
+      "authors_analysis": "Mixed models; AR1 with compound-symmetry fallback; within-pair assignment permutation for cytokines.",
+      "missing_rows_arm_mapping": null,
+      "author_failure_missingness_sensitivity_analysis_recovered": false,
+      "analysis_rerun_here": false,
+      "decision_impact": "Correlation handling does not establish ignorable missingness; no imputed complete-case survival count."
+    },
+    {
+      "id": "H22-E05",
+      "source_ids": [
+        "H22-S03"
+      ],
+      "evidence_status": "newly_recovered_thesis_specific_effects",
+      "locator": "Table 15; printed p. 137",
+      "reported_model_estimates": [
+        {
+          "endpoint": "deltaPO2/FiO2",
+          "estimate": 68.41,
+          "lower": 18.7,
+          "upper": 118.13,
+          "p": 0.01
+        },
+        {
+          "endpoint": "static_compliance",
+          "estimate": 15.75,
+          "lower": 2.82,
+          "upper": 28.68,
+          "p": 0.02
+        },
+        {
+          "endpoint": "dynamic_compliance",
+          "estimate": 8.65,
+          "lower": 1.17,
+          "upper": 16.13,
+          "p": 0.02
+        },
+        {
+          "endpoint": "peak_airway_pressure",
+          "estimate": -1.68,
+          "lower": -4.6,
+          "upper": 1.23,
+          "p": 0.21
+        }
+      ],
+      "interval_level_explicitly_verified": false,
+      "table_units_independently_verified": false,
+      "figure_pixels_read": false,
+      "2026_effects_imputed": false,
+      "decision_impact": "Version-specific quantitative signal; do not label as final-paper effect size or transplantability margin."
+    },
+    {
+      "id": "H22-E06",
+      "source_ids": [
+        "H22-S03"
+      ],
+      "evidence_status": "newly_recovered_source_conflicts",
+      "locators": [
+        "§5.4 donor paragraph p135",
+        "§5.4.1 p136",
+        "§5.4.2 and Fig. 19 p137",
+        "Chapter 4 abstract/results/discussion pp104,113–120"
+      ],
+      "unresolved_conflicts": [
+        "Eight donors versus 2 DCD + 7 brain-death statement.",
+        "Added 10 mg/mL versus expected approximately 5 g/L antigen.",
+        "NE-AAT complex p=.043 in body versus .0043 in figure caption.",
+        "Survival abstract 22.5 min / p<.002 versus body/legend 21±9 min / p=.022."
+      ],
+      "additional_thesis_limit": "No significant 72 h functional difference and no PGD in the described survival cohort.",
+      "silently_repaired": false,
+      "final_publication_identity_assumed": false,
+      "decision_impact": "Retain contradictions as evidence limits, not fabricated corrections or universal biological failures."
+    },
+    {
+      "id": "H22-E07",
+      "source_ids": [
+        "H22-S04"
+      ],
+      "evidence_status": "revalidated",
+      "locator": "Example 13; Figures 13–32",
+      "donor_pairs_reported": 5,
+      "nominal_mg_per_mL": 10,
+      "random_assignment_reported": true,
+      "paired_design": true,
+      "overlap_with_eight_donor_study_verified": false,
+      "physical_matching_established": false,
+      "clinical_examples_completed": false,
+      "decision_impact": "Separate disclosure; no 13-donor total, no claim that a patent proposal supplies clinical efficacy."
+    },
+    {
+      "id": "H22-E08",
+      "source_ids": [
+        "H22-S05"
+      ],
+      "evidence_status": "revalidated",
+      "article": "Zemaira",
+      "route": "warm EVLP",
+      "animals_per_arm": 6,
+      "cold_storage_hours": 24,
+      "EVLP_hours": 12,
+      "nominal_mg_per_mL": 3,
+      "control": "Steen alone",
+      "reported_positive_endpoints": [
+        "oxygenation",
+        "compliance",
+        "edema"
+      ],
+      "recipient_transplant_followup_reported": false,
+      "decision_impact": "Preservation/conditioning evidence; do not infer durable recipient function."
+    },
+    {
+      "id": "H22-E09",
+      "source_ids": [
+        "H22-S08"
+      ],
+      "evidence_status": "revalidated_with_route_refinement",
+      "article": "recombinant human active AAT; separate inactive mutant",
+      "route": "cold donor-graft preservation",
+      "nominal_mg_per_mL": 1,
+      "cold_hours": 18,
+      "recipient_followup_hours": 4,
+      "controls": [
+        "albumin",
+        "inactive AAT",
+        "PR3/NE-double-deficient recipients"
+      ],
+      "plain_Perfadex_rinse_before_implant": true,
+      "retained_graft_AAT_detected": true,
+      "complete_drug_clearance_established": false,
+      "decision_impact": "Organ-directed early post-rinse functional support; residual action may be useful, but warm-product and longer-term bridge remain."
+    },
+    {
+      "id": "H22-E10",
+      "source_ids": [
+        "H22-S06"
+      ],
+      "evidence_status": "revalidated",
+      "route": "recipient_IV_before_reperfusion",
+      "nominal_mg_per_kg": 240,
+      "animals_per_arm": 5,
+      "control": "human albumin",
+      "randomized": true,
+      "blinded": true,
+      "followup_hours": 4,
+      "observation": "Better early allograft gas exchange and compliance; lower edema/permeability.",
+      "EVLP_only_effect": false,
+      "decision_impact": "Keep supportive transplant function attached to the recipient route."
+    },
+    {
+      "id": "H22-E11",
+      "source_ids": [
+        "H22-S07"
+      ],
+      "evidence_status": "newly_retrieved_published_letter",
+      "locator": "p. 1082 methods/results; Figure A legend",
+      "article": "Zemaira",
+      "route": "repeated_recipient_IV",
+      "nominal_mg_per_kg": 500,
+      "study_days": 3,
+      "animals_per_arm": 6,
+      "control": "equal_volume_saline",
+      "randomized": true,
+      "blinded": true,
+      "published_oxygen_independence": {
+        "threshold": "SpO2>85% on room air after extubation",
+        "AAT_minutes": 21,
+        "AAT_reported_plus_minus": 9,
+        "control_minutes": 125,
+        "control_reported_plus_minus": 25,
+        "p": 0.022,
+        "dispersion_type_not_explicit_in_letter": true
+      },
+      "all_animals_normal_activity_appetite": "after initial 12 h through 3 days",
+      "survival_superiority_established": false,
+      "human_safety_margin_established": false,
+      "EVLP_only_effect": false,
+      "decision_impact": "Useful early recovery signal; survival-model label does not establish a mortality effect."
+    },
+    {
+      "id": "H22-E12",
+      "source_ids": [
+        "H22-S03",
+        "H22-S07"
+      ],
+      "evidence_status": "version_and_lineage_reconciliation",
+      "2018_abstract_DOI": "10.1016/j.healun.2018.01.184",
+      "2018_full_abstract_recovered": false,
+      "thesis_2023_overlap": "Probable shared survival-study lineage; exact cohort identity not authenticated.",
+      "published_estimate_authority": "2023 letter for its published recovery estimate",
+      "additional_independent_survival_cohorts_counted": 0,
+      "decision_impact": "Do not double-count publications or transfer every thesis limitation into an unreconciled final article."
+    },
+    {
+      "id": "H22-E13",
+      "source_ids": [
+        "H22-S09"
+      ],
+      "evidence_status": "route_and_control_refinement",
+      "locator": "Methods; Figure 3; Discussion",
+      "article": "ProlastinC",
+      "route": "donorpriming_plus_repeated_recipient_IP",
+      "analyzed_animals": {
+        "AAT": 5,
+        "control": 6
+      },
+      "endpoint_day": 8,
+      "primary_scope": "histologic injury/necrosis; no isolated donor contribution",
+      "contrary_evidence": "Moderate-to-severe acute rejection persisted; graft gas transfer not established.",
+      "source_conflict": "Abstract names albumin control; detailed methods name Perfadex/saline.",
+      "control_reconciled": false,
+      "decision_impact": "Independent tissue-protection biology without exact warm-EVLP or rejection-prevention equivalence."
+    },
+    {
+      "id": "H22-E14",
+      "source_ids": [
+        "H22-S10"
+      ],
+      "evidence_status": "revalidated",
+      "article": "buffer-exchanged Respreeza/Prolastin",
+      "route": "recipient_subcutaneous_then_intraperitoneal",
+      "analyzed_animals": {
+        "AAT": 10,
+        "control": 5
+      },
+      "sex": "male",
+      "endpoint_day": 3,
+      "intraoperative_exclusion_fraction_approx": 0.4,
+      "initial_arm_denominators": null,
+      "histology_blinded": true,
+      "reported_positive": "rejection histology",
+      "useful_graft_function_or_survival_established": false,
+      "decision_impact": "Retain biological support and exclude attrition from any fabricated all-enrolled success rate."
+    },
+    {
+      "id": "H22-E15",
+      "source_ids": [
+        "H22-S11"
+      ],
+      "evidence_status": "denominator_and_analysis_refinement",
+      "locator": "Study population;Post-LT long-term outcomes; Figure 1; Table 2",
+      "population": "AAT-deficient lung recipients; systemic augmentation",
+      "cohort": {
+        "AATD_recipients": 612,
+        "pharmacy_data": 475,
+        "eligible_followup": 447,
+        "pre_users": 109,
+        "continuers": 32,
+        "new_post_users": 13,
+        "main_post_users": 45,
+        "main_discontinuers": 77
+      },
+      "early_death_exclusion": "transplant hospitalization or within 3 months of discharge",
+      "delayed_entry": "3 months post-LT; users enter at the later of first fill or 3 months",
+      "unadjusted_logrank_p": {
+        "mortality": 0.13,
+        "all_cause_graft_failure": 0.44
+      },
+      "age_adjusted_estimated_difference_years": {
+        "mortality": 1.69,
+        "all_cause_graft_failure": 1.48
+      },
+      "causal_randomized_effect": false,
+      "EVLP_result": false,
+      "decision_impact": "Association in selected recipients; authors addressed survivor bias, while confounding/exposure capture remain."
+    },
+    {
+      "id": "H22-E16",
+      "source_ids": [
+        "H22-S01",
+        "H22-S03",
+        "H22-S07",
+        "H22-S08",
+        "H22-S11"
+      ],
+      "local_input_ids": [
+        "H22-L04"
+      ],
+      "evidence_status": "decision_synthesis",
+      "observation": "The original priced action is initial qualification; later usable-graft proof and retained economic contribution are separate costs and uncertainties.",
+      "universal_complete_washout_gate": false,
+      "universal_permanent_repair_gate": false,
+      "decision_impact": "Retain conditional rank 7 qualification option; no automatic organ-study spend, no new numerical allocation."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "H22-C01",
+      "claim": "Human AAT EVLP has independently replicated donor cohorts across all reports",
+      "verdict": "not_established",
+      "support": [
+        "H22-E01",
+        "H22-E02",
+        "H22-E07"
+      ]
+    },
+    {
+      "id": "H22-C02",
+      "claim": "The 2026 article's exact methods are now fully verified",
+      "verdict": "not_established; thesis details remain_version_specific",
+      "support": [
+        "H22-E01",
+        "H22-E03",
+        "H22-E04",
+        "H22-E05",
+        "H22-E06"
+      ]
+    },
+    {
+      "id": "H22-C03",
+      "claim": "AAT has a relevant exvivo human functional signal",
+      "verdict": "supported_with_formulation_lineage_and_endpoint_limits",
+      "support": [
+        "H22-E01",
+        "H22-E02",
+        "H22-E05"
+      ]
+    },
+    {
+      "id": "H22-C04",
+      "claim": "A specified warm-EVLP-only product has established durable recipient benefit",
+      "verdict": "not_established; early_cold_organ_directed_post_rinse_evidence_retained",
+      "support": [
+        "H22-E08",
+        "H22-E09",
+        "H22-E10",
+        "H22-E11",
+        "H22-E13"
+      ]
+    },
+    {
+      "id": "H22-C05",
+      "claim": "The pig survival-model label proves improved survival",
+      "verdict": "not_established",
+      "support": [
+        "H22-E11",
+        "H22-E12"
+      ]
+    },
+    {
+      "id": "H22-C06",
+      "claim": "The 2025 recipient study is donor-EVLP efficacy evidence",
+      "verdict": "different_population_route_and_observationaldesign",
+      "support": [
+        "H22-E15"
+      ]
+    },
+    {
+      "id": "H22-C07",
+      "claim": "All benefits have been shown to be only physical-formulation effects",
+      "verdict": "not_established; specific_causal_controls_and_unresolved_warm_confounding_coexist",
+      "support": [
+        "H22-E03",
+        "H22-E07",
+        "H22-E09"
+      ]
+    },
+    {
+      "id": "H22-C08",
+      "claim": "Qualification itself has lost the original rank because it is not a human-organ study",
+      "verdict": "rejected; initial_qualification_was_original_priced_tranche",
+      "support": [
+        "H22-E16"
+      ]
+    }
+  ],
+  "decision": {
+    "disposition": "Retain conditional initial formulation/potency/process qualification option and close this bounded public-source lane.",
+    "conditional_development_rank_inherited": 7,
+    "original_tranche_usd": [
+      30000,
+      100000
+    ],
+    "original_tranche_months": [
+      2,
+      4
+    ],
+    "original_tranche_scope": "Initial formulation/potency/process qualification only; scarce organs and transplant validation excluded.",
+    "rank_recomputed_from_numerical_EV": false,
+    "quote_or_budget_feasibility_established": false,
+    "new_independent_human_EVLP_replications": 0,
+    "new_exact_warm_product_transplanted_human_result_recovered": false,
+    "physical_material_or_model_qualified": false,
+    "existing_program_only": true,
+    "broader_opportunity_screening_performed": false,
+    "new_candidate_count": 0,
+    "new_S_tier_promotions": 0,
+    "spending_authorized": false,
+    "external_commitment_usd": 0,
+    "numerical_financial_EV": null,
+    "execution_now": false
+  },
+  "retrieval": {
+    "pass_closed": true,
+    "search_engines": [
+      "system1",
+      "system2"
+    ],
+    "named_searches": [
+      "Exact 2026 human PMID/DOI/title",
+      "Exact 2020 human conference DOI/title",
+      "Exact 2018 survival abstract DOI/title",
+      "Author-thesis title and official university/national catalog routes",
+      "Exact 2023 survival letter title/DOI",
+      "Known 2019 rat, 2021 mouse, and 2025 recipient primary reports"
+    ],
+    "not_performed": [
+      "broader candidate or indication screening",
+      "requesting papers from authors",
+      "new data analysis or model runs",
+      "figure efficacy digitization",
+      "organ or material access requests"
+    ],
+    "access_limits": [
+      "Full 2026 human article/supplements unavailable through inspected PubMed, DOI, ScienceDirect and publisher PDF/fulltext routes.",
+      "Thesis native PDF/figure pixels and official university copy not recovered; primary authored text read on Academia.",
+      "2023 publisher PDF text read; subsequent screenshots returned 403; published dispersion type not explicitly specified in the inspected letter.",
+      "Initial PMC 2025 and later 2019 PMC finds challenged; accessible publisher PDF/indexed primary content used.",
+      "2018 survival abstract fulltext not recovered; later letter/thesis not declared identical cohort."
+    ],
+    "blocked_access_bypassed": false,
+    "data_absence_inferred_from_access_failure": false,
+    "reopen_only_for": [
+      "A substantive exact-product human-organ or postprocessing transplant dataset likely to change the decision",
+      "Missing methods, figure, provenance or correction relevant to a named uncertainty",
+      "A concrete qualification, access, cost or retained value fact changing the next commitment"
+    ],
+    "prior_closed_passes_reopened": false,
+    "monitoring_automation_created": false
+  },
+  "counts": {
+    "source_records": 11,
+    "local_input_records": 4,
+    "evidence_rows": 16,
+    "claim_decisions": 8,
+    "new_candidate_screens": 0,
+    "experiments_performed": 0,
+    "models_or_simulations_run": 0
+  }
+}

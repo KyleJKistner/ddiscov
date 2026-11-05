@@ -1,0 +1,228 @@
+{
+  "schema_version": "ddiscov.round22.independent_marginal_decision_review.v1",
+  "round": 22,
+  "candidate_id": "AAT_EVLP",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "review_completed_utc_date": "2026-11-05",
+  "reviewer": "aat_human_function",
+  "review_scope": "Independent review of the three root-authored decision files against the exact original authored ranking input, this reviewer's primary human/function sources, and the parallel formulation and product/capture Markdown audits. The review challenges scope, source-version and unit attribution, meaningful graft benefit, remaining costs and retained value. It does not independently rerun every formulation, patent, platform-label or benchmark audit and does not establish a legal opinion or executable development package.",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "corrections_required": false,
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round22/marginal-dollar-decision.md",
+      "bytes": 15681,
+      "sha256": "0c4e7376cab352cb5970dbbf3d3a01a3d309234393225e6f3b99954afb83f095"
+    },
+    {
+      "path": "research/rounds/round22/marginal-dollar-decision.json",
+      "bytes": 13910,
+      "sha256": "2de547631d02c57f22146077abc658ddf96e12bb0fc44e2791f00fc72935dee5"
+    },
+    {
+      "path": "research/rounds/round22/independent-review-input.json",
+      "bytes": 7189,
+      "sha256": "9c45fbae0d8ea10f267d18c80c3a0d0d4e3a7c972e63e0efb72c7e4654d3f160"
+    }
+  ],
+  "original_input_verification": {
+    "source_path": "/workspace/scratch/cde848be1ee7/report_content.json",
+    "source_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "selected_block_checks": [
+      {"index": 2, "exact_match": true},
+      {"index": 9, "exact_match": true},
+      {"index": 10, "exact_match": true},
+      {"index": 11, "exact_match": true},
+      {"index": 12, "exact_match": true},
+      {"index": 15, "exact_match": true},
+      {"index": 47, "exact_match": true},
+      {"index": 48, "exact_match": true},
+      {"index": 49, "exact_match": true},
+      {"index": 76, "exact_match": true}
+    ],
+    "all_10_selected_blocks_exact": true,
+    "original_rank_row_exact": true,
+    "original_rank_row_location": {"block": 4, "row": 7},
+    "original_cost_row_exact": true,
+    "original_cost_row_location": {"block": 14, "row": 7},
+    "qualification_is_original_priced_scope": true
+  },
+  "supporting_lane_inputs": [
+    {
+      "path": "research/rounds/round22/aat-human-function.md",
+      "scope": "This reviewer's primary-source lane; used to challenge the root decision, not presented as an independent review of the reviewer's own report. Structured evidence H22-E01 through H22-E16 was also checked."
+    },
+    {
+      "path": "research/rounds/round22/aat-formulation-exposure.md",
+      "scope": "Read for consistency of product identity, activity versus antigen, replenishment, physical comparator, early post-rinse evidence and claim-proportionate gates."
+    },
+    {
+      "path": "research/rounds/round22/aat-product-capture.md",
+      "scope": "Read for consistency of original qualification scope, inherited foreign grants, unresolved US status, biological-product versus perfusion-platform and trial scopes, and retained contribution. No independent FTO conclusion."
+    }
+  ],
+  "checks": [
+    {
+      "id": "MR22-01",
+      "status": "pass",
+      "finding": "All ten selected original blocks and both ranking/cost rows match the recovered authored report input exactly. The original file SHA256 and pinned repository commit match the recorded provenance."
+    },
+    {
+      "id": "MR22-02",
+      "status": "pass",
+      "finding": "Inherited conditional development rank seven is distinct from this user-selected source sprint. The six earlier source closures, existing order and absence of broader new-opportunity screening remain explicit; no fresh all-portfolio valuation or historical-allocation EV proxy is asserted."
+    },
+    {
+      "id": "MR22-03",
+      "status": "pass",
+      "finding": "The original US$30–100k / two-to-four-month envelope explicitly prices initial formulation/potency/process qualification. Scarce organs and transplant validation are excluded, alongside original general development exclusions. The P2 human-function scope and qualification-only objection are not imported into AAT."
+    },
+    {
+      "id": "MR22-04",
+      "status": "pass",
+      "finding": "Qualification can be considered before later clinical success or a complete license is secured, but the actual deliverable, information yield, cost and continuation still matter. A quote, feasible access package, full program budget, automatic organ-study release or spending commitment is not inferred."
+    },
+    {
+      "id": "MR22-05",
+      "status": "pass",
+      "finding": "The financial comparison concerns a better continuation decision after learning, net of remaining costs and sharing. Patient benefit is separated from privately retained contribution. No numerical success probability, NPV, whole-program-upside/desktop-cost ratio or replacement allocation is invented; waiting and stopping remain available."
+    },
+    {
+      "id": "MR22-06",
+      "status": "pass",
+      "finding": "Eight paired human donors are not sixteen independent donors. Thesis, 2020 abstract and 2026 article are treated as probably related reports rather than independent replication. The patent's five donors are not added to the eight without participant provenance."
+    },
+    {
+      "id": "MR22-07",
+      "status": "pass",
+      "finding": "The thesis-specific nominal exposure and replenishment are retained without assigning the exact recipe, numerical effects or complete methods to the inaccessible full 2026 article. A replenished circuit is not labeled a single-pulse regimen. The primary authored thesis is identified as a publicly hosted copy with version limits."
+    },
+    {
+      "id": "MR22-08",
+      "status": "pass",
+      "finding": "The final decision records a stated 12-hour-or-organ-failure stopping rule and 184/192 physiology plus 78/80 cytokine observations. It explicitly leaves individual failed-lung counts and the reasons for each missing observation unrecovered. Repeated-observation counts are neither independent donors nor a verified complete 12-hour cohort."
+    },
+    {
+      "id": "MR22-09",
+      "status": "pass",
+      "finding": "Cold recombinant-AAT preservation supplies genuine early organ-directed post-rinse evidence. The rinse is not equated with complete tissue clearance, warm plasma-derived product equivalence or permanent repair. Useful finite processing with retained tissue protection remains eligible for value; mutant and double-knockout controls do not impose universal dual-protease uniqueness."
+    },
+    {
+      "id": "MR22-10",
+      "status": "pass",
+      "finding": "The 2023 six-per-arm randomized blinded pig result remains repeated systemic-recipient treatment with an early oxygen-recovery outcome. Survival-model terminology is not a demonstrated mortality effect, and systemic dosing is not an EVLP-only result. Published letter and thesis estimates remain version-specific."
+    },
+    {
+      "id": "MR22-11",
+      "status": "pass",
+      "finding": "The 2025 AAT-deficient-recipient study preserves 447 eligible recipients, 32 continuers, 13 new users and the 45-versus-77 analytic comparison. Survivor-selection handling and adjusted observational associations are retained, without pooling with donor EVLP data or claiming randomized causality."
+    },
+    {
+      "id": "MR22-12",
+      "status": "pass",
+      "finding": "Nominal added amount, antigen ELISA and functional inhibitory capacity remain distinct. The nominal 3 mg/mL versus approximately 0.5 mg/mL antigen discrepancy is not converted into a measured loss or inactive fraction. Physical formulation and replacement are plausible competing explanations, not established causes or proof of efficacy failure."
+    },
+    {
+      "id": "MR22-13",
+      "status": "pass",
+      "finding": "An optimized practical comparator and actual useful outcome govern the incremental-value question. The decision does not require unique dual-NE/PR3 biology, complete drug-free tissue or permanent repair universally; nor does it confuse statistical nonsignificance with equivalence or incumbent physical perfusate with a new owned asset."
+    },
+    {
+      "id": "MR22-14",
+      "status": "pass",
+      "finding": "AU/KR grant existence is correctly identified as inherited, with this round adding claim/version inspection. The US application, foreign granted claims and unresolved current US status remain separate. No design-around, current global FTO, title, enforceability or license-price conclusion is asserted."
+    },
+    {
+      "id": "MR22-15",
+      "status": "pass",
+      "finding": "Approved IV biological-product manufacture, perfusion-platform labeling, permission for a Canadian trial and an intended AAT organ product remain different scopes. The not-yet-recruiting display is not an outcome dataset or exact EVLP-only protocol. Scientific information, supply, data/reference rights and a retained commercial share are not treated as interchangeable."
+    },
+    {
+      "id": "MR22-16",
+      "status": "pass",
+      "finding": "The regadenoson benchmark already appears in the inherited AAT repository context. Its methodological use does not become a new candidate screen, an AAT efficacy test or a strong universal null. This reviewer verified inherited relevance and the root's limited interpretation, not a new independent reanalysis of the comparator trial."
+    },
+    {
+      "id": "MR22-17",
+      "status": "pass",
+      "finding": "Six information updates, five unexecuted routes and seven unexecuted branches are present. All six prohibited activities, scientific/financial model execution, broader screening and monitoring creation remain false. The described branches are decision conditions, not an experimental protocol or work order."
+    },
+    {
+      "id": "MR22-18",
+      "status": "pass",
+      "finding": "After the requested missingness clarification was incorporated by the author, the final three files were reread, strict JSON parsed and their byte lengths/SHA256 values bound in this review. Deterministic provenance validation did not execute any scientific or financial model."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "MR22-R01",
+      "issue": "The original phrase about stopping before twelve hours when lungs failed could be read as establishing individual failure outcomes or the reason for every missing observation.",
+      "resolution": "The author changed it to a stated twelve-hour-or-organ-failure stopping rule and explicitly said that individual failed-lung counts and reasons for missing observations were not recovered. The final Markdown was reread and hashed after this correction.",
+      "reviewer_edited_root_files": false
+    }
+  ],
+  "requested_revisions": [],
+  "open_issues": [
+    {
+      "id": "MR22-O01",
+      "blocking": false,
+      "issue": "Full 2026 human methods, final-paper correspondence with the thesis, participant-level report provenance and missing-outcome detail remain unresolved.",
+      "why_nonblocking": "The decision preserves version-specific evidence and donor pairing without manufacturing independent replication, complete follow-up or a transplantability result.",
+      "reopen_trigger": "A named primary methods, provenance, correction or donor-level artifact likely to alter the continuation decision."
+    },
+    {
+      "id": "MR22-O02",
+      "blocking": false,
+      "issue": "Active exposure and practical compatibility of the intended warm product, and a meaningful downstream graft or recipient advantage attributable to that process, remain unestablished.",
+      "why_nonblocking": "Those uncertainties define the conditional original qualification and separately priced later stages. The decision neither declares efficacy nor requires a final positive result before considering an informative qualification.",
+      "reopen_trigger": "A substantive intended-product activity/process or recipient-relevant dataset."
+    },
+    {
+      "id": "MR22-O03",
+      "blocking": false,
+      "issue": "Actual qualification cost, access, supply, rights terms, regulatory integration and retained economics are not established; the original range remains an analyst planning envelope.",
+      "why_nonblocking": "No purchase, license, execution or expanded development budget is authorized. The retained contribution and wait/stop options remain explicit.",
+      "reopen_trigger": "A concrete scoped-cost, access, supply, title, rights or usable contribution fact needed for a real commitment."
+    },
+    {
+      "id": "MR22-O04",
+      "blocking": false,
+      "issue": "Thesis numerical inconsistencies, some inaccessible figure/method artifacts and the observational or route-specific limits of recipient studies persist.",
+      "why_nonblocking": "The source lanes and decision preserve these limits and do not silently repair them, infer complete data absence, or convert related-route results into exact warm-EVLP efficacy.",
+      "reopen_trigger": "A source correction or readable artifact resolving a named decision-changing uncertainty."
+    }
+  ],
+  "blocking_flags": {
+    "original_input_mismatch": false,
+    "development_rank_or_scope_misrepresented": false,
+    "P2_qualification_objection_imported": false,
+    "human_version_or_unit_conflation": false,
+    "missingness_or_complete_followup_invented": false,
+    "systemic_recipient_result_labeled_EVLP_only": false,
+    "rinse_labeled_complete_drug_clearance": false,
+    "permanent_repair_or_dual_protease_uniqueness_universal_gate": false,
+    "patent_or_regulatory_scope_overstated": false,
+    "whole_program_upside_divided_by_desktop_cost": false,
+    "new_protocol_or_restricted_activity": false,
+    "broader_opportunity_screening_performed": false,
+    "earlier_source_pass_reopened": false,
+    "unresolved_blocking_issue": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "reviewed_files_edited_by_reviewer": false,
+  "repository_mutations_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

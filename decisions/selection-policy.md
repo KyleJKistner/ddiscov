@@ -2,6 +2,16 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 22: AAT qualification, useful graft outcomes and retained value
+
+The [AAT decision](../research/rounds/round22/marginal-dollar-decision.md) retains conditional rank7 under its original qualification-only scope. US$30–100k/two-to-four-months is an analyst envelope for initial formulation/potency/process work, excluding scarce organs and transplant validation. Do not import a different candidate's human-function milestone or require a final graft positive before considering informative qualification. Recompare actual scope, access, information yield and remaining costs; qualification success does not automatically release later funding.
+
+Preserve human donor pairs, repeated-observation counts, missingness and source-version lineage. The recovered2019thesis cannot silently supply full2026methods; likely duplicate reports and patent pilots do not add donors without provenance. Nominal protein, antigen and active inhibition are distinct. Cold recombinant preservation, warm plasma-derived perfusion and systemic recipient treatment support separate claims. Storage-solution rinse does not prove drug-free tissue; survival-model recovery does not prove survival superiority.
+
+A clinically useful finite-processing intervention may work through retained local protein or physical formulation. Unique dualNE/PR3 mechanism, complete drug-free tissue and permanent repair are not universal value gates. Mechanistic or durable-repair claims require their own evidence. Compare total practical benefit, cost, handling, exposure and safety against feasible alternatives; nonsignificance does not establish equivalence. A differentiated formulation/process or contracted contribution must support retained economics beyond incumbents.
+
+Read original applications, territorial granted claims, current legal status, available rights, IV biological-product approval and platform labeling separately. Public trial metadata and future plans are not outcome evidence. The bounded review does not establish an automatic regulatory pathway, FTO, license, quote or ready clinical product. All six activity restrictions and all earlier search closures remain intact; no broader screen or monitoring task was created.
+
 ## Round 21: exact article, useful function and a priced information scope
 
 The [P2 decision](../research/rounds/round21/marginal-dollar-decision.md) retains conditional rank 6 for the original informative exact-article human-function question. A pure stereoisomer, mixture and related compound cannot exchange efficacy or exposure. Preserve animal/allele/investigator lineage, therapeutic sex, actual regimen, within-animal measurement selection and source-unit conflicts. WT nonsignificance is not equivalence; an acute mechanistic dose or binding panel is not a chronic human functional window.

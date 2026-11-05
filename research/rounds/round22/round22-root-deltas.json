@@ -1,0 +1,184 @@
+{
+  "schema_version": "ddiscov.round22.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_publication_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "completed_information_updates": 6,
+    "opportunity_routes": 5,
+    "decision_branches": 7,
+    "independent_review_documents_total": 3,
+    "reviewed_authored_files": 9,
+    "formulation_source_records": 8,
+    "formulation_evidence_rows": 14,
+    "formulation_claim_decisions": 8,
+    "human_source_records": 11,
+    "human_evidence_rows": 16,
+    "human_claim_decisions": 8,
+    "capture_source_records": 11,
+    "capture_evidence_rows": 16,
+    "capture_claim_decisions": 9
+  },
+  "scope": "One existing AAT/donor-lung-preservation program only: human function/provenance, formulation/exposure, product/capture and marginal-dollar integration. Broader new-opportunity screening excluded.",
+  "selection": {
+    "objective": "Expected discounted financial value retained by ddiscov after remaining development, commercial and rights costs, sharing and financing.",
+    "selected_uncertainty": "Whether a bounded AAT formulation/potency/process qualification can enable an informative usable-graft decision and a commercially retained contribution.",
+    "basis": "User-selected bounded existing-program review after six closed source passes. Inherited conditional rank7; no broader new-opportunity screening or fresh full-portfolio valuation.",
+    "selected_public_source_sprint_rank": 1,
+    "user_selected_existing_program": true,
+    "independent_review_conditional_development_rank": 7,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "broader_new_opportunity_screening": false,
+    "numerical_success_probabilities": false,
+    "estimated_return_per_dollar": null,
+    "ordinal_rank_conditional_on_original_informative_scope": true,
+    "qualification_is_original_priced_scope": true,
+    "zero_or_wait_option_included": true
+  },
+  "independent_review_input": {
+    "input_file": "research/rounds/round22/independent-review-input.json",
+    "ordinal_conditional_development_rank": 7,
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "original_cost_row": [
+      "AAT",
+      "US$30–100k",
+      "2–4 months",
+      "Initial formulation/potency/process qualification only; scarce organs and transplant validation excluded."
+    ],
+    "selected_original_blocks": 10,
+    "qualification_is_original_priced_scope": true,
+    "scarce_organs_and_transplant_validation_excluded": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "AAT_EVLP",
+      "new_candidate": false,
+      "source_scopes": [
+        "research/rounds/round22/aat-formulation-exposure.json",
+        "research/rounds/round22/aat-human-function.json",
+        "research/rounds/round22/aat-product-capture.json",
+        "research/rounds/round22/marginal-dollar-decision.json"
+      ],
+      "decision_scope": "research/rounds/round22/marginal-dollar-decision.json",
+      "delta": [
+        {
+          "id": "MD22-U01",
+          "topic": "Original AAT tranche",
+          "finding": "Exact recovered rank7 cost row prices initial formulation/potency/process qualification only at US$30–100k/two-to-four months; scarce organs and transplant validation are excluded.",
+          "impact": "Preserve qualification as the original priced action. Do not transfer the P2 human-function budget or impose a completed graft result before informative feasibility."
+        },
+        {
+          "id": "MD22-U02",
+          "topic": "Human study version, unit and missingness",
+          "finding": "A primary2019 author thesis provides eight-pair methods, replenished nominal exposure and incomplete repeated observations;2020/2026 lineage likely overlaps. Full2026 methods remain unverified; patent five-donor provenance is not additive.",
+          "impact": "Narrow feasibility uncertainty without creating independent replication, complete12h denominators or proven transplantability."
+        },
+        {
+          "id": "MD22-U03",
+          "topic": "Processing versus recipient evidence",
+          "finding": "2018 cold recombinant-AAT preservation includes a storage-solution rinse with retained graft AAT at4h. Published2023 pig systemic-recipient treatment improves early oxygen recovery;2025 AATD augmentation remains observational with distinct enrollment/comparison sets.",
+          "impact": "Retain early functional support without relabeling it as warm-EVLP-only durable recipient benefit or survival superiority."
+        },
+        {
+          "id": "MD22-U04",
+          "topic": "Exposure and competing physical explanation",
+          "finding": "Nominal added AAT, human-antigen ELISA and functional inhibitory activity differ; pig3mg/mL versus0.5mg/mL antigen remains unexplained. Perfusate replacement, protein/excipients/electrolytes and IV handling limits constrain interpretation.",
+          "impact": "An activity/process qualification is informative. Do not invent a loss fraction, inactive fraction, warm stability specification or clinical safety margin."
+        },
+        {
+          "id": "MD22-U05",
+          "topic": "Product, granted claims and clinical stage",
+          "finding": "AU/KR grant existence was already recorded; this review inspects original granted versions and limitations. US status remains unresolved, Canadian UHN trial remains displayed notyetrecruiting, and approved-IV biological product/platform labeling do not establish an EVLP product route.",
+          "impact": "Price a specific retained contribution rather than assume generic availability, licensed rights, FTO, clinical results or an automatic regulatory pathway."
+        },
+        {
+          "id": "MD22-U06",
+          "topic": "Claim-proportionate value",
+          "finding": "Useful finite-processing protection may involve retained tissue AAT or physical formulation. Dualprotease mechanistic uniqueness, complete drug-free tissue and permanent repair are not universal requirements for a valuable graft outcome.",
+          "impact": "Compare actual clinically useful and practical advantage plus remaining costs and retained economics. Mechanistic claims and stronger repair/durability claims require their own evidence."
+        }
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round22/aat-formulation-exposure.json",
+    "research/rounds/round22/aat-human-function.json",
+    "research/rounds/round22/aat-product-capture.json",
+    "research/rounds/round22/marginal-dollar-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null,
+    "conditional_development_order_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round22/independent-product-capture-review.json",
+    "research/rounds/round22/independent-formulation-human-review.json",
+    "research/rounds/round22/independent-marginal-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round22/integration-review.md",
+  "local_verification": "research/rounds/round22/local-verification.json",
+  "artifact_manifest": "research/rounds/round22/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "broader_new_opportunity_screening": false,
+    "prior_six_source_closures_preserved": true,
+    "spending_authorized": false,
+    "monitoring_created": false,
+    "new_experiments": false,
+    "scientific_or_financial_models_run": false,
+    "stop_reason": "Named primary evidence, source-version, activity/formulation and product/capture questions reviewed to stated access ceilings; no additional broad search justified.",
+    "reopen_for": [
+      "Full2026human methods or missing donor-level data likely to change interpretation.",
+      "Substantive intended-route graft/recipient outcome.",
+      "Exact-article activity or process-compatibility fact that changes qualification.",
+      "Concrete current access/supply/rights/scoped-cost fact likely to change commitment."
+    ],
+    "insufficient_to_reopen": [
+      "Repeated abstract or dataset.",
+      "Generic AAT mention.",
+      "Future clinical plan without results.",
+      "Price-free service description."
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Public-document research, deterministic content/provenance checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "Primaryauthor thesis narrows human methods; full2026methodidentity and donor-levelrawdata remainunverified.",
+    "Likelyrelatedreports and repeatedobservations do notaddindependentdonors; patentpilotcannotbeaddedwithoutprovenance.",
+    "Cold recombinant, warm plasma-derived andsystemicrecipient evidence supportdifferentclaims.",
+    "Nominalprotein andantigen do notsupplyfunctionalwarmactivity ormassbalance.",
+    "CurrentUSstatus,title,license,FTO,platformintegration andretainedcommercialeconomics remainunresolved.",
+    "Qualification isoriginalpricedtranche, notcompleteorgan/transplantprogram orquote.",
+    "No broader screening, newexperimentalresults, allocation or executionauthorization."
+  ]
+}

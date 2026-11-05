@@ -1,0 +1,338 @@
+{
+  "schema_version": "ddiscov.round22.independent_product_capture_review.v1",
+  "round": 22,
+  "candidate_id": "AAT_EVLP",
+  "candidate": "AAT / donor-lung preservation and perfusion",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "independent_formulation_exposure_agent",
+  "author_of_reviewed_artifacts": "product_capture_agent",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "intended_repo_path": "research/rounds/round22/independent-product-capture-review.json",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round22/aat-product-capture.md",
+      "bytes": 13153,
+      "sha256": "c9697e13071cd1d4e9a1727d15cac5cf68737de487c909778e5c8578c8776f98",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round22/aat-product-capture.json",
+      "bytes": 33129,
+      "sha256": "ba203fbfe20576dabf7db38c5113033fbb63a2180f9db02b9d3496d6c6ae0f71",
+      "read_in_full": true
+    }
+  ],
+  "review_scope": {
+    "full_pair_read": true,
+    "exact_licensed_product_and_EVLP_boundary": true,
+    "original_and_granted_claim_versions": true,
+    "historical_AU_KR_grant_provenance": true,
+    "trial_metadata_route_and_results_boundary": true,
+    "current_platform_record_specificity": true,
+    "original_rank_cost_scope_and_capture": true,
+    "negative_retrieval_and_access_limits": true,
+    "restriction_flags_and_internal_references": true,
+    "complete_global_FTO_or_title_opinion": false,
+    "independent_legal_translation": false,
+    "all_patent_claims_independently_charted": false,
+    "all_platform_supplements_read": false,
+    "new_numerical_valuation": false,
+    "reviewed_artifacts_edited_by_reviewer": false
+  },
+  "checks": [
+    {
+      "id": "PCR22-C01",
+      "status": "pass",
+      "subject": "Licensed starting article",
+      "finding": "The official Purple Book independently confirms Zemaira, BLA 125078, 351(a), intravenous 1 g/4 g/5 g single-dose presentations and original approval on 8 July 2003. The pair does not convert this biologic precedent into a generic-drug asset, an automatically available 505(b)(2) pathway, sponsor data-reliance permission or an approved EVLP product."
+    },
+    {
+      "id": "PCR22-C02",
+      "status": "pass",
+      "subject": "Label versus warm process",
+      "finding": "The independently read January 2024 prescribing information supplies the labeled IV use and three-hour post-reconstitution administration direction. The pair treats warm EVLP compatibility and functional potency as unqualified without claiming the label proves immediate inactivation or harm in the research mixture."
+    },
+    {
+      "id": "PCR22-C03",
+      "status": "pass",
+      "subject": "US publication and current-status ceiling",
+      "finding": "The identified US A1 publication is kept separate from a granted US right. The pair records 70 numbered positions with cancellations and broad application claims without presenting them as enforceable granted scope. Pending and conflicting abandonment hints remain unresolved because readable current official prosecution/title records were not recovered. No freedom-to-operate inference is made."
+    },
+    {
+      "id": "PCR22-C04",
+      "status": "pass",
+      "subject": "AU original claim version",
+      "finding": "The original AU B2 front and screenshots of PDF pages 49 and 53 independently confirm the accepted-journal date of 4 January 2024, claims 1 and 2 for human-lung normothermic perfusion for 6–12 hours with 8–12 mg/mL AAT, claim 2 adding transplantation, and a final claim 22. The pair does not substitute the broad US application or the erroneous HTML claim-count header for this version."
+    },
+    {
+      "id": "PCR22-C05",
+      "status": "pass",
+      "subject": "KR original count and translation limit",
+      "finding": "The KR original front independently confirms registration on 16 June 2022, publication on 22 June 2022 and 58 total claims. The original claim page and explicitly machine-translated rendering support the ventilated normothermic lung-perfusion description. Numbered positions with deletions are not represented as 70 surviving claims. No independent legal translation or current maintenance opinion is asserted."
+    },
+    {
+      "id": "PCR22-C06",
+      "status": "pass",
+      "subject": "Inherited foreign-grant existence",
+      "finding": "Round2 AAT text was independently checked and already lists related AU/KR grants. The reviewed pair correctly labels Round22 as newly inspecting claim versions/counting detail rather than newly discovering grant existence or erasing prior provenance."
+    },
+    {
+      "id": "PCR22-C07",
+      "status": "pass",
+      "subject": "Trial metadata is not ex-vivo efficacy",
+      "finding": "The official Canadian portal independently matches UHN protocol 23-5745/control 294199, Zemaira, a displayed Not yet recruiting status, 18 July 2026 update, 27 February 2025 trial authorization/no-objection date, Other phase and no registry match. The pair does not infer EVLP-only administration, completed enrollment, outcomes or marketing approval from this summary."
+    },
+    {
+      "id": "PCR22-C08",
+      "status": "pass",
+      "subject": "Proposed patent clinical use",
+      "finding": "The US application clinical example and five-donor research pilot remain separate. Optional recipient IV dosing in a proposed transplantation example does not become a completed ex-vivo-only transplant result or a clinical product authorization."
+    },
+    {
+      "id": "PCR22-C09",
+      "status": "pass",
+      "subject": "Platform-specific regulatory context",
+      "finding": "FDA P180014 independently identifies the XPS/STEEN workflow for reassessing initially unacceptable lungs and explicitly warns that supplements can change labeling. S014 independently confirms a September 2026 lung-cannula luer-cap supplier/material change. The pair does not call these AAT approvals; the manufacturer five-hour description remains configuration-specific rather than a universal legal limit or complete current-label audit."
+    },
+    {
+      "id": "PCR22-C10",
+      "status": "pass",
+      "subject": "Original marginal-dollar tranche",
+      "finding": "The original authored cost/rank record was independently read and its hash matched. AAT is seventh in that independent ranking, with an illustrative US$30–100k over 2–4 months for initial formulation/potency/process qualification, excluding scarce organs and transplant validation. Qualification is therefore the original priced information tranche; the pair correctly avoids importing the different P2 scope objection. The envelope remains unquoted and unauthorized."
+    },
+    {
+      "id": "PCR22-C11",
+      "status": "pass",
+      "subject": "Incremental value without circular prerequisites",
+      "finding": "Scientific usefulness, a useful process/product and privately retained value remain separate questions. A formulation contribution or retained local AAT can support a practical benefit even without a uniquely proved dual-protease mechanism. Final commercial licenses and completed transplantation validation are not required before any informative qualification can be valued. The pair instead keeps later useful-graft relevance, affordable informative qualification and a credible capture route conditional."
+    },
+    {
+      "id": "PCR22-C12",
+      "status": "pass",
+      "subject": "Bounded decision and restrictions",
+      "finding": "The pair stays within the existing AAT program. It claims no numerical EV, new portfolio allocation, acquired material, partner agreement, secured ownership or executable experimental order. Reopening depends on concrete decision-changing evidence; waiting remains an option. All six prohibited activity flags are false."
+    },
+    {
+      "id": "PCR22-C13",
+      "status": "pass",
+      "subject": "Machine-readable evidence graph",
+      "finding": "Strict JSON parsing found no duplicate keys or non-finite constants. All 16 evidence rows resolve to the 11 public sources or four local inputs, and all nine claim decisions resolve to evidence rows. All four local input SHA256 values match the files read. Source-access limitations are retained rather than filled by inference."
+    },
+    {
+      "id": "PCR22-C14",
+      "status": "pass",
+      "subject": "Final version binding",
+      "finding": "The Markdown and complete JSON were read and hashed from bytes after review. The two reviewed file entries bind intended repository paths, byte lengths and SHA256 values. The reviewer did not edit either authored file."
+    }
+  ],
+  "targeted_primary_spot_checks": [
+    {
+      "id": "PCR22-S01",
+      "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=125078&event=productdetails",
+      "access_level": "official_FDA_record",
+      "sections": "Product details, BLA, presentation, route, license type and original approval.",
+      "limitations": "No EVLP indication or data-reliance entitlement follows.",
+      "web_refs": [
+        "turn198view2"
+      ]
+    },
+    {
+      "id": "PCR22-S02",
+      "url": "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+      "access_level": "official_manufacturer_prescribing_information",
+      "sections": "January 2024 labeled route, reconstitution/handling and defined starting article; independently read in formulation lane.",
+      "limitations": "Research circuit compatibility and warm activity are not validated by the IV label.",
+      "web_refs": [
+        "turn146view3"
+      ]
+    },
+    {
+      "id": "PCR22-S03",
+      "url": "https://patents.google.com/patent/US20190059362A1/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Publication description, examples 1–2, 8, 11–13, and application-only scope; independently read in formulation lane.",
+      "limitations": "This reviewer did not newly access official current US prosecution or independently chart every application claim.",
+      "web_refs": [
+        "turn146view0",
+        "turn154view0",
+        "turn152view1",
+        "turn154view1",
+        "turn152view2"
+      ]
+    },
+    {
+      "id": "PCR22-S04",
+      "url": "https://patentimages.storage.googleapis.com/0b/37/fc/fc366f2d5560ed/AU2017221840B2.pdf",
+      "access_level": "original_granted_patent_PDF",
+      "sections": "Front-page bibliographic fields; original claim 1/2 screenshot PDF page 49 and final claim 22 screenshot page 53.",
+      "limitations": "Initial direct opens failed; the already retrieved original PDF ref reopened normally. Current enforceability/title and full independent claim chart were not established.",
+      "web_refs": [
+        "turn204view0",
+        "turn204view1",
+        "turn204view2"
+      ]
+    },
+    {
+      "id": "PCR22-S05",
+      "url": "https://patentimages.storage.googleapis.com/3f/5c/98/3a7bad13786576/KR102411233B1.pdf",
+      "access_level": "original_granted_patent_PDF_and_translated_rendering",
+      "sections": "Original front and claim-page screenshots plus explicitly machine-translated claim 1 and deletion rendering.",
+      "limitations": "No independent legal translation or current maintenance/title analysis. Direct PDF first failed; the ordinary linked original opened.",
+      "web_refs": [
+        "turn200view1",
+        "turn200view2",
+        "turn201view1",
+        "turn201view2"
+      ]
+    },
+    {
+      "id": "PCR22-S06",
+      "url": "https://recherche-essais-cliniques.canada.ca/en/clinical-trial/294199-lung-transplantation",
+      "access_level": "official_Canadian_trial_portal",
+      "sections": "Title, intervention, sponsor, protocol/control identifiers, displayed status, update/authorization dates, phase and registry-match fields.",
+      "limitations": "No administration route, enrollment denominator or results recovered from this summary; displayed status is not independently confirmed operating activity.",
+      "web_refs": [
+        "turn198view3"
+      ]
+    },
+    {
+      "id": "PCR22-S07",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014",
+      "access_level": "official_FDA_PMA_record",
+      "sections": "Device identity, original decision date, indication statement and supplement warning.",
+      "limitations": "Not an AAT approval or complete present labeling audit.",
+      "web_refs": [
+        "turn199view2"
+      ]
+    },
+    {
+      "id": "PCR22-S08",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014S014",
+      "access_level": "official_FDA_PMA_supplement_record",
+      "sections": "Decision date and luer-cap supplier/material change description.",
+      "limitations": "A recent platform component update does not establish AAT compatibility or benefit.",
+      "web_refs": [
+        "turn199view3"
+      ]
+    },
+    {
+      "id": "PCR22-S09",
+      "url": "https://www.xvivogroup.com/wp-content/uploads/2024/02/xvivo_steen_solution_ifu_20924-14_955x390mm_221128_print.pdf",
+      "access_level": "official_manufacturer_IFU",
+      "sections": "English physical formulation/additives and US duration/configuration description; independently read in formulation lane.",
+      "limitations": "The reviewer used the exact manufacturer IFU as corroboration, not a full current US supplement audit.",
+      "web_refs": [
+        "turn191view0"
+      ]
+    }
+  ],
+  "local_input_spot_checks": [
+    {
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round2/round2_blood_exvivo.md",
+      "sha256": "b98a09b39d1bfb405d7f6088d8fa237b3f6205f8e405328a74e48a08e45e1818",
+      "read_scope": "AAT section and sources only; explicitly already mentions AU/KR grants.",
+      "hash_verified": true
+    },
+    {
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round3/round3_organ_repair.md",
+      "sha256": "120e0e8f12b13a1e2422bb94abc2093f62ab1f9b4edb4e5d44f22faa3f487d32",
+      "read_scope": "AAT section and primary links only.",
+      "hash_verified": true
+    },
+    {
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round5/round5_existing_leader_updates.md",
+      "sha256": "5a425860ce32e6967cd0cfbf3f5fca0b8c44490fbf671b4a39ed4f800da490d7",
+      "read_scope": "AAT exposure and route distinctions only.",
+      "hash_verified": true
+    },
+    {
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "read_scope": "Ranking table block4 AAT row7; cost table block14 AAT row; blocks47–49.",
+      "hash_verified": true
+    }
+  ],
+  "resolved_issues": [],
+  "open_issues": [
+    {
+      "id": "PCR22-O01",
+      "blocking": false,
+      "scope": "Current legal status and territorial scope",
+      "finding": "Current official US prosecution/title and foreign maintenance/enforceability remain unresolved. Original grant text is evidence of that version, not a present global clearance or a safe design-around.",
+      "reopen_trigger": "A concrete official status/title event or scoped claim analysis relevant to the intended product and territory."
+    },
+    {
+      "id": "PCR22-O02",
+      "blocking": false,
+      "scope": "Trial route and results",
+      "finding": "The Canadian record supports a named development effort but does not resolve ex-vivo-only versus recipient-systemic administration or demonstrate clinical benefit.",
+      "reopen_trigger": "A matched protocol, route record or results report with verifiable regimen and endpoints."
+    },
+    {
+      "id": "PCR22-O03",
+      "blocking": false,
+      "scope": "Product integration",
+      "finding": "The licensed IV starting article and existing XPS/STEEN workflow do not qualify the intended warm AAT process. Complete current platform labeling and all supplement contents were not audited.",
+      "reopen_trigger": "A decision-relevant exact-product compatibility/potency specification or applicable current platform documentation."
+    },
+    {
+      "id": "PCR22-O04",
+      "blocking": false,
+      "scope": "Conditional economics and access",
+      "finding": "The original qualification envelope is not a quote. No sponsor permission, qualified lot, supplier price, actionable license, partner agreement or retained commercial share was established. These are subsequent decision inputs, not a demand that every final agreement precede informative feasibility.",
+      "reopen_trigger": "An affordable informative qualification scope plus a plausible later useful-graft and retained-value route; no outreach or acquisition is authorized."
+    },
+    {
+      "id": "PCR22-O05",
+      "blocking": false,
+      "scope": "Bounded negative retrieval",
+      "finding": "Unavailable official records and absent fields in recovered summaries do not prove the underlying information does not exist. Korean claim interpretation retains its translation ceiling.",
+      "reopen_trigger": "A concrete primary artifact that changes the current decision; no broad opportunity or global family crawl is required to accept this bounded review."
+    }
+  ],
+  "corrections_required": [],
+  "corrections_required_before_acceptance": false,
+  "verification": {
+    "reviewed_file_count": 2,
+    "reviewed_sources_count": 11,
+    "reviewed_local_inputs_count": 4,
+    "reviewed_evidence_rows_count": 16,
+    "reviewed_claim_decisions_count": 9,
+    "independently_read_primary_source_count": 9,
+    "strict_JSON_parse_passed": true,
+    "source_references_resolve": true,
+    "claim_support_references_resolve": true,
+    "all_six_restricted_activity_flags_false": true,
+    "all_four_local_input_hashes_verified": true,
+    "final_hashes_recomputed_from_file_bytes": true
+  },
+  "retrieval_stop": {
+    "status": "bounded_review_complete",
+    "further_broad_search_performed": false,
+    "exhaustive_global_family_crawl_performed": false,
+    "further_research_required_for_review_acceptance": false,
+    "evidence_limits_are_not_document_defects": true
+  },
+  "completion": {
+    "scientific_or_financial_models_run": false,
+    "new_protocol_generated": false,
+    "reviewed_artifacts_edited_by_reviewer": false,
+    "repository_snapshot_mutations": false,
+    "remote_writes": false,
+    "external_messages_sent": false,
+    "material_requested": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

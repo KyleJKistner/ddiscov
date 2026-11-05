@@ -1,0 +1,370 @@
+{
+  "schema_version": "ddiscov.round22.independent_formulation_human_review.v1",
+  "round": 22,
+  "candidate_id": "AAT_EVLP",
+  "candidate": "AAT / donor-lung preservation",
+  "reviewer": "aat_product_capture independent cross-lane reviewer",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "reviewed_utc_date": "2026-11-05",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "scope": "Full four-file cross-review, existing primary-material spotchecks, deterministic integrity checks; no landscape expansion.",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round22/aat-human-function.md",
+      "bytes": 14045,
+      "sha256": "0eeb8a3a7b3b48f41a674c8b6fffee7e0163c86d51cfc4efcbd4c5988ba31514",
+      "full_content_read": true
+    },
+    {
+      "path": "research/rounds/round22/aat-human-function.json",
+      "bytes": 27898,
+      "sha256": "a8b19efd26203e345340b0de370e3930a9b6b575d61373c3da9eddc93fc241fb",
+      "full_content_read": true
+    },
+    {
+      "path": "research/rounds/round22/aat-formulation-exposure.md",
+      "bytes": 14013,
+      "sha256": "ec676395d6c37f6f667f7785ab74d838050b259455f57faf5d99e0d72eddc1b2",
+      "full_content_read": true
+    },
+    {
+      "path": "research/rounds/round22/aat-formulation-exposure.json",
+      "bytes": 30629,
+      "sha256": "a1d6279882e27cd45e72ed1255c8e80268ba746c29e0969ea4020848ce078b0e",
+      "full_content_read": true
+    }
+  ],
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "corrections_required": [],
+  "checks": [
+    {
+      "id": "R22-FH-01",
+      "status": "pass",
+      "topic": "Parent, candidate and scope",
+      "finding": "Both JSON records identify Round 22, AAT_EVLP and the verified Round 21 parent commit/tree. Existing-program comparator work does not become a broad opportunity screen.",
+      "evidence_refs": [
+        "human:scope",
+        "formulation:scope"
+      ]
+    },
+    {
+      "id": "R22-FH-02",
+      "status": "pass",
+      "topic": "File and reference integrity",
+      "finding": "All four current files were read in full, including the final human JSON and revised Markdown. Source/evidence IDs are unique; inspected source/evidence/claim references resolve. Human counts are 11 sources/16 evidence rows/8 claims; formulation counts are 8/14/8.",
+      "evidence_refs": [
+        "reviewed_files",
+        "human:counts",
+        "formulation:counts"
+      ]
+    },
+    {
+      "id": "R22-FH-03",
+      "status": "pass",
+      "topic": "Original priced scope",
+      "finding": "Rank 7 and US$30,000-100,000 / 2-4 months correctly describe initial formulation/potency/process qualification, excluding scarce organs and transplant validation. Neither report imports the prior P2 human-bridge cost objection, assumes a quote, or authorizes execution.",
+      "evidence_refs": [
+        "original report_content.json:block4/block14/blocks47-49",
+        "H22-E16",
+        "formulation:marginal_decision"
+      ]
+    },
+    {
+      "id": "R22-FH-04",
+      "status": "pass",
+      "topic": "Final paper access ceiling",
+      "finding": "The 2026 indexed primary abstract was independently recovered and supports paired allocation and 12-hour physiology. Exact final-paper product, dose, effect estimates, completion accounting and transplant outcomes remain unresolved; thesis methods are not silently substituted.",
+      "evidence_refs": [
+        "H22-S01",
+        "H22-E01",
+        "H22-E03",
+        "turn208search0"
+      ]
+    },
+    {
+      "id": "R22-FH-05",
+      "status": "pass",
+      "topic": "Biological units and deduplication",
+      "finding": "Donor pairs, serial readings and tissue fields are distinguished. The five-pair patent pilot is not added to eight-pair human reports. Related thesis/conference/article lineage remains an inference; individual participant identity is unverified. The final pig row now explicitly says six porcine donors per group.",
+      "evidence_refs": [
+        "H22-E02",
+        "H22-E07",
+        "H22-E08",
+        "turn205view2"
+      ]
+    },
+    {
+      "id": "R22-FH-06",
+      "status": "pass",
+      "topic": "Missing observations",
+      "finding": "Thesis text confirms 184/192 scheduled physiology observations, 78/80 cytokine observations and stopping at 12 hours or failure. Reports do not assign every missing row to failure or an arm. Correlation modeling is not treated as proof of ignorable missingness; no analysis was rerun.",
+      "evidence_refs": [
+        "H22-E04",
+        "turn206view2",
+        "turn205view2"
+      ]
+    },
+    {
+      "id": "R22-FH-07",
+      "status": "pass",
+      "topic": "Thesis version and conflicts",
+      "finding": "Effects remain thesis-specific, with interval level/units unverified. Donor-category, antigen-expectation and complex-p-value discrepancies remain visible. Native thesis figure pixels and official university facsimile were not recovered.",
+      "evidence_refs": [
+        "H22-E05",
+        "H22-E06",
+        "AATFE22-S05",
+        "turn203view1"
+      ]
+    },
+    {
+      "id": "R22-FH-08",
+      "status": "pass",
+      "topic": "Label chemistry and route",
+      "finding": "Independent label inspection confirms functional vial content, antigenic purity, NE-neutralization basis, excipients and IV route. Three-hour handling is neither proof of abrupt inactivation nor validation of 12-hour EVLP exposure.",
+      "evidence_refs": [
+        "AATFE22-S01",
+        "AATFE22-S02",
+        "turn207view1",
+        "turn208view0",
+        "turn208view1"
+      ]
+    },
+    {
+      "id": "R22-FH-09",
+      "status": "pass",
+      "topic": "Antigen versus function",
+      "finding": "Nominal addition, perfusate antigen, tissue-associated AAT, NE-AAT complexes and inhibitory reserve are distinguished. Antigen does not prove active reserve or quantify adsorption. Cell-culture manufacturer reconstitution language is not a verified whole-organ stock recipe.",
+      "evidence_refs": [
+        "AATFE22-S04",
+        "AATFE22-S05",
+        "H22-E03",
+        "turn205view2"
+      ]
+    },
+    {
+      "id": "R22-FH-10",
+      "status": "pass",
+      "topic": "Physical formulation and useful value",
+      "finding": "STEEN IFU inspection confirms albumin/dextran and additive-replacement context. Current chemistry is not equated with the historical study mixture. Physical matching matters for causal attribution and an AAT-specific premium; a practical formulation-mediated graft benefit is not dismissed.",
+      "evidence_refs": [
+        "AATFE22-S03",
+        "formulation:claims",
+        "turn207view2"
+      ]
+    },
+    {
+      "id": "R22-FH-11",
+      "status": "pass",
+      "topic": "Rinse and retained activity",
+      "finding": "Cold-preservation manuscript supports organ-directed pretreatment, plain Perfadex rinse and residual graft AAT at four hours. Rinse is not complete drug clearance. Useful action by retained AAT remains admissible; neither complete washout nor permanent repair is made a universal gate.",
+      "evidence_refs": [
+        "H22-E09",
+        "AATFE22-S06",
+        "turn202view3",
+        "turn205view3"
+      ]
+    },
+    {
+      "id": "R22-FH-12",
+      "status": "pass",
+      "topic": "Cold model denominators",
+      "finding": "Functional groups of 4-5 animals, three independent biochemical experiments, four-recipient Western blot and ten microscopic fields are distinguished. Unrecovered safeguards and supplement detail are not called absent. Short follow-up limits are preserved.",
+      "evidence_refs": [
+        "AATFE22-S06",
+        "turn203view3"
+      ]
+    },
+    {
+      "id": "R22-FH-13",
+      "status": "pass",
+      "topic": "Mechanism qualification",
+      "finding": "Mutant and double-knockout controls preserve mechanistic support without proving that both NE and PR3 are individually indispensable. Mutation-related physical differences are acknowledged. No unsupported superiority to a simpler inhibitor or obligatory dual-target product requirement is imposed.",
+      "evidence_refs": [
+        "AATFE22-S06",
+        "AATFE22-S07",
+        "AATFE22-S08",
+        "turn205view3"
+      ]
+    },
+    {
+      "id": "R22-FH-14",
+      "status": "pass",
+      "topic": "Recipient routes and survival",
+      "finding": "IV/IP recipient treatment is not presented as EVLP-only efficacy. The pig letter is separated from probable earlier lineage; a survival model is not an established mortality benefit. Repeat independent access to the letter returned 403, so this review does not claim fresh numeral-level verification of that letter.",
+      "evidence_refs": [
+        "H22-E10",
+        "H22-E11",
+        "H22-E12",
+        "H22-E13",
+        "H22-E14",
+        "turn205view0",
+        "turn207view0"
+      ]
+    },
+    {
+      "id": "R22-FH-15",
+      "status": "pass",
+      "topic": "Human recipient denominators and causality",
+      "finding": "The 2025 primary PDF confirms 612 identified recipients, 475 with pharmacy data, 447 in follow-up population and the 45-versus-77 comparison. Death exclusions after discharge and delayed risk entry after transplant remain distinct. Age-adjusted associations are neither randomized causal effects nor donor-EVLP results.",
+      "evidence_refs": [
+        "H22-E15",
+        "turn206view1",
+        "turn206view3",
+        "turn207view3"
+      ]
+    },
+    {
+      "id": "R22-FH-16",
+      "status": "pass",
+      "topic": "Marginal-dollar decision",
+      "finding": "Initial qualification can have information value before final graft efficacy or rights are settled. Reports tie it to a later useful-graft decision, practical alternatives, downstream costs and retained contribution. No numerical EV, fabricated probabilities, full-program budget or fresh cross-portfolio rank is claimed.",
+      "evidence_refs": [
+        "H22-E16",
+        "H22-C08",
+        "human:decision",
+        "formulation:marginal_decision"
+      ]
+    },
+    {
+      "id": "R22-FH-17",
+      "status": "pass",
+      "topic": "Access and execution limits",
+      "finding": "Versions and retrieval limits are explicit; duplicate PI locations are not independent evidence. No unavailable data are converted into proof of absence. All six prohibited activity flags are false. Review performed only document inspection, exact-source retrieval and deterministic integrity checks.",
+      "evidence_refs": [
+        "human:retrieval",
+        "formulation:access_limits",
+        "human:activity",
+        "formulation:activity"
+      ]
+    }
+  ],
+  "primary_spotchecks": [
+    {
+      "id": "R22-FH-P01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+      "version": "2026-09-25 indexed primary abstract",
+      "read_scope": "Abstract; final full article unavailable.",
+      "web_refs": [
+        "turn208search0"
+      ]
+    },
+    {
+      "id": "R22-FH-P02",
+      "url": "https://www.academia.edu/88941544/Alpha_1_Antitrypsin_Treatment_of_Donor_Lungs_A_Translational_Pathway_to_Clinical_Application",
+      "version": "2019 authored thesis text on third-party host",
+      "read_scope": "Chapter 5 methods, analysis, Table15 and conflict passages; no native PDF or figure interpretation.",
+      "web_refs": [
+        "turn202view0",
+        "turn203view1",
+        "turn205view2",
+        "turn206view2"
+      ]
+    },
+    {
+      "id": "R22-FH-P03",
+      "url": "https://push-zb.helmholtz-munich.de/deliver.php?id=21907",
+      "version": "2018 accepted manuscript in official repository",
+      "read_scope": "Methods, rinse, retained graft AAT, controls and figure legends.",
+      "web_refs": [
+        "turn202view3",
+        "turn203view3",
+        "turn205view3"
+      ]
+    },
+    {
+      "id": "R22-FH-P04",
+      "url": "https://www.jhltopen.org/article/S2950-1334%2824%2900151-4/pdf",
+      "version": "2025 article; DOI10.1016/j.jhlto.2024.100201",
+      "read_scope": "Methods, population, delayed entry, exclusions, Table2 and textual results.",
+      "web_refs": [
+        "turn205view1",
+        "turn206view1",
+        "turn206view3",
+        "turn206view4",
+        "turn207view3"
+      ]
+    },
+    {
+      "id": "R22-FH-P05",
+      "url": "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+      "version": "January2024 PI accessed2026-11-05",
+      "read_scope": "Indication, route, handling, functional vial content and excipients.",
+      "web_refs": [
+        "turn207view1",
+        "turn208view0",
+        "turn208view1"
+      ]
+    },
+    {
+      "id": "R22-FH-P06",
+      "url": "https://www.xvivogroup.com/wp-content/uploads/2024/02/xvivo_steen_solution_ifu_20924-14_955x390mm_221128_print.pdf",
+      "version": "20924.14/221128 multilingual IFU,2024 hosted file",
+      "read_scope": "English composition, purpose, replacement and additive sections.",
+      "web_refs": [
+        "turn207view2"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "R22-FH-L01",
+      "blocking": false,
+      "finding": "Exact final 2026 methods and subject mapping remain unverified; older thesis details are not replacements for inaccessible final methods."
+    },
+    {
+      "id": "R22-FH-L02",
+      "blocking": false,
+      "finding": "Thesis inconsistencies, incomplete arm-level missingness and unrecovered native figures remain unresolved; no corrected dataset or reanalysis is supplied."
+    },
+    {
+      "id": "R22-FH-L03",
+      "blocking": false,
+      "finding": "Warm human active exposure and all physical matching remain unresolved. Current PI/IFU do not validate the historical mixture."
+    },
+    {
+      "id": "R22-FH-L04",
+      "blocking": false,
+      "finding": "Cold mouse support remains short-term and formulation-specific; supplement detail was not recovered and no clinical usable-graft effect is established."
+    },
+    {
+      "id": "R22-FH-L05",
+      "blocking": false,
+      "finding": "The authoring lane read the 2023 letter text, but independent repeat retrieval returned403. This review verifies route/version/claim discipline without claiming fresh confirmation of every letter numeral."
+    },
+    {
+      "id": "R22-FH-L06",
+      "blocking": false,
+      "finding": "Recipient augmentation remains observational. Quoted p=.13 follows Results text; a rendered Figure2 extraction shows .14, with no change to its nonsignificant interpretation."
+    },
+    {
+      "id": "R22-FH-L07",
+      "blocking": false,
+      "finding": "Qualification costs, access and retained value are not demonstrated by these biology documents. The conditional option is not permission to execute."
+    }
+  ],
+  "counts": {
+    "reviewed_files": 4,
+    "checks": 17,
+    "primary_spotchecks": 6,
+    "blocking_issues": 0,
+    "corrections_required": 0
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "review_activity": {
+    "new_opportunity_screening": false,
+    "scientific_model_execution": false,
+    "financial_model_execution": false,
+    "reviewed_authors_files_edited": false,
+    "repo_or_publication_changed": false
+  }
+}

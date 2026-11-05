@@ -1,6 +1,16 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 21.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+
+## Round 22: existing AAT/donor-lung preservation
+
+**Retain the conditional initial qualification option at inherited marginal development rank seven, and close this bounded source review.** The original **US$30–100k/two-to-four-month** envelope explicitly covers formulation, potency and process qualification only; scarce organs and transplant validation are excluded. Qualification is the original priced AAT tranche. Actual information yield, remaining costs and retained commercial value still govern. [Decision](../research/rounds/round22/marginal-dollar-decision.md)
+
+Newly recovered primary thesis methods narrow eight-pair human exposure, replenishment and missingness; they are not automatically the full2026article's methods or independent replication. Cold recombinant graft protection after storage-solution rinse includes tissue-retained AAT; systemic recipient early-recovery and observational augmentation results cannot complete an EVLP-only product proof. Nominal mass, antigen and warm functional activity remain distinct. [Human/function](../research/rounds/round22/aat-human-function.md) · [Formulation/exposure](../research/rounds/round22/aat-formulation-exposure.md)
+
+Original AU/KR granted claims were inspected; their existence was already recorded. Foreign scope, US application/current status, IV biological-product precedent, platform labeling and Canadian trial metadata are separate. Useful finite-processing or retained-tissue protection can have value without complete drug-free tissue, unique dualprotease causality or permanent repair, but needs practical/clinical differentiation and a retained share. No quote, license, FTO, organ access or execution is established. [Product/capture](../research/rounds/round22/aat-product-capture.md)
+
+The inherited conditional order remains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT**. Earlier source closures and historical planning points are preserved. No broader new-opportunity screening occurred.
 
 ## Round 21: existing Exact 8015-P2/MFN2-CMT2A
 

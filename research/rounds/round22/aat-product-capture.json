@@ -1,0 +1,717 @@
+{
+  "schema_version": "ddiscov.round22.aat_product_capture.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieved_utc_date": "2026-11-05",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
+  "base_tree": "7ba52d7ed428635bcf3a7f338c0ca4cc5ce75766",
+  "candidate_id": "AAT_EVLP",
+  "related_existing_inventory_ids": [
+    "BE-N01"
+  ],
+  "candidate": "AAT / donor-lung preservation and perfusion",
+  "scope": "Existing AAT product, regulatory/development attribution, identified patent family and retained-value questions only. No broader opportunity screening or comprehensive FTO landscape.",
+  "exact_article": {
+    "proposed_product": "Defined, potency-qualified AAT graft-conditioning additive/process for a specified EVLP workflow",
+    "manufactured_reference": "Plasma-derived human A1PI, Zemaira",
+    "final_EVLP_product_qualified": false,
+    "excluded_automatic_equivalences": [
+      "other AAT brands",
+      "recombinant or inactive AAT",
+      "recipient IV augmentation",
+      "inhaled AAT",
+      "other transplant settings",
+      "research-circuit recipe and approved clinical system"
+    ]
+  },
+  "sources": [
+    {
+      "id": "AC22-S01",
+      "title": "US20190059362A1, original application publication and rendered bibliographic/prosecution record",
+      "url": "https://patents.google.com/patent/US20190059362A1/en",
+      "primary_document_url": "https://patentimages.storage.googleapis.com/35/83/4e/c89c2ce58598ea/US20190059362A1.pdf",
+      "document_date": "2019-02-28",
+      "source_type": "patent_application_publication",
+      "read_scope": "Claims1,2,55 and dependent/cancelled positions; original PDF printed16–18/PDF62–64; Example12 versus Example13; family and displayed legal events.",
+      "access": "HTML and original PDF readable; PDF63–64 visually checked.",
+      "limits": "Historical published text, not a verified current prosecution record or granted US scope. Current title, pendency, maintenance, enforceability and license terms not established.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S02",
+      "title": "AU2017221840B2 original standard patent",
+      "url": "https://patents.google.com/patent/AU2017221840B2/en",
+      "primary_document_url": "https://patentimages.storage.googleapis.com/0b/37/fc/fc366f2d5560ed/AU2017221840B2.pdf",
+      "document_date": "2024-01-04",
+      "source_type": "granted_patent_publication",
+      "read_scope": "Front matter and22 numbered claims on printed47–51/PDF49–53, especially independent claims1–2.",
+      "access": "72-page original PDF and HTML read; PDF0,49,53 visually checked.",
+      "limits": "Google heading incorrectly says Claims(1); original document controls. Accepted-journal publication and disclosed claims are verified; current enforceability, title chain and maintenance are not.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S03",
+      "title": "KR102411233B1 original registered patent and English machine rendering",
+      "url": "https://patents.google.com/patent/KR102411233B1/en",
+      "primary_document_url": "https://patentimages.storage.googleapis.com/3f/5c/98/3a7bad13786576/KR102411233B1.pdf",
+      "document_date": "2022-06-22",
+      "registration_date": "2022-06-16",
+      "source_type": "granted_patent_publication",
+      "read_scope": "Original front matter:58 total claims, registration/publication dates; original claim1 and translated corresponding text; cancelled positions in numbering through70.",
+      "access": "40-page Korean PDF read selectively; PDF0 and2 visually checked; English HTML expressly machine-translated.",
+      "limits": "No independent legal translation or current Korean registry maintenance/title audit. Do not substitute70 displayed numbered positions for58 claims.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S04",
+      "title": "Health Canada clinical-trial portal: UHN Zemaira protocol23-5745/control294199",
+      "url": "https://recherche-essais-cliniques.canada.ca/en/clinical-trial/294199-lung-transplantation",
+      "document_date": "2026-07-18",
+      "source_type": "official_clinical_trial_portal",
+      "read_scope": "Official protocol title, sponsor, intervention, status, approval date, phase and registry-match field.",
+      "access": "Readable official HTML, fresh retrieval.",
+      "limits": "Summary record lacks administration route, participant count, exact treatment schedule and outcomes. Displayed status is not independent confirmation of actual trial operations.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S05",
+      "title": "FDA approved blood-product record for Zemaira",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/zemaira",
+      "document_date": null,
+      "source_type": "official_regulatory_product_record",
+      "read_scope": "STN125078, proper name, manufacturer, approved indication and linked labeling.",
+      "access": "Readable official HTML.",
+      "limits": "Approved deficiency/emphysema indication is not an EVLP-additive indication or ddiscov ownership.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S06",
+      "title": "FDA Purple Book: Zemaira BLA125078",
+      "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=125078&event=productdetails",
+      "document_date": null,
+      "source_type": "official_regulatory_biologic_record",
+      "read_scope": "351(a) license, IV presentation,1g/4g/5g entries, original approval2003-07-08 and applicant.",
+      "access": "Readable official HTML.",
+      "limits": "Not a current stock or price quote, product-specific exclusivity opinion, freedom-to-operate search or regulatory reliance authorization.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S07",
+      "title": "Zemaira US prescribing information",
+      "url": "https://labeling.cslbehring.com/pi/us/zemaira/en/zemaira-prescribing-information.pdf",
+      "document_date": "2024-01",
+      "source_type": "manufacturer_prescribing_information",
+      "read_scope": "Indication, IV route, active-protein presentation and reconstituted-administration/mixture instructions.",
+      "access": "Current manufacturer link, six-page PDF text readable.",
+      "limits": "No12-hour warm recirculating-admixture validation or current lot authentication follows from labeled IV handling.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S08",
+      "title": "FDA PMA P180014: XPS with STEEN Solution Perfusate",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014",
+      "document_date": "2019-04-26",
+      "page_last_updated": "2026-10-19",
+      "source_type": "official_device_approval_record",
+      "read_scope": "Applicant, combination-product field, original indication and current supplement links.",
+      "access": "Readable official HTML.",
+      "limits": "Base record warns that supplements may change labeling. This is not a full current-system or AAT-modified-system regulatory audit.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S09",
+      "title": "FDA PMA P180014S012",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014S012",
+      "document_date": "2025-05-08",
+      "source_type": "official_device_supplement_record",
+      "read_scope": "Approval-order statement for perfusate gas monitor sensor sterilization.",
+      "access": "Readable official HTML through record-specific ID URL.",
+      "limits": "This particular supplement does not establish an AAT product approval; other supplement contents are not inferred.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S10",
+      "title": "FDA PMA P180014S014",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014S014",
+      "document_date": "2026-09-16",
+      "page_last_updated": "2026-10-26",
+      "source_type": "official_device_supplement_record",
+      "read_scope": "Approval-order statement for lung cannula luer-cap supplier/material change.",
+      "access": "Readable official HTML through record-specific ID URL.",
+      "limits": "A recent platform approval event is not an AAT efficacy, route or approval event.",
+      "retrieved_utc_date": "2026-11-05"
+    },
+    {
+      "id": "AC22-S11",
+      "title": "XVIVO current STEEN Solution product page",
+      "url": "https://www.xvivogroup.com/products-services/steen-solution/",
+      "document_date": null,
+      "source_type": "manufacturer_product_information",
+      "read_scope": "US XPS configuration, manufacturer-stated five-hour US acellular approval and albumin/dextran formulation roles.",
+      "access": "Readable manufacturer HTML.",
+      "limits": "Manufacturer statement is identified as such; no independent universal duration rule, twelve-hour prohibition, AAT compatibility, available purchase terms or product quotation is inferred.",
+      "retrieved_utc_date": "2026-11-05"
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "AC22-L01",
+      "title": "Round2 AAT public-rights/product baseline",
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round2/round2_blood_exvivo.md",
+      "sha256": "b98a09b39d1bfb405d7f6088d8fa237b3f6205f8e405328a74e48a08e45e1818",
+      "read_scope": "AAT section and sources only; explicitly already mentions AU/KR grants."
+    },
+    {
+      "id": "AC22-L02",
+      "title": "Round3 AAT formulation and trial refinement",
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round3/round3_organ_repair.md",
+      "sha256": "120e0e8f12b13a1e2422bb94abc2093f62ab1f9b4edb4e5d44f22faa3f487d32",
+      "read_scope": "AAT section and primary links only."
+    },
+    {
+      "id": "AC22-L03",
+      "title": "Round5 existing-leader update",
+      "path": "/workspace/scratch/e8635471e089/ddiscov_round21/research/rounds/round5/round5_existing_leader_updates.md",
+      "sha256": "5a425860ce32e6967cd0cfbf3f5fca0b8c44490fbf671b4a39ed4f800da490d7",
+      "read_scope": "AAT exposure and route distinctions only."
+    },
+    {
+      "id": "AC22-L04",
+      "title": "Original independent marginal-dollar review",
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "read_scope": "Ranking table block4 AAT row7; cost table block14 AAT row; blocks47–49."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "AC22-E01",
+      "source_ids": [
+        "AC22-S05",
+        "AC22-S06"
+      ],
+      "finding_type": "fresh_regulatory_identity_verification",
+      "observation": "Zemaira is CSL's Alpha-1-Proteinase Inhibitor(Human), BLA125078; Purple Book lists351(a) IV1g/4g/5g single-dose presentations and original approval2003-07-08.",
+      "exact_article": "Licensed Zemaira starting product",
+      "limitation": "This is manufacturing/regulatory precedent for the labeled product, not a purchased lot, independent license, price or EVLP indication.",
+      "decision_impact": "Qualification can start from a defined manufactured article; no automatic generic-drug asset or regulatory reliance route is established."
+    },
+    {
+      "id": "AC22-E02",
+      "source_ids": [
+        "AC22-S07",
+        "AC22-L01",
+        "AC22-L02"
+      ],
+      "finding_type": "revalidated_labeled_route_boundary",
+      "observation": "The current-linked January2024 label restricts the stated use to IV augmentation in deficient adults with emphysema, and specifies administration within3h after reconstitution without mixing other medicinal products.",
+      "exact_article": "Zemaira labeled IV presentation",
+      "limitation": "These directions do not establish12h warm EVLP stability, activity or compatibility; they do not themselves prove the research mixture is harmful.",
+      "decision_impact": "The originally priced formulation/potency/process qualification remains a real task."
+    },
+    {
+      "id": "AC22-E03",
+      "source_ids": [
+        "AC22-S01"
+      ],
+      "finding_type": "new_claim_version_inspection",
+      "observation": "The original US application has70 numbered positions with cancellations. Claims1–2 address normothermic AAT organ perfusion and transplantation; claim55 covers an AAT/albumin/dextran/salt perfusion composition.",
+      "exact_article": "US20190059362A1 published text",
+      "limitation": "Publication is not a US grant or adjudicated infringement map.",
+      "decision_impact": "Known-use novelty and potential rights relevance persist; do not call formulation qualification an already exclusive product."
+    },
+    {
+      "id": "AC22-E04",
+      "source_ids": [
+        "AC22-S01"
+      ],
+      "finding_type": "current_status_uncertainty",
+      "observation": "Google displays Pending, with its last displayed US prosecution event a2022-12-16 final rejection. Official Patent Center yielded no readable record; Global Dossier onlyLoading, and assignment retrieval failed.",
+      "exact_article": "US16/113559 current legal-status question",
+      "limitation": "Neither current pendency nor abandonment is primary-verified. A conflicting secondary discovery hint was not promoted to a legal fact.",
+      "decision_impact": "Retain an unresolved current-US-status field; neither a grant nor clearance can be inferred."
+    },
+    {
+      "id": "AC22-E05",
+      "source_ids": [
+        "AC22-S02",
+        "AC22-L01"
+      ],
+      "finding_type": "new_detail_of_previously_known_grant",
+      "observation": "AU B2's22 numbered claims narrow independent claims1–2 to human lungs, normothermia,6–12h and8–12mg/mL AAT; claim2 includes transplantation. The original front records accepted-journal date2024-01-04.",
+      "exact_article": "AU2017221840B2, claims1–22",
+      "limitation": "Current enforceability and title chain remain unverified. Exact claim conditions do not establish a safe design-around or dosing optimum.",
+      "decision_impact": "Replace application-only shorthand with a territory/version-specific rights record, preserving that Round2 already listed the grant."
+    },
+    {
+      "id": "AC22-E06",
+      "source_ids": [
+        "AC22-S03",
+        "AC22-L01"
+      ],
+      "finding_type": "new_detail_of_previously_known_grant",
+      "observation": "KR original front reports registration2022-06-16, publication2022-06-22 and58 total claims; numbered positions extend through70 with deletions. English-rendered claim1 addresses ventilated normothermic AAT lung perfusion.",
+      "exact_article": "KR102411233B1",
+      "limitation": "English text is machine translated; original pages were inspected without an independent legal translation. Current maintenance/title not established.",
+      "decision_impact": "A granted family member exists, but it does not resolve US rights or global commercial freedom."
+    },
+    {
+      "id": "AC22-E07",
+      "source_ids": [
+        "AC22-L01",
+        "AC22-S02",
+        "AC22-S03"
+      ],
+      "finding_type": "historical_provenance_preserved",
+      "observation": "Round2 already stated that related AU/KR grants were listed.",
+      "exact_article": "Existing repository AAT rights record",
+      "limitation": "Later summaries focused on the US application; that does not erase the earlier recorded grants.",
+      "decision_impact": "Round22 adds claim/version inspection and counting corrections, not a false first-discovery claim."
+    },
+    {
+      "id": "AC22-E08",
+      "source_ids": [
+        "AC22-S04"
+      ],
+      "finding_type": "revalidated_trial_stage_with_added_fields",
+      "observation": "Official UHN Zemaira protocol23-5745/control294199 lists Not yet recruiting at update2026-07-18, trial authorization/no-objection date2025-02-27, phaseOther and No registry match found.",
+      "exact_article": "Named Zemaira PGD-prevention clinical-trial record",
+      "limitation": "Displayed status is not independently verified recruitment activity; the approval field refers to trial regulatory requirements, not marketing approval.",
+      "decision_impact": "An adjacent clinical development effort exists; no completed efficacy or execution-ready partnership is inferred."
+    },
+    {
+      "id": "AC22-E09",
+      "source_ids": [
+        "AC22-S04"
+      ],
+      "finding_type": "bounded_missing_trial_fields",
+      "observation": "The official summary does not supply an EVLP-only versus recipient-systemic route, enrollment denominator or trial results.",
+      "exact_article": "UHN protocol23-5745",
+      "limitation": "No full protocol or matched results record was recovered in this bounded search; this is not a global claim that none exists.",
+      "decision_impact": "Do not assign the clinical effort to the proposed ex-vivo-only product or pool it with declined-donor physiology."
+    },
+    {
+      "id": "AC22-E10",
+      "source_ids": [
+        "AC22-S01"
+      ],
+      "finding_type": "revalidated_proposed_example_boundary",
+      "observation": "Example12 describes possible human perfusion/transplantation and optional recipientIV AAT; it is distinct from the five-donor research pilot inExample13.",
+      "exact_article": "US application examples12–13",
+      "limitation": "A proposed transplant example does not document completed treated recipients or ex-vivo-only clinical benefit.",
+      "decision_impact": "Keep proposed uses and completed observations separate."
+    },
+    {
+      "id": "AC22-E11",
+      "source_ids": [
+        "AC22-S08"
+      ],
+      "finding_type": "fresh_platform_regulatory_context",
+      "observation": "FDA P180014 identifies the XPS/STEEN combination for assessment of initially unacceptable donor lungs; original approval2019-04-26.",
+      "exact_article": "XPS with STEEN, without an inferred AAT addition",
+      "limitation": "The base page warns that supplements can change labeling; complete present system requirements are not audited here.",
+      "decision_impact": "Commercial development must fit an existing regulated perfusion workflow, with its own data and integration dependencies."
+    },
+    {
+      "id": "AC22-E12",
+      "source_ids": [
+        "AC22-S09",
+        "AC22-S10"
+      ],
+      "finding_type": "recent_platform_event_attribution",
+      "observation": "S012 concerns gas-monitor sensor sterilization; S014's2026-09-16 approval concerns a cannula luer-cap supplier/material change.",
+      "exact_article": "Specific XPS/STEEN supplements",
+      "limitation": "These are not AAT clinical/product approvals; unread supplement contents are not inferred.",
+      "decision_impact": "Recent platform dates cannot serve as evidence of AAT regulatory de-risking."
+    },
+    {
+      "id": "AC22-E13",
+      "source_ids": [
+        "AC22-S11"
+      ],
+      "finding_type": "manufacturer_workflow_scope",
+      "observation": "XVIVO states US STEEN use with XPS and describes up-to5h US acellular approval while distinguishing longer clinical-evidence durations.",
+      "exact_article": "Manufacturer-described US STEEN/XPS configuration",
+      "limitation": "No universal time limit or prohibition is inferred, and12h AAT research does not inherit the description as its clinical product qualification.",
+      "decision_impact": "Intended duration/configuration belongs to later product integration and cannot be assumed from a research circuit."
+    },
+    {
+      "id": "AC22-E14",
+      "source_ids": [
+        "AC22-L04",
+        "AC22-S01",
+        "AC22-S02",
+        "AC22-S03",
+        "AC22-S05",
+        "AC22-S08"
+      ],
+      "finding_type": "analyst_inference",
+      "observation": "A reproducible activity/compatibility specification, differentiated process or controlled data package could have value to a supplier/operator; ddiscov's retained share requires a credible product/data/contract route.",
+      "exact_article": "Existing AAT donor-lung program",
+      "limitation": "No owner terms, exclusivity, regulatory data reliance, license field, price, purchase or partnership was obtained.",
+      "decision_impact": "Assess the information bought and follow-on economics; scientific usefulness alone does not establish a privately retained asset."
+    },
+    {
+      "id": "AC22-E15",
+      "source_ids": [
+        "AC22-L04"
+      ],
+      "finding_type": "original_scope_preserved",
+      "observation": "The original independent review ranks AAT seventh and assigns an illustrative US$30–100k/2–4month initial formulation/potency/process qualification tranche, excluding scarce organs and transplant validation.",
+      "exact_article": "Original AAT next-dollar scope",
+      "limitation": "This is a judgmental envelope, not a quote or commitment. Qualification is the original tranche, not a substitute for an originally priced human-function study.",
+      "decision_impact": "Do not import P2's different scope objection or require completed graft-benefit evidence before valuing qualification."
+    },
+    {
+      "id": "AC22-E16",
+      "source_ids": [
+        "AC22-L04"
+      ],
+      "finding_type": "analyst_decision_branch",
+      "observation": "Qualification is useful only if it can change a later continuation decision; later organ validation and retained economics must be considered when choosing its scope.",
+      "exact_article": "AAT program staged decision",
+      "limitation": "No numerical EV, NPV, probability or replacement allocation was computed.",
+      "decision_impact": "Retain the conditional qualification option, stop repeated desktop work absent a concrete decision-changing artifact, and keep waiting available."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "AC22-C01",
+      "claim": "The approved starting product makes the AAT EVLP product already qualified.",
+      "decision": "reject",
+      "support": [
+        "AC22-E01",
+        "AC22-E02",
+        "AC22-E11"
+      ]
+    },
+    {
+      "id": "AC22-C02",
+      "claim": "The US application page establishes either a currently pending enforceable right or freedom to operate.",
+      "decision": "unresolved_current_status_reject_both_overclaims",
+      "support": [
+        "AC22-E03",
+        "AC22-E04"
+      ]
+    },
+    {
+      "id": "AC22-C03",
+      "claim": "Round22 discovered previously unknown AU/KR grant existence.",
+      "decision": "reject_preserve_Round2_provenance",
+      "support": [
+        "AC22-E05",
+        "AC22-E06",
+        "AC22-E07"
+      ]
+    },
+    {
+      "id": "AC22-C04",
+      "claim": "The entire family has the broad US published claim scope or one universal70-claim count.",
+      "decision": "reject_version_and_territory_specific",
+      "support": [
+        "AC22-E03",
+        "AC22-E05",
+        "AC22-E06"
+      ]
+    },
+    {
+      "id": "AC22-C05",
+      "claim": "The UHN trial record or patent clinical example proves ex-vivo-only clinical efficacy.",
+      "decision": "reject",
+      "support": [
+        "AC22-E08",
+        "AC22-E09",
+        "AC22-E10"
+      ]
+    },
+    {
+      "id": "AC22-C06",
+      "claim": "Qualification-only work necessarily falls short of AAT's original next-dollar tranche.",
+      "decision": "reject_qualification_is_original_scope",
+      "support": [
+        "AC22-E15"
+      ]
+    },
+    {
+      "id": "AC22-C07",
+      "claim": "A differentiated specification or process can have conditional economic value without proven ownership of an exclusive drug.",
+      "decision": "retain_as_conditional_inference",
+      "support": [
+        "AC22-E14",
+        "AC22-E16"
+      ]
+    },
+    {
+      "id": "AC22-C08",
+      "claim": "Full transplant validation and final commercial licenses must already exist before any informative qualification can be considered.",
+      "decision": "reject_circular_universal_entry_gate",
+      "support": [
+        "AC22-E15",
+        "AC22-E16"
+      ]
+    },
+    {
+      "id": "AC22-C09",
+      "claim": "The bounded review establishes an executable investment, clinical product or numerical expected return.",
+      "decision": "reject",
+      "support": [
+        "AC22-E04",
+        "AC22-E09",
+        "AC22-E14",
+        "AC22-E15",
+        "AC22-E16"
+      ]
+    }
+  ],
+  "counts": {
+    "sources": 11,
+    "local_inputs": 4,
+    "evidence_rows": 16,
+    "claim_decisions": 9,
+    "new_candidate_screens": 0,
+    "new_clinical_results": 0,
+    "new_experimental_results": 0,
+    "S_tier_promotions": 0
+  },
+  "rights_records": [
+    {
+      "publication": "US20190059362A1",
+      "application": "US16/113559",
+      "jurisdiction": "US",
+      "version": "2019 application publication",
+      "document_date": "2019-02-28",
+      "priority_date": "2017-08-25",
+      "published_applicant_assignee": "CSL Behring LLC",
+      "grant_verified": false,
+      "current_status": "unresolved",
+      "displayed_aggregator_status": "Pending",
+      "last_displayed_prosecution_event": "2022-12-16 final rejection",
+      "claim_numbered_positions": 70,
+      "contains_cancelled_positions": true,
+      "key_claims": [
+        1,
+        2,
+        55
+      ],
+      "source_ids": [
+        "AC22-S01"
+      ],
+      "current_status_verified": false,
+      "current_title_verified": false,
+      "FTO_conclusion": null
+    },
+    {
+      "publication": "AU2017221840B2",
+      "jurisdiction": "AU",
+      "version": "standard patent B2",
+      "accepted_journal_date": "2024-01-04",
+      "priority_date": "2017-08-25",
+      "document_applicant": "CSL Behring LLC",
+      "grant_document_verified": true,
+      "displayed_aggregator_status": "Active",
+      "numbered_claims": 22,
+      "independent_claims": [
+        1,
+        2
+      ],
+      "key_conditions": {
+        "organ": "human lung",
+        "thermal_scope": "normothermic",
+        "hours": [
+          6,
+          12
+        ],
+        "AAT_mg_per_mL": [
+          8,
+          12
+        ]
+      },
+      "claim2_adds_transplantation": true,
+      "claim_conditions_are_not_dosing_recommendations": true,
+      "source_ids": [
+        "AC22-S02"
+      ],
+      "current_status_verified": false,
+      "current_title_verified": false,
+      "independent_legal_claim_construction_performed": false,
+      "FTO_conclusion": null
+    },
+    {
+      "publication": "KR102411233B1",
+      "jurisdiction": "KR",
+      "version": "registered B1",
+      "registration_date": "2022-06-16",
+      "publication_date": "2022-06-22",
+      "priority_date": "2017-08-25",
+      "grant_document_verified": true,
+      "displayed_aggregator_status": "Active",
+      "original_front_total_claims": 58,
+      "numbered_positions_through": 70,
+      "contains_deleted_positions": true,
+      "key_claim": "Claim1 English machine rendering: normothermic AAT perfusion of a ventilated lung",
+      "independent_legal_translation": false,
+      "source_ids": [
+        "AC22-S03"
+      ],
+      "current_status_verified": false,
+      "current_title_verified": false,
+      "FTO_conclusion": null
+    }
+  ],
+  "rights_status": {
+    "existing_family_already_recorded_in_round2": true,
+    "new_claim_version_detail_in_round22": true,
+    "all_territory_family_completeness_verified": false,
+    "US_grant_verified": false,
+    "current_title_chain_verified": false,
+    "maintenance_and_enforceability_verified": false,
+    "commercial_field_available_verified": false,
+    "license_price_verified": false,
+    "data_ownership_verified": false,
+    "regulatory_data_reliance_verified": false,
+    "commercial_license_obtained": false,
+    "freedom_to_operate_established": false,
+    "new_patentability_established": false
+  },
+  "product_readiness": {
+    "licensed_manufactured_starting_product_documented": true,
+    "current_supply_or_lot_authenticated": false,
+    "price_quote_obtained": false,
+    "exact_warm_EVLP_formulation_qualified": false,
+    "warm_circuit_functional_potency_qualified": false,
+    "clinical_product_use_approved_for_ddiscov": false,
+    "regulatory_route_determined": false,
+    "EVLP_system_integration_verified": false,
+    "institutional_organ_access_secured": false,
+    "ex_vivo_only_clinical_benefit_verified_by_this_audit": false
+  },
+  "tranche_assumptions": {
+    "source": "AC22-L04",
+    "conditional_rank": 7,
+    "illustrative_USD_range": [
+      30000,
+      100000
+    ],
+    "illustrative_months": [
+      2,
+      4
+    ],
+    "scope": "Initial formulation/potency/process qualification only",
+    "explicit_exclusions": [
+      "scarce organs",
+      "transplant validation"
+    ],
+    "quote": false,
+    "budget_feasibility_established": false,
+    "funding_commitment": false,
+    "qualification_is_original_priced_deliverable": true,
+    "P2_human_function_scope_not_imported": true
+  },
+  "marginal_decision": {
+    "recommendation": "Retain the conditional AAT initial-qualification option; close this bounded public product/rights pass at the recorded evidence ceiling.",
+    "information_bought": "Determine whether a specified manufactured article and perfusion process can deliver interpretable functional potency and compatibility, cheaply enough to make later organ validation worth considering.",
+    "follow_on_value": "More usable grafts or better graft function with a credible retained economic share.",
+    "do_not_require_as_universal_entry_gate": [
+      "already positive transplant validation",
+      "completed final licensing",
+      "guaranteed private exclusivity"
+    ],
+    "do_not_assume": [
+      "present quote or supply",
+      "automatic clinical-system compatibility",
+      "owned drug asset",
+      "benefit from nominal mass alone",
+      "full program financed by the qualification envelope"
+    ],
+    "potential_contribution_inference": [
+      "validated activity/compatibility specification",
+      "differentiated process and usable data",
+      "contractual share or licensed development route"
+    ],
+    "execution_authorized": false,
+    "numerical_EV_or_financial_model_run": false,
+    "reopen_for": [
+      "current primary prosecution/title/maintenance evidence affecting a specific route",
+      "full UHN protocol or results identifying route and outcomes",
+      "specific supply/access/rights/cost fact changing the next commitment",
+      "qualified product or workflow evidence changing later validation feasibility"
+    ]
+  },
+  "retrieval": {
+    "method": "Bounded primary-document and official-source web review, with patent discovery followed by original PDF checks. No contact or account interaction.",
+    "source_stop_reached": true,
+    "material_access_limits": [
+      {
+        "target": "US Patent Center application16113559",
+        "url": "https://patentcenter.uspto.gov/applications/16113559",
+        "result": "No readable record returned."
+      },
+      {
+        "target": "USPTO Assignment link",
+        "url": "https://assignment.uspto.gov/patent/index.html",
+        "result": "502 retrieval failure; title chain unresolved."
+      },
+      {
+        "target": "US Global Dossier",
+        "url": "https://globaldossier.uspto.gov/result/application/US/16113559/1",
+        "result": "Only Loading returned."
+      },
+      {
+        "target": "Espacenet US publication link",
+        "url": "https://worldwide.espacenet.com/publicationDetails/biblio?CC=US&FT=D&KC=A1&NR=2019059362A1",
+        "result": "403; no bypass attempted."
+      },
+      {
+        "target": "Current complete XPS supplement/label audit",
+        "result": "S011/S013 details not recovered via targeted open; S012/S014 read; no full current-platform regulatory clearance conclusion."
+      },
+      {
+        "target": "UHN trial protocol/results",
+        "result": "Official summary recovered; matched detailed protocol/results not recovered in bounded named-program searches."
+      }
+    ],
+    "secondary_discovery_hint_excluded_from_legal_conclusions": {
+      "url": "https://www.patentbots.com/stats/examiner/1638-VAN-BUREN-LAUREN-K",
+      "description": "Search snippet called application16113559 Abandoned, conflicting with Google Pending; neither establishes current official status."
+    },
+    "raw_third_party_files_added_to_repository": false,
+    "PDF_visual_checks": {
+      "US20190059362A1": [
+        63,
+        64
+      ],
+      "AU2017221840B2": [
+        0,
+        49,
+        53
+      ],
+      "KR102411233B1": [
+        0,
+        2
+      ]
+    },
+    "PDF_page_numbers_zero_based": true
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "restrictions": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no broader new-opportunity screening"
+  ],
+  "scientific_or_financial_models_run": false,
+  "new_manufacturing_or_experimental_protocol_created": false,
+  "development_execution_authorized": false
+}
