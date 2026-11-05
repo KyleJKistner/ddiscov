@@ -1,0 +1,260 @@
+{
+  "schema_version": "ddiscov.round20.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "candidate_id": "MIGF_CORNEA",
+  "selection": {
+    "objective": "Expected discounted financial value retained by ddiscov after the remaining costs, rights payments, sharing and financing required for a useful product.",
+    "selected_uncertainty": "Whether exact mIGF-Gel can offer useful epithelial repair or a practical reduction in total treatment burden over a credible topical-insulin product, with a feasible exposure/product and retained-value route.",
+    "basis": "Next eligible bounded information sprint after the published APR, RM, BLU and NDC source passes; one existing candidate, no replacement candidate clearly favored by this update.",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 5,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": false,
+    "estimated_return_per_dollar": null,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "ordinal_rank_conditional_on_original_informative_scope": true,
+    "zero_or_wait_option_included": true
+  },
+  "independent_review": {
+    "input_file": "research/rounds/round20/independent-review-input.json",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "ordinal_conditional_development_rank": 5
+  },
+  "tranche_assumptions": {
+    "qualification": {
+      "currency": "USD",
+      "cost_range": [
+        40000,
+        150000
+      ],
+      "months_range": [
+        3,
+        6
+      ],
+      "provenance": "Prior independent analyst judgment for a local-product/active-comparator question, conditional on access to a suitable model.",
+      "verified_quote": false,
+      "verified_feasible_scope": false,
+      "original_information_scope": "Useful local-product and practical active-comparator decision, including the relevant optical/product performance; not just material or model readiness."
+    },
+    "major_expansion_requires_new_comparison": true,
+    "qualification_only_scope_inherits_prior_rank_without_recomparison": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "exclusions": [
+      "Rights/license payments",
+      "Major new model or platform construction",
+      "New chemistry or broad formulation-development campaign",
+      "Complete sterile ophthalmic development and validation package",
+      "GLP toxicology",
+      "GMP clinical supply",
+      "Patient trials",
+      "Commercialization"
+    ],
+    "quotes_obtained": false,
+    "external_commitment_usd": 0,
+    "full_program_budget_established": false
+  },
+  "completed_information_updates": [
+    {
+      "id": "U20-01",
+      "finding": "Exact primary audit narrows the acute and steroid-suppressed evidence, biological units, treatment timing and material-control interpretation.",
+      "decision_effect": "Retain a functional preclinical rationale without asserting delayed rescue of chronic human disease."
+    },
+    {
+      "id": "U20-02",
+      "finding": "Tracer retention, aqueous-humor pharmacokinetics, nominal assembled concentration and released active exposure are different measurements.",
+      "decision_effect": "Keep the article, formulation and relevant exposure as one product question; no numerical correction or delivery failure inferred."
+    },
+    {
+      "id": "U20-03",
+      "finding": "Additional persistent-defect insulin evidence includes an uncontrolled multicenter cohort and a comparative historical-control study, with specific formulations and outcome/follow-up limits.",
+      "decision_effect": "Use a credible practical active comparator; do not infer an unbiased rate, equivalence or direct gel inferiority."
+    },
+    {
+      "id": "U20-04",
+      "finding": "Insulin sensory observations are mixed and emerging comparator trials are not results.",
+      "decision_effect": "Do not reserve a nerve claim to mIGF by assuming the comparator has no sensory potential, or replace current evidence with future trial plans."
+    },
+    {
+      "id": "U20-05",
+      "finding": "Older patent prose explicitly discloses the sequence, while its granted sequence listing differs; the newer corneal application expressly names the product/use.",
+      "decision_effect": "This is an existing disclosure and potential rights-dependent contribution; do not infer exact granted coverage, freedom to operate, ownership or license availability."
+    },
+    {
+      "id": "U20-06",
+      "finding": "A stable physical gel and a low nominal dosing frequency do not establish a sterile, potent, usable ophthalmic product or an executable budget.",
+      "decision_effect": "Recompare actual useful information and remaining product/rights costs; preserve the original assumption without automatic rank inheritance or spend."
+    }
+  ],
+  "claim_and_stage_limits": {
+    "acute_debridement_establishes_human_persistent_defect_efficacy": false,
+    "steroid_suppression_equals_chronic_denervation": false,
+    "postinjury_treatment_establishes_delayed_start_after_a_persistent_defect": false,
+    "all_delayed_figure8_results_assumed_n5": false,
+    "reported_similar_means_establish_noninferiority": false,
+    "reduced_rat_dosing_frequency_establishes_human_convenience": false,
+    "absence_of_material_controls_asserted": false,
+    "tracer_retention_equals_intact_peptide_retention": false,
+    "rabbit_aqueous_exposure_equals_rat_or_human_free_epithelial_exposure": false,
+    "nominal_gel_concentration_equals_released_active_species_exposure": false,
+    "closure_or_matrix_markers_establish_durable_barrier_and_adhesion": false,
+    "sensation_signal_is_only_a_staining_marker": false,
+    "short_sensory_result_establishes_clinical_nerve_restoration": false,
+    "insulin_lacks_any_sensory_evidence": false,
+    "all_insulin_formulations_or_per_drop_and_per_mL_units_interchangeable": false,
+    "historical_control_or_case_series_establishes_unbiased_treatment_effect": false,
+    "unequal_followup_establishes_recurrence_superiority": false,
+    "insulin_case_series_establishes_mIGF_inferiority": false,
+    "ongoing_trial_is_completed_efficacy_evidence": false,
+    "mandatory_equal_molarity_for_every_practical_product_comparison": false,
+    "practical_regimen_comparison_can_support_useful_product_value": true,
+    "equal_useful_repair_with_meaningful_total_burden_advantage_can_have_value": true,
+    "lower_administration_count_alone_establishes_total_burden_advantage": false,
+    "withdrawal_durability_required_for_every_useful_product": false,
+    "durability_required_for_the_claimed_duration_or_recurrence_benefit": true,
+    "paper_or_patent_disclosure_establishes_ownership_or_FTO": false,
+    "old_grant_sequence_discrepancy_silently_harmonized": false,
+    "Chinese_application_treated_as_granted_global_exclusivity": false,
+    "physical_gel_storage_establishes_sterile_potent_ophthalmic_shelf_life": false,
+    "new_experimental_protocol_designed": false,
+    "new_dose_sample_size_or_numeric_threshold": false,
+    "current_S_tier_promotion": false
+  },
+  "routes": [
+    {
+      "id": "R20-01",
+      "route": "Defined mIGF product qualification",
+      "value_question": "Can a feasible bounded question distinguish useful repair or total-burden advantage over a practical active comparator?",
+      "execution_now": false
+    },
+    {
+      "id": "R20-02",
+      "route": "Rights-compatible product contribution",
+      "value_question": "Would a concrete product/data contribution retain enough value after rights, manufacture and later development costs?",
+      "execution_now": false
+    },
+    {
+      "id": "R20-03",
+      "route": "Insulin as clinical benchmark or separate contribution",
+      "value_question": "Does evidence favor simpler care, and is any proposed additional contribution separately ownable and worth its cost?",
+      "execution_now": false
+    },
+    {
+      "id": "R20-04",
+      "route": "Revised gel or claim scope",
+      "value_question": "Does a changed article, formulation, population or nerve claim merit its own evidence and cost comparison rather than inheriting the original rank?",
+      "execution_now": false
+    },
+    {
+      "id": "R20-05",
+      "route": "Wait, stop, or choose another eligible opportunity",
+      "value_question": "Would keeping the capital or buying a more informative bounded decision dominate the actual proposed mIGF scope?",
+      "execution_now": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "B20-01",
+      "condition": "A qualified exact-product, exposure, model and comparator route fits a bounded scope with a plausible retained-value path.",
+      "action": "Consider only that next informative tranche after actual scope and costs are established.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-02",
+      "condition": "Useful repair is reproducible with meaningful functional benefit or comparable useful repair plus a demonstrated total-burden advantage at acceptable optical and safety performance.",
+      "action": "Consider independent confirmation and the next product question; do not infer clinical efficacy or fund a whole program automatically.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-03",
+      "condition": "Only acute closure, retention fluorescence, pathway markers or superficially similar means support the intended persistent-repair or convenience claim.",
+      "action": "Keep the unsupported product claim unestablished; do not convert surrogate improvement to demonstrated human benefit.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-04",
+      "condition": "A qualified comparison shows no useful functional, practical or tolerability advantage over the feasible comparator.",
+      "action": "Stop the undifferentiated financial development route; this does not deny patient benefit from either treatment.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-05",
+      "condition": "Identity, assembly, relevant exposure, model interpretation or product behavior cannot be qualified within the allowed scope.",
+      "action": "Stop or redirect that investment route while distinguishing failed qualification from target or clinical failure.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-06",
+      "condition": "A sensory or nerve-restoration claim lacks suitable evidence while an epithelial-repair claim may remain plausible.",
+      "action": "Separate and revalue the claims; neither nerve staining nor a small short sensory result proves durable clinical restoration.",
+      "execution_now": false
+    },
+    {
+      "id": "B20-07",
+      "condition": "Rights/product requirements expand cost or time, or a preliminary deliverable answers less than the original active-comparator question.",
+      "action": "Recompare the actual information yield and total remaining cost against alternatives and waiting, even if the first quoted price is unchanged.",
+      "execution_now": false
+    }
+  ],
+  "decision": "Retain the conditional exact mIGF active-comparator product option; strengthen actual-regimen, model/claim and rights/product limits; close the source pass without promotion or automatic spending.",
+  "source_scopes": [
+    "research/rounds/round20/migf-article-exposure.json",
+    "research/rounds/round20/migf-comparator-update.json",
+    "research/rounds/round20/migf-product-capture.json",
+    "research/rounds/round20/independent-review-input.json"
+  ],
+  "completion": {
+    "public_source_pass_closed": true,
+    "completed_information_sprint": "mIGF exact-product, functional/model, comparator and rights/product audit with a bounded marginal-dollar decision",
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "BLU_public_source_pass_reopened": false,
+    "NDC_public_source_pass_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "BLU_claim_exposure_model_search_reopened": false,
+    "new_mIGF_treated_people": 0,
+    "new_exact_mIGF_independent_human_function_results": 0,
+    "new_exact_intervention_use_screens": 0,
+    "new_experimental_results_generated": 0,
+    "monitoring_automation_created": false,
+    "owner_reply_scientific_selection_gate": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_for": [
+      "Specific exact-product functional or relevant exposure data that change the intended claim or feasibility.",
+      "Substantive missing primary methods/data that resolve a decision-changing denominator, timing, comparator or product question.",
+      "A relevant controlled comparator outcome or a credible exact-product, rights, access, supply or scoped-cost fact that changes the next commitment."
+    ]
+  },
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "numerical_probability_model_run": false,
+  "scientific_or_financial_models_run": false,
+  "development_execution_authorized": false,
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

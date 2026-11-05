@@ -1,0 +1,256 @@
+{
+  "schema_version": "ddiscov.round20.independent_marginal_decision_review.v1",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "candidate_id": "MIGF_CORNEA",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "review_completed_utc_date": "2026-11-05",
+  "reviewer": "migf_clinical_comparators",
+  "review_scope": "Independent review of the three root-authored decision files for fidelity to the original marginal-capital report, accurate clinical-comparator interpretation, informative-scope versus preliminary-qualification value, and preserved execution/source boundaries. Article and rights primary-source audits are supporting lane artifacts, not independently repeated legal or scientific source audits by this reviewer.",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round20/marginal-dollar-decision.md",
+      "working_path": "/workspace/scratch/e8635471e089/round20_work/decision/marginal-dollar-decision.md",
+      "bytes": 14947,
+      "sha256": "a237acdd9e5e75ed9a531b42294ec75a2941f132f666b52854611f5d23d6e6da"
+    },
+    {
+      "path": "research/rounds/round20/marginal-dollar-decision.json",
+      "working_path": "/workspace/scratch/e8635471e089/round20_work/decision/marginal-dollar-decision.json",
+      "bytes": 13994,
+      "sha256": "36a7f1b047d7f9511f5632f92e46765c4ba5fbc86f1882ab7bfcba4b9a866c3d"
+    },
+    {
+      "path": "research/rounds/round20/independent-review-input.json",
+      "working_path": "/workspace/scratch/e8635471e089/round20_work/decision/independent-review-input.json",
+      "bytes": 7043,
+      "sha256": "199e2845bd52d0942f9520cd96e064c49cb7c24ef20c6651c2c3607ca17a3910"
+    }
+  ],
+  "original_input_verification": {
+    "source_path": "/workspace/scratch/cde848be1ee7/report_content.json",
+    "source_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "selected_block_checks": [
+      {
+        "index": 2,
+        "exact_match": true
+      },
+      {
+        "index": 9,
+        "exact_match": true
+      },
+      {
+        "index": 10,
+        "exact_match": true
+      },
+      {
+        "index": 11,
+        "exact_match": true
+      },
+      {
+        "index": 12,
+        "exact_match": true
+      },
+      {
+        "index": 15,
+        "exact_match": true
+      },
+      {
+        "index": 39,
+        "exact_match": true
+      },
+      {
+        "index": 40,
+        "exact_match": true
+      },
+      {
+        "index": 41,
+        "exact_match": true
+      },
+      {
+        "index": 76,
+        "exact_match": true
+      }
+    ],
+    "all_10_selected_blocks_exact": true,
+    "original_rank_row_exact": true,
+    "original_rank_row_location": {
+      "block": 4,
+      "row": 5
+    },
+    "original_cost_row_exact": true,
+    "original_cost_row_location": {
+      "block": 14,
+      "row": 5
+    }
+  },
+  "checks": [
+    {
+      "id": "MR20-01",
+      "status": "pass",
+      "check": "Conditional development rank 5 is retained; the next eligible source sprint is not a capital promotion. APR, RM, BLU and NDC retain their prior decisions and closed source boundaries.",
+      "support": [
+        "marginal-dollar-decision.md: opening and Ranking and source closure",
+        "marginal-dollar-decision.json: selection and completion",
+        "independent-review-input.json: original rank row and block 2"
+      ]
+    },
+    {
+      "id": "MR20-02",
+      "status": "pass",
+      "check": "The $40–150k / 3–6-month range is the original judgmental local-product/active-comparator envelope, conditional on suitable model access. It is neither a verified quote nor an established executable or clinical-program budget.",
+      "support": [
+        "independent-review-input.json: original cost row and blocks 12, 15, 40",
+        "marginal-dollar-decision.md: Keep the next commitment bounded",
+        "marginal-dollar-decision.json: tranche_assumptions"
+      ]
+    },
+    {
+      "id": "MR20-03",
+      "status": "pass",
+      "check": "Identity, assembly, exposure or model-readiness-only work does not automatically inherit the original rank or EV rationale. Reduced information yield requires a new comparison even when the initial price is unchanged. Remaining product, rights and development costs are not omitted.",
+      "support": [
+        "marginal-dollar-decision.md: Keep the next commitment bounded",
+        "marginal-dollar-decision.json: tranche_assumptions and B20-07",
+        "independent-review-input.json: blocks 9–12, 40–41, 76"
+      ]
+    },
+    {
+      "id": "MR20-04",
+      "status": "pass",
+      "check": "The July cohort is correctly described as 45 eyes from 43 patients, 44 closures and median 29 days on a specified Humalog-derived 1 IU/mL QID formulation with continuing supportive care. Its proportion is not treated as an unbiased effect or compared causally with rat percentages.",
+      "support": [
+        "marginal-dollar-decision.md: Use the clinical comparator precisely",
+        "comparators/migf-comparator-update.json: C4 and associated evidence rows"
+      ]
+    },
+    {
+      "id": "MR20-05",
+      "status": "pass",
+      "check": "The 61 versus 23 historical-control PED comparison and closure counts 51/61 versus 11/23 are preserved without labeling all PED insulin evidence uncontrolled. Historical periods, selection, confounding and materially unequal recurrence follow-up prevent a causal or durable-superiority conclusion.",
+      "support": [
+        "marginal-dollar-decision.md: Use the clinical comparator precisely",
+        "marginal-dollar-decision.json: U20-03 and claim_and_stage_limits",
+        "comparators/migf-comparator-update.json: C13 and associated evidence rows"
+      ]
+    },
+    {
+      "id": "MR20-06",
+      "status": "pass",
+      "check": "Acute postoperative diabetic defects remain distinct from refractory PED or chronic denervation. Units per drop are not silently converted to units per mL. Formulation, storage, container and molecule findings are not generalized to interchangeable cheap insulin products.",
+      "support": [
+        "marginal-dollar-decision.md: Use the clinical comparator precisely",
+        "marginal-dollar-decision.json: claim_and_stage_limits",
+        "comparators/migf-comparator-update.json: C1–C3, C7, C9–C10"
+      ]
+    },
+    {
+      "id": "MR20-07",
+      "status": "pass",
+      "check": "Insulin sensory observations are acknowledged as mixed; no sensory incapability is assumed. Planned controlled trials remain plans, no direct mIGF-versus-insulin human efficacy result is claimed, and no new mIGF-treated human result is generated.",
+      "support": [
+        "marginal-dollar-decision.md: What this sprint changes and Ranking and source closure",
+        "marginal-dollar-decision.json: U20-04, claim_and_stage_limits and completion",
+        "comparators/migf-comparator-update.json: C4–C6, C7–C8, C12"
+      ]
+    },
+    {
+      "id": "MR20-08",
+      "status": "pass",
+      "check": "Feasible product regimens may be compared without a universal equal-molarity or equal-bioactivity rule across different molecules. Similar small-group means do not establish equivalence; lower administration frequency alone does not establish net burden reduction.",
+      "support": [
+        "marginal-dollar-decision.md: Define a useful product advantage",
+        "marginal-dollar-decision.json: claim_and_stage_limits and B20-02–B20-04",
+        "article/migf-article-exposure.json: AC20-03–AC20-04"
+      ]
+    },
+    {
+      "id": "MR20-09",
+      "status": "pass",
+      "check": "Useful epithelial repair and meaningful total-burden benefit are valid distinct value routes; permanent off-treatment repair is not imposed as a universal requirement. Chronic disease, recurrent breakdown and nerve-restoration claims require their own support.",
+      "support": [
+        "marginal-dollar-decision.md: Define a useful product advantage",
+        "marginal-dollar-decision.json: claim_and_stage_limits and B20-06",
+        "independent-review-input.json: blocks 40–41"
+      ]
+    },
+    {
+      "id": "MR20-10",
+      "status": "pass",
+      "check": "The marginal-information-value formulation includes the best current alternative and waiting; it does not manufacture numerical EV by pairing whole-program upside with a small literature-review cost. No probability model, measured return, replacement allocation, spending commitment, new dose/sample size or experimental protocol is created.",
+      "support": [
+        "marginal-dollar-decision.md: The information question and Conditional branches",
+        "marginal-dollar-decision.json: selection, branches, financial_npv, replacement_allocation, activity",
+        "independent-review-input.json: blocks 9–12"
+      ]
+    },
+    {
+      "id": "MR20-11",
+      "status": "pass",
+      "check": "Article and rights/product summaries are consistent with the available supporting lane conclusions: material controls and small sensory evidence are retained; active exposure remains distinct from tracer and aqueous measurements; sequence-listing discrepancy and present legal/cost limits are preserved. This check does not replace the primary audits of those lanes.",
+      "support": [
+        "marginal-dollar-decision.md: What this sprint changes and Keep the next commitment bounded",
+        "article/migf-article-exposure.json: claim_decisions",
+        "capture/migf-product-capture.json: claim_decisions"
+      ]
+    },
+    {
+      "id": "MR20-12",
+      "status": "pass",
+      "check": "All six activity restrictions, source closure of the earlier four candidates and specific-artifact-only reopening are preserved. No outreach, procurement, recruitment, material receipt, scientific/model utility or monitoring automation is authorized by the decision.",
+      "support": [
+        "marginal-dollar-decision.md: final sections",
+        "marginal-dollar-decision.json: completion, activity and development_execution_authorized"
+      ]
+    }
+  ],
+  "resolved_issues": [],
+  "corrections_required": false,
+  "open_issues": [
+    {
+      "id": "MR20-L01",
+      "blocking": false,
+      "issue": "No direct clinical mIGF-versus-insulin comparison or independently confirmed human mIGF efficacy is recovered; heterogeneous observational insulin results do not answer that question.",
+      "required_resolution": "Only a specific relevant new result could change this evidence boundary; the present decision correctly remains conditional and the source pass can close."
+    },
+    {
+      "id": "MR20-L02",
+      "blocking": false,
+      "issue": "The original illustrative tranche range is unquoted and unqualified for the informative scope; exact product, access, model and total handling costs remain uncertain.",
+      "required_resolution": "Before any future spending decision, compare the actual informative deliverable and all remaining costs. No outreach or spending is requested or undertaken here."
+    },
+    {
+      "id": "MR20-L03",
+      "blocking": false,
+      "issue": "Rights, exact granted sequence scope, present ownership/FTO and commercial terms remain outside the established evidence.",
+      "required_resolution": "A specific credible record could reopen the commercial decision; the current disclosure-aware conditional option is not an assertion of available ownership or legal clearance."
+    }
+  ],
+  "blocking_flags": {
+    "original_input_mismatch": false,
+    "development_rank_or_scope_misrepresented": false,
+    "qualification_only_scope_inherits_prior_rank": false,
+    "clinical_causality_or_unit_conflation": false,
+    "insulin_sensory_incapability_assumed": false,
+    "practical_product_comparison_requires_equal_molarity": false,
+    "new_protocol_or_restricted_activity": false,
+    "earlier_closed_source_pass_reopened": false,
+    "reviewed_file_changed_during_review": false,
+    "unresolved_blocking_issue": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "reviewed_files_edited_by_reviewer": false,
+  "repository_mutations_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

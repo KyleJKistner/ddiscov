@@ -1,0 +1,238 @@
+{
+  "schema_version": "ddiscov.round20.independent_product_capture_review.v1",
+  "round": 20,
+  "candidate_id": "MIGF_CORNEA",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "independent_article_exposure_agent",
+  "author_of_reviewed_artifacts": "product_capture_agent",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "intended_repo_path": "research/rounds/round20/independent-product-capture-review.json",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round20/migf-product-capture.md",
+      "bytes": 16467,
+      "sha256": "673a6aa69f12aa0b8005f44ea624a68dcc28a0f03fbf43804fc0a48e714a95b4",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round20/migf-product-capture.json",
+      "bytes": 23921,
+      "sha256": "3bfeb2b8cfd24b038bc309216e048c651d71ba03f9dc9ac83b30ad658d1988a4",
+      "read_in_full": true
+    }
+  ],
+  "review_scope": {
+    "full_pair_read": true,
+    "exact_identity_disclosure_and_granted_claim_distinctions": true,
+    "original_Arg_Ala_document_discrepancy_checked": true,
+    "application_grant_title_license_FTO_separation": true,
+    "physical_gel_state_vs_sterile_potent_product_stability": true,
+    "cost_scope_conditional_rank_and_retained_value": true,
+    "restriction_flags_and_internal_references": true,
+    "independent_legal_title_opinion": false,
+    "complete_global_claim_chart_or_FTO_opinion": false,
+    "new_numerical_valuation": false,
+    "reviewed_artifacts_edited_by_reviewer": false
+  },
+  "checks": [
+    {
+      "id": "PCR20-C01",
+      "status": "pass",
+      "subject": "Exact article identity and product qualification",
+      "finding": "The pair preserves Biotin-D-phenylalanine-YIGSSSR, while distinguishing cap, stereochemistry and sequence from complete terminal chemistry, salt, purity and future batch qualification. It does not infer full product equivalence from an accessible sequence or an unread graphical supplement."
+    },
+    {
+      "id": "PCR20-C02",
+      "status": "pass",
+      "subject": "New patent publication is an application",
+      "finding": "CN121949581A is identified as the 1 May 2026 publication of application CN202610165277.2, filed 5 February 2026. Its ten published claims include the exact sequence and corneal/persistent-defect uses. Application publication and hosted status labels are not represented as a verified current grant or license."
+    },
+    {
+      "id": "PCR20-C03",
+      "status": "pass",
+      "subject": "Original granted-claim document discrepancy",
+      "finding": "Independent original-PDF extractable-text readback confirms that granted claim 1 on printed page 2 incorporates SEQ ID NOs 1-3; description paragraph [0029] on printed page 5 states the Arg-ending exact derivative; SEQ ID NO 1 on printed page 9 instead ends Ala. The older A publication has nine claims with sequence IDs in dependent claim 2, whereas the B grant has eight claims and incorporates sequence IDs in claim 1. The pair neither silently corrects the mismatch nor treats it as settled coverage, exclusion, validity, or evidence that the 2026 experimental mIGF batch was wrong."
+    },
+    {
+      "id": "PCR20-C04",
+      "status": "pass",
+      "subject": "Provenance, title and territorial uncertainty",
+      "finding": "The Nankai institutional entry corroborates the exact new application metadata and named inventors. Institutional provenance, an indexed applicant/assignee and separate indexed Chinese families are kept distinct from a current assignment chain, license availability, global claim clearance and retained commercial rights."
+    },
+    {
+      "id": "PCR20-C05",
+      "status": "pass",
+      "subject": "Gel storage is not ophthalmic product shelf life",
+      "finding": "The original older grant description [0061] on printed page 7 reports refrigerated gel-state persistence without precipitation for at least one month. The pair correctly limits this to physical gel state and does not convert it into demonstrated sterility, potency, delivery, optical, container or in-use stability of a future ophthalmic product."
+    },
+    {
+      "id": "PCR20-C06",
+      "status": "pass",
+      "subject": "Regulatory-source status and applicability",
+      "finding": "The independently inspected FDA overview labels Quality Considerations for Topical Ophthalmic Drug Products as a December 2023 draft, nonbinding and not for implementation. The pair retains that status, uses quality topics as product considerations, and does not assert an exact mIGF regulatory classification or a binding final rule. The separate CGMP Q23 characterization was assessed within the pair and is not claimed here as an additional independent full-page read."
+    },
+    {
+      "id": "PCR20-C07",
+      "status": "pass",
+      "subject": "Comparator and practical benefit",
+      "finding": "The pair allows comparable useful repair plus a substantial verified practical treatment-burden advantage to support value. It does not require superiority on every endpoint, infer human adherence or willingness to pay from animal dosing frequency, assume insulin has no handling costs, or assert direct mIGF versus insulin superiority."
+    },
+    {
+      "id": "PCR20-C08",
+      "status": "pass",
+      "subject": "Conditional rank and illustrative cost scope",
+      "finding": "The inherited conditional development rank remains five after APR-246, RM4404, BLU-3797 and NDC-9009. The USD 40,000-150,000 and 3-6 month input is correctly described as judgmental and conditional, not an actual quote, full program budget or current authorization. A qualification-only deliverable cannot inherit the original rank or EV rationale at unchanged price; reduced information yield, expanded scope and waiting require a fresh marginal comparison."
+    },
+    {
+      "id": "PCR20-C09",
+      "status": "pass",
+      "subject": "Separate scientific and investment conclusions",
+      "finding": "The pair distinguishes exact disclosure, material assembly, clinical effect, qualified product, legal access and retained value. An unqualified model or delivery route can fail to buy an informative answer without proving biological failure. No new numeric EV/NPV, development promotion, ownership assertion or switch to a previously closed candidate is claimed."
+    },
+    {
+      "id": "PCR20-C10",
+      "status": "pass",
+      "subject": "Source graph, claims and activity limits",
+      "finding": "All fourteen evidence rows resolve to the twelve source records or two local inputs, and all eight claim decisions resolve to evidence rows. All five marginal routes have execution_now false. The six prohibited activity flags are false, external commitment is zero, no new protocol or manufacturing recipe was generated, and the bounded public-source stop is explicit."
+    },
+    {
+      "id": "PCR20-C11",
+      "status": "pass",
+      "subject": "Final review binding",
+      "finding": "The final Markdown and corrected JSON were read back and hashed. Review binding uses their intended repository paths, byte counts and SHA256 values. No reviewed-author artifact was edited by this reviewer."
+    }
+  ],
+  "targeted_primary_spot_checks": [
+    {
+      "id": "PCR20-S01",
+      "url": "https://patents.google.com/patent/CN121949581A/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Bibliographic metadata; claims 1-10; sequence and uses; indexed family scope",
+      "limitations": "Hosted labels are not current official prosecution/title verification."
+    },
+    {
+      "id": "PCR20-S02",
+      "url": "https://patentimages.storage.googleapis.com/c5/2f/1a/ab29ea3b830b1e/CN113321706B.pdf",
+      "access_level": "original_16_page_pdf_extractable_text",
+      "sections": "Cover; printed page 2 claim 1 and remaining claims; printed page 5 paragraph [0029]; printed page 7 paragraph [0061]; printed page 9 SEQ ID NO 1",
+      "limitations": "No visual page-render inspection is asserted by this reviewer. Direct open initially failed, then the publicly displayed Download PDF link successfully returned the original document."
+    },
+    {
+      "id": "PCR20-S03",
+      "url": "https://patents.google.com/patent/CN113321706B/zh",
+      "access_level": "original_language_primary_patent_text_on_hosted_index",
+      "sections": "Claims, Arg-ending description, Ala-ending sequence listing and physical storage statement",
+      "limitations": "No legal harmonization of the discrepancy or present title conclusion."
+    },
+    {
+      "id": "PCR20-S04",
+      "url": "https://patents.google.com/patent/CN113321706A/en",
+      "access_level": "published_primary_patent_text_on_hosted_index",
+      "sections": "Earlier application claims 1-9; sequence-ID limitation in claim 2",
+      "limitations": "Earlier application claims are not substituted for granted claims."
+    },
+    {
+      "id": "PCR20-S05",
+      "url": "https://ipis.nankai.edu.cn/achievement/4604/",
+      "access_level": "institutional_primary_metadata",
+      "sections": "Exact new application number, dates, application type and named inventors",
+      "limitations": "No license terms or verified assignment chain."
+    },
+    {
+      "id": "PCR20-S06",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-considerations-topical-ophthalmic-drug-products",
+      "access_level": "official_guidance_overview",
+      "sections": "December 2023 draft status, nonbinding/not-for-implementation labeling and listed quality topics",
+      "limitations": "No full guidance-PDF read or exact-product regulatory ruling."
+    },
+    {
+      "id": "PCR20-S07",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+      "access_level": "primary_article_main_text",
+      "sections": "Exact material, assembly, exposure, efficacy, methods and product limitations read in independent article lane",
+      "limitations": "Supplement remained inaccessible; no full terminal-structure audit or animal-data receipt."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "PCR20-I01",
+      "severity": "schema_precision_only",
+      "blocking": false,
+      "status": "resolved_before_final_hash_binding",
+      "finding": "PC20-13 and PC20-14 initially used the singular source key for prose integration explanations. That key could be interpreted as a source identifier by the root reference validator.",
+      "resolution": "The author renamed those two keys to decision_basis. Existing valid source_ids and all substantive findings were preserved. Markdown remained unchanged.",
+      "verified_by_reviewer": true
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "PCR20-O01",
+      "blocking": false,
+      "scope": "Underlying legal evidence limit",
+      "finding": "Original Arg/Ala discrepancy, substantive prosecution history, present title, territorial coverage and any actionable license remain unqualified. The pair expressly preserves these unknowns.",
+      "reopen_trigger": "Substantive original prosecution/title/license records or a scoped qualified legal analysis of the exact product and target territory."
+    },
+    {
+      "id": "PCR20-O02",
+      "blocking": false,
+      "scope": "Underlying product evidence limit",
+      "finding": "Complete future batch/end-group specification, sterile potent ophthalmic supply, shelf life, container performance and practical cost are not established by the accessible paper or physical gel-state observation.",
+      "reopen_trigger": "Decision-relevant exact-product quality, delivery, stability and documented cost evidence; no new acquisition or experiment is authorized."
+    },
+    {
+      "id": "PCR20-O03",
+      "blocking": false,
+      "scope": "Underlying comparative-value limit",
+      "finding": "No direct exact-mIGF human active-comparator outcome, validated human burden advantage or retained-value estimate is established.",
+      "reopen_trigger": "Substantive exact-product comparative benefit or practical product evidence, considered alongside actual feasible comparator regimens."
+    },
+    {
+      "id": "PCR20-O04",
+      "blocking": false,
+      "scope": "Underlying marginal-cost limit",
+      "finding": "A feasible offer that can buy the original useful functional and comparator answer at the illustrative tranche scope has not been established. Readiness-only work is a different information purchase.",
+      "reopen_trigger": "Concrete scoped deliverable, actual costs, actionable rights/product route and fresh marginal comparison including alternatives and waiting."
+    }
+  ],
+  "verification": {
+    "reviewed_file_count": 2,
+    "reviewed_sources_count": 12,
+    "reviewed_local_inputs_count": 2,
+    "reviewed_evidence_rows_count": 14,
+    "reviewed_claim_decisions_count": 8,
+    "reviewed_marginal_routes_count": 5,
+    "source_references_resolve": true,
+    "claim_support_references_resolve": true,
+    "all_route_execution_flags_false": true,
+    "all_six_restricted_activity_flags_false": true,
+    "final_hashes_recomputed_from_file_bytes": true
+  },
+  "retrieval_stop": {
+    "status": "bounded_review_complete",
+    "further_broad_search_performed": false,
+    "further_research_required_for_review_acceptance": false,
+    "evidence_limits_are_not_document_defects": true
+  },
+  "completion": {
+    "scientific_or_financial_models_run": false,
+    "new_protocol_generated": false,
+    "reviewed_artifacts_edited_by_reviewer": false,
+    "repository_snapshot_mutations": false,
+    "remote_writes": false,
+    "external_messages_sent": false,
+    "material_requested": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

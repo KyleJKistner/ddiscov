@@ -1,0 +1,107 @@
+{
+  "schema_version": "ddiscov.round20.independent_review_input.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "candidate_id": "MIGF_CORNEA",
+  "original_report": "ddiscov_marginal_capital_ranking.pdf",
+  "source_report_input": "/workspace/scratch/cde848be1ee7/report_content.json",
+  "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+  "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "provenance": "Exact selected blocks and rows from the recovered authored input underlying the prior independent report. Historical analyst assumptions, not a new clinical study or verified financial valuation.",
+  "original_ordinal_rank": 5,
+  "original_rank_row": [
+    "5",
+    "mIGF-Gel / cornea",
+    "Defined local product; a cheap active comparator makes early rejection possible.",
+    "No functional or dosing advantage over topical insulin; optical/product failure."
+  ],
+  "original_cost_row": [
+    "mIGF-Gel",
+    "US$40–150k",
+    "3–6 months",
+    "Judgmental local-product/active-comparator envelope; depends on access to a suitable model."
+  ],
+  "selected_original_blocks": [
+    {
+      "index": 2,
+      "block": {
+        "type": "p",
+        "text": "<b>Recommendation.</b> Round 15 correctly retires the historical effort allocation as a funding rule. My independent ranking of the 34 current priority/reserve candidates begins <b>topical APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT for donor-lung preservation/perfusion</b>. These are small, conditional investments that could create or eliminate a commercial option. BLU ranks third; this is not a recommendation to fund seven complete programs."
+      }
+    },
+    {
+      "index": 9,
+      "block": {
+        "type": "p",
+        "text": "The objective is <b>discounted financial value retained by ddiscov</b>, after subsequent development costs, commercial costs, license payments, royalties, partner sharing and financing dilution. Patient benefit matters because it supports adoption and reimbursement, but valuable patient care and a valuable owned business are different outputs. This objective is an explicit assumption; a philanthropic health-value ranking would favor several inexpensive repurposed treatments more strongly."
+      }
+    },
+    {
+      "index": 10,
+      "block": {
+        "type": "p",
+        "text": "For an action a, the relevant comparison is: <b>expected value of the best decision after learning from a, minus the value of the best decision available now, minus the cost of a</b>. Divide that increment by the action’s cost only when comparing similarly bounded opportunities. Counting a hypothetical whole-drug NPV against a tiny literature-review bill would manufacture an enormous, meaningless return."
+      }
+    },
+    {
+      "index": 11,
+      "block": {
+        "type": "p",
+        "text": "I start with the substantial attrition and financing burden of drug development, then update for exact-article functional evidence, clinically relevant tissue exposure, replication, feasible delivery and a defensible commercial position. Selected cases, biomarkers, related molecules and favorable animal models each update different uncertainties. They cannot be multiplied as if they were independent successes. A proposed future positive result is not evidence already earned."
+      }
+    },
+    {
+      "index": 12,
+      "block": {
+        "type": "p",
+        "text": "The public record does not identify license prices, net revenue, eligible reachable patients, clinical development budgets or retained ownership well enough to support credible numerical EV/$ estimates. The ranking is therefore ordinal and conditional. The cost ranges below are analyst planning judgments, not quotations, commitments, full program budgets or estimates of approval probability."
+      }
+    },
+    {
+      "index": 15,
+      "block": {
+        "type": "small",
+        "text": "All development tranches are hypothetical and unexecuted. Rights, licensing, GLP toxicology, GMP clinical manufacture, trials and commercialization are excluded. Requiring new platforms or inaccessible materials can exceed these ranges. Time to a decision is not time to revenue. The ranges overlap and do not by themselves establish the ordering."
+      }
+    },
+    {
+      "index": 39,
+      "block": {
+        "type": "h2",
+        "text": "5 — Defined mIGF-Gel / persistent corneal epithelial repair"
+      }
+    },
+    {
+      "index": 40,
+      "block": {
+        "type": "p",
+        "text": "The exact biotin-D-Phe peptide gel has rat repair and small-group sensory evidence, not established efficacy in human chronic denervation. Its potentially favorable capital efficiency comes from a clear early comparator: useful barrier/adhesion recovery and dosing convenience against a credible topical-insulin regimen. Optical quality, release, assembly and potency must be assessed as one product. <link href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/\" color=\"#176289\">Primary gel study</link>."
+      }
+    },
+    {
+      "index": 41,
+      "block": {
+        "type": "p",
+        "text": "I promote mIGF above P2 because it could be rejected or differentiated through a relatively bounded local-product question. Existing Nankai patent publications mean it is a licensing/formulation opportunity, not a newly invented unclaimed peptide. If a practical insulin regimen already delivers equivalent outcomes with little burden, the financial thesis collapses. <link href=\"https://patents.google.com/patent/CN121949581A/en\" color=\"#176289\">CN121949581A</link>; <link href=\"https://patents.google.com/patent/CN113321706B/en\" color=\"#176289\">CN113321706B</link>."
+      }
+    },
+    {
+      "index": 76,
+      "block": {
+        "type": "p",
+        "text": "The most robust judgments are to keep the legacy majority allocation retired, preserve the local challengers, account for incumbent value capture, and stop repetitive closed audits. The exact APR/RM/BLU order has only moderate-to-low confidence: a favorable BLU license or an expensive ocular formulation can reverse it. mIGF versus NDC/P2 is also close. Numerical ranks here are work priorities under stated assumptions, not measured differences in expected dollars."
+      }
+    }
+  ],
+  "original_claim_scope": "Defined local product for persistent corneal epithelial repair, with an active-comparator/product question and separately justified nerve claims.",
+  "inherited_interpretation": "Earlier source closures do not demote development opportunities. The rank depends on the informative scope. Changed or reduced information yield, actual costs, time, rights and contribution require re-comparison.",
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

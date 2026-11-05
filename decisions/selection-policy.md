@@ -2,6 +2,14 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 20: exact product, practical comparator and useful information
+
+The [mIGF decision](../research/rounds/round20/marginal-dollar-decision.md) preserves the original conditional order while sharpening the active-comparator question. Separate acute or steroid-suppressed repair from treatment of an established persistent defect. Tracer retention, aqueous PK and nominal concentration are not interchangeable with intact epithelial exposure. Existing controls and biological-unit uncertainty must remain visible.
+
+Compare feasible products and useful outcomes, including total burden, optical performance and tolerability. Identical molarity is not a universal requirement across molecules, and fewer administrations alone do not prove a practical advantage. Similar small-group means are not noninferiority. Insulin historical-control and case-series observations have causal/follow-up limits; do not combine distinct formulations, populations or per-drop/per-mL units into one treatment effect. Trial plans are not results.
+
+Exact older sequence disclosure, incorporated sequence-list wording, application/grant status, current title and available rights remain different questions. The Arg/Ala discrepancy is not silently resolved. Physical gel-state storage is not a validated sterile, potent ophthalmic product shelf life. A preliminary qualification deliverable cannot inherit the original rank or EV at unchanged price if it buys less information. Recompare actual remaining costs, useful contribution and waiting. The APR/RM/BLU/NDC/mIGF source passes are closed pending specific decision-changing evidence.
+
 ## Round 19: useful claim, actual information yield and retained value
 
 The [NDC decision](../research/rounds/round19/marginal-dollar-decision.md) scopes a negative result to the intended claim. Assembly alone is not lesion repair or clinical prevention. Useful ongoing control need not be a cure; prevention requires its own useful outcome, exposure, comparator and economic case. Off-treatment durability is mandatory only when that property is claimed. A mechanism or an inadequate assay cannot replace the clinical/product question.

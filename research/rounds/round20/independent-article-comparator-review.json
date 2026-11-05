@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0",
+  "round": 20,
+  "candidate_id": "MIGF_CORNEA",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "migf_product_capture",
+  "author_of_reviewed_artifacts": [
+    "migf_article_exposure",
+    "migf_clinical_comparators"
+  ],
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "intended_repo_path": "research/rounds/round20/independent-article-comparator-review.json",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round20/migf-article-exposure.md",
+      "bytes": 14348,
+      "sha256": "8972db57fb3baf3b2a52a98914397dd3db635c24c91ce213e9addca7ba56c9b0",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round20/migf-article-exposure.json",
+      "bytes": 18449,
+      "sha256": "258d93c31ec7121b565112c7e99068862af5a0174e8624e02d196e3bb232f0bb",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round20/migf-comparator-update.md",
+      "bytes": 17557,
+      "sha256": "2477ffbf1c080ef5cc8cf203a10fdcd14b476984a373d896f5c773970f5fb68c",
+      "read_in_full": true
+    },
+    {
+      "path": "research/rounds/round20/migf-comparator-update.json",
+      "bytes": 27794,
+      "sha256": "cc2756d81b1da2faae762493b0c550105078cdc0da819554d98a5db98b304a52",
+      "read_in_full": true
+    }
+  ],
+  "review_scope": {
+    "all_four_final_files_read_in_full": true,
+    "independent_primary_spot_checks_performed": true,
+    "every_primary_source_independently_reaudited": false,
+    "primary_scope": "Targeted rereading of the main mIGF article, historical insulin comparison, current cenegermin label, August2026 insulin sensory abstract, Spanish trial protocol and legacy official trial record.",
+    "checks": "Source-to-claim fidelity; species, compartment, concentration and endpoint distinctions; units and denominators; reported versus verified methods; actual access level; causal limits; useful practical regimen versus universal molar equivalence; trial plans versus results; conditional marginal-value scope; finite retrieval and restrictions.",
+    "supplement_or_raw_data_independently_obtained": false,
+    "new_search_queries_used_for_review": false,
+    "new_protocol_or_model_designed": false
+  },
+  "checks": [
+    {
+      "id": "IAC20-01",
+      "status": "pass",
+      "topic": "Article identity and access",
+      "assessment": "Main-text identity is kept separate from terminal chemistry, analytical supplement and a future batch. Figures and supplementary values are not represented as independently digitized or read. An access failure is not converted into proof of absent data."
+    },
+    {
+      "id": "IAC20-02",
+      "status": "pass",
+      "topic": "Model, units and experimental accounting",
+      "assessment": "Acute and dexamethasone-delayed rat settings remain distinct. Figure-level n, administration volume and frequency are reported only where recovered; the report does not relabel delayed injury as established chronic human disease or infer full eye/animal independence."
+    },
+    {
+      "id": "IAC20-03",
+      "status": "pass",
+      "topic": "Frequency comparison",
+      "assessment": "The recorded similar healing percentages do not become a formal noninferiority result, a dose-normalized efficacy comparison or demonstrated human convenience. Equal molarity between distinct products is not imposed as a universal commercial gate."
+    },
+    {
+      "id": "IAC20-04",
+      "status": "pass",
+      "topic": "Exposure and tissue function",
+      "assessment": "Nominal cell concentration, tracer retention, aqueous-humor PK, surface closure, architecture, nerve staining and sensation remain distinct measurements. The audit retains functional sensory evidence without promoting it to durable human nerve restoration or a therapeutic window."
+    },
+    {
+      "id": "IAC20-05",
+      "status": "pass",
+      "topic": "Insulin populations and products",
+      "assessment": "Acute postoperative randomized trials are distinguished from refractory PED cohorts. Per-drop activity is not equated to IU/mL; products, vehicles and observation periods remain source specific. The 28-eye PED subset is not replaced by the heterogeneous 57-eye cohort denominator."
+    },
+    {
+      "id": "IAC20-06",
+      "status": "pass",
+      "topic": "Historical comparison and recurrence",
+      "assessment": "The insulin-versus-serum evidence is correctly identified as historical control. Closure times are conditional on healing, and unequal follow-up is retained as a barrier to interpreting crude recurrence as a causal durability advantage. Nonsignificant baseline tests do not establish exchangeability."
+    },
+    {
+      "id": "IAC20-07",
+      "status": "pass",
+      "topic": "Mixed sensory observations",
+      "assessment": "The newer insulin sensory abstract is acknowledged while its inaccessible effect magnitude, complete-case denominator and treatment-course details remain unresolved. Its uncontrolled signal is not translated into structural reinnervation or a definitive treatment effect."
+    },
+    {
+      "id": "IAC20-08",
+      "status": "pass",
+      "topic": "Plans, labels and observed outcomes",
+      "assessment": "Planned enrollment and a projected completion date are separated from observed completion/results. The legacy registry display is not represented as verified live accrual. Approved NK label endpoints and exclusions are preserved; the separate PCED study-start disclosure is not treated as efficacy."
+    },
+    {
+      "id": "IAC20-09",
+      "status": "pass",
+      "topic": "Practical value and conditional economics",
+      "assessment": "Equivalent useful repair with a meaningful practical advantage remains a possible value proposition, not an observed advantage. Ingredient price is not delivered sterile-product cost. The illustrative original envelope is not a quote, and qualification-only work requires a new comparison of information yield even at unchanged price."
+    },
+    {
+      "id": "IAC20-10",
+      "status": "pass",
+      "topic": "Source references and restriction consistency",
+      "assessment": "Both JSON files parse; evidence source_ids and claim support IDs resolve within their own source/evidence/local-input namespace. Their candidate, base commit, base tree and six false activity flags agree. No reviewed file was edited by this reviewer."
+    }
+  ],
+  "targeted_primary_spot_checks": [
+    {
+      "id": "IAC20-S1",
+      "artifact_source": "article:S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+      "access": "main_text_and_figure_legends",
+      "locations": [
+        "2.4.1",
+        "2.4.2",
+        "Figure6 legend",
+        "Figure8 legend",
+        "4.4.1",
+        "4.4.3",
+        "4.4.4"
+      ],
+      "verified": "Animal-model distinctions, reported frequency comparison, figure sample labels, tracer retention, aqueous-humor HPLC in rabbits and the separation of these from epithelial target exposure.",
+      "web_reference_ids": [
+        "turn83view0",
+        "turn84view0",
+        "turn84view1",
+        "turn84view3",
+        "turn85view0",
+        "turn85view1",
+        "turn86view1"
+      ]
+    },
+    {
+      "id": "IAC20-S2",
+      "artifact_source": "comparators:C13",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aos.14997",
+      "access": "primary_full_text_relevant_sections",
+      "locations": [
+        "Methods",
+        "Table2",
+        "Results",
+        "Figure1 legend"
+      ],
+      "verified": "Historical periods and exclusion rules, shared background care, closure counts, healer-only time summaries and unequal follow-up are faithfully qualified.",
+      "web_reference_ids": [
+        "turn83view1",
+        "turn84view4",
+        "turn84view5",
+        "turn86view0"
+      ]
+    },
+    {
+      "id": "IAC20-S3",
+      "artifact_source": "comparators:C11",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89e4bfec-d710-40ed-8885-5d13ba46b1cd",
+      "access": "primary_regulatory_label",
+      "locations": [
+        "Dosage and administration",
+        "Clinical studies Table1",
+        "Clinical studies Table2",
+        "Storage and handling"
+      ],
+      "verified": "Exact NK product regimen, strict week-eight healing denominators and no-postbaseline exclusion, recurrence subset and limited sensitivity conclusion agree with the label.",
+      "web_reference_ids": [
+        "turn83view2",
+        "turn84view6",
+        "turn84view7"
+      ]
+    },
+    {
+      "id": "IAC20-S4",
+      "artifact_source": "comparators:C6",
+      "url": "https://link.springer.com/article/10.1007/s10792-026-04221-5",
+      "access": "primary_publisher_abstract_subscription_full_text_not_obtained",
+      "locations": [
+        "Methods abstract",
+        "Results abstract"
+      ],
+      "verified": "The report preserves the sensory signal and the unresolved treatment-duration inconsistency without inferring a complete-closure denominator.",
+      "web_reference_ids": [
+        "turn85view3"
+      ]
+    },
+    {
+      "id": "IAC20-S5",
+      "artifact_source": "comparators:C7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12458728/",
+      "access": "primary_protocol_main_text",
+      "locations": [
+        "Methods and analysis",
+        "Sample size",
+        "Trial status"
+      ],
+      "verified": "Enrollment and completion language are prospective protocol statements, not randomized outcome or observed recruitment completion.",
+      "web_reference_ids": [
+        "turn85view4",
+        "turn86view3",
+        "turn86view4"
+      ]
+    },
+    {
+      "id": "IAC20-S6",
+      "artifact_source": "comparators:C8",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2022-003589-19/ES",
+      "access": "legacy_official_summary",
+      "locations": [
+        "Summary"
+      ],
+      "verified": "Legacy display says Ongoing with an empty trial-results field. This does not verify current live recruitment or absence of results in every possible location.",
+      "web_reference_ids": [
+        "turn85view5"
+      ]
+    },
+    {
+      "id": "IAC20-S7",
+      "artifact_source": "comparators:C1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28828764/",
+      "access": "bibliographic_record_initially_available_abstract_reread_failed",
+      "locations": [
+        "Indexed record"
+      ],
+      "verified": "Reviewer verified identity but did not independently re-audit the numerical abstract because targeted subsequent retrieval returned no substantive text. Per-drop versus concentration consistency was checked in the authored pair; author-reported primary abstract scope remains explicit.",
+      "web_reference_ids": [
+        "turn85view2",
+        "turn86view2",
+        "turn87view0"
+      ]
+    }
+  ],
+  "resolved_issues": [],
+  "resolved_issue_count": 0,
+  "corrections_requested_of_authors": [],
+  "open_issues": [
+    {
+      "id": "IAC20-O1",
+      "blocking": false,
+      "type": "evidence_access_limit",
+      "issue": "The mIGF supplement, raw animal-level data and complete analytical identity package were not recovered.",
+      "disposition": "Already explicit; no claims depend on pretending the inaccessible material was audited. Does not block publishing the bounded public-source review."
+    },
+    {
+      "id": "IAC20-O2",
+      "blocking": false,
+      "type": "experimental_reporting_limit",
+      "issue": "Complete delivered topical active exposures, delayed-model animal/eye allocation and sensory-method details remain unqualified.",
+      "disposition": "Already explicit; claims are limited to reported results and a conditional product question."
+    },
+    {
+      "id": "IAC20-O3",
+      "blocking": false,
+      "type": "translation_limit",
+      "issue": "Clinical product advantage, intended-compartment active exposure and durable human repair remain unestablished.",
+      "disposition": "No human mIGF effect, formal equivalence or spending gate is represented as passed."
+    },
+    {
+      "id": "IAC20-O4",
+      "blocking": false,
+      "type": "comparator_causal_limit",
+      "issue": "Historical selection, uncontrolled cohorts, heterogeneous products and uncertain eye-level dependence prevent pooled or causal cross-study ranking.",
+      "disposition": "Already explicit; practical benchmark relevance is retained without numerical effect transfer."
+    },
+    {
+      "id": "IAC20-O5",
+      "blocking": false,
+      "type": "trial_access_limit",
+      "issue": "The modern official trial record and current completed enrollment/results were not verified.",
+      "disposition": "The review preserves protocol and legacy-display status only; generic search is closed."
+    },
+    {
+      "id": "IAC20-O6",
+      "blocking": false,
+      "type": "economic_scope_limit",
+      "issue": "Actual rights, supply, product specifications, delivered costs and informative tranche feasibility are not established by these article/comparator sources.",
+      "disposition": "The inherited rank and envelope remain conditional; a narrower qualification scope cannot inherit their information value automatically."
+    },
+    {
+      "id": "IAC20-O7",
+      "blocking": false,
+      "type": "review_access_limit",
+      "issue": "Reviewer could not retrieve substantive Fai abstract content on targeted reread, though the indexed identity opened and the author records an abstract-level audit.",
+      "disposition": "No claim that every primary source was independently reread; no contradiction was found between the two authored representations."
+    }
+  ],
+  "verification": {
+    "four_final_files_bound": true,
+    "article_evidence_row_count": 16,
+    "article_claim_decision_count": 11,
+    "comparator_evidence_row_count": 16,
+    "comparator_claim_decision_count": 8,
+    "source_and_support_reference_errors": 0,
+    "candidate_and_base_match": true,
+    "md_json_material_consistency": "pass",
+    "reviewed_artifact_mutations_by_reviewer": false,
+    "reported_source_outcomes_reanalyzed_or_simulated": false,
+    "no_blocking_corrections_required": true
+  },
+  "retrieval_stop": {
+    "review_pass_closed": true,
+    "new_broad_search_performed": false,
+    "further_generic_retrieval_planned": false,
+    "reason": "Targeted primary checks resolved the concrete fidelity concerns; remaining limits are explicit and do not justify another generic pass.",
+    "reopen_only_for": [
+      "A material source contradiction in a reviewed claim",
+      "A changed bound artifact requiring renewed review",
+      "A named decision-changing primary artifact within the authorized public-source scope"
+    ]
+  },
+  "completion": {
+    "source_extraction_and_decision_review_only": true,
+    "new_scientific_or_financial_model_run": false,
+    "new_protocol_designed": false,
+    "development_or_spending_authorized": false,
+    "prior_closed_candidate_source_passes_reopened": false,
+    "repository_files_edited_by_reviewer": false,
+    "remote_writes_by_reviewer": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

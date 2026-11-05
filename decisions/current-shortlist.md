@@ -1,8 +1,24 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 19.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 20.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 19: NDC9009/Darier and the value of an informative next decision
+## Round 20: mIGF-Gel and a useful practical comparator decision
+
+**Retain the conditional exact-product/active-comparator option and close this source pass.** The independent conditional order remains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel**, under the original informative-scope assumptions. Selecting mIGF for the next information sprint does not demote the four completed source passes or replace historical effort points with a financial allocation. [Decision](../research/rounds/round20/marginal-dollar-decision.md)
+
+The primary audit preserves rat repair, a small sensory signal and existing material controls. Acute debridement, steroid-suppressed healing and treatment after an established persistent deficit remain distinct. Tracer fluorescence, aqueous-humor PK and nominal gel concentrations do not establish intact epithelial target exposure. Similar small-group means are not noninferiority or demonstrated human convenience. [Article/exposure audit](../research/rounds/round20/migf-article-exposure.md)
+
+The insulin comparator now includes exact persistent-defect historical-control and multicenter observational evidence, kept separate from acute postoperative randomized studies. Confounding, background care, unequal follow-up, per-drop versus per-mL units and formulation differences remain explicit. Sensory findings are mixed, trial plans are not results, and no direct clinical mIGF comparison was recovered. Practical comparison can use each feasible regimen; equal molarity is not a universal commercial gate. [Comparator audit](../research/rounds/round20/migf-comparator-update.md)
+
+Older patent prose explicitly names the mIGF sequence, while the original granted sequence list has an Arg/Ala discrepancy. The newer corneal record is an application, corroborated institutionally. Current title, exact granted coverage, license terms, FTO and commercial product availability remain unqualified. Physical gel-state storage is not a validated sterile, potent ophthalmic shelf life. [Product/capture audit](../research/rounds/round20/migf-product-capture.md)
+
+**Current mIGF interpretation:** useful repair and total practical burden govern the product question. Comparable useful repair with a meaningful practical advantage can have value, but fewer administrations alone do not establish that advantage. Epithelial repair, recurrence/durability and nerve restoration require claim-appropriate evidence; no universal permanent-cure requirement is imposed. These current limits govern interpretation of the earlier retained analyses.
+
+The inherited **$40–150k / 3–6-month** assumption covers a useful local-product/active-comparator question, conditional on a suitable model. It is not an executable quote or complete ophthalmic program. A preliminary qualification scope that delivers less information does not inherit rank five or its EV rationale even at unchanged price. Recompare actual information, remaining costs, useful contribution and waiting. No portion is automatically funded.
+
+The selected mIGF source pass is closed pending specific function/exposure, substantive primary-method, comparator, rights/access or scoped-cost evidence that changes a named commitment. APR, RM, BLU, NDC and earlier named closures remain in force. No outreach, purchases, recruitment, experiments, simulations or material receipt occurred or is authorized.
+
+## Retained Round 19: NDC9009/Darier and the value of an informative next decision
 
 **Retain a conditional NDC qualification option and close the selected public-source pass.** NDC follows the completed APR, RM and BLU information sprints. The independent conditional development order remains **APR-246 → RM4404 → BLU-3797 → NDC-9009**; source closure does not demote the earlier programs. Historical effort points are not money or EV. [Decision and branches](../research/rounds/round19/marginal-dollar-decision.md)
 

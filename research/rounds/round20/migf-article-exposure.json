@@ -1,0 +1,511 @@
+{
+  "schema_version": "ddiscov.round20.migf_article_exposure.v1",
+  "candidate_id": "MIGF_CORNEA",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "author": "migf_article_exposure",
+  "status": "bounded_public_source_pass_closed",
+  "intended_repo_paths": [
+    "research/rounds/round20/migf-article-exposure.md",
+    "research/rounds/round20/migf-article-exposure.json"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Self-assembling biomimetic peptide hydrogel regulates tissue homeostasis to promote repair of persistent corneal epithelial defects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+      "doi": "10.1016/j.bioactmat.2026.07.025",
+      "first_online_date": "2026-07-18",
+      "issue_date": "2026-12",
+      "access_level": "primary_full_main_text_html_and_Figure8_legend",
+      "figure8_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/figure/fig8/",
+      "supplement_read": false,
+      "figure_pixels_independently_read": false,
+      "raw_animal_data_recovered": false
+    },
+    {
+      "id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13400331/bin/mmc1.docx",
+      "access_level": "retrieval_failed_recaptcha_interstitial",
+      "listed_size": "4.6 MB",
+      "contents_read": false
+    },
+    {
+      "id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2452199X26004226",
+      "access_level": "indexed_primary_publisher_metadata_and_abstract_direct_open_403",
+      "same_study_as": "S1",
+      "used_as_independent_efficacy_replication": false
+    },
+    {
+      "id": "S4",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2452199X26004226-mmc1.docx",
+      "access_level": "official_publisher_attachment_path_retrieval_failed",
+      "contents_read": false
+    },
+    {
+      "id": "S5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42502320/",
+      "access_level": "indexed_bibliographic_metadata",
+      "used_for": "Study identity and online-versus-issue publication-date distinction only"
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "L1",
+      "path": "round20-context.json",
+      "source_report_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "scope": "Preserved independent fifth-rank and illustrative tranche assumptions, not primary biological evidence."
+    },
+    {
+      "id": "L2",
+      "paths": [
+        "research/rounds/round2/round2_barrier_local.md",
+        "research/rounds/round3/round3_root_deltas.json"
+      ],
+      "scope": "Inherited exact-article and source-limit context, not independent replications."
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "AE20-01",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "Introduction; 2.1; 4.2.1",
+      "reported_article": "Biotin-D-phenylalanine-YIGSSSR",
+      "N_terminal_cap": "biotin",
+      "D_residue": "phenylalanine immediately after cap",
+      "terminal_chemistry_salt_impurity_spec_and_future_batch_authenticated": false,
+      "interpretation": "Main-text sequence/cap/stereochemistry are defined; unread supporting spectra and a future physical batch are separate."
+    },
+    {
+      "id": "AE20-02",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.1; Figure1; 4.2",
+      "reported_gel_concentration_wt_percent": 0.4,
+      "reported_CAC_uM": 205,
+      "interpretation": "Reported assembly behavior is not a measurement of free tissue exposure or a universal threshold for immediate disassembly after dilution."
+    },
+    {
+      "id": "AE20-03",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.3.1; 4.3.1-4.3.2",
+      "cell_concentration_range_nM": [
+        10,
+        400
+      ],
+      "reported_peak_proliferation_nM": 50,
+      "cell_IGF1_comparator_ng_per_mL": 10,
+      "cell_assembly_state_verified": false,
+      "interpretation": "Nominal nanomolar cell activity does not establish the same physical state as the instilled gel; no universal equal-molarity product-comparison requirement inferred."
+    },
+    {
+      "id": "AE20-04",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.1; 2.3.1; 2.4.2",
+      "material_controls_present": [
+        "single_motif",
+        "scrambled_peptide",
+        "blank_hydrogel"
+      ],
+      "all_physical_properties_matched": false,
+      "scrambled_sequence_in_control_list": "Biotin-D-FGIYSRSR",
+      "scrambled_sequence_in_TEM_paragraph": "Biotin-D-FGIYSRSS",
+      "reporting_difference_resolved": false,
+      "interpretation": "Controls exist but differ in material behavior; sequence-text discrepancy does not prove wrong mIGF identity or invalidity."
+    },
+    {
+      "id": "AE20-05",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.4.1; Figure6; 4.4.1",
+      "model": "acute_rat_epithelial_debridement_with_basement_membrane_injury",
+      "random_allocation_explicit": true,
+      "reported_administrations_per_day": 2,
+      "reported_volume_uL_per_administration": 10,
+      "closure_and_defect_length_reported_n": 5,
+      "reported_48h_closure_percent": {
+        "mIGF_Gel": 94.1,
+        "IGF1": 86.08,
+        "PBS": 76.88
+      },
+      "topical_active_concentrations_fully_recovered": false,
+      "interpretation": "Early repair with spontaneous healing, not a chronic refractory clinical defect."
+    },
+    {
+      "id": "AE20-06",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.4.2; Figure8; 4.4.1",
+      "model": "dexamethasone_suppressed_rat_healing_after_debridement",
+      "dexamethasone_frequency": "daily",
+      "dexamethasone_concentration_recovered": false,
+      "results_reported_administrations_per_day": {
+        "mIGF_Gel": 1,
+        "IGF1": 3
+      },
+      "figure8_all_data_reported_n": 3,
+      "documented_persistent_deficit_before_treatment_verified": false,
+      "interpretation": "After-injury dosing is described; a separately established persistent refractory deficit before treatment was not verified."
+    },
+    {
+      "id": "AE20-07",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.4.2; Figure8C",
+      "reported_healing_rate_percent": {
+        "mIGF_Gel": {
+          "mean": 96.35,
+          "SD": 1.06
+        },
+        "IGF1": {
+          "mean": 97.37,
+          "SD": 2.3
+        }
+      },
+      "quoted_comparison_timepoint_independently_mapped": false,
+      "prespecified_equivalence_or_noninferiority_demonstrated": false,
+      "equal_delivered_bioactivity_demonstrated": false,
+      "interpretation": "Similar reported outcomes at different frequencies are a product hypothesis, not proved human convenience or a noninferiority result."
+    },
+    {
+      "id": "AE20-08",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "Figure8H/L/M; 2.4.2",
+      "reported_time_day": 7,
+      "readouts": [
+        "beta_tubulin_positive_nerve_area",
+        "corneal_sensitivity"
+      ],
+      "reported_n": 3,
+      "sensory_instrument_calibration_and_masking_recovered": false,
+      "interpretation": "Sensation is functional evidence beyond staining; small reported groups and model scope do not establish human chronic denervation repair."
+    },
+    {
+      "id": "AE20-09",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "4.4.1; 4.4.5; 4.6; data availability",
+      "acute_randomization_explicit": true,
+      "delayed_animal_eye_allocation_and_missing_data_complete": false,
+      "delayed_specific_randomization_and_masking_auditable": false,
+      "raw_individual_animal_dataset_recovered": false,
+      "author_data_request_made": false,
+      "interpretation": "Unresolved reporting/access fields are not evidence that randomization or masking did not occur."
+    },
+    {
+      "id": "AE20-10",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "Figure7; Figure8; 2.4.1-2.4.2",
+      "readouts": [
+        "fluorescein_closure",
+        "epithelial_stratification",
+        "LAMC2_ITGB1_localization",
+        "nerve_area",
+        "sensation"
+      ],
+      "direct_mechanical_adhesion_strength_verified": false,
+      "durable_barrier_or_recurrence_result_verified": false,
+      "off_treatment_durability_verified": false,
+      "interpretation": "Architecture and markers support a repair-quality hypothesis; intended clinical claims must remain separate."
+    },
+    {
+      "id": "AE20-11",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.4.1; Figure6F; 4.4.3",
+      "retention_readout": "fluorescence_from_labeled_or_marker_containing_formulations",
+      "reported_initial_fluorescence_fraction_at_30min": 0.54,
+      "reported_detection_windows_minutes": "different assays described 30-40 and up to50",
+      "intact_bioactive_epithelial_concentration_measured": false,
+      "24h_free_exposure_demonstrated": false,
+      "interpretation": "Tracer retention is supportive delivery evidence, not intact-agent target exposure."
+    },
+    {
+      "id": "AE20-12",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.4.1; 4.4.4",
+      "PK_species": "New Zealand White rabbits",
+      "PK_context": "induced corneal injury",
+      "PK_compartment": "aqueous humor",
+      "reported_administered_volume_uL_per_eye": 50,
+      "analytical_method": "HPLC",
+      "reported_fold_Cmax": 2.4,
+      "reported_fold_AUC": 2.6,
+      "dose_normalized_equivalence_between_articles_verified": false,
+      "epithelial_target_PK_verified": false,
+      "interpretation": "Distinct species, compartment and analytes prevent direct transfer to rat repair exposure or a therapeutic window."
+    },
+    {
+      "id": "AE20-13",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.2; 4.2.8-4.2.9",
+      "challenge": "Proteinase K",
+      "different_analytical_methods_for_mIGF_and_IGF1": true,
+      "authors_acknowledge_not_strictly_equivalent": true,
+      "ocular_half_life_established": false,
+      "interpretation": "Supportive challenge stability is not an ocular half-life or clinical schedule."
+    },
+    {
+      "id": "AE20-14",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "2.1; Figure1I; 2.5; 4.5",
+      "reported_optical_observations": [
+        "transparent formulation",
+        "OCT surface spreading",
+        "no observed short_assessment corneal opacity"
+      ],
+      "rat_safety_assessment_day": 7,
+      "rat_safety_schedule_per_day": 2,
+      "terminal_metabolic_fate_and_clearance_directly_investigated": false,
+      "finished_product_sterility_storage_and_chronic_tolerance_established": false,
+      "human_visual_performance_established": false,
+      "interpretation": "Short reported tolerance and transparency do not establish complete ophthalmic product performance or chronic safety."
+    },
+    {
+      "id": "AE20-15",
+      "source_ids": [
+        "S1"
+      ],
+      "location": "Entire accessible main study",
+      "direct_mIGF_vs_insulin_result": false,
+      "human_mIGF_result": false,
+      "clinical_prevention_control_or_repair_established": false,
+      "interpretation": "The paper supports a conditional product question; practical advantage over insulin remains a separate uncertainty."
+    },
+    {
+      "id": "AE20-16",
+      "source_ids": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "location": "Supplement and publisher retrieval",
+      "supplement_contents_read": false,
+      "retrieval_failures": [
+        "PMC browser challenge",
+        "publisher article403",
+        "publisher CDN attachment inaccessible"
+      ],
+      "data_absence_inferred": false,
+      "interpretation": "Stop finite retrieval; inaccessible contents cannot be treated as audited methods or evidence of absent data."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "AC20-01",
+      "claim": "Defined mIGF gel supports early rat corneal repair",
+      "status": "supported_with_model_and_article_limits",
+      "support": [
+        "AE20-01",
+        "AE20-05",
+        "AE20-06"
+      ]
+    },
+    {
+      "id": "AC20-02",
+      "claim": "Established human PCED or chronic denervation efficacy",
+      "status": "unestablished",
+      "support": [
+        "AE20-06",
+        "AE20-08",
+        "AE20-15"
+      ]
+    },
+    {
+      "id": "AC20-03",
+      "claim": "The delayed-model comparison proves equivalent benefit with one-third the frequency",
+      "status": "overstated",
+      "support": [
+        "AE20-06",
+        "AE20-07",
+        "AE20-09"
+      ],
+      "correction": "Reported similar outcomes at different schedules motivate a product comparison; formal noninferiority, matched delivered exposure and human benefit are not demonstrated."
+    },
+    {
+      "id": "AC20-04",
+      "claim": "Every useful product comparison must use identical molarity or bioactivity",
+      "status": "not_required_as_universal_commercial_gate",
+      "support": [
+        "AE20-03",
+        "AE20-07"
+      ],
+      "reasoning": "A practical regimen can be the comparison unit. Exposure and material controls remain important to mechanistic interpretation and avoiding a misleading frequency attribution."
+    },
+    {
+      "id": "AC20-05",
+      "claim": "Sensory evidence is only nerve staining",
+      "status": "incorrect",
+      "support": [
+        "AE20-08"
+      ],
+      "correction": "A small functional sensation result exists, with explicit method/denominator limits."
+    },
+    {
+      "id": "AC20-06",
+      "claim": "No material controls were used",
+      "status": "incorrect",
+      "support": [
+        "AE20-04"
+      ],
+      "correction": "Controls were present but their physical match and exact sequence descriptions need qualification."
+    },
+    {
+      "id": "AC20-07",
+      "claim": "Cell concentration, tracer retention and aqueous PK define active epithelial exposure",
+      "status": "unsupported_equivalence",
+      "support": [
+        "AE20-02",
+        "AE20-03",
+        "AE20-11",
+        "AE20-12"
+      ]
+    },
+    {
+      "id": "AC20-08",
+      "claim": "Observed closure and architecture prove durable barrier/adhesion restoration",
+      "status": "unestablished",
+      "support": [
+        "AE20-10"
+      ]
+    },
+    {
+      "id": "AC20-09",
+      "claim": "Reported transparency and short tolerance establish an executable ophthalmic product",
+      "status": "unestablished",
+      "support": [
+        "AE20-14"
+      ]
+    },
+    {
+      "id": "AC20-10",
+      "claim": "Unavailable supplementary information is evidence of missing data or a failed study",
+      "status": "not_supported",
+      "support": [
+        "AE20-09",
+        "AE20-16"
+      ]
+    },
+    {
+      "id": "AC20-11",
+      "claim": "A preliminary qualification tranche inherits the useful-function rank and EV rationale",
+      "status": "not_supported",
+      "support": [
+        "L1"
+      ],
+      "reasoning": "Recompare actual information yield, cost and alternatives even if the preliminary scope fits the same price."
+    }
+  ],
+  "decision": {
+    "retain_conditional_local_product_comparator_question": true,
+    "selected_source_sprint_is_development_promotion": false,
+    "independent_review_conditional_development_rank": 5,
+    "conditional_prefix": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "NDC-9009",
+      "mIGF-Gel"
+    ],
+    "new_NDC_or_other_closed_candidate_research": false,
+    "new_mIGF_human_result": false,
+    "new_independent_exact_product_result": false,
+    "new_insulin_head_to_head_result": false,
+    "S_tier_promotion": false,
+    "different_candidate_clearly_favored": false
+  },
+  "economic_scope": {
+    "inherited_envelope_USD": [
+      40000,
+      150000
+    ],
+    "inherited_timeline_months": [
+      3,
+      6
+    ],
+    "verified_quote": false,
+    "original_premise_includes_useful_product_and_active_comparator_answer": true,
+    "qualification_only_scope_inherits_rank5_or_EV": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "numerical_EV_computed": false,
+    "spending_authorized": false
+  },
+  "retrieval": {
+    "pass_closed": true,
+    "bounded_queries": [
+      "\"mIGF-Gel\" corneal repair clinical trial",
+      "\"10.1016/j.bioactmat.2026.07.025\" supplementary mmc1"
+    ],
+    "primary_main_text_read": true,
+    "Figure8_legend_read": true,
+    "figure_pixels_or_plot_values_independently_extracted": false,
+    "supplement_read": false,
+    "raw_animal_dataset_recovered": false,
+    "no_additional_exact_product_human_or_independent_active_comparator_result_recovered": true,
+    "absence_of_search_result_is_global_absence": false,
+    "blocked_challenge_bypassed": false,
+    "stop_reason": "Accessible primary main-text audit complete; named supplementary and animal/product gaps remain after finite retrieval. No generic repeated literature search.",
+    "reopen_only_for": [
+      "Substantive exact supplementary methods or animal-level accounting",
+      "Independent exact-product functional result in a relevant indication/model",
+      "Measured relevant article/product exposure and performance",
+      "A credible practical active-comparator outcome that changes a named decision"
+    ],
+    "closed_lanes_preserved": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "NDC-9009",
+      "earlier named source closures"
+    ]
+  },
+  "interpretation_limits": {
+    "delayed_model_equals_chronic_denervation": false,
+    "assembly_state_at_nominal_cell_concentration_verified": false,
+    "tracer_signal_equals_intact_bioactive_tissue_exposure": false,
+    "aqueous_humor_equals_epithelial_target_exposure": false,
+    "one_daily_regimen_establishes_24h_coverage": false,
+    "same_molarity_required_for_every_practical_product_comparison": false,
+    "absence_of_statistical_difference_establishes_equivalence": false,
+    "off_treatment_cure_required_for_every_useful_product": false,
+    "new_protocol_dose_sample_size_or_threshold_designed": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "source_extraction_and_decision_analysis_only": true,
+  "repository_mutations_by_this_agent": false,
+  "remote_writes_by_this_agent": false
+}

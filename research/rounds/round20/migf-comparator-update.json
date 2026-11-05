@@ -1,0 +1,726 @@
+{
+  "schema_version": "ddiscov.round20.migf_comparator_update.v1",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "candidate_id": "MIGF_CORNEA",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "author": "migf_clinical_comparators",
+  "status": "bounded_public_source_pass_closed",
+  "intended_repo_paths": [
+    "research/rounds/round20/migf-comparator-update.md",
+    "research/rounds/round20/migf-comparator-update.json"
+  ],
+  "decision": {
+    "disposition": "Retain conditional practical-product and useful-function comparison; no efficacy promotion or automatic spending",
+    "new_mIGF_human_result": false,
+    "direct_mIGF_vs_insulin_clinical_comparison_recovered": false,
+    "different_candidate_clearly_favored": false,
+    "conditional_development_rank_inherited": 5,
+    "ordinal_rank_requires_original_informative_scope": true,
+    "qualification_only_scope_inherits_rank_without_recomparison": false,
+    "numerical_EV_computed": false,
+    "spending_authorized": false
+  },
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Randomized Controlled Trial of Topical Insulin for Healing Corneal Epithelial Defects Induced During Vitreoretinal Surgery in Diabetics",
+      "year": 2017,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28828764/",
+      "doi": "10.22608/APO.201780",
+      "access_level": "primary_indexed_abstract",
+      "full_methods_read": false
+    },
+    {
+      "id": "C2",
+      "title": "Randomized Clinical Trial of Topical Insulin Versus Artificial Tears for Healing Rates of Iatrogenic Corneal Epithelial Defects Induced During Vitreoretinal Surgery in Diabetics",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37267451/",
+      "doi": "10.1097/ICO.0000000000003308",
+      "access_level": "primary_indexed_abstract",
+      "full_methods_read": false
+    },
+    {
+      "id": "C3",
+      "title": "Topical insulin for refractory persistent corneal epithelial defects",
+      "year": 2024,
+      "url": "https://www.nature.com/articles/s41598-024-63091-y",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11139959/",
+      "doi": "10.1038/s41598-024-63091-y",
+      "pmid": "38816428",
+      "access_level": "publisher_and_primary_indexed_main_text_sections",
+      "sections_read": [
+        "abstract",
+        "methods",
+        "results"
+      ],
+      "access_limit": "Publisher later returned a redirect error; direct PMC later returned a browser interstitial. Complete supplementary/raw data were not audited."
+    },
+    {
+      "id": "C4",
+      "title": "Topical Insulin for Corneal Persistent Epithelial Defects: A Multicenter Retrospective Study",
+      "published": "2026-07-03",
+      "url": "https://link.springer.com/article/10.1007/s40123-026-01446-6",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13424049/",
+      "doi": "10.1007/s40123-026-01446-6",
+      "pmid": "42399553",
+      "access_level": "primary_full_main_text_relevant_sections",
+      "sections_read": [
+        "methods",
+        "treatment_composition_and_regimen",
+        "results",
+        "limitations",
+        "change_history"
+      ],
+      "raw_data_read": false,
+      "update_note": "July17 change history adds an author ORCID, not an efficacy correction."
+    },
+    {
+      "id": "C5",
+      "title": "Topical Insulin in the Treatment of Ocular Surface Disease: A Retrospective Cohort Study",
+      "published": "2026-10-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42866881/",
+      "alternate_url": "https://doi.org/10.1097/ICO.0000000000004331",
+      "doi": "10.1097/ICO.0000000000004331",
+      "access_level": "primary_indexed_abstract",
+      "full_methods_read": false
+    },
+    {
+      "id": "C6",
+      "title": "Neurotrophic effects of topical insulin in persistent epithelial defects",
+      "published": "2026-08-29",
+      "url": "https://link.springer.com/article/10.1007/s10792-026-04221-5",
+      "doi": "10.1007/s10792-026-04221-5",
+      "access_level": "primary_publisher_abstract",
+      "full_methods_read": false,
+      "access_limit": "Subscription full text not obtained or purchased."
+    },
+    {
+      "id": "C7",
+      "title": "Comparison of treatment efficacy between topical insulin and autologous serum in persistent epithelial defects: a randomised controlled trial protocol in Spain",
+      "published": "2025-09-17",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12458728/",
+      "alternate_url": "https://bmjopen.bmj.com/content/15/9/e102423",
+      "doi": "10.1136/bmjopen-2025-102423",
+      "pmid": "40967644",
+      "access_level": "primary_main_text_relevant_sections",
+      "sections_read": [
+        "design",
+        "population",
+        "medications",
+        "endpoints",
+        "analysis",
+        "trial_status"
+      ],
+      "record_type": "protocol_not_results",
+      "supplement_read": false
+    },
+    {
+      "id": "C8",
+      "title": "INSULINADEP-22 official EudraCT and CTIS records",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2022-003589-19/ES",
+      "alternate_url": "https://euclinicaltrials.eu/ctis-public/view/2024-518818-53-00?lang=en",
+      "eudract": "2022-003589-19",
+      "euct": "2024-518818-53-00",
+      "access_level": "legacy_official_summary_readable_modern_official_page_unreadable",
+      "legacy_displayed_status": "Ongoing",
+      "current_live_recruiting_status_verified": false,
+      "results_recovered": false,
+      "secondary_index_status_used_as_verified_fact": false
+    },
+    {
+      "id": "C9",
+      "title": "Long-term stability of insulin eye drops in three different vehicles",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41997424/",
+      "alternate_url": "https://www.sciencedirect.com/science/article/pii/S0022354926001334",
+      "access_level": "primary_indexed_abstract_highlights_and_introduction",
+      "full_analytical_method_audit": false
+    },
+    {
+      "id": "C10",
+      "title": "Topical Insulin in Artificial Tears Stability Study: Short-term Physical, Chemical and Microbiological Stability Study of 0.5 Units (25 IU/mL) of Topical Insulin in Artificial Tears",
+      "published": "2025-03-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40036826/",
+      "doi": "10.1097/ICL.0000000000001175",
+      "access_level": "primary_abstract",
+      "full_analytical_method_audit": false
+    },
+    {
+      "id": "C11",
+      "title": "OXERVATE cenegermin-bkbj US label",
+      "record_updated": "2026-10-05",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89e4bfec-d710-40ed-8885-5d13ba46b1cd",
+      "access_level": "primary_regulatory_label_relevant_sections",
+      "sections_read": [
+        "indication",
+        "dosing",
+        "clinical_studies",
+        "storage_and_handling"
+      ],
+      "known_from_round17": true
+    },
+    {
+      "id": "C12",
+      "title": "Dompé doses first patient in Phase3 study of cenegermin-bkbj in PCED",
+      "published": "2026-06-09",
+      "url": "https://www.dompe.com/media/news/press-release/dompe-doses-first-patient-in-phase-3-study-of-cenegermin-bkbj-in-pced/",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07519902",
+      "access_level": "primary_sponsor_start_disclosure",
+      "registry_access": "direct_official_page_shell",
+      "known_from_round17": true,
+      "current_results_recovered": false
+    },
+    {
+      "id": "C13",
+      "title": "Comparison of the efficacy of topical insulin with autologous serum eye drops in persistent epithelial defects of the cornea",
+      "issue_year": 2022,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aos.14997",
+      "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/34407296/",
+      "doi": "10.1111/aos.14997",
+      "access_level": "primary_full_text_relevant_sections",
+      "sections_read": [
+        "methods",
+        "results_tables",
+        "limitations"
+      ],
+      "design": "retrospective_historical_control"
+    }
+  ],
+  "evidence_rows": [
+    {
+      "id": "MC20-E01",
+      "source_ids": [
+        "C1"
+      ],
+      "evidence": "Acute postoperative diabetic randomized dose-ranging trial",
+      "population": "Corneal epithelial defects created during vitreoretinal surgery in patients with diabetes",
+      "units": {
+        "eyes": 32,
+        "patients": 32,
+        "per_arm": 8
+      },
+      "treatments": {
+        "insulin_units_per_drop": [
+          0.5,
+          1,
+          2
+        ],
+        "frequency_per_day": 4,
+        "control": "placebo"
+      },
+      "reported_healed_percent_at_72h": {
+        "0.5_units_per_drop": 100,
+        "placebo": 62.5,
+        "1_unit_per_drop": 75,
+        "2_units_per_drop": 62.5
+      },
+      "follow_up": "one month",
+      "reported_adverse_effects": "none",
+      "limit": "Not refractory PED/NK evidence; per-drop units are not IU/mL. Full method/product details not read."
+    },
+    {
+      "id": "MC20-E02",
+      "source_ids": [
+        "C2"
+      ],
+      "evidence": "Acute postoperative diabetic randomized active-tear comparison",
+      "units": {
+        "eyes": 38,
+        "patients": 38,
+        "per_arm": 19
+      },
+      "treatments": {
+        "insulin": "0.5 units topical insulin, four times daily",
+        "control": "Vismed sodium hyaluronate0.18%, four times daily"
+      },
+      "baseline_to_closure_rate_mm2_per_hour": {
+        "insulin_mean": 1.2,
+        "insulin_reported_plus_minus": 0.29,
+        "control_mean": 0.78,
+        "control_reported_plus_minus": 0.2,
+        "reported_p": "<0.001"
+      },
+      "follow_up": "three months postoperation",
+      "reported_adverse_effects": "none",
+      "limit": "Primary abstract does not establish the complete formulation/drop volume; no conversion to1IU/mL is inferred."
+    },
+    {
+      "id": "MC20-E03",
+      "source_ids": [
+        "C13"
+      ],
+      "evidence": "Comparative PED historical-control design and exact products",
+      "units": {
+        "insulin_patients": 61,
+        "autologous_serum_patients": 23
+      },
+      "calendar_windows": {
+        "insulin": "2019-10-01 through2021-03-31",
+        "control": "2018-10-01 through2019-09-30"
+      },
+      "selection": "Incomplete follow-up or absent slit-lamp images excluded; controls retrospective historical selection. Insulin patients previously receiving serum were not counted in control group.",
+      "treatments": {
+        "insulin": "1IU/mL Actarapid-derived insulin in polyethylene-glycol/polypropylene-glycol base (source wording), every6hours",
+        "control": "20% autologous serum, every6hours",
+        "shared_background": "Preservative-free0.15% hyaluronic-acid tears; other clinical treatments recorded"
+      },
+      "storage": "Insulin amber glass bottles refrigerated, source-described use up to one month",
+      "limit": "Not randomization; baseline p>0.05 does not establish exchangeability. No compounding recipe reproduced."
+    },
+    {
+      "id": "MC20-E04",
+      "source_ids": [
+        "C13"
+      ],
+      "evidence": "Comparative PED outcomes and unequal follow-up",
+      "closure": {
+        "insulin_numerator": 51,
+        "insulin_denominator": 61,
+        "serum_numerator": 11,
+        "serum_denominator": 23
+      },
+      "time_to_closure_days_among_healers": {
+        "insulin_mean": 32.6,
+        "insulin_sd": 28.3,
+        "serum_mean": 82.6,
+        "serum_sd": 82.4
+      },
+      "recurrence": {
+        "insulin_count": 7,
+        "insulin_denominator_reported": 61,
+        "serum_count": 10,
+        "serum_denominator_reported": 23
+      },
+      "follow_up_months": {
+        "insulin_mean": 8.6,
+        "insulin_sd": 5.4,
+        "serum_mean": 23.0,
+        "serum_sd": 3.7
+      },
+      "limit": "Crude recurrence contrast cannot establish causal durability advantage when observation periods and historical treatment selection differ. Healer-only closure times are conditional outcomes."
+    },
+    {
+      "id": "MC20-E05",
+      "source_ids": [
+        "C3"
+      ],
+      "evidence": "Prospective uncontrolled refractory-PED series",
+      "units": {
+        "eyes": 23,
+        "patients": 23
+      },
+      "product": "Regular Actrapid-derived insulin in balanced salt solution,1IU/mL,four times daily",
+      "prior_treatment": "At least two weeks of conventional therapy",
+      "outcome": {
+        "complete_closure": 16,
+        "nonresponders": 7,
+        "maximum_reported_follow_up_days": 50
+      },
+      "handling_of_early_nonresponse": "Deterioration or no significant wound-size reduction after five treatment days led to withdrawal and other intervention, retained as nonresponders in reported totals.",
+      "limit": "Uncontrolled population; no uniform long-term recurrence or patient-level causal effect inferred."
+    },
+    {
+      "id": "MC20-E06",
+      "source_ids": [
+        "C4"
+      ],
+      "evidence": "July2026 retrospective PED cohort and closure",
+      "units": {
+        "eyes": 45,
+        "patients": 43,
+        "chronic_ocular_surface_disease_eyes": 28,
+        "stage2_NK_eyes": 17
+      },
+      "eligibility": "PED after at least two weeks first-line care; active infection and anticipated corneal procedures excluded",
+      "product": "Humalog-derived1IU/mL insulin in PEG/propylene-glycol/hydroxypropyl-guar vehicle,QID; refrigerated source-described30day shelf life",
+      "outcome": {
+        "complete_closure": 44,
+        "denominator": 45,
+        "median_closure_days": 29,
+        "median_closure_95CI_days": [
+          24,
+          38
+        ]
+      },
+      "missingness": "The sole nonclosing eye had no complete closure at90days and was then lost to follow-up.",
+      "limit": "Retrospective uncontrolled complete-data analysis; eyes not interchangeable with independent patient count; no causal treatment magnitude."
+    },
+    {
+      "id": "MC20-E07",
+      "source_ids": [
+        "C4"
+      ],
+      "evidence": "July2026 postclosure course and functional limits",
+      "postclosure_insulin": "Continued two weeks, then stopped",
+      "background_care": "Tear substitutes, nocturnal ointments and indicated disease-specific support maintained",
+      "median_postclosure_observation_days": 95,
+      "recurrence": {
+        "eyes": 2,
+        "reported_percent": 4.4,
+        "severe_course": "One recurrence progressed to melting and Gundersen flap surgery"
+      },
+      "BCVA_logMAR": {
+        "baseline_median": 2.0,
+        "at_closure_median": 1.0
+      },
+      "corneal_sensitivity": "Categories unchanged after treatment:20absent,14reduced,11normal",
+      "limit": "Uncontrolled functional observations; finite course plus subsequent observation does not establish autonomous permanent repair. No structural reinnervation claim."
+    },
+    {
+      "id": "MC20-E08",
+      "source_ids": [
+        "C5"
+      ],
+      "evidence": "October2026 retrospective ocular-surface cohort",
+      "units": {
+        "eyes": 57,
+        "patients": 45,
+        "NK_eyes": 31,
+        "dry_eye_eyes": 9,
+        "GVHD_eyes": 7,
+        "other_eyes": 10,
+        "PED_subset_eyes": 28
+      },
+      "product": "1IU/mL topical insulin,four times daily; complete formulation not available in abstract",
+      "PED_results": {
+        "complete": 20,
+        "partial": 6,
+        "no_improvement": 2,
+        "reported_time_weeks": 5.2,
+        "time_summary_statistic": "Not specified in retrieved abstract"
+      },
+      "diagnosis_specific_treatment_success_percent": {
+        "NK": 83.9,
+        "dry_eye": 44.4,
+        "GVHD": 14.3
+      },
+      "safety": "One transient significant IOP increase reported",
+      "limit": "Treatment-success definition not recovered; do not equate all57eyes or all NK successes to PED closure; etiologic selection and co-treatments incompletely recovered."
+    },
+    {
+      "id": "MC20-E09",
+      "source_ids": [
+        "C6"
+      ],
+      "evidence": "August2026 retrospective sensory signal, abstract only",
+      "units": {
+        "patients": 24,
+        "independent_eye_denominator": "Not explicitly recovered beyond patient count"
+      },
+      "product": "1IU/mL insulin every6hours",
+      "reported_1month_results": {
+        "defect_area_baseline_mm2_mean": 16.23,
+        "defect_area_baseline_reported_plus_minus": 11.23,
+        "defect_area_month1_mm2_mean": 0.63,
+        "defect_area_month1_reported_plus_minus": 1.27,
+        "sensitivity": "Cochet–Bonnet improvement reported across all quadrants; numeric magnitude unavailable"
+      },
+      "other_counts": {
+        "partial_responders": 6,
+        "recurrences": 2
+      },
+      "mean_treatment_days": 45.6,
+      "mean_total_follow_up_days": 172.0,
+      "limit": "No randomized control; abstract nominal one-month treatment versus mean45.6days not harmonized by assumption. No inferred18/24complete response, no structural reinnervation, no complete recurrence or co-treatment reconstruction."
+    },
+    {
+      "id": "MC20-E10",
+      "source_ids": [
+        "C7"
+      ],
+      "evidence": "Planned randomized PED trial and practical product",
+      "design": "Multicentre randomized observer-blinded protocol; participants and treating specialists unblinded",
+      "planned_units": {
+        "total_participants": 234,
+        "per_group": 117,
+        "neurotrophic_stratum": 60,
+        "chronic_ocular_surface_stratum": 114,
+        "infectious_exploratory_stratum": 60
+      },
+      "treatments": {
+        "insulin": "Regular Actrapid-derived1IU/mL in saline,QID",
+        "control": "20% autologous serum,5–6times daily",
+        "duration": "three months",
+        "background": "Indicated tears/antibiotics continue; combination allowed after inadequate response"
+      },
+      "handling": "Hospital pharmacy, cold-chain distribution, refrigerated storage, seven-day discard after opening",
+      "endpoints": "Complete epithelialization, rate and time to closure; not new patient results",
+      "limit": "Planned234 is not completed enrollment; the protocol anticipated December2025 recruitment completion but this is not verified completion. No new protocol designed by this audit."
+    },
+    {
+      "id": "MC20-E11",
+      "source_ids": [
+        "C7",
+        "C8"
+      ],
+      "evidence": "Official record and results-access boundary",
+      "legacy_official_record_status": "Ongoing",
+      "legacy_result_link_present": false,
+      "modern_CTIS_page_readable": false,
+      "randomized_PED_result_recovered": false,
+      "current_live_recruiting_status_verified": false,
+      "limit": "Protocol, planned enrollment and secondary-index recruitment status do not establish clinical outcomes or current verified accrual."
+    },
+    {
+      "id": "MC20-E12",
+      "source_ids": [
+        "C9"
+      ],
+      "evidence": "2026 formulation-specific stability results",
+      "tested_insulin_concentrations_IU_per_mL": [
+        1,
+        5
+      ],
+      "tested_vehicles": [
+        "normal saline",
+        "Liquifilm",
+        "Systane"
+      ],
+      "storage": "Refrigerated2–8C; polyethylene bottles",
+      "reported_usable_stability": {
+        "normal_saline_and_Liquifilm_unopened_days": 60,
+        "normal_saline_and_Liquifilm_authors_in_use_condition_days": 15
+      },
+      "contrary_observation": "Systane preparations developed turbidity at72hours",
+      "limit": "Primary abstract-level analytical/physical/microbiological findings; no universal insulin or mIGF stability inference and no new test executed."
+    },
+    {
+      "id": "MC20-E13",
+      "source_ids": [
+        "C10"
+      ],
+      "evidence": "2025 separate insulin-tear stability study",
+      "product": "25IU/mL insulin in sodium hyaluronate0.18%,low-density-polyethylene bottles",
+      "storage_conditions": "5±3C and30±2C",
+      "reported_stable_duration": "one month in both tested conditions",
+      "limit": "Different presentation from1IU/mL PED studies. Concentration/content/sterility results do not establish every product or clinical-potency guarantee."
+    },
+    {
+      "id": "MC20-E14",
+      "source_ids": [
+        "C11"
+      ],
+      "evidence": "Approved NK comparator and controlled epithelial outcomes",
+      "product": "Cenegermin-bkbj20micrograms/mL,6applications daily for8weeks",
+      "complete_healing_week8": {
+        "NGF0214": {
+          "cenegermin": [
+            15,
+            23
+          ],
+          "vehicle": [
+            4,
+            24
+          ]
+        },
+        "NGF0212": {
+          "cenegermin": [
+            36,
+            50
+          ],
+          "vehicle": [
+            17,
+            51
+          ]
+        }
+      },
+      "endpoint": "Absence of lesion staining and no persistent staining elsewhere in cornea",
+      "missing_data_rule": "Patients without any postbaseline measurement excluded",
+      "recurrence_in_healed_patients_approx_percent": {
+        "NGF0212": 20,
+        "NGF0214": 14
+      },
+      "sensation": "Label states mean changes were not clinically significant",
+      "handling": "Cold storage, delivery kit and daily opened-vial limit",
+      "limit": "NK indication and exact product; not proof of mIGF comparison, universal sensory restoration, price or financial ownership."
+    },
+    {
+      "id": "MC20-E15",
+      "source_ids": [
+        "C12"
+      ],
+      "evidence": "Known separate cenegermin PCED program",
+      "program": "Orunea/NCT07519902",
+      "sponsor_first_patient_announcement": "2026-06-09",
+      "planned_adult_participants_approx": 150,
+      "design": "Multicentre randomized double-masked placebo-controlled Phase3",
+      "primary_endpoint": "Complete epithelial healing",
+      "direct_official_registry_readable": false,
+      "observed_PCed_results_recovered": false,
+      "limit": "Known study-start disclosure, not new efficacy or current accrual confirmation. RM4404 source pass remains closed."
+    },
+    {
+      "id": "MC20-E16",
+      "source_ids": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C9",
+        "C10",
+        "C11",
+        "C13"
+      ],
+      "evidence": "Cross-source practical-comparator interpretation",
+      "finding": "Clinical product value concerns useful outcomes, tolerability, optical quality, dosing/handling burden and achievable retained contribution; formulation differences and clinical heterogeneity prevent pooled or cross-species superiority claims.",
+      "inference": true,
+      "equal_molar_exposure_between_distinct_molecules_universal_gate": false,
+      "clinical_superiority_or_noninferiority_of_mIGF_established": false,
+      "ingredient_price_equals_delivered_sterile_product_cost": false,
+      "limit": "No quote, material access, license, patient-level raw-data reanalysis or numerical financial model."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "MC20-D01",
+      "claim": "Topical insulin is a substantive active comparator for a defined PED product",
+      "decision": "supported_with_design_and_product_limits",
+      "support": [
+        "MC20-E03",
+        "MC20-E04",
+        "MC20-E05",
+        "MC20-E06",
+        "MC20-E08"
+      ]
+    },
+    {
+      "id": "MC20-D02",
+      "claim": "Acute postoperative diabetic insulin RCTs establish chronic NK/PED efficacy or the exact1IU/mL regimen",
+      "decision": "not_supported",
+      "support": [
+        "MC20-E01",
+        "MC20-E02"
+      ]
+    },
+    {
+      "id": "MC20-D03",
+      "claim": "Clinical insulin reports can be pooled or their percentages directly ranked against rat mIGF outcomes",
+      "decision": "not_supported",
+      "support": [
+        "MC20-E03",
+        "MC20-E04",
+        "MC20-E05",
+        "MC20-E06",
+        "MC20-E08",
+        "MC20-E16"
+      ]
+    },
+    {
+      "id": "MC20-D04",
+      "claim": "Insulin has no possible clinically relevant sensory effect",
+      "decision": "not_supported; observations are mixed and uncontrolled",
+      "support": [
+        "MC20-E07",
+        "MC20-E09"
+      ]
+    },
+    {
+      "id": "MC20-D05",
+      "claim": "A generic cheap-insulin label resolves formulation, handling and delivered cost",
+      "decision": "not_supported",
+      "support": [
+        "MC20-E03",
+        "MC20-E06",
+        "MC20-E10",
+        "MC20-E12",
+        "MC20-E13",
+        "MC20-E16"
+      ]
+    },
+    {
+      "id": "MC20-D06",
+      "claim": "Planned trials establish results or verified current accrual",
+      "decision": "not_supported",
+      "support": [
+        "MC20-E10",
+        "MC20-E11",
+        "MC20-E15"
+      ]
+    },
+    {
+      "id": "MC20-D07",
+      "claim": "Cenegermin supplies a relevant approved NK epithelial-healing benchmark",
+      "decision": "supported_with_indication_endpoint_missingness_and_burden_limits",
+      "support": [
+        "MC20-E14",
+        "MC20-E15"
+      ]
+    },
+    {
+      "id": "MC20-D08",
+      "claim": "The comparator update proves mIGF obsolete or clearly favors another candidate",
+      "decision": "not_established; retain conditional exact-product active-comparator question",
+      "support": [
+        "MC20-E03",
+        "MC20-E04",
+        "MC20-E06",
+        "MC20-E09",
+        "MC20-E14",
+        "MC20-E16"
+      ]
+    }
+  ],
+  "retrieval": {
+    "pass_closed": true,
+    "new_to_repository_primary_records": [
+      "C4",
+      "C6",
+      "C13"
+    ],
+    "new_to_repository_check": "No matching DOI/PMID strings for these three records found in baseline research/decision files; no claim of exhaustive patient-level lineage audit.",
+    "randomized_PED_results_recovered": false,
+    "new_cenegermin_PCed_outcomes_recovered": false,
+    "official_modern_CTIS_readable": false,
+    "official_legacy_EudraCT_summary_readable": true,
+    "actual_trial_enrollment_verified": false,
+    "C6_full_text_read": false,
+    "raw_patient_data_obtained": false,
+    "RM4404_source_pass_reopened": false,
+    "prior_APR_BLU_NDC_source_passes_reopened": false,
+    "further_generic_search_planned": false,
+    "bounded_query_families": [
+      "Topical insulin persistent epithelial defect controlled trials and current primary results",
+      "Exact existing57eye and stability source titles/PMIDs",
+      "Exact insulin-versus-serum comparison cited by the randomized protocol",
+      "Exact official trial identifiers and known sponsor disclosure"
+    ],
+    "reopen_only_for": [
+      "Specific randomized PED outcome that changes comparator expectations",
+      "Exact-product clinical or tissue-function evidence relevant to intended claim",
+      "Meaningful stability, handling or exposure result",
+      "Actionable scoped cost, access or rights fact"
+    ],
+    "stop_reason": "The actionable clinical/product distinctions are resolved at the available primary access level. Further generic searches would not supply the missing direct mIGF comparison or executable product economics."
+  },
+  "economic_limits": {
+    "historical_illustrative_USD": [
+      40000,
+      150000
+    ],
+    "historical_illustrative_months": [
+      3,
+      6
+    ],
+    "quote_verified": false,
+    "clinical_program_budget_established": false,
+    "lower_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "ingredient_cost_used_as_total_sterile_product_cost": false,
+    "development_execution_authorized": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "new_protocol_designed": false,
+  "repository_mutations_by_this_agent": false,
+  "remote_writes_by_this_agent": false
+}

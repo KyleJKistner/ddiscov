@@ -1,0 +1,637 @@
+{
+  "schema_version": "ddiscov.round20.migf_product_capture.v1",
+  "round": 20,
+  "candidate_id": "MIGF_CORNEA",
+  "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+  "base_tree": "3d68f3a5b7993dd4daeceb3f91cf92b1de49addf",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "author": "migf_product_capture",
+  "status": "completed_bounded_public_source_pass_with_explicit_execution_limits",
+  "decision": "Retain conditional mIGF local-product option; strengthen exact prior-disclosure and product/capture distinctions; close this source pass without rank promotion or spending.",
+  "intended_repo_paths": [
+    "research/rounds/round20/migf-product-capture.md",
+    "research/rounds/round20/migf-product-capture.json"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Self-assembling biomimetic peptide hydrogel regulates tissue homeostasis to promote repair of persistent corneal epithelial defects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+      "doi": "10.1016/j.bioactmat.2026.07.025",
+      "access_level": "primary_main_text_relevant_sections",
+      "sections_read": [
+        "identity and controls",
+        "assembly/property discussion",
+        "relevant methods",
+        "authorship and competing-interest disclosure"
+      ],
+      "supplement_read_by_this_lane": false
+    },
+    {
+      "id": "S2",
+      "title": "CN121949581A: self-assembled peptide derivative, hydrogel formulation, preparation method and application",
+      "url": "https://patents.google.com/patent/CN121949581A/en",
+      "access_level": "primary_published_patent_text_on_hosted_index",
+      "published_claims_read": 10,
+      "official_current_status_verified": false
+    },
+    {
+      "id": "S3",
+      "title": "CN113321706B: self-assembled peptide derivative and hydrogel",
+      "url": "https://patents.google.com/patent/CN113321706B/en",
+      "alternate_url": "https://patents.google.com/patent/CN113321706B/zh",
+      "access_level": "primary_granted_patent_text_on_hosted_index",
+      "published_claims_read": 8,
+      "official_current_status_verified": false
+    },
+    {
+      "id": "S4",
+      "title": "Original Chinese CN113321706B grant PDF",
+      "url": "https://patentimages.storage.googleapis.com/c5/2f/1a/ab29ea3b830b1e/CN113321706B.pdf",
+      "access_level": "original_document_pdf_text_and_requested_page_renders",
+      "document_pages": 16,
+      "key_printed_pages": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "key_zero_based_page_indices": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "renders_requested_zero_based_pages": [
+        1,
+        4,
+        8
+      ],
+      "sequence_discrepancy_supported_by_original_extractable_text": true
+    },
+    {
+      "id": "S5",
+      "title": "CN113321706A earlier application publication",
+      "url": "https://patents.google.com/patent/CN113321706A/en",
+      "access_level": "primary_application_text_on_hosted_index",
+      "published_claims_read": 9
+    },
+    {
+      "id": "S6",
+      "title": "Nankai University exact CN121949581A IP entry",
+      "url": "https://ipis.nankai.edu.cn/achievement/4604/",
+      "access_level": "institutional_primary_metadata",
+      "substantive_license_terms_present": false,
+      "official_assignment_chain_verified": false
+    },
+    {
+      "id": "S7",
+      "title": "FDA Quality Considerations for Topical Ophthalmic Drug Products",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-considerations-topical-ophthalmic-drug-products",
+      "access_level": "official_guidance_overview",
+      "date": "2023-12",
+      "observed_status": "draft_nonbinding_not_for_implementation",
+      "full_guidance_pdf_read": false
+    },
+    {
+      "id": "S8",
+      "title": "FDA CGMP production/process Q&A question 23",
+      "url": "https://www.fda.gov/drugs/guidances-drugs/questions-and-answers-current-good-manufacturing-practice-regulations-production-and-process",
+      "access_level": "official_regulatory_explanation_relevant_section_read",
+      "relevant_section_date": "2024-05-22",
+      "scope": "Ophthalmic drug product sterility through shelf life, container protection and multidose in-use contamination controls; not an exact mIGF classification ruling."
+    },
+    {
+      "id": "S9",
+      "title": "EPO bibliography endpoint for CN121949581A",
+      "url": "https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&FT=D&KC=A&NR=121949581A",
+      "access_level": "retrieval_failed_403",
+      "substantive_contents_read": false
+    },
+    {
+      "id": "S10",
+      "title": "USPTO Global Dossier new Chinese application",
+      "url": "https://globaldossier.uspto.gov/result/application/CN/202610165277/1",
+      "access_level": "loading_only_no_substantive_dossier",
+      "substantive_contents_read": false
+    },
+    {
+      "id": "S11",
+      "title": "USPTO Global Dossier older Chinese application",
+      "url": "https://globaldossier.uspto.gov/result/application/CN/202110800384/1",
+      "access_level": "no_substantive_dossier_returned",
+      "substantive_contents_read": false
+    },
+    {
+      "id": "S12",
+      "title": "Article Scheme 1 graphical page",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/figure/sc1/",
+      "access_level": "recaptcha_no_graphical_structure_audit",
+      "substantive_contents_read": false
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "L1",
+      "base_commit": "357c57c29c3916c005f07e37bf8420ec82d63905",
+      "paths": [
+        "research/rounds/round2/round2_barrier_local.md",
+        "research/portfolio-register.json#retained_reserves:MIGF_CORNEA"
+      ],
+      "scope": "Inherited product/comparator context, not new primary evidence."
+    },
+    {
+      "id": "L2",
+      "path": "/workspace/scratch/cde848be1ee7/report_content.json",
+      "sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+      "selected_blocks_in": "/workspace/scratch/e8635471e089/round20_work/round20-context.json",
+      "scope": "Original conditional rank5, illustrative cost/time and retained-value premise."
+    }
+  ],
+  "exact_article": {
+    "published_name": "mIGF-Gel",
+    "sequence": "Biotin-D-FYIGSSSR",
+    "N_terminal_cap": "biotin",
+    "first_residue": "D-Phe",
+    "remaining_residues": "YIGSSSR",
+    "C_terminal_residue": "Arg",
+    "full_terminal_chemistry_counterion_purity_and_batch_qualified": false,
+    "reported_gel_concentration_wt_percent": 0.4,
+    "generic_IGF_peptide_interchangeable": false,
+    "free_IGF1_interchangeable": false,
+    "topical_insulin_interchangeable": false,
+    "exact_prior_disclosure_found": true,
+    "old_grant_sequence_discrepancy_resolved": false
+  },
+  "evidence_rows": [
+    {
+      "id": "PC20-01",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "finding": "Exact reference is biotin-capped D-Phe followed by YIGSSSR, assembled as mIGF-Gel; paper reports transparent gel at 0.4 wt%.",
+      "sequence": "Biotin-D-FYIGSSSR",
+      "first_residue": "D-phenylalanine",
+      "terminal_residue": "arginine",
+      "independently_authenticated_future_batch": false,
+      "limit": "Full graphical end-group, salt, purity, batch and commercial presentation not qualified in this lane."
+    },
+    {
+      "id": "PC20-02",
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "finding": "New application expressly names the exact derivative, product/hydrogel and tissue-repair uses including corneal injury and persistent epithelial defects.",
+      "application": "CN202610165277.2",
+      "publication": "CN121949581A",
+      "filed": "2026-02-05",
+      "published": "2026-05-01",
+      "claims": 10,
+      "publication_type": "application",
+      "grant_verified": false
+    },
+    {
+      "id": "PC20-03",
+      "source_ids": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "finding": "Earlier A publication and B grant differ: broad independent X wording in A; granted B claim1 incorporates SEQ ID NOs1-3.",
+      "application": "CN202110800384.5",
+      "filed": "2021-07-15",
+      "application_published": "2021-08-31",
+      "grant_published": "2022-01-07",
+      "A_claim_count": 9,
+      "B_claim_count": 8,
+      "claim_scope_rule": "Use granted text rather than inheriting the application wording."
+    },
+    {
+      "id": "PC20-04",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "finding": "Old grant description[0029] explicitly names the exact Arg-ending peptide, but original sequence-list SEQ ID1 ends Ala.",
+      "description_printed_page": 5,
+      "description_sequence": "Biotin-D-F-Tyr-Ile-Gly-Ser-Ser-Ser-Arg",
+      "sequence_list_printed_page": 9,
+      "sequence_list_SEQ_ID_1": "Tyr Ile Gly Ser Ser Ser Ala",
+      "granted_claim_1_printed_page": 2,
+      "original_PDF_confirms_discrepancy": true,
+      "discrepancy_resolved": false,
+      "interpretation": "Exact prior description is established; no conclusion on literal coverage, correction, validity, infringement or FTO. Not evidence of a wrong 2026 study batch."
+    },
+    {
+      "id": "PC20-05",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "finding": "Accessible indexes show distinct family records, each with a CN entry; newer application does not list the older priority.",
+      "new_family_id": "99559923",
+      "old_family_id": "77426330",
+      "known_indexed_country_codes": [
+        "CN"
+      ],
+      "global_family_clearance": false,
+      "unpublished_or_unindexed_filings_excluded": false
+    },
+    {
+      "id": "PC20-06",
+      "source_ids": [
+        "S6"
+      ],
+      "finding": "Nankai IP portal corroborates the exact newer application, applicant, inventors and dates.",
+      "named_applicant": "南开大学 / Nankai University",
+      "inventors": [
+        "王雁",
+        "单梦圆",
+        "邹昊翰",
+        "丁英浩"
+      ],
+      "license_offer_or_terms_verified": false,
+      "current_official_assignment_chain_verified": false
+    },
+    {
+      "id": "PC20-07",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "finding": "Old grant cover names Nankai as patentee and three inventors; some names across old/new records overlap with paper authorship.",
+      "old_grant_patentee_on_publication": "南开大学 / Nankai University",
+      "old_grant_inventors": [
+        "杨志谋",
+        "王玲",
+        "艾思凡"
+      ],
+      "scope": "Publication provenance; neither ddiscov ownership nor present contractual rights inferred."
+    },
+    {
+      "id": "PC20-08",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "finding": "Older grant reports refrigerated gels remained in gel state without precipitation for at least one month.",
+      "location": "description[0061]",
+      "reported_storage_C": 4,
+      "reported_duration": "at least one month",
+      "endpoint": "physical gel state / no precipitation",
+      "validated_sterile_ophthalmic_shelf_life": false,
+      "retained_bioactivity_in_commercial_container_established": false
+    },
+    {
+      "id": "PC20-09",
+      "source_ids": [
+        "S7"
+      ],
+      "finding": "FDA ophthalmic-quality overview remains draft/nonbinding/not for implementation; listed issues include microbiology, impurities/particulates, container delivery, stability and optional release/dissolution controls.",
+      "treated_as_binding_final_guidance": false,
+      "mIGF_regulatory_classification_determined": false
+    },
+    {
+      "id": "PC20-10",
+      "source_ids": [
+        "S8"
+      ],
+      "finding": "FDA Q23 addresses ophthalmic drug sterility through shelf life and prevention of harmful microbial contamination during multidose use, with container and manufacturing controls.",
+      "application_to_mIGF": "Conditional context if developed as a U.S. ophthalmic drug; no product-specific regulatory determination.",
+      "manufacturing_recipe_or_process_selected": false
+    },
+    {
+      "id": "PC20-11",
+      "source_ids": [
+        "S9",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "finding": "Official bibliography/dossier and graphical-figure attempts did not yield substantive records.",
+      "access_failure_is_absence_of_rights_or_data": false,
+      "access_control_bypassed": false
+    },
+    {
+      "id": "PC20-12",
+      "source_ids": [
+        "L2"
+      ],
+      "finding": "Prior ranking supplied a conditional fifth place and illustrative local-product/active-comparator envelope dependent on a suitable model.",
+      "development_rank": 5,
+      "currency": "USD",
+      "cost_range": [
+        40000,
+        150000
+      ],
+      "months_range": [
+        3,
+        6
+      ],
+      "actual_quote": false,
+      "complete_program_budget": false,
+      "qualification_only_scope_inherits_prior_rank": false
+    },
+    {
+      "id": "PC20-13",
+      "source_ids": [
+        "L1",
+        "L2"
+      ],
+      "finding": "Useful repair or practical treatment-burden advantage against an applicable insulin product is the value premise; equivalent outcomes without meaningful practical advantage weaken the financial route.",
+      "insulin_assumed_zero_cost_or_zero_handling_burden": false,
+      "animal_frequency_establishes_human_adherence": false,
+      "decision_basis": "Decision inference from preserved comparator/product premise, not a new clinical result."
+    },
+    {
+      "id": "PC20-14",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S6",
+        "S7",
+        "S8",
+        "L2"
+      ],
+      "finding": "Exact sequence disclosure, assembled material, clinical effect, quality-controlled product, legal access and retained value are separate questions.",
+      "commercial_execution_route_qualified": false,
+      "numerical_EV_or_NPV_established": false,
+      "decision_basis": "Integration judgment; does not imply biological failure or asset availability."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "id": "PC20-D01",
+      "claim": "The original mIGF sequence is a newly invented unclaimed asset for ddiscov",
+      "decision": "not_supported",
+      "support": [
+        "PC20-01",
+        "PC20-02",
+        "PC20-04",
+        "PC20-07"
+      ],
+      "reason": "Exact prior disclosure and named university records exist; no ownership transferred by publication."
+    },
+    {
+      "id": "PC20-D02",
+      "claim": "The earlier B grant unambiguously covers or excludes the Arg-ending article",
+      "decision": "unresolved_not_asserted",
+      "support": [
+        "PC20-03",
+        "PC20-04"
+      ],
+      "reason": "Granted SEQ-ID language and original Arg/Ala discrepancy require a substantive legal/record resolution; no silent harmonization."
+    },
+    {
+      "id": "PC20-D03",
+      "claim": "Hosted current labels or an institutional catalog establish present title, a license or global freedom to operate",
+      "decision": "not_supported",
+      "support": [
+        "PC20-05",
+        "PC20-06",
+        "PC20-11"
+      ],
+      "reason": "Bounded source records do not establish these distinct propositions."
+    },
+    {
+      "id": "PC20-D04",
+      "claim": "Reported refrigerated gel-state stability establishes an ophthalmic shelf life",
+      "decision": "not_supported",
+      "support": [
+        "PC20-08",
+        "PC20-09",
+        "PC20-10"
+      ],
+      "reason": "Physical state does not establish sterility, potency, product delivery or in-use quality."
+    },
+    {
+      "id": "PC20-D05",
+      "claim": "A narrower readiness-only tranche retains the original rank5 at the same price",
+      "decision": "rejected",
+      "support": [
+        "PC20-12",
+        "PC20-14"
+      ],
+      "reason": "Reduced information yield requires a new marginal comparison even without price expansion."
+    },
+    {
+      "id": "PC20-D06",
+      "claim": "mIGF must be superior on every efficacy endpoint to have value",
+      "decision": "not_a_universal_requirement",
+      "support": [
+        "PC20-13"
+      ],
+      "reason": "Comparable useful repair with a substantial verified practical advantage could be valuable, but no such human advantage is established."
+    },
+    {
+      "id": "PC20-D07",
+      "claim": "Failure of a poorly qualified delivery/model route proves the molecule failed",
+      "decision": "not_supported",
+      "support": [
+        "PC20-14"
+      ],
+      "reason": "Such a negative can be uninformative scientifically while still stopping investment because the route cannot buy the useful answer."
+    },
+    {
+      "id": "PC20-D08",
+      "claim": "The capture findings justify switching the selected candidate or promoting development rank",
+      "decision": "no_clear_override_from_this_lane",
+      "support": [
+        "PC20-12",
+        "PC20-14"
+      ],
+      "reason": "Sharper provenance and product risks alter conditions; actual rights, costs and comparative benefit remain unqualified."
+    }
+  ],
+  "rights_status": {
+    "new_application_publication_verified": true,
+    "new_grant_verified": false,
+    "older_grant_publication_verified": true,
+    "exact_named_prior_description_verified": true,
+    "full_exact_claim_chart_completed": false,
+    "old_Arg_Ala_discrepancy_resolved": false,
+    "current_official_chain_of_title_verified": false,
+    "current_maintenance_enforceability_verified": false,
+    "all_jurisdictions_reviewed": false,
+    "global_family_clearance_completed": false,
+    "license_availability_verified": false,
+    "license_terms_verified": false,
+    "freedom_to_operate_asserted": false,
+    "ddiscov_ownership_asserted": false,
+    "commercial_capture_route_qualified": false,
+    "validity_or_infringement_conclusion": null
+  },
+  "product_readiness": {
+    "future_physical_batch_authenticated": false,
+    "commercial_sterile_supply_route_qualified": false,
+    "commercial_delivery_presentation_qualified": false,
+    "complete_chemical_potency_sterility_shelf_life_package_qualified": false,
+    "in_use_container_stability_qualified": false,
+    "regulatory_classification_or_pathway_determined": false,
+    "full_ophthalmic_development_budget_established": false,
+    "physical_gel_storage_report_is_complete_shelf_life": false
+  },
+  "marginal_decision": {
+    "selected_information_lane": "mIGF-Gel/corneal repair",
+    "inherited_conditional_development_rank": 5,
+    "conditional_development_prefix": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "NDC-9009",
+      "mIGF-Gel"
+    ],
+    "rank_changed_by_this_lane": false,
+    "new_evidence_clearly_favors_switch_from_this_lane": false,
+    "development_rank_is_inherited_conditional": true,
+    "information_selection_is_financial_asset_rank": false,
+    "historical_allocation_used_as_EV_proxy": false,
+    "waiting_is_an_alternative": true,
+    "spending_authorized": false,
+    "routes": [
+      {
+        "id": "PCR20-R1",
+        "route": "Defined mIGF product with actionable rights position",
+        "condition": "Useful comparator benefit and credible retained value after remaining costs.",
+        "execution_now": false,
+        "status": "conditional_option"
+      },
+      {
+        "id": "PCR20-R2",
+        "route": "Comparable repair with lower practical treatment burden",
+        "condition": "Substantial verified advantage with acceptable optical/product performance, not frequency alone.",
+        "execution_now": false,
+        "status": "unestablished_product_claim"
+      },
+      {
+        "id": "PCR20-R3",
+        "route": "Distinct formulation or evidence contribution",
+        "condition": "Specific useful and capturable contribution; no new invention or ownership presumed.",
+        "execution_now": false,
+        "status": "unqualified"
+      },
+      {
+        "id": "PCR20-R4",
+        "route": "Re-scope preliminary qualification",
+        "condition": "Actual narrower information yield justifies remaining cost, alternatives and waiting.",
+        "execution_now": false,
+        "status": "requires_new_marginal_comparison"
+      },
+      {
+        "id": "PCR20-R5",
+        "route": "Stop or wait",
+        "condition": "No useful differentiation, no informative executable route, or rights/product costs consume retained value.",
+        "execution_now": false,
+        "status": "explicit_alternative"
+      }
+    ]
+  },
+  "tranche_assumptions": {
+    "currency": "USD",
+    "cost_range": [
+      40000,
+      150000
+    ],
+    "months_range": [
+      3,
+      6
+    ],
+    "provenance": "L2, original independent ranking",
+    "scope": "Judgmental local-product/active-comparator question, dependent on a suitable model.",
+    "actual_quote": false,
+    "feasibility_at_either_end_verified": false,
+    "full_program_budget": false,
+    "original_premise_includes_useful_function_and_comparator_answer": true,
+    "qualification_only_scope_inherits_prior_rank_without_recomparison": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true,
+    "scope_expansion_requires_recomparison": true,
+    "external_commitment_usd": 0,
+    "exclusions": [
+      "Major new model construction",
+      "Medicinal-chemistry changes",
+      "Broad formulation campaign",
+      "Rights acquisition",
+      "Full sterile ophthalmic development package",
+      "Clinical supply",
+      "Toxicology",
+      "Patient trial",
+      "Commercialization"
+    ]
+  },
+  "retrieval": {
+    "pass_closed": true,
+    "query_families": [
+      "Exact mIGF name restricted to Nankai program pages",
+      "Exact CN121949581A license/transfer and institutional entry",
+      "Exact CN113321706B within Nankai IP portal",
+      "FDA ophthalmic-quality guidance status"
+    ],
+    "specific_primary_records_read": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ],
+    "unread_or_failed_specific_records": [
+      "S9",
+      "S10",
+      "S11",
+      "S12"
+    ],
+    "full_supplement_or_graphical_terminal_specification_read": false,
+    "old_sequence_list_discrepancy_checked_in_original_pdf": true,
+    "official_status_and_assignment_records_recovered": false,
+    "old_grant_specific_Nankai_page_recovered": false,
+    "license_price_or_transaction_recovered": false,
+    "no_result_is_global_absence": false,
+    "access_control_bypassed": false,
+    "broad_generic_repeat_search_performed": false,
+    "stop_reason": "Exact disclosure, published claim and product-quality boundaries resolved to available primary source level. Remaining title/claim interpretation, terms, practical comparative performance and executable scope require a specific action-changing artifact.",
+    "reopen_for": [
+      "Substantive claim/sequence correction or readable relevant prosecution record",
+      "Current exact-product official title/terms fact affecting retained value",
+      "Material comparative function or practical product performance",
+      "Credible scoped execution cost, supply or access fact changing a named commitment"
+    ],
+    "closed_lanes_preserved": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "NDC-9009",
+      "Earlier named closed lanes"
+    ]
+  },
+  "completion": {
+    "new_candidates": 0,
+    "new_exact_use_screens": 0,
+    "new_efficacy_results_generated": 0,
+    "new_human_mIGF_results_recovered_by_this_lane": 0,
+    "S_tier_promotions": 0,
+    "scientific_or_financial_models_run": false,
+    "new_numerical_EV_or_NPV": null,
+    "new_protocol_generated": false,
+    "manufacturing_recipe_reproduced": false,
+    "repository_mutations_by_this_agent": false,
+    "remote_writes_by_this_agent": false,
+    "material_requested": false
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}
