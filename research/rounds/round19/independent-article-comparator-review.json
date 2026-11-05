@@ -1,0 +1,273 @@
+{
+  "schema_version": "ddiscov.round19.independent_article_comparator_review.v1",
+  "review_id": "round19.independent_article_comparator_review",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "candidate_id": "R3-NL-01",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "audit_recovered_round18; author of separate capture pair, not author of either reviewed pair",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issue_count": 0,
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round19/ndc-article-exposure.md",
+      "bytes": 14368,
+      "sha256": "19e05cd0144419c1211aa5928cb2987ceb81ab419805de44ffff9a7bee87efe2"
+    },
+    {
+      "path": "research/rounds/round19/ndc-article-exposure.json",
+      "bytes": 14075,
+      "sha256": "514668fee5b02e3fab073b989b68a5035c5da025646279b1d1c21f2dce4970bb"
+    },
+    {
+      "path": "research/rounds/round19/ndc-comparator-update.md",
+      "bytes": 12389,
+      "sha256": "7791073a9df81bb1f09e7c89f77b360af24b2e01e4cece7dc958595fa60ab0ac"
+    },
+    {
+      "path": "research/rounds/round19/ndc-comparator-update.json",
+      "bytes": 18962,
+      "sha256": "26ef3a1a9666da3969196a3fcb1bdd2fb63170c97278b1f85b5bacc70bbc54c4"
+    }
+  ],
+  "scope": "Independent full review of article/exposure and comparator MD/JSON pairs for article attribution, denominators, function/timing/exposure, source-access limits, comparator lineage, claim-specific decisions, budget-scope/rank separation and restrictions. The reviewer-authored product/capture pair is excluded from this review.",
+  "counts": {
+    "reviewed_files": 4,
+    "article_source_records_including_discovery_and_failed_routes": 5,
+    "article_evidence_rows": 14,
+    "article_claim_decisions": 8,
+    "comparator_source_records": 10,
+    "comparator_evidence_rows": 12,
+    "comparator_claim_decisions": 6,
+    "resolved_authoring_issues": 1,
+    "retained_nonblocking_issues": 6
+  },
+  "findings": [
+    {
+      "id": "AR19-F01",
+      "status": "pass",
+      "finding": "The four files preserve candidate R3-NL-01, Round18 parent, 4Nov2026 America/Los_Angeles evidence cut and 5NovUTC retrieval date.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F02",
+      "status": "pass",
+      "finding": "The corrected narrative and AE19-09 explicitly identify the systematic chemical name as an inference from published synthesis. The separate patent C18 disclosure crosswalk is not represented as direct naming in the chemistry paper or exact commercial rights.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F03",
+      "status": "pass",
+      "finding": "CDN1163 one-hour localization is separated from NDC four-hour functional cohesion. Functional fragmentation is neither reduced to a mere marker nor promoted to established-lesion or patient repair.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F04",
+      "status": "pass",
+      "finding": "Four isolates, three donors and two variants are retained; repeats, DD2 calcium measurements and biopsy-only DD5-DD7 do not become additional independent efficacy patients.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F05",
+      "status": "pass",
+      "finding": "Nominal culture concentration, PBS solubility, assay concentration and delivered/free epidermal exposure remain distinct. The solubility gap is not converted into an invalid experiment, absolute topical ceiling or EC50.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F06",
+      "status": "pass",
+      "finding": "Noncutaneous mouse administration is supported by the 2023 primary text and is not used to establish skin delivery. The 2025 follow-up remains discovery-only in this lane.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F07",
+      "status": "pass",
+      "finding": "The supplier gift, authorship, source-specific conflicts and patent-assignment disclosures remain separate from future batch authentication, receipt, availability, permission, current title and license.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F08",
+      "status": "pass",
+      "finding": "SGT210 is a sponsor-reported controlled Darier negative newly incorporated into the audit, not a fresh post-Round18 event, equivalence finding, resolved mechanism of failure or NDC failure.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F09",
+      "status": "pass",
+      "finding": "SGT210 ongoing-program formulation information is distinguished from unavailable final batch/denominator/outcome tables. Other-disease and maximal-use PK observations are not reassigned to Darier efficacy.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F10",
+      "status": "pass",
+      "finding": "The cream case, sequential/cotreated poster and oral roflumilast summary retain distinct routes, timing and evidence levels. No pooled response rate, independent monotherapy replication, three-month cream durability or no-systemic-risk claim is manufactured.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F11",
+      "status": "pass",
+      "finding": "Prior dantrolene16 exposed/10 paired completers/6 discontinuations remain inherited verified context. The mechanistic abstract and Th2/Th17 listing do not become new clinical cohorts, full-methods results or direct barrier restoration.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F12",
+      "status": "pass",
+      "finding": "Repair, prevention, continuing control and off-treatment persistence are scoped to different claims. No unsupported preventive benefit is invented, and model/exposure failure is not universal target or clinical failure.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F13",
+      "status": "pass",
+      "finding": "The original illustrative NDC envelope includes a functional answer; readiness-only work is explicitly narrower and cannot inherit rank4 or EV rationale without a new marginal comparison. Information priority does not promote conditional development order.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F14",
+      "status": "pass",
+      "finding": "Both passes have finite retrieval stops with explicit inaccessible-source limits. No extra protocol, model, financial valuation, S-tier promotion, authorization or reopening of closed APR/RM/BLU lanes is introduced.",
+      "blocking_for_this_review": false
+    },
+    {
+      "id": "AR19-F15",
+      "status": "pass",
+      "finding": "Strict JSON parsing, source-reference consistency, recorded source/evidence/claim counts and false activity flags passed; final reviewed files are bound by byte length and SHA256.",
+      "blocking_for_this_review": false
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "AR19-R01",
+      "issue": "The article narrative originally represented the full systematic chemical name as explicit source naming; AE19-09 did not identify its derivation as inference.",
+      "correction": "Root changed the narrative to inference from reported synthesis and replaced article_name with inferred_systematic_name plus name_evidence_scope in AE19-09. The separate later-patent C18 disclosure crosswalk is explicitly distinguished.",
+      "verification": "Corrected passage and row read back; final byte counts and SHA256 values match the bound versions.",
+      "status": "resolved",
+      "blocking_for_this_review": false
+    }
+  ],
+  "reviewer_corrections": [
+    {
+      "id": "AR19-N01",
+      "initial_concern": "Reviewer initially questioned attribution of noncutaneous mouse administration to the 2023 paper.",
+      "evidence_check": "Direct primary results2.4 and methods4.6 confirm intraperitoneal administration before LTP slice recording.",
+      "resolution": "Concern withdrawn; original author wording retained and supported. This is not counted as an authoring error or a requested change.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+      "source_refs": [
+        "turn44view0",
+        "turn44view2"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "AR19-O01",
+      "issue": "Exact future batch, practicable topical presentation, measured relevant skin exposure and local functional/tolerability window remain unqualified.",
+      "status": "Explicit next-decision uncertainty; not evidence of absent dissolved drug or biological failure.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "AR19-O02",
+      "issue": "Darier supplement and raw-data archive were not read; additional allocation/batch details and six-versus-twelve-well reporting difference remain unresolved.",
+      "status": "Access and reporting limits are retained without invalidity or missing-data inference.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "AR19-O03",
+      "issue": "SGT210 final arm sizes, effect estimates, confidence intervals, exposure and detailed endpoints were not recovered.",
+      "status": "Sponsor negative supports a contextual caution, not quantitative efficacy/equivalence or a causal failure explanation.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "AR19-O04",
+      "issue": "PDE4 evidence remains uncontrolled and heterogeneous; original poster PDFs, full follow-up/co-treatment and important safety/product details remain unavailable.",
+      "status": "Routes and sequences remain separate; no pooled treatment effect or established commercial asset.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "AR19-O05",
+      "issue": "Fresh full methods for the October dantrolene mechanistic paper and Th2/Th17 report were not recovered.",
+      "status": "Abstract/listing limits and prior clinical denominators are preserved; their later availability alone is not a mandatory new program gate.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    },
+    {
+      "id": "AR19-O06",
+      "issue": "Actual execution scope/cost, current exact commercial rights and retained economics remain unverified.",
+      "status": "Readiness-only work does not inherit the functional-answer investment rationale; separate capture audit/review covers rights. This review does not independently certify FTO or ownership.",
+      "blocking_for_this_review": false,
+      "material_to_later_commitment": true
+    }
+  ],
+  "requested_revisions": [],
+  "primary_source_spot_checks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "scope": "Indexed primary Figure2 context and reagent gift attribution checked during same bounded audit; broader source extraction retained from author audit and baseline.",
+      "refs": [
+        "turn32search2",
+        "turn35search0"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+      "scope": "Named synthesis, Table1, author conflicts and specific2023 noncutaneous administration passages independently checked.",
+      "refs": [
+        "turn10view2",
+        "turn12view7",
+        "turn26view3",
+        "turn44view0",
+        "turn44view1",
+        "turn44view2"
+      ]
+    },
+    {
+      "url": "https://ir.sol-gel.com/node/9126",
+      "scope": "Full primary result-release body; release date17Dec2025 distinguished from webpage banner timestamp; nondifferentiation and discontinued Darier advancement checked.",
+      "refs": [
+        "turn43view0"
+      ]
+    },
+    {
+      "url": "https://www.dermrefoundation.org/uploads/1/2/6/2/126228942/sdds_otezla_poster_final.pdf",
+      "scope": "Indexed primary text of sequential/cotreated case independently checked; no original PDF figure verification claimed.",
+      "refs": [
+        "turn43search4"
+      ]
+    },
+    {
+      "url": "https://kikoxp.com/posters/6430/oral-roflumilast-for-treatment-of-darier",
+      "scope": "Readable primary conference-host summary independently checked; oral route, limited outcome and missing follow-up/safety scope retained.",
+      "refs": [
+        "turn43view1"
+      ]
+    }
+  ],
+  "review_method": {
+    "full_four_artifacts_read": true,
+    "corrected_passages_reread_before_binding": true,
+    "independent_primary_spot_checks": true,
+    "all_primary_sources_claimed_independently_reread": false,
+    "source_reference_and_count_consistency_checked": true,
+    "strict_JSON_and_hash_checks_only": true,
+    "new_broad_literature_search": false,
+    "new_access_retry_loop": false,
+    "new_protocol_or_quantitative_threshold": false,
+    "scientific_or_financial_model_executed": false,
+    "binding_scope": "Only the four listed files; product/capture and root marginal-decision artifacts have separate independent reviews, and repository publication has separate verification."
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "reviewed_files_edited_by_this_reviewer": false,
+  "repository_edits_by_reviewer": false,
+  "remote_writes_by_reviewer": false
+}

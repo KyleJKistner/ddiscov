@@ -1,8 +1,22 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 18.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Evidence cut: 4 November 2026. Round 19.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 18: BLU3797/XLMTM and the bounded information decision
+## Round 19: NDC9009/Darier and the value of an informative next decision
+
+**Retain a conditional NDC qualification option and close the selected public-source pass.** NDC follows the completed APR, RM and BLU information sprints. The independent conditional development order remains **APR-246 → RM4404 → BLU-3797 → NDC-9009**; source closure does not demote the earlier programs. Historical effort points are not money or EV. [Decision and branches](../research/rounds/round19/marginal-dollar-decision.md)
+
+The later patent C18 disclosure strengthens the article-derived chemical provenance, while the paper's Neurodon attribution and sponsor's Darier program make the capture question concrete. These facts do not establish complete claim coverage, current title, license availability, a commercial supply route or a mapping of NDC to NRDN201/301. [Product/capture audit](../research/rounds/round19/ndc-product-capture.md)
+
+The comparator update adds the previously omitted SGT210 vehicle-controlled Darier non-differentiation and indication stop, reported in December 2025 and reaffirmed in 2026. Final denominators/effect estimates were not recovered. This is a different drug, not a negative NDC result. The prior 0.3% roflumilast cream case remains distinct from a heavily co-treated sequential poster and a sparse oral conference summary. Dantrolene's 16 exposed, 10 paired and six discontinued remain the retained denominators; no new NDC human efficacy or barrier-restoration result was recovered. [Comparator audit](../research/rounds/round19/ndc-comparator-update.md) · [Article/exposure audit](../research/rounds/round19/ndc-article-exposure.md)
+
+**Current NDC claim amendment:** an assembly-only result cannot establish repair of an established lesion, clinical prevention or ongoing control. A qualified negative for repair need not reject a separately useful prevention/control product; those claims require their own functional or patient benefit, comparator, tolerability and capture case. Off-treatment persistence is required for a claimed durable off-treatment effect, not all useful therapy. These limits supersede any broader legacy prevention-only stop wording below or in earlier analytical snapshots. No new protocol, dose or numeric threshold is introduced.
+
+The inherited **$40–150k / 3–6-month** assumption covers a topical-exposure and useful-function question, not a clinical program or a verified work order. A qualification-only substitute that no longer answers that question does not inherit rank4 or its EV rationale, even if the price is unchanged. Recompare actual information yield, remaining cost/time, useful product contribution and waiting. No portion is automatically funded.
+
+This NDC public-source pass is closed pending substantive exact-article/function/exposure, controlled comparator, or rights/access/cost evidence that changes a named commitment. APR/RM/BLU and all earlier named closed lanes stay closed. No outreach, purchases, recruitment, experiments, simulations or material receipt occurred or is authorized.
+
+## Retained Round 18: BLU3797/XLMTM and the bounded information decision
 
 **The selected BLU source sprint is complete; retain affirmative staged qualification.** No recovered fresh evidence clearly favors switching candidates. The independent review conditional development order remains **APR-246 → RM4404 → BLU**. Selecting the next eligible information task after APR/RM closure does not establish BLU as the first financial asset, revive the historical 55-point allocation, or authorize a complete program. [Decision and branches](../research/rounds/round18/marginal-dollar-decision.md)
 

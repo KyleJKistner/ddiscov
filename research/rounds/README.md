@@ -22,6 +22,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 16](round16/README.md)** | APR-246/AEC marginal-dollar qualification | One existing candidate; clinical-report lineage, article transfer, two existing model routes, current program/rights limits and an ongoing-control claim amendment. Three independent reviews; no new patients, screens, experiments or S-tier promotion. |
 | **[Round 17](round17/README.md)** | RM4404/corneal-repair marginal-dollar source sprint | One existing candidate; function/model-specific contrasts, biological units, timing, exact article and current comparator/capture limits. Three independent reviews; APR1/RM2/BLU3 development order retained. No new screen, independent RM replication, experiment or S-tier promotion. |
 | **[Round 18](round18/README.md)** | BLU human-model and systemic/comparator source close | One existing candidate; official manuscript metadata with unread content, tissue-specific human context, sponsor plans and staged cost/decision limits. Three independent reviews; no new human BLU force result, screen, experiment or S-tier promotion. |
+| **[Round 19](round19/README.md)** | NDC9009 article, comparator, capture and claim-specific source close | One existing candidate; later C18 disclosure, sponsor overlap, controlled contrary comparator and PDE4 lineage. Three independent reviews; original-scope rank4 retained, preliminary-only rank inheritance rejected. No new NDC human result, screen, experiment or S-tier promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 
@@ -104,3 +105,7 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [HHD endpoint-to-claim amendment](round14/hhd-clinical-claim-amendment.md)
 - [Integration review](round14/integration-review.md)
 - [Publication manifest](round14/artifact-manifest.json)
+
+## Round 19
+
+- [NDC9009/Darier source close, decision amendment and verified manifest](round19/README.md)

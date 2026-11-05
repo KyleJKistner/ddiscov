@@ -1,0 +1,558 @@
+{
+  "round": 19,
+  "audit_id": "round19.ndc_product_capture",
+  "date": "2026-11-04",
+  "repository": "KyleJKistner/ddiscov",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "candidate_id": "R3-NL-01",
+  "candidate": "NDC-9009 topical Darier disease",
+  "status": "completed_bounded_public_source_pass_with_explicit_execution_limits",
+  "decision": "Retain the bounded NDC information lane; stronger Neurodon disclosure crosswalk and incumbent overlap do not establish an available asset, freedom to operate, qualified execution price or a change to conditional development priority.",
+  "exact_article": {
+    "name": "NDC-9009",
+    "inferred_systematic_name": "4-(dimethylamino)-N-(2-methylquinolin-8-yl)benzamide",
+    "distinct_from": [
+      "CDN1163"
+    ],
+    "distinction_note": "CDN1163 is a distinct article. No chemical equivalence between NDC-9009 and the other named sponsor codes is established.",
+    "disclosure_crosswalk": {
+      "patent": "US11827626B2",
+      "example": "C18",
+      "section": "2.2.51",
+      "status": "inference_from_named_connectivity_and_article_synthesis",
+      "mass_alone_sufficient": false,
+      "same_mass_counterexample": "Adjacent C19 ethylamino analogue also reports m/z306."
+    },
+    "origin_scope": "Neurodon gift to published Darier investigators; current project receipt/supply/permission unconfirmed.",
+    "not_equated_with": [
+      "NDC-0009",
+      "NRDN-201",
+      "NRDN-301"
+    ]
+  },
+  "rights_status": {
+    "published_disclosure_found": true,
+    "related_issued_claim_text_found": true,
+    "author_reported_neurodon_assignment": true,
+    "exact_graphical_claim_chart_completed": false,
+    "current_official_chain_of_title_verified": false,
+    "current_maintenance_enforceability_verified": false,
+    "all_jurisdictions_reviewed": false,
+    "license_availability_verified": false,
+    "license_terms_verified": false,
+    "freedom_to_operate_asserted": false,
+    "ddiscov_ownership_asserted": false,
+    "capture_route_qualified": false,
+    "note": "Published text, authorship, assigned claims, current status, license scope and freedom to operate remain separate."
+  },
+  "claim_evidence_rows": [
+    {
+      "id": "NC19-C01",
+      "claim": "NDC-9009 has a public structural disclosure and Neurodon provenance.",
+      "supported": "2023 named synthesis; 2026 disease-paper Neurodon gift attribution.",
+      "limit": "No authenticated project batch, available supply or transferred permission.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "inference": false
+    },
+    {
+      "id": "NC19-C02",
+      "claim": "NDC-9009 maps at disclosure level to later patent example C18.",
+      "supported": "Named dimethylamino benzamide connectivity agrees with article synthesis.",
+      "limit": "Inferred crosswalk, not a patent-claim or analytical batch identity determination; C19 also has mass306.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C03",
+      "claim": "The originally named application is not itself an explicit C18 identification.",
+      "supported": "A1 example sequence jumps C17 to E1; no C18 named example recovered.",
+      "limit": "A limited textual finding does not exclude generic disclosure or claim coverage.",
+      "source_ids": [
+        "S3"
+      ],
+      "inference": false
+    },
+    {
+      "id": "NC19-C04",
+      "claim": "Original issued grant scope differs from a general SERCA family description.",
+      "supported": "US10772881B2:8 written claims, specified compounds and Alzheimer/Parkinson or diabetes methods.",
+      "limit": "No Darier-specific word in retrieved claims does not establish FTO; structures uncharted.",
+      "source_ids": [
+        "S4"
+      ],
+      "inference": false
+    },
+    {
+      "id": "NC19-C05",
+      "claim": "Related issued patents create additional product-scope questions.",
+      "supported": "US11730729B2:4 claims; US11827626B2:8; selected-structure solid-form compositions and diabetes methods.",
+      "limit": "No complete graphical structure mapping, prosecution or all-family/jurisdiction analysis.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "inference": false
+    },
+    {
+      "id": "NC19-C06",
+      "claim": "The NDC name or 2023 publication is not proof of first invention of its structure.",
+      "supported": "Related grant cites same named compound in2012 PubChem/CAS/STN records.",
+      "limit": "Citations only; underlying records, priority, novelty and validity not established.",
+      "source_ids": [
+        "S7"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C07",
+      "claim": "Neurodon has an overlapping Darier program account.",
+      "supported": "Sponsor pipeline lists Darier in animal/cellular rare-disease context.",
+      "limit": "No NDC=NRDN201/301 mapping, clinical Darier result, available license or current execution commitment.",
+      "source_ids": [
+        "S8"
+      ],
+      "inference": false
+    },
+    {
+      "id": "NC19-C08",
+      "claim": "Published inventor/assignment attribution is not an audited commercial right.",
+      "supported": "Article COI reports Neurodon assignments; legal distinctions require actual scope/status/contract facts.",
+      "limit": "Current title, enforceability, encumbrances and license terms unverified; aggregator labels not conclusions.",
+      "source_ids": [
+        "S1",
+        "S11",
+        "S12"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C09",
+      "claim": "Topical roflumilast has incumbent-controlled product context.",
+      "supported": "Arcutis issuer filing and current sponsor page describe topical dermatology rights.",
+      "limit": "Darier evidence does not automatically create a ddiscov-owned asset; no applicable deal established.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C10",
+      "claim": "The initial NDC budget can be interpreted only as a conditional narrow decision envelope.",
+      "supported": "Independent review assumption:USD40000-150000,3-6months,topical exposure/established barrier,not clinical program.",
+      "limit": "No quote, adequate execution route or rights price. A readiness-only tranche does not buy the original functional answer or inherit rank4 rationale.",
+      "source_ids": [],
+      "local_input_ids": [
+        "L2"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C11",
+      "claim": "Prevention-only should not globally reject every useful NDC product thesis.",
+      "supported": "Inherited Round3 distinction and later claim-specific negative-result policy.",
+      "limit": "Separate prevention/control requires credible useful function/patient benefit, window, comparator and capture; assembly alone is insufficient.",
+      "source_ids": [],
+      "local_input_ids": [
+        "L1",
+        "L3"
+      ],
+      "inference": true
+    },
+    {
+      "id": "NC19-C12",
+      "claim": "No new development rank or S-tier follows from this rights audit.",
+      "supported": "Information lane selection is separate from conditional development priority and commercial control.",
+      "limit": "APR/RM/BLU dispositions and earlier closures preserved; alternative of waiting remains.",
+      "source_ids": [],
+      "local_input_ids": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "inference": true
+    }
+  ],
+  "marginal_decision": {
+    "selected_information_lane": "NDC-9009/Darier bounded source qualification",
+    "conditional_development_rank_in_independent_review": 4,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01"
+    ],
+    "rank_changed_by_this_audit": false,
+    "spending_authorized": false,
+    "historical_allocation_used_as_EV_proxy": false,
+    "waiting_is_an_alternative": true,
+    "branches": [
+      {
+        "id": "NC19-B1",
+        "if": "Exact article, relevant exposure/function question, adequate execution route and plausible contribution fit a credible narrow scope.",
+        "then": "Consider conditional qualification on remaining cost/time and retained value versus alternatives and waiting.",
+        "scope_limit": "No execution authorized; source sprint does not change APR/RM/BLU/NDC conditional order.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B2",
+        "if": "Article, formulation, exposure or model cannot be qualified within the assumed envelope.",
+        "then": "Treat as qualification uncertainty; rescope, compare, wait or stop.",
+        "scope_limit": "No target-failure inference and no silent absorption of major new development.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B3",
+        "if": "Qualified result supports useful established-lesion restoration with appropriate comparator advantage.",
+        "then": "Consider focused confirmation and product qualification.",
+        "scope_limit": "Not clinical proof, broad genotype coverage, commercial ownership or capture.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B4",
+        "if": "Restoration is unsupported but a distinct prevention or ongoing-control benefit is credible and useful.",
+        "then": "Narrow and separately assess that claim with its exposure, tolerability, treatment burden, comparator and capture requirements.",
+        "scope_limit": "Do not relabel control as repair or count assembly/biomarkers alone as a product.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B5",
+        "if": "Simpler therapy provides equivalent useful outcomes without an offsetting NDC advantage.",
+        "then": "Deprioritize commercial NDC development; other research objectives remain distinguishable.",
+        "scope_limit": "A distinctive mechanism does not rescue absent product contribution.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B6",
+        "if": "Benefit is useful but exact commercial position is unavailable or terms absorb retained value.",
+        "then": "Do not fund as an owned drug asset; separately justify any research or contractual route.",
+        "scope_limit": "No inferred license availability or spending authority.",
+        "executed": false
+      },
+      {
+        "id": "NC19-B7",
+        "if": "No bounded new public document can change the action.",
+        "then": "Close source pass and retain the option to wait.",
+        "scope_limit": "Do not repeat generic patent, sponsor, exposure or model/catalog searches.",
+        "executed": false
+      }
+    ]
+  },
+  "tranche_assumption": {
+    "currency": "USD",
+    "cost_range": [
+      40000,
+      150000
+    ],
+    "months_range": [
+      3,
+      6
+    ],
+    "provenance": "Independent marginal capital review,4Nov2026; illustrative analyst assumption",
+    "scope": "Original assumption includes topical exposure and an established-barrier functional question; a readiness-only question is a distinct narrower tranche.",
+    "actual_quote": false,
+    "feasibility_at_either_end_verified": false,
+    "full_program_budget": false,
+    "new_total_budget_calculated": false,
+    "requirements_before_action": [
+      "Exact article and adequate lawful execution position",
+      "Suitable material quality and practicable presentation",
+      "Qualified model and interpretable outcome for the intended claim",
+      "Relevant exposure and healthy-tissue/tolerability window",
+      "Credible cost/time responsibility and execution capacity",
+      "Meaningful comparator contribution and retained commercial route"
+    ],
+    "excluded": [
+      "Major new chemistry",
+      "Major model construction",
+      "Extended formulation or full CMC package",
+      "Chronic toxicology",
+      "Clinical trial",
+      "GMP clinical manufacture",
+      "Licensing consideration",
+      "Commercialization"
+    ],
+    "scope_change_rule": "Reprice the changed question and compare remaining cost/time/value with alternatives and waiting; do not silently enlarge this envelope.",
+    "original_premise_includes_functional_answer": true,
+    "readiness_only_establishes_functional_answer": false,
+    "readiness_only_inherits_rank4_rationale": false,
+    "readiness_only_rule": "Rescope and compare its actual cost, information value and priority with alternatives and waiting; do not assume the original functional-answer investment rationale survives."
+  },
+  "claim_specific_amendment": {
+    "needed": true,
+    "target": "Generic assembly/prophylaxis-only stop applied to the whole NDC product",
+    "replacement": "Deprioritize established-lesion restoration if benefit is restricted to assembly/prevention in an adequately qualified interpretable comparison. Preserve a separate prevention or ongoing-control thesis only with credible useful functional or patient benefit, feasible exposure/tolerability, meaningful comparator advantage and credible capture. Assembly/markers alone do not establish that alternative. Model or delivery failure is not target failure.",
+    "positive_interpretation": "Credible useful positive may justify focused confirmation before every ancillary uncertainty is resolved.",
+    "negative_interpretation": "Require adequate article, exposure, deficit and precision; established-deficit modifiability is specifically required for an intended reversal claim.",
+    "universal_delayed_reversal_gate": false,
+    "protocol_generated": false
+  },
+  "incumbent_comparator": {
+    "article": "topical roflumilast",
+    "role": "Darier comparator and incumbent-controlled product context",
+    "primary_rights_context": "Arcutis issuer filing and sponsor description of topical-dermatology license and own product IP",
+    "ddiscov_asset_inferred": false,
+    "clinical_case_to_rights_inference": false,
+    "note": "Useful evidence may benefit the incumbent; an independent contribution and route to retained economics must be demonstrated."
+  },
+  "retrieval_stop": {
+    "closed": true,
+    "closed_scope": [
+      "Named NDC publication-to-patent crosswalk",
+      "Bounded Neurodon sponsor overlap",
+      "Related written issued claims",
+      "Arcutis incumbent topical-dermatology position",
+      "General USPTO distinctions needed to interpret these records"
+    ],
+    "reopen_only_for": [
+      "Substantive exact-product claim chart/current registry or transaction fact",
+      "Relevant rights/supply/data-use position",
+      "New exact-Darier sponsor or controlled clinical result",
+      "Credible scoped execution cost that changes the decision"
+    ],
+    "not_reopening_triggers": [
+      "Fresh search-index date",
+      "Another citation or code without substance",
+      "Repeated sponsor summary",
+      "Unreadable page alone"
+    ],
+    "preserve_closed_lanes": [
+      "APR-246 Round16",
+      "RM4404 Round17",
+      "BLU-3797 Round18",
+      "Earlier generic exposure",
+      "Earlier model/catalog",
+      "Earlier comparator and patent scopes outside the named NDC pass"
+    ]
+  },
+  "retrieval_limits": [
+    {
+      "url": "https://patentcenter.uspto.gov/applications/17401642",
+      "outcome": "No substantive extracted text; current register status not established.",
+      "web_ref": "turn18view3"
+    },
+    {
+      "url": "https://assignment.uspto.gov/patent/index.html",
+      "outcome": "502 in connector; no assignment record read.",
+      "web_ref": "turn18view2"
+    },
+    {
+      "url": "https://assignmentcenter.uspto.gov/",
+      "outcome": "No readable record in extracted page.",
+      "web_ref": "turn27view2"
+    },
+    {
+      "urls": [
+        "https://patentimages.storage.googleapis.com/34/ac/04/e5df17a659ac20/US11827626.pdf",
+        "https://patentimages.storage.googleapis.com/6c/b8/0c/56f9a148572878/US11730729.pdf"
+      ],
+      "outcome": "PDF page references recovered; screenshot response contained references without inspectable image blocks. Written claims reviewed; complete graphical membership not verified.",
+      "web_refs": [
+        "turn18view0",
+        "turn18view1",
+        "turn20view0",
+        "turn20view1",
+        "turn20view2",
+        "turn20view3",
+        "turn20view4",
+        "turn22view0"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+      "title": "Rakovskaya et al. 2023; DOI10.3390/ijms241813973",
+      "source_type": "primary_research",
+      "read_scope": "Named NDC-9009 synthesis/analytical identity, distinction from other SERCA PAMs, conflicts of interest. No recipe execution.",
+      "web_refs": [
+        "turn10view2",
+        "turn12view7",
+        "turn26view3"
+      ]
+    },
+    {
+      "id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "title": "Harmon et al. 2026; DOI10.1126/sciadv.aee1599",
+      "source_type": "primary_research",
+      "read_scope": "Indexed primary methods reagent provenance and Fig.2 context; Neurodon gift to published researchers. No project receipt.",
+      "web_refs": [
+        "turn35search0"
+      ]
+    },
+    {
+      "id": "S3",
+      "url": "https://patents.google.com/patent/US20190151303A1/en",
+      "title": "US20190151303A1",
+      "source_type": "primary_patent_text_hosted_reproduction",
+      "read_scope": "Published application, example sequence C17 to E1, published claims and successor identification. Aggregator current status/assignee labels are not legal findings.",
+      "web_refs": [
+        "turn10view0",
+        "turn26search0",
+        "turn27view0"
+      ]
+    },
+    {
+      "id": "S4",
+      "url": "https://patents.google.com/patent/US10772881B2/en",
+      "title": "US10772881B2",
+      "source_type": "primary_patent_text_hosted_reproduction",
+      "read_scope": "Issued eight written claims; exact graphical compound membership and current register status not established.",
+      "web_refs": [
+        "turn10view1",
+        "turn12view3"
+      ]
+    },
+    {
+      "id": "S5",
+      "url": "https://patents.google.com/patent/US11827626B2/en",
+      "title": "US11827626B2",
+      "source_type": "primary_patent_text_hosted_reproduction",
+      "read_scope": "Named examples C18/C19, eight written claims, bibliographic successor to application17/401642; PDF pages referenced but graphical claim membership not inspectable.",
+      "web_refs": [
+        "turn16view3",
+        "turn18view6",
+        "turn26view0"
+      ],
+      "pdf_url": "https://patentimages.storage.googleapis.com/34/ac/04/e5df17a659ac20/US11827626.pdf"
+    },
+    {
+      "id": "S6",
+      "url": "https://patents.google.com/patent/US11730729B2/en",
+      "title": "US11730729B2",
+      "source_type": "primary_patent_text_hosted_reproduction",
+      "read_scope": "Four written claims and bibliographic context; no complete graphical structure claim chart.",
+      "web_refs": [
+        "turn16view2",
+        "turn26view1"
+      ],
+      "pdf_url": "https://patentimages.storage.googleapis.com/6c/b8/0c/56f9a148572878/US11730729.pdf"
+    },
+    {
+      "id": "S7",
+      "url": "https://patents.google.com/patent/US11890279B2/en",
+      "title": "US11890279B2 cited records",
+      "source_type": "primary_patent_text_hosted_reproduction",
+      "read_scope": "Named PubChem/CAS/STN citations; underlying cited records and legal effect not audited. No comprehensive prior-art search.",
+      "web_refs": [
+        "turn32view0",
+        "turn32view1"
+      ]
+    },
+    {
+      "id": "S8",
+      "url": "https://neurodon.net/pipeline/",
+      "title": "Neurodon Pipeline",
+      "source_type": "primary_sponsor_statement",
+      "read_scope": "Undated sponsor page currently retrieved, including rare-disease Darier account and NRDN program headings; no clinical outcome or NDC-code equivalence inferred.",
+      "web_refs": [
+        "turn16view1"
+      ]
+    },
+    {
+      "id": "S9",
+      "url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730626000018/arqt-20251231.htm",
+      "title": "Arcutis 2025 Form10-K",
+      "source_type": "primary_issuer_filing",
+      "publication_date": "2026-02-25",
+      "read_scope": "Selected licensing and intellectual-property passages; issuer attribution, not independently adjudicated claim validity.",
+      "web_refs": [
+        "turn27search5",
+        "turn32view2",
+        "turn32view3"
+      ]
+    },
+    {
+      "id": "S10",
+      "url": "https://www.arcutis.com/about/strategic-collaborators/",
+      "title": "Arcutis Strategic Collaborators",
+      "source_type": "primary_sponsor_statement",
+      "read_scope": "Topical-dermatology license description, corroborating incumbent context.",
+      "web_refs": [
+        "turn32view4"
+      ]
+    },
+    {
+      "id": "S11",
+      "url": "https://www.uspto.gov/patents/basics/manage",
+      "title": "USPTO Managing a patent",
+      "source_type": "primary_government_legal_guidance",
+      "read_scope": "Nature of exclusionary patent right and distinction from permission to practice; no asset-specific FTO.",
+      "web_refs": [
+        "turn26search2",
+        "turn27view1"
+      ]
+    },
+    {
+      "id": "S12",
+      "url": "https://www.uspto.gov/web/offices/pac/mpep/s301.html",
+      "title": "USPTO MPEP section301",
+      "source_type": "primary_government_legal_guidance",
+      "read_scope": "Ownership, assignment, limited licenses and ministerial nature of assignment recording.",
+      "web_refs": [
+        "turn35view0"
+      ]
+    }
+  ],
+  "local_inputs": [
+    {
+      "id": "L1",
+      "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+      "paths": [
+        "research/portfolio-register.json#final_shortlist:R3-NL-01",
+        "research/rounds/round3/round3_crosscheck_ndc.md",
+        "research/rounds/round5/round5_ndc_comparator_update.md"
+      ],
+      "scope": "Inherited NDC, Round4 corrections and Round8 comparator context in current record; not new primary evidence."
+    },
+    {
+      "id": "L2",
+      "paths": [
+        "/workspace/scratch/cde848be1ee7/output/pdf/ddiscov_marginal_capital_ranking.pdf",
+        "/workspace/scratch/cde848be1ee7/report_content.json"
+      ],
+      "scope": "Recovered authored report content underlying PDF; NDC rank4, illustrative range and commercial contribution objective."
+    },
+    {
+      "id": "L3",
+      "paths": [
+        "research/rounds/round15/marginal-dollar-selection.md",
+        "research/rounds/round18/independent-marginal-decision-review.json"
+      ],
+      "scope": "Marginal decision framework and explicit claim-specific reversal correction; previous dispositions preserved."
+    }
+  ],
+  "completion": {
+    "new_exact_use_screens": 0,
+    "new_candidates": 0,
+    "new_efficacy_results": 0,
+    "S_tier_promotions": 0,
+    "quantitative_probability_NPV_or_revenue_model": false,
+    "scientific_or_financial_model_utilities_executed": false,
+    "new_protocol_generated": false,
+    "synthesis_recipe_reproduced": false,
+    "repository_mutations_by_this_agent": false,
+    "remote_writes_by_this_agent": false,
+    "research_source_files_committed": false,
+    "notes": "Only this paired summary artifact was written in designated scratch work area; parent integrates and publishes separately."
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05"
+}

@@ -2,6 +2,14 @@
 
 Effective 4 November 2026. This policy governs the current shortlist. Earlier comparisons and research memos remain a record of what was considered and why a conclusion changed.
 
+## Round 19: useful claim, actual information yield and retained value
+
+The [NDC decision](../research/rounds/round19/marginal-dollar-decision.md) scopes a negative result to the intended claim. Assembly alone is not lesion repair or clinical prevention. Useful ongoing control need not be a cure; prevention requires its own useful outcome, exposure, comparator and economic case. Off-treatment durability is mandatory only when that property is claimed. A mechanism or an inadequate assay cannot replace the clinical/product question.
+
+An ordinal tranche rank is conditional on the question answered. Recompare a qualification-only substitute if it answers less than the original useful-function question, even at unchanged price. Also recompare any scope, cost or time expansion. Historical effort, source exhaustion and preliminary information do not confer financial priority.
+
+Keep exact chemical disclosure, issued claims, current title, lawful execution and licensable commercial terms distinct. Controlled failure of a different topical Darier drug is contrary context, not an NDC failure. Case reports with different routes and co-treatments do not form a monotherapy cohort. The conditional APR1/RM2/BLU3/NDC4 order remains; all four public-source passes are now closed pending concrete action-changing evidence.
+
 ## Round 18: the cost of an informative decision and a finite source stop
 
 The [BLU decision](../research/rounds/round18/marginal-dollar-decision.md) keeps initial article/exposure/model qualification separate from additional conditional human-function work. An initial qualification price is not automatically the cost of learning whether a drug improves function. Keep each stage's assumptions, deliverable and option to stop explicit. An existing-source search is worth repeating only when a substantive artifact can resolve a named decision input.

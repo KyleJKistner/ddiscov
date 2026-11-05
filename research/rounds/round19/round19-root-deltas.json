@@ -1,0 +1,152 @@
+{
+  "schema_version": "ddiscov.round19.root_deltas.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch": "main",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_publication_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "counts": {
+    "existing_candidates_audited": 1,
+    "new_exact_intervention_use_screens": 0,
+    "new_NDC_treated_people": 0,
+    "new_independent_human_NDC_function_results": 0,
+    "new_experimental_results_generated": 0,
+    "S_tier_promotions": 0,
+    "article_source_records": 5,
+    "article_evidence_rows": 14,
+    "article_claim_decisions": 8,
+    "comparator_source_records": 10,
+    "comparator_evidence_rows": 12,
+    "comparator_claim_decisions": 6,
+    "capture_source_records": 12,
+    "capture_claim_evidence_rows": 12,
+    "new_to_repository_controlled_negative_Darier_programs": 1,
+    "newly_reviewed_conference_case_descriptions": 2,
+    "completed_information_updates": 6,
+    "opportunity_routes": 5,
+    "decision_branches": 6,
+    "independent_review_documents_total": 3,
+    "reviewed_authored_files": 9
+  },
+  "scope": "One existing candidate: exact NDC article/exposure and donor/timing audit, clinical comparator update, patent/program/capture provenance and claim-specific marginal-dollar decision.",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar, with remaining clinical risk, cost, time and capturable value",
+    "selected_uncertainty": "Whether the exact NDC9009 topical article can support a useful claim at tolerable epidermal exposure with an incremental product contribution and plausible retained value",
+    "basis": "Next eligible bounded source sprint after APR, RM and BLU closure; prior independent conditional order challenged with exact article, comparator and patent/program evidence",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 4,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_RM_BLU_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "zero_or_wait_option_included": true,
+    "ordinal_rank_conditional_on_original_informative_scope": true
+  },
+  "independent_review_input": {
+    "input_file": "research/rounds/round19/independent-review-input.json",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "ordinal_conditional_development_rank": 4,
+    "old_prevention_only_stop_is_currently_amended": true
+  },
+  "existing_candidate_updates": [
+    {
+      "candidate_id": "R3-NL-01",
+      "new_candidate": false,
+      "source_scopes": [
+        "research/rounds/round19/ndc-article-exposure.json",
+        "research/rounds/round19/ndc-comparator-update.json",
+        "research/rounds/round19/ndc-product-capture.json",
+        "research/rounds/round19/marginal-dollar-decision.json"
+      ],
+      "decision_scope": "research/rounds/round19/marginal-dollar-decision.json",
+      "delta": [
+        "Complete selected NDC source sprint; retain APR1/RM2/BLU3/NDC4 conditional development order, original-scope dependence and no automatic financial allocation.",
+        "Specific later C18 disclosure and paper attribution strengthen provenance without establishing a fully mapped patent claim, current title, license, batch or clinical product.",
+        "Sponsor public Darier overlap makes retained contribution explicit; do not infer NDC aliases to NRDN201/301 or molecule abandonment.",
+        "Add previously omitted SGT210 controlled Darier non-differentiation and indication stop; distinguish result date from discovery date, unknown final denominators, and a different drug from NDC.",
+        "Separate exact roflumilast cream case, co-treated sequential poster and sparse oral conference summary; preserve dantrolene 16/10/6 and inaccessible October source limits.",
+        "Amend the broad prevention-only stop to a claim-specific rule. Assembly establishes neither lesion repair nor clinical prevention; useful control need not be permanent cure.",
+        "Retain historical $40–150k/3–6 month useful-function assumption as unpriced and scope-dependent. Qualification-only work needs a new comparison even if the price is unchanged.",
+        "Close this finite public-source pass pending a substantive article/function/exposure/comparator/rights/access/cost fact that changes a named commitment."
+      ]
+    }
+  ],
+  "new_screens": [],
+  "source_reference_scopes": [
+    "research/rounds/round19/ndc-article-exposure.json",
+    "research/rounds/round19/ndc-comparator-update.json",
+    "research/rounds/round19/ndc-product-capture.json",
+    "research/rounds/round19/marginal-dollar-decision.json"
+  ],
+  "allocation": {
+    "legacy_queue_preserved": true,
+    "legacy_queue_controls_marginal_dollar": false,
+    "new_numerical_allocation": null,
+    "conditional_development_order_changed": false
+  },
+  "independent_reviews": [
+    "research/rounds/round19/independent-product-capture-review.json",
+    "research/rounds/round19/independent-article-comparator-review.json",
+    "research/rounds/round19/independent-marginal-decision-review.json"
+  ],
+  "integration_review": "research/rounds/round19/integration-review.md",
+  "local_verification": "research/rounds/round19/local-verification.json",
+  "artifact_manifest": "research/rounds/round19/artifact-manifest.json",
+  "retrieval_stop": {
+    "public_source_pass_closed": true,
+    "completed_information_sprint": true,
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "BLU_public_source_pass_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "BLU_claim_exposure_model_search_reopened": false,
+    "new_NDC_treated_people": 0,
+    "new_exact_NDC_independent_human_function_results": 0,
+    "new_exact_intervention_use_screens": 0,
+    "new_experimental_results_generated": 0,
+    "monitoring_automation_created": false,
+    "owner_reply_scientific_selection_gate": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_for": [
+      "Exact-NDC delayed or clinically useful preventive/control function",
+      "Measured dissolved or viable-epidermis exposure and local tolerance",
+      "Relevant controlled comparator outcome with usable denominators",
+      "Substantive newly accessible missing primary evidence",
+      "Exact rights/supply/access/cost fact changing an executable contribution"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "activity_boundary": "Published-document research, deterministic content checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
+  "interpretation_limits": [
+    "No new exact-NDC human outcome or qualified topical exposure window.",
+    "Named C18 disclosure is not a complete claim/image mapping, legal-status finding or license.",
+    "SGT210 sponsor result gives no verified final denominator/effect estimate and cannot be transferred to NDC.",
+    "Additional PDE4 observations are sparse and co-treated or oral, not pooled cream monotherapy evidence.",
+    "Known dantrolene result denominators retained; missing October full-text methods remain unknown.",
+    "Prevention/control are distinct unevidenced product hypotheses, not automatic substitutes for a failed repair claim.",
+    "Actual costs, information yield, access, rights and retained economic value remain unvalidated."
+  ]
+}

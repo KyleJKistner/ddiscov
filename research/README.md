@@ -1,6 +1,6 @@
 # Research ledger
 
-> **Current research:** [Round 18 — BLU3797/XLMTM marginal-dollar source close](rounds/round18/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). Retain staged scientific qualification and APR1/RM2/BLU3 conditional development order; all three source passes are now closed. The 31 archive phases below describe the original curated edition.
+> **Current research:** [Round 19 — NDC9009/Darier marginal-dollar source close](rounds/round19/README.md), [cumulative register](portfolio-register.json), [current shortlist](../decisions/current-shortlist.md), and [review history](rounds/README.md). Retain conditional APR1/RM2/BLU3/NDC4 order under the original informative scope. Exact-disclosure/capture and comparator updates sharpen claim-specific qualification; all four source passes are closed. The 31 archive phases below describe the original curated edition.
 
 The 31 dated phases below trace how questions about therapeutic function became comparisons that a laboratory or development partner could use. The dates refer to the archive phases. Findings retain the intervention, model and experimental unit of the original study. Overlapping screens, distinct constructs and repeated source checks have different denominators.
 

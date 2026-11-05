@@ -1,0 +1,277 @@
+{
+  "schema_version": "ddiscov.round19.marginal_dollar_decision.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_completed_utc_date": "2026-11-05",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "base_tree": "caef05c1765c0d6872da9d7feb11960d4e43740d",
+  "candidate_id": "R3-NL-01",
+  "selection": {
+    "objective": "Expected value of the next marginal information/development dollar, with remaining clinical risk, cost, time and capturable value",
+    "selected_uncertainty": "Whether the exact NDC9009 topical article can support a useful claim at tolerable epidermal exposure with an incremental product contribution and plausible retained value",
+    "basis": "Next eligible bounded source sprint after APR, RM and BLU closure; prior independent conditional order challenged with exact article, comparator and patent/program evidence",
+    "selected_public_source_sprint_rank": 1,
+    "independent_review_conditional_development_rank": 4,
+    "conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01"
+    ],
+    "historical_allocation_used_as_EV_proxy": false,
+    "APR_RM_BLU_automatically_demoted": false,
+    "full_development_order_changed": false,
+    "exhaustive_portfolio_valuation": false,
+    "numerical_success_probabilities": null,
+    "estimated_return_per_dollar": null,
+    "new_evidence_clearly_favoring_another_candidate": false,
+    "zero_or_wait_option_included": true,
+    "ordinal_rank_conditional_on_original_informative_scope": true
+  },
+  "independent_review": {
+    "input_file": "research/rounds/round19/independent-review-input.json",
+    "pinned_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+    "source_report_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+    "ordinal_conditional_development_rank": 4,
+    "old_prevention_only_stop_is_currently_amended": true
+  },
+  "tranche_assumptions": {
+    "qualification": {
+      "currency": "USD",
+      "cost_range": [
+        40000,
+        150000
+      ],
+      "months_range": [
+        3,
+        6
+      ],
+      "original_scope": "Topical exposure and established-barrier question; not a clinical program.",
+      "current_interpretation": "Retain the original topical-exposure and established-barrier/useful-function decision as the rank4 assumption. A preliminary qualification-only deliverable is a separately re-compared tranche and does not inherit that rank or EV rationale.",
+      "scope_validated": false,
+      "price_validated": false,
+      "timeline_validated": false,
+      "automatic_release": false
+    },
+    "major_expansion_requires_new_comparison": true,
+    "separate_initial_qualification_can_stop_before_efficacy": true,
+    "exclusions": [
+      "licensed rights",
+      "major new model construction",
+      "new medicinal chemistry",
+      "full formulation development",
+      "GLP toxicology",
+      "clinical GMP manufacture",
+      "patient trials",
+      "commercialization"
+    ],
+    "quotes_obtained": false,
+    "external_commitment_usd": 0,
+    "full_program_budget_established": false,
+    "qualification_only_scope_inherits_prior_rank_without_recomparison": false,
+    "reduced_information_yield_requires_recomparison_even_if_price_unchanged": true
+  },
+  "completed_information_updates": [
+    {
+      "id": "D19-U1",
+      "finding": "Later patent C18 and paper attribution strengthen exact article/family provenance",
+      "scope": "Disclosure crosswalk, not claim coverage, physical authentication, legal title or freedom to operate",
+      "source_scopes": [
+        "research/rounds/round19/ndc-product-capture.json"
+      ]
+    },
+    {
+      "id": "D19-U2",
+      "finding": "Neurodon publicly includes Darier in rare-disease program context",
+      "scope": "Sponsor overlap; NDC-to-NRDN alias, transaction willingness and terms unverified",
+      "source_scopes": [
+        "research/rounds/round19/ndc-product-capture.json"
+      ]
+    },
+    {
+      "id": "D19-U3",
+      "finding": "Previously omitted controlled SGT210 Darier efficacy non-differentiation and indication stop recovered",
+      "scope": "Dated December2025 sponsor result reaffirmed2026; different molecule, no recovered final trial estimates",
+      "source_scopes": [
+        "research/rounds/round19/ndc-comparator-update.json"
+      ]
+    },
+    {
+      "id": "D19-U4",
+      "finding": "PDE4 source lineage now separates exact cream case, heavily co-treated sequential poster and oral conference summary",
+      "scope": "No pooled response rate, new monotherapy cohort or NDC barrier result",
+      "source_scopes": [
+        "research/rounds/round19/ndc-comparator-update.json"
+      ]
+    },
+    {
+      "id": "D19-U5",
+      "finding": "Existing article/exposure and donor/timing limitations remain without new exact NDC human useful-function evidence",
+      "scope": "Qualification remains conditional; absent data do not prove biological failure",
+      "source_scopes": [
+        "research/rounds/round19/ndc-article-exposure.json"
+      ]
+    },
+    {
+      "id": "D19-U6",
+      "finding": "Legacy global assembly/prevention stop narrowed to the intended repair claim",
+      "scope": "Prevention/control are separately evidenced and priced product hypotheses, not newly demonstrated benefits",
+      "source_scopes": [
+        "research/rounds/round19/marginal-dollar-decision.md",
+        "research/rounds/round19/ndc-article-exposure.json",
+        "research/rounds/round19/ndc-comparator-update.json",
+        "research/rounds/round19/ndc-product-capture.json"
+      ]
+    }
+  ],
+  "claim_and_stage_limits": {
+    "established_deficit_repair_requires_repair_evidence": true,
+    "assembly_only_establishes_lesion_repair": false,
+    "assembly_only_establishes_clinical_prevention_or_control": false,
+    "prevention_or_ongoing_control_automatically_rejected_without_reversal": false,
+    "withdrawal_durability_required_for_every_product": false,
+    "withdrawal_durability_required_for_claimed_off_treatment_benefit": true,
+    "qualified_negative_applies_to_tested_claim_only": true,
+    "inadequately_qualified_negative_is_inconclusive": true,
+    "credible_functional_positive_can_justify_confirmation": true,
+    "change_of_claim_requires_separate_evidence_comparator_and_value_assessment": true,
+    "immune_free_model_can_rule_out_all_clinical_immune_comparators": false,
+    "SGT210_failure_is_NDC_failure": false,
+    "nominal_assay_concentration_is_free_epidermal_concentration": false,
+    "PBS_solubility_is_a_skin_exposure_ceiling": false,
+    "paper_or_patent_disclosure_establishes_ownership_or_FTO": false,
+    "NDC9009_equals_NRDN201_or_NRDN301_verified": false,
+    "new_experimental_protocol_designed": false,
+    "new_dose_sample_size_or_numeric_threshold": false,
+    "current_S_tier_promotion": false
+  },
+  "routes": [
+    {
+      "id": "R1",
+      "route": "Bounded exact-article exposure and claim-specific skin-function qualification",
+      "status": "conditionally_retained",
+      "execution_now": false,
+      "contribution": "Resolve a finite product/window decision, with no automatic program release"
+    },
+    {
+      "id": "R2",
+      "route": "Meaningful prevention or ongoing-control product",
+      "status": "separate_conditional_claim_not_established",
+      "execution_now": false,
+      "contribution": "Only if useful benefit and comparator/capture advantage survive separate assessment"
+    },
+    {
+      "id": "R3",
+      "route": "Incumbent-linked or separately differentiated development contribution",
+      "status": "unverified_commercial_option",
+      "execution_now": false,
+      "contribution": "Potential data/formulation/indication contribution requires usable rights and an economic share; no outreach or negotiation"
+    },
+    {
+      "id": "R4",
+      "route": "De novo chemistry, large model build or full product program",
+      "status": "outside_retained_cost_envelope_recompare_before_commitment",
+      "execution_now": false,
+      "contribution": "Loses assumed cost/continuity; cannot be silently appended to initial tranche"
+    },
+    {
+      "id": "R5",
+      "route": "Retain cash or select another eligible information question",
+      "status": "live_option",
+      "execution_now": false,
+      "contribution": "Prefer when additional generic source searching has no identified action-changing yield"
+    }
+  ],
+  "branches": [
+    {
+      "id": "B1",
+      "condition": "Authenticated article, interpretable exposure/function route and plausible contribution fit the bounded scope",
+      "decision": "Consider only the qualified next tranche",
+      "execution_now": false
+    },
+    {
+      "id": "B2",
+      "condition": "Useful reproducible function, tolerated local exposure and meaningful comparator advantage",
+      "decision": "Consider confirmation and next product question; no automatic human efficacy or financial value",
+      "execution_now": false
+    },
+    {
+      "id": "B3",
+      "condition": "A properly qualified negative rejects established-deficit repair but credible evidence supports a different useful claim",
+      "decision": "Stop repair claim; separately assess and price prevention/control; preserve the negative",
+      "execution_now": false
+    },
+    {
+      "id": "B4",
+      "condition": "Only markers/assembly improve, or exposure/model/tolerance is unqualified",
+      "decision": "Do not advance unsupported claim; distinguish inconclusive qualification from biological failure",
+      "execution_now": false
+    },
+    {
+      "id": "B5",
+      "condition": "No useful advantage over simpler care or no obtainable contribution retaining sufficient value",
+      "decision": "Stop financial route or reassess a genuinely different contribution",
+      "execution_now": false
+    },
+    {
+      "id": "B6",
+      "condition": "Chemistry/model/rights/comparator requirements expand cost/time, or the deliverable answers less than the original useful-function question",
+      "decision": "Re-rank actual revised commitment and information yield against alternatives and waiting, even if the price is unchanged",
+      "execution_now": false
+    }
+  ],
+  "decision": "Retain conditional NDC qualification option; sharpen incremental product/capture and claim-specific gates; close selected public-source pass without promotion or automatic spending",
+  "source_scopes": [
+    "research/rounds/round19/ndc-article-exposure.json",
+    "research/rounds/round19/ndc-comparator-update.json",
+    "research/rounds/round19/ndc-product-capture.json",
+    "research/rounds/round19/independent-review-input.json"
+  ],
+  "clinical_context_sources": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s13555-026-01838-3",
+      "scope": "Original consensus document read for chronic symptomatic-care/claim context, not NDC efficacy"
+    }
+  ],
+  "completion": {
+    "public_source_pass_closed": true,
+    "completed_information_sprint": true,
+    "APR_public_source_pass_reopened": false,
+    "RM_public_source_pass_reopened": false,
+    "BLU_public_source_pass_reopened": false,
+    "zinc_reopened": false,
+    "slc6a6_reopened": false,
+    "hhd_supplement_reopened": false,
+    "round14_HS_retrieval_reopened": false,
+    "enasidenib_CNS_search_reopened": false,
+    "round15_enas_contribution_search_reopened": false,
+    "BLU_claim_exposure_model_search_reopened": false,
+    "new_NDC_treated_people": 0,
+    "new_exact_NDC_independent_human_function_results": 0,
+    "new_exact_intervention_use_screens": 0,
+    "new_experimental_results_generated": 0,
+    "monitoring_automation_created": false,
+    "owner_reply_scientific_selection_gate": false,
+    "existing_scientific_or_model_utilities_executed": false,
+    "reopen_for": [
+      "Exact-NDC delayed or clinically useful preventive/control function",
+      "Measured dissolved or viable-epidermis exposure and local tolerance",
+      "Relevant controlled comparator outcome with usable denominators",
+      "Substantive newly accessible missing primary evidence",
+      "Exact rights/supply/access/cost fact changing an executable contribution"
+    ]
+  },
+  "financial_npv": null,
+  "replacement_allocation": null,
+  "numerical_probability_model_run": false,
+  "scientific_or_financial_models_run": false,
+  "development_execution_authorized": false,
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schema_version": "ddiscov.round19.independent_product_capture_review.v1",
+  "round": 19,
+  "candidate_id": "R3-NL-01",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "base_tree": "caef05c1765c0d6872da9d7feb11960d4e43740d",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "reviewer": "ndc_article_exposure",
+  "review_type": "Independent cross-review of the finalized product/capture Markdown and JSON pair",
+  "intended_repo_path": "research/rounds/round19/independent-product-capture-review.json",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "blocking_issues": 0,
+  "scope": "Source precision, exact-article disclosure versus claim coverage and current title, commercial and cost bounds, conditional development rank versus selected information lane, claim-specific prevention/control reasoning, and preservation of six restrictions. This is not an exhaustive legal opinion, claim chart, new valuation or new efficacy result.",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round19/ndc-product-capture.md",
+      "bytes": 18479,
+      "sha256": "1c09c9b65c08112315ddd477db1da6c13b4299fed5810f6e6dbdc3819372282c"
+    },
+    {
+      "path": "research/rounds/round19/ndc-product-capture.json",
+      "bytes": 23559,
+      "sha256": "4cf75600c4db05df5e5080d7887fa5e97ce1e57e4ebe4f0186723d56dc9b4344"
+    }
+  ],
+  "review_basis": {
+    "final_markdown_read_in_full": true,
+    "final_json_parsed_and_checked": true,
+    "uses_already_retrieved_primary_evidence_and_inherited_context": true,
+    "fresh_broad_research_performed_for_review": false,
+    "reviewed_artifacts_edited_by_reviewer": false,
+    "source_precision_note": "The cross-review verifies that the pair states the supported disclosure relationships and preserves the source and access limits. It does not upgrade the author-reported patent connection or unread official records into independently verified title, exact graphical coverage, enforceability or freedom to operate."
+  },
+  "checks": [
+    {
+      "id": "PCR19-C01",
+      "result": "pass",
+      "finding": "The paper-derived full NDC-9009 systematic name is explicitly an inference from published synthesis. Later US11827626B2 section 2.2.51 names C18, permitting a textual connectivity disclosure crosswalk while preserving the distinction from a graphical claim chart or batch authentication. Adjacent same-mass C19 prevents use of m/z306 alone as identification.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    {
+      "id": "PCR19-C02",
+      "result": "pass",
+      "finding": "The original US20190151303A1 and its successor US10772881B2 are distinguished from the later related grant that names C18. C17-to-E1 sequence in the original application is not silently upgraded to an explicit C18 disclosure. Related issued written claims are acknowledged without pretending that all graphical structures and limitations were mapped.",
+      "source_ids": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "id": "PCR19-C03",
+      "result": "pass",
+      "finding": "Public disclosure, issued written claim text, author-reported Neurodon assignment, current ownership, maintained enforceability, license availability and freedom to operate are separate. The official register/assignment and graphical access failures are explicit retrieval limits, not proof of absence. Neither the absence of the word Darier nor a broad SERCA family description determines coverage.",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "PCR19-C04",
+      "result": "pass",
+      "finding": "The 2026 methods identify NDC-9009 as a Neurodon gift and CDN1163 separately. This establishes the paper-reported material origin, without implying project receipt, supply permission or identity with NRDN-201/NRDN-301. Sponsor Darier overlap remains program context and does not become clinical efficacy, an exact-code crosswalk or an available license.",
+      "source_ids": [
+        "S2",
+        "S8"
+      ]
+    },
+    {
+      "id": "PCR19-C05",
+      "result": "pass",
+      "finding": "The older registry references in US11890279B2 remain earlier-disclosure leads; unreviewed underlying records do not produce priority, novelty, validity or expiration conclusions.",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "id": "PCR19-C06",
+      "result": "pass",
+      "finding": "Arcutis and AstraZeneca topical-dermatology rights descriptions are treated as incumbent context and issuer statements. Roflumilast benefit or an additional Darier indication contribution is not treated as a ddiscov-owned asset or a license.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ]
+    },
+    {
+      "id": "PCR19-C07",
+      "result": "pass",
+      "finding": "The $40,000–150,000 and 3–6 month envelope is an inherited illustrative assumption, not a quote, verified feasible scope, license-inclusive program budget or spending authority. The original premise includes a functional answer. A readiness-only tranche cannot inherit its rank-4 rationale, even if it fits the same price; it needs a new marginal comparison of actual information value, cost and alternatives including waiting.",
+      "source_ids": [
+        "L2"
+      ]
+    },
+    {
+      "id": "PCR19-C08",
+      "result": "pass",
+      "finding": "Selection of NDC as the next bounded information lane is distinct from the conditional APR-246, RM4404, BLU-3797, NDC-9009 development order. The pair claims no new efficacy, S-tier promotion, quantified EV or automatic funding, and keeps the earlier source lanes closed.",
+      "source_ids": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "id": "PCR19-C09",
+      "result": "pass",
+      "finding": "Assembly or marker improvement alone does not establish a useful prevention or ongoing-control product. Established-lesion reversal and off-treatment durability gates apply to their intended claims, so an absent or failed reversal result does not universally falsify prevention or control. Separate claims still require useful benefit, exposure/tolerability, comparator contribution and capture. The wording correction creates no efficacy evidence.",
+      "source_ids": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "id": "PCR19-C10",
+      "result": "pass",
+      "finding": "An interpretable negative requires an adequate article, exposure, disease deficit and precision; post-deficit modifiability is required for an intended reversal claim. Model or delivery failure remains inconclusive for target efficacy while potentially stopping commercial spending because a useful question cannot be answered within scope. No protocol or threshold is introduced.",
+      "source_ids": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "id": "PCR19-C11",
+      "result": "pass",
+      "finding": "The final Markdown and JSON preserve all six prohibited activity flags as false, accurately distinguish the November 4 America/Los_Angeles evidence cut from November 5 UTC retrieval, and define finite reopening criteria instead of repetitive generic research.",
+      "source_ids": []
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "PCR19-R01",
+      "blocking": false,
+      "issue": "Potential ambiguity between the evidence date and UTC retrieval date.",
+      "resolution": "Final pair explicitly uses as_of 2026-11-04 in America/Los_Angeles and retrieval date 2026-11-05 UTC.",
+      "verified_in_bound_versions": true
+    },
+    {
+      "id": "PCR19-R02",
+      "blocking": false,
+      "issue": "A narrower article/exposure/model-readiness tranche could otherwise inherit the original functional-answer investment rationale.",
+      "resolution": "Final Markdown cost section and JSON tranche_assumption explicitly preserve the original functional-answer premise and require a fresh marginal comparison for a readiness-only scope. It does not inherit rank 4 merely because its cost fits the original range.",
+      "verified_in_bound_versions": true
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "PCR19-O01",
+      "blocking": false,
+      "type": "retained_evidence_limit",
+      "issue": "Exact graphical claim membership, all jurisdictions, current official title and maintenance/enforceability, license availability and freedom to operate remain unverified.",
+      "why_nonblocking": "The bounded source audit clearly disclaims those conclusions and does not authorize commercial execution.",
+      "reopen_only_for": "Substantive exact-product claim analysis, a readable current register or a relevant transaction/rights fact that could change the decision."
+    },
+    {
+      "id": "PCR19-O02",
+      "blocking": false,
+      "type": "retained_evidence_limit",
+      "issue": "Actual article/supply access, applicable terms, scoped execution price, timing and readiness are not independently quoted or qualified.",
+      "why_nonblocking": "The illustrative envelope and conditional rank are not promoted into authority or verified feasibility; scope changes explicitly require a new marginal comparison.",
+      "reopen_only_for": "A credible changed cost, scope, execution or rights position that can alter the marginal decision."
+    },
+    {
+      "id": "PCR19-O03",
+      "blocking": false,
+      "type": "retained_evidence_limit",
+      "issue": "Claim-specific prevention/control reasoning does not establish clinical prevention, useful ongoing control, reversal, durable benefit or a product advantage.",
+      "why_nonblocking": "The pair retains all evidence gates and expressly treats the amendment as decision logic rather than a positive efficacy result.",
+      "reopen_only_for": "Relevant exact-article functional or controlled clinical evidence, with exposure and comparator context appropriate to the specified claim."
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "new_protocol_generated": false,
+  "repository_mutations_by_reviewer": false,
+  "remote_writes_by_reviewer": false,
+  "final_readback": {
+    "reviewed_files": 2,
+    "blocking_issues": 0,
+    "resolved_precision_issues": 2,
+    "retained_nonblocking_evidence_limits": 3,
+    "reviewed_file_hashes_verified_before_and_after_review": true,
+    "no_reviewed_file_edited_by_reviewer": true
+  }
+}

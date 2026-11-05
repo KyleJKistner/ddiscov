@@ -1,0 +1,90 @@
+{
+  "schema_version": "ddiscov.round19.independent_marginal_decision_review.v1",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "candidate_id": "R3-NL-01",
+  "as_of": "2026-11-04",
+  "reviewer": "ndc_clinical_comparators",
+  "verdict": "pass_with_nonblocking_evidence_limits",
+  "scope": "Independent cross-review of root decision and preserved ranking input; review of comparator logic against lane primary sources, without re-running scientific or financial models.",
+  "reviewed_files": [
+    {
+      "path": "research/rounds/round19/marginal-dollar-decision.md",
+      "bytes": 12230,
+      "sha256": "f434cdb5285e17459a7fd3613622b871de9c59405df5d83b9448fd10f4c019c9"
+    },
+    {
+      "path": "research/rounds/round19/marginal-dollar-decision.json",
+      "bytes": 12586,
+      "sha256": "c968bdd30cf6bb70ca26c09f27b3a1ca953bcd5860b27fefb4bdb252f806bef3"
+    },
+    {
+      "path": "research/rounds/round19/independent-review-input.json",
+      "bytes": 4535,
+      "sha256": "7c0b6eb1338c24aa6ae1b1743af467269741ac90e540be06e547633837b9190e"
+    }
+  ],
+  "checks": {
+    "original_report_input_sha256_matches": true,
+    "selected_original_blocks_match": 6,
+    "original_cost_and_rank_rows_match": true,
+    "information_rank1_distinct_from_conditional_development_rank4": true,
+    "closed_source_pass_does_not_demote_other_candidates": true,
+    "no_numeric_EV_or_probability_estimate": true,
+    "original_cost_timeline_identified_as_assumptions": true,
+    "no_automatic_spending_or_branch_execution": true,
+    "claim_specific_repair_control_prevention_distinguished": true,
+    "no_assembly_to_prevention_efficacy_promotion": true,
+    "withdrawal_durability_scoped_to_off_treatment_claim": true,
+    "SGT210_different_molecule_and_old_event_new_to_repository_distinguished": true,
+    "SGT210_final_effect_estimates_not_invented": true,
+    "PDE4_route_lineage_and_barrier_limits_preserved": true,
+    "no_new_NDC_human_result_or_S_tier": true,
+    "all_six_activity_restrictions_preserved": true,
+    "reduced_information_yield_requires_recomparison_even_at_same_price": true,
+    "qualification_only_scope_does_not_inherit_prior_rank_or_EV": true
+  },
+  "resolved_issues": [
+    {
+      "id": "MDR19-01",
+      "original_issue": "The envelope is reinterpreted as possibly qualification-only while conditional rank4 is retained. Existing text reprices expansion, but does not explicitly deny inheritance of the old rank when information yield falls without a cost increase.",
+      "resolution": "Both decision files now explicitly deny automatic rank4/EV inheritance for qualification-only scope and require re-comparison for reduced information yield even when price is unchanged; branchB6 and structured flags agree.",
+      "verified": true
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "MDR19-L01",
+      "blocking": false,
+      "issue": "Article/exposure and patent/current-program factual assertions depend on their separate source audits and cross-reviews; this decision review does not constitute a fresh exhaustive patent claim or primary-method review.",
+      "required_resolution": "Integrate completed lane reviews and preserve their qualifications before publication."
+    },
+    {
+      "id": "MDR19-L02",
+      "blocking": false,
+      "issue": "No price, timeline, executable complete scope, rights terms or numerical financial EV is verified.",
+      "required_resolution": "Retain explicit assumptions and stage/recomparison limits."
+    },
+    {
+      "id": "MDR19-L03",
+      "blocking": false,
+      "issue": "Claim-specific prevention/control option is a decision-logic correction, not new efficacy evidence.",
+      "required_resolution": "Keep clinical-prevention/control benefit unestablished and separately valued."
+    }
+  ],
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "final_readback": {
+    "reviewed_files": 3,
+    "blocking_issues": 0,
+    "resolved_precision_issues": 1,
+    "retained_nonblocking_evidence_limits": 3,
+    "no_reviewed_file_edited_by_reviewer": true
+  }
+}

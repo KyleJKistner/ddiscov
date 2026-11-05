@@ -1,0 +1,72 @@
+{
+  "schema_version": "ddiscov.round19.independent_review_input.v1",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "base_tree": "caef05c1765c0d6872da9d7feb11960d4e43740d",
+  "candidate_id": "R3-NL-01",
+  "input_description": "Prior independent marginal-capital review; authored report input read directly. Historical analyst judgments, not new primary outcomes.",
+  "input_repository_commit": "7707f09703be11af8befdfda85b8a840f82dd8fd",
+  "source_input_sha256": "2bede8f1f66a0cc1852d2851820d9171b6d3cd5eb919d63b93823aa7e44252c5",
+  "conditional_development_rank": 4,
+  "conditional_development_prefix": [
+    "R4-L02",
+    "R4-L01",
+    "BLU3797_XLMTM",
+    "R3-NL-01"
+  ],
+  "qualification_assumption": {
+    "currency": "USD",
+    "cost_range": [
+      40000,
+      150000
+    ],
+    "months_range": [
+      3,
+      6
+    ],
+    "original_scope": "Topical exposure and established-barrier question; not a clinical program.",
+    "scope_validated": false,
+    "quoted": false,
+    "spending_authorized": false
+  },
+  "interpretation": "Prior rank is an ordinal conditional input. Round19 must independently test current source/capture/claim facts; no source exhaustion automatically demotes earlier candidates. The old prevention-only stop is reviewable for claim scope, not an immutable biological premise.",
+  "selected_review_blocks": {
+    "2": {
+      "type": "p",
+      "text": "<b>Recommendation.</b> Round 15 correctly retires the historical effort allocation as a funding rule. My independent ranking of the 34 current priority/reserve candidates begins <b>topical APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT for donor-lung preservation/perfusion</b>. These are small, conditional investments that could create or eliminate a commercial option. BLU ranks third; this is not a recommendation to fund seven complete programs."
+    },
+    "12": {
+      "type": "p",
+      "text": "The public record does not identify license prices, net revenue, eligible reachable patients, clinical development budgets or retained ownership well enough to support credible numerical EV/$ estimates. The ranking is therefore ordinal and conditional. The cost ranges below are analyst planning judgments, not quotations, commitments, full program budgets or estimates of approval probability."
+    },
+    "36": {
+      "type": "h2",
+      "text": "4 — NDC-9009 / Darier disease"
+    },
+    "37": {
+      "type": "p",
+      "text": "Human keratinocyte findings align with the disease, but differentiation/adhesion during assembly is not the same as repairing an established lesion. Treated isolates from three patients with two variants do not establish broad genotype coverage. The relevant product question is useful barrier restoration at achievable topical exposure, with stable formulation and selectivity. <link href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/\" color=\"#176289\">Primary NDC study</link>."
+    },
+    "38": {
+      "type": "p",
+      "text": "Its potential local-treatment market and bounded tissue question support rank #4, conditional on a viable Neurodon-related rights path and superiority or a practical advantage against contemporary care. Roflumilast is an appropriate clinical challenger. Arcutis’s broad topical dermatology rights make that branded alternative an incumbent-controlled comparator, not a free independent asset. <link href=\"https://www.arcutis.com/about/strategic-collaborators/\" color=\"#176289\">Arcutis licensed scope</link>."
+    },
+    "76": {
+      "type": "p",
+      "text": "The most robust judgments are to keep the legacy majority allocation retired, preserve the local challengers, account for incumbent value capture, and stop repetitive closed audits. The exact APR/RM/BLU order has only moderate-to-low confidence: a favorable BLU license or an expensive ocular formulation can reverse it. mIGF versus NDC/P2 is also close. Numerical ranks here are work priorities under stated assumptions, not measured differences in expected dollars."
+    }
+  },
+  "original_NDC_cost_row": [
+    "NDC-9009",
+    "US$40–150k",
+    "3–6 months",
+    "Topical exposure and established-barrier question; not a clinical program."
+  ],
+  "original_NDC_rank_row": [
+    "4",
+    "NDC-9009 / Darier",
+    "Patient-cell adhesion rationale; local treatment and meaningful comparator.",
+    "Only prevention/assembly benefit or no practical topical window."
+  ]
+}

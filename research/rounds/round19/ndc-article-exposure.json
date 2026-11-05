@@ -1,0 +1,355 @@
+{
+  "schema_version": "ddiscov.round19.ndc_article_exposure.v1",
+  "candidate_id": "R3-NL-01",
+  "base_commit": "d506a607ad01669ff4add03988e80d6bc0d9c633",
+  "base_tree": "caef05c1765c0d6872da9d7feb11960d4e43740d",
+  "as_of": "2026-11-04",
+  "as_of_timezone": "America/Los_Angeles",
+  "retrieval_utc_date": "2026-11-05",
+  "author": "ndc_article_exposure",
+  "status": "bounded_public_source_pass_closed",
+  "intended_repo_paths": [
+    "research/rounds/round19/ndc-article-exposure.md",
+    "research/rounds/round19/ndc-article-exposure.json"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Failed metabolic adaptation to stress contributes to epidermal cell adhesion defects in Darier disease",
+      "doi": "10.1126/sciadv.aee1599",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/42555718/",
+      "access_level": "primary_full_main_text_html",
+      "sections_read": [
+        "results",
+        "figure_2_legend",
+        "methods",
+        "author_contributions",
+        "competing_interests",
+        "data_availability"
+      ],
+      "supplement_read": false
+    },
+    {
+      "id": "S2",
+      "title": "Positive Allosteric Modulators of SERCA Pump Restore Dendritic Spines and Rescue Long-Term Potentiation Defects in Alzheimer's Disease Mouse Model",
+      "doi": "10.3390/ijms241813973",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530588/",
+      "alternate_url": "https://www.mdpi.com/1422-0067/24/18/13973",
+      "access_level": "primary_main_text_relevant_sections",
+      "sections_read": [
+        "chemical_identity",
+        "table_1",
+        "relevant_assay_context",
+        "competing_interests"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "A Positive Allosteric Modulator of the SERCA Pump Rescues Hippocampal Neuronal Circuits Dysfunction and Cognitive Defects in a Mouse Model of Alzheimer's Disease",
+      "doi": "10.1523/JNEUROSCI.2337-24.2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311773/",
+      "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/40555519/",
+      "access_level": "discovery_only",
+      "used_for_new_efficacy_claim": false
+    },
+    {
+      "id": "S1-SM-PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13440392/bin/sciadv.aee1599_sm.pdf",
+      "access_level": "retrieval_failed_html_download_interstitial",
+      "listed_size": "67.2 MB",
+      "contents_read": false
+    },
+    {
+      "id": "S1-SM-publisher",
+      "url": "https://www.science.org/doi/suppl/10.1126/sciadv.aee1599/suppl_file/sciadv.aee1599_sm.pdf",
+      "access_level": "retrieval_failed_publisher_error",
+      "contents_read": false
+    }
+  ],
+  "inherited_context": {
+    "repository": "/workspace/scratch/275efd815397/ddiscov_round18",
+    "candidate_register": "R3-NL-01",
+    "reviewed_context": [
+      "research/rounds/round3/round3_crosscheck_ndc.md",
+      "Round 4 contextual review",
+      "research/rounds/round5/round5_ndc_comparator_update.md"
+    ],
+    "unchanged_development_order": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "NDC-9009"
+    ],
+    "sprint_information_priority_does_not_promote_development_rank": true
+  },
+  "evidence_rows": [
+    {
+      "id": "AE19-01",
+      "source": "S1",
+      "location": "patient cell methods",
+      "claim": "Four isolates represent three donors and two variants",
+      "units": {
+        "isolates": 4,
+        "distinct_donors": 3,
+        "variants": 2,
+        "same_donor_isolates": [
+          "DD1",
+          "DD2"
+        ],
+        "same_donor_variant": "p.Asn39Asp",
+        "separate_donor_isolates": [
+          "DD3",
+          "DD4"
+        ],
+        "separate_donor_variant": "p.Gln177Pro"
+      },
+      "denominator_limit": "Independent experiments and isolates must not be counted as additional patients."
+    },
+    {
+      "id": "AE19-02",
+      "source": "S1",
+      "location": "baseline calcium/SOCE results",
+      "claim": "Fura-2 calcium comparison used DD2",
+      "units": {
+        "Darier_isolates": [
+          "DD2"
+        ]
+      },
+      "denominator_limit": "Not evidence of measured calcium response across every donor."
+    },
+    {
+      "id": "AE19-03",
+      "source": "S1",
+      "location": "Figure 2A/B and legend",
+      "molecule": "CDN1163",
+      "nominal_concentration_uM": 5,
+      "time_after_calcium_switch_hours": 1,
+      "endpoint": "desmoplakin localization",
+      "evidence_class": "junction_marker",
+      "units": {
+        "independent_experiments": 4
+      },
+      "claim_decision": "Do not attribute this CDN result to NDC-9009."
+    },
+    {
+      "id": "AE19-04",
+      "source": "S1",
+      "location": "Figure 2C/D and legend",
+      "molecule": "NDC-9009",
+      "nominal_concentration_uM": 5,
+      "time_after_calcium_switch_hours": 4,
+      "endpoint": "dispase monolayer fragmentation",
+      "evidence_class": "direct_functional_cohesion",
+      "units": {
+        "independent_experiments": 3,
+        "Darier_isolate_identification": "color-coded in figure"
+      },
+      "denominator_limit": "Three experiments are not a three-independent-patient efficacy cohort; donor-by-treatment allocation beyond main text not independently confirmed.",
+      "claim_decision": "Functional evidence during junction formation; established-lesion reversal not shown."
+    },
+    {
+      "id": "AE19-05",
+      "source": "S1",
+      "location": "Figure 2E/F and text",
+      "molecule": "NDC-9009",
+      "nominal_concentration_uM": 5,
+      "endpoint": "SERCA2/glutathione proximity ligation",
+      "evidence_class": "redox_proximity_marker",
+      "units": {
+        "independent_experiments": 5,
+        "Darier_isolates_with_reported_baseline_elevation": 4
+      },
+      "claim_decision": "Not direct pump activity or exposure measurement."
+    },
+    {
+      "id": "AE19-06",
+      "source": "S1",
+      "location": "results",
+      "claim": "Untreated Darier DP localization approaches control at four hours",
+      "claim_decision": "Marker normalization does not negate the distinct functional fragility endpoint."
+    },
+    {
+      "id": "AE19-07",
+      "source": "S1",
+      "location": "Figure 2 caption and dispase methods",
+      "claim": "Caption states six-well plates; general methods state twelve-well plates",
+      "status": "unresolved_reporting_difference",
+      "claim_decision": "Do not silently harmonize; not standalone evidence of invalidity."
+    },
+    {
+      "id": "AE19-08",
+      "source": "S1",
+      "location": "culture methods",
+      "claim": "DD3/DD4 required Y27632 maintenance; comparison cultures matched; no Y27632 during experiments",
+      "claim_decision": "Absence during testing is not absence of culture history."
+    },
+    {
+      "id": "AE19-09",
+      "source": "S2",
+      "location": "NDC-9009 chemical identity and Table 1",
+      "inferred_systematic_name": "4-(dimethylamino)-N-(2-methylquinolin-8-yl)benzamide",
+      "name_evidence_scope": "Inference from the reported synthesis, not an explicit full systematic name transcribed from the paper. The separate product/capture audit crosswalks the inferred connectivity to the later patent's named C18 example.",
+      "molecular_weight": 305,
+      "LCMS_M_plus_H": 306,
+      "SERCA_activation_percent_at_2uM": {
+        "reported_central_value": 17.1,
+        "reported_plus_minus": 1.0,
+        "uncertainty_type": "not asserted here"
+      },
+      "PBS_pH": 7.4,
+      "reported_solubility_uM": 0.23,
+      "claim_decision": "2 \u00b5M is an assay concentration, not an EC50; kinetic/equilibrium and free-unbound solubility interpretation not established from audited portion."
+    },
+    {
+      "id": "AE19-10",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "claim": "Nominal 5 \u00b5M culture treatment is not a measured dissolved concentration",
+      "evidence_class": "cross-source_exposure_gap",
+      "measured_dissolved_Darier_culture_exposure_verified": false,
+      "claim_decision": "Gap does not establish absent dissolved drug, a false experiment, or an absolute epidermal exposure ceiling."
+    },
+    {
+      "id": "AE19-11",
+      "source": "S1",
+      "location": "reagents methods",
+      "exact_short_excerpt": "CDN1163 (Neurodon), NDC-9009 (gift from Neurodon)",
+      "claim_decision": "Supplier/material relationship for published study only; no future batch authentication, material authorization, availability or license inferred."
+    },
+    {
+      "id": "AE19-12",
+      "source": "S1",
+      "location": "affiliation, author contributions and competing interests",
+      "claim": "Russell Dahl has Neurodon affiliation and Methodology credit; displayed COI names C. L. Simpson consulting for Krystal Biotech and Mitsubishi Tanabe Pharma",
+      "claim_decision": "No separate explicit Neurodon/Dahl financial-interest sentence located in displayed 2026 statement; not proof of no other conflict."
+    },
+    {
+      "id": "AE19-13",
+      "source": "S2",
+      "location": "competing interests",
+      "claim": "Dahl inventorship, Neurodon assignment and partial funding, employment/SAB relationships and stock/options are disclosed",
+      "claim_decision": "Keep source-specific; not independently verified current legal title."
+    },
+    {
+      "id": "AE19-14",
+      "source": "S1",
+      "location": "biopsy and extraction context",
+      "claim": "DD5-DD7 IHC and protein extraction observations are distinct evidence",
+      "claim_decision": "Not extra NDC-rescued donors or compound solubility evidence."
+    }
+  ],
+  "claim_decisions": [
+    {
+      "claim": "NDC direct functional cohesion during junction formation",
+      "status": "supported_with_model_and_denominator_limits",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "One-hour NDC desmoplakin rescue",
+      "status": "incorrect_attribution",
+      "correction": "The one-hour result is CDN1163."
+    },
+    {
+      "claim": "Established-lesion repair",
+      "status": "unestablished_not_failed",
+      "required_evidence_scope": "Applicable treatment window and direct function in an established qualified deficit."
+    },
+    {
+      "claim": "Useful prevention or ongoing control",
+      "status": "unestablished_not_failed",
+      "logic": "Failure or absence of reversal cannot globally falsify these distinct claims, but assembly evidence alone does not prove them."
+    },
+    {
+      "claim": "Persistence after withdrawal",
+      "status": "unestablished_not_failed",
+      "logic": "Relevant to off-treatment durability; not automatically required for every continuously treated product."
+    },
+    {
+      "claim": "Topical exposure and tolerability",
+      "status": "unestablished",
+      "verified_vehicle": false,
+      "verified_viable_epidermal_exposure": false,
+      "verified_skin_PK": false,
+      "verified_healthy_skin_margin": false
+    },
+    {
+      "claim": "Published NDC experiment invalid because PBS solubility below nominal culture concentration",
+      "status": "not_supported",
+      "logic": "Matrix and actual dissolved exposure were not established; no exposure correction computed."
+    },
+    {
+      "claim": "Any future negative means NDC failed clinically",
+      "status": "not_supported",
+      "logic": "Article, exposure, relevant deficit and claim window must be qualified; model-negative and product-negative remain distinct."
+    }
+  ],
+  "model_negative_qualification": {
+    "article_identity_relevant": true,
+    "relevant_exposure_required_for_interpretable_negative": true,
+    "qualified_functional_deficit_required": true,
+    "claim_applicable_window_required": true,
+    "unknown_exposure_or_absent_deficit_negative": "potentially_uninformative",
+    "model_failure_can_stop_investment_without_falsifying_molecule": true,
+    "new_protocol_or_threshold_invented": false
+  },
+  "economic_scope": {
+    "inherited_envelope_USD": [
+      40000,
+      150000
+    ],
+    "inherited_timeline_months": [
+      3,
+      6
+    ],
+    "verified_quote": false,
+    "original_premise_includes_functional_answer": true,
+    "readiness_only_tranche_buys_functional_answer": false,
+    "readiness_only_tranche_inherits_rank4_or_EV": false,
+    "new_marginal_comparison_required_if_information_yield_reduced": true,
+    "numerical_EV_computed": false,
+    "no_spending_authorized_or_executed": true
+  },
+  "retrieval_stop_record": {
+    "bounded_queries": [
+      "\"NDC-9009\" Darier epidermis 2026",
+      "\"NDC-9009\" solubility formulation skin",
+      "\"NDC-9009\" Darier skin topical formulation 2026",
+      "\"aee1599\" \"DD1\" \"DD2\" \"Gln177Pro\""
+    ],
+    "new_decision_changing_primary_cutaneous_exposure_artifact_returned": false,
+    "search_absence_is_global_absence": false,
+    "supplement_pdf_PMC": "HTML preparing-to-download interstitial; not read",
+    "supplement_pdf_publisher": "retrieval error; not read",
+    "supplement_data_zip": "Listed data_s1_and_s2.zip, 100.6 KB; not retrieved",
+    "supplement_absence_inferred": false,
+    "2025_followup": "discovery only; not used as new skin efficacy evidence",
+    "stop_reason": "Finite primary article, identity, denominator and exposure audit complete at accessible source level; remaining decisive exposure/topical/window unknowns require specific new artifacts, not repeated generic literature.",
+    "reopen_triggers": [
+      "Exact-article authentication artifact that changes feasibility",
+      "Measured relevant exposure or topical artifact",
+      "Claim-specific functional/window evidence",
+      "Executable rights-compatible scope with decision-changing economics"
+    ],
+    "closed_lanes_preserved": [
+      "APR-246",
+      "RM4404",
+      "BLU-3797",
+      "earlier named closed lanes"
+    ]
+  },
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false
+  },
+  "scientific_or_financial_models_run": false,
+  "source_extraction_only": true
+}
