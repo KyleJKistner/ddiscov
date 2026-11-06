@@ -1,0 +1,233 @@
+{
+  "schema_version": "ddiscov.round23.local_verification.v1",
+  "repository": "KyleJKistner/ddiscov",
+  "branch_target": "main",
+  "as_of": "2026-11-06",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "e65d88841393132b398dcfe6260b723068a179a9",
+  "base_tree": "0490665ccbe8780e3edb4e335ca381a947a56031",
+  "scope": "Deterministic content/preservation/link/source checks and document QA. Remote branch/commit/tree readback is a separate publication step. No scientific or financial model execution.",
+  "result": "pass",
+  "counts": {
+    "files": 385,
+    "added": 11,
+    "modified": 5,
+    "unchanged": 369,
+    "deleted": 0,
+    "original_coverage_records": 622,
+    "screened_records": 8,
+    "additional_scout_records": 5,
+    "source_entries": 31
+  },
+  "independent_verifier": {
+    "script_sha256": "69fb56f5e55e696d88db0d0335d681660ba4e2132f8d83d1f400de1d141ca27f",
+    "result": {
+      "baseline_commit": "e65d88841393132b398dcfe6260b723068a179a9",
+      "baseline_tree": "0490665ccbe8780e3edb4e335ca381a947a56031",
+      "checks": [
+        {
+          "check": "publication_contains_no_symlinks",
+          "passed": true,
+          "paths": []
+        },
+        {
+          "check": "available_baseline_bytes_match_pinned_git_blobs",
+          "exact_hash_verified_after_removing_one_extra_newline": [
+            "README.md",
+            "decisions/current-shortlist.md",
+            "decisions/selection-policy.md",
+            "research/rounds/README.md",
+            "research/rounds/round22/README.md",
+            "research/rounds/round22/artifact-manifest.json",
+            "research/rounds/round22/local-verification.json",
+            "research/screen-index.md"
+          ],
+          "failures": [],
+          "local_files_checked": 9,
+          "passed": true
+        },
+        {
+          "check": "exactly_five_intended_existing_paths_changed",
+          "missing": [],
+          "passed": true,
+          "paths": [
+            "README.md",
+            "decisions/current-shortlist.md",
+            "research/portfolio-register.json",
+            "research/rounds/README.md",
+            "research/screen-index.md"
+          ],
+          "unexpected": []
+        },
+        {
+          "check": "new_files_are_scoped_to_round23",
+          "new_file_count": 11,
+          "passed": true,
+          "unexpected": []
+        },
+        {
+          "baseline_files": 374,
+          "check": "overlay_preserves_all_baseline_file_paths",
+          "file_directory_conflicts": [],
+          "overlay_files": 385,
+          "passed": true,
+          "removed_paths": [],
+          "scope": "Local overlay only; remote branch publication is a separate verification.",
+          "untouched_baseline_files": 369
+        },
+        {
+          "after": 622,
+          "before": 622,
+          "check": "original_622_coverage_rows_retained_semantically",
+          "passed": true
+        },
+        {
+          "changed_rounds": [],
+          "check": "all_preexisting_round_objects_and_round_history_retained",
+          "history_records": 20,
+          "passed": true,
+          "prior_round_object_count": 20
+        },
+        {
+          "changed_top_level_fields": [
+            "as_of",
+            "coverage_summary",
+            "current_marginal_dollar_decision",
+            "publication",
+            "round23",
+            "schema_version",
+            "supersedes"
+          ],
+          "check": "only_declared_register_metadata_and_decision_fields_changed",
+          "deleted": [],
+          "passed": true,
+          "unexpected": []
+        },
+        {
+          "added_fields": [
+            "round23_record_count_note",
+            "round23_screened_records"
+          ],
+          "check": "coverage_summary_preserves_history_and_adds_only_round23_fields",
+          "passed": true
+        },
+        {
+          "check": "decision_and_publication_invariants",
+          "inherited_conditional_development_prefix": [
+            "R4-L02",
+            "R4-L01",
+            "BLU3797_XLMTM",
+            "R3-NL-01",
+            "MIGF_CORNEA",
+            "R3-NM-01",
+            "AAT_EVLP"
+          ],
+          "paid_development_promotions": 0,
+          "passed": true,
+          "spending_authorized": false
+        },
+        {
+          "check": "source_register_ids_are_unique",
+          "duplicates": [],
+          "passed": true,
+          "source_count": 31
+        },
+        {
+          "check": "report_source_ids_resolve_including_explicit_ranges",
+          "cited_unique_sources": 31,
+          "invalid_source_groups": [],
+          "passed": true,
+          "unresolved": []
+        },
+        {
+          "check": "ledger_records_counts_and_embedded_register_agree",
+          "passed": true,
+          "record_ids": [
+            "R23-01",
+            "R23-02",
+            "R23-03",
+            "R23-04",
+            "R23-05",
+            "R23-06",
+            "R23-07",
+            "R23-08"
+          ],
+          "screened_records": 8
+        },
+        {
+          "check": "round23_json_source_references_resolve",
+          "passed": true,
+          "unresolved": {}
+        },
+        {
+          "broken": [],
+          "check": "local_markdown_destinations_resolve_against_overlay",
+          "local_links_checked": 240,
+          "passed": true,
+          "scope": "File/directory targets, not heading-anchor or external-URL validation."
+        },
+        {
+          "changed_paths": [],
+          "check": "publication_snapshot_stable_during_verification",
+          "passed": true
+        }
+      ],
+      "reviewed_file_sha256": {
+        "research/portfolio-register.json": "07667bb359488e60c9353bbf7c6b34d1a55d1a8c9309d3647d23990decf2e00d",
+        "research/rounds/round23/candidate-ledger.json": "d3fb5088a0fdec1a3d894c992d61cf649b119003e55d0fa479fa7d6c43792c6f",
+        "research/rounds/round23/new-opportunity-screen.md": "3f13a1287660d60934d3757288b25f6b555feb3e5200436a5bd9e64dea35d092",
+        "research/rounds/round23/scout-watchlist.json": "5470d285aa744383eec477529cb8a70df76be2eadfb5f6444dd85ab4cfe65fad",
+        "research/rounds/round23/source-register.json": "ed32bdf14814e72f774669beb0cf01065da4ad2cc0a8ff24e844d0c346dbd0f4"
+      },
+      "status": "pass"
+    }
+  },
+  "review_binding": {
+    "report_sha256": "3f13a1287660d60934d3757288b25f6b555feb3e5200436a5bd9e64dea35d092",
+    "independent_review_file": "research/rounds/round23/independent-review.md",
+    "blocking_issues": 0,
+    "resolved_precision_issues": 2,
+    "access_limits_remain_explicit": true
+  },
+  "pdf_qa": {
+    "path": "research/rounds/round23/ddiscov_dreadds_vaults_2026-11-06.pdf",
+    "pages": 12,
+    "bytes": 90721,
+    "sha256": "ef7d1aff61a7d07db2564855ac6ff0c71a081cb12642c91dbbadecd4efcd9035",
+    "all_pages_rendered_and_visually_inspected": true,
+    "complete_report_and_source_appendix": true,
+    "clipped_or_overlapping_text_observed": false
+  },
+  "baseline_copy_note": "Some scratch baseline text snapshots included one extra final newline. Verifier normalizes only when removing exactly one newline yields the pinned Git blob. The full baseline register itself matches exactly. Untouched repository files inherit original Git blobs.",
+  "changed_paths": [
+    "README.md",
+    "decisions/current-shortlist.md",
+    "research/portfolio-register.json",
+    "research/rounds/README.md",
+    "research/rounds/round23/README.md",
+    "research/rounds/round23/artifact-manifest.json",
+    "research/rounds/round23/candidate-ledger.json",
+    "research/rounds/round23/ddiscov_dreadds_vaults_2026-11-06.pdf",
+    "research/rounds/round23/independent-review.md",
+    "research/rounds/round23/local-verification.json",
+    "research/rounds/round23/new-opportunity-screen.md",
+    "research/rounds/round23/novelty-audit.json",
+    "research/rounds/round23/scout-watchlist.json",
+    "research/rounds/round23/source-register.json",
+    "research/rounds/round23/source-register.md",
+    "research/screen-index.md"
+  ],
+  "manifest": "research/rounds/round23/artifact-manifest.json",
+  "activity": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "applications": false,
+    "operational_biology_added": false,
+    "third_party_raw_documents_published": false
+  },
+  "self_digest_binding": "Containing Git tree binds this verification document; no recursive self-digest or future remote verification claim is embedded."
+}

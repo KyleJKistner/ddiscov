@@ -1,0 +1,61 @@
+{
+  "schema_version": "ddiscov.round23.novelty.v1",
+  "as_of": "2026-11-06",
+  "base_commit": "e65d88841393132b398dcfe6260b723068a179a9",
+  "base_tree": "0490665ccbe8780e3edb4e335ca381a947a56031",
+  "baseline_register": {
+    "bytes": 4729680,
+    "git_blob_sha": "0cb0a5f5323efc24907bb980de299d10c87a7038",
+    "sha256": "98084a03f7e25fcea2b4cf38d62d4bc83f596671e1d516a5b92eb41448281b3c",
+    "original_coverage_rows": 622
+  },
+  "repository_text_scope": [
+    "research/portfolio-register.json",
+    "research/screen-index.md",
+    "discovery/historical-topics.csv",
+    "discovery/topic-occurrences.csv",
+    "discovery/broad-screen.csv",
+    "decisions/current-shortlist.md",
+    "decisions/selection-policy.md"
+  ],
+  "recovered_external_screen_titles": [
+    "ddiscov_fresh_opportunity_screen_B.pdf",
+    "ddiscov_fresh_opportunity_screen_C.pdf",
+    "ddiscov_fresh_opportunity_screen_D.pdf",
+    "ddiscov_fresh_opportunity_screen_E.pdf",
+    "ddiscov_fresh_opportunity_screen_F.pdf",
+    "ddiscov_fresh_opportunity_screen_G.pdf",
+    "ddiscov_fresh_opportunity_screen_H.pdf",
+    "ddiscov_fresh_opportunity_screen_I.pdf",
+    "ddiscov_fresh_opportunity_screen_J.pdf",
+    "ddiscov_fresh_opportunity_screen_K.pdf",
+    "ddiscov_fresh_opportunity_screen_L.pdf",
+    "ddiscov_fresh_opportunity_screen_M.pdf"
+  ],
+  "queried_families": [
+    "DREADD",
+    "designer receptor",
+    "chemogenetic",
+    "hM4Di",
+    "hM3Dq",
+    "PSAM",
+    "PSEM",
+    "clozapine",
+    "deschloroclozapine",
+    "varenicline",
+    "GenAns",
+    "GA002",
+    "vault",
+    "Cathedral",
+    "CCL21",
+    "NY-ESO-1",
+    "bryostatin",
+    "LADON"
+  ],
+  "direct_matches": 0,
+  "unrecovered": [
+    "Screens N-Q",
+    "any later completed fresh screens"
+  ],
+  "interpretation": "New to inspected corpus only; not a claim of scientific novelty or exhaustive novelty across unrecovered conversations/files. Existing AAV indication with a new carrier is an expansion, not a new disease."
+}

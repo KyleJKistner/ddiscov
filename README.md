@@ -1,5 +1,9 @@
 # Drug Discovery Research
 
+## Round 23: new DREADD and vault-delivery screen
+
+**Evidence cutoff: 6 November 2026.** [Round 23](research/rounds/round23/README.md) identifies GA002 as the leading new clinical diligence question and vaultAAV as the leading delivery-platform reserve. PSAM pain remains a separate preclinical reserve; CCL21-vault is lower and the inspected PSAM epilepsy configuration is held after a functional negative. No new paid-development commitment or S-tier promotion is made. Information priority is distinct from the inherited conditional development queue. Novelty was checked against this repository and recovered Screens B-M; N-Q were not recovered.
+
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
 **Status: 4 November 2026, after Round 22.** The bounded existing AAT/donor-lung-preservation source review is complete. Human study versions and units, exact active exposure, processing versus systemic recipient evidence and granted-claim scope sharpen the conditional rank-seven qualification option. Its original US$30–100k/two-to-four-month envelope excludes scarce organs and transplant validation. APR/RM/BLU/NDC/mIGF/P2 decisions and closures remain unchanged. No broader screen, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 21 is published at `2db430cd752292d82a6e6a94bd7b08cf2ebb3614`.
@@ -69,3 +73,4 @@ One existing leading program was reviewed: ruxolitinib 1.5% cream/HHD. Two versi
 ## Round 14 accounting
 
 One existing leader was reviewed through one randomized external-disease cohort: 69 people with HS, not HHD. The registry, sponsor release and journal abstract are reports of that same cohort. Seventeen factual ledger rows, six analysis-plan records and seven claim decisions add no new screen or HHD-treated person. Two independent reviews cover four authored files. See the [bounded sprint record](research/rounds/round14/README.md).
+

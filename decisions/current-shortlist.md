@@ -1,6 +1,12 @@
 # Current development shortlist
 
-**Evidence cut: 4 November 2026. Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Current screen: 6 November 2026. Round 23. Historical development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+
+## Round 23: information priority from new seeds
+
+The [DREADD/vault screen](../research/rounds/round23/new-opportunity-screen.md) gives GA002 the highest new clinical information priority, then vaultAAV as the leading delivery question, followed by PSAM pain. CCL21-vault is a lower reserve; the exact PSAM epilepsy record is held after an in-vivo seizure endpoint failed to show a significant effect. Parked cargo and uptake scouts are not promoted assets.
+
+No paid development tranche has established an advantage over cash at known terms. This is not a finding of negative EV. The previously defined APR/RM/BLU/NDC/mIGF/P2/AAT sequence below is retained as a conditional development baseline, not a quantified ranking over the new programs. Source-pass closures remain intact. New records are provisional against unrecovered Screens N-Q. See [identity/source ledger](../research/rounds/round23/candidate-ledger.json) and [source access limits](../research/rounds/round23/source-register.md).
 
 ## Round 22: existing AAT/donor-lung preservation
 
@@ -252,3 +258,4 @@ Pantethine/PPCS, RM4404/corneal sensation, selected LQT2 correction, gentamicin/
 Apply the same product standard to every leader: public chemistry, a supplier listing, an approved generic or a marketed brand does not establish ownership or commercial clearance. BLU's origin and existing target/compound claims matter as much as the clinical leaders' franchises and formulation claims. A research project may be justified while its standalone asset thesis remains unresolved.
 
 Further desktop work should resolve a named uncertainty that changes article, target, model, exposure, functional claim or product contribution. The initial BLU qualification recommendation is already favorable; accumulating more markers should not defer the finite next step. No owner response is a scientific-selection prerequisite. No outreach, discussion, purchase or experiment was conducted in this sprint.
+

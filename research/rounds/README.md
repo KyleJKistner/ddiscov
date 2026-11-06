@@ -1,5 +1,7 @@
 # Research rounds and decision history
 
+**Latest:** [Round 23 - DREADDs and vault delivery](round23/README.md), 6 November 2026. New clinical/platform information priorities, exact evidence boundaries, current commercial context and scoped novelty. No development-capital promotion.
+
 The [current shortlist](../../decisions/current-shortlist.md) and [selection policy](../../decisions/selection-policy.md) are the controlling decisions. The [cumulative register](../portfolio-register.json) preserves original inventory coverage and subsequent changes. Earlier reports remain traceable historical evidence.
 
 | Review | Scope | Contribution |
@@ -128,3 +130,4 @@ The [archived reports](../reports/README.md) include new archival covers and pre
 - [Package and decision](round22/README.md).
 - [Human/function](round22/aat-human-function.md), [formulation/exposure](round22/aat-formulation-exposure.md), and [product/capture](round22/aat-product-capture.md).
 - [Marginal-dollar decision](round22/marginal-dollar-decision.md), [integration review](round22/integration-review.md), [local verification](round22/local-verification.json), and [artifact manifest](round22/artifact-manifest.json).
+

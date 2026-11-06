@@ -1,9 +1,9 @@
 {
-  "schema_version": "22.0",
-  "as_of": "2026-11-04",
+  "schema_version": "23.0",
+  "as_of": "2026-11-06",
   "repository": "KyleJKistner/ddiscov",
   "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
-  "supersedes": "Current schema21 integration published in 2db430cd752292d82a6e6a94bd7b08cf2ebb3614; original coverage, sources, generated concepts and all earlier round objects/files remain intact. The specified Round21 current state is preserved in history snapshot twenty.",
+  "supersedes": "Round22 main e65d88841393132b398dcfe6260b723068a179a9; all original coverage and prior round objects preserved. New seed-screen information queue is distinct from inherited conditional development ranks.",
   "policy": {
     "decision_unit": "Exact product in a defined disease, route and treatment window, paired with a stage-appropriate decision-changing preclinical or clinical proof.",
     "ranking": "Select the expected value of the next marginal information/development dollar from feasible tranches, including stop or defer, using remaining costs, time, decision-changing information and capturable value. Do not inherit priority from sunk effort or historical allocation. Qualitative comparisons must not masquerade as numerical financial rankings when inputs are missing.",
@@ -313,7 +313,9 @@
     "round8_new_records_without_prior_concept": 3,
     "round8_exact_use_expansions_of_existing_concepts": 1,
     "round8_existing_exact_use_updates": 2,
-    "round8_leading_programs_developed": 3
+    "round8_leading_programs_developed": 3,
+    "round23_screened_records": 8,
+    "round23_record_count_note": "Therapeutic-use, platform and parked scout records. Original622 unchanged; exhaustive novel-family count not established."
   },
   "final_shortlist": [
     {
@@ -56199,10 +56201,18 @@
   "publication": {
     "repository": "KyleJKistner/ddiscov",
     "target_branch": "main",
-    "base_commit": "2db430cd752292d82a6e6a94bd7b08cf2ebb3614",
-    "scope": "Round22 bounded existing AAT/donor-lung-preservation human function, formulation/exposure, product/capture and marginal-dollar review; no broader new-opportunity screening.",
-    "activity_boundary": "Public-document research, deterministic content/provenance checks and repository publication only. No outreach, purchases, recruitment, experiments, simulations or material receipt.",
-    "commit_identifier": "Use the containing Git commit; no recursive current-commit value is embedded."
+    "base_commit": "e65d88841393132b398dcfe6260b723068a179a9",
+    "scope": "Round23 new opportunity evidence, decision, sources, scoped novelty, review and manifest; existing historical files retained.",
+    "commit_identifier": "Containing Git commit; omitted here to avoid a self-reference.",
+    "activity_boundary": [
+      "no outreach",
+      "no purchases",
+      "no recruitment",
+      "no experiments",
+      "no simulations",
+      "no material receipt",
+      "no applications"
+    ]
   },
   "round4": {
     "as_of": "2026-11-04",
@@ -66340,14 +66350,23 @@
     ]
   },
   "current_marginal_dollar_decision": {
-    "round": 22,
-    "objective": "Expected discounted financial value retained by ddiscov after remaining development, commercial and rights costs, sharing and financing.",
-    "selected_uncertainty": "Whether a bounded AAT formulation/potency/process qualification can enable an informative usable-graft decision and a commercially retained contribution.",
-    "basis": "User-selected bounded existing-program review after six closed source passes. Inherited conditional rank7; no broader new-opportunity screening or fresh full-portfolio valuation.",
-    "selected_public_source_sprint_rank": 1,
-    "user_selected_existing_program": true,
-    "independent_review_conditional_development_rank": 7,
-    "conditional_development_prefix": [
+    "round": 23,
+    "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+    "completed_scope": "New DREADD and protein-vault opportunity screen, high-level investment only.",
+    "conditional_information_queue": [
+      "R23-01",
+      "R23-02",
+      "R23-03",
+      "R23-04"
+    ],
+    "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+    "paid_development_promotions": 0,
+    "spending_authorized": false,
+    "zero_or_wait_option_included": true,
+    "estimated_return_per_dollar": null,
+    "numerical_success_probabilities": false,
+    "replacement_allocation": null,
+    "inherited_conditional_development_prefix": [
       "R4-L02",
       "R4-L01",
       "BLU3797_XLMTM",
@@ -66356,28 +66375,13 @@
       "R3-NM-01",
       "AAT_EVLP"
     ],
-    "historical_allocation_used_as_EV_proxy": false,
-    "closed_source_candidates_automatically_demoted": false,
     "full_development_order_changed": false,
-    "exhaustive_portfolio_valuation": false,
-    "broader_new_opportunity_screening": false,
-    "numerical_success_probabilities": false,
-    "estimated_return_per_dollar": null,
-    "ordinal_rank_conditional_on_original_informative_scope": true,
-    "qualification_is_original_priced_scope": true,
-    "zero_or_wait_option_included": true,
-    "candidate_id": "AAT_EVLP",
-    "completed_information_tranche": [
-      "research/rounds/round22/aat-formulation-exposure.json",
-      "research/rounds/round22/aat-human-function.json",
-      "research/rounds/round22/aat-product-capture.json",
-      "research/rounds/round22/marginal-dollar-decision.json"
-    ],
-    "resulting_decision": "research/rounds/round22/marginal-dollar-decision.json",
-    "financial_asset_rank": null,
-    "replacement_allocation": null,
-    "public_source_pass_closed": true,
-    "spending_authorized": false
+    "closed_source_candidates_automatically_demoted": false,
+    "novelty_exhaustive": false,
+    "missing_novelty_scope": [
+      "Screens N-Q",
+      "any later completed fresh screens"
+    ]
   },
   "round15": {
     "as_of": "2026-11-04",
@@ -67600,5 +67604,243 @@
       "Qualification isoriginalpricedtranche, notcompleteorgan/transplantprogram orquote.",
       "No broader screening, newexperimentalresults, allocation or executionauthorization."
     ]
+  },
+  "round23": {
+    "as_of": "2026-11-06",
+    "as_of_timezone": "America/Los_Angeles",
+    "base_publication_commit": "e65d88841393132b398dcfe6260b723068a179a9",
+    "counts": {
+      "screened_records": 8,
+      "paid_development_promotions": 0,
+      "s_tier_promotions": 0,
+      "new_to_all_prior_screens": null
+    },
+    "selection": {
+      "round": 23,
+      "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+      "completed_scope": "New DREADD and protein-vault opportunity screen, high-level investment only.",
+      "conditional_information_queue": [
+        "R23-01",
+        "R23-02",
+        "R23-03",
+        "R23-04"
+      ],
+      "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+      "paid_development_promotions": 0,
+      "spending_authorized": false,
+      "zero_or_wait_option_included": true,
+      "estimated_return_per_dollar": null,
+      "numerical_success_probabilities": false,
+      "replacement_allocation": null,
+      "inherited_conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "full_development_order_changed": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "novelty_exhaustive": false,
+      "missing_novelty_scope": [
+        "Screens N-Q",
+        "any later completed fresh screens"
+      ]
+    },
+    "new_screens": [
+      {
+        "id": "R23-01",
+        "identity": "hM4D(Gi)-based GA002 plus oral clozapine / refractory focal epilepsy",
+        "modality": "GPCR DREADD therapeutic program",
+        "evidence_level": "Three-person uncontrolled clinical signal in unilateral mesial temporal lobe epilepsy with hippocampal sclerosis",
+        "disposition": "new_clinical_diligence_priority",
+        "conditional_information_rank": 1,
+        "sources": [
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05",
+          "D06"
+        ],
+        "rights_and_value_capture": "GenAns existing sponsor; investment/licensing/partnership availability and retained terms not established.",
+        "next_consequential_question": "Detailed clinical replication, longer safety and an obtainable economic claim.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-02",
+        "identity": "VaultAAV / AAV neutralizing-antibody barrier",
+        "modality": "Delivery platform; no disease product selected",
+        "evidence_level": "Cellular transduction despite neutralizing mouse serum",
+        "disposition": "platform_evidence_rights_reserve",
+        "conditional_information_rank": 2,
+        "sources": [
+          "V01",
+          "V02",
+          "V03",
+          "V04",
+          "V05"
+        ],
+        "rights_and_value_capture": "Cathedral; university IP; inventor-reported acquisition. Complete current title and terms not verified.",
+        "next_consequential_question": "Useful translational advantage plus current rights and a feasible contribution.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-03",
+        "identity": "PSAM4-GlyR sensory-neuron control / pain",
+        "modality": "Ligand-gated chemogenetics; not GPCR DREADD",
+        "evidence_level": "Mouse pain-related function and human-neuron physiology",
+        "disposition": "preclinical_reserve",
+        "conditional_information_rank": 3,
+        "sources": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "rights_and_value_capture": "No offered exact-product commercial rights or sponsor route verified here.",
+        "next_consequential_question": "Useful pain relief, acceptable sensation, exact-product feasibility and retained economics.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-04",
+        "identity": "CCL21-vault / lung cancer; flank-glioma context",
+        "modality": "Cargo-carrier family with separate model claims",
+        "evidence_level": "Mouse tumor activity; related non-vault human product disappointed",
+        "disposition": "lower_delivery_reserve",
+        "conditional_information_rank": 4,
+        "sources": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06"
+        ],
+        "rights_and_value_capture": "Vault Pharma and university/VA patent context; current available license and funding terms unresolved.",
+        "next_consequential_question": "Carrier-added product value and a credible current clinical/product/funding case.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-05",
+        "identity": "PSAM4-GlyR/uPSEM817 / temporal-lobe epilepsy",
+        "modality": "Exact ligand-gated chemogenetic preclinical configuration",
+        "evidence_level": "Cell/slice inhibition; in-vivo electrographic seizure endpoint not significant",
+        "disposition": "hold",
+        "conditional_information_rank": null,
+        "sources": [
+          "P04"
+        ],
+        "rights_and_value_capture": "No specific licensable clinical product verified.",
+        "next_consequential_question": "Substantive useful-function evidence for the exact program; no efficacy borrowed from GA002.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-06",
+        "identity": "NY-ESO-1-vault / tumor-antigen delivery",
+        "modality": "Vault antigen cargo",
+        "evidence_level": "Murine dendritic-cell uptake/maturation",
+        "disposition": "park",
+        "conditional_information_rank": null,
+        "sources": [
+          "S01"
+        ],
+        "rights_and_value_capture": "No new obtainable economic interest established; VPI-111 alias unverified.",
+        "next_consequential_question": "Therapeutic outcome and product contribution beyond immune-cell phenotype.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-07",
+        "identity": "Bryostatin-1 lipophilic vault / HIV latency",
+        "modality": "Vault small-molecule cargo",
+        "evidence_level": "Latency/activation biomarkers; no reservoir elimination",
+        "disposition": "park",
+        "conditional_information_rank": null,
+        "sources": [
+          "S02"
+        ],
+        "rights_and_value_capture": "Paper disclosed licensed IP; no current available rights established.",
+        "next_consequential_question": "Useful therapeutic endpoint and carrier-specific benefit.",
+        "funding_authorized": false
+      },
+      {
+        "id": "R23-08",
+        "identity": "Antibody-targeted vault-Z / cancer-cell cargo delivery",
+        "modality": "Delivery technology scout, not a validated cancer drug",
+        "evidence_level": "Fluorescent uptake; therapeutic-cargo proposals remain separate",
+        "disposition": "park",
+        "conditional_information_rank": null,
+        "sources": [
+          "S03",
+          "S04"
+        ],
+        "rights_and_value_capture": "No clinical product or usable rights package established.",
+        "next_consequential_question": "Actual useful therapeutic effect; do not combine a separate thesis into an efficacy claim.",
+        "funding_authorized": false
+      }
+    ],
+    "prior_marginal_dollar_decision_preserved": {
+      "round": 22,
+      "objective": "Expected discounted financial value retained by ddiscov after remaining development, commercial and rights costs, sharing and financing.",
+      "selected_uncertainty": "Whether a bounded AAT formulation/potency/process qualification can enable an informative usable-graft decision and a commercially retained contribution.",
+      "basis": "User-selected bounded existing-program review after six closed source passes. Inherited conditional rank7; no broader new-opportunity screening or fresh full-portfolio valuation.",
+      "selected_public_source_sprint_rank": 1,
+      "user_selected_existing_program": true,
+      "independent_review_conditional_development_rank": 7,
+      "conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "historical_allocation_used_as_EV_proxy": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "full_development_order_changed": false,
+      "exhaustive_portfolio_valuation": false,
+      "broader_new_opportunity_screening": false,
+      "numerical_success_probabilities": false,
+      "estimated_return_per_dollar": null,
+      "ordinal_rank_conditional_on_original_informative_scope": true,
+      "qualification_is_original_priced_scope": true,
+      "zero_or_wait_option_included": true,
+      "candidate_id": "AAT_EVLP",
+      "completed_information_tranche": [
+        "research/rounds/round22/aat-formulation-exposure.json",
+        "research/rounds/round22/aat-human-function.json",
+        "research/rounds/round22/aat-product-capture.json",
+        "research/rounds/round22/marginal-dollar-decision.json"
+      ],
+      "resulting_decision": "research/rounds/round22/marginal-dollar-decision.json",
+      "financial_asset_rank": null,
+      "replacement_allocation": null,
+      "public_source_pass_closed": true,
+      "spending_authorized": false
+    },
+    "source_reference_scope": "research/rounds/round23/source-register.json",
+    "novelty_audit": "research/rounds/round23/novelty-audit.json",
+    "independent_review": "research/rounds/round23/independent-review.md",
+    "artifact_manifest": "research/rounds/round23/artifact-manifest.json",
+    "activity_boundary": [
+      "no outreach",
+      "no purchases",
+      "no recruitment",
+      "no experiments",
+      "no simulations",
+      "no material receipt",
+      "no applications"
+    ],
+    "interpretation_limits": [
+      "No comparison at undisclosed investment terms establishes superiority to cash.",
+      "Human GA002 results do not validate PSAM or vault delivery.",
+      "A related CCL21 cell product failure is not a failed vault trial.",
+      "An uncontrolled cohort reduction is not a comparative treatment effect.",
+      "No exhaustive novelty claim beyond inspected corpus."
+    ],
+    "additional_scout_watchlist": "research/rounds/round23/scout-watchlist.json",
+    "additional_scout_records": 5
   }
 }

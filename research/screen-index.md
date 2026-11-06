@@ -1,5 +1,7 @@
 # November therapeutic screens
 
+> **Latest screen:** [Round 23](rounds/round23/README.md), 6 November 2026: GA002 clinical diligence, vaultAAV delivery rights/evidence, separate PSAM pain and epilepsy findings, and CCL21-vault/lower-priority cargo records. No paid-development promotion; novelty limited to inspected repository plus recovered B-M. The Round22 block below is historical.
+
 > **Current work:** [Round 22](rounds/round22/README.md) closes a bounded review of existing AAT/donor-lung preservation. Human donor-study provenance, active formulation exposure, processing versus recipient function and product/rights distinctions sharpen the conditional rank-seven qualification option. No broader new-opportunity screen, experiment, allocation or S-tier promotion. APR/RM/BLU/NDC/mIGF/P2 source closures remain unchanged. The [current shortlist](../decisions/current-shortlist.md) governs interpretation.
 
 Each row identifies one therapeutic question and its dated archive record. Some entries are early material or comparator checks, while others received dose, study-design and rights review. Repeat appearances trace the work on a construct. For example, the R334W study moved from patient-organoid activity to a separate assessment of parent and metabolite exposure. The sections follow the question asked in each phase. Source links point to an intervention study, comparator, or program record as indicated.
@@ -331,3 +333,4 @@ Retain rank 3, 10 planning points and controlled clinical proof. Two versions ar
 | [Ruxolitinib 1.5% cream / HHD](rounds/round14/hhd-clinical-claim-amendment.md) | Official controlled HS result/SAP audit; endpoint-specific counts, withdrawal and safety; seven claim decisions | Different disease; longitudinal-model contributor counts, implemented missingness strategy and full journal paper/supplement remain unrecovered |
 
 Retain rank 3, 10 planning points and controlled clinical proof. One external 69-person cohort adds no HHD-treated person, new screen or proprietary asset. Multiple reports are not independent replications.
+

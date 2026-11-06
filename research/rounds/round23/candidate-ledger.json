@@ -1,0 +1,166 @@
+{
+  "schema_version": "ddiscov.round23.candidates.v1",
+  "as_of": "2026-11-06",
+  "decision_unit": "One exact therapeutic-use, delivery-platform, or clearly labelled technology-scout record. Record count is not a count of validated drugs or new global families.",
+  "counts": {
+    "screened_records": 8,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "new_to_all_prior_screens": null
+  },
+  "novelty_scope": "No queried direct matches in pinned repository and recovered Screens B-M. Screens N-Q and any later screens not recovered; novelty provisional against them.",
+  "records": [
+    {
+      "id": "R23-01",
+      "identity": "hM4D(Gi)-based GA002 plus oral clozapine / refractory focal epilepsy",
+      "modality": "GPCR DREADD therapeutic program",
+      "evidence_level": "Three-person uncontrolled clinical signal in unilateral mesial temporal lobe epilepsy with hippocampal sclerosis",
+      "disposition": "new_clinical_diligence_priority",
+      "conditional_information_rank": 1,
+      "sources": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06"
+      ],
+      "rights_and_value_capture": "GenAns existing sponsor; investment/licensing/partnership availability and retained terms not established.",
+      "next_consequential_question": "Detailed clinical replication, longer safety and an obtainable economic claim.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-02",
+      "identity": "VaultAAV / AAV neutralizing-antibody barrier",
+      "modality": "Delivery platform; no disease product selected",
+      "evidence_level": "Cellular transduction despite neutralizing mouse serum",
+      "disposition": "platform_evidence_rights_reserve",
+      "conditional_information_rank": 2,
+      "sources": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ],
+      "rights_and_value_capture": "Cathedral; university IP; inventor-reported acquisition. Complete current title and terms not verified.",
+      "next_consequential_question": "Useful translational advantage plus current rights and a feasible contribution.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-03",
+      "identity": "PSAM4-GlyR sensory-neuron control / pain",
+      "modality": "Ligand-gated chemogenetics; not GPCR DREADD",
+      "evidence_level": "Mouse pain-related function and human-neuron physiology",
+      "disposition": "preclinical_reserve",
+      "conditional_information_rank": 3,
+      "sources": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "rights_and_value_capture": "No offered exact-product commercial rights or sponsor route verified here.",
+      "next_consequential_question": "Useful pain relief, acceptable sensation, exact-product feasibility and retained economics.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-04",
+      "identity": "CCL21-vault / lung cancer; flank-glioma context",
+      "modality": "Cargo-carrier family with separate model claims",
+      "evidence_level": "Mouse tumor activity; related non-vault human product disappointed",
+      "disposition": "lower_delivery_reserve",
+      "conditional_information_rank": 4,
+      "sources": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "rights_and_value_capture": "Vault Pharma and university/VA patent context; current available license and funding terms unresolved.",
+      "next_consequential_question": "Carrier-added product value and a credible current clinical/product/funding case.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-05",
+      "identity": "PSAM4-GlyR/uPSEM817 / temporal-lobe epilepsy",
+      "modality": "Exact ligand-gated chemogenetic preclinical configuration",
+      "evidence_level": "Cell/slice inhibition; in-vivo electrographic seizure endpoint not significant",
+      "disposition": "hold",
+      "conditional_information_rank": null,
+      "sources": [
+        "P04"
+      ],
+      "rights_and_value_capture": "No specific licensable clinical product verified.",
+      "next_consequential_question": "Substantive useful-function evidence for the exact program; no efficacy borrowed from GA002.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-06",
+      "identity": "NY-ESO-1-vault / tumor-antigen delivery",
+      "modality": "Vault antigen cargo",
+      "evidence_level": "Murine dendritic-cell uptake/maturation",
+      "disposition": "park",
+      "conditional_information_rank": null,
+      "sources": [
+        "S01"
+      ],
+      "rights_and_value_capture": "No new obtainable economic interest established; VPI-111 alias unverified.",
+      "next_consequential_question": "Therapeutic outcome and product contribution beyond immune-cell phenotype.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-07",
+      "identity": "Bryostatin-1 lipophilic vault / HIV latency",
+      "modality": "Vault small-molecule cargo",
+      "evidence_level": "Latency/activation biomarkers; no reservoir elimination",
+      "disposition": "park",
+      "conditional_information_rank": null,
+      "sources": [
+        "S02"
+      ],
+      "rights_and_value_capture": "Paper disclosed licensed IP; no current available rights established.",
+      "next_consequential_question": "Useful therapeutic endpoint and carrier-specific benefit.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-08",
+      "identity": "Antibody-targeted vault-Z / cancer-cell cargo delivery",
+      "modality": "Delivery technology scout, not a validated cancer drug",
+      "evidence_level": "Fluorescent uptake; therapeutic-cargo proposals remain separate",
+      "disposition": "park",
+      "conditional_information_rank": null,
+      "sources": [
+        "S03",
+        "S04"
+      ],
+      "rights_and_value_capture": "No clinical product or usable rights package established.",
+      "next_consequential_question": "Actual useful therapeutic effect; do not combine a separate thesis into an efficacy claim.",
+      "funding_authorized": false
+    }
+  ],
+  "additional_context_identities": [
+    {
+      "name": "GA001",
+      "handling": "Optogenetic retinal program, not DREADD clinical validation."
+    },
+    {
+      "name": "GA008",
+      "handling": "July2026 institutional announcement of prospective filings for refractory neuropathic pain; no clinical efficacy or completed filing inferred."
+    },
+    {
+      "name": "CNO / deschloroclozapine / DCZ / alternative controllers",
+      "handling": "Component or research-tool names; not automatically additional therapeutic assets."
+    }
+  ],
+  "activity_restrictions": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications"
+  ]
+}

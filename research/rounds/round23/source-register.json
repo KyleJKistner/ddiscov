@@ -1,0 +1,256 @@
+{
+  "schema_version": "ddiscov.round23.sources.v1",
+  "retrieved_on": "2026-11-06",
+  "timezone": "America/Los_Angeles",
+  "rule": "Primary papers, institutional/investor/company disclosures and published patents retain source type and access limits. Linked reports of one cohort are not independent replications.",
+  "sources": [
+    {
+      "id": "D01",
+      "title": "Dai et al., Chemogenetic Neuromodulation for Refractory Epilepsy",
+      "publication_date": "2026-11-05 issue",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "source_type": "Original clinical report",
+      "access_and_claim_limits": "Publication identified; direct article and supplement not retrieved by root. Quantitative claims attributed to D02, not represented as a full-article audit."
+    },
+    {
+      "id": "D02",
+      "title": "Capital Medical University / Xuanwu Hospital investigator account",
+      "publication_date": "2026-11-05",
+      "url": "https://news.ccmu.edu.cn/syyw_12977/20c9e5d849fa4e53b5d47ec24c6dfc7e.htm",
+      "source_type": "Investigator-authored institutional disclosure",
+      "access_and_claim_limits": "Full page read. Three patients; weeks 5-12; 92.6%; background treatment; safety and 12/8/8-month follow-up. Same cohort as D01."
+    },
+    {
+      "id": "D03",
+      "title": "CIBR first-human chemogenetic report and program status",
+      "publication_date": "2026-11-05",
+      "url": "https://cibr.ac.cn/detail/researchAchievementpaper/7e141d834d99406db7c00600ce933837",
+      "source_type": "Investigator institution",
+      "access_and_claim_limits": "Indexed primary text plus English publication notice. China enrollment and US trial permission remain attributed; regulator letter not inspected."
+    },
+    {
+      "id": "D04",
+      "title": "Beijing science authority: GA002 trial launch",
+      "publication_date": "2026-07-08",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202607/t20260708_4751715.html",
+      "source_type": "Official authority reproducing CIBR program disclosure",
+      "access_and_claim_limits": "Full page read. Six IIT recipients include three hippocampal-sclerosis patients; not six detailed outcomes or a cohort additive to D01. GA001 optogenetic; GA008 filings were prospective."
+    },
+    {
+      "id": "D05",
+      "title": "ZGC investor: GenAns Series A",
+      "publication_date": "2026-08-05",
+      "url": "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_bb0c97f3e09c48e0bf8ee336d5f0e4b2.html",
+      "source_type": "Investor primary disclosure",
+      "access_and_claim_limits": "Indexed original release read. Several hundred million RMB; no precise amount, valuation, accessible offer or fully funded development assertion."
+    },
+    {
+      "id": "D06",
+      "title": "US10525103B2: combined modified-receptor vector and agonist for seizures",
+      "publication_date": "2020-01-07 publication",
+      "url": "https://patents.google.com/patent/US10525103B2/en",
+      "source_type": "Published patent",
+      "access_and_claim_limits": "Public document and UCL Business assignee metadata inspected. No claim construction, infringement, license availability or freedom-to-operate conclusion."
+    },
+    {
+      "id": "P01",
+      "title": "Perez-Sanchez et al., A humanized chemogenetic system inhibits murine pain-related behavior and hyperactivity in human sensory neurons",
+      "publication_date": "2023-10-04",
+      "url": "https://doi.org/10.1126/scitranslmed.adh3839",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Indexed primary PubMed/PMC article content reviewed; direct PMC access challenged in root. Mouse pain and human-cell work, not treated people. PMID 37792955; PMC7615191."
+    },
+    {
+      "id": "P02",
+      "title": "Haroun et al., Chemogenetic Silencing of NaV1.8-Positive Sensory Neurons Reverses Chronic Neuropathic and Bone Cancer Pain",
+      "publication_date": "2023",
+      "url": "https://www.eneuro.org/content/10/9/ENEURO.0151-23.2023",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Primary abstract/article excerpts reviewed. Keep AAV and transgenic contexts and sensory outcomes distinct; PMID 37679042; PMC10523839."
+    },
+    {
+      "id": "P03",
+      "title": "Cooper et al., Precision cell-state silencing of injured afferents alleviates spontaneous neuropathic pain",
+      "publication_date": "2026-10-15 v1",
+      "url": "https://doi.org/10.64898/2026.10.08.757642",
+      "source_type": "Preprint bibliographic lead",
+      "access_and_claim_limits": "Title/DOI/date identified in original bioRxiv listing. Full primary preprint not recovered; no quantitative efficacy or specificity claim adopted. Not peer reviewed."
+    },
+    {
+      "id": "P04",
+      "title": "Gonzalez-Ramos et al., Chemogenetics with PSAM4-GlyR decreases excitability and epileptiform activity in epileptic hippocampus",
+      "publication_date": "2024-10-25 online; 2025 issue",
+      "url": "https://www.nature.com/articles/s41434-024-00493-7",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Indexed publisher/PMC body and concluding statements reviewed. In-vivo electrographic seizure suppression not significant despite cell/slice effects. PMC11946892."
+    },
+    {
+      "id": "V01",
+      "title": "Collins et al., Encapsulation of AAVs into Protein Vault Nanoparticles as a Novel Solution to Gene Therapy’s Neutralizing Antibody Problem",
+      "publication_date": "2026-08-13 online; 2026-10-16 issue",
+      "url": "https://doi.org/10.1021/acssynbio.6c00512",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Indexed ACS body, comparators and conflict disclosure read; direct publisher opening blocked. Cell transduction in neutralizing mouse serum, not in-vivo therapeutic or human repeat-dose success."
+    },
+    {
+      "id": "V02",
+      "title": "PubMed record for the vaultAAV paper",
+      "publication_date": "2026-10-16 issue",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42916571/",
+      "source_type": "Bibliographic record with author abstract",
+      "access_and_claim_limits": "Metadata and abstract read. Same underlying study as V01, not independent replication."
+    },
+    {
+      "id": "V03",
+      "title": "US20250027112A1: Gene therapy delivery compositions and methods of use thereof",
+      "publication_date": "2025-01-23 publication; 2023-07-17 priority",
+      "url": "https://patents.google.com/patent/US20250027112A1/en",
+      "source_type": "Published patent application",
+      "access_and_claim_limits": "Published document and indexed assignment metadata read. Washington University and later Regents of UC entry; no executed license/current clean-title/FTO opinion. Avoid unverified normalized campus label."
+    },
+    {
+      "id": "V04",
+      "title": "Logan Thrasher Collins: Cathedral ownership history",
+      "publication_date": "Undated page, accessed 2026-11-06",
+      "url": "https://logancollinsblog.com/",
+      "source_type": "Inventor first-person account",
+      "access_and_claim_limits": "Full page read. Reports March 2025 acquisition by unnamed biotech and reconstituted entity. No independent acquirer, terms or title verification."
+    },
+    {
+      "id": "V05",
+      "title": "Cathedral Therapeutics current website",
+      "publication_date": "Undated page, accessed 2026-11-06",
+      "url": "https://www.cathedraltx.com/",
+      "source_type": "Company disclosure",
+      "access_and_claim_limits": "Current platform and team page read. Marketing claims are not clinical data or validated repeat dosing."
+    },
+    {
+      "id": "C01",
+      "title": "Kar et al., Novel CCL21-Vault Nanocapsule Intratumoral Delivery Inhibits Lung Cancer Growth",
+      "publication_date": "2011-05-03",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018758",
+      "source_type": "Original mouse study",
+      "access_and_claim_limits": "Full body and figure legends inspected. Ten mice/group in relevant legends; empty-vault/diluent comparison. No free-cargo in-vivo efficacy arm in those contrasts."
+    },
+    {
+      "id": "C02",
+      "title": "Voth et al., CCL21-coupled vaults in a glioma model",
+      "publication_date": "2020-04-09 online",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32274629/",
+      "source_type": "Original study author abstract",
+      "access_and_claim_limits": "Primary abstract reviewed. Flank model, not intracranial disease/BBB demonstration. Ambiguous free-cargo arm punctuation not silently resolved. DOI 10.1007/s11060-020-03479-8."
+    },
+    {
+      "id": "C03",
+      "title": "Oh et al., CCL21-modified dendritic cells with pembrolizumab in NSCLC",
+      "publication_date": "2026-10-04",
+      "url": "https://www.nature.com/articles/s41467-026-78130-7",
+      "source_type": "Original phase I clinical report",
+      "access_and_claim_limits": "Full clinical results read. 23 treated, 19 efficacy-evaluable, 0/19 responses, 7/19 stable disease; different product from vaults. NCT03546361."
+    },
+    {
+      "id": "C04",
+      "title": "UCLA Health: How a scientist’s lifelong obsession with vaults could transform medicine",
+      "publication_date": "2025-07-10",
+      "url": "https://www.uclahealth.org/news/publication/how-scientists-lifelong-obsession-with-vaults-could",
+      "source_type": "Institutional feature with investigator/company accounts",
+      "access_and_claim_limits": "Full page read. Historical manufacturing interruption and approximately $10m prospective trial financing need; not a 2026 quote or verified clinical start."
+    },
+    {
+      "id": "C05",
+      "title": "Vault Pharma appoints Oliver Foellmer: historical VPI-101 status",
+      "publication_date": "2017",
+      "url": "https://vaultpharma.com/wp-content/uploads/2017/04/Vault-Pharma-Announces-Oliver-Foellmer-as-President-and-CEO.pdf",
+      "source_type": "Company original press release",
+      "access_and_claim_limits": "Reviewed in independent vault source pass. Active-ingredient phase I wording and future trial plans do not show vault-treated patients."
+    },
+    {
+      "id": "C06",
+      "title": "US11793860B2: cytokine-vault patent family",
+      "publication_date": "2023 grant publication",
+      "url": "https://patents.google.com/patent/US11793860B2/en",
+      "source_type": "Published patent",
+      "access_and_claim_limits": "Public family/assignee record inspected in independent pass. No legal claim construction, available license or FTO established."
+    },
+    {
+      "id": "S01",
+      "title": "Nagasawa et al., NY-ESO-1 vault nanoparticles induce dendritic-cell maturation",
+      "publication_date": "2020-05-07 online",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32383063/",
+      "source_type": "Original study author abstract",
+      "access_and_claim_limits": "Primary abstract reviewed; murine dendritic-cell maturation, not clinical or tumor efficacy. DOI 10.1007/s11060-020-03472-1. VPI-111 alias not confirmed."
+    },
+    {
+      "id": "S02",
+      "title": "Buehler et al., Bioengineered Vaults: Self-Assembling Protein Shell-Lipophilic Core Nanoparticles",
+      "publication_date": "2014-07-25 online",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4148163/",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Full text reviewed. Latency/activation biomarkers; human donor cells are not treated patients; no reservoir elimination. DOI 10.1021/nn5002694."
+    },
+    {
+      "id": "S03",
+      "title": "Antibody-targeted vault-Z delivery paper",
+      "publication_date": "2024",
+      "url": "https://doi.org/10.3390/ijms25126629",
+      "source_type": "Original preclinical paper",
+      "access_and_claim_limits": "Independent pass inspected primary article; uptake/fluorescent cargo result. Therapeutic cargo work prospective; PMC11203631."
+    },
+    {
+      "id": "S04",
+      "title": "University abstract concerning anti-LADON vault delivery",
+      "publication_date": "2023 abstract",
+      "url": "https://www.boa.unimib.it/handle/10281/555981",
+      "source_type": "University repository abstract",
+      "access_and_claim_limits": "Independent pass found a proposed siRNA delivery direction; not treated as verified therapeutic efficacy or an alias of S03."
+    },
+    {
+      "id": "W01",
+      "title": "Rutgers S2016-155: retinal DREADD neuropsychiatric approach",
+      "publication_date": "2018-05-07 listing",
+      "url": "https://techfinder.rutgers.edu/tech/Treatment_for_Neuropsychiatric_Disorders_by_Intravitreal_Injection_of_DREADD_Followed_by_Eye_Drops_or_Pills_Containing_DREADD_agonist",
+      "source_type": "University licensing disclosure",
+      "access_and_claim_limits": "Indexed original listing read; direct page returned 403. Rat light-deprivation behavior and licensing advertised; current availability and exact patent scope not confirmed."
+    },
+    {
+      "id": "W02",
+      "title": "Rutgers 2026-025: Chemogenetic Treatment for Neurodegenerative and Neuropsychiatric Disorders",
+      "publication_date": "2025-09-10 displayed on listing",
+      "url": "https://techfinder.rutgers.edu/tech/Chemogenetic_Treatment_for_Neurodegenerative_and_Neuropsychiatric_Disorders",
+      "source_type": "University licensing disclosure",
+      "access_and_claim_limits": "Indexed original listing read. Similar retinal hM3Dq rationale to W01; not counted as an independent asset or replication. Index/listing dates differ."
+    },
+    {
+      "id": "W03",
+      "title": "Rutgers MPS2016-155: intra-ocular neuropsychiatric method / Alzheimer’s-related rat behavior",
+      "publication_date": "2026-03-04 listing",
+      "url": "https://techfinder.rutgers.edu/tech/AN_INTRA-OCULAR_METHOD_TO_TREAT_NEUROPSYCHIATRIC_DISORDERS",
+      "source_type": "University licensing disclosure",
+      "access_and_claim_limits": "Indexed original listing read. Rat learning/memory claims and licensing advertised. No treated-human evidence or independent primary-study audit; relationship to W01/W02 and current rights unconfirmed."
+    },
+    {
+      "id": "W04",
+      "title": "NCT06596681: unresolved GA pain registry lead",
+      "publication_date": "Current record not extractable",
+      "url": "https://clinicaltrials.gov/study/NCT06596681",
+      "source_type": "Primary registry location; unverified structured record",
+      "access_and_claim_limits": "Registry page exposed only interface text. GA pain identity is a provisional discovery label, not verified mapping to GA008/GA002; no recruitment, enrollment or outcome claim adopted."
+    },
+    {
+      "id": "W05",
+      "title": "NCT07085195: provisional STP001 Parkinson’s registry lead",
+      "publication_date": "Current record not extractable",
+      "url": "https://clinicaltrials.gov/study/NCT07085195",
+      "source_type": "Primary registry location; unverified structured record",
+      "access_and_claim_limits": "Registry page exposed only interface text. Discovery label requires primary confirmation; no recruitment, enrollment, sponsor-rights or outcome claim adopted."
+    },
+    {
+      "id": "W06",
+      "title": "NCT07533591: provisional CGTPD Parkinson’s registry lead",
+      "publication_date": "Current record not extractable",
+      "url": "https://clinicaltrials.gov/study/NCT07533591",
+      "source_type": "Primary registry location; unverified structured record",
+      "access_and_claim_limits": "Registry page exposed only interface text. Discovery label requires primary confirmation; no recruitment, enrollment, sponsor-rights or outcome claim adopted."
+    }
+  ]
+}

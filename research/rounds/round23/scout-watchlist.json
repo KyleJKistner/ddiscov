@@ -1,0 +1,69 @@
+{
+  "schema_version": "ddiscov.round23.scouts.v1",
+  "as_of": "2026-11-06",
+  "scope": "Discovery-only watchlist; separate from eight screened records. These are not validated assets or exhaustive novel families.",
+  "records": [
+    {
+      "id": "R23-W01",
+      "identity": "Rutgers retinal DREADD licensing family",
+      "aliases": [
+        "S2016-155",
+        "2026-025",
+        "MPS2016-155"
+      ],
+      "sources": [
+        "W01",
+        "W02",
+        "W03"
+      ],
+      "evidence": "University-advertised rat behavior and licensing availability; no human efficacy verified.",
+      "disposition": "low_priority_licensing_watchlist",
+      "next_question": "Reconcile three related listings, exact rights/current availability and original animal evidence; not counted as three assets.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-W02",
+      "identity": "GenAns GA008 / refractory neuropathic pain",
+      "sources": [
+        "D04"
+      ],
+      "evidence": "Named pipeline with prospective China/US filings in July2026 disclosure.",
+      "disposition": "identity_status_monitor",
+      "next_question": "Verify actual development status, exact product and possible commercial access.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-W03",
+      "identity": "Provisional GA pain / NCT06596681",
+      "sources": [
+        "W04"
+      ],
+      "evidence": "Discovery label only; primary registry structured record not extractable.",
+      "disposition": "unresolved_registry_lead",
+      "next_question": "Confirm primary identity; do not equate GA with GA008 or GA002.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-W04",
+      "identity": "Provisional STP001 Parkinson’s / NCT07085195",
+      "sources": [
+        "W05"
+      ],
+      "evidence": "Discovery label only; primary registry structured record not extractable.",
+      "disposition": "unresolved_registry_lead",
+      "next_question": "Confirm primary identity and status before screening; no patient outcome verified.",
+      "funding_authorized": false
+    },
+    {
+      "id": "R23-W05",
+      "identity": "Provisional CGTPD Parkinson’s / NCT07533591",
+      "sources": [
+        "W06"
+      ],
+      "evidence": "Discovery label only; primary registry structured record not extractable.",
+      "disposition": "unresolved_registry_lead",
+      "next_question": "Confirm primary identity and status before screening; do not merge with STP001.",
+      "funding_authorized": false
+    }
+  ]
+}
