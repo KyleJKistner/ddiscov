@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "round": 25,
+  "as_of": "2026-11-08",
+  "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "purpose": "Independent exact-alias duplicate check of proposed Round 25 records against the accessible external screening corpus.",
+  "query": {
+    "pattern": "\\bA36\\b|CHIR[- ]?99021|calpastatin|\\bCAST\\b|calpain[- ]?2|aeb1174|dipyridamole|\\bDPM\\b|atorvastatin|SRD5A3|01791-4|phenylbutyrate|4[- ]?PBA|SLC25A1",
+    "regex": true,
+    "case_sensitive": false
+  },
+  "scope": {
+    "reports_inspected": 13,
+    "coverage": "Complete indexed text of the unlettered report and reports B–M; matched passages expanded and interpreted.",
+    "novelty_exhaustive": false,
+    "missing_reports": [
+      "N",
+      "O",
+      "P",
+      "Q"
+    ],
+    "limitations": [
+      "Selected aliases cannot exclude all semantic or unrecognized aliases.",
+      "Reports N–Q were not resolved in the current search. Their absence from search is not proof of nonexistence.",
+      "A new exact use is distinct from an untouched molecule or independent replication."
+    ]
+  },
+  "reports": [
+    {
+      "filename": "ddiscov_new_opportunity_screen.pdf",
+      "total_lines": 442,
+      "range": [
+        1,
+        442
+      ],
+      "has_more": false,
+      "total_matches": 1,
+      "returned_matches": 1,
+      "match_lines": [
+        [
+          268,
+          268
+        ]
+      ],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_B.pdf",
+      "total_lines": 467,
+      "range": [
+        1,
+        467
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_C.pdf",
+      "total_lines": 498,
+      "range": [
+        1,
+        498
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_D.pdf",
+      "total_lines": 614,
+      "range": [
+        1,
+        614
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_E.pdf",
+      "total_lines": 725,
+      "range": [
+        1,
+        725
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_F.pdf",
+      "total_lines": 795,
+      "range": [
+        1,
+        795
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_G.pdf",
+      "total_lines": 854,
+      "range": [
+        1,
+        854
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_H.pdf",
+      "total_lines": 852,
+      "range": [
+        1,
+        852
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_I.pdf",
+      "total_lines": 896,
+      "range": [
+        1,
+        896
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_J.pdf",
+      "total_lines": 861,
+      "range": [
+        1,
+        861
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_K.pdf",
+      "total_lines": 963,
+      "range": [
+        1,
+        963
+      ],
+      "has_more": false,
+      "total_matches": 1,
+      "returned_matches": 1,
+      "match_lines": [
+        [
+          626,
+          626
+        ]
+      ],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_L.pdf",
+      "total_lines": 1035,
+      "range": [
+        1,
+        1035
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    },
+    {
+      "filename": "ddiscov_fresh_opportunity_screen_M.pdf",
+      "total_lines": 1176,
+      "range": [
+        1,
+        1176
+      ],
+      "has_more": false,
+      "total_matches": 0,
+      "returned_matches": 0,
+      "match_lines": [],
+      "full_indexed_text_searched": true
+    }
+  ],
+  "adjudications": [
+    {
+      "report": "ddiscov_new_opportunity_screen.pdf",
+      "lines": [
+        266,
+        270
+      ],
+      "matched": "phenylbutyrate",
+      "interpretation": "Previously reviewed SLC6A1/STXBP1 uses. This is molecule-level prior coverage, not an exact SLC25A1 use match.",
+      "expanded_read_lines": [
+        250,
+        294
+      ]
+    },
+    {
+      "report": "ddiscov_fresh_opportunity_screen_K.pdf",
+      "lines": [
+        624,
+        628
+      ],
+      "matched": "atorvastatin",
+      "interpretation": "Prior clinical-context name; the report expressly says these names were not separate scientific screens. The SRD5A3-CDG use may be scoped new, but the molecule is not untouched.",
+      "expanded_read_lines": [
+        600,
+        644
+      ]
+    }
+  ],
+  "result": "No exact proposed use duplicate was identified in the inspected reports. This supports only scoped novelty, subject to the repository-wide audit and unresolved N–Q reports."
+}

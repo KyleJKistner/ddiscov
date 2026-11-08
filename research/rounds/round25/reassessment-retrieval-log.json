@@ -1,0 +1,132 @@
+{
+  "schema_version": "ddiscov.round25.reassessment_retrieval_log.v1",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "route": "Firecrawl was the primary public-web retrieval route. Local repository reads supply baseline context.",
+  "session_handling": "The Firecrawl conversation identifier was carried on subsequent calls but is intentionally omitted from committed artifacts, along with tool request identifiers and raw scraped source text.",
+  "time_precision": "2026-11-08 at date precision; exact request timestamps were not preserved.",
+  "operations": [
+    {
+      "operation": "Read Firecrawl and Firecrawl deep-research skills; discover callable tool schemas",
+      "outcome": "Applied the skill workflow, continuing conversation context and bounded search/source verification."
+    },
+    {
+      "operation": "Repository baseline inspection",
+      "targets": [
+        "README.md",
+        "decisions/current-shortlist.md",
+        "decisions/selection-policy.md",
+        "research/rounds/round24/existing-candidate-reassessment.md",
+        "research/rounds/round24/existing-candidate-matrix.json"
+      ],
+      "outcome": "Retained candidate identities, historical order, closed-pass scopes and no-current-priced-EV limitation."
+    },
+    {
+      "operation": "Firecrawl search",
+      "query": "\"NEJMc2606815\" \"GA002\"",
+      "outcome": "Located NEJM and investigator/funder institutional source routes; followed primary pages rather than crediting search summaries as full text.",
+      "feedback": "Positive relevance feedback was submitted successfully for the useful institutional results."
+    },
+    {
+      "operation": "Firecrawl direct URL scrape",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "http_status": 200,
+      "outcome": "Publisher abstract and metadata; subscriber gateway, no letter body.",
+      "source_ids": [
+        "R25-E01"
+      ]
+    },
+    {
+      "operation": "Firecrawl paper lookup by DOI",
+      "query": "10.1056/NEJMc2606815",
+      "outcome": "Did not recover a full clinical report."
+    },
+    {
+      "operation": "Firecrawl targeted paper read",
+      "query": "10.1056/NEJMc2606815; clinical outcomes, cohort denominator and safety details",
+      "outcome": "Returned no full-text passages; no efficacy or safety claim filled from inference."
+    },
+    {
+      "operation": "Firecrawl direct institutional page scrapes",
+      "urls": [
+        "https://cibr.ac.cn/detail/researchAchievementpaper/7e141d834d99406db7c00600ce933837",
+        "https://www.nsfc.gov.cn/p1/3381/2825/145361.html"
+      ],
+      "outcome": "Full CIBR and NSFC reports retrieved; institutional claims kept separate from inspected clinical letter or regulator records.",
+      "source_ids": [
+        "R25-E02",
+        "R25-E03"
+      ]
+    },
+    {
+      "operation": "Firecrawl PDF scrape",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMc2606815/suppl_file/nejmc2606815_data-sharing.pdf",
+      "http_status": 200,
+      "outcome": "Complete one-page data-sharing statement; no released individual dataset verified.",
+      "source_ids": [
+        "R25-E04"
+      ]
+    },
+    {
+      "operation": "Firecrawl search",
+      "query": "\"ChiCTR2500111157\"",
+      "outcome": "Located primary registry record and relevant institutional report.",
+      "feedback": "Positive feedback attempted after the provider's five-minute window; rejected with FEEDBACK_WINDOW_EXPIRED (HTTP409). No duplicate search was manufactured to resubmit."
+    },
+    {
+      "operation": "Firecrawl direct registry entry scrape",
+      "url": "https://www.chictr.org.cn/showprojEN.html?proj=280541",
+      "http_status": 200,
+      "outcome": "Full bilingual registry entry recovered: retrospective registration, planned six, single arm, stale 2025 refresh and explicit randomization/blinding fields. No results or actual-treated denominator.",
+      "source_ids": [
+        "R25-E05"
+      ]
+    },
+    {
+      "operation": "Firecrawl DOI scrape",
+      "url": "https://doi.org/10.1021/acssynbio.6c00512",
+      "resolved_url": "https://pubs.acs.org/asbcd6/article/15/10/3975/5254300/Encapsulation-of-AAVs-into-Protein-Vault",
+      "http_status": 200,
+      "outcome": "Full ACS vaultAAV article recovered; clarified mouse-serum/cultured-cell setting and future-only redosing claim.",
+      "source_ids": [
+        "R25-E06"
+      ]
+    },
+    {
+      "operation": "Coordinated workstream evidence read",
+      "repository_paths": [
+        "research/rounds/round25/apr246-advancement.md",
+        "research/rounds/round25/advancement-sources.json",
+        "research/rounds/round25/integration-sources.json"
+      ],
+      "outcome": "Parent/advancement model and official-rights findings integrated as coordinated evidence, not falsely labeled independently retrieved in this lane."
+    },
+    {
+      "operation": "Explicit Round 24 addition carry-forward review",
+      "repository_paths": [
+        "research/rounds/round24/candidate-ledger.json",
+        "research/rounds/round24/claudin5-dme-assessment.md",
+        "research/rounds/round24/new-candidate-screen.md"
+      ],
+      "outcome": "Added four existing records with inherited decision questions, limits and stop rules; no fresh primary retrieval or new candidate count. Retained within-screen information order only."
+    }
+  ],
+  "bounded_stop": "Stopped expanding access attempts once the NEJM gateway and empty paper passages established the remaining retrieval limit. No unsupported claim was used to force a promotion.",
+  "actions_not_taken": [
+    "outreach",
+    "purchase",
+    "login or subscription",
+    "recruitment",
+    "experiments",
+    "simulations",
+    "material receipt",
+    "new monitors",
+    "applications"
+  ],
+  "remaining_access_gaps": [
+    "NEJM clinical letter body, protocol and supplementary appendix.",
+    "Current individual GA002 dataset and all-treated safety denominator.",
+    "Current vaultAAV ownership and offered economic terms.",
+    "Other candidates' old gaps remain carried forward rather than repeatedly reopened."
+  ]
+}

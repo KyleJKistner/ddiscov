@@ -1,0 +1,284 @@
+{
+  "schema_version": "ddiscov.round25.candidate_ledger.v1",
+  "round": 25,
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "counting_rule": "Three retained exact therapeutic-use records; one new named molecule and two repurposed compounds. Adjacent AD/tauopathy findings are comparators, not extra candidates. Brief rejects are not counted as retained new candidates.",
+  "counts": {
+    "retained_new_candidate_records": 3,
+    "new_named_molecules": 1,
+    "repurposed_compound_exact_uses": 2,
+    "paid_development_promotions": 0
+  },
+  "additional_screen_information_order": [
+    "R25-NEW-01",
+    "R25-NEW-02",
+    "R25-NEW-03"
+  ],
+  "inherited_conditional_order": [
+    "APR/AEC",
+    "RM4404",
+    "BLU3797",
+    "NDC9009",
+    "mIGF Gel",
+    "exact 8015-P2",
+    "AAT"
+  ],
+  "clinical_information_benchmark": "GA002; a separate inherited clinical-information comparator, not a newly screened asset.",
+  "rank_meaning": "Qualitative ordering of bounded information opportunities only; cash remains default, no priced investable asset established.",
+  "records": [
+    {
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+      "id": "R25-NEW-01",
+      "record_type": "new_exact_use_new_named_compound",
+      "name": "A36 for Huntington disease",
+      "aliases": [
+        "A36",
+        "CHIR99021-derived A36",
+        "calpastatin stabilizer",
+        "CAST\u2013calpain-2 complex stabilizer",
+        "10.1126/sciadv.aeb1174"
+      ],
+      "exact_use": "A36-mediated stabilization of the CAST\u2013calpain-2 complex to preserve neuronal integrity and motor function in Huntington disease.",
+      "exact_asset_identified": true,
+      "asset_limit": "A36 is named and its synthetic/analytical supplement is linked by the primary paper. No authenticated lot, independent structure audit, commercial license, or exact claim mapping has been established.",
+      "information_priority_rank": 1,
+      "rank_meaning": "First bounded document-level clarification among this round's three retained new-use leads; not an investment rank or displacement of the inherited queue.",
+      "disposition": "Conditional reserve; exact-article and public-rights information gate only.",
+      "evidence_level": "One peer-reviewed preclinical investigator lineage: mutant mouse striatal cells, patient iPSC-derived medium spiny neurons, R6/2 mice; separate PS19 tauopathy comparator.",
+      "evidence_units": [
+        {
+          "unit": "Human iPSC-derived HD medium spiny neurons",
+          "interpretation": "Neurite and neuronal/synaptic marker rescue. Experimental replicates are not independently recruited patients. Donor counts and line provenance require supplement audit; no broad human denominator asserted."
+        },
+        {
+          "unit": "R6/2 mice",
+          "interpretation": "Paper reports 10-15 animals per behavioral group, motor outcomes and a survival separation through 12 weeks. Cage-based group assignment, male animals, rapid fragment model, and bounded follow-up limit generality."
+        },
+        {
+          "unit": "PS19 mice",
+          "interpretation": "Separate tauopathy model; supportive cross-disease biology, not a second HD replication."
+        }
+      ],
+      "positive_evidence": [
+        "CAST/calpain-2 dependence supports target attribution in the tested systems.",
+        "Patient-derived neuronal morphology and markers improve.",
+        "HD mouse locomotion, clasping, neuropathology and bounded survival improve; not a human efficacy claim."
+      ],
+      "negative_or_limiting_evidence": [
+        "PK requires further optimization; chronic consequences of reinforcing CAST are unknown.",
+        "No independent replication or human treatment outcome established.",
+        "Study began in young R6/2 animals; established adult clinical HD reversal is unproven.",
+        "Mouse survival reporting ends at 12 weeks; do not turn this into a median lifespan or survival magnitude in people.",
+        "Absence of detected GSK3 inhibition in reported assays does not establish universal selectivity."
+      ],
+      "rights_and_capture": {
+        "observed": "Authors disclose Case Western Reserve University provisional US63/662,559 filed 2024-06-21 and PCT patent pending. Analog supply is investigator-controlled and subject to scientific review.",
+        "unresolved": [
+          "Public application family and claim coverage for exact A36",
+          "Current ownership/license encumbrances",
+          "Transferable commercial right and economics"
+        ],
+        "capture_inference": "A differentiated molecule with an institutional filing is a plausible route to retained value, but its availability and terms are unknown; public synthesis is not FTO."
+      },
+      "financing_scope": "Would be a licensed or partnered preclinical exact-molecule validation/optimization program. Current authorized scope is only desk review of the public identity, model-lineage and rights packet; no project price or experimental tranche is asserted.",
+      "cheapest_next_information_gate": "Read the already-linked analytical/supplementary record and public patent family, align exact A36 identity to disclosed claims, and recover donor/animal-level denominators and timing. Build a priced scope only if a distinct, obtainable contribution survives.",
+      "stopping_rule": "Stop discretionary screen work if exact article/claim correspondence cannot be resolved from accessible records. If benefit is restricted to developmental prevention, re-scope to a feasible population and treatment window and recompare information, cost and value; prevention alone is not an automatic rejection. Hold if correlated observations cannot support useful function or if the required chemistry/rights package becomes a broad CNS discovery program without a superior marginal-dollar case. Do not presume an owner reply is required for scientific selection.",
+      "comparison_to_queue": "No evidence of a priced, obtainable next proof with better marginal information/capture than the inherited conditional APR/RM/BLU/NDC/mIGF/P2/AAT queue; cash remains default.",
+      "source_ids": [
+        "R25-N01",
+        "R25-N06",
+        "R25-N07"
+      ]
+    },
+    {
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+      "id": "R25-NEW-02",
+      "record_type": "new_exact_use_previously_known_compound",
+      "name": "Dipyridamole for ALS",
+      "aliases": [
+        "dipyridamole",
+        "DPM",
+        "C9orf72 ALS",
+        "TARDBP M337V",
+        "TDP43 M337V",
+        "10.64898/2026.04.30.722019"
+      ],
+      "exact_use": "Dipyridamole-mediated support of mitochondrial pyruvate uptake to preserve ALS motor-neuron integrity and survival; no selected clinical formulation or patient dosing proposal.",
+      "exact_asset_identified": true,
+      "asset_limit": "Known drug identity, but the paper's test article is not a verified CNS clinical product. A new analog would be a separate asset.",
+      "information_priority_rank": 2,
+      "rank_meaning": "Second bounded document-level clarification among three retained leads, not funded development.",
+      "disposition": "Conditional reserve; exposure and patent-lineage information gate.",
+      "evidence_level": "One bioRxiv preprint lineage; human cellular observations without established ALS animal function or patient outcomes.",
+      "evidence_units": [
+        {
+          "unit": "Principal C9orf72 patient-derived iPSC lineage with isogenic control, plus three additional C9 patient lines",
+          "interpretation": "Longitudinal survival and major bioenergetic analyses center on the principal pair. Main text reports mitochondrial and neurite response in three additional C9 patient lines (Fig S6); do not extend all endpoints to all four patients. Technical replicates are not donors; supplemental provenance not independently audited."
+        },
+        {
+          "unit": "Engineered TARDBP M337V iPSC model and reversion control",
+          "interpretation": "Independent genetic mechanism/background, not another ALS patient donor."
+        },
+        {
+          "unit": "PSEN1 A246E cortical-neuron lineage",
+          "interpretation": "Separate AD exact use; weaker effects and limited survival improvement, not pooled ALS replication."
+        }
+      ],
+      "positive_evidence": [
+        "ALS neuron mitochondrial metrics, bioenergetics, neurite integrity and viability improve.",
+        "Main text reports mitochondrial and neurite improvement in three additional C9 patient-derived lines beyond the principal C9/isogenic pair; this adds biological backgrounds without duplicating all endpoints.",
+        "The reported C9 culture survival extends beyond 100 days from approximately 18 days in controls; this is culture survival, not patient survival.",
+        "Some addition-after-emergent-pathology analyses support arresting cellular decline; this is not established reversal of adult ALS disability.",
+        "MPC-dependent functional data support mechanism, although direct molecular binding remains unresolved."
+      ],
+      "negative_or_limiting_evidence": [
+        "Preprint from one investigator study lineage. Four C9 patient lines are reported for mitochondrial/neurite response, but survival and bioenergetic endpoint breadth differs; no multicellular circuit or neuromuscular function qualification.",
+        "Control neurons also benefit; culture-specific metabolic support may explain some effect.",
+        "No in-vivo ALS functional result in this paper; authors describe such work as ongoing.",
+        "Unbound human CNS exposure relative to active cellular concentrations is unproven; BBB literature is conflicting.",
+        "Limited AD survival effect should prevent broad neurodegeneration extrapolation.",
+        "Riluzole/edaravone nonresponse in this culture assay does not show clinical superiority."
+      ],
+      "rights_and_capture": {
+        "observed": "Authors disclose US17/756,842 and PCT/US26/15790; Ronald Davis is founder/shareholder of Mitochondrial Medicines Corporation.",
+        "unresolved": [
+          "Exact claims, ownership and current licensing status",
+          "Whether existing formulations deliver relevant CNS exposure",
+          "Whether an independently obtainable differentiated contribution exists"
+        ],
+        "capture_inference": "Generic drug access does not establish ownable ALS economics. A CNS analog strategy would add a separate medicinal-chemistry and rights program."
+      },
+      "financing_scope": "Document-level exposure/rights reconciliation first. An improved-CNS analog or new formulation would be a materially larger development program, with efficacy nontransferable from parent dipyridamole; no budget or probability invented.",
+      "cheapest_next_information_gate": "Reconcile existing human PK/protein-binding/CNS data with cellular active exposure and inspect the disclosed patent families and sponsor scope; distinguish parent-drug repositioning from analog discovery.",
+      "stopping_rule": "Hold if clinically relevant CNS exposure cannot plausibly cover the cellular effect or if no differentiated obtainable product contribution can be specified. Do not finance an analog program merely to avoid a negative exposure finding.",
+      "comparison_to_queue": "Stronger human-cell survival readout than a metabolic-only screen, with additional C9 patient-line support for mitochondrial/neurite measures, but exposure, endpoint breadth and capture gaps block inherited-queue displacement; GA002 remains the separate clinical-information benchmark.",
+      "source_ids": [
+        "R25-N02",
+        "R25-N06",
+        "R25-N07"
+      ]
+    },
+    {
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+      "id": "R25-NEW-03",
+      "record_type": "new_exact_use_previously_screened_compound",
+      "name": "Atorvastatin for SRD5A3-CDG",
+      "aliases": [
+        "atorvastatin",
+        "SRD5A3-CDG",
+        "steroid 5 alpha-reductase 3 congenital disorder of glycosylation",
+        "10.1038/s43856-026-01791-4",
+        "PMC13642943",
+        "PMC12871848"
+      ],
+      "exact_use": "HMG-CoA reductase modulation with atorvastatin for SRD5A3-congenital disorder of glycosylation; a new disease-use pair, not a new compound.",
+      "exact_asset_identified": true,
+      "asset_limit": "Generic compound known; no indication-specific clinical product, achieved exposure, manufacturing package or proprietary implementation established.",
+      "information_priority_rank": 3,
+      "rank_meaning": "Third and lowest bounded information priority; negative-evidence reconciliation dominates.",
+      "disposition": "Hold; preclinical signal with unresolved glycosylation effect and weak capture.",
+      "evidence_level": "One worm-plus-four-patient-fibroblast study lineage. January 2026 preprint and July 2026 peer-reviewed paper are the same study.",
+      "evidence_units": [
+        {
+          "unit": "SRD5A3-equivalent loss-of-function worm model",
+          "interpretation": "Motility, progeny and neuronal phenotypes improve; worm function is not human neuronal function."
+        },
+        {
+          "unit": "Four patient fibroblast lines",
+          "interpretation": "Three of four had directional polyprenol/dolichol-ratio reduction; aggregate change was not statistically significant (p=0.08). No restoration of glycosylation was demonstrated."
+        },
+        {
+          "unit": "One DHDDS p.K42E patient in an adverse-evidence letter",
+          "interpretation": "Different gene and indication. Reversible systemic skin/edema symptoms with four statins; no retinal worsening; mechanism not proven. Not an SRD5A3 treatment trial."
+        }
+      ],
+      "positive_evidence": [
+        "Atorvastatin improves several disease-relevant worm phenotypes.",
+        "Directional lipid-ratio signal in patient fibroblasts motivates a narrowly defined mechanistic question."
+      ],
+      "negative_or_limiting_evidence": [
+        "Human fibroblast lipid-ratio result is a nonsignificant trend, not validated rescue.",
+        "Glycosylation correction remains an explicit untested question.",
+        "High exposures were toxic in worms; worm metabolite response did not match fibroblast lipid response.",
+        "Published statin caution reports one DHDDS patient's reversible systemic adverse symptoms and unpublished lovastatin sensitivity in SRD5A3/DHRSX-deficient cells; neither proves atorvastatin harm in SRD5A3 nor allows dismissal.",
+        "No established human neuronal, mammalian functional, or patient-treatment benefit."
+      ],
+      "rights_and_capture": {
+        "observed": "Atorvastatin was already screened in T102 for SPG5, and appears in recovered Screen K clinical context. SRD5A3 exact use not found in audited scope. Current paper includes Modelis and Perlara-affiliated authors but declares no competing interests.",
+        "unresolved": [
+          "Indication-specific rights or clinical sponsor status",
+          "Any practical formulation/process advantage with retained economics",
+          "Therapeutically useful and safe pathway-flux window"
+        ],
+        "capture_inference": "Known generic access reduces some manufacturing uncertainty but provides no private moat; an ordinary generic repurposing thesis has weak retained value without a distinct contribution."
+      },
+      "financing_scope": "A specialist evidence and product-scope review only. No cheap clinical pathway is assumed from existing atorvastatin use; CNS/pediatric function and gene-specific pathway risk could enlarge scope.",
+      "cheapest_next_information_gate": "Reconcile the final paper and statin caution at genotype, metabolite and glycosylation level using existing data; identify whether any actual functional glycosylation result and differentiated product route now exist.",
+      "stopping_rule": "Remain on hold if the thesis continues to rest on worm rescue plus a nonsignificant fibroblast ratio without useful human-cell function, or if generics leave no defensible retained economics. Do not generalize to other dolichol disorders.",
+      "comparison_to_queue": "Does not displace the conditional queue or GA002 information benchmark. No priced, obtainable commitment has demonstrated superiority to cash; relative EV remains unresolved.",
+      "source_ids": [
+        "R25-N03",
+        "R25-N04",
+        "R25-N06",
+        "R25-N07"
+      ]
+    }
+  ],
+  "rejection_log": [
+    {
+      "id": "R25-REJECT-01",
+      "candidate": "Phenylbutyrate for SLC25A1 combined D,L-2-hydroxyglutaric aciduria",
+      "reason": "Published abstract supports fibroblast metabolomic/bioenergetic changes, without recovered useful neuronal, organ or patient function; generic capture not established. Do not count related 2023 preprint and 2024 paper twice. Citrate worsening in one patient's fibroblasts is adverse comparator evidence, not proof of clinical phenylbutyrate benefit.",
+      "source_ids": [
+        "R25-N05",
+        "R25-N06",
+        "R25-N07"
+      ],
+      "counted_as_new_retained_candidate": false
+    },
+    {
+      "id": "R25-REJECT-02",
+      "candidate": "BCH-HSP-C01 for AP4 deficiency",
+      "reason": "Confirmed duplicate Round 4 R4-NM-04; exact-use rediscovery excluded.",
+      "source_ids": [
+        "R25-N06"
+      ],
+      "counted_as_new_retained_candidate": false
+    },
+    {
+      "id": "R25-REJECT-03",
+      "candidate": "A36 for tauopathy and dipyridamole for AD",
+      "reason": "Keep as separate within-paper comparator observations; no additional dossier or new-use inflation. A36 PS19 is not independent HD replication; dipyridamole AD survival improvement is limited.",
+      "source_ids": [
+        "R25-N01",
+        "R25-N02"
+      ],
+      "counted_as_new_retained_candidate": false
+    },
+    {
+      "id": "R25-REJECT-04",
+      "candidate": "Generic broad discovery hits from initial sweep",
+      "reason": "Sildenafil/Leigh, AVPR2 chaperones and ambroxol/Gaucher were pre-existing exclusions; sponsor-controlled GT-02287, arimoclomol and migalastat did not identify an independent obtainable contribution. Transcriptomic-only entrectinib and metabolic-only AMPK/nucleoside leads did not warrant expanding the bounded screen.",
+      "source_ids": [
+        "R25-N06",
+        "R25-N07"
+      ],
+      "counted_as_new_retained_candidate": false
+    }
+  ],
+  "stop_condition": "Stop the screen after primary evidence and negative/rights checks support hold/reserve dispositions; no arbitrary quota, automatic monitoring or biological action."
+}

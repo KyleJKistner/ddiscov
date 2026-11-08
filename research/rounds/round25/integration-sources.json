@@ -1,0 +1,252 @@
+{
+  "schema_version": "ddiscov.round25.integration_sources.v1",
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "sources": [
+    {
+      "id": "R25-I01",
+      "title": "Aprea Therapeutics Form 10-Q for the quarter ended 30 September 2026",
+      "url": "https://ir.aprea.com/node/10221/html",
+      "source_type": "primary_company_hosted_SEC_filing",
+      "document_signed_date": "2026-11-04",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape, fresh request",
+      "access_scope": "Full company-hosted HTML text retrieved; review focused on reporting period, signatures, APR-246 status, and research-and-development expense disclosure.",
+      "observations": [
+        "The report covers the quarter ended 30 September 2026 and is signed 4 November 2026.",
+        "The company reports no ongoing clinical trials involving APR-246.",
+        "Its nine-month expense comparison reports an increase of approximately US$0.1 million in APR-246 costs related to patent maintenance, regulatory and program closeout activities."
+      ],
+      "inference": "Company clinical inactivity does not establish abandoned intellectual property or an available license. The source supplies no ddiscov transaction price or available economic interest.",
+      "changed_since_round24": false,
+      "limitations": [
+        "Company-reported statements, not an independent patent-title or freedom-to-operate audit.",
+        "Does not establish absence of all investigator-initiated activity globally.",
+        "The expense increase is not the total program cost or a licensing quote."
+      ]
+    },
+    {
+      "id": "R25-I02",
+      "title": "Salois et al., A Novel Model System to Identify Cellular and Molecular Defects Underlying Rare Genetic Disorders",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/exd.70238",
+      "doi": "10.1111/exd.70238",
+      "source_type": "primary_peer_reviewed_model_study",
+      "publication_date": "2026-03-07",
+      "publication_date_scope": "Publisher online date; volume/issue March 2026.",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl full-text scrape",
+      "access_scope": "Full HTML main text and figure legends; parent review focused on expression controls, disease phenotype, treatment scope and data availability. Linked supplement separately recovered by advancement agent.",
+      "observations": [
+        "The engineered AEC model includes an ectopic wild-type TP63 control at similar total-expression levels. Authors report no observed differences between this control and untransduced cells in the examined adhesion, migration and tissue-architecture comparisons.",
+        "Total TP63 remains approximately twice the untransduced-cell level. A matched control addresses one concern but does not prove native physiology or exclude all artifacts.",
+        "The paper establishes disease-relevant cellular and tissue phenotypes, not APR-246 rescue of an established barrier defect.",
+        "The data-availability statement offers supporting data on reasonable request; no access or transfer was obtained."
+      ],
+      "inference": "Full-text recovery improves the documentary basis for considering an existing model while leaving treatment response, clinical product fit and executable access unresolved.",
+      "changed_since_round24": true,
+      "limitations": [
+        "No treatment efficacy or model-transfer validation was generated.",
+        "No observed difference is not formal equivalence.",
+        "Cell-matrix adhesion and tissue architecture are not complete mature-barrier function."
+      ]
+    },
+    {
+      "id": "R25-I03",
+      "title": "US12521392B2 official patent-publication record",
+      "url": "https://ppubs.uspto.gov/pubwebapp/external.html?q=12521392.pn.&db=USPAT",
+      "source_type": "official_patent_publication_via_Firecrawl_provider",
+      "publication_date": "2026-01-13",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl Alexandria uspto-gov intellectual-property/patent_document",
+      "access_scope": "Returned official-publication bibliographic record and all eight claims. No current assignment-chain or legal-status audit, and no facsimile inspection.",
+      "observations": [
+        "The record identifies US12521392B2, application 17/258894, eight claims, and publication on 13 January 2026.",
+        "Claim 1 combines AEC, PRIMA-1MET and an ectodermal-dysplasia condition affecting at least one cornea.",
+        "Dependent cream and skin-erosion claims refer to claim 1 and retain its limitations.",
+        "The publication lists INSERM, Universite de Paris and AP-HP as assignees. These bibliographic names are not a current-title opinion."
+      ],
+      "inference": "Official-source recovery strengthens provenance for the existing claim-scope caution. Topical skin administration alone does not resolve the patient-predicate question or establish commercial clearance.",
+      "changed_since_round24": true,
+      "limitations": [
+        "No freedom-to-operate, infringement, enforceability or licensing conclusion.",
+        "No ownership chain or current European status established.",
+        "Patent examples do not add independent treated people to the underlying clinical evidence."
+      ]
+    },
+    {
+      "id": "R25-I04",
+      "title": "European Patent Register, EP19740548.3 / EP3823622, About this file",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=main",
+      "source_type": "official_procedural_register",
+      "retrieved_date": "2026-11-08",
+      "database_updated_date": "2026-11-06",
+      "retrieval_method": "Firecrawl fresh URL scrape through the official /espacenet/application route",
+      "access_scope": "Substantive current register page, including procedural status, applicants, publication history, examination events and renewal fees.",
+      "observations": [
+        "The recorded procedural status is examination in progress; the status-change date is 3 February 2023 and database freshness date is 6 November 2026.",
+        "The fee table records an eighth-year renewal payment on 17 June 2026; the latest event entry is dated 18 June 2026.",
+        "Current register applicants are INSERM, Universite Paris Cite and AP-HP.",
+        "The observed record lists the A1 application publication and an October 2025 examination reply; it does not show a granted European patent."
+      ],
+      "inference": "The European application is a maintained pending application in the inspected official record, rather than an assumed grant or an abandoned interest. This closes the prior procedural-status retrieval gap.",
+      "changed_since_round24": true,
+      "limitations": [
+        "Pending claims can change during examination.",
+        "This is not a legal opinion on provisional rights, eventual grant, ownership chain, licensing, national rights or freedom to operate.",
+        "The old A1 wording is not treated as the current amended claim set."
+      ]
+    },
+    {
+      "id": "R25-I05",
+      "title": "European Patent Register, EP3823622 document list",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=doclist",
+      "source_type": "official_prosecution_document_index",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl markdown and HTML inspection",
+      "access_scope": "Document list and public document identifiers. The listed amended-claim body was not successfully retrieved.",
+      "observations": [
+        "The latest listed claims and annotated claims are dated 22 October 2025, two pages each; an examination reply of the same date is three pages.",
+        "The public identifier for the unannotated claims is MH1ZAPA7NESUUA2; the annotated claims identifier is MH1ZAQQK1WN2PJM.",
+        "Later June 2026 documents in the inspected list concern representation, not a newer claim set."
+      ],
+      "inference": "The next exact documentary rights question is the listed October 2025 amended claim text and its examination context. Re-reading the original A1 alone would not answer it.",
+      "changed_since_round24": true,
+      "limitations": [
+        "A two-page document listing is not inspection of its content.",
+        "A direct document GET returned an unsupported-method error; no claim wording was inferred from that response."
+      ]
+    },
+    {
+      "id": "R25-I06",
+      "title": "Dai et al., Chemogenetic Neuromodulation for Refractory Epilepsy",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "doi": "10.1056/NEJMc2606815",
+      "source_type": "primary_publisher_abstract_and_metadata",
+      "publication_date": "2026-11-04",
+      "issue_date": "2026-11-05",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl URL scrape",
+      "access_scope": "Direct publisher abstract, publication history, author affiliations and supplementary-material names. Subscriber gateway excludes the clinical letter body; no full-text audit is claimed.",
+      "observations": [
+        "The publisher abstract describes three patients and a mean seizure-frequency reduction of 92.6% during treatment with hippocampal chemogenetic therapy and clozapine.",
+        "Abstract adverse events are described as grade 1 or 2.",
+        "The page identifies a protocol and supplementary appendix but this read does not recover their bodies."
+      ],
+      "inference": "The clinical signal remains a consequential information priority. This abstract does not provide a controlled effect, uncommon-safety estimate, expanded cohort or investable economic interest.",
+      "changed_since_round24": false,
+      "access_change": "Direct abstract retrieved rather than relying only on search-indexed text; clinical full-text limitation remains.",
+      "limitations": [
+        "No expanded patient count inferred from institutional program totals.",
+        "No detailed adverse-event table, protocol or supplementary outcome analysis read in this parent check.",
+        "No login, subscription, purchase or access-control circumvention occurred."
+      ]
+    },
+    {
+      "id": "R25-I07",
+      "title": "A small-molecule stabilizer of the calpastatin–calpain-2 complex restores mitochondrial function and mitigates neurodegeneration",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+      "doi": "10.1126/sciadv.aeb1174",
+      "source_type": "primary_peer_reviewed_preclinical_study",
+      "publication_date": "2026-03-27",
+      "access_scope": "Full primary main text, figure legends, discussion, conflict disclosure and data/material availability; linked supporting files not independently audited by root.",
+      "observations": [
+        "A36 is a CHIR99021-derived CAST–calpain-2 interaction stabilizer; the paper reports rescue in HD patient-derived neurons and motor/striatal outcomes in R6/2 mice.",
+        "PS19 tauopathy results are a separate model context, not an HD replication or treated-human cohort.",
+        "The paper identifies remaining pharmacokinetic optimization and chronic safety questions, and discloses a CWRU provisional filing, US63/662,559, with PCT pending."
+      ],
+      "inference": "The combination of functional animal evidence and patient-derived neuronal evidence supports bounded information priority within this new screen; it does not establish a clinically ready or obtainable asset.",
+      "limitations": [
+        "No human therapeutic efficacy or all-in development quote.",
+        "Patent disclosure is not verification of current title, claim status, freedom to operate or license availability.",
+        "Root repeat inspection is the same evidence family as the screening agent's primary paper."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape; independent root source check"
+    },
+    {
+      "id": "R25-I08",
+      "title": "Repurposing the HMG-CoA reductase inhibitor atorvastatin for SRD5A3-congenital disorder of glycosylation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13642943/",
+      "doi": "10.1038/s43856-026-01791-4",
+      "source_type": "primary_peer_reviewed_preclinical_study",
+      "publication_date": "2026-07-29",
+      "access_scope": "Full primary main text, figure legends and discussion; parent review focused on functional versus biochemical endpoints and inference limits.",
+      "observations": [
+        "The study reports improved disease-related worm phenotypes and analyzes fibroblasts from four affected individuals.",
+        "The patient-fibroblast polyprenol/dolichol ratio moved toward rescue in three of four lines, with a nonsignificant group comparison, p=0.08.",
+        "Worm functional changes did not establish normalization of the measured polyprenol/dolichol metabolites; biochemical, glycosylation and clinical benefit claims must remain distinct."
+      ],
+      "inference": "A narrower evidence claim is warranted than the abstract's broad rescue language. The exact SRD5A3 use can be screened while the molecule remains previously encountered.",
+      "limitations": [
+        "Four patient-derived cell lines are not four treated patients.",
+        "No established correction of glycosylation or human disease benefit.",
+        "Final paper and earlier preprint belong to one study lineage; duplicate retrieval is not replication."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape; independent root source check"
+    },
+    {
+      "id": "R25-I09",
+      "title": "Pharmacological rescue of mitochondrial dysfunction, neurite degeneration, and premature death of ALS and AD iPSC-derived neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174590/",
+      "doi": "10.64898/2026.04.30.722019",
+      "source_type": "primary_preprint_preclinical_study",
+      "publication_date": "2026-05-05",
+      "access_scope": "Full preprint main text and figure legends, discussion and disclosures. Supplementary evidence described in main text is distinguished from direct supplementary-file inspection.",
+      "observations": [
+        "The principal C9/ISO iPSC pair supports several neuronal endpoints; the main text also reports mitochondrial and neurite parameter findings in three additional C9 lines from different ALS patients, citing figure S6.",
+        "The study includes an engineered TARDBP M337V context. Additional cell contexts do not establish that every endpoint replicated across all backgrounds.",
+        "The authors describe conflicting CNS-penetration evidence and ongoing in-vivo ALS work; they disclose related US17/756,842 and PCT/US26/15790 applications and a Mitochondrial Medicines interest."
+      ],
+      "inference": "The screen should not describe the entire paper as confined to one patient lineage, but it must keep endpoint-specific replication and the preprint/in-vitro boundary explicit.",
+      "limitations": [
+        "No treated-human ALS benefit or completed in-vivo ALS efficacy established by this paper.",
+        "A known approved drug does not establish sufficient exposure for this intended CNS use.",
+        "Disclosed patent applications are not available licenses or current legal opinions."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape; independent root source check"
+    },
+    {
+      "id": "R25-I10",
+      "title": "ChiCTR2500111157: chemogenetic therapy for temporal-lobe epilepsy with unilateral hippocampal sclerosis",
+      "url": "https://www.chictr.org.cn/showprojEN.html?proj=280541",
+      "source_type": "primary_trial_registry_record",
+      "access_scope": "Full bilingual primary registry record, independently read for planned enrollment, dates, design and blinding. This is a design record, not trial results.",
+      "observations": [
+        "The record was registered and last refreshed on 27 October 2025 and labels its registration retrospective.",
+        "It describes a single arm, a planned sample size of six, no randomization and a blinding field of None.",
+        "The recorded execution period is 8 January 2025 to 7 January 2030 and recruitment period 9 January to 31 December 2025; these planned dates do not establish actual completion or current status."
+      ],
+      "inference": "The registry supports a planned-six interpretation, not six verified treated participants or a nine-person pooled cohort. Blinded-assessor institutional wording requires protocol-level clarification and is not necessarily inconsistent with an open-label intervention.",
+      "limitations": [
+        "No verified all-treated safety denominator.",
+        "No current recruitment or completion claim from stale fields.",
+        "Same record independently read by reassessment agent; not independent clinical evidence."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape; independent root source check"
+    },
+    {
+      "id": "R25-I11",
+      "title": "Encapsulation of AAVs into Protein Vault Nanoparticles as a Novel Solution to Gene Therapy's Neutralizing Antibody Problem",
+      "url": "https://pubs.acs.org/asbcd6/article/15/10/3975/5254300/Encapsulation-of-AAVs-into-Protein-Vault",
+      "doi": "10.1021/acssynbio.6c00512",
+      "source_type": "primary_peer_reviewed_preclinical_study",
+      "access_scope": "Full main text and figure legends; independent root check of serum origin, cultured-cell setting and comparator interpretation.",
+      "observations": [
+        "Neutralizing serum came from immunized mice and the principal transduction comparison used cultured CHO-Lec2 cells.",
+        "Vault-packaged AAV retained transduction in the neutralizing-serum comparison, whereas the unpackaged mixture showed low transduction.",
+        "Without neutralizing serum, both packaged and unpackaged mixtures enhanced transduction; baseline uptake therefore does not uniquely establish packaging-mediated shielding."
+      ],
+      "inference": "The known paper supports a platform reserve while leaving human immune escape, clinical benefit and in-vivo repeat dosing unestablished.",
+      "limitations": [
+        "No new efficacy study or clinical result added by this repeated read.",
+        "Universal immune invisibility is not established.",
+        "Current ownership and attainable rights were not verified in this source check."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape; independent root source check"
+    }
+  ]
+}

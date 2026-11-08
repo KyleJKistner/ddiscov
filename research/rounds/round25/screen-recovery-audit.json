@@ -1,0 +1,45 @@
+{
+  "schema_version": "ddiscov.round25.screen_recovery.v1",
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "task": "Attempt to resolve the prior-screen N-Q exclusion gap before new candidate screening.",
+  "searches": [
+    {
+      "scope": "Saved-file titles and content",
+      "query": "ddiscov screen N O P Q; Screen Q; Screen N; fresh_opportunity_screen",
+      "result": "Retrieved earlier reports; none identified as Screens N-Q."
+    },
+    {
+      "scope": "Exact file titles",
+      "query": "ddiscov_fresh_opportunity_screen_N.pdf; ddiscov_fresh_opportunity_screen_O.pdf; ddiscov_fresh_opportunity_screen_P.pdf; ddiscov_fresh_opportunity_screen_Q.pdf",
+      "result_count": 0
+    },
+    {
+      "scope": "Simpler title search",
+      "query": "ddiscov",
+      "result_count": 22,
+      "result": "Resolved the unlettered report and Screens B-M, plus other project reports/registers. No N-Q title resolved."
+    }
+  ],
+  "resolved_exclusion_reports": [
+    "ddiscov_new_opportunity_screen.pdf",
+    "ddiscov_fresh_opportunity_screen_B.pdf",
+    "ddiscov_fresh_opportunity_screen_C.pdf",
+    "ddiscov_fresh_opportunity_screen_D.pdf",
+    "ddiscov_fresh_opportunity_screen_E.pdf",
+    "ddiscov_fresh_opportunity_screen_F.pdf",
+    "ddiscov_fresh_opportunity_screen_G.pdf",
+    "ddiscov_fresh_opportunity_screen_H.pdf",
+    "ddiscov_fresh_opportunity_screen_I.pdf",
+    "ddiscov_fresh_opportunity_screen_J.pdf",
+    "ddiscov_fresh_opportunity_screen_K.pdf",
+    "ddiscov_fresh_opportunity_screen_L.pdf",
+    "ddiscov_fresh_opportunity_screen_M.pdf"
+  ],
+  "unresolved": [
+    "Screens N-Q",
+    "Other unprovided or unrecovered prior work"
+  ],
+  "exhaustive": false,
+  "inference_limit": "Search failure is not proof that the missing work never existed. Newness must remain limited to inspected repository text and the specifically checked historical reports."
+}

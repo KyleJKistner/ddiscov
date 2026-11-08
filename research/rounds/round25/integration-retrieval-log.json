@@ -1,0 +1,96 @@
+{
+  "schema_version": "ddiscov.round25.integration_retrieval.v1",
+  "as_of": "2026-11-08",
+  "provider": "Firecrawl",
+  "scope": "Independent integration checks of decisive APR, GA002, vaultAAV and new-screen sources; failed collection is not negative scientific or legal evidence.",
+  "operations": [
+    {
+      "operation": "search",
+      "query": "Aprea eprenetapopt APR-246 2026 no ongoing clinical trials patents",
+      "outcome": "Search returned older releases and excerpts; current filing verified directly instead.",
+      "feedback": "partial"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://ir.aprea.com/node/10221/html",
+      "outcome": "Full primary company-hosted filing retrieved; reporting period, signatures and program-status/cost disclosures checked.",
+      "feedback": "good"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/exd.70238",
+      "outcome": "Full primary main text recovered and independently read for controls and phenotype boundaries.",
+      "feedback": "good"
+    },
+    {
+      "operation": "provider_record",
+      "provider": "uspto-gov",
+      "capability": "intellectual-property/patent_document",
+      "public_record_number": "12521392",
+      "outcome": "Official bibliographic and claim text returned; all eight claims inspected.",
+      "feedback": "good"
+    },
+    {
+      "operation": "search",
+      "query": "\"EP3823622\" patent register status",
+      "outcome": "No relevant exact-status web result; no absence inference.",
+      "feedback": "bad"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://register.epo.org/espacenet/application?number=EP19740548&lng=en&tab=main",
+      "outcome": "Substantive official status page recovered, resolving earlier attempts that failed.",
+      "feedback": "good"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=doclist",
+      "outcome": "Document index and public document identifiers read in markdown/HTML; latest listed claims identified.",
+      "feedback": "good"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://register.epo.org/application?documentId=MH1ZAPA7NESUUA2&lng=en",
+      "outcome": "HTML error: GET not supported. Current amended claims remain unread; no grant or scope inference.",
+      "feedback": "partial"
+    },
+    {
+      "operation": "scrape",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "source_id": "R25-I06",
+      "outcome": "Direct publisher abstract, publication history, author affiliations and supplementary-material names. Subscriber gateway excludes the clinical letter body; no full-text audit is claimed."
+    },
+    {
+      "operation": "scrape",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+      "source_id": "R25-I07",
+      "outcome": "Full primary main text, figure legends, discussion, conflict disclosure and data/material availability; linked supporting files not independently audited by root."
+    },
+    {
+      "operation": "scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13642943/",
+      "source_id": "R25-I08",
+      "outcome": "Full primary main text, figure legends and discussion; parent review focused on functional versus biochemical endpoints and inference limits."
+    },
+    {
+      "operation": "scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174590/",
+      "source_id": "R25-I09",
+      "outcome": "Full preprint main text and figure legends, discussion and disclosures. Supplementary evidence described in main text is distinguished from direct supplementary-file inspection."
+    },
+    {
+      "operation": "scrape",
+      "url": "https://www.chictr.org.cn/showprojEN.html?proj=280541",
+      "source_id": "R25-I10",
+      "outcome": "Full bilingual primary registry record, independently read for planned enrollment, dates, design and blinding. This is a design record, not trial results."
+    },
+    {
+      "operation": "scrape",
+      "url": "https://pubs.acs.org/asbcd6/article/15/10/3975/5254300/Encapsulation-of-AAVs-into-Protein-Vault",
+      "source_id": "R25-I11",
+      "outcome": "Full main text and figure legends; independent root check of serum origin, cultured-cell setting and comparator interpretation."
+    }
+  ],
+  "raw_source_text_republished": false,
+  "no_external_messages_sent": true
+}

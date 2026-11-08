@@ -1,0 +1,282 @@
+{
+  "schema_version": "ddiscov.round25.new_screen_retrieval_log.v1",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "objective": "[deep-research] Find previously overlooked function-restoring therapeutic assets suitable for narrowly scoped commercial diligence, with primary efficacy and competing-program evidence.",
+  "conversation_context_carried": true,
+  "private_conversation_or_session_ids_persisted": false,
+  "raw_scraped_content_persisted": false,
+  "operation_count": 20,
+  "operations": [
+    {
+      "operation_id": "NS-OP-01",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"2025\" \"rescue\" \"patient-derived\" \"rare disease\" drug repurposing",
+      "access_scope": "Search result snippets and URLs",
+      "outcome": "Broad first pass returned reviews and project pages; no retained lead from this query alone.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://drugrepocentral.scienceopen.com/hosted-document?doi=10.58647/DRUGREPO.25.1.0006",
+        "https://www.researchgate.net/publication/397239369_DREAMS_Drug_REpurposing_with_Artificial_Intelligence_for_Muscular_Disorders",
+        "https://www.ovid.com/journals/janop/pdf/10.1001/jamanetworkopen.2025.8330~rare-disease-drug-repurposing",
+        "https://www.drugpatentwatch.com/blog/drug-repurposing-an-overview/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11807990/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1471489222000285",
+        "https://gtr.ukri.org/projects?ref=MR%2FZ504488%2F1"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-02",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"2026\" \"restores\" \"function\" \"mutation\" therapeutic small molecule",
+      "access_scope": "Search result snippets and URLs",
+      "outcome": "Identified the primary A36 calpastatin–calpain-2 paper; sponsor press-release duplicates and unrelated targets did not justify separate dossiers.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.nature.com/articles/ncomms5681",
+        "https://gaintherapeutics.com/newsroom/press-releases/press-releases-2026/gain-therapeutics-reports-financial-results-for-first-quarter-2026-and-provides-corporate-update/",
+        "https://pubmed.ncbi.nlm.nih.gov/42668477/",
+        "https://firstwordpharma.com/story/8143432",
+        "https://hdsa.org/hd-research/therapies-in-pipeline/",
+        "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+        "https://www.biospace.com/press-releases/gain-therapeutics-announces-oral-presentation-at-3rd-international-gba1-meeting-2026"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-03",
+      "date": "2026-11-08",
+      "tool": "Firecrawl research_search_papers",
+      "query": "small molecule restores function rare genetic disease patient derived cells approved drug rescue 2025 2026",
+      "access_scope": "Indexed metadata/abstracts, not full-text review",
+      "outcome": "Indexed paper search returned 12 hits; atorvastatin/SRD5A3, dipyridamole/ALS and PB/SLC25A1 led to targeted review. BCH-HSP-C01 was subsequently confirmed duplicate; prior/sponsor-controlled or surrogate-only hits not expanded.",
+      "successful": true
+    },
+    {
+      "operation_id": "NS-OP-04",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"A36\" \"calpastatin\" patent Case Western",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Primary A36 paper returned; unrelated short-name collisions excluded. No exact public licensing terms established.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+        "https://www.researchgate.net/publication/50849309_Calpain_inhibitors_A_survey_of_compounds_reported_in_the_patent_and_scientific_literature",
+        "https://patents.google.com/patent/CA3076261A1/en",
+        "https://www.ans.iastate.edu/people/max-rothschild/cv.pdf",
+        "https://www.linkedin.com/posts/dr-seema-sharma-981430112_berberine-naturalproducts-pharmacology-activity-7436667143124922368-TDhA"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-05",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"dipyridamole\" \"ALS\" patent trial mitochondrial medicines",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Preprint and unrelated patent/review/catalog results; no available independent ALS product right established.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.30.722019v1",
+        "https://www.biorxiv.org/content/10.64898/2026.04.30.722019v1.full-text",
+        "https://patents.google.com/patent/WO2008034202A2/en",
+        "https://journals.sagepub.com/doi/10.1089/adt.2024.126",
+        "https://www.medchemexpress.com/Dipyridamole.html?srsltid=AYCX9vIfhfZ_FXo_FZIhJyrOyI5QcAfEzT-RdkY9CKMp_yz6yDFOFchf"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-06",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"atorvastatin\" \"SRD5A3\" trial patent Modelis",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "No web results for this narrow conjunction; does not establish absence of a clinical program or patent.",
+      "successful": true,
+      "returned_web_urls": []
+    },
+    {
+      "operation_id": "NS-OP-07",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"phenylbutyrate\" \"SLC25A1\" trial treatment",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Returned earlier PB/SLC25A1 preprint identity and related literature; no added clinical proof.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36778323/",
+        "https://www.researchgate.net/publication/261256815_Combined_D2-L2-hydroxyglutaric_aciduria_SLC25A1_deficiency_clinical_course_and_effects_of_citrate_treatment",
+        "https://www.genecards.org/card/SLC25A1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S2530016421001518",
+        "https://www.nature.com/articles/6601161"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-08",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"63/662,559\" OR \"A36\" \"calpastatin\" license",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Primary A36 paper returned; current patent-family/claim/legal status and license availability remain unresolved.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+        "https://www.researchgate.net/figure/Calpastatin-overexpression-enhances-autophagy-in-mice-and-reduces-Htt-levels-a-LC3-II_fig4_266264021",
+        "https://www.sigmaaldrich.com/ID/en/product/mm/05412?srsltid=AYCX9vICArP3LEPGTw9zB4ViOv6KgaJKuDt-e47pBY3zaW_8VeDJ8JbC",
+        "https://www.researchgate.net/publication/13393739_Cleavage_of_the_calpain_inhibitor_calpastatin_during_apoptosis",
+        "https://d-nb.info/1241536643/34"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-09",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"17/756,842\" mitochondrial dipyridamole",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Returned the same DPM preprint disclosure in multiple views, not additional independent patent verification.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.30.722019v1",
+        "https://www.biorxiv.org/content/10.64898/2026.04.30.722019",
+        "https://www.biorxiv.org/content/10.64898/2026.04.30.722019.full.pdf"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-10",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"dipyridamole\" \"amyotrophic lateral sclerosis\" trial negative",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Returned unrelated trial protocols/registry results mentioning dipyridamole; not evidence of a dipyridamole ALS trial or negative clinical outcome.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://link.springer.com/article/10.1007/s11302-018-9633-4",
+        "https://www.researchgate.net/publication/339007444_Disease-Modifying_Therapies_in_Amyotrophic_Lateral_Sclerosis",
+        "https://cdn.clinicaltrials.gov/large-docs/01/NCT02039401/Prot_SAP_000.pdf",
+        "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-005522-28/NL",
+        "https://www.mayo.edu/research/clinical-trials/cls-20445429"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-11",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search",
+      "query": "\"DHDDS\" \"statin\" worsened",
+      "access_scope": "Search result snippets and URLs only; selected full text separately recorded",
+      "outcome": "Found institutional author manuscript with gene-specific statin caution; targeted full-text follow-up narrowed adverse evidence.",
+      "successful": true,
+      "returned_web_urls": [
+        "https://www.researchgate.net/publication/393397356_Dolichol_synthesis_defects_a_cautionary_note_on_the_use_of_statins",
+        "https://lirias.kuleuven.be/retrieve/4e176f3f-cb90-475d-83bd-cd77a125541f",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12871848/",
+        "https://www.jlr.org/article/S0022-2275(20)60027-X/pdf",
+        "https://www.sciencedirect.com/science/article/pii/S002222752060027X"
+      ]
+    },
+    {
+      "operation_id": "NS-OP-12",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13642943/",
+      "max_age": 0,
+      "source_id": "R25-N03",
+      "access_scope": "Primary full article",
+      "http_status": 200,
+      "successful": true,
+      "outcome": "Verified final-publication date and preprint lineage; recovered p=0.08 fibroblast ratio, untested glycosylation correction and high-exposure worm toxicity."
+    },
+    {
+      "operation_id": "NS-OP-13",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174590/",
+      "max_age": 0,
+      "source_id": "R25-N02",
+      "access_scope": "Primary preprint full text",
+      "http_status": 200,
+      "successful": true,
+      "outcome": "Recovered survival/neurite/metabolic evidence, disputed CNS exposure and patents. Independent challenge prompted reread and correction:3 additional C9 patient lines support mitochondrial/neurite findings beyond principal pair; endpoint coverage not pooled."
+    },
+    {
+      "operation_id": "NS-OP-14",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+      "max_age": 0,
+      "source_id": "R25-N01",
+      "access_scope": "Primary full article; linked supplements not separately audited",
+      "http_status": 200,
+      "successful": true,
+      "outcome": "Resolved exact molecule A36, R6/2 function and bounded survival, separate PS19 data, PK/chronic-safety limits, CWRU filing and request-controlled supply."
+    },
+    {
+      "operation_id": "NS-OP-15",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38772223/",
+      "max_age": 0,
+      "source_id": "R25-N05",
+      "access_scope": "Indexed abstract and publication-version links",
+      "http_status": 200,
+      "successful": true,
+      "outcome": "Fibroblast-only evidence and 2023 preprint/2024 paper lineage sufficient for bounded rejection; publisher full text not retrieved."
+    },
+    {
+      "operation_id": "NS-OP-16",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://lirias.kuleuven.be/retrieve/4e176f3f-cb90-475d-83bd-cd77a125541f",
+      "max_age": 0,
+      "source_id": "R25-N04",
+      "access_scope": "Three-page institutional author-manuscript PDF extraction",
+      "http_status": 200,
+      "successful": true,
+      "outcome": "One DHDDS patient with reversible systemic adverse symptoms, no retinal worsening, uncertain causality; unpublished SRD5A3/DHRSX lovastatin observations distinguished."
+    },
+    {
+      "operation_id": "NS-OP-17",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search_feedback",
+      "access_scope": "Feedback submission only",
+      "successful": false,
+      "outcome": "Initial discovery feedback rejected with FEEDBACK_WINDOW_EXPIRED; no retry of expired result."
+    },
+    {
+      "operation_id": "NS-OP-18",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search_feedback",
+      "access_scope": "Feedback submission only",
+      "successful": true,
+      "outcome": "Fresh DHDDS/statin search feedback accepted; institutional manuscript and relevant positive-lineage link marked useful."
+    },
+    {
+      "operation_id": "NS-OP-19",
+      "date": "2026-11-08",
+      "tool": "Pinned repository selected-alias audit",
+      "access_scope": "395 text files,4 PDF text extractions,1 spreadsheet from frozen baseline",
+      "successful": true,
+      "outcome": "All400 baseline files read. Known compound/abbreviation/substring collisions adjudicated; no retained exact-use duplicate. BCH/AP4 excluded as prior."
+    },
+    {
+      "operation_id": "NS-OP-20",
+      "date": "2026-11-08",
+      "tool": "Parent independent external-report alias audit",
+      "access_scope": "Complete indexed text of13 recovered unlettered/B-M PDFs",
+      "successful": true,
+      "outcome": "No retained exact-use duplicate. Phenylbutyrate/SLC6A1-STXBP1 is a different indication; atorvastatin Screen K clinical context is prior molecule mention. N-Q still missing."
+    }
+  ],
+  "decision_stop": "Stopped after three retained exact-use dossiers and targeted negative/rights checks supported reserve/hold without queue displacement. Further broad family expansion would not change this bounded allocation decision.",
+  "unresolved_access": [
+    "Linked A36 analytical/biological supplements not independently audited",
+    "Exact patent family/legal status/license availability for A36 and DPM unresolved",
+    "PB/SLC25A1 full publisher paper not examined",
+    "Historical external Screens N-Q unrecovered"
+  ],
+  "limitations": [
+    "Search results are not a trial-registry census or patent/FTO opinion.",
+    "All primary claims are scoped to the exact source and study lineage.",
+    "No paid development, outreach, experiments, recruitment, material receipt or monitoring automation."
+  ]
+}

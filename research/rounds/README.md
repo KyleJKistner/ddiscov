@@ -1,6 +1,6 @@
 # Research rounds and decision history
 
-**Latest:** [Round 24 — claudin 5 lead and portfolio reassessment](round24/README.md), 8 November 2026. Supplied-concept hold, independent claim audit, additional candidate screen and 12 existing-program reassessments. No paid-development promotion; prior history and source closures retained.
+**Latest:** [Round 25 — Firecrawl continuation](round25/README.md), 8 November 2026. Three coordinated workstreams: 16 existing decision records, three additional exact uses and APR advancement with seven gates. No paid-development promotion; fresh evidence, carry-forwards, access gaps and prior closures are explicit.
 
 The [current shortlist](../../decisions/current-shortlist.md) and [selection policy](../../decisions/selection-policy.md) are the controlling decisions. The [cumulative register](../portfolio-register.json) preserves original inventory coverage and subsequent changes. Earlier reports remain traceable historical evidence.
 
@@ -30,6 +30,7 @@ The [current shortlist](../../decisions/current-shortlist.md) and [selection pol
 | **[Round 22](round22/README.md)** | Existing AAT/donor-lung-preservation human/function, formulation/exposure and product/capture source close | One existing program only; donor/version/missingness precision, functional activity and physical controls, processing versus systemic evidence, territorial claims and original qualification budget. Three independent reviews; conditional rank7 retained, no broader screen or execution. |
 | **[Round 23](round23/README.md)** | DREADD and vault-delivery screen | Eight therapeutic-use, platform and scout records; GA002 clinical information and vaultAAV delivery reserve; no paid-development promotion; scoped historical novelty. |
 | **[Round 24](round24/README.md)** | Supplied claudin 5 DME concept, additional screening and existing-program reassessment | Corrects broad novelty and DME competition claims; holds the discovery concept; separates information scopes across 12 existing programs; preserves cash/wait and all prior records. |
+| **[Round 25](round25/README.md)** | Firecrawl portfolio review, new screening and lead advancement | Recovered primary/official sources; APR article/model/rights gates; GA002 planned-versus-observed denominator; vaultAAV translation limits; A36, dipyridamole and atorvastatin exact-use screens. No funded promotion. |
 
 Round labels do not imply that every record represents an independent compound or experiment. Publication dates, review dates and trial dates remain separate.
 

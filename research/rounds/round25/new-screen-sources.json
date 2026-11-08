@@ -1,0 +1,129 @@
+{
+  "schema_version": "ddiscov.round25.new_screen_sources.v1",
+  "round": 25,
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "source_count": 7,
+  "retrieval_route": "Firecrawl web search, live source scrape and indexed paper search; pinned repository audit.",
+  "raw_third_party_content_republished": false,
+  "sources": [
+    {
+      "id": "R25-N01",
+      "title": "A small-molecule stabilizer of the calpastatin\u2013calpain-2 complex restores mitochondrial function and mitigates neurodegeneration",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb1174",
+      "doi": "10.1126/sciadv.aeb1174",
+      "publication_date": "2026-03-27",
+      "access_date": "2026-11-08",
+      "access_scope": "Primary full article text via live Firecrawl scrape. Main results, methods summary, limitations, conflicts and material-availability statement read. Linked supplements not independently audited.",
+      "lineage_id": "A36-Hu-Qi-2026",
+      "source_type": "peer_reviewed_primary_research",
+      "supports": "A36 exact name; CAST\u2013calpain-2 mechanism; patient-derived neuronal readouts; R6/2 motor and bounded survival benefit; PS19 comparator; PK/safety limits; CWRU provisional filing and request-controlled analog supply.",
+      "does_not_establish": "Independent replication, adult-human reversal, an available commercial license, current legal status or a clinically qualified article."
+    },
+    {
+      "id": "R25-N02",
+      "title": "Pharmacological rescue of mitochondrial dysfunction, neurite degeneration, and premature death of ALS and AD iPSC-derived neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174590/",
+      "doi": "10.64898/2026.04.30.722019",
+      "publication_date": "2026-05-05",
+      "access_date": "2026-11-08",
+      "access_scope": "Primary preprint full text via live Firecrawl scrape, including controls, discussion, caveats and conflicts. Not treated as peer-reviewed clinical evidence.",
+      "lineage_id": "DPM-Shahani-Davis-2026",
+      "source_type": "primary_preprint",
+      "supports": "Principal C9 patient-derived pair plus three additional C9 patient lines for mitochondrial/neurite response, engineered TARDBP model, principal-line survival/bioenergetic effects, limited AD survival effect, disputed exposure, MPC caveat, ongoing in-vivo ALS work, disclosed patents and commercial interests.",
+      "does_not_establish": "Human ALS treatment benefit, established CNS exposure, direct target binding, clinical superiority or available rights."
+    },
+    {
+      "id": "R25-N03",
+      "title": "Repurposing the HMG-CoA reductase inhibitor atorvastatin for SRD5A3-congenital disorder of glycosylation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13642943/",
+      "doi": "10.1038/s43856-026-01791-4",
+      "publication_date": "2026-07-29",
+      "access_date": "2026-11-08",
+      "access_scope": "Peer-reviewed primary full text via live Firecrawl scrape, including fibroblast statistics, discussion, source lineage and declared conflicts.",
+      "lineage_id": "SRD5A3-Daghar-Byeon-2026",
+      "same_lineage_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12871848/"
+      ],
+      "same_lineage_note": "Article identifies January 20 2026 preprint; versions are not independent replications.",
+      "source_type": "peer_reviewed_primary_research",
+      "supports": "Worm phenotypes, four fibroblast lines, three directional responders and p=0.08 ratio result, untested glycosylation question, high-exposure worm toxicity, author affiliations.",
+      "does_not_establish": "Validated human-cell glycosylation rescue, neurological recovery in people, safe clinical exposure or capture."
+    },
+    {
+      "id": "R25-N04",
+      "title": "Dolichol synthesis defects: a cautionary note on the use of statins",
+      "url": "https://lirias.kuleuven.be/retrieve/4e176f3f-cb90-475d-83bd-cd77a125541f",
+      "doi": "10.1016/j.ymgme.2025.109186",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "access_date": "2026-11-08",
+      "access_scope": "Three-page author manuscript from institutional repository retrieved live through Firecrawl PDF extraction; DOI cross-reference in R25-N03.",
+      "lineage_id": "Wilson-Morava-statin-caution-2025",
+      "source_type": "primary_clinical_observation_letter",
+      "supports": "One DHDDS p.K42E patient's reversible edema/skin symptoms with four statins and no retinal worsening; causality uncertain; authors mention unpublished lovastatin-sensitive glycosylation observations in SRD5A3/DHRSX cells.",
+      "does_not_establish": "Causal mechanism, atorvastatin harm in SRD5A3, or a replicated disease-specific safety signal. Unpublished cell observations are not a fully reviewed dataset."
+    },
+    {
+      "id": "R25-N05",
+      "title": "A multiomics approach reveals evidence for phenylbutyrate as a potential treatment for combined D,L-2-hydroxyglutaric aciduria",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38772223/",
+      "doi": "10.1016/j.ymgme.2024.108495",
+      "publication_date": "2024-07",
+      "publication_date_precision": "month",
+      "access_date": "2026-11-08",
+      "access_scope": "PubMed indexed abstract and version links retrieved live via Firecrawl; publisher full text not examined.",
+      "lineage_id": "Phua-Vockley-PB-SLC25A1",
+      "source_type": "primary_research_abstract",
+      "same_lineage_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36778323/"
+      ],
+      "supports": "Patient fibroblast bioenergetic/metabolomic findings, one-line citrate adverse observation and 2023-preprint-to-2024-paper lineage.",
+      "does_not_establish": "Full denominator, clinical benefit, neuronal function or commercial access."
+    },
+    {
+      "id": "R25-N06",
+      "title": "Frozen ddiscov baseline and exact-use exclusion audit",
+      "repository_paths": [
+        "README.md",
+        "decisions/selection-policy.md",
+        "decisions/current-shortlist.md",
+        "research/screen-index.md",
+        "research/portfolio-register.json",
+        "discovery/",
+        "research/rounds/round23/",
+        "research/rounds/round24/",
+        "research/rounds/round25/novelty-audit.json"
+      ],
+      "publication_date": "baseline commit 994454ca215920e1dd3fd151df6d8081e0ee345c",
+      "access_date": "2026-11-08",
+      "access_scope": "Orientation in current selection/history plus programmatic selected-alias audit of all 400 frozen baseline files, including395 text,4 PDFs,1 spreadsheet; no claim of manual exhaustive semantic review.",
+      "source_type": "user_repository_primary_record",
+      "supports": "Selection rule, inherited queue, scoped exclusions, prior atorvastatin/SPG5 use, BCH/AP4 duplicate and acronym/substring collision resolution.",
+      "does_not_establish": "Coverage of unrecovered Screens N-Q or world/patent novelty."
+    },
+    {
+      "id": "R25-N07",
+      "title": "Bounded Firecrawl discovery, current-program and rights searches",
+      "query": [
+        "\"2025\" \"rescue\" \"patient-derived\" \"rare disease\" drug repurposing",
+        "\"2026\" \"restores\" \"function\" \"mutation\" therapeutic small molecule",
+        "small molecule restores function rare genetic disease patient derived cells approved drug rescue 2025 2026",
+        "\"A36\" \"calpastatin\" patent Case Western",
+        "\"dipyridamole\" \"ALS\" patent trial mitochondrial medicines",
+        "\"atorvastatin\" \"SRD5A3\" trial patent Modelis",
+        "\"phenylbutyrate\" \"SLC25A1\" trial treatment",
+        "\"63/662,559\" OR \"A36\" \"calpastatin\" license",
+        "\"17/756,842\" mitochondrial dipyridamole",
+        "\"dipyridamole\" \"amyotrophic lateral sclerosis\" trial negative",
+        "\"DHDDS\" \"statin\" worsened"
+      ],
+      "access_date": "2026-11-08",
+      "access_scope": "Search results and paper metadata/abstract discovery; exact selected sources subsequently read as R25-N01\u201305. Query-level outcomes recorded in new-screen-retrieval-log.json.",
+      "source_type": "bounded_search_scope",
+      "supports": "Search coverage and unresolved access/rights facts only. No verified competing exact-use clinical program or available license established by returned results.",
+      "does_not_establish": "Absence of competing programs, clear patent title, FTO, no trials, or global novelty."
+    }
+  ]
+}

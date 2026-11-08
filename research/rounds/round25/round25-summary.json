@@ -1,0 +1,127 @@
+{
+  "schema_version": "ddiscov.round25.summary.v1",
+  "round": 25,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "orchestration": [
+    {
+      "role": "reassess_portfolio",
+      "output": "existing-candidate-reassessment.md",
+      "scope": "Independently challenge current decisions; distinguish fresh primary checks from explicit carry-forward."
+    },
+    {
+      "role": "screen_new",
+      "output": "new-candidate-screen.md",
+      "scope": "Find and assess exact therapeutic uses; check aliases, source lineage, contrary evidence and attainable capture."
+    },
+    {
+      "role": "advance_lead",
+      "output": "apr246-advancement.md",
+      "scope": "Make the strongest conditional development option more concrete through source recovery and seven decision gates."
+    }
+  ],
+  "integration_role": "Root independently checked decisive primary sources, audited 13 external reports, reconciled cross-reviews, preserved history and verified publication.",
+  "counts": {
+    "new_candidate_records": 3,
+    "new_to_all_prior_screens": null,
+    "existing_programs_reassessed": 16,
+    "existing_programs_with_fresh_primary_checks": 2,
+    "existing_programs_with_coordinated_advancement": 1,
+    "existing_programs_carried_forward": 13,
+    "lead_advancement_packages": 1,
+    "source_records": 33,
+    "accessible_external_reports_checked": 13,
+    "baseline_files_in_novelty_audit": 400,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "newly_generated_experimental_results": 0
+  },
+  "selection": {
+    "round": 25,
+    "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+    "completed_scope": "Three coordinated workstreams: current-portfolio reassessment, additional exact-use screening, and advancement of conditional lead APR-246/AEC using Firecrawl.",
+    "conditional_information_queue": [
+      "R23-01",
+      "R23-02",
+      "R23-03",
+      "R23-04"
+    ],
+    "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+    "paid_development_promotions": 0,
+    "spending_authorized": false,
+    "zero_or_wait_option_included": true,
+    "estimated_return_per_dollar": null,
+    "numerical_success_probabilities": false,
+    "replacement_allocation": null,
+    "inherited_conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP"
+    ],
+    "full_development_order_changed": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "novelty_exhaustive": false,
+    "missing_novelty_scope": [
+      "Screens N-Q",
+      "any other uninspected historical screens or unrecognized aliases"
+    ],
+    "additional_screen_information_queue": [
+      "R25-NEW-01",
+      "R25-NEW-02",
+      "R25-NEW-03"
+    ],
+    "additional_information_queue_scope": "A36/HD, then dipyridamole/ALS, then atorvastatin/SRD5A3 within-screen document-level priority only; no insertion into a quantified global investment ranking.",
+    "conditional_local_first_choice": "R4-L02",
+    "exhaustive_portfolio_valuation": false,
+    "historical_cost_bands_are_quotes": false,
+    "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; this is not a finding of negative underlying program EV.",
+    "retained_round24_information_queue": [
+      "R24-N01",
+      "R24-N03",
+      "R24-N02"
+    ],
+    "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+    "next_advancement_decision": "Evaluate a defined APR article/evidence-route/access/output-rights package with separate qualification and useful-function scopes and actual terms.",
+    "actual_priced_commitment_verified": false,
+    "actual_quote_usd": null,
+    "newly_verified_APR_treated_people": 0,
+    "newly_generated_experimental_results": 0,
+    "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes."
+  },
+  "principal_changes": [
+    "APR: model main text/supplement and official US publication claims recovered; current EP examination status and renewal verified. Latest listed amended EP claims remain unread.",
+    "GA002: full retrospective registry design read; planned six remains distinct from three published participants and an unknown all-treated safety denominator.",
+    "VaultAAV: recovered main text confines the neutralization proof to cultured cells and mouse serum; no human immune-escape or in-vivo repeat-dosing result.",
+    "New screen: three scoped new exact uses; A36 leads within-screen information priority, followed by dipyridamole and atorvastatin. None displaces the inherited development queue.",
+    "DPM correction: main-text reporting of three additional C9 patient lines for mitochondrial/neurite endpoints retained; not every endpoint is generalized across all backgrounds."
+  ],
+  "unresolved_decision_inputs": [
+    "APR current amended EP claim body, current title/terms, exact article/evidence-route access, output rights and actual staged costs.",
+    "GA002 detailed clinical report/protocol/appendix, participant lineage, all-treated safety and attainable economic interest.",
+    "A36 exact supplementary article/model provenance, public patent-family correspondence and attainable commercial scope.",
+    "DPM clinically relevant CNS exposure and disclosed rights; atorvastatin glycosylation/function, gene-specific risk and differentiated capture.",
+    "Historical external Screens N-Q and any other uninspected screens remain outside the novelty conclusion."
+  ],
+  "source_register": "source-register.json",
+  "novelty_audit": "novelty-audit.json",
+  "external_duplicate_audit": "external-screen-duplicate-audit.json",
+  "integration_review": "integration-review.md",
+  "artifact_manifest": "artifact-manifest.json",
+  "verification": "local-verification.json",
+  "activity_boundary": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications"
+  ],
+  "execution_authorized": false,
+  "numerical_EV_computed": false
+}

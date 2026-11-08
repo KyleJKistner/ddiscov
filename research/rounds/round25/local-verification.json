@@ -1,0 +1,136 @@
+{
+  "schema_version": "ddiscov.round25.verification_output.v1",
+  "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "checks": [
+    {
+      "check": "all_400_baseline_files_preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "only_declared_existing_files_changed",
+      "passed": true,
+      "detail": [
+        "README.md",
+        "decisions/current-shortlist.md",
+        "research/portfolio-register.json",
+        "research/rounds/README.md",
+        "research/screen-index.md"
+      ]
+    },
+    {
+      "check": "all_new_files_scoped_to_round25",
+      "passed": true
+    },
+    {
+      "check": "no_symlinks",
+      "passed": true
+    },
+    {
+      "check": "original_622_coverage_records_unchanged",
+      "passed": true
+    },
+    {
+      "check": "all_prior_round_objects_unchanged",
+      "passed": true
+    },
+    {
+      "check": "prior_round_history_unchanged",
+      "passed": true
+    },
+    {
+      "check": "register_changes_declared",
+      "passed": true,
+      "detail": [
+        "coverage_summary",
+        "current_marginal_dollar_decision",
+        "publication",
+        "round25",
+        "schema_version",
+        "supersedes"
+      ]
+    },
+    {
+      "check": "historical_coverage_summary_preserved",
+      "passed": true
+    },
+    {
+      "check": "current_selection_agrees_across_summary_and_register",
+      "passed": true
+    },
+    {
+      "check": "no_spending_or_numeric_EV_asserted",
+      "passed": true
+    },
+    {
+      "check": "novelty_gap_retained",
+      "passed": true
+    },
+    {
+      "check": "candidate_ledger_preserved_in_register",
+      "passed": true
+    },
+    {
+      "check": "candidate_ids_unique_and_counted",
+      "passed": true
+    },
+    {
+      "check": "existing_candidates_unique_and_counted",
+      "passed": true
+    },
+    {
+      "check": "summary_matches_register_counts",
+      "passed": true
+    },
+    {
+      "check": "source_reference_ids_unique",
+      "passed": true
+    },
+    {
+      "check": "source_counts_and_access_scopes_complete",
+      "passed": true
+    },
+    {
+      "check": "all_round25_source_references_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "new_and_existing_candidate_sets_do_not_overlap",
+      "passed": true
+    },
+    {
+      "check": "external_selected_alias_audit_covers_13_complete_reports",
+      "passed": true
+    },
+    {
+      "check": "all_round25_json_parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "local_markdown_links_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "manifest_has_complete_exact_path_set",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "manifest_content_hashes_and_modes_match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "manifest_base_and_counts_match",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Artifact consistency, historical preservation and publication hashes only."
+}

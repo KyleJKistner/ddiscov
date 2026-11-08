@@ -1,8 +1,20 @@
 # Current development shortlist
 
-**Current review: 8 November 2026. Round 24. Inherited conditional development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Current review: 8 November 2026. Round 25. Inherited conditional development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 24: supplied claudin lead and comparative reassessment
+## Round 25: current decisions after Firecrawl review
+
+**Keep capital uncommitted until an obtainable, priced, informative commitment can be compared with waiting.** The review does not establish negative underlying program EV. It retains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT qualification** under their original, different information scopes. The [16-record reassessment](../research/rounds/round25/existing-candidate-reassessment.md) identifies two fresh primary checks, one coordinated APR review and thirteen explicit carry-forwards.
+
+**APR-246/AEC is the first conditional development option.** Recovered model main text/supplement narrows expression-control and functional-readout questions without showing APR rescue. The official US claims retain the corneal predicate in dependent claims. The European register shows a maintained application under examination; the October 2025 amended claims are located but unread. The [advancement package](../research/rounds/round25/apr246-advancement.md) specifies seven gates and separates article/evidence-route qualification from useful clinical-function evidence. No current quote, transferred article, available license or new treated patient is established.
+
+**GA002 remains first for clinical information.** Its retrospective registry plans six participants; the publisher abstract describes three. Neither is an independently verified all-treated safety denominator. The clinical body/protocol/appendix remain unrecovered. VaultAAV's recovered paper supports cultured-cell protection with mouse serum; human immune escape and in-vivo repeat dosing remain unproven. [Source and denominator review](../research/rounds/round25/existing-candidate-reassessment.md).
+
+The [new-screen information order](../research/rounds/round25/new-candidate-screen.md) is **A36/HD → dipyridamole/ALS → atorvastatin/SRD5A3-CDG** within this screen only. A36 has the strongest functional preclinical package of these three, with unresolved exact-article, translation and rights questions. Dipyridamole's additional C9 cell lines support selected endpoints, while CNS exposure and capture remain open. Atorvastatin's fibroblast result is a nonsignificant biochemical trend, with glycosylation and gene-specific risk unresolved. No new record displaces the inherited queue. The Round24 SGPL1 → VS-X4 → ATP1A3 information order and claudin discovery hold are retained separately.
+
+The [integrated review](../research/rounds/round25/integration-review.md) preserves all closed-pass stopping rules and exact-use novelty limits. All 400 baseline files are retained; the 622 original coverage records and historical round objects remain unchanged. No spending or external execution is authorized by these research conclusions.
+
+## Retained Round 24: supplied claudin lead and comparative reassessment
 
 **Hold the claudin-5 sealing VHH as an early discovery concept.** The source proposes a molecule and mechanism; it does not identify a demonstrated sealing asset. Primary anti-claudin-2 evidence narrows the broad novelty claim, while current Wnt and Ang-2/VEGF programs raise the clinical and commercial benchmark. Linker geometry alone cannot establish useful retinal barrier restoration. The [lead decision](../research/rounds/round24/claudin5-dme-assessment.md) and [independent audit](../research/rounds/round24/claudin5-independent-review.md) set out the evidence and limits.
 

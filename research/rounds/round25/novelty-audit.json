@@ -1,0 +1,437 @@
+{
+  "schema_version": "ddiscov.round25.novelty_audit.v1",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "exhaustive": false,
+  "scope_conclusion": "Alias search of all 400 pinned baseline files, including four PDF text extractions and one spreadsheet. Scoped exact-use novelty only; unrecovered external Screens N-Q prevent global novelty.",
+  "corpus": {
+    "baseline_file_count": 400,
+    "successfully_read": 400,
+    "read_modes": {
+      "text": 395,
+      "pdf_text": 4,
+      "xlsx_values_formulas": 1
+    },
+    "errors": [],
+    "all_baseline_files_read": true
+  },
+  "unrecovered_external_screens": [
+    "N",
+    "O",
+    "P",
+    "Q"
+  ],
+  "external_reports": {
+    "scope": "Parent recovered unlettered and B-M,13 reports",
+    "independent_selected_alias_audit": "completed; no selected exact-use duplicate in complete indexed text",
+    "audit_path": "research/rounds/round25/external-screen-duplicate-audit.json",
+    "different_use_hits": [
+      {
+        "report": "unlettered",
+        "line": 268,
+        "match": "phenylbutyrate",
+        "adjudication": "Prior SLC6A1/STXBP1 indication, different from SLC25A1."
+      },
+      {
+        "report": "K",
+        "line": 626,
+        "match": "atorvastatin",
+        "adjudication": "Clinical-context drug name, explicitly not a separate scientific screen; compound previously encountered."
+      }
+    ],
+    "unrecovered": [
+      "N",
+      "O",
+      "P",
+      "Q"
+    ]
+  },
+  "lead_audit": [
+    {
+      "id": "R25-NEW-01",
+      "alias_groups": {
+        "exact": [
+          "\\bA36\\b",
+          "calpastatin",
+          "calpain[-\u2013 ]?2",
+          "CHIR99021",
+          "aeb1174",
+          "63[/, ]*662[, ]*559"
+        ],
+        "broad": [
+          "Huntington"
+        ]
+      },
+      "results": {
+        "exact": [
+          {
+            "pattern": "\\bA36\\b",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "calpastatin",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "calpain[-\u2013 ]?2",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "CHIR99021",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "aeb1174",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "63[/, ]*662[, ]*559",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          }
+        ],
+        "broad": [
+          {
+            "pattern": "Huntington",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          }
+        ]
+      },
+      "adjudication": "No exact identity/mechanism alias hit in baseline or recovered external reports; scoped-new named molecule/use."
+    },
+    {
+      "id": "R25-NEW-02",
+      "alias_groups": {
+        "exact": [
+          "dipyridamole",
+          "722019",
+          "17[/, ]*756[, ]*842"
+        ],
+        "broad": [
+          "\\bDPM\\b"
+        ]
+      },
+      "results": {
+        "exact": [
+          {
+            "pattern": "dipyridamole",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "722019",
+            "matching_file_count": 1,
+            "matches": [
+              {
+                "path": "research/source-data/blu3797-source-values.xlsx",
+                "first_match_context": "311688\t0.161189516 MYOZ3_MOUSE\tNA\tNA\t-1.025632992\t-0.036514575\t0.722019053\t0.750480144 MYP0_MOUSE\tNA\tNA\t-1.42284661\t-0.508780141\t0.003331433\t0.005887098 MYPC2_MOUSE\tENSMUSG00000038670\tMybpc2\t1.350171294\t0.433142"
+              }
+            ],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "17[/, ]*756[, ]*842",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          }
+        ],
+        "broad": [
+          {
+            "pattern": "\\bDPM\\b",
+            "matching_file_count": 2,
+            "matches": [
+              {
+                "path": "discovery/broad-screen.csv",
+                "first_match_context": "/patents.google.com/patent/WO2023066881A1/en X003,Biology,BIO-03,DPM-1001,Metabolic: obesity/type 2 diabetes,https://pmc.ncbi.nlm.nih.gov/articles/PMC5798283/, X004,Biology,BIO-04,MUC-031 = fexlamose = AER-01"
+              },
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": "  \"record_id\": \"X003\",       \"concept_id\": null,       \"label\": \"DPM-1001\",       \"raw\": {         \"record_id\": \"X003\",         \"research_route\": \"Biology\",         \"source_record\": \"BIO-03\",         \"interve"
+              }
+            ],
+            "additional_matching_files": []
+          }
+        ]
+      },
+      "adjudication": "No dipyridamole exact-use hit. DPM hits are DPM-1001 metabolic candidate. Bare 722019 hit is numeric 0.722019053 in BLU source spreadsheet, not the DOI. Scoped-new exact use."
+    },
+    {
+      "id": "R25-NEW-03",
+      "alias_groups": {
+        "exact": [
+          "SRD5A3",
+          "01791[- ]4",
+          "13642943",
+          "12871848"
+        ],
+        "broad": [
+          "atorvastatin"
+        ]
+      },
+      "results": {
+        "exact": [
+          {
+            "pattern": "SRD5A3",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "01791[- ]4",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "13642943",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "12871848",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          }
+        ],
+        "broad": [
+          {
+            "pattern": "atorvastatin",
+            "matching_file_count": 2,
+            "matches": [
+              {
+                "path": "discovery/historical-topics.csv",
+                "first_match_context": "ials.gov/api/v2/studies?query.cond=TANGO2&pageSize=20,H0155 T102,Atorvastatin with or without chenodeoxycholic acid in SPG5,2,0,https://academic.oup.com/brain/article/140/12/3112/4596575,H0158,https://www.pubmed.gov/2"
+              },
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": "  \"record_id\": \"T102\",       \"concept_id\": null,       \"label\": \"Atorvastatin with or without chenodeoxycholic acid in SPG5\",       \"raw\": {         \"topic_id\": \"T102\",         \"topic\": \"Atorvastatin with or without c"
+              }
+            ],
+            "additional_matching_files": []
+          }
+        ]
+      },
+      "adjudication": "Atorvastatin previously screened as T102/SPG5 and externally mentioned in Screen K; SRD5A3 exact-use aliases absent. New use of previously encountered compound."
+    },
+    {
+      "id": "REJECT-PB-SLC25A1",
+      "alias_groups": {
+        "exact": [
+          "SLC25A1",
+          "108495",
+          "38772223",
+          "526527"
+        ],
+        "broad": [
+          "phenylbutyrate",
+          "hydroxyglutaric"
+        ]
+      },
+      "results": {
+        "exact": [
+          {
+            "pattern": "SLC25A1",
+            "matching_file_count": 1,
+            "matches": [
+              {
+                "path": "research/source-data/blu3797-source-values.xlsx",
+                "first_match_context": ".235257751\t0.019503485\t0.05599956 ORNT1_MOUSE\tENSMUSG00000031482\tSlc25a15\t1.202079163\t0.265531908\t0.003542044\t0.01771248 GYS1_MOUSE\tENSMUSG00000003865\tGys1\t1.232112553\t0.301134051\t0.00097\t0.008176637 GCYB1_MOUSE\t"
+              }
+            ],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "108495",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "38772223",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "526527",
+            "matching_file_count": 0,
+            "matches": [],
+            "additional_matching_files": []
+          }
+        ],
+        "broad": [
+          {
+            "pattern": "phenylbutyrate",
+            "matching_file_count": 7,
+            "matches": [
+              {
+                "path": "discovery/historical-topics.csv",
+                "first_match_context": "s://pmc.ncbi.nlm.nih.gov/articles/PMC12026011/,H0156 T052,Sodium phenylbutyrate in residual-activity maple syrup urine disease,9,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC3024040,H0002,https://clinicaltrials.gov/study/"
+              },
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": "rd_id\": \"T052\",       \"concept_id\": null,       \"label\": \"Sodium phenylbutyrate in residual-activity maple syrup urine disease\",       \"raw\": {         \"topic_id\": \"T052\",         \"topic\": \"Sodium phenylbutyrate in resi"
+              },
+              {
+                "path": "research/rounds/round4/round4_local_repair.json",
+                "first_match_context": "escue\",       \"exact_article\": \"2-naphthoxyacetic acid; sodium 4-phenylbutyrate is a separate active reference.\",       \"disease_or_use\": \"BEST1 R255Q recessive and K30R dominant patient-derived RPE models.\",       \"nov"
+              },
+              {
+                "path": "research/rounds/round5/README.md",
+                "first_match_context": "erable exposure and program differentiation remain | | R5_SODIUM_PHENYLBUTYRATE_BSEP_PFIC2 | Sodium phenylbutyrate / BSEP-trafficking PFIC2 | Approved Japanese benchmark and occupied program; require a differentiated co"
+              },
+              {
+                "path": "research/rounds/round5/round5_additional_screen.json",
+                "first_match_context": "al-of-a-partial-change-to-the-marketing-authorization-for-sodium-phenylbutyrate-for-progressive-familial-intrahepatic-cholestasis-pfic-types-1-and-2/\",       \"inspection_status\": \"sponsor_announcement\",       \"doi\": nul"
+              },
+              {
+                "path": "research/rounds/round5/round5_additional_screen.md",
+                "first_match_context": "entiated development proposition remain unresolved. | | Sodium 4-phenylbutyrate, **ABCB11/BSEP-trafficking PFIC2** | **Occupied, approved benchmark** | Genuine transport and human disease evidence; Japan approved the PF"
+              },
+              {
+                "path": "research/screen-index.md",
+                "first_match_context": "d recombinant Fibcd1 for diaphragm wasting | `ROOT-FIBCD1` | | 4-phenylbutyrate correction of selected dysferlin missense variants | `ROOT-DYSF-PBA` | | H105A PEDF-derived peptide eye drops for retinal function preserva"
+              }
+            ],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "hydroxyglutaric",
+            "matching_file_count": 11,
+            "matches": [
+              {
+                "path": "methods/enasidenib_clinical_audit.py",
+                "first_match_context": "imepoints = headings[1:-1]     hg_key = next(k for k in rows if \"Hydroxyglutaric acid\" in k)     hg, alt, ck = rows[hg_key], rows[\"Alanine aminotransferase\"], rows[\"CK\"]     before = float(hg[\"Enasidenib initiation\"])   "
+              },
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": "\": \"R140 neomorphic gain of function\",           \"disease\": \"D-2-hydroxyglutaric aciduria type II\",           \"timing\": \"Established disease; cardiomyopathy in reports\",           \"not_inherited_by\": [             \"D2HGD"
+              },
+              {
+                "path": "research/rounds/round15/enasidenib-product-capture.json",
+                "first_match_context": "_opportunity\": {     \"moiety\": \"enasidenib\",     \"disease\": \"D-2-hydroxyglutaric aciduria type 2\",     \"genotype\": \"germline IDH2-R140Q\",     \"new_indication\": \"D2HGA2\",     \"presentation_defined\": false,     \"age_range\""
+              },
+              {
+                "path": "research/rounds/round5/README.md",
+                "first_match_context": "ENASIDENIB_IDH2_R140_D2HGA2 | Enasidenib / IDH2-R140 type-II D-2-hydroxyglutaric aciduria | Human rescue reserve; pediatric formulation, tolerable exposure and program differentiation remain | | R5_SODIUM_PHENYLBUTYRATE_"
+              },
+              {
+                "path": "research/rounds/round5/round5_additional_screen.json",
+                "first_match_context": "ss\": \"R140 neomorphic gain of function\",         \"disease\": \"D-2-hydroxyglutaric aciduria type II\",         \"timing\": \"Established disease; cardiomyopathy in reports\",         \"not_inherited_by\": [           \"D2HGDH type"
+              },
+              {
+                "path": "research/rounds/round5/round5_additional_screen.md",
+                "first_match_context": "bution remain material. | | Enasidenib, **germline IDH2-R140 D-2-hydroxyglutaric aciduria type II**, especially established cardiomyopathy | Retain as a **genotype-specific human rescue lead; formulation/programme hold**"
+              },
+              {
+                "path": "research/rounds/round6/round6_reserve_challenge.json",
+                "first_match_context": "title\": \"Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria\",           \"doi\": \"10.1016/j.ymgme.2026.110094\",           \"source_ids\": [             \"E5\",             \"E13\"           ]       "
+              },
+              {
+                "path": "research/rounds/round6/round6_reserve_challenge.md",
+                "first_match_context": "port is *Use of enasidenib in a 5-week-old male with type II D-2-hydroxyglutaric aciduria*, DOI **10.1016/j.ymgme.2026.110094**, *Molecular Genetics and Metabolism* 148(1):110094. Crossref carries publisher-deposited tit"
+              },
+              {
+                "path": "research/rounds/round7/enasidenib_clinical.json",
+                "first_match_context": " },       \"biochemistry\": {         \"analyte\": \"Reported urine 2-hydroxyglutaric acid\",         \"unit\": \"mg/g creatinine\",         \"baseline\": 244,         \"at24h\": 23,         \"prose_claim\": \"84 percent decrease\",      "
+              },
+              {
+                "path": "research/rounds/round7/enasidenib_clinical.md",
+                "first_match_context": ". [C6\u2013C7]  Keep this indication separate from D2HGDH-related D-2-hydroxyglutaric aciduria type I, L2HGDH disease, combined D/L-2-hydroxyglutaric aciduria and somatic IDH-associated skeletal or malignant disease. Elevated"
+              },
+              {
+                "path": "research/rounds/round7/enasidenib_clinical_audit.json",
+                "first_match_context": "274\",       \"Reference range\": \"150\u2013450 \u00d7 10^3/\u03bcL\"     },     \"2\u2010Hydroxyglutaric acid\": {       \"Diagnosis\": \"364\",       \"Enasidenib initiation\": \"244\",       \"Enasidenib treatment: 24 h\": \"23\",       \"Enasidenib treatm"
+              }
+            ],
+            "additional_matching_files": []
+          }
+        ]
+      },
+      "adjudication": "SLC25A1 substring hit is Slc25a15 in BLU spreadsheet, a different gene. Other phenylbutyrate uses and enasidenib/IDH2 D-2-HGA do not establish this exact-use duplicate. Rejected for evidence/capture, not claimed as retained novelty."
+    },
+    {
+      "id": "REJECT-BCH-AP4",
+      "alias_groups": {
+        "exact": [
+          "BCH[- ]?HSP[- ]?C01",
+          "44264[- ]1"
+        ],
+        "broad": []
+      },
+      "results": {
+        "exact": [
+          {
+            "pattern": "BCH[- ]?HSP[- ]?C01",
+            "matching_file_count": 4,
+            "matches": [
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": " },       {         \"candidate_id\": \"R4-NM-04\",         \"name\": \"BCH-HSP-C01 for AP-4-associated HSP\",         \"aliases\": [           \"BCH-HSP-C01\",           \"HY-163329\"         ],         \"family_id\": \"BCHHSPC01_AP"
+              },
+              {
+                "path": "research/rounds/round4/README.md",
+                "first_match_context": "ld for delayed force rescue and material mapping. | | R4-NM-04 | BCH-HSP-C01 / AP-4 HSP | Defined molecule and cargo-trafficking response in two patient backgrounds. | Mechanistic hold; mature neuronal function missi"
+              },
+              {
+                "path": "research/rounds/round4/round4_neuromuscular.json",
+                "first_match_context": " ]     },     {       \"candidate_id\": \"R4-NM-04\",       \"name\": \"BCH-HSP-C01 for AP-4-associated HSP\",       \"aliases\": [         \"BCH-HSP-C01\",         \"HY-163329\"       ],       \"family_id\": \"BCHHSPC01_AP4\",       "
+              },
+              {
+                "path": "research/rounds/round4/round4_neuromuscular.md",
+                "first_match_context": "tereochemical mapping, and a real exposure window | | R4-NM-04 | BCH-HSP-C01 for AP-4-associated HSP | Hold at mechanism/tool stage | Cargo-trafficking rescue must translate to mature neuronal function and a feasible"
+              }
+            ],
+            "additional_matching_files": []
+          },
+          {
+            "pattern": "44264[- ]1",
+            "matching_file_count": 3,
+            "matches": [
+              {
+                "path": "research/portfolio-register.json",
+                "first_match_context": "e_urls\": [           \"https://www.nature.com/articles/s41467-023-44264-1\",           \"https://www.sigmaaldrich.com/US/en/product/sigma/sml4139\"         ],         \"exact_article\": \"https://www.nature.com/articles"
+              },
+              {
+                "path": "research/rounds/round4/round4_neuromuscular.json",
+                "first_match_context": "rce_urls\": [         \"https://www.nature.com/articles/s41467-023-44264-1\",         \"https://www.sigmaaldrich.com/US/en/product/sigma/sml4139\"       ],       \"exact_article\": \"https://www.nature.com/articles/s4146"
+              },
+              {
+                "path": "research/rounds/round4/round4_neuromuscular.md",
+                "first_match_context": "P4 cargo trafficking](https://www.nature.com/articles/s41467-023-44264-1). primary experimental article.  - **R4NM-S26** \u2014 [BCH-HSP-C01 SigmaSML4139 identity](https://www.sigmaaldrich.com/US/en/product/sigma/sml4"
+              }
+            ],
+            "additional_matching_files": []
+          }
+        ],
+        "broad": []
+      },
+      "adjudication": "Confirmed prior exact-use candidate Round 4 R4-NM-04; excluded."
+    }
+  ],
+  "interpretation_limits": [
+    "No matches does not establish biological, patent or world novelty.",
+    "Known compound appearances are not automatic duplicates if the exact disease and therapeutic purpose differ.",
+    "A36 short-name collisions require disease and mechanism matching; DPM acronym hits require dipyridamole identity.",
+    "Repository text, PDF extraction and spreadsheet values do not recover missing N-Q reports or non-searchable graphic content.",
+    "Phenylbutyrate/SLC25A1 is a screened rejection rather than a retained new candidate; enasidenib/IDH2 D-2-HGA is a different exact use."
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "schema_version": "24.0",
+  "schema_version": "25.0",
   "as_of": "2026-11-08",
   "repository": "KyleJKistner/ddiscov",
   "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
-  "supersedes": "Round23 main 1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d; all original coverage rows and prior round objects/history preserved. Additional-screen information priorities do not replace the inherited conditional development order.",
+  "supersedes": "Round24 main 994454ca215920e1dd3fd151df6d8081e0ee345c; all original coverage rows and earlier round objects/history preserved. Round25 information priorities do not replace the inherited conditional development order.",
   "policy": {
     "decision_unit": "Exact product in a defined disease, route and treatment window, paired with a stage-appropriate decision-changing preclinical or clinical proof.",
     "ranking": "Select the expected value of the next marginal information/development dollar from feasible tranches, including stop or defer, using remaining costs, time, decision-changing information and capturable value. Do not inherit priority from sunk effort or historical allocation. Qualitative comparisons must not masquerade as numerical financial rankings when inputs are missing.",
@@ -320,7 +320,11 @@
     "round24_user_supplied_discovery_concepts": 1,
     "round24_additional_therapeutic_use_screens": 3,
     "round24_existing_programs_reassessed": 12,
-    "round24_record_count_note": "New-to-inspected-corpus records only; no new drug, independent-study or exhaustive historical novelty count inferred."
+    "round24_record_count_note": "New-to-inspected-corpus records only; no new drug, independent-study or exhaustive historical novelty count inferred.",
+    "round25_new_candidate_records": 3,
+    "round25_existing_programs_reassessed": 16,
+    "round25_lead_advancement_packages": 1,
+    "round25_record_count_note": "Three scoped new exact-use records, sixteen existing decision records with fresh/carry-forward depth explicit, and one overlapping lead-advancement package. These are not additive independent drugs, studies or treated people."
   },
   "final_shortlist": [
     {
@@ -56206,8 +56210,8 @@
   "publication": {
     "repository": "KyleJKistner/ddiscov",
     "target_branch": "main",
-    "base_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
-    "scope": "Round24 lead, new screen, existing review, sources, scoped novelty, independent challenges and complete artifact manifest; historical records retained.",
+    "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+    "scope": "Round25 Firecrawl continuation with three workstreams, independent integration, exact-use novelty limits and a complete artifact manifest; historical files and 622 coverage records retained.",
     "commit_identifier": "Containing Git commit; omitted here to avoid self-reference.",
     "activity_boundary": [
       "no outreach",
@@ -66355,9 +66359,9 @@
     ]
   },
   "current_marginal_dollar_decision": {
-    "round": 24,
+    "round": 25,
     "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
-    "completed_scope": "Supplied claudin-5 DME concept, three additional therapeutic-use screens and 12 existing-program reassessments; high-level investment and evidence review.",
+    "completed_scope": "Three coordinated workstreams: current-portfolio reassessment, additional exact-use screening, and advancement of conditional lead APR-246/AEC using Firecrawl.",
     "conditional_information_queue": [
       "R23-01",
       "R23-02",
@@ -66385,19 +66389,30 @@
     "novelty_exhaustive": false,
     "missing_novelty_scope": [
       "Screens N-Q",
-      "any later completed fresh screens"
+      "any other uninspected historical screens or unrecognized aliases"
     ],
-    "supplied_lead_id": "R24-L01",
-    "supplied_lead_disposition": "HOLD_EARLY_DISCOVERY",
     "additional_screen_information_queue": [
+      "R25-NEW-01",
+      "R25-NEW-02",
+      "R25-NEW-03"
+    ],
+    "additional_information_queue_scope": "A36/HD, then dipyridamole/ALS, then atorvastatin/SRD5A3 within-screen document-level priority only; no insertion into a quantified global investment ranking.",
+    "conditional_local_first_choice": "R4-L02",
+    "exhaustive_portfolio_valuation": false,
+    "historical_cost_bands_are_quotes": false,
+    "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; this is not a finding of negative underlying program EV.",
+    "retained_round24_information_queue": [
       "R24-N01",
       "R24-N03",
       "R24-N02"
     ],
-    "additional_information_queue_scope": "Within-screen desk-information priority only; not inserted into a repriced global asset-return ranking.",
-    "conditional_local_first_choice": "R4-L02",
-    "exhaustive_portfolio_valuation": false,
-    "historical_cost_bands_are_quotes": false
+    "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+    "next_advancement_decision": "Evaluate a defined APR article/evidence-route/access/output-rights package with separate qualification and useful-function scopes and actual terms.",
+    "actual_priced_commitment_verified": false,
+    "actual_quote_usd": null,
+    "newly_verified_APR_treated_people": 0,
+    "newly_generated_experimental_results": 0,
+    "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes."
   },
   "round15": {
     "as_of": "2026-11-04",
@@ -68259,6 +68274,382 @@
       "No full FTO or patentability conclusion.",
       "Primary access gaps and missing screens remain explicit.",
       "No new automation or development spending authorization."
+    ]
+  },
+  "round25": {
+    "as_of": "2026-11-08",
+    "as_of_timezone": "America/Los_Angeles",
+    "base_publication_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+    "counts": {
+      "new_candidate_records": 3,
+      "new_to_all_prior_screens": null,
+      "existing_programs_reassessed": 16,
+      "existing_programs_with_fresh_primary_checks": 2,
+      "existing_programs_with_coordinated_advancement": 1,
+      "existing_programs_carried_forward": 13,
+      "lead_advancement_packages": 1,
+      "source_records": 33,
+      "accessible_external_reports_checked": 13,
+      "baseline_files_in_novelty_audit": 400,
+      "paid_development_promotions": 0,
+      "s_tier_promotions": 0,
+      "newly_generated_experimental_results": 0
+    },
+    "selection": {
+      "round": 25,
+      "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+      "completed_scope": "Three coordinated workstreams: current-portfolio reassessment, additional exact-use screening, and advancement of conditional lead APR-246/AEC using Firecrawl.",
+      "conditional_information_queue": [
+        "R23-01",
+        "R23-02",
+        "R23-03",
+        "R23-04"
+      ],
+      "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+      "paid_development_promotions": 0,
+      "spending_authorized": false,
+      "zero_or_wait_option_included": true,
+      "estimated_return_per_dollar": null,
+      "numerical_success_probabilities": false,
+      "replacement_allocation": null,
+      "inherited_conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "full_development_order_changed": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "novelty_exhaustive": false,
+      "missing_novelty_scope": [
+        "Screens N-Q",
+        "any other uninspected historical screens or unrecognized aliases"
+      ],
+      "additional_screen_information_queue": [
+        "R25-NEW-01",
+        "R25-NEW-02",
+        "R25-NEW-03"
+      ],
+      "additional_information_queue_scope": "A36/HD, then dipyridamole/ALS, then atorvastatin/SRD5A3 within-screen document-level priority only; no insertion into a quantified global investment ranking.",
+      "conditional_local_first_choice": "R4-L02",
+      "exhaustive_portfolio_valuation": false,
+      "historical_cost_bands_are_quotes": false,
+      "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; this is not a finding of negative underlying program EV.",
+      "retained_round24_information_queue": [
+        "R24-N01",
+        "R24-N03",
+        "R24-N02"
+      ],
+      "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+      "next_advancement_decision": "Evaluate a defined APR article/evidence-route/access/output-rights package with separate qualification and useful-function scopes and actual terms.",
+      "actual_priced_commitment_verified": false,
+      "actual_quote_usd": null,
+      "newly_verified_APR_treated_people": 0,
+      "newly_generated_experimental_results": 0,
+      "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes."
+    },
+    "new_screen_records": [
+      {
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "inherited_queue_displaced": false,
+        "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+        "id": "R25-NEW-01",
+        "record_type": "new_exact_use_new_named_compound",
+        "name": "A36 for Huntington disease",
+        "aliases": [
+          "A36",
+          "CHIR99021-derived A36",
+          "calpastatin stabilizer",
+          "CAST–calpain-2 complex stabilizer",
+          "10.1126/sciadv.aeb1174"
+        ],
+        "exact_use": "A36-mediated stabilization of the CAST–calpain-2 complex to preserve neuronal integrity and motor function in Huntington disease.",
+        "exact_asset_identified": true,
+        "asset_limit": "A36 is named and its synthetic/analytical supplement is linked by the primary paper. No authenticated lot, independent structure audit, commercial license, or exact claim mapping has been established.",
+        "information_priority_rank": 1,
+        "rank_meaning": "First bounded document-level clarification among this round's three retained new-use leads; not an investment rank or displacement of the inherited queue.",
+        "disposition": "Conditional reserve; exact-article and public-rights information gate only.",
+        "evidence_level": "One peer-reviewed preclinical investigator lineage: mutant mouse striatal cells, patient iPSC-derived medium spiny neurons, R6/2 mice; separate PS19 tauopathy comparator.",
+        "evidence_units": [
+          {
+            "unit": "Human iPSC-derived HD medium spiny neurons",
+            "interpretation": "Neurite and neuronal/synaptic marker rescue. Experimental replicates are not independently recruited patients. Donor counts and line provenance require supplement audit; no broad human denominator asserted."
+          },
+          {
+            "unit": "R6/2 mice",
+            "interpretation": "Paper reports 10-15 animals per behavioral group, motor outcomes and a survival separation through 12 weeks. Cage-based group assignment, male animals, rapid fragment model, and bounded follow-up limit generality."
+          },
+          {
+            "unit": "PS19 mice",
+            "interpretation": "Separate tauopathy model; supportive cross-disease biology, not a second HD replication."
+          }
+        ],
+        "positive_evidence": [
+          "CAST/calpain-2 dependence supports target attribution in the tested systems.",
+          "Patient-derived neuronal morphology and markers improve.",
+          "HD mouse locomotion, clasping, neuropathology and bounded survival improve; not a human efficacy claim."
+        ],
+        "negative_or_limiting_evidence": [
+          "PK requires further optimization; chronic consequences of reinforcing CAST are unknown.",
+          "No independent replication or human treatment outcome established.",
+          "Study began in young R6/2 animals; established adult clinical HD reversal is unproven.",
+          "Mouse survival reporting ends at 12 weeks; do not turn this into a median lifespan or survival magnitude in people.",
+          "Absence of detected GSK3 inhibition in reported assays does not establish universal selectivity."
+        ],
+        "rights_and_capture": {
+          "observed": "Authors disclose Case Western Reserve University provisional US63/662,559 filed 2024-06-21 and PCT patent pending. Analog supply is investigator-controlled and subject to scientific review.",
+          "unresolved": [
+            "Public application family and claim coverage for exact A36",
+            "Current ownership/license encumbrances",
+            "Transferable commercial right and economics"
+          ],
+          "capture_inference": "A differentiated molecule with an institutional filing is a plausible route to retained value, but its availability and terms are unknown; public synthesis is not FTO."
+        },
+        "financing_scope": "Would be a licensed or partnered preclinical exact-molecule validation/optimization program. Current authorized scope is only desk review of the public identity, model-lineage and rights packet; no project price or experimental tranche is asserted.",
+        "cheapest_next_information_gate": "Read the already-linked analytical/supplementary record and public patent family, align exact A36 identity to disclosed claims, and recover donor/animal-level denominators and timing. Build a priced scope only if a distinct, obtainable contribution survives.",
+        "stopping_rule": "Stop discretionary screen work if exact article/claim correspondence cannot be resolved from accessible records. If benefit is restricted to developmental prevention, re-scope to a feasible population and treatment window and recompare information, cost and value; prevention alone is not an automatic rejection. Hold if correlated observations cannot support useful function or if the required chemistry/rights package becomes a broad CNS discovery program without a superior marginal-dollar case. Do not presume an owner reply is required for scientific selection.",
+        "comparison_to_queue": "No evidence of a priced, obtainable next proof with better marginal information/capture than the inherited conditional APR/RM/BLU/NDC/mIGF/P2/AAT queue; cash remains default.",
+        "source_ids": [
+          "R25-N01",
+          "R25-N06",
+          "R25-N07"
+        ]
+      },
+      {
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "inherited_queue_displaced": false,
+        "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+        "id": "R25-NEW-02",
+        "record_type": "new_exact_use_previously_known_compound",
+        "name": "Dipyridamole for ALS",
+        "aliases": [
+          "dipyridamole",
+          "DPM",
+          "C9orf72 ALS",
+          "TARDBP M337V",
+          "TDP43 M337V",
+          "10.64898/2026.04.30.722019"
+        ],
+        "exact_use": "Dipyridamole-mediated support of mitochondrial pyruvate uptake to preserve ALS motor-neuron integrity and survival; no selected clinical formulation or patient dosing proposal.",
+        "exact_asset_identified": true,
+        "asset_limit": "Known drug identity, but the paper's test article is not a verified CNS clinical product. A new analog would be a separate asset.",
+        "information_priority_rank": 2,
+        "rank_meaning": "Second bounded document-level clarification among three retained leads, not funded development.",
+        "disposition": "Conditional reserve; exposure and patent-lineage information gate.",
+        "evidence_level": "One bioRxiv preprint lineage; human cellular observations without established ALS animal function or patient outcomes.",
+        "evidence_units": [
+          {
+            "unit": "Principal C9orf72 patient-derived iPSC lineage with isogenic control, plus three additional C9 patient lines",
+            "interpretation": "Longitudinal survival and major bioenergetic analyses center on the principal pair. Main text reports mitochondrial and neurite response in three additional C9 patient lines (Fig S6); do not extend all endpoints to all four patients. Technical replicates are not donors; supplemental provenance not independently audited."
+          },
+          {
+            "unit": "Engineered TARDBP M337V iPSC model and reversion control",
+            "interpretation": "Independent genetic mechanism/background, not another ALS patient donor."
+          },
+          {
+            "unit": "PSEN1 A246E cortical-neuron lineage",
+            "interpretation": "Separate AD exact use; weaker effects and limited survival improvement, not pooled ALS replication."
+          }
+        ],
+        "positive_evidence": [
+          "ALS neuron mitochondrial metrics, bioenergetics, neurite integrity and viability improve.",
+          "Main text reports mitochondrial and neurite improvement in three additional C9 patient-derived lines beyond the principal C9/isogenic pair; this adds biological backgrounds without duplicating all endpoints.",
+          "The reported C9 culture survival extends beyond 100 days from approximately 18 days in controls; this is culture survival, not patient survival.",
+          "Some addition-after-emergent-pathology analyses support arresting cellular decline; this is not established reversal of adult ALS disability.",
+          "MPC-dependent functional data support mechanism, although direct molecular binding remains unresolved."
+        ],
+        "negative_or_limiting_evidence": [
+          "Preprint from one investigator study lineage. Four C9 patient lines are reported for mitochondrial/neurite response, but survival and bioenergetic endpoint breadth differs; no multicellular circuit or neuromuscular function qualification.",
+          "Control neurons also benefit; culture-specific metabolic support may explain some effect.",
+          "No in-vivo ALS functional result in this paper; authors describe such work as ongoing.",
+          "Unbound human CNS exposure relative to active cellular concentrations is unproven; BBB literature is conflicting.",
+          "Limited AD survival effect should prevent broad neurodegeneration extrapolation.",
+          "Riluzole/edaravone nonresponse in this culture assay does not show clinical superiority."
+        ],
+        "rights_and_capture": {
+          "observed": "Authors disclose US17/756,842 and PCT/US26/15790; Ronald Davis is founder/shareholder of Mitochondrial Medicines Corporation.",
+          "unresolved": [
+            "Exact claims, ownership and current licensing status",
+            "Whether existing formulations deliver relevant CNS exposure",
+            "Whether an independently obtainable differentiated contribution exists"
+          ],
+          "capture_inference": "Generic drug access does not establish ownable ALS economics. A CNS analog strategy would add a separate medicinal-chemistry and rights program."
+        },
+        "financing_scope": "Document-level exposure/rights reconciliation first. An improved-CNS analog or new formulation would be a materially larger development program, with efficacy nontransferable from parent dipyridamole; no budget or probability invented.",
+        "cheapest_next_information_gate": "Reconcile existing human PK/protein-binding/CNS data with cellular active exposure and inspect the disclosed patent families and sponsor scope; distinguish parent-drug repositioning from analog discovery.",
+        "stopping_rule": "Hold if clinically relevant CNS exposure cannot plausibly cover the cellular effect or if no differentiated obtainable product contribution can be specified. Do not finance an analog program merely to avoid a negative exposure finding.",
+        "comparison_to_queue": "Stronger human-cell survival readout than a metabolic-only screen, with additional C9 patient-line support for mitochondrial/neurite measures, but exposure, endpoint breadth and capture gaps block inherited-queue displacement; GA002 remains the separate clinical-information benchmark.",
+        "source_ids": [
+          "R25-N02",
+          "R25-N06",
+          "R25-N07"
+        ]
+      },
+      {
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "inherited_queue_displaced": false,
+        "novelty_scope": "Pinned 400-file baseline and recovered unlettered/B-M reports; N-Q unresolved. Scoped new exact therapeutic use only.",
+        "id": "R25-NEW-03",
+        "record_type": "new_exact_use_previously_screened_compound",
+        "name": "Atorvastatin for SRD5A3-CDG",
+        "aliases": [
+          "atorvastatin",
+          "SRD5A3-CDG",
+          "steroid 5 alpha-reductase 3 congenital disorder of glycosylation",
+          "10.1038/s43856-026-01791-4",
+          "PMC13642943",
+          "PMC12871848"
+        ],
+        "exact_use": "HMG-CoA reductase modulation with atorvastatin for SRD5A3-congenital disorder of glycosylation; a new disease-use pair, not a new compound.",
+        "exact_asset_identified": true,
+        "asset_limit": "Generic compound known; no indication-specific clinical product, achieved exposure, manufacturing package or proprietary implementation established.",
+        "information_priority_rank": 3,
+        "rank_meaning": "Third and lowest bounded information priority; negative-evidence reconciliation dominates.",
+        "disposition": "Hold; preclinical signal with unresolved glycosylation effect and weak capture.",
+        "evidence_level": "One worm-plus-four-patient-fibroblast study lineage. January 2026 preprint and July 2026 peer-reviewed paper are the same study.",
+        "evidence_units": [
+          {
+            "unit": "SRD5A3-equivalent loss-of-function worm model",
+            "interpretation": "Motility, progeny and neuronal phenotypes improve; worm function is not human neuronal function."
+          },
+          {
+            "unit": "Four patient fibroblast lines",
+            "interpretation": "Three of four had directional polyprenol/dolichol-ratio reduction; aggregate change was not statistically significant (p=0.08). No restoration of glycosylation was demonstrated."
+          },
+          {
+            "unit": "One DHDDS p.K42E patient in an adverse-evidence letter",
+            "interpretation": "Different gene and indication. Reversible systemic skin/edema symptoms with four statins; no retinal worsening; mechanism not proven. Not an SRD5A3 treatment trial."
+          }
+        ],
+        "positive_evidence": [
+          "Atorvastatin improves several disease-relevant worm phenotypes.",
+          "Directional lipid-ratio signal in patient fibroblasts motivates a narrowly defined mechanistic question."
+        ],
+        "negative_or_limiting_evidence": [
+          "Human fibroblast lipid-ratio result is a nonsignificant trend, not validated rescue.",
+          "Glycosylation correction remains an explicit untested question.",
+          "High exposures were toxic in worms; worm metabolite response did not match fibroblast lipid response.",
+          "Published statin caution reports one DHDDS patient's reversible systemic adverse symptoms and unpublished lovastatin sensitivity in SRD5A3/DHRSX-deficient cells; neither proves atorvastatin harm in SRD5A3 nor allows dismissal.",
+          "No established human neuronal, mammalian functional, or patient-treatment benefit."
+        ],
+        "rights_and_capture": {
+          "observed": "Atorvastatin was already screened in T102 for SPG5, and appears in recovered Screen K clinical context. SRD5A3 exact use not found in audited scope. Current paper includes Modelis and Perlara-affiliated authors but declares no competing interests.",
+          "unresolved": [
+            "Indication-specific rights or clinical sponsor status",
+            "Any practical formulation/process advantage with retained economics",
+            "Therapeutically useful and safe pathway-flux window"
+          ],
+          "capture_inference": "Known generic access reduces some manufacturing uncertainty but provides no private moat; an ordinary generic repurposing thesis has weak retained value without a distinct contribution."
+        },
+        "financing_scope": "A specialist evidence and product-scope review only. No cheap clinical pathway is assumed from existing atorvastatin use; CNS/pediatric function and gene-specific pathway risk could enlarge scope.",
+        "cheapest_next_information_gate": "Reconcile the final paper and statin caution at genotype, metabolite and glycosylation level using existing data; identify whether any actual functional glycosylation result and differentiated product route now exist.",
+        "stopping_rule": "Remain on hold if the thesis continues to rest on worm rescue plus a nonsignificant fibroblast ratio without useful human-cell function, or if generics leave no defensible retained economics. Do not generalize to other dolichol disorders.",
+        "comparison_to_queue": "Does not displace the conditional queue or GA002 information benchmark. No priced, obtainable commitment has demonstrated superiority to cash; relative EV remains unresolved.",
+        "source_ids": [
+          "R25-N03",
+          "R25-N04",
+          "R25-N06",
+          "R25-N07"
+        ]
+      }
+    ],
+    "existing_program_matrix": "research/rounds/round25/existing-candidate-matrix.json",
+    "existing_program_ids": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP",
+      "R23-01",
+      "R23-02",
+      "R23-03",
+      "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "R6-NL-01",
+      "R24-L01",
+      "R24-N01",
+      "R24-N02",
+      "R24-N03"
+    ],
+    "lead_advancement": "research/rounds/round25/apr246-advancement.md",
+    "prior_marginal_dollar_decision_preserved": {
+      "round": 24,
+      "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+      "completed_scope": "Supplied claudin-5 DME concept, three additional therapeutic-use screens and 12 existing-program reassessments; high-level investment and evidence review.",
+      "conditional_information_queue": [
+        "R23-01",
+        "R23-02",
+        "R23-03",
+        "R23-04"
+      ],
+      "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+      "paid_development_promotions": 0,
+      "spending_authorized": false,
+      "zero_or_wait_option_included": true,
+      "estimated_return_per_dollar": null,
+      "numerical_success_probabilities": false,
+      "replacement_allocation": null,
+      "inherited_conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "full_development_order_changed": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "novelty_exhaustive": false,
+      "missing_novelty_scope": [
+        "Screens N-Q",
+        "any later completed fresh screens"
+      ],
+      "supplied_lead_id": "R24-L01",
+      "supplied_lead_disposition": "HOLD_EARLY_DISCOVERY",
+      "additional_screen_information_queue": [
+        "R24-N01",
+        "R24-N03",
+        "R24-N02"
+      ],
+      "additional_information_queue_scope": "Within-screen desk-information priority only; not inserted into a repriced global asset-return ranking.",
+      "conditional_local_first_choice": "R4-L02",
+      "exhaustive_portfolio_valuation": false,
+      "historical_cost_bands_are_quotes": false
+    },
+    "source_reference_scope": "research/rounds/round25/source-register.json",
+    "novelty_audit": "research/rounds/round25/novelty-audit.json",
+    "external_screen_audit": "research/rounds/round25/external-screen-duplicate-audit.json",
+    "independent_reviews": [
+      "research/rounds/round25/integration-review.md"
+    ],
+    "artifact_manifest": "research/rounds/round25/artifact-manifest.json",
+    "verification": "research/rounds/round25/local-verification.json",
+    "activity_boundary": [
+      "no outreach",
+      "no purchases",
+      "no recruitment",
+      "no experiments",
+      "no simulations",
+      "no material receipt",
+      "no applications"
+    ],
+    "interpretation_limits": [
+      "APR current amended EP claim body, current title/terms, exact article/evidence-route access, output rights and actual staged costs.",
+      "GA002 detailed clinical report/protocol/appendix, participant lineage, all-treated safety and attainable economic interest.",
+      "A36 exact supplementary article/model provenance, public patent-family correspondence and attainable commercial scope.",
+      "DPM clinically relevant CNS exposure and disclosed rights; atorvastatin glycosylation/function, gene-specific risk and differentiated capture.",
+      "Historical external Screens N-Q and any other uninspected screens remain outside the novelty conclusion."
     ]
   }
 }

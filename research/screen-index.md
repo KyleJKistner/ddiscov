@@ -1,6 +1,8 @@
 # November therapeutic screens
 
-> **Latest review:** [Round 24](rounds/round24/README.md), 8 November 2026: supplied claudin-5 DME concept held at discovery stage, independent claim audit, additional candidate screen and 12 existing-program reassessments. No paid-development promotion. The [Round 24 ledger](rounds/round24/candidate-ledger.json) distinguishes the supplied concept from additional screens; original coverage rows remain unchanged. Novelty is limited to inspected records, with Screens N–Q unrecovered.
+> **Latest review:** [Round 25](rounds/round25/README.md), 8 November 2026: Firecrawl continuation with 16 existing decision records, three scoped new exact-use screens and APR advancement. [New ledger](rounds/round25/candidate-ledger.json): A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3-CDG. These are information priorities, with no funded promotion. All original coverage rows are preserved; Screens N–Q remain unresolved.
+
+> **Retained Round 24 review:** [Round 24](rounds/round24/README.md), 8 November 2026: supplied claudin-5 DME concept held at discovery stage, independent claim audit, additional candidate screen and 12 existing-program reassessments. No paid-development promotion. The [Round 24 ledger](rounds/round24/candidate-ledger.json) distinguishes the supplied concept from additional screens; original coverage rows remain unchanged. Novelty is limited to inspected records, with Screens N–Q unrecovered.
 
 > **Retained prior screen:** [Round 23](rounds/round23/README.md), 6 November 2026: GA002 clinical diligence, vaultAAV delivery rights/evidence, separate PSAM pain and epilepsy findings, and CCL21-vault/lower-priority cargo records. No paid-development promotion; novelty limited to inspected repository plus recovered B-M. The Round22 block below is historical.
 

@@ -1,6 +1,14 @@
 # Drug Discovery Research
 
-## Round 24: claudin 5 lead, new screening and existing-program reassessment
+## Round 25: Firecrawl continuation across three workstreams
+
+**Evidence cutoff: 8 November 2026.** [Round 25](research/rounds/round25/README.md) reassesses 16 current records, screens three additional exact therapeutic uses, and advances APR-246/AEC through a defined seven-gate decision package. Fresh primary inspection is distinguished from historical carry-forward. Firecrawl recovered the APR model paper and supplement, official patent records, the GA002 registry and full preclinical papers needed to sharpen the decisions.
+
+**APR remains the first conditional development option; GA002 remains the leading clinical-information question.** A36 for Huntington disease leads this round's new-screen information priority, followed by dipyridamole/ALS and atorvastatin/SRD5A3-CDG. No priced, obtainable commitment has established superiority to cash; no paid-development or S-tier promotion is made. Historical analyst envelopes remain assumptions rather than quotes, and relative financial EV is unresolved.
+
+The [existing-program review](research/rounds/round25/existing-candidate-reassessment.md), [new screen](research/rounds/round25/new-candidate-screen.md), [APR advancement](research/rounds/round25/apr246-advancement.md), [integration review](research/rounds/round25/integration-review.md) and [source register](research/rounds/round25/source-register.json) govern this continuation. All original 622 coverage records and prior round objects remain preserved. Newness is scoped to the pinned repository and 13 accessible prior reports; Screens N–Q remain unresolved.
+
+## Retained Round 24: claudin 5 lead, new screening and existing-program reassessment
 
 **Evidence cutoff: 8 November 2026.** [Round 24](research/rounds/round24/README.md) holds the supplied claudin-5 sealing VHH as an early discovery concept: target rationale is credible, but no demonstrated sealing asset, ocular product advantage or obtainable economic interest is established. The review corrects the broad claudin novelty claim and updates the DME competitive benchmark. Parallel work screens additional opportunities and reassesses 12 existing programs. APR-246 remains the first conditional small development option; GA002 remains the leading clinical information question. No paid-development promotion or replacement allocation is made, and cash/wait remains explicit.
 

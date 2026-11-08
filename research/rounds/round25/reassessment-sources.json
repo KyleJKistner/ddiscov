@@ -1,0 +1,211 @@
+{
+  "schema_version": "ddiscov.round25.reassessment_sources.v1",
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "baseline_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "source_count": 7,
+  "access_time_precision": "Access dates are retained at day precision; exact tool-call times were not preserved. No false timestamp precision is asserted.",
+  "sources": [
+    {
+      "id": "R25-E00",
+      "title": "Round 24 existing-candidate review and controlling closed passes",
+      "url": "https://github.com/KyleJKistner/ddiscov/blob/994454ca215920e1dd3fd151df6d8081e0ee345c/research/rounds/round24/existing-candidate-reassessment.md",
+      "source_type": "repository_baseline_analysis",
+      "publication_date": "2026-11-08",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Local checkout read",
+      "access_scope": "Round 24 review/matrix, four-addition ledger and assessments, and prior closed-pass paths; baseline context, not fresh external validation of all candidates.",
+      "repository_paths": [
+        "README.md",
+        "decisions/current-shortlist.md",
+        "decisions/selection-policy.md",
+        "research/rounds/round24/existing-candidate-reassessment.md",
+        "research/rounds/round24/existing-candidate-matrix.json",
+        "research/rounds/round24/candidate-ledger.json",
+        "research/rounds/round24/claudin5-dme-assessment.md",
+        "research/rounds/round24/new-candidate-screen.md"
+      ],
+      "observations": [
+        "The inherited conditional development order begins with APR-246/AEC; GA002 leads clinical-information priority.",
+        "Existing source passes and scope gates remain closed except named consequential reopeners.",
+        "Historical budget/time ranges are analyst assumptions, not quoted or authorized commitments.",
+        "The four Round 24 additions are explicit carry-forward records; SGPL1 > VS-X4/NGLY1 > ATP1A3 is a within-screen information order, not a global priced financial ranking. Claudin-5 remains early discovery on hold."
+      ],
+      "changed_since_round24": false,
+      "limitations": [
+        "Baseline analysis is not primary empirical evidence.",
+        "This lane does not re-audit the full historical portfolio."
+      ]
+    },
+    {
+      "id": "R25-E01",
+      "title": "Dai et al., Chemogenetic Neuromodulation for Refractory Epilepsy",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "doi": "10.1056/NEJMc2606815",
+      "source_type": "primary_publisher_abstract_and_metadata",
+      "publication_date": "2026-11-04",
+      "issue_date": "2026-11-05",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl direct URL scrape; paper lookup and targeted paper-reading fallback",
+      "access_scope": "HTTP 200 publisher abstract, metadata, publication history and supplementary-material names; subscriber gateway excludes the clinical letter body. Paper-reading fallback returned no passages.",
+      "observations": [
+        "The abstract describes three people with refractory epilepsy and a mean seizure-frequency reduction of 92.6%.",
+        "Adverse events are summarized as grade 1 or 2.",
+        "The page names a protocol and supplementary appendix, but their bodies were not recovered."
+      ],
+      "changed_since_round24": false,
+      "retrieval_change": "Direct publisher abstract revalidated; no full clinical report recovered.",
+      "contradictions_or_reconciliation": [
+        "A planned or broader six-person program does not expand this three-person published cohort.",
+        "An HTTP 200 response is not evidence of full-text access."
+      ],
+      "limitations": [
+        "No detailed adverse-event table, all-treated denominator, individual outcome definitions or clinical protocol inspected.",
+        "No login, subscription, purchase or access-control circumvention.",
+        "No controlled causal estimate or purchasable economic interest."
+      ]
+    },
+    {
+      "id": "R25-E02",
+      "title": "CIBR institutional account of first-in-human GA002 chemogenetic neuromodulation",
+      "url": "https://cibr.ac.cn/detail/researchAchievementpaper/7e141d834d99406db7c00600ce933837",
+      "source_type": "primary_investigator_institutional_research_report",
+      "publication_date": "2026-11-05",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl direct URL scrape",
+      "access_scope": "Full institutional report; the clinical paper's participant-level tables and protocol were not supplied by this read.",
+      "observations": [
+        "Reports three unilateral hippocampal-sclerosis mesial temporal-lobe epilepsy participants, substantial early seizure reduction and two seizure-free people during eight-to-twelve-month follow-up.",
+        "Describes safety as primary, efficacy as secondary, and blinded assessors.",
+        "Describes seizure recurrence associated with temporary interruption of activating medication and renewed control after restart."
+      ],
+      "changed_since_round24": false,
+      "contradictions_or_reconciliation": [
+        "Registry blinding=None and institutional blinded-assessor wording require protocol clarification; an open-label intervention can use blinded outcome adjudication.",
+        "Institutional longitudinal claims are not independent replication or a controlled withdrawal experiment."
+      ],
+      "limitations": [
+        "Investigator-associated institutional account, not the full clinical report.",
+        "No complete adverse-event denominator or uncommon-risk estimate.",
+        "Stoppable ligand activation does not reverse persistent gene exposure."
+      ]
+    },
+    {
+      "id": "R25-E03",
+      "title": "NSFC account of GA002 clinical translation and permissions",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2825/145361.html",
+      "source_type": "primary_funder_institutional_research_report",
+      "publication_date": "2026-11-06",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl direct URL scrape",
+      "access_scope": "Full funder report; no independent regulator filing or commercial agreement recovered.",
+      "observations": [
+        "Attributes the program to the CIBR/Xuanwu collaboration and transfer to GenAns / 健达九州（北京）生物科技有限公司.",
+        "Reports Chinese Phase I permission in May 2026 and first participant in August 2026.",
+        "Reports US Phase I/II permission dated 30 October 2026 for the program and associated device."
+      ],
+      "changed_since_round24": false,
+      "contradictions_or_reconciliation": [
+        "An existing commercial transfer is inconsistent with treating the project as an unclaimed freely available asset.",
+        "Clinical-study permission is not efficacy, commercial approval or an available investment."
+      ],
+      "limitations": [
+        "Regulatory facts remain institution-reported, not independently checked at regulator records.",
+        "No rights terms, financing availability or price verified.",
+        "No extra treated people inferred from regulatory chronology."
+      ]
+    },
+    {
+      "id": "R25-E04",
+      "title": "NEJM author data-sharing statement for NEJMc2606815",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMc2606815/suppl_file/nejmc2606815_data-sharing.pdf",
+      "source_type": "primary_author_data_sharing_statement",
+      "publication_date": "2026-11-05",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl PDF scrape",
+      "access_scope": "Complete one-page statement; no individual dataset accessed.",
+      "observations": [
+        "The authors describe intended deidentified-data release through ResMan within six months after trial completion.",
+        "The inspected statement does not establish the trial completion date or that data have already been released."
+      ],
+      "changed_since_round24": false,
+      "contradictions_or_reconciliation": [
+        "The release clock is tied to completion, not the publication date."
+      ],
+      "limitations": [
+        "An intended release is not current dataset availability.",
+        "No completion date or current ResMan result set verified."
+      ]
+    },
+    {
+      "id": "R25-E05",
+      "title": "ChiCTR2500111157 — Chemogenetic therapy for temporal-lobe epilepsy with unilateral hippocampal sclerosis",
+      "url": "https://www.chictr.org.cn/showprojEN.html?proj=280541",
+      "source_type": "primary_trial_registry_record",
+      "publication_date": "2025-10-27",
+      "record_last_refreshed": "2025-10-27",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl targeted registry search followed by full direct entry scrape",
+      "access_scope": "Full public bilingual trial record; planned design/administrative fields, not results or confirmed current enrollment.",
+      "observations": [
+        "Retrospective registration on 27 October 2025; last refresh is the same date.",
+        "Single-arm interventional study, planned sample size six; randomization None, blinding None, DSMC No.",
+        "Safety is primary; efficacy and related measures are secondary.",
+        "Registered execution dates are 8 January 2025 to 7 January 2030; recruitment dates are 9 January 2025 to 31 December 2025."
+      ],
+      "changed_since_round24": true,
+      "change_kind": "new_to_review_primary_documentary_design_constraints",
+      "contradictions_or_reconciliation": [
+        "Planned n=6 is not actual n treated and is not an all-treated safety denominator.",
+        "The stale recruiting field does not establish recruiting on 8 November 2026.",
+        "Blinding=None and institutional blinded-assessor wording are unresolved at the protocol/reporting level; they need not be mutually exclusive.",
+        "No listed DSMC does not establish no oversight."
+      ],
+      "limitations": [
+        "No posted outcome or all-treated safety data recovered.",
+        "Retrospective registration limits prospective-endpoint confidence.",
+        "Planned dates do not establish completion; no currently actionable recruitment inference."
+      ],
+      "registered_execution_dates": {
+        "start": "2025-01-08",
+        "end": "2030-01-07",
+        "scope": "planned dates in the registry, not actual completion"
+      },
+      "registered_recruitment_dates": {
+        "start": "2025-01-09",
+        "end": "2025-12-31",
+        "scope": "planned dates in the stale record, not verified current recruitment"
+      }
+    },
+    {
+      "id": "R25-E06",
+      "title": "Collins et al., Encapsulation of AAVs into Protein Vault Nanoparticles as a Novel Solution to Gene Therapy's Neutralizing Antibody Problem",
+      "url": "https://pubs.acs.org/asbcd6/article/15/10/3975/5254300/Encapsulation-of-AAVs-into-Protein-Vault",
+      "doi": "10.1021/acssynbio.6c00512",
+      "alternate_url": "https://doi.org/10.1021/acssynbio.6c00512",
+      "source_type": "primary_peer_reviewed_preclinical_study",
+      "publication_date": "2026-08-13",
+      "issue_date": "2026-10-16",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl DOI scrape resolving to full ACS article",
+      "access_scope": "Full open-access HTML main text, figure legends and discussion. Review focused on model, serum origin, comparator meaning and translational limits.",
+      "observations": [
+        "The neutralization comparison uses cultured CHO-Lec2 cells and serum from immunized mice.",
+        "Vault-packaged AAV retains transduction with neutralizing serum; an unpackaged vault/AAV mixture performs poorly in that condition.",
+        "Without neutralizing serum, both packaged preparation and unpackaged mixture enhance transduction, so general uptake improvement is not specific proof of shielding.",
+        "The authors frame human eligibility and eventual repeat dosing as future possibilities; no human-serum cohort or in-vivo redosing outcome is reported."
+      ],
+      "changed_since_round24": false,
+      "retrieval_change": "Full-text scope and comparator clarification for an already-known publication.",
+      "contradictions_or_reconciliation": [
+        "Broad immune-invisibility language is not a universal clinical property; the discussion itself notes a vault-autoantibody context.",
+        "The principal figure does not provide a clear independent-replicate or serum-donor denominator; none was inferred."
+      ],
+      "limitations": [
+        "No patient benefit, repeat-dosing success or human eligibility established.",
+        "No current ownership, available license or commercial terms inspected.",
+        "Manufacturing and intervention procedures were not reproduced in the decision artifacts."
+      ]
+    }
+  ]
+}

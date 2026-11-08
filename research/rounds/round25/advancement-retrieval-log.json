@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "round": 25,
+  "workstream": "APR246 advancement",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "objective": "[deep-research] Determine whether topical APR-246 for AEC has a transferable existing article, an informative function model, and obtainable product rights supporting a small next development commitment",
+  "purpose": "Target named documentary gaps after the closed Round16/24 pass; stop once the next decision is adequately specified.",
+  "raw_page_contents_saved_in_repository": false,
+  "conversation_identifiers_omitted": true,
+  "retrievals": [
+    {
+      "id": "APR-RET01",
+      "tool": "firecrawl_search",
+      "query": "\"APR-246\" \"AEC\" \"stability\"",
+      "limit": 5,
+      "status": "completed_excerpts_only",
+      "useful_results": [
+        {
+          "source": "web",
+          "position": 1,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/"
+        },
+        {
+          "source": "web",
+          "position": 5,
+          "url": "https://www.sciencedirect.com/science/article/pii/S1525001625010688"
+        }
+      ],
+      "result": "Known source trail; no separate quantitative finished-article transfer dataset recovered.",
+      "search_id": "01a1bc70-819b-7220-8b6a-1d04576b14c7",
+      "search_feedback": "partial; accepted"
+    },
+    {
+      "id": "APR-RET02",
+      "tool": "firecrawl_research_inspect_paper",
+      "paper_id": "doi:10.1111/exd.70238",
+      "status": "metadata_recovered",
+      "result": "Canonical identity and PMCID PMC12967716 recovered; index dates not treated as publisher publication dates."
+    },
+    {
+      "id": "APR-RET03",
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "doi:10.1111/jpc.70020",
+      "status": "no_fulltext_passages",
+      "result": "No patient treatment or outcome can be extracted."
+    },
+    {
+      "id": "APR-RET04",
+      "tool": "firecrawl_scrape",
+      "url": "https://register.epo.org/application?number=EP19740548",
+      "max_age": 0,
+      "status": "failed",
+      "error_code": "SCRAPE_ALL_ENGINES_FAILED",
+      "result": "No official status content in this attempt.",
+      "later_resolution": "Root recovered official procedural status through an alternative documented URL; see R25-I04. This failed attempt does not govern the integrated status conclusion."
+    },
+    {
+      "id": "APR-RET05",
+      "tool": "firecrawl_scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12967716/",
+      "status": "interstitial_only",
+      "http_status": 203,
+      "result": "Cookie-enablement page, no article body.",
+      "scrape_feedback": "bad; accepted"
+    },
+    {
+      "id": "APR-RET06",
+      "tool": "firecrawl_scrape",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jpc.70020",
+      "status": "metadata_and_references_only",
+      "result": "Primary case body absent; no APR-treated person added."
+    },
+    {
+      "id": "APR-RET07",
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "pmcid:PMC12967716",
+      "status": "no_fulltext_passages",
+      "result": "Paper index had no in-body passages; publisher route used instead."
+    },
+    {
+      "id": "APR-RET08",
+      "tool": "firecrawl_scrape",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/exd.70238",
+      "status": "main_text_recovered",
+      "result": "Complete main text/captions read and link to supplement discovered.",
+      "source_id": "R25-A01",
+      "scrape_feedback": "good; accepted"
+    },
+    {
+      "id": "APR-RET09",
+      "tool": "firecrawl_scrape",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jpc.70020",
+      "parsers": [
+        "pdf"
+      ],
+      "pdf_max_pages": 4,
+      "status": "redirected_to_metadata_page",
+      "returned_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jpc.70020",
+      "returned_service": "showAbstract",
+      "result": "PDF parser request did not return the PDF body; no full-text reading claimed.",
+      "scrape_feedback": "partial; accepted"
+    },
+    {
+      "id": "APR-RET10",
+      "tool": "firecrawl_scrape",
+      "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fexd.70238&file=exd70238-sup-0001-Supinfo.docx",
+      "status": "document_parsed",
+      "result": "Supplement recovered; only model identity and biological-unit information retained in deliverables.",
+      "source_id": "R25-A02",
+      "scrape_feedback": "good; accepted"
+    },
+    {
+      "id": "APR-RET11",
+      "tool": "firecrawl_search",
+      "query": "\"EP3823622\" patent grant status",
+      "limit": 5,
+      "status": "no_web_results",
+      "result": "Provider suggestions returned; no current EP legal fact established.",
+      "search_id": "01a1bc73-ca80-7208-a72f-ec67404d7d73",
+      "search_feedback": "bad; accepted"
+    },
+    {
+      "id": "APR-RET12",
+      "tool": "firecrawl_find_tools",
+      "providers": [
+        "uspto-gov"
+      ],
+      "capabilities": [
+        "intellectual-property/patent_document"
+      ],
+      "expand": [
+        "options",
+        "response"
+      ],
+      "include_costs": true,
+      "status": "contract_recovered",
+      "result": "Read-only official publication record; required number, optional include_full_text; published price five credits per call."
+    },
+    {
+      "id": "APR-RET13",
+      "tool": "firecrawl_find_tools",
+      "urls": [
+        "https://register.epo.org/application?number=EP19740548"
+      ],
+      "query": "European Patent Register EP3823622 current legal status claims application",
+      "status": "no_matching_provider",
+      "result": "No scoped EPO capability; failure is provider coverage, not a legal-status conclusion.",
+      "alexandria_feedback": "bad/missing_provider; accepted"
+    },
+    {
+      "id": "APR-RET14",
+      "tool": "firecrawl_scrape",
+      "alexandria": {
+        "provider": "uspto-gov",
+        "capability": "intellectual-property/patent_document",
+        "options": {
+          "number": "12521392",
+          "include_full_text": true
+        }
+      },
+      "status": "official_source_record_recovered",
+      "source_id": "R25-A03",
+      "records": 1,
+      "upstream_status": 200,
+      "result": "Bibliographic record and eight claims returned. No current-title or enforceability inference.",
+      "request_id": "b44fb4c5-6b40-40a3-841b-f990f4eccda5",
+      "alexandria_feedback": "good; accepted"
+    },
+    {
+      "id": "APR-RET15",
+      "tool": "firecrawl_interact",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=doclist",
+      "target_document_id": "MH1ZAPA7NESUUA2",
+      "target_document": "Claims dated 2025-10-22, two pages",
+      "scope": "Ordinary public document-selection/view/download controls only; read-only retrieval. No authentication, filing, alerts, contacts or record changes authorized.",
+      "timeout_seconds_requested": 60,
+      "status": "tool_timeout",
+      "error_message": "timeout of 65000 ms exceeded",
+      "session_id_returned": false,
+      "claim_text_returned": false,
+      "session_cleanup": "No scrapeId returned, so interact_stop could not be invoked. No session identifier was invented.",
+      "inference": "Tool timeout is not evidence of an access restriction or a patent-status fact."
+    },
+    {
+      "id": "APR-RET16",
+      "tool": "firecrawl_scrape",
+      "url": "https://register.epo.org/espacenet/application?number=EP19740548&lng=en&tab=main",
+      "max_age": 0,
+      "status": "official_procedural_record_independently_verified",
+      "returned_url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=main",
+      "http_status": 200,
+      "scrape_id": "01a1bc7e-9782-72ae-b127-419e8ae945b8",
+      "source_id": "R25-I04",
+      "result": "Examination in progress, status entry dated 2023-02-03, database updated 2026-11-06; latest displayed event renewal fee paid 2026-06-18. Current amended claims are not in this record.",
+      "scrape_feedback": "good; accepted"
+    }
+  ],
+  "independently_integrated_checks": [
+    {
+      "source_id": "R25-I01",
+      "performed_by": "root",
+      "url": "https://ir.aprea.com/node/10221/html",
+      "result": "Current company filing confirms prior inactive-trials/maintained-rights distinction."
+    },
+    {
+      "source_id": "R25-I03",
+      "performed_by": "root",
+      "url": "https://ppubs.uspto.gov/pubwebapp/external.html?q=12521392.pn.&db=USPAT",
+      "result": "Independent retrieval of the same USPTO publication record."
+    },
+    {
+      "source_id": "R25-I04",
+      "performed_by": "root",
+      "url": "https://register.epo.org/espacenet/application?number=EP19740548&lng=en&tab=main",
+      "result": "Official procedural status recovered through alternative register URL; see integrated source ledger for prosecution-document follow-up."
+    },
+    {
+      "source_id": "R25-I05",
+      "performed_by": "root",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=doclist",
+      "result": "Current claims/amendment documents listed 22 October 2025; text not recovered after unsupported GET. Original A1 is not treated as current pending text."
+    }
+  ],
+  "stop_reason": "Meaningful main-text, supplement and official-source claim/status gaps were narrowed. Remaining substantive uncertainties require new performance/access/terms evidence; further generic searching would not price the next commitment.",
+  "activity_declaration": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "automatic_monitoring": false
+  }
+}

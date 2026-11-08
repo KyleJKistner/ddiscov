@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "round": 25,
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "retrieval_route": "Firecrawl; inherited repository evidence explicitly marked.",
+  "raw_third_party_content_republished": false,
+  "sources": [
+    {
+      "id": "R25-A01",
+      "title": "A Novel Model System to Identify Cellular and Molecular Defects Underlying Rare Genetic Disorders",
+      "authors": "Salois MN et al.",
+      "publication_date": "2026-03-07",
+      "doi": "10.1111/exd.70238",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/exd.70238",
+      "type": "primary peer-reviewed research",
+      "accessed": "2026-11-08",
+      "retrieval": "Firecrawl URL scrape; complete main article and captions read; figures not independently digitized.",
+      "locator": "Results, Figures1\u20132, Conclusion and Data Availability",
+      "support": "Matched ectopic WT controls and a functional adhesion phenotype improve model interpretation. Reported lack of observed control differences is not formal equivalence. No APR rescue appears; data access requires a reasonable request and material access is unverified.",
+      "limitations": [
+        "Cell\u2013matrix adhesion is not a mature tissue barrier or a patient-benefit surrogate.",
+        "Overexpression, treatment response, access and transfer remain relevant limitations."
+      ],
+      "change_from_baseline": "Previously only abstract and figure legends read; substantive main text now recovered.",
+      "scrape_id": "01a1bc72-b045-715a-9442-38e1d1a3b496"
+    },
+    {
+      "id": "R25-A02",
+      "title": "Salois et al. Supporting Information",
+      "publication_date": "2026-03-07",
+      "doi": "10.1111/exd.70238",
+      "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fexd.70238&file=exd70238-sup-0001-Supinfo.docx",
+      "type": "primary paper supplement",
+      "accessed": "2026-11-08",
+      "retrieval": "Firecrawl parsed linked Word supplement; only identity and replicate-accounting facts used.",
+      "locator": "Model identity list and adhesion-analysis description",
+      "support": "Models are F513S, I537T and R598L. Adhesion uses three biological replicates with technical triplicates, not three independent donors.",
+      "limitations": [
+        "No APR-treated experiment or mature-barrier reversal is reported.",
+        "I537T overlap is not patient identity or resolution of the later clinical variant conflict."
+      ],
+      "change_from_baseline": "Exact model alleles and experiment-unit accounting recovered from previously unread supplement.",
+      "scrape_id": "01a1bc73-78f4-70bd-b713-a7b04d82e01f"
+    },
+    {
+      "id": "R25-A03",
+      "title": "US12521392B2 \u2014 Methods and compositions for promoting wound healing in a subject suffering from ectodermal dysplasias",
+      "publication_date": "2026-01-13",
+      "url": "https://ppubs.uspto.gov/pubwebapp/external.html?q=12521392.pn.&db=USPAT",
+      "type": "official-source patent publication record via structured provider",
+      "accessed": "2026-11-08",
+      "retrieval": "Firecrawl Alexandria uspto-gov/intellectual-property/patent_document; upstreamStatus 200, one record, all eight claims.",
+      "provider_options": {
+        "number": "12521392",
+        "include_full_text": true
+      },
+      "publication_number": "US12521392B2",
+      "application_number": "17/258894",
+      "publication_listed_assignees": [
+        "INSERM (Institut national de la sant\u00e9 et de la recherche m\u00e9dicale)",
+        "Universit\u00e9 de Paris",
+        "Assistance Publique-H\u00f4pitaux de Paris (AP-HP)"
+      ],
+      "locator": "Bibliographic fields and claims1\u20138",
+      "support": "Claim 1 specifies AEC, PRIMA-1MET and ED affecting at least one cornea. Claims5\u20136 retain that dependency for cream and skin-wound embodiments.",
+      "limitations": [
+        "Not an inspected facsimile.",
+        "Publication-listed assignees are not a verified current assignment chain.",
+        "No current enforceability, available license or all-party FTO determination.",
+        "Patent examples do not add clinical people or independent replication."
+      ],
+      "change_from_baseline": "Known US wording now verified through official-source publication data rather than Google transcription only.",
+      "independent_check": "Root independently retrieved the same record; R25-I03 in integrated record.",
+      "provider_request_id": "74e091b3-6c07-4c34-acc9-4b4119f5b404",
+      "request_id": "b44fb4c5-6b40-40a3-841b-f990f4eccda5"
+    },
+    {
+      "id": "R25-A04",
+      "title": "A General Paediatric Approach to Ankyloblepharon\u2013Ectodermal Dysplasia\u2013Cleft Lip/Palate Syndrome in Infancy: A Case Report",
+      "authors": "Gaston J et al.",
+      "publication_date": "2025-02-20",
+      "doi": "10.1111/jpc.70020",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jpc.70020",
+      "type": "primary case-report access record",
+      "accessed": "2026-11-08",
+      "retrieval": "Landing page metadata/references only; PDF request redirected to abstract page; paper index returned no full-text passages.",
+      "support": "Article identity and date verified. Citation of the original APR paper does not establish treatment of this infant.",
+      "limitations": [
+        "No substantive case body inspected.",
+        "No treatment, genotype, exposure, outcome or new APR-treated person credited."
+      ],
+      "change_from_baseline": "Access gap persists."
+    },
+    {
+      "id": "R25-A05",
+      "title": "European Patent Register \u2014 EP19740548 / EP3823622",
+      "url": "https://register.epo.org/application?number=EP19740548",
+      "type": "failed official-source access record",
+      "accessed": "2026-11-08",
+      "retrieval": "Firecrawl scrape failed with SCRAPE_ALL_ENGINES_FAILED; scoped provider discovery found no matching tool.",
+      "support": null,
+      "limitations": [
+        "This individual failed attempt supplies no evidence. Root subsequently recovered procedural status and current document list via another official URL; amended-claim text remains unread."
+      ],
+      "change_from_baseline": "Individual access failure superseded for procedural status by R25-I04/I05; current amended claims and commercial questions remain unresolved.",
+      "later_resolution_source_ids": [
+        "R25-I04",
+        "R25-I05"
+      ]
+    },
+    {
+      "id": "R25-A06",
+      "title": "Targeted finished-article evidence search",
+      "type": "retrieval coverage record",
+      "accessed": "2026-11-08",
+      "query": "\"APR-246\" \"AEC\" \"stability\"",
+      "retrieval": "Firecrawl web search, five excerpt results; known original article and related model literature.",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+        "https://www.sciencedirect.com/science/article/pii/S1525001625010688"
+      ],
+      "support": "No separate quantitative finished-article stability or dermal-exposure dataset recovered in this targeted search.",
+      "limitations": [
+        "Excerpts are discovery aids.",
+        "Not an exhaustive search or proof of absence.",
+        "No new article performance result extracted."
+      ],
+      "change_from_baseline": "No new transfer evidence.",
+      "search_id": "01a1bc70-819b-7220-8b6a-1d04576b14c7"
+    },
+    {
+      "id": "R25-A07",
+      "title": "Round16 APR clinical and marginal-dollar decision",
+      "type": "inherited repository evidence and analytical policy",
+      "publication_date": "2026-11-04",
+      "repository_paths": [
+        "../round16/apr-clinical-evidence.md",
+        "../round16/marginal-dollar-decision.md"
+      ],
+      "primary_anchor_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "retrieval": "Repository files read in full in Round25; primary original clinical paper not generically reread in this closed pass.",
+      "support": "Retain two-child source lineage, variant/site limits, ongoing-control claim and conditional qualification logic.",
+      "limitations": [
+        "No new clinical observations.",
+        "The old analyst envelope remains unvalidated."
+      ]
+    },
+    {
+      "id": "R25-A08",
+      "title": "Round16 article transfer/capture and Round24 APR reassessment",
+      "type": "inherited repository evidence and analytical policy",
+      "publication_date": "2026-11-08",
+      "repository_paths": [
+        "../round16/apr-product-capture.md",
+        "../round24/existing-candidate-reassessment.md"
+      ],
+      "retrieval": "Repository files read; fresh claim-source and model recoveries override only the named access limits.",
+      "support": "Existing article premise is conditional; product transfer, exposure, access and retained-value terms remain separate.",
+      "limitations": [
+        "No quote, finished-product transfer qualification or available commercial rights."
+      ]
+    }
+  ],
+  "integrated_source_dependencies": [
+    {
+      "id": "R25-I01",
+      "url": "https://ir.aprea.com/node/10221/html",
+      "relationship": "Root freshly read Q3 2026 filing and verified Nov4 signature date; this agent reused its check without another retrieval.",
+      "support": "Company APR trial inactivity coexists with maintenance/regulatory/closeout costs; this confirms prior context."
+    },
+    {
+      "id": "R25-I03",
+      "url": "https://ppubs.uspto.gov/pubwebapp/external.html?q=12521392.pn.&db=USPAT",
+      "relationship": "Independent root check of R25-A03; same publication, not independent legal or clinical evidence."
+    },
+    {
+      "id": "R25-I04",
+      "url": "https://register.epo.org/espacenet/application?number=EP19740548&lng=en&tab=main",
+      "relationship": "Root recovered the official EPO procedural record via alternative URL; advancement workstream independently rechecked the same official record on 2026-11-08.",
+      "support": "Examination in progress; database updated 2026-11-06. Latest displayed event 2026-06-18 renewal-fee payment; inspected publications list includes A1.",
+      "limitations": [
+        "Procedural record is not an issued-grant, current-title, available-license or FTO determination."
+      ],
+      "independent_retrieval": {
+        "tool": "firecrawl_scrape",
+        "source_url": "https://register.epo.org/espacenet/application?number=EP19740548&lng=en&tab=main",
+        "final_url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=main",
+        "scrape_id": "01a1bc7e-9782-72ae-b127-419e8ae945b8",
+        "http_status": 200,
+        "status": "Examination is in progress",
+        "status_updated": "2023-02-03",
+        "database_updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "R25-I05",
+      "url": "https://register.epo.org/application?number=EP19740548&lng=en&tab=doclist",
+      "relationship": "Root read official prosecution-document list.",
+      "support": "Claims (2 pp), annotated amended claims (2 pp) and examination reply (3 pp) are listed with 2025-10-22 date.",
+      "current_claims_document_id": "MH1ZAPA7NESUUA2",
+      "annotated_claims_document_id": "MH1ZAQQK1WN2PJM",
+      "limitations": [
+        "Current amended-claim text unread after direct GET unsupported.",
+        "Original A1 wording is not substituted for current pending claims.",
+        "Subsequent ordinary public-UI interaction timed out after 65000 ms without a session handle or document text; no access-control bypass attempted."
+      ]
+    }
+  ]
+}

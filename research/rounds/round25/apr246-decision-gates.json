@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "round": 25,
+  "candidate_id": "R4-L02",
+  "candidate": "Topical APR-246/eprenetapopt for persistent AEC erosions",
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
+  "scope": "APR-specific advancement and decision specification; cross-candidate ranking belongs to the independent portfolio reassessment.",
+  "decision": {
+    "disposition": "Retain inherited first conditional development option, subject to portfolio comparison and actual scoped terms.",
+    "source_pass": "Closed after targeted model and published-claim recoveries.",
+    "exact_claim": "Useful sustained control of persistent AEC erosions and treatment burden during continued use, with acceptable tissue integrity and local/systemic exposure.",
+    "financial_return_estimated": false,
+    "spend_readiness_established": false,
+    "execution_authorized": false,
+    "new_candidates": 0,
+    "new_patients": 0,
+    "new_apr_efficacy_results": 0,
+    "new_independent_clinical_cohorts": 0,
+    "actual_price_usd": null,
+    "actual_timeline_months": null,
+    "available_license_terms": null
+  },
+  "historical_envelope": {
+    "source": "../round16/marginal-dollar-decision.md",
+    "currency": "USD",
+    "amount_min": 25000,
+    "amount_max": 100000,
+    "months_min": 2,
+    "months_max": 5,
+    "label": "Inherited analyst assumption, not a current quote or validated schedule.",
+    "excluded": [
+      "clinical trials",
+      "major new model construction",
+      "rights/licensing",
+      "GLP toxicology",
+      "GMP clinical manufacture",
+      "commercialization"
+    ],
+    "scope_change_requires_new_comparison": true
+  },
+  "gates": [
+    {
+      "id": "APR-G01",
+      "question": "Is the intended claim and next decision finite?",
+      "status": "defined",
+      "requirement": "Specify the incremental ongoing-control benefit and the choice informed by success, failure or an inconclusive result.",
+      "present_evidence": "Round16 claim amendment retained; no universal withdrawal-persistence or complete-cornification requirement.",
+      "source_ids": [
+        "R25-A07"
+      ],
+      "must_be_resolved_before": "Pricing a defined next block"
+    },
+    {
+      "id": "APR-G02",
+      "question": "Can the historical article be transferred and interpreted without substantial new invention?",
+      "status": "partly_documented_not_qualified",
+      "requirement": "Document identity, essential performance and exposure gaps, transfer feasibility and the cost of resolving consequential gaps.",
+      "present_evidence": "Defined historical article and nominal consistency retained; no new quantitative finished-article transfer record recovered.",
+      "source_ids": [
+        "R25-A06",
+        "R25-A08"
+      ],
+      "must_be_resolved_before": "Interpretation of article-dependent results; qualification may itself be the funded question"
+    },
+    {
+      "id": "APR-G03",
+      "question": "Is an existing evidence route sufficiently specified for a fit decision?",
+      "status": "documentary_gap_narrowed",
+      "requirement": "Map the source-backed route to the intended question and identify what it cannot establish.",
+      "present_evidence": "Main text and linked supplement recovered, including controls, exact alleles and replicate units.",
+      "source_ids": [
+        "R25-A01",
+        "R25-A02"
+      ],
+      "must_be_resolved_before": "Choosing a model-dependent block"
+    },
+    {
+      "id": "APR-G04",
+      "question": "Are access, model fit and negative-result interpretation actually established?",
+      "status": "open",
+      "requirement": "Verify actual inputs/access and whether the proposed result can distinguish article failure, insufficient delivery, model limitations and failure of the intended claim.",
+      "present_evidence": "A published route is not a transferred or APR-responsive assay; no access or cost commitment was recovered.",
+      "source_ids": [
+        "R25-A01",
+        "R25-A02",
+        "R25-A07"
+      ],
+      "must_be_resolved_before": "A strong result-dependent biological inference; fit qualification can be a separate first block"
+    },
+    {
+      "id": "APR-G05",
+      "question": "Does APR provide useful comparative ongoing control?",
+      "status": "unproven",
+      "requirement": "Evidence appropriate to the intended claim, with useful benefit and tissue/exposure interpretation.",
+      "present_evidence": "Retained two-child uncontrolled source lineage; no added treatment observation.",
+      "source_ids": [
+        "R25-A07",
+        "R25-A04"
+      ],
+      "must_be_resolved_before": "Claiming demonstrated useful efficacy; not a prerequisite for evaluating a bounded proof"
+    },
+    {
+      "id": "APR-G06",
+      "question": "Are publication claims and commercial control distinguished?",
+      "status": "published_us_claims_and_ep_procedural_status_verified_commercial_control_open",
+      "requirement": "Keep known published claims, current title/status, territorial constraints, data use and offered terms separate.",
+      "present_evidence": "Official-source US publication and European procedural record/document list recovered. Text of the listed October 2025 amended EP claims and current assignment/transaction terms remain unverified.",
+      "source_ids": [
+        "R25-A03",
+        "R25-A05",
+        "R25-I04",
+        "R25-I05"
+      ],
+      "must_be_resolved_before": "Any commercial commitment that depends on those rights",
+      "retrieval_followup": "Specific listed October 2025 two-page claims were targeted through the ordinary public document UI; Firecrawl interaction timed out without claim text. The amended-claim gap remains explicit."
+    },
+    {
+      "id": "APR-G07",
+      "question": "Does a priced information purchase beat alternatives and waiting?",
+      "status": "unpriced",
+      "requirement": "Compare the exact deliverable, total remaining cost, timing, retained interest and option to stop with the strongest available alternative.",
+      "present_evidence": "No actual offer or executable terms; inherited envelope is not repriced.",
+      "source_ids": [
+        "R25-A07",
+        "R25-A08"
+      ],
+      "must_be_resolved_before": "Spending decision"
+    }
+  ],
+  "next_commitment": {
+    "goal": "Determine whether an existing article and a defined evidence route can deliver consequential information at acceptable all-in terms.",
+    "deliverables": [
+      "exact article transfer assessment",
+      "evidence-route fit assessment",
+      "comparative benefit specification",
+      "access and output-rights schedule",
+      "separate first-block and later-block costs/timing"
+    ],
+    "automatic_release_of_later_funding": false,
+    "qualification_only_success_does_not_establish_useful_function": true,
+    "reduced_information_scope_cannot_inherit_prior_rank_or_ev": true,
+    "preclinical_efficacy_reset_mandatory": false,
+    "controlled_clinical_route": "May be more informative, but requires a separately assessed and authorized scope.",
+    "do_not_require_future_result_before_considering_its_proof": true
+  },
+  "branches": [
+    {
+      "if": "Existing article and suitable evidence route can answer a consequential question at acceptable terms",
+      "then": "Consider that bounded block against current alternatives; no automatic later funding."
+    },
+    {
+      "if": "Initial work supplies transfer/model qualification only",
+      "then": "Reprice the separate useful-function or clinical decision."
+    },
+    {
+      "if": "Credible useful benefit at interpretable exposure with adequate tissue integrity",
+      "then": "Consider independent confirmation and the next claim-specific product/capture question."
+    },
+    {
+      "if": "Qualified evidence excludes worthwhile benefit for the specified claim",
+      "then": "Stop or narrow that claim."
+    },
+    {
+      "if": "Inconclusive because article, exposure, model or measurement is inadequate",
+      "then": "Evaluate a finite informative remedy or stop; do not infer global biological failure."
+    },
+    {
+      "if": "Substantial new invention or inaccessible inputs/rights are required",
+      "then": "End the small-option premise and compare the revised remaining opportunity with alternatives and cash."
+    },
+    {
+      "if": "Patient benefit can be shown but retained economics are inadequate",
+      "then": "Decline the commercial thesis at those terms; label any public-benefit route separately."
+    },
+    {
+      "if": "No superior defined and priced opportunity is established",
+      "then": "Retain capital and await a named substantive reopening event."
+    }
+  ],
+  "permitted_current_activity": [
+    "public-source research",
+    "evidence reconciliation",
+    "decision analysis",
+    "repository documentation"
+  ],
+  "prohibited_current_activity": [
+    "outreach",
+    "purchases",
+    "recruitment",
+    "experiments",
+    "simulations",
+    "material receipt",
+    "automatic monitoring"
+  ],
+  "reopening_triggers": [
+    "actual article stability/transfer/exposure evidence",
+    "substantive additional clinical result or correction",
+    "model fit/access artifact",
+    "text of the listed October 2025 European amended claims, substantive later prosecution, or current assignment record",
+    "defined commercial contribution or terms",
+    "priced scope changing the marginal-dollar comparison"
+  ],
+  "limitations": [
+    "No new biological work or clinical evidence.",
+    "No calibrated success probability or numerical EV.",
+    "No verified current title, FTO or available license.",
+    "No operational biological procedures."
+  ]
+}
