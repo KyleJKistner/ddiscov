@@ -1,0 +1,439 @@
+{
+  "schema_version": "ddiscov.round24.sources.v1",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "source_count": 39,
+  "reading_rule": "Source count is not independent-study count. Abstracts, indexed excerpts, inaccessible leads, sponsor statements, patent documents and primary full articles are labeled separately. T04 is discovery provenance only.",
+  "sources": [
+    {
+      "id": "C01",
+      "title": "User supplied claudin 5 DME concept",
+      "source_type": "user_attachment_hypothesis",
+      "filename": "02_DME_claudin-5_sealing_biparatopic_VHH.docx",
+      "sha256": "90acbe2aca352ce23f2c49e5bccf98de486e59730901db14e0c0e4a4c7c58d9c",
+      "access_scope": "Local OOXML paragraph and table extraction read in full. Original document not republished.",
+      "supports": "Proposed concept and original evidence qualifiers only; not experimental evidence."
+    },
+    {
+      "id": "C02",
+      "title": "Arima et al 2020 claudin 5 redistribution and anti VEGF resistant DME",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32139595/",
+      "doi": "10.2337/db19-1121",
+      "source_type": "primary_research_abstract",
+      "access_scope": "Primary PubMed and publisher abstracts recovered through search-indexed text; direct PubMed open returned an empty shell and full paper was not recovered.",
+      "supports": "Inflammatory claudin-5 redistribution and ROCK context; no direct sealing VHH tested."
+    },
+    {
+      "id": "C03",
+      "title": "Merck BRUNELLO topline announcement 24 September 2026",
+      "url": "https://www.merck.com/news/mercks-remigromig-a-tri-specific-agonist-of-the-wingless-related-integration-site-wnt-pathway-met-primary-endpoint-in-the-pivotal-phase-2b-3-brunello-study-of-adults-with-diabetic-macular/",
+      "source_type": "primary_sponsor_release",
+      "date": "2026-09-24",
+      "access_scope": "Full primary sponsor web page read; later October disclosure used for more specific outcome interpretation.",
+      "supports": "Barrier restoration is an active clinical development strategy; same cohort as C04, not independent replication."
+    },
+    {
+      "id": "C04",
+      "title": "Merck BRUNELLO one year results 10 October 2026",
+      "url": "https://www.merck.com/news/merck-presents-one-year-results-from-the-pivotal-phase-2b-3-brunello-study-evaluating-remigromig-a-tri-specific-agonist-of-the-wingless-related-integration-site-wnt-pathway-in-adults-with-diabetic/",
+      "source_type": "primary_sponsor_trial_report",
+      "date": "2026-10-10",
+      "access_scope": "Full primary sponsor page including outcome, safety and trial-description sections read.",
+      "supports": "Visual noninferiority, no secondary superiority, and safety imbalances in a 984-participant trial; not regulatory approval."
+    },
+    {
+      "id": "C05",
+      "title": "Surrozen SZN 8141 IND effective announcement",
+      "url": "https://surrozen.com/press_releases/surrozen-announces-fda-clearance-of-ind-application-for-szn-8141-for-the-treatment-of-diabetic-macular-edema/",
+      "source_type": "primary_sponsor_release",
+      "date": "2026-10-02",
+      "access_scope": "Full primary sponsor page read.",
+      "supports": "Effective IND and planned fourth-quarter 2026 first dosing; no treated-patient outcomes established."
+    },
+    {
+      "id": "C06",
+      "title": "Surrozen second tranche financing closed",
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3385015/0/en/surrozen-announces-closing-of-second-tranche-of-march-2025-private-placement-for-95-1-million.html",
+      "source_type": "primary_sponsor_release",
+      "date": "2026-10-20",
+      "access_scope": "Issuer-authored distributed press release read.",
+      "supports": "Reported $95.1 million gross financing for multiple programs and operations; not a cost estimate for the claudin concept."
+    },
+    {
+      "id": "C07",
+      "title": "Vabysmo US prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=04cc9ef7-c02a-4e92-a655-0062674e8487",
+      "source_type": "official_label",
+      "date": "2026-04-15",
+      "access_scope": "Full DailyMed label retrieved; mechanism and DME dosing sections inspected.",
+      "supports": "Dual VEGF-A and Ang-2 binding, response-guided dosing; independent contribution of Ang-2 inhibition not established by label."
+    },
+    {
+      "id": "C08",
+      "title": "Eylea HD US prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86d8848b-111b-4da9-8957-7cccef1b8f66",
+      "source_type": "official_label",
+      "date": "2026-04-06",
+      "access_scope": "Full DailyMed label retrieved; DME dosing section inspected.",
+      "supports": "8–16-week maintenance and conditional 20-week extension after a successful year; not universal patient durability."
+    },
+    {
+      "id": "C09",
+      "title": "Susvimo US prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c6d9e2a-9a77-4d11-b692-de87cfde3444",
+      "source_type": "official_label",
+      "date": "2025-09-15",
+      "access_scope": "Search-retrieved official label sections on DME indication, refill interval, surgical use and warnings.",
+      "supports": "DME after response to at least two VEGF inhibitor injections; 24-week implant refill with distinct surgical/implant risks."
+    },
+    {
+      "id": "C10",
+      "title": "Ozurdex US prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b204f44-6e8a-4d17-803c-268f0b04679f",
+      "source_type": "official_label",
+      "date": "2026-03-11",
+      "access_scope": "Search-retrieved official indication and clinical-study sections.",
+      "supports": "Approved corticosteroid implant comparator for DME; trial retreatment intervals are not asserted as a universal label schedule."
+    },
+    {
+      "id": "C11",
+      "title": "Iluvien US prescribing information",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4400e471-7402-11df-93f2-0800200c9a66",
+      "source_type": "official_label",
+      "date": "2026-01-28",
+      "access_scope": "Search-retrieved official indication and dosing sections.",
+      "supports": "DME corticosteroid implant indication with prior steroid/pressure-response restriction."
+    },
+    {
+      "id": "C12",
+      "title": "DRCR Protocol U persistent DME randomized trial",
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2663061",
+      "doi": "10.1001/jamaophthalmol.2017.4914",
+      "source_type": "primary_randomized_trial",
+      "date": "2018-01",
+      "access_scope": "Publisher full text retrieved, including study population and outcome sections; no new participant-level analysis.",
+      "supports": "129 eyes in 116 adults; greater anatomic improvement did not establish superior mean vision at 24 weeks."
+    },
+    {
+      "id": "C13",
+      "title": "Ocular half life of intravitreal biologics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31876425/",
+      "doi": "10.1021/acs.molpharmaceut.9b01191",
+      "source_type": "primary_published_analysis",
+      "access_scope": "Primary abstract recovered through search-indexed PubMed/publisher text. Direct full text not obtained; no model rerun.",
+      "supports": "Hydrodynamic size is relevant to ocular residence; no measured or simulated PK assigned to the hypothetical VHH."
+    },
+    {
+      "id": "E01",
+      "title": "Dai et al. Chemogenetic Neuromodulation for Refractory Epilepsy",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "publication_date": "2026-11-04 online; 2026-11-05 issue",
+      "source_type": "Original clinical publisher abstract",
+      "access_level": "Search-indexed original publisher text; direct main article returned 403",
+      "new_to_review": "Direct primary abstract provenance revalidated; no new efficacy",
+      "supports": "Three patients; mean seizure-frequency reduction 92.6%; grade 1 or 2 adverse events; protocol and appendix identified but unread",
+      "limitations": "No full-article/protocol/appendix audit; no controlled treatment effect or new patients",
+      "access_scope": "Search-indexed original publisher text; direct main article returned 403"
+    },
+    {
+      "id": "E02",
+      "title": "GA002 authors' data-sharing statement",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMc2606815/suppl_file/nejmc2606815_data-sharing.pdf",
+      "publication_date": "2026-11-05 stated posting date",
+      "source_type": "Original author data-sharing statement",
+      "access_level": "Complete statement text visible in search-indexed publisher PDF; direct PDF returned 403",
+      "new_to_review": "New documentary addition",
+      "supports": "Authors promise de-identified clinical trial data on ResMan within six months after trial completion",
+      "limitations": "No trial completion date, currently available dataset, public release deadline tied to publication, or actual upload verified",
+      "access_scope": "Complete statement text visible in search-indexed publisher PDF; direct PDF returned 403"
+    },
+    {
+      "id": "E03",
+      "title": "Astellas Q2 YTD FY2026 financial results",
+      "url": "https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/2q2026_pre_en.pdf",
+      "publication_date": "2026-11-04 on title page",
+      "source_type": "Sponsor investor presentation",
+      "access_level": "43-page PDF reader text and pipeline-page screenshots requested; relevant indexed primary pipeline text reviewed",
+      "new_to_review": "New-to-repository comparator status snapshot",
+      "supports": "October 2026 pipeline places ASP2957 pre-PoC; pages 11 and 24 identify ongoing early development",
+      "limitations": "No ASP2957 human efficacy or safety outcome; sponsor status is not an independently audited result; search-engine date differs from document title-page date",
+      "access_scope": "43-page PDF reader text and pipeline-page screenshots requested; relevant indexed primary pipeline text reviewed"
+    },
+    {
+      "id": "E04",
+      "title": "Astellas ASP2957 VALOR study 2957-CL-0101",
+      "url": "https://www.clinicaltrials.astellas.com/study/2957-CL-0101",
+      "publication_date": null,
+      "source_type": "Current sponsor study record",
+      "access_level": "Full public page text read 2026-11-08",
+      "new_to_review": "Current status revalidation",
+      "supports": "Open-label Phase 1/2, site recruitment listings, planned trial dates and stated enrollment field",
+      "limitations": "No outcome, dosed-participant count, clinical effect estimate or final market eligibility established; enrollment field not treated as actual dosed count",
+      "access_scope": "Full public page text read 2026-11-08"
+    },
+    {
+      "id": "E05",
+      "title": "Aprea Q3 2026 Form 10-Q accession 0001104659-26-122405",
+      "url": "https://ir.aprea.com/node/10221/ixbrl-viewer",
+      "publication_date": "2026-11-04",
+      "source_type": "Company regulatory filing",
+      "access_level": "Search-indexed original filing passages; direct HTML route returned 403",
+      "new_to_review": "Revalidation of Round 16 fact",
+      "supports": "No ongoing company APR-246 clinical trials; APR-246 expenditure includes patent maintenance, regulatory and closeout costs",
+      "limitations": "No worldwide trial-absence conclusion, abandoned-rights conclusion or available license/price",
+      "access_scope": "Search-indexed original filing passages; direct HTML route returned 403"
+    },
+    {
+      "id": "E06",
+      "title": "Collins et al. Encapsulation of AAVs into Protein Vault Nanoparticles as a Novel Solution to Gene Therapy's Neutralizing Antibody Problem",
+      "url": "https://doi.org/10.1021/acssynbio.6c00512",
+      "publication_date": "2026-08-13 online; 2026-10-16 issue per Round 23",
+      "source_type": "Original preclinical article",
+      "access_level": "Search-indexed publisher/PubMed/investigator-institution text; direct DOI route returned 403",
+      "new_to_review": "Revalidation of Round 23 evidence ceiling",
+      "supports": "Cell transduction in presence of neutralizing serum; existing article rather than new human therapy",
+      "limitations": "No new in-vivo therapeutic result, human redosing, broad cargo efficacy or independence from existing source lineage",
+      "access_scope": "Search-indexed publisher/PubMed/investigator-institution text; direct DOI route returned 403"
+    },
+    {
+      "id": "E07",
+      "title": "Logan Thrasher Collins inventor account",
+      "url": "https://logancollinsblog.com/",
+      "publication_date": null,
+      "source_type": "Inventor first-person business account",
+      "access_level": "Full page read 2026-11-08",
+      "new_to_review": "Current revalidation of prior ownership-history claim",
+      "supports": "Reports Cathedral acquisition by unnamed stealth biotech in March 2025 and new Cathedral commercial entity",
+      "limitations": "Acquirer, executed transaction, exact current title, available rights and economics not independently verified",
+      "access_scope": "Full page read 2026-11-08"
+    },
+    {
+      "id": "E08",
+      "title": "Perez-Sanchez et al. A humanized chemogenetic system inhibits murine pain-related behavior and hyperactivity in human sensory neurons",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615191/",
+      "publication_date": "2023-10-04",
+      "source_type": "Original preclinical study",
+      "access_level": "Search-indexed primary PMC/PubMed text; inherited detailed scope from Round 23",
+      "new_to_review": "Revalidation of preclinical evidence category",
+      "supports": "Mouse pain-related behavior and human sensory-neuron physiology; not treated-human efficacy",
+      "limitations": "Different controllers/configurations cannot exchange clinical evidence; no new independent cohort",
+      "access_scope": "Search-indexed primary PMC/PubMed text; inherited detailed scope from Round 23"
+    },
+    {
+      "id": "E09",
+      "title": "Cooper et al. Precision cell-state silencing of injured afferents alleviates spontaneous neuropathic pain",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757642v1",
+      "publication_date": "2026-10-15 v1",
+      "source_type": "Primary preprint bibliographic lead",
+      "access_level": "Original bioRxiv listing reidentified; primary full text and DOI inaccessible",
+      "new_to_review": "Named reopener checked without substantive recovery",
+      "supports": "Title, author list, DOI and version/date only",
+      "limitations": "Third-party abstract copies not admitted as primary result verification; no quantitative or product-specific promotion",
+      "access_scope": "Original bioRxiv listing reidentified; primary full text and DOI inaccessible"
+    },
+    {
+      "id": "E10",
+      "title": "Kora accepted-manuscript deposit for Brain paper 10.1093/brain/awaf278",
+      "url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/a2683b0a-e6c9-4fa6-9811-7c9587eaa36a/download",
+      "publication_date": "2026-07-29 deposit release per prior Round 18 metadata",
+      "source_type": "Official institutional manuscript route",
+      "access_level": "Named link attempted once; unread",
+      "new_to_review": "Named reopener checked without substantive recovery",
+      "supports": "No new source content adopted",
+      "limitations": "No new force, timing, donor, access, cost or exact-BLU conclusion",
+      "access_scope": "Named link attempted once; unread"
+    },
+    {
+      "id": "E11",
+      "title": "Li et al. DKK1 Targeting in Corneal Schwann Cells Rescues Axonal Regeneration and Mechanosensory Function After Corneal Injury",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42289930/",
+      "publication_date": "2026",
+      "source_type": "Original primary author abstract",
+      "access_level": "Search-indexed PubMed abstract rechecked; full detailed interpretation inherited from Round 17",
+      "new_to_review": "Revalidation of existing exact-product animal evidence",
+      "supports": "RM4404 animal structural/function program",
+      "limitations": "No new denominator resolution, independent replication, useful human function or clinical superiority",
+      "access_scope": "Search-indexed PubMed abstract rechecked; full detailed interpretation inherited from Round 17"
+    },
+    {
+      "id": "E12",
+      "title": "Shearer et al. Pharmacological PIK3C2B inhibition rescues XLMTM phenotype in mouse models and identifies molecular markers of disease",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "publication_date": "2026-04-09 online; 2026-05-22 version 2",
+      "source_type": "Original preclinical primary article",
+      "access_level": "Publisher metadata and search-indexed original abstract rechecked",
+      "new_to_review": "Revalidation of existing evidence category",
+      "supports": "BLU3797 exact-article mouse efficacy; no new human efficacy",
+      "limitations": "No new human model, safety window, exposure bridge, rights terms or investment return",
+      "access_scope": "Publisher metadata and search-indexed original abstract rechecked"
+    },
+    {
+      "id": "T01",
+      "title": "Takigawa et al. Creation of a Claudin-2 Binder and Its Tight Junction-Modulating Activity in a Human Intestinal Model",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28928120/",
+      "doi": "10.1124/jpet.117.242214",
+      "date": "2017",
+      "source_type": "primary_research_abstract",
+      "access_scope": "Indexed primary PubMed and publisher abstracts inspected independently by lead and reviewer. Direct full-text request returned 403. No complete figures or supplement audit.",
+      "supports": "Direct anti-claudin-2 antibody improves epithelial barrier integrity and attenuates cytokine-associated loss. Different claudin, tissue and mechanism from proposed retinal strand stabilization."
+    },
+    {
+      "id": "T02",
+      "title": "Ogbu et al. Biophysical basis of tight junction barrier modulation by a pan-claudin-binding molecule",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40575703/",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12198772/",
+      "doi": "10.1093/pnasnexus/pgaf189",
+      "date": "2025",
+      "source_type": "primary_research_abstract",
+      "access_scope": "Primary indexed abstract; no complete structural or supplement audit.",
+      "supports": "Synthetic Fab, rather than VHH, with broad claudin recognition and barrier opening. Does not verify or disprove separate VHH structural-chaperone assertion."
+    },
+    {
+      "id": "T03",
+      "title": "Claudin-1 induced sealing of blood-brain barrier tight junctions ameliorates chronic experimental autoimmune encephalomyelitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21983942/",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207130/",
+      "doi": "10.1007/s00401-011-0883-2",
+      "date": "2011",
+      "source_type": "primary_research_abstract",
+      "access_scope": "Primary indexed abstract and excerpts; full-text review limited.",
+      "supports": "Context-specific genetic CLDN1 mouse findings; no product-specific CLDN5 ocular safety conclusion."
+    },
+    {
+      "id": "T04",
+      "title": "Structure-forward targeting of claudins with synthetic binders",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523065/",
+      "doi": "10.1002/1873-3468.70424",
+      "date": "2026",
+      "source_type": "secondary_discovery_pointer",
+      "access_scope": "Indexed review used by independent reviewer to locate primary evidence; not relied on for integrated technical conclusions.",
+      "supports": "Discovery provenance only.",
+      "used_as_decision_evidence": false
+    },
+    {
+      "id": "T05",
+      "title": "Claudin 5 antibody, and medicine containing said antibody",
+      "url": "https://patents.google.com/patent/US10882906B2/en",
+      "alternate_urls": [
+        "https://patents.google.com/patent/US20200223915A1/en",
+        "https://patents.google.com/patent/WO2018105560A1/en"
+      ],
+      "source_type": "primary_patent_document",
+      "access_scope": "Reviewer inspected public metadata and description. Parent additionally inspected granted US claim 1 and dependent claims. No exhaustive family, prosecution, official title or legal-status review.",
+      "supports": "Relevant direct extracellular CLDN5 prior art; granted claim language defines specified antibody classes. Neither blanket coverage nor freedom to operate inferred.",
+      "legal_conclusion": null
+    },
+    {
+      "id": "T06",
+      "title": "Anti-claudin-2 monoclonal antibody",
+      "url": "https://patents.google.com/patent/US11078271B2/en",
+      "source_type": "primary_patent_document",
+      "access_scope": "Parent inspected public grant text, barrier-function examples and claim 1. No complete claim chart, official title or legal-status review.",
+      "supports": "Barrier-enhancing antibody examples and separately defined claims. Not treated as independent replication of the associated research paper.",
+      "legal_conclusion": null
+    },
+    {
+      "title": "JCI206980: SGPL1 R222Q/pyridoxine study",
+      "url": "https://jci.org/articles/view/206980",
+      "doi": "10.1172/JCI206980",
+      "publication_status": "September 24, 2026 In-Press Preview as inspected",
+      "evidence_family": "SGPL1_R222Q_2026",
+      "supports": [
+        "Genotype-specific individual human observation.",
+        "Patient-cell/enzyme evidence.",
+        "Diet-conditioned R222Q mouse renal phenotype."
+      ],
+      "id": "N01",
+      "source_type": "primary research",
+      "access_scope": "Direct publisher abstract and metadata/version page inspected; complete article text not recovered."
+    },
+    {
+      "title": "SGPL1 R222Q study preprint/full-text lineage",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13192960/",
+      "evidence_family": "SGPL1_R222Q_2026",
+      "supports": [
+        "Earlier-case context and interpretation of the same study."
+      ],
+      "independent_replication": false,
+      "id": "N02",
+      "source_type": "primary research, same lineage as N01",
+      "access_scope": "Indexed primary preprint/manuscript excerpts inspected; no confirmed direct complete-text access. Same current-study lineage as N01."
+    },
+    {
+      "title": "In vivo prime editing rescues alternating hemiplegia of childhood in mice",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40695277/",
+      "doi": "10.1016/j.cell.2025.06.038",
+      "publication_year": 2025,
+      "journal": "Cell",
+      "evidence_family": "ATP1A3_PE_Cell_2025",
+      "supports": [
+        "Two disease-variant mouse models.",
+        "Molecular and phenotypic benefit."
+      ],
+      "id": "N03",
+      "source_type": "primary research record",
+      "access_scope": "Indexed primary abstract and metadata; direct PubMed open did not return usable article content."
+    },
+    {
+      "title": "In vivo prime editing rescues alternating hemiplegia of childhood in mice — full text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12702498/",
+      "doi": "10.1016/j.cell.2025.06.038",
+      "evidence_family": "ATP1A3_PE_Cell_2025",
+      "supports": [
+        "Neonatal intervention timing in both mouse models."
+      ],
+      "independent_replication": false,
+      "id": "N04",
+      "source_type": "primary research, same paper as N03",
+      "access_scope": "Indexed primary manuscript timing and results excerpts; direct PMC access returned CAPTCHA. Same Cell paper as N03, not independent replication."
+    },
+    {
+      "title": "The STING pathway drives noninflammatory neurodegeneration in NGLY1 deficiency",
+      "url": "https://rupress.org/jem/article/222/10/e20242296/278113/The-STING-pathway-drives-noninflammatory",
+      "doi": "10.1084/jem.20242296",
+      "publication_year": 2025,
+      "journal": "Journal of Experimental Medicine",
+      "evidence_family": "NGLY1_STING_JEM_2025",
+      "supports": [
+        "Genetic Sting1 deletion and pharmacological VS-X4 effects.",
+        "Model limitations.",
+        "Separate NGLY1 and Trex1 survival findings."
+      ],
+      "id": "N05",
+      "source_type": "primary research",
+      "access_scope": "Direct publisher full article retrieved by screening agent. Abstract and relevant results/discussion inspected; parent independently opened and checked the VS-X4/Trex1 outcome, timing and disclosure sections. No complete supplement or raw-data audit."
+    },
+    {
+      "title": "The STING pathway drives noninflammatory neurodegeneration in NGLY1 deficiency — full text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12249164/",
+      "doi": "10.1084/jem.20242296",
+      "evidence_family": "NGLY1_STING_JEM_2025",
+      "supports": [
+        "Post-weaning timing and precise genetic/pharmacological endpoints."
+      ],
+      "independent_replication": false,
+      "id": "N06",
+      "source_type": "primary research, same paper as N05",
+      "access_scope": "Indexed primary manuscript excerpts; direct PMC returned CAPTCHA. Same JEM study as N05."
+    },
+    {
+      "id": "N07",
+      "title": "Responsiveness of sphingosine phosphate lyase insufficiency syndrome to vitamin B6 cofactor supplementation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8072405/",
+      "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/32233035/",
+      "source_type": "primary_research_historical_context",
+      "evidence_family": "SPLIS_B6_earlier_report",
+      "access_scope": "Indexed primary text and abstract inspected for earlier clinical-lineage context; no complete supplement audit.",
+      "supports": "Earlier patient context; do not count the full case inventory as treated/responding or calculate a pooled response rate."
+    },
+    {
+      "id": "N08",
+      "title": "Compositions and methods for treating ngyl1 deficiency — US20240218396A1",
+      "url": "https://patents.google.com/patent/US20240218396A1/en",
+      "source_type": "primary_patent_application",
+      "access_scope": "Parent read public metadata and published claim text after identifying the number in N05 disclosures. No prosecution, official current status or title audit.",
+      "supports": "Published NGLY1 nucleic-acid/AAV application lists Grace Science LLC. This disclosure does not establish ownership of VS-X4 or a granted claim covering the drug.",
+      "legal_conclusion": null
+    }
+  ]
+}

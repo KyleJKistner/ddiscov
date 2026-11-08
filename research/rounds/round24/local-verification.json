@@ -1,0 +1,169 @@
+{
+  "schema_version": "ddiscov.round24.local_verification.v1",
+  "verified_at_utc": "2026-11-08T18:03:10.848649+00:00",
+  "base_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+  "base_tree": "0c2e08cef9eb851794f1195cf733793f441168e2",
+  "status": "passed",
+  "check_count": 24,
+  "checks": [
+    {
+      "check": "all_baseline_paths_preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "only_intended_existing_files_changed",
+      "passed": true,
+      "detail": [
+        "README.md",
+        "decisions/current-shortlist.md",
+        "research/portfolio-register.json",
+        "research/rounds/README.md",
+        "research/screen-index.md"
+      ]
+    },
+    {
+      "check": "new_files_scoped_to_round24",
+      "passed": true
+    },
+    {
+      "check": "no_symlinks",
+      "passed": true
+    },
+    {
+      "check": "original_622_coverage_rows_unchanged",
+      "passed": true
+    },
+    {
+      "check": "all_prior_round_objects_unchanged",
+      "passed": true
+    },
+    {
+      "check": "prior_round_history_unchanged",
+      "passed": true
+    },
+    {
+      "check": "register_changes_are_declared",
+      "passed": true,
+      "detail": [
+        "as_of",
+        "coverage_summary",
+        "current_marginal_dollar_decision",
+        "publication",
+        "round24",
+        "schema_version",
+        "supersedes"
+      ]
+    },
+    {
+      "check": "coverage_summary_history_preserved",
+      "passed": true
+    },
+    {
+      "check": "inherited_conditional_queue_preserved",
+      "passed": true
+    },
+    {
+      "check": "no_paid_development_or_numerical_ev_promotion",
+      "passed": true
+    },
+    {
+      "check": "cash_and_incomplete_novelty_retained",
+      "passed": true
+    },
+    {
+      "check": "candidate_ledger_matches_register",
+      "passed": true
+    },
+    {
+      "check": "new_candidate_ids_unique_and_counted",
+      "passed": true
+    },
+    {
+      "check": "all_new_records_unfunded",
+      "passed": true
+    },
+    {
+      "check": "new_screen_information_order_matches_register",
+      "passed": true
+    },
+    {
+      "check": "existing_candidate_records_preserved_as_existing",
+      "passed": true
+    },
+    {
+      "check": "source_ids_unique",
+      "passed": true
+    },
+    {
+      "check": "source_count_and_access_scopes_complete",
+      "passed": true
+    },
+    {
+      "check": "source_references_resolve",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "local_markdown_links_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "manifest_has_complete_exact_path_set",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "manifest_content_hashes_and_modes_match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "manifest_base_and_counts_match",
+      "passed": true
+    }
+  ],
+  "git_diff_check": "passed",
+  "counts": {
+    "baseline_files_preserved": 385,
+    "new_round24_files": 15,
+    "existing_files_modified": 5,
+    "deleted_files": 0,
+    "published_tree_files": 400,
+    "original_coverage_rows_unchanged": 622,
+    "supplied_concepts": 1,
+    "additional_candidate_screens": 3,
+    "existing_programs_reassessed": 12,
+    "source_records": 39,
+    "paid_development_promotions": 0
+  },
+  "human_review_scope": [
+    "Lead and existing-program narrative read by parent; independent clinical/investment challenge incorporated.",
+    "Independent claudin primary-source audit integrated with bounded parent claim review.",
+    "New-screen source-level independent challenge and parent final narrative/structured-field conformance.",
+    "Key primary sources independently opened or searched by parent; access restrictions recorded."
+  ],
+  "procedure": "After recording this successful check, rebuild manifest hashes and rerun the read-only verifier without edits before publication.",
+  "artifact_binding": "The manifest binds this verification record; the containing Git tree binds the manifest itself.",
+  "remote_publication_scope": "This is a prepublication local record. Branch, commit and complete tree are independently read back after publication; no future remote result is asserted here.",
+  "not_established": [
+    "Biological hypotheses experimentally validated",
+    "Clinical efficacy beyond cited source evidence",
+    "Rights availability or freedom to operate",
+    "Executable vendor quote or financing terms",
+    "Numerical investment return"
+  ],
+  "activity_boundary": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications"
+  ]
+}

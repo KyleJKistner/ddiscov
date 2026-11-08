@@ -1,0 +1,321 @@
+{
+  "schema_version": "ddiscov.round24.novelty.v1",
+  "as_of": "2026-11-08",
+  "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+  "scope_conclusion": "No queried aliases recovered in the pinned repository text or the unlettered/B-M screens. Newness is limited to this inspected corpus.",
+  "exhaustive": false,
+  "unrecovered": [
+    "Screens N-Q",
+    "any other unprovided or unrecovered historical work"
+  ],
+  "lead_audit": {
+    "as_of": "2026-11-08",
+    "concept": "R24-L01",
+    "external_screen_checks": [
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_J.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 861,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_I.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 896,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_E.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 725,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_K.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 963,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_L.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 1035,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_new_opportunity_screen.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 442,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_M.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 1176,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_B.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 467,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_H.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 852,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_F.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 795,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_G.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 854,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_D.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 614,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_C.pdf",
+        "pattern": "claudin.?5|biparatopic|blood.retinal|remigromig|restoret|MK.?3000|SZN.?413|SZN.?8141",
+        "text_lines": 498,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      }
+    ],
+    "missing_scope": [
+      "Screens N–Q",
+      "any other unrecovered prior work"
+    ],
+    "interpretation": "No queried direct matches; not an exhaustive semantic or scientific novelty claim.",
+    "repository_check": {
+      "base_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+      "text_files_checked": 368,
+      "pattern": "claudin[- ‐‑–—]?5|CLDN[- ‐‑–—]?5|biparatopic|remigromig|restoret|MK[- ‐‑–—]?3000|SZN[- ‐‑–—]?(413|8141)",
+      "matches": []
+    }
+  },
+  "additional_repository_audit": {
+    "baseline": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+    "text_files_searched": 368,
+    "patterns": {
+      "R24-N01": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase",
+      "R24-N02": "ATP1A3|alternating hemiplegia|Atp1a3|D801N|E815K",
+      "R24-N03": "NGLY1|VS[- ]?X4|N.glycanase 1"
+    },
+    "results": {
+      "R24-N01": [],
+      "R24-N02": [],
+      "R24-N03": []
+    },
+    "interpretation": "Exact/alias textual check only, not exhaustive semantic novelty. Later external screens remain scoped separately."
+  },
+  "additional_external_screen_audit": {
+    "as_of": "2026-11-08",
+    "concepts": [
+      "R24-N01",
+      "R24-N02",
+      "R24-N03"
+    ],
+    "external_screen_checks": [
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_J.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 861,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_I.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 896,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_E.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 725,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_K.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 963,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_L.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 1035,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_new_opportunity_screen.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 442,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_M.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 1176,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_B.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 467,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_H.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 852,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_F.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 795,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_G.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 854,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_D.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 614,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      },
+      {
+        "filename": "ddiscov_fresh_opportunity_screen_C.pdf",
+        "pattern": "SGPL1|R222Q|SPLIS|sphingosine.{0,10}phosphate lyase|ATP1A3|alternating hemiplegia|D801N|E815K|NGLY1|VS.?X4|N.glycanase",
+        "text_lines": 498,
+        "full_text_range_checked": true,
+        "matches": [],
+        "match_count": 0,
+        "has_more": false,
+        "warnings": []
+      }
+    ],
+    "interpretation": "No queried alias matches in full extracted text of the unlettered screen and B-M. Exact text absence is not exhaustive semantic novelty. N-Q and any other unrecovered work remain unreviewed."
+  },
+  "screening_agent_initial_scope": "622 serialized baseline coverage records; extended by parent to all 368 baseline text files and 13 recovered PDFs.",
+  "interpretation_limits": [
+    "Textual alias checks are not exhaustive semantic search.",
+    "No global invention novelty, patentability or FTO conclusion.",
+    "Publications and alternate repository copies of a study do not add independent replication.",
+    "Private source documents are not republished."
+  ]
+}

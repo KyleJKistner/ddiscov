@@ -1,0 +1,443 @@
+{
+  "schema_version": "ddiscov.round24.existing_review.v1",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+  "scope": "Independent reassessment of existing candidates; high-level investment research only",
+  "counts": {
+    "existing_records_covered": 12,
+    "new_candidate_screens": 0,
+    "new_efficacy_results": 0,
+    "new_verified_treated_people": 0,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "new_to_repository_documentary_additions": 2
+  },
+  "decision": {
+    "conditional_local_first_choice": "R4-L02",
+    "inherited_conditional_development_order": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP"
+    ],
+    "inherited_information_order": [
+      "R23-01",
+      "R23-02",
+      "R23-03"
+    ],
+    "order_limits": "Conditional priors; not a newly priced financial ranking across interchangeable milestones",
+    "cash_comparison": "No offered, executable tranche established superior at actual terms; retain uncommitted capital. This does not establish negative program EV.",
+    "attached_claudin_lead_comparison": "Unbuilt discovery concept does not displace defined existing article options on reviewed evidence; parent lead audit governs exact scientific and competitive findings."
+  },
+  "fresh_additions": [
+    {
+      "source_id": "E02",
+      "candidate_id": "R23-01",
+      "change": "Author data-release promise tied to trial completion; no current dataset verified"
+    },
+    {
+      "source_id": "E03",
+      "candidate_id": "BLU3797_XLMTM",
+      "change": "Nov 4 sponsor presentation supplies current ASP2957 pre-PoC status; no clinical outcome"
+    }
+  ],
+  "constraints": {
+    "no_outreach": true,
+    "no_purchases": true,
+    "no_recruitment": true,
+    "no_experiments": true,
+    "no_simulations": true,
+    "no_material_receipt": true,
+    "no_applications": true,
+    "no_new_automation": true
+  },
+  "records": [
+    {
+      "candidate_id": "R4-L02",
+      "identity": "Topical APR-246 / AEC",
+      "review_depth": "focused_comparative_challenge",
+      "inherited_conditional_development_rank": 1,
+      "disposition": "retain_first_conditional_local_qualification_option",
+      "next_commitment_scope": "Existing article and consequential local useful-function or separately justified clinical-development uncertainty",
+      "information_required": "Interpretable sustained control of erosions/treatment burden at acceptable exposure; not obligatory off-treatment cure",
+      "scope_failure_trigger": "Major new vehicle/model invention or rights/data costs invalidate small-tranche premise",
+      "rights_and_capture": "Aprea-related interests, academic use family, product know-how and clinical data remain separate; no offered terms",
+      "planning_envelope": {
+        "usd_min": 25000,
+        "usd_max": 100000,
+        "months_min": 2,
+        "months_max": 5,
+        "basis": "Inherited analyst assumption; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [
+        "E05"
+      ],
+      "baseline_paths": [
+        "research/rounds/round16/marginal-dollar-decision.md",
+        "research/rounds/round16/apr-clinical-evidence.md",
+        "research/rounds/round16/apr-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round16/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round16/apr-clinical-evidence.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round16/apr-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "R4-L01",
+      "identity": "RM4404 / corneal repair",
+      "review_depth": "focused_comparative_challenge",
+      "inherited_conditional_development_rank": 2,
+      "disposition": "retain_conditional_useful_corneal_function_option",
+      "next_commitment_scope": "Interpretable exact-product and protective corneal-function question",
+      "information_required": "Useful sensory/tissue benefit distinguishable from reflex change or irritation, with practical comparator and tolerability",
+      "scope_failure_trigger": "Full sterile ophthalmic development or major new model/reformulation silently replaces small qualification question",
+      "rights_and_capture": "Known UConn provisional/commercialization context; no confirmed available license or priced rights",
+      "planning_envelope": {
+        "usd_min": 50000,
+        "usd_max": 175000,
+        "months_min": 3,
+        "months_max": 6,
+        "basis": "Inherited analyst assumption; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [
+        "E11"
+      ],
+      "baseline_paths": [
+        "research/rounds/round17/marginal-dollar-decision.md",
+        "research/rounds/round17/rm-function-evidence.md",
+        "research/rounds/round17/rm-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round17/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round17/rm-function-evidence.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round17/rm-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "BLU3797_XLMTM",
+      "identity": "BLU-3797 / XLMTM",
+      "review_depth": "focused_comparative_challenge_and_named_reopener",
+      "inherited_conditional_development_rank": 3,
+      "disposition": "retain_staged_human_function_option",
+      "next_commitment_scope": "Initial article/exposure/model qualification separate from conditional human useful-function work",
+      "information_required": "A model and exact exposure that can make a useful human muscle result interpretable; systemic claims remain separate",
+      "scope_failure_trigger": "Initial qualification price is presented as price of human-function proof; major chemistry/model/systemic/rights expansion",
+      "rights_and_capture": "Available clinical contribution and current competitors must be reassessed at real terms; no permanent gene-therapy-excluded market assumed",
+      "planning_envelope": {
+        "initial": {
+          "usd_min": 60000,
+          "usd_max": 180000,
+          "months_min": 3,
+          "months_max": 6
+        },
+        "subsequent_conditional": {
+          "usd_min": 100000,
+          "usd_max": 300000,
+          "months_min": 4,
+          "months_max": 8
+        },
+        "basis": "Inherited separate analyst assumptions; not summed into verified budget, quoted or authorized"
+      },
+      "fresh_sources": [
+        "E03",
+        "E04",
+        "E10",
+        "E12"
+      ],
+      "baseline_paths": [
+        "research/rounds/round18/marginal-dollar-decision.md",
+        "research/rounds/round18/blu-human-model-update.md",
+        "research/rounds/round18/blu-systemic-context.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round18/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round18/blu-human-model-update.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round18/blu-systemic-context.md"
+      ]
+    },
+    {
+      "candidate_id": "R3-NL-01",
+      "identity": "NDC-9009 / Darier",
+      "review_depth": "focused_comparative_challenge",
+      "inherited_conditional_development_rank": 4,
+      "disposition": "retain_conditional_exact_article_function_option",
+      "next_commitment_scope": "Topical exposure and useful benefit for an explicitly chosen repair or ongoing-control claim",
+      "information_required": "Article contribution beyond vehicle/background care; assembly/markers do not establish established-lesion repair",
+      "scope_failure_trigger": "Only identity/assembly qualification delivered while original useful-function rank and budget rationale are retained",
+      "rights_and_capture": "Neurodon-associated article/program and patent trail make capture concrete but not cleared or available",
+      "planning_envelope": {
+        "usd_min": 40000,
+        "usd_max": 150000,
+        "months_min": 3,
+        "months_max": 6,
+        "basis": "Inherited analyst assumption; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round19/marginal-dollar-decision.md",
+        "research/rounds/round19/ndc-article-exposure.md",
+        "research/rounds/round19/ndc-comparator-update.md",
+        "research/rounds/round19/ndc-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round19/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round19/ndc-article-exposure.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round19/ndc-comparator-update.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round19/ndc-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "MIGF_CORNEA",
+      "identity": "mIGF-Gel / corneal repair",
+      "review_depth": "focused_comparative_challenge",
+      "inherited_conditional_development_rank": 5,
+      "disposition": "retain_conditional_active_comparator_product_option",
+      "next_commitment_scope": "Useful local-product benefit relative to credible practical insulin care",
+      "information_required": "Repair or comparable useful repair with meaningful total-burden/tolerability advantage; fewer administrations alone insufficient",
+      "scope_failure_trigger": "Gel formation, tracer retention or preliminary exposure replaces originally contemplated comparator/function decision",
+      "rights_and_capture": "Existing sequence/use disclosures and unresolved exact granted scope/current title; no available rights or validated sterile shelf-life",
+      "planning_envelope": {
+        "usd_min": 40000,
+        "usd_max": 150000,
+        "months_min": 3,
+        "months_max": 6,
+        "basis": "Inherited analyst assumption; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round20/marginal-dollar-decision.md",
+        "research/rounds/round20/migf-comparator-update.md",
+        "research/rounds/round20/migf-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round20/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round20/migf-comparator-update.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round20/migf-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "R3-NM-01",
+      "identity": "Exact 8015-P2 / MFN2-CMT2A",
+      "review_depth": "bounded_scope_check",
+      "inherited_conditional_development_rank": 6,
+      "disposition": "retain_exact_stereoisomer_human_function_option",
+      "next_commitment_scope": "Independent human functional bridge for exact P2",
+      "information_required": "Useful function distinct from mitochondrial morphology/transport; exact article distinct from mixture and related compounds",
+      "scope_failure_trigger": "Transport-only assay or major new model construction replaces the original human-function milestone",
+      "rights_and_capture": "Exact stereoisomer and model families plus incumbent commercial effort; no offered license or clinical article access assumed",
+      "planning_envelope": {
+        "usd_min": 75000,
+        "usd_max": 250000,
+        "months_min": 4,
+        "months_max": 8,
+        "basis": "Inherited analyst assumption; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round21/marginal-dollar-decision.md",
+        "research/rounds/round21/p2-human-translation.md",
+        "research/rounds/round21/p2-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round21/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round21/p2-human-translation.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round21/p2-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "AAT_EVLP",
+      "identity": "Qualified alpha-1-antitrypsin / donor-lung processing",
+      "review_depth": "bounded_scope_check",
+      "inherited_conditional_development_rank": 7,
+      "disposition": "retain_original_qualification_only_option",
+      "next_commitment_scope": "Formulation/potency/process qualification only",
+      "information_required": "Interpretable active exposure and workflow sufficient to enable a separately priced useful graft question",
+      "scope_failure_trigger": "Scarce-organ or transplant work is silently priced within the original qualification-only envelope",
+      "rights_and_capture": "Contribution beyond incumbent protein/perfusion suppliers must retain financial value; route/product/patent scopes remain distinct",
+      "planning_envelope": {
+        "usd_min": 30000,
+        "usd_max": 100000,
+        "months_min": 2,
+        "months_max": 4,
+        "basis": "Inherited analyst assumption explicitly excludes scarce organs and transplant validation; not refreshed, quoted or authorized"
+      },
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round22/marginal-dollar-decision.md",
+        "research/rounds/round22/aat-human-function.md",
+        "research/rounds/round22/aat-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round22/marginal-dollar-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round22/aat-human-function.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round22/aat-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "R23-01",
+      "identity": "GA002 / refractory focal epilepsy",
+      "review_depth": "primary_provenance_and_data_release_check",
+      "inherited_conditional_information_rank": 1,
+      "disposition": "retain_leading_clinical_information_priority",
+      "next_commitment_scope": "Accessible detailed clinical evidence and an obtainable economic contribution",
+      "information_required": "Useful replicated clinical benefit, longer safety and an attainable economic interest; three-person pilot is uncontrolled",
+      "scope_failure_trigger": "Headline response is treated as controlled efficacy, or company financing assumed available at attractive terms",
+      "rights_and_capture": "GenAns existing sponsored program; investment/license/partnership terms unverified; waiting has a specific future data-release rationale",
+      "planning_envelope": null,
+      "fresh_sources": [
+        "E01",
+        "E02"
+      ],
+      "baseline_paths": [
+        "research/rounds/round23/new-opportunity-screen.md",
+        "research/rounds/round23/candidate-ledger.json"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/new-opportunity-screen.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/candidate-ledger.json"
+      ]
+    },
+    {
+      "candidate_id": "R23-02",
+      "identity": "VaultAAV / neutralizing-antibody delivery platform",
+      "review_depth": "primary_evidence_and_ownership_revalidation",
+      "inherited_conditional_information_rank": 2,
+      "disposition": "retain_platform_evidence_rights_reserve",
+      "next_commitment_scope": "Useful translation beyond cell protection and a feasible commercial contribution",
+      "information_required": "Clinical or in-vivo delivery advantage relevant to a defined product; repeat dosing remains unproven",
+      "scope_failure_trigger": "Repeating cell uptake/protection is treated as human eligibility/redosing proof or ownership of a broad platform",
+      "rights_and_capture": "Existing Cathedral entity and inventor-reported 2025 acquisition; acquirer/current rights/terms not verified",
+      "planning_envelope": null,
+      "fresh_sources": [
+        "E06",
+        "E07"
+      ],
+      "baseline_paths": [
+        "research/rounds/round23/new-opportunity-screen.md",
+        "research/rounds/round23/source-register.json"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/new-opportunity-screen.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/source-register.json"
+      ]
+    },
+    {
+      "candidate_id": "R23-03",
+      "identity": "PSAM4-GlyR sensory-neuron control / pain",
+      "review_depth": "primary_evidence_revalidation_and_named_preprint_reopener",
+      "inherited_conditional_information_rank": 3,
+      "disposition": "retain_preclinical_reserve",
+      "next_commitment_scope": "Useful pain benefit with acceptable sensation and a defined product/rights route",
+      "information_required": "Exact product's functional selectivity and translation; human-neuron work is not treated-human efficacy",
+      "scope_failure_trigger": "Inaccessible preprint abstract or GA002 findings are credited as exact PSAM human efficacy",
+      "rights_and_capture": "No priced offered exact-product rights or commercial package established",
+      "planning_envelope": null,
+      "fresh_sources": [
+        "E08",
+        "E09"
+      ],
+      "baseline_paths": [
+        "research/rounds/round23/new-opportunity-screen.md",
+        "research/rounds/round23/source-register.json"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/new-opportunity-screen.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round23/source-register.json"
+      ]
+    },
+    {
+      "candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "identity": "Enasidenib / D2HGA2",
+      "review_depth": "bounded_carryforward_only",
+      "disposition": "retain_existing_article_indication_route_hold_automatic_new_formulation",
+      "next_commitment_scope": "Evidence appropriate to existing clinical stage and a documented contribution beyond available presentation",
+      "information_required": "A new presentation solves a meaningful verified problem if proposed; no preclinical reset mandated",
+      "scope_failure_trigger": "Absent public infant-use details are treated as proof new formulation invention is necessary",
+      "rights_and_capture": "Clinically useful evidence and exclusive financial asset remain distinct; prior current-law and capture findings retained",
+      "planning_envelope": null,
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round15/funding-decision.md",
+        "research/rounds/round15/enasidenib-product-capture.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round15/funding-decision.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round15/enasidenib-product-capture.md"
+      ]
+    },
+    {
+      "candidate_id": "R6-NL-01",
+      "identity": "Ruxolitinib 1.5% cream / Hailey-Hailey disease",
+      "review_depth": "bounded_carryforward_only",
+      "disposition": "retain_controlled_clinical_proof",
+      "next_commitment_scope": "Exact-cream clinical benefit, meaningful symptoms, maintenance and rescue burden",
+      "information_required": "Useful patient benefit against appropriate comparator; external HS results not HHD efficacy",
+      "scope_failure_trigger": "Lesion-only or another-disease result substitutes for exact intended patient-benefit claim",
+      "rights_and_capture": "Known active product and separate indication-development contribution; no novel owned cream assumed",
+      "planning_envelope": null,
+      "fresh_sources": [],
+      "baseline_paths": [
+        "research/rounds/round14/hhd-clinical-claim-amendment.md",
+        "research/rounds/round14/rux-hs-trial-evidence.md"
+      ],
+      "already_in_portfolio": true,
+      "new_efficacy_found": false,
+      "funding_authorized": false,
+      "source_pass_status": "Closed except named bounded documentary checks; reopen only on consequential new evidence",
+      "baseline_urls": [
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round14/hhd-clinical-claim-amendment.md",
+        "https://github.com/KyleJKistner/ddiscov/blob/1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d/research/rounds/round14/rux-hs-trial-evidence.md"
+      ]
+    }
+  ],
+  "review_status": "final_for_parent_integration"
+}

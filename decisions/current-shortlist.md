@@ -1,8 +1,16 @@
 # Current development shortlist
 
-**Current screen: 6 November 2026. Round 23. Historical development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Current review: 8 November 2026. Round 24. Inherited conditional development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 23: information priority from new seeds
+## Round 24: supplied claudin lead and comparative reassessment
+
+**Hold the claudin-5 sealing VHH as an early discovery concept.** The source proposes a molecule and mechanism; it does not identify a demonstrated sealing asset. Primary anti-claudin-2 evidence narrows the broad novelty claim, while current Wnt and Ang-2/VEGF programs raise the clinical and commercial benchmark. Linker geometry alone cannot establish useful retinal barrier restoration. The [lead decision](../research/rounds/round24/claudin5-dme-assessment.md) and [independent audit](../research/rounds/round24/claudin5-independent-review.md) set out the evidence and limits.
+
+The [12-program reassessment](../research/rounds/round24/existing-candidate-reassessment.md) retains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT** only under the originally contemplated information scopes. The historical dollar/time ranges are analyst assumptions, not quotes or comparable prices for clinical proof. GA002 remains first for additional consequential clinical information; its data-sharing statement is tied to trial completion, and no released dataset was verified.
+
+The [additional screen](../research/rounds/round24/new-candidate-screen.md) records separate new-to-inspected-corpus leads and their evidence, capture and access constraints. It does not establish a new funded winner or an exhaustive global novelty claim. No paid development tranche has demonstrated superiority to cash at actual terms. This remains an unresolved value comparison, not proof of negative EV. Closed source passes are preserved; specific substantive evidence, access, rights or scoped cost facts can reopen a named decision.
+
+## Retained Round 23: information priority from new seeds
 
 The [DREADD/vault screen](../research/rounds/round23/new-opportunity-screen.md) gives GA002 the highest new clinical information priority, then vaultAAV as the leading delivery question, followed by PSAM pain. CCL21-vault is a lower reserve; the exact PSAM epilepsy record is held after an in-vivo seizure endpoint failed to show a significant effect. Parked cargo and uptake scouts are not promoted assets.
 

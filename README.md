@@ -1,12 +1,18 @@
 # Drug Discovery Research
 
-## Round 23: new DREADD and vault-delivery screen
+## Round 24: claudin 5 lead, new screening and existing-program reassessment
+
+**Evidence cutoff: 8 November 2026.** [Round 24](research/rounds/round24/README.md) holds the supplied claudin-5 sealing VHH as an early discovery concept: target rationale is credible, but no demonstrated sealing asset, ocular product advantage or obtainable economic interest is established. The review corrects the broad claudin novelty claim and updates the DME competitive benchmark. Parallel work screens additional opportunities and reassesses 12 existing programs. APR-246 remains the first conditional small development option; GA002 remains the leading clinical information question. No paid-development promotion or replacement allocation is made, and cash/wait remains explicit.
+
+The [lead assessment](research/rounds/round24/claudin5-dme-assessment.md), [new screen](research/rounds/round24/new-candidate-screen.md) and [existing-program review](research/rounds/round24/existing-candidate-reassessment.md) govern this update. Historical analyst cost bands buy different milestones and are not current quotes. All original 622 coverage rows and earlier round records remain preserved. Newness is limited to the inspected repository and recovered screens; Screens N–Q remain unrecovered.
+
+## Retained Round 23: new DREADD and vault-delivery screen
 
 **Evidence cutoff: 6 November 2026.** [Round 23](research/rounds/round23/README.md) identifies GA002 as the leading new clinical diligence question and vaultAAV as the leading delivery-platform reserve. PSAM pain remains a separate preclinical reserve; CCL21-vault is lower and the inspected PSAM epilepsy configuration is held after a functional negative. No new paid-development commitment or S-tier promotion is made. Information priority is distinct from the inherited conditional development queue. Novelty was checked against this repository and recovered Screens B-M; N-Q were not recovered.
 
 A research portfolio on restoring function with defined drugs, proteins and genetic therapies. The next milestone is a reproducible preclinical or clinical result that changes a development decision. Each serious lead pairs an exact intervention with a relevant functional comparison, a material/model route and an explicit advance-or-stop decision.
 
-**Status: 4 November 2026, after Round 22.** The bounded existing AAT/donor-lung-preservation source review is complete. Human study versions and units, exact active exposure, processing versus systemic recipient evidence and granted-claim scope sharpen the conditional rank-seven qualification option. Its original US$30–100k/two-to-four-month envelope excludes scarce organs and transplant validation. APR/RM/BLU/NDC/mIGF/P2 decisions and closures remain unchanged. No broader screen, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 21 is published at `2db430cd752292d82a6e6a94bd7b08cf2ebb3614`.
+**Historical status: 4 November 2026, after Round 22.** The bounded existing AAT/donor-lung-preservation source review is complete. Human study versions and units, exact active exposure, processing versus systemic recipient evidence and granted-claim scope sharpen the conditional rank-seven qualification option. Its original US$30–100k/two-to-four-month envelope excludes scarce organs and transplant validation. APR/RM/BLU/NDC/mIGF/P2 decisions and closures remain unchanged. No broader screen, experiment, allocation or S-tier promotion. All 622 original coverage rows and earlier packages are preserved. Round 21 is published at `2db430cd752292d82a6e6a94bd7b08cf2ebb3614`.
 
 | Start here | What it provides |
 |---|---|

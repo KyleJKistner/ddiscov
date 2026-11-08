@@ -1,0 +1,290 @@
+{
+  "schema_version": "ddiscov.round24.candidate_ledger.v1",
+  "as_of": "2026-11-08",
+  "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+  "counting_rule": "One supplied discovery concept plus three therapeutic-use research records. Not four new molecules, independent clinical replications, or investable transactions. Existing candidates are counted separately.",
+  "counts": {
+    "screened_records": 4,
+    "user_supplied_discovery_concepts": 1,
+    "additional_therapeutic_use_screens": 3,
+    "existing_programs_reassessed": 12,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "new_to_all_prior_screens": null,
+    "newly_generated_experimental_results": 0
+  },
+  "additional_screen_information_order": [
+    "R24-N01",
+    "R24-N03",
+    "R24-N02"
+  ],
+  "rank_meaning": "Conditional priority within this additional screen for consequential bounded desk information; no new global financial ranking or spending authorization.",
+  "records": [
+    {
+      "id": "R24-L01",
+      "identity": "Proposed biparatopic claudin-5 sealing VHH for persistent diabetic macular edema",
+      "record_type": "user_supplied_discovery_concept",
+      "exact_asset_identified": false,
+      "evidence_level": "Target/pathway rationale with no demonstrated proposed sealing molecule",
+      "disposition": "HOLD_EARLY_DISCOVERY",
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "information_priority_rank": null,
+      "inherited_queue_displaced": false,
+      "decision_basis": [
+        "Direct CLDN5 disease rationale is distinct from proof of an exact binder.",
+        "Primary antiCLDN2 antibody evidence contradicts the broad all-binders-open premise; exact CLDN5 strand stabilization remains unverified.",
+        "Linker length alone does not establish trans engagement or uniquely identify a future result.",
+        "Current DME barrier-restoration competition and approved durability options require a useful incremental product claim.",
+        "Asset, ocular access, exposure, retained economics and priced informative scope remain unestablished."
+      ],
+      "reopeners": [
+        "Defined exact asset with reproducible direct barrier-improving activity",
+        "Relevant ocular access and exposure with a useful differentiated clinical contribution",
+        "Obtainable economic interest and a bounded priced information opportunity that can alter a commitment"
+      ],
+      "source_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C12",
+        "C13",
+        "T01",
+        "T02",
+        "T03",
+        "T05",
+        "T06"
+      ],
+      "novelty_scope": "No queried match in pinned repository or recovered unlettered and B-M screens; N-Q and other unrecovered work remain unchecked. Not a global invention-novelty or FTO conclusion.",
+      "report": "claudin5-dme-assessment.md"
+    },
+    {
+      "round": 24,
+      "screen_as_of": "2026-11-08",
+      "novelty_status": "new_to_inspected_repository_and_recovered_screen_corpus_only",
+      "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+      "paid_development_promotion": false,
+      "rights_available": null,
+      "rights_terms": null,
+      "human_decision_milestone_budget": null,
+      "human_decision_milestone_date": null,
+      "external_historical_screen_check_complete": false,
+      "shared_limitations": [
+        "Screens N–Q and other unrecovered historical work remain outside the inspected corpus.",
+        "This screen establishes neither available rights nor a financeable development package."
+      ],
+      "name": "Pyridoxine for SGPL1 R222Q SPLIS",
+      "asset": "pyridoxine",
+      "target": "SGPL1 R222Q / sphingosine phosphate lyase",
+      "indication": "SGPL1 R222Q sphingosine phosphate lyase insufficiency syndrome (SPLIS)",
+      "modality": "small-molecule vitamin/cofactor repurposing",
+      "aliases": [
+        "SGPL1",
+        "R222Q",
+        "SPLIS",
+        "sphingosine phosphate lyase insufficiency syndrome"
+      ],
+      "source_ids": [
+        "N01",
+        "N02",
+        "N07"
+      ],
+      "evidence_stage": "individual uncontrolled human observation plus patient cells, enzyme, and genotype-specific mouse evidence",
+      "disposition": "genotype-specific scientific watch; bounded desk diligence only",
+      "marginal_desk_diligence_rank": 1,
+      "positive_evidence": [
+        "Individual R222Q neurological and biochemical response reported after pyridoxine.",
+        "Patient-cell and recombinant-enzyme evidence supports cofactor responsiveness.",
+        "R222Q mouse model links pyridoxine availability to disease expression."
+      ],
+      "critical_boundaries": [
+        "Individual uncontrolled human observation is not controlled efficacy.",
+        "JCI and earlier preprint are the same study lineage; earlier responder context is not independent replication of the new paper.",
+        "Diet-conditioned mouse prevention is not reversal of established renal disease.",
+        "Do not generalize R222Q findings to all SGPL1 genotypes.",
+        "Current manuscript describes a second R222Q patient relative to earlier work; no pooled treated/responder denominator inferred."
+      ],
+      "value_capture_assessment": "Generic substance; no concrete exclusive asset or differentiated commercial capture route established.",
+      "comparator": "Cash for development capital; existing mutation-specific repurposing candidates for desk priority.",
+      "next_decision_changing_question": "Can a reproducible genotype-defined clinical proposition support a concrete attainable capture route?",
+      "next_information_step": "Bounded public-record review of genotype-specific clinical observations, natural history, ownership, and claims.",
+      "financing_and_time": "A desk conclusion can be reached without a development commitment; clinical milestone budget and timing are unknown.",
+      "advance_conditions": [
+        "Reproducible genotype-defined human signal.",
+        "Concrete financeable capture route."
+      ],
+      "disconfirming_evidence": [
+        "Benefit confined to cofactor-deprivation context.",
+        "Human signal fails to replicate.",
+        "Population or endpoints prevent an achievable milestone.",
+        "No viable value capture."
+      ],
+      "recovered_external_screen_alias_check_complete": true,
+      "recovered_external_screen_check_performed_by": "root agent, all 13 recovered unlettered/B–M PDFs; zero matches; no truncation/warnings",
+      "id": "R24-N01",
+      "current_study_evidence_family_count": 1,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "record_type": "additional_therapeutic_use_screen",
+      "report": "new-candidate-screen.md",
+      "additional_context_source_ids": [
+        "N07"
+      ]
+    },
+    {
+      "round": 24,
+      "screen_as_of": "2026-11-08",
+      "novelty_status": "new_to_inspected_repository_and_recovered_screen_corpus_only",
+      "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+      "paid_development_promotion": false,
+      "rights_available": null,
+      "rights_terms": null,
+      "human_decision_milestone_budget": null,
+      "human_decision_milestone_date": null,
+      "external_historical_screen_check_complete": false,
+      "shared_limitations": [
+        "Screens N–Q and other unrecovered historical work remain outside the inspected corpus.",
+        "This screen establishes neither available rights nor a financeable development package."
+      ],
+      "name": "ATP1A3 prime editing for alternating hemiplegia of childhood",
+      "asset": "D801N/E815K-directed ATP1A3 prime-editing constructs",
+      "target": "ATP1A3 D801N and E815K",
+      "indication": "alternating hemiplegia of childhood",
+      "modality": "AAV-delivered prime editing",
+      "aliases": [
+        "ATP1A3",
+        "Atp1a3",
+        "D801N",
+        "E815K",
+        "alternating hemiplegia"
+      ],
+      "source_ids": [
+        "N03",
+        "N04"
+      ],
+      "evidence_stage": "two mouse disease models; neonatal treatment",
+      "disposition": "preclinical watch; no paid-development promotion",
+      "marginal_desk_diligence_rank": 3,
+      "positive_evidence": [
+        "Molecular correction in two disease-variant models.",
+        "Functional phenotypic benefit following neonatal treatment."
+      ],
+      "critical_boundaries": [
+        "Both mouse models treated at birth.",
+        "Later adult phenotype rescue does not show efficacy from treatment initiated in older symptomatic patients.",
+        "No human efficacy or clinical-ready asset package verified.",
+        "PubMed and PMC describe one Cell paper.",
+        "Five corrected cell variants do not establish in-vivo efficacy for five variants."
+      ],
+      "value_capture_assessment": "Potentially proprietary approach, but platform, disease-specific, delivery, and package rights may require assembly; obtainability unknown.",
+      "comparator": "Cash for development capital; existing neurological gene-delivery candidates with nearer information gates.",
+      "next_decision_changing_question": "Is there an attainable integrated rights package and a clinically plausible treatment window?",
+      "next_information_step": "Bounded public evidence and ownership review of variant scope, timing, delivery, and licensable package.",
+      "financing_and_time": "Translational and manufacturing program likely substantial; no credible budget or calendar established for a human decision-changing milestone.",
+      "advance_conditions": [
+        "Attainable integrated rights package.",
+        "Clinically feasible treatment window and delivery.",
+        "Financeable milestone tied to meaningful patient benefit."
+      ],
+      "disconfirming_evidence": [
+        "Benefit requires impractical neonatal intervention.",
+        "Delivery cannot reproduce relevant CNS coverage in patients.",
+        "Rights cannot be assembled on viable terms.",
+        "Financing needs outweigh obtainable value."
+      ],
+      "recovered_external_screen_alias_check_complete": true,
+      "recovered_external_screen_check_performed_by": "root agent, all 13 recovered unlettered/B–M PDFs; zero matches; no truncation/warnings",
+      "id": "R24-N02",
+      "current_study_evidence_family_count": 1,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "record_type": "additional_therapeutic_use_screen",
+      "report": "new-candidate-screen.md"
+    },
+    {
+      "round": 24,
+      "screen_as_of": "2026-11-08",
+      "novelty_status": "new_to_inspected_repository_and_recovered_screen_corpus_only",
+      "baseline_commit": "1cf49c3bcd61b23b55b6ce7df02e73e5d4be233d",
+      "paid_development_promotion": false,
+      "rights_available": null,
+      "rights_terms": null,
+      "human_decision_milestone_budget": null,
+      "human_decision_milestone_date": null,
+      "external_historical_screen_check_complete": false,
+      "shared_limitations": [
+        "Screens N–Q and other unrecovered historical work remain outside the inspected corpus.",
+        "This screen establishes neither available rights nor a financeable development package."
+      ],
+      "name": "VS-X4 STING inhibition for NGLY1 deficiency",
+      "asset": "VS-X4",
+      "target": "STING",
+      "indication": "NGLY1 deficiency",
+      "modality": "orally active small-molecule antagonist",
+      "aliases": [
+        "NGLY1",
+        "Ngly1",
+        "VS-X4",
+        "VSX4",
+        "VS X4"
+      ],
+      "source_ids": [
+        "N05",
+        "N06",
+        "N08"
+      ],
+      "evidence_stage": "pharmacological and genetic evidence in inducible postnatal Ngly1 knockout mice",
+      "disposition": "exact-asset preclinical watch; bounded access/rights desk diligence",
+      "marginal_desk_diligence_rank": 2,
+      "positive_evidence": [
+        "VS-X4 mitigated neurological disease and preserved Purkinje cells in the model.",
+        "Genetic Sting1 deletion supports pathway causality.",
+        "Exact named oral candidate rather than only a target hypothesis."
+      ],
+      "critical_boundaries": [
+        "NGLY1 lifespan extension is demonstrated for genetic Sting1 deletion, not established for the VS-X4 NGLY1 drug arm.",
+        "Pharmacological survival findings in the paper involve a separate Trex1 model.",
+        "Post-weaning treatment preceded later progressive phenotype; no demonstrated reversal of established neuron loss.",
+        "Inducible postnatal model differs from congenital disease and other models.",
+        "NGLY1 pathology is not established to be fully corrected by STING inhibition.",
+        "JEM and PMC are one study."
+      ],
+      "value_capture_assessment": "Exact asset identified; ownership, patents, freedom to operate, license availability, terms, and development package not established.",
+      "comparator": "Cash for development capital; genetic NGLY1 correction and other translational approaches only as general scientific comparators, not evaluated investable assets.",
+      "next_decision_changing_question": "Does an obtainable compound package exist with evidence supporting relevant human exposure and a credible clinical disease-modification proposition?",
+      "next_information_step": "Bounded public evidence/ownership review; no outreach authorized or performed.",
+      "financing_and_time": "Public evidence-and-rights conclusion may be inexpensive; clinical milestone budget and timing remain unknown.",
+      "advance_conditions": [
+        "Identifiable licensable compound package.",
+        "Relevant exposure and tolerability proposition.",
+        "Evidence bridging model and human disease.",
+        "Financeable disease-modification milestone."
+      ],
+      "disconfirming_evidence": [
+        "Benefit restricted to inducible model or preventive timing.",
+        "Important disease mechanisms persist despite STING blockade.",
+        "Human exposure or tolerability blocks chronic treatment.",
+        "Rights or terms prevent attainable value capture."
+      ],
+      "recovered_external_screen_alias_check_complete": true,
+      "recovered_external_screen_check_performed_by": "root agent, all 13 recovered unlettered/B–M PDFs; zero matches; no truncation/warnings",
+      "id": "R24-N03",
+      "current_study_evidence_family_count": 1,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "inherited_queue_displaced": false,
+      "record_type": "additional_therapeutic_use_screen",
+      "report": "new-candidate-screen.md",
+      "qualified_physical_material_verified": false,
+      "integrated_development_package_verified": false,
+      "rights_context": "N05 disclosure names Grace Science relationships and N08, a published NGLY1 gene-delivery application. This does not establish VS-X4 ownership or granted drug coverage."
+    }
+  ]
+}
