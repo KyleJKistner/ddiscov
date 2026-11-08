@@ -1,6 +1,8 @@
 # November therapeutic screens
 
-> **Latest review:** [Round 25](rounds/round25/README.md), 8 November 2026: Firecrawl continuation with 16 existing decision records, three scoped new exact-use screens and APR advancement. [New ledger](rounds/round25/candidate-ledger.json): A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3-CDG. These are information priorities, with no funded promotion. All original coverage rows are preserved; Screens N–Q remain unresolved.
+> **Latest review:** [Round 26](rounds/round26/README.md),8 November 2026: all three agents screened new candidates using Firecrawl and Unpaywall. [Ten-record ledger](rounds/round26/candidate-ledger.json), with erlotinib/KRT16, FD-2/ALS and levodopa/MCT8 leading distinct information questions; reserves and holds remain explicit. No paid-development promotion. All original coverage records are preserved; Screens N–Q remain unresolved.
+
+> **Retained Round 25 review:** [Round 25](rounds/round25/README.md), 8 November 2026: Firecrawl continuation with 16 existing decision records, three scoped new exact-use screens and APR advancement. [New ledger](rounds/round25/candidate-ledger.json): A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3-CDG. These are information priorities, with no funded promotion. All original coverage rows are preserved; Screens N–Q remain unresolved.
 
 > **Retained Round 24 review:** [Round 24](rounds/round24/README.md), 8 November 2026: supplied claudin-5 DME concept held at discovery stage, independent claim audit, additional candidate screen and 12 existing-program reassessments. No paid-development promotion. The [Round 24 ledger](rounds/round24/candidate-ledger.json) distinguishes the supplied concept from additional screens; original coverage rows remain unchanged. Novelty is limited to inspected records, with Screens N–Q unrecovered.
 

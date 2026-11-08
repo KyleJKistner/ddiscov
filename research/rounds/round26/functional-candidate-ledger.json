@@ -1,0 +1,361 @@
+{
+  "schema_version": "ddiscov.round26.functional_candidate_ledger.v1",
+  "round": 26,
+  "lane": "defined_preclinical_functional_rescue",
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "novelty_scope": "424-file pinned repository and 13 complete recovered unlettered/B–M reports; Screens N–Q remain unrecovered. Scoped new exact therapeutic uses, not global scientific novelty.",
+  "financial_ev": "No priced, obtainable development commitment has been established superior to cash. Relative financial EV is unresolved; no numerical probability or investment return is assigned.",
+  "activity": "Public-source research and repository edits only; no outreach, purchases, recruitment, experiments, simulations, material receipt or monitoring automation.",
+  "counts": {
+    "retained_new_exact_use_records": 3,
+    "retained_small_molecules": 1,
+    "retained_peptide_assets": 1,
+    "retained_defined_nanomedicine_formulations": 1,
+    "fully_read_rejected_or_partnered_scouts": 3,
+    "paid_development_promotions": 0
+  },
+  "counting_rule": "FD-2 is the selected peptide record; FD-1 is a required within-family comparator, not a fourth retained candidate. CuNC@HisAc/HisAcAsc variants belong to one formulation-family record pending exact-product selection. Paper, patent, preprint and repository copies are not independent studies.",
+  "additional_information_order": [
+    "R26-FUN-02",
+    "R26-FUN-01",
+    "R26-FUN-03"
+  ],
+  "rank_meaning": "Qualitative order for bounded public-document and existing-data gates. This is not a financial EV ranking or an automatic displacement of a defined biological qualification option.",
+  "cross_portfolio_decision": {
+    "next_desktop_increment": "Prefer the finite FD-2 article/patent/product reconciliation over reopening the already closed broad APR/BLU literature passes without a new artifact. This preference rests on a newly identified, decision-changing asset family, not an exemption from pricing or rights requirements.",
+    "comparable_functional_commitment": "APR has same-disease human observations and a locally delivered historical article. BLU has a more concrete post-deficit human-force qualification route. FD-2 presently lacks a patient-derived mature functional route and exposure package; PSB lacks a verified mature-human-force bridge and capturable contribution; CuNC needs a current-comparator incremental-benefit claim. These substantive differences favor evaluating APR/BLU's already specified functional scopes before an unbounded new program.",
+    "symmetric_burden": "No current quote, available license, achieved exposure or executed transfer is presumed for either incumbent or new lead. An actual bounded FD-2/PSB offer can outrank an APR/BLU offer if it buys more consequential information and retained value at its actual remaining cost.",
+    "stop_condition": "Once the named public records have been reconciled, stop repetitive searches and recompare only on a new substantive article, access, product, rights or priced-scope artifact."
+  },
+  "records": [
+    {
+      "id": "R26-FUN-01",
+      "name": "PSB-KD107 for Duchenne muscular dystrophy",
+      "record_type": "new_exact_use_defined_small_molecule",
+      "aliases": [
+        "PSB-KD107",
+        "PSB KD107",
+        "GPR18 agonist PSB-KD107",
+        "CAS 955121-65-0",
+        "10.3389/fcell.2023.1187253"
+      ],
+      "exact_use": "A defined GPR18 agonist to improve skeletal-muscle function and regenerative response in DMD.",
+      "exact_asset_identified": true,
+      "asset_limit": "The paper names a purchased research compound. No authenticated current lot, muscle-exposure specification, finished clinical product, commercial license or live stock/price is established.",
+      "information_priority_rank": 2,
+      "disposition": "Conditional information reserve; short capture/specification gate before a broader translational program.",
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "evidence_level": "One peer-reviewed preclinical investigator lineage with mdx mouse muscle force and dystrophic human iPSC myogenic observations.",
+      "evidence_units": [
+        {
+          "unit": "Male mdx mice beginning at ten weeks of age",
+          "endpoint": "Absolute and specific ex-vivo EDL force after a three-week treatment period.",
+          "denominator": "Figure caption reports five animals per group, except the O-1602 comparator with three.",
+          "interpretation": "Treatment begins after early disease onset; baseline force was not documented within each animal, and advanced-stage reversal was not established."
+        },
+        {
+          "unit": "Dystrophic human iPSC-derived muscle cells",
+          "endpoint": "Fusion/myotube formation, not force.",
+          "denominator": "Three donor lines: two DMD and one Becker muscular dystrophy.",
+          "interpretation": "Do not call these three DMD patients or patient muscle-force rescue. Repeated measurements and technical duplicate receptor assays are not donors."
+        },
+        {
+          "unit": "Primary mouse myoblasts",
+          "endpoint": "Differentiation/fusion response.",
+          "denominator": "Three independent animals reported for the cell experiments.",
+          "interpretation": "Supports myogenic biology, not a second independent drug-development study."
+        }
+      ],
+      "positive_evidence": [
+        "The mdx force result measures useful organ function rather than only a biomarker.",
+        "The active proresolving comparator RvD2 also improved force; GPR55 agonist O-1602 did not show a significant force effect in its smaller group.",
+        "Dystrophic human cell fusion and inflammatory/fibrotic findings are directionally supportive."
+      ],
+      "negative_or_limiting_evidence": [
+        "Human-cell evidence is a differentiation/fusion endpoint, not mature contractile output.",
+        "Diaphragm fibrosis improvement is not a demonstrated respiratory, cardiac or survival benefit.",
+        "No current-care add-on or active glucocorticoid comparison establishes incremental DMD benefit.",
+        "The tested mouse administration does not establish practical chronic human delivery, relevant free muscle exposure or an adequate therapeutic window.",
+        "No independent replication or human therapeutic result is established."
+      ],
+      "rights_and_capture": {
+        "observed": "The primary article identifies Cayman as research supplier. Search recovered the exact Cayman item 31393; live primary catalog retrieval returned HTTP 403. No specific obtainable commercial interest or exact use/compound patent family was verified in the bounded search.",
+        "available_offer": null,
+        "verified_current_stock": null,
+        "price": null,
+        "capture_inference": "A defined, historically supplied small molecule could reduce article reconstruction effort. Its old public disclosure and unverified proprietary contribution weaken a standalone asset thesis; research supply does not grant commercial rights.",
+        "unresolved": [
+          "Exact identity and currently obtainable specification",
+          "Existing composition/use rights and current ownership",
+          "A useful differentiated product or contractual data/option contribution",
+          "DMD incremental value relative to relevant care"
+        ]
+      },
+      "financing_scope": "Potential bounded research-article/exposure and mature-muscle function qualification, then a separately evaluated chronic DMD development program. No actual price or schedule is supplied.",
+      "cheapest_next_information_gate": "Use the exact article record, public compound/use claims and existing exposure information to decide whether a defensible, obtainable contribution and a practical chronic product are plausible. If so, scope a mature human-muscle function question and its relevant-care comparator; do not treat fusion as that result.",
+      "stopping_rule": "Stop the standalone commercial thesis if the only contribution is repeating a published generic research effect with no retainable downstream value. Hold if useful mature force cannot be separated from nonspecific differentiation or if necessary exposure/product work becomes an open-ended chemistry program. A prevention-limited effect should be re-scoped to a feasible treatment window, not automatically rejected.",
+      "comparison_to_apr_blu": "PSB offers clearer published mouse-force evidence and a historical exact supplier, reducing some identity uncertainty relative to BLU reconstruction. BLU nevertheless has a more concretely specified post-deficit human-force route; PSB still needs that bridge and a stronger capture thesis. APR's same-disease clinical signal/local article supports a more direct intended-use question. These are substantive scope comparisons, not a penalty applied only to PSB for missing prices.",
+      "source_ids": [
+        "R26-F01",
+        "R26-F11",
+        "R26-F12",
+        "R26-F13"
+      ]
+    },
+    {
+      "id": "R26-FUN-02",
+      "name": "FD-2 peptide for ALS",
+      "record_type": "new_exact_use_defined_peptide",
+      "aliases": [
+        "FD-2",
+        "FD2",
+        "FD-1",
+        "FD1",
+        "Pgk1-derived 16-amino acid peptide",
+        "extracellular Pgk1 peptide",
+        "10.1016/j.neurot.2025.e00806",
+        "US20240327462A1"
+      ],
+      "exact_use": "A defined extracellular Pgk1-derived peptide to preserve motor-neuron and neuromuscular function in ALS; FD-2 selected, with FD-1 retained as an informative comparator.",
+      "exact_asset_identified": true,
+      "asset_limit": "The paper defines the active peptide family and a single-residue FD-2 variant. The patent explicitly names FD2. Final chemical-form/terminus correspondence, lot specification, measured exposure and current commercial rights are not independently established.",
+      "information_priority_rank": 1,
+      "disposition": "First bounded information gate in this lane: reconcile the newly located peptide patent, article identity and existing product/exposure record.",
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "evidence_level": "One investigator lineage spanning engineered cell models, developmental fish models and presymptomatically treated SOD1-G93A mice; a related patent is not independent confirmation.",
+      "evidence_units": [
+        {
+          "unit": "NSC34/engineered ALS-like neuronal models",
+          "endpoint": "Neurite and stress-associated cellular outcomes.",
+          "denominator": "Cells and repeated experiments do not constitute patient donors.",
+          "interpretation": "No patient-derived human neuronal functional rescue in this paper."
+        },
+        {
+          "unit": "Developmental zebrafish C9orf72 knockdown and hTDP43-G348C models",
+          "endpoint": "Axonal and swimming changes.",
+          "denominator": "Separate model experiments within the same publication lineage.",
+          "interpretation": "Not adult genetic-patient replication or evidence for all ALS genotypes."
+        },
+        {
+          "unit": "SOD1-G93A mice",
+          "endpoint": "Grip/locomotion, NMJ integrity, motor-neuron markers and time to humane endpoint.",
+          "denominator": "Five animals per group for grip/locomotion; twelve per group for survival; repeated grip readings are not independent animals.",
+          "interpretation": "Treatment starts at postnatal day 60 before overt decline. Endpoint includes inability to feed with forelimb paralysis, not observed natural lifespan. The report describes random assignment and blinded endpoint assessment."
+        },
+        {
+          "unit": "US20240327462A1 examples",
+          "endpoint": "Related peptide functional observations.",
+          "denominator": "Patent survival counts differ from the later article (control seven, treated groups five).",
+          "interpretation": "Same investigator/asset lineage; overlap is unresolved. Do not sum or call independent replication."
+        }
+      ],
+      "positive_evidence": [
+        "Useful motor outcomes and time to humane endpoint improve in a mammalian ALS model.",
+        "FD-2 appears stronger in vivo than FD-1 in the paper, while FD-1 is stronger in some cell comparisons; this creates a discriminating within-family comparator.",
+        "A specific institutional patent family supplies a plausible route to an asset relationship, rather than an anonymous target-only concept."
+      ],
+      "negative_or_limiting_evidence": [
+        "No verified post-symptomatic rescue; existing evidence most directly supports early preservation or delay.",
+        "Patient-derived mature motor-unit function and broad genetic applicability are unproven.",
+        "Measured systemic/tissue pharmacokinetics, relevant exposure duration, immunogenicity and a chronic product package were not established.",
+        "The proposed conformational/stability explanation for FD-2's relative in-vivo advantage is a hypothesis, not measured pharmacokinetic superiority.",
+        "Full-length extracellular Pgk1, intracellular Pgk1 enzyme enhancement and FD-2 are distinct interventions; their results cannot be pooled as exact-article replication."
+      ],
+      "rights_and_capture": {
+        "observed": "US20240327462A1, published 2024-10-03, explicitly describes FD peptides and lists Mackay Medical College and Fu Jen Catholic University. Its indexed US status is pending; this is a third-party transcription of a primary patent publication, not verified current official prosecution or title. The paper's no-conflict statement does not negate the filing.",
+        "available_offer": null,
+        "price": null,
+        "capture_inference": "A defined peptide plus institutional claims is a plausible license/option or evidence-rights contribution, but no willingness to transact, clean title, exact claim match or economic terms is established.",
+        "unresolved": [
+          "Exact final peptide and terminal-form correspondence between article and claims",
+          "Current territorial claims and title/license encumbrances",
+          "What existing exposure/product data can be used",
+          "A retainable contribution and access terms"
+        ]
+      },
+      "financing_scope": "First a finite document/product-rights reconciliation. A later systemic peptide and disease-functional qualification project has separate exposure, model and formulation dependencies; no low-cost peptide-development assumption or dollar quote is invented.",
+      "cheapest_next_information_gate": "Reconcile the final article's FD-2 identity and endpoint units with the named patent examples/claims, current public national records and any existing product/exposure information. Specify whether the next useful question concerns early prevention in a feasible diagnosed population or later symptomatic function, and whether it can be answered through an obtainable bounded evidence route.",
+      "stopping_rule": "Close this public-record pass when the named identity/claim and existing-data questions are resolved or accessible records are exhausted. Hold if an exact peptide/product cannot be specified, or if the next informative step requires broad delivery discovery and a new model platform without a superior incremental-value case. Re-scope a prevention-only benefit to a feasible population/window before comparing costs; prevention alone is not failure. A private owner response is not a prerequisite for scientific selection.",
+      "comparison_to_apr_blu": "Prefer this newly opened article/patent reconciliation over another unchanged APR/BLU broad literature pass. For an actual functional commitment, APR has same-disease human observations and a local article, while BLU has a defined post-deficit human-force route; FD-2 lacks a mature patient-derived functional route and measured exposure. FD-2 can still become the better conditional next information dollar if its actual available scope is narrower, more discriminating or retains more value; apply identical price/rights burdens to all.",
+      "source_ids": [
+        "R26-F02",
+        "R26-F04",
+        "R26-F12",
+        "R26-F13"
+      ]
+    },
+    {
+      "id": "R26-FUN-03",
+      "name": "Defined copper nanoclusters for Menkes disease",
+      "record_type": "new_exact_use_defined_formulation_family",
+      "aliases": [
+        "CuNC",
+        "CuNCs",
+        "CuNC@HisAc",
+        "CuNC@HisAcAsc",
+        "histidine/acetate copper nanoclusters",
+        "10.1126/sciadv.aeg6972",
+        "WO2022238656A1"
+      ],
+      "exact_use": "Defined stabilized copper nanoclusters for early ATP7A-deficient Menkes disease, seeking useful neurological or product benefit beyond copper histidinate.",
+      "exact_asset_identified": true,
+      "asset_limit": "The publication characterizes defined formulations, but the exact development variant, reproducible released batch, chronic product specification and commercial rights are not established.",
+      "information_priority_rank": 3,
+      "disposition": "Conditional translational/partner reserve; existing-data comparator and product-rights audit only.",
+      "paid_development_promotion": false,
+      "funding_authorized": false,
+      "estimated_return_per_dollar": null,
+      "evidence_level": "One primary Mo-blo mouse study lineage, with formulation characterization, survival and selected later functional observations; no CuNC patient efficacy.",
+      "evidence_units": [
+        {
+          "unit": "Mo-blo ATP7A-deficient mice treated from postnatal day five",
+          "endpoint": "Survival through postnatal day 50 against untreated, copper-histidine and wild-type groups.",
+          "denominator": "CuNC 17; untreated 14; copper-histidine 13; wild-type 20.",
+          "interpretation": "Severe early death includes vascular/aortic disease. The reported 50-day value coincides with the study endpoint and must not be presented as independently established median lifespan."
+        },
+        {
+          "unit": "Later behavioral testing",
+          "endpoint": "Locomotor, coordination and learning measurements.",
+          "denominator": "Predominantly treated survivors compared with wild-type; few surviving disease controls.",
+          "interpretation": "Survivor selection and missing comparable untreated/CuHis groups prevent a clean causal claim of neurological normalization. Treated animals retain significantly more stumbles than wild-type."
+        },
+        {
+          "unit": "Biochemistry and safety",
+          "endpoint": "Cuproenzyme activity, organ markers and histology.",
+          "denominator": "Age/survival strata differ; some late CuHis samples have only two or three animals.",
+          "interpretation": "Elevated ALT and beta-2-microglobulin deserve attention. A claimed adaptive/reversible explanation is not verified longitudinal reversal; normal histology or negative staining does not establish complete safety."
+        },
+        {
+          "unit": "Approved copper histidinate benchmark",
+          "endpoint": "FDA survival assessment from two single-arm clinical studies with external controls.",
+          "denominator": "66 treated participants and 17 untreated contemporary external controls overall.",
+          "interpretation": "Different human comparator evidence; not randomized, not CuNC evidence and not proof of neurological equivalence."
+        }
+      ],
+      "positive_evidence": [
+        "A defined formulation improves early survival against the study's copper-histidine comparator in a severe ATP7A-deficient mouse model.",
+        "Brain cuproenzyme activity and later behavioral observations support investigating a neurological contribution.",
+        "A named university/hospital patent family offers a plausible translation/partner route."
+      ],
+      "negative_or_limiting_evidence": [
+        "A study endpoint at day 50 cannot establish 50-day median lifespan for a group with survivors at the boundary.",
+        "Later behavioral comparisons are subject to differential survival and are not a robust matched surviving-disease-control demonstration.",
+        "Residual coordination deficits remain; nonsignificance versus wild-type is not equivalence.",
+        "Reported biochemical safety abnormalities are not neutralized by qualitative histology or an untested reversibility explanation.",
+        "FDA-approved copper histidinate now supplies a survival-benefit baseline; untreated-only need cannot define the incremental product claim.",
+        "Early neonatal treatment does not establish treatment of later irreversible neurological damage."
+      ],
+      "rights_and_capture": {
+        "observed": "WO2022238656A1, published 2022-11-17, names University of Lorraine and CHU Nancy in the indexed record and describes copper nanocluster/Menkes uses. The WO indexed status is ceased while national family entries remain; this does not establish family abandonment. Current official national prosecution, title and available license are not verified.",
+        "available_offer": null,
+        "price": null,
+        "capture_inference": "This is an institutional formulation-development opportunity, not unowned generic copper. A reproducible manufacturing/product contribution and incremental advantage over approved therapy could retain value, but neither is established as an offered transaction.",
+        "unresolved": [
+          "Exact candidate formulation and released product specification",
+          "Current territorial rights and license availability",
+          "Survival censoring and survivor-stratified functional evidence",
+          "Incremental neurological, delivery or safety benefit versus approved copper histidinate"
+        ]
+      },
+      "financing_scope": "Finite existing-data and product/rights audit first. Full nanomedicine manufacturing, chronic safety and pediatric clinical development would be a materially larger program than a small model-qualification tranche; no numerical budget is asserted.",
+      "cheapest_next_information_gate": "Reconcile survival censoring, age/selection strata and the exact formulation-to-patent relationship, then state a testable incremental claim against current copper histidinate. Determine whether existing data distinguish brain-function or product benefit beyond systemic survival; stop if they only support the already-satisfied untreated comparison.",
+      "stopping_rule": "Hold broad brain-restoration claims if surviving-control comparisons cannot distinguish treatment from survival selection. Re-scope to a narrower systemic or practical product benefit only if it remains clinically consequential against approved copper histidinate. Hold development if reliable formulation control or an obtainable value contribution remains undefined. A feasible neonatal-prevention window is acceptable and does not require adult reversal.",
+      "comparison_to_apr_blu": "The existing-data survival/comparator audit is inexpensive in kind and consequential, but it is a different purchase from APR/BLU useful-function qualification. A chronic pediatric nanomedicine program has more manufacturing and comparator dependencies. No higher funded rank is justified by the large untreated-mouse effect alone; an actual narrow data/option package could still be worth comparing on equal terms.",
+      "source_ids": [
+        "R26-F03",
+        "R26-F05",
+        "R26-F06",
+        "R26-F12",
+        "R26-F13",
+        "R26-F14",
+        "R26-F15"
+      ],
+      "prior_related_inventory": {
+        "inventory_id": "component-proposals:P010",
+        "name": "Copper-ionophore formulation for ATP7A deficiency",
+        "repository_path": "discovery/component-proposals.csv",
+        "adjudication": "Same disease and copper-delivery purpose were already encountered. The two historical primary links describe elesclomol-copper; the selected CuNC@HisAc/HisAcAsc is a different exact formulation/article. Do not count a new disease or transfer the prior two-child report into CuNC evidence.",
+        "source_ids": [
+          "R26-F14",
+          "R26-F15"
+        ]
+      },
+      "novelty_scope": "Scoped new exact formulation/use against the 424-file baseline and 13 recovered reports; prior Menkes P010 is retained as a different-article concept. Screens N–Q remain unrecovered."
+    }
+  ],
+  "rejects": [
+    {
+      "id": "R26-FUN-REJ-01",
+      "name": "Cyclo(His-Pro) for DMD",
+      "aliases": [
+        "CHP",
+        "Cyclo His-Pro",
+        "Cyclo(His-Pro)",
+        "10.1002/advs.202305927",
+        "WO2025127437A1"
+      ],
+      "disposition": "Partnered/sponsor program scout; not retained as a standalone new development asset.",
+      "useful_signal": "Mouse grip/hanging function and preventive-cohort ex-vivo force improve; a later-start cohort is also reported.",
+      "limiting_evidence": "No endurance or eccentric-injury protection and no CK improvement. Ex-vivo force evidence from the preventive cohort cannot simply be assigned to the later-start cohort; no human DMD functional result.",
+      "rights": "NovMetaPharma funding and company-affiliated coauthors; WO2025127437A1 is assigned in the index to Novmetapharma and explicitly addresses muscle-function/disease use. No license offer or current enforceability determination established.",
+      "reason": "A potentially useful competitor/partner rather than a generic untouched molecule; its mechanism and incremental DMD contribution do not presently beat the retained finite information gates.",
+      "future_trigger": "A distinct obtainable partnership/product contribution or independent clinically relevant functional/exposure evidence.",
+      "source_ids": [
+        "R26-F07",
+        "R26-F08",
+        "R26-F12"
+      ]
+    },
+    {
+      "id": "R26-FUN-REJ-02",
+      "name": "GBT601 plus PT2399 for NDUFS4-related Leigh disease",
+      "aliases": [
+        "GBT601",
+        "osivelotor",
+        "PF-07940367",
+        "GBT021601",
+        "PT2399",
+        "10.1073/pnas.2618654123",
+        "10.64898/2026.06.30.734089"
+      ],
+      "disposition": "Strong functional science; partnered/rights-complex reserve, not retained for an independent small next development tranche.",
+      "useful_signal": "The paper reports late-treatment Ndufs4-knockout motor/survival benefit, including combination benefit after advanced disease. This is stronger timing evidence than the preventive FD-2/CuNC studies.",
+      "limiting_evidence": "Systemic oxygen-affinity/HIF-2 physiology introduces a distinct translation and safety problem. The separate Friedreich model improved motor trajectories without lifespan or cardiac rescue. Voxelotor withdrawal is a related-class caution, not an exact GBT601-Leigh failure.",
+      "rights": "Paper discloses MGH hypoxia-related patent interests and relevant author company equity; GBT601 belongs to an existing industry asset lineage. Current exact trial status, available rights and a combined-product offer were not established.",
+      "reason": "Do not downgrade the functional signal to justify a preferred list. The existing candidate/combination and interdependent systemic physiology currently imply a larger partnered program than the chosen document-level asset gates.",
+      "future_trigger": "An obtainable scoped collaboration or product contribution, exact current asset status, and an interpretable relevant-exposure safety/benefit package.",
+      "lineage": "Preprint and PNAS paper are the same study lineage, not two replications. The bounded search did not substantiate a claim that GBT601 is discontinued.",
+      "source_ids": [
+        "R26-F09",
+        "R26-F12"
+      ]
+    },
+    {
+      "id": "R26-FUN-REJ-03",
+      "name": "Nifuroxazide for CHCHD10-S59L disease",
+      "aliases": [
+        "nifuroxazide",
+        "CHCHD10",
+        "CHCHD10 S59L",
+        "10.1093/brain/awae348",
+        "PCT/EP2022/083829"
+      ],
+      "disposition": "Lower-priority cellular restoration scout.",
+      "useful_signal": "Patient fibroblast and patient-derived motor-neuron mitochondrial morphology/motility and stress-associated survival observations.",
+      "limiting_evidence": "No organism motor function or mature neuromuscular output in the retrieved study. MICOS-complex stability was not restored. MIC13/QIL1-cell findings are narrower network readouts, not demonstrated cross-disease cristae rescue.",
+      "rights": "The primary paper reports PCT/EP2022/083829 filed 2022-11-30. Generic drug access and a no-conflict declaration do not establish an unencumbered neurological product. Relevant exposure was not verified.",
+      "reason": "Subcellular/cell-survival restoration has a less direct useful-function bridge than retained mammalian functional assets, with exposure and product capture still unresolved.",
+      "future_trigger": "Independent organism or patient-derived mature functional benefit at relevant exposure plus an obtainable differentiated contribution.",
+      "source_ids": [
+        "R26-F10",
+        "R26-F12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": "ddiscov.round26.local.retrieval.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "primary_route": "Firecrawl web/paper search and primary-text retrieval",
+  "secondary_access_route": "Unpaywall DOIlocationmetadata; ordinary permittedHTTPSfor official registry data when HTMLretrieval was incomplete",
+  "source_count": 17,
+  "reconstruction_note": "This compact log records meaningful operations and outcomes from the research handoff, not an exhaustive raw tool transcript. Exact original query strings or timestamps not retained are labeled; no private session IDs are preserved.",
+  "search_queries_are": "Normalized topic descriptions where exact query text was not retained",
+  "conversation_continuity": "The returned FirecrawlconversationIdwas carried across research calls; its private value is omitted.",
+  "search_feedback": "The condensed research handoff does not retain per-search feedback outcomes; complete feedback coverage is not asserted. Private search and feedback identifiers are omitted.",
+  "operations": [
+    {
+      "id": "local-ret-01",
+      "date": "2026-11-08",
+      "tool": "Local frozen-corpus read/search",
+      "operation": "Search candidate aliases and inspect matched contexts across424baselinefiles and13complete indexed external reports.",
+      "source_ids": [
+        "R26-L00"
+      ],
+      "outcome": "Known molecule uses separated from exact new uses; N–Q and other uninspected history remain gaps.",
+      "access_scope": "Complete frozen corpus plus recovered external indexed texts; no rawcorpus committed"
+    },
+    {
+      "id": "local-ret-02",
+      "date": "2026-11-08",
+      "tool": "Firecrawl web and paper search",
+      "query_summary": "Local bounded products: wound healing, keratin-disorder topical products, corneal functional rescue, scar products and local drug repurposing; compare positive and failure evidence.",
+      "outcome": "Focused retained set on erlotinib,KRT16;dornase,dryeye;amlexanox,RDEB;timolol,DFU. Weaker and previously screened scouts logged.",
+      "access_scope": "Bounded discovery, not exhaustive literature search"
+    },
+    {
+      "id": "local-ret-03",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape + metadata",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+      "source_ids": [
+        "R26-L01"
+      ],
+      "outcome": "Publisher gateway/limitedbody. ExactDOIconfirmed withPubMed; no subscriber access or bypass attempted.",
+      "access_scope": "Publishermetadata/intro, not full article at thatURL"
+    },
+    {
+      "id": "local-ret-04",
+      "date": "2026-11-08",
+      "tool": "Unpaywall ordinaryHTTPSDOIlookup",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_ids": [
+        "R26-L01"
+      ],
+      "outcome": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null
+      },
+      "access_scope": "Locationmetadata only; noreturnedOAalternatives tofollow"
+    },
+    {
+      "id": "local-ret-05",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "source_ids": [
+        "R26-L01"
+      ],
+      "outcome": "Full two-page publicarticle body read despiteclosedUnpaywallmetadata.",
+      "access_scope": "Complete articlePDF, notpatientdata orproductrights"
+    },
+    {
+      "id": "local-ret-06",
+      "date": "2026-11-08",
+      "tool": "Firecrawl web search and scrape",
+      "query_summary": "Erlotinib topical palmoplantar keratoderma failure, formulation and currentSGT-210program",
+      "source_ids": [
+        "R26-L02",
+        "R26-L03"
+      ],
+      "outcome": "Read contrary topical results and currentAugust2026issuerrelease. Excluded a misleading recent search date attached to an older conference page.",
+      "access_scope": "Full primaryclinicalreport and issuerrelease; no availablelicense established"
+    },
+    {
+      "id": "local-ret-07",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "source_ids": [
+        "R26-L04"
+      ],
+      "outcome": "Read full pilotpaper, participant counts, symptom/sign and safety denominators.",
+      "access_scope": "Fullprimarybody andtables"
+    },
+    {
+      "id": "local-ret-08",
+      "date": "2026-11-08",
+      "at_utc": "2026-11-08T19:58:54Z",
+      "tool": "Firecrawl targeted re-read",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "source_ids": [
+        "R26-L04"
+      ],
+      "outcome": "ConfirmedTable5between-armOSDIp=.078andpublication2019-05-02. Final check did not expand discovery.",
+      "access_scope": "Previously read primarybody, with specific table/date confirmation"
+    },
+    {
+      "id": "local-ret-09",
+      "date": "2026-11-08",
+      "tool": "OrdinaryHTTPSGETto official ClinicalTrials.govAPI",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02193490",
+      "source_ids": [
+        "R26-L06"
+      ],
+      "outcome": "Verifiedactual47,terminationfor sponsor/slowaccrual,8-weekstainingandOSDIprimaryoutcomes,completion2017-10-11,results2019-11-05,lastupdate2020-01-18.",
+      "access_scope": "Status, dates, registered primaryoutcomes and firstpostedoutcomeresult; no participant-levelaudit"
+    },
+    {
+      "id": "local-ret-10",
+      "date": "2026-11-08",
+      "tool": "Firecrawl search/scrape",
+      "query_summary": "Dornase dry-eye clinical results and NeutrolisL304ocularDNaselicense",
+      "source_ids": [
+        "R26-L05"
+      ],
+      "outcome": "Full issuerannouncement identifiesexclusiveUIClicense and a distinctproprietaryprogram. Primarycorporate-site searchdidnot establishcurrentlicenseagreement or new clinicalresults.",
+      "access_scope": "Announcementonly; noadditionaltrialparticipants counted"
+    },
+    {
+      "id": "local-ret-11",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022202X17315506",
+      "source_ids": [
+        "R26-L07"
+      ],
+      "outcome": "Fullprimarybody recovered.14materialdonors/12mutations/8responsivecontexts separated from anyclinicaldenominator.",
+      "access_scope": "Cell/organotypic study, nothuman treatment"
+    },
+    {
+      "id": "local-ret-12",
+      "date": "2026-11-08",
+      "tool": "Firecrawl web search and scrape",
+      "query_summary": "Amlexanox RDEB COL7A1 clinical trial status/results CTRI/2021/04/033024",
+      "source_ids": [
+        "R26-L08",
+        "R26-L09"
+      ],
+      "outcome": "Secondary2021mirror recovered; primaryCTRIbody not recovered. Networksearchsnippet statusconflicted with mirror but matchingrowabsent fromretrievedpage. No verifiedhumanoutcome.",
+      "access_scope": "Secondaryplan/statusgap; noactual15treatedinference"
+    },
+    {
+      "id": "local-ret-13",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape + Unpaywall DOIlookup",
+      "doi": "10.1159/000545357",
+      "source_ids": [
+        "R26-L10"
+      ],
+      "outcome": {
+        "unpaywall": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "best_oa_location": null,
+          "oa_locations": [],
+          "version": null,
+          "license": null
+        },
+        "body": "Full institutionalPDFobtained; wrapper/bodyidentityconflictretained."
+      },
+      "access_scope": "Full embedded2025article; no patient-leveldata orindependent2024cohort"
+    },
+    {
+      "id": "local-ret-14",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape then ordinaryHTTPSofficialAPI",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03282981",
+      "source_ids": [
+        "R26-L11"
+      ],
+      "outcome": "HTMLreturnedglossaryshell; officialAPIreturnedprotocol/results. Registry12/31-weekfieldsand8/21vs7/27confirmed, alsoindependentlycheckedbyroot.",
+      "access_scope": "Selectedofficialclinicaltrial fields/results, notrawparticipantdataset"
+    },
+    {
+      "id": "local-ret-15",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "source_ids": [
+        "R26-L12"
+      ],
+      "outcome": "Conference14/15/30-weektiming and7/27percentageinconsistency preserved;adjustedversusunadjustedanalyses separated.",
+      "access_scope": "Fullconferenceabstract;notindependentreplication"
+    },
+    {
+      "id": "local-ret-16",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2474986",
+      "source_ids": [
+        "R26-L13"
+      ],
+      "outcome": "Cellfolding/functionpaperfullbody; no patientcornealfunction claim; historicalsystemicriskcontextread.",
+      "access_scope": "Primarypreclinicalbody"
+    },
+    {
+      "id": "local-ret-17",
+      "date": "2026-11-08",
+      "tool": "Firecrawl DOI/paper retrieval and Unpaywall",
+      "doi": "10.1097/SAP.0b013e31821b6d08",
+      "source_ids": [
+        "R26-L14"
+      ],
+      "outcome": {
+        "publisher": "Abstractonly, fullbodyaccess-gated",
+        "paper_read": "No passages returned",
+        "unpaywall": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "best_oa_location": null,
+          "oa_locations": [],
+          "version": null,
+          "license": null
+        }
+      },
+      "access_scope": "Primaryabstract andOAmetadata; nofullallocation/blindingaudit"
+    },
+    {
+      "id": "local-ret-18",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://www.kitoscell.com",
+      "source_ids": [
+        "R26-L16"
+      ],
+      "outcome": "Brandingplusunrelatedcasinocontent; unsuitable for availabilityorregulatoryclaims.",
+      "access_scope": "Unreliableretrievedpage, excludedfrompositivestatusinference"
+    },
+    {
+      "id": "local-ret-19",
+      "date": "2026-11-08",
+      "tool": "Firecrawl scrape",
+      "url": "https://link.springer.com/article/10.1186/s12903-025-06546-6",
+      "source_ids": [
+        "R26-L15"
+      ],
+      "outcome": "Fullcomparatorstudyread;56teeth/2dogsnotindependentanimals; no significant hard-tissueadvantage.",
+      "access_scope": "Primaryanimalbody"
+    },
+    {
+      "id": "local-ret-20",
+      "date": "2026-11-08",
+      "tool": "Bounded convergence",
+      "operation": "Stopped discovery after four defensible records and loggedrejections.",
+      "outcome": "Noforcedwinner,nospending,nooutreach,norecruitment,noexperiments,nosimulations,nomaterialreceipt.",
+      "access_scope": "Decisionanalysis only"
+    }
+  ],
+  "unpaywall_policy": {
+    "credentials_omitted": true,
+    "returned_location_metadata_preserved": true,
+    "returned_oa_locations_followed_when_present": "NoOAalternativesreturnedfortheseaccess-gaplookups",
+    "closed_is_proof_no_legal_copy": false,
+    "paywall_bypass": false
+  },
+  "current_gaps": [
+    "PrimaryCTRIamlexanoxstatus/results",
+    "Patient-levellineage/dataandexact-producttransfer",
+    "Currentcommercialterms/FTO",
+    "UnrecoveredhistoricalScreensN–Q"
+  ],
+  "restricted_actions_performed": []
+}

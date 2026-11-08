@@ -1,8 +1,20 @@
 # Current development shortlist
 
-**Current review: 8 November 2026. Round 25. Inherited conditional development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
+**Current review: 8 November 2026. Round 26. Inherited conditional development baseline: Round 22.** The [selection policy](selection-policy.md) governs new decisions; the [cumulative register](../research/portfolio-register.json) preserves original coverage and history.
 
-## Round 25: current decisions after Firecrawl review
+## Round 26: new-candidate information priorities
+
+**All three agents screened new candidates.** The ten records comprise three human-evidence, four local-product and three functional-preclinical questions. **Topical erlotinib/KRT16 keratoderma leads the local lane; FD-2/ALS leads the functional asset question; levodopa/carbidopa/MCT8 leads the human-evidence lane.** The [integrated decision](../research/rounds/round26/README.md) distinguishes useful scientific evidence, attainable product contribution and the actual next information purchase.
+
+Erlotinib has two related KRT16 cases with blinded opposite-foot phases and later uncontrolled functional improvement. FD-2 links mouse motor/humane-endpoint outcomes to a named institutional peptide patent, with presymptomatic timing and missing measured exposure retained. MCT8 has two clinical reports with different endpoint denominators; generic capture remains unresolved. These finite new questions deserve attention before another unchanged broad APR/BLU literature pass. An existing clinical route need not be reset to animal discovery.
+
+The new reserves are ophthalmic dornase/severe dry eye, PSB-KD107/DMD, salbutamol/PURA, amlexanox/COL7A1 nonsense RDEB and copper nanoclusters/Menkes. Timolol/diabetic ulcers and TTI-0102/MELAS remain holds on the stronger efficacy claims, with exact endpoint, attrition and source discrepancies recorded. [Ledger](../research/rounds/round26/candidate-ledger.json).
+
+**No paid-development or S-tier promotion is made.** Keep capital uncommitted until an obtainable, priced, informative commitment can be compared with alternatives and waiting. The inherited APR → RM → BLU → NDC → mIGF → exact P2 → AAT conditional development order remains provenance; this round did not freshly rank every incumbent above the new leads. Current quote/access gaps apply symmetrically and do not bar qualitative comparison. [Comparative reasoning](../research/rounds/round26/integration-review.md).
+
+All 424 baseline files,622 original coverage records and prior round objects are preserved. Exact-use novelty is limited to selected aliases and13 complete indexed external reports, with Screens N–Q unresolved and Screen L's amlexanox scout indication unspecified. No outreach or experimental execution follows from these screening conclusions.
+
+## Retained Round 25: current decisions after Firecrawl review
 
 **Keep capital uncommitted until an obtainable, priced, informative commitment can be compared with waiting.** The review does not establish negative underlying program EV. It retains **APR-246 → RM4404 → BLU-3797 → NDC-9009 → mIGF-Gel → exact 8015-P2 → AAT qualification** under their original, different information scopes. The [16-record reassessment](../research/rounds/round25/existing-candidate-reassessment.md) identifies two fresh primary checks, one coordinated APR review and thirteen explicit carry-forwards.
 

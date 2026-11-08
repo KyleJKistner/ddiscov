@@ -1,0 +1,810 @@
+{
+  "schema_version": "ddiscov.round26.unpaywall_access.v1",
+  "as_of": "2026-11-08",
+  "lookup_records_in_this_consolidation": 18,
+  "unique_normalized_dois": 16,
+  "counting_rule": "Repeated DOI lookups by different lanes/root remain visible; neither lookups nor alternative locations are independent studies. Logs retain actual requests/outcomes without contact parameters.",
+  "records": [
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[0]",
+      "doi": "10.1002/mds.30152",
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "best_oa_location": {
+        "endpoint_id": null,
+        "evidence": "deprecated",
+        "host_type": "publisher",
+        "is_best": true,
+        "license": "cc-by",
+        "oa_date": "2025-03-15",
+        "pmh_id": null,
+        "repository_institution": null,
+        "updated": "deprecated",
+        "url": "https://doi.org/10.1002/mds.30152",
+        "url_for_landing_page": "https://doi.org/10.1002/mds.30152",
+        "url_for_pdf": null,
+        "version": "publishedVersion"
+      },
+      "oa_locations": [
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2025-03-15",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://doi.org/10.1002/mds.30152",
+          "url_for_landing_page": "https://doi.org/10.1002/mds.30152",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        },
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "cc-by",
+          "oa_date": "2025-03-15",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://www.preprints.org/frontend/manuscript/99d4870df7d362d574a00bbf1fe5f77d/download_pub",
+          "url_for_landing_page": "https://doi.org/10.20944/preprints202409.0435.v1",
+          "url_for_pdf": "https://www.preprints.org/frontend/manuscript/99d4870df7d362d574a00bbf1fe5f77d/download_pub",
+          "version": "acceptedVersion"
+        },
+        {
+          "endpoint_id": "ac9de7698155b820de7",
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "cc-by",
+          "oa_date": "2025-03-15",
+          "pmh_id": "oai:pubmedcentral.nih.gov:12089910",
+          "repository_institution": "National Institutes of Health",
+          "updated": "deprecated",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12089910",
+          "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/12089910",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        },
+        {
+          "endpoint_id": "b381d5d1f9524e02b78",
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "cc-by",
+          "oa_date": "2025-03-15",
+          "pmh_id": "oai:publications.goettingen-research-online.de:2/148479",
+          "repository_institution": "Asklepios Klinik St. Georg",
+          "updated": "deprecated",
+          "url": "https://resolver.sub.uni-goettingen.de/purl?gro-2/148479",
+          "url_for_landing_page": "https://resolver.sub.uni-goettingen.de/purl?gro-2/148479",
+          "url_for_pdf": null,
+          "version": "submittedVersion"
+        }
+      ],
+      "updated": "2026-10-27T16:13:06Z",
+      "actual_followthrough": null,
+      "actual_content_access": "Full published-version PMC text retrieved; no extra evidentiary credit for indexed preprint/repository alternatives."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[1]",
+      "doi": "10.1002/mds.70093",
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "best_oa_location": {
+        "endpoint_id": null,
+        "evidence": "deprecated",
+        "host_type": "publisher",
+        "is_best": true,
+        "license": "cc-by",
+        "oa_date": "2025-10-27",
+        "pmh_id": null,
+        "repository_institution": null,
+        "updated": "deprecated",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+        "url_for_landing_page": "https://doi.org/10.1002/mds.70093",
+        "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+        "version": "publishedVersion"
+      },
+      "oa_locations": [
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2025-10-27",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+          "url_for_landing_page": "https://doi.org/10.1002/mds.70093",
+          "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+          "version": "publishedVersion"
+        },
+        {
+          "endpoint_id": "ac9de7698155b820de7",
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "cc-by",
+          "oa_date": "2025-10-27",
+          "pmh_id": "oai:pubmedcentral.nih.gov:13001712",
+          "repository_institution": "National Institutes of Health",
+          "updated": "deprecated",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/pdf/MDS-41-509.pdf",
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/pdf/MDS-41-509.pdf",
+          "version": "publishedVersion"
+        },
+        {
+          "endpoint_id": "a98c2c958414462f081",
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "other-oa",
+          "oa_date": "2025-10-27",
+          "pmh_id": "oai:air.unimi.it:2434/1208154",
+          "repository_institution": "University of Milan",
+          "updated": "deprecated",
+          "url": "https://hdl.handle.net/2434/1208154",
+          "url_for_landing_page": "https://hdl.handle.net/2434/1208154",
+          "url_for_pdf": null,
+          "version": "submittedVersion"
+        }
+      ],
+      "updated": "2026-10-29T10:15:11Z",
+      "actual_followthrough": null,
+      "actual_content_access": "Full PMC main text retrieved; supplementary XLSX and publisher PDF alternative not separately audited."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[2]",
+      "doi": "10.1016/j.nmd.2022.01.005",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "updated": "2025-05-22T18:42:22Z",
+      "actual_followthrough": null,
+      "actual_content_access": "No OA location; this original pyridostigmine report was not read in full. The2026 review remains the detailed source."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[3]",
+      "doi": "10.1016/j.nmd.2022.09.007",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "updated": "2025-05-22T18:42:22Z",
+      "actual_followthrough": null,
+      "actual_content_access": "No OA location; publisher/PubMed access attempts and paper-read returned no usable original full text."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[4]",
+      "doi": "10.1159/000551857",
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "best_oa_location": {
+        "endpoint_id": null,
+        "evidence": "deprecated",
+        "host_type": "publisher",
+        "is_best": true,
+        "license": "cc-by-nc",
+        "oa_date": "2026-04-02",
+        "pmh_id": null,
+        "repository_institution": null,
+        "updated": "deprecated",
+        "url": "https://doi.org/10.1159/000551857",
+        "url_for_landing_page": "https://doi.org/10.1159/000551857",
+        "url_for_pdf": null,
+        "version": "publishedVersion"
+      },
+      "oa_locations": [
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by-nc",
+          "oa_date": "2026-04-02",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://doi.org/10.1159/000551857",
+          "url_for_landing_page": "https://doi.org/10.1159/000551857",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        }
+      ],
+      "updated": "2026-09-09T13:38:15Z",
+      "actual_followthrough": null,
+      "actual_content_access": "Full publisher article retrieved; expert interpretation, not a new clinical dataset."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[5]",
+      "doi": "10.64898/2026.03.26.26347968",
+      "is_oa": true,
+      "oa_status": "green",
+      "best_oa_location": {
+        "endpoint_id": null,
+        "evidence": "deprecated",
+        "host_type": "repository",
+        "is_best": true,
+        "license": "cc-by-nc-nd",
+        "oa_date": "2026-03-31",
+        "pmh_id": null,
+        "repository_institution": null,
+        "updated": "deprecated",
+        "url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+        "url_for_landing_page": "https://doi.org/10.64898/2026.03.26.26347968",
+        "url_for_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+        "version": "acceptedVersion"
+      },
+      "oa_locations": [
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": true,
+          "license": "cc-by-nc-nd",
+          "oa_date": "2026-03-31",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+          "url_for_landing_page": "https://doi.org/10.64898/2026.03.26.26347968",
+          "url_for_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+          "version": "acceptedVersion"
+        }
+      ],
+      "updated": "2026-04-02T16:24:14Z",
+      "actual_followthrough": null,
+      "actual_content_access": "Returned public PDF followed with Firecrawl; all15pages parsed. Preprint status verified from document, despite acceptedVersion metadata."
+    },
+    {
+      "workstream": "human",
+      "log": "human-retrieval-log.json",
+      "log_field": ".unpaywall.lookups[6]",
+      "doi": "10.7759/cureus.112808",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "endpoint_id": null,
+        "evidence": "deprecated",
+        "host_type": "publisher",
+        "is_best": true,
+        "license": "cc-by",
+        "oa_date": "2026-07-16",
+        "pmh_id": null,
+        "repository_institution": null,
+        "updated": "deprecated",
+        "url": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+        "url_for_landing_page": "https://doi.org/10.7759/cureus.112808",
+        "url_for_pdf": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+        "version": "publishedVersion"
+      },
+      "oa_locations": [
+        {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2026-07-16",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+          "url_for_landing_page": "https://doi.org/10.7759/cureus.112808",
+          "url_for_pdf": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+          "version": "publishedVersion"
+        },
+        {
+          "endpoint_id": "ac9de7698155b820de7",
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": false,
+          "license": "cc-by",
+          "oa_date": "2026-07-16",
+          "pmh_id": "oai:pubmedcentral.nih.gov:13375090",
+          "repository_institution": "National Institutes of Health",
+          "updated": "deprecated",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        }
+      ],
+      "updated": "2026-10-29T10:15:11Z",
+      "actual_followthrough": null,
+      "actual_content_access": "PMC published-version location matches full main-text retrieval; publisher PDF alternative not separately fetched."
+    },
+    {
+      "workstream": "local",
+      "log": "local-retrieval-log.json",
+      "log_field": ".operations[3].outcome",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "actual_followthrough": null,
+      "actual_content_access": "Complete two-page article body and figures retrieved with Firecrawl from PCProject's public PDF. Publisher page exposed an access gateway; PubMed supplied metadata."
+    },
+    {
+      "workstream": "local",
+      "log": "local-retrieval-log.json",
+      "log_field": ".operations[12].outcome.unpaywall",
+      "doi": "10.1159/000545357",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "actual_followthrough": null,
+      "actual_content_access": "Full embedded2025paper body retrieved with Firecrawl. Repository cover instead describes a2024conference item; article-body identity/DOIwere preserved. No second independent cohort inferred."
+    },
+    {
+      "workstream": "local",
+      "log": "local-retrieval-log.json",
+      "log_field": ".operations[16].outcome.unpaywall",
+      "doi": "10.1097/SAP.0b013e31821b6d08",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "actual_followthrough": null,
+      "actual_content_access": "DOIresolved to anOvidpublisher abstract. Firecrawlpaper-read returned no passages; full methods/body were not obtained."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[0]",
+      "doi": "10.3389/fcell.2023.1187253",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+        "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+        "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+        "version": "publishedVersion",
+        "license": "cc-by",
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+          "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/10461444",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+        "http_status": 200,
+        "resolved_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1187253/pdf",
+        "content_type": "application/pdf",
+        "parsed_pages": 13,
+        "total_pages": 13
+      },
+      "actual_content_access": "Full primary paper PDF parsed; page count 13/13."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[1]",
+      "doi": "10.1002/advs.202305927",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+        "version": "publishedVersion",
+        "license": "cc-by",
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+          "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/11267275",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+          "url_for_pdf": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+          "url_for_landing_page": "https://serval.unil.ch/notice/serval:BIB_0EBEAE2F135F",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://iris.unil.ch/handle/iris/94695",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://iris.unil.ch/handle/iris/94695",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "http_status": 200,
+        "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "content_type": "application/pdf",
+        "parsed_pages": 14,
+        "total_pages": 14
+      },
+      "actual_content_access": "Full primary paper PDF parsed; page count 14/14."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[2]",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+        "version": "publishedVersion",
+        "license": "cc-by",
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "http_status": 200,
+        "resolved_url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "content_type": "application/pdf",
+        "parsed_pages": 16,
+        "total_pages": 16
+      },
+      "actual_content_access": "Full primary paper PDF parsed; page count 16/16."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[3]",
+      "doi": "10.1126/sciadv.aeg6972",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "url": "https://doi.org/10.1126/sciadv.aeg6972",
+        "url_for_pdf": null,
+        "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+        "version": "publishedVersion",
+        "license": "cc-by",
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1126/sciadv.aeg6972",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://hal.science/hal-05778254",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://hal.science/hal-05778254",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://doi.org/10.1126/sciadv.aeg6972",
+        "http_status": 200,
+        "resolved_url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+        "content_type": "text/html;charset=UTF-8",
+        "parsed_pages": null,
+        "total_pages": null
+      },
+      "actual_content_access": "Full publisher article HTML after following the DOI landing location."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[4]",
+      "doi": "10.1073/pnas.2618654123",
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "best_oa_location": {
+        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+        "version": "publishedVersion",
+        "license": "cc-by",
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+          "url_for_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+          "url_for_landing_page": "https://doi.org/10.64898/2026.06.30.734089",
+          "version": "acceptedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+          "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "http_status": 200,
+        "resolved_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "content_type": "application/pdf",
+        "parsed_pages": 8,
+        "total_pages": 8
+      },
+      "actual_content_access": "Full primary paper PDF parsed; page count 8/8."
+    },
+    {
+      "workstream": "functional",
+      "log": "functional-retrieval-log.json",
+      "log_field": ".unpaywall.records[5]",
+      "doi": "10.1093/brain/awae348",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "best_oa_location": {
+        "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+        "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+        "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+        "version": "publishedVersion",
+        "license": null,
+        "host_type": "publisher",
+        "is_best": true,
+        "evidence": "deprecated",
+        "updated": "deprecated"
+      },
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+          "version": "publishedVersion",
+          "license": null,
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        {
+          "url": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+          "url_for_pdf": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+          "url_for_landing_page": "https://cnrs.hal.science/hal-04787759",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "host_type": "repository",
+          "is_best": false,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        }
+      ],
+      "actual_followthrough": {
+        "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+        "http_status": 200,
+        "resolved_url": "https://watermark02.silverchair.com/awae348.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmIwggJeBgkqhkiG9w0BBwagggJPMIICSwIBADCCAkQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMo56e1hv0TjzkDeVOAgEQgIICFZ-QfjfhjijEYOWDoys8k82oCtQ3dU7b-NLIBWaprNY_uKfJWYVxhLK9emJaSgclhNPVZ3Fc6NLzhXKjEmWt72qmnBAfJiyP_2pR2y-a4dWPXH_zMepqBJSeQtZ7l0RVs9bgocsiwni_P83iv_5Ur7pT9gxIBmQ_0BdFvrYhSUlC0xW47B5xpcxLa4gmYM1AiS8COYD0cnaa7aTXZY1qqPcEcEP1Ls2xIHGUJTdomXltbhGW8ixcrbmePHLEw-6AtLxOSgeNCp-CKOhZ3oXA63KwoRzkXOov94bXIt9k55_Jn5I64eFvbdyIUpM3jFRUio6QJecrRRL025MOUT6zBP8jxVxmfMqEHBQIlpZT9sRM9XSlrdcQQCY-6uxkKR7eaIsmkj3W0LRgSDGoHPfngFYoKNiY1drb36VZ_CqKn_Ej8zQ3_fu3zHyjsoPJmkaK60Wn71xI1XEbYbgsNa55WOAQ0cjC0ohodjkz2tKwVchue92yNykIzuv5ccnNfTa7O6S3HY-_9kQjwxGeFPM8a1d4eU5dZJZi9lLQkDszrYBKnhg_Af2sD8aTAG_whQmIYCm0L1QRAeZxnj1IcGBm8YRmOZDGtNxnpxuysWqMplT7BCatAp5EZOu-6RN3oY6savmcJ3rXiHXiCZw7cB6-j2NJ-APyLOkmx9vkgkaZSttQVrILEYp1022m23wVQKORnF97xqA9",
+        "content_type": "application/pdf",
+        "parsed_pages": 15,
+        "total_pages": 15
+      },
+      "actual_content_access": "Full primary paper PDF parsed; page count 15/15."
+    },
+    {
+      "workstream": "integration",
+      "log": "integration-sources.json",
+      "source_id": "R26-I03",
+      "doi": "10.1159/000545357",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "updated": "2026-07-07T15:25:23Z",
+      "actual_content_access": "Lookup returned no location. A separate lawful public copy was subsequently retrieved; it is not credited to Unpaywall."
+    },
+    {
+      "workstream": "integration",
+      "log": "integration-sources.json",
+      "source_id": "R26-I08",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null,
+      "oa_locations": [],
+      "updated": "2025-05-22T18:42:22Z",
+      "actual_content_access": "Lookup returned no location. A separate lawful public copy was subsequently retrieved; it is not credited to Unpaywall."
+    }
+  ],
+  "interpretation_rules": [
+    "is_oa and oa_status describe the index at lookup time, not whether every lawful public copy exists.",
+    "Preserve null PDF, license, version and location fields; do not invent a usable PDF or reuse license.",
+    "A returned location must actually be read before its text supports an outcome claim.",
+    "TTI metadata acceptedVersion does not override explicit unreviewed-preprint status in the document.",
+    "Erlotinib and timolol root lookups were closed/null; separately recovered public copies are not Unpaywall successes."
+  ],
+  "configured_email_published": false,
+  "api_contact_parameters_published": false,
+  "paywall_or_authentication_bypass": false
+}

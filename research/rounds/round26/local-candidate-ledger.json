@@ -1,0 +1,751 @@
+{
+  "schema_version": "ddiscov.round26.local.ledger.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "lane": "new local and bounded-product exact uses",
+  "counts": {
+    "retained_new_exact_use_records": 4,
+    "rejected_scouts": 9,
+    "new_exact_use_scouts_not_retained": 3,
+    "already_covered_exact_use_scouts": 6,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "newly_generated_experimental_results": 0,
+    "newly_generated_treated_people": 0,
+    "pooled_unique_treated_people": null
+  },
+  "ranking": {
+    "within_lane_information_order": [
+      "R26-LOC-01",
+      "R26-LOC-02",
+      "R26-LOC-03",
+      "R26-LOC-04"
+    ],
+    "meaning": "Conditional preference for next information, not a verified financial-asset rank or authorization.",
+    "assumptions_for_comparison": "Equal all-in cost/time, obtainable evidence, adequate starting article and reusable outputs or economic rights are hypothetical, not offered terms.",
+    "new_vs_incumbent_judgment": "Erlotinib can outrank APR/RM/BLU qualification-only substitutes for a bounded information commitment under those assumptions because of existing blinded human pain evidence. Superiority to the incumbents' original useful-function opportunities is not established.",
+    "cash_comparison": "No priced obtainable commitment is established superior to cash or waiting. Unknown terms do not by themselves prove negative EV.",
+    "historical_incumbent_envelopes_are_quotes": false,
+    "quotes_required_equally": true
+  },
+  "records": [
+    {
+      "id": "R26-LOC-01",
+      "name": "Topical erlotinib plus keratolytic for KRT16 p.Arg127Cys hereditary palmoplantar keratoderma",
+      "aliases": [
+        "erlotinib",
+        "KRT16",
+        "c.379C>T",
+        "p.Arg127Cys",
+        "Arg127Cys",
+        "keratin 16",
+        "palmoplantar keratoderma",
+        "pachyonychia congenita",
+        "SGT-210"
+      ],
+      "exact_use": {
+        "article": "1% topical erlotinib ointment with keratolytic co-treatment as reported; extemporaneously compounded presentation, not a qualified current lot or interchangeable SGT-210 product.",
+        "disease": "Hereditary palmoplantar keratoderma",
+        "genotype_scope": "KRT16 c.379C>T, p.Arg127Cys in one pedigree",
+        "route": "Local skin application",
+        "intended_claim": "Useful ongoing reduction in painful fissuring and improved walking/mobility",
+        "not_established": [
+          "Genetic correction",
+          "Permanent off-treatment repair",
+          "Efficacy across all KRT16 variants or all pachyonychia congenita",
+          "Adequate systemic-exposure safety",
+          "Commercially qualified product"
+        ]
+      },
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "baseline_read_errors": [],
+        "exhaustive": false,
+        "unresolved": [
+          "Screens N–Q",
+          "Other uninspected historical work or unrecognized aliases"
+        ],
+        "source_ids": [
+          "R26-L00"
+        ],
+        "selected_exact_use_hits": 0,
+        "previous_molecule_uses": [
+          "Darier disease",
+          "TRPV3-associated Olmsted syndrome (historical T199)",
+          "Familial adenomatous polyposis +/- sulindac (historical T121)"
+        ],
+        "note": "Prior erlotinib uses are different disease/route/product contexts; SGT-210 is relevant external program context, not inherited evidence for this exact presentation."
+      },
+      "disposition": "First local conditional clinical-information priority",
+      "information_rank_within_lane": 1,
+      "evidence": [
+        {
+          "source_id": "R26-L01",
+          "design": "Blinded randomized comparisons between feet, followed by uncontrolled extensions",
+          "unit": "people",
+          "people": 2,
+          "pedigrees": 1,
+          "independent_genotype_replications": 0,
+          "comparator": "Vehicle plus keratolytic in the later informative phase",
+          "positive": [
+            "Mother's treated-foot pain fell from 8–10 to 0–3 in the informative comparison.",
+            "Later bilateral uncontrolled extension accompanied by pain freedom and improved walking/swimming.",
+            "Son had modest improvement in the blinded phase and subsequent uncontrolled improvement."
+          ],
+          "limitations": [
+            "Initial lower-strength comparison gave little benefit.",
+            "Son had poor keratolytic adherence.",
+            "Formulation and co-treatment cannot be removed from the efficacy claim.",
+            "Feet, repeated phases and extension visits are not new patients.",
+            "No measured systemic exposure or uncommon-risk inference."
+          ],
+          "followup_no_reported_adverse_effects_weeks": {
+            "mother": 60,
+            "son": 24
+          }
+        },
+        {
+          "source_id": "R26-L02",
+          "design": "Separate uncontrolled two-patient report",
+          "people": 2,
+          "article": "Different topical 0.2% cream and genotype/context",
+          "contrary": "Topical use was inconclusive in one patient and without significant improvement in the other.",
+          "scope": "Oral EGFR-inhibitor responses are not topical-product efficacy; differing article/genotype prevents treating this as a definitive failure of the exact Arg127Cys combination."
+        }
+      ],
+      "lineage": {
+        "primary_positive_people": 2,
+        "primary_positive_families": 1,
+        "pooled_topical_response_rate": null,
+        "negative_context_people": 2,
+        "not_pooled": "Two separate reports differ in genotype, formulation and route sequences; no four-person responder estimate."
+      },
+      "rights_and_capture": {
+        "source_ids": [
+          "R26-L03"
+        ],
+        "established": "Sol-Gel's 2026-08-20 release says it continues SGT-210 topical EGFR development.",
+        "exact_article_license_verified": false,
+        "freedom_to_operate_verified": false,
+        "physical_lot_verified": false,
+        "terms": null,
+        "unresolved": [
+          "Adequacy/transfer of the intended compounded article",
+          "A meaningful product or clinical-evidence contribution beyond generic off-label care",
+          "Data custody/publication/regulatory-reference rights",
+          "Current exact-use claims, title and obtainable commercial terms"
+        ],
+        "not_inferred": "Active external program is not an available license, and generic active ingredient is not a complete development package."
+      },
+      "next_information_question": "Can an adequate article, feasible clinically useful comparison, exposure interpretation and retained contribution define an obtainable controlled proof for the exact phenotype?",
+      "minimum_deliverable": [
+        "Exact-article and co-treatment feasibility specification",
+        "Clinical pain/mobility and comparator scope appropriate to existing human evidence",
+        "Exposure/tolerability and follow-up interpretation",
+        "Separate terms for qualification, clinical proof and usable output rights"
+      ],
+      "conditional_comparison": {
+        "judgment": "Plausibly prefer this package to equally priced APR/RM/BLU qualification-only scopes if it yields a more actionable clinical decision with comparable rights; not shown superior to their original function-oriented tranches.",
+        "reversal": "Preference reverses if only an unowned repeat of off-label guidance is feasible, or article/safety/clinical access costs grow beyond the informative scope."
+      },
+      "branches": {
+        "advance": "Compare an actual bounded clinical-development proposal if an adequate article, useful outcome, feasible comparator and retained contribution are established.",
+        "hold_or_rescope": "Uninterpretable article/exposure, burden offsetting benefit, or no economically usable contribution.",
+        "stop_source_work": "Reopen only for new exact-use controlled evidence, consequential article/exposure data or concrete rights/access information."
+      },
+      "access_limits": [
+        "Publisher page was access-gated, but complete two-page PC Project PDF was read.",
+        "No independent patient-level dataset or full commercial rights audit."
+      ],
+      "source_ids": [
+        "R26-L00",
+        "R26-L01",
+        "R26-L02",
+        "R26-L03"
+      ],
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "actual_quote_usd": null,
+      "all_in_remaining_development_cost_usd": null,
+      "estimated_time_to_next_decision": null,
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false
+    },
+    {
+      "id": "R26-LOC-02",
+      "name": "Ophthalmic dornase alfa for severe tear-deficient dry eye",
+      "aliases": [
+        "dornase alfa",
+        "DNase I",
+        "recombinant deoxyribonuclease",
+        "Pulmozyme",
+        "NCT02193490",
+        "tear-deficient dry eye",
+        "L304",
+        "exDNASE"
+      ],
+      "exact_use": {
+        "article": "0.1% recombinant DNase I/dornase alfa ophthalmic use of an existing starting product in the published pilot; not interchangeable with proprietary L304.",
+        "disease": "Severe tear-deficient dry eye",
+        "population_scope": "Mixed Sjögren, non-Sjögren and ocular graft-versus-host disease pilot; no validated subgroup efficacy.",
+        "route": "Ophthalmic",
+        "intended_claim": "Clinically useful improvement in ocular-surface disease and symptoms with acceptable treatment burden",
+        "not_established": [
+          "Conclusive controlled symptom benefit",
+          "General tear-production restoration",
+          "Long-term or rare-event safety",
+          "Efficacy of L304",
+          "Unencumbered commercial use"
+        ]
+      },
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "baseline_read_errors": [],
+        "exhaustive": false,
+        "unresolved": [
+          "Screens N–Q",
+          "Other uninspected historical work or unrecognized aliases"
+        ],
+        "source_ids": [
+          "R26-L00"
+        ],
+        "selected_exact_use_hits": 0,
+        "previous_molecule_uses": [
+          "Airway mucus/CF context",
+          "Pleural empyema or thrombolysis comparators"
+        ],
+        "note": "Prior systemic/local non-ocular DNase discussions do not establish this exact ocular-use coverage. External dry-eye screening concerned TOP1630."
+      },
+      "disposition": "Conditional clinical/product reserve with license and symptom gates",
+      "information_rank_within_lane": 2,
+      "evidence": [
+        {
+          "source_id": "R26-L04",
+          "design": "Phase I/II randomized vehicle-controlled pilot",
+          "unit": "people",
+          "randomized": 47,
+          "randomized_by_arm": {
+            "dnase": 25,
+            "vehicle": 22
+          },
+          "completers": 41,
+          "completers_by_arm": {
+            "dnase": 21,
+            "vehicle": 20
+          },
+          "safety_table_n": 46,
+          "safety_table_by_arm": {
+            "dnase": 25,
+            "vehicle": 21
+          },
+          "disease_counts": {
+            "sjogren": 25,
+            "non_sjogren": 14,
+            "ocular_gvhd": 8
+          },
+          "followup_weeks": 8,
+          "registered_primary_outcomes": [
+            "Corneal staining",
+            "OSDI"
+          ],
+          "positive": [
+            "Controlled corneal-staining improvement",
+            "Controlled mucoid-strand improvement"
+          ],
+          "symptom_comparison": {
+            "endpoint": "OSDI change from baseline",
+            "dnase_median": -20.75,
+            "vehicle_median": -8.43,
+            "p_value": 0.078,
+            "conventionally_significant": false
+          },
+          "negative_or_limiting": [
+            "A significant within-arm symptom change does not establish between-arm symptom efficacy.",
+            "No general Schirmer tear-production benefit established.",
+            "Six dropouts and completer outcome summaries; corneal-staining sensitivity analysis does not settle every outcome.",
+            "Two eyes and repeated measurements are clustered within people.",
+            "No rare/long-term safety inference from this small eight-week pilot."
+          ]
+        }
+      ],
+      "registry": {
+        "source_id": "R26-L06",
+        "id": "NCT02193490",
+        "status": "TERMINATED",
+        "stated_reason": "Sponsor ceased sponsorship and terminated the research citing slow accrual.",
+        "reason_is_verified_efficacy_or_safety_failure": false,
+        "actual_enrollment": 47,
+        "primary_completion_date": "2017-10-11",
+        "study_completion_date": "2017-10-11",
+        "results_first_posted": "2019-11-05",
+        "last_update_posted": "2020-01-18",
+        "primary_timeframe_weeks": 8,
+        "current_2026_recruitment_inferred": false
+      },
+      "lineage": {
+        "registry_and_paper_same_study": true,
+        "additional_company_claimed_trials_independently_verified": false,
+        "pooled_unique_treated_people": null,
+        "pooled_response_rate": null
+      },
+      "rights_and_capture": {
+        "source_id": "R26-L05",
+        "established": "Neutrolis announced an exclusive UIC license for topical ocular DNase use on 2024-12-23 and a proprietary L304 program.",
+        "evidence_type": "Issuer release, not underlying license agreement",
+        "license_current_2026_status_verified": false,
+        "territorial_claims_or_freedom_to_operate_verified": false,
+        "offered_terms": null,
+        "product_equivalence_to_l304": false,
+        "plausible_route": "Partnership/data-use or a differentiated product with an independently justified contribution; not assumed freely owned replication of the pilot drops."
+      },
+      "next_information_question": "Does usable controlled symptom/phenotype evidence plus an attainable contribution under the announced license support a defined clinical/product proof?",
+      "minimum_deliverable": [
+        "Reconciled controlled symptom/sign and phenotype scope",
+        "Usable evidence and output-rights position",
+        "Exact-article suitability and exposure/burden question",
+        "Scoped partnership or differentiated-contribution terms separate from later clinical costs"
+      ],
+      "conditional_comparison": {
+        "judgment": "Randomized sign evidence is more developed than a target hypothesis, but the inconclusive registered symptom outcome and explicit license context place this behind erlotinib's bounded new-use information question in this lane.",
+        "cash": "Waiting dominates an undefined proprietary investment; that is not a conclusion that clinical research lacks value."
+      },
+      "branches": {
+        "advance": "A feasible obtainable partnership, usable data package or meaningful product contribution plus an interpretable clinical claim.",
+        "hold_or_rescope": "Only the old sign result is available, meaningful symptoms remain unsupported, or no attainable contribution exists.",
+        "stop_source_work": "No broad repeat search without a primary clinical update, access/rights change or actual offered package."
+      },
+      "access_limits": [
+        "Full primary paper and filtered official registry status/outcome data read.",
+        "License announcement read; underlying agreement and later L304 efficacy not audited."
+      ],
+      "source_ids": [
+        "R26-L00",
+        "R26-L04",
+        "R26-L05",
+        "R26-L06"
+      ],
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "actual_quote_usd": null,
+      "all_in_remaining_development_cost_usd": null,
+      "estimated_time_to_next_decision": null,
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false
+    },
+    {
+      "id": "R26-LOC-03",
+      "name": "Amlexanox for selected COL7A1 nonsense RDEB",
+      "aliases": [
+        "amlexanox",
+        "COL7A1",
+        "RDEB",
+        "recessive dystrophic epidermolysis bullosa",
+        "type VII collagen",
+        "CTRI/2021/04/033024"
+      ],
+      "exact_use": {
+        "article": "Amlexanox as a read-through candidate; a qualified topical skin product is not established.",
+        "disease": "Recessive dystrophic epidermolysis bullosa",
+        "genotype_scope": "Selected COL7A1 premature-termination variants; response depends on allele and cellular context.",
+        "route": "Intended local skin product; the verified evidence is cell/organotypic, not human topical exposure.",
+        "intended_claim": "Useful reduction in skin fragility/wounds from functionally adequate collagen VII",
+        "not_established": [
+          "Mechanical adhesion or anchoring-fibril competence",
+          "Treated-human wound benefit",
+          "A genotype-independent response",
+          "Qualified local formulation or clinical exposure window"
+        ]
+      },
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "baseline_read_errors": [],
+        "exhaustive": false,
+        "unresolved": [
+          "Screens N–Q",
+          "Other uninspected historical work or unrecognized aliases"
+        ],
+        "source_ids": [
+          "R26-L00"
+        ],
+        "selected_exact_use_hits": 0,
+        "previous_molecule_uses": [
+          "PAX6 nonsense aniridia"
+        ],
+        "external_scout_uncertainty": "Screen L contains a single root-scout amlexanox alias without use detail. This does not prove prior RDEB overlap, but prevents claiming the molecule was untouched."
+      },
+      "disposition": "Genotype-specific preclinical reserve; unresolved clinical-program information first",
+      "information_rank_within_lane": 3,
+      "evidence": [
+        {
+          "source_id": "R26-L07",
+          "design": "Patient-derived cells and organotypic skin",
+          "patient_material_donors": 14,
+          "different_premature_stop_mutations": 12,
+          "reported_responsive_mutation_contexts": 8,
+          "treated_human_outcomes_verified": 0,
+          "biological_units": "Patient material, allele backgrounds and culture/organotypic observations; not 14 treated patients.",
+          "positive": [
+            "Full-length collagen VII expression and secretion",
+            "Dermal–epidermal junction localization in organotypic skin"
+          ],
+          "negative_or_limiting": [
+            "Four mutation contexts were not responsive.",
+            "Primary, immortalized and carcinoma-derived backgrounds are not interchangeable replications.",
+            "Protein expression/localization does not establish useful mechanical skin function.",
+            "Higher-concentration cell-growth effects leave exposure-window interpretation unresolved."
+          ]
+        }
+      ],
+      "registry_gap": {
+        "id": "CTRI/2021/04/033024",
+        "primary_registry_body_recovered": false,
+        "secondary_source_id": "R26-L08",
+        "secondary_last_update": "2021-04-20",
+        "secondary_status": "Not yet recruiting",
+        "planned_participants": 15,
+        "actual_enrollment": null,
+        "actual_treated": null,
+        "published_human_results_verified": false,
+        "conflicting_secondary_signal": "EB Research Network search-index snippet suggested closed/terminated; retrieved page did not expose the row.",
+        "current_status": null
+      },
+      "rights_and_capture": {
+        "exact_use_license_verified": false,
+        "physical_lot_or_skin_product_verified": false,
+        "offered_terms": null,
+        "unresolved": [
+          "Current clinical program and usable outcomes",
+          "Genotype selection and clinically meaningful function",
+          "Skin product adequacy and exposure",
+          "Meaningful retained contribution and current rights"
+        ],
+        "not_inferred": "Historical oral-ulcer use and absent identified license do not establish qualified topical skin use or FTO."
+      },
+      "next_information_question": "Can the actual clinical-program status/results resolve whether a new genotype-specific functional proof is warranted?",
+      "minimum_deliverable": [
+        "Primary clinical-program status and usable results, if publicly obtainable",
+        "A claim-specific functional decision distinct from collagen localization",
+        "Exact-article/product and comparator scope",
+        "Separate actual terms for information, functional qualification and later clinical work"
+      ],
+      "branches": {
+        "advance": "Verified useful functional or clinical evidence in an appropriate allele context, with an adequate article and a feasible retained contribution.",
+        "hold_or_rescope": "Only molecular localization is available or trial status/results remain unresolved.",
+        "stop": "A qualified informative result fails the intended useful function at a relevant exposure; no universal target rejection from a nonresponsive allele alone.",
+        "stop_source_work": "No repeated broad search without a named primary trial/results artifact or consequential product fact."
+      },
+      "access_limits": [
+        "Primary preclinical full text read.",
+        "CTRI primary body and human results not recovered.",
+        "Secondary status labels conflict; no enrollment or result inferred."
+      ],
+      "source_ids": [
+        "R26-L00",
+        "R26-L07",
+        "R26-L08",
+        "R26-L09"
+      ],
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "actual_quote_usd": null,
+      "all_in_remaining_development_cost_usd": null,
+      "estimated_time_to_next_decision": null,
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false
+    },
+    {
+      "id": "R26-LOC-04",
+      "name": "Topical timolol for chronic diabetic foot ulcers and healed epithelial integrity",
+      "aliases": [
+        "timolol",
+        "Timoptic-XE",
+        "Timoptic",
+        "BAART-DFU",
+        "NCT03282981",
+        "diabetic foot ulcer",
+        "TEWL"
+      ],
+      "exact_use": {
+        "article": "Topical timolol gel added to standard diabetic-foot-ulcer care in the BAART-DFU program.",
+        "disease": "Chronic diabetic foot ulcers",
+        "route": "Local wound/skin application",
+        "intended_claim": "Useful complete healing and durable healed-site integrity with acceptable total burden",
+        "not_established": [
+          "Convincing superiority on the reported controlled primary closure outcome",
+          "Reduced ulcer recurrence",
+          "A standalone treatment effect apart from standard care",
+          "A qualified commercial wound product or exclusive opportunity"
+        ]
+      },
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "baseline_read_errors": [],
+        "exhaustive": false,
+        "unresolved": [
+          "Screens N–Q",
+          "Other uninspected historical work or unrecognized aliases"
+        ],
+        "source_ids": [
+          "R26-L00"
+        ],
+        "selected_exact_use_hits": 0,
+        "previous_molecule_uses": [],
+        "note": "No timolol/Timoptic/BAART match in the inspected baseline or thirteen external reports; uninspected scopes remain open."
+      },
+      "disposition": "Hold paid promotion; reconcile controlled clinical outcomes",
+      "information_rank_within_lane": 4,
+      "evidence": [
+        {
+          "source_id": "R26-L11",
+          "design": "Randomized placebo-controlled trial with standard care",
+          "unit": "people",
+          "randomized": 48,
+          "randomized_by_arm": {
+            "timolol": 21,
+            "placebo": 27
+          },
+          "primary_closure_week": 12,
+          "closure_counts": {
+            "timolol": {
+              "n": 8,
+              "N": 21
+            },
+            "placebo": {
+              "n": 7,
+              "N": 27
+            }
+          },
+          "secondary_time_to_closure_window_weeks": 31,
+          "results_first_posted": "2025-04-25",
+          "last_update_posted": "2025-05-08",
+          "complete_by_arm": {
+            "timolol": 21,
+            "placebo": 24
+          },
+          "limitations": [
+            "Primary efficacy is not clearly established by these counts.",
+            "Later time-to-event interpretation requires its analysis population and censoring.",
+            "Registry phase/masking descriptions differ from paper labels; no misconduct inference."
+          ]
+        },
+        {
+          "source_id": "R26-L12",
+          "design": "Conference report of the same trial program",
+          "primary_week_stated": 14,
+          "early_results_week_stated": 15,
+          "later_week_stated": 30,
+          "early_p_value": 0.77,
+          "later_unadjusted_logrank_p": 0.081,
+          "later_adjusted_hazard_ratio": 2.88,
+          "later_adjusted_p": 0.027,
+          "internal_count_percent_conflict": "7/27 is printed as 33%; do not silently substitute the percentage for the count.",
+          "lineage_limit": "108 initially enrolled/screened is not the randomized or treated denominator."
+        },
+        {
+          "source_id": "R26-L10",
+          "design": "Post-hoc selected healed-participant barrier analysis from the same trial",
+          "healed_parent_subset": 28,
+          "selected_people": 20,
+          "selected_by_arm": {
+            "timolol": 10,
+            "placebo": 10
+          },
+          "men": 19,
+          "positive": "Lower TEWL supports a healed-barrier measurement signal.",
+          "negative": "No significant re-ulceration difference over one year.",
+          "limitations": [
+            "Conditioning on healing and selecting participants can bias causal interpretation.",
+            "Repeated readings, visits and measurement observations are not extra people.",
+            "Visit-level participant denominators varied.",
+            "No verified recurrence-prevention claim."
+          ]
+        }
+      ],
+      "lineage": {
+        "independent_trials": 1,
+        "registry_conference_and_posthoc_paper_not_added": true,
+        "pooled_unique_treated_people": null,
+        "repository_cover_conflict": "Repository wrapper describes a 2024 conference item; the embedded body is the 2025 full article with DOI10.1159/000545357.",
+        "timepoint_conflicts": [
+          "Registry primary12 weeks vs conference primary14/results15",
+          "Registry secondary31 weeks vs conference30"
+        ]
+      },
+      "rights_and_capture": {
+        "exact_use_license_verified": false,
+        "qualified_wound_product_verified": false,
+        "available_terms": null,
+        "retained_contribution": null,
+        "not_inferred": "Existing generic ophthalmic product and clinical signal do not establish commercial wound-product rights, current supply or advantageous total care costs."
+      },
+      "next_information_question": "Can the prespecified primary endpoint/timepoint, population, missingness and adjusted/unadjusted analyses be reconciled into a credible useful healing or recurrence claim?",
+      "minimum_deliverable": [
+        "Primary endpoint and timing reconciliation",
+        "Trial-to-post-hoc participant lineage and missingness account",
+        "Explicit intended healing versus barrier/recurrence claim",
+        "A differentiated contribution and actual scope if clinical evidence becomes sufficient"
+      ],
+      "branches": {
+        "advance": "Only after primary clinical reconciliation supports a useful claim and a distinct obtainable contribution.",
+        "hold": "Current controlled primary and recurrence evidence do not justify paid promotion.",
+        "stop_source_work": "A further mechanistic or barrier-only source does not resolve the central controlled-clinical uncertainty; reopen for a consequential primary correction or independent clinical result."
+      },
+      "access_limits": [
+        "Full institutional article body read despite a mismatched repository cover.",
+        "Official registry API results and conference report read; no raw participant-level data obtained."
+      ],
+      "source_ids": [
+        "R26-L00",
+        "R26-L10",
+        "R26-L11",
+        "R26-L12"
+      ],
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "actual_quote_usd": null,
+      "all_in_remaining_development_cost_usd": null,
+      "estimated_time_to_next_decision": null,
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false
+    }
+  ],
+  "rejectionlog": [
+    {
+      "id": "R26-LOC-S01",
+      "name": "Glafenine / SLC4A11 folding correction for corneal endothelial disease",
+      "aliases": [
+        "glafenine",
+        "glafenin",
+        "Glifanan",
+        "SLC4A11",
+        "Harboyan"
+      ],
+      "new_exact_use_in_bounded_review": true,
+      "reason": "Transfected-cell trafficking/water-flux rescue does not establish patient corneal pump function or vision; historical systemic safety liabilities and an unqualified ocular article make this a product-development project.",
+      "biological_units": "Three to five independent cell experiments in portions of the paper; many measured cells are not patient donors.",
+      "disposition": "Not retained as ready bounded-product lead",
+      "source_ids": [
+        "R26-L00",
+        "R26-L13"
+      ]
+    },
+    {
+      "id": "R26-LOC-S02",
+      "name": "Pirfenidone gel / pediatric burn hypertrophic scars",
+      "aliases": [
+        "pirfenidone",
+        "Kitoscell",
+        "hypertrophic burn scar"
+      ],
+      "new_exact_use_in_bounded_review": true,
+      "known_compound_other_use": "Urethral stricture in external Screens B/E",
+      "reason": "Abstract-level 33 versus30 pediatric comparison and scar-score benefit; full allocation/blinding methods and useful functional benefit not verified. Unreliable current brand page cannot establish availability.",
+      "disposition": "Not retained ahead of the four local records",
+      "source_ids": [
+        "R26-L00",
+        "R26-L14",
+        "R26-L16"
+      ]
+    },
+    {
+      "id": "R26-LOC-S03",
+      "name": "Tideglusib / pulp capping",
+      "aliases": [
+        "tideglusib",
+        "dental pulp",
+        "pulp capping"
+      ],
+      "new_exact_use_in_bounded_review": true,
+      "known_compound_other_use": "DM1/AMO02 in prior external reports",
+      "reason": "Full2025 comparator study has56teeth in only2dogs, no significant hard-tissue advantage overMTA and unfavorable inflammatory/structural findings. No ready superiority thesis; limited study is not universal target failure.",
+      "disposition": "Not retained",
+      "source_ids": [
+        "R26-L00",
+        "R26-L15"
+      ]
+    },
+    {
+      "id": "R26-LOC-S04",
+      "name": "Losartan / corneal fibrosis",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    },
+    {
+      "id": "R26-LOC-S05",
+      "name": "RGN-259 / corneal repair",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    },
+    {
+      "id": "R26-LOC-S06",
+      "name": "Lufepirsen / persistent corneal epithelial defects",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    },
+    {
+      "id": "R26-LOC-S07",
+      "name": "MG53 / corneal repair",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    },
+    {
+      "id": "R26-LOC-S08",
+      "name": "alphaCT1 / chronic wounds",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    },
+    {
+      "id": "R26-LOC-S09",
+      "name": "KLK5/7 / Netherton syndrome",
+      "already_covered_exact_use": true,
+      "reason": "Prior exact-use screen; not reopened.",
+      "source_ids": [
+        "R26-L00"
+      ]
+    }
+  ],
+  "restriction_compliance": {
+    "outreach": false,
+    "purchases": false,
+    "recruitment": false,
+    "experiments": false,
+    "simulations": false,
+    "material_receipt": false,
+    "monitors_created": false,
+    "operational_protocols_provided": false
+  },
+  "audit_note": "This file records high-level decision analysis. Source interpretation and exact-use newness are bounded; no clinical recommendation, FTO opinion or financial price is implied."
+}

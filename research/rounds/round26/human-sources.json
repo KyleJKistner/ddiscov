@@ -1,0 +1,323 @@
+{
+  "schema_version": "ddiscov.round26.human.sources.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "source_count": 14,
+  "counting_rule": "Records include primary papers, an official registry/label, sponsor statements, interpretive context, access metadata and exclusion evidence. They are not independent studies or patients.",
+  "sources": [
+    {
+      "id": "R26-H01",
+      "title": "Altered Dopamine Metabolism and Response to Treatment with Levodopa/Carbidopa in MCT8 Deficiency",
+      "doi": "10.1002/mds.70093",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+      "publication_date": "2025-10-27",
+      "issue_date": "2026-02",
+      "type": "primary_clinical_case_series",
+      "access_scope": "Firecrawl retrieved full published main text, tables and reference list. Linked videos and supplementary XLSX were not independently read.",
+      "supports": [
+        "Ten phenotyped people but nine evaluable treatment courses; the paper's abstract denominator differs from the main treatment section.",
+        "Endpoint-specific outcomes: seven of nine broad clinical benefit; eight of nine hypokinesia/bradykinesia improvement; five of eight GMFM improvement; CGI-I four much improved, two minimally improved, three unchanged.",
+        "Functional-category improvements were not congruent; mean dystonia score increased; small, uncontrolled and partly retrospective study."
+      ],
+      "limitations": [
+        "No causal treatment effect or population response probability.",
+        "No verified combined unique-patient denominator with Wilpert2025.",
+        "No transfer-qualified formulation, current license, quote, or complete all-treated safety inference from ten phenotyped patients."
+      ],
+      "lineage": "Italian clinical series; the paper cites Wilpert2025 and shares a coauthor. Different reported recruitment settings do not establish a fully deduplicated pooled cohort.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H02",
+      "title": "Patients with Allan-Herndon-Dudley Syndrome (MCT8 Deficiency) Display Symptoms of Parkinsonism in Childhood and Respond to Levodopa/Carbidopa Treatment",
+      "doi": "10.1002/mds.30152",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/",
+      "publication_date": "2025-03-15",
+      "issue_date": "2025-05",
+      "type": "primary_observational_clinical_study",
+      "access_scope": "Full published main text, main tables, figure captions and references retrieved with Firecrawl. Supplementary files and videos were not separately audited.",
+      "supports": [
+        "Eleven phenotyped patients, six systematically treated/assessed at one center, two additional separately described exposures including a one-week nonresponse.",
+        "Six-person paired movement/disability and parkinsonism-scale improvement; modest fine-motor change.",
+        "No significant gross-motor, language or cognitive improvement; CPCHILD did not improve; myoclonus did not improve.",
+        "Oral/gastric-tube levodopa/carbidopa suspension was used; authors call for a controlled trial."
+      ],
+      "limitations": [
+        "No concurrent randomized comparator.",
+        "Extra exposure descriptions do not enlarge paired endpoint denominator.",
+        "No pooled unique people with later report.",
+        "Preprint and published versions are not independent replication."
+      ],
+      "lineage": "DEEPTYPE-linked clinical observation; six-person assessed cohort plus separately described cases.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H03",
+      "title": "FDA prescribing information: Emcitate (tiratricol)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+      "publication_date": "2026-09",
+      "type": "official_regulatory_label",
+      "access_scope": "Firecrawl PDF text extraction of pages1–18 of23; indication and clinical-study sections recovered. Remaining instructions-for-use pages were not inspected.",
+      "supports": [
+        "Initial US approval2026 and September2026 revision.",
+        "Labeled treatment is peripheral thyrotoxicosis in adults and pediatric patients with MCT8 deficiency."
+      ],
+      "limitations": [
+        "Label scope does not establish levodopa efficacy, comparative neurological superiority or current delivery/price.",
+        "Partial document, with coverage sufficient for the quoted indication boundary; no clinical use instructions reproduced."
+      ],
+      "lineage": "Regulatory comparator evidence, not an additional levodopa treatment cohort.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H04",
+      "title": "Clinical and Biochemical Monitoring of MCT8 Deficiency across the Lifespan: Practical Considerations for Multidisciplinary Care",
+      "doi": "10.1159/000551857",
+      "url": "https://karger.com/hrp/article/doi/10.1159/000551857/947429/Clinical-and-Biochemical-Monitoring-of",
+      "publication_date": "2026-04-02",
+      "type": "expert_consensus_and_literature_interpretation",
+      "access_scope": "Full publisher article retrieved by Firecrawl, including neurology, methods, cited reference39, funding and conflicts.",
+      "supports": [
+        "Cautious interpretation of levodopa as unproven and not standard/disease-modifying treatment.",
+        "Advisory meeting26November2024; targeted literature searchJune2025; no patient data discussed at the meeting.",
+        "Neurology paragraph cites the same Wilpert2025 positive clinical report, not a new controlled negative study.",
+        "Egetis facilitated/funded meeting and editorial support; article states funder noninvolvement in interpretation."
+      ],
+      "limitations": [
+        "Interpretive context, not primary efficacy evidence or a new negative dataset.",
+        "Stated search date precedes later MCT8 paper's October2025 publication.",
+        "Funding context does not itself invalidate the analysis."
+      ],
+      "lineage": "Overlapping evidence base with H02; not independent clinical replication.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H05",
+      "title": "Benefit of Salbutamol for the Treatment of Neuromuscular Junction Dysfunction in Patients With PURA Syndrome",
+      "doi": "10.7759/cureus.112808",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+      "publication_date": "2026-07-16",
+      "type": "primary_two_case_report_with_literature_review",
+      "access_scope": "Full published main text and all three clinical tables retrieved through Firecrawl.",
+      "supports": [
+        "Two original salbutamol recipients; three literature-derived patients in the review; total salbutamol-exposed3, pyridostigmine-exposed4.",
+        "Respiratory/motor observations, persistent feeding/ventilatory deficits, later regression in one case, adverse tachycardia/startle/sleep symptoms in another.",
+        "Published table: pyridostigmine clear improvement1, partial1, no response1, worsening1.",
+        "Authors identify maturation, sequential therapy and publication bias as limitations."
+      ],
+      "limitations": [
+        "Third salbutamol recipient is literature-derived, not a new case or independently reread original record.",
+        "No concurrent control or population response probability.",
+        "Raw infant motor score changes do not isolate maturation; paper's CHOP-INTEND denominator retained as reported.",
+        "Does not demonstrate general CNS repair, response biomarker or exact-use commercial rights."
+      ],
+      "lineage": "Two new patient reports plus older Wyrebek2022 and Qashqari2022 cases; the reviewed patients are not additive to their original reports.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H06",
+      "title": "PURA syndrome: neuromuscular junction manifestations with potential therapeutic implications",
+      "doi": "10.1016/j.nmd.2022.09.007",
+      "url": "https://doi.org/10.1016/j.nmd.2022.09.007",
+      "publication_date": "2022-10",
+      "type": "primary_clinical_report_metadata_only_in_this_pass",
+      "access_scope": "Firecrawl paper-index canonical metadata and truncated abstract inspected. Paper-read returned no full-text passages. Ordinary publisher scrape returned an access/navigation shell, and PubMed scrape returned only a short landing response. Unpaywall reports closed with null best location.",
+      "supports": [
+        "Identity of the original two-person PURA report cited by the2026 literature table."
+      ],
+      "limitations": [
+        "Original clinical body was not read; detailed salbutamol and pyridostigmine outcomes are attributed to H05's secondary extraction, not directly verified here.",
+        "Unpaywall closed status is not proof no lawful copy exists."
+      ],
+      "lineage": "Contains the earlier salbutamol case summarized in H05; do not count both as separate patients.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H07",
+      "title": "TTI-0102: A Novel Natural Controlled-Release Cysteamine Prodrug for Mitochondrial Disease and Cystinosis",
+      "doi": "10.64898/2026.03.26.26347968",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1",
+      "alternate_urls": [
+        "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1.full",
+        "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf"
+      ],
+      "publication_date": "2026-03-31",
+      "version": "v1 preprint; not certified by peer review",
+      "type": "sponsor_authored_primary_clinical_preprint",
+      "access_scope": "Full HTML and all15pages of the public PDF retrieved by Firecrawl. PDF URL came from Unpaywall. Text/figure text inspected; complete patient-flow and fatigue-analysis denominator not recovered.",
+      "supports": [
+        "Exact prodrug identity; nine enrolled, six active and three placebo.",
+        "Recruitment stopped before12 after PK review; GI intolerance and dropouts reported.",
+        "No12-minute walking change; MFIS p=.04 reported.",
+        "Single-blind description, no GDF-15/FGF-21 change, glutathione sample-stability issue.",
+        "Safety and Discussion differ in body-weight descriptions of intolerance."
+      ],
+      "limitations": [
+        "Preprint, single sponsor-author/CEO, sponsor-funded.",
+        "No complete interpretable participant disposition or exact MFIS analysis population.",
+        "FSS/MFIS and masking differences versus registry unresolved; missing amendments cannot be inferred.",
+        "No tolerability superiority over existing cysteamine formulations, general MELAS cure or transfer to other indications.",
+        "Unpaywall acceptedVersion metadata does not establish journal acceptance."
+      ],
+      "lineage": "One randomized clinical study NCT06644534 / EUCT2023-506723-28-00; HTML, PDF, registry and sponsor accounts are overlapping records.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H08",
+      "title": "ClinicalTrials.gov NCT06644534: TTI-0102 versus placebo in MELAS",
+      "url": "https://clinicaltrials.gov/study/NCT06644534",
+      "type": "official_trial_registry_record",
+      "publication_date": "2024-10-16",
+      "last_update_posted": "2026-07-24",
+      "access_scope": "Complete current official registry record including results availability recovered using Firecrawl Alexandria clinicaltrials-gov/clinical-trials/study, nct_id=NCT06644534, include_results=true. Ordinary page scrape had returned only a glossary/site shell.",
+      "supports": [
+        "Nine ACTUAL enrolled; COMPLETED; actual primary/study completion12January2026; no posted results.",
+        "Registered primary functional measure12-minute walk and primary safety AEs.",
+        "Registered secondary fatigue instrumentFSS and WHOQOL-BREF; MFIS is not listed in the returned outcome fields.",
+        "Double-blind prose and quadruple masking categories; IPD sharingNO."
+      ],
+      "limitations": [
+        "Registry protocol is not a trial result; historical amendments and SAP not inspected.",
+        "Planned12 in design text is not actual enrollment.",
+        "Registry versus paper differences are unresolved reporting/protocol questions, not proof of misconduct."
+      ],
+      "lineage": "Same study as H07.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H09",
+      "title": "Thiogenesis Therapeutics current TTI-0102 pipeline",
+      "url": "https://www.thiogenesis.com/pipeline",
+      "type": "current_sponsor_program_statement",
+      "publication_date": null,
+      "access_scope": "Fresh Firecrawl maxAge0 full page read; current page itself has no single dated publication header.",
+      "supports": [
+        "Sponsor presents TTI-0102 as its developed prodrug.",
+        "MELAS study is described as completed and exploratory, informing other indication programs.",
+        "Company describes planned/ongoing programs and a proprietary strategy."
+      ],
+      "limitations": [
+        "Sponsor's regulatory, market-size and future-voucher assertions are not independently established here and are not adopted as investment facts.",
+        "No available licensing/financing terms, independent commercial access or current valuation.",
+        "Other indications do not inherit MELAS efficacy."
+      ],
+      "lineage": "Sponsor account overlapping H07–08; not independent clinical evidence.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H10",
+      "title": "Thiogenesis Announces Important Core Patent Allowed in Europe",
+      "url": "https://www.newsfilecorp.com/release/228659/Thiogenesis-Announces-Important-Core-Patent-Allowed-in-Europe",
+      "publication_date": "2024-11-04",
+      "type": "sponsor_origin_patent_disclosure",
+      "access_scope": "Full sponsor-origin news release retrieved through Firecrawl.",
+      "supports": [
+        "Sponsor reports European allowance for Methods For The Treatment of Cysteamine Sensitive Disorders, application18858763.8, plus prior US/Japanese grants.",
+        "Identifies active sponsor and a stated proprietary development strategy."
+      ],
+      "limitations": [
+        "Historical allowance disclosure is not current granted-claim inspection, assignment-chain verification or available license.",
+        "Sponsor expiration/pathway/market claims are not independently verified or used to compute retained value."
+      ],
+      "lineage": "Commercial context only; no new human efficacy.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H11",
+      "title": "Unpaywall DOI access-location metadata for seven papers",
+      "url": "https://unpaywall.org/products/api",
+      "type": "access_index_metadata",
+      "publication_date": null,
+      "access_scope": "Seven normalized DOI JSON responses obtained by ordinary authenticated-parameter HTTP as directed by the installed skill. Contact parameter/API request URLs excluded from deliverables. Returned is_oa, oa_status, locations, version, license and nulls preserved in the retrieval log.",
+      "supports": [
+        "Two older PURA reports classified closed with no OA locations.",
+        "Public locations found for MCT8 reports,2026PURA, MCT8 consensus and TTI preprint.",
+        "Returned TTI PDF actually retrieved in full."
+      ],
+      "limitations": [
+        "Access metadata do not establish article content, efficacy or independent replication.",
+        "Returned acceptedVersion for the TTI preprint does not override the document's unreviewed-preprint status.",
+        "Not every alternate URL was opened; successful reads and metadata-only alternatives are distinguished."
+      ],
+      "lineage": "Access aid, not an evidence family.",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-H12",
+      "title": "Pinned repository selection and bounded exact-use exclusion audit",
+      "url": null,
+      "type": "local_and_recovered_historical_corpus_audit",
+      "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+      "access_scope": "Read current policy/shortlist and Round25 screen; selected-alias checks across424baselinefiles (419text,4PDFextractions,1spreadsheet values/formulas), plus13 complete indexed external reports. Raw copied corpus not republished.",
+      "supports": [
+        "No selected exact-use prior hit for the three retained records.",
+        "PURA hits resolve to salbutamol/collagenVI and a spreadsheet gene symbol.",
+        "MUSTANG/Tangier exact-use duplication found in the unlettered external report; other duplicate exclusions recorded."
+      ],
+      "limitations": [
+        "Selected aliases are not exhaustive semantic coverage.",
+        "External ScreensN–Q and any other unrecovered records remain outside scope.",
+        "Novelty does not establish patentability or FTO."
+      ],
+      "retrieved_date": "2026-11-08",
+      "repository_paths": [
+        "decisions/selection-policy.md",
+        "decisions/current-shortlist.md",
+        "research/rounds/round25/new-candidate-screen.md",
+        "research/portfolio-register.json",
+        "research/rounds/round26/human-retrieval-log.json"
+      ]
+    },
+    {
+      "id": "R26-H13",
+      "title": "Bounded Firecrawl discovery and current-program/rights searches",
+      "url": null,
+      "type": "search_coverage_record",
+      "publication_date": null,
+      "access_scope": "Web search excerpts and paper-index metadata were used for discovery; retained material claims rely on separately retrieved primary records. Queries and outcomes are in human-retrieval-log.json.",
+      "supports": [
+        "Discovery universe and rejected scouts.",
+        "No exact-use available commercial terms established for MCT8 or PURA in the bounded search."
+      ],
+      "limitations": [
+        "Search absence is not proof of no rights, competition or active program.",
+        "Reviews and indexed abstracts do not create primary full-text support.",
+        "No financial probabilities, valuation or quotes inferred."
+      ],
+      "retrieved_date": "2026-11-08",
+      "queries": [
+        "Precision treatment repurposed drug rare genetic neurological disease patients movement seizure motor function clinical response treatment 2025 2026",
+        "PURA syndrome pyridostigmine clinical response motor respiratory hypotonia treatment",
+        "TTI-0102 mitochondrial disease placebo trial",
+        "levodopa MCT8 patent clinical trial"
+      ],
+      "repository_paths": [
+        "research/rounds/round26/human-retrieval-log.json"
+      ]
+    },
+    {
+      "id": "R26-H14",
+      "title": "Miglustat as a Treatment for Adults with Tangier Disease Neuropathy: MUSTANG N-of-1 Trial with21months Clinical Observation",
+      "doi": "10.1007/s40120-025-00843-6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804572/",
+      "publication_date": "2025-11-10",
+      "issue_date": "2026-02",
+      "type": "primary_clinical_duplicate_scout",
+      "access_scope": "Full main text retrieved and read before external exact-use duplicate adjudication. No new candidate record retained.",
+      "supports": [
+        "One-person ABAB study did not reach predefined clinically meaningful co-primary differences; subsequent open extension is exploratory.",
+        "Trial and conference versions represent the same person."
+      ],
+      "limitations": [
+        "Exact-use rediscovery already in recovered unlettered screening report.",
+        "Not a new candidate or new cohort in this round."
+      ],
+      "lineage": "Existing MUSTANG study, not fresh evidence generation.",
+      "retrieved_date": "2026-11-08"
+    }
+  ],
+  "raw_copyrighted_content_republished": false,
+  "private_session_identifiers_published": false
+}

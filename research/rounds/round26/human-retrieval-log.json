@@ -1,0 +1,1313 @@
+{
+  "schema_version": "ddiscov.round26.human.retrieval.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "lane": "human_evidence",
+  "tools_used": [
+    "Firecrawl web search",
+    "Firecrawl paper search/inspect/read",
+    "Firecrawl URL/PDF scrape",
+    "Firecrawl official clinicaltrials-gov provider",
+    "Unpaywall skill and ordinary public HTTP",
+    "Local frozen-corpus selected-alias audit"
+  ],
+  "counts": {
+    "web_searches": 9,
+    "paper_index_searches": 4,
+    "url_retrievals": 13,
+    "official_provider_executions": 1,
+    "unpaywall_doi_lookups": 7,
+    "selected_alias_groups": 9
+  },
+  "web_searches": [
+    {
+      "id": "H-W01",
+      "operation": "Firecrawl web search",
+      "query": "2025 2026 rare genetic disease repurposed drug patient clinical improvement precision therapy",
+      "result_urls": [
+        "https://www.ddw-online.com/rare-disease-day-2025-qa-with-industry-experts-33766-202502/",
+        "https://tfscro.com/resources/rare-disease-day-2025-how-precision-medicine-is-transforming-treatment-for-rare-diseases/",
+        "https://globalgenes.org/rdds-2026/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13627653/",
+        "https://www.coherentmarketinsights.com/market-insight/gene-therapy-for-rare-disease-market-2321",
+        "https://www.youtube.com/watch?v=HniKarCIMtw"
+      ],
+      "outcome": "Broad search mostly commentary; paper index preferred for clinical discovery.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W02",
+      "operation": "Firecrawl web search",
+      "query": "theophylline istradefylline ADCY5 clinical patients 2025 2026",
+      "result_urls": [
+        "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.30170",
+        "https://pubmed.ncbi.nlm.nih.gov/40079709/",
+        "https://medicalxpress.com/news/2023-03-rare-genetic-disease-treatment-adcy5-related.html",
+        "https://www.researchgate.net/publication/401228469_Expanding_Clinical_Experience_With_Istradefylline_in_ADCY5-Related_Movement_Disorder_A_Case_With_No_Benefit",
+        "https://globalgenes.org/raredaily/generic-asthama-drug-emerges-as-possible-treatment-for-adcy5-related-dyskinesia/",
+        "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/asthma/asthma-drug-may-treat-rare-neurological-disorder/"
+      ],
+      "outcome": "Primary-paper candidates found, then existing-scope exclusion.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W03",
+      "operation": "Firecrawl web search",
+      "query": "epalrestat PMM2 CDG trial clinical 2025 2026",
+      "result_urls": [
+        "https://clinicaltrials.gov/study/NCT04925960",
+        "https://www.withpower.com/trial/phase-3-2022-d86a1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12516010/",
+        "https://clinicaltrial.be/en/details/76670?active_not_recruiting=1&completed=0&enrolling_by_invitation=1&only_active=0&only_eligible=0&only_recruiting=0&per_page=20",
+        "https://www.maggiespearl.com/maggies-pearl-phase-3-pmm2-cdg-trial",
+        "https://www.cdghub.com/clinical-trials/"
+      ],
+      "outcome": "Trial/paper/sponsor hits; excluded as previous exact use.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W04",
+      "operation": "Firecrawl web search",
+      "query": "\"TTI-0102\" mitochondrial disease placebo trial",
+      "result_urls": [
+        "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1",
+        "https://trial.medpath.com/news/thiogenesis-launches-phase-2-trial-of-tti-0102-for-melas-a-rare-mitochondrial-disease",
+        "https://clinicaltrials.gov/study/NCT06644534",
+        "https://ctv.veeva.com/study/a-dose-ranging-study-of-tti-0102-in-adults-and-children-with-leigh-syndrome-spectrum-lss",
+        "https://www.sedarplus.ca/csa-party/records/document.html?id=74c163f89fa5ef3cc0c56c245e5f8b43a1e23b83e567eba27ec6eb68495fe894",
+        "https://ddrare.nibn.go.jp/cgi-bin/disease_who_e.cgi?id=21&query=%22TTI-0102%22"
+      ],
+      "outcome": "Preprint and exact trial identified.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W05",
+      "operation": "Firecrawl web search",
+      "query": "\"TTI-0102\" Thiogenesis patent results 2026",
+      "result_urls": [
+        "https://www.newsfilecorp.com/release/228659/Thiogenesis-Announces-Important-Core-Patent-Allowed-in-Europe",
+        "https://www.thiogenesis.com/pipeline",
+        "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1.full-text",
+        "https://www.thiogenesis.com/investors",
+        "https://finance.yahoo.com/news/thiogenesis-announces-important-core-patent-140000828.html"
+      ],
+      "outcome": "Current sponsor pipeline and historical sponsor IP disclosure located.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W06",
+      "operation": "Firecrawl web search",
+      "query": "MCT8 levodopa carbidopa trial patent Emcitate tiratricol 2026",
+      "result_urls": [
+        "https://www.egetis.com/news/egetis-announces-grant-of-patent-for-mct8-deficiency-composition-in-the-u-s/",
+        "https://synapse.patsnap.com/drug/80ac995689e44d0aa2abe36561fe28ef",
+        "https://www.egetis.com/news/interim-report-q1-2026/",
+        "https://www.egetis.com/healthcare-professionals/emcitate-tiratricol/",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+        "https://www.egetis.com/sv/news/egetis-announces-grant-of-patent-for-mct8-deficiency-composition-in-the-u-s/"
+      ],
+      "outcome": "Current FDA comparator label located; no exact-use levodopa license established.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W07",
+      "operation": "Firecrawl web search",
+      "query": "\"PURA\" \"salbutamol\" trial patent",
+      "result_urls": [
+        "https://patents.google.com/patent/BRPI0609361A2/en",
+        "https://www.google.tt/patents/US7271156",
+        "https://patents.google.com/patent/US20060188913A1/en",
+        "https://patents.justia.com/patent/20230093080",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822484/"
+      ],
+      "outcome": "Mostly unrelated patent keyword/gene-list collisions; not FTO evidence.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W08",
+      "operation": "Firecrawl web search",
+      "query": "\"PURA syndrome\" salbutamol clinical trial 2026 sponsor",
+      "result_urls": [
+        "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome",
+        "https://purasyndrome.app/research/",
+        "https://www.researchgate.net/publication/400029367_Exploring_molecular_signatures_in_PURA_syndrome_using_muscle_proteomics_and_serum_biomarkers",
+        "https://www.mdpi.com/2813-0413/5/3/46",
+        "https://www.cureus.com/articles/473174-pura-related-neurodevelopmental-disorder-a-comprehensive-clinical-review-of-genetics-phenotype-and-emerging-therapeutic-strategies"
+      ],
+      "outcome": "Clinical case report found; secondary tracker not treated as proof of no active programs.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    },
+    {
+      "id": "H-W09",
+      "operation": "Firecrawl web search",
+      "query": "\"levodopa\" \"MCT8\" patent clinical trial",
+      "result_urls": [
+        "https://karger.com/hrp/article/doi/10.1159/000551857/947429/Clinical-and-Biochemical-Monitoring-of",
+        "https://academic.oup.com/jcem/article/111/4/911/8417742",
+        "https://www.pienomial.com/publication-reports/emcitate-fda-approval-first-mover-validated-but-neurological-proof-gap-threatens-european-access",
+        "https://www.researchgate.net/publication/403459003_Clinical_and_Biochemical_Monitoring_of_Monocarboxylate_Transporter_8_Deficiency_Allan-Herndon-Dudley_Syndrome_across_the_Lifespan_Practical_Considerations_for_Multidisciplinary_Care",
+        "https://www.linkedin.com/posts/apotek-analytics_lifesciences-lifesciences-pharma-activity-7511534088520982529-mdCM"
+      ],
+      "outcome": "Current contrary consensus interpretation located and its cited primary evidence checked.",
+      "access_scope": "Search excerpts only unless separately recorded below.",
+      "feedback": "Submitted once; accepted."
+    }
+  ],
+  "paper_searches": [
+    {
+      "id": "H-P01",
+      "operation": "Firecrawl research_search_papers",
+      "query": "Precision treatment repurposed drug rare genetic neurological disease patients movement seizure motor function clinical response treatment 2025 2026",
+      "from": "2025-01-01",
+      "to": "2026-11-08",
+      "k": 15,
+      "outcome": "Discovery of MCT8 report and previously covered eflornithine; broad reviews are discovery context.",
+      "access_scope": "Metadata/abstracts; not a full-text read.",
+      "feedback": "No web-search UUID returned; search-feedback not applicable."
+    },
+    {
+      "id": "H-P02",
+      "operation": "Firecrawl research_search_papers",
+      "query": "Bachmann Bupp syndrome eflornithine difluoromethylornithine treated patients clinical outcomes",
+      "to": "2026-11-08",
+      "k": 8,
+      "outcome": "Existing-use lineage confirmed; excluded.",
+      "access_scope": "Metadata/abstracts; not a full-text read.",
+      "feedback": "No web-search UUID returned; search-feedback not applicable."
+    },
+    {
+      "id": "H-P03",
+      "operation": "Firecrawl research_search_papers",
+      "query": "PURA syndrome pyridostigmine clinical response motor respiratory hypotonia treatment",
+      "to": "2026-11-08",
+      "k": 8,
+      "outcome": "2026 salbutamol report and older clinical reports identified.",
+      "access_scope": "Metadata/abstracts; not a full-text read.",
+      "feedback": "No web-search UUID returned; search-feedback not applicable."
+    },
+    {
+      "id": "H-P04",
+      "operation": "Firecrawl research_search_papers",
+      "query": "Rare metabolic disease repurposed medication clinical trial patients improved functional outcome 2025 2026",
+      "from": "2025-01-01",
+      "to": "2026-11-08",
+      "k": 12,
+      "outcome": "TTI-0102, MUSTANG and sponsor-controlled/previously screened hits identified; empagliflozin/Lafora hit is protocol only.",
+      "access_scope": "Metadata/abstracts; not a full-text read.",
+      "feedback": "No web-search UUID returned; search-feedback not applicable."
+    }
+  ],
+  "retrievals": [
+    {
+      "id": "H-R01",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H01"
+      ],
+      "title": "MCT8 later paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+      "http_status": 200,
+      "returned_characters": 48833,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full main text and tables; videos/supplement not read.",
+      "feedback": "accepted"
+    },
+    {
+      "id": "H-R02",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H05"
+      ],
+      "title": "PURA2026paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+      "http_status": 200,
+      "returned_characters": 46962,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full main text and three clinical tables.",
+      "feedback": "accepted"
+    },
+    {
+      "id": "H-R03",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H14"
+      ],
+      "title": "MUSTANG duplicate scout",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804572/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804572/",
+      "http_status": 200,
+      "returned_characters": 48729,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full main text; later excluded via external exact-use audit.",
+      "feedback": "accepted"
+    },
+    {
+      "id": "H-R04",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H02"
+      ],
+      "title": "MCT8 earlier paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/",
+      "http_status": 200,
+      "returned_characters": 107683,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full main text, tables and figure captions; no independent supplement/video audit.",
+      "feedback": "not submitted within window"
+    },
+    {
+      "id": "H-R05",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H07"
+      ],
+      "title": "TTI preprint HTML",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1.full-text",
+      "final_url": "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1.full",
+      "http_status": 200,
+      "returned_characters": 96643,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full HTML; one sponsor-authored preprint, not journal publication.",
+      "feedback": "not submitted within window"
+    },
+    {
+      "id": "H-R06",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H09"
+      ],
+      "title": "TTI current sponsor pipeline",
+      "url": "https://www.thiogenesis.com/pipeline",
+      "final_url": "https://www.thiogenesis.com/pipeline",
+      "http_status": 200,
+      "returned_characters": 7891,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Fresh maxAge0 current sponsor page; claims retain sponsor attribution.",
+      "feedback": "not submitted within window"
+    },
+    {
+      "id": "H-R07",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H08"
+      ],
+      "title": "TTI registry ordinary page",
+      "url": "https://clinicaltrials.gov/study/NCT06644534",
+      "final_url": "https://clinicaltrials.gov/study/NCT06644534",
+      "http_status": 200,
+      "returned_characters": 46590,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Site glossary/shell only; no study record; later recovered through official provider.",
+      "feedback": "expired; retryable=false, not retried"
+    },
+    {
+      "id": "H-R08",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H03"
+      ],
+      "title": "FDA Emcitate label",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+      "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+      "http_status": 200,
+      "returned_characters": 48602,
+      "pages_returned": 18,
+      "pages_total": 23,
+      "outcome": "PDF pages1–18 of23; indication and clinical-study sections covered.",
+      "feedback": "not submitted within window"
+    },
+    {
+      "id": "H-R09",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H06"
+      ],
+      "title": "PURA original DOI",
+      "url": "https://doi.org/10.1016/j.nmd.2022.09.007",
+      "final_url": "https://www.nmd-journal.com/article/S0960-8966(22)00676-9/abstract",
+      "http_status": 200,
+      "returned_characters": 929,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Publisher access/navigation shell; no article body.",
+      "feedback": "expired; retryable=false, not retried"
+    },
+    {
+      "id": "H-R10",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H10"
+      ],
+      "title": "TTI historical patent disclosure",
+      "url": "https://www.newsfilecorp.com/release/228659/Thiogenesis-Announces-Important-Core-Patent-Allowed-in-Europe",
+      "final_url": "https://www.newsfilecorp.com/release/228659/Thiogenesis-Announces-Important-Core-Patent-Allowed-in-Europe",
+      "http_status": 200,
+      "returned_characters": 11319,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full sponsor-origin release; not official patent title/claims inspection.",
+      "feedback": "not submitted within window"
+    },
+    {
+      "id": "H-R11",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H07"
+      ],
+      "title": "TTI Unpaywall PDF",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+      "final_url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+      "http_status": 200,
+      "returned_characters": 41501,
+      "pages_returned": 15,
+      "pages_total": 15,
+      "outcome": "All15pages parsed; same preprint. Did not recover complete participant flow or exact MFIS analysis population.",
+      "feedback": "expired; retryable=false, not retried"
+    },
+    {
+      "id": "H-R12",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H04"
+      ],
+      "title": "MCT8 expert monitoring article",
+      "url": "https://karger.com/hrp/article/doi/10.1159/000551857/947429/Clinical-and-Biochemical-Monitoring-of",
+      "final_url": "https://karger.com/hrp/article/doi/10.1159/000551857/947429/Clinical-and-Biochemical-Monitoring-of",
+      "http_status": 200,
+      "returned_characters": 116299,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Full publisher article, methods, reference39 and conflict/funding context read.",
+      "feedback": "accepted"
+    },
+    {
+      "id": "H-R13",
+      "operation": "Firecrawl URL scrape",
+      "source_ids": [
+        "R26-H06"
+      ],
+      "title": "PURA original PubMed page",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36210261/",
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/36210261/",
+      "http_status": 203,
+      "returned_characters": 103,
+      "pages_returned": null,
+      "pages_total": null,
+      "outcome": "Only short landing/access response; no abstract retrieved in this route.",
+      "feedback": "accepted"
+    }
+  ],
+  "other_paper_operations": [
+    {
+      "operation": "research_inspect_paper",
+      "doi": "10.1016/j.nmd.2022.09.007",
+      "outcome": "Canonical metadata and truncated abstract only; not original full text."
+    },
+    {
+      "operation": "research_read_paper",
+      "doi": "10.1016/j.nmd.2022.09.007",
+      "k": 6,
+      "outcome": "Empty passages array; full text unavailable in index."
+    },
+    {
+      "operation": "research_inspect_paper",
+      "doi": "10.1159/000551857",
+      "outcome": "Canonical publication date and metadata; full text read separately."
+    }
+  ],
+  "official_provider": {
+    "provider": "clinicaltrials-gov",
+    "capability": "clinical-trials/study",
+    "contract_inspected": true,
+    "execution_options": {
+      "nct_id": "NCT06644534",
+      "include_results": true
+    },
+    "source_ids": [
+      "R26-H08"
+    ],
+    "outcome": "Full official study record recovered; nine actual participants, completed12January2026, no posted results; endpoint and masking discrepancies preserved.",
+    "feedback": "Accepted Alexandria feedback after execution.",
+    "registry_core": {
+      "url": "https://clinicaltrials.gov/study/NCT06644534",
+      "actual_enrollment": {
+        "count": 9,
+        "type": "ACTUAL"
+      },
+      "primary": [
+        {
+          "description": "12-minute walking test (12-MWT)",
+          "measure": "Efficacy: Change in functional capacity",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        },
+        {
+          "description": "Adverse Events",
+          "measure": "Safety and Tolerability: Incidence of Treatment-Emergent Adverse Events",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        }
+      ],
+      "secondary": [
+        {
+          "description": "Fatigue Severity Scale (FSS)",
+          "measure": "Efficacy: Fatigue",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        },
+        {
+          "description": "Qualify of Life (WHOQOL-BREF)",
+          "measure": "Efficacy: Quality of Life (QoL)",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        },
+        {
+          "description": "cysteamine in plasma\n\ncysteamine, pantothenic acid (vitamin B5) and taurine",
+          "measure": "Pharmacokinetic parameter: Cmax",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        },
+        {
+          "description": "cysteamine in plasma",
+          "measure": "Pharmacokinetic parameter: Tmax",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        },
+        {
+          "description": "cysteamine in plasma",
+          "measure": "Pharmacokinetic parameter: AUC",
+          "timeFrame": "Day 1/Baseline to Week 24/Study Exit"
+        }
+      ],
+      "masking": {
+        "masking": "QUADRUPLE",
+        "maskingDescription": "Participants, investigator and sponsor will be blinded to active:placebo assignment and to PK measurements during the study.",
+        "whoMasked": [
+          "PARTICIPANT",
+          "CARE_PROVIDER",
+          "INVESTIGATOR",
+          "OUTCOMES_ASSESSOR"
+        ]
+      },
+      "dates": {
+        "completionDateStruct": {
+          "date": "2026-01-12",
+          "type": "ACTUAL"
+        },
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-07-24",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-07-22",
+        "overallStatus": "COMPLETED",
+        "primaryCompletionDateStruct": {
+          "date": "2026-01-12",
+          "type": "ACTUAL"
+        },
+        "startDateStruct": {
+          "date": "2025-05-12",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2026-07",
+        "studyFirstPostDateStruct": {
+          "date": "2024-10-16",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2024-09-29",
+        "studyFirstSubmitQcDate": "2024-10-15"
+      },
+      "has_results": false,
+      "ipd": {
+        "ipdSharing": "NO"
+      }
+    }
+  },
+  "unpaywall": {
+    "method": "Normalized DOI GET requests through inherited ordinary HTTP settings using installed skill. No authentication/paywall bypass.",
+    "configured_contact_parameter_published": false,
+    "api_request_urls_published": false,
+    "lookups": [
+      {
+        "doi": "10.1002/mds.30152",
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "best_oa_location": {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2025-03-15",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://doi.org/10.1002/mds.30152",
+          "url_for_landing_page": "https://doi.org/10.1002/mds.30152",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        },
+        "oa_locations": [
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "publisher",
+            "is_best": true,
+            "license": "cc-by",
+            "oa_date": "2025-03-15",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://doi.org/10.1002/mds.30152",
+            "url_for_landing_page": "https://doi.org/10.1002/mds.30152",
+            "url_for_pdf": null,
+            "version": "publishedVersion"
+          },
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "cc-by",
+            "oa_date": "2025-03-15",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://www.preprints.org/frontend/manuscript/99d4870df7d362d574a00bbf1fe5f77d/download_pub",
+            "url_for_landing_page": "https://doi.org/10.20944/preprints202409.0435.v1",
+            "url_for_pdf": "https://www.preprints.org/frontend/manuscript/99d4870df7d362d574a00bbf1fe5f77d/download_pub",
+            "version": "acceptedVersion"
+          },
+          {
+            "endpoint_id": "ac9de7698155b820de7",
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "cc-by",
+            "oa_date": "2025-03-15",
+            "pmh_id": "oai:pubmedcentral.nih.gov:12089910",
+            "repository_institution": "National Institutes of Health",
+            "updated": "deprecated",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12089910",
+            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/12089910",
+            "url_for_pdf": null,
+            "version": "publishedVersion"
+          },
+          {
+            "endpoint_id": "b381d5d1f9524e02b78",
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "cc-by",
+            "oa_date": "2025-03-15",
+            "pmh_id": "oai:publications.goettingen-research-online.de:2/148479",
+            "repository_institution": "Asklepios Klinik St. Georg",
+            "updated": "deprecated",
+            "url": "https://resolver.sub.uni-goettingen.de/purl?gro-2/148479",
+            "url_for_landing_page": "https://resolver.sub.uni-goettingen.de/purl?gro-2/148479",
+            "url_for_pdf": null,
+            "version": "submittedVersion"
+          }
+        ],
+        "has_repository_copy": true,
+        "updated": "2026-10-27T16:13:06Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "Full published-version PMC text retrieved; no extra evidentiary credit for indexed preprint/repository alternatives."
+      },
+      {
+        "doi": "10.1002/mds.70093",
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "best_oa_location": {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2025-10-27",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+          "url_for_landing_page": "https://doi.org/10.1002/mds.70093",
+          "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+          "version": "publishedVersion"
+        },
+        "oa_locations": [
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "publisher",
+            "is_best": true,
+            "license": "cc-by",
+            "oa_date": "2025-10-27",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+            "url_for_landing_page": "https://doi.org/10.1002/mds.70093",
+            "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70093",
+            "version": "publishedVersion"
+          },
+          {
+            "endpoint_id": "ac9de7698155b820de7",
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "cc-by",
+            "oa_date": "2025-10-27",
+            "pmh_id": "oai:pubmedcentral.nih.gov:13001712",
+            "repository_institution": "National Institutes of Health",
+            "updated": "deprecated",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/pdf/MDS-41-509.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/pdf/MDS-41-509.pdf",
+            "version": "publishedVersion"
+          },
+          {
+            "endpoint_id": "a98c2c958414462f081",
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "other-oa",
+            "oa_date": "2025-10-27",
+            "pmh_id": "oai:air.unimi.it:2434/1208154",
+            "repository_institution": "University of Milan",
+            "updated": "deprecated",
+            "url": "https://hdl.handle.net/2434/1208154",
+            "url_for_landing_page": "https://hdl.handle.net/2434/1208154",
+            "url_for_pdf": null,
+            "version": "submittedVersion"
+          }
+        ],
+        "has_repository_copy": true,
+        "updated": "2026-10-29T10:15:11Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "Full PMC main text retrieved; supplementary XLSX and publisher PDF alternative not separately audited."
+      },
+      {
+        "doi": "10.1016/j.nmd.2022.01.005",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "has_repository_copy": false,
+        "updated": "2025-05-22T18:42:22Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "No OA location; this original pyridostigmine report was not read in full. The2026 review remains the detailed source."
+      },
+      {
+        "doi": "10.1016/j.nmd.2022.09.007",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "has_repository_copy": false,
+        "updated": "2025-05-22T18:42:22Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "No OA location; publisher/PubMed access attempts and paper-read returned no usable original full text."
+      },
+      {
+        "doi": "10.1159/000551857",
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "best_oa_location": {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by-nc",
+          "oa_date": "2026-04-02",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://doi.org/10.1159/000551857",
+          "url_for_landing_page": "https://doi.org/10.1159/000551857",
+          "url_for_pdf": null,
+          "version": "publishedVersion"
+        },
+        "oa_locations": [
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "publisher",
+            "is_best": true,
+            "license": "cc-by-nc",
+            "oa_date": "2026-04-02",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://doi.org/10.1159/000551857",
+            "url_for_landing_page": "https://doi.org/10.1159/000551857",
+            "url_for_pdf": null,
+            "version": "publishedVersion"
+          }
+        ],
+        "updated": "2026-09-09T13:38:15Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "Full publisher article retrieved; expert interpretation, not a new clinical dataset."
+      },
+      {
+        "doi": "10.64898/2026.03.26.26347968",
+        "is_oa": true,
+        "oa_status": "green",
+        "best_oa_location": {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "repository",
+          "is_best": true,
+          "license": "cc-by-nc-nd",
+          "oa_date": "2026-03-31",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+          "url_for_landing_page": "https://doi.org/10.64898/2026.03.26.26347968",
+          "url_for_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+          "version": "acceptedVersion"
+        },
+        "oa_locations": [
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": true,
+            "license": "cc-by-nc-nd",
+            "oa_date": "2026-03-31",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+            "url_for_landing_page": "https://doi.org/10.64898/2026.03.26.26347968",
+            "url_for_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf",
+            "version": "acceptedVersion"
+          }
+        ],
+        "has_repository_copy": true,
+        "updated": "2026-04-02T16:24:14Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "Returned public PDF followed with Firecrawl; all15pages parsed. Preprint status verified from document, despite acceptedVersion metadata."
+      },
+      {
+        "doi": "10.7759/cureus.112808",
+        "is_oa": true,
+        "oa_status": "gold",
+        "best_oa_location": {
+          "endpoint_id": null,
+          "evidence": "deprecated",
+          "host_type": "publisher",
+          "is_best": true,
+          "license": "cc-by",
+          "oa_date": "2026-07-16",
+          "pmh_id": null,
+          "repository_institution": null,
+          "updated": "deprecated",
+          "url": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+          "url_for_landing_page": "https://doi.org/10.7759/cureus.112808",
+          "url_for_pdf": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+          "version": "publishedVersion"
+        },
+        "oa_locations": [
+          {
+            "endpoint_id": null,
+            "evidence": "deprecated",
+            "host_type": "publisher",
+            "is_best": true,
+            "license": "cc-by",
+            "oa_date": "2026-07-16",
+            "pmh_id": null,
+            "repository_institution": null,
+            "updated": "deprecated",
+            "url": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+            "url_for_landing_page": "https://doi.org/10.7759/cureus.112808",
+            "url_for_pdf": "https://www.cureus.com/articles/510918-benefit-of-salbutamol-for-the-treatment-of-neuromuscular-junction-dysfunction-in-patients-with-purine-rich-element-binding-protein-a-pura-syndrome.pdf",
+            "version": "publishedVersion"
+          },
+          {
+            "endpoint_id": "ac9de7698155b820de7",
+            "evidence": "deprecated",
+            "host_type": "repository",
+            "is_best": false,
+            "license": "cc-by",
+            "oa_date": "2026-07-16",
+            "pmh_id": "oai:pubmedcentral.nih.gov:13375090",
+            "repository_institution": "National Institutes of Health",
+            "updated": "deprecated",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+            "url_for_pdf": null,
+            "version": "publishedVersion"
+          }
+        ],
+        "has_repository_copy": true,
+        "updated": "2026-10-29T10:15:11Z",
+        "retrieved": "2026-11-08",
+        "actual_content_access": "PMC published-version location matches full main-text retrieval; publisher PDF alternative not separately fetched."
+      }
+    ],
+    "version_rule": "Preserve returned version/license/null metadata. Actual document status controls peer-review/publication assertions; multiple locations/versions do not create independent studies."
+  },
+  "novelty_audit": {
+    "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+    "baseline_files": 424,
+    "external_reports": 13,
+    "results": [
+      {
+        "name": "MCT8",
+        "patterns": [
+          "levodopa",
+          "carbidopa",
+          "\\bMCT8\\b",
+          "SLC16A2",
+          "Allan.Herndon.Dudley",
+          "\\bAHDS\\b"
+        ],
+        "baseline_hits": [],
+        "external_hits": []
+      },
+      {
+        "name": "PURA",
+        "patterns": [
+          "salbutamol",
+          "albuterol",
+          "pyridostigmine",
+          "\\bPURA\\b",
+          "purine.rich element.binding"
+        ],
+        "baseline_hits": [
+          {
+            "path": "research/README.md",
+            "matched_patterns": [
+              "salbutamol"
+            ]
+          },
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "salbutamol"
+            ]
+          },
+          {
+            "path": "research/screen-index.md",
+            "matched_patterns": [
+              "salbutamol"
+            ]
+          },
+          {
+            "path": "research/source-data/blu3797-source-values.xlsx",
+            "matched_patterns": [
+              "\\bPURA\\b"
+            ]
+          }
+        ],
+        "external_hits": []
+      },
+      {
+        "name": "TTI",
+        "patterns": [
+          "TTI[-‐– ]?0102",
+          "cysteamine.pantetheine",
+          "Thiogenesis"
+        ],
+        "baseline_hits": [],
+        "external_hits": []
+      },
+      {
+        "name": "Tangier",
+        "patterns": [
+          "Tangier",
+          "\\bMUSTANG\\b",
+          "\\bABCA1\\b"
+        ],
+        "baseline_hits": [],
+        "external_hits": [
+          {
+            "name": "ddiscov_new_opportunity_screen.pdf",
+            "matched_patterns": [
+              "Tangier",
+              "\\bMUSTANG\\b"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ADCY5",
+        "patterns": [
+          "theophylline",
+          "istradefylline",
+          "\\bADCY5\\b"
+        ],
+        "baseline_hits": [
+          {
+            "path": "atlas/README.md",
+            "matched_patterns": [
+              "istradefylline"
+            ]
+          },
+          {
+            "path": "atlas/index.json",
+            "matched_patterns": [
+              "istradefylline",
+              "\\bADCY5\\b"
+            ]
+          },
+          {
+            "path": "atlas/neuromuscular.md",
+            "matched_patterns": [
+              "theophylline",
+              "istradefylline",
+              "\\bADCY5\\b"
+            ]
+          },
+          {
+            "path": "discovery/historical-topics.csv",
+            "matched_patterns": [
+              "\\bADCY5\\b"
+            ]
+          },
+          {
+            "path": "research/README.md",
+            "matched_patterns": [
+              "istradefylline",
+              "\\bADCY5\\b"
+            ]
+          },
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "istradefylline",
+              "\\bADCY5\\b"
+            ]
+          }
+        ],
+        "external_hits": []
+      },
+      {
+        "name": "eflornithine",
+        "patterns": [
+          "eflornithine",
+          "Bachmann.Bupp",
+          "\\bODC1\\b"
+        ],
+        "baseline_hits": [
+          {
+            "path": "discovery/historical-topics.csv",
+            "matched_patterns": [
+              "eflornithine",
+              "Bachmann.Bupp",
+              "\\bODC1\\b"
+            ]
+          },
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "eflornithine",
+              "Bachmann.Bupp",
+              "\\bODC1\\b"
+            ]
+          }
+        ],
+        "external_hits": []
+      },
+      {
+        "name": "epalrestat",
+        "patterns": [
+          "epalrestat",
+          "PMM2"
+        ],
+        "baseline_hits": [
+          {
+            "path": "README.md",
+            "matched_patterns": [
+              "epalrestat"
+            ]
+          },
+          {
+            "path": "decisions/current-shortlist.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "discovery/historical-topics.csv",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round10/new-candidate-screen.json",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round25/existing-candidate-reassessment.md",
+            "matched_patterns": [
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/README.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/candidate-alias-audit.json",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/clinical_challenge.json",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/clinical_challenge.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/integration_review.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/new_candidates.json",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/new_candidates.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/portfolio-allocation.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/review_portfolio_integration.md",
+            "matched_patterns": [
+              "epalrestat",
+              "PMM2"
+            ]
+          },
+          {
+            "path": "research/source-data/blu3797-source-values.xlsx",
+            "matched_patterns": [
+              "PMM2"
+            ]
+          }
+        ],
+        "external_hits": []
+      },
+      {
+        "name": "NALL",
+        "patterns": [
+          "acetyl.L.leucine",
+          "\\bGM2\\b"
+        ],
+        "baseline_hits": [
+          {
+            "path": "decisions/current-shortlist.md",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "discovery/component-proposals.csv",
+            "matched_patterns": [
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "discovery/historical-topics.csv",
+            "matched_patterns": [
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round10/new-candidate-screen.json",
+            "matched_patterns": [
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round5/round5_shortlist_challenge.json",
+            "matched_patterns": [
+              "acetyl.L.leucine"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/README.md",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/candidate-alias-audit.json",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/new_candidates.json",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/new_candidates.md",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          },
+          {
+            "path": "research/rounds/round8/portfolio-allocation.md",
+            "matched_patterns": [
+              "acetyl.L.leucine",
+              "\\bGM2\\b"
+            ]
+          }
+        ],
+        "external_hits": []
+      },
+      {
+        "name": "efavirenz",
+        "patterns": [
+          "efavirenz"
+        ],
+        "baseline_hits": [
+          {
+            "path": "research/portfolio-register.json",
+            "matched_patterns": [
+              "efavirenz"
+            ]
+          },
+          {
+            "path": "research/rounds/round5/README.md",
+            "matched_patterns": [
+              "efavirenz"
+            ]
+          },
+          {
+            "path": "research/rounds/round5/round5_additional_screen.json",
+            "matched_patterns": [
+              "efavirenz"
+            ]
+          },
+          {
+            "path": "research/rounds/round5/round5_shortlist_challenge.json",
+            "matched_patterns": [
+              "efavirenz"
+            ]
+          },
+          {
+            "path": "research/rounds/round5/round5_shortlist_challenge.md",
+            "matched_patterns": [
+              "efavirenz"
+            ]
+          }
+        ],
+        "external_hits": []
+      }
+    ],
+    "coverage_statement": "Selected aliases across every extracted baseline file and all13 indexed external reports; no claim of exhaustive semantic coverage.",
+    "adjudications": [
+      {
+        "candidate": "R26-HUM-01",
+        "decision": "No selected exact-use hit."
+      },
+      {
+        "candidate": "R26-HUM-02",
+        "decision": "Prior salbutamol hits concern collagenVI; Pura gene symbol in spreadsheet is a nontherapeutic collision. No exact-use hit."
+      },
+      {
+        "candidate": "R26-HUM-03",
+        "decision": "No selected exact-use hit."
+      },
+      {
+        "candidate": "Miglustat/Tangier/MUSTANG",
+        "decision": "Exact-use duplicate in unlettered external report; excluded."
+      }
+    ],
+    "unrecovered": [
+      "Screens N–Q",
+      "Any additional uninspected historical work or unrecognized aliases"
+    ],
+    "raw_corpus_republished": false
+  },
+  "feedback_summary": {
+    "web": "All nine web searches received one accepted feedback submission.",
+    "scrape": "Five accepted; three late attempts explicitly rejected FEEDBACK_WINDOW_EXPIRED and not retried; five were not submitted within the window.",
+    "alexandria": "One accepted event for clinicaltrials.gov after successful provider retrieval."
+  },
+  "stop_rule": "Research bounded after three retained exact uses, explicit duplicate removals and concrete remaining decision gates. No broad search expansion to satisfy a quota.",
+  "no_external_execution": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications",
+    "no automation"
+  ],
+  "private_session_ids_published": false,
+  "raw_third_party_full_text_republished": false
+}

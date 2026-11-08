@@ -1,0 +1,594 @@
+{
+  "schema_version": "ddiscov.round26.human.ledger.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "lane": "new human-evidence rare-disease/precision-use screening",
+  "counts": {
+    "retained_new_exact_use_records": 3,
+    "rejected_scouts": 7,
+    "already_covered_or_duplicate_scouts": 6,
+    "protocol_only_scouts": 1,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "newly_generated_experimental_results": 0,
+    "newly_generated_treated_people": 0,
+    "pooled_new_unique_treated_people": null
+  },
+  "ranking": {
+    "within_lane_information_order": [
+      "R26-HUM-01",
+      "R26-HUM-02",
+      "R26-HUM-03"
+    ],
+    "meaning": "Conditional next-information preference, not a calibrated financial-asset ranking or spending authorization.",
+    "marginal_dollar_standard": "Compare actual scope, remaining costs, delay, useful evidence and retained economics with alternatives and waiting; apply quote requirements symmetrically to new and inherited programs.",
+    "cash_comparison": "No priced obtainable commitment established superior; relative financial EV remains unresolved, not negative by default.",
+    "historical_incumbent_envelopes_are_quotes": false
+  },
+  "records": [
+    {
+      "id": "R26-HUM-01",
+      "name": "Levodopa/carbidopa for movement-related function in MCT8 deficiency",
+      "exact_use": {
+        "article": "Existing levodopa/carbidopa; oral or gastric-tube suspension described in the earlier clinical report. Exact commercial presentation/qualified transfer lot not established.",
+        "disease": "SLC16A2/MCT8 deficiency (Allan–Herndon–Dudley syndrome)",
+        "genotype_scope": "Genetically confirmed pathogenic SLC16A2 variants; no validated responder genotype",
+        "compartment": "Neurological motor function",
+        "intended_claim": "Useful ongoing improvement in hypokinesia, movement initiation or another meaningful motor outcome on appropriate background care",
+        "not_established": [
+          "Correction of thyroid transport",
+          "Global developmental restoration",
+          "Disease modification",
+          "Permanent off-treatment repair"
+        ]
+      },
+      "aliases": [
+        "levodopa",
+        "carbidopa",
+        "L-DOPA",
+        "MCT8",
+        "SLC16A2",
+        "Allan-Herndon-Dudley",
+        "AHDS"
+      ],
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "selected_exact_use_hits": 0,
+        "unrecovered": [
+          "Screens N–Q",
+          "Any other uninspected historical work or unrecognized aliases"
+        ],
+        "source_ids": [
+          "R26-H12"
+        ]
+      },
+      "disposition": "Conditional clinical-information priority; first within this lane",
+      "information_rank_within_lane": 1,
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "evidence": [
+        {
+          "source_id": "R26-H02",
+          "publication_online": "2025-03-15",
+          "design": "Retrospective observational clinical series",
+          "unit": "people",
+          "phenotyped": 11,
+          "systematically_treated_and_paired_assessed": 6,
+          "additional_separately_described_exposures": 2,
+          "paired_followup_months": 6,
+          "controlled_randomized_comparator": false,
+          "positive": [
+            "Paired movement/disability and infantile parkinsonism-scale improvement in the six-person assessed group",
+            "Modest fine-motor developmental-age change",
+            "One additional longer caregiver-perceived positive exposure"
+          ],
+          "negative_or_limiting": [
+            "No significant gross-motor, language or cognition change",
+            "CPCHILD did not improve",
+            "Myoclonus did not improve",
+            "Additional one-week exposure showed no response; short observation limits inference"
+          ],
+          "counts_not_to_pool": "Six paired recipients, two separately described exposures and eleven phenotyped people are different denominators."
+        },
+        {
+          "source_id": "R26-H01",
+          "publication_online": "2025-10-27",
+          "issue_date": "2026-02",
+          "design": "Three retrospectively and seven prospectively assessed males; uncontrolled",
+          "unit": "people",
+          "phenotyped": 10,
+          "treatment_response_evaluable": 9,
+          "unassessed_after_death": 1,
+          "unassessed_person_exposure_status": null,
+          "drug_related_death_established": false,
+          "outcomes": {
+            "broad_motor_nonmotor_improvement": {
+              "numerator": 7,
+              "denominator": 9
+            },
+            "hypokinesia_bradykinesia_improvement": {
+              "numerator": 8,
+              "denominator": 9
+            },
+            "gmfm_improvement": {
+              "numerator": 5,
+              "denominator": 8
+            },
+            "gmfm_slight_decline": 2,
+            "gmfm_no_benefit": 1,
+            "cgi_i": {
+              "much_improved": 4,
+              "minimally_improved": 2,
+              "no_change": 3,
+              "denominator": 9
+            }
+          },
+          "negative_or_limiting": [
+            "Functional-category scales did not improve congruently",
+            "Mean dystonia movement score increased",
+            "Small uncontrolled partly retrospective study",
+            "Mean relative GMFM increase is not percentage-point recovery or a pooled response estimate"
+          ],
+          "abstract_body_discrepancy": "Abstract7/10 should not override main-text nine evaluable treatment courses or endpoint-specific denominators."
+        }
+      ],
+      "lineage": {
+        "publications": 2,
+        "participant_crosswalk_obtained": false,
+        "pooled_unique_treated_people": null,
+        "pooled_response_rate": null,
+        "independence": "Different described recruitment settings but shared coauthor; not a verified fully independent pooled cohort. Preprint/version reads are not added."
+      },
+      "comparator": {
+        "current_care_source": "R26-H03",
+        "current_care": "Emcitate/tiratricol label treats peripheral thyrotoxicosis; appropriate thyroid and supportive care remain relevant background.",
+        "negative_context_source": "R26-H04",
+        "negative_context": "Expert consensus regards levodopa efficacy as unproven and not standard/disease-modifying care; its cited clinical evidence is H02, not a new negative controlled trial.",
+        "required_comparison": "Meaningful motor benefit and total burden on stable relevant care; no inference of superiority to tiratricol from different endpoints."
+      },
+      "safety_limits": [
+        "Dystonia may become more prominent with motor activation in the later series; useful overall benefit requires interpretation.",
+        "No reported side effects in a small series is not established pediatric safety.",
+        "Biochemical abnormalities and mechanism are supportive, not validated response biomarkers."
+      ],
+      "rights_and_capture": {
+        "exact_use_license_verified": false,
+        "physical_lot_verified": false,
+        "available_terms": null,
+        "actual_quote_usd": null,
+        "current_commercial_interest": null,
+        "established": "Existing active ingredients and clinical suspension use are documented.",
+        "unresolved": [
+          "Adequacy and lawful transfer of the intended presentation",
+          "Access to complete clinical records and usable standardized outcomes",
+          "Data custody/publication/regulatory-reference and commercial rights",
+          "A distinct valuable contribution beyond off-label generic care"
+        ],
+        "plausible_routes": [
+          "First controlled indication evidence with contracted regulatory/data-use rights",
+          "Documented product improvement if administration/exposure/tolerability limitations make it useful"
+        ],
+        "not_required": "A new formulation or mechanistic repair claim is not automatically required.",
+        "not_inferred": "Search absence is not freedom to operate, no competition or no existing rights."
+      },
+      "next_information_question": "Can the existing two-report clinical evidence define an interpretable useful symptomatic-function proof with an adequate article, stable background-care context, usable data rights and a concrete product contribution?",
+      "minimum_deliverable": [
+        "Patient/endpoint lineage and completeness crosswalk across existing reports",
+        "Functional-assessment and background-care feasibility specification",
+        "Article suitability and output-rights specification",
+        "Separate actual terms for evidence qualification versus a later controlled clinical decision"
+      ],
+      "conditional_comparison": {
+        "basis": "Equal all-in time/cost, obtainable evidence and reusable output/economic rights are assumptions, not verified offers.",
+        "judgment": "Under those assumptions, prefer this clinical-proof-definition package to broad preclinical discovery and to an APR qualification-only substitute that cannot yet test useful function. The scientific-information advantage does not itself establish financial superiority to APR's original function-oriented option.",
+        "reversal": "Preference reverses if the MCT8 package yields only nonexclusive care guidance without capturable contribution, or if a comparably priced alternative resolves more useful function with better retained economics.",
+        "quotes_required_equally": true,
+        "incumbent_historical_costs_are_current_quotes": false
+      },
+      "branches": {
+        "advance": "An interpretable clinically meaningful ongoing-control claim, usable evidence/article and a defensible offered contribution justify comparing an actual controlled-proof proposal.",
+        "hold_or_rescope": "Insufficient objective/usable outcome, adverse burden offsetting benefit, or no retained economics; do not infer biological inefficacy from absent terms.",
+        "stop_source_work": "Do not repeat broad search absent a consequential new clinical record, actual scoped opportunity or rights/access fact."
+      },
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false,
+      "access_limits": [
+        "No independent supplement/video audit",
+        "No patient-level cross-publication deduplication",
+        "No primary controlled efficacy study recovered"
+      ],
+      "source_ids": [
+        "R26-H01",
+        "R26-H02",
+        "R26-H03",
+        "R26-H04",
+        "R26-H11",
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "id": "R26-HUM-02",
+      "name": "Salbutamol for respiratory and motor dysfunction in PURA syndrome",
+      "exact_use": {
+        "article": "Existing salbutamol (albuterol); oral treatment context in clinical cases; exact supplier, formulation and lot not qualified here.",
+        "disease": "PURA-related neurodevelopmental disorder with severe respiratory and motor dysfunction",
+        "genotype_scope": "Pathogenic PURA variants; no validated responder genotype or NMJ biomarker",
+        "intended_claim": "Clinically useful acceleration or improvement of respiratory/motor function beyond expected maturation and supportive care",
+        "not_established": [
+          "Universal PURA response",
+          "Global CNS repair",
+          "Permanent developmental correction",
+          "Clinical superiority to pyridostigmine"
+        ]
+      },
+      "aliases": [
+        "salbutamol",
+        "albuterol",
+        "PURA syndrome",
+        "PURA-NDD",
+        "purine-rich element-binding protein A",
+        "pyridostigmine"
+      ],
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "selected_exact_use_hits": 0,
+        "collisions": [
+          "Prior salbutamol/collagenVI therapeutic use",
+          "Spreadsheet Pura gene-symbol row"
+        ],
+        "unrecovered": [
+          "Screens N–Q",
+          "Unrecognized aliases or uninspected historical work"
+        ],
+        "source_ids": [
+          "R26-H12"
+        ]
+      },
+      "disposition": "Conditional clinical-signal reserve",
+      "information_rank_within_lane": 2,
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "evidence": [
+        {
+          "source_id": "R26-H05",
+          "publication_date": "2026-07-16",
+          "design": "Two new case reports plus literature review of three earlier cases",
+          "unit": "people",
+          "new_cases": 2,
+          "literature_derived_cases": 3,
+          "total_people_described": 5,
+          "salbutamol_exposed_total": 3,
+          "salbutamol_exposed_new_primary_cases": 2,
+          "salbutamol_exposed_literature_derived": 1,
+          "concurrent_control": false,
+          "observations": [
+            "Respiratory-support and motor changes in the two new cases",
+            "Persistent tube-feeding and ventilation needs in the second case with sleep reassessment pending",
+            "AIMS increase at persistently low percentile in the first case; later epileptic-spasm-associated neuroregression",
+            "Source reports CHOP-INTEND50/65to54/65; denominator not silently normalized"
+          ],
+          "pyridostigmine_context": {
+            "exposed": 4,
+            "clear_improvement": 1,
+            "partial_improvement": 1,
+            "no_response": 1,
+            "worsening": 1
+          },
+          "salbutamol_adverse_observation": {
+            "patients_reported": 1,
+            "events": [
+              "tachycardia",
+              "sleep disturbance",
+              "increased startle"
+            ],
+            "outcome": "Resolved after dose reduction"
+          },
+          "response_probability": null
+        }
+      ],
+      "lineage": {
+        "independent_new_patients_recovered": 2,
+        "third_salbutamol_original_report_read": false,
+        "literature_source": "R26-H06",
+        "counts_rule": "The three literature patients and their original publications are overlapping records; do not add them again."
+      },
+      "principal_alternatives": [
+        "Age-related maturation of respiratory control and infant motor skills",
+        "Prior/overlapping pyridostigmine",
+        "Supportive respiratory and feeding care",
+        "Publication of favorable cases",
+        "Heterogeneous central and peripheral contributions"
+      ],
+      "rights_and_capture": {
+        "current_exact_use_program_verified": false,
+        "available_license_terms": null,
+        "actual_quote_usd": null,
+        "physical_lot_verified": false,
+        "commercial_rights_verified": false,
+        "plausible_routes": [
+          "First useful indication evidence with contractually reusable outputs",
+          "A demonstrated product improvement with defined user benefit"
+        ],
+        "limits": [
+          "Generic drug identity alone does not create exclusivity.",
+          "No specific sponsor opportunity or proprietary contribution verified.",
+          "If only nonexclusive clinical care guidance is obtainable, keep the scientific value but do not label it a proprietary drug investment."
+        ]
+      },
+      "next_information_question": "Can the observed respiratory and motor chronology support an added salbutamol contribution beyond maturation, prior treatment and supportive care, with a practical meaningful outcome and tolerable total burden?",
+      "minimum_deliverable": [
+        "Reconciled age/treatment/support/outcome chronology from existing cases",
+        "Feasible objective respiratory/motor outcome and adverse-burden specification",
+        "Clear status of original case access and ascertainment of treated nonresponders",
+        "Article suitability, data/output rights and actual staged terms"
+      ],
+      "conditional_comparison": {
+        "judgment": "Behind MCT8 for the same bounded clinical-information scope because directly recovered treatment evidence is smaller and natural maturation is a stronger alternative. Could outrank broad preclinical discovery if a usable existing clinical record and retained contribution are available at comparable cost.",
+        "financial_superiority_established": false,
+        "quotes_required_equally": true
+      },
+      "branches": {
+        "advance": "A usable chronology and meaningful outcome justify comparing a controlled proof of clinically useful acceleration; no compulsory animal reset.",
+        "rescope_or_hold": "Maturation/support care explain the signal, adverse burden offsets benefit, or the available contribution is only nonexclusive care guidance.",
+        "stop_source_work": "Reopen only for a consequential clinical record, original inaccessible report, scoped evidence opportunity or concrete capture/access change."
+      },
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false,
+      "access_limits": [
+        "Original2022salbutamol report not recovered in full",
+        "Two olderPURA papers classified closed by Unpaywall; null locations preserved",
+        "No all-treated population denominator or unbiased treatment response probability"
+      ],
+      "source_ids": [
+        "R26-H05",
+        "R26-H06",
+        "R26-H11",
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "id": "R26-HUM-03",
+      "name": "TTI-0102 for MELAS-related fatigue/function",
+      "exact_use": {
+        "article": "TTI-0102, described as acetate salt of cysteamine–pantetheine asymmetric disulfide; sponsor-developed prodrug",
+        "disease": "MELAS; trial-defined mitochondrial disease population",
+        "genotype_scope": "MELAS-associated mtDNA variants and phenotype; abstract describes m.3243A>G, but an individual genotype table was not recovered.",
+        "intended_claim": "Clinically useful fatigue-related function at a tolerable exposure",
+        "not_established": [
+          "Walking benefit",
+          "Disease modification",
+          "Superiority to existing cysteamine products",
+          "Efficacy in Leigh syndrome or cystinosis"
+        ]
+      },
+      "aliases": [
+        "TTI-0102",
+        "TTI0102",
+        "cysteamine-pantetheine disulfide",
+        "Thiogenesis",
+        "MELAS",
+        "TTI-MITO-001",
+        "NCT06644534"
+      ],
+      "novelty": {
+        "status": "new_exact_use_in_bounded_review",
+        "baseline_files": 424,
+        "external_reports": 13,
+        "selected_exact_use_hits": 0,
+        "unrecovered": [
+          "Screens N–Q",
+          "Unrecognized aliases or uninspected historical work"
+        ],
+        "source_ids": [
+          "R26-H12"
+        ]
+      },
+      "disposition": "Active external program; hold efficacy promotion pending exact documentary reconciliation",
+      "information_rank_within_lane": 3,
+      "paid_development_promotion": false,
+      "s_tier_promotion": false,
+      "evidence": [
+        {
+          "source_id": "R26-H07",
+          "version": "medRxivv1preprint31March2026; not peer-reviewed",
+          "design": "Randomized placebo-controlled study described as single-blind",
+          "unit": "people",
+          "enrolled": 9,
+          "active": 6,
+          "placebo": 3,
+          "planned_total": 12,
+          "complete_fatigue_analysis_denominator": null,
+          "discontinuations_count": null,
+          "positive": "MFIS p=.04 reported; exact analysis population and prespecification unresolved.",
+          "negative": [
+            "No12-minute walk change",
+            "No GDF-15/FGF-21 change",
+            "GSH/GSSG sample-stability problem",
+            "GI intolerance and dropouts; recruitment stopped following PK review"
+          ],
+          "source_internal_conflicts": [
+            "Safety section describes low-body-weight intolerance below50kg while Discussion uses below80kg.",
+            "Abstract narrow genotype statement versus broader eligibility without an individual genotype table."
+          ]
+        },
+        {
+          "source_id": "R26-H08",
+          "record_type": "official_registry_not_results",
+          "actual_enrolled": 9,
+          "status": "COMPLETED",
+          "actual_completion_date": "2026-01-12",
+          "last_update_posted": "2026-07-24",
+          "posted_results": false,
+          "primary_efficacy": "12-minute walking test",
+          "primary_safety": "Treatment-emergent adverse events",
+          "secondary_fatigue": "Fatigue Severity Scale (FSS)",
+          "secondary_qol": "WHOQOL-BREF",
+          "masking": "Double-blind prose; quadruple categories",
+          "ipd_sharing": "NO"
+        }
+      ],
+      "lineage": {
+        "study": "NCT06644534 / EUCT2023-506723-28-00",
+        "independent_studies": 1,
+        "html_pdf_registry_sponsor_are_additive": false,
+        "versions": "Unpaywall metadata acceptedVersion is preserved but does not override the actual document's preprint status."
+      },
+      "unresolved_discrepancies": [
+        "FSS registered versus MFIS reported",
+        "Registry double/quadruple versus paper single-blind",
+        "Complete participant disposition, all-treated safety and fatigue evaluability",
+        "Protocol/amendment and statistical analysis plan",
+        "Credibility and useful magnitude of fatigue result after missingness and adverse burden"
+      ],
+      "rights_and_capture": {
+        "program_controller_reported": "Thiogenesis Therapeutics",
+        "basis": [
+          "Sponsor-authored/funded report",
+          "Current sponsor pipeline",
+          "Historical sponsor-origin patent allowance/grant disclosure"
+        ],
+        "current_title_chain_verified": false,
+        "granted_claims_read": false,
+        "license_available": null,
+        "license_terms": null,
+        "actual_quote_usd": null,
+        "current_valuation": null,
+        "plausible_route": "An actual sponsor-controlled investment, partnership or offered contribution; not independent generic repurposing.",
+        "limits": [
+          "Sponsor regulatory/market/voucher assertions not independently adopted.",
+          "2024European allowance is not current legal clearance.",
+          "Parent cysteamine or other indication evidence cannot substitute for the exact prodrug/use."
+        ]
+      },
+      "next_information_question": "Do the current protocol/amendments, analysis plan, actual masking and participant disposition support the reported MFIS effect after reconciling the negative walking result and GI attrition?",
+      "minimum_deliverable": [
+        "Versioned endpoint and masking reconciliation",
+        "Prespecified versus exploratory analysis classification",
+        "Actual treated/completer/analyzed counts and adverse-event disposition",
+        "Effect magnitude/uncertainty and missingness handling",
+        "A real offered economic interest and terms only if clinical interpretation survives"
+      ],
+      "conditional_comparison": {
+        "judgment": "A short document-reconciliation task can have high information value because it could prevent a false controlled-efficacy promotion. A new development dollar is not justified by the present preprint alone; a verified useful fatigue signal plus an actual sponsor opportunity would require fresh head-to-head comparison.",
+        "financial_superiority_established": false,
+        "quotes_required_equally": true
+      },
+      "branches": {
+        "advance": "Interpretable meaningful fatigue benefit survives the documentary audit; compare a specifically offered confirmatory or partnering option.",
+        "hold": "No protocol/analysis/disposition basis or no obtainable contribution; do not treat missing terms as biological failure.",
+        "stop_or_rescope": "If the signal is not robust to its actual analysis and missingness, stop promoting controlled efficacy; useful future exposure/indication questions need separate evidence.",
+        "stop_source_work": "No further broad sponsor search without the named missing artifacts or actual offer."
+      },
+      "financial_ev": null,
+      "probability_of_success": null,
+      "spending_authorized": false,
+      "execution_authorized": false,
+      "access_limits": [
+        "No full protocol/amendment history or SAP",
+        "No posted registry results",
+        "No complete fatigue-analysis denominator",
+        "No official granted-claim/title audit"
+      ],
+      "source_ids": [
+        "R26-H07",
+        "R26-H08",
+        "R26-H09",
+        "R26-H10",
+        "R26-H11",
+        "R26-H12",
+        "R26-H13"
+      ]
+    }
+  ],
+  "rejected_scouts": [
+    {
+      "name": "Theophylline/istradefylline for ADCY5-associated movement disorder",
+      "reason": "Existing ADCY5/A2A chapter already explicitly includes comparison with caffeine/theophylline; not retained as new.",
+      "classification": "already_covered",
+      "evidence": "atlas/neuromuscular.md and original inventory",
+      "source_ids": [
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "name": "Epalrestat for PMM2-CDG",
+      "reason": "Previously screened exact use and reassessed program.",
+      "classification": "exact_use_duplicate",
+      "evidence": "Existing PMM2-CDG inventory record and Round8 follow-up.",
+      "source_ids": [
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "name": "Eflornithine/DFMO for ODC1-related Bachmann–Bupp syndrome",
+      "reason": "Exact-use inventory recordT200 already cites the same2025paper.",
+      "classification": "exact_use_duplicate",
+      "source_ids": [
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "name": "N-acetyl-L-leucine for GM2 gangliosidoses",
+      "reason": "Existing R8-NL-03 clinical benchmark with controlled-data caveats.",
+      "classification": "exact_use_duplicate",
+      "source_ids": [
+        "R26-H12"
+      ]
+    },
+    {
+      "name": "Efavirenz for NPC1 cognitive dysfunction",
+      "reason": "Existing R5-C03 exact-use screen.",
+      "classification": "exact_use_duplicate",
+      "source_ids": [
+        "R26-H12",
+        "R26-H13"
+      ]
+    },
+    {
+      "name": "Miglustat for Tangier disease neuropathy (MUSTANG)",
+      "reason": "No local exact-use hit, but exact same trial already screened in recovered unlettered external report. Full main text read before duplicate determination; no co-primary meaningful-difference success.",
+      "classification": "external_exact_use_duplicate",
+      "source_ids": [
+        "R26-H12",
+        "R26-H14"
+      ]
+    },
+    {
+      "name": "Empagliflozin for Lafora disease",
+      "reason": "Paper-index hit10.3390/mps8030048 describes a protocol and expected outcomes; does not supply observed treated-human functional evidence.",
+      "classification": "protocol_only_scout",
+      "source_ids": [
+        "R26-H13"
+      ]
+    }
+  ],
+  "execution_authorized": false,
+  "spending_authorized": false,
+  "activity_boundary": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications",
+    "no automation"
+  ],
+  "source_register": "human-sources.json",
+  "retrieval_log": "human-retrieval-log.json"
+}

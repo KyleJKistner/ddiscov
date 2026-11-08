@@ -1,0 +1,333 @@
+{
+  "schema_version": "ddiscov.round26.integration_sources.v1",
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "sources": [
+    {
+      "id": "R26-I01",
+      "title": "Altered Dopamine Metabolism and Response to Treatment with Levodopa/Carbidopa in MCT8 Deficiency",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mds.70093",
+      "doi": "10.1002/mds.70093",
+      "source_type": "primary_uncontrolled_clinical_report",
+      "publication_date": "2025-10-27",
+      "issue_date": "2026-02",
+      "access_scope": "Full primary main text and displayed tables; linked supporting files/videos not separately inspected by root.",
+      "observations": [
+        "The body distinguishes ten phenotyped patients from nine evaluable treatment courses; one died before response assessment.",
+        "Broad benefit is described in seven of nine, GMFM improvement in five of eight, and CGI-I improvement in six of nine; these endpoints and denominators are not interchangeable.",
+        "Functional-category scales did not show congruent improvement, some motor scores declined, and dystonia scores increased. Follow-up beyond three months is limited to subsets."
+      ],
+      "interpretation": "The paper supports a hypothesis of useful symptomatic benefit and an informative controlled comparison, not a pooled response probability or established disease modification.",
+      "limits": [
+        "Uncontrolled observations and assessor/caregiver expectations remain material.",
+        "The abstract's7/10 shorthand is not used as a clean treated-person response rate.",
+        "Same document independently read by the human-evidence agent; no additional evidence family."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I02",
+      "title": "Healing Diabetic Foot Ulcers with Topical Timolol Improves Healed Epithelial Integrity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+      "doi": "10.1159/000545357",
+      "source_type": "primary_indexed_abstract",
+      "access_scope": "PubMed abstract and metadata; root did not obtain the full journal body in this read.",
+      "observations": [
+        "Post hoc analysis of twenty selected participants whose ulcers had healed, ten per arm.",
+        "Lower transepidermal water loss is reported after healing.",
+        "No difference in re-ulceration rates was demonstrated in this small study."
+      ],
+      "interpretation": "Selected post-healing barrier observations do not independently establish faster healing or lower recurrence in the randomized population.",
+      "limits": [
+        "Subset selection and parent-trial outcome accounting are separate.",
+        "No surrogate-to-clinical-benefit substitution."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I03",
+      "title": "Unpaywall DOI lookup for timolol epithelial-integrity paper",
+      "url": "https://api.unpaywall.org/v2/10.1159/000545357",
+      "doi": "10.1159/000545357",
+      "source_type": "open_access_location_metadata",
+      "access_scope": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records.",
+      "lookup_result": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "updated": "2026-07-07T15:25:23Z"
+      },
+      "full_text_retrieved_by_lookup": false,
+      "interpretation": "No indexed OA location returned. This is not proof that no lawful public copy exists, and it is not a failed therapeutic finding.",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Unpaywall direct API"
+    },
+    {
+      "id": "R26-I04",
+      "title": "Beta-adrenergic Antagonist for the Healing of Chronic Diabetic Foot",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "source_type": "primary_conference_trial_abstract",
+      "access_scope": "Complete substantive conference abstract; not a full clinical report or statistical analysis plan.",
+      "observations": [
+        "Forty-eight participants were randomized,21timolol and27standard care; the early comparison is8/21 versus7/27 and reported p=0.77.",
+        "The text describes7/27 as33%, an arithmetic inconsistency. It shifts between planned week14/31 and reported week15/30 timepoints.",
+        "The later unadjusted log-rank p=0.081 differs from a favorable adjusted hazard-ratio result; the latter cannot erase the earlier endpoint finding."
+      ],
+      "interpretation": "The study is a useful contrary check on a broad healing claim, with reporting details requiring registry/full-report reconciliation.",
+      "limits": [
+        "Abstract-only result scope.",
+        "No clinical superiority inferred from selected adjusted or post hoc findings."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I05",
+      "title": "Gpr18 agonist dampens inflammation, enhances myogenesis, and restores muscle function in models of Duchenne muscular dystrophy",
+      "url": "https://doi.org/10.3389/fcell.2023.1187253",
+      "doi": "10.3389/fcell.2023.1187253",
+      "source_type": "primary_preclinical_study",
+      "publication_date": "2023-08-14",
+      "access_scope": "Full primary main text and figure legends. Root reviewed human-cell readout, muscle-force comparison, biological-unit scope and disclosures.",
+      "observations": [
+        "PSB-KD107 increases absolute and muscle-size-normalized maximal force in treated mdx mice; the functional assessment is ex-vivo muscle force after in-vivo treatment.",
+        "The principal force figure reports n=5 except the separate O-1602 comparison n=3.",
+        "The human-cell evidence concerns myoblast fusion in dystrophinopathy-derived lines; it is not mature human muscle force."
+      ],
+      "interpretation": "A defined functional preclinical candidate merits a bounded article/exposure/rights review, without inheriting clinical efficacy or a current price.",
+      "limits": [
+        "A patient-cell differentiation result is not a treated-patient result.",
+        "No-conflict declaration is not proof of unencumbered rights.",
+        "No current license or complete pharmacokinetic/safety package established by this paper."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I06",
+      "title": "Restoring brain functions in the Mo-blo mouse model of Menkes disease with copper nanoclusters",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+      "doi": "10.1126/sciadv.aeg6972",
+      "source_type": "primary_preclinical_study",
+      "access_scope": "Full primary main text and figure legends; survival, comparator, survivor-selection, residual-function and patent-disclosure passages inspected.",
+      "observations": [
+        "The paper compares copper nanoclusters with copper histidine and untreated Mo-blo mice; reported follow-up reaches fifty days for nanocluster-treated and wild-type animals.",
+        "Later behavior is largely compared between nanocluster-treated survivors and wild-type controls after early deaths in other groups, limiting a direct contemporaneous functional efficacy contrast.",
+        "Residual motor abnormalities and hepatic/renal marker findings remain relevant; improved survival is not complete neurological or systemic normalization.",
+        "Authors disclose WO2022/238656 for the copper-nanocluster family and Menkes use, deposited by Universite de Lorraine."
+      ],
+      "interpretation": "The result is a serious but more complex product proposition whose interpretation must use the current clinical comparator and retain safety/selection uncertainty.",
+      "limits": [
+        "Do not infer a fully observed median lifespan from the fifty-day study boundary.",
+        "Patent disclosure is not a current-title, available-license or freedom-to-operate conclusion.",
+        "The paper's clinical-status wording must be checked against current primary regulator information."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I07",
+      "title": "Treatment of Keratin 16 Palmoplantar Keratoderma With Topical Erlotinib — publisher access page",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_type": "primary_publisher_metadata_and_intro",
+      "access_scope": "Publisher title, metadata and introductory paragraph only; redirected to article-abstract page with GetAccess. Main outcomes not obtained from this read.",
+      "observations": [
+        "The introduction identifies two related patients, mother and son, with KRT16 c.379C>T, p.Arg127Cys hereditary palmoplantar keratoderma.",
+        "The intended route is topical erlotinib, distinct from cited systemic treatment for TRPV3 Olmsted syndrome."
+      ],
+      "interpretation": "Confirms exact-use identity and DOI; does not itself verify outcome magnitudes or study phases.",
+      "limits": [
+        "URL containing fullarticle does not imply full-text access."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape"
+    },
+    {
+      "id": "R26-I08",
+      "title": "Unpaywall DOI lookup for topical erlotinib KRT16 paper",
+      "url": "https://api.unpaywall.org/v2/10.1001/jamadermatol.2021.5302",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_type": "open_access_location_metadata",
+      "access_scope": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records.",
+      "lookup_result": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "updated": "2025-05-22T18:42:22Z"
+      },
+      "full_text_retrieved_by_lookup": false,
+      "interpretation": "No indexed OA copy returned; an independently found lawful public author copy is a separate access route, not an Unpaywall retrieval success.",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Unpaywall direct API"
+    },
+    {
+      "id": "R26-I09",
+      "title": "Treatment of Keratin16 Palmoplantar Keratoderma With Topical Erlotinib — public author PDF",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "publication_date": "2022-01-05",
+      "source_type": "primary_two_related_patient_report",
+      "access_scope": "Both pages of the public author/PC Project PDF, including blinded opposite-foot phases and later uncontrolled extension.",
+      "observations": [
+        "Two related patients, a mother and son with KRT16 Arg127Cys palmoplantar keratoderma, underwent blinded randomized opposite-foot comparisons followed by extension.",
+        "The initial lower-strength comparison in the mother had minimal improvement; later treatment with keratolytic support produced a stronger local contrast. Pain-free ambulation was reported during the later uncontrolled bilateral phase.",
+        "The son had modest improvement during the controlled phase and later gradual improvement, with limited keratolytic adherence. No adverse effects were reported during the described follow-up."
+      ],
+      "interpretation": "A specific symptomatic local-product hypothesis deserves bounded comparison with inherited local options. Two related cases and cointerventions do not establish general efficacy or a ready commercial product.",
+      "limits": [
+        "No new independent cohort beyond the publisher record.",
+        "The strongest functional observation occurred during uncontrolled extension.",
+        "Unpaywall returned no OA location; this full text was obtained separately from a public author copy."
+      ],
+      "retrieval_method": "Firecrawl PDF scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I10",
+      "title": "BAART-DFU NCT03282981 official registry and posted results",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03282981",
+      "source_type": "primary_trial_registry_and_posted_results",
+      "access_scope": "Complete substantive API JSON, including status, design, outcomes, participant flow and posted result tables.",
+      "observations": [
+        "Forty-eight actual participants were randomized, with 21 assigned to timolol and 27 to standard care plus inactive gel.",
+        "The registered primary wound-closure assessment is at 12 weeks; the posted counts are eight of 21 and seven of 27. The registered secondary time-to-closure period is 31 weeks.",
+        "Results were first posted on 25 April2025; the record was last updated on 8 May2025.",
+        "The conference abstract's 14/15-week early and 30/31-week later descriptions do not match all registered time labels. Its seven of27 equals33% text is also inconsistent."
+      ],
+      "interpretation": "An official result denominator is available. It does not support a definitive healing-superiority claim or allow selected healed-wound barrier findings to replace the randomized primary question.",
+      "limits": [
+        "Registry result tables and the conference abstract describe one parent trial, not independent replications.",
+        "No statistical analysis plan, amendments or patient-level data were recovered by root.",
+        "The registry labels a primary measure as a percentage but displays counts with participant denominators; interpret the counts explicitly."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I11",
+      "title": "FDA Approves First Treatment for Children With Menkes Disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-children-menkes-disease",
+      "publication_date": "2026-01-12",
+      "source_type": "primary_regulator_approval_announcement",
+      "access_scope": "Complete substantive FDA announcement, including indication, evidence design, population, survival observations and safety summary.",
+      "observations": [
+        "FDA approved Zycubo/copper histidinate for pediatric Menkes disease on12 January2026.",
+        "The supporting survival comparison included66 treated children from two open-label single-arm trials and17 untreated contemporaneous external controls.",
+        "The announcement reports substantial survival benefit and monitoring for copper toxicity; it does not describe a randomized neurological-function comparison."
+      ],
+      "interpretation": "CuNC development must justify incremental value over an approved copper-histidinate option. An untreated-disease benchmark alone is insufficient to define the current clinical product opportunity.",
+      "limits": [
+        "Approval and clinical survival evidence do not establish that every neurological deficit is corrected.",
+        "The FDA date is distinct from sponsor announcements on subsequent dates.",
+        "No extrapolation of the human survival effect to the nanocluster formulation."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I12",
+      "title": "FD-2 ALS paper publisher HTML access attempt",
+      "url": "https://doi.org/10.1016/j.neurot.2025.e00806",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "publication_date": "2025-11-25",
+      "issue_date": "2026-01",
+      "source_type": "primary_publisher_metadata_only",
+      "access_scope": "Publisher metadata, abstract in metadata and navigation shell; substantive main text not returned by this HTML request.",
+      "observations": [
+        "Metadata distinguishes online publication25 November2025 from January2026 issue date and supplies a public PDF URL."
+      ],
+      "interpretation": "No outcome denominators or detailed methodological conclusions are based on this HTML shell.",
+      "limits": [
+        "A200status and fulltext URL do not demonstrate main-text access."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I13",
+      "title": "A16-amino acid peptide delays the progression of motor neuron degeneration and pathogenic symptoms in ALS models — full PDF",
+      "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "source_type": "primary_preclinical_study",
+      "access_scope": "All16pages of the publisher PDF; animal timing, figure denominators, humane endpoint, pharmacokinetic caveat and competing-interest statement inspected.",
+      "observations": [
+        "SOD1-model treatment starts before overt functional decline. Grip and locomotion use five animals per group; the survival analysis uses twelve per group.",
+        "The survival measure is time to a humane endpoint, not observed natural lifespan.",
+        "The authors identify further pharmacokinetic, degradation and structural work as needed to explain FD-1/FD-2 differences; the proposed stability advantage is not a measured exposure result.",
+        "The paper declares no conflict of interest, while a separately recovered patent explicitly names this peptide family."
+      ],
+      "interpretation": "Functional preservation evidence supports a bounded identity/product-rights question. It does not establish post-symptomatic reversal, patient-derived functional rescue or a clinically practical chronic exposure.",
+      "limits": [
+        "Patent and paper examples are related evidence lineages, not automatically independent replication.",
+        "Full paper retrieval does not supply current national rights or a licensing offer."
+      ],
+      "retrieval_method": "Firecrawl PDF scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I14",
+      "title": "US20240327462A1 short-peptide patent publication",
+      "url": "https://patents.google.com/patent/US20240327462A1/en",
+      "publication_date": "2024-10-03",
+      "source_type": "primary_patent_publication_third_party_transcription",
+      "access_scope": "Full public transcription, nine claims, examples and indexed applicant/family/status fields.",
+      "observations": [
+        "The publication explicitly identifies FD2 and includes its sequence variant in dependent claim5; the claims also address composition and neurological-use scope.",
+        "Indexed assignees are Mackay Medical College and Fu Jen Catholic University.",
+        "The site labels the US application pending and other family members separately; those indexed labels are not an official current prosecution or title review."
+      ],
+      "interpretation": "A concrete institutional rights question is available. A no-conflict sentence in a paper does not imply an unpatented or unencumbered asset.",
+      "limits": [
+        "No official national prosecution, current ownership chain, enforceability, available license or terms established by this read.",
+        "No raw sequences or operational experimental instructions are needed for the investment screen."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I15",
+      "title": "Sol-Gel second-quarter2026 financial results and corporate update",
+      "url": "https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-second-quarter-2026-financial-results-and",
+      "publication_date": "2026-08-20",
+      "source_type": "primary_issuer_program_update",
+      "access_scope": "Fresh complete issuer release; SGT-210 program language inspected separately from the principal SGT-610 corporate results.",
+      "observations": [
+        "The issuer states it is continuing an investigational topical EGFR-inhibitor program, SGT-210.",
+        "The SGT-210 sentence does not identify KRT16 Arg127Cys, a newly controlled result for the two-patient formulation, or an available license."
+      ],
+      "interpretation": "The local EGFR-product field cannot be assumed vacant. This source does not prove that the exact compounded KRT16 article is company-owned or that a current transaction is available.",
+      "limits": [
+        "A general program statement is not an exact genotype/product claim or new efficacy dataset.",
+        "No current agreement, patent-title analysis or commercial terms were inspected."
+      ],
+      "retrieval_method": "Firecrawl scrape with maxAge0",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "id": "R26-I16",
+      "title": "Randomized pilot of DNase eye drops in severe tear-deficient dry eye",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "source_type": "primary_randomized_pilot_clinical_report",
+      "access_scope": "Full primary main text and displayed tables, including patient flow, study article, controlled symptom/sign comparisons and corneal-staining analysis.",
+      "observations": [
+        "The report describes47 enrolled people and41 completers, with four DNase and two placebo dropouts.",
+        "Controlled corneal staining improves, including the reported intent-to-treat analysis. This is distinct from symptoms.",
+        "The between-arm OSDI change table reports median changes of minus20.75 for DNase and minus8.43 for vehicle, p=0.078. Within-arm symptom significance is not a controlled symptom-positive result.",
+        "The study article is existing recombinant DNase/Pulmozyme used ophthalmically; later proprietary follow-ons cannot inherit exact-article identity automatically."
+      ],
+      "interpretation": "The pilot supports a consequential clinical/product reserve with a stronger ocular-sign result than symptom result. It is not proof of a broadly restored ocular surface or a clear proprietary asset.",
+      "limits": [
+        "Eyes and repeated readings are not independent people.",
+        "Small sample, attrition and short follow-up limit safety and clinical certainty.",
+        "The paper's historical statement about approved dry-eye drugs is not adopted as current2026 market coverage."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08"
+    }
+  ]
+}

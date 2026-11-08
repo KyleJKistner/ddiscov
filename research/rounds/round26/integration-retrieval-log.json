@@ -1,0 +1,104 @@
+{
+  "schema_version": "ddiscov.round26.integration_retrieval.v1",
+  "as_of": "2026-11-08",
+  "operations": [
+    {
+      "source_id": "R26-I01",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mds.70093",
+      "method": "Firecrawl scrape",
+      "outcome": "Full primary main text and displayed tables; linked supporting files/videos not separately inspected by root."
+    },
+    {
+      "source_id": "R26-I02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+      "method": "Firecrawl scrape",
+      "outcome": "PubMed abstract and metadata; root did not obtain the full journal body in this read."
+    },
+    {
+      "source_id": "R26-I03",
+      "url": "https://api.unpaywall.org/v2/10.1159/000545357",
+      "method": "Unpaywall direct API",
+      "outcome": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records."
+    },
+    {
+      "source_id": "R26-I04",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "method": "Firecrawl scrape",
+      "outcome": "Complete substantive conference abstract; not a full clinical report or statistical analysis plan."
+    },
+    {
+      "source_id": "R26-I05",
+      "url": "https://doi.org/10.3389/fcell.2023.1187253",
+      "method": "Firecrawl scrape",
+      "outcome": "Full primary main text and figure legends. Root reviewed human-cell readout, muscle-force comparison, biological-unit scope and disclosures."
+    },
+    {
+      "source_id": "R26-I06",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+      "method": "Firecrawl scrape",
+      "outcome": "Full primary main text and figure legends; survival, comparator, survivor-selection, residual-function and patent-disclosure passages inspected."
+    },
+    {
+      "source_id": "R26-I07",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+      "method": "Firecrawl scrape",
+      "outcome": "Publisher title, metadata and introductory paragraph only; redirected to article-abstract page with GetAccess. Main outcomes not obtained from this read."
+    },
+    {
+      "source_id": "R26-I08",
+      "url": "https://api.unpaywall.org/v2/10.1001/jamadermatol.2021.5302",
+      "method": "Unpaywall direct API",
+      "outcome": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records."
+    },
+    {
+      "source_id": "R26-I09",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "method": "Firecrawl PDF scrape",
+      "outcome": "Both pages of the public author/PC Project PDF, including blinded opposite-foot phases and later uncontrolled extension."
+    },
+    {
+      "source_id": "R26-I10",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03282981",
+      "method": "Firecrawl scrape",
+      "outcome": "Complete substantive API JSON, including status, design, outcomes, participant flow and posted result tables."
+    },
+    {
+      "source_id": "R26-I11",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-children-menkes-disease",
+      "method": "Firecrawl scrape",
+      "outcome": "Complete substantive FDA announcement, including indication, evidence design, population, survival observations and safety summary."
+    },
+    {
+      "source_id": "R26-I12",
+      "url": "https://doi.org/10.1016/j.neurot.2025.e00806",
+      "method": "Firecrawl scrape",
+      "outcome": "Publisher metadata, abstract in metadata and navigation shell; substantive main text not returned by this HTML request."
+    },
+    {
+      "source_id": "R26-I13",
+      "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "method": "Firecrawl PDF scrape",
+      "outcome": "All16pages of the publisher PDF; animal timing, figure denominators, humane endpoint, pharmacokinetic caveat and competing-interest statement inspected."
+    },
+    {
+      "source_id": "R26-I14",
+      "url": "https://patents.google.com/patent/US20240327462A1/en",
+      "method": "Firecrawl scrape",
+      "outcome": "Full public transcription, nine claims, examples and indexed applicant/family/status fields."
+    },
+    {
+      "source_id": "R26-I15",
+      "url": "https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-second-quarter-2026-financial-results-and",
+      "method": "Firecrawl scrape with maxAge0",
+      "outcome": "Fresh complete issuer release; SGT-210 program language inspected separately from the principal SGT-610 corporate results."
+    },
+    {
+      "source_id": "R26-I16",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "method": "Firecrawl scrape",
+      "outcome": "Full primary main text and displayed tables, including patient flow, study article, controlled symptom/sign comparisons and corneal-staining analysis."
+    }
+  ],
+  "raw_third_party_content_republished": false,
+  "api_contact_parameters_published": false
+}

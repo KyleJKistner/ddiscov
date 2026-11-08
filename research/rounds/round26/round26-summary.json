@@ -1,0 +1,176 @@
+{
+  "schema_version": "ddiscov.round26.summary.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "orchestration": [
+    {
+      "agent_task": "advance_lead",
+      "role": "human_evidence_new_screen",
+      "scope_type": "new_candidate_screening",
+      "output": "human-evidence-screen.md"
+    },
+    {
+      "agent_task": "reassess_portfolio",
+      "role": "local_product_new_screen",
+      "scope_type": "new_candidate_screening",
+      "output": "local-product-screen.md"
+    },
+    {
+      "agent_task": "screen_new",
+      "role": "functional_preclinical_new_screen",
+      "scope_type": "new_candidate_screening",
+      "output": "functional-rescue-screen.md"
+    }
+  ],
+  "integration_role": "Root independently checked decisive primary sources, selected aliases across 424 baseline files and13 complete external reports, integrated cross-reviews, preserved history and checked publication integrity.",
+  "counts": {
+    "new_candidate_records": 10,
+    "new_to_all_prior_screens": null,
+    "human_evidence_records": 3,
+    "local_product_records": 4,
+    "functional_preclinical_records": 3,
+    "existing_programs_reassessed": 0,
+    "lead_advancement_packages": 0,
+    "source_records": 62,
+    "root_source_records": 16,
+    "documented_scout_encounters": 19,
+    "accessible_external_reports_checked": 13,
+    "baseline_files_in_novelty_audit": 424,
+    "unpaywall_lookup_records_consolidated": 18,
+    "unpaywall_unique_dois": 16,
+    "paid_development_promotions": 0,
+    "s_tier_promotions": 0,
+    "newly_generated_experimental_results": 0
+  },
+  "selection": {
+    "round": 26,
+    "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+    "completed_scope": "All three agents screened new candidates in human-evidence, local-product and functional-preclinical lanes; ten exact-use records integrated with Firecrawl, Unpaywall and independent root checks.",
+    "conditional_information_queue": [
+      "R23-01",
+      "R23-02",
+      "R23-03",
+      "R23-04"
+    ],
+    "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+    "paid_development_promotions": 0,
+    "spending_authorized": false,
+    "zero_or_wait_option_included": true,
+    "estimated_return_per_dollar": null,
+    "numerical_success_probabilities": false,
+    "replacement_allocation": null,
+    "inherited_conditional_development_prefix": [
+      "R4-L02",
+      "R4-L01",
+      "BLU3797_XLMTM",
+      "R3-NL-01",
+      "MIGF_CORNEA",
+      "R3-NM-01",
+      "AAT_EVLP"
+    ],
+    "full_development_order_changed": false,
+    "closed_source_candidates_automatically_demoted": false,
+    "novelty_exhaustive": false,
+    "missing_novelty_scope": [
+      "Screens N-Q",
+      "Screen L amlexanox scout indication unspecified",
+      "any other uninspected historical work or unrecognized aliases"
+    ],
+    "additional_screen_information_queue": [
+      "R26-LOC-01",
+      "R26-FUN-02",
+      "R26-HUM-01"
+    ],
+    "additional_information_queue_scope": "Three leading bounded questions: erlotinib local clinical/article/capture; FD-2 exact peptide/patent/product correspondence; MCT8 symptomatic clinical evidence/data/capture. Display order is not a quantified total financial ranking across different scopes.",
+    "conditional_local_first_choice": "R4-L02",
+    "exhaustive_portfolio_valuation": false,
+    "historical_cost_bands_are_quotes": false,
+    "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; no negative underlying EV or definitive cash-superiority conclusion is asserted.",
+    "retained_round24_information_queue": [
+      "R24-N01",
+      "R24-N03",
+      "R24-N02"
+    ],
+    "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+    "next_advancement_decision": "Resolve a finite new-candidate question for erlotinib, FD-2 or MCT8, then compare any actual useful information commitment with incumbent scopes, remaining costs and waiting. Do not automatically reopen closed broad source passes.",
+    "actual_priced_commitment_verified": false,
+    "actual_quote_usd": null,
+    "newly_verified_APR_treated_people": 0,
+    "newly_generated_experimental_results": 0,
+    "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes.",
+    "new_screen_lane_information_orders": {
+      "local": [
+        "R26-LOC-01",
+        "R26-LOC-02",
+        "R26-LOC-03",
+        "R26-LOC-04"
+      ],
+      "functional": [
+        "R26-FUN-02",
+        "R26-FUN-01",
+        "R26-FUN-03"
+      ],
+      "human": [
+        "R26-HUM-01",
+        "R26-HUM-02",
+        "R26-HUM-03"
+      ]
+    },
+    "new_screen_reserve_ids": [
+      "R26-LOC-02",
+      "R26-LOC-03",
+      "R26-FUN-01",
+      "R26-FUN-03",
+      "R26-HUM-02"
+    ],
+    "new_screen_hold_ids": [
+      "R26-LOC-04",
+      "R26-HUM-03"
+    ],
+    "retained_round25_information_queue": [
+      "R25-NEW-01",
+      "R25-NEW-02",
+      "R25-NEW-03"
+    ],
+    "retained_round25_information_queue_scope": "Historical A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3 information order; not freshly repriced against Round 26.",
+    "historical_incumbents_freshly_reassessed": false,
+    "inherited_queue_interpretation": "Historical conditional development order retained as provenance under original scopes; this screen is not a fresh all-in superiority finding over the new candidates.",
+    "symmetric_comparison_rule": "Current quotes, commercial access and data rights are unresolved for incumbents and challengers alike. Missing terms prevent a verified financial order, not qualitative comparison. An actual narrower, more informative or better retained-value offer can change priority.",
+    "new_information_preference": "New consequential document/product-rights questions precede another unchanged broad APR/BLU literature pass."
+  },
+  "principal_changes": [
+    "All three agents redirected to new screening; no duplicate incumbent-advancement package.",
+    "Topical erlotinib/KRT16, FD-2/ALS and levodopa/carbidopa/MCT8 lead distinct new information questions.",
+    "Exact patient/animal denominators, controlled versus uncontrolled phases, prevention timing and same-study lineage retained.",
+    "Timolol and TTI positive summaries narrowed by official trial records; dornase symptom and license limits remain explicit.",
+    "Current copper-histidinate approval changes the Menkes comparator; FD-2 patent changes the capture question.",
+    "Unpaywall used with actual full-text follow-through and preserved metadata/nulls, without access-index overclaims."
+  ],
+  "unresolved_decision_inputs": [
+    "Erlotinib exact local product/vehicle/cointervention contribution, suitable comparator, current rights and obtainable data/product terms.",
+    "FD-2 exact chemical-form/claim relationship, current official national title/status, existing exposure evidence and attainable contribution.",
+    "MCT8 endpoint/person-level reconciliation, usable controlled symptomatic-function route and retained economics for a generic indication.",
+    "Dornase primary symptom uncertainty/current license scope; amlexanox genotype-specific useful skin benefit and trial status/results; timolol endpoint/timepoint reconciliation.",
+    "PURA maturation and treatment sequencing; TTI protocol/analysis/masking/attrition; PSB mature human force/capture; CuNC incremental comparator, survival selection and product/safety.",
+    "Missing historical Screens N–Q and unspecified Screen L amlexanox scout scope."
+  ],
+  "source_register": "source-register.json",
+  "novelty_audit": "novelty-audit.json",
+  "unpaywall_access_audit": "unpaywall-access-audit.json",
+  "integration_review": "integration-review.md",
+  "artifact_manifest": "artifact-manifest.json",
+  "verification": "local-verification.json",
+  "activity_boundary": [
+    "no outreach",
+    "no purchases",
+    "no recruitment",
+    "no experiments",
+    "no simulations",
+    "no material receipt",
+    "no applications"
+  ],
+  "execution_authorized": false,
+  "numerical_EV_computed": false
+}

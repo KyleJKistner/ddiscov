@@ -1,0 +1,1944 @@
+{
+  "schema_version": "ddiscov.round26.sources.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "retrieval_route": "Firecrawl public search, paper discovery, primary HTML/PDF and official registry provider reads; Unpaywall lawful-location metadata; GitHub repository provenance; recovered historical reports for exclusion.",
+  "source_count": 62,
+  "source_files": [
+    "human-sources.json",
+    "local-sources.json",
+    "functional-sources.json",
+    "integration-sources.json"
+  ],
+  "counting_rule": "Includes primary studies, official records, sponsor statements, metadata, search/audit context, access failures and repeated independent reads. Source records are not independent study or patient counts.",
+  "multiple_records_same_doi": [
+    {
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_ids": [
+        "R26-L01",
+        "R26-I07",
+        "R26-I08",
+        "R26-I09"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    },
+    {
+      "doi": "10.1002/mds.70093",
+      "source_ids": [
+        "R26-H01",
+        "R26-I01"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    },
+    {
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "source_ids": [
+        "R26-F02",
+        "R26-I12",
+        "R26-I13"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    },
+    {
+      "doi": "10.1126/sciadv.aeg6972",
+      "source_ids": [
+        "R26-F03",
+        "R26-I06"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    },
+    {
+      "doi": "10.1159/000545357",
+      "source_ids": [
+        "R26-L10",
+        "R26-I02",
+        "R26-I03"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    },
+    {
+      "doi": "10.3389/fcell.2023.1187253",
+      "source_ids": [
+        "R26-F01",
+        "R26-I05"
+      ],
+      "meaning": "Document/metadata versions or repeated reads; not independent replication."
+    }
+  ],
+  "lineage_rules": [
+    "MCT8 reports retain separate denominators and no verified pooled unique-patient count.",
+    "PURA 2026 contributes two new salbutamol recipients; the earlier recipient is literature-derived.",
+    "TTI HTML/PDF and registry concern one small study; the preprint is not peer-reviewed by virtue of a metadata label.",
+    "Timolol registry, conference abstract and selected healed-wound analysis share a parent trial.",
+    "FD peptide patent examples and paper are related investigator/asset lineage; no automatic independent replication.",
+    "CuNC, elesclomol–copper and approved copper histidinate are distinct exact articles."
+  ],
+  "sources": [
+    {
+      "id": "R26-H01",
+      "title": "Altered Dopamine Metabolism and Response to Treatment with Levodopa/Carbidopa in MCT8 Deficiency",
+      "doi": "10.1002/mds.70093",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+      "publication_date": "2025-10-27",
+      "issue_date": "2026-02",
+      "type": "primary_clinical_case_series",
+      "access_scope": "Firecrawl retrieved full published main text, tables and reference list. Linked videos and supplementary XLSX were not independently read.",
+      "supports": [
+        "Ten phenotyped people but nine evaluable treatment courses; the paper's abstract denominator differs from the main treatment section.",
+        "Endpoint-specific outcomes: seven of nine broad clinical benefit; eight of nine hypokinesia/bradykinesia improvement; five of eight GMFM improvement; CGI-I four much improved, two minimally improved, three unchanged.",
+        "Functional-category improvements were not congruent; mean dystonia score increased; small, uncontrolled and partly retrospective study."
+      ],
+      "limitations": [
+        "No causal treatment effect or population response probability.",
+        "No verified combined unique-patient denominator with Wilpert2025.",
+        "No transfer-qualified formulation, current license, quote, or complete all-treated safety inference from ten phenotyped patients."
+      ],
+      "lineage": "Italian clinical series; the paper cites Wilpert2025 and shares a coauthor. Different reported recruitment settings do not establish a fully deduplicated pooled cohort.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H02",
+      "title": "Patients with Allan-Herndon-Dudley Syndrome (MCT8 Deficiency) Display Symptoms of Parkinsonism in Childhood and Respond to Levodopa/Carbidopa Treatment",
+      "doi": "10.1002/mds.30152",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/",
+      "publication_date": "2025-03-15",
+      "issue_date": "2025-05",
+      "type": "primary_observational_clinical_study",
+      "access_scope": "Full published main text, main tables, figure captions and references retrieved with Firecrawl. Supplementary files and videos were not separately audited.",
+      "supports": [
+        "Eleven phenotyped patients, six systematically treated/assessed at one center, two additional separately described exposures including a one-week nonresponse.",
+        "Six-person paired movement/disability and parkinsonism-scale improvement; modest fine-motor change.",
+        "No significant gross-motor, language or cognitive improvement; CPCHILD did not improve; myoclonus did not improve.",
+        "Oral/gastric-tube levodopa/carbidopa suspension was used; authors call for a controlled trial."
+      ],
+      "limitations": [
+        "No concurrent randomized comparator.",
+        "Extra exposure descriptions do not enlarge paired endpoint denominator.",
+        "No pooled unique people with later report.",
+        "Preprint and published versions are not independent replication."
+      ],
+      "lineage": "DEEPTYPE-linked clinical observation; six-person assessed cohort plus separately described cases.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H03",
+      "title": "FDA prescribing information: Emcitate (tiratricol)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+      "publication_date": "2026-09",
+      "type": "official_regulatory_label",
+      "access_scope": "Firecrawl PDF text extraction of pages1–18 of23; indication and clinical-study sections recovered. Remaining instructions-for-use pages were not inspected.",
+      "supports": [
+        "Initial US approval2026 and September2026 revision.",
+        "Labeled treatment is peripheral thyrotoxicosis in adults and pediatric patients with MCT8 deficiency."
+      ],
+      "limitations": [
+        "Label scope does not establish levodopa efficacy, comparative neurological superiority or current delivery/price.",
+        "Partial document, with coverage sufficient for the quoted indication boundary; no clinical use instructions reproduced."
+      ],
+      "lineage": "Regulatory comparator evidence, not an additional levodopa treatment cohort.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H04",
+      "title": "Clinical and Biochemical Monitoring of MCT8 Deficiency across the Lifespan: Practical Considerations for Multidisciplinary Care",
+      "doi": "10.1159/000551857",
+      "url": "https://karger.com/hrp/article/doi/10.1159/000551857/947429/Clinical-and-Biochemical-Monitoring-of",
+      "publication_date": "2026-04-02",
+      "type": "expert_consensus_and_literature_interpretation",
+      "access_scope": "Full publisher article retrieved by Firecrawl, including neurology, methods, cited reference39, funding and conflicts.",
+      "supports": [
+        "Cautious interpretation of levodopa as unproven and not standard/disease-modifying treatment.",
+        "Advisory meeting26November2024; targeted literature searchJune2025; no patient data discussed at the meeting.",
+        "Neurology paragraph cites the same Wilpert2025 positive clinical report, not a new controlled negative study.",
+        "Egetis facilitated/funded meeting and editorial support; article states funder noninvolvement in interpretation."
+      ],
+      "limitations": [
+        "Interpretive context, not primary efficacy evidence or a new negative dataset.",
+        "Stated search date precedes later MCT8 paper's October2025 publication.",
+        "Funding context does not itself invalidate the analysis."
+      ],
+      "lineage": "Overlapping evidence base with H02; not independent clinical replication.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H05",
+      "title": "Benefit of Salbutamol for the Treatment of Neuromuscular Junction Dysfunction in Patients With PURA Syndrome",
+      "doi": "10.7759/cureus.112808",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375090/",
+      "publication_date": "2026-07-16",
+      "type": "primary_two_case_report_with_literature_review",
+      "access_scope": "Full published main text and all three clinical tables retrieved through Firecrawl.",
+      "supports": [
+        "Two original salbutamol recipients; three literature-derived patients in the review; total salbutamol-exposed3, pyridostigmine-exposed4.",
+        "Respiratory/motor observations, persistent feeding/ventilatory deficits, later regression in one case, adverse tachycardia/startle/sleep symptoms in another.",
+        "Published table: pyridostigmine clear improvement1, partial1, no response1, worsening1.",
+        "Authors identify maturation, sequential therapy and publication bias as limitations."
+      ],
+      "limitations": [
+        "Third salbutamol recipient is literature-derived, not a new case or independently reread original record.",
+        "No concurrent control or population response probability.",
+        "Raw infant motor score changes do not isolate maturation; paper's CHOP-INTEND denominator retained as reported.",
+        "Does not demonstrate general CNS repair, response biomarker or exact-use commercial rights."
+      ],
+      "lineage": "Two new patient reports plus older Wyrebek2022 and Qashqari2022 cases; the reviewed patients are not additive to their original reports.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H06",
+      "title": "PURA syndrome: neuromuscular junction manifestations with potential therapeutic implications",
+      "doi": "10.1016/j.nmd.2022.09.007",
+      "url": "https://doi.org/10.1016/j.nmd.2022.09.007",
+      "publication_date": "2022-10",
+      "type": "primary_clinical_report_metadata_only_in_this_pass",
+      "access_scope": "Firecrawl paper-index canonical metadata and truncated abstract inspected. Paper-read returned no full-text passages. Ordinary publisher scrape returned an access/navigation shell, and PubMed scrape returned only a short landing response. Unpaywall reports closed with null best location.",
+      "supports": [
+        "Identity of the original two-person PURA report cited by the2026 literature table."
+      ],
+      "limitations": [
+        "Original clinical body was not read; detailed salbutamol and pyridostigmine outcomes are attributed to H05's secondary extraction, not directly verified here.",
+        "Unpaywall closed status is not proof no lawful copy exists."
+      ],
+      "lineage": "Contains the earlier salbutamol case summarized in H05; do not count both as separate patients.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H07",
+      "title": "TTI-0102: A Novel Natural Controlled-Release Cysteamine Prodrug for Mitochondrial Disease and Cystinosis",
+      "doi": "10.64898/2026.03.26.26347968",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1",
+      "alternate_urls": [
+        "https://www.medrxiv.org/content/10.64898/2026.03.26.26347968v1.full",
+        "https://www.medrxiv.org/content/medrxiv/early/2026/03/31/2026.03.26.26347968.full.pdf"
+      ],
+      "publication_date": "2026-03-31",
+      "version": "v1 preprint; not certified by peer review",
+      "type": "sponsor_authored_primary_clinical_preprint",
+      "access_scope": "Full HTML and all15pages of the public PDF retrieved by Firecrawl. PDF URL came from Unpaywall. Text/figure text inspected; complete patient-flow and fatigue-analysis denominator not recovered.",
+      "supports": [
+        "Exact prodrug identity; nine enrolled, six active and three placebo.",
+        "Recruitment stopped before12 after PK review; GI intolerance and dropouts reported.",
+        "No12-minute walking change; MFIS p=.04 reported.",
+        "Single-blind description, no GDF-15/FGF-21 change, glutathione sample-stability issue.",
+        "Safety and Discussion differ in body-weight descriptions of intolerance."
+      ],
+      "limitations": [
+        "Preprint, single sponsor-author/CEO, sponsor-funded.",
+        "No complete interpretable participant disposition or exact MFIS analysis population.",
+        "FSS/MFIS and masking differences versus registry unresolved; missing amendments cannot be inferred.",
+        "No tolerability superiority over existing cysteamine formulations, general MELAS cure or transfer to other indications.",
+        "Unpaywall acceptedVersion metadata does not establish journal acceptance."
+      ],
+      "lineage": "One randomized clinical study NCT06644534 / EUCT2023-506723-28-00; HTML, PDF, registry and sponsor accounts are overlapping records.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H08",
+      "title": "ClinicalTrials.gov NCT06644534: TTI-0102 versus placebo in MELAS",
+      "url": "https://clinicaltrials.gov/study/NCT06644534",
+      "type": "official_trial_registry_record",
+      "publication_date": "2024-10-16",
+      "last_update_posted": "2026-07-24",
+      "access_scope": "Complete current official registry record including results availability recovered using Firecrawl Alexandria clinicaltrials-gov/clinical-trials/study, nct_id=NCT06644534, include_results=true. Ordinary page scrape had returned only a glossary/site shell.",
+      "supports": [
+        "Nine ACTUAL enrolled; COMPLETED; actual primary/study completion12January2026; no posted results.",
+        "Registered primary functional measure12-minute walk and primary safety AEs.",
+        "Registered secondary fatigue instrumentFSS and WHOQOL-BREF; MFIS is not listed in the returned outcome fields.",
+        "Double-blind prose and quadruple masking categories; IPD sharingNO."
+      ],
+      "limitations": [
+        "Registry protocol is not a trial result; historical amendments and SAP not inspected.",
+        "Planned12 in design text is not actual enrollment.",
+        "Registry versus paper differences are unresolved reporting/protocol questions, not proof of misconduct."
+      ],
+      "lineage": "Same study as H07.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H09",
+      "title": "Thiogenesis Therapeutics current TTI-0102 pipeline",
+      "url": "https://www.thiogenesis.com/pipeline",
+      "type": "current_sponsor_program_statement",
+      "publication_date": null,
+      "access_scope": "Fresh Firecrawl maxAge0 full page read; current page itself has no single dated publication header.",
+      "supports": [
+        "Sponsor presents TTI-0102 as its developed prodrug.",
+        "MELAS study is described as completed and exploratory, informing other indication programs.",
+        "Company describes planned/ongoing programs and a proprietary strategy."
+      ],
+      "limitations": [
+        "Sponsor's regulatory, market-size and future-voucher assertions are not independently established here and are not adopted as investment facts.",
+        "No available licensing/financing terms, independent commercial access or current valuation.",
+        "Other indications do not inherit MELAS efficacy."
+      ],
+      "lineage": "Sponsor account overlapping H07–08; not independent clinical evidence.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H10",
+      "title": "Thiogenesis Announces Important Core Patent Allowed in Europe",
+      "url": "https://www.newsfilecorp.com/release/228659/Thiogenesis-Announces-Important-Core-Patent-Allowed-in-Europe",
+      "publication_date": "2024-11-04",
+      "type": "sponsor_origin_patent_disclosure",
+      "access_scope": "Full sponsor-origin news release retrieved through Firecrawl.",
+      "supports": [
+        "Sponsor reports European allowance for Methods For The Treatment of Cysteamine Sensitive Disorders, application18858763.8, plus prior US/Japanese grants.",
+        "Identifies active sponsor and a stated proprietary development strategy."
+      ],
+      "limitations": [
+        "Historical allowance disclosure is not current granted-claim inspection, assignment-chain verification or available license.",
+        "Sponsor expiration/pathway/market claims are not independently verified or used to compute retained value."
+      ],
+      "lineage": "Commercial context only; no new human efficacy.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H11",
+      "title": "Unpaywall DOI access-location metadata for seven papers",
+      "url": "https://unpaywall.org/products/api",
+      "type": "access_index_metadata",
+      "publication_date": null,
+      "access_scope": "Seven normalized DOI JSON responses obtained by ordinary authenticated-parameter HTTP as directed by the installed skill. Contact parameter/API request URLs excluded from deliverables. Returned is_oa, oa_status, locations, version, license and nulls preserved in the retrieval log.",
+      "supports": [
+        "Two older PURA reports classified closed with no OA locations.",
+        "Public locations found for MCT8 reports,2026PURA, MCT8 consensus and TTI preprint.",
+        "Returned TTI PDF actually retrieved in full."
+      ],
+      "limitations": [
+        "Access metadata do not establish article content, efficacy or independent replication.",
+        "Returned acceptedVersion for the TTI preprint does not override the document's unreviewed-preprint status.",
+        "Not every alternate URL was opened; successful reads and metadata-only alternatives are distinguished."
+      ],
+      "lineage": "Access aid, not an evidence family.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H12",
+      "title": "Pinned repository selection and bounded exact-use exclusion audit",
+      "url": null,
+      "type": "local_and_recovered_historical_corpus_audit",
+      "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+      "access_scope": "Read current policy/shortlist and Round25 screen; selected-alias checks across424baselinefiles (419text,4PDFextractions,1spreadsheet values/formulas), plus13 complete indexed external reports. Raw copied corpus not republished.",
+      "supports": [
+        "No selected exact-use prior hit for the three retained records.",
+        "PURA hits resolve to salbutamol/collagenVI and a spreadsheet gene symbol.",
+        "MUSTANG/Tangier exact-use duplication found in the unlettered external report; other duplicate exclusions recorded."
+      ],
+      "limitations": [
+        "Selected aliases are not exhaustive semantic coverage.",
+        "External ScreensN–Q and any other unrecovered records remain outside scope.",
+        "Novelty does not establish patentability or FTO."
+      ],
+      "retrieved_date": "2026-11-08",
+      "repository_paths": [
+        "decisions/selection-policy.md",
+        "decisions/current-shortlist.md",
+        "research/rounds/round25/new-candidate-screen.md",
+        "research/portfolio-register.json",
+        "research/rounds/round26/human-retrieval-log.json"
+      ],
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H13",
+      "title": "Bounded Firecrawl discovery and current-program/rights searches",
+      "url": null,
+      "type": "search_coverage_record",
+      "publication_date": null,
+      "access_scope": "Web search excerpts and paper-index metadata were used for discovery; retained material claims rely on separately retrieved primary records. Queries and outcomes are in human-retrieval-log.json.",
+      "supports": [
+        "Discovery universe and rejected scouts.",
+        "No exact-use available commercial terms established for MCT8 or PURA in the bounded search."
+      ],
+      "limitations": [
+        "Search absence is not proof of no rights, competition or active program.",
+        "Reviews and indexed abstracts do not create primary full-text support.",
+        "No financial probabilities, valuation or quotes inferred."
+      ],
+      "retrieved_date": "2026-11-08",
+      "queries": [
+        "Precision treatment repurposed drug rare genetic neurological disease patients movement seizure motor function clinical response treatment 2025 2026",
+        "PURA syndrome pyridostigmine clinical response motor respiratory hypotonia treatment",
+        "TTI-0102 mitochondrial disease placebo trial",
+        "levodopa MCT8 patent clinical trial"
+      ],
+      "repository_paths": [
+        "research/rounds/round26/human-retrieval-log.json"
+      ],
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-H14",
+      "title": "Miglustat as a Treatment for Adults with Tangier Disease Neuropathy: MUSTANG N-of-1 Trial with21months Clinical Observation",
+      "doi": "10.1007/s40120-025-00843-6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804572/",
+      "publication_date": "2025-11-10",
+      "issue_date": "2026-02",
+      "type": "primary_clinical_duplicate_scout",
+      "access_scope": "Full main text retrieved and read before external exact-use duplicate adjudication. No new candidate record retained.",
+      "supports": [
+        "One-person ABAB study did not reach predefined clinically meaningful co-primary differences; subsequent open extension is exploratory.",
+        "Trial and conference versions represent the same person."
+      ],
+      "limitations": [
+        "Exact-use rediscovery already in recovered unlettered screening report.",
+        "Not a new candidate or new cohort in this round."
+      ],
+      "lineage": "Existing MUSTANG study, not fresh evidence generation.",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "human-sources.json"
+    },
+    {
+      "id": "R26-L00",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Frozen baseline and recovered external-report exact-use exclusion audit",
+      "source_type": "Repository evidence audit and historical screen corpus",
+      "repository_paths": [
+        "research/rounds/round26/novelty-audit.json",
+        "research/portfolio-register.json",
+        "research/screen-index.md",
+        "decisions/selection-policy.md"
+      ],
+      "publication_date": "2026-11-08",
+      "access_scope": "All424files of frozen commit2ac9dafe2c45aa7d1baf1499a440fde013cece28 extracted with no read errors; complete indexed texts of13recovered external reports searched. Alias hits reviewed for exact-use context. Raw corpora are not included in the repository.",
+      "supporting_paraphrase": "No retained exact use was shown already screened within the inspected scope. Erlotinib, dornase and amlexanox have other prior uses; ScreenL contains an amlexanox scout alias without use detail.",
+      "limits": [
+        "ScreensN–Q unrecovered",
+        "Other uninspected historical work or unrecognized aliases",
+        "No claim of global scientific novelty, patentability or FTO"
+      ],
+      "alias_contexts": {
+        "erlotinib": [
+          "Darier",
+          "TRPV3/Olmsted historicalT199",
+          "FAP +/-sulindac historicalT121"
+        ],
+        "dornase": [
+          "Airway/CF",
+          "Pleural empyema/thrombolysis comparator"
+        ],
+        "amlexanox": [
+          "PAX6 nonsense aniridia",
+          "ExternalScreenL root scout list, no use detail"
+        ],
+        "pirfenidone": [
+          "Urethral stricture in externalScreensB/E"
+        ],
+        "tideglusib": [
+          "DM1/AMO02"
+        ]
+      },
+      "candidate_ids": [
+        "R26-LOC-01",
+        "R26-LOC-02",
+        "R26-LOC-03",
+        "R26-LOC-04"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L01",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Treatment of Keratin16 Palmoplantar Keratoderma With Topical Erlotinib",
+      "authors": [
+        "Geoffrey Lee",
+        "Patricia M. Lowe"
+      ],
+      "source_type": "Primary peer-reviewed clinical letter; public full article PDF",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "urls": [
+        "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+        "https://pubmed.ncbi.nlm.nih.gov/34985526/"
+      ],
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "pmid": "34985526",
+      "publication_date": "2022-01-05",
+      "issue_date": "2022-02-01",
+      "access_scope": "Complete two-page article body and figures retrieved with Firecrawl from PCProject's public PDF. Publisher page exposed an access gateway; PubMed supplied metadata.",
+      "supporting_paraphrase": "Mother/son withKRT16p.Arg127Cys had blinded opposite-foot comparisons with erlotinib/vehicle plus keratolytic, followed by uncontrolled extensions. Pain and lesions improved most clearly in the mother; the son had adherence limitations. Earlier lower-strength exposure was minimally helpful.",
+      "denominators": {
+        "people": 2,
+        "pedigrees": 1,
+        "independent_genotype_replications": 0
+      },
+      "limits": [
+        "Two related people",
+        "Separate feet and repeated phases are not extra people",
+        "Mobility narrative belongs to uncontrolled extension",
+        "Co-treatment and formulation cannot be dropped from claim",
+        "No measured systemic exposure or commercial product qualification"
+      ],
+      "contradictory_context_source_ids": [
+        "R26-L02"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1001/jamadermatol.2021.5302",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2025-05-22T18:42:22Z",
+        "interpretation": "No indexed OA location returned. Public PCProject article body was independently readable; closed metadata does not invalidate that copy."
+      },
+      "candidate_ids": [
+        "R26-LOC-01"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L02",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Treatment of Painful Palmoplantar Keratoderma Related to Pachyonychia Congenita Using EGFR Inhibitors",
+      "source_type": "Primary peer-reviewed clinical report",
+      "url": "https://www.mdpi.com/2227-9059/10/4/841",
+      "doi": "10.3390/biomedicines10040841",
+      "publication_date": "2022-04",
+      "publication_date_precision": "month",
+      "access_scope": "Full publisher article body retrieved with Firecrawl, including clinical topical/oral treatment narratives. Exact publication day not retained.",
+      "supporting_paraphrase": "In two separate patients, topical0.2%erlotinib cream was inconclusive or without significant benefit; oral EGFR-inhibitor responses were a different exposure context.",
+      "denominators": {
+        "people": 2
+      },
+      "limits": [
+        "Uncontrolled report",
+        "Different topical formulation/strength and genotype context fromL01",
+        "Oral response and adverse effects cannot be pooled as topical-product results",
+        "Not a definitive failure of the exactArg127Cyscombination"
+      ],
+      "candidate_ids": [
+        "R26-LOC-01"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L03",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Sol-Gel reports second-quarter2026 financial results and corporate highlights",
+      "source_type": "Primary company investor-relations release",
+      "url": "https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-second-quarter-2026-financial-results-and",
+      "publication_date": "2026-08-20",
+      "access_scope": "Full issuer HTML release retrieved with Firecrawl.",
+      "supporting_paraphrase": "Issuer says it continues to advanceSGT-210, a topicalEGFR-inhibitor program, for indications with unmet need.",
+      "limits": [
+        "Does not establish an available license",
+        "Does not establish article equivalence to the compoundedL01ointment",
+        "No exact-use controlledKRT16result supplied",
+        "Issuer plan is not independently proven commercial availability"
+      ],
+      "candidate_ids": [
+        "R26-LOC-01"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L04",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": "2026-11-08T19:58:54Z",
+      "access_time_note": "Final targeted table/publication-date re-read; the Firecrawl response identified cached content from2026-11-08T19:42:41.689Z.",
+      "title": "A PhaseI/II Placebo-Controlled Randomized Pilot Clinical Trial of Recombinant Deoxyribonuclease(DNase) Eye Drops Use in Patients With Dry Eye Disease",
+      "source_type": "Primary peer-reviewed randomized pilot clinical paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/#i2164-2591-8-3-10-t07"
+      ],
+      "doi": "10.1167/tvst.8.3.10",
+      "pmid": "31110911",
+      "publication_date": "2019-05-02",
+      "access_scope": "FullPMCarticle body and tables read with Firecrawl. Final targeted re-read confirmed Table5OSDImedian changes andp=0.078.",
+      "supporting_paraphrase": "47randomized and41completers. DNase improved controlled corneal-staining and mucoid-strand outcomes. OSDIchange favoredDNase numerically but its between-arm test wasp=0.078. Safety-table and randomized denominators differ.",
+      "denominators": {
+        "randomized": 47,
+        "randomized_dnase": 25,
+        "randomized_vehicle": 22,
+        "completers": 41,
+        "completers_dnase": 21,
+        "completers_vehicle": 20,
+        "safety_table_dnase": 25,
+        "safety_table_vehicle": 21
+      },
+      "endpoints": {
+        "timeframe_weeks": 8,
+        "osdi_dnase_median_change": -20.75,
+        "osdi_vehicle_median_change": -8.43,
+        "osdi_between_arm_p": 0.078
+      },
+      "limits": [
+        "Within-arm symptom significance does not establish controlled symptom efficacy",
+        "Mixed phenotypes; no subgroup efficacy inference",
+        "Both eyes and repeated measurements clustered by participant",
+        "Dropout/completer analyses and exploratory outcomes",
+        "Short small safety experience",
+        "NotL304"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L05",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Neutrolis Licenses University of Illinois Chicago Patent to Advance Topical Dry Eye Disease Therapy TargetingNETs",
+      "source_type": "Primary issuer/GlobeNewswire release syndicated byYahooFinance",
+      "url": "https://finance.yahoo.com/news/neutrolis-licenses-university-illinois-chicago-130000008.html",
+      "publication_date": "2024-12-23",
+      "access_scope": "Full syndicated company announcement retrieved with Firecrawl. Underlying license agreement and current patent-title/claim status were not read.",
+      "supporting_paraphrase": "Neutrolis announces an exclusiveUIClicense for topical ocularDNase use and describesL304, a proprietaryDNase program. This establishes named commercial-interest/license context at the announcement date.",
+      "limits": [
+        "Company assertion, not reviewed agreement",
+        "Current2026license continuation/territories/offered terms not verified",
+        "L304not proven equivalent to pilot dornase article",
+        "Other claimed trials not independently audited or pooled"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L06",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Final targeted ordinary HTTPS API verification on the access date; exact timestamp was not retained.",
+      "title": "NCT02193490 official trial status, endpoints and posted results",
+      "source_type": "Primary ClinicalTrials.gov registry and structured results",
+      "url": "https://clinicaltrials.gov/study/NCT02193490",
+      "urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT02193490"
+      ],
+      "publication_date": "2014-07-17",
+      "publication_date_meaning": "First registry posting",
+      "last_update_posted": "2020-01-18",
+      "results_first_posted": "2019-11-05",
+      "access_scope": "OfficialAPIread; status, actual enrollment, dates, all registered primary outcomes and the first posted result outcome were inspected. This is not a patient-level data audit.",
+      "supporting_paraphrase": "Registry lists47actual participants; primary staining andOSDIoutcomes at8weeks; completion2017-10-11; termination because sponsor ceased sponsorship citing slow accrual.",
+      "current_registry_state": "TERMINATED",
+      "termination_is_verified_safety_or_efficacy_failure": false,
+      "limits": [
+        "Status verifiedJanuary2020; a2026fetch is not proof of a newly updated program",
+        "Same cohort asL04",
+        "No safety/efficacy-stop inference from stated accrual reason"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L07",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Amlexanox Enhances Premature Termination Codon Read-Through inCOL7A1 and Expression of Full Length TypeVII Collagen: Potential Therapy for Recessive Dystrophic Epidermolysis Bullosa",
+      "source_type": "Primary peer-reviewed patient-derived-cell/organotypic study",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022202X17315506",
+      "doi": "10.1016/j.jid.2017.05.011",
+      "pmid": "28549954",
+      "publication_date": "2017-09-01",
+      "publication_date_meaning": "Issue date; exact online publication date not retained",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "Patient material from14people represented12premature-stop mutations;8of12mutation contexts responded with full-length collagenVII. Expression/secretion and junctional localization support plausibility but do not prove useful mechanical skin function.",
+      "denominators": {
+        "patient_material_donors": 14,
+        "different_ptc_mutations": 12,
+        "responsive_mutation_contexts": 8,
+        "verified_clinically_treated_participants": 0
+      },
+      "limits": [
+        "Allele/cell-background dependence",
+        "Primary/immortalized/carcinoma-derived backgrounds differ",
+        "Protein localization is not mechanical adhesion or human wound healing",
+        "No qualified topical clinical article/exposure window",
+        "No trial outcome inferred"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L08",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Secondary mirror ofCTRI/2021/04/033024 amlexanoxRDEB study",
+      "source_type": "Secondary trial-registry mirror",
+      "url": "https://trial.medpath.com/clinical-trial/88abd748b1f68a60/ctri/2021/04/033024-amlexanox-wound-healing-collagen7-dystrophic-epidermolysis-bullosa",
+      "publication_date": null,
+      "last_updated": "2021-04-20",
+      "access_scope": "Full secondary mirror page read with Firecrawl. PrimaryCTRIrecord body was not recovered.",
+      "supporting_paraphrase": "Stale mirror describes a planned15-person open-label study and a not-yet-recruiting label. It supplies an exact registry identifier, not current status or results.",
+      "limits": [
+        "Secondary and stale",
+        "Planned15notactual enrollment or treated count",
+        "No human outcomes verified",
+        "Currentstatus unresolved"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L09",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "EBResearchNetwork clinical-trial database search and retrieval limitation",
+      "source_type": "Secondary disease-network database; search-index snippet plus page retrieval",
+      "url": "https://www.eb-researchnetwork.org/clinical-translation/clinical-trials-database/",
+      "query": "amlexanox RDEB clinical trial results terminated CTRI/2021/04/033024",
+      "query_note": "Normalized search-topic description; the exact original query string was not retained in the condensed handoff.",
+      "publication_date": null,
+      "access_scope": "Search-index snippet suggested a closed/terminated label. Retrieved page did not expose the matching amlexanoxrow; no corresponding primary registry status was verified.",
+      "supporting_paraphrase": "Secondary status signals conflict; preserve an access gap instead of treating either as a current verified result.",
+      "limits": [
+        "Snippet-only candidate-specific status",
+        "No primaryCTRIbody",
+        "No actual participant count, safety result or efficacy result"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L10",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Healing Diabetic Foot Ulcers with Topical Timolol Improves Healed Epithelial Integrity",
+      "source_type": "Primary peer-reviewed post-hoc clinical analysis; institutional publicPDF",
+      "url": "https://escholarship.org/content/qt85h0f5w9/qt85h0f5w9.pdf",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+        "https://doi.org/10.1159/000545357"
+      ],
+      "doi": "10.1159/000545357",
+      "pmid": "40159333",
+      "publication_date": "2025-03-28",
+      "access_scope": "Full embedded2025paper body retrieved with Firecrawl. Repository cover instead describes a2024conference item; article-body identity/DOIwere preserved. No second independent cohort inferred.",
+      "supporting_paraphrase": "Post-hoc20selected participants,10per arm, came from28healers in the parent program. LowerTEWLsupports a barrier-measure signal, but there was no significant recurrence difference over one year.",
+      "denominators": {
+        "selected_people": 20,
+        "selected_per_arm": 10,
+        "parent_healed_subset": 28,
+        "men": 19
+      },
+      "limits": [
+        "Post-randomization selection on healing",
+        "Repeat readings/visits are not independent people",
+        "Variable visit denominators",
+        "No verified recurrence benefit",
+        "Repository wrapper/body mismatch"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1159/000545357",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2026-07-07",
+        "updated_precision": "date",
+        "interpretation": "No indexedOAlocation; institutional full article body independently accessible."
+      },
+      "candidate_ids": [
+        "R26-LOC-04"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L11",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "BAART-DFU,NCT03282981 official registry/results",
+      "source_type": "Primary ClinicalTrials.gov registry and posted structured results",
+      "url": "https://clinicaltrials.gov/study/NCT03282981",
+      "urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT03282981"
+      ],
+      "publication_date": null,
+      "primary_completion_date": "2023-12-01",
+      "completion_date": "2024-04-30",
+      "results_first_posted": "2025-04-25",
+      "last_update_posted": "2025-05-08",
+      "access_scope": "OfficialAPIreturned protocol and result data; enrollment, participant flow, primary closure and secondary time-to-closure fields inspected. Root independently reconfirmed pivotal fields. FirecrawlHTMLpage had only a glossary shell, not full results.",
+      "supporting_paraphrase": "48randomized:21timolol,27placebo. Primary12-week closure was8/21versus7/27; later time-to-closure window31weeks. Three placebo participants did not complete.",
+      "denominators": {
+        "randomized": 48,
+        "timolol": 21,
+        "placebo": 27,
+        "timolol_primary_healed": 8,
+        "placebo_primary_healed": 7,
+        "timolol_completed": 21,
+        "placebo_completed": 24
+      },
+      "limits": [
+        "Same parent cohort asL10/L12",
+        "Registry12/31week labels differ from conference14/15/30",
+        "Primary closure counts do not establish convincing superiority",
+        "Analysis/censoring and administrative-label differences remain unresolved"
+      ],
+      "candidate_ids": [
+        "R26-LOC-04"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L12",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Beta-adrenergic Antagonist for the Healing of Chronic Diabetic Foot,SAWC2025 abstractCR017",
+      "source_type": "Primary investigator conference abstract",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "access_scope": "Full web conference abstract read with Firecrawl; no underlying participant dataset.",
+      "supporting_paraphrase": "Same48randomized program. Describes primaryweek14, reports earlyweek15and laterweek30. Earlyp=.77; later unadjusted logrankp=.081and adjustedHR2.88,p=.027. Printed7/27percentage is inconsistent.",
+      "limits": [
+        "Conference report, not independent replication",
+        "108initiallyenrolled/screened is not48randomized",
+        "12vs14/15and31vs30timing conflict with official registry",
+        "7/27printed33percent",
+        "Adjusted and unadjusted analyses cannot be substituted"
+      ],
+      "candidate_ids": [
+        "R26-LOC-04"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L13",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Primary glafenine/SLC4A11 folding and function study",
+      "source_type": "Primary peer-reviewed preclinical cell study",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2474986",
+      "doi": "10.1167/iovs.15-17802",
+      "publication_date": "2015-12",
+      "publication_date_precision": "month",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "Glafenine improved selected mutantSLC4A11trafficking and water-flux readouts in transfected cells. The paper discusses serious historical systemic safety liabilities.",
+      "limits": [
+        "Not patient corneal endothelial pump/vision function",
+        "Three-to-five independent experiments in portions of the paper; many cells are not donors",
+        "Vehicle effects complicate transfer to an ocular product",
+        "No qualified ocular article or exposure window"
+      ],
+      "scout_ids": [
+        "R26-LOC-S01"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L14",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Pirfenidone gel comparison in pediatric hypertrophic burn scars",
+      "source_type": "Primary clinical-paper publisher abstract; full text not recovered",
+      "url": "https://doi.org/10.1097/SAP.0b013e31821b6d08",
+      "doi": "10.1097/SAP.0b013e31821b6d08",
+      "publication_date": "2012-01",
+      "publication_date_precision": "month",
+      "access_scope": "DOIresolved to anOvidpublisher abstract. Firecrawlpaper-read returned no passages; full methods/body were not obtained.",
+      "supporting_paraphrase": "Abstract describes33pirfenidone-treated children and30pressure-therapy controls and improved scar-score measures.",
+      "limits": [
+        "Allocation/blinding details not independently inspected",
+        "No claim of randomized efficacy or functional mobility benefit",
+        "No full safety, attrition or product-rights review"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1097/SAP.0b013e31821b6d08",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2025-05-22",
+        "updated_precision": "date",
+        "interpretation": "NoindexedOAlocationwasreturned; this does not prove no lawful copy exists."
+      },
+      "scout_ids": [
+        "R26-LOC-S02"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L15",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "2025primary tideglusib versusMTApulp-capping study",
+      "source_type": "Primary peer-reviewed animal study",
+      "url": "https://link.springer.com/article/10.1186/s12903-025-06546-6",
+      "doi": "10.1186/s12903-025-06546-6",
+      "publication_date": "2025-07-19",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "56teeth in2dogs; inflammatory/structural findings were unfavorable relative toMTAand the reported hard-tissue comparison was nonsignificant,p=.157.",
+      "denominators": {
+        "dogs": 2,
+        "teeth": 56
+      },
+      "limits": [
+        "Severe animal-level clustering",
+        "Teeth are not independent animals",
+        "Limited study does not establish universal target failure",
+        "No verified human useful-function product"
+      ],
+      "scout_ids": [
+        "R26-LOC-S03"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-L16",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Kitoscell brand-page retrieval quality limitation",
+      "source_type": "Brand-domain web page with unreliable retrieved content",
+      "url": "https://www.kitoscell.com",
+      "publication_date": null,
+      "access_scope": "Firecrawlpage returned branding plus unrelated casino material. Not relied upon for drug availability, approval, ownership or current commercial terms.",
+      "supporting_paraphrase": "The retrieval was unsuitable for validating current product status.",
+      "limits": [
+        "Page quality/possible contamination issue",
+        "No availability or regulatory claim inferred",
+        "No attempt to purchase or contact"
+      ],
+      "scout_ids": [
+        "R26-LOC-S02"
+      ],
+      "workstream_register": "local-sources.json"
+    },
+    {
+      "id": "R26-F01",
+      "type": "primary_research_full_text",
+      "title": "Gpr18 agonist dampens inflammation, enhances myogenesis, and restores muscle function in models of Duchenne muscular dystrophy",
+      "doi": "10.3389/fcell.2023.1187253",
+      "url": "https://doi.org/10.3389/fcell.2023.1187253",
+      "retrieved_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1187253/pdf",
+      "source_publication_date": "2023-08-14",
+      "issue_or_display_date": null,
+      "access_date": "2026-11-08",
+      "access_scope": "Full primary paper PDF parsed; page count 13/13.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "PSB-KD107-DMD",
+        "doi": "10.3389/fcell.2023.1187253",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Gpr18 agonist dampens inflammation, enhances myogenesis, and restores muscle function in models of Duchenne muscular dystrophy",
+        "published_date": "2023-08-14",
+        "journal_name": "Frontiers in Cell and Developmental Biology",
+        "best_oa_location": {
+          "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+            "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+            "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/10461444",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+            "version": "submittedVersion",
+            "license": "cc-by-sa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+        "http_status": 200,
+        "resolved_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1187253/pdf",
+        "content_type": "application/pdf",
+        "parsed_pages": 13,
+        "total_pages": 13
+      },
+      "original_paraphrase": "Defined PSB-KD107 improved mdx muscle force; human donor observations concern fusion and include two DMD plus one Becker line.",
+      "decision_limits": "One preclinical lineage; no mature human force, current-care incremental benefit or clinical efficacy.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F02",
+      "type": "primary_research_full_text",
+      "title": "A 16-amino acid peptide delays the progression of motor neuron degeneration and pathogenic symptoms in ALS models",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "url": "https://doi.org/10.1016/j.neurot.2025.e00806",
+      "retrieved_url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "source_publication_date": "2025-11-26",
+      "issue_or_display_date": "2026-01",
+      "access_date": "2026-11-08",
+      "access_scope": "Full primary paper PDF parsed; page count 16/16.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "FD1-FD2-ALS",
+        "doi": "10.1016/j.neurot.2025.e00806",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "A 16-amino acid peptide delays the progression of motor neuron degeneration and pathogenic symptoms in ALS models",
+        "published_date": "2025-11-26",
+        "journal_name": "Neurotherapeutics",
+        "best_oa_location": {
+          "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+            "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+            "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+            "version": "submittedVersion",
+            "license": "cc-by-sa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "http_status": 200,
+        "resolved_url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+        "content_type": "application/pdf",
+        "parsed_pages": 16,
+        "total_pages": 16
+      },
+      "original_paraphrase": "FD peptides improve early SOD1-model motor outcomes/time to humane endpoint; FD-2 selected, FD-1 comparator.",
+      "decision_limits": "Pre-symptomatic start, no patient-derived mature functional system or measured PK; repeat measurements are not animals.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F03",
+      "type": "primary_research_full_text",
+      "title": "Restoring brain functions in the Mo-blo mouse model of Menkes disease with copper nanoclusters",
+      "doi": "10.1126/sciadv.aeg6972",
+      "url": "https://doi.org/10.1126/sciadv.aeg6972",
+      "retrieved_url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+      "source_publication_date": "2026-09-30",
+      "issue_or_display_date": "2026-10-02",
+      "access_date": "2026-11-08",
+      "access_scope": "Full publisher article HTML after following the DOI landing location.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "CuNC-Menkes",
+        "doi": "10.1126/sciadv.aeg6972",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Restoring brain functions in the Mo-blo mouse model of Menkes disease with copper nanoclusters",
+        "published_date": "2026-09-30",
+        "journal_name": "Science Advances",
+        "best_oa_location": {
+          "url": "https://doi.org/10.1126/sciadv.aeg6972",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://doi.org/10.1126/sciadv.aeg6972",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://hal.science/hal-05778254",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://hal.science/hal-05778254",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://doi.org/10.1126/sciadv.aeg6972",
+        "http_status": 200,
+        "resolved_url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+        "content_type": "text/html;charset=UTF-8",
+        "parsed_pages": null,
+        "total_pages": null
+      },
+      "original_paraphrase": "Defined CuNC formulations improve early Mo-blo survival and selected later observations.",
+      "decision_limits": "Day-50 boundary, disease-control attrition, survivor selection, residual stumbles and age-confounded safety comparisons limit brain-restoration claims.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F04",
+      "type": "primary_patent_publication_transcribed_by_google_patents",
+      "title": "Short peptides, pharmaceutical compositions comprising the same, and uses thereof in treating neurological diseases",
+      "url": "https://patents.google.com/patent/US20240327462A1/en",
+      "source_publication_date": "2024-10-03",
+      "access_date": "2026-11-08",
+      "access_scope": "Full public patent transcription, claims, examples, assignee and family metadata.",
+      "http_status": 200,
+      "original_paraphrase": "FD peptide names, short-peptide composition/use claims and Mackay Medical College/Fu Jen Catholic University appear in the record.",
+      "decision_limits": "Indexed pending status and assignee data are not verified official current prosecution/title. Exact article-to-claim chemical form remains unresolved. Patent experiments are same lineage, not independent replication.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F05",
+      "type": "primary_patent_publication_transcribed_by_google_patents",
+      "title": "WO2022238656A1: copper nanocluster formulation and Menkes-use patent publication",
+      "url": "https://patents.google.com/patent/WO2022238656A1/en",
+      "source_publication_date": "2022-11-17",
+      "access_date": "2026-11-08",
+      "access_scope": "Full public patent transcription, claims and indexed family/assignee information.",
+      "http_status": 200,
+      "original_paraphrase": "The record identifies University of Lorraine and CHU Nancy and a defined copper nanocluster formulation/use family.",
+      "decision_limits": "WO ceased status does not prove abandonment of national rights; no available license, current official title or FTO established.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F06",
+      "type": "official_regulatory_announcement",
+      "title": "FDA Approves First Treatment for Children With Menkes Disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-children-menkes-disease",
+      "source_publication_date": "2026-01-12",
+      "access_date": "2026-11-08",
+      "access_scope": "Full FDA announcement.",
+      "http_status": 200,
+      "original_paraphrase": "Zycubo/copper histidinate is approved for pediatric Menkes; FDA describes two open-label single-arm studies with 66 treated and 17 untreated contemporary external controls overall.",
+      "decision_limits": "Not randomized evidence, not a CuNC result and not proof of neurological equivalence. FDA source date is Jan 12; a Jan 13 sponsor release is not substituted.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F07",
+      "type": "primary_research_full_text",
+      "title": "Cyclo His‐Pro Attenuates Muscle Degeneration in Murine Myopathy Models",
+      "doi": "10.1002/advs.202305927",
+      "url": "https://doi.org/10.1002/advs.202305927",
+      "retrieved_url": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+      "source_publication_date": "2024-05-10",
+      "issue_or_display_date": "2024-07",
+      "access_date": "2026-11-08",
+      "access_scope": "Full primary paper PDF parsed; page count 14/14.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "CHP-DMD",
+        "doi": "10.1002/advs.202305927",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Cyclo His‐Pro Attenuates Muscle Degeneration in Murine Myopathy Models",
+        "published_date": "2024-05-10",
+        "journal_name": "Advanced Science",
+        "best_oa_location": {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+            "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+            "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/11267275",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+            "url_for_pdf": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+            "url_for_landing_page": "https://serval.unil.ch/notice/serval:BIB_0EBEAE2F135F",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+            "version": "submittedVersion",
+            "license": "cc-by-nc-nd",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://iris.unil.ch/handle/iris/94695",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://iris.unil.ch/handle/iris/94695",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "http_status": 200,
+        "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+        "content_type": "application/pdf",
+        "parsed_pages": 14,
+        "total_pages": 14
+      },
+      "original_paraphrase": "CHP improves selected mouse muscle-function outcomes; later-start and preventive cohorts are distinct.",
+      "decision_limits": "No endurance/eccentric-injury protection or CK improvement; sponsor-controlled development context.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F08",
+      "type": "primary_patent_publication_transcribed_by_google_patents",
+      "title": "WO2025127437A1: Cyclo(His-Pro) muscle-function and muscle-disease application",
+      "url": "https://patents.google.com/patent/WO2025127437A1/en",
+      "source_publication_date": "2025-06-19",
+      "access_date": "2026-11-08",
+      "access_scope": "Full public patent transcription and indexed assignee information.",
+      "http_status": 200,
+      "original_paraphrase": "Novmetapharma is the indexed assignee; application addresses CHP-containing muscle-function/disease compositions.",
+      "decision_limits": "A published application is not a granted/enforceable-rights determination, license offer or exact future product specification.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F09",
+      "type": "primary_research_full_text",
+      "title": "A second-generation “hypoxia in a pill” rescues neurodegenerative phenotypes across distinct mouse models",
+      "doi": "10.1073/pnas.2618654123",
+      "url": "https://doi.org/10.1073/pnas.2618654123",
+      "retrieved_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+      "source_publication_date": "2026-10-09",
+      "issue_or_display_date": "2026-10-13",
+      "access_date": "2026-11-08",
+      "access_scope": "Full primary paper PDF parsed; page count 8/8.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "GBT601-Leigh",
+        "doi": "10.1073/pnas.2618654123",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "title": "A second-generation “hypoxia in a pill” rescues neurodegenerative phenotypes across distinct mouse models",
+        "published_date": "2026-10-09",
+        "journal_name": "Proceedings of the National Academy of Sciences",
+        "best_oa_location": {
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+            "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+            "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+            "url_for_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+            "url_for_landing_page": "https://doi.org/10.64898/2026.06.30.734089",
+            "version": "acceptedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "http_status": 200,
+        "resolved_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+        "content_type": "application/pdf",
+        "parsed_pages": 8,
+        "total_pages": 8
+      },
+      "original_paraphrase": "GBT601/PT2399 produces meaningful late-treatment Ndufs4-model functional/survival benefit.",
+      "decision_limits": "Existing industry/hypoxia patent lineage and systemic combination burden; preprint is the same study; no exact-product discontinuation inference.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F10",
+      "type": "primary_research_full_text",
+      "title": "Nifuroxazide rescues the deleterious effects due to CHCHD10-associated MICOS defects in disease models",
+      "doi": "10.1093/brain/awae348",
+      "url": "https://doi.org/10.1093/brain/awae348",
+      "retrieved_url": "https://watermark02.silverchair.com/awae348.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmIwggJeBgkqhkiG9w0BBwagggJPMIICSwIBADCCAkQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMo56e1hv0TjzkDeVOAgEQgIICFZ-QfjfhjijEYOWDoys8k82oCtQ3dU7b-NLIBWaprNY_uKfJWYVxhLK9emJaSgclhNPVZ3Fc6NLzhXKjEmWt72qmnBAfJiyP_2pR2y-a4dWPXH_zMepqBJSeQtZ7l0RVs9bgocsiwni_P83iv_5Ur7pT9gxIBmQ_0BdFvrYhSUlC0xW47B5xpcxLa4gmYM1AiS8COYD0cnaa7aTXZY1qqPcEcEP1Ls2xIHGUJTdomXltbhGW8ixcrbmePHLEw-6AtLxOSgeNCp-CKOhZ3oXA63KwoRzkXOov94bXIt9k55_Jn5I64eFvbdyIUpM3jFRUio6QJecrRRL025MOUT6zBP8jxVxmfMqEHBQIlpZT9sRM9XSlrdcQQCY-6uxkKR7eaIsmkj3W0LRgSDGoHPfngFYoKNiY1drb36VZ_CqKn_Ej8zQ3_fu3zHyjsoPJmkaK60Wn71xI1XEbYbgsNa55WOAQ0cjC0ohodjkz2tKwVchue92yNykIzuv5ccnNfTa7O6S3HY-_9kQjwxGeFPM8a1d4eU5dZJZi9lLQkDszrYBKnhg_Af2sD8aTAG_whQmIYCm0L1QRAeZxnj1IcGBm8YRmOZDGtNxnpxuysWqMplT7BCatAp5EZOu-6RN3oY6savmcJ3rXiHXiCZw7cB6-j2NJ-APyLOkmx9vkgkaZSttQVrILEYp1022m23wVQKORnF97xqA9",
+      "source_publication_date": "2024-10-30",
+      "issue_or_display_date": "2025-05-13",
+      "access_date": "2026-11-08",
+      "access_scope": "Full primary paper PDF parsed; page count 15/15.",
+      "http_status": 200,
+      "unpaywall": {
+        "candidate": "Nifuroxazide-CHCHD10",
+        "doi": "10.1093/brain/awae348",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "title": "Nifuroxazide rescues the deleterious effects due to CHCHD10-associated MICOS defects in disease models",
+        "published_date": "2024-10-30",
+        "journal_name": "Brain",
+        "best_oa_location": {
+          "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+          "version": "publishedVersion",
+          "license": null,
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+            "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+            "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+            "version": "publishedVersion",
+            "license": null,
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+            "url_for_pdf": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+            "url_for_landing_page": "https://cnrs.hal.science/hal-04787759",
+            "version": "submittedVersion",
+            "license": "other-oa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ]
+      },
+      "actual_followthrough": {
+        "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+        "http_status": 200,
+        "resolved_url": "https://watermark02.silverchair.com/awae348.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmIwggJeBgkqhkiG9w0BBwagggJPMIICSwIBADCCAkQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMo56e1hv0TjzkDeVOAgEQgIICFZ-QfjfhjijEYOWDoys8k82oCtQ3dU7b-NLIBWaprNY_uKfJWYVxhLK9emJaSgclhNPVZ3Fc6NLzhXKjEmWt72qmnBAfJiyP_2pR2y-a4dWPXH_zMepqBJSeQtZ7l0RVs9bgocsiwni_P83iv_5Ur7pT9gxIBmQ_0BdFvrYhSUlC0xW47B5xpcxLa4gmYM1AiS8COYD0cnaa7aTXZY1qqPcEcEP1Ls2xIHGUJTdomXltbhGW8ixcrbmePHLEw-6AtLxOSgeNCp-CKOhZ3oXA63KwoRzkXOov94bXIt9k55_Jn5I64eFvbdyIUpM3jFRUio6QJecrRRL025MOUT6zBP8jxVxmfMqEHBQIlpZT9sRM9XSlrdcQQCY-6uxkKR7eaIsmkj3W0LRgSDGoHPfngFYoKNiY1drb36VZ_CqKn_Ej8zQ3_fu3zHyjsoPJmkaK60Wn71xI1XEbYbgsNa55WOAQ0cjC0ohodjkz2tKwVchue92yNykIzuv5ccnNfTa7O6S3HY-_9kQjwxGeFPM8a1d4eU5dZJZi9lLQkDszrYBKnhg_Af2sD8aTAG_whQmIYCm0L1QRAeZxnj1IcGBm8YRmOZDGtNxnpxuysWqMplT7BCatAp5EZOu-6RN3oY6savmcJ3rXiHXiCZw7cB6-j2NJ-APyLOkmx9vkgkaZSttQVrILEYp1022m23wVQKORnF97xqA9",
+        "content_type": "application/pdf",
+        "parsed_pages": 15,
+        "total_pages": 15
+      },
+      "original_paraphrase": "Nifuroxazide improves selected patient-cell mitochondrial and stress-survival observations in CHCHD10 disease models.",
+      "decision_limits": "No organism motor/mature neuromuscular rescue and no restoration of MICOS-complex stability; patent disclosed.",
+      "supplement_scope": "No claim of exhaustive independent supplemental-panel or raw-data review. Main-text captions and explicitly reported units govern.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F11",
+      "type": "primary_supplier_search_result_followed_by_blocked_page",
+      "title": "Cayman Chemical PSB-KD107 item 31393",
+      "url": "https://www.caymanchem.com/product/31393/psb-kd107",
+      "source_publication_date": null,
+      "access_date": "2026-11-08",
+      "access_scope": "Exact primary supplier result recovered in Firecrawl search; direct live page scrape returned Forbidden.",
+      "http_status": 403,
+      "original_paraphrase": "The exact item name and CAS identifier surfaced in search; the research paper independently names Cayman as the historical supplier.",
+      "decision_limits": "No live stock, price, actual offer, lot quality or commercial-use permission established.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F12",
+      "type": "local_pinned_and_recovered_historical_corpus_audit",
+      "title": "Round 26 baseline and recovered external-screen exact-use audit",
+      "url": null,
+      "source_publication_date": null,
+      "access_date": "2026-11-08",
+      "baseline_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+      "access_scope": "424 baseline files: 419 text, four PDFs and one spreadsheet; no extraction errors reported. Thirteen complete recovered unlettered/B–M reports, also independently checked by root.",
+      "original_paraphrase": "Selected exact-asset aliases/DOIs were not present as prior candidate records; Pgk1 appeared only as a BLU proteomics gene row. Menkes already appears as a disease/ionophore concept; primary exact-formulation comparison is recorded in the retrieval log.",
+      "decision_limits": "Screens N–Q remain unrecovered. Novelty is scoped exact article/use, not a new disease, target, compound class or global discovery. Ongoing Round26 files are excluded from the frozen baseline.",
+      "repository_paths": [
+        "research/rounds/round26/novelty-audit.json",
+        "discovery/component-proposals.csv",
+        "research/portfolio-register.json",
+        "research/screen-index.md"
+      ],
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F13",
+      "type": "inherited_local_decision_record",
+      "title": "APR-246/AEC and BLU3797 intended next-commitment scopes",
+      "url": null,
+      "source_publication_date": "2026-11-08",
+      "access_date": "2026-11-08",
+      "local_paths": [
+        "research/rounds/round25/apr246-advancement.md",
+        "decisions/current-shortlist.md",
+        "research/rounds/round8/blu3797-qualification-package.md"
+      ],
+      "access_scope": "Frozen current shortlist and APR advancement record read; BLU qualification scope as carried into the current shortlist.",
+      "original_paraphrase": "APR has same-disease human observations and a local historical article; BLU has an expressly specified post-deficit human-force qualification route. Neither has a verified current executable offer by virtue of historical analyst envelopes.",
+      "decision_limits": "These are inherited comparison scopes, not fresh efficacy review or current transaction facts.",
+      "repository_paths": [
+        "research/rounds/round25/apr246-advancement.md",
+        "decisions/current-shortlist.md",
+        "research/rounds/round8/blu3797-qualification-package.md"
+      ],
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F14",
+      "type": "primary_human_report_read_for_historical_article_identity",
+      "title": "Elesclomol-copper therapy improves neurodevelopment in two children with Menkes disease",
+      "doi": "10.1172/JCI193107",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483558/",
+      "source_publication_date": "2025-07-29",
+      "access_date": "2026-11-08",
+      "access_scope": "Full public PMC article retrieved; used here only to identify the exact prior P010 article and distinguish it from CuNC. No new clinical efficacy adjudication or patient count is added.",
+      "http_status": 200,
+      "original_paraphrase": "The historical P010 source describes elesclomol-copper treatment in two children. It is a copper-ionophore article, not the histidine/acetate copper nanocluster formulation.",
+      "decision_limits": "Prior same-disease therapeutic concept, different exact article. Human observations remain part of the historical source lineage and are not CuNC evidence. The article predates the 2026 FDA approval; its historical no-approved-treatment statement is not current comparator guidance.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-F15",
+      "type": "primary_publisher_abstract_and_section_preview",
+      "title": "Elesclomol rescues mitochondrial copper deficiency in disease models without triggering cuproptosis",
+      "doi": "10.1016/j.jpet.2024.100048",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40023603/",
+      "retrieved_url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524301971",
+      "source_publication_date": "2025-02-01",
+      "publication_date_note": "Publisher citation metadata; the issue is displayed as February 2025.",
+      "access_date": "2026-11-08",
+      "access_scope": "PubMed direct scrape and PMC PMID alias failed during closure; an exact-title Firecrawl search located the publisher. Public publisher preview supplied article identity, abstract/section excerpts and the conflict-of-interest disclosure. Full paper and supplemental raw data were not inspected in this closure.",
+      "http_status": 200,
+      "original_paraphrase": "This historical P010 source concerns elesclomol-copper and mitochondrial copper deficiency. Its public disclosure states that Texas A&M licensed development of elesclomol for copper-metabolism disorders to Engrail Therapeutics.",
+      "decision_limits": "Different exact article from CuNC. A historical licensing disclosure is not current title, exact granted scope or an available transaction. No new preclinical cohort is credited to CuNC.",
+      "workstream_register": "functional-sources.json"
+    },
+    {
+      "id": "R26-I01",
+      "title": "Altered Dopamine Metabolism and Response to Treatment with Levodopa/Carbidopa in MCT8 Deficiency",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mds.70093",
+      "doi": "10.1002/mds.70093",
+      "source_type": "primary_uncontrolled_clinical_report",
+      "publication_date": "2025-10-27",
+      "issue_date": "2026-02",
+      "access_scope": "Full primary main text and displayed tables; linked supporting files/videos not separately inspected by root.",
+      "observations": [
+        "The body distinguishes ten phenotyped patients from nine evaluable treatment courses; one died before response assessment.",
+        "Broad benefit is described in seven of nine, GMFM improvement in five of eight, and CGI-I improvement in six of nine; these endpoints and denominators are not interchangeable.",
+        "Functional-category scales did not show congruent improvement, some motor scores declined, and dystonia scores increased. Follow-up beyond three months is limited to subsets."
+      ],
+      "interpretation": "The paper supports a hypothesis of useful symptomatic benefit and an informative controlled comparison, not a pooled response probability or established disease modification.",
+      "limits": [
+        "Uncontrolled observations and assessor/caregiver expectations remain material.",
+        "The abstract's7/10 shorthand is not used as a clean treated-person response rate.",
+        "Same document independently read by the human-evidence agent; no additional evidence family."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I02",
+      "title": "Healing Diabetic Foot Ulcers with Topical Timolol Improves Healed Epithelial Integrity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+      "doi": "10.1159/000545357",
+      "source_type": "primary_indexed_abstract",
+      "access_scope": "PubMed abstract and metadata; root did not obtain the full journal body in this read.",
+      "observations": [
+        "Post hoc analysis of twenty selected participants whose ulcers had healed, ten per arm.",
+        "Lower transepidermal water loss is reported after healing.",
+        "No difference in re-ulceration rates was demonstrated in this small study."
+      ],
+      "interpretation": "Selected post-healing barrier observations do not independently establish faster healing or lower recurrence in the randomized population.",
+      "limits": [
+        "Subset selection and parent-trial outcome accounting are separate.",
+        "No surrogate-to-clinical-benefit substitution."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I03",
+      "title": "Unpaywall DOI lookup for timolol epithelial-integrity paper",
+      "url": "https://api.unpaywall.org/v2/10.1159/000545357",
+      "doi": "10.1159/000545357",
+      "source_type": "open_access_location_metadata",
+      "access_scope": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records.",
+      "lookup_result": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "updated": "2026-07-07T15:25:23Z"
+      },
+      "full_text_retrieved_by_lookup": false,
+      "interpretation": "No indexed OA location returned. This is not proof that no lawful public copy exists, and it is not a failed therapeutic finding.",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Unpaywall direct API",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I04",
+      "title": "Beta-adrenergic Antagonist for the Healing of Chronic Diabetic Foot",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "source_type": "primary_conference_trial_abstract",
+      "access_scope": "Complete substantive conference abstract; not a full clinical report or statistical analysis plan.",
+      "observations": [
+        "Forty-eight participants were randomized,21timolol and27standard care; the early comparison is8/21 versus7/27 and reported p=0.77.",
+        "The text describes7/27 as33%, an arithmetic inconsistency. It shifts between planned week14/31 and reported week15/30 timepoints.",
+        "The later unadjusted log-rank p=0.081 differs from a favorable adjusted hazard-ratio result; the latter cannot erase the earlier endpoint finding."
+      ],
+      "interpretation": "The study is a useful contrary check on a broad healing claim, with reporting details requiring registry/full-report reconciliation.",
+      "limits": [
+        "Abstract-only result scope.",
+        "No clinical superiority inferred from selected adjusted or post hoc findings."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I05",
+      "title": "Gpr18 agonist dampens inflammation, enhances myogenesis, and restores muscle function in models of Duchenne muscular dystrophy",
+      "url": "https://doi.org/10.3389/fcell.2023.1187253",
+      "doi": "10.3389/fcell.2023.1187253",
+      "source_type": "primary_preclinical_study",
+      "publication_date": "2023-08-14",
+      "access_scope": "Full primary main text and figure legends. Root reviewed human-cell readout, muscle-force comparison, biological-unit scope and disclosures.",
+      "observations": [
+        "PSB-KD107 increases absolute and muscle-size-normalized maximal force in treated mdx mice; the functional assessment is ex-vivo muscle force after in-vivo treatment.",
+        "The principal force figure reports n=5 except the separate O-1602 comparison n=3.",
+        "The human-cell evidence concerns myoblast fusion in dystrophinopathy-derived lines; it is not mature human muscle force."
+      ],
+      "interpretation": "A defined functional preclinical candidate merits a bounded article/exposure/rights review, without inheriting clinical efficacy or a current price.",
+      "limits": [
+        "A patient-cell differentiation result is not a treated-patient result.",
+        "No-conflict declaration is not proof of unencumbered rights.",
+        "No current license or complete pharmacokinetic/safety package established by this paper."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I06",
+      "title": "Restoring brain functions in the Mo-blo mouse model of Menkes disease with copper nanoclusters",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+      "doi": "10.1126/sciadv.aeg6972",
+      "source_type": "primary_preclinical_study",
+      "access_scope": "Full primary main text and figure legends; survival, comparator, survivor-selection, residual-function and patent-disclosure passages inspected.",
+      "observations": [
+        "The paper compares copper nanoclusters with copper histidine and untreated Mo-blo mice; reported follow-up reaches fifty days for nanocluster-treated and wild-type animals.",
+        "Later behavior is largely compared between nanocluster-treated survivors and wild-type controls after early deaths in other groups, limiting a direct contemporaneous functional efficacy contrast.",
+        "Residual motor abnormalities and hepatic/renal marker findings remain relevant; improved survival is not complete neurological or systemic normalization.",
+        "Authors disclose WO2022/238656 for the copper-nanocluster family and Menkes use, deposited by Universite de Lorraine."
+      ],
+      "interpretation": "The result is a serious but more complex product proposition whose interpretation must use the current clinical comparator and retain safety/selection uncertainty.",
+      "limits": [
+        "Do not infer a fully observed median lifespan from the fifty-day study boundary.",
+        "Patent disclosure is not a current-title, available-license or freedom-to-operate conclusion.",
+        "The paper's clinical-status wording must be checked against current primary regulator information."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I07",
+      "title": "Treatment of Keratin 16 Palmoplantar Keratoderma With Topical Erlotinib — publisher access page",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_type": "primary_publisher_metadata_and_intro",
+      "access_scope": "Publisher title, metadata and introductory paragraph only; redirected to article-abstract page with GetAccess. Main outcomes not obtained from this read.",
+      "observations": [
+        "The introduction identifies two related patients, mother and son, with KRT16 c.379C>T, p.Arg127Cys hereditary palmoplantar keratoderma.",
+        "The intended route is topical erlotinib, distinct from cited systemic treatment for TRPV3 Olmsted syndrome."
+      ],
+      "interpretation": "Confirms exact-use identity and DOI; does not itself verify outcome magnitudes or study phases.",
+      "limits": [
+        "URL containing fullarticle does not imply full-text access."
+      ],
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Firecrawl scrape",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I08",
+      "title": "Unpaywall DOI lookup for topical erlotinib KRT16 paper",
+      "url": "https://api.unpaywall.org/v2/10.1001/jamadermatol.2021.5302",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "source_type": "open_access_location_metadata",
+      "access_scope": "Successful direct API JSON lookup using the installed skill; request contact parameter omitted from public records.",
+      "lookup_result": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "updated": "2025-05-22T18:42:22Z"
+      },
+      "full_text_retrieved_by_lookup": false,
+      "interpretation": "No indexed OA copy returned; an independently found lawful public author copy is a separate access route, not an Unpaywall retrieval success.",
+      "retrieved_date": "2026-11-08",
+      "retrieval_method": "Unpaywall direct API",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I09",
+      "title": "Treatment of Keratin16 Palmoplantar Keratoderma With Topical Erlotinib — public author PDF",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "publication_date": "2022-01-05",
+      "source_type": "primary_two_related_patient_report",
+      "access_scope": "Both pages of the public author/PC Project PDF, including blinded opposite-foot phases and later uncontrolled extension.",
+      "observations": [
+        "Two related patients, a mother and son with KRT16 Arg127Cys palmoplantar keratoderma, underwent blinded randomized opposite-foot comparisons followed by extension.",
+        "The initial lower-strength comparison in the mother had minimal improvement; later treatment with keratolytic support produced a stronger local contrast. Pain-free ambulation was reported during the later uncontrolled bilateral phase.",
+        "The son had modest improvement during the controlled phase and later gradual improvement, with limited keratolytic adherence. No adverse effects were reported during the described follow-up."
+      ],
+      "interpretation": "A specific symptomatic local-product hypothesis deserves bounded comparison with inherited local options. Two related cases and cointerventions do not establish general efficacy or a ready commercial product.",
+      "limits": [
+        "No new independent cohort beyond the publisher record.",
+        "The strongest functional observation occurred during uncontrolled extension.",
+        "Unpaywall returned no OA location; this full text was obtained separately from a public author copy."
+      ],
+      "retrieval_method": "Firecrawl PDF scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I10",
+      "title": "BAART-DFU NCT03282981 official registry and posted results",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03282981",
+      "source_type": "primary_trial_registry_and_posted_results",
+      "access_scope": "Complete substantive API JSON, including status, design, outcomes, participant flow and posted result tables.",
+      "observations": [
+        "Forty-eight actual participants were randomized, with 21 assigned to timolol and 27 to standard care plus inactive gel.",
+        "The registered primary wound-closure assessment is at 12 weeks; the posted counts are eight of 21 and seven of 27. The registered secondary time-to-closure period is 31 weeks.",
+        "Results were first posted on 25 April2025; the record was last updated on 8 May2025.",
+        "The conference abstract's 14/15-week early and 30/31-week later descriptions do not match all registered time labels. Its seven of27 equals33% text is also inconsistent."
+      ],
+      "interpretation": "An official result denominator is available. It does not support a definitive healing-superiority claim or allow selected healed-wound barrier findings to replace the randomized primary question.",
+      "limits": [
+        "Registry result tables and the conference abstract describe one parent trial, not independent replications.",
+        "No statistical analysis plan, amendments or patient-level data were recovered by root.",
+        "The registry labels a primary measure as a percentage but displays counts with participant denominators; interpret the counts explicitly."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I11",
+      "title": "FDA Approves First Treatment for Children With Menkes Disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-children-menkes-disease",
+      "publication_date": "2026-01-12",
+      "source_type": "primary_regulator_approval_announcement",
+      "access_scope": "Complete substantive FDA announcement, including indication, evidence design, population, survival observations and safety summary.",
+      "observations": [
+        "FDA approved Zycubo/copper histidinate for pediatric Menkes disease on12 January2026.",
+        "The supporting survival comparison included66 treated children from two open-label single-arm trials and17 untreated contemporaneous external controls.",
+        "The announcement reports substantial survival benefit and monitoring for copper toxicity; it does not describe a randomized neurological-function comparison."
+      ],
+      "interpretation": "CuNC development must justify incremental value over an approved copper-histidinate option. An untreated-disease benchmark alone is insufficient to define the current clinical product opportunity.",
+      "limits": [
+        "Approval and clinical survival evidence do not establish that every neurological deficit is corrected.",
+        "The FDA date is distinct from sponsor announcements on subsequent dates.",
+        "No extrapolation of the human survival effect to the nanocluster formulation."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I12",
+      "title": "FD-2 ALS paper publisher HTML access attempt",
+      "url": "https://doi.org/10.1016/j.neurot.2025.e00806",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "publication_date": "2025-11-25",
+      "issue_date": "2026-01",
+      "source_type": "primary_publisher_metadata_only",
+      "access_scope": "Publisher metadata, abstract in metadata and navigation shell; substantive main text not returned by this HTML request.",
+      "observations": [
+        "Metadata distinguishes online publication25 November2025 from January2026 issue date and supplies a public PDF URL."
+      ],
+      "interpretation": "No outcome denominators or detailed methodological conclusions are based on this HTML shell.",
+      "limits": [
+        "A200status and fulltext URL do not demonstrate main-text access."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I13",
+      "title": "A16-amino acid peptide delays the progression of motor neuron degeneration and pathogenic symptoms in ALS models — full PDF",
+      "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "source_type": "primary_preclinical_study",
+      "access_scope": "All16pages of the publisher PDF; animal timing, figure denominators, humane endpoint, pharmacokinetic caveat and competing-interest statement inspected.",
+      "observations": [
+        "SOD1-model treatment starts before overt functional decline. Grip and locomotion use five animals per group; the survival analysis uses twelve per group.",
+        "The survival measure is time to a humane endpoint, not observed natural lifespan.",
+        "The authors identify further pharmacokinetic, degradation and structural work as needed to explain FD-1/FD-2 differences; the proposed stability advantage is not a measured exposure result.",
+        "The paper declares no conflict of interest, while a separately recovered patent explicitly names this peptide family."
+      ],
+      "interpretation": "Functional preservation evidence supports a bounded identity/product-rights question. It does not establish post-symptomatic reversal, patient-derived functional rescue or a clinically practical chronic exposure.",
+      "limits": [
+        "Patent and paper examples are related evidence lineages, not automatically independent replication.",
+        "Full paper retrieval does not supply current national rights or a licensing offer."
+      ],
+      "retrieval_method": "Firecrawl PDF scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I14",
+      "title": "US20240327462A1 short-peptide patent publication",
+      "url": "https://patents.google.com/patent/US20240327462A1/en",
+      "publication_date": "2024-10-03",
+      "source_type": "primary_patent_publication_third_party_transcription",
+      "access_scope": "Full public transcription, nine claims, examples and indexed applicant/family/status fields.",
+      "observations": [
+        "The publication explicitly identifies FD2 and includes its sequence variant in dependent claim5; the claims also address composition and neurological-use scope.",
+        "Indexed assignees are Mackay Medical College and Fu Jen Catholic University.",
+        "The site labels the US application pending and other family members separately; those indexed labels are not an official current prosecution or title review."
+      ],
+      "interpretation": "A concrete institutional rights question is available. A no-conflict sentence in a paper does not imply an unpatented or unencumbered asset.",
+      "limits": [
+        "No official national prosecution, current ownership chain, enforceability, available license or terms established by this read.",
+        "No raw sequences or operational experimental instructions are needed for the investment screen."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I15",
+      "title": "Sol-Gel second-quarter2026 financial results and corporate update",
+      "url": "https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-second-quarter-2026-financial-results-and",
+      "publication_date": "2026-08-20",
+      "source_type": "primary_issuer_program_update",
+      "access_scope": "Fresh complete issuer release; SGT-210 program language inspected separately from the principal SGT-610 corporate results.",
+      "observations": [
+        "The issuer states it is continuing an investigational topical EGFR-inhibitor program, SGT-210.",
+        "The SGT-210 sentence does not identify KRT16 Arg127Cys, a newly controlled result for the two-patient formulation, or an available license."
+      ],
+      "interpretation": "The local EGFR-product field cannot be assumed vacant. This source does not prove that the exact compounded KRT16 article is company-owned or that a current transaction is available.",
+      "limits": [
+        "A general program statement is not an exact genotype/product claim or new efficacy dataset.",
+        "No current agreement, patent-title analysis or commercial terms were inspected."
+      ],
+      "retrieval_method": "Firecrawl scrape with maxAge0",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    },
+    {
+      "id": "R26-I16",
+      "title": "Randomized pilot of DNase eye drops in severe tear-deficient dry eye",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "source_type": "primary_randomized_pilot_clinical_report",
+      "access_scope": "Full primary main text and displayed tables, including patient flow, study article, controlled symptom/sign comparisons and corneal-staining analysis.",
+      "observations": [
+        "The report describes47 enrolled people and41 completers, with four DNase and two placebo dropouts.",
+        "Controlled corneal staining improves, including the reported intent-to-treat analysis. This is distinct from symptoms.",
+        "The between-arm OSDI change table reports median changes of minus20.75 for DNase and minus8.43 for vehicle, p=0.078. Within-arm symptom significance is not a controlled symptom-positive result.",
+        "The study article is existing recombinant DNase/Pulmozyme used ophthalmically; later proprietary follow-ons cannot inherit exact-article identity automatically."
+      ],
+      "interpretation": "The pilot supports a consequential clinical/product reserve with a stronger ocular-sign result than symptom result. It is not proof of a broadly restored ocular surface or a clear proprietary asset.",
+      "limits": [
+        "Eyes and repeated readings are not independent people.",
+        "Small sample, attrition and short follow-up limit safety and clinical certainty.",
+        "The paper's historical statement about approved dry-eye drugs is not adopted as current2026 market coverage."
+      ],
+      "retrieval_method": "Firecrawl scrape",
+      "retrieved_date": "2026-11-08",
+      "workstream_register": "integration-sources.json"
+    }
+  ],
+  "raw_third_party_full_text_republished": false,
+  "limitations": [
+    "Each access_scope states what was actually read. Successful retrieval does not establish study validity.",
+    "Patent publication, current official status, current title and available commercial terms are separate.",
+    "Absence from a bounded search or OA index does not prove absence of rights, evidence or lawful access."
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "schema_version": "ddiscov.round26.local.sources.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "as_of_timezone": "America/Los_Angeles",
+  "source_count": 17,
+  "provenance_policy": "Paraphrases, URLs, public identifiers, source dates and access scopes only. No raw copyrighted bodies, private tool/session identifiers, personal API email or credential-bearing request URLs.",
+  "date_policy": "Month/year precision and null dates are explicit. A retrieval date is not a source-update date. Unrecorded exact retrieval seconds are not invented.",
+  "sources": [
+    {
+      "id": "R26-L00",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Frozen baseline and recovered external-report exact-use exclusion audit",
+      "source_type": "Repository evidence audit and historical screen corpus",
+      "repository_paths": [
+        "research/rounds/round26/novelty-audit.json",
+        "research/portfolio-register.json",
+        "research/screen-index.md",
+        "decisions/selection-policy.md"
+      ],
+      "publication_date": "2026-11-08",
+      "access_scope": "All424files of frozen commit2ac9dafe2c45aa7d1baf1499a440fde013cece28 extracted with no read errors; complete indexed texts of13recovered external reports searched. Alias hits reviewed for exact-use context. Raw corpora are not included in the repository.",
+      "supporting_paraphrase": "No retained exact use was shown already screened within the inspected scope. Erlotinib, dornase and amlexanox have other prior uses; ScreenL contains an amlexanox scout alias without use detail.",
+      "limits": [
+        "ScreensN–Q unrecovered",
+        "Other uninspected historical work or unrecognized aliases",
+        "No claim of global scientific novelty, patentability or FTO"
+      ],
+      "alias_contexts": {
+        "erlotinib": [
+          "Darier",
+          "TRPV3/Olmsted historicalT199",
+          "FAP +/-sulindac historicalT121"
+        ],
+        "dornase": [
+          "Airway/CF",
+          "Pleural empyema/thrombolysis comparator"
+        ],
+        "amlexanox": [
+          "PAX6 nonsense aniridia",
+          "ExternalScreenL root scout list, no use detail"
+        ],
+        "pirfenidone": [
+          "Urethral stricture in externalScreensB/E"
+        ],
+        "tideglusib": [
+          "DM1/AMO02"
+        ]
+      },
+      "candidate_ids": [
+        "R26-LOC-01",
+        "R26-LOC-02",
+        "R26-LOC-03",
+        "R26-LOC-04"
+      ]
+    },
+    {
+      "id": "R26-L01",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Treatment of Keratin16 Palmoplantar Keratoderma With Topical Erlotinib",
+      "authors": [
+        "Geoffrey Lee",
+        "Patricia M. Lowe"
+      ],
+      "source_type": "Primary peer-reviewed clinical letter; public full article PDF",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "urls": [
+        "https://jamanetwork.com/journals/jamadermatology/fullarticle/2787624",
+        "https://pubmed.ncbi.nlm.nih.gov/34985526/"
+      ],
+      "doi": "10.1001/jamadermatol.2021.5302",
+      "pmid": "34985526",
+      "publication_date": "2022-01-05",
+      "issue_date": "2022-02-01",
+      "access_scope": "Complete two-page article body and figures retrieved with Firecrawl from PCProject's public PDF. Publisher page exposed an access gateway; PubMed supplied metadata.",
+      "supporting_paraphrase": "Mother/son withKRT16p.Arg127Cys had blinded opposite-foot comparisons with erlotinib/vehicle plus keratolytic, followed by uncontrolled extensions. Pain and lesions improved most clearly in the mother; the son had adherence limitations. Earlier lower-strength exposure was minimally helpful.",
+      "denominators": {
+        "people": 2,
+        "pedigrees": 1,
+        "independent_genotype_replications": 0
+      },
+      "limits": [
+        "Two related people",
+        "Separate feet and repeated phases are not extra people",
+        "Mobility narrative belongs to uncontrolled extension",
+        "Co-treatment and formulation cannot be dropped from claim",
+        "No measured systemic exposure or commercial product qualification"
+      ],
+      "contradictory_context_source_ids": [
+        "R26-L02"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1001/jamadermatol.2021.5302",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2025-05-22T18:42:22Z",
+        "interpretation": "No indexed OA location returned. Public PCProject article body was independently readable; closed metadata does not invalidate that copy."
+      },
+      "candidate_ids": [
+        "R26-LOC-01"
+      ]
+    },
+    {
+      "id": "R26-L02",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Treatment of Painful Palmoplantar Keratoderma Related to Pachyonychia Congenita Using EGFR Inhibitors",
+      "source_type": "Primary peer-reviewed clinical report",
+      "url": "https://www.mdpi.com/2227-9059/10/4/841",
+      "doi": "10.3390/biomedicines10040841",
+      "publication_date": "2022-04",
+      "publication_date_precision": "month",
+      "access_scope": "Full publisher article body retrieved with Firecrawl, including clinical topical/oral treatment narratives. Exact publication day not retained.",
+      "supporting_paraphrase": "In two separate patients, topical0.2%erlotinib cream was inconclusive or without significant benefit; oral EGFR-inhibitor responses were a different exposure context.",
+      "denominators": {
+        "people": 2
+      },
+      "limits": [
+        "Uncontrolled report",
+        "Different topical formulation/strength and genotype context fromL01",
+        "Oral response and adverse effects cannot be pooled as topical-product results",
+        "Not a definitive failure of the exactArg127Cyscombination"
+      ],
+      "candidate_ids": [
+        "R26-LOC-01"
+      ]
+    },
+    {
+      "id": "R26-L03",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Sol-Gel reports second-quarter2026 financial results and corporate highlights",
+      "source_type": "Primary company investor-relations release",
+      "url": "https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-second-quarter-2026-financial-results-and",
+      "publication_date": "2026-08-20",
+      "access_scope": "Full issuer HTML release retrieved with Firecrawl.",
+      "supporting_paraphrase": "Issuer says it continues to advanceSGT-210, a topicalEGFR-inhibitor program, for indications with unmet need.",
+      "limits": [
+        "Does not establish an available license",
+        "Does not establish article equivalence to the compoundedL01ointment",
+        "No exact-use controlledKRT16result supplied",
+        "Issuer plan is not independently proven commercial availability"
+      ],
+      "candidate_ids": [
+        "R26-LOC-01"
+      ]
+    },
+    {
+      "id": "R26-L04",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": "2026-11-08T19:58:54Z",
+      "access_time_note": "Final targeted table/publication-date re-read; the Firecrawl response identified cached content from2026-11-08T19:42:41.689Z.",
+      "title": "A PhaseI/II Placebo-Controlled Randomized Pilot Clinical Trial of Recombinant Deoxyribonuclease(DNase) Eye Drops Use in Patients With Dry Eye Disease",
+      "source_type": "Primary peer-reviewed randomized pilot clinical paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504128/#i2164-2591-8-3-10-t07"
+      ],
+      "doi": "10.1167/tvst.8.3.10",
+      "pmid": "31110911",
+      "publication_date": "2019-05-02",
+      "access_scope": "FullPMCarticle body and tables read with Firecrawl. Final targeted re-read confirmed Table5OSDImedian changes andp=0.078.",
+      "supporting_paraphrase": "47randomized and41completers. DNase improved controlled corneal-staining and mucoid-strand outcomes. OSDIchange favoredDNase numerically but its between-arm test wasp=0.078. Safety-table and randomized denominators differ.",
+      "denominators": {
+        "randomized": 47,
+        "randomized_dnase": 25,
+        "randomized_vehicle": 22,
+        "completers": 41,
+        "completers_dnase": 21,
+        "completers_vehicle": 20,
+        "safety_table_dnase": 25,
+        "safety_table_vehicle": 21
+      },
+      "endpoints": {
+        "timeframe_weeks": 8,
+        "osdi_dnase_median_change": -20.75,
+        "osdi_vehicle_median_change": -8.43,
+        "osdi_between_arm_p": 0.078
+      },
+      "limits": [
+        "Within-arm symptom significance does not establish controlled symptom efficacy",
+        "Mixed phenotypes; no subgroup efficacy inference",
+        "Both eyes and repeated measurements clustered by participant",
+        "Dropout/completer analyses and exploratory outcomes",
+        "Short small safety experience",
+        "NotL304"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ]
+    },
+    {
+      "id": "R26-L05",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Neutrolis Licenses University of Illinois Chicago Patent to Advance Topical Dry Eye Disease Therapy TargetingNETs",
+      "source_type": "Primary issuer/GlobeNewswire release syndicated byYahooFinance",
+      "url": "https://finance.yahoo.com/news/neutrolis-licenses-university-illinois-chicago-130000008.html",
+      "publication_date": "2024-12-23",
+      "access_scope": "Full syndicated company announcement retrieved with Firecrawl. Underlying license agreement and current patent-title/claim status were not read.",
+      "supporting_paraphrase": "Neutrolis announces an exclusiveUIClicense for topical ocularDNase use and describesL304, a proprietaryDNase program. This establishes named commercial-interest/license context at the announcement date.",
+      "limits": [
+        "Company assertion, not reviewed agreement",
+        "Current2026license continuation/territories/offered terms not verified",
+        "L304not proven equivalent to pilot dornase article",
+        "Other claimed trials not independently audited or pooled"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ]
+    },
+    {
+      "id": "R26-L06",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Final targeted ordinary HTTPS API verification on the access date; exact timestamp was not retained.",
+      "title": "NCT02193490 official trial status, endpoints and posted results",
+      "source_type": "Primary ClinicalTrials.gov registry and structured results",
+      "url": "https://clinicaltrials.gov/study/NCT02193490",
+      "urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT02193490"
+      ],
+      "publication_date": "2014-07-17",
+      "publication_date_meaning": "First registry posting",
+      "last_update_posted": "2020-01-18",
+      "results_first_posted": "2019-11-05",
+      "access_scope": "OfficialAPIread; status, actual enrollment, dates, all registered primary outcomes and the first posted result outcome were inspected. This is not a patient-level data audit.",
+      "supporting_paraphrase": "Registry lists47actual participants; primary staining andOSDIoutcomes at8weeks; completion2017-10-11; termination because sponsor ceased sponsorship citing slow accrual.",
+      "current_registry_state": "TERMINATED",
+      "termination_is_verified_safety_or_efficacy_failure": false,
+      "limits": [
+        "Status verifiedJanuary2020; a2026fetch is not proof of a newly updated program",
+        "Same cohort asL04",
+        "No safety/efficacy-stop inference from stated accrual reason"
+      ],
+      "candidate_ids": [
+        "R26-LOC-02"
+      ]
+    },
+    {
+      "id": "R26-L07",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Amlexanox Enhances Premature Termination Codon Read-Through inCOL7A1 and Expression of Full Length TypeVII Collagen: Potential Therapy for Recessive Dystrophic Epidermolysis Bullosa",
+      "source_type": "Primary peer-reviewed patient-derived-cell/organotypic study",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022202X17315506",
+      "doi": "10.1016/j.jid.2017.05.011",
+      "pmid": "28549954",
+      "publication_date": "2017-09-01",
+      "publication_date_meaning": "Issue date; exact online publication date not retained",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "Patient material from14people represented12premature-stop mutations;8of12mutation contexts responded with full-length collagenVII. Expression/secretion and junctional localization support plausibility but do not prove useful mechanical skin function.",
+      "denominators": {
+        "patient_material_donors": 14,
+        "different_ptc_mutations": 12,
+        "responsive_mutation_contexts": 8,
+        "verified_clinically_treated_participants": 0
+      },
+      "limits": [
+        "Allele/cell-background dependence",
+        "Primary/immortalized/carcinoma-derived backgrounds differ",
+        "Protein localization is not mechanical adhesion or human wound healing",
+        "No qualified topical clinical article/exposure window",
+        "No trial outcome inferred"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ]
+    },
+    {
+      "id": "R26-L08",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Secondary mirror ofCTRI/2021/04/033024 amlexanoxRDEB study",
+      "source_type": "Secondary trial-registry mirror",
+      "url": "https://trial.medpath.com/clinical-trial/88abd748b1f68a60/ctri/2021/04/033024-amlexanox-wound-healing-collagen7-dystrophic-epidermolysis-bullosa",
+      "publication_date": null,
+      "last_updated": "2021-04-20",
+      "access_scope": "Full secondary mirror page read with Firecrawl. PrimaryCTRIrecord body was not recovered.",
+      "supporting_paraphrase": "Stale mirror describes a planned15-person open-label study and a not-yet-recruiting label. It supplies an exact registry identifier, not current status or results.",
+      "limits": [
+        "Secondary and stale",
+        "Planned15notactual enrollment or treated count",
+        "No human outcomes verified",
+        "Currentstatus unresolved"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ]
+    },
+    {
+      "id": "R26-L09",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "EBResearchNetwork clinical-trial database search and retrieval limitation",
+      "source_type": "Secondary disease-network database; search-index snippet plus page retrieval",
+      "url": "https://www.eb-researchnetwork.org/clinical-translation/clinical-trials-database/",
+      "query": "amlexanox RDEB clinical trial results terminated CTRI/2021/04/033024",
+      "query_note": "Normalized search-topic description; the exact original query string was not retained in the condensed handoff.",
+      "publication_date": null,
+      "access_scope": "Search-index snippet suggested a closed/terminated label. Retrieved page did not expose the matching amlexanoxrow; no corresponding primary registry status was verified.",
+      "supporting_paraphrase": "Secondary status signals conflict; preserve an access gap instead of treating either as a current verified result.",
+      "limits": [
+        "Snippet-only candidate-specific status",
+        "No primaryCTRIbody",
+        "No actual participant count, safety result or efficacy result"
+      ],
+      "candidate_ids": [
+        "R26-LOC-03"
+      ]
+    },
+    {
+      "id": "R26-L10",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Healing Diabetic Foot Ulcers with Topical Timolol Improves Healed Epithelial Integrity",
+      "source_type": "Primary peer-reviewed post-hoc clinical analysis; institutional publicPDF",
+      "url": "https://escholarship.org/content/qt85h0f5w9/qt85h0f5w9.pdf",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+        "https://doi.org/10.1159/000545357"
+      ],
+      "doi": "10.1159/000545357",
+      "pmid": "40159333",
+      "publication_date": "2025-03-28",
+      "access_scope": "Full embedded2025paper body retrieved with Firecrawl. Repository cover instead describes a2024conference item; article-body identity/DOIwere preserved. No second independent cohort inferred.",
+      "supporting_paraphrase": "Post-hoc20selected participants,10per arm, came from28healers in the parent program. LowerTEWLsupports a barrier-measure signal, but there was no significant recurrence difference over one year.",
+      "denominators": {
+        "selected_people": 20,
+        "selected_per_arm": 10,
+        "parent_healed_subset": 28,
+        "men": 19
+      },
+      "limits": [
+        "Post-randomization selection on healing",
+        "Repeat readings/visits are not independent people",
+        "Variable visit denominators",
+        "No verified recurrence benefit",
+        "Repository wrapper/body mismatch"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1159/000545357",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2026-07-07",
+        "updated_precision": "date",
+        "interpretation": "No indexedOAlocation; institutional full article body independently accessible."
+      },
+      "candidate_ids": [
+        "R26-LOC-04"
+      ]
+    },
+    {
+      "id": "R26-L11",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "BAART-DFU,NCT03282981 official registry/results",
+      "source_type": "Primary ClinicalTrials.gov registry and posted structured results",
+      "url": "https://clinicaltrials.gov/study/NCT03282981",
+      "urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT03282981"
+      ],
+      "publication_date": null,
+      "primary_completion_date": "2023-12-01",
+      "completion_date": "2024-04-30",
+      "results_first_posted": "2025-04-25",
+      "last_update_posted": "2025-05-08",
+      "access_scope": "OfficialAPIreturned protocol and result data; enrollment, participant flow, primary closure and secondary time-to-closure fields inspected. Root independently reconfirmed pivotal fields. FirecrawlHTMLpage had only a glossary shell, not full results.",
+      "supporting_paraphrase": "48randomized:21timolol,27placebo. Primary12-week closure was8/21versus7/27; later time-to-closure window31weeks. Three placebo participants did not complete.",
+      "denominators": {
+        "randomized": 48,
+        "timolol": 21,
+        "placebo": 27,
+        "timolol_primary_healed": 8,
+        "placebo_primary_healed": 7,
+        "timolol_completed": 21,
+        "placebo_completed": 24
+      },
+      "limits": [
+        "Same parent cohort asL10/L12",
+        "Registry12/31week labels differ from conference14/15/30",
+        "Primary closure counts do not establish convincing superiority",
+        "Analysis/censoring and administrative-label differences remain unresolved"
+      ],
+      "candidate_ids": [
+        "R26-LOC-04"
+      ]
+    },
+    {
+      "id": "R26-L12",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Beta-adrenergic Antagonist for the Healing of Chronic Diabetic Foot,SAWC2025 abstractCR017",
+      "source_type": "Primary investigator conference abstract",
+      "url": "https://www.hmpgloballearningnetwork.com/node/337711",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "access_scope": "Full web conference abstract read with Firecrawl; no underlying participant dataset.",
+      "supporting_paraphrase": "Same48randomized program. Describes primaryweek14, reports earlyweek15and laterweek30. Earlyp=.77; later unadjusted logrankp=.081and adjustedHR2.88,p=.027. Printed7/27percentage is inconsistent.",
+      "limits": [
+        "Conference report, not independent replication",
+        "108initiallyenrolled/screened is not48randomized",
+        "12vs14/15and31vs30timing conflict with official registry",
+        "7/27printed33percent",
+        "Adjusted and unadjusted analyses cannot be substituted"
+      ],
+      "candidate_ids": [
+        "R26-LOC-04"
+      ]
+    },
+    {
+      "id": "R26-L13",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Primary glafenine/SLC4A11 folding and function study",
+      "source_type": "Primary peer-reviewed preclinical cell study",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2474986",
+      "doi": "10.1167/iovs.15-17802",
+      "publication_date": "2015-12",
+      "publication_date_precision": "month",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "Glafenine improved selected mutantSLC4A11trafficking and water-flux readouts in transfected cells. The paper discusses serious historical systemic safety liabilities.",
+      "limits": [
+        "Not patient corneal endothelial pump/vision function",
+        "Three-to-five independent experiments in portions of the paper; many cells are not donors",
+        "Vehicle effects complicate transfer to an ocular product",
+        "No qualified ocular article or exposure window"
+      ],
+      "scout_ids": [
+        "R26-LOC-S01"
+      ]
+    },
+    {
+      "id": "R26-L14",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Pirfenidone gel comparison in pediatric hypertrophic burn scars",
+      "source_type": "Primary clinical-paper publisher abstract; full text not recovered",
+      "url": "https://doi.org/10.1097/SAP.0b013e31821b6d08",
+      "doi": "10.1097/SAP.0b013e31821b6d08",
+      "publication_date": "2012-01",
+      "publication_date_precision": "month",
+      "access_scope": "DOIresolved to anOvidpublisher abstract. Firecrawlpaper-read returned no passages; full methods/body were not obtained.",
+      "supporting_paraphrase": "Abstract describes33pirfenidone-treated children and30pressure-therapy controls and improved scar-score measures.",
+      "limits": [
+        "Allocation/blinding details not independently inspected",
+        "No claim of randomized efficacy or functional mobility benefit",
+        "No full safety, attrition or product-rights review"
+      ],
+      "unpaywall": {
+        "queried_doi": "10.1097/SAP.0b013e31821b6d08",
+        "is_oa": false,
+        "oa_status": "closed",
+        "best_oa_location": null,
+        "oa_locations": [],
+        "version": null,
+        "license": null,
+        "updated": "2025-05-22",
+        "updated_precision": "date",
+        "interpretation": "NoindexedOAlocationwasreturned; this does not prove no lawful copy exists."
+      },
+      "scout_ids": [
+        "R26-LOC-S02"
+      ]
+    },
+    {
+      "id": "R26-L15",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "2025primary tideglusib versusMTApulp-capping study",
+      "source_type": "Primary peer-reviewed animal study",
+      "url": "https://link.springer.com/article/10.1186/s12903-025-06546-6",
+      "doi": "10.1186/s12903-025-06546-6",
+      "publication_date": "2025-07-19",
+      "access_scope": "Full publisher article body retrieved with Firecrawl.",
+      "supporting_paraphrase": "56teeth in2dogs; inflammatory/structural findings were unfavorable relative toMTAand the reported hard-tissue comparison was nonsignificant,p=.157.",
+      "denominators": {
+        "dogs": 2,
+        "teeth": 56
+      },
+      "limits": [
+        "Severe animal-level clustering",
+        "Teeth are not independent animals",
+        "Limited study does not establish universal target failure",
+        "No verified human useful-function product"
+      ],
+      "scout_ids": [
+        "R26-LOC-S03"
+      ]
+    },
+    {
+      "id": "R26-L16",
+      "accessed_on": "2026-11-08",
+      "accessed_at_utc": null,
+      "access_time_note": "Exact original retrieval time was not retained in the condensed research handoff; the date and scope are retained.",
+      "title": "Kitoscell brand-page retrieval quality limitation",
+      "source_type": "Brand-domain web page with unreliable retrieved content",
+      "url": "https://www.kitoscell.com",
+      "publication_date": null,
+      "access_scope": "Firecrawlpage returned branding plus unrelated casino material. Not relied upon for drug availability, approval, ownership or current commercial terms.",
+      "supporting_paraphrase": "The retrieval was unsuitable for validating current product status.",
+      "limits": [
+        "Page quality/possible contamination issue",
+        "No availability or regulatory claim inferred",
+        "No attempt to purchase or contact"
+      ],
+      "scout_ids": [
+        "R26-LOC-S02"
+      ]
+    }
+  ]
+}

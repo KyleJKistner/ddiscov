@@ -1,0 +1,1036 @@
+{
+  "schema_version": "ddiscov.round26.functional_retrieval_log.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "baseline_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "scope": "Six broad functional-rescue discovery searches, targeted primary/rights/comparator follow-up, six normalized-DOI access checks, source-identity duplicate adjudication and bounded comparison with existing scopes. No further broad discovery after the three-plus-three decision.",
+  "privacy_and_copyright": "Original paraphrases and locatable source metadata only. Configured contact details, email-bearing API URLs, private session/conversation/job identifiers and raw third-party full text are omitted.",
+  "operation_count": 46,
+  "counting_note": "Operations are logical retrieval/audit entries, not a claim about billable calls, independent studies or unique experimental cohorts.",
+  "operations": [
+    {
+      "id": "R26-F-R001",
+      "operation": "Firecrawl paper search",
+      "access_date": "2026-11-08",
+      "query": "Small molecule restores muscle force in patient-derived myotubes or animal models congenital myopathy muscular dystrophy 2024 2025 2026",
+      "outcome": "Muscle-function discovery identified PSB-KD107 and CHP among other already known or lower-priority hits.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R002",
+      "operation": "Firecrawl paper search",
+      "access_date": "2026-11-08",
+      "query": "Pharmacological rescue kidney function genetic disease nephropathy patient derived organoid small molecule 2024 2025 2026",
+      "outcome": "Renal discovery checked the inherited exclusions; BRD4780/AGN192403 MUC1/UMOD uses were already present and were not counted again.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R003",
+      "operation": "Firecrawl web search",
+      "access_date": "2026-11-08",
+      "query": "\"2026\" \"restores\" \"motor function\" \"compound\"",
+      "outcome": "Broad web results included already screened A36 and unrelated/less defined programs; no extra candidate credited from a headline.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R004",
+      "operation": "Firecrawl web search",
+      "access_date": "2026-11-08",
+      "query": "\"2025\" \"cardiac\" \"contractility\" \"small molecule\" \"mutation\"",
+      "outcome": "Cardiac search largely returned established/sponsor cardiac programs; no distinct useful obtainable contribution was established in this pass.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R005",
+      "operation": "Firecrawl paper search",
+      "access_date": "2026-11-08",
+      "query": "Defined small molecule restores locomotor function peripheral neuropathy remyelination mutant mice patient derived neurons therapeutic rescue",
+      "outcome": "Neurological discovery supplied defined-asset leads and cellular-only scouts; selected candidates were then read in primary full text.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R006",
+      "operation": "Firecrawl paper search",
+      "access_date": "2026-11-08",
+      "query": "small molecule protein function rescue rare neurological disorder adult mutant mouse survival movement 2025 2026",
+      "outcome": "Rare-neurological discovery selected FD peptides, CuNC, GBT601/PT2399 and nifuroxazide for targeted primary review.",
+      "limits": "Discovery only; results were not treated as efficacy evidence without a primary read."
+    },
+    {
+      "id": "R26-F-R007",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"PSB-KD107\" patent license Duchenne",
+      "outcome": "No exact available license or decisive compound/use family established; supplier identity followed."
+    },
+    {
+      "id": "R26-F-R008",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"Cyclo\" \"His-Pro\" muscular dystrophy NovMetaPharma patent",
+      "outcome": "Sponsor involvement and a muscle-use patent identified; primary paper and patent inspected."
+    },
+    {
+      "id": "R26-F-R009",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"FD-2\" \"Pgk1\" patent ALS",
+      "outcome": "Initial exact-name rights search was incomplete; later inventor/family follow-up recovered the named peptide patent."
+    },
+    {
+      "id": "R26-F-R010",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"copper nanoclusters\" \"Menkes\" clinical patent WO2022238656",
+      "outcome": "Exact copper-nanocluster patent family identified and followed."
+    },
+    {
+      "id": "R26-F-R011",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"GBT601\" \"discontinued\" Pfizer",
+      "outcome": "Did not substantiate exact GBT601 discontinuation; nearby program termination was not transferred to this asset."
+    },
+    {
+      "id": "R26-F-R012",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"PSB-KD107\" GPR18 Cayman patent",
+      "outcome": "Historical supplier/compound identity reinforced; no commercial right inferred."
+    },
+    {
+      "id": "R26-F-R013",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"Huai-Jen Tsai\" \"phosphoglycerate\" patent",
+      "outcome": "Inventor index enabled primary peptide-family follow-up; older full-length Pgk1 claims were kept distinct."
+    },
+    {
+      "id": "R26-F-R014",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"copper histidinate\" FDA approved 2026 Zycubo",
+      "outcome": "Official FDA approval announcement identified and read."
+    },
+    {
+      "id": "R26-F-R015",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"Menkes\" \"EU/3/22/2711\"",
+      "outcome": "Orphan-designation context surfaced; no independent FDA designation identity or available rights established."
+    },
+    {
+      "id": "R26-F-R016",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"WO2025127437A1\"",
+      "outcome": "Novmetapharma muscle-use publication identified and read."
+    },
+    {
+      "id": "R26-F-R017",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"PSB-KD107\" Cayman Chemical",
+      "outcome": "Exact Cayman catalog item 31393 surfaced; direct page then returned HTTP 403."
+    },
+    {
+      "id": "R26-F-R018",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"PSB-KD107\" \"patent\"",
+      "outcome": "No decisive exact family/available commercial contribution established in this bounded search; absence of a hit is not FTO."
+    },
+    {
+      "id": "R26-F-R019",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"GPR18\" \"Dumont\" patent",
+      "outcome": "Target/author rights context checked; no exact PSB commercial clearance established."
+    },
+    {
+      "id": "R26-F-R020",
+      "operation": "Firecrawl targeted web search",
+      "access_date": "2026-11-08",
+      "query": "\"GBT601\" \"Pfizer\" \"2026\" trial",
+      "outcome": "Current competing-program context checked; exact current trial status remained unresolved and was not asserted."
+    },
+    {
+      "id": "R26-F-R021",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.3389/fcell.2023.1187253",
+      "source_ids": [
+        "R26-F01"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R022",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+      "resolved_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1187253/pdf",
+      "source_ids": [
+        "R26-F01"
+      ],
+      "http_status": 200,
+      "access_scope": "Full primary paper PDF parsed; page count 13/13.",
+      "parsed_pages": 13,
+      "total_pages": 13,
+      "outcome": "Defined PSB-KD107 improved mdx muscle force; human donor observations concern fusion and include two DMD plus one Becker line.",
+      "limits": "One preclinical lineage; no mature human force, current-care incremental benefit or clinical efficacy."
+    },
+    {
+      "id": "R26-F-R023",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.1002/advs.202305927",
+      "source_ids": [
+        "R26-F07"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R024",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+      "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+      "source_ids": [
+        "R26-F07"
+      ],
+      "http_status": 200,
+      "access_scope": "Full primary paper PDF parsed; page count 14/14.",
+      "parsed_pages": 14,
+      "total_pages": 14,
+      "outcome": "CHP improves selected mouse muscle-function outcomes; later-start and preventive cohorts are distinct.",
+      "limits": "No endurance/eccentric-injury protection or CK improvement; sponsor-controlled development context."
+    },
+    {
+      "id": "R26-F-R025",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.1016/j.neurot.2025.e00806",
+      "source_ids": [
+        "R26-F02"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R026",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "resolved_url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+      "source_ids": [
+        "R26-F02"
+      ],
+      "http_status": 200,
+      "access_scope": "Full primary paper PDF parsed; page count 16/16.",
+      "parsed_pages": 16,
+      "total_pages": 16,
+      "outcome": "FD peptides improve early SOD1-model motor outcomes/time to humane endpoint; FD-2 selected, FD-1 comparator.",
+      "limits": "Pre-symptomatic start, no patient-derived mature functional system or measured PK; repeat measurements are not animals."
+    },
+    {
+      "id": "R26-F-R027",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.1126/sciadv.aeg6972",
+      "source_ids": [
+        "R26-F03"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R028",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://doi.org/10.1126/sciadv.aeg6972",
+      "resolved_url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+      "source_ids": [
+        "R26-F03"
+      ],
+      "http_status": 200,
+      "access_scope": "Full publisher article HTML after following the DOI landing location.",
+      "parsed_pages": null,
+      "total_pages": null,
+      "outcome": "Defined CuNC formulations improve early Mo-blo survival and selected later observations.",
+      "limits": "Day-50 boundary, disease-control attrition, survivor selection, residual stumbles and age-confounded safety comparisons limit brain-restoration claims."
+    },
+    {
+      "id": "R26-F-R029",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.1073/pnas.2618654123",
+      "source_ids": [
+        "R26-F09"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R030",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+      "resolved_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+      "source_ids": [
+        "R26-F09"
+      ],
+      "http_status": 200,
+      "access_scope": "Full primary paper PDF parsed; page count 8/8.",
+      "parsed_pages": 8,
+      "total_pages": 8,
+      "outcome": "GBT601/PT2399 produces meaningful late-treatment Ndufs4-model functional/survival benefit.",
+      "limits": "Existing industry/hypoxia patent lineage and systemic combination burden; preprint is the same study; no exact-product discontinuation inference."
+    },
+    {
+      "id": "R26-F-R031",
+      "operation": "Normalized-DOI Unpaywall lookup",
+      "access_date": "2026-11-08",
+      "doi": "10.1093/brain/awae348",
+      "source_ids": [
+        "R26-F10"
+      ],
+      "http_status": 200,
+      "outcome": "Open-access metadata recovered; every returned location, version, license and null is preserved below. Actual chosen location was followed via Firecrawl.",
+      "personal_configuration_omitted": true
+    },
+    {
+      "id": "R26-F-R032",
+      "operation": "Firecrawl primary full-text retrieval",
+      "access_date": "2026-11-08",
+      "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+      "resolved_url": "https://watermark02.silverchair.com/awae348.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmIwggJeBgkqhkiG9w0BBwagggJPMIICSwIBADCCAkQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMo56e1hv0TjzkDeVOAgEQgIICFZ-QfjfhjijEYOWDoys8k82oCtQ3dU7b-NLIBWaprNY_uKfJWYVxhLK9emJaSgclhNPVZ3Fc6NLzhXKjEmWt72qmnBAfJiyP_2pR2y-a4dWPXH_zMepqBJSeQtZ7l0RVs9bgocsiwni_P83iv_5Ur7pT9gxIBmQ_0BdFvrYhSUlC0xW47B5xpcxLa4gmYM1AiS8COYD0cnaa7aTXZY1qqPcEcEP1Ls2xIHGUJTdomXltbhGW8ixcrbmePHLEw-6AtLxOSgeNCp-CKOhZ3oXA63KwoRzkXOov94bXIt9k55_Jn5I64eFvbdyIUpM3jFRUio6QJecrRRL025MOUT6zBP8jxVxmfMqEHBQIlpZT9sRM9XSlrdcQQCY-6uxkKR7eaIsmkj3W0LRgSDGoHPfngFYoKNiY1drb36VZ_CqKn_Ej8zQ3_fu3zHyjsoPJmkaK60Wn71xI1XEbYbgsNa55WOAQ0cjC0ohodjkz2tKwVchue92yNykIzuv5ccnNfTa7O6S3HY-_9kQjwxGeFPM8a1d4eU5dZJZi9lLQkDszrYBKnhg_Af2sD8aTAG_whQmIYCm0L1QRAeZxnj1IcGBm8YRmOZDGtNxnpxuysWqMplT7BCatAp5EZOu-6RN3oY6savmcJ3rXiHXiCZw7cB6-j2NJ-APyLOkmx9vkgkaZSttQVrILEYp1022m23wVQKORnF97xqA9",
+      "source_ids": [
+        "R26-F10"
+      ],
+      "http_status": 200,
+      "access_scope": "Full primary paper PDF parsed; page count 15/15.",
+      "parsed_pages": 15,
+      "total_pages": 15,
+      "outcome": "Nifuroxazide improves selected patient-cell mitochondrial and stress-survival observations in CHCHD10 disease models.",
+      "limits": "No organism motor/mature neuromuscular rescue and no restoration of MICOS-complex stability; patent disclosed."
+    },
+    {
+      "id": "R26-F-R033",
+      "operation": "Firecrawl exact primary-page follow-up",
+      "access_date": "2026-11-08",
+      "url": "https://patents.google.com/patent/US20240327462A1/en",
+      "source_ids": [
+        "R26-F04"
+      ],
+      "http_status": 200,
+      "access_scope": "Full public patent transcription, claims, examples, assignee and family metadata.",
+      "outcome": "FD peptide names, short-peptide composition/use claims and Mackay Medical College/Fu Jen Catholic University appear in the record.",
+      "limits": "Indexed pending status and assignee data are not verified official current prosecution/title. Exact article-to-claim chemical form remains unresolved. Patent experiments are same lineage, not independent replication."
+    },
+    {
+      "id": "R26-F-R034",
+      "operation": "Firecrawl exact primary-page follow-up",
+      "access_date": "2026-11-08",
+      "url": "https://patents.google.com/patent/WO2022238656A1/en",
+      "source_ids": [
+        "R26-F05"
+      ],
+      "http_status": 200,
+      "access_scope": "Full public patent transcription, claims and indexed family/assignee information.",
+      "outcome": "The record identifies University of Lorraine and CHU Nancy and a defined copper nanocluster formulation/use family.",
+      "limits": "WO ceased status does not prove abandonment of national rights; no available license, current official title or FTO established."
+    },
+    {
+      "id": "R26-F-R035",
+      "operation": "Firecrawl exact primary-page follow-up",
+      "access_date": "2026-11-08",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-children-menkes-disease",
+      "source_ids": [
+        "R26-F06"
+      ],
+      "http_status": 200,
+      "access_scope": "Full FDA announcement.",
+      "outcome": "Zycubo/copper histidinate is approved for pediatric Menkes; FDA describes two open-label single-arm studies with 66 treated and 17 untreated contemporary external controls overall.",
+      "limits": "Not randomized evidence, not a CuNC result and not proof of neurological equivalence. FDA source date is Jan 12; a Jan 13 sponsor release is not substituted."
+    },
+    {
+      "id": "R26-F-R036",
+      "operation": "Firecrawl exact primary-page follow-up",
+      "access_date": "2026-11-08",
+      "url": "https://patents.google.com/patent/WO2025127437A1/en",
+      "source_ids": [
+        "R26-F08"
+      ],
+      "http_status": 200,
+      "access_scope": "Full public patent transcription and indexed assignee information.",
+      "outcome": "Novmetapharma is the indexed assignee; application addresses CHP-containing muscle-function/disease compositions.",
+      "limits": "A published application is not a granted/enforceable-rights determination, license offer or exact future product specification."
+    },
+    {
+      "id": "R26-F-R037",
+      "operation": "Firecrawl exact primary-page follow-up",
+      "access_date": "2026-11-08",
+      "url": "https://www.caymanchem.com/product/31393/psb-kd107",
+      "source_ids": [
+        "R26-F11"
+      ],
+      "http_status": 403,
+      "access_scope": "Exact primary supplier result recovered in Firecrawl search; direct live page scrape returned Forbidden.",
+      "outcome": "The exact item name and CAS identifier surfaced in search; the research paper independently names Cayman as the historical supplier.",
+      "limits": "No live stock, price, actual offer, lot quality or commercial-use permission established."
+    },
+    {
+      "id": "R26-F-R038",
+      "operation": "Firecrawl inventor-index discovery",
+      "access_date": "2026-11-08",
+      "url": "https://patents.justia.com/inventor/huai-jen-tsai",
+      "outcome": "Located related Pgk1/short-peptide patent publications for direct primary transcription follow-up. Index not used as the final exact-claim or current-title source.",
+      "source_ids": [
+        "R26-F04"
+      ]
+    },
+    {
+      "id": "R26-F-R039",
+      "operation": "Local pinned corpus and historical report audit",
+      "access_date": "2026-11-08",
+      "repository_paths": [
+        "research/rounds/round26/novelty-audit.json",
+        "discovery/component-proposals.csv",
+        "research/portfolio-register.json",
+        "research/screen-index.md"
+      ],
+      "source_ids": [
+        "R26-F12"
+      ],
+      "outcome": "All selected aliases/DOIs checked across all 424 extracted baseline files and 13 complete recovered unlettered/B–M reports. Exact-asset hits were absent; Pgk1 proteomics rows and prior Menkes P010 were adjudicated separately.",
+      "limits": "Selected-alias audit is not exhaustive semantic novelty or patentability. Screens N–Q remain unrecovered."
+    },
+    {
+      "id": "R26-F-R040",
+      "operation": "Local inherited comparison scope read",
+      "access_date": "2026-11-08",
+      "repository_paths": [
+        "research/rounds/round25/apr246-advancement.md",
+        "decisions/current-shortlist.md",
+        "research/rounds/round8/blu3797-qualification-package.md"
+      ],
+      "source_ids": [
+        "R26-F13"
+      ],
+      "outcome": "Compared new bounded information questions with APR same-disease human/local-article scope and BLU post-deficit human-force qualification. Historical estimates were not treated as offers or prices."
+    },
+    {
+      "id": "R26-F-R041",
+      "operation": "Firecrawl P010 primary recheck",
+      "access_date": "2026-11-08",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483558/",
+      "source_ids": [
+        "R26-F14"
+      ],
+      "http_status": 200,
+      "access_scope": "Full public PMC article retrieved; used here only to identify the exact prior P010 article and distinguish it from CuNC. No new clinical efficacy adjudication or patient count is added.",
+      "outcome": "Historical human paper uses elesclomol-copper, a different exact article from CuNC; no new CuNC patients credited."
+    },
+    {
+      "id": "R26-F-R042",
+      "operation": "Firecrawl P010 source attempt",
+      "access_date": "2026-11-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40023603/",
+      "source_ids": [
+        "R26-F15"
+      ],
+      "outcome": "Direct scrape failed across the available engines during closure.",
+      "limits": "A failed route was not recorded as full-text access."
+    },
+    {
+      "id": "R26-F-R043",
+      "operation": "Firecrawl P010 identifier search",
+      "access_date": "2026-11-08",
+      "query": "\"40023603\"",
+      "source_ids": [
+        "R26-F15"
+      ],
+      "outcome": "Exact primary PMID result plus unrelated product-number hits; primary result used only for identity/alternate-location discovery.",
+      "feedback": "Partial feedback submitted; irrelevant product matches identified."
+    },
+    {
+      "id": "R26-F-R044",
+      "operation": "Firecrawl P010 alternate source attempt",
+      "access_date": "2026-11-08",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40023603/",
+      "source_ids": [
+        "R26-F15"
+      ],
+      "outcome": "PMID alias route failed; no body access credited."
+    },
+    {
+      "id": "R26-F-R045",
+      "operation": "Firecrawl P010 exact-title search",
+      "access_date": "2026-11-08",
+      "query": "\"Elesclomol rescues mitochondrial copper deficiency\"",
+      "source_ids": [
+        "R26-F15"
+      ],
+      "outcome": "Publisher routes recovered after failed PubMed and PMC-alias routes.",
+      "feedback": "Good feedback submitted for the exact primary identity and useful publisher alternatives."
+    },
+    {
+      "id": "R26-F-R046",
+      "operation": "Firecrawl P010 publisher preview",
+      "access_date": "2026-11-08",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022356524301971",
+      "resolved_url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524301971",
+      "source_ids": [
+        "R26-F15"
+      ],
+      "http_status": 200,
+      "access_scope": "PubMed direct scrape and PMC PMID alias failed during closure; an exact-title Firecrawl search located the publisher. Public publisher preview supplied article identity, abstract/section excerpts and the conflict-of-interest disclosure. Full paper and supplemental raw data were not inspected in this closure.",
+      "outcome": "Public preview confirms elesclomol-copper identity and Texas A&M–Engrail disclosure. The exact CuNC formulation is different.",
+      "limits": "Publisher preview, not complete PDF/raw-data access; historical disclosure is not current licensing availability."
+    }
+  ],
+  "unpaywall": {
+    "workflow": "Normalized DOI GET requests using the configured Unpaywall contact, followed by the actual returned public PDF or landing location. The configured contact and API query URLs are not retained.",
+    "technical_fallback": "The initial local requests-module attempt could not run because requests was unavailable; standard-library urllib was used successfully. This was a technical dependency fallback, not an access-control bypass.",
+    "http_200_count": 6,
+    "actual_followthrough_success_count": 6,
+    "interpretation": "OA status/version/license describes access metadata. It does not validate efficacy, confer therapeutic commercial rights, or make two versions independent studies. CuNC best url_for_pdf is null, so its landing page was followed. Nifuroxazide best license is null and remains null. The GBT preprint metadata acceptedVersion label does not convert it into a separate peer-reviewed study.",
+    "records": [
+      {
+        "source_id": "R26-F01",
+        "candidate": "PSB-KD107-DMD",
+        "doi": "10.3389/fcell.2023.1187253",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Gpr18 agonist dampens inflammation, enhances myogenesis, and restores muscle function in models of Duchenne muscular dystrophy",
+        "published_date": "2023-08-14",
+        "journal_name": "Frontiers in Cell and Developmental Biology",
+        "best_oa_location": {
+          "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+            "url_for_pdf": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+            "url_for_landing_page": "https://doi.org/10.3389/fcell.2023.1187253",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10461444/pdf/fcell-11-1187253.pdf",
+            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/10461444",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doaj.org/article/8f034e07d71a4520a1d7c5f0f6a8741a",
+            "version": "submittedVersion",
+            "license": "cc-by-sa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1187253/pdf",
+          "http_status": 200,
+          "resolved_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1187253/pdf",
+          "content_type": "application/pdf",
+          "parsed_pages": 13,
+          "total_pages": 13
+        }
+      },
+      {
+        "source_id": "R26-F07",
+        "candidate": "CHP-DMD",
+        "doi": "10.1002/advs.202305927",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Cyclo His‐Pro Attenuates Muscle Degeneration in Murine Myopathy Models",
+        "published_date": "2024-05-10",
+        "journal_name": "Advanced Science",
+        "best_oa_location": {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+            "url_for_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+            "url_for_landing_page": "https://doi.org/10.1002/advs.202305927",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267275/pdf/ADVS-11-2305927.pdf",
+            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/11267275",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+            "url_for_pdf": "https://serval.unil.ch/resource/serval:BIB_0EBEAE2F135F.P001/REF.pdf",
+            "url_for_landing_page": "https://serval.unil.ch/notice/serval:BIB_0EBEAE2F135F",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://infoscience.epfl.ch/handle/20.500.14299/208305",
+            "version": "submittedVersion",
+            "license": "cc-by-nc-nd",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://iris.unil.ch/handle/iris/94695",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://iris.unil.ch/handle/iris/94695",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "http_status": 200,
+          "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202305927",
+          "content_type": "application/pdf",
+          "parsed_pages": 14,
+          "total_pages": 14
+        }
+      },
+      {
+        "source_id": "R26-F02",
+        "candidate": "FD1-FD2-ALS",
+        "doi": "10.1016/j.neurot.2025.e00806",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "A 16-amino acid peptide delays the progression of motor neuron degeneration and pathogenic symptoms in ALS models",
+        "published_date": "2025-11-26",
+        "journal_name": "Neurotherapeutics",
+        "best_oa_location": {
+          "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+            "url_for_pdf": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+            "url_for_landing_page": "https://doi.org/10.1016/j.neurot.2025.e00806",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/pdf/main.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doaj.org/article/98a7a479fda545d1b5b6ed2607180ff4",
+            "version": "submittedVersion",
+            "license": "cc-by-sa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "http_status": 200,
+          "resolved_url": "https://www.neurotherapeuticsjournal.org/article/S1878-7479(25)00284-3/pdf",
+          "content_type": "application/pdf",
+          "parsed_pages": 16,
+          "total_pages": 16
+        }
+      },
+      {
+        "source_id": "R26-F03",
+        "candidate": "CuNC-Menkes",
+        "doi": "10.1126/sciadv.aeg6972",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "gold",
+        "title": "Restoring brain functions in the Mo-blo mouse model of Menkes disease with copper nanoclusters",
+        "published_date": "2026-09-30",
+        "journal_name": "Science Advances",
+        "best_oa_location": {
+          "url": "https://doi.org/10.1126/sciadv.aeg6972",
+          "url_for_pdf": null,
+          "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://doi.org/10.1126/sciadv.aeg6972",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://doi.org/10.1126/sciadv.aeg6972",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/pdf/sciadv.aeg6972.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13626065/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://hal.science/hal-05778254",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://hal.science/hal-05778254",
+            "version": "submittedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://doi.org/10.1126/sciadv.aeg6972",
+          "http_status": 200,
+          "resolved_url": "https://www.science.org/doi/10.1126/sciadv.aeg6972",
+          "content_type": "text/html;charset=UTF-8",
+          "parsed_pages": null,
+          "total_pages": null
+        }
+      },
+      {
+        "source_id": "R26-F09",
+        "candidate": "GBT601-Leigh",
+        "doi": "10.1073/pnas.2618654123",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "title": "A second-generation “hypoxia in a pill” rescues neurodegenerative phenotypes across distinct mouse models",
+        "published_date": "2026-10-09",
+        "journal_name": "Proceedings of the National Academy of Sciences",
+        "best_oa_location": {
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+            "url_for_pdf": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+            "url_for_landing_page": "https://doi.org/10.1073/pnas.2618654123",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+            "url_for_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.06.30.734089.full.pdf",
+            "url_for_landing_page": "https://doi.org/10.64898/2026.06.30.734089",
+            "version": "acceptedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+            "url_for_pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/pdf/pnas.202618654.pdf",
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+            "url_for_pdf": null,
+            "url_for_landing_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13345306/",
+            "version": "publishedVersion",
+            "license": "cc-by",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "http_status": 200,
+          "resolved_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2618654123",
+          "content_type": "application/pdf",
+          "parsed_pages": 8,
+          "total_pages": 8
+        }
+      },
+      {
+        "source_id": "R26-F10",
+        "candidate": "Nifuroxazide-CHCHD10",
+        "doi": "10.1093/brain/awae348",
+        "access_date": "2026-11-08",
+        "http_status": 200,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "title": "Nifuroxazide rescues the deleterious effects due to CHCHD10-associated MICOS defects in disease models",
+        "published_date": "2024-10-30",
+        "journal_name": "Brain",
+        "best_oa_location": {
+          "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+          "version": "publishedVersion",
+          "license": null,
+          "host_type": "publisher",
+          "is_best": true,
+          "evidence": "deprecated",
+          "updated": "deprecated"
+        },
+        "oa_locations": [
+          {
+            "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+            "url_for_pdf": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+            "url_for_landing_page": "https://doi.org/10.1093/brain/awae348",
+            "version": "publishedVersion",
+            "license": null,
+            "host_type": "publisher",
+            "is_best": true,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          },
+          {
+            "url": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+            "url_for_pdf": "https://cnrs.hal.science/hal-04787759v1/file/awae348.pdf",
+            "url_for_landing_page": "https://cnrs.hal.science/hal-04787759",
+            "version": "submittedVersion",
+            "license": "other-oa",
+            "host_type": "repository",
+            "is_best": false,
+            "evidence": "deprecated",
+            "updated": "deprecated"
+          }
+        ],
+        "actual_followthrough": {
+          "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae348/60251053/awae348.pdf",
+          "http_status": 200,
+          "resolved_url": "https://watermark02.silverchair.com/awae348.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmIwggJeBgkqhkiG9w0BBwagggJPMIICSwIBADCCAkQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMo56e1hv0TjzkDeVOAgEQgIICFZ-QfjfhjijEYOWDoys8k82oCtQ3dU7b-NLIBWaprNY_uKfJWYVxhLK9emJaSgclhNPVZ3Fc6NLzhXKjEmWt72qmnBAfJiyP_2pR2y-a4dWPXH_zMepqBJSeQtZ7l0RVs9bgocsiwni_P83iv_5Ur7pT9gxIBmQ_0BdFvrYhSUlC0xW47B5xpcxLa4gmYM1AiS8COYD0cnaa7aTXZY1qqPcEcEP1Ls2xIHGUJTdomXltbhGW8ixcrbmePHLEw-6AtLxOSgeNCp-CKOhZ3oXA63KwoRzkXOov94bXIt9k55_Jn5I64eFvbdyIUpM3jFRUio6QJecrRRL025MOUT6zBP8jxVxmfMqEHBQIlpZT9sRM9XSlrdcQQCY-6uxkKR7eaIsmkj3W0LRgSDGoHPfngFYoKNiY1drb36VZ_CqKn_Ej8zQ3_fu3zHyjsoPJmkaK60Wn71xI1XEbYbgsNa55WOAQ0cjC0ohodjkz2tKwVchue92yNykIzuv5ccnNfTa7O6S3HY-_9kQjwxGeFPM8a1d4eU5dZJZi9lLQkDszrYBKnhg_Af2sD8aTAG_whQmIYCm0L1QRAeZxnj1IcGBm8YRmOZDGtNxnpxuysWqMplT7BCatAp5EZOu-6RN3oY6savmcJ3rXiHXiCZw7cB6-j2NJ-APyLOkmx9vkgkaZSttQVrILEYp1022m23wVQKORnF97xqA9",
+          "content_type": "application/pdf",
+          "parsed_pages": 15,
+          "total_pages": 15
+        }
+      }
+    ]
+  },
+  "novelty_audit": {
+    "baseline_file_count": 424,
+    "baseline_text_files": 419,
+    "baseline_pdf_files": 4,
+    "baseline_spreadsheet_files": 1,
+    "baseline_extraction_errors": [],
+    "external_reports_count": 13,
+    "external_scope": "Complete recovered unlettered/B–M indexed reports; no truncation in supplied corpus; root independently audited selected aliases.",
+    "unrecovered_reports": [
+      "N",
+      "O",
+      "P",
+      "Q"
+    ],
+    "selected_alias_groups": [
+      {
+        "candidate": "R26-FUN-01",
+        "aliases": [
+          "PSB-KD107",
+          "PSB KD107",
+          "GPR18",
+          "1187253",
+          "955121-65-0"
+        ],
+        "exact_use_prior_hit": false
+      },
+      {
+        "candidate": "R26-FUN-02",
+        "aliases": [
+          "FD-1",
+          "FD1",
+          "FD-2",
+          "FD2",
+          "Pgk1",
+          "e00806",
+          "US20240327462A1"
+        ],
+        "exact_use_prior_hit": false,
+        "collision": "Pgk1 appears four times in the extracted BLU source workbook, in gene/proteomics rows; not a prior therapeutic FD peptide record."
+      },
+      {
+        "candidate": "R26-FUN-03",
+        "aliases": [
+          "CuNC",
+          "CuNCs",
+          "CuNC@HisAc",
+          "CuNC@HisAcAsc",
+          "copper nanoclusters",
+          "aeg6972",
+          "WO2022238656A1"
+        ],
+        "exact_use_prior_hit": false,
+        "collision": "Prior Menkes P010 is elesclomol-copper. Both linked primary identities were inspected; formulation is different. Same disease and general copper-delivery objective were already encountered."
+      },
+      {
+        "candidate": "R26-FUN-REJ-01",
+        "aliases": [
+          "CHP",
+          "Cyclo His-Pro",
+          "Cyclo(His-Pro)",
+          "2305927",
+          "WO2025127437A1"
+        ],
+        "exact_use_prior_hit": false
+      },
+      {
+        "candidate": "R26-FUN-REJ-02",
+        "aliases": [
+          "GBT601",
+          "osivelotor",
+          "PF-07940367",
+          "PT2399",
+          "2618654123"
+        ],
+        "exact_use_prior_hit": false
+      },
+      {
+        "candidate": "R26-FUN-REJ-03",
+        "aliases": [
+          "nifuroxazide",
+          "CHCHD10",
+          "awae348"
+        ],
+        "exact_use_prior_hit": false
+      }
+    ],
+    "limits": "This audits selected candidate/asset aliases across the entire accessible corpus; it does not claim every concept in the world was excluded. Newness is exact therapeutic article/use, not a newly discovered molecule, target or disease.",
+    "repository_paths": [
+      "research/rounds/round26/novelty-audit.json",
+      "discovery/component-proposals.csv",
+      "research/source-data/blu3797-source-values.xlsx"
+    ]
+  },
+  "feedback": {
+    "initial_web_discovery_queries": "Feedback submitted for the two web discovery searches; paper-index calls have a different interface.",
+    "targeted_rights_searches": "Feedback submitted for all fourteen targeted web searches.",
+    "closure_searches": "Feedback submitted for both P010 identifier/title searches.",
+    "private_identifiers_retained": false
+  },
+  "quality_boundaries": [
+    "Primary text/captions, not parser-generated approximate figure tables, govern reported endpoint counts and results.",
+    "No exhaustive supplemental-panel/raw-data audit is claimed. Independent root reading of the same papers is analytical checking, not independent scientific replication.",
+    "PSB human fusion is not human force; FD repeated readings are not animals; CuNC day-50 boundary is not established median lifespan.",
+    "Paper versions and patent examples remain within their investigator lineages unless overlap is resolved.",
+    "No missing patent hit or ceased WO index entry was converted into FTO. No available license, quote or live supplier stock was invented.",
+    "No third-party full-text payload or biological operational procedure is included in the committed artifacts."
+  ],
+  "stopping_boundary": "Three retained exact-use records and three fully read rejected/partnered scouts are sufficient for the supported decision. Named public-record gates may be resolved or closed; no extra family is added to meet a quota."
+}

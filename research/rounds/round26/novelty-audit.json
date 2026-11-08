@@ -1,0 +1,584 @@
+{
+  "schema_version": "ddiscov.round26.novelty_audit.v1",
+  "round": 26,
+  "as_of": "2026-11-08",
+  "baseline_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+  "exhaustive": false,
+  "method": "Root independently searched selected identity, disease, trial, publication and patent aliases using case-insensitive non-alphanumeric boundaries, then adjudicated contextual matches. This is not an exhaustive semantic read or a global novelty search.",
+  "baseline": {
+    "file_count": 424,
+    "modes": {
+      "text": 419,
+      "pdf_text": 4,
+      "xlsx_values_formulas": 1
+    },
+    "read_errors": [],
+    "all_baseline_files_included": true,
+    "path_list_and_blob_hashes": "artifact-manifest.json baseline files",
+    "corpus_sha256": "0cc80b680825d11108fc1ac36fa514ad86cc9d728c1ba57873283e8cbf0e2a96"
+  },
+  "external_reports": [
+    {
+      "name": "ddiscov_new_opportunity_screen.pdf",
+      "indexed_lines": 442,
+      "read_ranges": [
+        [
+          1,
+          442
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "25d5120fbb412dbbb468a7443718751930529e22c8c1399eb757e168b4742faf"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_B.pdf",
+      "indexed_lines": 467,
+      "read_ranges": [
+        [
+          1,
+          467
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "38fc03c197aed5b3cc0e2c4b6727a08ad1cad24d60d10910cf0198536340d680"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_C.pdf",
+      "indexed_lines": 498,
+      "read_ranges": [
+        [
+          1,
+          498
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "3a2a43878b5fe7536dd0251dd9481af7c9c3a5335e6bd7e33bd728c34d29358e"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_D.pdf",
+      "indexed_lines": 614,
+      "read_ranges": [
+        [
+          1,
+          614
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "f81ba5bff150d44b6b69da47645ea63662cb5dc88ec73995f59393a7764f4ea4"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_E.pdf",
+      "indexed_lines": 725,
+      "read_ranges": [
+        [
+          1,
+          725
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "c5bb90c299222d620cb81e16838f912e38acba9fc7fcb30faa050b37e0c021f6"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_F.pdf",
+      "indexed_lines": 795,
+      "read_ranges": [
+        [
+          1,
+          795
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "febf5bb85f8deeb42099da4d09ae3c251b09f24ec435683b2e1521021d7e7c41"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_G.pdf",
+      "indexed_lines": 854,
+      "read_ranges": [
+        [
+          1,
+          854
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "6ad071fa679f1eeb418953e5a641daede8314c29262310cabe08dc71001f89d4"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_H.pdf",
+      "indexed_lines": 852,
+      "read_ranges": [
+        [
+          1,
+          852
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "e0ddb9c83e7eedbfa26cca3417b46c41fc8d4c35eaa48d726d4096394e7ca0e9"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_I.pdf",
+      "indexed_lines": 896,
+      "read_ranges": [
+        [
+          1,
+          896
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "95d81933badaa3cc721e039fbf0b486fea57a3ed0a63c2a4c2134ce2f062fc79"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_J.pdf",
+      "indexed_lines": 861,
+      "read_ranges": [
+        [
+          1,
+          861
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "5a1d09a594740ebc157da783c68efa4ee9fdc747777df55fe6be39f46dce58b2"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_K.pdf",
+      "indexed_lines": 963,
+      "read_ranges": [
+        [
+          1,
+          963
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "20e510113fbc90c0ab3dfd0f033ca2d2c5c5590553525cf922624e039288562a"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_L.pdf",
+      "indexed_lines": 1035,
+      "read_ranges": [
+        [
+          1,
+          1000
+        ],
+        [
+          1001,
+          1035
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "8b8f14974d0b5d857c94644b984cc6ab07c0118a9e4fd77623fd7623ae68eed8"
+    },
+    {
+      "name": "ddiscov_fresh_opportunity_screen_M.pdf",
+      "indexed_lines": 1176,
+      "read_ranges": [
+        [
+          1,
+          1000
+        ],
+        [
+          1001,
+          1176
+        ]
+      ],
+      "full_indexed_text_searched": true,
+      "indexed_text_sha256": "2b1ba4bb02d169a0381941702152c9e2b7ec8ccc9e7a42ae68126222f0477c8a"
+    }
+  ],
+  "missing_scope": [
+    "Screens N–Q",
+    "Unrecognized aliases and any other uninspected historical work",
+    "Complete visual/semantic verification of every external PDF page"
+  ],
+  "candidate_checks": [
+    {
+      "candidate_id": "R26-HUM-01",
+      "name": "Levodopa/carbidopa in MCT8 deficiency",
+      "selected_aliases": [
+        "MCT8",
+        "SLC16A2",
+        "Allan-Herndon-Dudley",
+        "Allan–Herndon–Dudley",
+        "10.1002/mds.70093",
+        "PMC12089910"
+      ],
+      "baseline_matches": [],
+      "external_matches": [],
+      "adjudication": "No selected disease/article alias hit in either corpus. Generic levodopa elsewhere would not establish an MCT8 treatment screen.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-HUM-02",
+      "name": "Salbutamol in PURA syndrome",
+      "selected_aliases": [
+        "PURA",
+        "PURA-related",
+        "PMC13375090"
+      ],
+      "baseline_matches": [
+        {
+          "file": "research/source-data/blu3797-source-values.xlsx",
+          "alias_hits": [
+            {
+              "alias": "PURA",
+              "occurrences": 2
+            }
+          ]
+        }
+      ],
+      "external_matches": [],
+      "adjudication": "The local spreadsheet gene-symbol match is not a therapeutic screen. Prior salbutamol/collagen-VI work is a different use. No selected exact-use external hit.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-HUM-03",
+      "name": "TTI-0102 in MELAS",
+      "selected_aliases": [
+        "TTI-0102",
+        "TTI0102",
+        "Thiogenesis",
+        "NCT06644534",
+        "2026.03.26.26347968"
+      ],
+      "baseline_matches": [],
+      "external_matches": [],
+      "adjudication": "No selected exact-article/program hit. Prior cysteamine uses are not this prodrug/MELAS study.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-LOC-01",
+      "name": "Topical erlotinib in KRT16 Arg127Cys PPK",
+      "selected_aliases": [
+        "erlotinib",
+        "KRT16",
+        "Arg127Cys",
+        "pachyonychia",
+        "10.1001/jamadermatol.2021.5302"
+      ],
+      "baseline_matches": [
+        {
+          "file": "discovery/historical-topics.csv",
+          "alias_hits": [
+            {
+              "alias": "erlotinib",
+              "occurrences": 2
+            }
+          ]
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias_hits": [
+            {
+              "alias": "erlotinib",
+              "occurrences": 6
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round19/marginal-dollar-decision.md",
+          "alias_hits": [
+            {
+              "alias": "erlotinib",
+              "occurrences": 3
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round19/ndc-comparator-update.json",
+          "alias_hits": [
+            {
+              "alias": "erlotinib",
+              "occurrences": 3
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round19/ndc-comparator-update.md",
+          "alias_hits": [
+            {
+              "alias": "erlotinib",
+              "occurrences": 1
+            }
+          ]
+        }
+      ],
+      "external_matches": [],
+      "adjudication": "Erlotinib already appears for T121 FAP, T199 TRPV3/Olmsted and Round19 Darier comparator work. These are different indication/genotype or route claims. No KRT16/Arg127Cys exact-use hit; not a new molecule.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-LOC-02",
+      "name": "Ophthalmic dornase alfa in severe tear-deficient dry eye",
+      "selected_aliases": [
+        "dornase",
+        "deoxyribonuclease",
+        "Pulmozyme",
+        "L304",
+        "NCT02193490"
+      ],
+      "baseline_matches": [
+        {
+          "file": "decisions/README.md",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 24
+            }
+          ]
+        },
+        {
+          "file": "research/reports/ddiscov_portfolio_reset.pdf",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round2/round2_barrier_local.md",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 2
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round2/round2_generated_concepts.json",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 2
+            }
+          ]
+        },
+        {
+          "file": "research/screen-index.md",
+          "alias_hits": [
+            {
+              "alias": "dornase",
+              "occurrences": 3
+            }
+          ]
+        }
+      ],
+      "external_matches": [],
+      "adjudication": "Dornase/DNase previously appears in CF airway, stroke/NET and pleural fibrinolysis contexts or comparators. No selected ocular exact-use hit. L304 is a distinct proprietary follow-on, not pooled with the pilot article.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-LOC-03",
+      "name": "Amlexanox in selected COL7A1 nonsense RDEB",
+      "selected_aliases": [
+        "amlexanox",
+        "COL7A1",
+        "RDEB"
+      ],
+      "baseline_matches": [
+        {
+          "file": "atlas/barriers.md",
+          "alias_hits": [
+            {
+              "alias": "COL7A1",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "atlas/index.json",
+          "alias_hits": [
+            {
+              "alias": "COL7A1",
+              "occurrences": 2
+            },
+            {
+              "alias": "RDEB",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias_hits": [
+            {
+              "alias": "amlexanox",
+              "occurrences": 11
+            }
+          ]
+        },
+        {
+          "file": "research/reports/ddiscov_screening_round3.pdf",
+          "alias_hits": [
+            {
+              "alias": "amlexanox",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round3/round3_new_leads.json",
+          "alias_hits": [
+            {
+              "alias": "amlexanox",
+              "occurrences": 4
+            }
+          ]
+        },
+        {
+          "file": "research/rounds/round3/round3_new_leads.md",
+          "alias_hits": [
+            {
+              "alias": "amlexanox",
+              "occurrences": 2
+            }
+          ]
+        }
+      ],
+      "external_matches": [
+        {
+          "file": "ddiscov_new_opportunity_screen.pdf",
+          "alias_hits": [
+            {
+              "alias": "RDEB",
+              "occurrences": 2
+            }
+          ]
+        },
+        {
+          "file": "ddiscov_fresh_opportunity_screen_L.pdf",
+          "alias_hits": [
+            {
+              "alias": "amlexanox",
+              "occurrences": 1
+            }
+          ]
+        }
+      ],
+      "adjudication": "Amlexanox is already screened for PAX6/aniridia. Other COL7A1/RDEB therapies are different articles. External Screen L contains one amlexanox scout-list mention without an indication; exact historical scout scope remains uncertain. This is a scoped new exact-use assessment, not first-ever consideration of the molecule.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-LOC-04",
+      "name": "Topical timolol in diabetic foot ulcers",
+      "selected_aliases": [
+        "timolol",
+        "Timoptic",
+        "Timoptic-XE",
+        "BAART",
+        "NCT03282981",
+        "10.1159/000545357"
+      ],
+      "baseline_matches": [],
+      "external_matches": [],
+      "adjudication": "No selected exact-article/trial hit in either corpus.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-FUN-01",
+      "name": "PSB-KD107 in DMD",
+      "selected_aliases": [
+        "PSB-KD107",
+        "PSB KD107",
+        "PSBKD107",
+        "GPR18",
+        "955121-65-0",
+        "10.3389/fcell.2023.1187253"
+      ],
+      "baseline_matches": [],
+      "external_matches": [],
+      "adjudication": "No selected exact-article/receptor/primary-paper hit in either corpus. This is a newly screened older publication, not a newly published discovery.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-FUN-02",
+      "name": "FD-2 peptide in ALS",
+      "selected_aliases": [
+        "FD-2",
+        "FD2",
+        "FD-1",
+        "FD1",
+        "US20240327462A1",
+        "10.1016/j.neurot.2025.e00806"
+      ],
+      "baseline_matches": [],
+      "external_matches": [],
+      "adjudication": "No selected peptide/article/patent hit in either corpus. FD-1 remains a within-family comparator, not a second retained candidate.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    },
+    {
+      "candidate_id": "R26-FUN-03",
+      "name": "CuNC@HisAc[Asc] in Menkes disease",
+      "selected_aliases": [
+        "CuNC",
+        "CuNCs",
+        "CuNC@HisAc",
+        "copper nanoclusters",
+        "Menkes",
+        "WO2022238656",
+        "10.1126/sciadv.aeg6972"
+      ],
+      "baseline_matches": [
+        {
+          "file": "discovery/component-proposals.csv",
+          "alias_hits": [
+            {
+              "alias": "Menkes",
+              "occurrences": 1
+            }
+          ]
+        },
+        {
+          "file": "research/portfolio-register.json",
+          "alias_hits": [
+            {
+              "alias": "Menkes",
+              "occurrences": 2
+            }
+          ]
+        }
+      ],
+      "external_matches": [],
+      "adjudication": "Prior P010 is an ATP7A copper-ionophore concept supported by elesclomol–copper human/preclinical papers (PMC12483558 and PMID40023603). The functional agent read both primary records and confirmed different exact articles. CuNC is a new scoped formulation/use, not a new disease or new human cohort.",
+      "exact_use_duplicate_established": false,
+      "global_novelty_or_patentability_asserted": false
+    }
+  ],
+  "duplicate_exclusions": [
+    {
+      "candidate": "Miglustat/Tangier disease, MUSTANG",
+      "basis": "Exact trial already screened in the unlettered external report; excluded even though the selected local pass had no exact hit."
+    },
+    {
+      "candidate": "Eflornithine/ODC1 Bachmann-Bupp",
+      "basis": "Historical T200 exact-use record; excluded."
+    },
+    {
+      "candidate": "Epalrestat/PMM2, ADCY5 adenosine-antagonist approaches and BRD4780/UMOD",
+      "basis": "Prior exact-use or explicitly compared approach; agent ledgers preserve the precise rejection."
+    }
+  ],
+  "interpretation_limits": [
+    "An alias hit is a reason to inspect context, not an automatic exact-use exclusion.",
+    "An absent hit is not proof of worldwide novelty, unencumbered rights or a first clinical study.",
+    "One drug in several indications and several versions of one study do not create independent compounds or cohorts.",
+    "Amlexanox Screen L scout context and Screens N–Q remain explicitly unresolved."
+  ],
+  "raw_external_reports_republished": false
+}

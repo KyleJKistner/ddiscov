@@ -1,9 +1,9 @@
 {
-  "schema_version": "25.0",
+  "schema_version": "26.0",
   "as_of": "2026-11-08",
   "repository": "KyleJKistner/ddiscov",
   "snapshot_commit": "c241dc4c6cfa7cd5312a7237dda61a4d2af50c97",
-  "supersedes": "Round24 main 994454ca215920e1dd3fd151df6d8081e0ee345c; all original coverage rows and earlier round objects/history preserved. Round25 information priorities do not replace the inherited conditional development order.",
+  "supersedes": "Round 25 main 2ac9dafe2c45aa7d1baf1499a440fde013cece28; all original coverage records and prior round objects/history preserved. Round 26 prioritizes new-candidate information across all three lanes; inherited development ordering is not a fresh financial superiority finding.",
   "policy": {
     "decision_unit": "Exact product in a defined disease, route and treatment window, paired with a stage-appropriate decision-changing preclinical or clinical proof.",
     "ranking": "Select the expected value of the next marginal information/development dollar from feasible tranches, including stop or defer, using remaining costs, time, decision-changing information and capturable value. Do not inherit priority from sunk effort or historical allocation. Qualitative comparisons must not masquerade as numerical financial rankings when inputs are missing.",
@@ -324,7 +324,14 @@
     "round25_new_candidate_records": 3,
     "round25_existing_programs_reassessed": 16,
     "round25_lead_advancement_packages": 1,
-    "round25_record_count_note": "Three scoped new exact-use records, sixteen existing decision records with fresh/carry-forward depth explicit, and one overlapping lead-advancement package. These are not additive independent drugs, studies or treated people."
+    "round25_record_count_note": "Three scoped new exact-use records, sixteen existing decision records with fresh/carry-forward depth explicit, and one overlapping lead-advancement package. These are not additive independent drugs, studies or treated people.",
+    "round26_new_candidate_records": 10,
+    "round26_human_records": 3,
+    "round26_local_records": 4,
+    "round26_functional_records": 3,
+    "round26_existing_programs_reassessed": 0,
+    "round26_lead_advancement_packages": 0,
+    "round26_record_count_note": "Ten exact-use screening records, including reserves and holds; not independent studies, drugs, globally novel concepts or funded investments. All 622 original coverage rows unchanged."
   },
   "final_shortlist": [
     {
@@ -56210,9 +56217,9 @@
   "publication": {
     "repository": "KyleJKistner/ddiscov",
     "target_branch": "main",
-    "base_commit": "994454ca215920e1dd3fd151df6d8081e0ee345c",
-    "scope": "Round25 Firecrawl continuation with three workstreams, independent integration, exact-use novelty limits and a complete artifact manifest; historical files and 622 coverage records retained.",
-    "commit_identifier": "Containing Git commit; omitted here to avoid self-reference.",
+    "base_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+    "scope": "Round 26 all-agent new-candidate screen using Firecrawl and Unpaywall, independent integration and exact-use/access audits;424 baseline files and622 original coverage records preserved.",
+    "commit_identifier": "Containing Git commit; omitted to avoid self-reference.",
     "activity_boundary": [
       "no outreach",
       "no purchases",
@@ -66359,9 +66366,9 @@
     ]
   },
   "current_marginal_dollar_decision": {
-    "round": 25,
+    "round": 26,
     "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
-    "completed_scope": "Three coordinated workstreams: current-portfolio reassessment, additional exact-use screening, and advancement of conditional lead APR-246/AEC using Firecrawl.",
+    "completed_scope": "All three agents screened new candidates in human-evidence, local-product and functional-preclinical lanes; ten exact-use records integrated with Firecrawl, Unpaywall and independent root checks.",
     "conditional_information_queue": [
       "R23-01",
       "R23-02",
@@ -66389,30 +66396,70 @@
     "novelty_exhaustive": false,
     "missing_novelty_scope": [
       "Screens N-Q",
-      "any other uninspected historical screens or unrecognized aliases"
+      "Screen L amlexanox scout indication unspecified",
+      "any other uninspected historical work or unrecognized aliases"
     ],
     "additional_screen_information_queue": [
-      "R25-NEW-01",
-      "R25-NEW-02",
-      "R25-NEW-03"
+      "R26-LOC-01",
+      "R26-FUN-02",
+      "R26-HUM-01"
     ],
-    "additional_information_queue_scope": "A36/HD, then dipyridamole/ALS, then atorvastatin/SRD5A3 within-screen document-level priority only; no insertion into a quantified global investment ranking.",
+    "additional_information_queue_scope": "Three leading bounded questions: erlotinib local clinical/article/capture; FD-2 exact peptide/patent/product correspondence; MCT8 symptomatic clinical evidence/data/capture. Display order is not a quantified total financial ranking across different scopes.",
     "conditional_local_first_choice": "R4-L02",
     "exhaustive_portfolio_valuation": false,
     "historical_cost_bands_are_quotes": false,
-    "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; this is not a finding of negative underlying program EV.",
+    "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; no negative underlying EV or definitive cash-superiority conclusion is asserted.",
     "retained_round24_information_queue": [
       "R24-N01",
       "R24-N03",
       "R24-N02"
     ],
     "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
-    "next_advancement_decision": "Evaluate a defined APR article/evidence-route/access/output-rights package with separate qualification and useful-function scopes and actual terms.",
+    "next_advancement_decision": "Resolve a finite new-candidate question for erlotinib, FD-2 or MCT8, then compare any actual useful information commitment with incumbent scopes, remaining costs and waiting. Do not automatically reopen closed broad source passes.",
     "actual_priced_commitment_verified": false,
     "actual_quote_usd": null,
     "newly_verified_APR_treated_people": 0,
     "newly_generated_experimental_results": 0,
-    "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes."
+    "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes.",
+    "new_screen_lane_information_orders": {
+      "local": [
+        "R26-LOC-01",
+        "R26-LOC-02",
+        "R26-LOC-03",
+        "R26-LOC-04"
+      ],
+      "functional": [
+        "R26-FUN-02",
+        "R26-FUN-01",
+        "R26-FUN-03"
+      ],
+      "human": [
+        "R26-HUM-01",
+        "R26-HUM-02",
+        "R26-HUM-03"
+      ]
+    },
+    "new_screen_reserve_ids": [
+      "R26-LOC-02",
+      "R26-LOC-03",
+      "R26-FUN-01",
+      "R26-FUN-03",
+      "R26-HUM-02"
+    ],
+    "new_screen_hold_ids": [
+      "R26-LOC-04",
+      "R26-HUM-03"
+    ],
+    "retained_round25_information_queue": [
+      "R25-NEW-01",
+      "R25-NEW-02",
+      "R25-NEW-03"
+    ],
+    "retained_round25_information_queue_scope": "Historical A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3 information order; not freshly repriced against Round 26.",
+    "historical_incumbents_freshly_reassessed": false,
+    "inherited_queue_interpretation": "Historical conditional development order retained as provenance under original scopes; this screen is not a fresh all-in superiority finding over the new candidates.",
+    "symmetric_comparison_rule": "Current quotes, commercial access and data rights are unresolved for incumbents and challengers alike. Missing terms prevent a verified financial order, not qualitative comparison. An actual narrower, more informative or better retained-value offer can change priority.",
+    "new_information_preference": "New consequential document/product-rights questions precede another unchanged broad APR/BLU literature pass."
   },
   "round15": {
     "as_of": "2026-11-04",
@@ -68650,6 +68697,1550 @@
       "A36 exact supplementary article/model provenance, public patent-family correspondence and attainable commercial scope.",
       "DPM clinically relevant CNS exposure and disclosed rights; atorvastatin glycosylation/function, gene-specific risk and differentiated capture.",
       "Historical external Screens N-Q and any other uninspected screens remain outside the novelty conclusion."
+    ]
+  },
+  "round26": {
+    "as_of": "2026-11-08",
+    "as_of_timezone": "America/Los_Angeles",
+    "base_publication_commit": "2ac9dafe2c45aa7d1baf1499a440fde013cece28",
+    "counts": {
+      "new_candidate_records": 10,
+      "new_to_all_prior_screens": null,
+      "human_evidence_records": 3,
+      "local_product_records": 4,
+      "functional_preclinical_records": 3,
+      "existing_programs_reassessed": 0,
+      "lead_advancement_packages": 0,
+      "source_records": 62,
+      "root_source_records": 16,
+      "documented_scout_encounters": 19,
+      "accessible_external_reports_checked": 13,
+      "baseline_files_in_novelty_audit": 424,
+      "unpaywall_lookup_records_consolidated": 18,
+      "unpaywall_unique_dois": 16,
+      "paid_development_promotions": 0,
+      "s_tier_promotions": 0,
+      "newly_generated_experimental_results": 0
+    },
+    "selection": {
+      "round": 26,
+      "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+      "completed_scope": "All three agents screened new candidates in human-evidence, local-product and functional-preclinical lanes; ten exact-use records integrated with Firecrawl, Unpaywall and independent root checks.",
+      "conditional_information_queue": [
+        "R23-01",
+        "R23-02",
+        "R23-03",
+        "R23-04"
+      ],
+      "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+      "paid_development_promotions": 0,
+      "spending_authorized": false,
+      "zero_or_wait_option_included": true,
+      "estimated_return_per_dollar": null,
+      "numerical_success_probabilities": false,
+      "replacement_allocation": null,
+      "inherited_conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "full_development_order_changed": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "novelty_exhaustive": false,
+      "missing_novelty_scope": [
+        "Screens N-Q",
+        "Screen L amlexanox scout indication unspecified",
+        "any other uninspected historical work or unrecognized aliases"
+      ],
+      "additional_screen_information_queue": [
+        "R26-LOC-01",
+        "R26-FUN-02",
+        "R26-HUM-01"
+      ],
+      "additional_information_queue_scope": "Three leading bounded questions: erlotinib local clinical/article/capture; FD-2 exact peptide/patent/product correspondence; MCT8 symptomatic clinical evidence/data/capture. Display order is not a quantified total financial ranking across different scopes.",
+      "conditional_local_first_choice": "R4-L02",
+      "exhaustive_portfolio_valuation": false,
+      "historical_cost_bands_are_quotes": false,
+      "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; no negative underlying EV or definitive cash-superiority conclusion is asserted.",
+      "retained_round24_information_queue": [
+        "R24-N01",
+        "R24-N03",
+        "R24-N02"
+      ],
+      "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+      "next_advancement_decision": "Resolve a finite new-candidate question for erlotinib, FD-2 or MCT8, then compare any actual useful information commitment with incumbent scopes, remaining costs and waiting. Do not automatically reopen closed broad source passes.",
+      "actual_priced_commitment_verified": false,
+      "actual_quote_usd": null,
+      "newly_verified_APR_treated_people": 0,
+      "newly_generated_experimental_results": 0,
+      "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes.",
+      "new_screen_lane_information_orders": {
+        "local": [
+          "R26-LOC-01",
+          "R26-LOC-02",
+          "R26-LOC-03",
+          "R26-LOC-04"
+        ],
+        "functional": [
+          "R26-FUN-02",
+          "R26-FUN-01",
+          "R26-FUN-03"
+        ],
+        "human": [
+          "R26-HUM-01",
+          "R26-HUM-02",
+          "R26-HUM-03"
+        ]
+      },
+      "new_screen_reserve_ids": [
+        "R26-LOC-02",
+        "R26-LOC-03",
+        "R26-FUN-01",
+        "R26-FUN-03",
+        "R26-HUM-02"
+      ],
+      "new_screen_hold_ids": [
+        "R26-LOC-04",
+        "R26-HUM-03"
+      ],
+      "retained_round25_information_queue": [
+        "R25-NEW-01",
+        "R25-NEW-02",
+        "R25-NEW-03"
+      ],
+      "retained_round25_information_queue_scope": "Historical A36/HD, dipyridamole/ALS, atorvastatin/SRD5A3 information order; not freshly repriced against Round 26.",
+      "historical_incumbents_freshly_reassessed": false,
+      "inherited_queue_interpretation": "Historical conditional development order retained as provenance under original scopes; this screen is not a fresh all-in superiority finding over the new candidates.",
+      "symmetric_comparison_rule": "Current quotes, commercial access and data rights are unresolved for incumbents and challengers alike. Missing terms prevent a verified financial order, not qualitative comparison. An actual narrower, more informative or better retained-value offer can change priority.",
+      "new_information_preference": "New consequential document/product-rights questions precede another unchanged broad APR/BLU literature pass."
+    },
+    "new_screen_records": [
+      {
+        "id": "R26-HUM-01",
+        "name": "Levodopa/carbidopa for movement-related function in MCT8 deficiency",
+        "exact_use": {
+          "article": "Existing levodopa/carbidopa; oral or gastric-tube suspension described in the earlier clinical report. Exact commercial presentation/qualified transfer lot not established.",
+          "disease": "SLC16A2/MCT8 deficiency (Allan–Herndon–Dudley syndrome)",
+          "genotype_scope": "Genetically confirmed pathogenic SLC16A2 variants; no validated responder genotype",
+          "compartment": "Neurological motor function",
+          "intended_claim": "Useful ongoing improvement in hypokinesia, movement initiation or another meaningful motor outcome on appropriate background care",
+          "not_established": [
+            "Correction of thyroid transport",
+            "Global developmental restoration",
+            "Disease modification",
+            "Permanent off-treatment repair"
+          ]
+        },
+        "aliases": [
+          "levodopa",
+          "carbidopa",
+          "L-DOPA",
+          "MCT8",
+          "SLC16A2",
+          "Allan-Herndon-Dudley",
+          "AHDS"
+        ],
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "selected_exact_use_hits": 0,
+          "unrecovered": [
+            "Screens N–Q",
+            "Any other uninspected historical work or unrecognized aliases"
+          ],
+          "source_ids": [
+            "R26-H12"
+          ]
+        },
+        "disposition": "Conditional clinical-information priority; first within this lane",
+        "information_rank_within_lane": 1,
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "evidence": [
+          {
+            "source_id": "R26-H02",
+            "publication_online": "2025-03-15",
+            "design": "Retrospective observational clinical series",
+            "unit": "people",
+            "phenotyped": 11,
+            "systematically_treated_and_paired_assessed": 6,
+            "additional_separately_described_exposures": 2,
+            "paired_followup_months": 6,
+            "controlled_randomized_comparator": false,
+            "positive": [
+              "Paired movement/disability and infantile parkinsonism-scale improvement in the six-person assessed group",
+              "Modest fine-motor developmental-age change",
+              "One additional longer caregiver-perceived positive exposure"
+            ],
+            "negative_or_limiting": [
+              "No significant gross-motor, language or cognition change",
+              "CPCHILD did not improve",
+              "Myoclonus did not improve",
+              "Additional one-week exposure showed no response; short observation limits inference"
+            ],
+            "counts_not_to_pool": "Six paired recipients, two separately described exposures and eleven phenotyped people are different denominators."
+          },
+          {
+            "source_id": "R26-H01",
+            "publication_online": "2025-10-27",
+            "issue_date": "2026-02",
+            "design": "Three retrospectively and seven prospectively assessed males; uncontrolled",
+            "unit": "people",
+            "phenotyped": 10,
+            "treatment_response_evaluable": 9,
+            "unassessed_after_death": 1,
+            "unassessed_person_exposure_status": null,
+            "drug_related_death_established": false,
+            "outcomes": {
+              "broad_motor_nonmotor_improvement": {
+                "numerator": 7,
+                "denominator": 9
+              },
+              "hypokinesia_bradykinesia_improvement": {
+                "numerator": 8,
+                "denominator": 9
+              },
+              "gmfm_improvement": {
+                "numerator": 5,
+                "denominator": 8
+              },
+              "gmfm_slight_decline": 2,
+              "gmfm_no_benefit": 1,
+              "cgi_i": {
+                "much_improved": 4,
+                "minimally_improved": 2,
+                "no_change": 3,
+                "denominator": 9
+              }
+            },
+            "negative_or_limiting": [
+              "Functional-category scales did not improve congruently",
+              "Mean dystonia movement score increased",
+              "Small uncontrolled partly retrospective study",
+              "Mean relative GMFM increase is not percentage-point recovery or a pooled response estimate"
+            ],
+            "abstract_body_discrepancy": "Abstract7/10 should not override main-text nine evaluable treatment courses or endpoint-specific denominators."
+          }
+        ],
+        "lineage": {
+          "publications": 2,
+          "participant_crosswalk_obtained": false,
+          "pooled_unique_treated_people": null,
+          "pooled_response_rate": null,
+          "independence": "Different described recruitment settings but shared coauthor; not a verified fully independent pooled cohort. Preprint/version reads are not added."
+        },
+        "comparator": {
+          "current_care_source": "R26-H03",
+          "current_care": "Emcitate/tiratricol label treats peripheral thyrotoxicosis; appropriate thyroid and supportive care remain relevant background.",
+          "negative_context_source": "R26-H04",
+          "negative_context": "Expert consensus regards levodopa efficacy as unproven and not standard/disease-modifying care; its cited clinical evidence is H02, not a new negative controlled trial.",
+          "required_comparison": "Meaningful motor benefit and total burden on stable relevant care; no inference of superiority to tiratricol from different endpoints."
+        },
+        "safety_limits": [
+          "Dystonia may become more prominent with motor activation in the later series; useful overall benefit requires interpretation.",
+          "No reported side effects in a small series is not established pediatric safety.",
+          "Biochemical abnormalities and mechanism are supportive, not validated response biomarkers."
+        ],
+        "rights_and_capture": {
+          "exact_use_license_verified": false,
+          "physical_lot_verified": false,
+          "available_terms": null,
+          "actual_quote_usd": null,
+          "current_commercial_interest": null,
+          "established": "Existing active ingredients and clinical suspension use are documented.",
+          "unresolved": [
+            "Adequacy and lawful transfer of the intended presentation",
+            "Access to complete clinical records and usable standardized outcomes",
+            "Data custody/publication/regulatory-reference and commercial rights",
+            "A distinct valuable contribution beyond off-label generic care"
+          ],
+          "plausible_routes": [
+            "First controlled indication evidence with contracted regulatory/data-use rights",
+            "Documented product improvement if administration/exposure/tolerability limitations make it useful"
+          ],
+          "not_required": "A new formulation or mechanistic repair claim is not automatically required.",
+          "not_inferred": "Search absence is not freedom to operate, no competition or no existing rights."
+        },
+        "next_information_question": "Can the existing two-report clinical evidence define an interpretable useful symptomatic-function proof with an adequate article, stable background-care context, usable data rights and a concrete product contribution?",
+        "minimum_deliverable": [
+          "Patient/endpoint lineage and completeness crosswalk across existing reports",
+          "Functional-assessment and background-care feasibility specification",
+          "Article suitability and output-rights specification",
+          "Separate actual terms for evidence qualification versus a later controlled clinical decision"
+        ],
+        "conditional_comparison": {
+          "basis": "Equal all-in time/cost, obtainable evidence and reusable output/economic rights are assumptions, not verified offers.",
+          "judgment": "Under those assumptions, prefer this clinical-proof-definition package to broad preclinical discovery and to an APR qualification-only substitute that cannot yet test useful function. The scientific-information advantage does not itself establish financial superiority to APR's original function-oriented option.",
+          "reversal": "Preference reverses if the MCT8 package yields only nonexclusive care guidance without capturable contribution, or if a comparably priced alternative resolves more useful function with better retained economics.",
+          "quotes_required_equally": true,
+          "incumbent_historical_costs_are_current_quotes": false
+        },
+        "branches": {
+          "advance": "An interpretable clinically meaningful ongoing-control claim, usable evidence/article and a defensible offered contribution justify comparing an actual controlled-proof proposal.",
+          "hold_or_rescope": "Insufficient objective/usable outcome, adverse burden offsetting benefit, or no retained economics; do not infer biological inefficacy from absent terms.",
+          "stop_source_work": "Do not repeat broad search absent a consequential new clinical record, actual scoped opportunity or rights/access fact."
+        },
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false,
+        "access_limits": [
+          "No independent supplement/video audit",
+          "No patient-level cross-publication deduplication",
+          "No primary controlled efficacy study recovered"
+        ],
+        "source_ids": [
+          "R26-H01",
+          "R26-H02",
+          "R26-H03",
+          "R26-H04",
+          "R26-H11",
+          "R26-H12",
+          "R26-H13"
+        ]
+      },
+      {
+        "id": "R26-HUM-02",
+        "name": "Salbutamol for respiratory and motor dysfunction in PURA syndrome",
+        "exact_use": {
+          "article": "Existing salbutamol (albuterol); oral treatment context in clinical cases; exact supplier, formulation and lot not qualified here.",
+          "disease": "PURA-related neurodevelopmental disorder with severe respiratory and motor dysfunction",
+          "genotype_scope": "Pathogenic PURA variants; no validated responder genotype or NMJ biomarker",
+          "intended_claim": "Clinically useful acceleration or improvement of respiratory/motor function beyond expected maturation and supportive care",
+          "not_established": [
+            "Universal PURA response",
+            "Global CNS repair",
+            "Permanent developmental correction",
+            "Clinical superiority to pyridostigmine"
+          ]
+        },
+        "aliases": [
+          "salbutamol",
+          "albuterol",
+          "PURA syndrome",
+          "PURA-NDD",
+          "purine-rich element-binding protein A",
+          "pyridostigmine"
+        ],
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "selected_exact_use_hits": 0,
+          "collisions": [
+            "Prior salbutamol/collagenVI therapeutic use",
+            "Spreadsheet Pura gene-symbol row"
+          ],
+          "unrecovered": [
+            "Screens N–Q",
+            "Unrecognized aliases or uninspected historical work"
+          ],
+          "source_ids": [
+            "R26-H12"
+          ]
+        },
+        "disposition": "Conditional clinical-signal reserve",
+        "information_rank_within_lane": 2,
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "evidence": [
+          {
+            "source_id": "R26-H05",
+            "publication_date": "2026-07-16",
+            "design": "Two new case reports plus literature review of three earlier cases",
+            "unit": "people",
+            "new_cases": 2,
+            "literature_derived_cases": 3,
+            "total_people_described": 5,
+            "salbutamol_exposed_total": 3,
+            "salbutamol_exposed_new_primary_cases": 2,
+            "salbutamol_exposed_literature_derived": 1,
+            "concurrent_control": false,
+            "observations": [
+              "Respiratory-support and motor changes in the two new cases",
+              "Persistent tube-feeding and ventilation needs in the second case with sleep reassessment pending",
+              "AIMS increase at persistently low percentile in the first case; later epileptic-spasm-associated neuroregression",
+              "Source reports CHOP-INTEND50/65to54/65; denominator not silently normalized"
+            ],
+            "pyridostigmine_context": {
+              "exposed": 4,
+              "clear_improvement": 1,
+              "partial_improvement": 1,
+              "no_response": 1,
+              "worsening": 1
+            },
+            "salbutamol_adverse_observation": {
+              "patients_reported": 1,
+              "events": [
+                "tachycardia",
+                "sleep disturbance",
+                "increased startle"
+              ],
+              "outcome": "Resolved after dose reduction"
+            },
+            "response_probability": null
+          }
+        ],
+        "lineage": {
+          "independent_new_patients_recovered": 2,
+          "third_salbutamol_original_report_read": false,
+          "literature_source": "R26-H06",
+          "counts_rule": "The three literature patients and their original publications are overlapping records; do not add them again."
+        },
+        "principal_alternatives": [
+          "Age-related maturation of respiratory control and infant motor skills",
+          "Prior/overlapping pyridostigmine",
+          "Supportive respiratory and feeding care",
+          "Publication of favorable cases",
+          "Heterogeneous central and peripheral contributions"
+        ],
+        "rights_and_capture": {
+          "current_exact_use_program_verified": false,
+          "available_license_terms": null,
+          "actual_quote_usd": null,
+          "physical_lot_verified": false,
+          "commercial_rights_verified": false,
+          "plausible_routes": [
+            "First useful indication evidence with contractually reusable outputs",
+            "A demonstrated product improvement with defined user benefit"
+          ],
+          "limits": [
+            "Generic drug identity alone does not create exclusivity.",
+            "No specific sponsor opportunity or proprietary contribution verified.",
+            "If only nonexclusive clinical care guidance is obtainable, keep the scientific value but do not label it a proprietary drug investment."
+          ]
+        },
+        "next_information_question": "Can the observed respiratory and motor chronology support an added salbutamol contribution beyond maturation, prior treatment and supportive care, with a practical meaningful outcome and tolerable total burden?",
+        "minimum_deliverable": [
+          "Reconciled age/treatment/support/outcome chronology from existing cases",
+          "Feasible objective respiratory/motor outcome and adverse-burden specification",
+          "Clear status of original case access and ascertainment of treated nonresponders",
+          "Article suitability, data/output rights and actual staged terms"
+        ],
+        "conditional_comparison": {
+          "judgment": "Behind MCT8 for the same bounded clinical-information scope because directly recovered treatment evidence is smaller and natural maturation is a stronger alternative. Could outrank broad preclinical discovery if a usable existing clinical record and retained contribution are available at comparable cost.",
+          "financial_superiority_established": false,
+          "quotes_required_equally": true
+        },
+        "branches": {
+          "advance": "A usable chronology and meaningful outcome justify comparing a controlled proof of clinically useful acceleration; no compulsory animal reset.",
+          "rescope_or_hold": "Maturation/support care explain the signal, adverse burden offsets benefit, or the available contribution is only nonexclusive care guidance.",
+          "stop_source_work": "Reopen only for a consequential clinical record, original inaccessible report, scoped evidence opportunity or concrete capture/access change."
+        },
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false,
+        "access_limits": [
+          "Original2022salbutamol report not recovered in full",
+          "Two olderPURA papers classified closed by Unpaywall; null locations preserved",
+          "No all-treated population denominator or unbiased treatment response probability"
+        ],
+        "source_ids": [
+          "R26-H05",
+          "R26-H06",
+          "R26-H11",
+          "R26-H12",
+          "R26-H13"
+        ]
+      },
+      {
+        "id": "R26-HUM-03",
+        "name": "TTI-0102 for MELAS-related fatigue/function",
+        "exact_use": {
+          "article": "TTI-0102, described as acetate salt of cysteamine–pantetheine asymmetric disulfide; sponsor-developed prodrug",
+          "disease": "MELAS; trial-defined mitochondrial disease population",
+          "genotype_scope": "MELAS-associated mtDNA variants and phenotype; abstract describes m.3243A>G, but an individual genotype table was not recovered.",
+          "intended_claim": "Clinically useful fatigue-related function at a tolerable exposure",
+          "not_established": [
+            "Walking benefit",
+            "Disease modification",
+            "Superiority to existing cysteamine products",
+            "Efficacy in Leigh syndrome or cystinosis"
+          ]
+        },
+        "aliases": [
+          "TTI-0102",
+          "TTI0102",
+          "cysteamine-pantetheine disulfide",
+          "Thiogenesis",
+          "MELAS",
+          "TTI-MITO-001",
+          "NCT06644534"
+        ],
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "selected_exact_use_hits": 0,
+          "unrecovered": [
+            "Screens N–Q",
+            "Unrecognized aliases or uninspected historical work"
+          ],
+          "source_ids": [
+            "R26-H12"
+          ]
+        },
+        "disposition": "Active external program; hold efficacy promotion pending exact documentary reconciliation",
+        "information_rank_within_lane": 3,
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "evidence": [
+          {
+            "source_id": "R26-H07",
+            "version": "medRxivv1preprint31March2026; not peer-reviewed",
+            "design": "Randomized placebo-controlled study described as single-blind",
+            "unit": "people",
+            "enrolled": 9,
+            "active": 6,
+            "placebo": 3,
+            "planned_total": 12,
+            "complete_fatigue_analysis_denominator": null,
+            "discontinuations_count": null,
+            "positive": "MFIS p=.04 reported; exact analysis population and prespecification unresolved.",
+            "negative": [
+              "No12-minute walk change",
+              "No GDF-15/FGF-21 change",
+              "GSH/GSSG sample-stability problem",
+              "GI intolerance and dropouts; recruitment stopped following PK review"
+            ],
+            "source_internal_conflicts": [
+              "Safety section describes low-body-weight intolerance below50kg while Discussion uses below80kg.",
+              "Abstract narrow genotype statement versus broader eligibility without an individual genotype table."
+            ]
+          },
+          {
+            "source_id": "R26-H08",
+            "record_type": "official_registry_not_results",
+            "actual_enrolled": 9,
+            "status": "COMPLETED",
+            "actual_completion_date": "2026-01-12",
+            "last_update_posted": "2026-07-24",
+            "posted_results": false,
+            "primary_efficacy": "12-minute walking test",
+            "primary_safety": "Treatment-emergent adverse events",
+            "secondary_fatigue": "Fatigue Severity Scale (FSS)",
+            "secondary_qol": "WHOQOL-BREF",
+            "masking": "Double-blind prose; quadruple categories",
+            "ipd_sharing": "NO"
+          }
+        ],
+        "lineage": {
+          "study": "NCT06644534 / EUCT2023-506723-28-00",
+          "independent_studies": 1,
+          "html_pdf_registry_sponsor_are_additive": false,
+          "versions": "Unpaywall metadata acceptedVersion is preserved but does not override the actual document's preprint status."
+        },
+        "unresolved_discrepancies": [
+          "FSS registered versus MFIS reported",
+          "Registry double/quadruple versus paper single-blind",
+          "Complete participant disposition, all-treated safety and fatigue evaluability",
+          "Protocol/amendment and statistical analysis plan",
+          "Credibility and useful magnitude of fatigue result after missingness and adverse burden"
+        ],
+        "rights_and_capture": {
+          "program_controller_reported": "Thiogenesis Therapeutics",
+          "basis": [
+            "Sponsor-authored/funded report",
+            "Current sponsor pipeline",
+            "Historical sponsor-origin patent allowance/grant disclosure"
+          ],
+          "current_title_chain_verified": false,
+          "granted_claims_read": false,
+          "license_available": null,
+          "license_terms": null,
+          "actual_quote_usd": null,
+          "current_valuation": null,
+          "plausible_route": "An actual sponsor-controlled investment, partnership or offered contribution; not independent generic repurposing.",
+          "limits": [
+            "Sponsor regulatory/market/voucher assertions not independently adopted.",
+            "2024European allowance is not current legal clearance.",
+            "Parent cysteamine or other indication evidence cannot substitute for the exact prodrug/use."
+          ]
+        },
+        "next_information_question": "Do the current protocol/amendments, analysis plan, actual masking and participant disposition support the reported MFIS effect after reconciling the negative walking result and GI attrition?",
+        "minimum_deliverable": [
+          "Versioned endpoint and masking reconciliation",
+          "Prespecified versus exploratory analysis classification",
+          "Actual treated/completer/analyzed counts and adverse-event disposition",
+          "Effect magnitude/uncertainty and missingness handling",
+          "A real offered economic interest and terms only if clinical interpretation survives"
+        ],
+        "conditional_comparison": {
+          "judgment": "A short document-reconciliation task can have high information value because it could prevent a false controlled-efficacy promotion. A new development dollar is not justified by the present preprint alone; a verified useful fatigue signal plus an actual sponsor opportunity would require fresh head-to-head comparison.",
+          "financial_superiority_established": false,
+          "quotes_required_equally": true
+        },
+        "branches": {
+          "advance": "Interpretable meaningful fatigue benefit survives the documentary audit; compare a specifically offered confirmatory or partnering option.",
+          "hold": "No protocol/analysis/disposition basis or no obtainable contribution; do not treat missing terms as biological failure.",
+          "stop_or_rescope": "If the signal is not robust to its actual analysis and missingness, stop promoting controlled efficacy; useful future exposure/indication questions need separate evidence.",
+          "stop_source_work": "No further broad sponsor search without the named missing artifacts or actual offer."
+        },
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false,
+        "access_limits": [
+          "No full protocol/amendment history or SAP",
+          "No posted registry results",
+          "No complete fatigue-analysis denominator",
+          "No official granted-claim/title audit"
+        ],
+        "source_ids": [
+          "R26-H07",
+          "R26-H08",
+          "R26-H09",
+          "R26-H10",
+          "R26-H11",
+          "R26-H12",
+          "R26-H13"
+        ]
+      },
+      {
+        "id": "R26-LOC-01",
+        "name": "Topical erlotinib plus keratolytic for KRT16 p.Arg127Cys hereditary palmoplantar keratoderma",
+        "aliases": [
+          "erlotinib",
+          "KRT16",
+          "c.379C>T",
+          "p.Arg127Cys",
+          "Arg127Cys",
+          "keratin 16",
+          "palmoplantar keratoderma",
+          "pachyonychia congenita",
+          "SGT-210"
+        ],
+        "exact_use": {
+          "article": "1% topical erlotinib ointment with keratolytic co-treatment as reported; extemporaneously compounded presentation, not a qualified current lot or interchangeable SGT-210 product.",
+          "disease": "Hereditary palmoplantar keratoderma",
+          "genotype_scope": "KRT16 c.379C>T, p.Arg127Cys in one pedigree",
+          "route": "Local skin application",
+          "intended_claim": "Useful ongoing reduction in painful fissuring and improved walking/mobility",
+          "not_established": [
+            "Genetic correction",
+            "Permanent off-treatment repair",
+            "Efficacy across all KRT16 variants or all pachyonychia congenita",
+            "Adequate systemic-exposure safety",
+            "Commercially qualified product"
+          ]
+        },
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "baseline_read_errors": [],
+          "exhaustive": false,
+          "unresolved": [
+            "Screens N–Q",
+            "Other uninspected historical work or unrecognized aliases"
+          ],
+          "source_ids": [
+            "R26-L00"
+          ],
+          "selected_exact_use_hits": 0,
+          "previous_molecule_uses": [
+            "Darier disease",
+            "TRPV3-associated Olmsted syndrome (historical T199)",
+            "Familial adenomatous polyposis +/- sulindac (historical T121)"
+          ],
+          "note": "Prior erlotinib uses are different disease/route/product contexts; SGT-210 is relevant external program context, not inherited evidence for this exact presentation."
+        },
+        "disposition": "First local conditional clinical-information priority",
+        "information_rank_within_lane": 1,
+        "evidence": [
+          {
+            "source_id": "R26-L01",
+            "design": "Blinded randomized comparisons between feet, followed by uncontrolled extensions",
+            "unit": "people",
+            "people": 2,
+            "pedigrees": 1,
+            "independent_genotype_replications": 0,
+            "comparator": "Vehicle plus keratolytic in the later informative phase",
+            "positive": [
+              "Mother's treated-foot pain fell from 8–10 to 0–3 in the informative comparison.",
+              "Later bilateral uncontrolled extension accompanied by pain freedom and improved walking/swimming.",
+              "Son had modest improvement in the blinded phase and subsequent uncontrolled improvement."
+            ],
+            "limitations": [
+              "Initial lower-strength comparison gave little benefit.",
+              "Son had poor keratolytic adherence.",
+              "Formulation and co-treatment cannot be removed from the efficacy claim.",
+              "Feet, repeated phases and extension visits are not new patients.",
+              "No measured systemic exposure or uncommon-risk inference."
+            ],
+            "followup_no_reported_adverse_effects_weeks": {
+              "mother": 60,
+              "son": 24
+            }
+          },
+          {
+            "source_id": "R26-L02",
+            "design": "Separate uncontrolled two-patient report",
+            "people": 2,
+            "article": "Different topical 0.2% cream and genotype/context",
+            "contrary": "Topical use was inconclusive in one patient and without significant improvement in the other.",
+            "scope": "Oral EGFR-inhibitor responses are not topical-product efficacy; differing article/genotype prevents treating this as a definitive failure of the exact Arg127Cys combination."
+          }
+        ],
+        "lineage": {
+          "primary_positive_people": 2,
+          "primary_positive_families": 1,
+          "pooled_topical_response_rate": null,
+          "negative_context_people": 2,
+          "not_pooled": "Two separate reports differ in genotype, formulation and route sequences; no four-person responder estimate."
+        },
+        "rights_and_capture": {
+          "source_ids": [
+            "R26-L03"
+          ],
+          "established": "Sol-Gel's 2026-08-20 release says it continues SGT-210 topical EGFR development.",
+          "exact_article_license_verified": false,
+          "freedom_to_operate_verified": false,
+          "physical_lot_verified": false,
+          "terms": null,
+          "unresolved": [
+            "Adequacy/transfer of the intended compounded article",
+            "A meaningful product or clinical-evidence contribution beyond generic off-label care",
+            "Data custody/publication/regulatory-reference rights",
+            "Current exact-use claims, title and obtainable commercial terms"
+          ],
+          "not_inferred": "Active external program is not an available license, and generic active ingredient is not a complete development package."
+        },
+        "next_information_question": "Can an adequate article, feasible clinically useful comparison, exposure interpretation and retained contribution define an obtainable controlled proof for the exact phenotype?",
+        "minimum_deliverable": [
+          "Exact-article and co-treatment feasibility specification",
+          "Clinical pain/mobility and comparator scope appropriate to existing human evidence",
+          "Exposure/tolerability and follow-up interpretation",
+          "Separate terms for qualification, clinical proof and usable output rights"
+        ],
+        "conditional_comparison": {
+          "judgment": "Plausibly prefer this package to equally priced APR/RM/BLU qualification-only scopes if it yields a more actionable clinical decision with comparable rights; not shown superior to their original function-oriented tranches.",
+          "reversal": "Preference reverses if only an unowned repeat of off-label guidance is feasible, or article/safety/clinical access costs grow beyond the informative scope."
+        },
+        "branches": {
+          "advance": "Compare an actual bounded clinical-development proposal if an adequate article, useful outcome, feasible comparator and retained contribution are established.",
+          "hold_or_rescope": "Uninterpretable article/exposure, burden offsetting benefit, or no economically usable contribution.",
+          "stop_source_work": "Reopen only for new exact-use controlled evidence, consequential article/exposure data or concrete rights/access information."
+        },
+        "access_limits": [
+          "Publisher page was access-gated, but complete two-page PC Project PDF was read.",
+          "No independent patient-level dataset or full commercial rights audit."
+        ],
+        "source_ids": [
+          "R26-L00",
+          "R26-L01",
+          "R26-L02",
+          "R26-L03"
+        ],
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "actual_quote_usd": null,
+        "all_in_remaining_development_cost_usd": null,
+        "estimated_time_to_next_decision": null,
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false
+      },
+      {
+        "id": "R26-LOC-02",
+        "name": "Ophthalmic dornase alfa for severe tear-deficient dry eye",
+        "aliases": [
+          "dornase alfa",
+          "DNase I",
+          "recombinant deoxyribonuclease",
+          "Pulmozyme",
+          "NCT02193490",
+          "tear-deficient dry eye",
+          "L304",
+          "exDNASE"
+        ],
+        "exact_use": {
+          "article": "0.1% recombinant DNase I/dornase alfa ophthalmic use of an existing starting product in the published pilot; not interchangeable with proprietary L304.",
+          "disease": "Severe tear-deficient dry eye",
+          "population_scope": "Mixed Sjögren, non-Sjögren and ocular graft-versus-host disease pilot; no validated subgroup efficacy.",
+          "route": "Ophthalmic",
+          "intended_claim": "Clinically useful improvement in ocular-surface disease and symptoms with acceptable treatment burden",
+          "not_established": [
+            "Conclusive controlled symptom benefit",
+            "General tear-production restoration",
+            "Long-term or rare-event safety",
+            "Efficacy of L304",
+            "Unencumbered commercial use"
+          ]
+        },
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "baseline_read_errors": [],
+          "exhaustive": false,
+          "unresolved": [
+            "Screens N–Q",
+            "Other uninspected historical work or unrecognized aliases"
+          ],
+          "source_ids": [
+            "R26-L00"
+          ],
+          "selected_exact_use_hits": 0,
+          "previous_molecule_uses": [
+            "Airway mucus/CF context",
+            "Pleural empyema or thrombolysis comparators"
+          ],
+          "note": "Prior systemic/local non-ocular DNase discussions do not establish this exact ocular-use coverage. External dry-eye screening concerned TOP1630."
+        },
+        "disposition": "Conditional clinical/product reserve with license and symptom gates",
+        "information_rank_within_lane": 2,
+        "evidence": [
+          {
+            "source_id": "R26-L04",
+            "design": "Phase I/II randomized vehicle-controlled pilot",
+            "unit": "people",
+            "randomized": 47,
+            "randomized_by_arm": {
+              "dnase": 25,
+              "vehicle": 22
+            },
+            "completers": 41,
+            "completers_by_arm": {
+              "dnase": 21,
+              "vehicle": 20
+            },
+            "safety_table_n": 46,
+            "safety_table_by_arm": {
+              "dnase": 25,
+              "vehicle": 21
+            },
+            "disease_counts": {
+              "sjogren": 25,
+              "non_sjogren": 14,
+              "ocular_gvhd": 8
+            },
+            "followup_weeks": 8,
+            "registered_primary_outcomes": [
+              "Corneal staining",
+              "OSDI"
+            ],
+            "positive": [
+              "Controlled corneal-staining improvement",
+              "Controlled mucoid-strand improvement"
+            ],
+            "symptom_comparison": {
+              "endpoint": "OSDI change from baseline",
+              "dnase_median": -20.75,
+              "vehicle_median": -8.43,
+              "p_value": 0.078,
+              "conventionally_significant": false
+            },
+            "negative_or_limiting": [
+              "A significant within-arm symptom change does not establish between-arm symptom efficacy.",
+              "No general Schirmer tear-production benefit established.",
+              "Six dropouts and completer outcome summaries; corneal-staining sensitivity analysis does not settle every outcome.",
+              "Two eyes and repeated measurements are clustered within people.",
+              "No rare/long-term safety inference from this small eight-week pilot."
+            ]
+          }
+        ],
+        "registry": {
+          "source_id": "R26-L06",
+          "id": "NCT02193490",
+          "status": "TERMINATED",
+          "stated_reason": "Sponsor ceased sponsorship and terminated the research citing slow accrual.",
+          "reason_is_verified_efficacy_or_safety_failure": false,
+          "actual_enrollment": 47,
+          "primary_completion_date": "2017-10-11",
+          "study_completion_date": "2017-10-11",
+          "results_first_posted": "2019-11-05",
+          "last_update_posted": "2020-01-18",
+          "primary_timeframe_weeks": 8,
+          "current_2026_recruitment_inferred": false
+        },
+        "lineage": {
+          "registry_and_paper_same_study": true,
+          "additional_company_claimed_trials_independently_verified": false,
+          "pooled_unique_treated_people": null,
+          "pooled_response_rate": null
+        },
+        "rights_and_capture": {
+          "source_id": "R26-L05",
+          "established": "Neutrolis announced an exclusive UIC license for topical ocular DNase use on 2024-12-23 and a proprietary L304 program.",
+          "evidence_type": "Issuer release, not underlying license agreement",
+          "license_current_2026_status_verified": false,
+          "territorial_claims_or_freedom_to_operate_verified": false,
+          "offered_terms": null,
+          "product_equivalence_to_l304": false,
+          "plausible_route": "Partnership/data-use or a differentiated product with an independently justified contribution; not assumed freely owned replication of the pilot drops."
+        },
+        "next_information_question": "Does usable controlled symptom/phenotype evidence plus an attainable contribution under the announced license support a defined clinical/product proof?",
+        "minimum_deliverable": [
+          "Reconciled controlled symptom/sign and phenotype scope",
+          "Usable evidence and output-rights position",
+          "Exact-article suitability and exposure/burden question",
+          "Scoped partnership or differentiated-contribution terms separate from later clinical costs"
+        ],
+        "conditional_comparison": {
+          "judgment": "Randomized sign evidence is more developed than a target hypothesis, but the inconclusive registered symptom outcome and explicit license context place this behind erlotinib's bounded new-use information question in this lane.",
+          "cash": "Waiting dominates an undefined proprietary investment; that is not a conclusion that clinical research lacks value."
+        },
+        "branches": {
+          "advance": "A feasible obtainable partnership, usable data package or meaningful product contribution plus an interpretable clinical claim.",
+          "hold_or_rescope": "Only the old sign result is available, meaningful symptoms remain unsupported, or no attainable contribution exists.",
+          "stop_source_work": "No broad repeat search without a primary clinical update, access/rights change or actual offered package."
+        },
+        "access_limits": [
+          "Full primary paper and filtered official registry status/outcome data read.",
+          "License announcement read; underlying agreement and later L304 efficacy not audited."
+        ],
+        "source_ids": [
+          "R26-L00",
+          "R26-L04",
+          "R26-L05",
+          "R26-L06"
+        ],
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "actual_quote_usd": null,
+        "all_in_remaining_development_cost_usd": null,
+        "estimated_time_to_next_decision": null,
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false
+      },
+      {
+        "id": "R26-LOC-03",
+        "name": "Amlexanox for selected COL7A1 nonsense RDEB",
+        "aliases": [
+          "amlexanox",
+          "COL7A1",
+          "RDEB",
+          "recessive dystrophic epidermolysis bullosa",
+          "type VII collagen",
+          "CTRI/2021/04/033024"
+        ],
+        "exact_use": {
+          "article": "Amlexanox as a read-through candidate; a qualified topical skin product is not established.",
+          "disease": "Recessive dystrophic epidermolysis bullosa",
+          "genotype_scope": "Selected COL7A1 premature-termination variants; response depends on allele and cellular context.",
+          "route": "Intended local skin product; the verified evidence is cell/organotypic, not human topical exposure.",
+          "intended_claim": "Useful reduction in skin fragility/wounds from functionally adequate collagen VII",
+          "not_established": [
+            "Mechanical adhesion or anchoring-fibril competence",
+            "Treated-human wound benefit",
+            "A genotype-independent response",
+            "Qualified local formulation or clinical exposure window"
+          ]
+        },
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "baseline_read_errors": [],
+          "exhaustive": false,
+          "unresolved": [
+            "Screens N–Q",
+            "Other uninspected historical work or unrecognized aliases"
+          ],
+          "source_ids": [
+            "R26-L00"
+          ],
+          "selected_exact_use_hits": 0,
+          "previous_molecule_uses": [
+            "PAX6 nonsense aniridia"
+          ],
+          "external_scout_uncertainty": "Screen L contains a single root-scout amlexanox alias without use detail. This does not prove prior RDEB overlap, but prevents claiming the molecule was untouched."
+        },
+        "disposition": "Genotype-specific preclinical reserve; unresolved clinical-program information first",
+        "information_rank_within_lane": 3,
+        "evidence": [
+          {
+            "source_id": "R26-L07",
+            "design": "Patient-derived cells and organotypic skin",
+            "patient_material_donors": 14,
+            "different_premature_stop_mutations": 12,
+            "reported_responsive_mutation_contexts": 8,
+            "treated_human_outcomes_verified": 0,
+            "biological_units": "Patient material, allele backgrounds and culture/organotypic observations; not 14 treated patients.",
+            "positive": [
+              "Full-length collagen VII expression and secretion",
+              "Dermal–epidermal junction localization in organotypic skin"
+            ],
+            "negative_or_limiting": [
+              "Four mutation contexts were not responsive.",
+              "Primary, immortalized and carcinoma-derived backgrounds are not interchangeable replications.",
+              "Protein expression/localization does not establish useful mechanical skin function.",
+              "Higher-concentration cell-growth effects leave exposure-window interpretation unresolved."
+            ]
+          }
+        ],
+        "registry_gap": {
+          "id": "CTRI/2021/04/033024",
+          "primary_registry_body_recovered": false,
+          "secondary_source_id": "R26-L08",
+          "secondary_last_update": "2021-04-20",
+          "secondary_status": "Not yet recruiting",
+          "planned_participants": 15,
+          "actual_enrollment": null,
+          "actual_treated": null,
+          "published_human_results_verified": false,
+          "conflicting_secondary_signal": "EB Research Network search-index snippet suggested closed/terminated; retrieved page did not expose the row.",
+          "current_status": null
+        },
+        "rights_and_capture": {
+          "exact_use_license_verified": false,
+          "physical_lot_or_skin_product_verified": false,
+          "offered_terms": null,
+          "unresolved": [
+            "Current clinical program and usable outcomes",
+            "Genotype selection and clinically meaningful function",
+            "Skin product adequacy and exposure",
+            "Meaningful retained contribution and current rights"
+          ],
+          "not_inferred": "Historical oral-ulcer use and absent identified license do not establish qualified topical skin use or FTO."
+        },
+        "next_information_question": "Can the actual clinical-program status/results resolve whether a new genotype-specific functional proof is warranted?",
+        "minimum_deliverable": [
+          "Primary clinical-program status and usable results, if publicly obtainable",
+          "A claim-specific functional decision distinct from collagen localization",
+          "Exact-article/product and comparator scope",
+          "Separate actual terms for information, functional qualification and later clinical work"
+        ],
+        "branches": {
+          "advance": "Verified useful functional or clinical evidence in an appropriate allele context, with an adequate article and a feasible retained contribution.",
+          "hold_or_rescope": "Only molecular localization is available or trial status/results remain unresolved.",
+          "stop": "A qualified informative result fails the intended useful function at a relevant exposure; no universal target rejection from a nonresponsive allele alone.",
+          "stop_source_work": "No repeated broad search without a named primary trial/results artifact or consequential product fact."
+        },
+        "access_limits": [
+          "Primary preclinical full text read.",
+          "CTRI primary body and human results not recovered.",
+          "Secondary status labels conflict; no enrollment or result inferred."
+        ],
+        "source_ids": [
+          "R26-L00",
+          "R26-L07",
+          "R26-L08",
+          "R26-L09"
+        ],
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "actual_quote_usd": null,
+        "all_in_remaining_development_cost_usd": null,
+        "estimated_time_to_next_decision": null,
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false
+      },
+      {
+        "id": "R26-LOC-04",
+        "name": "Topical timolol for chronic diabetic foot ulcers and healed epithelial integrity",
+        "aliases": [
+          "timolol",
+          "Timoptic-XE",
+          "Timoptic",
+          "BAART-DFU",
+          "NCT03282981",
+          "diabetic foot ulcer",
+          "TEWL"
+        ],
+        "exact_use": {
+          "article": "Topical timolol gel added to standard diabetic-foot-ulcer care in the BAART-DFU program.",
+          "disease": "Chronic diabetic foot ulcers",
+          "route": "Local wound/skin application",
+          "intended_claim": "Useful complete healing and durable healed-site integrity with acceptable total burden",
+          "not_established": [
+            "Convincing superiority on the reported controlled primary closure outcome",
+            "Reduced ulcer recurrence",
+            "A standalone treatment effect apart from standard care",
+            "A qualified commercial wound product or exclusive opportunity"
+          ]
+        },
+        "novelty": {
+          "status": "new_exact_use_in_bounded_review",
+          "baseline_files": 424,
+          "external_reports": 13,
+          "baseline_read_errors": [],
+          "exhaustive": false,
+          "unresolved": [
+            "Screens N–Q",
+            "Other uninspected historical work or unrecognized aliases"
+          ],
+          "source_ids": [
+            "R26-L00"
+          ],
+          "selected_exact_use_hits": 0,
+          "previous_molecule_uses": [],
+          "note": "No timolol/Timoptic/BAART match in the inspected baseline or thirteen external reports; uninspected scopes remain open."
+        },
+        "disposition": "Hold paid promotion; reconcile controlled clinical outcomes",
+        "information_rank_within_lane": 4,
+        "evidence": [
+          {
+            "source_id": "R26-L11",
+            "design": "Randomized placebo-controlled trial with standard care",
+            "unit": "people",
+            "randomized": 48,
+            "randomized_by_arm": {
+              "timolol": 21,
+              "placebo": 27
+            },
+            "primary_closure_week": 12,
+            "closure_counts": {
+              "timolol": {
+                "n": 8,
+                "N": 21
+              },
+              "placebo": {
+                "n": 7,
+                "N": 27
+              }
+            },
+            "secondary_time_to_closure_window_weeks": 31,
+            "results_first_posted": "2025-04-25",
+            "last_update_posted": "2025-05-08",
+            "complete_by_arm": {
+              "timolol": 21,
+              "placebo": 24
+            },
+            "limitations": [
+              "Primary efficacy is not clearly established by these counts.",
+              "Later time-to-event interpretation requires its analysis population and censoring.",
+              "Registry phase/masking descriptions differ from paper labels; no misconduct inference."
+            ]
+          },
+          {
+            "source_id": "R26-L12",
+            "design": "Conference report of the same trial program",
+            "primary_week_stated": 14,
+            "early_results_week_stated": 15,
+            "later_week_stated": 30,
+            "early_p_value": 0.77,
+            "later_unadjusted_logrank_p": 0.081,
+            "later_adjusted_hazard_ratio": 2.88,
+            "later_adjusted_p": 0.027,
+            "internal_count_percent_conflict": "7/27 is printed as 33%; do not silently substitute the percentage for the count.",
+            "lineage_limit": "108 initially enrolled/screened is not the randomized or treated denominator."
+          },
+          {
+            "source_id": "R26-L10",
+            "design": "Post-hoc selected healed-participant barrier analysis from the same trial",
+            "healed_parent_subset": 28,
+            "selected_people": 20,
+            "selected_by_arm": {
+              "timolol": 10,
+              "placebo": 10
+            },
+            "men": 19,
+            "positive": "Lower TEWL supports a healed-barrier measurement signal.",
+            "negative": "No significant re-ulceration difference over one year.",
+            "limitations": [
+              "Conditioning on healing and selecting participants can bias causal interpretation.",
+              "Repeated readings, visits and measurement observations are not extra people.",
+              "Visit-level participant denominators varied.",
+              "No verified recurrence-prevention claim."
+            ]
+          }
+        ],
+        "lineage": {
+          "independent_trials": 1,
+          "registry_conference_and_posthoc_paper_not_added": true,
+          "pooled_unique_treated_people": null,
+          "repository_cover_conflict": "Repository wrapper describes a 2024 conference item; the embedded body is the 2025 full article with DOI10.1159/000545357.",
+          "timepoint_conflicts": [
+            "Registry primary12 weeks vs conference primary14/results15",
+            "Registry secondary31 weeks vs conference30"
+          ]
+        },
+        "rights_and_capture": {
+          "exact_use_license_verified": false,
+          "qualified_wound_product_verified": false,
+          "available_terms": null,
+          "retained_contribution": null,
+          "not_inferred": "Existing generic ophthalmic product and clinical signal do not establish commercial wound-product rights, current supply or advantageous total care costs."
+        },
+        "next_information_question": "Can the prespecified primary endpoint/timepoint, population, missingness and adjusted/unadjusted analyses be reconciled into a credible useful healing or recurrence claim?",
+        "minimum_deliverable": [
+          "Primary endpoint and timing reconciliation",
+          "Trial-to-post-hoc participant lineage and missingness account",
+          "Explicit intended healing versus barrier/recurrence claim",
+          "A differentiated contribution and actual scope if clinical evidence becomes sufficient"
+        ],
+        "branches": {
+          "advance": "Only after primary clinical reconciliation supports a useful claim and a distinct obtainable contribution.",
+          "hold": "Current controlled primary and recurrence evidence do not justify paid promotion.",
+          "stop_source_work": "A further mechanistic or barrier-only source does not resolve the central controlled-clinical uncertainty; reopen for a consequential primary correction or independent clinical result."
+        },
+        "access_limits": [
+          "Full institutional article body read despite a mismatched repository cover.",
+          "Official registry API results and conference report read; no raw participant-level data obtained."
+        ],
+        "source_ids": [
+          "R26-L00",
+          "R26-L10",
+          "R26-L11",
+          "R26-L12"
+        ],
+        "paid_development_promotion": false,
+        "s_tier_promotion": false,
+        "actual_quote_usd": null,
+        "all_in_remaining_development_cost_usd": null,
+        "estimated_time_to_next_decision": null,
+        "financial_ev": null,
+        "probability_of_success": null,
+        "spending_authorized": false,
+        "execution_authorized": false
+      },
+      {
+        "id": "R26-FUN-01",
+        "name": "PSB-KD107 for Duchenne muscular dystrophy",
+        "record_type": "new_exact_use_defined_small_molecule",
+        "aliases": [
+          "PSB-KD107",
+          "PSB KD107",
+          "GPR18 agonist PSB-KD107",
+          "CAS 955121-65-0",
+          "10.3389/fcell.2023.1187253"
+        ],
+        "exact_use": "A defined GPR18 agonist to improve skeletal-muscle function and regenerative response in DMD.",
+        "exact_asset_identified": true,
+        "asset_limit": "The paper names a purchased research compound. No authenticated current lot, muscle-exposure specification, finished clinical product, commercial license or live stock/price is established.",
+        "information_priority_rank": 2,
+        "disposition": "Conditional information reserve; short capture/specification gate before a broader translational program.",
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "evidence_level": "One peer-reviewed preclinical investigator lineage with mdx mouse muscle force and dystrophic human iPSC myogenic observations.",
+        "evidence_units": [
+          {
+            "unit": "Male mdx mice beginning at ten weeks of age",
+            "endpoint": "Absolute and specific ex-vivo EDL force after a three-week treatment period.",
+            "denominator": "Figure caption reports five animals per group, except the O-1602 comparator with three.",
+            "interpretation": "Treatment begins after early disease onset; baseline force was not documented within each animal, and advanced-stage reversal was not established."
+          },
+          {
+            "unit": "Dystrophic human iPSC-derived muscle cells",
+            "endpoint": "Fusion/myotube formation, not force.",
+            "denominator": "Three donor lines: two DMD and one Becker muscular dystrophy.",
+            "interpretation": "Do not call these three DMD patients or patient muscle-force rescue. Repeated measurements and technical duplicate receptor assays are not donors."
+          },
+          {
+            "unit": "Primary mouse myoblasts",
+            "endpoint": "Differentiation/fusion response.",
+            "denominator": "Three independent animals reported for the cell experiments.",
+            "interpretation": "Supports myogenic biology, not a second independent drug-development study."
+          }
+        ],
+        "positive_evidence": [
+          "The mdx force result measures useful organ function rather than only a biomarker.",
+          "The active proresolving comparator RvD2 also improved force; GPR55 agonist O-1602 did not show a significant force effect in its smaller group.",
+          "Dystrophic human cell fusion and inflammatory/fibrotic findings are directionally supportive."
+        ],
+        "negative_or_limiting_evidence": [
+          "Human-cell evidence is a differentiation/fusion endpoint, not mature contractile output.",
+          "Diaphragm fibrosis improvement is not a demonstrated respiratory, cardiac or survival benefit.",
+          "No current-care add-on or active glucocorticoid comparison establishes incremental DMD benefit.",
+          "The tested mouse administration does not establish practical chronic human delivery, relevant free muscle exposure or an adequate therapeutic window.",
+          "No independent replication or human therapeutic result is established."
+        ],
+        "rights_and_capture": {
+          "observed": "The primary article identifies Cayman as research supplier. Search recovered the exact Cayman item 31393; live primary catalog retrieval returned HTTP 403. No specific obtainable commercial interest or exact use/compound patent family was verified in the bounded search.",
+          "available_offer": null,
+          "verified_current_stock": null,
+          "price": null,
+          "capture_inference": "A defined, historically supplied small molecule could reduce article reconstruction effort. Its old public disclosure and unverified proprietary contribution weaken a standalone asset thesis; research supply does not grant commercial rights.",
+          "unresolved": [
+            "Exact identity and currently obtainable specification",
+            "Existing composition/use rights and current ownership",
+            "A useful differentiated product or contractual data/option contribution",
+            "DMD incremental value relative to relevant care"
+          ]
+        },
+        "financing_scope": "Potential bounded research-article/exposure and mature-muscle function qualification, then a separately evaluated chronic DMD development program. No actual price or schedule is supplied.",
+        "cheapest_next_information_gate": "Use the exact article record, public compound/use claims and existing exposure information to decide whether a defensible, obtainable contribution and a practical chronic product are plausible. If so, scope a mature human-muscle function question and its relevant-care comparator; do not treat fusion as that result.",
+        "stopping_rule": "Stop the standalone commercial thesis if the only contribution is repeating a published generic research effect with no retainable downstream value. Hold if useful mature force cannot be separated from nonspecific differentiation or if necessary exposure/product work becomes an open-ended chemistry program. A prevention-limited effect should be re-scoped to a feasible treatment window, not automatically rejected.",
+        "comparison_to_apr_blu": "PSB offers clearer published mouse-force evidence and a historical exact supplier, reducing some identity uncertainty relative to BLU reconstruction. BLU nevertheless has a more concretely specified post-deficit human-force route; PSB still needs that bridge and a stronger capture thesis. APR's same-disease clinical signal/local article supports a more direct intended-use question. These are substantive scope comparisons, not a penalty applied only to PSB for missing prices.",
+        "source_ids": [
+          "R26-F01",
+          "R26-F11",
+          "R26-F12",
+          "R26-F13"
+        ]
+      },
+      {
+        "id": "R26-FUN-02",
+        "name": "FD-2 peptide for ALS",
+        "record_type": "new_exact_use_defined_peptide",
+        "aliases": [
+          "FD-2",
+          "FD2",
+          "FD-1",
+          "FD1",
+          "Pgk1-derived 16-amino acid peptide",
+          "extracellular Pgk1 peptide",
+          "10.1016/j.neurot.2025.e00806",
+          "US20240327462A1"
+        ],
+        "exact_use": "A defined extracellular Pgk1-derived peptide to preserve motor-neuron and neuromuscular function in ALS; FD-2 selected, with FD-1 retained as an informative comparator.",
+        "exact_asset_identified": true,
+        "asset_limit": "The paper defines the active peptide family and a single-residue FD-2 variant. The patent explicitly names FD2. Final chemical-form/terminus correspondence, lot specification, measured exposure and current commercial rights are not independently established.",
+        "information_priority_rank": 1,
+        "disposition": "First bounded information gate in this lane: reconcile the newly located peptide patent, article identity and existing product/exposure record.",
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "evidence_level": "One investigator lineage spanning engineered cell models, developmental fish models and presymptomatically treated SOD1-G93A mice; a related patent is not independent confirmation.",
+        "evidence_units": [
+          {
+            "unit": "NSC34/engineered ALS-like neuronal models",
+            "endpoint": "Neurite and stress-associated cellular outcomes.",
+            "denominator": "Cells and repeated experiments do not constitute patient donors.",
+            "interpretation": "No patient-derived human neuronal functional rescue in this paper."
+          },
+          {
+            "unit": "Developmental zebrafish C9orf72 knockdown and hTDP43-G348C models",
+            "endpoint": "Axonal and swimming changes.",
+            "denominator": "Separate model experiments within the same publication lineage.",
+            "interpretation": "Not adult genetic-patient replication or evidence for all ALS genotypes."
+          },
+          {
+            "unit": "SOD1-G93A mice",
+            "endpoint": "Grip/locomotion, NMJ integrity, motor-neuron markers and time to humane endpoint.",
+            "denominator": "Five animals per group for grip/locomotion; twelve per group for survival; repeated grip readings are not independent animals.",
+            "interpretation": "Treatment starts at postnatal day 60 before overt decline. Endpoint includes inability to feed with forelimb paralysis, not observed natural lifespan. The report describes random assignment and blinded endpoint assessment."
+          },
+          {
+            "unit": "US20240327462A1 examples",
+            "endpoint": "Related peptide functional observations.",
+            "denominator": "Patent survival counts differ from the later article (control seven, treated groups five).",
+            "interpretation": "Same investigator/asset lineage; overlap is unresolved. Do not sum or call independent replication."
+          }
+        ],
+        "positive_evidence": [
+          "Useful motor outcomes and time to humane endpoint improve in a mammalian ALS model.",
+          "FD-2 appears stronger in vivo than FD-1 in the paper, while FD-1 is stronger in some cell comparisons; this creates a discriminating within-family comparator.",
+          "A specific institutional patent family supplies a plausible route to an asset relationship, rather than an anonymous target-only concept."
+        ],
+        "negative_or_limiting_evidence": [
+          "No verified post-symptomatic rescue; existing evidence most directly supports early preservation or delay.",
+          "Patient-derived mature motor-unit function and broad genetic applicability are unproven.",
+          "Measured systemic/tissue pharmacokinetics, relevant exposure duration, immunogenicity and a chronic product package were not established.",
+          "The proposed conformational/stability explanation for FD-2's relative in-vivo advantage is a hypothesis, not measured pharmacokinetic superiority.",
+          "Full-length extracellular Pgk1, intracellular Pgk1 enzyme enhancement and FD-2 are distinct interventions; their results cannot be pooled as exact-article replication."
+        ],
+        "rights_and_capture": {
+          "observed": "US20240327462A1, published 2024-10-03, explicitly describes FD peptides and lists Mackay Medical College and Fu Jen Catholic University. Its indexed US status is pending; this is a third-party transcription of a primary patent publication, not verified current official prosecution or title. The paper's no-conflict statement does not negate the filing.",
+          "available_offer": null,
+          "price": null,
+          "capture_inference": "A defined peptide plus institutional claims is a plausible license/option or evidence-rights contribution, but no willingness to transact, clean title, exact claim match or economic terms is established.",
+          "unresolved": [
+            "Exact final peptide and terminal-form correspondence between article and claims",
+            "Current territorial claims and title/license encumbrances",
+            "What existing exposure/product data can be used",
+            "A retainable contribution and access terms"
+          ]
+        },
+        "financing_scope": "First a finite document/product-rights reconciliation. A later systemic peptide and disease-functional qualification project has separate exposure, model and formulation dependencies; no low-cost peptide-development assumption or dollar quote is invented.",
+        "cheapest_next_information_gate": "Reconcile the final article's FD-2 identity and endpoint units with the named patent examples/claims, current public national records and any existing product/exposure information. Specify whether the next useful question concerns early prevention in a feasible diagnosed population or later symptomatic function, and whether it can be answered through an obtainable bounded evidence route.",
+        "stopping_rule": "Close this public-record pass when the named identity/claim and existing-data questions are resolved or accessible records are exhausted. Hold if an exact peptide/product cannot be specified, or if the next informative step requires broad delivery discovery and a new model platform without a superior incremental-value case. Re-scope a prevention-only benefit to a feasible population/window before comparing costs; prevention alone is not failure. A private owner response is not a prerequisite for scientific selection.",
+        "comparison_to_apr_blu": "Prefer this newly opened article/patent reconciliation over another unchanged APR/BLU broad literature pass. For an actual functional commitment, APR has same-disease human observations and a local article, while BLU has a defined post-deficit human-force route; FD-2 lacks a mature patient-derived functional route and measured exposure. FD-2 can still become the better conditional next information dollar if its actual available scope is narrower, more discriminating or retains more value; apply identical price/rights burdens to all.",
+        "source_ids": [
+          "R26-F02",
+          "R26-F04",
+          "R26-F12",
+          "R26-F13"
+        ]
+      },
+      {
+        "id": "R26-FUN-03",
+        "name": "Defined copper nanoclusters for Menkes disease",
+        "record_type": "new_exact_use_defined_formulation_family",
+        "aliases": [
+          "CuNC",
+          "CuNCs",
+          "CuNC@HisAc",
+          "CuNC@HisAcAsc",
+          "histidine/acetate copper nanoclusters",
+          "10.1126/sciadv.aeg6972",
+          "WO2022238656A1"
+        ],
+        "exact_use": "Defined stabilized copper nanoclusters for early ATP7A-deficient Menkes disease, seeking useful neurological or product benefit beyond copper histidinate.",
+        "exact_asset_identified": true,
+        "asset_limit": "The publication characterizes defined formulations, but the exact development variant, reproducible released batch, chronic product specification and commercial rights are not established.",
+        "information_priority_rank": 3,
+        "disposition": "Conditional translational/partner reserve; existing-data comparator and product-rights audit only.",
+        "paid_development_promotion": false,
+        "funding_authorized": false,
+        "estimated_return_per_dollar": null,
+        "evidence_level": "One primary Mo-blo mouse study lineage, with formulation characterization, survival and selected later functional observations; no CuNC patient efficacy.",
+        "evidence_units": [
+          {
+            "unit": "Mo-blo ATP7A-deficient mice treated from postnatal day five",
+            "endpoint": "Survival through postnatal day 50 against untreated, copper-histidine and wild-type groups.",
+            "denominator": "CuNC 17; untreated 14; copper-histidine 13; wild-type 20.",
+            "interpretation": "Severe early death includes vascular/aortic disease. The reported 50-day value coincides with the study endpoint and must not be presented as independently established median lifespan."
+          },
+          {
+            "unit": "Later behavioral testing",
+            "endpoint": "Locomotor, coordination and learning measurements.",
+            "denominator": "Predominantly treated survivors compared with wild-type; few surviving disease controls.",
+            "interpretation": "Survivor selection and missing comparable untreated/CuHis groups prevent a clean causal claim of neurological normalization. Treated animals retain significantly more stumbles than wild-type."
+          },
+          {
+            "unit": "Biochemistry and safety",
+            "endpoint": "Cuproenzyme activity, organ markers and histology.",
+            "denominator": "Age/survival strata differ; some late CuHis samples have only two or three animals.",
+            "interpretation": "Elevated ALT and beta-2-microglobulin deserve attention. A claimed adaptive/reversible explanation is not verified longitudinal reversal; normal histology or negative staining does not establish complete safety."
+          },
+          {
+            "unit": "Approved copper histidinate benchmark",
+            "endpoint": "FDA survival assessment from two single-arm clinical studies with external controls.",
+            "denominator": "66 treated participants and 17 untreated contemporary external controls overall.",
+            "interpretation": "Different human comparator evidence; not randomized, not CuNC evidence and not proof of neurological equivalence."
+          }
+        ],
+        "positive_evidence": [
+          "A defined formulation improves early survival against the study's copper-histidine comparator in a severe ATP7A-deficient mouse model.",
+          "Brain cuproenzyme activity and later behavioral observations support investigating a neurological contribution.",
+          "A named university/hospital patent family offers a plausible translation/partner route."
+        ],
+        "negative_or_limiting_evidence": [
+          "A study endpoint at day 50 cannot establish 50-day median lifespan for a group with survivors at the boundary.",
+          "Later behavioral comparisons are subject to differential survival and are not a robust matched surviving-disease-control demonstration.",
+          "Residual coordination deficits remain; nonsignificance versus wild-type is not equivalence.",
+          "Reported biochemical safety abnormalities are not neutralized by qualitative histology or an untested reversibility explanation.",
+          "FDA-approved copper histidinate now supplies a survival-benefit baseline; untreated-only need cannot define the incremental product claim.",
+          "Early neonatal treatment does not establish treatment of later irreversible neurological damage."
+        ],
+        "rights_and_capture": {
+          "observed": "WO2022238656A1, published 2022-11-17, names University of Lorraine and CHU Nancy in the indexed record and describes copper nanocluster/Menkes uses. The WO indexed status is ceased while national family entries remain; this does not establish family abandonment. Current official national prosecution, title and available license are not verified.",
+          "available_offer": null,
+          "price": null,
+          "capture_inference": "This is an institutional formulation-development opportunity, not unowned generic copper. A reproducible manufacturing/product contribution and incremental advantage over approved therapy could retain value, but neither is established as an offered transaction.",
+          "unresolved": [
+            "Exact candidate formulation and released product specification",
+            "Current territorial rights and license availability",
+            "Survival censoring and survivor-stratified functional evidence",
+            "Incremental neurological, delivery or safety benefit versus approved copper histidinate"
+          ]
+        },
+        "financing_scope": "Finite existing-data and product/rights audit first. Full nanomedicine manufacturing, chronic safety and pediatric clinical development would be a materially larger program than a small model-qualification tranche; no numerical budget is asserted.",
+        "cheapest_next_information_gate": "Reconcile survival censoring, age/selection strata and the exact formulation-to-patent relationship, then state a testable incremental claim against current copper histidinate. Determine whether existing data distinguish brain-function or product benefit beyond systemic survival; stop if they only support the already-satisfied untreated comparison.",
+        "stopping_rule": "Hold broad brain-restoration claims if surviving-control comparisons cannot distinguish treatment from survival selection. Re-scope to a narrower systemic or practical product benefit only if it remains clinically consequential against approved copper histidinate. Hold development if reliable formulation control or an obtainable value contribution remains undefined. A feasible neonatal-prevention window is acceptable and does not require adult reversal.",
+        "comparison_to_apr_blu": "The existing-data survival/comparator audit is inexpensive in kind and consequential, but it is a different purchase from APR/BLU useful-function qualification. A chronic pediatric nanomedicine program has more manufacturing and comparator dependencies. No higher funded rank is justified by the large untreated-mouse effect alone; an actual narrow data/option package could still be worth comparing on equal terms.",
+        "source_ids": [
+          "R26-F03",
+          "R26-F05",
+          "R26-F06",
+          "R26-F12",
+          "R26-F13",
+          "R26-F14",
+          "R26-F15"
+        ],
+        "prior_related_inventory": {
+          "inventory_id": "component-proposals:P010",
+          "name": "Copper-ionophore formulation for ATP7A deficiency",
+          "repository_path": "discovery/component-proposals.csv",
+          "adjudication": "Same disease and copper-delivery purpose were already encountered. The two historical primary links describe elesclomol-copper; the selected CuNC@HisAc/HisAcAsc is a different exact formulation/article. Do not count a new disease or transfer the prior two-child report into CuNC evidence.",
+          "source_ids": [
+            "R26-F14",
+            "R26-F15"
+          ]
+        },
+        "novelty_scope": "Scoped new exact formulation/use against the 424-file baseline and 13 recovered reports; prior Menkes P010 is retained as a different-article concept. Screens N–Q remain unrecovered."
+      }
+    ],
+    "lane_ledgers": [
+      "research/rounds/round26/human-candidate-ledger.json",
+      "research/rounds/round26/local-candidate-ledger.json",
+      "research/rounds/round26/functional-candidate-ledger.json"
+    ],
+    "prior_marginal_dollar_decision_preserved": {
+      "round": 25,
+      "objective": "Expected value of the next marginal dollar, including retained economics, remaining costs, delay and waiting.",
+      "completed_scope": "Three coordinated workstreams: current-portfolio reassessment, additional exact-use screening, and advancement of conditional lead APR-246/AEC using Firecrawl.",
+      "conditional_information_queue": [
+        "R23-01",
+        "R23-02",
+        "R23-03",
+        "R23-04"
+      ],
+      "rank_meaning": "Priority for additional consequential information if accessible at an appropriate cost; not a quantified financial-asset ranking.",
+      "paid_development_promotions": 0,
+      "spending_authorized": false,
+      "zero_or_wait_option_included": true,
+      "estimated_return_per_dollar": null,
+      "numerical_success_probabilities": false,
+      "replacement_allocation": null,
+      "inherited_conditional_development_prefix": [
+        "R4-L02",
+        "R4-L01",
+        "BLU3797_XLMTM",
+        "R3-NL-01",
+        "MIGF_CORNEA",
+        "R3-NM-01",
+        "AAT_EVLP"
+      ],
+      "full_development_order_changed": false,
+      "closed_source_candidates_automatically_demoted": false,
+      "novelty_exhaustive": false,
+      "missing_novelty_scope": [
+        "Screens N-Q",
+        "any other uninspected historical screens or unrecognized aliases"
+      ],
+      "additional_screen_information_queue": [
+        "R25-NEW-01",
+        "R25-NEW-02",
+        "R25-NEW-03"
+      ],
+      "additional_information_queue_scope": "A36/HD, then dipyridamole/ALS, then atorvastatin/SRD5A3 within-screen document-level priority only; no insertion into a quantified global investment ranking.",
+      "conditional_local_first_choice": "R4-L02",
+      "exhaustive_portfolio_valuation": false,
+      "historical_cost_bands_are_quotes": false,
+      "current_capital_decision": "Keep capital uncommitted pending an obtainable, priced, decision-changing opportunity; this is not a finding of negative underlying program EV.",
+      "retained_round24_information_queue": [
+        "R24-N01",
+        "R24-N03",
+        "R24-N02"
+      ],
+      "retained_round24_information_queue_scope": "Inherited SGPL1, VS-X4, ATP1A3 within-screen information order; not repriced against the Round25 screen.",
+      "next_advancement_decision": "Evaluate a defined APR article/evidence-route/access/output-rights package with separate qualification and useful-function scopes and actual terms.",
+      "actual_priced_commitment_verified": false,
+      "actual_quote_usd": null,
+      "newly_verified_APR_treated_people": 0,
+      "newly_generated_experimental_results": 0,
+      "source_closure_rule": "Only consequential new evidence, access, rights, or scoped cost facts reopen a named decision; no automatic reopening of completed source passes."
+    },
+    "source_reference_scope": "research/rounds/round26/source-register.json",
+    "novelty_audit": "research/rounds/round26/novelty-audit.json",
+    "unpaywall_access_audit": "research/rounds/round26/unpaywall-access-audit.json",
+    "independent_reviews": [
+      "research/rounds/round26/integration-review.md"
+    ],
+    "artifact_manifest": "research/rounds/round26/artifact-manifest.json",
+    "verification": "research/rounds/round26/local-verification.json",
+    "activity_boundary": [
+      "no outreach",
+      "no purchases",
+      "no recruitment",
+      "no experiments",
+      "no simulations",
+      "no material receipt",
+      "no applications"
+    ],
+    "interpretation_limits": [
+      "Erlotinib exact local product/vehicle/cointervention contribution, suitable comparator, current rights and obtainable data/product terms.",
+      "FD-2 exact chemical-form/claim relationship, current official national title/status, existing exposure evidence and attainable contribution.",
+      "MCT8 endpoint/person-level reconciliation, usable controlled symptomatic-function route and retained economics for a generic indication.",
+      "Dornase primary symptom uncertainty/current license scope; amlexanox genotype-specific useful skin benefit and trial status/results; timolol endpoint/timepoint reconciliation.",
+      "PURA maturation and treatment sequencing; TTI protocol/analysis/masking/attrition; PSB mature human force/capture; CuNC incremental comparator, survival selection and product/safety.",
+      "Missing historical Screens N–Q and unspecified Screen L amlexanox scout scope."
     ]
   }
 }

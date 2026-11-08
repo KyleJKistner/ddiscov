@@ -1,6 +1,14 @@
 # Drug Discovery Research
 
-## Round 25: Firecrawl continuation across three workstreams
+## Round 26: all three agents screening new candidates
+
+**Evidence cutoff: 8 November 2026.** [Round 26](research/rounds/round26/README.md) adds **ten exact intervention/use screening records** across human evidence, local products and functional preclinical evidence. All three agents used Firecrawl; Unpaywall helped identify lawful research copies and preserved access metadata. The new leading questions are **topical erlotinib/KRT16 keratoderma, FD-2/ALS and levodopa/carbidopa/MCT8 deficiency**.
+
+These are distinct information priorities, with reserves and holds recorded explicitly. New consequential questions take precedence over repeating closed broad source passes. The inherited development queue remains visible under its original conditions; missing current quotes apply equally to old and new candidates, and no verified financial ordering or paid-development promotion is asserted.
+
+The [human screen](research/rounds/round26/human-evidence-screen.md), [local screen](research/rounds/round26/local-product-screen.md), [functional screen](research/rounds/round26/functional-rescue-screen.md), [integration review](research/rounds/round26/integration-review.md) and [unified ledger](research/rounds/round26/candidate-ledger.json) govern this continuation. All 622 original coverage records and prior rounds are preserved. Selected-alias novelty covers424 baseline files and13 complete indexed prior reports; Screens N–Q remain unresolved.
+
+## Retained Round 25: Firecrawl continuation across three workstreams
 
 **Evidence cutoff: 8 November 2026.** [Round 25](research/rounds/round25/README.md) reassesses 16 current records, screens three additional exact therapeutic uses, and advances APR-246/AEC through a defined seven-gate decision package. Fresh primary inspection is distinguished from historical carry-forward. Firecrawl recovered the APR model paper and supplement, official patent records, the GA002 registry and full preclinical papers needed to sharpen the decisions.
 
