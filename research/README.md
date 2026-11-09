@@ -11,6 +11,8 @@ rg -n 'APR-246' research/rounds/round25
 
 `search` matches JSON string values and returns file locations and pointers. Use `show FILE /pointer` to retrieve a match. Shorten `/records/3/name` to `/records/3` for its enclosing record; large selections show available keys for a narrower lookup. Use `rg` for Markdown and CSV. Results are bounded so candidate work starts with focused context.
 
+Search and format checks use Git's tracked and unignored files. Exported copies without Git skip common virtual-environment and cache directories. `status` reports the latest available evidence round linked from the current opportunities page.
+
 | Location | Contents |
 |---|---|
 | [Round index](rounds/README.md) | One entry per research round, newest first. |

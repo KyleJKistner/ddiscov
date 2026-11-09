@@ -5,8 +5,10 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 from pathlib import Path
 import re
+import subprocess
 import sys
 from urllib.parse import unquote
 
@@ -23,10 +25,37 @@ ACTIVE_DOCS = (
     "methods/README.md", "atlas/README.md", "discovery/README.md",
     "formulations/README.md", "provenance/README.md",
 )
+LOCAL_DIRS = {".git", ".hg", ".svn", ".venv", "venv", "__pycache__", ".pytest_cache", "node_modules"}
 
 
 def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def project_files(root):
+    """Use Git's tracked/unignored files, or skip local tooling in an exported tree."""
+    root = root.resolve()
+    names = None
+    if (root / ".git").exists():
+        try:
+            result = subprocess.run(
+                ["git", "-C", str(root), "ls-files", "--cached", "--others",
+                 "--exclude-standard", "-z"],
+                check=True, capture_output=True, text=True,
+            )
+            names = {Path(name) for name in result.stdout.split("\0") if name}
+        except (OSError, subprocess.CalledProcessError):
+            pass
+    if names is None:
+        names = set()
+        for directory, subdirs, files in os.walk(root, followlinks=False):
+            subdirs[:] = [name for name in subdirs if name not in LOCAL_DIRS
+                         and not (Path(directory) / name).is_symlink()]
+            names.update((Path(directory) / name).relative_to(root) for name in files)
+    for name in sorted(names):
+        path = root / name
+        if path.is_file() and not path.is_symlink() and path.resolve().is_relative_to(root):
+            yield name
 
 
 def short(text, limit=220):
@@ -100,8 +129,7 @@ def search(root, term, limit=10):
         raise ValueError("Use a nonempty search term.")
     if not 1 <= limit <= 100:
         raise ValueError("Search limit must be between 1 and 100.")
-    paths = sorted((p.relative_to(root) for p in root.rglob("*.json")
-                    if ".git" not in p.parts), key=search_order)
+    paths = sorted((p for p in project_files(root) if p.suffix == ".json"), key=search_order)
     matches = []
     errors = []
     needle = term.casefold()
@@ -138,8 +166,19 @@ def show(root, filename, pointer, max_chars=6000, full=False):
 
 def status(root):
     shortlist = (root / "decisions/current-shortlist.md").read_text(encoding="utf-8")
-    rounds = sorted((int(p.name[5:]) for p in (root / "research/rounds").glob("round*")
-                     if p.is_dir() and re.fullmatch(r"round\d+", p.name)), reverse=True)
+    # The current decision page identifies relevant evidence; draft folders do not.
+    rounds = set()
+    for target in local_links(shortlist):
+        match = re.match(r"\.\./research/rounds/round(\d+)/", target)
+        if match:
+            number = int(match.group(1))
+            try:
+                resolve_file(root, f"research/rounds/round{number}/README.md")
+                resolve_file(root, "decisions/" + target)
+            except ValueError:
+                continue
+            rounds.add(number)
+    latest = max(rounds, default=None)
     brief = [short(line.replace("**", "")) for line in shortlist.splitlines()
              if line.startswith("**Evidence cutoff:") or line.startswith("**Current capital")]
     return {
@@ -147,8 +186,9 @@ def status(root):
         "selection_policy": "decisions/selection-policy.md",
         "agent_guide": "AGENTS.md",
         "current_notes": brief,
-        "latest_evidence_round": rounds[0] if rounds else None,
-        "latest_evidence_path": f"research/rounds/round{rounds[0]}/README.md" if rounds else None,
+        "latest_evidence_round": latest,
+        "latest_evidence_path": f"research/rounds/round{latest}/README.md" if latest is not None else None,
+        "evidence_round_basis": "Latest round linked from the current decisions with an available README.",
         "historical_register": REGISTER,
         "reading_order": "Read the current decisions and policy, then open evidence for the selected task.",
     }
@@ -175,10 +215,9 @@ def check(root):
     for name in REQUIRED:
         if not (root / name).is_file():
             errors.append({"file": name, "error": "Required entry point is missing."})
-    for path in sorted(root.rglob("*")):
-        if not path.is_file() or ".git" in path.parts:
-            continue
-        name = path.relative_to(root).as_posix()
+    for relative in project_files(root):
+        path = root / relative
+        name = relative.as_posix()
         try:
             if path.suffix == ".json":
                 counts["json_files"] += 1
@@ -211,7 +250,7 @@ def check(root):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command")
-    commands.add_parser("status", help="Show current entry points and latest evidence round.")
+    commands.add_parser("status", help="Show current entry points and latest referenced evidence round.")
     query = commands.add_parser("search", help="Search JSON string values; latest evidence comes first.")
     query.add_argument("term")
     query.add_argument("--limit", type=int, default=10)

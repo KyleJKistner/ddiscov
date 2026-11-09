@@ -2,6 +2,8 @@
 import importlib.util
 import json
 from pathlib import Path
+import shutil
+import subprocess
 import tempfile
 import unittest
 
@@ -72,14 +74,52 @@ class NavigationTests(unittest.TestCase):
         self.write("bad.csv", 'id,name\n1,"two, fields"\n')
         self.assertTrue(repo.check(self.root)["passed"])
 
-    def test_status_uses_numeric_round_order_and_current_document(self):
+    def test_status_uses_current_references_and_ignores_draft_or_missing_rounds(self):
         self.write("research/rounds/round9/README.md", "")
         self.write("research/rounds/round26/README.md", "")
-        self.write("decisions/current-shortlist.md", "# Opportunities\n\n**Evidence cutoff: 8 November 2026.** Current evidence.\n\n**Current capital position: uncommitted.**\n")
+        self.write("research/rounds/round27/draft.json", "{}")
+        self.write("research/rounds/round28/README.md", "# Draft review")
+        self.write("decisions/current-shortlist.md", "# Opportunities\n\n**Evidence cutoff: 8 November 2026.** Current evidence.\n\n**Current capital position: uncommitted.**\n\n[Earlier](../research/rounds/round9/README.md)\n[Current](../research/rounds/round26/README.md)\n[Missing](../research/rounds/round29/README.md)\n")
         result = repo.status(self.root)
         self.assertEqual(result["latest_evidence_round"], 26)
         self.assertIn("uncommitted", result["current_notes"][1])
         self.assertEqual(result["current_decisions"], "decisions/current-shortlist.md")
+
+    def test_status_without_evidence_links_does_not_guess_a_round(self):
+        self.write("research/rounds/round26/README.md", "# Historical review")
+        self.write("decisions/current-shortlist.md", "# Current opportunities")
+        self.assertIsNone(repo.status(self.root)["latest_evidence_round"])
+
+    @unittest.skipUnless(shutil.which("git"), "Git is needed for ignore-rule integration")
+    def test_git_ignored_artifacts_do_not_affect_search_or_check(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True, capture_output=True)
+        self.write(".gitignore", ".venv/\nlocal-output/\n")
+        for name in repo.REQUIRED:
+            self.write(name, "{}" if name.endswith(".json") else "# Entry point\n")
+        self.write_json("record.json", {"name": "target evidence"})
+        subprocess.run(["git", "-C", str(self.root), "add", "record.json"], check=True)
+        self.write(".venv/broken.json", "{")
+        self.write_json(".venv/fixture.json", {"name": "target fixture"})
+        self.write_json("local-output/result.json", {"name": "target output"})
+        matches = repo.search(self.root, "target")["matches"]
+        self.assertEqual([match["file"] for match in matches], ["record.json"])
+        result = repo.check(self.root)
+        self.assertTrue(result["passed"], result)
+        self.assertEqual(result["counts"]["json_files"], 2)
+
+    def test_exported_tree_skips_local_tooling_and_symlinks(self):
+        self.write_json("record.json", {"name": "target evidence"})
+        self.write(".venv/broken.json", "{")
+        self.write_json("node_modules/fixture.json", {"name": "target fixture"})
+        self.write_json("__pycache__/fixture.json", {"name": "target cache"})
+        with tempfile.TemporaryDirectory() as external:
+            outside = Path(external) / "outside.json"
+            outside.write_text('{"name":"target external"}', encoding="utf-8")
+            (self.root / "linked.json").symlink_to(outside)
+            (self.root / "linked-dir").symlink_to(Path(external), target_is_directory=True)
+            result = repo.search(self.root, "target")
+        self.assertEqual([match["file"] for match in result["matches"]], ["record.json"])
+        self.assertEqual(result["errors"], [])
 
 
 if __name__ == "__main__":
