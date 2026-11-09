@@ -1,8 +1,8 @@
-# Opportunity commitment template
+# Opportunity screening and commitment template
 
 Use this record to compare a specific commitment under the [selection policy](selection-policy.md). Summarize its decision and link it from [current opportunities](current-shortlist.md). Keep supporting science in its existing dossier. Several records may concern the same asset when their deliverables or economic terms differ.
 
-Use **unknown** for missing inputs. Label each material claim as observed, quoted, estimated or proposed, with a source and date. Identify the evidence that could reverse the conclusion.
+Label each material claim as observed, quoted, estimated or proposed, with a source and date. During screening, use best estimates and ranges for costs, time, success and economic capture; state the rationale and confidence. Use **unknown** where no defensible estimate is available and show how plausible alternatives affect the ranking. Identify the evidence that could reverse the conclusion.
 
 ## 1. Define the opportunity
 
@@ -13,6 +13,7 @@ Use **unknown** for missing inputs. Label each material claim as observed, quote
 | Starting position | Available evidence, material, product, data and access; the development stage appropriate to this commitment. |
 | Economic interest | The proposed or offered asset, option, license, equity, revenue participation, contracted payment or other interest ddiscov would retain. |
 | Status | Proposed work, an actual offer, an authorized commitment or completed work; distinguish each clearly. |
+| Decision stage | Broad screen, deeper desk shortlist, counterparty inquiry or commitment diligence. Match the evidence requirement to this stage. |
 | Decision date | Assessment date, evidence cutoff and time-sensitive facts requiring verification. |
 | Cash-recovery condition | Private capital base, required net return, realization horizon and minimum acceptable probability; identify which are established versus unresolved. |
 
@@ -50,11 +51,11 @@ Show the cash waterfall from company/customer receipts through required spending
 | Inconclusive | Identify likely causes and whether a finite remedy could change the decision. | Remedy cost and exposure; the alternative of stopping with remaining capital. |
 | Financing unavailable | Determine whether an affordable handoff, smaller continuation or stop is possible after a technically useful result. | Stranded capital, obligations, any revised terms and supported residual value. |
 
-Assess separately the chance of an interpretable technical result, the chance it changes a consequential decision, the chance of a paid transaction and the chance of required financing. State dependencies and confidence. Use numerical probabilities only with an explicit basis; preserve correlated risks in the scenarios.
+Assess separately the chance of an interpretable technical result, the chance it changes a consequential decision, the chance of a paid transaction and the chance of required financing. State dependencies and confidence. A screening probability can be a subjective analyst prior; identify its event, rationale and range, and preserve correlated risks in the scenarios. Do not present a prior as a measured candidate frequency.
 
 ## 5. Make the next-dollar decision
 
-Compare this package with the best available alternative and preserving cash over a consistent horizon. Show expected incremental retained net value, value per incremental dollar, timing and maximum exposure when supported; otherwise identify the missing inputs and the cheapest check that could change the choice. Count future costs, dilution and residual value once.
+Compare this package with the best available alternative and preserving cash over a consistent horizon. Show estimated incremental retained net value, value per incremental dollar, timing and maximum exposure using coherent scenarios. Where proceeds are especially uncertain, show the retained cash needed to break even under stated probability assumptions. State a provisional rank or tie, the sensitivity of that judgment and the next desk check. Count future costs, dilution and residual value once.
 
 State the best feasible action available without this tranche. Separate the current value of any already-held interest from the incremental value created or protected by the proposed spending.
 

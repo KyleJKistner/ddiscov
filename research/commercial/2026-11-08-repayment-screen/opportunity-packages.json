@@ -418,8 +418,8 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
       "publication_date": "2020-01-16",
       "checked_date": "2026-11-08",
-      "verified_fact": "The original report describes topical treatment in two AEC children and identifies INSERM, AP-HP/Necker pharmacy and rare-skin-disease investigators associated with the article and clinical work.",
-      "limit": "An uncontrolled report and historical formulation experience do not establish a response probability, currently transferable article, available data rights or commercial permission."
+      "verified_fact": "The original report describes two AEC children, including an APR-treated palm versus contralateral vehicle in one child and uncontrolled scalp treatment in the other, and identifies institutional clinical/formulation contributors.",
+      "limit": "The small nonrandomized, unblinded exploratory report does not establish a response probability, currently transferable article, available data rights or commercial permission."
     },
     {
       "id": "H03",
@@ -637,5 +637,6 @@
       "verified_fact": "The historical filing describes financing based on commercial-stage revenue/royalty streams and possible syndication of amounts over the company's stated transaction size.",
       "limit": "Historical mechanism and scale evidence, not a current offering or access route. A suitable participation size, transferability, obligor, collateral and investor terms remain unverified."
     }
-  ]
+  ],
+  "current_use": "Background for later transaction diligence. Broad desk screening, an estimated comparison and a small shortlist precede inquiries; the active Round 27 comparison supersedes the earlier inquiry order."
 }

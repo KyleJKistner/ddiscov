@@ -1,51 +1,35 @@
 # Current opportunities
 
-**Evidence cutoff: 8 November 2026.** Candidate findings come from Round 26 and the linked earlier reviews. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) changes the economic comparison; it preserves those findings and their dates.
+**Evidence cutoff: 9 November 2026 (Round 27).** The [broad estimated screen](../research/rounds/round27/README.md) compares 49 development packages across 48 distinct asset/use combinations. The current stage is **screen broadly → compare estimates → deepen a handful → make inquiries**.
 
-Compare **exact asset/use + obtainable economic interest + bounded next commitment** by the financial value retained from the next dollar, subject to survivable downside. The [selection policy](selection-policy.md) governs that comparison; use the [opportunity template](opportunity-template.md) for a serious proposal. The packages below are an **unranked starting set**. The broader sourcing routes remain open across diseases, modalities and stages.
+Maximize the financial value retained from the marginal dollar, with a preference for credible success and survivable downside. Use the [selection policy](selection-policy.md) and [opportunity template](opportunity-template.md). Missing quotes or offered terms widen uncertainty; they do not block ranking at this stage.
 
-**Current capital record:** No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests and follow-on financing are unresolved. Budget-specific investor inputs are maintained privately and must be applied before a commitment. This describes the repository's decision state, not the user's overall finances.
+**Current capital record:** No paid-development commitment is recorded. All costs, technical probabilities and investor-cash assumptions below are analyst screening estimates. Private investor capital and loss limits remain outside this public record and must govern an actual commitment. This describes the repository's state, not the user's overall finances.
 
-**Commercial screen, 8 November 2026:** The [completed package comparison](../research/commercial/2026-11-08-repayment-screen/README.md) finds no verified transaction supporting a high probability of investor principal recovery plus a return. Sol-Gel's disclosed feasibility-study plans make topical erlotinib the first specific commercial-fit question; AAT process work has relevant partnering/support routes with unresolved demand and operator access. These are information priorities. The [counterparty briefs](../research/commercial/2026-11-08-repayment-screen/counterparty-briefs.md) define the next questions and quote scopes; messages remain unsent.
+## Four provisional finalists for deeper desk work
+
+| Desk tier | Exact opportunity and bounded milestone | All-in low / base / high | Main desk question |
+|---|---|---:|---|
+| 1 | **Nifedipine/lidocaine / chronic anal fissure:** territorial dossier/product interest and a limited regulatory/product bridge. | $175k / $325k / $625k | Which territory, dossier and remaining clinical requirements support meaningful retained value? Model a substantial pivotal requirement as well as a limited bridge. |
+| 2, tied | **APR-246 / AEC skin erosions:** transferable topical article plus controlled useful-benefit replication. | $250k / $400k / $750k | Is the exact article transferable, the relevant population recruitable and the resulting clinical package valuable under realistic ownership terms? |
+| 2, tied | **Topical erlotinib plus keratolytic / KRT16 Arg127Cys disease:** the matched article and controlled useful-benefit package. | $250k / $400k / $750k | Apply the same article, recruitment, endpoint, cost and capture tests as APR; a visible platform does not establish superior economics. |
+| 2, different milestone | **Exact racemic CBD3063 / chronic peripheral neuropathic pain:** independent functional/exposure, repeat-dose margin and practical-route package. | $175k / $335k / $600k | Can this exact article become a useful development candidate within a bounded scope, with a transferable composition/field interest? |
+
+These ranks allocate further desk attention; they do not prescribe development spending or establish positive expected returns. The estimates include entry/access allowances, operators, product work, analysis and contingency. Their high cases are scenarios, not binding caps. The [full comparison](../research/rounds/round27/README.md) records time, useful-milestone probability, cash hurdles, strongest contrary evidence and reversal conditions.
+
+APR and erlotinib are deliberately tied under matched assumptions. APR's two-case report includes one contralateral vehicle comparison; erlotinib's two related patients include randomized blinded opposite-foot phases. Neither sparse record supports a reliable financial superiority claim. The proposed milestone for both includes useful clinical evidence, rather than article qualification alone.
+
+## Immediate challengers and reserves
+
+**AAT donor-lung process work, topical insulin for persistent corneal epithelial defects, and local verteporfin for scarring** receive a common short desk challenge: identify the existing baseline, one specific unsolved product/process problem and why solving it could retain payment. Their base milestone estimates are $165k, $180k and $260k, respectively. Those scopes stop before a full new human efficacy program and cannot be ranked above clinical packages simply because they cost less.
+
+**Exact 8015-P2, PEPITEM and rectal tacrolimus** are the nearest scientific/development reserves. The [49-package longlist](../research/rounds/round27/longlist.md) preserves the rest, including explicit drops, larger-partner benchmarks and reopening conditions. Earlier biological rankings and current lane-specific lists supply evidence; this page defines the cross-lane priority.
 
 ## Next useful work
 
-1. **Advance the prepared packages.** Use the [structured commercial comparison](../research/commercial/2026-11-08-repayment-screen/opportunity-packages.json), its source records and the counterparty briefs. Resolve an actual economic-interest and scoped-cost question for the existing-article, early-development or process/participation route under consideration.
-2. **Resolve the binding uncertainty.** Use existing evidence to identify whether the next useful task is a source check, product/access assessment, commercial proposition or scoped cost comparison. Prepare the specific scope and terms needed from a counterparty. Further literature work earns priority when it changes that decision.
-3. **Compare exposure through the stopping point.** Separate the first invoice, maximum committed loss, later discretionary development and money needed before an actual payment. Include success, failure, inconclusive and financing-unavailable outcomes.
-4. **Choose among attainable commitments and preserving capital.** Reading priority follows decision value. A new review date, inherited candidate position or easily completed assay supplies context; actual economics determine financial priority.
+1. **Refine the four using public evidence and estimates.** Compare exact product, useful endpoint, population, realistic commercial value, remaining development and retained interest. Break the APR/erlotinib tie only when a material assumption or evidence difference supports it.
+2. **Challenge the low-cost product alternatives consistently.** Existing stable insulin preparations, an AAT operator's actual process needs and the recruiting verteporfin trial may reduce the value of new spending. A concrete gap can move any of these into the core shortlist.
+3. **Stress-test the whole financial package.** Use [the normalized ledger](../research/rounds/round27/candidate-ledger.json) and [cash calculations](../research/rounds/round27/financial-sensitivity.json). Model investor cash after sharing and obligations, and include no-deal and further-funding branches. Required break-even proceeds are not estimated asset values.
+4. **Narrow further, then inquire.** Inquiries should test the few remaining assumptions that control the narrowed choice. The [earlier commercial briefs](../research/commercial/2026-11-08-repayment-screen/counterparty-briefs.md) are deferred background; their former inquiry order does not set the present ranking.
 
-## Packages to compare
-
-Each financial route below is a proposal to evaluate. Prices, commercial access and willingness to transact remain unestablished.
-
-| Exact opportunity and evidence | Proposed next package | Economic question to resolve |
-|---|---|---|
-| **Topical erlotinib / KRT16 Arg127Cys keratoderma** — two related cases include controlled opposite-foot phases and later uncontrolled improvement. [Round 26](../research/rounds/round26/local-product-screen.md) | Existing topical article and interpretable local clinical evidence, with product/data participation assessed alongside the study route. | What differentiated contribution could earn a payment or retained interest, and what would the full clinical/product path cost? Preserve the controlled-phase and extension distinction. |
-| **APR-246 / AEC skin erosions** — existing topical article and same-disease observations support a useful-control question. [Round 25](../research/rounds/round25/apr246-advancement.md) | Article transfer/qualification followed by the most informative clinical or functional milestone. Price the blocks separately. | Are article, data and commercial interests attainable, and can the useful-control result support an affordable continuation or partner handoff? |
-| **Enasidenib / germline IDH2-R140Q D2HGA2** — an existing-article indication route is documented. [Round 15](../research/rounds/round15/funding-decision.md) | Indication-development evidence using an adequate existing article, or a product improvement tied to a documented residual need. | Which contribution could earn compensation or an economic interest? Map supply, regulatory use of evidence and the path to payment. |
-| **Levodopa/carbidopa / MCT8 deficiency** — clinical reports support a symptomatic-function question with mixed, endpoint-specific results. [Round 26](../research/rounds/round26/human-evidence-screen.md) | A defined clinical-data or product contribution around an existing generic treatment. | Identify who would pay for the contribution and the interest retained. This capture question determines whether the clinical opportunity supports this financial objective. |
-| **FD-2 / ALS** — early-treatment SOD1 mouse findings and a named institutional patent lead. [Round 26](../research/rounds/round26/functional-rescue-screen.md) | Reconcile the exact peptide, existing product/exposure evidence and rights; compare an evaluation/option package plus a necessary synthesis or preclinical milestone. | What rights and downstream opportunity could be obtained before material development exposure? Price the complete path to the next useful translation decision. |
-| **BLU-3797 / MTM1-related XLMTM** — existing exact-article and human-muscle qualification plan. [Qualification](../research/rounds/round8/blu3797-qualification-package.md), [decision](../research/rounds/round18/marginal-dollar-decision.md) | Separate article/model qualification from useful-force work and compare both with other stage-appropriate packages. | Can qualification change a consequential decision at a worthwhile cost, with an attainable interest and financeable subsequent functional milestone? |
-| **AAT / donor-lung preservation** — formulation, potency and process qualification has a distinct scope. [Round 22](../research/rounds/round22/marginal-dollar-decision.md) | A bounded product/process result, potentially tied to a paid development contribution, license or contractual share. | Who would use and pay for the result? Separate qualification from later donor-organ, transplant and adoption costs; establish the user's retained share. |
-| **GA002 / refractory mesial temporal-lobe epilepsy** — three participants described in a published abstract; full clinical and all-treated safety detail remains incomplete. [Round 25](../research/rounds/round25/existing-candidate-reassessment.md) | A specific participation or licensing thesis for an existing program, assessed alongside recovery of the clinical package. | Is there an attainable economic interest and a discrete program need ddiscov could fund or deliver? Determine remaining financing, exposure and exit terms. |
-
-## Other established starting points
-
-These retain their exact scientific limitations and can compete whenever a concrete package improves the comparison.
-
-| Opportunity | Package to define |
-|---|---|
-| **RM4404 / corneal repair and sensation** | Exact article, product/exposure and meaningful corneal-function result with an economic interest. [Round 17](../research/rounds/round17/marginal-dollar-decision.md) |
-| **NDC-9009 / Darier disease** | Useful function at intended topical exposure for a stated preservation, repair or control claim. [Round 19](../research/rounds/round19/marginal-dollar-decision.md) |
-| **mIGF-Gel / corneal disease** | Active product and useful incremental benefit or burden reduction against relevant care. [Round 20](../research/rounds/round20/marginal-dollar-decision.md) |
-| **Exact 8015-P2 / MFN2-CMT2A** | Exact-stereoisomer article and relevant human-function milestone with an attainable commercial route. [Round 21](../research/rounds/round21/marginal-dollar-decision.md) |
-| **GBT601 + PT2399 / NDUFS4 Leigh syndrome** | Assess a contribution to a sponsor-linked program, including current control of both components, a discrete development need and possible participation terms. [Round 26 scout](../research/rounds/round26/functional-rescue-screen.md) |
-
-Historical dollar/time bands describe different assumed scopes. Current like-for-like scopes, remaining capital and terms are needed for financial comparison.
-
-## Broaden sourcing deliberately
-
-Alongside these records, seek existing and newly synthesized assets, human-characterized or discontinued programs with an understood discontinuation reason, institutional evaluation/license opportunities, existing-medication indications, practical formulation/manufacturing improvements and bounded contributions to sponsored programs. For each promising lead, specify the attainable transaction and next decision-changing deliverable early. An existing owner determines the participation question; the opportunity can be a license, option, field/territory interest or contracted contribution.
-
-Use the [research index](../research/README.md), [discovery crosswalk](../discovery/README.md), [Round 26 ledger](../research/rounds/round26/candidate-ledger.json) and [Round 25 reassessment](../research/rounds/round25/existing-candidate-reassessment.md) for other candidates and exact-use history. Preserve prior negative findings and update their implications when a particular scope, price, access, rights, funding or evidence fact changes. Record the new decision here and its basis in a focused dossier.
+The estimate ranges allow useful comparison under considerable uncertainty. They do not yet substantiate a high probability of recovering principal plus a return; that claim depends on actual retained proceeds and the full path to cash, not a successful experiment alone.

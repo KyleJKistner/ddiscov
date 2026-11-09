@@ -1,0 +1,1734 @@
+{
+  "schema_version": 1,
+  "analysis_date": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "scope": "Broad desk screen of existing drugs, human-characterized assets, local delivery and repurposing; 18 estimated development packages.",
+  "candidate_count": 18,
+  "screen_status": "Provisional estimated comparison; no asset promoted to funded development and no high-probability capital recovery substantiated.",
+  "methodology": {
+    "primary_objective": "Expected marginal financial value retained by the investor, subject to survivable loss and continuation constraints. Technical success is informative but does not substitute for capture or cash realization.",
+    "ranking_basis": "Conditional desk priorities under modest option/co-development entry assumptions, existing academic/specialist execution and a funded handoff route. Not a numerical expected-return ranking: credible asset-specific sale prices and investor fractions are not yet known.",
+    "breadth": "Four requested incumbents plus fourteen distinct routes, including familiar indications, product/territory transfers, rescue assets and lower-ranked negatives. Mavoglurant and saracatinib repeat concurrent PR3 work rather than claiming novelty.",
+    "cost_definition": "USD low/base/high scenario sums of execution/CMC/operator/analysis/contingency plus explicit entry/rights/data/supply allowance. These are analyst assumptions, not quotes or price observations. Clinical estimates presume qualified investigators and existing infrastructure; no assumption that the investor is a qualified operator.",
+    "rights_assumption": "Entry allowances buy a limited option, territory or contracted contribution interest, not global ownership. Legal diligence, supply/data agreements and initial option/entry payments are included; future royalties, milestones, dilution and follow-on capital must be deducted from investor proceeds separately.",
+    "large_fee_sensitivity": "If an additional material acquisition fee or uncapped development obligation is required, recompute the whole opportunity; do not conceal this in the experimental budget or treat the present high case as a ceiling.",
+    "probability_definition": "Subjective interval for a usable favorable result sufficient to change an advance/partner decision conditional on lawful article/data access and qualified execution, with recruitment and operational risk included. Not chance any data are generated, approval, commercial deal, principal recovery or guaranteed positive return. Decisive negative results can avoid future loss but are not counted as favorable outcomes.",
+    "probability_basis": "Broad judgment anchored to exact-use human evidence, comparator quality, article bridge, endpoint relevance and execution complexity; no conversion of small-case response fractions into probabilities. APR and erlotinib use identical assumptions until distinguishing matched evidence is available.",
+    "scale_calibration": "Root checked historical HHS/ASPE clinical-trial costs and NIH PAR-25-059 translational scopes as scale checks. Neither establishes these present-day candidate costs. No small pilot is described as complete sponsor phaseII/III, GMP/GLP or approval package.",
+    "cash_model": "A proposed license, option assignment, contracted milestone or equity realization is a scenario, not offered revenue. Positive data with no transaction can yield no cash. An economic comparison must include investor share, senior claims, downstream obligations, delay, taxes/transaction costs and no-deal/no-follow-on-finance branches.",
+    "continuation_rule": "Cap the initial commitment and use staged stop points. No obligation to fund the rest of a program; if follow-on financing is unavailable, consider sale/license/cessation with potentially zero recovery. Preserve losses already incurred when checking total risk limits, but treat them as sunk for forward value.",
+    "missing_offer_policy": "Missing current quotes and offers widen uncertainty and motivate sensitivity; they do not screen out candidates automatically. Known exclusive rights or competing programs change route and capture assumptions, not biological evidence.",
+    "limitations": [
+      "This is a broad source-informed screen, not legal FTO, patent validity, regulatory advice, a current CRO quote, or a validated financial model.",
+      "Some inherited candidate primary texts were already audited in repo; source records identify those rather than implying new human evidence.",
+      "For lower-ranked rows one or two sources bound a thesis; finalist evidence has multiple independent/contrary sources.",
+      "Nifedipine ranks as a potentially transferable product package, not because a small bridge assures US approval.",
+      "No asset-specific actual purchase offer was found in this pass; ordinary product retail prices would not price a commercial interest."
+    ],
+    "paid_handoff_probability": "Low/base/high five-year conditional cash-event probabilities are explicitly subjective and very-low-confidence. They do not require an offer for desk comparison, and do not establish likelihood of full principal recovery. Milestone probability times conditional cash probability needs no independence assumption. Both are conditional on modeled obtainable access/rights; diligence can reveal that condition is false.",
+    "break_even_interpretation": "For a scenario C/(p_m*p_cash), the result is required net retained cash conditional on both favorable milestone and timely paid realization, not a forecast transaction valuation. It omits discounting, interim cash, downside recoveries, future investor contributions and variable sale fractions unless added separately. Failure/financing-unavailable branches may return zero.",
+    "antrolin_status_scope": "Current product-holder/manufacturing evidence used here is the May30,2026 Italian official notice. The Malta listing was not used as proof of current authorization; it is marked expired. The 2026 trial used a different lidocaine concentration and mixed acute/chronic population from historical Antrolin evidence."
+  },
+  "shortlist": [
+    "PROPOSED-PKG-NIF-LIDO-CAF",
+    "R4-L02",
+    "R26-LOC-01"
+  ],
+  "first_reserve": "PROPOSED-PKG-RECTAL-TAC-UP",
+  "shortlist_rationale": "Carry nifedipine's existing-product/territory route and the matched APR/erlotinib function-oriented pair into deeper desk comparison. No robust evidence orders APR versus erlotinib financially under equal terms. Nifedipine's regulatory precedent could demote it if a partner-funded path is implausible. Rectal tacrolimus and 5-FU/calcipotriol are useful commercial-route challengers, with active-comparator/safety and exclusive-incumbent constraints respectively.",
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Aprea Therapeutics Form 10-Q for September 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465926122405/apre-20260930x10q.htm",
+      "publication_date": "2026-11-04",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Aprea reports no ongoing APR-246 clinical trials and continuing patent-maintenance, regulatory and program-closeout expenditure. It describes public-domain eprenetapopt structure alongside method-of-use, formulation and other patent interests.",
+      "limit": "Issuer filing establishes reported program and intellectual-property context, not available licensing terms, ownership clearance for an AEC product, an asset offer or willingness to pay for a contribution.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H02",
+      "title": "Improvement of epidermal covering on AEC patients with severe skin erosions by PRIMA-1MET/APR-246",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "publication_date": "2020-01-16",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The original report describes two AEC children, including an APR-treated palm versus contralateral vehicle in one child and uncontrolled scalp treatment in the other, and identifies institutional clinical/formulation contributors.",
+      "limit": "The small nonrandomized, unblinded exploratory report does not establish a response probability, currently transferable article, available data rights or commercial permission.",
+      "source_type": "primary",
+      "additional_primary_url": "https://www.sindrome-eec.it/wp-content/uploads/2022/07/s41419-020-2223-8.pdf",
+      "rechecked_utc": "2026-11-09"
+    },
+    {
+      "id": "H04",
+      "title": "Sol-Gel current pipeline",
+      "url": "https://www.sol-gel.com/pipeline/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "The live pipeline identifies SGT-210 as topical erlotinib, lists Phase I completion and describes further evaluation in additional indications.",
+      "limit": "Sponsor summary does not establish exact KRT16 efficacy, equivalence to the published compounded article, an available license or a paid development opportunity.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H05",
+      "title": "Sol-Gel corporate overview, October 2026",
+      "url": "https://solgel.gcs-web.com/static-files/37f518f0-a477-4a72-ae63-a6e36dbc1bbe",
+      "publication_date": "2026-10",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The October 2026 presentation positions the SGT-210 topical-erlotinib platform for small feasibility studies in new unmet-need indications.",
+      "limit": "A stated development plan supplies commercial-fit context, not an investment offer, quotation, payment commitment or evidence for the exact KRT16 population.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H06",
+      "title": "Sol-Gel update after unblinding SGT-210 Phase 1b Darier study",
+      "url": "https://ir.sol-gel.com/node/9126",
+      "publication_date": "2025-12-17",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The release reports no differentiation between SGT-210 and vehicle on Darier efficacy assessments, no advancement in that indication, and an intention to pursue small feasibility studies elsewhere.",
+      "limit": "The actual release date is December 17, 2025; September 30, 2026 appears in page chrome and is not the event date. Darier findings cannot be transferred as exact KRT16 success or failure.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H07",
+      "title": "IDHIFA U.S. prescribing information",
+      "url": "https://packageinserts.bms.com/pi/pi_idhifa.pdf",
+      "publication_date": "2025-01",
+      "checked_date": "2026-11-08",
+      "verified_fact": "BMS labeling identifies enasidenib as an adult IDH2-mutant relapsed/refractory AML treatment and says pediatric safety and effectiveness have not been established.",
+      "limit": "The approved adult article does not establish D2HGA2 approval, suitability of an infant presentation, available clinical supply or commercial rights for a new indication.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H08",
+      "title": "Enasidenib treatment in two individuals with D-2-hydroxyglutaric aciduria carrying a germline IDH2 mutation",
+      "url": "https://www.nature.com/articles/s41591-023-02382-9",
+      "publication_date": "2023-05-29",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The primary publication reports treatment of two children with germline IDH2-associated D2HGA2, supporting a clinical indication-development question.",
+      "limit": "The freshly retrieved publisher abstract supports the broad clinical rationale; the full body was not recovered in this pass. This is not a new cohort, controlled efficacy estimate or investment probability.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H09",
+      "title": "EP4058028B1: Pediatric formulations for treatment of cancer",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf",
+      "publication_date": "2025-03-05",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The EPO grant publication names Celgene Corporation as proprietor and describes pediatric enasidenib minitablet formulation work.",
+      "limit": "The published grant is not a current assignment-chain or enforceability check, freedom-to-operate conclusion, authenticated clinical-lot identity, supply commitment or license offer.",
+      "source_type": "primary"
+    },
+    {
+      "id": "H12",
+      "title": "ddiscov Round 26 local-product screen: inherited KRT16 evidence",
+      "url": "https://github.com/KyleJKistner/ddiscov/blob/dc0cdccfc6b9b4158094cb11d602ffb9cddf6028/research/rounds/round26/local-product-screen.md",
+      "publication_date": "2026-11-08",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The repository records the KRT16 Arg127Cys erlotinib evidence as two related people with controlled opposite-foot phases and later uncontrolled improvement, preserving co-treatment and article limitations.",
+      "limit": "Inherited candidate dossier, not fresh clinical evidence. The primary author-copy PDF returned an access error in this pass; no new outcome, responder count or causal estimate is added.",
+      "source_type": "inherited repository dossier"
+    },
+    {
+      "id": "B01",
+      "title": "Calcipotriol plus 5-FU randomized actinic keratosis trial",
+      "url": "https://www.jci.org/articles/view/89820",
+      "publication_date": "2016-11-21",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "In 131 participants, four-day combination treatment reduced AK counts more than four-day 5-FU/vehicle control.",
+      "limit": "Control was not the usual multiweek 5-FU course; investigational admixture cannot be assumed equivalent to a fixed commercial cream.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B02",
+      "title": "SKNV announces exclusive WashU fluorouracil/calcipotriene sublicense",
+      "url": "https://sknv.com/fluorouracil-calcipotriene-patent-license/",
+      "publication_date": "2026-07-22",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "SKNV says it holds exclusive commercialization rights under a sublicense to WashU patents and sells Kefunova through its 503B outsourcing facility.",
+      "limit": "Issuer account, not an available sublicense or investment offer; a compounded product is not an FDA-approved combination drug.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B03",
+      "title": "NCI standard-fluorouracil versus combination trial",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-01497",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "NCI lists active NCT06851507 comparing topical fluorouracil with fluorouracil/calcipotriene.",
+      "limit": "Active registry entry is not an efficacy result; future public information could reduce the value of duplicate privately funded work.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B04",
+      "title": "Nifedipine/lidocaine versus active control in chronic anal fissure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12432293/",
+      "publication_date": "2002-11",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Randomized double-blind 110-person study reported 94.5% versus 16.4% healing at six weeks.",
+      "limit": "Old study; control was lidocaine/hydrocortisone, not modern diltiazem or nitroglycerin; no guarantee of replication.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B05",
+      "title": "Nifedipine versus diltiazem anal-fissure trial",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/wjs.70361",
+      "publication_date": "2026-04-16",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "110 patients with mixed acute/chronic fissures; healing 70.9% with nifedipine versus 67.3% with diltiazem, with both improving symptoms.",
+      "limit": "Different lidocaine concentration from Antrolin; not superiority and not proof of FDA efficacy or foreign-product equivalence.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B06",
+      "title": "Italian official Antrolin manufacturing variation",
+      "url": "https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20260530&edizione=0&estensione=pdf&home=true&numeroGazzetta=62&numeroSupplemento=0&progressivo=0&tipoSerie=P2&tipoSupplemento=GU",
+      "publication_date": "2026-05-30",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Official notice identifies Neopharmed Gentili as Antrolin authorization holder and New.Fa.Dem as manufacturing/quality/release site.",
+      "limit": "Shows an actual existing product/holder, not territorial rights availability, dossier usability, FDA acceptance or price.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B07",
+      "title": "RECTIV FDA prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/021359Orig1s005lbl.pdf",
+      "publication_date": "2024-07",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Nitroglycerin ointment is approved for moderate-to-severe pain associated with chronic anal fissure.",
+      "limit": "Existing comparator; label does not establish nifedipine's superiority or proposed development requirements.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B08",
+      "title": "VEN307 phaseIII results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420414007779/v368123_ex99-1.htm",
+      "publication_date": "2014-02-12",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Sponsor reported no significant primary pain benefit over placebo in the second pivotal diltiazem trial involving 434 subjects.",
+      "limit": "Related mechanism and indication, not a nifedipine trial; informative about pain/placebo and development risk.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B09",
+      "title": "VEN307 license termination after FDA feedback",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420414045571/v385024_8-k.htm",
+      "publication_date": "2014-07-25",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Assembly terminated the VEN307 license after FDA said approval chances were unclear without another trial and after a strategy change.",
+      "limit": "Historical analogy only; not current FDA guidance for nifedipine.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B10",
+      "title": "Rectal tacrolimus placebo-controlled refractory-proctitis trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28286194/",
+      "publication_date": "2017-03",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Clinical response occurred in 8/11 tacrolimus versus 1/10 placebo recipients; trial stopped early after interim analysis.",
+      "limit": "Very small early-stopped trial; ointment cannot be treated as identical to every proposed suppository.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B11",
+      "title": "Tacrolimus versus beclomethasone suppositories in refractory proctitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31610337/",
+      "publication_date": "2019-10",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "85-person multicenter trial found clinical responses of 63% versus 59%, without tacrolimus superiority.",
+      "limit": "Supports activity but weakens an assumed superiority/value premium over inexpensive topical steroid care.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B12",
+      "title": "Tacrolimus suppositories observational refractory-proctitis study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6390495/",
+      "publication_date": "2019-02",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Retrospective 43-person series reported remission signals, substantial systemic drug levels, and one reversible acute kidney injury.",
+      "limit": "Uncontrolled; explicitly prevents assuming local delivery eliminates systemic immunosuppressant risk.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B13",
+      "title": "TRITON ondansetron IBS-D randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36866724/",
+      "publication_date": "2023-03",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "80 of planned 400 randomized; composite response was 40.5% versus 27.9%, p=0.19; stool consistency improved.",
+      "limit": "Underrecruited and primary composite nonsignificant; stool effects do not prove abdominal-pain or regulatory composite benefit.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B14",
+      "title": "Oral versus topical minoxidil randomized male hair-loss trial",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2817326",
+      "publication_date": "2024-04-10",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "90 men randomized; oral treatment was not superior on primary terminal-hair-density outcomes and caused more hypertrichosis/headache.",
+      "limit": "Not an equivalence trial; findings concern immediate-release oral article, not proprietary extended release.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B15",
+      "title": "Veradermics VDPHL01 phaseIII 304 sponsor results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000036/exhibit991datarelease101926.htm",
+      "publication_date": "2026-10-19",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Sponsor reports positive phaseIII extended-release oral-minoxidil results and over 1,000 participants across two registration-directed studies.",
+      "limit": "Sponsor topline report; not approval, not an investment offer, and not evidence that a different formulation matches it.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B16",
+      "title": "Low-dose naltrexone fibromyalgia randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38258677/",
+      "publication_date": "2023-12-05",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "99 women randomized; no significant pain benefit over placebo at 12 weeks.",
+      "limit": "Does not rule out all naltrexone indications; directly weakens unselected fibromyalgia thesis.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B17",
+      "title": "INNOVA low-dose naltrexone fibromyalgia randomized trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13322712/",
+      "publication_date": "2026-07",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "98 women randomized; no clinically meaningful pain-related benefit over placebo over short or longer follow-up.",
+      "limit": "Independent negative exact-use evidence; not a reason to invent a responder subgroup post hoc.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B18",
+      "title": "COVID-OUT metformin and LongCOVID follow-up",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11259948/",
+      "publication_date": "2023-06-08",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Acute outpatient metformin was associated with lower subsequent LongCOVID diagnosis in randomized follow-up: 6.3% versus 10.4%, hazard ratio 0.59.",
+      "limit": "Prevention after acute infection in specified enrolled population, not treatment of established LongCOVID; current baseline risk may differ.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B19",
+      "title": "Oral tranexamic acid randomized melasma study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28987494/",
+      "publication_date": "2017-10",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "44 randomized; three-month melasma improvement exceeded placebo but much advantage diminished after stopping.",
+      "limit": "Small trial cannot quantify rare thrombotic risk; durability, generic capture and chronic use remain issues.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B20",
+      "title": "Topical sirolimus randomized vascular-anomalies trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40040594/",
+      "publication_date": "2025-03-05",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "50 participants across vascular-anomaly phenotypes; primary photographic-improvement endpoint was not significant; selected secondary/post-hoc size measures favored treatment.",
+      "limit": "Mixed population includes only 14 lymphatic-malformation patients; does not validate an exact microcystic-lymphatic indication.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B21",
+      "title": "TOPICAL microcystic lymphatic-malformation trial protocol",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6918625/",
+      "publication_date": "2019-12",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Protocol describes within-person randomized topical-sirolimus versus vehicle evaluation in cutaneous microcystic lymphatic malformations.",
+      "limit": "Protocol is not results; trial status/results require a focused check before new duplicate work.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B22",
+      "title": "HYFTOR current label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=edb3ea90-5adc-48ec-99f5-ab963e302f18",
+      "publication_date": "2025-08-22",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Nobelpharma's sirolimus gel is an approved topical product for facial angiofibroma associated with tuberous sclerosis.",
+      "limit": "Different indication and potentially different presentation; product existence does not establish lymphatic-malformation efficacy or access.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B23",
+      "title": "Ambroxol Parkinson dementia randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40587145/",
+      "publication_date": "2025-06",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "55 randomized; target engagement was demonstrated but no difference in primary or secondary clinical outcomes was found.",
+      "limit": "Target engagement is not cognitive efficacy; results do not by themselves establish a responsive GBA subgroup.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B24",
+      "title": "ALTAR methenamine recurrentUTI trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8905684/",
+      "publication_date": "2022-03-09",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "240 randomized; standard methenamine met the prespecified noninferiority criterion versus daily antibiotics.",
+      "limit": "Evidence concerns existing standard presentation, not a proposed once-daily modified-release formulation; open-label design and margin matter.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B25",
+      "title": "Mavoglurant cocaine-use-disorder phaseII trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40173260/",
+      "publication_date": "2025-04-02",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "68 adults randomized; reduced self-reported cocaine-use days and supportive urine findings were reported.",
+      "limit": "Small short trial; large-effect posterior probability was much weaker than any-effect probability. Not a repayment probability.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B26",
+      "title": "STALICLA mavoglurant exclusive license announcement",
+      "url": "https://www.globenewswire.com/news-release/2023/01/09/2584796/0/en/STALICLA-signs-exclusive-in-licensing-agreement-for-late-stage-clinical-neuropsychiatric-and-neurodevelopmental-disorder-treatment.html",
+      "publication_date": "2023-01-09",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "STALICLA announced worldwide rights from Novartis for substance-use, neurodevelopmental and other indications, with undisclosed upfront/equity and contingent milestones.",
+      "limit": "Historical transaction, not available current price. Headline milestone total is not asset price or expected investor payoff.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B27",
+      "title": "STOPFOP European Commission project report",
+      "url": "https://cordis.europa.eu/project/id/821600/reporting/it",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Project report says 17 participants completed randomized and open-label phases; further data analysis was required before public efficacy conclusions.",
+      "limit": "Completion and investigator-reported benefit do not establish controlled efficacy; no published numerical efficacy result retrieved.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B28",
+      "title": "STOPFOP sponsor and study record",
+      "url": "https://www.ctis.eu/trial/2024-515186-33-00",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Amsterdam UMC is sponsor; registry identifies EU/AstraZeneca funding and ongoing, recruitment-ended status.",
+      "limit": "Registry status and completed phases can coexist with extensions; no assumption of an available asset or transferable dataset.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B29",
+      "title": "Levodopa/carbidopa MCT8 clinical report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/",
+      "publication_date": "2025-03-15",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Earlier MCT8 report contains six paired systematic treatment assessments, with movement-related improvement.",
+      "limit": "Uncontrolled; eleven phenotyped people are not eleven independently evaluated treatment responders.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B30",
+      "title": "Second levodopa/carbidopa MCT8 clinical report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001712/",
+      "publication_date": "2025-10-27",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Second report describes ten phenotyped males; repo full-body audit identifies nine evaluable treatment courses with mixed functional outcomes.",
+      "limit": "Do not pool publications as independent unique patients; neurological symptomatic claim is narrower than disease modification.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B31",
+      "title": "EMCITATE FDA label",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+      "publication_date": "2026-09",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Tiratricol's labeled MCT8 indication concerns peripheral thyrotoxicosis.",
+      "limit": "Does not answer levodopa adjunct motor-benefit question; appropriate background care remains required.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B32",
+      "title": "BAART-DFU timolol trial registry",
+      "url": "https://clinicaltrials.gov/study/NCT03282981",
+      "publication_date": "2025-05-08",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Registry reports 48 randomized and 12-week complete closure in 8/21 timolol versus 7/27 placebo recipients.",
+      "limit": "Post-hoc analysis of selected healed wounds is not a recurrence or complete-healing efficacy demonstration.",
+      "source_type": "primary"
+    },
+    {
+      "id": "B33",
+      "title": "Topical erlotinib KRT16 primary letter",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+      "publication_date": "2022",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Two related people with KRT16 Arg127Cys underwent opposite-foot comparisons and later uncontrolled extension with clinical/pain improvement.",
+      "limit": "Inherited full-text audit; author copy failed fresh retrieval. Keratolytic co-treatment and formulation matter.",
+      "source_type": "primary",
+      "additional_primary_urls": [
+        "https://jamanetwork.com/journals/jamadermatology/article-abstract/2787624",
+        "https://onlinelibrary.wiley.com/doi/10.1111/ajd.14044"
+      ],
+      "lineage_note": "The author conference report describes randomized blinded opposite-limb comparison in the same two cases; it is not independent clinical replication.",
+      "rechecked_utc": "2026-11-09"
+    },
+    {
+      "id": "B34",
+      "title": "Other keratoderma EGFR-inhibitor reports",
+      "url": "https://www.mdpi.com/2227-9059/10/4/841",
+      "publication_date": "2022-04",
+      "checked_date": "2026-11-08",
+      "checked_timezone": "America/Los_Angeles",
+      "verified_fact": "Repository primary-text audit reports inconclusive or unsuccessful topical erlotinib in two other patients.",
+      "limit": "Different formulation/genotype context; neither proof against exact KRT16 article nor supportive extra responders.",
+      "source_type": "primary"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "PROPOSED-PKG-NIF-LIDO-CAF",
+      "name": "Nifedipine/lidocaine existing-product territorial development for chronic anal fissure",
+      "provisional_rank": 1,
+      "tier": "A: deeper desk comparison",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 150000,
+        "base": 250000,
+        "high": 425000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 625000
+      },
+      "duration_months": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.45,
+        "high": 0.65,
+        "base": 0.55
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Option on a defined territory's existing Antrolin dossier, manufacturing supply and regulatory reference, with a specialist partner taking later registration work.",
+      "observed": [
+        "Italian product and current holder exist.",
+        "Two randomized clinical datasets support pharmacological plausibility, but current comparison does not show superiority to diltiazem.",
+        "An analogous diltiazem pivotal pain trial failed; subsequent FDA feedback and license exit show real development risk."
+      ],
+      "milestone": "Transferred dossier/manufacturing feasibility, independent product and exposure bridge, and a bounded tolerability/acceptability or PK study if required to establish a credible licensable development package; no pivotal efficacy or approval claim.",
+      "estimate_basis": "Existing manufactured article avoids de novo active-ingredient development; costs assume limited academic/specialist bridging and modest territory option, not acquisition of global rights.",
+      "commercial_capture": "Low-to-medium: territorial product/dossier exclusivity, supply economics and regulatory data rights may retain value. Generic compounded calcium-channel-blocker products and FDA-approved nitroglycerin limit premium.",
+      "counterparties": [
+        "Neopharmed Gentili: current Italian authorization holder",
+        "New.Fa.Dem: manufacturing site",
+        "Specialty gastroenterology commercial partner: not selected or verified"
+      ],
+      "handoff": "Option assignment or territory sublicense to a funded specialty-pharma sponsor, with upfront reimbursement/fee plus contingent economics; neither buyer nor price is known.",
+      "follow_on_capital": "Several million dollars or more may remain for controlled pain/healing/component-contribution studies, long-term stability, registration and launch. The small bridge alone does not finish the product.",
+      "contrary": [
+        "2002 comparison used weak active control.",
+        "2026 study mixed acute/chronic disease and a different lidocaine concentration.",
+        "Pain/placebo and combination-component questions can force a new pivotal program."
+      ],
+      "reversal_trigger": "Drop from finalists if a competitive territorial interest cannot be retained, dossier is unusable, or the required development program has no plausible funded handoff.",
+      "cheapest_decisive_desk_check": "Map public Antrolin dossier, current patent/territory position and analogous FDA reviews into a concrete bridge requirement; stress-test contribution against inexpensive existing care.",
+      "source_ids": [
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "R4-L02",
+      "name": "APR-246 topical for AEC skin erosions",
+      "provisional_rank": 2,
+      "tier": "A: matched finalist pair",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 225000,
+        "base": 325000,
+        "high": 550000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.3,
+        "high": 0.55,
+        "base": 0.4
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": "R4-L02",
+      "rank_tie_group": "APR_ERLOT_MATCHED",
+      "route": "Option/license on exact AEC use, clinical article/know-how and regulatory data, with appropriate active-ingredient/FTO arrangements.",
+      "observed": [
+        "Two AEC children were described: one had a nonrandomized, unblinded contralateral palm vehicle comparison; the other had uncontrolled scalp treatment. This is exploratory exact-use human evidence.",
+        "Aprea reports no ongoing APR-246 trials, while maintaining relevant patent/regulatory interests.",
+        "Institutional clinical/formulation work creates a possible small, defined rights package; availability remains unknown."
+      ],
+      "milestone": "Qualified transferable topical article plus a small controlled/within-person exact-use clinical replication that measures useful erosion/wound burden and safety, with independently reviewable data.",
+      "estimate_basis": "Same milestone, cost allowance and probability interval as erlotinib. Includes paid operator, product qualification, ethics/regulatory/site work, analysis and contingency. Rare recruitment or unstable product drives high scenario.",
+      "commercial_capture": "Medium under the assumed modest option: exact-use/product/data rights plus a funded licensing handoff could retain upside; tiny population, fragmented rights and existing APR patents constrain it.",
+      "counterparties": [
+        "INSERM/AP-HP/Necker investigators and technology-transfer channels",
+        "Aprea or relevant active-ingredient/IP rights parties"
+      ],
+      "handoff": "Indication/product license or co-development asset sold/partnered after controlled benefit, with retained milestone/royalty/equity interest; no current offer.",
+      "follow_on_capital": "Further multinational rare-disease development, product scale-up, safety and registration could require several million dollars or more. Follow-on funding must be obtained without mandatory investor top-ups.",
+      "contrary": [
+        "Two patients, one exploratory within-person vehicle comparison and one uncontrolled treatment, do not establish independent replication or a population response probability.",
+        "Clinical product transfer, stability and wound exposure remain material.",
+        "Aprea oncology discontinuation is not an AEC efficacy failure; absence of trials is not abandonment of rights."
+      ],
+      "reversal_trigger": "Product/rights fragmentation, no recruitable cohort, or no usable controlled function endpoint consumes the bounded tranche; compare equally with erlotinib and stop if the package only repeats qualification without useful function.",
+      "cheapest_decisive_desk_check": "Reconstruct exact article/data/IP lineage and matched clinical-function design from public dossiers, then model the contribution under several territory/license shares.",
+      "source_ids": [
+        "H01",
+        "H02"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "R26-LOC-01",
+      "name": "Topical erlotinib plus keratolytic for KRT16 Arg127Cys keratoderma",
+      "provisional_rank": 3,
+      "tier": "A: matched finalist pair",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 225000,
+        "base": 325000,
+        "high": 550000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.3,
+        "high": 0.55,
+        "base": 0.4
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": "R26-LOC-01",
+      "rank_tie_group": "APR_ERLOT_MATCHED",
+      "route": "Obtain exact-use product/data rights or co-development share with existing topical-erlotinib platform owner; separately establish article bridge.",
+      "observed": [
+        "Two related people had controlled opposite-foot phases and uncontrolled later improvement.",
+        "Sol-Gel has SGT-210 clinical-product experience and a stated small-feasibility direction.",
+        "Darier trial did not differentiate from vehicle; other topical keratoderma reports were inconclusive/unsuccessful."
+      ],
+      "milestone": "Qualified transferable topical article plus small controlled/within-person exact-genotype clinical replication of meaningful pain/walking benefit and exposure safety.",
+      "estimate_basis": "Matched with APR in cost, time and conditional favorable-milestone range; human design advantage is offset by one pedigree, formulation dependence and sponsor/platform capture uncertainty.",
+      "commercial_capture": "Medium if exact-use data/product rights or a material co-development share are negotiated; low if contribution is nonexclusive prescribing guidance or unpaid sponsor research.",
+      "counterparties": [
+        "Sol-Gel: SGT-210 platform owner",
+        "Original investigators/PC Project clinical network"
+      ],
+      "handoff": "License/exclusive indication data contribution to a funded dermatology sponsor or sale of a contractual co-development interest.",
+      "follow_on_capital": "Replicated efficacy, pediatric/longer exposure safety, CMC and registration still require additional multi-million funding; current SGT-210 platform cannot be assumed equivalent or freely transferable.",
+      "contrary": [
+        "Same pedigree, keratolytic co-treatment and product formulation limit generality.",
+        "December 17, 2025 Darier negative result is separate-use evidence, not KRT16 failure.",
+        "SGT-210 can create a partner route and competing ownership simultaneously."
+      ],
+      "reversal_trigger": "Article bridge fails or available participation leaves too little retained value; an equally feasible APR package must then remain eligible.",
+      "cheapest_decisive_desk_check": "Map original compounded article versus SGT-210, exact KRT16 cohort availability and public use/formulation claims without inferring equivalence.",
+      "source_ids": [
+        "H04",
+        "H05",
+        "H06",
+        "B33",
+        "B34"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-RECTAL-TAC-UP",
+      "name": "Standardized rectal tacrolimus for refractory ulcerative proctitis",
+      "provisional_rank": 4,
+      "tier": "B: first reserve",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 200000,
+        "base": 350000,
+        "high": 600000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 800000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.4,
+        "high": 0.6,
+        "base": 0.5
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Acquire/own a differentiated rectal presentation and clinical regulatory dataset; license to an IBD specialty sponsor.",
+      "observed": [
+        "Small placebo-controlled trial positive.",
+        "Larger active-comparator trial found no superiority to beclomethasone.",
+        "Systemic tacrolimus levels and reversible kidney injury reported despite rectal delivery."
+      ],
+      "milestone": "Stable reproducible rectal product plus small controlled clinical/exposure bridge in clearly refractory proctitis, sufficient to choose a larger funded study.",
+      "estimate_basis": "Local product with human evidence but formulation, absorption monitoring and endoscopic assessment raise costs; no assumption topical delivery removes immunosuppressant risk.",
+      "commercial_capture": "Low-to-medium; improved usable presentation and proprietary dossier may have value, but generic drug and extensive prior use weaken patentability and pricing.",
+      "counterparties": [
+        "Original academic investigators and hospital pharmacies",
+        "IBD specialty-pharma partner: unselected"
+      ],
+      "handoff": "Product-plus-data licensing/co-development after reproducible clinical benefit and manageable systemic exposure.",
+      "follow_on_capital": "Larger efficacy/safety studies, maintenance/duration questions, commercial CMC and registration require multi-million financing.",
+      "contrary": [
+        "Early stopping exaggeration risk in 21-person positive trial.",
+        "No established advantage versus topical steroid.",
+        "Ointment and suppository evidence are not one interchangeable article."
+      ],
+      "reversal_trigger": "A value proposition beyond generic compounded tacrolimus cannot be shown, or systemic exposure makes product benefit insufficient.",
+      "cheapest_decisive_desk_check": "Define the unmet subgroup and product advantage against beclomethasone, then inspect existing formulation/patent and absorption evidence.",
+      "source_ids": [
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-5FU-CAL-AK",
+      "name": "Short-course 5-FU/calcipotriol actinic-keratosis product participation",
+      "provisional_rank": 5,
+      "tier": "B: incumbent partnership reserve",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 125000,
+        "base": 225000,
+        "high": 425000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 50000,
+        "base": 125000,
+        "high": 300000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 175000,
+        "base": 350000,
+        "high": 725000
+      },
+      "duration_months": {
+        "low": 6,
+        "base": 12,
+        "high": 18
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.55,
+        "high": 0.75,
+        "base": 0.65
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Contracted clinical/CMC contribution or territory participation with SKNV/WashU rights chain; not independent presumed university license.",
+      "observed": [
+        "131-person randomized signal using trial admixture.",
+        "SKNV July 2026 exclusive sublicense announcement and existing Kefunova compounding business.",
+        "Current comparator trial may deliver information without this investment."
+      ],
+      "milestone": "A differentiated fixed-product/regulatory bridge with usable CMC and short clinical/exposure/acceptability data beyond evidence already available or incoming.",
+      "estimate_basis": "Existing product can lower execution cost; allowance buys only a narrow option/contribution share, not exclusive global IP.",
+      "commercial_capture": "Medium only inside the existing exclusive chain; low for duplicative evidence or a me-too compounded cream. Strong clinical plausibility is not investor ownership.",
+      "counterparties": [
+        "SKNV: announced exclusive sublicense/commercial product",
+        "WashU rights chain and original clinical investigators"
+      ],
+      "handoff": "Contractual development fee, product/territory profit share or assignment of a narrow retained right; no such terms offered.",
+      "follow_on_capital": "An approved-drug route may still require substantial comparative efficacy, CMC and regulatory investment. Existing compounding revenue cannot be attributed to the investor.",
+      "contrary": [
+        "Short 5-FU control was not standard full-course therapy.",
+        "Trial admixture differs from marketed fixed cream.",
+        "Ongoing public research can erode incremental information value."
+      ],
+      "reversal_trigger": "Existing holder has no economically meaningful gap or proposed work duplicates current trials; entry demand greatly exceeds narrow option allowance.",
+      "cheapest_decisive_desk_check": "Compare public trial endpoints and fixed-product properties with proposed regulatory/product gap; establish a specific incremental contribution before any inquiry.",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "name": "Enasidenib for germline IDH2-R140 D2HGA2",
+      "provisional_rank": 6,
+      "tier": "B: clinical contribution reserve",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 600000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 18,
+        "high": 30
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.4,
+        "high": 0.65,
+        "base": 0.5
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "route": "Existing-article indication study with BMS/Celgene-linked supply/data rights or a clearly needed pediatric presentation; no mandatory invention.",
+      "observed": [
+        "Two-child primary report supports biochemical and clinical rationale.",
+        "Approved product is adult AML treatment.",
+        "Pediatric minitablet patent work exists; new formulation cannot be assumed necessary or free of rights."
+      ],
+      "milestone": "Usable pediatric article/exposure bridge plus prospective meaningful functional/cardiac outcomes beyond biomarker normalization, with regulatory-reference rights.",
+      "estimate_basis": "Existing systemic article lowers discovery risk, but ultrarare recruitment, pediatric exposure and supplier access can dominate time and expense.",
+      "commercial_capture": "Low-to-medium; sponsor participation may retain upside, while generic prescribing guidance and grants alone do not create investor proceeds.",
+      "counterparties": [
+        "BMS/Celgene rights and supply channels",
+        "Published treating investigators"
+      ],
+      "handoff": "Paid/royalty-bearing indication co-development or licensing of a necessary product/data contribution.",
+      "follow_on_capital": "Additional safety/efficacy, manufacturing and registration funding remains; a public case series cannot itself establish a reimbursable product.",
+      "contrary": [
+        "Biomarker normalization is not complete neurological restoration.",
+        "Pediatric adult-tablet suitability unresolved.",
+        "Tiny population and established supplier weaken independent capture."
+      ],
+      "reversal_trigger": "Sponsor can pursue label/product without a valued contribution, or a distinct investor-held interest cannot survive later financing.",
+      "cheapest_decisive_desk_check": "Specify the incremental clinical or administration problem that remains after existing case evidence and compare no-new-formulation versus pediatric-product routes.",
+      "source_ids": [
+        "H07",
+        "H08",
+        "H09"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "R26-HUM-01",
+      "name": "Levodopa/carbidopa neurological adjunct in MCT8 deficiency",
+      "provisional_rank": 7,
+      "tier": "B: scientifically useful, weak capture",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 125000,
+        "base": 250000,
+        "high": 475000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 15000,
+        "base": 50000,
+        "high": 125000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 140000,
+        "base": 300000,
+        "high": 600000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.4,
+        "high": 0.65,
+        "base": 0.5
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": "R26-HUM-01",
+      "route": "Controlled indication evidence with owned regulatory-reference data, or a pediatric product improvement only if it solves a documented problem.",
+      "observed": [
+        "Two uncontrolled reports contain movement-related benefit signals and mixed functional outcomes.",
+        "Exact denominators differ; patient overlap not resolved.",
+        "Tiratricol addresses peripheral thyrotoxicosis and remains relevant background care."
+      ],
+      "milestone": "Controlled small-cohort useful-motor-benefit assessment on stable appropriate care with an adequate transferred suspension/article.",
+      "estimate_basis": "Available generic ingredients reduce manufacturing discovery burden; recruitment, reliable motor outcomes and pediatric administration remain substantial.",
+      "commercial_capture": "Low unless a needed presentation or defensible regulatory dossier creates a licensable interest; care-guidance publication alone has little private cash capture.",
+      "counterparties": [
+        "MCT8 treating investigators",
+        "Potential pediatric/neuroendocrine product sponsor: not verified"
+      ],
+      "handoff": "Pediatric product/data license if a real administration/label gap and buyer value survive diligence.",
+      "follow_on_capital": "Larger controlled/safety work and registration remain; no assumed funding from publication or disease advocacy.",
+      "contrary": [
+        "Uncontrolled symptomatic evidence does not show disease modification.",
+        "Dystonia/other burdens may offset motor activation.",
+        "Off-label generics can absorb the clinical value without paying the investor."
+      ],
+      "reversal_trigger": "Only nonexclusive clinical advice is produced or no presentation/regulatory value exceeds existing generic care.",
+      "cheapest_decisive_desk_check": "Crosswalk cohorts and outcome definitions, inspect available oral products and define one capturable increment.",
+      "source_ids": [
+        "B29",
+        "B30",
+        "B31"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-MAV-CUD",
+      "name": "Mavoglurant clinical contribution for cocaine-use disorder",
+      "provisional_rank": 8,
+      "tier": "B: existing-program participation",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 200000,
+        "base": 350000,
+        "high": 650000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 50000,
+        "base": 125000,
+        "high": 300000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 250000,
+        "base": 475000,
+        "high": 950000
+      },
+      "duration_months": {
+        "low": 6,
+        "base": 12,
+        "high": 18
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.35,
+        "high": 0.55,
+        "base": 0.45
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "lineage": "Already considered in concurrent ddiscov PR3; not claimed as a new discovery.",
+      "route": "Minority contractual development participation or licensed data contribution within STALICLA's program, not de novo independent asset ownership.",
+      "observed": [
+        "68-person randomized exact-use trial positive on cocaine-use days with supportive urine results.",
+        "STALICLA announced exclusive Novartis rights in 2023.",
+        "Disclosed contingent headline milestones do not establish current entry price."
+      ],
+      "milestone": "Complete reusable clinical-data/endpoint and exposure package plus a bounded prospective feasibility or validation component that changes the design/value of a funded next trial.",
+      "estimate_basis": "Existing human asset can support bounded contribution; standalone confirmatory addiction trial and acquisition of global rights are outside estimate.",
+      "commercial_capture": "Medium if a small investment acquires a material contracted program interest; uncertain and potentially low if value belongs to existing licensee and prior financiers.",
+      "counterparties": [
+        "STALICLA",
+        "Novartis as original licensor where consent is required",
+        "Academic addiction trial network"
+      ],
+      "handoff": "Contractual milestone/royalty share or equity liquidity after funded program advance; not predictable cash at tranche end.",
+      "follow_on_capital": "Multi-million confirmatory trial and subsequent registration, supply and commercial funding remain; existing public collaboration is not investor repayment.",
+      "contrary": [
+        "Small short trial and self-report primary endpoint.",
+        "Any-effect probability is not probability of a clinically large effect.",
+        "Existing sponsor development can make an extra small study redundant."
+      ],
+      "reversal_trigger": "No distinct value-adding gap or a tiny diluted interest despite large entry cost; continued evidence can be monitored without funding duplication.",
+      "cheapest_decisive_desk_check": "Map current public trial plan, validated endpoints and prior rights obligations against an incremental data/clinical contribution.",
+      "source_ids": [
+        "B25",
+        "B26"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-SAR-FOP",
+      "name": "Saracatinib completed-trial data and product rescue option in FOP",
+      "provisional_rank": 9,
+      "tier": "B: await/review existing result",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 75000,
+        "base": 150000,
+        "high": 300000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 100000,
+        "base": 225000,
+        "high": 500000
+      },
+      "duration_months": {
+        "low": 3,
+        "base": 6,
+        "high": 12
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.25,
+        "high": 0.5,
+        "base": 0.35
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "lineage": "Already considered in concurrent ddiscov PR3; not a new discovery.",
+      "route": "Option on a sponsor-cleared indication/product/data package with Amsterdam UMC/AstraZeneca-linked rights, if completed results justify it.",
+      "observed": [
+        "17 participants completed randomized and open-label phases according to EU project report.",
+        "No numerical controlled efficacy result was retrieved.",
+        "Amsterdam UMC is sponsor and AstraZeneca is identified in funding context."
+      ],
+      "milestone": "Auditable controlled efficacy/exposure analysis and commercially reusable trial dossier plus supply/CMC continuity, not another mouse study.",
+      "estimate_basis": "Existing completed data can make a modest package informative, conditional on lawful access and usable records; does not purchase the whole clinical program.",
+      "commercial_capture": "Low-to-medium if rescue option and regulatory data rights can be assembled; low if paying for analyses shortly to become public without exclusive rights.",
+      "counterparties": [
+        "Amsterdam UMC/STOPFOP consortium",
+        "AstraZeneca-linked asset/supply rights holders"
+      ],
+      "handoff": "Data-backed indication/product license to a funded FOP or rare-disease sponsor.",
+      "follow_on_capital": "Confirmatory efficacy, chronic safety, product continuity and registration likely require multi-million funding; favorable small-trial result is not approval.",
+      "contrary": [
+        "Trial completion and patient-reported benefit are not controlled efficacy.",
+        "Public results may soon resolve uncertainty for free.",
+        "Existing access agreements and product rights not public."
+      ],
+      "reversal_trigger": "Controlled result is clinically weak, product continuity fails, or commercial data rights add no increment over pending publication.",
+      "cheapest_decisive_desk_check": "Inspect full current registry/project deliverables and public results, reconcile outcome and extension status before proposing any paid development.",
+      "source_ids": [
+        "B27",
+        "B28"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-OND-IBSD",
+      "name": "Ondansetron symptom-enriched IBS-D product/indication bridge",
+      "provisional_rank": 10,
+      "tier": "C: lower priority",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 600000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.35,
+        "high": 0.6,
+        "base": 0.45
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Needed differentiated presentation/selection strategy with owned data and plausible IP; generic immediate-release prescribing alone is insufficient.",
+      "observed": [
+        "TRITON underrecruited; stool improvement but composite endpoint not significant."
+      ],
+      "milestone": "Small controlled symptom/exposure pilot that shows an economically useful combined benefit or product advantage, not merely another stool-consistency result.",
+      "estimate_basis": "Common-condition academic pilot is possible; definitive FDA composite-efficacy program is materially more expensive than this tranche.",
+      "commercial_capture": "Low: cheap generic, prior use and existing 5-HT3 options; formulation/selection ownership and patient advantage must be established.",
+      "handoff": "Specialty-GI license of genuinely differentiated product/indication data, contingent on benefit.",
+      "follow_on_capital": "Larger multicenter efficacy, safety, CMC and registration remain; likely multi-million.",
+      "contrary": [
+        "Underpowered nonsignificant composite; abdominal-pain benefit uncertain.",
+        "No evidence a new formulation resolves the clinical gap."
+      ],
+      "reversal_trigger": "No differentiated claim beyond cheap generic off-label use.",
+      "cheapest_decisive_desk_check": "Compare outcome-level trials and current proprietary formulations/IP before designing a new pilot.",
+      "source_ids": [
+        "B13"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-MINOX-AGA",
+      "name": "Differentiated oral minoxidil for androgenetic alopecia",
+      "provisional_rank": 11,
+      "tier": "C: crowded late-stage competitor",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 700000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 100000,
+        "high": 250000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 225000,
+        "base": 500000,
+        "high": 950000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 18,
+        "high": 30
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.35,
+        "high": 0.55,
+        "base": 0.45
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Distinct exposure/tolerability formulation or existing-owner participation; no assumed independent extended-release freedom to operate.",
+      "observed": [
+        "Immediate-release oral trial was not superior to topical primary hair-density endpoints.",
+        "Veradermics reports positive phaseIII extended-release results in 2026."
+      ],
+      "milestone": "Prototype plus comparative exposure/tolerability and preliminary hair response that demonstrates a needed difference from both generic oral use and leading proprietary product.",
+      "estimate_basis": "Known active ingredient but product differentiation requires formulation and human work; estimate excludes phaseIII and acquisition of VDPHL01.",
+      "commercial_capture": "Low for me-too generic/ER concept; potentially medium only for material tolerability, convenience or underserved-group advantage with defensible product rights.",
+      "handoff": "Dermatology product license or existing-program participation after differentiation.",
+      "follow_on_capital": "Registration-size hair-loss studies and commercial CMC/launch require multi-million funding.",
+      "contrary": [
+        "Hypertrichosis/systemic safety burden.",
+        "Well-funded competitor has much larger registration data; a small new trial may add little."
+      ],
+      "reversal_trigger": "No credible differentiator against current phaseIII product.",
+      "cheapest_decisive_desk_check": "Map current comparator product claims/patents and quantify required patient advantage.",
+      "source_ids": [
+        "B14",
+        "B15"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-SIRO-CMLM",
+      "name": "Topical sirolimus for cutaneous microcystic lymphatic malformations",
+      "provisional_rank": 12,
+      "tier": "C: efficacy/product specificity unresolved",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 300000,
+        "high": 525000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 200000,
+        "base": 375000,
+        "high": 725000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.25,
+        "high": 0.45,
+        "base": 0.35
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Indication partnership with a topical-sirolimus developer or needed proprietary local presentation with regulatory data rights.",
+      "observed": [
+        "Mixed vascular-anomaly randomized trial failed primary endpoint.",
+        "Exact microcystic trial protocol exists.",
+        "Approved HYFTOR is a different indication."
+      ],
+      "milestone": "Exact-phenotype controlled within-person signal for symptom/lesion burden with usable local product and exposure data.",
+      "estimate_basis": "Local article and within-person design can limit size; phenotype heterogeneity, absorption and assay/product bridge remain.",
+      "commercial_capture": "Low-to-medium only if an indication/product contribution is distinct and owned; no assumed HYFTOR license.",
+      "handoff": "Indication/data license to topical-sirolimus or vascular-anomaly sponsor.",
+      "follow_on_capital": "Replication, pediatric/chronic safety, CMC and registration remain.",
+      "contrary": [
+        "Primary endpoint negative in related mixed cohort.",
+        "Post-hoc lesion-area signal cannot replace exact-use trial outcome.",
+        "Existing exact-use trial may make duplicate work unnecessary."
+      ],
+      "reversal_trigger": "TOPICAL exact-use data are negative or the proposed article offers no differential value.",
+      "cheapest_decisive_desk_check": "Recover exact TOPICAL status/results and distinguish microcystic phenotype from broader vascular anomalies.",
+      "source_ids": [
+        "B20",
+        "B21",
+        "B22"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-TXA-MEL",
+      "name": "Oral tranexamic-acid specialist product for melasma",
+      "provisional_rank": 13,
+      "tier": "C: efficacy signal, weak durable capture",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 300000,
+        "high": 525000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 15000,
+        "base": 50000,
+        "high": 125000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 190000,
+        "base": 350000,
+        "high": 650000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.35,
+        "high": 0.55,
+        "base": 0.45
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "A genuinely needed regimen/presentation with defensible product/data interest; not generic repackaging.",
+      "observed": [
+        "Small randomized trial supports short-term melasma improvement with reduced durability after cessation."
+      ],
+      "milestone": "Durability/tolerability advantage in a controlled maintenance/withdrawal or exposure study using an owned presentation.",
+      "estimate_basis": "Familiar oral active and measurable dermatology endpoint support bounded trial, but uncommon safety risk cannot be resolved here.",
+      "commercial_capture": "Low; generic competition, off-label use and recurrence limit premium unless product difference is meaningful.",
+      "handoff": "Dermatology license following a material maintenance/adherence benefit.",
+      "follow_on_capital": "Larger safety, especially thrombotic-risk characterization, and pivotal/registration work remain.",
+      "contrary": [
+        "Recurrence diminishes durable effect.",
+        "Tiny efficacy studies cannot establish rare-event safety.",
+        "No evidence yet that proprietary formulation improves risk-benefit."
+      ],
+      "reversal_trigger": "Product adds no clinically relevant advantage or safety burden prevents viable positioning.",
+      "cheapest_decisive_desk_check": "Map recurrence and contraindication burden against competing topical/combination care and existing claims.",
+      "source_ids": [
+        "B19"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-METH-MR-UTI",
+      "name": "Proposed once-daily methenamine product for recurrent UTI prevention",
+      "provisional_rank": 14,
+      "tier": "C: formulation thesis unvalidated",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 150000,
+        "base": 300000,
+        "high": 550000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 175000,
+        "base": 375000,
+        "high": 750000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.25,
+        "high": 0.45,
+        "base": 0.35
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Own a defensible modified-release presentation only if urinary exposure/adherence improvement is real.",
+      "observed": [
+        "ALTAR supports standard methenamine versus antibiotic prophylaxis.",
+        "Once-daily modified-release formulation here is a proposal, not an observed asset or proven regimen."
+      ],
+      "milestone": "Stable prototype and urinary exposure/functional bridge supporting a clinically credible less-frequent presentation, with human PK/acceptability.",
+      "estimate_basis": "Existing active lowers toxicology discovery risk but sustained urinary effect, release, food/pH effects and exposure can defeat product design.",
+      "commercial_capture": "Low-to-medium if a protected adherence improvement survives; low if standard inexpensive regimen suffices or is readily copied.",
+      "handoff": "Urology/women's-health formulation license before efficacy/registration expansion.",
+      "follow_on_capital": "Clinical equivalence/noninferiority and safety plus commercial CMC/registration require additional multi-million funding.",
+      "contrary": [
+        "Existing regimen already effective and inexpensive.",
+        "No clinical evidence for proposed modified release.",
+        "Novel formulation is not automatically necessary or defensible."
+      ],
+      "reversal_trigger": "No sustained urinary functional exposure or no material adherence advantage.",
+      "cheapest_decisive_desk_check": "Review elimination/urinary pharmacology, existing presentations/patents and unmet adherence need before formulation work.",
+      "source_ids": [
+        "B24"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-MET-LC-PREV",
+      "name": "Metformin prevention of LongCOVID after acute infection",
+      "provisional_rank": 15,
+      "tier": "C: public-health value, weak private capture",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 250000,
+        "base": 500000,
+        "high": 900000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 15000,
+        "base": 50000,
+        "high": 125000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 265000,
+        "base": 550000,
+        "high": 1025000
+      },
+      "duration_months": {
+        "low": 12,
+        "base": 18,
+        "high": 30
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.3,
+        "high": 0.5,
+        "base": 0.4
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Protected/contracted contribution to an existing platform or needed patient-selection/product strategy; no claim to own generic preventive use.",
+      "observed": [
+        "Randomized follow-up reported fewer subsequent LongCOVID diagnoses after acute metformin in enrolled population."
+      ],
+      "milestone": "A defined current-population clinical substudy or platform contribution resolving adherence, baseline-risk or patient-selection uncertainty with reusable data rights.",
+      "estimate_basis": "Estimate covers bounded platform contribution, not a full independently sponsored large prevention trial; lower event rates can substantially increase cost.",
+      "commercial_capture": "Low because generic medicine and public evidence can translate to practice without investor payment.",
+      "handoff": "Contracted platform milestone or specialist product license only if an identifiable protected contribution exists.",
+      "follow_on_capital": "A contemporary prevention indication may require a large multicenter trial and substantial follow-up financing.",
+      "contrary": [
+        "Cannot transfer prevention evidence to established LongCOVID treatment.",
+        "Current vaccination/variant risks may differ.",
+        "Positive public-health effect need not yield private product rent."
+      ],
+      "reversal_trigger": "No capturable incremental contribution or required event-driven study exceeds feasible partner-funded path.",
+      "cheapest_decisive_desk_check": "Map current trials and population risk, then test whether product/selection work adds anything beyond generic guideline adoption.",
+      "source_ids": [
+        "B18"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.02,
+        "base": 0.1,
+        "high": 0.25,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "R26-LOC-04",
+      "name": "Topical timolol for diabetic foot-ulcer healing",
+      "provisional_rank": 16,
+      "tier": "C: controlled signal insufficient",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 575000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 15000,
+        "base": 50000,
+        "high": 125000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 700000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.2,
+        "high": 0.4,
+        "base": 0.3
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": "R26-LOC-04",
+      "route": "Differentiated wound product plus owned efficacy data only if controlled effect justifies investment.",
+      "observed": [
+        "Registry complete closures were 8/21 versus 7/27.",
+        "Selected-healer barrier findings do not prove closure or recurrence benefit."
+      ],
+      "milestone": "Controlled clinically meaningful healing replication on standardized wound care with transferable product and data.",
+      "estimate_basis": "Wound variability, care intensity and follow-up make complete evidence more costly than a small assay or retrospective barrier analysis.",
+      "commercial_capture": "Low without substantial clinical superiority/product protection in a crowded wound-care field.",
+      "handoff": "Wound-product license if clinically useful replicated healing advantage emerges.",
+      "follow_on_capital": "Larger clinical studies, manufacturing, safety and commercial reimbursement evidence remain.",
+      "contrary": [
+        "Small nonsignificant-looking closure difference and endpoint-report discrepancies.",
+        "No established recurrence prevention."
+      ],
+      "reversal_trigger": "Reconciled controlled results fail to support a worthwhile effect.",
+      "cheapest_decisive_desk_check": "Reconcile registry, paper and endpoint definitions before any development tranche.",
+      "source_ids": [
+        "B32"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-AMB-PD",
+      "name": "Ambroxol for Parkinson disease dementia or selected GBA biology",
+      "provisional_rank": 17,
+      "tier": "C: no clinical efficacy established",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 200000,
+        "base": 350000,
+        "high": 650000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 25000,
+        "base": 75000,
+        "high": 200000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 850000
+      },
+      "duration_months": {
+        "low": 12,
+        "base": 18,
+        "high": 30
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.15,
+        "high": 0.35,
+        "base": 0.25
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Defined proprietary product/biomarker contribution within a funded CNS program; cannot assume generic ambroxol ownership.",
+      "observed": [
+        "Randomized PDD trial demonstrated target engagement without clinical-outcome difference."
+      ],
+      "milestone": "Prespecified subgroup/clinical-function validation and exposure package beyond repeat target engagement, using an existing platform if available.",
+      "estimate_basis": "CNS clinical outcomes take time; cost is only a bounded contribution, not a full disease-modification trial.",
+      "commercial_capture": "Low unless a credible prospectively validated selection/product thesis and program interest are obtained.",
+      "handoff": "License of meaningful validated biomarker/product contribution or contractual share in funded program.",
+      "follow_on_capital": "Large, prolonged CNS efficacy/safety trials and registration need substantial multi-million capital.",
+      "contrary": [
+        "Mechanistic engagement did not establish cognition benefit.",
+        "No post-hoc GBA responder claim accepted without prospective evidence."
+      ],
+      "reversal_trigger": "Only target engagement or unvalidated subgroup story remains.",
+      "cheapest_decisive_desk_check": "Check current genotype-specific trials and clinical endpoints before duplicating biomarker work.",
+      "source_ids": [
+        "B23"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    },
+    {
+      "id": "PROPOSED-PKG-LDN-FM",
+      "name": "Low-dose naltrexone for unselected fibromyalgia",
+      "provisional_rank": 18,
+      "tier": "D: do not prioritize current thesis",
+      "estimate_status": "Subjective planning estimate, not quote, offer or statistically calibrated prediction",
+      "execution_cmc_operator_analysis_contingency_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 600000
+      },
+      "entry_rights_data_supply_allowance_usd": {
+        "low": 15000,
+        "base": 50000,
+        "high": 125000
+      },
+      "all_in_bounded_milestone_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 725000
+      },
+      "duration_months": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "subjective_favorable_milestone_probability": {
+        "low": 0.05,
+        "high": 0.15,
+        "base": 0.1
+      },
+      "quote_available": false,
+      "offer_available": false,
+      "repo_candidate_id": null,
+      "route": "Would require genuinely new prospectively justified patient/product differentiation; none established in this screen.",
+      "observed": [
+        "Two substantive randomized studies, including 2026 INNOVA, did not show meaningful pain benefit."
+      ],
+      "milestone": "A rigorously justified new controlled clinical signal, not another uncontrolled anecdotal series.",
+      "estimate_basis": "Cost shown for a hypothetical informative repeat, not a recommendation to fund it; existing negative randomized evidence sharply lowers favorable-signal expectation.",
+      "commercial_capture": "Low: generic, substantial prior use and weak exact-use efficacy.",
+      "handoff": "No plausible near-term licensing proposition without new evidence changing the thesis.",
+      "follow_on_capital": "Any revived program would still require clinical replication, safety and registration funding.",
+      "contrary": [
+        "Independent randomized negative results outweigh small exploratory positive narratives.",
+        "No validated responsive subgroup found in this pass."
+      ],
+      "reversal_trigger": "Remain dropped unless independent new evidence supports a different prespecified subgroup or product mechanism.",
+      "cheapest_decisive_desk_check": "No broad repeat search; monitor only consequential new exact-use controlled evidence.",
+      "source_ids": [
+        "B16",
+        "B17"
+      ],
+      "subjective_paid_handoff_probability_given_milestone_and_modeled_rights": {
+        "low": 0.01,
+        "base": 0.05,
+        "high": 0.15,
+        "horizon_years": 5,
+        "confidence": "Very low; judgmental scenario inputs, not empirical probabilities or a valuation.",
+        "event": "Material net cash paid or distributed to the modeled investor interest from licensing, option assignment, asset sale, contracted milestone or equity realization within five years, conditional on the favorable milestone and modeled access/rights. The amount is unspecified; the event alone does not mean full principal recovery.",
+        "assumptions": "A competent sponsor/operator executes the program; the investor owns the assumed transferable economic interest; a motivated counterparty can finance continuation; no-deal, timing, insufficient follow-on finance and lack of liquidity are included as failure branches. Actual investor share, senior claims, dilution and obligations must still reduce the cash amount separately."
+      }
+    }
+  ],
+  "integration_note": "Lane-specific ranks and shortlists are inputs to the cross-lane judgment. The current four finalists, challengers and reserves are in candidate-ledger.json and README.md. All costs and probabilities are analyst screening estimates; no offers, transactions or experiments are recorded."
+}

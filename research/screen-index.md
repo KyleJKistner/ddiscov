@@ -4,6 +4,7 @@ Use [current opportunities](../decisions/current-shortlist.md) to choose work an
 
 | Screen | Scope |
 |---|---|
+| [Round 27 ledger](rounds/round27/candidate-ledger.json) | 49 estimated development packages / 48 asset-use combinations; four desk finalists and explicit reserves/drops; reviewed 9 November 2026. |
 | [Round 26 ledger](rounds/round26/candidate-ledger.json) | Ten exact intervention/use records across human, local-product and functional-preclinical evidence; reviewed 8 November 2026. |
 | [Round 25 ledger](rounds/round25/candidate-ledger.json) | A36/HD, dipyridamole/ALS and atorvastatin/SRD5A3-CDG. |
 | [Round 24](rounds/round24/README.md) | Claudin-5/DME, additional screening and existing-program reassessment. |

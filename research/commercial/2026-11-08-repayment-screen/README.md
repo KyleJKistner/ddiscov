@@ -2,9 +2,11 @@
 
 **Review date:** 8 November 2026, America/Los_Angeles.
 
+**Current use:** background transaction research for later diligence. The user clarified that broad screening and an estimated shortlist come before inquiries. The inquiry ordering below is historical to this pass and does not set the current candidate ranking. Use [current opportunities](../../../decisions/current-shortlist.md) for the active desk screen.
+
 **Baseline:** [dc0cdcc](https://github.com/KyleJKistner/ddiscov/commit/dc0cdccfc6b9b4158094cb11d602ffb9cddf6028). Candidate evidence remains in its dated dossiers through Round 26. This pass verifies selected commercial/program records and prepares comparable transaction questions.
 
-## Decision
+## Original decision, superseded for current priorities
 
 **None of the five exact-use packages currently establishes a priced, executable transaction with a supportable high probability of returning investor principal plus a return.** The reviewed sources identify assets, counterparties and inquiry mechanisms. Actual payment obligations, complete costs, attainable interests, operator access and investor distribution terms remain unresolved.
 

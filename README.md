@@ -8,9 +8,11 @@ Find drug-development opportunities that maximize the financial value retained f
 2. [Selection policy](decisions/selection-policy.md) — how to compare commitments.
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
 
-**Candidate evidence reviewed through 8 November 2026 (Round 26).** The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. Current prices, terms, follow-on funding and affordable-loss limits remain open; the active set is unranked financially.
+**Candidate evidence reviewed through 9 November 2026 (Round 27).** The [broad estimated screen](research/rounds/round27/README.md) compares 49 development packages across 48 asset/use combinations and selects four for deeper desk work: nifedipine/lidocaine, APR-246, topical erlotinib and CBD3063. AAT process work, topical insulin and verteporfin remain immediate product challengers.
 
-The [commercial package comparison](research/commercial/2026-11-08-repayment-screen/README.md) checks named counterparties, routes to investor cash and quote requirements. It identifies specific commercial-fit inquiries while leaving unverified costs, offers and recovery probabilities explicit.
+The current workflow is **broad screening → estimated comparison → a handful for deeper desk diligence → inquiries**. Use explicit ranges for uncertain cost, time, success and retained value. Missing quotes do not prevent a provisional comparison. The [opportunity template](decisions/opportunity-template.md) records the assumed interest, consequential milestone and reversal conditions; stronger diligence follows as a commitment becomes concrete.
+
+The [earlier commercial comparison](research/commercial/2026-11-08-repayment-screen/README.md) preserves counterparty background for later diligence. Its inquiry order is superseded by Round 27.
 
 ## Find the relevant detail
 

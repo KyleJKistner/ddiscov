@@ -2,6 +2,8 @@
 
 Prepared 8 November 2026. These briefs are **drafts for review; nothing has been sent or submitted**. They identify questions and proposed structures, with no representation that a counterparty is interested or that ddiscov has a clinical operator. Review the [comparison and source limitations](README.md) and [source records](opportunity-packages.json) before using a brief.
 
+**Deferred:** broad desk screening, an estimated comparison and a small shortlist come first. Retain these as background drafting material for a later inquiry stage; they are not the current work queue.
+
 ## Shared commercial scope
 
 A useful response should identify an actual development need, the party authorized to transact, the permitted article/data use, a finite deliverable, who could execute it, the all-in price and the next cash event.

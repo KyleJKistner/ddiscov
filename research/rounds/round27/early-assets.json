@@ -1,0 +1,1769 @@
+{
+  "title": "Broad early-development screen: exact assets, bounded milestones and financial capture",
+  "as_of": "2026-11-09",
+  "status": "Desk screen and explicit analyst planning estimates; no outreach, commitments, quotations or offers obtained.",
+  "scope": {
+    "candidate_count": 15,
+    "required_incumbents": 5,
+    "fresh_distinct_assets": 8,
+    "additional_exact_use_same_asset": 1,
+    "additional_historical_asset": 1,
+    "fresh_assets": [
+      "CBD3063",
+      "PEPITEM",
+      "MCC22",
+      "high-MW hyaluronan/protamine",
+      "rhMG53/ROSS-A6",
+      "PLGA IL-2/TGF-beta/rapamycin",
+      "SN-401/DCPIB",
+      "niacin"
+    ],
+    "coverage": "Rare genetic disease, common metabolic/bone disease, pain/itch symptoms, cardiac injury, wounds, IBD and an early clinical benchmark. This is not a global exhaustive search or a mandate to favor disease modification."
+  },
+  "comparison_method": {
+    "unit": "Exact asset/use plus a proposed attainable economic interest plus a bounded next package. Field options, sponsored validation and participation in existing programs all qualify.",
+    "ranking": "Provisional priority for deeper desk synthesis using useful evidence per all-in cash, credible commercial demand/capture, speed and bounded downside. It is an analyst judgment, not a validated investor IRR ranking or a technical-success-per-dollar score. Missing quotes do not block comparison.",
+    "estimates": "All monetary/probability/time ranges are explicit analyst low/base/high scenarios unless a public term is named. They are not quotes, statistical confidence intervals or empirical asset success rates. Base cases assume competent outsourced execution, existing models/material where stated, and a narrow evaluation/participation agreement.",
+    "budget_construction": "All-in milestone cash = entry/option/data/legal allowance + compound/model/product/functional work + project management, analysis and contingency. The initial stop is INCLUDED in this total and is not added again. Low/high components are coherent optimistic/stressed scenarios, not independent percentiles.",
+    "entry_cost_sensitivity": "Entry allowance assumes a narrow option or participation, never free ownership. Each extra $100,000 access fee raises cash at risk by that amount and the corrected success-only investor-cash hurdle by 100000/(p_functional*q_company*d). A higher fee can overturn rank; a missing quote does not block the screen.",
+    "p_functional_definition": "P(the specified useful product/functional milestone is met conditional on modeled access and funding of the bounded package). Includes biological, product, model and practical execution risk; it is not conditioned on successful assay qualification. Informative negatives are valuable stops but do not count as product success. No equivalence to IND clearance, approval or investor recovery.",
+    "p_transaction_definition": "Original q_company is subjective P(a cash-paying transaction to the rights-holding project/company within five years | positive functional milestone and modeled assignable interest). It is retained for audit and is not itself the investor-cash event.",
+    "horizon": "Five years is an analyst comparison assumption only; the user has not supplied a binding cash horizon or target return.",
+    "cash_recovery_definition": "Investor recovery requires cumulative actual investor distributions, net of remaining investor-funded obligations/costs/taxes, to exceed deployed capital and any chosen return target by the horizon. Company enterprise value, new financing, milestone face value and undeployed reserve do not count.",
+    "break_even_sensitivity": "With full base cost C paid, zero cash on other branches, p=p_functional and q_investor=q_company*d, required net investor cash on the paying branch for expected break-even is C/(p*q_company*d). It ignores time discounting and does not estimate that payment or principal-recovery probability. Gross deal cash must be larger after royalties, dilution, fees, taxes and any retained development funds.",
+    "later_capital": "Later sponsor capital is separately estimated for IND/early clinical or further proof work as described. It is not included in the next-package cost and not assumed automatically available. Full approval/launch may cost much more. Additional investor commitments must be approved and modeled explicitly.",
+    "alternatives": "Compare every proposed package with preserving cash. Spending zero is capital preservation, not drug-investment success. Positive expected value can coexist with a low chance of recovering principal.",
+    "correlation": "HA itch and pain share delivery, rights and biology; pain assets share clinical-translation and buyer risks; all depend on financing conditions. Stages in one program are serial conditional bets. Do not use 1-(1-p)^n as an independence assumption or count platform endpoints as independent successes.",
+    "distribution_definition": "d is subjective P(actual net cash reaches the investor within five years | a positive milestone and company cash transaction). It depends on assumed control, royalties, development obligations, distribution rights and liquidity. These very-low-confidence ranges make the ownership/distribution assumption visible. Comparable investor q = q_company*d. Receiving some cash still does not mean recouping principal.",
+    "no_additional_outlays_assumption": "The simple hurdle assumes no further mandatory or voluntary investor outlay beyond C, including after technical success with no deal. Any license maintenance, retest, follow-on funding or wind-down cost on any branch must be added explicitly. Tranche stops may reduce expected spend; full-C arithmetic does not take credit for that reduction."
+  },
+  "branch_policy": [
+    {
+      "branch": "Positive product/function result",
+      "next_decision": "Seek or negotiate the defined paid handoff/financing on acceptable economics after the shortlist stage. Follow-on commitments are new decisions; scientific success alone releases no extra money."
+    },
+    {
+      "branch": "Useful negative",
+      "next_decision": "Stop at the prespecified cash ceiling and preserve remaining capital. Do not relabel negative evidence as commercial success."
+    },
+    {
+      "branch": "Inconclusive",
+      "next_decision": "Use a capped retest only if it can change the decision. Otherwise stop; ongoing assay/platform development is a separate proposal."
+    },
+    {
+      "branch": "Positive science, no transaction or financing",
+      "next_decision": "No assumed investor cash; retain/expire rights under contract and compare maintenance cost with preserving cash. An equity markup does not repair the cash-recovery branch."
+    }
+  ],
+  "deeper_synthesis_ids": [
+    "EARLY-CBD3063-PAIN",
+    "EARLY-8015P2-CMT2A",
+    "EARLY-PEPITEM-BONE"
+  ],
+  "reserve_if_terms_or_evidence_change": [
+    "EARLY-MCC22-ARTHRITISPAIN",
+    "EARLY-HMWH-ITCH",
+    "EARLY-BLU3797-XLMTM"
+  ],
+  "critical_updates": [
+    "GBT601 is recruiting in its SCD Phase 2/3 registry; a commercial-catalog termination label is not reliable. Leigh combination science and clinical osivelotor status must be separated.",
+    "Use final PNAS hypoxia paper PMID42853664/PMC13663714, not the earlier preprint as if it were an independent replication.",
+    "PEPITEM foundational rights were licensed to Viatem; current bone patent opportunity requires scope analysis, not a presumption of unencumbered university ownership.",
+    "MCC22 public access fees are unusually concrete but do not prove respiratory safety or favorable investor recovery.",
+    "HA has disease/formulation/sex-specific evidence; acute itch behavior, male CIPN and female inflammatory pain are separate claims.",
+    "These early packages do not, on present evidence, establish a high probability of principal recovery with return. A paid development contract, preferred repayment or buying into existing distributable revenue would be a different economic structure.",
+    "Investor-cash correction: every company-transaction probability now has a separate conditional distribution factor d and an investor q=q_company*d. Prior company-event hurdles are preserved as audit fields, not comparison values."
+  ],
+  "candidates": [
+    {
+      "id": "EARLY-CBD3063-PAIN",
+      "rank": 1,
+      "tier": "A_deeper_desk_synthesis",
+      "origin": "fresh_asset",
+      "asset_use": "Racemic CBD3063 for chronic peripheral neuropathic pain",
+      "candidate_ids": [],
+      "observed": "Mouse/rat neuropathic and inflammatory pain studies report behavioral analgesia through several routes while preserving tested acute protective sensation. A 2025 study separately examines enantiomers; racemate evidence cannot simply be assigned to pure S or R. NYU lists pending co-owned composition IP with Pitt. [E01-E03]",
+      "negative": "No clinical efficacy or established oral product. Intraperitoneal exposure and limited behavior panels leave repeat-dose therapeutic margin unresolved. A non-opioid label alone is insufficient differentiation: suzetrigine is already approved for acute pain; chronic efficacy is a separate question. [E01,E02,E04]",
+      "milestone": "Independent authenticated-racemate exposure-response package with repeat-dose neuropathic pain behavior and activity/function versus active comparator, preserved protective sensation, tolerability and a feasible intended clinical route. Success requires useful analgesia at exposure separated from impairment, not only reduced CaV2.2 current.",
+      "time_months": {
+        "low": 6,
+        "base": 10,
+        "high": 15
+      },
+      "first_stop": "Identity, solubility and achievable exposure with a small independent functional replication; stop if efficacy requires impairing exposure or the intended route is untenable.",
+      "p_functional_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "probability_rationale": "Several behavioral models and routes improve confidence; same discovery lineage, high-concentration cellular work, delivery and chronic safety cap the range. Conditional on modeled access/funding; includes failure of model, exposure, functional replication and execution within the package.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.2,
+        "base": 0.35,
+        "high": 0.5
+      },
+      "transaction_rationale": "A differentiated non-opioid pain package has recognizable buyer demand, but preclinical pain translation and crowded pipelines limit the chance a positive package yields cash within five years.",
+      "capture": "Proposed field-limited option/license with transferable data and sublicense proceeds, or a project company retaining that license. NYU/Pitt are a concrete rights lead; no signed offer. Entry allowance assumes an evaluation option, not purchase of the entire platform.",
+      "handoff": "Pain-focused biotech or pharma licenses the differentiated exposure/efficacy package; upfront cash, a paid option or reimbursed development must reach the holding vehicle. Milestone headlines and equity markups are excluded.",
+      "later_capital_scope": "Further IND-enabling work, clinical material and early human tolerability/proof; later pivotal trials extra.",
+      "decision": "KEEP: best new combination of symptom-level functional evidence, a defined institutional route, modular testing and broad buyer relevance. Advance desk synthesis first; high-case cost would require narrower scope or cofunding, not silent reserve consumption.",
+      "next_desk_work": "Reconcile racemate identity and patent claims; extract blinded behavioral/raw exposure evidence and enantiomer liabilities; write one route-specific product profile and costed work breakdown.",
+      "sources": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 15000,
+          "base": 50000,
+          "high": 125000
+        },
+        "chemistry_exposure_and_functional_studies": {
+          "low": 125000,
+          "base": 220000,
+          "high": 360000
+        },
+        "management_analysis_and_contingency": {
+          "low": 35000,
+          "base": 65000,
+          "high": 115000
+        },
+        "all_in": {
+          "low": 175000,
+          "base": 335000,
+          "high": 600000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 3000000,
+        "base": 6000000,
+        "high": 12000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 75000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.1575,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 2126984,
+        "company_event_only_extra_access_sensitivity_prior_usd": 634921,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.11025,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 3038549,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 907029
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "distribution_assumption": "Assumes the investor controls a dedicated option/license-holding vehicle and can distribute net paid-option or sublicensing cash after contractual costs. Reinvestment, upfront obligations, co-owner terms or lack of distributable net cash can prevent realization. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.08,
+        "base": 0.245,
+        "high": 0.45
+      }
+    },
+    {
+      "id": "EARLY-8015P2-CMT2A",
+      "rank": 2,
+      "tier": "A_deeper_desk_synthesis",
+      "origin": "required_incumbent",
+      "asset_use": "Exact 8015-P2 for MFN2-associated CMT2A",
+      "candidate_ids": [
+        "8015-P2"
+      ],
+      "observed": "Exact P2 improves established sensory/motor phenotypes in T105M mice and rats; the rat study includes grip, electrophysiological and muscle measures and identifies Mitochondria in Motion Discovery as material supplier. The human-cell experiments in the earlier work used the 8015 mixture. [E05,E06]",
+      "negative": "Two species do not create independent human validation: same allele and overlapping lineage. CMTA has a public R364W patient-neuron assay, but its endpoints are morphology and mitochondrial movement, not a demonstrated P2 motor-unit functional rescue. New patent publication does not grant usable rights. [E05-E08]",
+      "milestone": "Independent exact-P2 package demonstrating exposure-related improvement in patient-derived motor-neuron electrophysiology or motor-unit function across more than one MFN2 context, with orthogonal viability/mitochondrial controls and a translational exposure margin. A morphology-only assay is an initial stop, not the final value milestone.",
+      "time_months": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "first_stop": "Authenticate exact P2 and establish a reproducible disease-related functional deficit; a morphology response alone does not justify the larger package.",
+      "p_functional_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "probability_rationale": "Post-onset animal function is meaningful; exact-human-article gap, allele dependence and building a useful functional assay keep probability well below certainty.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "transaction_rationale": "Genetically defined disease and an existing developer support a handoff. Existing ownership and model improvements may add less commercial value than assumed; a scientific result can be valuable without buying the sponsor a distribution.",
+      "capture": "Proposed sponsored validation with equity/warrants, defined data rights and a paid development/option arrangement with the existing owner; a field license is an alternative. Entry range allows a modest evaluation transaction; large upfront transfer fees materially change the case.",
+      "handoff": "Existing mitofusin developer or neuromuscular company funds next stage or licenses a defined interest. Financing proceeds generally belong to the company and are not investor repayment.",
+      "later_capital_scope": "IND-enabling package and early clinical development; pivotal/long-duration efficacy extra.",
+      "decision": "KEEP: strongest incumbent for narrowly bounded human-functional translation. Rank depends on obtaining meaningful economics for incremental evidence, not merely purchasing an assay on an already-owned compound.",
+      "next_desk_work": "Map P2 versus mixture/P1/MiM111 evidence; inspect exact claims and company pipeline; specify what human function the existing platform can support without assuming a motor-unit assay already exists.",
+      "sources": [
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 20000,
+          "base": 60000,
+          "high": 150000
+        },
+        "compound_models_and_functional_studies": {
+          "low": 120000,
+          "base": 210000,
+          "high": 380000
+        },
+        "management_analysis_and_contingency": {
+          "low": 35000,
+          "base": 65000,
+          "high": 120000
+        },
+        "all_in": {
+          "low": 175000,
+          "base": 335000,
+          "high": 650000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 8000000,
+        "high": 15000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 80000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.12,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 2791667,
+        "company_event_only_extra_access_sensitivity_prior_usd": 833333,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.06,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 5583333,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1666667
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "distribution_assumption": "Likely sponsored participation in an existing developer rather than wholly controlled asset ownership. Realization requires a contractual revenue share, redemption or sale/liquidity event; an equity financing or valuation uplift alone pays nothing. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      }
+    },
+    {
+      "id": "EARLY-PEPITEM-BONE",
+      "rank": 3,
+      "tier": "A_deeper_desk_synthesis",
+      "origin": "fresh_asset",
+      "asset_use": "Full-length 14-amino-acid PEPITEM for osteoporosis",
+      "candidate_ids": [],
+      "observed": "Primary work reports stronger mouse bone, protection in bone-loss models and effects in human donor osteoblasts. The 2025 pharmacophore comparison supports retaining full-length peptide: shorter versions did not reproduce its full dual in-vivo activity. Birmingham lists bone IP. [E09-E11]",
+      "negative": "Bone mass or donor-cell activity is not a demonstrated reduction of patient fractures. Chronic exposure, delivery and safety remain open. Foundational PEPITEM technology was licensed to Viatem in 2018, so later bone rights cannot be presumed clear. Approved anabolic/antiresorptive options set a demanding differentiation bar. [E09-E13]",
+      "milestone": "Independent dose/exposure study in established bone loss with actual bone mechanical strength and remodeling quality versus an active comparator, repeated human-donor response and a tolerable repeat-dose formulation. Success requires a credible product advantage rather than increased mineralization alone.",
+      "time_months": {
+        "low": 7,
+        "base": 11,
+        "high": 18
+      },
+      "first_stop": "Confirm authentic peptide stability/exposure and donor-response reproducibility; stop before long animal work if practical dosing cannot reach active exposure.",
+      "p_functional_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "probability_rationale": "Strength-level animal readout and human donor activity support the middle of the range. Endogenous origin is not a safety guarantee; chronic peptide delivery and comparator differentiation remain substantial risks.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "transaction_rationale": "Large treated population and existing clinical pathways support a buyer route; inexpensive established therapies and long fracture trials can make a positive preclinical package commercially insufficient.",
+      "capture": "Proposed bone-field option or participation with Birmingham and any existing license holder. Model includes entry/legal allowance; field overlap with Viatem must be analyzed rather than treated as free or automatically unavailable.",
+      "handoff": "Osteoporosis-focused biotech or pharma takes the peptide into IND/early clinical work for a paid option/license. A royalty-only promise is unlikely to produce near-term cash.",
+      "later_capital_scope": "Formulation, chronic safety/CMC, IND and early clinical proof; fracture-outcome development and commercialization extra.",
+      "decision": "KEEP: a common-disease alternative with a functional endpoint and a finite peptide/exposure challenge. Lower priority if defensible advantage is only another injectable bone anabolic with no clear safety, dosing or efficacy benefit.",
+      "next_desk_work": "Separate full-peptide results from short analogs; compare with approved anabolic performance and dosing burden; map 2018 license versus bone application; design strength/exposure go/no-go criteria.",
+      "sources": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 15000,
+          "base": 50000,
+          "high": 150000
+        },
+        "peptide_exposure_and_functional_studies": {
+          "low": 140000,
+          "base": 235000,
+          "high": 400000
+        },
+        "management_analysis_and_contingency": {
+          "low": 45000,
+          "base": 80000,
+          "high": 140000
+        },
+        "all_in": {
+          "low": 200000,
+          "base": 365000,
+          "high": 690000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 3000000,
+        "base": 7000000,
+        "high": 15000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 80000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.135,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 2703704,
+        "company_event_only_extra_access_sensitivity_prior_usd": 740741,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.08775,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 4159544,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1139601
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "distribution_assumption": "Assumes a bone-field option held through a controllable vehicle or enforceable revenue participation. Existing Viatem/Birmingham rights, sublicense obligations and continued development reserves may absorb transaction cash. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0525,
+        "base": 0.195,
+        "high": 0.3825
+      }
+    },
+    {
+      "id": "EARLY-MCC22-ARTHRITISPAIN",
+      "rank": 4,
+      "tier": "B_reserve",
+      "origin": "fresh_asset",
+      "asset_use": "MCC22 MOR-agonist/CCR5-antagonist for chronic inflammatory arthritis pain",
+      "candidate_ids": [],
+      "observed": "Mouse arthritis work reports analgesia with grip/nesting benefit; separate CIPN work found no conditioned-place reward in the tested regimen. UMN lists issued US10,464,941 and public trial/conversion terms. This is an opioid-based molecule, not a non-opioid. [E14-E16]",
+      "negative": "Potency and absent reward/tolerance in selected mice do not establish human abuse or respiratory safety. Arthritis disease activity was not thereby cured. Bivalent chemistry, practical route and differentiated therapeutic margin remain material obstacles. [E14,E15]",
+      "milestone": "Independent clinically plausible-route exposure, repeated-dose pain/function and respiratory/motor/behavioral margin package against morphine and a non-opioid comparator. Success requires useful pain relief without a narrow opioid-like margin; potency alone does not count.",
+      "time_months": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "first_stop": "Synthesis/identity, exposure and early respiratory/motor margin; terminate if useful analgesia cannot be separated from impairment.",
+      "p_functional_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "probability_rationale": "Multiple mouse pain settings and function strengthen replication odds, while required safety differentiation is harder than reproducing analgesia.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "transaction_rationale": "Pain buyers exist, but opioid development concerns and additional abuse-liability requirements reduce the five-year paid-handoff chance.",
+      "capture": "Advertised UMN Try and Buy: first 12 months $0, next 12 months $5,000; conversion $25,000; royalty 3% (2% Minnesota), first $1m sales royalty-free. Eligibility and full obligations need confirmation later. Planning entry allowance includes counsel and possible conversion, not a claim of accepted terms.",
+      "handoff": "Defined option/license can be transferred or sublicensed to a pain developer after therapeutic-margin evidence; licensing terms and product commercialization costs still apply.",
+      "later_capital_scope": "IND-enabling, abuse/respiratory safety, CMC and early clinical development; full approval extra.",
+      "decision": "KEEP AS RESERVE: unusually transparent low entry cost makes a bounded challenge attractive. Do not promote it to safest simply because public terms are cheap.",
+      "next_desk_work": "Read full Try and Buy term sheet and issued claims, including sublicensing/change-of-control obligations; inspect route/respiratory evidence and quantify the advantage required over existing analgesics.",
+      "sources": [
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 5000,
+          "base": 20000,
+          "high": 45000
+        },
+        "synthesis_exposure_efficacy_and_margin": {
+          "low": 130000,
+          "base": 230000,
+          "high": 400000
+        },
+        "management_analysis_and_contingency": {
+          "low": 35000,
+          "base": 70000,
+          "high": 125000
+        },
+        "all_in": {
+          "low": 170000,
+          "base": 320000,
+          "high": 570000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 8000000,
+        "high": 18000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 65000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.1,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 3200000,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1000000,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.07,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 4571429,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1428571
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "distribution_assumption": "Assumes a controllable licensed project vehicle with an allowed sublicense or asset sale and net distribution after university terms. Public Try and Buy pricing does not itself assure assignability or distributable proceeds. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.04,
+        "base": 0.175,
+        "high": 0.36
+      }
+    },
+    {
+      "id": "EARLY-HMWH-ITCH",
+      "rank": 5,
+      "tier": "B_reserve",
+      "origin": "fresh_asset",
+      "asset_use": "Topical 500-1200 kDa hyaluronan plus protamine for localized pruritus",
+      "candidate_ids": [],
+      "observed": "A small blinded rat experiment reports reduced serotonin-evoked scratching in both sexes with topical HMWH/protamine. UCSF has a related topical-HA licensing route. [E18,E19]",
+      "negative": "Six animals per sex and sequential challenge design provide weak evidence for chronic itch; paper descriptions of paired/one-/two-tailed analyses are inconsistent. No human-skin pharmacology or chronic-disease clinical benefit. Female CIPN nonresponse in adjacent HA work cautions against broad indication transfer. [E17,E18]",
+      "milestone": "Reproducible human-skin delivery/retention with acceptable irritation plus independent blinded reduction of scratching in an established chronic itch model versus vehicle, protamine alone and active comparator, with normal movement and a feasible stable formulation.",
+      "time_months": {
+        "low": 4,
+        "base": 8,
+        "high": 12
+      },
+      "first_stop": "Measure delivery through intact human skin and local tolerability; stop if necessary exposure requires an unacceptable enhancer or no relevant skin target access.",
+      "p_functional_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "probability_rationale": "Local topical delivery and inexpensive known components help execution, but acute provoked scratching is far from persistent patient itch. Success is product/function evidence, not formulation mixing.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "transaction_rationale": "Dermatology/symptom products can interest a smaller operator, but broad inexpensive alternatives, weak clinical translation and formulation exclusivity may cap willingness to pay.",
+      "capture": "Proposed formulation/use option from UCSF with data ownership; test claim coverage for itch and protamine specifically. Commodity component supply alone provides little exclusive economic capture.",
+      "handoff": "Dermatology developer funds safety and an early controlled symptom trial under an applicable drug-development pathway; cosmetic positioning is not assumed to authorize therapeutic claims.",
+      "later_capital_scope": "Regulatory formulation/safety and early controlled human symptom evidence; approval and commercial launch extra.",
+      "decision": "KEEP AS CHEAPER RESERVE: short falsifiable delivery/behavior package, but lower evidence depth and narrower expected capture than the top three. Not an independent bet from the pain use of the same formulation.",
+      "next_desk_work": "Audit study controls/statistical inconsistencies, topical patent scope and disease-specific itch comparator; decide whether a chronic itch model can actually be decisive.",
+      "sources": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 10000,
+          "base": 30000,
+          "high": 90000
+        },
+        "formulation_skin_and_functional_studies": {
+          "low": 75000,
+          "base": 140000,
+          "high": 250000
+        },
+        "management_analysis_and_contingency": {
+          "low": 25000,
+          "base": 45000,
+          "high": 85000
+        },
+        "all_in": {
+          "low": 110000,
+          "base": 215000,
+          "high": 425000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 1500000,
+        "base": 3000000,
+        "high": 7000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 45000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.08,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 2687500,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1250000,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.052,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 4134615,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1923077
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "distribution_assumption": "Assumes controllable formulation/use rights and allowed distribution from a paid sublicense or sale. Thin margins, formulation obligations and buyer funding restricted to development can leave no investor distribution. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.04,
+        "base": 0.13,
+        "high": 0.2975
+      }
+    },
+    {
+      "id": "EARLY-BLU3797-XLMTM",
+      "rank": 6,
+      "tier": "B_reserve",
+      "origin": "required_incumbent",
+      "asset_use": "BLU3797 selective PIK3C2B inhibitor for XLMTM",
+      "candidate_ids": [
+        "BLU-3797"
+      ],
+      "observed": "Published 2026 study shows pharmacologic mouse survival/function effects, backed by target genetics. Curi Bio advertises an XLMTM human muscle model. Paper authors were at Blueprint; Sanofi acquired Blueprint in 2025. [E20-E22]",
+      "negative": "Wire-hanging and biomarker response do not establish human contractile rescue; biomarker persistence can outlast function after withdrawal. A platform listing is neither an independent exact-drug result nor an authorized commercial package. [E20,E21]",
+      "milestone": "Independent exposure-related improvement of force/fatigue in patient-derived XLMTM muscle with matched controls and repeat-dose/washout measurements, supported by relevant pharmacology and safety margin. Myotube morphology or biomarker normalization alone does not pass.",
+      "time_months": {
+        "low": 6,
+        "base": 11,
+        "high": 18
+      },
+      "first_stop": "Qualify meaningful human contractile deficit and authentic inhibitor exposure before the larger experiment.",
+      "p_functional_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "probability_rationale": "Strong target rationale and animal phenotype support a serious chance; severe developmental disease, chronic dosing and immature human functional evidence limit translation.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "transaction_rationale": "A coherent rare-disease package is sponsorable, but existing corporate ownership and expensive pediatric development may reduce incremental economic capture for a small external contributor.",
+      "capture": "Proposed field option or sponsored human-validation participation with the rights holder; retain assignable data and explicit economics. Use modest-access scenario for screening, and stress large entry fees rather than requiring a quote first.",
+      "handoff": "Existing owner or a neuromuscular partner funds IND/clinical development through a paid option, data package or equity arrangement; equity financing does not itself repay the investor.",
+      "later_capital_scope": "IND/CMC and initial pediatric development; pivotal work extra.",
+      "decision": "KEEP: meaningful incumbent with finite human force question. Below P2 on present cost/access assumptions and evidence of patient-relevant pharmacological function, not because synthesis-stage work is preferred.",
+      "next_desk_work": "Separate exact compound effects, genetic rescue, biomarkers and function; map owner and patent chain; inspect whether available cells support force and fatigue endpoints.",
+      "sources": [
+        "E20",
+        "E21",
+        "E22"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 20000,
+          "base": 80000,
+          "high": 250000
+        },
+        "compound_human_model_and_functional_studies": {
+          "low": 140000,
+          "base": 240000,
+          "high": 420000
+        },
+        "management_analysis_and_contingency": {
+          "low": 40000,
+          "base": 80000,
+          "high": 140000
+        },
+        "all_in": {
+          "low": 200000,
+          "base": 400000,
+          "high": 810000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 8000000,
+        "high": 18000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 95000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.1,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 4000000,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1000000,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.05,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 8000000,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 2000000
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "distribution_assumption": "Assumes negotiated participation with an existing corporate owner and an express paid-data/option revenue share or liquidity right. Corporate development cash is ordinarily not investor repayment. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.025,
+        "base": 0.125,
+        "high": 0.3
+      }
+    },
+    {
+      "id": "EARLY-FD2-ALS",
+      "rank": 7,
+      "tier": "B_reserve",
+      "origin": "required_incumbent",
+      "asset_use": "Exact FD-2 16-amino-acid Pgk1-derived peptide for ALS",
+      "candidate_ids": [
+        "R26-FUN-02"
+      ],
+      "observed": "Primary paper reports early-treatment SOD1G93A mouse motor/neuromuscular and survival signals, plus zebrafish ALS-related models. Patent application names Mackay/Fu Jen institutional interests. [E32,E33]",
+      "negative": "Mouse dosing begins before overt decline; small cohorts and developmental models do not demonstrate post-onset adult ALS benefit. Proposed stability superiority is not measured human or animal PK. Distinguish FD1, FD2 and full Pgk1. [E32]",
+      "milestone": "Independent authenticated-FD2 exposure/stability and post-onset ALS-model functional progression package, with repeat-dose safety and prespecified motor outcomes rather than only neuronal markers. Product utility requires feasible repeat administration.",
+      "time_months": {
+        "low": 6,
+        "base": 11,
+        "high": 18
+      },
+      "first_stop": "Measure peptide exposure/stability and initial post-onset functional response; terminate if feasible dosing cannot reproduce any relevant benefit.",
+      "p_functional_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "probability_rationale": "Existing whole-animal functional signal warrants a test; timing, small samples, peptide exposure and poor ALS model transfer create a large failure branch.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "transaction_rationale": "ALS buyers value differentiated post-onset evidence, but the disease has a high translational hurdle and preclinical packages commonly remain unfunded.",
+      "capture": "Proposed institutional evaluation option plus exact article/data rights and sublicensing economics. Low-cost synthesis is not ownership and does not fund the complete next milestone.",
+      "handoff": "ALS developer licenses/partners after relevant functional and exposure evidence; an academic collaboration without transferable economic rights is a different, lower-capture package.",
+      "later_capital_scope": "IND-enabling peptide CMC/toxicology and early clinical work; later ALS efficacy trials extra.",
+      "decision": "KEEP AS RESERVE: affordable first stop and an explicit functional hypothesis, but weaker post-onset evidence than the leading incumbent and no demonstrated PK advantage.",
+      "next_desk_work": "Resolve exact sequence/article/patent mapping, treatment timing and denominators; build a post-onset exposure/function replication plan.",
+      "sources": [
+        "E32",
+        "E33"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 15000,
+          "base": 50000,
+          "high": 150000
+        },
+        "peptide_exposure_and_post_onset_function": {
+          "low": 130000,
+          "base": 230000,
+          "high": 400000
+        },
+        "management_analysis_and_contingency": {
+          "low": 40000,
+          "base": 75000,
+          "high": 130000
+        },
+        "all_in": {
+          "low": 185000,
+          "base": 355000,
+          "high": 680000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 8000000,
+        "high": 18000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 75000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.075,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 4733333,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1333333,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.04875,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 7282051,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 2051282
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "distribution_assumption": "Assumes a dedicated institutional-option vehicle with distributable paid-license proceeds, after co-owner obligations. A research contract paying only program expenses or an equity round is insufficient. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.035,
+        "base": 0.1625,
+        "high": 0.34
+      }
+    },
+    {
+      "id": "EARLY-HJ02-POSTMI",
+      "rank": 8,
+      "tier": "B_reserve",
+      "origin": "additional_known_asset",
+      "asset_use": "HJ-02 small molecule for durable post-MI sympathetic reinnervation and functional benefit",
+      "candidate_ids": [
+        "HJ-02"
+      ],
+      "observed": "Early mouse work supports reinnervation and provoked-arrhythmia effects. OHSU lists technology 2944 for license/co-development and issued US12,729,177. [E23,E25]",
+      "negative": "A sham-reference cardiac-output comparison does not establish improved pump function versus injured vehicle. Adjacent ISP work lost long-term benefit as vehicle animals reinnervated; this challenges durability of the hypothesis but is not exact-HJ02 failure. [E23,E24]",
+      "milestone": "Independent post-MI study with blinded injured-vehicle and active-care comparators, adequate baseline balance, durable telemetry arrhythmia and ventricular-function outcomes plus exposure/tolerability. Axon density alone does not pass.",
+      "time_months": {
+        "low": 7,
+        "base": 12,
+        "high": 18
+      },
+      "first_stop": "Authenticate chemistry and exposure; assess whether the early functional effect survives correct injured-control comparison before longer follow-up.",
+      "p_functional_milestone": {
+        "low": 0.2,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "probability_rationale": "A biological signal and clear institutional route are positive; weak pump-function comparison and adjacent durability counterevidence lower the probability of useful incremental function.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "transaction_rationale": "A durable rhythm/heart-function benefit would matter commercially, but a short preclinical reinnervation result alone is unlikely to command meaningful upfront cash.",
+      "capture": "Proposed OHSU field license/option covering HJ02 and transferable replication data. Public availability and issued patent improve the route; exact claim scope, FTO and price still affect capture.",
+      "handoff": "Cardiovascular developer pays for a durable functional package; clinical endpoints and standard-care competition remain substantial downstream obligations.",
+      "later_capital_scope": "IND-enabling/CMC and early clinical studies; large cardiac outcome trials extra.",
+      "decision": "KEEP AS RESERVE: stronger public rights route than many academic hits, but durable functional evidence must overturn a specific adverse comparison.",
+      "next_desk_work": "Reconstruct injured-control effect sizes and long-term competing evidence; map issued claims to HJ02; specify how much durable incremental function would be commercially useful.",
+      "sources": [
+        "E23",
+        "E24",
+        "E25"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 15000,
+          "base": 45000,
+          "high": 125000
+        },
+        "chemistry_exposure_and_durable_function": {
+          "low": 160000,
+          "base": 260000,
+          "high": 450000
+        },
+        "management_analysis_and_contingency": {
+          "low": 45000,
+          "base": 85000,
+          "high": 150000
+        },
+        "all_in": {
+          "low": 220000,
+          "base": 390000,
+          "high": 725000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 8000000,
+        "high": 15000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 75000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.06,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 6500000,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1666667,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.039,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 10000000,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 2564103
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "distribution_assumption": "Assumes a controllable field-license vehicle and transferable sublicense/asset-sale rights; university royalties, fees and continued obligations reduce or prevent distributions. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.035,
+        "base": 0.13,
+        "high": 0.2975
+      }
+    },
+    {
+      "id": "EARLY-RHMG53-WOUND",
+      "rank": 9,
+      "tier": "B_partnered_reserve",
+      "origin": "fresh_asset",
+      "asset_use": "Recombinant human MG53 in ROS-scavenging ROSS-A6 gel for diabetic wounds",
+      "candidate_ids": [],
+      "observed": "Exact protein/gel work improves wound closure in db/db mice. TRIM-edicine has a government-funded topical rhMG53 program with manufacturing and non-GLP safety work, but that award is related-product evidence rather than proof for this gel. [E26,E27]",
+      "negative": "Mouse wound contraction/closure is not persistent human diabetic-ulcer healing. Two-component biology/formulation creates CMC, stability and rights complexity; human infection, ischemia and standard-care variation are untested. A historical planned IND is not a cleared trial. [E26,E27]",
+      "milestone": "Transferable manufacturing/stability and retained activity package plus blinded durable re-epithelialization/closure in a clinically informative diabetic wound system, with human tissue compatibility and appropriate wound-care comparators. Hair follicles or closure by contraction alone do not pass.",
+      "time_months": {
+        "low": 8,
+        "base": 13,
+        "high": 20
+      },
+      "first_stop": "Confirm access to scalable protein/gel and activity after release, then human skin compatibility; stop before expensive wound studies if product transfer fails.",
+      "p_functional_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "probability_rationale": "Tissue closure and related protein development reduce novelty risk; human-wound relevance and a commercially transferable biologic gel remain difficult.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "transaction_rationale": "Wound-care operators provide a recognizable handoff, but clinical outcome evidence and cost of goods may be needed before cash licensing is attractive.",
+      "capture": "Proposed collaboration/option combining rhMG53 owner rights with the gel-specific IP/data. A single protein license may not cover the exact formulation; modeled entry includes one bounded joint arrangement, not an unrestricted buyout.",
+      "handoff": "Wound-care/biologics operator funds clinical product development with paid option/upfront economics. Related SBIR funding is not available investor cash.",
+      "later_capital_scope": "Biologic formulation CMC, safety and early controlled wound trial; full approval/commercial scale extra.",
+      "decision": "KEEP FOR PARTNERED SCOPE: more product-oriented than many target papers, but base package and manufacturing risk exceed the leanest alternatives.",
+      "next_desk_work": "Map exact gel versus funded cream evidence, ownership and scalable CMC; specify durable epithelial closure against clinically relevant wound care.",
+      "sources": [
+        "E26",
+        "E27"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 25000,
+          "base": 100000,
+          "high": 300000
+        },
+        "protein_gel_and_translational_wound_studies": {
+          "low": 180000,
+          "base": 320000,
+          "high": 550000
+        },
+        "management_analysis_and_contingency": {
+          "low": 55000,
+          "base": 100000,
+          "high": 175000
+        },
+        "all_in": {
+          "low": 260000,
+          "base": 520000,
+          "high": 1025000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 5000000,
+        "base": 10000000,
+        "high": 20000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 100000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.135,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 3851852,
+        "company_event_only_extra_access_sensitivity_prior_usd": 740741,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.0675,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 7703704,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1481481
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "distribution_assumption": "Two-component rights and likely existing-company participation make cash capture harder. Requires enforceable revenue participation or a liquid sale; company licensing receipts may remain committed to manufacturing and clinical work. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      }
+    },
+    {
+      "id": "EARLY-GBT601-PT2399-LEIGH",
+      "rank": 10,
+      "tier": "B_partnered_reserve",
+      "origin": "required_incumbent",
+      "asset_use": "GBT601/osivelotor plus PT2399 for NDUFS4 Leigh syndrome",
+      "candidate_ids": [
+        "GBT601+PT2399"
+      ],
+      "observed": "Final 2026 PNAS work reports late-treatment functional/survival rescue in Ndufs4-deficient mice and effects in other neurodegeneration models. GBT601 SCD registry NCT05431088 is recruiting as of its August 2026 update; it is not demonstrated discontinued. [E28,E29]",
+      "negative": "Chronic oxygen-delivery manipulation plus HIF2 inhibition needs a wide safety and exposure assessment, particularly in children. Voxelotor withdrawal is a related-drug caution, not exact-combination failure. SCD clinical experience does not establish Leigh safety or efficacy. [E28-E31]",
+      "milestone": "Independent late-treatment disease function/survival replication tied to measured tissue oxygen and exposure, with chronic hematologic/cardiopulmonary tolerability and a feasible coadministration window. Rescue at physiologically unsafe hypoxia does not pass.",
+      "time_months": {
+        "low": 8,
+        "base": 14,
+        "high": 22
+      },
+      "first_stop": "Confirm exact-combination exposure/oxygen response and initial hematologic/cardiopulmonary window; stop if useful disease exposure lacks a viable margin.",
+      "p_functional_milestone": {
+        "low": 0.35,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "probability_rationale": "Late intervention and whole-animal outcomes make it scientifically stronger than several cheaper candidates. Required chronic combination margin and pediatric physiology remain uncertain.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "transaction_rationale": "A strong rare-disease result could interest existing owners, but two compounds and systemic physiology create a larger negotiating/financing burden; no assumption of an inexpensive out-license.",
+      "capture": "Proposed indication-specific co-development interest with GBT601 owner and PT2399-related rights holders, or paid translational data with enforceable milestone proceeds. Access sensitivity is large; exploratory catalog supply creates no commercial economics.",
+      "handoff": "Existing pharmaceutical/rare-disease operator funds the combination; owned development and safety infrastructure are prerequisites for efficient handoff, not evidence of an offer.",
+      "later_capital_scope": "Combination safety/CMC and early pediatric development; full approval extra.",
+      "decision": "KEEP AS HIGHER-CAPITAL BENCHMARK: do not demote the biology. Lower marginal-dollar priority comes from full package cost, two-asset capture and safety window, not a mistaken discontinuation claim.",
+      "next_desk_work": "Read final rather than preprint version, map exact compound rights and current osivelotor clinical data, model tolerable oxygen/exposure ranges and a funded partner scope.",
+      "sources": [
+        "E28",
+        "E29",
+        "E30",
+        "E31"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 50000,
+          "base": 150000,
+          "high": 500000
+        },
+        "combination_exposure_safety_and_function": {
+          "low": 240000,
+          "base": 450000,
+          "high": 800000
+        },
+        "management_analysis_and_contingency": {
+          "low": 80000,
+          "base": 150000,
+          "high": 275000
+        },
+        "all_in": {
+          "low": 370000,
+          "base": 750000,
+          "high": 1575000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 6000000,
+        "base": 12000000,
+        "high": 25000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 150000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.1,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 7500000,
+        "company_event_only_extra_access_sensitivity_prior_usd": 1000000,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.04,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 18750000,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 2500000
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "distribution_assumption": "Likely multi-owner co-development participation, not a freely distributable asset sale. Investor realization requires a negotiated paid share or liquidity event after each rights-holder obligation. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.02,
+        "base": 0.08,
+        "high": 0.2275
+      }
+    },
+    {
+      "id": "EARLY-HMWH-CIPN",
+      "rank": 11,
+      "tier": "B_reserve_or_rescope",
+      "origin": "fresh_use_same_asset",
+      "asset_use": "Topical 500-1200 kDa hyaluronan plus protamine for localized chemotherapy-induced neuropathic pain",
+      "candidate_ids": [],
+      "observed": "Topical HA plus protamine reduces oxaliplatin CIPN hyperalgesia in male rats; repeated administration prolonged effect. Other formulation experiments show sex-dependent CIPN response. [E17]",
+      "negative": "The strongest female nonresponse was with HA/DMSO, so it is a warning to test the chosen formulation rather than proof protamine fails in women. Human skin delivery, sustained patient pain/function and tolerability remain unshown. HA/protamine itch evidence is not CIPN efficacy. [E17,E18]",
+      "milestone": "Human-skin exposure/tolerability plus independent both-sex CIPN study using the exact protamine formulation, active comparator and ongoing-pain/behavioral function alongside evoked thresholds. A narrow male-only signal must support a commercially plausible defined population.",
+      "time_months": {
+        "low": 5,
+        "base": 9,
+        "high": 14
+      },
+      "first_stop": "Human-skin delivery and early sex-stratified response; stop or explicitly narrow population if useful effect is absent at tolerated exposure.",
+      "p_functional_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "probability_rationale": "Direct symptom-related model signal is useful, but sex dependence, delivery and reliance on evoked reflexes reduce confidence in a usable broad product.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "transaction_rationale": "A low-burden topical analgesic is commercially understandable; weak exclusivity and a narrow responsive subgroup can limit paid partner interest.",
+      "capture": "Same proposed UCSF formulation/use option as itch; allocate shared delivery/IP costs once if both uses are explored. Treat economic interests and disease evidence separately.",
+      "handoff": "Pain/dermatology developer takes a differentiated topical package into clinical proof; absence of an accepted price does not itself decide the desk rank.",
+      "later_capital_scope": "Regulatory safety and early controlled pain study; commercialization extra.",
+      "decision": "KEEP ONLY AS NARROW RESERVE: inexpensive falsification is possible, but the itch package currently offers a cleaner both-sex starting signal. These uses are strongly correlated and are not diversification.",
+      "next_desk_work": "Extract exact formulation/sex/disease strata and controls; assess protamine local-systemic tolerability and patent coverage for CIPN.",
+      "sources": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 10000,
+          "base": 30000,
+          "high": 90000
+        },
+        "formulation_skin_and_functional_studies": {
+          "low": 90000,
+          "base": 160000,
+          "high": 280000
+        },
+        "management_analysis_and_contingency": {
+          "low": 25000,
+          "base": 50000,
+          "high": 90000
+        },
+        "all_in": {
+          "low": 125000,
+          "base": 240000,
+          "high": 460000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 2000000,
+        "base": 4000000,
+        "high": 8000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 50000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.045,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 5333333,
+        "company_event_only_extra_access_sensitivity_prior_usd": 2222222,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.02925,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 8205128,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 3418803
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "distribution_assumption": "Same controllable-use-license assumption as the itch route; shared rights and costs should be counted once. A buyer-funded clinical budget is not automatically distributable. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.02,
+        "base": 0.0975,
+        "high": 0.255
+      }
+    },
+    {
+      "id": "EARLY-GA002-EPILEPSY",
+      "rank": 12,
+      "tier": "B_larger_partner_benchmark",
+      "origin": "required_incumbent",
+      "asset_use": "GA002 AAV-hM4D(Gi) plus low-dose clozapine for refractory unilateral MTLE with hippocampal sclerosis",
+      "candidate_ids": [
+        "GA002"
+      ],
+      "observed": "CIBR reports three treated participants, about 92.6% average seizure-frequency reduction over the two-month evaluation and two seizure-free at 8-12 months; the article is a first-human NEJM letter. Institution reports subsequent China/US clinical permissions. Full letter/supplement and regulator decisions were not retrieved in this refresh. [E34,E35]",
+      "negative": "Three uncontrolled cases do not estimate durable comparative efficacy or rare toxicity. Ligand-dependent modulation can be adjusted, but injected gene delivery is not undone by stopping clozapine. Neurosurgery, gene vector CMC, long follow-up and cross-jurisdiction rights add substantial cost. [E35]",
+      "milestone": "With the existing authorized sponsor, an additional bounded prospective cohort with independently adjudicated seizure outcomes and 12-month follow-up, prespecified baseline/medication stability, meaningful patient benefit and acceptable safety. A retrospective data audit is a cheap first step, not this value milestone.",
+      "time_months": {
+        "low": 12,
+        "base": 20,
+        "high": 32
+      },
+      "first_stop": "Obtain auditable participant-level/protocol/CMC facts and test feasibility of a bounded existing-program participation before irrevocable clinical commitments.",
+      "p_functional_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.7
+      },
+      "probability_rationale": "Human symptomatic signals raise the middle estimate compared with untested biology; tiny uncontrolled cohort, selection effects and novel gene/drug delivery leave a wide range. Applies only if existing sponsor infrastructure is available.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "transaction_rationale": "Positive durable human evidence could support licensing, but larger sponsor financing may remain illiquid and public rights are already associated with an operating company.",
+      "capture": "Proposed project participation/preferred equity or a narrow territorial/use interest with current sponsor, not a claim to acquire the platform cheaply. Entry model assumes defined cash-flow participation; a generic minority share must be valued separately.",
+      "handoff": "Existing epilepsy/gene-therapy sponsor or partner supports expansion. A new IND/site/manufacturing platform would materially exceed the model.",
+      "later_capital_scope": "Larger controlled trials, gene-therapy CMC and long-term follow-up; full commercial infrastructure extra.",
+      "decision": "KEEP AS LARGER-PARTNER BENCHMARK: stronger stage does not assure inexpensive entry or cash recovery. Do not fund a small assay and label it the cost of advancing this clinical program.",
+      "next_desk_work": "Recover primary letter/supplement and registry protocol; reconcile three treated versus planned enrollment, exact endpoints and permission claims; outline only a concrete existing-program participation.",
+      "sources": [
+        "E34",
+        "E35"
+      ],
+      "milestone_cost_usd": {
+        "entry_participation_data_and_legal": {
+          "low": 100000,
+          "base": 300000,
+          "high": 1000000
+        },
+        "existing_program_replication_cohort": {
+          "low": 500000,
+          "base": 1100000,
+          "high": 2500000
+        },
+        "clinical_management_analysis_and_contingency": {
+          "low": 150000,
+          "base": 350000,
+          "high": 750000
+        },
+        "all_in": {
+          "low": 750000,
+          "base": 1750000,
+          "high": 4250000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 5000000,
+        "base": 15000000,
+        "high": 35000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 150000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.15,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 11666667,
+        "company_event_only_extra_access_sensitivity_prior_usd": 666667,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.06,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 29166667,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 1666667
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "distribution_assumption": "Likely minority/preferred participation in an operating clinical sponsor. A revenue share, redemption or actual sale must pay the investor; a new clinical financing or increased valuation is not cash recovery. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.03,
+        "base": 0.12,
+        "high": 0.2925
+      }
+    },
+    {
+      "id": "EARLY-PLGA-IBD",
+      "rank": 13,
+      "tier": "C_drop_current_package",
+      "origin": "fresh_asset",
+      "asset_use": "Oral PLGA microparticles co-delivering IL-2, TGF-beta and rapamycin for ulcerative colitis",
+      "candidate_ids": [],
+      "observed": "Pitt lists targeted biodegradable particles and a patent application with murine TNBS colitis experiments. The proposed product combines three tolerogenic agents at inflamed mucosa. [E36,E37]",
+      "negative": "Acute chemical colitis and local immune markers do not establish chronic human remission. Triple-agent release, protein stability, batch control and immunosuppressive exposure add complexity; established IBD treatments require substantial differentiation. [E36,E37]",
+      "milestone": "Reproducible scalable release/biological activity plus blinded sustained functional colitis remission in an established-disease model versus component and active comparators, with mucosal/systemic exposure and safety. Treg counts alone do not pass.",
+      "time_months": {
+        "low": 8,
+        "base": 14,
+        "high": 22
+      },
+      "first_stop": "Demonstrate stable co-delivery and active mucosal exposure with manageable systemic leakage before prolonged disease studies.",
+      "p_functional_milestone": {
+        "low": 0.15,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "probability_rationale": "Local delivery is mechanistically plausible, but three-agent product complexity and model-to-remission translation create multiple failure modes.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "transaction_rationale": "IBD partner demand exists, yet a complicated preclinical formulation with limited differentiation may require clinical proof before a meaningful payment.",
+      "capture": "Proposed Pitt formulation/use license with exact composition and data rights; the combination requires a defensible product advantage rather than access to generic component drugs.",
+      "handoff": "IBD developer or delivery platform partner funds IND and trial package; sponsor milestones cannot be assumed from patent publication.",
+      "later_capital_scope": "Combination CMC/toxicology, IND and early efficacy; pivotal trials extra.",
+      "decision": "DROP THIS ROUND: product complexity makes the useful milestone too expensive relative to evidence and likely early capture. Reopen for a simplified exact formulation, strong human-mucosal evidence or subsidized development package.",
+      "next_desk_work": "No new spending priority; retain source record and reconsider only if composition is simplified or an existing operator supplies a materially cheaper bounded scope.",
+      "sources": [
+        "E36",
+        "E37"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 15000,
+          "base": 50000,
+          "high": 150000
+        },
+        "formulation_exposure_and_functional_studies": {
+          "low": 200000,
+          "base": 350000,
+          "high": 600000
+        },
+        "management_analysis_and_contingency": {
+          "low": 60000,
+          "base": 115000,
+          "high": 200000
+        },
+        "all_in": {
+          "low": 275000,
+          "base": 515000,
+          "high": 950000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 5000000,
+        "base": 12000000,
+        "high": 25000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 100000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.0375,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 13733333,
+        "company_event_only_extra_access_sensitivity_prior_usd": 2666667,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.0225,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 22888889,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 4444444
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "distribution_assumption": "Assumes a field-license vehicle permits net sublicensing distribution. Complex development commitments can retain the entire company payment. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0175,
+        "base": 0.09,
+        "high": 0.24
+      }
+    },
+    {
+      "id": "EARLY-SN401-T2D",
+      "rank": 14,
+      "tier": "C_drop_exact_article",
+      "origin": "fresh_asset",
+      "asset_use": "SN-401/DCPIB for type 2 diabetes",
+      "candidate_ids": [],
+      "observed": "Mouse and human-cell work supports SWELL1-related metabolic effects. Government award records identify SN-401 as a tool compound and propose optimized SN-40X congeners; Senseion is the developer lead. [E38,E40]",
+      "negative": "Independent experiments show DCPIB mitochondrial respiration effects not requiring LRRC8A at micromolar exposure. This does not prove toxicity at lower active concentrations, but makes a therapeutic-window test essential. The optimized-congener program cannot be credited to unchanged SN-401. [E39,E40]",
+      "milestone": "Independent oral exposure and useful glycemic effect in established diabetes with clear separation from mitochondrial, cardiac and insulin-secretion liabilities and an active comparator. Target stabilization alone does not pass.",
+      "time_months": {
+        "low": 8,
+        "base": 13,
+        "high": 20
+      },
+      "first_stop": "Exposure-dependent mitochondrial/selectivity screen linked to active concentration; stop unchanged SN401 if the required margin is absent.",
+      "p_functional_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "probability_rationale": "Mechanistic and metabolic signals are positive, but the exact article is a known tool with independent liabilities. Medicinal chemistry rescue would be a new asset and new probability.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "transaction_rationale": "Large market alone is weak capture; mature diabetes therapies and an existing optimized-congener effort reduce appeal of this exact tool compound.",
+      "capture": "Proposed limited indication/data participation with Senseion/university rights holders. No assumption that research availability or old grant plans create a licensable clinical lead.",
+      "handoff": "Metabolic developer would need a differentiated safety/efficacy profile; an improved derivative must be screened as a separate exact asset.",
+      "later_capital_scope": "Lead/IND safety, CMC and early metabolic trials; full approval extra.",
+      "decision": "DROP EXACT SN401: promising target biology is not enough to overcome known tool-compound liabilities and competition. Keep optimized congeners on a separate future sourcing list.",
+      "next_desk_work": "Only reopen for an exact optimized article with independent therapeutic-window data; do not launch open-ended chemistry under this package.",
+      "sources": [
+        "E38",
+        "E39",
+        "E40"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 20000,
+          "base": 70000,
+          "high": 200000
+        },
+        "chemistry_exposure_margin_and_function": {
+          "low": 175000,
+          "base": 300000,
+          "high": 550000
+        },
+        "management_analysis_and_contingency": {
+          "low": 50000,
+          "base": 100000,
+          "high": 180000
+        },
+        "all_in": {
+          "low": 245000,
+          "base": 470000,
+          "high": 930000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 4000000,
+        "base": 10000000,
+        "high": 20000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 80000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.03,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 15666667,
+        "company_event_only_extra_access_sensitivity_prior_usd": 3333333,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.015,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 31333333,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 6666667
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "distribution_assumption": "Likely participation with an existing optimized-congener developer. Distribution requires contracted proceeds or a liquidity event rather than further sponsor financing. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0125,
+        "base": 0.075,
+        "high": 0.225
+      }
+    },
+    {
+      "id": "EARLY-NIACIN-MASH",
+      "rank": 15,
+      "tier": "C_drop_current_package",
+      "origin": "fresh_asset",
+      "asset_use": "Pharmacologic nicotinic acid/niacin for reversal of MASH-associated liver fibrosis",
+      "candidate_ids": [],
+      "observed": "UCI lists a niacin fibrosis use. The supporting experiment measured collagen in cultured stellate cells from five fibrotic NASH donors and two controls, not regression in treated patients. [E41,E42]",
+      "negative": "A cultured-cell collagen reduction does not demonstrate liver recovery. Niacin extended-release labeling includes liver contraindications, so regimen/formulation and exposure cannot be assumed safe in this population. Wegovy now has an FDA MASH indication, raising the clinical comparison bar. [E42-E44]",
+      "milestone": "Independent safety-qualified achievable exposure with regression of established fibrosis and preserved liver function in an appropriate disease model, supported by human tissue response against an active comparator. Lower collagen in isolated cells alone does not pass.",
+      "time_months": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "first_stop": "Test whether antifibrotic tissue exposure is plausible without worsening liver/metabolic safety; stop if the in-vitro concentration cannot be translated.",
+      "p_functional_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "probability_rationale": "Existing human use lowers some basic-development uncertainty but does not resolve this high-exposure, liver-disease product hypothesis; evidence-to-organ-function gap is substantial.",
+      "p_cash_transaction_given_positive": {
+        "low": 0.03,
+        "base": 0.1,
+        "high": 0.2
+      },
+      "transaction_rationale": "Generic availability, indication-patent enforceability, safety concerns and effective clinical competitors constrain early paid capture even after a positive animal study.",
+      "capture": "Proposed UCI use-patent option or a defensible formulation; generic niacin supply is not exclusive economics. Access can be cheap and still economically unattractive.",
+      "handoff": "A liver-disease developer would likely require clinically meaningful exposure/safety differentiation; royalty-only use rights could take far beyond the comparison horizon to pay.",
+      "later_capital_scope": "Regimen safety and controlled early liver efficacy; larger fibrosis/outcome trials extra.",
+      "decision": "DROP: weak translational evidence, direct liver-safety conflict to resolve and poor generic capture dominate low acquisition/synthesis cost.",
+      "next_desk_work": "No active spending priority; reconsider only after credible exposure-linked organ benefit and a commercially defensible product route.",
+      "sources": [
+        "E41",
+        "E42",
+        "E43",
+        "E44"
+      ],
+      "milestone_cost_usd": {
+        "entry_option_data_and_legal": {
+          "low": 10000,
+          "base": 35000,
+          "high": 100000
+        },
+        "exposure_liver_safety_and_function": {
+          "low": 100000,
+          "base": 200000,
+          "high": 350000
+        },
+        "management_analysis_and_contingency": {
+          "low": 35000,
+          "base": 65000,
+          "high": 115000
+        },
+        "all_in": {
+          "low": 145000,
+          "base": 300000,
+          "high": 565000
+        }
+      },
+      "later_sponsor_capital_usd": {
+        "low": 2000000,
+        "base": 5000000,
+        "high": 10000000
+      },
+      "cash_at_first_genuine_stop_base_usd": 60000,
+      "financial_sensitivity": {
+        "base_joint_positive_and_company_cash_scenario": 0.015,
+        "interpretation": "Corrected investor-cash sensitivity: C/(p_functional*q_company*d_distribution), full base package paid, zero cash on other branches, no additional mandatory or voluntary investor outlay beyond C. This is neither valuation nor probability of principal recovery. Any later investor-funded costs, including on no-deal branches, require an explicit branch model. Company receipts and retained reserves are not investor cash.",
+        "company_event_only_hurdle_prior_usd": 20000000,
+        "company_event_only_extra_access_sensitivity_prior_usd": 6666667,
+        "company_event_only_prior_note": "Retained only for audit: used company cash event before adding distribution probability; not comparable with investor-cash hurdles.",
+        "base_joint_positive_and_investor_cash_scenario": 0.009,
+        "required_net_investor_cash_on_only_paying_branch_for_expected_break_even_usd": 33333333,
+        "extra_access_fee_100000_usd_increase_in_required_paying_branch_net_cash": 11111111
+      },
+      "p_distribution_given_cash_transaction": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "distribution_assumption": "Assumes licensed use/formulation interest permits net paid sublicensing distributions. Low-margin generic competition, royalties and product expenses may leave little or no realizable cash. All d values are subjective analyst scenarios with very low confidence, not measured distribution frequencies or agreed terms.",
+      "p_investor_cash_given_positive": {
+        "low": 0.0105,
+        "base": 0.06,
+        "high": 0.16
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "E01",
+      "title": "CBD3063 original mouse/rat pain pharmacology, PNAS 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10666126/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary experimental paper; route, behavior, exposure and limits."
+    },
+    {
+      "id": "E02",
+      "title": "CBD3063 enantiomer comparison, Neurobiology of Pain 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40487899/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; distinguish racemate, S and R behavioral evidence."
+    },
+    {
+      "id": "E03",
+      "title": "NYU technology KHA03-01: CBD3063",
+      "url": "https://license.tov.med.nyu.edu/product/peptidomimetic-modulator-of-cav22-n-type-calcium-channel-for-treatment-of-chronic-pain",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Institutional licensing listing; co-owned pending NYU/Pitt patent, not an executed offer. Listing contains CBD3630/CDB3063 spelling inconsistencies; exact article must control."
+    },
+    {
+      "id": "E04",
+      "title": "Journavx current FDA labeling",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219209s009lbl.pdf",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary regulator label; approved acute pain competitor, not evidence for CBD3063 or chronic pain efficacy."
+    },
+    {
+      "id": "E05",
+      "title": "Exact 8015-P2 in MFN2 T105M mice, 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493442/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; exact-P2 animal findings and 8015-mixture human-cell distinction."
+    },
+    {
+      "id": "E06",
+      "title": "Exact 8015-P2 in MFN2 T105M rats, 2026",
+      "url": "https://www.mdpi.com/1422-0067/27/16/7376",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; functional outcomes in same allele, company-supplied compound, overlapping investigator lineage."
+    },
+    {
+      "id": "E07",
+      "title": "CMTA R364W iPSC motor-neuron assay, March 2026",
+      "url": "https://cmtausa.org/simply-cmt/cmt2a-ipsc-motor-neuron-assay-cmta-star/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary resource operator; one patient line and healthy comparator, morphology/mitochondrial movement; no established exact-P2 motor-unit functional result."
+    },
+    {
+      "id": "E08",
+      "title": "Piperine-derived mitofusin patent application WO2026044165A1",
+      "url": "https://patents.google.com/patent/WO2026044165A1/en",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Published patent text via Google Patents; application is not issued protection, freedom to operate, or an available license."
+    },
+    {
+      "id": "E09",
+      "title": "PEPITEM bone study, Cell Reports Medicine 2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666379124002660",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper DOI 10.1016/j.xcrm.2024.101574; bone strength and disease models; do not substitute the later correction DOI."
+    },
+    {
+      "id": "E10",
+      "title": "PEPITEM versus shorter pharmacophores, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40876366/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper DOI 10.1016/j.biopha.2025.118489; shortened versions do not fully reproduce dual in-vivo activity."
+    },
+    {
+      "id": "E11",
+      "title": "Birmingham current PEPITEM IP and commercialization page",
+      "url": "https://www.birmingham.ac.uk/research/projects/inflammation-biology-group/commercialisation",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Institutional source; bone application US2024/0131110A1 and licensing inquiry route."
+    },
+    {
+      "id": "E12",
+      "title": "Birmingham licenses PEPITEM technology to Viatem, 2018",
+      "url": "https://www.birmingham.ac.uk/news-archive/2018/university-of-birmingham-forms-spinout-to-develop-new-therapeutic-target-for-rheumatoid-arthritis",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Institutional source confirms historical license; scope/status relative to later bone patent is unresolved."
+    },
+    {
+      "id": "E13",
+      "title": "Evenity current labeling",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=471baba2-7154-4488-9891-0db2f46791e7",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary product label hosted by NLM; approved osteoporosis comparator and cardiovascular boxed warning."
+    },
+    {
+      "id": "E14",
+      "title": "MCC22 functional inflammatory arthritis study, 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6062996/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; arthritis pain, grip/nesting and tolerance experiments; no disease modification established."
+    },
+    {
+      "id": "E15",
+      "title": "MCC22 cisplatin neuropathic pain and reward study, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6745246/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; mouse tolerance and conditioned-place reward tests are not human abuse/respiratory safety."
+    },
+    {
+      "id": "E16",
+      "title": "University of Minnesota MCC22 licensing listing and public terms",
+      "url": "https://license.umn.edu/product/therapeutic-compound-for-chronic-inflammatory-pain-without-dependence-or-tolerance",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary institutional listing, technology 20140357; public Try and Buy fees and royalty, subject to agreement and eligibility."
+    },
+    {
+      "id": "E17",
+      "title": "Topical hyaluronan and penetration enhancers, Pain 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10794581/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; protamine formulation and male CIPN efficacy, female CIPN nonresponse with DMSO formulation, inflammatory pain response."
+    },
+    {
+      "id": "E18",
+      "title": "Topical HMWH/protamine acute itch experiment, 2024",
+      "url": "https://journals.sagepub.com/doi/10.1177/17448069241254455",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; six rats per sex, serotonin-induced scratching, sequential challenge design; not chronic itch or clinical efficacy."
+    },
+    {
+      "id": "E19",
+      "title": "UCSF topical high-molecular-weight hyaluronan listing",
+      "url": "https://techtransfer.universityofcalifornia.edu/NCD/34485.html",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary institutional listing, 2022-057-0; formulation patent and development route, not a granted commercial option."
+    },
+    {
+      "id": "E20",
+      "title": "BLU3797 pharmacological XLMTM study, JCI Insight 2026",
+      "url": "https://insight.jci.org/articles/view/198568",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; mouse function/survival and washout behavior. Authors at Blueprint. Wire hanging is not isolated muscle force."
+    },
+    {
+      "id": "E21",
+      "title": "Curi Bio XLMTM muscle model",
+      "url": "https://www.curibio.com/xlmtm-model",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary platform provider; possible human assay route, not exact-BLU validation or a cost quote."
+    },
+    {
+      "id": "E22",
+      "title": "Sanofi completion of Blueprint acquisition, July 2025",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-07-18-05-00-00-3117709",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary company disclosure; ownership context only, not an assertion of an available BLU3797 license."
+    },
+    {
+      "id": "E23",
+      "title": "HJ-02 post-MI sympathetic reinnervation study, 2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9617125/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; early reinnervation/arrhythmia evidence; sham comparison does not establish injured-control pump-function benefit."
+    },
+    {
+      "id": "E24",
+      "title": "Adjacent ISP long-term post-MI follow-up, 2023",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.14814/phy2.15702",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary contrary evidence for related reinnervation hypothesis; ISP is not HJ-02 and cannot be treated as exact-asset failure."
+    },
+    {
+      "id": "E25",
+      "title": "OHSU technology 2944 licensing listing",
+      "url": "https://apps.ohsu.edu/research/tech-portal/technology/view/5799762",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary institutional listing; licensing/co-development invited and US12,729,177 listed as issued."
+    },
+    {
+      "id": "E26",
+      "title": "rhMG53/ROSS-A6 gel in diabetic wounds, 2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8961467/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; exact protein/ROS-scavenging gel, db/db mouse wound closure, not human ulcer closure."
+    },
+    {
+      "id": "E27",
+      "title": "TRIM-edicine topical rhMG53 Phase II SBIR",
+      "url": "https://www.sbir.gov/awards/175903",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary government award record 2019-2022; related protein manufacturing/toxicology work and sponsor. Planned IND is not evidence one was filed or cleared; formulation is not necessarily ROSS-A6."
+    },
+    {
+      "id": "E28",
+      "title": "Second-generation hypoxia in a pill, final PNAS 2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663714/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary final paper DOI 10.1073/pnas.2618654123, PMID42853664. Distinguish earlier preprint PMID42427540/PMC13345306."
+    },
+    {
+      "id": "E29",
+      "title": "GBT601/osivelotor current Phase 2/3 registry NCT05431088",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05431088",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary registry API fetched directly; RECRUITING, Pfizer sponsor, status verified 2026-08, posted update 2026-08-18. SCD study, not Leigh evidence."
+    },
+    {
+      "id": "E30",
+      "title": "Pfizer acquisition of Global Blood Therapeutics",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-global-blood-therapeutics",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary company disclosure; GBT601 ownership context."
+    },
+    {
+      "id": "E31",
+      "title": "Pfizer voxelotor withdrawal, September 2024",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-voluntarily-withdraws-all-lots-sickle-cell-disease",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary company safety disclosure; related drug caution, not a finding that GBT601 failed or was discontinued."
+    },
+    {
+      "id": "E32",
+      "title": "FD-2 16-amino-acid peptide in ALS models, 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976506/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper DOI 10.1016/j.neurot.2025.e00806; early-treatment SOD1G93A motor/survival and zebrafish evidence."
+    },
+    {
+      "id": "E33",
+      "title": "FD peptide patent application US20240327462A1",
+      "url": "https://patentimages.storage.googleapis.com/8a/07/3f/1d045970abf45f/US20240327462A1.pdf",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Published patent text; institutional assignees and article identity must be matched. Filing does not demonstrate current issued scope or terms."
+    },
+    {
+      "id": "E34",
+      "title": "GA002 first-human letter, NEJM 2026",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606815",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary publication identified, but full text/supplement blocked in this refresh. Do not claim direct full-paper verification."
+    },
+    {
+      "id": "E35",
+      "title": "CIBR GA002 clinical research disclosure, November 2026",
+      "url": "https://www.cibr.ac.cn/detail/researchAchievementpaper/7e141d834d99406db7c00600ce933837",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary investigator institution report; three participants, two-month efficacy and 8-12-month follow-up; reported US/China clinical permissions not independently retrieved regulator decisions."
+    },
+    {
+      "id": "E36",
+      "title": "Pitt targeted IBD microparticle technology 05417",
+      "url": "https://inventions.pitt.edu/technologies/targeted-treatment-of--05417",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary institutional listing; PLGA particles with IL-2/TGF-beta/rapamycin; early proof-of-concept."
+    },
+    {
+      "id": "E37",
+      "title": "IBD microparticle patent application US20240293509A1",
+      "url": "https://patents.google.com/patent/US20240293509A1",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Published patent experiments; oral targeting and murine TNBS colitis; not independent clinical evidence."
+    },
+    {
+      "id": "E38",
+      "title": "SN-401/DCPIB SWELL1 metabolic study, Nature Communications 2022",
+      "url": "https://www.nature.com/articles/s41467-022-28435-0",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary paper; metabolic outcomes and SWELL1 dependence; founders of Senseion disclose involvement."
+    },
+    {
+      "id": "E39",
+      "title": "DCPIB mitochondrial off-target study, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6900491/",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary negative mechanism study; respiration effects at micromolar concentrations independent of LRRC8A. Not proof of clinical toxicity at proposed lower exposure."
+    },
+    {
+      "id": "E40",
+      "title": "Senseion SWELL1 Phase II SBIR",
+      "url": "https://www.sbir.gov/awards/194173",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary government award record; explicitly calls SN-401 a tool compound and targets optimized SN-40X congeners. Historical IND target is not a completed clinical milestone."
+    },
+    {
+      "id": "E41",
+      "title": "UCI niacin fibrosis licensing listing 2021-720-0",
+      "url": "https://techtransfer.universityofcalifornia.edu/NCD/34857.html",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary institutional listing; therapeutic claims must be constrained by underlying cell evidence."
+    },
+    {
+      "id": "E42",
+      "title": "Niacin and collagen in donor NASH stellate cells, 2022",
+      "url": "https://e-century.us/files/ajtr/14/6/ajtr0140497.pdf",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary study; five fibrotic NASH donors and two controls, cultured cells; no observed regression of fibrosis in treated people."
+    },
+    {
+      "id": "E43",
+      "title": "Niacin extended-release label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=249e27ac-e1e7-42dc-84f6-cd32fd1d9dee",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary label; liver contraindication for this formulation makes formulation/exposure safety central, not automatic transference to every proposed niacin regimen."
+    },
+    {
+      "id": "E44",
+      "title": "FDA Wegovy MASH approval, August 2025",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash",
+      "type": "primary_or_primary_text",
+      "checked_on": "2026-11-09",
+      "use_and_limit": "Primary regulator announcement; established clinical competitor in MASH with fibrosis."
+    }
+  ],
+  "revision_note": "Focused 2026-11-09 correction after independent economic review: normalize cash event, preserve company q, make distribution assumptions explicit and include no-additional-outlays condition. No new sources or altered cost estimates.",
+  "integration_note": "Lane-specific ranks and shortlists are inputs to the cross-lane judgment. The current four finalists, challengers and reserves are in candidate-ledger.json and README.md. All costs and probabilities are analyst screening estimates; no offers, transactions or experiments are recorded."
+}
