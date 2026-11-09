@@ -4,7 +4,7 @@
 
 Optimize financial value retained from the next dollar committed to drug development, across all stages and attainable transaction structures. Prefer credible success and protect the ability to continue after losses. Read [current opportunities](decisions/current-shortlist.md) and [selection policy](decisions/selection-policy.md), then retrieve only the evidence needed for the task.
 
-The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. Round 26 is the latest numbered review, dated 8 November 2026. The [Phase II program](research/phase2-program/README.md) records ten coordinator teams and focused source refreshes; read only the relevant team plus the shared evidence standard for a candidate task.
+The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. Round 26 is the latest numbered review, dated 8 November 2026. The [35-candidate screening review](research/phase2-program/ranking-review/README.md) is the current comparison, following the ten-team first pass. Screen and deepen the handful using explicit estimates before inquiries; read the relevant focused dossier, not every team report.
 
 ## Retrieve focused context
 

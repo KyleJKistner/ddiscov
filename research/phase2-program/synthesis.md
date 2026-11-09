@@ -1,5 +1,7 @@
 # Phase II search: integrated first pass
 
+**Historical first-pass synthesis.** The [35-candidate ranked review](ranking-review/README.md), completed 9 November 2026 UTC, now supplies the current screening order and matched cost/evidence comparison. The first-pass assignments and findings below retain their original scope; they are not the active ranking.
+
 Review date: 8 November 2026, America/Los_Angeles. Base: [dc0cdcc](https://github.com/KyleJKistner/ddiscov/commit/dc0cdccfc6b9b4158094cb11d602ffb9cddf6028). All **10 coordinators and 20 subordinate workers completed** a bounded first pass in five waves. See the [registry](registry.json) for actual task identities and next actions. This record integrates targeted desk reviews; unavailable source data, commercial terms and clinical execution remain explicitly unresolved.
 
 ## Decision

@@ -12,6 +12,8 @@ Source opportunities across disease areas, modalities and stages: synthesis, art
 
 ## Compare the full incremental economics
 
+The current stage is broad screening followed by deeper work on a handful, with inquiries later. Make provisional screening comparisons using explicit low/base/high estimates, source-backed judgments and sensitivity rather than requiring offers before narrowing. Keep a screening rank distinct from a decision to commit capital. The [current comparative method](../research/phase2-program/ranking-review/method.md) supplies that framework; no missing price should silently become zero or an assumed favorable transaction.
+
 For each feasible commitment, record:
 
 | Input | Required decision context |

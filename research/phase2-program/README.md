@@ -8,7 +8,7 @@ Ten coordinator teams investigate different routes to a promising drug-developme
 
 ## Read only what the task needs
 
-1. [First-pass synthesis](synthesis.md) — results, prioritized information tasks and remaining limits.
+1. [Current 35-candidate ranked review](ranking-review/README.md) — provisional shortlist, matched evidence/cost estimates, sensitivity and full matrix; [first-pass synthesis](synthesis.md) preserves the earlier team integration.
 2. [Phase II evidence standard](phase2-evidence-standard.md) — event definitions, historical anchors and nomination gates.
 3. [Team registry](registry.json) — assignments, actual agent identities, completion states and next actions.
 4. [Coordinator brief](TEAM-BRIEF.md) and [candidate template](candidate-template.md) — reusable instructions.

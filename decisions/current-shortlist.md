@@ -1,25 +1,35 @@
 # Current opportunities
 
-**Evidence cutoff: 8 November 2026.** Candidate findings come from Round 26 and the linked earlier reviews, supplemented by the [ten-team Phase II review](../research/phase2-program/synthesis.md). Each dossier records which primary sources were refreshed and which claims retain earlier verification dates. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) governs the economic comparison.
+**Current screening review: 9 November 2026 UTC / 8 November Los Angeles.** The [35-candidate comparison](../research/phase2-program/ranking-review/README.md) is the active screening ranking. It adds focused source refreshes and explicit estimates to Round 26 and the earlier ten-team pass. Each dossier records refreshed versus retained evidence. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) governs the economic objective.
 
-Compare **exact asset/use + obtainable economic interest + bounded next commitment** by the financial value retained from the next dollar, subject to survivable downside. The [selection policy](selection-policy.md) governs that comparison; use the [opportunity template](opportunity-template.md) for a serious proposal. The packages below are an **unranked starting set**. The broader sourcing routes remain open across diseases, modalities and stages.
+Compare **exact asset/use + obtainable economic interest + bounded next commitment** by the financial value retained from the next dollar, subject to survivable downside. The [selection policy](selection-policy.md) governs that comparison; use the [opportunity template](opportunity-template.md) for a serious proposal. At this stage, screen broadly and narrow to a handful using defensible estimates before considering inquiries. Broader sourcing remains open across diseases, modalities and stages.
 
 **Current capital record:** Approximately $500,000 is the planning envelope. The objective is a high probability of recovering invested cash with a return. No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests, follow-on financing, affordable cumulative loss, reserve and liquidity limits remain unresolved. Clinical promise does not establish a high probability of capital recovery.
 
+## Provisional screening shortlist
+
+| Conditional small-capital rank | Package | Main qualification |
+|---:|---|---|
+| 1 | Topical erlotinib / KRT16 Arg127Cys | Randomized blinded local signal, only two related people; product/independent-patient bridge unresolved. |
+| =2 | Exact topical insulin / noninfectious corneal epithelial defects | Broader but heterogeneous clinical evidence; sterile-product differentiation and only $50k base technical headroom. |
+| =2 | Lisdexamfetamine / KCNMA1-N999S | Potentially efficient symptomatic test; published series selected known responders, with pediatric exposure and capture limits. |
+| =4 | APR-246 / AEC erosions | Relevant human useful-control signal; no new adverse finding justified its earlier conversational demotion. |
+| =4 | Enasidenib / IDH2-R140Q D2HGA2 cardiac claim | Direct genotype pharmacology; sparse organ evidence and excluded drug supply can invalidate the small-capital premise. |
+
+These ranks concern plausible next technical milestones within the envelope under central assumptions. Close and tied ranks are fragile; they are not a financial-return ranking or a prediction of Phase II success. **Dornase and mavoglurant** remain strong clinical-evidence alternatives requiring larger capital or a genuinely useful smaller participation package. **Azetukalner** is an advanced clinical benchmark. The [full matrix](../research/phase2-program/ranking-review/screening-matrix.md) shows all 35, raw ranks, holds and sensitivity, including promising preclinical reserves.
+
 ## Next useful work
 
-Use the [Phase II synthesis](../research/phase2-program/synthesis.md) to route the next information tasks. Its priorities concern information value, not an allocation of the budget. Apply the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md) to distinguish clinical proof of concept, progression from Phase II, success from today's stage and investor recovery.
-
-The [APR ranking audit](../research/phase2-program/apr-ranking-audit.md) found no substantiated basis in the reviewed evidence chain for treating APR-246/AEC as a global backup. APR and topical erlotinib remain leading local-development comparisons, with their relative order unresolved. Commercial inquiry priority and a route's lead/alternative assignment do not establish an overall development or investment ranking.
+Use the [five focused public-source tasks](../research/phase2-program/ranking-review/README.md#next-public-source-work-on-the-handful) to deepen this shortlist before inquiries. Apply the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md) to distinguish clinical proof of concept, progression from Phase II, success from today's stage and investor recovery. The [APR audit](../research/phase2-program/apr-ranking-audit.md) remains the historical explanation of ranking drift; the new matched comparison supplies the current provisional order.
 
 1. **Define comparable packages.** Start with the existing-article, early-development and process/participation examples below. For each, state the exact deliverable, proposed economic interest, next credible payment or financeable handoff, and missing information that could reverse its value.
-2. **Resolve the binding uncertainty.** Use existing evidence to identify whether the next useful task is a source check, product/access assessment, commercial proposition or scoped cost comparison. Prepare the specific scope and terms needed from a counterparty. Further literature work earns priority when it changes that decision.
+2. **Resolve the binding uncertainty.** Use public evidence to identify the source, product/access, market or cost uncertainty that can change the shortlist. Prepare explicit scope and assumptions; defer inquiries until the field has been narrowed. Missing offers do not prevent a provisional screening judgment.
 3. **Compare exposure through the stopping point.** Separate the first invoice, maximum committed loss, later discretionary development and money needed before an actual payment. Include success, failure, inconclusive and financing-unavailable outcomes.
 4. **Choose among attainable commitments and preserving capital.** Reading priority follows decision value. A new review date, inherited candidate position or easily completed assay supplies context; actual economics determine financial priority.
 
-## Packages to compare
+## Existing package anchors
 
-Each financial route below is a proposal to evaluate. Prices, commercial access and willingness to transact remain unestablished.
+The table below preserves useful starting references, not an additional ranking. The 35-candidate matrix includes these and the added challengers. Prices, commercial access and willingness to transact remain unestablished.
 
 | Exact opportunity and evidence | Proposed next package | Economic question to resolve |
 |---|---|---|
