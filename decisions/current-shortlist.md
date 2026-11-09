@@ -1,12 +1,14 @@
 # Current opportunities
 
-**Evidence cutoff: 8 November 2026.** Candidate findings come from Round 26 and the linked earlier reviews. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) changes the economic comparison; it preserves those findings and their dates.
+**Evidence cutoff: 8 November 2026.** Candidate findings come from Round 26 and the linked earlier reviews, supplemented by the [ten-team Phase II review](../research/phase2-program/synthesis.md). Each dossier records which primary sources were refreshed and which claims retain earlier verification dates. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) governs the economic comparison.
 
 Compare **exact asset/use + obtainable economic interest + bounded next commitment** by the financial value retained from the next dollar, subject to survivable downside. The [selection policy](selection-policy.md) governs that comparison; use the [opportunity template](opportunity-template.md) for a serious proposal. The packages below are an **unranked starting set**. The broader sourcing routes remain open across diseases, modalities and stages.
 
-**Current capital record:** No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests and follow-on financing are unresolved. Deployable capital, affordable loss, reserve and liquidity limits are open inputs. This describes the repository's decision state, not the user's overall finances.
+**Current capital record:** Approximately $500,000 is the planning envelope. The objective is a high probability of recovering invested cash with a return. No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests, follow-on financing, affordable cumulative loss, reserve and liquidity limits remain unresolved. Clinical promise does not establish a high probability of capital recovery.
 
 ## Next useful work
+
+Use the [Phase II synthesis](../research/phase2-program/synthesis.md) to route the next information tasks. Its priorities concern information value, not an allocation of the budget. Apply the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md) to distinguish clinical proof of concept, progression from Phase II, success from today's stage and investor recovery.
 
 1. **Define comparable packages.** Start with the existing-article, early-development and process/participation examples below. For each, state the exact deliverable, proposed economic interest, next credible payment or financeable handoff, and missing information that could reverse its value.
 2. **Resolve the binding uncertainty.** Use existing evidence to identify whether the next useful task is a source check, product/access assessment, commercial proposition or scoped cost comparison. Prepare the specific scope and terms needed from a counterparty. Further literature work earns priority when it changes that decision.

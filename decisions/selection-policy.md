@@ -36,6 +36,8 @@ Use conservative, central and favorable scenarios with explicit assumptions and 
 
 Record the user's **deployable capital, maximum tolerable cumulative loss, minimum reserve, per-commitment loss limit and liquidity horizon**. These are open inputs until supplied. Track losses already incurred against the cumulative limit separately from prospective investment value. Evaluate total exposure and the capital left after failure, including correlated failures across shared targets, models, suppliers, partners and funding conditions.
 
+The current planning envelope is approximately **$500,000**, with a stated preference for a high probability of recovering invested cash with a return. This supplies the capital input, not permission to spend the full amount or an assumed affordable-loss limit. Reserve, loss limits and horizon remain open. Evaluate clinical success and retained cash recovery separately using the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md).
+
 Apply these limits before ranking feasible commitments by expected value. Prefer staged contracts and independently useful milestones where they preserve the option to stop. Identify any follow-on obligation already created by the initial tranche. A successful first result still needs a financeable next step or a credible handoff; otherwise its financial value may be small.
 
 For similar robust expected returns, favor the proposal with a higher credible probability of retained cash and a smaller severe-loss exposure. Success probabilities already enter expected value; state any additional preference for downside protection explicitly. Use the user's limits instead of inventing allocation percentages or assuming that repeated small bets diversify common risks.

@@ -1,0 +1,39 @@
+# 05 — Rare neurometabolic and genetic motor function
+
+**Reviewed 8 November 2026.** Coordinator: `/root/c05_rare_neurometabolic`; workers: `/root/c05_rare_neurometabolic/evidence` (primary clinical evidence) and `/root/c05_rare_neurometabolic/challenge` (independent clinical/commercial challenge and alternative). Completed: bounded desk research and source refresh. Clinical work, data acquisition, counterparty engagement and paid commitments remain unperformed.
+
+**Lead for the next information task: R26-HUM-01, levodopa/carbidopa as an adjunct for hypokinesia or impaired movement initiation in genetically confirmed SLC16A2/MCT8 deficiency.** Preserve the symptomatic claim: thyroid-transport correction, global developmental restoration and permanent repair are different hypotheses.
+
+**Alternative: historical-topics:T086, prolonged-release fampridine for FGF14 GAA-expansion SCA27B.** This offers a mechanistically distinct potassium-channel route and an existing controlled development program. The relevant opportunity is a differentiated contribution, not automatically another trial.
+
+## Evidence and contrary findings
+
+Sources were checked on the review date; access qualifications below are part of the evidence.
+
+| Exact use and primary source | Observed finding and denominator | Decision limit |
+|---|---|---|
+| Levodopa/carbidopa/MCT8; [Wilpert et al., 15 March 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12089910/) | Full text refreshed. Eleven phenotyped males; six had systematic paired six-month treatment assessments. Dystonia/parkinsonism scales and fine-motor developmental age improved. | No concurrent randomized control. Gross-motor, language, cognition and CPCHILD quality-of-life measures did not significantly improve. Additional differently documented treatment histories do not enlarge the six-person analysis. Caregiver-reported swallowing benefit is not a controlled swallowing endpoint. |
+| Same use; [Bruschi et al., online 27 October 2025 / February 2026 issue](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70093) | Full Wiley text refreshed. Ten males, but nine evaluable treatment courses: broad benefit 7/9; reduced hypokinesia/bradykinesia 8/9; GMFM improvement 5/8. | Two GMFM scores declined and one was unchanged; functional classifications did not consistently improve. Dystonia movement scores increased with greater movement. One patient supplied biochemical information without an assessable treatment response after death; drug causation is not established. |
+| Current MCT8 care; [FDA Emcitate label, September 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf) | Official label freshly inspected: tiratricol is indicated for peripheral thyrotoxicosis in adult and pediatric MCT8 deficiency. | This endocrine indication does not establish neurological rescue or answer the levodopa adjunct question. Retain appropriate thyroid treatment and supportive care in any proposed comparison. |
+| 4-aminopyridine/FGF14-SCA27B; [Pellerin et al., eBioMedicine 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10960126/) | Genotype-positive observations and a reanalysis of four genotype-positive participants from an earlier blinded downbeat-nystagmus study support an ocular-motor signal. | Retrospective genotype identification and tiny subgroup; eye-movement improvement is not established daily-life functional benefit. The proposed prolonged-release article requires its own bridge. Worker inspected primary-page/indexed extraction; subsequent full-text access failed. No fresh audit of underlying participant data was performed. |
+| Same alternative; [TREAT-FGF14, NCT07185347](https://clinicaltrials.gov/study/NCT07185347), [primary API](https://clinicaltrials.gov/api/v2/studies/NCT07185347) | API read by coordinator and challenger: randomized masked Phase III, planned n=70; actual start 21 October 2025. Primary endpoint is the proportion improving at least 0.5 point on FARS Functional Staging at week 12. Primary completion is estimated May 2027. | No efficacy results. The record reports recruiting but was last updated 10 December 2025. A newer [official CTIS indexed record](https://euclinicaltrials.eu/ctis-public/view/2024-520413-53-00) indicates recruitment ended; its full page was not readable. Current recruitment status requires reconciliation before an operational decision. |
+
+Both levodopa reports observed no drug side effects in their small series; this does not establish uncommon-event or long-term safety. They have different recruitment settings and a shared author, but no participant crosswalk was obtained. Do not pool their patient counts or responder fractions. Supplemental videos and patient-level files were not independently audited. The earlier [Round 26 review](../../rounds/round26/human-evidence-screen.md) retains the expert-consensus disagreement and its literature-cutoff limitations.
+
+The positive randomized fampridine/acetazolamide study in **EA2** is a different genotype/use; it cannot establish SCA27B efficacy. Neither the same active molecule nor a Phase III label resolves that bridge.
+
+The [dalfampridine generic label, revised June 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1134ac0f-59c1-a20b-e063-6294a90affcc), freshly inspected by the challenger, concerns adult multiple-sclerosis walking improvement. Seizure and renal-function restrictions are relevant to the proposed use; marketed status does not establish SCA27B efficacy or exclusivity.
+
+## What could improve Phase II odds
+
+Direct human symptomatic signals, an existing drug article and a narrowly defined functional hypothesis can remove some uncertainties faced by an animal-only candidate. They do not remove expectation bias, developmental change, background-treatment effects or disagreement between movement scores and useful function. Relevant comparators are repurposed symptomatic therapies in rare genetic movement disorders, not pooled oncology or all-drug rates. No numerical uplift, greater-than-50% success claim or capital-recovery probability is supported here.
+
+For MCT8, the next artifact is a **clinically reviewed adjunct-function feasibility brief**: patient/cohort linkage, stable background care, exact usable article, exposure/adherence information, feasible blinded assessment and a patient-relevant endpoint. Clinicians and statisticians must establish meaningful effect and precision before commissioning a study. A dystonia-only success rule would be poorly aligned with the discordant existing findings.
+
+**Advance:** interpretable useful-function assessment is feasible, relevant data/product rights are obtainable, and a bounded quote plus credible payment or financing route supports the next decision. **Stop or narrow:** a capable comparison excludes useful benefit, increased dystonia/burden offsets it, or the proposed contribution has no viable retained economics. **Inconclusive:** missing exposure, changing background care, insufficient precision or unresolved lineage; consider only a separately bounded remedy, without declaring efficacy success.
+
+## Economics and next action
+
+Generic availability is not financial capture. Proposed routes are contracted clinical-data development or a documented product/regulatory contribution with an attainable interest. Do not invent a formulation need to create exclusivity. Current prices, data rights, supply, commercial terms, maximum exposure and follow-on financing are unknown. The $500,000 envelope is not an established cost to Phase II.
+
+Prioritize the MCT8 endpoint-and-access brief; compare it with an identified unmet contribution to TREAT-FGF14 and with preserving capital. Reverse that order if the existing FGF14 program offers an affordable paid contribution, or if MCT8 supports only unmonetizable care guidance or an uninterpretable functional claim. Neither is currently an investment-ready package.

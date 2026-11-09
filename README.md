@@ -7,8 +7,9 @@ Find drug-development opportunities that maximize the financial value retained f
 1. [Current opportunities](decisions/current-shortlist.md) — packages to compare and the next useful information tasks.
 2. [Selection policy](decisions/selection-policy.md) — how to compare commitments.
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
+4. [Phase II candidate teams](research/phase2-program/README.md) — ten coordinators, twenty workers, independent challenge and candidate-specific next actions.
 
-**Candidate evidence reviewed through 8 November 2026 (Round 26).** The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. Current prices, terms, follow-on funding and affordable-loss limits remain open; the active set is unranked financially.
+**Candidate evidence reviewed through 8 November 2026.** Round 26 is the latest numbered review; the [Phase II program](research/phase2-program/README.md) adds focused source refreshes and distinct search routes. The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. The planning envelope is approximately $500,000; current prices, terms, follow-on funding and affordable-loss limits remain open. The active set is unranked financially.
 
 ## Find the relevant detail
 

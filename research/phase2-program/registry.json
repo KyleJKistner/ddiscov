@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "base_commit": "dc0cdccfc6b9b4158094cb11d602ffb9cddf6028",
+  "status": "first_pass_completed",
+  "runtime": {
+    "max_active_agents": 7,
+    "root_slots": 1,
+    "coordinators_per_wave": 2,
+    "workers_per_coordinator": 2,
+    "execution": "interactive_session_waves",
+    "background_service": false
+  },
+  "capital": {
+    "approximate_project_envelope_usd": 500000,
+    "development_spend_authorized_by_this_program_usd": 0,
+    "max_cumulative_loss_usd": null,
+    "minimum_reserve_usd": null,
+    "liquidity_horizon": null
+  },
+  "teams": [
+    {
+      "id": "01",
+      "name": "Genotype-matched existing drugs",
+      "mandate": "Match a causal human genotype to an existing article; prioritize enasidenib/D2HGA2 and a meaningful alternative.",
+      "wave": 1,
+      "coordinator_task": "/root/c01_genotype_repurposing",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/01-genotype-repurposing.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c01_genotype_repurposing/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c01_genotype_repurposing/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "enasidenib / germline IDH2 R140Q D2HGA2",
+      "alternative": "trametinib / RASopathy-associated hypertrophic cardiomyopathy",
+      "next_action": "Define an obtainable pediatric article/data and organ-benefit package; compare with a differentiated contribution to the funded trametinib program."
+    },
+    {
+      "id": "02",
+      "name": "Local dermatology with human evidence",
+      "mandate": "Compare topical erlotinib/KRT16 and APR-246/AEC using controlled effects, exact product and access.",
+      "wave": 1,
+      "coordinator_task": "/root/c02_local_dermatology",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/02-local-dermatology.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c02_local_dermatology/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c02_local_dermatology/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "topical erlotinib / KRT16 Arg127Cys keratoderma",
+      "alternative": "topical APR-246 / AEC skin erosions",
+      "next_action": "Resolve exact article, independent-patient comparison and attainable product/data interest before pricing a milestone."
+    },
+    {
+      "id": "03",
+      "name": "Human genetics and target direction",
+      "mandate": "Find a distinct non-oncology opportunity supported by human causal genetics and a direction-matched drug; test reversibility and tissue exposure.",
+      "wave": 2,
+      "coordinator_task": "/root/c03_human_genetic_targets",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/03-human-genetic-targets.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c03_human_genetic_targets/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c03_human_genetic_targets/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "alpelisib / TEK-mutant venous malformations",
+      "alternative": "baricitinib / genetically confirmed CANDLE/PRAAS",
+      "next_action": "Map a differentiated contribution to existing TEK clinical development, including symptoms, subgroup evidence and attainable rights."
+    },
+    {
+      "id": "04",
+      "name": "Clinically characterized discontinued assets",
+      "mandate": "Find existing Phase I/II assets with an understood discontinuation reason and defensible revised indication or population; distinguish failed efficacy from financing.",
+      "wave": 2,
+      "coordinator_task": "/root/c04_shelved_clinical_assets",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/04-shelved-clinical-assets.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c04_shelved_clinical_assets/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c04_shelved_clinical_assets/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "mavoglurant/STP7 / adult cocaine use disorder",
+      "alternative": "saracatinib / fibrodysplasia ossificans progressiva",
+      "next_action": "Reconcile mavoglurant randomized denominators and useful effect; assess a discrete sponsor participation package. Recover STOPFOP outcomes before a new commitment."
+    },
+    {
+      "id": "05",
+      "name": "Rare neurometabolic function",
+      "mandate": "Evaluate levodopa/carbidopa in MCT8 deficiency and a mechanistically distinct alternative, with symptomatic and disease-modifying claims separated.",
+      "wave": 3,
+      "coordinator_task": "/root/c05_rare_neurometabolic",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/05-rare-neurometabolic.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c05_rare_neurometabolic/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c05_rare_neurometabolic/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "levodopa/carbidopa / symptomatic motor function in MCT8 deficiency",
+      "alternative": "prolonged-release fampridine / FGF14-SCA27B",
+      "next_action": "Reconcile patient-level MCT8 motor effects and obtain a reproducible formulation/endpoint proposition; assess an unfilled contribution to existing SCA27B development."
+    },
+    {
+      "id": "06",
+      "name": "Ocular local delivery and repair",
+      "mandate": "Compare a repo ocular candidate with a human-evidence alternative; exact product, exposure and functional benefit govern.",
+      "wave": 3,
+      "coordinator_task": "/root/c06_ocular_local_delivery",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/06-ocular-local-delivery.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c06_ocular_local_delivery/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c06_ocular_local_delivery/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "exact topical-insulin product / refractory noninfectious persistent corneal epithelial defects",
+      "alternative": "RM4404 / injury-related corneal hypoesthesia",
+      "next_action": "Establish a differentiated product/data contribution to existing controlled development; verify rights, clinically meaningful endpoints and full exposure before funding experiments."
+    },
+    {
+      "id": "07",
+      "name": "Neuromuscular translation",
+      "mandate": "Compare BLU-3797/XLMTM and exact 8015-P2/MFN2-CMT2A; prioritize human-function evidence, exposure and attainable interest.",
+      "wave": 4,
+      "coordinator_task": "/root/c07_neuromuscular_translation",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/07-neuromuscular-translation.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c07_neuromuscular_translation/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c07_neuromuscular_translation/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "exact 8015-P2 / MFN2-CMT2A",
+      "alternative": "BLU-3797 / MTM1-related XLMTM",
+      "next_action": "Compare exact-article access, rights and human-functional feasibility packages; do not transfer 8015-mixture human evidence to P2."
+    },
+    {
+      "id": "08",
+      "name": "Ex vivo organ preservation",
+      "mandate": "Evaluate AAT/donor-lung preservation and a distinct organ-preservation alternative; connect organ function to recipient outcomes and paid process contributions.",
+      "wave": 4,
+      "coordinator_task": "/root/c08_organ_preservation",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/08-organ-preservation.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c08_organ_preservation/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c08_organ_preservation/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "AAT / exact Zemaira donor-lung preservation process",
+      "alternative": "regadenoson / ex vivo lung perfusion",
+      "next_action": "Define a partner-useful exact product/activity/process milestone and recover full methods and protocol; price only after attainable interest is established."
+    },
+    {
+      "id": "09",
+      "name": "Precision CNS and controlled function",
+      "mandate": "Evaluate GA002/mesial temporal-lobe epilepsy against a more clinically characterized precision-neurology alternative; inspect complete safety, endpoints and access.",
+      "wave": 5,
+      "coordinator_task": "/root/c09_precision_cns",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/09-precision-cns.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c09_precision_cns/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c09_precision_cns/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "azetukalner/XEN1101 / focal-onset seizures (advanced-program benchmark)",
+      "alternative": "GA002 / refractory mesial temporal-lobe epilepsy",
+      "next_action": "Assess an identifiable contribution to the advanced program; recover complete GA002 clinical and all-treated safety reports before considering early participation."
+    },
+    {
+      "id": "10",
+      "name": "Early synthesis and bounded institutional options",
+      "mandate": "Evaluate FD-2/ALS and a distinct early-stage licensing opportunity; exact article, translation, rights and a financeable stopping point determine priority.",
+      "wave": 5,
+      "coordinator_task": "/root/c10_synthesis_options",
+      "state": "completed",
+      "dossier": "research/phase2-program/teams/10-synthesis-options.md",
+      "workers": [
+        {
+          "role": "evidence",
+          "task": "/root/c10_synthesis_options/evidence",
+          "state": "completed"
+        },
+        {
+          "role": "challenge",
+          "task": "/root/c10_synthesis_options/challenge",
+          "state": "completed"
+        }
+      ],
+      "lead": "FD-2 / early ALS preservation hypothesis",
+      "alternative": "HJ-02 / post-myocardial-infarction cardiac reinnervation",
+      "next_action": "Compare exact article identity, existing exposure/data and attainable institutional rights before synthesis; preserve preservation versus repair distinctions."
+    }
+  ]
+}

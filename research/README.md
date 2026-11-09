@@ -1,6 +1,6 @@
 # Research guide
 
-Current priorities and evaluation rules live in [decisions](../decisions/README.md). This directory supplies their evidence and history. The latest completed review is [Round 26](rounds/round26/README.md), dated 8 November 2026; [Round 25](rounds/round25/README.md) contains the latest consolidated incumbent reassessment and APR-246 advancement package.
+Current priorities and evaluation rules live in [decisions](../decisions/README.md). This directory supplies their evidence and history. The [ten-team Phase II program](phase2-program/README.md) adds focused source refreshes dated 8 November 2026. The latest numbered review is [Round 26](rounds/round26/README.md); [Round 25](rounds/round25/README.md) contains the prior consolidated incumbent reassessment and APR-246 advancement package.
 
 ## Find evidence
 
@@ -15,6 +15,7 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
+| [Phase II candidate program](phase2-program/README.md) | Ten coordinator dossiers, twenty worker assignments, source-access limits, evidence gates and next information tasks. |
 | [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
 | [Round index](rounds/README.md) | One entry per research round, newest first. |
 | [Screen index](screen-index.md) | Recent candidate ledgers and earlier screening catalogs. |
