@@ -12,6 +12,7 @@ Ten coordinator teams investigate different routes to a promising drug-developme
 2. [Phase II evidence standard](phase2-evidence-standard.md) — event definitions, historical anchors and nomination gates.
 3. [Team registry](registry.json) — assignments, actual agent identities, completion states and next actions.
 4. [Coordinator brief](TEAM-BRIEF.md) and [candidate template](candidate-template.md) — reusable instructions.
+5. [APR ranking audit](apr-ranking-audit.md) — correction of ranking drift, matched local-development comparison and limits of the first pass.
 
 The [current opportunities](../../decisions/current-shortlist.md) remain the active decision source. The [selection policy](../../decisions/selection-policy.md) governs financial comparison. This focused review supplements the Round 26 evidence base; it does not silently refresh every historical source or replace the broad marginal-capital objective.
 

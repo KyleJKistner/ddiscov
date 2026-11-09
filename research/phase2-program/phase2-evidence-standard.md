@@ -49,6 +49,12 @@ Each coordinator proposes one lead and one alternative. The evidence worker extr
 
 For any later numerical forecast, freeze the event, horizon, reference class, evidence cutoff, range and rationale before outcomes are known. Retain stopped and failed leads in the denominator. Track calibration on genuinely subsequent outcomes; do not train and evaluate on the same selected success stories. Ten teams finding the same study is one study. Shared target, indication, assay, sponsor, supply and financing risks remain correlated.
 
+## Changing a priority
+
+Keep scientific evidence, next-information priority and investment ordering separate. For a proposed change, record the prior position, the specific incremental fact, its observation/publication/retrieval dates, and why it changes the same defined decision. Retrieval date does not make an old study newly generated evidence; assess its independence and incremental decision value separately. A current access update can change commercial inquiry priority without changing efficacy confidence.
+
+Compare candidates at the same useful decision boundary, with explicit product/exposure, benefit, rights, complete scope/cost, continuation and retained-value assumptions. Apply unknowns and benefit standards symmetrically. A route's lead/alternative label, a familiar sponsor, publication recency or agent agreement cannot substitute for this comparison. Historical rank also receives no automatic preference. Record whether the conclusion survives removing recency labels, assumed favorable terms and hypothetical contracts; preserve genuinely time-sensitive facts. If comparable evidence or terms are missing, leave the ordering unresolved and identify the information that would change it. See the [APR audit](apr-ranking-audit.md) for an application and its limits.
+
 ## Nomination rule
 
 A **research lead** merits a specified information task. A **development candidate** additionally needs a defensible clinical program, attainable rights, a priced milestone and financeable continuation under the capital constraints. An **investment recommendation** further requires a comparison of retained cash outcomes against preserving capital.

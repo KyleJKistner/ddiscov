@@ -2,6 +2,8 @@
 
 **Review date:** 8 November 2026. **Disposition:** prioritize an information package for topical erlotinib/KRT16 p.Arg127Cys; retain APR-246/AEC as the comparison. Neither is yet an investment-ready package or a demonstrated above-base-rate Phase II candidate.
 
+**Subsequent ranking correction, 8 November 2026 (9 November UTC):** the [APR ranking audit](../apr-ranking-audit.md) supersedes the relative priority implied by this first-pass disposition. APR and erlotinib merit matched comparison; neither has established overall superiority. The lead/alternative labels below retain the original assignment's history.
+
 ## Mandate and team
 
 Test whether a genotype-defined local treatment with observed patient benefit can shorten the translational path while retaining an attainable economic interest. Coordinator: `/root/c02_local_dermatology`. Completed desk-research assignments: `/root/c02_local_dermatology/evidence` (primary human evidence and cohort lineage) and `/root/c02_local_dermatology/challenge` (translation, product bridge, rights and value capture). No clinical work, counterparty contact or paid commitment occurred. This is a bounded first pass, not exhaustive diligence.
@@ -26,7 +28,7 @@ The lead still needs independent-pedigree replication, consistent active product
 
 ## Smallest decision-changing package
 
-Rank first the **article-and-clinical-route feasibility dossier**, not another broad mechanism screen. It must identify a reproducible starting presentation, existing stability/exposure/safety information, practical recruitment beyond the original family, appropriate care plus vehicle/comparator, usable outcome measurement, a staged quote and rights to use the resulting evidence. A formulation change requires its own bridge; it cannot inherit the historical preparation's effect automatically. APR competes for this same bounded assessment if its transfer or commercial terms prove materially better.
+Rank first the **article-and-clinical-route feasibility dossier**, not another broad mechanism screen. It must identify a reproducible starting presentation, existing stability/exposure/safety information, practical recruitment beyond the initially reported patients, appropriate care plus vehicle/comparator, usable outcome measurement, a staged quote and rights to use the resulting evidence. A formulation change requires its own bridge; it cannot inherit the historical preparation's effect automatically. Apply the same bounded assessment to APR. The earlier condition that APR first demonstrate materially better transfer or commercial terms is withdrawn: both candidates' terms are unresolved.
 
 | Prespecified result | Decision |
 |---|---|
@@ -38,4 +40,4 @@ Rank first the **article-and-clinical-route feasibility dossier**, not another b
 
 Potential value capture is a negotiated indication/product option, rights to a differentiated topical contribution, or contracted data development with a retained interest. Generic erlotinib availability does not establish topical product rights; APR program inactivity would not establish abandoned rights. The approximately $500,000 is available capital, not a verified cost-to-Phase-II budget. All-in price, maximum committed exposure, payment route, liquidity, current license terms and follow-on financing remain **unknown**. A successful study without a paying or financeable handoff need not return capital.
 
-Reverse the information priority if controlled independent evidence fails to confirm the erlotinib signal, the product/exposure bridge is disproportionately expensive, achievable economics are weak, or APR offers stronger transferable evidence and attainable terms. No numerical probability of Phase II success or capital return is assigned.
+Recompare the candidates when either receives independent controlled evidence, a material product/exposure finding, or attainable scoped terms. A failure to confirm worthwhile benefit, disproportionate bridge cost or weak achievable economics can lower either candidate's priority. Stronger transferable evidence and attainable terms can raise either candidate's priority. No numerical probability of Phase II success or capital return is assigned.
