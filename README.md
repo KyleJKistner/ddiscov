@@ -8,7 +8,7 @@ Find drug-development opportunities that maximize the financial value retained f
 2. [Selection policy](decisions/selection-policy.md) — how to compare commitments.
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
 
-**Candidate evidence reviewed through 9 November 2026 (Round 27).** The [broad estimated screen](research/rounds/round27/README.md) compares 49 development packages across 48 asset/use combinations and selects four for deeper desk work: nifedipine/lidocaine, APR-246, topical erlotinib and CBD3063. AAT process work, topical insulin and verteporfin remain immediate product challengers.
+**Candidate evidence reviewed through 9 November 2026 (Round 28).** The [broad estimated screen](research/rounds/round27/README.md) compares 49 development packages across 48 asset/use combinations. The [focused nifedipine/lidocaine review](research/rounds/round28/README.md) finds credible clinical activity but already-developed product evidence, occupied territories, an active US competitor and difficult small-territory economics. It replaces the former first-place generic bridge with a territorial/partnered reserve. APR-246, topical erlotinib and CBD3063 remain priorities for deeper desk comparison; AAT process work, topical insulin and verteporfin remain immediate challengers.
 
 The current workflow is **broad screening → estimated comparison → a handful for deeper desk diligence → inquiries**. Use explicit ranges for uncertain cost, time, success and retained value. Missing quotes do not prevent a provisional comparison. The [opportunity template](decisions/opportunity-template.md) records the assumed interest, consequential milestone and reversal conditions; stronger diligence follows as a commitment becomes concrete.
 

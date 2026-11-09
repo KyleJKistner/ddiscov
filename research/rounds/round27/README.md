@@ -1,5 +1,7 @@
 # Round 27: broad screening before inquiries
 
+**Subsequent focused review:** [Round 28](../round28/README.md) changes the nifedipine/lidocaine package and priority after deeper clinical, territorial and cash-flow analysis. This Round 27 record preserves the original broad-screen estimates and decision; use [current opportunities](../../../decisions/current-shortlist.md) for active priorities.
+
 **Reviewed 9 November 2026 UTC.** This round compares **49 development packages covering 48 distinct asset/use combinations**, then selects **four provisional finalists for deeper desk diligence**. It replaces the earlier inquiry-led priority with an estimated comparison across existing drugs, product/process work and early development. No development funding, transaction or outreach is recorded.
 
 The objective remains financial value retained from the marginal dollar, with a preference for credible success and survivable downside. Missing quotes or offered terms do not prevent screening. Cost, time, useful-milestone probability and cash realization are estimated explicitly, with contrary evidence and conditions that reverse the preference.

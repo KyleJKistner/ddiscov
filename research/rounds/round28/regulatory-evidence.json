@@ -1,0 +1,738 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "PROPOSED-PKG-NIF-LIDO-CAF",
+  "reviewed_utc": "2026-11-09",
+  "scope": "Independent regulatory/CMC/IP feasibility desk screen; no outreach and no personal capital inputs.",
+  "exact_product": {
+    "nifedipine_percent_w_w": 0.3,
+    "lidocaine_hydrochloride_percent_w_w": 1.5,
+    "dosage_form": "rectal cream",
+    "starting_indication": "chronic anal fissure",
+    "brand_start": "Antrolin",
+    "italian_AIC": "035396011"
+  },
+  "decision": "Prioritize one existing-product territory/right/access case; treat independent US development and participation in existing developers as different opportunities. No new human trial selected.",
+  "findings": [
+    {
+      "id": "F1",
+      "claim": "Mature product and manufacturing chain exist.",
+      "sources": [
+        "R01",
+        "R02",
+        "R03",
+        "R07"
+      ]
+    },
+    {
+      "id": "F2",
+      "claim": "France and Canada actual authorizations challenge vacant-territory assumptions.",
+      "sources": [
+        "R08",
+        "R09",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "id": "F3",
+      "claim": "Both retrieved Malta records are expired.",
+      "sources": [
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "id": "F4",
+      "claim": "Flynn is a UK developer lead, not verified current UK authorization.",
+      "sources": [
+        "R12",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "id": "F5",
+      "claim": "Steel is an active development competitor with completed GLP tox announcement; IND status unverified.",
+      "sources": [
+        "R15",
+        "R16",
+        "R40"
+      ]
+    },
+    {
+      "id": "F6",
+      "claim": "US 505(b)(2) still needs product bridge and component-contribution support.",
+      "sources": [
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R24",
+        "R25"
+      ]
+    },
+    {
+      "id": "F7",
+      "claim": "Lidocaine OTC status cannot validate nifedipine/lidocaine fixed prescription combination.",
+      "sources": [
+        "R21"
+      ]
+    },
+    {
+      "id": "F8",
+      "claim": "RECTIV is pain-label precedent with difficult endpoint/review history.",
+      "sources": [
+        "R22",
+        "R23"
+      ]
+    },
+    {
+      "id": "F9",
+      "claim": "Existing stability and healthy/damaged-mucosa PK lower value of undifferentiated replication.",
+      "sources": [
+        "R01",
+        "R09"
+      ],
+      "classification": "analyst_inference_from_product_data"
+    },
+    {
+      "id": "F10",
+      "claim": "Old basic combination disclosure and newer delivery families need separate claim/status mapping.",
+      "sources": [
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "R36",
+        "R37"
+      ]
+    },
+    {
+      "id": "F11",
+      "claim": "EU/UK legal basis and dossier-access conditions must be matched to exact product.",
+      "sources": [
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31"
+      ]
+    }
+  ],
+  "work_packages": [
+    {
+      "id": "DESK",
+      "purpose": "One territory/product/right hypothesis and gap memo",
+      "cost_usd": {
+        "low": 5000,
+        "high": 20000
+      },
+      "elapsed_months": {
+        "low": 0.5,
+        "high": 1.5
+      },
+      "basis": "40–80 hours at $125–250/hour",
+      "scope_limit": "Part already done in present screen; no formal legal FTO or rights acquisition."
+    },
+    {
+      "id": "DOSSIER_DILIGENCE",
+      "purpose": "Assess accessible dossier, regulatory path, IP, supply and attainable economic interest",
+      "cost_usd": {
+        "low": 20000,
+        "high": 75000
+      },
+      "elapsed_months": {
+        "low": 1,
+        "high": 3
+      },
+      "basis": "80–180 hours at $200–350/hour plus $4k–12k records/translation",
+      "scope_limit": "Requires lawful access to nonpublic files; rights acquisition separate."
+    },
+    {
+      "id": "TARGETED_BENCH",
+      "purpose": "Decision-specific comparison addressing a real product/transfer gap",
+      "cost_usd": {
+        "low": 40000,
+        "high": 150000
+      },
+      "elapsed_months": {
+        "low": 2,
+        "high": 5
+      },
+      "basis": "Methods 20–50k, lots/assays10–40k, packaging/short-stability10–40k, reporting/rework0–20k",
+      "scope_limit": "Optional; not full shelf-life, GMP release or clinical equivalence."
+    },
+    {
+      "id": "TERRITORY_FILING_SCENARIO",
+      "purpose": "Technical/regulatory package using available same-product dossier without new efficacy trial",
+      "cost_usd": {
+        "low": 100000,
+        "high": 400000
+      },
+      "elapsed_months": {
+        "low": 6,
+        "high": 18
+      },
+      "basis": "Dossier 30–100k, quality/PV 30–120k, local fees/translations/packaging15–80k, responses25–100k",
+      "scope_limit": "Excludes rights, stock, launch, distribution working capital; not valid if new clinical development required."
+    },
+    {
+      "id": "US_CMC",
+      "purpose": "GMP/CMC readiness for changed US product",
+      "cost_usd": {
+        "low": 250000,
+        "high": 900000
+      },
+      "elapsed_months": {
+        "low": 6,
+        "high": 15
+      },
+      "basis": "Methods 75–250k, clinical supply/container100–400k, stability/QC/QA75–250k",
+      "scope_limit": "Conditional; novel device/site burdens can exceed band."
+    },
+    {
+      "id": "US_NONCLINICAL_IF_NEEDED",
+      "purpose": "Close demonstrated nonclinical gap",
+      "cost_usd": {
+        "low": 200000,
+        "high": 800000
+      },
+      "elapsed_months": {
+        "low": 6,
+        "high": 12
+      },
+      "basis": "Bioanalytics 50–150k, local/repeat-dose100–450k, reports/regulatory50–200k",
+      "scope_limit": "Not selected or necessarily required; species, duration and reuse unresolved."
+    },
+    {
+      "id": "US_PK_IF_NEEDED",
+      "purpose": "Close exposure/local-tolerance question not answered by existing data",
+      "cost_usd": {
+        "low": 400000,
+        "high": 1300000
+      },
+      "elapsed_months": {
+        "low": 8,
+        "high": 15
+      },
+      "basis": "24–60 illustrative participants at6–12k plus250–550k fixed operations/assays/reporting; rounded",
+      "scope_limit": "Illustrative scale only; no protocol selected or statistical adequacy asserted."
+    },
+    {
+      "id": "COMPONENT_STUDY_IF_NEEDED",
+      "purpose": "Component, dose or proof-of-benefit evidence",
+      "cost_usd": {
+        "low": 1500000,
+        "high": 4500000
+      },
+      "elapsed_months": {
+        "low": 12,
+        "high": 24
+      },
+      "basis": "100–200 illustrative participants at8–15k plus700–1500k fixed costs",
+      "scope_limit": "Not a recommended or FDA-agreed trial; endpoint/power unresolved."
+    },
+    {
+      "id": "ONE_CONFIRMATORY_STUDY_IF_NEEDED",
+      "purpose": "One efficacy study at illustrative confirmatory scale",
+      "cost_usd": {
+        "low": 3500000,
+        "high": 10000000
+      },
+      "elapsed_months": {
+        "low": 18,
+        "high": 30
+      },
+      "basis": "250–500 illustrative participants at8–15k plus1.5–2.5m fixed costs",
+      "scope_limit": "Not a mandated study count; no assurance one study suffices."
+    },
+    {
+      "id": "NDA_ASSEMBLY",
+      "purpose": "Application assembly, quality completion and review responses",
+      "cost_usd": {
+        "low": 500000,
+        "high": 1500000
+      },
+      "elapsed_months": {
+        "low": 9,
+        "high": 18
+      },
+      "basis": "Writing/publishing, integrated clinical/statistical reports, QA/inspection preparation and responses",
+      "scope_limit": "FDA fee separate; no new remedial trials, launch or recurring operations."
+    }
+  ],
+  "cost_conventions": {
+    "classification": "analyst_planning_assumptions_not_quotes",
+    "currency": "USD",
+    "price_basis": "current approximate purchasing terms; no inflation/discount model",
+    "base_estimates": null,
+    "conditional_packages_not_automatically_additive": true,
+    "license_option_upfront_usd": null,
+    "royalty_rate": null,
+    "minimum_purchase_commitment_usd": null,
+    "inventory_and_launch_working_capital_usd": null,
+    "all_in_next_stage_cost_formula": "selected incremental work + negotiated access/rights cash + noncancellable commitments + relevant overhead",
+    "unknown_access_is_not_zero": true,
+    "rates_and_counts_basis": "Explicit analyst labor, participant and work-package assumptions; not published market quotes; broad scenario bands, not guaranteed bids."
+  },
+  "regulatory_fee_snapshot": {
+    "year": "FY2027",
+    "clinical_data_application_usd": 4600753,
+    "without_clinical_data_application_usd": 2300376,
+    "annual_program_fee_usd": 416857,
+    "source": "R38",
+    "waiver": "Separate eligibility/request scenario, not assumed",
+    "waiver_source": "R39"
+  },
+  "probabilities": {
+    "technical_useful_milestone": null,
+    "regulatory_approval": null,
+    "paid_transaction": null,
+    "net_investor_cash_recovery": null,
+    "reason": "This review does not establish a product-specific joint outcome model."
+  },
+  "unresolved": [
+    "Available territory, actual rights offer and contract scope.",
+    "Full accessible dossier and underlying protocol/CSR, including day21/three-week versus day42/six-week study-description discrepancy.",
+    "Current UK MA/development commitments and territorial allocation.",
+    "Actual Steel IND submission/clearance and proposed product concentrations.",
+    "Official national patent prosecution/current legal status, extensions and relevant claim scope; preliminary map is not FTO.",
+    "Chosen US/EU/UK claim, product bridge, component-contribution plan and authority feedback.",
+    "Buyer willingness to pay and investor cash waterfall; company receipts are not necessarily investor distributions."
+  ],
+  "sources": [
+    {
+      "id": "R01",
+      "title": "AIFA Antrolin official RCP, made available 4 June 2026",
+      "url": "https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/organizzazione/3582/farmaci/35396/stampati?ts=RCP",
+      "source_type": "regulator_label",
+      "accessed": "2026-11-09",
+      "supports": "Official PDF downloaded; exact product, MAH, healthy-volunteer PK, packaging and shelf life.",
+      "limitations": "Does not grant a third party dossier rights; contemporary product equivalence must be established."
+    },
+    {
+      "id": "R02",
+      "title": "Gazzetta Ufficiale, manufacturing-site variation, 30 May 2026",
+      "url": "https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20260530&edizione=0&estensione=pdf&numeroGazzetta=62&numeroSupplemento=0&progressivo=0&tipoSerie=P2&tipoSupplemento=GU",
+      "source_type": "government_notice",
+      "accessed": "2026-11-09",
+      "supports": "Neopharmed holder and New.Fa.Dem manufacturing, QC and batch-release site for AIC 035396011.",
+      "limitations": "Site notification is not capacity, supply price or a commercial offer."
+    },
+    {
+      "id": "R03",
+      "title": "Italian original approval decree, published 23 April 2004",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=04A04070&atto.dataPubblicazioneGazzetta=2004-04-23&tipoSerie=serie_generale&tipoVigenza=originario",
+      "source_type": "government_notice",
+      "accessed": "2026-11-09",
+      "supports": "Decree151 dated25 March 2004; Antrolin exact strengths,30 g,AIC 035396011.",
+      "limitations": "RCP independently says first authorization February 2004; dates not silently harmonized."
+    },
+    {
+      "id": "R04",
+      "title": "Malta Medicines Authority Antrolin current entry",
+      "url": "https://medicinesauthority.gov.mt/medicine-details?id=102738",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "AA1495/00101 currently marked Expired.",
+      "limitations": "Historical authorization does not prove territory availability."
+    },
+    {
+      "id": "R05",
+      "title": "Malta Medicines Authority Antrolin earlier entry",
+      "url": "https://medicinesauthority.gov.mt/medicine-details?id=97573",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "AA943/00102 currently marked Expired.",
+      "limitations": "Not evidence of current marketing approval."
+    },
+    {
+      "id": "R06",
+      "title": "Lebanon Ministry of Public Health Antrolin listing",
+      "url": "https://www.moph.gov.lb/en/Drugs/view/1434",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "Exact combination; L.Pharm SAL local agent; Neopharmed Italy.",
+      "limitations": "Does not establish current stock or licensable rights."
+    },
+    {
+      "id": "R07",
+      "title": "Neopharmed Gentili corporate history",
+      "url": "https://neogen.it/en/our-history/",
+      "source_type": "sponsor_primary",
+      "accessed": "2026-11-09",
+      "supports": "Global Antrolin commercialization rights2021; expanded international distribution2023.",
+      "limitations": "Owner statement; contracts and vacant territories unexamined."
+    },
+    {
+      "id": "R08",
+      "title": "ANSM Nifexine authorization record",
+      "url": "https://agence-prd.ansm.sante.fr/php/ecodex/extrait.php?specid=63967022",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "Valid exact-strength product; MRP24 Feb 2020; Neopharmed; commercialization14 Nov 2022.",
+      "limitations": "France is an existing market, not a verified available opportunity."
+    },
+    {
+      "id": "R09",
+      "title": "Health Canada Seaford nifedipine/lidocaine product monograph",
+      "url": "https://pdf.hres.ca/dpd_pm/00080832.PDF",
+      "source_type": "regulator_label",
+      "accessed": "2026-11-09",
+      "supports": "Initial approval30 May 2024; exact strengths; damaged-mucosa PK, light sensitivity and pivotal-study descriptions.",
+      "limitations": "Product-specific foreign evidence, not an FDA approval. Study-duration discrepancy remains."
+    },
+    {
+      "id": "R10",
+      "title": "Health Canada original Notice of Compliance",
+      "url": "https://health-products.canada.ca/noc-ac/nocInfo?no=33335",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "Original Notice of Compliance dated 30 May 2024.",
+      "limitations": "Original date independently confirmed in official monograph; repeat database fetch returned HTTP 502."
+    },
+    {
+      "id": "R11",
+      "title": "Health Canada Drug Product Database DIN 02548283",
+      "url": "https://health-products.canada.ca/dpd-bdpp/info?code=103717&lang=eng&wbdisable=true",
+      "source_type": "regulator_database",
+      "accessed": "2026-11-09",
+      "supports": "DIN 02548283, product code 103717; marketed status since 2 February 2026.",
+      "limitations": "Database record verified in shared investigation; repeat fetch returned HTTP 502. Does not establish transferable territorial rights."
+    },
+    {
+      "id": "R12",
+      "title": "NIHR Innovation Observatory briefing July 2024, UKPS674889",
+      "url": "https://www.io.nihr.ac.uk/wp-content/uploads/2024/07/38746-Nifedipine-Lidocaine-for-Chronic-Anal-Fissure-V1.0-JUL2024-NON-CONF.pdf",
+      "source_type": "public_institution_primary_for_briefing",
+      "accessed": "2026-11-09",
+      "supports": "Flynn developer lead; p5 specifies literature supplied, no Flynn-run indication trial.",
+      "limitations": "Historical horizon scan, not current MA. Broad EU authorization claim requires country checks."
+    },
+    {
+      "id": "R13",
+      "title": "NICE prioritization TSID12093",
+      "url": "https://www.nice.org.uk/guidance/prioritisation/gid-ta11787",
+      "source_type": "public_institution_decision",
+      "accessed": "2026-11-09",
+      "supports": "Not selected for evaluation: well established in clinical practice.",
+      "limitations": "Not a regulatory approval or commercial-rights finding; later direct open403, indexed official content read."
+    },
+    {
+      "id": "R14",
+      "title": "emc nifedipine ingredient product listing",
+      "url": "https://www.medicines.org.uk/emc/ingredient/23",
+      "source_type": "product_information_repository",
+      "accessed": "2026-11-09",
+      "supports": "No exact combination identified in retrieved product listing.",
+      "limitations": "Negative search is not exhaustive proof of absence of a UK MA."
+    },
+    {
+      "id": "R15",
+      "title": "Steel Therapeutics Fizurex product page",
+      "url": "https://www.steeltherapeutics.com/fizurex",
+      "source_type": "sponsor_primary",
+      "accessed": "2026-11-09",
+      "supports": "Nifedipine/lidocaine single-use wipe development candidate.",
+      "limitations": "Sponsor efficacy language extrapolates combination history; concentrations and new clinical efficacy unverified."
+    },
+    {
+      "id": "R16",
+      "title": "Altasciences Fizurex GLP milestone,30 June 2026",
+      "url": "https://www.altasciences.com/press-release/altasciences-supports-key-development-milestone-steel-therapeutics-lead-therapeutic",
+      "source_type": "cro_primary",
+      "accessed": "2026-11-09",
+      "supports": "GLP tox completion announced; Q3 2026 IND and2027 human studies planned.",
+      "limitations": "No public confirmation of filed/cleared IND found; favorable-profile claim is sponsor/CRO announcement, not raw data."
+    },
+    {
+      "id": "R17",
+      "title": "21CFR314.54,505(b)(2) changes from listed drugs",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.54",
+      "source_type": "current_regulation",
+      "accessed": "2026-11-09",
+      "supports": "Defines abbreviated reliance and needed modification-supporting application information.",
+      "limitations": "Does not pre-authorize this exact formulation, combination or clinical plan."
+    },
+    {
+      "id": "R18",
+      "title": "FDA determining ANDA vs505(b)(2), May 2019 final guidance",
+      "url": "https://www.fda.gov/media/124848/download",
+      "source_type": "final_guidance",
+      "accessed": "2026-11-09",
+      "supports": "Foundational pathway guidance, including scientific support for differences.",
+      "limitations": "Guidance is nonbinding; application-specific evidence remains."
+    },
+    {
+      "id": "R19",
+      "title": "FDA determining ANDA vs505(b)(2), August 2026 draft",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/determining-whether-submit-anda-or-505b2-application-0",
+      "source_type": "draft_guidance",
+      "accessed": "2026-11-09",
+      "supports": "Proposed replacement of2019 guidance.",
+      "limitations": "Explicitly draft, not for implementation."
+    },
+    {
+      "id": "R20",
+      "title": "21CFR300.50 fixed-combination prescription drugs",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-300/subpart-B/section-300.50",
+      "source_type": "current_regulation",
+      "accessed": "2026-11-09",
+      "supports": "Component contribution and appropriate concurrent dosing requirement.",
+      "limitations": "Does not prescribe a universal four-arm trial."
+    },
+    {
+      "id": "R21",
+      "title": "FDA OTC monograph M015 corrected23 February 2022",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/omuf/OTC%20Monograph_M015-Anorectal%20Drug%20Products%20for%20OTC%20Human%20Use%20Posted%20Corrected%2002_23_22.pdf",
+      "source_type": "final_administrative_order",
+      "accessed": "2026-11-09",
+      "supports": "Lists lidocaine 2–5%; product and labeling conditions apply; nifedipine absent.",
+      "limitations": "Not authorization for exact prescription fixed combination."
+    },
+    {
+      "id": "R22",
+      "title": "FDA RECTIV label July 2024",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/021359Orig1s005lbl.pdf",
+      "source_type": "regulator_label",
+      "accessed": "2026-11-09",
+      "supports": "CAF pain indication; three-week study; days14–18 pain difference−7 mm on100 mmVAS.",
+      "limitations": "Different active/product; not nifedipine-combination approval precedent."
+    },
+    {
+      "id": "R23",
+      "title": "FDA NDA21359 medical reviews, May 2011 complete-response review",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/021359Orig1s000MedR.pdf",
+      "source_type": "regulator_review",
+      "accessed": "2026-11-09",
+      "supports": "Original endpoint miss, complete-response history and revised missing-data analysis; quality/bridging issues.",
+      "limitations": "PDF downloaded and OCR first8pages; review history is not permission for prospective analytic shortcuts."
+    },
+    {
+      "id": "R24",
+      "title": "21CFR314.106 foreign data",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.106",
+      "source_type": "current_regulation",
+      "accessed": "2026-11-09",
+      "supports": "Foreign-only evidence criteria include applicability and verification.",
+      "limitations": "Acceptance is application-specific."
+    },
+    {
+      "id": "R25",
+      "title": "21CFR312.120 foreign clinical studies not under IND",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-F/section-312.120",
+      "source_type": "current_regulation",
+      "accessed": "2026-11-09",
+      "supports": "GCP, ethical and data/product-verification requirements.",
+      "limitations": "Historical-study applicability and literature reliance must be assessed, not automatically rejected."
+    },
+    {
+      "id": "R26",
+      "title": "21CFR314.108 new drug product exclusivity",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.108",
+      "source_type": "current_regulation",
+      "accessed": "2026-11-09",
+      "supports": "Three-year clinical-investigation eligibility and limits; distinct from new-chemical-entity protection.",
+      "limitations": "Does not guarantee protection or commercial value for this proposed product."
+    },
+    {
+      "id": "R27",
+      "title": "EMA pre-authorization guidance, October 2026",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/pre-authorisation-guidance",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "EU legal bases: full, generic/hybrid, bibliographic, fixed-combination and informed consent.",
+      "limitations": "Legal-basis guidance does not confer centralized eligibility."
+    },
+    {
+      "id": "R28",
+      "title": "Heads of Medicines Agencies approval system",
+      "url": "https://www.hma.eu/about-hma/medicines-approval-system/medicines-approval-system.html",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "National versus MRP/DCP territorial authorization distinctions.",
+      "limitations": "Existing national MA is not EU-wide marketing permission."
+    },
+    {
+      "id": "R29",
+      "title": "EMA clinical pharmacology Q&A, well-established-use bridging July 2025",
+      "url": "https://www.ema.europa.eu/en/scientific-guidelines/clinical-pharmacology-pharmacokinetics-questions-answers",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "Literature must be relevant and bridged to the proposed formulation.",
+      "limitations": "Long use alone does not validate every new product."
+    },
+    {
+      "id": "R30",
+      "title": "MHRA legal bases for marketing applications",
+      "url": "https://www.gov.uk/guidance/types-of-application-legal-basis",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "UK hybrid52B, well-established54 and fixed-combination55 requirements.",
+      "limitations": "Reg 54 cannot substitute for original efficacy/safety data when those are needed."
+    },
+    {
+      "id": "R31",
+      "title": "MHRA International Recognition Procedure, updated 6 November 2026",
+      "url": "https://www.gov.uk/government/publications/international-recognition-procedure/international-recognition-procedure",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "Route A approval window two years; Route B five years; older approvals ineligible. Full standalone reference assessment, same product, full unredacted reports and applicant/licensee access required.",
+      "limitations": "EU national/MRP/DCP routes remain listed, but assessments merely recognizing another territory do not qualify. Approval dates alone do not establish eligibility. Bibliographic applications excluded.",
+      "guidance_updated": "2026-11-06"
+    },
+    {
+      "id": "R32",
+      "title": "WO1998037886A1 original publication",
+      "url": "https://patentimages.storage.googleapis.com/03/90/99/fe8b6d13c14d67/WO1998037886A1.pdf",
+      "source_type": "patent_primary_publication",
+      "accessed": "2026-11-09",
+      "supports": "Claims 1/2/4 topical nifedipine and combinations; claim 5 exact published concentration ranges verified by scan/OCR.",
+      "limitations": "Publication is not an enforceability or current national-status opinion."
+    },
+    {
+      "id": "R33",
+      "title": "IT1297886B1 and original patent family index",
+      "url": "https://patents.google.com/patent/IT1297886B1/en",
+      "source_type": "patent_index_lead",
+      "accessed": "2026-11-09",
+      "supports": "Italian filing 28 Feb1997; publication/grant 20 Dec1999; original PCT filing 26 Feb1998.",
+      "limitations": "National current status/any extension not certified; ordinary20year dates are arithmetic, not FTO.",
+      "related_urls": [
+        "https://patents.google.com/patent/WO1998037886A1/en"
+      ]
+    },
+    {
+      "id": "R34",
+      "title": "EP3520791A1 micro-enema publication and status lead",
+      "url": "https://patentimages.storage.googleapis.com/52/6b/e1/cad5c53b4a8e5a/EP3520791A1.pdf",
+      "source_type": "patent_primary_publication",
+      "accessed": "2026-11-09",
+      "supports": "Single-dose micro-enema use with 0.1–0.4%nifedipine/1–2%lidocaine; exact0.3/1.5 dependent formulation.",
+      "limitations": "Index says EP deemed withdrawn effective 8 Feb 2020; official register403. No familywide FTO conclusion.",
+      "related_urls": [
+        "https://patents.google.com/patent/EP3520791A1/en",
+        "https://register.epo.org/application?number=EP19155516"
+      ]
+    },
+    {
+      "id": "R35",
+      "title": "US20240156756A1 Steel wipe publication",
+      "url": "https://patentimages.storage.googleapis.com/41/b2/1f/f9a465e4dbd199/US20240156756A1.pdf",
+      "source_type": "patent_primary_publication",
+      "accessed": "2026-11-09",
+      "supports": "Claims 51,69,72 concern fibrous wipe composition, treatment and manufacture; scan/OCR checked.",
+      "limitations": "Application claims may change; no verified issued US grant."
+    },
+    {
+      "id": "R36",
+      "title": "US20240156756A1 family/status index",
+      "url": "https://patents.google.com/patent/US20240156756A1/en",
+      "source_type": "patent_index_lead",
+      "accessed": "2026-11-09",
+      "supports": "Priority1 Apr 2021, PCT/US2022/023130, WO2022212892; multiple national family leads.",
+      "limitations": "Index pending, official Patent Center403; not legal clearance of cream or wipe.",
+      "related_urls": [
+        "https://patentcenter.uspto.gov/applications/18375115"
+      ]
+    },
+    {
+      "id": "R37",
+      "title": "WO2020176004A1 gel family index/publication",
+      "url": "https://patents.google.com/patent/WO2020176004A1/en",
+      "source_type": "patent_index_lead",
+      "accessed": "2026-11-09",
+      "supports": "Additional formulation family, indexed JP7331149B2 and EA036752B1.",
+      "limitations": "Family search lead only; no US blocking conclusion or current enforcement opinion."
+    },
+    {
+      "id": "R38",
+      "title": "FDA current PDUFA fee page",
+      "url": "https://www.fda.gov/industry/fda-user-fee-programs/prescription-drug-user-fee-amendments",
+      "source_type": "regulator_fee_schedule",
+      "accessed": "2026-11-09",
+      "supports": "FY 2027 clinical-data application $4,600,753; without clinical data $2,300,376; program $416,857.",
+      "limitations": "Future-year fees and applicant-specific waiver eligibility are separate."
+    },
+    {
+      "id": "R39",
+      "title": "FDA PDUFA2022 fee assessment guidance and waiver rules",
+      "url": "https://www.fda.gov/media/167877/download",
+      "source_type": "regulator_guidance",
+      "accessed": "2026-11-09",
+      "supports": "Small-business first-application waiver and other statutory waiver criteria.",
+      "limitations": "Must request and establish eligibility; not assumed for an unspecified transaction structure.",
+      "related_urls": [
+        "https://www.fda.gov/media/113889/download"
+      ]
+    },
+    {
+      "id": "R40",
+      "title": "ClinicalTrials.gov candidate and exact lead-sponsor searches, 9 November 2026",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=Fizurex&pageSize=10&format=json",
+      "source_type": "registry_search",
+      "accessed": "2026-11-09",
+      "supports": "The listed queries returned no studies on the stated query date.",
+      "limitations": "Search-name coverage is limited; INDs can be confidential, and no registry match does not establish that no IND or study exists.",
+      "related_urls": [
+        "https://clinicaltrials.gov/api/v2/studies?query.spons=AREA%5BLeadSponsorName%5D%22Steel%20Therapeutics%22&pageSize=10&format=json"
+      ],
+      "searches": [
+        {
+          "query_field": "query.term",
+          "query": "Fizurex",
+          "query_date_utc": "2026-11-09",
+          "returned_studies": 0
+        },
+        {
+          "query_field": "query.spons",
+          "query": "AREA[LeadSponsorName]\"Steel Therapeutics\"",
+          "query_date_utc": "2026-11-09",
+          "returned_studies": 0
+        }
+      ]
+    }
+  ],
+  "uk_irp_current_rules": {
+    "guidance_source": "R31",
+    "as_of": "2026-11-09",
+    "guidance_updated": "2026-11-06",
+    "route_A_approval_window_years": 2,
+    "route_B_approval_window_years": 5,
+    "approval_older_than_5_years_eligible": false,
+    "full_standalone_reference_assessment_required": true,
+    "reliance_on_another_territory_assessment_eligible": false,
+    "EU_national_MRP_DCP_still_listed": true,
+    "same_product_and_unredacted_reports_and_applicant_access_required": true,
+    "territory_timing": [
+      {
+        "territory": "Italy",
+        "verified_original_approval": "2004",
+        "within_5_year_window": false,
+        "source_ids": [
+          "R01",
+          "R03"
+        ]
+      },
+      {
+        "territory": "France",
+        "verified_original_approval": "2020-02-24",
+        "within_5_year_window": false,
+        "source_ids": [
+          "R08"
+        ]
+      },
+      {
+        "territory": "Canada",
+        "verified_original_approval": "2024-05-30",
+        "within_5_year_window": true,
+        "within_2_year_window": false,
+        "timing_implication": "Route B timing only; full standalone assessment, unchanged product, applicant/licensee rights and access remain to be established.",
+        "source_ids": [
+          "R09",
+          "R10"
+        ]
+      }
+    ]
+  }
+}

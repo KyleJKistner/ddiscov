@@ -4,6 +4,7 @@ Use [current opportunities](../../decisions/current-shortlist.md) for active dec
 
 | Round | Main question or contribution |
 |---|---|
+| [28](round28/README.md) | Deep nifedipine/lidocaine review: clinically credible, but incremental component value, rights, competition and retained economics change the package to a territorial/partnered reserve. Reviewed 9 November 2026. |
 | [27](round27/README.md) | Broad estimated screen of 49 packages / 48 asset-use combinations; four provisional desk finalists, matched APR/erlotinib and cash sensitivity. Reviewed 9 November 2026. |
 | [26](round26/README.md) | Ten new exact-use screens; erlotinib/KRT16, FD-2/ALS and levodopa/MCT8 information priorities. Reviewed 8 November 2026. |
 | [25](round25/README.md) | Existing-program reassessment, APR-246 advancement and three new exact-use screens. |

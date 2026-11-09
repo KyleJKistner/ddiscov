@@ -6,7 +6,7 @@ Optimize financial value retained from the next dollar committed to drug develop
 
 The current workflow is **broad desk screening → estimated comparison → a handful for deeper desk diligence → counterparty inquiries**. Use explicit analyst ranges where prices, probabilities or rights are uncertain. Missing offers do not block screening; apply stronger verification when preparing a commitment.
 
-The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. The latest completed evidence review is Round 27, dated 9 November 2026, with 49 estimated development packages and four provisional desk finalists.
+The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. Round 27, dated 9 November 2026, screened 49 estimated development packages. The latest focused review is Round 28, also dated 9 November 2026: it deepens nifedipine/lidocaine and moves the undifferentiated product-bridge proposal from first desk priority to a territorial/partnered reserve.
 
 ## Retrieve focused context
 
@@ -15,7 +15,7 @@ python3 scripts/repo.py status
 python3 scripts/repo.py search 'candidate name' --limit 8
 ```
 
-`search` finds JSON string values. Pass its file and pointer to `show FILE /pointer` for that value; shorten `/records/3/name` to `/records/3` for the enclosing record. Large selections return their available keys so you can choose a smaller section. Use `rg -n 'term' research/rounds/round27` for prose searches. Browse [research](research/README.md) for source locations and [methods](methods/README.md) for executable analyses.
+`search` finds JSON string values. Pass its file and pointer to `show FILE /pointer` for that value; shorten `/records/3/name` to `/records/3` for the enclosing record. Large selections return their available keys so you can choose a smaller section. Use `rg -n 'term' research/rounds/round28` for the latest focused review, or Round 27 for the broad comparison. Browse [research](research/README.md) for source locations and [methods](methods/README.md) for executable analyses.
 
 `research/portfolio-register.json` is a large cumulative snapshot through Round 26. Its older top-level shortlist, policy, allocation and reading instructions are historical. Query the relevant object for evidence or lineage; use `decisions/` to guide new work. Load older rounds, full catalogs and manifests when the task requires that detail.
 

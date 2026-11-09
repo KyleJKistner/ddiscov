@@ -1,6 +1,6 @@
 # Research guide
 
-Current priorities and evaluation rules live in [decisions](../decisions/README.md). This directory supplies their evidence and history. The latest completed review is [Round 27](rounds/round27/README.md), dated 9 November 2026: 49 estimated packages, four provisional finalists and a broad reserve set. [Round 25](rounds/round25/README.md) retains the prior incumbent reassessment and APR-246 advancement package.
+Current priorities and evaluation rules live in [decisions](../decisions/README.md). This directory supplies their evidence and history. The latest focused review is [Round 28](rounds/round28/README.md), dated 9 November 2026: nifedipine/lidocaine clinical evidence, product/dossier access, competing programs and commercial cash flows. It updates that candidate's priority from the [Round 27 broad screen](rounds/round27/README.md), which compared 49 estimated packages. [Round 25](rounds/round25/README.md) retains the prior incumbent reassessment and APR-246 advancement package.
 
 ## Find evidence
 
@@ -15,6 +15,7 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
+| [Nifedipine/lidocaine deep review](rounds/round28/README.md) | Component attribution, clinical lineage, actual territorial approvals, regulatory/CMC/IP gaps, direct competition and dated retained-cash scenarios. |
 | [Broad estimated screen](rounds/round27/README.md) | Human, product/process and early-development opportunities; explicit estimates, contrary evidence, four finalists and reproducible financial sensitivities. |
 | [Commercial repayment screen](commercial/2026-11-08-repayment-screen/README.md) | Historical package/counterparty background and prepared questions for later diligence; its inquiry order is superseded. |
 | [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
