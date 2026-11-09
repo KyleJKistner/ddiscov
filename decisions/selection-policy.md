@@ -1,12 +1,14 @@
 # Selection policy
 
-Updated 8 November 2026. This policy governs new decisions. The [current opportunities](current-shortlist.md) identify packages to compare; the [opportunity template](opportunity-template.md) records a serious proposal. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) explains the changes and their source basis.
+Updated 9 November 2026 UTC. This policy governs new decisions. The [current opportunities](current-shortlist.md) identify packages to compare; the [opportunity template](opportunity-template.md) records a serious proposal. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) explains the changes and their source basis.
 
 ## Objective and unit of choice
 
 Maximize incremental financial value retained by ddiscov from the next dollar committed to drug development, subject to survivable loss and liquidity constraints. Among opportunities with comparable, credible economics, prefer the higher chance of a useful economic outcome, stronger evidence and less irreversible exposure.
 
 Compare **exact asset/use + obtainable economic interest + bounded next commitment**. One molecule can support several competing proposals with different rights, costs and endpoints. State the intervention, indication or genotype, route, treatment window and intended patient or product benefit.
+
+Human trials are a possible stage, not the default next milestone. First compare whether an existing article, usable rights and a smaller decision-changing contribution can support an earlier payment or handoff. A paid service, a research grant, a license and self-funded participation have different risks and retained economics; identify the actual proposition. See the [commercial-route comparison](../research/commercial-routes/README.md).
 
 Source opportunities across disease areas, modalities and stages: synthesis, article qualification, formulation and manufacturing, preclinical development, existing-drug indications, clinical work, and licensing or participation in existing programs. Established mechanisms, symptomatic treatment, practical product improvements and new inventions all compete on the same economics. Use existing evidence where applicable and select the next work that the actual development path needs.
 
@@ -28,6 +30,8 @@ For each feasible commitment, record:
 
 When inputs support calculation, compare the probability-weighted present value of retained receipts and realizable interests, less all incremental costs, with preserving the same capital over the same horizon. Use consistent currency, timing and discount assumptions. Weight later costs by the branches in which they occur; count each cost and economic interest once. A financing valuation is not a cash receipt to ddiscov. Count outside funding as available only to the extent supported by its actual terms, and show a funding-unavailable branch.
 
+For a new self-funded venture, start with 100% founder equity. Model actual third-party asset economics, collaborators' interests, transaction costs and later dilution separately; do not insert an arbitrary retained-ownership haircut. A public partnering invitation or available budget is not a paid mandate, and restricted research funding is not founder cash recovery.
+
 Value the proposed tranche against the best feasible action available without buying it, including acting on current evidence, negotiating now or stopping. For an existing holding, separate its current value from the value created or protected by new spending. Credit the tranche with the incremental change in the decision and retained outcome.
 
 Report expected incremental net value, net value per incremental dollar committed, absolute cash exposure and time to realizable value together. Package size, indivisible experiments, fixed costs and dependent milestones matter when allocating a finite budget. Evaluate the feasible combination of commitments; a favorable ratio alone cannot establish the best allocation.
@@ -38,7 +42,7 @@ Use conservative, central and favorable scenarios with explicit assumptions and 
 
 Record the user's **deployable capital, maximum tolerable cumulative loss, minimum reserve, per-commitment loss limit and liquidity horizon**. These are open inputs until supplied. Track losses already incurred against the cumulative limit separately from prospective investment value. Evaluate total exposure and the capital left after failure, including correlated failures across shared targets, models, suppliers, partners and funding conditions.
 
-The user clarified during the topical-erlotinib review that approximately **$500,000 is a reference budget, not a strict cap**. Assess larger packages when the additional capital buys worthwhile evidence or retained value; compare incremental spend and genuine stopping points explicitly. The preference remains a high probability of recovering invested cash with a return. No larger deployable amount, permission to spend, affordable-loss limit, reserve or liquidity horizon has been supplied. The earlier screening model's $500,000 filter is a recorded scenario, not the current eligibility rule. Evaluate clinical success and retained cash recovery separately using the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md).
+The user clarified during the topical-erlotinib review that approximately **$500,000 is a reference budget, not a strict cap**. Assess larger packages when the additional capital buys worthwhile evidence or retained value; compare incremental spend and genuine stopping points explicitly. The preference remains a high probability of recovering invested cash with a return. The $750,000 discussion is a scenario, not an authorized commitment. Permission to spend, an affordable-loss limit, reserve and liquidity horizon remain unresolved. The earlier screening model's $500,000 filter is a recorded scenario, not the current eligibility rule. Evaluate clinical success and retained cash recovery separately using the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md).
 
 Apply these limits before ranking feasible commitments by expected value. Prefer staged contracts and independently useful milestones where they preserve the option to stop. Identify any follow-on obligation already created by the initial tranche. A successful first result still needs a financeable next step or a credible handoff; otherwise its financial value may be small.
 

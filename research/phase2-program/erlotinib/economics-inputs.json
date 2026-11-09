@@ -3,7 +3,7 @@
   "decision_date": "2026-11-08",
   "source_review_utc": "2026-11-09",
   "currency": "USD",
-  "status": "Research estimates only; no offers, spending, recruitment or inquiries",
+  "status": "Historical human-pilot planning scenarios; commercial framing superseded by research/commercial-routes/README.md; no quoted prices or authorized work",
   "scope": "Topical erlotinib for painful KRT16 p.Arg127Cys PPK; small controlled decision pilot, not a powered Phase II or registration package",
   "minimum_reserve": null,
   "maximum_tolerable_loss": null,
@@ -129,7 +129,7 @@
     "base",
     "high"
   ],
-  "cost_basis": "Analyst planning estimates reconciled with product and clinical-design workstreams; no vendor quotes or partner offers",
+  "cost_basis": "Analyst planning allowances, not named-provider quotations, comparable contracts, documented labor-rate build or geographic pricing; arithmetic verification does not establish market cost",
   "contingency_fraction": [
     0.15,
     0.2,
@@ -361,7 +361,7 @@
     "alternative_reachable_needed": 50
   },
   "cash_recovery": {
-    "status": "Illustrative algebra; no buyer, cash offer, probability or validated EV",
+    "status": "Historical hypothetical participation algebra, not expected founder equity; no buyer, cash offer, calibrated probability or validated EV. Current new-venture founder baseline is 100%, with asset terms separate.",
     "C": 462000,
     "Q": 50000,
     "participation_f": [
@@ -437,7 +437,7 @@
       4750000.0
     ]
   },
-  "decision": "Conditional product/access collaboration is the lead research route; independent pilot becomes operationally plausible around750k but needs staged qualification. Higher capital does not establish retained return; cash recovery and PhaseII success probabilities remain unvalidated.",
+  "decision": "Retain historical pilot arithmetic for traceability. Current priority is comparison of existing-product access and a defined pre-human contribution; no clinical commitment or validated investment recommendation.",
   "totals": {
     "conditional_transfer": {
       "subtotal": [
@@ -653,7 +653,7 @@
         "independent_qualification": 328000.0
       }
     },
-    "marginal_value_500k_to_750k": "Can make independent central pilot operationally feasible with a modest buffer; does not establish retained economic return",
+    "marginal_value_500k_to_750k": "Adds arithmetic capacity above the historical central scenario; unquoted costs, access and execution gaps prevent concluding operational feasibility or retained return",
     "marginal_value_750k_to_1m": "Only justified by named exposure, stability, recruitment, precision or duration uncertainties after gates",
     "not_solved_by_cash_alone": [
       "Rights access and exclusivity",
@@ -666,5 +666,7 @@
   },
   "hard_cap": null,
   "owner_operator_hours": null,
-  "owner_operator_opportunity_cost": null
+  "owner_operator_opportunity_cost": null,
+  "current_commercial_review": "research/commercial-routes/README.md",
+  "new_venture_founder_equity_baseline": 1.0
 }

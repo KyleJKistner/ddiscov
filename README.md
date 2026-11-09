@@ -9,7 +9,7 @@ Find drug-development opportunities that maximize the financial value retained f
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
 4. [Phase II candidate teams](research/phase2-program/README.md) — ten coordinators, twenty workers, independent challenge and candidate-specific next actions.
 
-**Candidate evidence reviewed through 8 November 2026.** Round 26 is the latest numbered review; the [Phase II program](research/phase2-program/README.md) adds focused source refreshes and distinct search routes. The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. The planning envelope is approximately $500,000; current prices, terms, follow-on funding and affordable-loss limits remain open. The active set is unranked financially.
+**Current commercial review: 9 November 2026 UTC.** The [commercial-route comparison](research/commercial-routes/README.md) prioritizes access to existing human-anchored assets and defined contributions before sponsoring a new trial. The [erlotinib dossier](research/phase2-program/erlotinib/README.md) and [35-candidate screen](research/phase2-program/ranking-review/README.md) retain scientific detail and historical comparisons. Approximately $500,000 is a reference, not a strict cap; $750,000 is a scenario, not spending authorization. Prices, terms, financing and affordable-loss limits remain open. The active priorities concern further diligence; no financial ordering or high-probability cash recovery is established.
 
 ## Find the relevant detail
 

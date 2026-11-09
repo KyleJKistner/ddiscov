@@ -36,6 +36,8 @@ Name the patient/product need, relevant alternatives and plausible demand. Ident
 
 Record obtainable data, regulatory-use, product and commercial interests, their scope and status, and the access needed to perform the work. State any proposed terms, downstream sharing and dilution. A low-cost diligence tranche can resolve these uncertainties; a substantial commitment needs correspondingly stronger support for attainable interests and a realizable financial route.
 
+For a self-funded new venture, begin with 100% founder equity and itemize separate asset-license costs, revenue sharing, collaborators and subsequent dilution. State why the prospective recipient would obtain this contribution from ddiscov instead of its existing team, rights holder or vendors. Identify the earliest credible payment event and whether new human work is actually necessary before that event.
+
 Describe the remaining development, regulatory, manufacturing and financing path to proceeds. Value the share ddiscov can retain after those costs and terms. Explain which assumptions depend on a future transaction or financing and what happens if it fails.
 
 ## 4. Compare outcome branches

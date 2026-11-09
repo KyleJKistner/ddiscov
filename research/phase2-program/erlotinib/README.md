@@ -2,15 +2,13 @@
 
 **Decision date: 9 November 2026 UTC / 8 November Los Angeles. Candidate R26-LOC-01.** Public-source diligence for a reproducible topical erlotinib product with defined background care in painful KRT16 p.Arg127Cys palmoplantar keratoderma. The user requested substantial research and clarified that **$500,000 is a reference budget, not a strict cap**.
 
-## Judgment
+## Current use of this dossier
 
-**Retain erlotinib as a serious candidate for staged development. Its next investable unit is a specified product, usable data/rights and an interpretable independent clinical test—not simply the molecule.** The human signal is unusually close to the intended use, and a local controlled study is plausible. However, the evidence does not establish a high probability of Phase II success or cash recovery. There is no defensible numerical success probability from the current record.
+The subsequent [commercial-route comparison](../../commercial-routes/README.md) governs the next-step decision. **Retain erlotinib as a serious scientific lead; first compare existing-product access and a specific contribution that could be licensed before we finance a human trial.** The clinical design below is a conditional development option, not the default next commitment. The evidence does not establish a high probability of Phase II success or cash recovery.
 
-The earlier approximately $350k technical estimate understated the scope now identified. Central planning is **$462k with a usable existing product/dossier or $624k independently** for a 15-person pilot. Allowing 19 randomized participants to improve completion assurance gives **$510k / $672k**. These are estimates through a small pilot, including specified overhead, an access allowance and contingency, **not** quotations, an approval budget or a cap on possible loss.
+The preserved pilot scenarios are $462k with a usable existing package or $624k independently for 15 randomized participants, and $510k/$672k for 19. They are analyst allowances, not named-provider quotes, a geographic cost model or validated operational feasibility. The [assumption audit](../../commercial-routes/assumptions-and-method.md) explains their provenance and the limits of earlier conversational failure/exit estimates. A $750k scenario does not authorize spending or establish a sufficient reserve.
 
-Budget flexibility keeps both routes in contention. A $750k funding capacity could cover either central pilot scenario, with different reserves; $1m permits additional justified work. More money does not itself establish a transferable product, independent patient response, commercial rights or a paying transaction. The first commitment should be a terminable product/access/feasibility stage if and when the user elects to proceed beyond desk research.
-
-This review qualifies erlotinib's earlier first screening position. It does not produce a new cross-candidate investment ranking: the other candidates have not received this exact depth and revised costing. Preserve the [35-candidate baseline](../ranking-review/README.md), including APR-246's evidence, without treating review recency or the old $500k filter as an allocation rule.
+A self-funded new venture starts with 100% founder equity. Asset-license payments, collaborators and later dilution require separate terms. The historical participation sensitivities in the economic record are not expected founder ownership. Preserve the [35-candidate baseline](../ranking-review/README.md), including APR's evidence, without treating its old capital filter or the recency of this dossier as an allocation rule.
 
 ## What carries the case, and what weakens it
 
@@ -35,9 +33,9 @@ The [product dossier](product-cmc.md) defines the article-to-evidence bridge and
 
 The starting [target profile](target-profile.md) is adult local symptom control on standardized background care. R127C is a replication anchor, not a validated response biomarker. Other KRT16 variants or PC genes could enter separately justified exploratory cohorts; broader market claims require broader evidence.
 
-## The clinical result worth buying
+## Conditional clinical design if a later decision justifies it
 
-The preferred initial concept is a blinded active-foot versus vehicle-foot comparison of local pain, on the same background care. It depends on credible masking, separate application, low cross-foot/systemic interference and a pain measure patients can attribute to each foot. Whole-person mobility needs a separately suitable design; improvement in walking during an extension cannot become a randomized foot-level functional result.
+If a human pilot is later justified, the preferred initial concept is a blinded active-foot versus vehicle-foot comparison of local pain, on the same background care. It depends on credible masking, separate application, low cross-foot/systemic interference and a pain measure patients can attribute to each foot. Whole-person mobility needs a separately suitable design; improvement in walking during an extension cannot become a randomized foot-level functional result.
 
 The [clinical design](clinical-design.md) contains estimands, outcome development, missing-data handling, family dependence and alternatives. A reproducible model explores **864 conditional scenarios**, with 100,000 replications per base simulation scenario and shared random draws for related comparisons. It does not fit the two reported cases or estimate erlotinib's success odds.
 
@@ -47,7 +45,7 @@ For example, assuming a true 2-point local benefit and paired SD 2.5, 12 indepen
 
 Under independently assumed 80% retention, 15 randomized participants give 12 expected completers but only a **64.8%** chance of at least 12. Nineteen gives **97.7%**. These calculations assume recruitment succeeds; they do not create eligible participants. Historical official registry tables report **60 R127C people/20 families in January 2018** and **88/33 in January 2021**. The published 13-person R127C analytic subgroup is a different denominator. None is a current reachable, sufficiently symptomatic adult cohort, and R127C can have milder disease. See the source-access limitations in the human and clinical records.
 
-## Capital: compare what extra money buys
+## Historical pilot-cost scenarios
 
 | Planning scope | Existing usable product/dossier | Independent product qualification |
 |---|---:|---:|
@@ -60,9 +58,9 @@ Under independently assumed 80% retention, 15 randomized participants give 12 ex
 
 Gate amounts are cumulative, not additive. They assume separately terminable work and include allocated contingency. They are proposed scenarios, not commitments or quotes. The 19-person sensitivity holds the base two-site setup constant; additional sites or delay cost more. The full low/base/high pilot ranges are **$230k/$462k/$1.025m** with transfer and **$304.75k/$624k/$1.375m** independently. These scenarios vary enrollment and execution difficulty; high is not a worst-case ceiling. Central elapsed assumptions are approximately **18 and 24 months**, respectively.
 
-The move from $500k to $750k can materially improve feasibility and completion reserve, especially if independent qualification is necessary. The move from $750k to $1m should fund a named exposure, recruitment, stability or precision need after earlier gates; its value cannot be assumed in advance. Neither route includes a major newly required safety program, pivotal development, registration or launch. A deliberately illustrative follow-on package spans another **$0.81m–$4.75m**, central $2m; it is not a power-derived or regulatory-approved plan. Successful first evidence can still end at a financing stop.
+The additional capacity between $500k and $750k exceeds the preserved central pilot assumptions, but unquoted costs and unresolved access prevent concluding that the program is operationally feasible or the reserve sufficient. Any additional capital needs a named decision-changing use; available cash alone does not justify a later gate. Neither route includes a major newly required safety program, pivotal development, registration or launch. A deliberately illustrative follow-on package spans another **$0.81m–$4.75m**, central $2m; it is not a power-derived or regulatory-approved plan. Successful first evidence can still end at a financing stop.
 
-The [economic dossier](market-economics.md) contains component costs, staged losses, revenue sensitivities and cash-recovery math. A concrete example: if $672k is spent, transaction/closeout costs are $50k and ddiscov retains 25% of closing cash, recovering principal requires **$2.888m paid at closing**, before taxes, financing or time value. This is a required payment, not a predicted valuation or buyer offer. No retained interest or payment is currently documented as available.
+The [economic dossier](market-economics.md) retains component allowances, staged-loss assumptions, revenue sensitivities and historical participation algebra. None establishes a sale price, a buyer or an expected ownership concession. Current comparison starts with full founder ownership and itemizes any actual asset-level burdens separately; no cash-recovery probability is calibrated.
 
 ## Rights and market determine whether good medicine becomes a good investment
 
@@ -72,7 +70,7 @@ Sol-Gel, the French institutional/CTRS history, and Alembic's US orphan designat
 
 The exact-variant commercial population is unresolved. Historical carrier counts cannot be converted directly to paying chronic users. Broader indication potential is an upside hypothesis that needs separate clinical support. Topical TRPV3 development, planned oral programs, procedural care and the failed VAPAUS topical-rapamycin study all inform differentiation, recruitment and endpoints. No head-to-head evidence establishes erlotinib's superiority.
 
-## Advance, narrow or stop
+## Conditional development gates
 
 | Decision | Evidence that warrants it |
 |---|---|
@@ -81,7 +79,7 @@ The exact-variant commercial population is unresolved. Historical carrier counts
 | Stop the tested product/use | Adequately delivered and interpretable evidence excludes worthwhile benefit, or local injury/systemic risk or burden offsets benefit. |
 | Stop the investment while preserving the scientific lead | No adequate retained economic interest, no credible cohort, an unfinanceable continuation, or expected value inferior to another attainable package or keeping the cash. |
 
-The next missing artifacts are specific: the historical or sponsor product dossier and source data; a current aggregate recruitment-feasibility count; current relevant patent prosecution/title; and actual rights/supply/reference terms. Public materials identify these gaps but cannot substitute for private records or offers. No inquiries, orders, clinical submissions or spending have occurred. The current deliverable is a reviewable research package ready to support the later decision about whether to seek them.
+Current public work prioritizes the product/rights inventory and a nonduplicative contribution, alongside APR/AEC access, as defined in [current opportunities](../../../decisions/current-shortlist.md). Recruitment and clinical costs become the binding next questions only if a later clinical commitment is justified. Historical or sponsor records, current relevant patent prosecution/title and actual rights/supply/reference terms remain missing. No inquiries, orders, clinical submissions or spending have occurred.
 
 ## Review and reproduction
 

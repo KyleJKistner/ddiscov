@@ -15,6 +15,7 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
+| [Commercial routes](commercial-routes/README.md) | Current comparison of earlier licensing, existing-sponsor contributions and human-anchored assets, with cost-provenance audit. |
 | [Phase II candidate program](phase2-program/README.md) | Ten coordinator dossiers, twenty worker assignments, source-access limits, evidence gates and next information tasks. |
 | [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
 | [Round index](rounds/README.md) | One entry per research round, newest first. |
