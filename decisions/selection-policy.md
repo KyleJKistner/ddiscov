@@ -10,6 +10,16 @@ Compare **exact asset/use + obtainable economic interest + bounded next commitme
 
 Source opportunities across disease areas, modalities and stages: synthesis, article qualification, formulation and manufacturing, preclinical development, existing-drug indications, clinical work, and licensing or participation in existing programs. Established mechanisms, symptomatic treatment, practical product improvements and new inventions all compete on the same economics. Use existing evidence where applicable and select the next work that the actual development path needs.
 
+## Apply the capital-recovery requirement
+
+When the mandate requires a high probability of recovering principal plus a return, assess that condition separately from expected value. Define the cash-realization horizon, required net return, capital base and minimum acceptable probability. Keep private investor amounts and thresholds outside public research records; use them in the actual commitment decision.
+
+Use cash received by the investor after the applicable costs and obligations. Separate company receipts, restricted research support, paper asset value, unexercised options and contingent milestones from distributable investor proceeds. Record the payment waterfall, collection risk, distribution rights and future obligations. A contract-backed deliverable can reduce dependence on a favorable scientific result when conforming completion earns payment; execution, acceptance, counterparty and collection risks still need underwriting.
+
+If B is the initial budget, D is cumulative investor capital contributed without recycling, O is unpaid binding investor obligations, R is net cash received by the chosen horizon and r is the required total return, recovery on deployed capital while covering obligations requires R >= D * (1 + r) + O. Return on the full initial budget instead requires B - D + R - O >= B * (1 + r), assuming unspent cash earns nothing. O excludes amounts already paid in D or deducted from R. The two return conditions coincide at full deployment; a successful investment also requires positive deployment. For staged contributions, recycling or interim distributions, use a dated cash-flow schedule and the agreed return definition. Preserve the distinction between capital kept unspent and a successful investment.
+
+Assess the probability of the defined portfolio cash outcome with supportable joint or conditional assumptions. An approval frequency, an experiment's success rate or the chance of at least one scientific win addresses a different event. Where offered terms, prices or probability evidence are missing, mark recovery confidence unestablished and resolve the specific gap before a development commitment. The [commercial screen](../research/commercial/2026-11-08-repayment-screen/README.md) applies this standard to current package inquiries.
+
 ## Compare the full incremental economics
 
 For each feasible commitment, record:

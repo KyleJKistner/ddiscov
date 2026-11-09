@@ -14,6 +14,7 @@ Use **unknown** for missing inputs. Label each material claim as observed, quote
 | Economic interest | The proposed or offered asset, option, license, equity, revenue participation, contracted payment or other interest ddiscov would retain. |
 | Status | Proposed work, an actual offer, an authorized commitment or completed work; distinguish each clearly. |
 | Decision date | Assessment date, evidence cutoff and time-sensitive facts requiring verification. |
+| Cash-recovery condition | Private capital base, required net return, realization horizon and minimum acceptable probability; identify which are established versus unresolved. |
 
 Choose the starting stage and form of participation on their merits. Existing articles, new synthesis, formulation, preclinical evidence and clinical development can each support a useful commitment. Describe the contribution and financial capture available for this particular package.
 
@@ -37,6 +38,8 @@ Name the patient/product need, relevant alternatives and plausible demand. Ident
 Record obtainable data, regulatory-use, product and commercial interests, their scope and status, and the access needed to perform the work. State any proposed terms, downstream sharing and dilution. A low-cost diligence tranche can resolve these uncertainties; a substantial commitment needs correspondingly stronger support for attainable interests and a realizable financial route.
 
 Describe the remaining development, regulatory, manufacturing and financing path to proceeds. Value the share ddiscov can retain after those costs and terms. Explain which assumptions depend on a future transaction or financing and what happens if it fails.
+
+Show the cash waterfall from company/customer receipts through required spending, senior claims, fees and taxes to investor distributions. Identify restrictions on grants and in-kind support, whether payments depend on favorable results, and how conforming but negative work, cancellation and collection are handled. Keep paper valuation, unspent capital and investor cash receipts distinct.
 
 ## 4. Compare outcome branches
 

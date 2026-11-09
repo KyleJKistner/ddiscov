@@ -15,6 +15,7 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
+| [Commercial repayment screen](commercial/2026-11-08-repayment-screen/README.md) | Five exact-use development packages, a revenue-supported financing sourcing route, primary commercial records and prepared counterparty questions. |
 | [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
 | [Round index](rounds/README.md) | One entry per research round, newest first. |
 | [Screen index](screen-index.md) | Recent candidate ledgers and earlier screening catalogs. |

@@ -10,6 +10,8 @@ Find drug-development opportunities that maximize the financial value retained f
 
 **Candidate evidence reviewed through 8 November 2026 (Round 26).** The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. Current prices, terms, follow-on funding and affordable-loss limits remain open; the active set is unranked financially.
 
+The [commercial package comparison](research/commercial/2026-11-08-repayment-screen/README.md) checks named counterparties, routes to investor cash and quote requirements. It identifies specific commercial-fit inquiries while leaving unverified costs, offers and recovery probabilities explicit.
+
 ## Find the relevant detail
 
 | Task | Entry point |
