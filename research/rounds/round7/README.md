@@ -47,7 +47,7 @@ The company proposition remains less established than the clinical question. Exi
 - Ruxolitinib: [clinical narrative](rux_hhd_clinical.md), [clinical records](rux_hhd_clinical.json), [clinical audit](rux_hhd_clinical_audit.json), [product narrative](rux_hhd_product.md), [product records](rux_hhd_product.json), [PK/patent audit](rux_hhd_source_audit.json), [development proof](rux_hhd_development_proof.md).
 - Independent challenges: [enasidenib clinical/product](review_enas_by_rux_clinical.md), [rux clinical/proof](review_rux_by_enas_clinical.md), [rux product/exposure/rights](rux_hhd_product_review.md).
 - [Final independent integration review](integration_review.md).
-- [Integrated changes](round7_root_deltas.json), [current shortlist](../../../decisions/current-shortlist.md), [cumulative register](../../portfolio-register.json), [audit commands](../../../methods/README.md#round-7-clinical-and-exposure-audits).
+- [Integrated changes](round7_root_deltas.json), [current shortlist](../../../decisions/current-shortlist.md), [cumulative register](../../portfolio-register.json), [audit commands](../../../methods/reference.md#round-7-clinical-and-exposure-audits).
 
 The reviews' precision changes were incorporated: historical lot identity stays unverified; tolerability claims stay within observed follow-up; cardiac measures account for growth; the proposed rux controlled window is harmonized to 8–12 weeks as a planning assumption; one useful primary dimension does not require superiority on every secondary outcome; responder-enriched maintenance, rescue and missingness retain explicit denominators; current label combination/application context is preserved.
 
