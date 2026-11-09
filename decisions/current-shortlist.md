@@ -1,22 +1,28 @@
 # Current opportunities
 
-**Current screening review: 9 November 2026 UTC / 8 November Los Angeles.** The [35-candidate comparison](../research/phase2-program/ranking-review/README.md) is the active screening ranking. It adds focused source refreshes and explicit estimates to Round 26 and the earlier ten-team pass. Each dossier records refreshed versus retained evidence. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) governs the economic objective.
+**Current screening review: 9 November 2026 UTC / 8 November Los Angeles.** The [35-candidate comparison](../research/phase2-program/ranking-review/README.md) is the comparative screening baseline. The [topical-erlotinib deep review](../research/phase2-program/erlotinib/README.md) supersedes its erlotinib cost/access assumptions; the user has also clarified that the approximately $500,000 budget is flexible. It adds focused source refreshes and explicit estimates to Round 26 and the earlier ten-team pass. Each dossier records refreshed versus retained evidence. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) governs the economic objective.
 
 Compare **exact asset/use + obtainable economic interest + bounded next commitment** by the financial value retained from the next dollar, subject to survivable downside. The [selection policy](selection-policy.md) governs that comparison; use the [opportunity template](opportunity-template.md) for a serious proposal. At this stage, screen broadly and narrow to a handful using defensible estimates before considering inquiries. Broader sourcing remains open across diseases, modalities and stages.
 
-**Current capital record:** Approximately $500,000 is the planning envelope. The objective is a high probability of recovering invested cash with a return. No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests, follow-on financing, affordable cumulative loss, reserve and liquidity limits remain unresolved. Clinical promise does not establish a high probability of capital recovery.
+**Current capital record:** Approximately $500,000 is a reference budget, **not a strict cap**. Evaluate additional capital by the evidence and retained value it buys, without assuming a new authorized amount. The objective is a high probability of recovering invested cash with a return. No paid-development commitment is recorded in this repository. Current offers, comparable all-in costs, retained interests, follow-on financing, affordable cumulative loss, reserve and liquidity limits remain unresolved. Clinical promise does not establish a high probability of capital recovery.
 
-## Provisional screening shortlist
+## Screening baseline and current qualification
 
-| Conditional small-capital rank | Package | Main qualification |
+| Prior $500k-scenario rank | Package | Current qualification |
 |---:|---|---|
-| 1 | Topical erlotinib / KRT16 Arg127Cys | Randomized blinded local signal, only two related people; product/independent-patient bridge unresolved. |
+| 1 | Topical erlotinib / KRT16 Arg127Cys | Current deep-diligence focus. One-family signal survives, but product/data linkage, independent replication and retained rights are unresolved. Central pilot estimate is now $462k with a usable existing package or $624k independently; a 19-person enrollment sensitivity is $510k / $672k. |
 | =2 | Exact topical insulin / noninfectious corneal epithelial defects | Broader but heterogeneous clinical evidence; sterile-product differentiation and only $50k base technical headroom. |
 | =2 | Lisdexamfetamine / KCNMA1-N999S | Potentially efficient symptomatic test; published series selected known responders, with pediatric exposure and capture limits. |
 | =4 | APR-246 / AEC erosions | Relevant human useful-control signal; no new adverse finding justified its earlier conversational demotion. |
 | =4 | Enasidenib / IDH2-R140Q D2HGA2 cardiac claim | Direct genotype pharmacology; sparse organ evidence and excluded drug supply can invalidate the small-capital premise. |
 
-These ranks concern plausible next technical milestones within the envelope under central assumptions. Close and tied ranks are fragile; they are not a financial-return ranking or a prediction of Phase II success. **Dornase and mavoglurant** remain strong clinical-evidence alternatives requiring larger capital or a genuinely useful smaller participation package. **Azetukalner** is an advanced clinical benchmark. The [full matrix](../research/phase2-program/ranking-review/screening-matrix.md) shows all 35, raw ranks, holds and sensitivity, including promising preclinical reserves.
+These are the earlier model's conditional technical-screening ranks, retained for traceability. Its $500k filter is no longer the current eligibility rule, and the erlotinib estimate has changed. Do not present this table as a refreshed strict ordering of investment value. Close and tied ranks remain fragile; no candidate has a calibrated financial-return or Phase II-success estimate. **Dornase and mavoglurant** remain strong clinical-evidence alternatives requiring larger capital or a genuinely useful smaller participation package. **Azetukalner** is an advanced clinical benchmark. The [full matrix](../research/phase2-program/ranking-review/screening-matrix.md) shows all 35, raw ranks, holds and sensitivity, including promising preclinical reserves.
+
+## Current erlotinib decision
+
+**Continue evaluating a staged, product-specific program; no full development commitment is justified yet.** A flexible $750k capacity could accommodate either central pilot route, with very different reserves; $1m can buy additional specified risk reduction but does not establish high success or cash-recovery probability. The existing-product route receives cost credit only for demonstrably usable records and supply, and still needs an efficacy bridge to the positive historical ointment. Independent development remains eligible if its incremental control and retained interest justify the extra cost.
+
+The [dossier](../research/phase2-program/erlotinib/README.md) contains human-case lineage, contrary findings, product/exposure and barrier risks, clinical design, 864 conditional design scenarios, rights/competition and staged economics. This focused review does not establish superiority over equally deeply assessed alternatives or justify moving APR-246 based on research recency.
 
 ## Next useful work
 

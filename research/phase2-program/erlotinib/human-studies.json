@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "candidate": "topical_erlotinib_KRT16_painful_plantar_keratoderma",
+  "evidence_cutoff": "2026-11-08",
+  "retrieved_utc_date": "2026-11-09",
+  "unit_rules": [
+    "Counts refer to people unless explicitly described otherwise.",
+    "A foot, photograph, timepoint, assay, paper or press release is not an independent clinical participant.",
+    "Null means not established, not zero.",
+    "Do not sum active-treated values across sequential oral/topical regimens, duplicated reports or mixed routes.",
+    "Do not calculate a pooled response proportion or Phase II-success probability from this ledger."
+  ],
+  "count_summary": {
+    "published_topical_keratinopathy_unique_patients": 4,
+    "published_topical_KRT16_R127C_patients": 2,
+    "published_topical_KRT16_R127C_pedigrees": 1,
+    "published_oral_keratinopathy_unique_patients_in_Greco_and_Basset": 5,
+    "comment": "Oral and topical totals overlap through Greco patients; SGT studies have differing diseases and arm denominators and are not added."
+  },
+  "search_audit": {
+    "searched_sources": [
+      "PubMed",
+      "PMC",
+      "Primary journal full text and conference abstracts",
+      "ClinicalTrials.gov API",
+      "SEC and issuer archives",
+      "Patent Example 13",
+      "Indexed ANZCTR, WHO and Israeli registry domains"
+    ],
+    "ctgov_queries": [
+      {
+        "query": "\"SGT-210\"",
+        "returned_count": 0
+      },
+      {
+        "query": "\"SGT-84\"",
+        "returned_count": 0
+      },
+      {
+        "query": "erlotinib AND (palmoplantar OR Darier OR Olmsted OR pachyonychia)",
+        "returned_count": 1,
+        "included": [
+          "NCT06545695"
+        ]
+      },
+      {
+        "query": "erlotinib AND (topical OR ointment OR gel)",
+        "returned_count": 12,
+        "eligible_topical_erlotinib_keratoderma_count": 0,
+        "exclusions": "Oral oncology and topical treatments for EGFR-inhibitor toxicity"
+      }
+    ],
+    "limits": [
+      "No complete global registry export.",
+      "No unpublished patient-level datasets.",
+      "Some newer oral Olmsted papers only bibliographically accessible.",
+      "No additional independent topical R127C cohort identified, not proof none exists."
+    ]
+  },
+  "studies": [
+    {
+      "id": "lee_2022",
+      "title": "Lee and Lowe: KRT16 palmoplantar keratoderma",
+      "route": "topical",
+      "population": "Hereditary KRT16 c.379C>T p.Arg127Cys palmoplantar keratoderma",
+      "publication_date": "2022-01-05",
+      "study_dates": {
+        "calendar_start": null,
+        "calendar_end": null,
+        "reported_followup_weeks": [
+          60,
+          24
+        ],
+        "figure_last_week": [
+          60,
+          28
+        ]
+      },
+      "design": "Two cases with randomized double-blind opposite-foot periods and uncontrolled bilateral extensions",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": 2,
+        "completed": null,
+        "clinical_patients_reported": 2,
+        "pedigrees": 1
+      },
+      "primary_source_urls": [
+        "https://doi.org/10.1001/jamadermatol.2021.5302",
+        "https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf",
+        "https://doi.org/10.1111/ajd.14044"
+      ],
+      "source_access": "Full two-page primary PDF read; direct URL intermittently fails; indexed full copy accessible. Later conference abstract read.",
+      "observed_claim": "Local morphological improvement during controlled 1% periods; marked pain/function improvement in mother during open bilateral treatment.",
+      "limitations": [
+        "One related pair; neither feet nor repeated periods are independent patients.",
+        "No numeric placebo-foot pain series or paired treatment effect, variance, registration, protocol or randomization method.",
+        "Published phase durations and figure labels disagree.",
+        "Exact compounded formulation, applied mass, later application frequencies, skin exposure and systemic PK missing.",
+        "No complete AE ascertainment or denominator of all patients considered."
+      ],
+      "overlap_group": "lee_mother_son",
+      "duplicate_reports": [
+        "10.1111/ajd.14044 conference abstract: same mother-son cases; not additional patients"
+      ],
+      "patients": [
+        {
+          "id": "mother",
+          "age_years": 66,
+          "sex": "female",
+          "genotype": "KRT16 c.379C>T p.Arg127Cys",
+          "baseline": {
+            "pain_0_to_10": "8-10",
+            "function": "Ambulation restricted",
+            "analgesic": "Daily tapentadol; subsequent cessation not documented"
+          },
+          "phases": [
+            {
+              "reported_duration_weeks": 6,
+              "treatment": "0.1% ointment daily to right foot",
+              "control": "Placebo left foot",
+              "design": "Randomized double-blind opposite-foot; unblinded at week 6",
+              "result": "Minimal improvement active foot"
+            },
+            {
+              "reported_duration_weeks": 12,
+              "treatment": "0.1% erlotinib with 10% salicylic acid cream twice weekly",
+              "control": "Bilateral assignment insufficiently explicit",
+              "design": "Unblinded intermediate phase",
+              "result": "Both feet improved; pain 4-7/10"
+            },
+            {
+              "reported_duration_weeks": 12,
+              "treatment": "1% ointment right foot plus keratolytic",
+              "control": "Placebo left foot plus keratolytic",
+              "design": "Randomized double-blind opposite-foot",
+              "result": "Active foot improved morphologically; active-foot pain 0-3/10; numeric control pain absent"
+            },
+            {
+              "reported_duration_weeks": 28,
+              "treatment": "1% ointment and keratolytic to both feet",
+              "control": null,
+              "design": "Open bilateral extension",
+              "result": "Pain-free soles, free ambulation, swimming; palmar improvement also reported"
+            }
+          ],
+          "figure_timepoints_weeks": [
+            0,
+            6,
+            20,
+            32,
+            60
+          ],
+          "timing_discrepancy": "6+12 implies week18, whereas third photograph is week20. No explanation supplied.",
+          "harms": "No adverse effects reported over 60 weeks; structured AE surveillance not described"
+        },
+        {
+          "id": "son",
+          "age_years": 30,
+          "sex": "male",
+          "genotype": "KRT16 c.379C>T p.Arg127Cys",
+          "phases": [
+            {
+              "reported_duration_weeks": 12,
+              "treatment": "1% ointment left foot and 10% salicylic acid cream; poor keratolytic adherence",
+              "control": "Placebo right foot with prescribed keratolytic",
+              "design": "Randomized double-blind opposite-foot",
+              "result": "Modest active-foot morphological improvement; numeric pain absent"
+            },
+            {
+              "reported_duration_weeks": 12,
+              "treatment": "1% ointment both feet; limited keratolytic use",
+              "control": null,
+              "design": "Bilateral extension",
+              "result": "Gradual improvement"
+            }
+          ],
+          "figure_timepoints_weeks": [
+            0,
+            12,
+            28
+          ],
+          "timing_discrepancy": "Prose 12 + 12 weeks and 24-week safety differ from last photograph at 28 weeks; later meeting abstract 26 weeks.",
+          "harms": "No adverse effects reported over 24 weeks"
+        }
+      ],
+      "decision_role": "Exact-genotype efficacy hypothesis; insufficient for an effect-size or Phase II-success estimate"
+    },
+    {
+      "id": "greco_2022",
+      "title": "Greco et al.: topical then systemic EGFR inhibition",
+      "route": "topical_and_oral_sequential",
+      "population": "Keratin-associated PPK classified as PC by authors",
+      "publication_date": "2022-04-03",
+      "study_dates": {
+        "first_oral_start": "2019-02-08",
+        "patient1_topical_switch": "2019-10",
+        "patient2_topical_start": "2019-07-10",
+        "patient2_oral_start": "2020-02-03",
+        "last_reported_followup": "2022-01"
+      },
+      "design": "Two-person prospective intervention, not registered as clinical trial; one uncontrolled oral-to-topical switch and one treated-versus-untreated foot comparison",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": 2,
+        "completed": null,
+        "clinical_patients_reported": 2,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9028469/",
+        "https://doi.org/10.3390/biomedicines10040841"
+      ],
+      "source_access": "Full primary text read.",
+      "observed_claim": "0.2% cream did not provide adequate sustained control; one person had a partial early foot-pain benefit. Oral treatment provided more benefit but produced dose-limiting skin effects.",
+      "limitations": [
+        "Different formulation, alleles and background treatment from Lee.",
+        "Neither topical phase was blinded vehicle-controlled.",
+        "No LLOQ for reported undetectable topical erlotinib blood concentration.",
+        "Low concentration as cause of inadequate benefit is a hypothesis."
+      ],
+      "overlap_group": "greco_2022_two_cases",
+      "distinct_from": [
+        "lee_2022",
+        "basset_2023"
+      ],
+      "patients": [
+        {
+          "id": "patient1",
+          "age_years": 47,
+          "sex": "male",
+          "genotype": "KRT16 c.374A>G p.Asn125Ser",
+          "phenotype": "Focal PPK without dystrophic nails, oral leukokeratosis, follicular hyperkeratosis or cysts",
+          "topical": "0.2% oil-in-water cream,1 g/foot twice daily after stopping oral 75 mg/day",
+          "topical_result": "Slower plaque regrowth but major pain recurrence; resumed oral",
+          "oral": "75 mg/day initially;100 mg/day produced painful acral cracks; later changed to lapatinib",
+          "oral_harms": "Acneiform eruption and painful fissures with dose escalation"
+        },
+        {
+          "id": "patient2",
+          "age_years": 39,
+          "sex": "male",
+          "genotype": "KRT6A c.516_518del p.Asn172del (as reported)",
+          "phenotype": "Focal PPK, nail dystrophy, oral leukokeratosis and follicular hyperkeratosis",
+          "topical": "0.2% oil-in-water cream,1 g right foot twice daily;left untreated",
+          "topical_result": "At 1 month NRS 4 right versus 7 left; improved debridement but still 2-3 times/month; later plateau prompted oral",
+          "topical_pk": "Residual blood concentration undetectable; LLOQ absent",
+          "oral": "75 mg/day; interrupted after acneiform rash; resumed 25 mg/day",
+          "oral_result": "Pain and walking improved at lower dose",
+          "oral_harms": "Acneiform rash requiring interruption/reduction"
+        }
+      ],
+      "decision_role": "Direct contrary/partial topical evidence; exposure and tolerability warning"
+    },
+    {
+      "id": "sgt84_01",
+      "title": "SGT-84-01 PPK proof of concept",
+      "route": "topical",
+      "population": "Launch specified punctate palmoplantar keratoderma type 1; participant genotypes not published",
+      "publication_date": "2021-06-28",
+      "study_dates": {
+        "initiation_announced": "2020-01-02",
+        "completed_by": "2021-06-28",
+        "planned_treatment_months": 3,
+        "planned_followup_months": 3
+      },
+      "design": "Single-center, single-blind, vehicle-controlled phase1",
+      "counts": {
+        "planned": 15,
+        "enrolled": null,
+        "active_treated": null,
+        "completed": 6,
+        "clinical_patients_reported": 6,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891320000017/exhibit_99-1.htm",
+        "https://ir.sol-gel.com/node/7826",
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891322001534/zk2227637.htm",
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891325001497/zk2533067.htm"
+      ],
+      "source_access": "Primary issuer launch/results and SEC narrative read; full trial report/protocol not recovered.",
+      "observed_claim": "Issuer reported modest improvement and favorable safety at a very low concentration.",
+      "limitations": [
+        "Six completed does not specify active-arm exposure or all enrolled.",
+        "Approximately 15 was a target, not observed enrollment.",
+        "No arm-level efficacy, strength, participant flow, full harms or genotype table recovered.",
+        "Later filings say Q3 2021 although June 28 release already discloses results.",
+        "Punctate PPK type 1 is not interchangeable with Lee KRT16 disease."
+      ],
+      "overlap_group": "sgt84_01_all_updates",
+      "decision_role": "Independent topical clinical experience; modest, poorly quantified result"
+    },
+    {
+      "id": "sgt210_muse",
+      "title": "SGT-210 maximal-use PK healthy-volunteer study",
+      "route": "topical",
+      "population": "Healthy adult volunteers",
+      "publication_date": "2023-05",
+      "study_dates": {
+        "start": "2022-12",
+        "completion": "2023-Q2",
+        "treatment_days": 28
+      },
+      "design": "Single-center, single-blind, parallel two-strength maximal-use study; 12 participants randomized 1:1",
+      "counts": {
+        "planned": null,
+        "enrolled": 12,
+        "active_treated": 12,
+        "completed": 12,
+        "clinical_patients_reported": 12,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891323001854/zk2329723.htm",
+        "https://patents.google.com/patent/US20230390291A1/en"
+      ],
+      "source_access": "Issuer SEC summary read; patent Example 13 independently verified in companion product audit; PC Project public update supplies matching 12-subject, 28-day lineage.",
+      "observed_claim": "3.5% and 5% ointments,28days; issuer reports tolerance and low systemic absorption; patent reports values below assay quantification.",
+      "limitations": [
+        "Not an efficacy study or diseased-plantar-skin exposure study.",
+        "Finite LLOQs, not zero absorption; no inferable exposure-response estimate.",
+        "Short duration and different product/population from Lee."
+      ],
+      "overlap_group": "sgt210_muse_2022_2023",
+      "exposure": {
+        "strength_percent": [
+          3.5,
+          5
+        ],
+        "body_surface_area_percent": 15,
+        "parent_lloq_ng_per_ml": 97.73,
+        "osi420_lloq_ng_per_ml": 9.783,
+        "pk_analysis": "Not conducted because concentrations below quantification"
+      },
+      "harms": "Issuer: most drug-related events mild, all resolved; no safety findings affecting adherence; full AE table not recovered in human audit",
+      "decision_role": "Product-specific short-term tolerability and assay-bounded PK"
+    },
+    {
+      "id": "sgt210_darier",
+      "title": "SGT-210 Darier Phase 1b Stage 1",
+      "route": "topical",
+      "population": "Darier disease",
+      "publication_date": "2025-12-17",
+      "study_dates": {
+        "initiation": "2024-03",
+        "seven_completers_disclosed": "2025-11-20",
+        "unblinding_disclosed": "2025-12-17"
+      },
+      "design": "Vehicle-controlled phase1b; stage1 ended after recruitment difficulties; open-label extension was planned",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": null,
+        "completed": 7,
+        "clinical_patients_reported": 7,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891324001778/exhibit_99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891325003921/exhibit_99-1.htm",
+        "https://ir.sol-gel.com/node/9126",
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm"
+      ],
+      "source_access": "Primary issuer/SEC reports read; raw arm-level data not recovered.",
+      "observed_claim": "No differentiation on efficacy assessments after unblinding; sponsor decided not to advance Darier indication.",
+      "limitations": [
+        "November wording describes seven enrolled completers, without clear total screened/enrolled/active-treated denominators.",
+        "No exact arm sizes, effects, endpoints, confidence intervals or genotype table recovered.",
+        "Negative result in different disease does not establish KRT16 futility or equivalence."
+      ],
+      "overlap_group": "sgt210_darier_2024_2025",
+      "decision_role": "Material topical negative evidence and concrete rare-disease recruitment warning"
+    },
+    {
+      "id": "sgt210_olmsted_compassionate",
+      "title": "SGT-210 pediatric compassionate case",
+      "route": "topical",
+      "population": "Pediatric Olmsted syndrome; genotype not disclosed",
+      "publication_date": "2024_to_2026_issuer_updates",
+      "study_dates": {
+        "calendar_start": null,
+        "calendar_end": null
+      },
+      "design": "Uncontrolled compassionate use",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": 1,
+        "completed": null,
+        "clinical_patients_reported": 1,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm",
+        "https://www.sol-gel.com/pipeline/"
+      ],
+      "source_access": "Primary issuer updates read; peer-reviewed case report not found.",
+      "observed_claim": "Improvement in facial and hand hyperkeratosis, pain and itching reported by issuer.",
+      "limitations": [
+        "Age, genotype, strength, mass, duration, baseline, standardized outcomes and harms absent.",
+        "Different phenotype/anatomic sites from painful KRT16 plantar disease.",
+        "Repeated updates are one case; requests for use in other conditions are not treated participants."
+      ],
+      "overlap_group": "sgt210_olmsted_child",
+      "decision_role": "Very low-certainty topical transportability anecdote"
+    },
+    {
+      "id": "basset_2023",
+      "title": "Basset et al.: EGFR signaling and oral PC treatment",
+      "route": "oral",
+      "population": "Genetically defined PC: KRT16 and KRT6A",
+      "publication_date": "2022-09-16",
+      "study_dates": {
+        "calendar_start": null,
+        "calendar_end": null,
+        "treated_duration_months": [
+          8,
+          6,
+          6
+        ],
+        "issue": "2023-02"
+      },
+      "design": "Three treated cases from two pedigrees;fourth participant contributes disease material but not treatment",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": 3,
+        "completed": null,
+        "clinical_patients_reported": 3,
+        "pedigrees": 2
+      },
+      "primary_source_urls": [
+        "https://doi.org/10.1016/j.jid.2022.08.045",
+        "https://www.jidonline.org/article/S0022202X2201898X/pdf",
+        "https://www.pachyonychia.org/wp-content/uploads/2022/05/2022IPCCProgramBook-FootprintsFinalEmail.pdf"
+      ],
+      "source_access": "Full primary paper and supplementary clinical table read; earlier symposium summary read.",
+      "observed_claim": "Uncontrolled pain, function and quality-of-life improvements with daily oral erlotinib.",
+      "limitations": [
+        "No vehicle/control arm or blinded assessment.",
+        "Patient-reported foot-function index is not an objective ambulatory measure or PC-specific endpoint validation.",
+        "Timepoints and bilateral feet are not additional patients.",
+        "Does not establish topical delivery or benefit."
+      ],
+      "overlap_group": "basset_oral_pc_2022_2023",
+      "distinct_from": [
+        "lee_2022",
+        "greco_2022"
+      ],
+      "duplicate_reports": [
+        "2022 IPCC symposium presentation",
+        "2022 ESDR abstract DOI 10.1016/j.jid.2022.09.275"
+      ],
+      "patients": [
+        {
+          "id": "P1",
+          "age_years": 43,
+          "sex": "male",
+          "genotype": "KRT16 c.362T>A p.Met121Lys",
+          "daily_oral_mg": 75,
+          "duration_months": 8,
+          "ffi_baseline_percent": 74,
+          "ffi_month6_percent": 11.75,
+          "mean_trough_ng_per_ml": 781
+        },
+        {
+          "id": "P2",
+          "age_years": 52,
+          "sex": "female",
+          "genotype": "KRT6A c.1403T>C p.Leu468Pro",
+          "daily_oral_mg": 50,
+          "duration_months": 6,
+          "ffi_baseline_percent": 50,
+          "ffi_month6_percent": 7.64,
+          "mean_trough_ng_per_ml": 225
+        },
+        {
+          "id": "P3",
+          "age_years": 24,
+          "sex": "male",
+          "genotype": "KRT6A c.1403T>C p.Leu468Pro",
+          "daily_oral_mg": 50,
+          "duration_months": 6,
+          "ffi_baseline_percent": 74,
+          "ffi_month6_percent": 21.76,
+          "mean_trough_ng_per_ml": 388
+        }
+      ],
+      "untreated_research_participant": {
+        "id": "P4",
+        "age_years": 44,
+        "sex": "female",
+        "genotype": "KRT16 p.Leu132Pro"
+      },
+      "harms": "Moderate acneiform lesions inP1 and P3; topical 5% benzoyl peroxide and oral doxycycline100 mg/day forP3 used",
+      "decision_role": "Independent oral pharmacology and endpoint precedent; not topical replication"
+    },
+    {
+      "id": "giusto_2026_o16",
+      "title": "BJD O16: Erlotinib in pachyonychia congenita",
+      "route": "not_specified_for_clinical_anecdotes",
+      "population": "PC anecdotes; one KRT16 pre/post callus",
+      "publication_date": "2026-06-23",
+      "study_dates": {
+        "callus_followup_months": 4,
+        "calendar_start": null,
+        "calendar_end": null
+      },
+      "design": "Mechanistic cell/callus abstract with background clinical anecdotes",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": null,
+        "completed": null,
+        "clinical_patients_reported": null,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://doi.org/10.1093/bjd/ljag151.016",
+        "https://academic.oup.com/bjd/article-abstract/195/1/ljag151.016/8713979"
+      ],
+      "source_access": "Full abstract read; no individual clinical ledger supplied.",
+      "observed_claim": "Mentions anecdotal clinical benefit in six patients and analyzes one pre/post-treatment callus sample.",
+      "limitations": [
+        "Route and individual clinical histories insufficiently specified.",
+        "Six cannot be added to earlier case series without linkage.",
+        "Not a six-person controlled clinical study."
+      ],
+      "anecdotal_count_mentioned": 6,
+      "overlap_group": "unresolved_pc_anecdotes",
+      "decision_role": "Mechanistic support and lead for later data diligence; excluded from independent efficacy count"
+    },
+    {
+      "id": "nct06545695",
+      "title": "Epidermal Growth Factor Receptor Inhibition for Keratinopathies",
+      "route": "oral",
+      "population": "Adults with PC, epidermolytic ichthyosis or specified PPK",
+      "publication_date": "2024_registry_first_posting",
+      "study_dates": {
+        "latest_update": "2026-08-03",
+        "status_verified": "2026-07",
+        "estimated_start": "2027-07-01",
+        "estimated_completion": "2031-06-30"
+      },
+      "design": "Open-label single-arm Phase 1/2; 8-week baseline; 24-week escalation 50/75/100 mg; extension",
+      "counts": {
+        "planned": 44,
+        "enrolled": null,
+        "active_treated": null,
+        "completed": null,
+        "clinical_patients_reported": null,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://clinicaltrials.gov/study/NCT06545695",
+        "https://clinicaltrials.gov/api/v2/studies/NCT06545695"
+      ],
+      "source_access": "Primary ClinicalTrials.gov API retrieved directly on 9 November 2026.",
+      "observed_claim": "Not yet recruiting; no posted results.",
+      "limitations": [
+        "44 is estimated enrollment, not observed participants.",
+        "Oral, mixed genotypes, open-label; not topical randomized evidence."
+      ],
+      "registry_status": "NOT_YET_RECRUITING",
+      "overlap_group": "nct06545695",
+      "decision_role": "Future evidence and recruitment context; no efficacy contribution"
+    },
+    {
+      "id": "oral_olmsted_recent_sources",
+      "title": "Recent oral Olmsted reports: source-access ledger",
+      "route": "oral",
+      "population": "TRPV3/MBTPS2 Olmsted; different from KRT16",
+      "publication_date": "2025_to_2026",
+      "study_dates": {
+        "calendar_start": null,
+        "calendar_end": null
+      },
+      "design": "Case reports/series; not pooled",
+      "counts": {
+        "planned": null,
+        "enrolled": null,
+        "active_treated": null,
+        "completed": null,
+        "clinical_patients_reported": null,
+        "pedigrees": null
+      },
+      "primary_source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40615090/",
+        "https://pubmed.ncbi.nlm.nih.gov/41362860/",
+        "https://pubmed.ncbi.nlm.nih.gov/40859917/",
+        "https://doi.org/10.1016/j.abd.2026.501313",
+        "https://doi.org/10.1093/ced/llae447"
+      ],
+      "source_access": "PMID 40615090 bibliographic record, no abstract/full clinical tables recovered; PMID 41362860 title/metadata; PMID 40859917 metadata; 2026 pediatric combination primary text indexed and read; 2025 CED primary case excerpt read.",
+      "observed_claim": "Additional human oral experience exists, including combination treatment. No aggregate efficacy estimate extracted.",
+      "limitations": [
+        "Do not infer positive findings from bibliographic titles alone.",
+        "Individual deduplication incomplete across oral Olmsted literature.",
+        "Combination treatment cannot isolate erlotinib contribution.",
+        "2026 pediatric paper intro saysstart age 5 while case text says 4."
+      ],
+      "overlap_group": "oral_olmsted_not_deduplicated_for_pooling",
+      "decision_role": "Transportability context and disclosed access limits; no topical efficacy count"
+    }
+  ],
+  "population_context": {
+    "scope": "Historical registry and analytic denominators only; not intervention studies or additional treated patients.",
+    "genotype": "KRT16 c.379C>T p.Arg127Cys",
+    "denominators": [
+      {
+        "id": "ipcrr_jan2018",
+        "snapshot": "2018-01",
+        "individuals": 60,
+        "families": 20,
+        "type": "Historical registry mutation count",
+        "primary_source_url": "https://www.pachyonychia.org/upload/GRAPHS/IPCRRMutations.pdf",
+        "source_access": "Indexed primary-PDF text verified by market reviewer; direct download timed out; not visually inspected."
+      },
+      {
+        "id": "wu_jan2020",
+        "snapshot": "2020-01",
+        "individuals": 13,
+        "families": null,
+        "type": "Genotype-plus-survey analytic sample",
+        "primary_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8922998/",
+        "source_access": "Full primary article read. Whole sample 714; KRT16 sample 61; exact reconciliation to broader registry not provided."
+      },
+      {
+        "id": "ipcrr_jan2021",
+        "snapshot": "2021-01",
+        "individuals": 88,
+        "families": 33,
+        "type": "Historical registry mutation count",
+        "primary_source_url": "https://www.pachyonychia.org/wp-content/uploads/2018/10/IPCRRMutations.pdf",
+        "source_access": "Independently read indexed primary-PDF title January 2021 and c.379C>T/R127C row on 9 November 2026; URL 2018 path is not snapshot date; not visually inspected."
+      }
+    ],
+    "limitations": [
+      "Overlapping historical populations; do not sum.",
+      "None is a current recruitable or eligible patient count.",
+      "The different survey/registry denominators are not reconciled by a participant-flow account.",
+      "These observations do not change any clinical treatment count."
+    ]
+  }
+}

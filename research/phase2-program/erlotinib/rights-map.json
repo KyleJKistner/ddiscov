@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "candidate": "R26-LOC-01",
+  "review_date_utc": "2026-11-09",
+  "target_use": "Defined topical erlotinib in adults with KRT16 p.Arg127Cys painful palmoplantar keratoderma and specified background care",
+  "conclusion": "Continue technical diligence with material retained-value discount; no freedom-to-operate or rights-availability conclusion",
+  "evidence_rules": {
+    "claims": "Claims summarized from published documents; pending amended claims not accessed.",
+    "status": "Google Patents status is a non-authoritative mirror unless expressly identified otherwise.",
+    "title": "Applicants and displayed assignees are not verified current owners or license holders.",
+    "terms": "Illustrative dates only; no maintenance, revival, terminal-disclaimer or full PTA/PTE audit.",
+    "territorial_coverage": "US/EP/AU focused screening, not exhaustive family or formulation search.",
+    "official_access": "USPTO grant facsimiles retrieved and claim pages checked. EPO official register returned HTTP 403; AU official register returned HTTP 503."
+  },
+  "families": [
+    {
+      "id": "solgel_skin_formulation",
+      "earliest_claimed_priority": "2018-12-25",
+      "named_applicant": "Sol-Gel Technologies Ltd.",
+      "documents": [
+        {
+          "publication": "US11633399B2",
+          "application": "US16/737503",
+          "filing_date": "2020-01-08",
+          "publication_date": "2023-04-25",
+          "kind": "grant",
+          "displayed_status": "Active",
+          "claims_accessed": true,
+          "official_grant_accessed": true,
+          "source": "https://patents.google.com/patent/US11633399B2/en",
+          "official_source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11633399"
+        },
+        {
+          "publication": "WO2020136650A1",
+          "application": "PCT/IL2019/051410",
+          "filing_date": "2019-12-25",
+          "kind": "PCT publication",
+          "claims_accessed": false,
+          "source": "https://patents.google.com/patent/WO2020136650A1/en"
+        },
+        {
+          "publication": "EP3902524A4",
+          "application": "EP19902573.5",
+          "kind": "EP search-report publication",
+          "displayed_status": "Withdrawn",
+          "claims_accessed": false,
+          "official_status_verified": false,
+          "source": "https://patents.google.com/patent/EP3902524A4/en"
+        },
+        {
+          "publication": "US20210346380A1",
+          "application": "US17/352322",
+          "filing_date": "2021-06-20",
+          "publication_date": "2021-11-11",
+          "kind": "application",
+          "displayed_status": "Abandoned",
+          "claims_accessed": false,
+          "source": "https://patents.google.com/patent/US20210346380A1/en"
+        },
+        {
+          "publication": "US20230390291A1",
+          "application": "US18/453355",
+          "filing_date": "2023-08-22",
+          "publication_date": "2023-12-07",
+          "kind": "application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/US20230390291A1/en"
+        }
+      ],
+      "claim_findings": [
+        {
+          "document": "US11633399B2",
+          "claims": "1-21",
+          "scope": "Psoriasis methods, approximately 3-10% erlotinib/salt; specification broader than granted claims.",
+          "target_relevance": "Does not establish a blanket PPK grant."
+        },
+        {
+          "document": "US20230390291A1",
+          "claims": "1,19",
+          "scope": "Non-melanoma skin cancer methods.",
+          "target_relevance": "Not the only independent claims."
+        },
+        {
+          "document": "US20230390291A1",
+          "claims": "11-18",
+          "scope": "Independent claim 11: topical 3.5-7.5% erlotinib/salt composition with reduced-cutaneous-toxicity functionality; dependents add absorption/water/form features.",
+          "target_relevance": "High-strength reformulation issue, separate from historical1% article."
+        }
+      ],
+      "term_assumption": "Principal PCT filing 2019-12-25 suggests nominal 2039 horizon before adjustments; no legal expiry conclusion.",
+      "au_member": "Not identified in reviewed family table; not an absence finding.",
+      "critical_next_fact": "Latest 18/453355 claims/prosecution, continuity, title and applicability of composition functionality."
+    },
+    {
+      "id": "solgel_debridement",
+      "earliest_claimed_priority": "2019-11-06",
+      "named_applicant": "Sol-Gel Technologies Ltd.",
+      "documents": [
+        {
+          "publication": "US20220062285A1",
+          "application": "US17/521884",
+          "filing_date": "2021-11-09",
+          "publication_date": "2022-03-03",
+          "kind": "application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/US20220062285A1/en"
+        },
+        {
+          "publication": "WO2021090322A1",
+          "application": "PCT/IL2020/051153",
+          "filing_date": "2020-11-05",
+          "publication_date": "2021-05-14",
+          "kind": "PCT publication",
+          "displayed_status": "Ceased",
+          "claims_accessed": false,
+          "source": "https://patents.google.com/patent/WO2021090322A1/en"
+        },
+        {
+          "publication": "WO2023084515A1",
+          "application": "PCT/IL2022/051196",
+          "filing_date": "2022-11-09",
+          "publication_date": "2023-05-19",
+          "kind": "related PCT publication",
+          "displayed_status": "Ceased",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/WO2023084515A1/en"
+        },
+        {
+          "publication": "EP4054526A4",
+          "application": "EP20884402.7",
+          "kind": "EP search-report publication",
+          "displayed_status": "Withdrawn",
+          "displayed_event": "Deemed withdrawn effective 2023-11-28; published 2024-04-24",
+          "official_status_verified": false,
+          "claims_accessed": false,
+          "source": "https://patents.google.com/patent/EP4054526A4/en"
+        }
+      ],
+      "claim_findings": [
+        {
+          "document": "US20220062285A1",
+          "claims": "1,4,11-13,17,21-24,28,35-37",
+          "scope": "PPK/Olmsted debridement then topical EGFR inhibitor; dependent chemical/mechanical methods, salicylic acid/urea, erlotinib and various forms.",
+          "target_relevance": "Highest adult background-care method-claim diligence priority."
+        },
+        {
+          "document": "WO2023084515A1",
+          "claims": "1-2",
+          "scope": "Olmsted debridement; separately PPK/Olmsted oral-EGFR debridement then topical EGFR inhibitor.",
+          "target_relevance": "Later PCT scope does not narrow earlier US claims automatically."
+        }
+      ],
+      "term_assumption": "Principal PCT filing 2020-11-05 suggests nominal 2040 horizon; no grant/current enforceability or expiry conclusion.",
+      "au_member": "Not identified in reviewed family table; not an absence finding.",
+      "critical_next_fact": "Latest 17/521884 claims/prosecution; define whether planned background care satisfies claimed debridement sequence."
+    },
+    {
+      "id": "french_egfr_keratoderma",
+      "earliest_claimed_priority": "2018-10-04",
+      "named_applicants": [
+        "INSERM",
+        "Assistance Publique-Hopitaux de Paris",
+        "Universite de Paris",
+        "Fondation Imagine",
+        "Universite Paris-Sud"
+      ],
+      "title_note": "Later mirrors use updated university names. Current chain of title and licenses unverified.",
+      "documents": [
+        {
+          "publication": "WO2020070239A1",
+          "application": "PCT/EP2019/076803",
+          "filing_date": "2019-10-03",
+          "publication_date": "2020-04-09",
+          "kind": "PCT publication",
+          "displayed_status": "Ceased",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/WO2020070239A1/en"
+        },
+        {
+          "publication": "US12491186B2",
+          "application": "US17/281745",
+          "publication_date": "2025-12-09",
+          "kind": "grant",
+          "displayed_status": "Active",
+          "claims_accessed": true,
+          "official_grant_accessed": true,
+          "source": "https://patents.google.com/patent/US12491186B2/en",
+          "official_source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12491186"
+        },
+        {
+          "publication": "US20260232667A1",
+          "application": "US19/409203",
+          "filing_date": "2025-12-04",
+          "publication_date": "2026-08-13",
+          "kind": "continuation application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/US20260232667A1/en"
+        },
+        {
+          "publication": "EP3860608A1",
+          "application": "EP19779903.4",
+          "publication_date": "2021-08-11",
+          "kind": "application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "official_status_verified": false,
+          "source": "https://patents.google.com/patent/EP3860608A1/en"
+        },
+        {
+          "publication": "AU2019352741A1",
+          "application": "AU2019352741",
+          "publication_date": "2021-05-06",
+          "kind": "application",
+          "displayed_status": "Abandoned",
+          "displayed_event": "2023-10-05 lapse section 142(2)(a): no timely examination request",
+          "claims_accessed": true,
+          "official_status_verified": false,
+          "source": "https://patents.google.com/patent/AU2019352741A1/en"
+        }
+      ],
+      "claim_findings": [
+        {
+          "document": "US12491186B2",
+          "claims": "1-11",
+          "scope": "Independent claim 1: Olmsted+TRPV3 mutation+erythromelalgia; dependent claim 9 topical.",
+          "target_relevance": "Does not describe ordinary KRT16 adult cohort."
+        },
+        {
+          "document": "US20260232667A1",
+          "claims": "1-11",
+          "scope": "Independent claim 1: Olmsted+TRPV3; no erythromelalgia prerequisite; dependent claim 9 topical.",
+          "target_relevance": "Still phenotype/genotype-limited in inspected publication."
+        },
+        {
+          "document": "EP3860608A1/AU2019352741A1",
+          "claims": "1-12",
+          "scope": "Published broad keratoderma methods with EGFR inhibitor; topical dependent12.",
+          "target_relevance": "Latest EP prosecution and AU loss/revival status remain unresolved."
+        }
+      ],
+      "term_assumption": "Principal PCT2019-10-03; US grant cover records 794 days PTA. Mirror adjusted date 2041-12-05, not verified enforceability horizon.",
+      "critical_next_fact": "Current EP claims and continuation chain; AU official lapse/revival; USmaintenance and title."
+    },
+    {
+      "id": "french_ctrs_pediatric_topical",
+      "earliest_claimed_priority": "2020-04-07",
+      "named_applicants": [
+        "Laboratoires C.T.R.S.",
+        "Assistance Publique-Hopitaux de Paris",
+        "INSERM",
+        "Fondation Imagine",
+        "Universite Paris Cite",
+        "Universite Paris Saclay"
+      ],
+      "documents": [
+        {
+          "publication": "WO2021204843A1",
+          "application": "PCT/EP2021/059008",
+          "filing_date": "2021-04-07",
+          "publication_date": "2021-10-14",
+          "kind": "PCT publication",
+          "displayed_status": "Ceased",
+          "claims_accessed": false,
+          "source": "https://patents.google.com/patent/WO2021204843A1/en"
+        },
+        {
+          "publication": "US20230149405A1",
+          "application": "US17/916904",
+          "publication_date": "2023-05-18",
+          "kind": "application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "source": "https://patents.google.com/patent/US20230149405A1/en"
+        },
+        {
+          "publication": "EP4132532A1",
+          "application": "EP21716217.1",
+          "publication_date": "2023-02-15",
+          "kind": "application",
+          "displayed_status": "Pending",
+          "claims_accessed": true,
+          "official_status_verified": false,
+          "source": "https://patents.google.com/patent/EP4132532A1/en"
+        }
+      ],
+      "claim_findings": [
+        {
+          "document": "US20230149405A1",
+          "claims": "16-32",
+          "scope": "Independent claim 16: topical 0.01-10% erlotinib for keratoderma in humans under 15; claims 1-15 canceled in publication.",
+          "target_relevance": "Pediatric expansion issue; adult cohort differs."
+        },
+        {
+          "document": "US20230149405A1",
+          "claims": "33-35",
+          "scope": "Independent claim 33: woven/nonwoven support with 0.001-2% erlotinib; dependent claim 35 dressing/patch/glove/sock.",
+          "target_relevance": "Drug-loaded support issue separate fromage-limited method."
+        }
+      ],
+      "term_assumption": "PCT 2021-04-07 suggests nominal 2041 horizon before adjustments; no legal expiry conclusion.",
+      "au_member": "Not identified in reviewed family table; not an absence finding.",
+      "critical_next_fact": "Current US/EP claims, title/license chain, support-device applicability."
+    },
+    {
+      "id": "georgetown_prior_art",
+      "earliest_claimed_priority": "2008-01-18",
+      "named_applicant": "Georgetown University",
+      "documents": [
+        {
+          "publication": "WO2009091889A1",
+          "application": "PCT/US2009/031101",
+          "filing_date": "2009-01-15",
+          "publication_date": "2009-07-23",
+          "kind": "PCT publication",
+          "displayed_status": "Ceased",
+          "claims_accessed": false,
+          "description_accessed": true,
+          "source": "https://patents.google.com/patent/WO2009091889A1/en"
+        }
+      ],
+      "claim_findings": [],
+      "description_finding": "EGFR inhibitors for genetic keratinization disorders including PPK and topical forms disclosed well before this project.",
+      "target_relevance": "Prior-art lead limiting broad new use ownership thesis; no national grant identified in reviewed table, not clearance.",
+      "critical_next_fact": "National-family verification if independent patentability/clearance search proceeds."
+    }
+  ],
+  "orphan_records": [
+    {
+      "jurisdiction": "US",
+      "record": "1087425",
+      "drug": "erlotinib",
+      "indication": "treatment of pachyonychia congenita",
+      "designation_date": "2025-07-31",
+      "sponsor": "Alembic Pharmaceuticals Inc.",
+      "status": "Designated; Not FDA Approved for Orphan Indication",
+      "route": "Not stated",
+      "current_exclusivity_established": false,
+      "source": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1087425"
+    },
+    {
+      "jurisdiction": "EU",
+      "record": "EU/3/22/2668",
+      "drug": "erlotinib",
+      "indication": "Treatment of pachyonychia congenita",
+      "designation_date": "2022-07-18",
+      "sponsor": "Imagine Institut Des Maladies Genetiques Necker Enfants Malades",
+      "status": "Positive orphan designation",
+      "sponsor_history": [
+        "2022-11 Imagine to Laboratoires C.T.R.S.",
+        "2024-04 Laboratoires C.T.R.S. to Imagine"
+      ],
+      "current_exclusivity_established": false,
+      "source": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-22-2668"
+    }
+  ],
+  "product_data_control": {
+    "historical_article": "Lee 0.1% then 1% ointment; exact bridge owned by human/CMC workstreams.",
+    "sgt210": "Sol-Gel issuer continues new-indication feasibility after Darier vehicle-controlled failure; actual article equivalence and reference rights unavailable.",
+    "rights_not_verified": [
+      "clinical supply",
+      "manufacturing know-how",
+      "regulatory right of reference",
+      "raw clinical/toxicology data",
+      "exclusive field rights",
+      "commercial patent licenses",
+      "ownership of new study outputs"
+    ],
+    "sources": [
+      "https://www.sol-gel.com/pipeline/",
+      "https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm"
+    ]
+  },
+  "regulatory_assumptions": {
+    "US_route": "IND then potentially 505(b)(2), subject to scientifically justified listed-drug/public-literature bridge and new topical/indication evidence.",
+    "IND_exemption": "Approval-directed new-indication intent incompatible with routine 312.2(b)(1) exemption premise; no exemption assumed.",
+    "orphan_exclusivity": "Designation is not approval; first-approval/same-drug-use/clinical-superiority questions unresolved. Formulation change does not automatically create a different active moiety.",
+    "three_year_exclusivity": "Potential qualifying approval-essential sponsored new clinical investigations excluding bioavailability; not automatic from 505(b)(2).",
+    "AU_route": "CTN or CTA as appropriate with Australian sponsor/HREC/institutional approval; notification is not TGA trial-data review.",
+    "sources": [
+      "https://www.fda.gov/media/124848/download",
+      "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/determining-whether-submit-anda-or-505b2-application-0",
+      "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements",
+      "https://www.fda.gov/media/72246/download",
+      "https://www.fda.gov/media/119757/download",
+      "https://www.fda.gov/industry/designating-orphan-product-drugs-and-biological-products/frequently-asked-questions-faq-about-designating-orphan-product",
+      "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol5/pdf/CFR-2025-title21-vol5-sec314-108.pdf",
+      "https://www.tga.gov.au/products/unapproved-therapeutic-goods/access-pathways/clinical-trials/clinical-trial-notification-ctn-scheme"
+    ]
+  },
+  "rank_impact": {
+    "clinical_probability": "No numerical change estimated by this rights review.",
+    "investment_value": "Material discount until adequate product/data/commercial interest is plausible under complete cost model.",
+    "strongest_failure_scenario": "Only adequate article controlled elsewhere plus relevant blocking claims/exclusivity and no strong retained interest: positive trial may generate little private cash value.",
+    "plausible_structures": [
+      "existing article field license/option with data reference",
+      "jointly funded genotype study with defined downstream interest",
+      "independent differentiated product with owned data and protectable implementation"
+    ],
+    "offers_observed": false,
+    "outreach_performed": false
+  }
+}

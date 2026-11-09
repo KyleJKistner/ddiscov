@@ -4,15 +4,16 @@ Ten coordinator teams investigate different routes to a promising drug-developme
 
 **First pass completed, 8 November 2026:** all ten coordinators and twenty workers ran in five waves. Their findings and unresolved next actions are recorded below. No agents continue running as a background service after the session.
 
-**Planning envelope:** approximately $500,000. This is a constraint, not a spending target or an authorization. Maximum acceptable cumulative loss, minimum reserve, liquidity horizon and follow-on funding remain unresolved. The objective is a high probability of recovering invested cash with a return; no current first-pass analysis establishes that outcome.
+**Budget clarification:** approximately $500,000 is a reference, not a strict cap. Compare larger commitments by their incremental evidence, retained value and downside; no spending is authorized. Earlier $500k-filtered screening results remain dated scenarios. Maximum acceptable cumulative loss, minimum reserve, liquidity horizon and follow-on funding remain unresolved. The objective is a high probability of recovering invested cash with a return; no current first-pass analysis establishes that outcome.
 
 ## Read only what the task needs
 
-1. [Current 35-candidate ranked review](ranking-review/README.md) — provisional shortlist, matched evidence/cost estimates, sensitivity and full matrix; [first-pass synthesis](synthesis.md) preserves the earlier team integration.
-2. [Phase II evidence standard](phase2-evidence-standard.md) — event definitions, historical anchors and nomination gates.
-3. [Team registry](registry.json) — assignments, actual agent identities, completion states and next actions.
-4. [Coordinator brief](TEAM-BRIEF.md) and [candidate template](candidate-template.md) — reusable instructions.
-5. [APR ranking audit](apr-ranking-audit.md) — correction of ranking drift, matched local-development comparison and limits of the first pass.
+1. [Topical-erlotinib deep review](erlotinib/README.md) — current focused dossier, independent challenges, clinical simulations and flexible-budget economics.
+2. [35-candidate screening baseline](ranking-review/README.md) — provisional shortlist, matched evidence/cost estimates, sensitivity and full matrix; [first-pass synthesis](synthesis.md) preserves the earlier team integration.
+3. [Phase II evidence standard](phase2-evidence-standard.md) — event definitions, historical anchors and nomination gates.
+4. [Team registry](registry.json) — assignments, actual agent identities, completion states and next actions.
+5. [Coordinator brief](TEAM-BRIEF.md) and [candidate template](candidate-template.md) — reusable instructions.
+6. [APR ranking audit](apr-ranking-audit.md) — correction of ranking drift, matched local-development comparison and limits of the first pass.
 
 The [current opportunities](../../decisions/current-shortlist.md) remain the active decision source. The [selection policy](../../decisions/selection-policy.md) governs financial comparison. This focused review supplements the Round 26 evidence base; it does not silently refresh every historical source or replace the broad marginal-capital objective.
 

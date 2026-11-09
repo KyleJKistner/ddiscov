@@ -1,0 +1,670 @@
+{
+  "candidate_id": "R26-LOC-01",
+  "decision_date": "2026-11-08",
+  "source_review_utc": "2026-11-09",
+  "currency": "USD",
+  "status": "Research estimates only; no offers, spending, recruitment or inquiries",
+  "scope": "Topical erlotinib for painful KRT16 p.Arg127Cys PPK; small controlled decision pilot, not a powered Phase II or registration package",
+  "minimum_reserve": null,
+  "maximum_tolerable_loss": null,
+  "cash_recovery_horizon": null,
+  "source_observations": [
+    {
+      "id": "S1",
+      "url": "https://www.pachyonychia.org/upload/GRAPHS/IPCRRMutations.pdf",
+      "document_date": "2018-01",
+      "population": "historical IPCRR KRT16 R127C",
+      "individuals": 60,
+      "families": 20,
+      "retrieval": "Indexed primary PDF text; direct PDF download timed out",
+      "limitation": "Not current contactable, eligible or paying population; discrepancy versus Wu analytic sample unresolved"
+    },
+    {
+      "id": "S1b",
+      "url": "https://www.pachyonychia.org/wp-content/uploads/2018/10/IPCRRMutations.pdf",
+      "document_date": "2021-01",
+      "population": "historical genetically confirmed IPCRR KRT16 R127C",
+      "individuals": 88,
+      "families": 33,
+      "all_registry_individuals": 1038,
+      "all_registry_families": 547,
+      "retrieval": "Indexed primary PDF table and document title; direct download timed out",
+      "limitation": "URL path2018 is not document date; not current eligible or paying population; does not resolve Wu analytic selection"
+    },
+    {
+      "id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8922998/",
+      "dataset_date": "2020-01",
+      "population": "genotype and standardized-survey analytic sample",
+      "total": 714,
+      "KRT16": 61,
+      "R127C": 13,
+      "verification": "Full-text counts/methods checked by human-evidence workstream",
+      "limitation": "No exclusion flow reconciling 13 with historical60; not current eligible population ceiling"
+    },
+    {
+      "id": "S3",
+      "url": "https://fliphtml5.com/eatwj/PC26-ImpactReportV2-1/",
+      "dataset_date": "2026-10-08",
+      "patients_connected": 3212,
+      "participants_completed_genetic_evaluations": 1849,
+      "countries": 72,
+      "limitation": "Different cumulative registry categories, not current R127C count or payable market"
+    },
+    {
+      "id": "S6",
+      "url": "https://clinicaltrials.gov/study/NCT05180708",
+      "actual_enrollment": 87,
+      "result": "VAPAUS Phase3 primary activities-difficulty endpoint failed according to July2023 issuer release",
+      "limitation": "No inference that different mechanism must fail"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/km-001-cream-for-the-treatment-of-adult-patients-with-pppk1-and-pc/",
+      "population": "UK KM001-B1B adults PC/PPPK1",
+      "treated": 17,
+      "duration_weeks": [
+        12,
+        16
+      ],
+      "design": "Open label",
+      "limitation": "Overlaps issuer global cohorts; do not sum"
+    },
+    {
+      "id": "S9",
+      "url": "https://clinicaltrials.gov/study/NCT07893483",
+      "record_last_posted": "2026-10-26",
+      "intervention": "Oral KM023",
+      "enrollment_estimated": 10,
+      "status": "NOT_YET_RECRUITING",
+      "start_estimated": "2026-12",
+      "limitation": "Planned dates not accomplished work"
+    },
+    {
+      "id": "S12",
+      "url": "https://clinicaltrials.gov/study/NCT06545695",
+      "record_last_posted": "2026-08-03",
+      "intervention": "Oral erlotinib",
+      "enrollment_estimated": 44,
+      "status": "NOT_YET_RECRUITING",
+      "start_estimated": "2027-07",
+      "limitation": "Not topical independent efficacy evidence"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1087425",
+      "designation_date": "2025-07-31",
+      "sponsor": "Alembic Pharmaceuticals Inc.",
+      "route": null,
+      "approval_status": "Not FDA Approved for Orphan Indication"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-22-2668",
+      "sponsor": "Imagine Institut Des Maladies Genetiques Necker Enfants Malades",
+      "transfer_back_from_CTRS": "2024-04",
+      "limitation": "Designation is not approval or proof of route-specific control"
+    },
+    {
+      "id": "S15",
+      "url": "https://precision.fda.gov/ginas/app/ui/substances/6b3760f2-0e6a-4372-bb2c-39860be41ce6",
+      "compound": "KM-001",
+      "UNII": "D5834H4GSQ",
+      "finding": "Maps exact EMA2024 chemical name to KM-001; do not count as a separate competitor"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm",
+      "finding": "Sol-Gel2025 annual report; SGT210 Darier vehicle differentiation failed, indication stopped; other small feasibility studies considered"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1684693/000117891326004205/exhibit_99-1.htm",
+      "publication_date": "2026-08-20",
+      "finding": "SGT610-focused strategic priorities; not a priced SGT210 opportunity"
+    }
+  ],
+  "scenario_order": [
+    "low",
+    "base",
+    "high"
+  ],
+  "cost_basis": "Analyst planning estimates reconciled with product and clinical-design workstreams; no vendor quotes or partner offers",
+  "contingency_fraction": [
+    0.15,
+    0.2,
+    0.25
+  ],
+  "common_costs": {
+    "sites_visits_contacts_travel": [
+      65000,
+      115000,
+      230000
+    ],
+    "clinical_sample_handling_analysis": [
+      20000,
+      35000,
+      70000
+    ],
+    "data_endpoint_review_statistics": [
+      15000,
+      25000,
+      50000
+    ],
+    "regulatory": [
+      15000,
+      25000,
+      50000
+    ],
+    "ethics_insurance_safety_administration": [
+      10000,
+      15000,
+      30000
+    ],
+    "ip_and_agreement_counsel": [
+      10000,
+      20000,
+      40000
+    ],
+    "access_option_upfront_allowance": [
+      0,
+      25000,
+      100000
+    ],
+    "sponsor_coordination_medical_oversight": [
+      15000,
+      25000,
+      50000
+    ],
+    "entity_accounting_administration": [
+      5000,
+      10000,
+      20000
+    ]
+  },
+  "product_costs": {
+    "conditional_transfer": [
+      45000,
+      90000,
+      180000
+    ],
+    "independent_qualification": [
+      110000,
+      225000,
+      460000
+    ]
+  },
+  "independent_cmc_modules": {
+    "identity_dossier_transfer": [
+      15000,
+      30000,
+      60000
+    ],
+    "qualification": [
+      35000,
+      70000,
+      140000
+    ],
+    "delivery_release_plasma_method": [
+      30000,
+      65000,
+      140000
+    ],
+    "clinical_lot_release_stability": [
+      30000,
+      60000,
+      120000
+    ]
+  },
+  "non_double_counting": [
+    "Product costs include technical contractor labor/margin and fit-for-purpose plasma method development.",
+    "Clinical sample costs include actual patient samples/clinical labs and handling, not assay development.",
+    "Sponsor coordination is cross-vendor and clinical oversight, not product vendor project management.",
+    "Transfer route replaces independent modules; never add the two product totals.",
+    "Gate amounts are cumulative allocations of full-program rows, not extra tranches to add.",
+    "On-site sample collection is included in visits; clinical sample row covers handling, shipping and laboratory analysis."
+  ],
+  "exclusions": [
+    "New broad GLP local/systemic safety program",
+    "Major reformulation or repeated rescue iterations",
+    "Commercial validation and long registration shelf life",
+    "Powered multicentre confirmatory/pivotal trial",
+    "Marketing submission and launch",
+    "Founder opportunity cost",
+    "Tax and financing cost"
+  ],
+  "clinical_assumptions": {
+    "randomized_low_base_high": [
+      12,
+      15,
+      19
+    ],
+    "sites_low_base_high": [
+      1,
+      2,
+      3
+    ],
+    "visits_low_base_high": [
+      60,
+      75,
+      114
+    ],
+    "independent_completers_target": 12,
+    "attrition_assumed": 0.2,
+    "base_expected_completers": 12,
+    "base_probability_at_least_12": 0.648,
+    "nineteen_probability_at_least_12": 0.977,
+    "base_visits_per_patient": 5,
+    "base_remote_contacts_total": 180,
+    "base_person_weeks": [
+      18,
+      20
+    ],
+    "statistical_adequacy": "Unresolved; size may be inadequate unless effect is large"
+  },
+  "base_site_cost_build": {
+    "setup_closeout": 30000,
+    "person_visits": 75,
+    "cost_per_visit": 700,
+    "travel": 17500,
+    "remote_contacts": 10000,
+    "local_logistics": 5000
+  },
+  "calendar_months": {
+    "conditional_transfer": [
+      9,
+      18,
+      30
+    ],
+    "independent_qualification": [
+      12,
+      24,
+      42
+    ]
+  },
+  "product_calendar_months": {
+    "conditional_transfer": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "independent_qualification": [
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        10,
+        15
+      ]
+    ]
+  },
+  "market_sensitivity": {
+    "status": "Hypothetical axes, not forecasts or prevalence",
+    "served_patients": [
+      10,
+      25,
+      50
+    ],
+    "annual_net_price": [
+      3000,
+      12000,
+      30000
+    ],
+    "revenue_formula": "served_patients * annual_net_price",
+    "current_eligible_R127C_count": null,
+    "current_payable_R127C_count": null,
+    "example_margin": 0.6,
+    "example_fixed_cost": 300000,
+    "example_revenue": 600000,
+    "example_operating_cash_before_tax_and_development": 60000,
+    "annual_revenue_grid": [
+      [
+        30000,
+        120000,
+        300000
+      ],
+      [
+        75000,
+        300000,
+        750000
+      ],
+      [
+        150000,
+        600000,
+        1500000
+      ]
+    ]
+  },
+  "recruitment_sensitivity": {
+    "status": "Hypothetical conversion fractions, not measured",
+    "eligibility": 0.5,
+    "site_accessibility": 0.6,
+    "consent": 0.5,
+    "yield": 0.15,
+    "target_randomized": 15,
+    "reachable_needed": 100,
+    "alternative_yield": 0.3,
+    "alternative_reachable_needed": 50
+  },
+  "cash_recovery": {
+    "status": "Illustrative algebra; no buyer, cash offer, probability or validated EV",
+    "C": 462000,
+    "Q": 50000,
+    "participation_f": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "illustrative_return_fraction": 0.2,
+    "net_retained_cash_formula": "f * P - Q",
+    "cash_profit_formula": "f * P - Q - C",
+    "principal_recovery_P_formula": "(C+Q)/f",
+    "return_target_P_formula": "(C*(1+return_fraction)+Q)/f",
+    "assumed_probability_axes": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "net_success_cash_principal_break_even_formula": "C/q",
+    "failure_recovery_assumed": 0,
+    "all_costs_committed_assumed": true,
+    "discount_rate": null,
+    "principal_recovery_P": [
+      5120000.0,
+      2048000.0,
+      1024000.0
+    ],
+    "return_target_P": [
+      6044000.0,
+      2417600.0,
+      1208800.0
+    ],
+    "net_success_cash_principal_break_even": [
+      1848000.0,
+      924000.0,
+      616000.0
+    ]
+  },
+  "follow_on_sensitivity": {
+    "status": "Hypothetical scale illustration, not approval budget or power-derived trial",
+    "enrollment_range": [
+      40,
+      100
+    ],
+    "expanded_trial": [
+      350000,
+      800000,
+      1800000
+    ],
+    "product_stability_scale": [
+      100000,
+      250000,
+      600000
+    ],
+    "additional_nonclinical": [
+      100000,
+      300000,
+      900000
+    ],
+    "regulatory_data_ip_operations": [
+      100000,
+      250000,
+      500000
+    ],
+    "contingency_fraction": 0.25,
+    "additional_months": [
+      18,
+      30,
+      48
+    ],
+    "all_in": [
+      812500.0,
+      2000000.0,
+      4750000.0
+    ]
+  },
+  "decision": "Conditional product/access collaboration is the lead research route; independent pilot becomes operationally plausible around750k but needs staged qualification. Higher capital does not establish retained return; cash recovery and PhaseII success probabilities remain unvalidated.",
+  "totals": {
+    "conditional_transfer": {
+      "subtotal": [
+        200000,
+        385000,
+        820000
+      ],
+      "contingency": [
+        30000.0,
+        77000.0,
+        205000.0
+      ],
+      "all_in": [
+        230000.0,
+        462000.0,
+        1025000.0
+      ],
+      "difference_from_500k_reference_after_base": 38000.0
+    },
+    "independent_qualification": {
+      "subtotal": [
+        265000,
+        520000,
+        1100000
+      ],
+      "contingency": [
+        39750.0,
+        104000.0,
+        275000.0
+      ],
+      "all_in": [
+        304750.0,
+        624000.0,
+        1375000.0
+      ],
+      "difference_from_500k_reference_after_base": -124000.0
+    }
+  },
+  "gates": {
+    "G0": {
+      "scope": "Cumulative spend through genuine stop including proportional contingency; assumes stage-terminable agreements",
+      "common_allocations": {
+        "regulatory": [
+          5000,
+          10000,
+          20000
+        ],
+        "ip": [
+          5000,
+          10000,
+          20000
+        ],
+        "access": [
+          0,
+          5000,
+          25000
+        ],
+        "sponsor": [
+          3000,
+          5000,
+          10000
+        ],
+        "admin": [
+          2000,
+          5000,
+          10000
+        ]
+      },
+      "product_allocations": {
+        "conditional_transfer": [
+          10000,
+          15000,
+          30000
+        ],
+        "independent_qualification": [
+          15000,
+          30000,
+          60000
+        ]
+      },
+      "all_in": {
+        "conditional_transfer": [
+          28750.0,
+          60000.0,
+          143750.0
+        ],
+        "independent_qualification": [
+          34500.0,
+          78000.0,
+          181250.0
+        ]
+      }
+    },
+    "G1": {
+      "scope": "Cumulative spend through genuine stop including proportional contingency; assumes stage-terminable agreements",
+      "common_allocations": {
+        "regulatory": [
+          15000,
+          25000,
+          50000
+        ],
+        "ip": [
+          10000,
+          20000,
+          40000
+        ],
+        "access": [
+          0,
+          25000,
+          100000
+        ],
+        "sponsor": [
+          5000,
+          10000,
+          20000
+        ],
+        "admin": [
+          3000,
+          5000,
+          10000
+        ]
+      },
+      "product_allocations": {
+        "conditional_transfer": [
+          30000,
+          60000,
+          120000
+        ],
+        "independent_qualification": [
+          80000,
+          165000,
+          340000
+        ]
+      },
+      "all_in": {
+        "conditional_transfer": [
+          72450.0,
+          174000.0,
+          425000.0
+        ],
+        "independent_qualification": [
+          129950.0,
+          300000.0,
+          700000.0
+        ]
+      }
+    },
+    "G2": {
+      "scope": "Full pilot closeout",
+      "all_in": {
+        "conditional_transfer": [
+          230000.0,
+          462000.0,
+          1025000.0
+        ],
+        "independent_qualification": [
+          304750.0,
+          624000.0,
+          1375000.0
+        ]
+      }
+    }
+  },
+  "enrollment_sensitivity": {
+    "status": "Base operating model with fixed two sites and no added delay; not a quote",
+    "base_randomized": 15,
+    "incremental_per_patient_before_contingency": 10000,
+    "variable_base_cost_allocations": {
+      "site_patient_activities": 85000,
+      "clinical_samples": 35000,
+      "data": 15000,
+      "ethics_insurance": 7500,
+      "sponsor": 7500
+    },
+    "contingency": 0.2,
+    "totals": {
+      "15": {
+        "conditional_transfer": 462000.0,
+        "independent_qualification": 624000.0
+      },
+      "19": {
+        "conditional_transfer": 510000.0,
+        "independent_qualification": 672000.0
+      },
+      "20": {
+        "conditional_transfer": 522000.0,
+        "independent_qualification": 684000.0
+      }
+    }
+  },
+  "capital_reference": 500000,
+  "capital_reference_is_hard_cap": false,
+  "user_clarification": "500k is a reference, not a strict budget; evaluate marginal capital value at750k and1m without implied funding authorization",
+  "capital_capacity_sensitivity": {
+    "status": "Additional available capital is not authorized spend; remaining capital is not profit",
+    "pilot_randomized": 19,
+    "reference_levels": [
+      500000,
+      750000,
+      1000000
+    ],
+    "unallocated_after_pilot": {
+      "500000": {
+        "conditional_transfer": -10000.0,
+        "independent_qualification": -172000.0
+      },
+      "750000": {
+        "conditional_transfer": 240000.0,
+        "independent_qualification": 78000.0
+      },
+      "1000000": {
+        "conditional_transfer": 490000.0,
+        "independent_qualification": 328000.0
+      }
+    },
+    "marginal_value_500k_to_750k": "Can make independent central pilot operationally feasible with a modest buffer; does not establish retained economic return",
+    "marginal_value_750k_to_1m": "Only justified by named exposure, stability, recruitment, precision or duration uncertainties after gates",
+    "not_solved_by_cash_alone": [
+      "Rights access and exclusivity",
+      "Exact eligible population availability",
+      "Translation to broader genotypes",
+      "Patient-relevant effect",
+      "Payer net price",
+      "Willing buyer and retained cash terms"
+    ]
+  },
+  "hard_cap": null,
+  "owner_operator_hours": null,
+  "owner_operator_opportunity_cost": null
+}
