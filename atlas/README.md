@@ -1,5 +1,7 @@
 # Program atlas
 
+Historical biological reference. Use [current opportunities](../decisions/current-shortlist.md) for active priorities.
+
 The atlas groups 35 program families by the function a treatment aims to restore. Each entry identifies the intervention and biological system, reports the observed result, and describes a comparison that could change the next development decision. A family can contain multiple constructs with different evidence and rights.
 
 The underlying reviews date to October 27–November 3, 2026. Material listings and program status describe the records available at those reviews. Proposed studies are prospective.

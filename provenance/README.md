@@ -1,12 +1,12 @@
 # Curation and provenance
 
-This edition distills the research archive through its 3 November 2026 review. The original archive holds the project registry, source snapshots, public study materials, working papers, analysis files and execution records. Each released section has a different unit of evidence.
+This page describes the original curated edition, reviewed through 3 November 2026. Later work is indexed in the [research rounds](../research/rounds/README.md). The original archive holds the project registry, source snapshots, public study materials, working papers, analysis files and execution records. Each released section has a different unit of evidence.
 
 | Section | Unit | How to interpret it |
 |---|---|---|
-| [Development comparisons](../decisions/README.md) | An intervention and a specific decision | A public invitation to collaborate identifies a counterparty. Material access, data rights and a development responsibility require separate evidence. |
+| [Development comparisons](../decisions/reference-comparisons.md) | An intervention and a specific decision | A public invitation to collaborate identifies a counterparty. Material access, data rights and a development responsibility require separate evidence. |
 | [Program atlas](../atlas/README.md) | A curated program family | A family can contain multiple constructs, doses, models and candidate studies. Evidence is attributed to the intervention actually tested. |
-| [Research ledger](../research/README.md) and [discovery crosswalk](../discovery/README.md) | A phase, topic or attributed screening record | One project can appear in several phases. The ledger incorporates later corrections to the source reviews. |
+| [Research ledger](../research/history/curated-ledger.md) and [discovery crosswalk](../discovery/README.md) | A phase, topic or attributed screening record | One project can appear in several phases. The ledger incorporates later corrections to the source reviews. |
 | [Formulations](../formulations/README.md) | A marketed brand or franchise | The same active ingredient can occur in multiple brands. Sales defined the search universe. Experimental comparisons address specific product properties. |
 | [Methods](../methods/README.md) | An assembly, assay panel or donor | Multiple images, numeric readings and model predictions from one donor or construct remain linked to that unit. |
 
