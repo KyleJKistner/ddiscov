@@ -1,0 +1,2753 @@
+{
+  "schema_version": "1.0",
+  "horizon_years": 5,
+  "formula": "required paying-branch net investor cash = C / (p * q_investor)",
+  "grid_formula": "expected net = p * q_investor * V - C; per invested dollar = expected net / C",
+  "assumptions": [
+    "Five years is an analyst comparison assumption, not a supplied investor deadline.",
+    "Input ranges are subjective scenarios, not statistical confidence intervals; corner cases are not forecasts.",
+    "q is conditional on a useful milestone and modeled access, and requires actual net investor cash by the horizon.",
+    "p*q is a joint useful-result and cash-event scenario, not the probability of recovering principal or earning a return.",
+    "C is the full all-in bounded commitment; zero receipts on other branches and no additional mandatory or voluntary investor outlays beyond C are assumed.",
+    "Any later investor obligations, including no-deal costs, require explicit branch modeling; early stops may reduce expected spending but receive no credit here.",
+    "Paying-branch cash is net of investor share, dilution, royalties, senior claims, costs, taxes and retained development funds; company financing and valuation are not investor cash.",
+    "No time discounting, interim receipts or downside recovery is modeled; preserving unspent cash is not investment success.",
+    "The identical cash grid is deliberately illustrative stress testing, not estimated sale prices, asset values, offers or likely receipts.",
+    "Amounts are rounded to whole USD and ratios to four decimal places; arithmetic precision is not evidence precision. A zero base cost gives an undefined per-dollar ratio.",
+    "Source-reference schema is checked; source contents and commercial/legal validity are not verified by this calculator."
+  ],
+  "candidate_count": 49,
+  "candidates": [
+    {
+      "id": "PROPOSED-PKG-NIF-LIDO-CAF",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 625000
+      },
+      "p_useful_milestone": {
+        "low": 0.45,
+        "base": 0.55,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 13888889,
+        "base": 2363636,
+        "favorable": 598291
+      },
+      "base_joint_cash_event": 0.1375,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 727273,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -256250,
+          "base_expected_net_per_invested_dollar": -0.7885
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -187500,
+          "base_expected_net_per_invested_dollar": -0.5769
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 87500,
+          "base_expected_net_per_invested_dollar": 0.2692
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 1050000,
+          "base_expected_net_per_invested_dollar": 3.2308
+        }
+      ],
+      "source_ids": [
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "R4-L02",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 25000000,
+        "base": 4000000,
+        "favorable": 1010101
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -350000,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -300000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -100000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 600000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "H01",
+        "H02"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "R26-LOC-01",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 25000000,
+        "base": 4000000,
+        "favorable": 1010101
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -350000,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -300000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -100000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 600000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "H04",
+        "H05",
+        "H06",
+        "B33",
+        "B34"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-RECTAL-TAC-UP",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 800000
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 20000000,
+        "base": 4250000,
+        "favorable": 937500
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -375000,
+          "base_expected_net_per_invested_dollar": -0.8824
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -325000,
+          "base_expected_net_per_invested_dollar": -0.7647
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -125000,
+          "base_expected_net_per_invested_dollar": -0.2941
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 575000,
+          "base_expected_net_per_invested_dollar": 1.3529
+        }
+      ],
+      "source_ids": [
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-5FU-CAL-AK",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 350000,
+        "high": 725000
+      },
+      "p_useful_milestone": {
+        "low": 0.55,
+        "base": 0.65,
+        "high": 0.75
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 13181818,
+        "base": 2153846,
+        "favorable": 518519
+      },
+      "base_joint_cash_event": 0.1625,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 615385,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -268750,
+          "base_expected_net_per_invested_dollar": -0.7679
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -187500,
+          "base_expected_net_per_invested_dollar": -0.5357
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 137500,
+          "base_expected_net_per_invested_dollar": 0.3929
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 1275000,
+          "base_expected_net_per_invested_dollar": 3.6429
+        }
+      ],
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 20000000,
+        "base": 4000000,
+        "favorable": 769231
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -350000,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -300000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -100000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 600000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "H07",
+        "H08",
+        "H09"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "R26-HUM-01",
+      "all_in_cost_usd": {
+        "low": 140000,
+        "base": 300000,
+        "high": 600000
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 30000000,
+        "base": 4000000,
+        "favorable": 717949
+      },
+      "base_joint_cash_event": 0.075,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1333333,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -262500,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -225000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -75000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 450000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "B29",
+        "B30",
+        "B31"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-MAV-CUD",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 475000,
+        "high": 950000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 27142857,
+        "base": 4222222,
+        "favorable": 1010101
+      },
+      "base_joint_cash_event": 0.1125,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 888889,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -418750,
+          "base_expected_net_per_invested_dollar": -0.8816
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -362500,
+          "base_expected_net_per_invested_dollar": -0.7632
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -137500,
+          "base_expected_net_per_invested_dollar": -0.2895
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 650000,
+          "base_expected_net_per_invested_dollar": 1.3684
+        }
+      ],
+      "source_ids": [
+        "B25",
+        "B26"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-SAR-FOP",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 225000,
+        "high": 500000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 20000000,
+        "base": 2571429,
+        "favorable": 444444
+      },
+      "base_joint_cash_event": 0.0875,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1142857,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -181250,
+          "base_expected_net_per_invested_dollar": -0.8056
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -137500,
+          "base_expected_net_per_invested_dollar": -0.6111
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 37500,
+          "base_expected_net_per_invested_dollar": 0.1667
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 650000,
+          "base_expected_net_per_invested_dollar": 2.8889
+        }
+      ],
+      "source_ids": [
+        "B27",
+        "B28"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-OND-IBSD",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 45714286,
+        "base": 5925926,
+        "favorable": 1111111
+      },
+      "base_joint_cash_event": 0.0675,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1481481,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -366250,
+          "base_expected_net_per_invested_dollar": -0.9156
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -332500,
+          "base_expected_net_per_invested_dollar": -0.8313
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -197500,
+          "base_expected_net_per_invested_dollar": -0.4938
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 275000,
+          "base_expected_net_per_invested_dollar": 0.6875
+        }
+      ],
+      "source_ids": [
+        "B13"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-MINOX-AGA",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 500000,
+        "high": 950000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 54285714,
+        "base": 7407407,
+        "favorable": 1363636
+      },
+      "base_joint_cash_event": 0.0675,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1481481,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -466250,
+          "base_expected_net_per_invested_dollar": -0.9325
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -432500,
+          "base_expected_net_per_invested_dollar": -0.865
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -297500,
+          "base_expected_net_per_invested_dollar": -0.595
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 175000,
+          "base_expected_net_per_invested_dollar": 0.35
+        }
+      ],
+      "source_ids": [
+        "B14",
+        "B15"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-SIRO-CMLM",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 375000,
+        "high": 725000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 58000000,
+        "base": 5357143,
+        "favorable": 1269841
+      },
+      "base_joint_cash_event": 0.07,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1428571,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -340000,
+          "base_expected_net_per_invested_dollar": -0.9067
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -305000,
+          "base_expected_net_per_invested_dollar": -0.8133
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -165000,
+          "base_expected_net_per_invested_dollar": -0.44
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 325000,
+          "base_expected_net_per_invested_dollar": 0.8667
+        }
+      ],
+      "source_ids": [
+        "B20",
+        "B21",
+        "B22"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-TXA-MEL",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 350000,
+        "high": 650000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 37142857,
+        "base": 5185185,
+        "favorable": 1151515
+      },
+      "base_joint_cash_event": 0.0675,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1481481,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -316250,
+          "base_expected_net_per_invested_dollar": -0.9036
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -282500,
+          "base_expected_net_per_invested_dollar": -0.8071
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -147500,
+          "base_expected_net_per_invested_dollar": -0.4214
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 325000,
+          "base_expected_net_per_invested_dollar": 0.9286
+        }
+      ],
+      "source_ids": [
+        "B19"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-METH-MR-UTI",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 375000,
+        "high": 750000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 60000000,
+        "base": 5357143,
+        "favorable": 1111111
+      },
+      "base_joint_cash_event": 0.07,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1428571,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -340000,
+          "base_expected_net_per_invested_dollar": -0.9067
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -305000,
+          "base_expected_net_per_invested_dollar": -0.8133
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -165000,
+          "base_expected_net_per_invested_dollar": -0.44
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 325000,
+          "base_expected_net_per_invested_dollar": 0.8667
+        }
+      ],
+      "source_ids": [
+        "B24"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-MET-LC-PREV",
+      "all_in_cost_usd": {
+        "low": 265000,
+        "base": 550000,
+        "high": 1025000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.1,
+        "high": 0.25
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 170833333,
+        "base": 13750000,
+        "favorable": 2120000
+      },
+      "base_joint_cash_event": 0.04,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2500000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -530000,
+          "base_expected_net_per_invested_dollar": -0.9636
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -510000,
+          "base_expected_net_per_invested_dollar": -0.9273
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -430000,
+          "base_expected_net_per_invested_dollar": -0.7818
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -150000,
+          "base_expected_net_per_invested_dollar": -0.2727
+        }
+      ],
+      "source_ids": [
+        "B18"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "R26-LOC-04",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 700000
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.3,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 70000000,
+        "base": 8333333,
+        "favorable": 1583333
+      },
+      "base_joint_cash_event": 0.045,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2222222,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -352500,
+          "base_expected_net_per_invested_dollar": -0.94
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -330000,
+          "base_expected_net_per_invested_dollar": -0.88
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -240000,
+          "base_expected_net_per_invested_dollar": -0.64
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 75000,
+          "base_expected_net_per_invested_dollar": 0.2
+        }
+      ],
+      "source_ids": [
+        "B32"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-AMB-PD",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 850000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.25,
+        "high": 0.35
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 113333333,
+        "base": 11333333,
+        "favorable": 2142857
+      },
+      "base_joint_cash_event": 0.0375,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2666667,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -406250,
+          "base_expected_net_per_invested_dollar": -0.9559
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -387500,
+          "base_expected_net_per_invested_dollar": -0.9118
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -312500,
+          "base_expected_net_per_invested_dollar": -0.7353
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -50000,
+          "base_expected_net_per_invested_dollar": -0.1176
+        }
+      ],
+      "source_ids": [
+        "B23"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "PROPOSED-PKG-LDN-FM",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 725000
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.1,
+        "high": 0.15
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.01,
+        "base": 0.05,
+        "high": 0.15
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 1450000000,
+        "base": 75000000,
+        "favorable": 8444444
+      },
+      "base_joint_cash_event": 0.005,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 20000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -372500,
+          "base_expected_net_per_invested_dollar": -0.9933
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -370000,
+          "base_expected_net_per_invested_dollar": -0.9867
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -360000,
+          "base_expected_net_per_invested_dollar": -0.96
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -325000,
+          "base_expected_net_per_invested_dollar": -0.8667
+        }
+      ],
+      "source_ids": [
+        "B16",
+        "B17"
+      ],
+      "details_file": "human-assets.json"
+    },
+    {
+      "id": "LOCAL_INSULIN_PED",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 180000,
+        "high": 330000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.45,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 8800000,
+        "base": 1333333,
+        "favorable": 307692
+      },
+      "base_joint_cash_event": 0.135,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 740741,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -112500,
+          "base_expected_net_per_invested_dollar": -0.625
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -45000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 225000,
+          "base_expected_net_per_invested_dollar": 1.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 1170000,
+          "base_expected_net_per_invested_dollar": 6.5
+        }
+      ],
+      "source_ids": [
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "AAT_PROCESS",
+      "all_in_cost_usd": {
+        "low": 85000,
+        "base": 165000,
+        "high": 310000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.55,
+        "high": 0.7
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 8857143,
+        "base": 1000000,
+        "favorable": 242857
+      },
+      "base_joint_cash_event": 0.165,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 606061,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -82500,
+          "base_expected_net_per_invested_dollar": -0.5
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": 0,
+          "base_expected_net_per_invested_dollar": 0.0
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 330000,
+          "base_expected_net_per_invested_dollar": 2.0
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 1485000,
+          "base_expected_net_per_invested_dollar": 9.0
+        }
+      ],
+      "source_ids": [
+        "P01",
+        "P36",
+        "P37",
+        "P38"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "VERTEPORFIN_SCAR",
+      "all_in_cost_usd": {
+        "low": 135000,
+        "base": 260000,
+        "high": 455000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 15166667,
+        "base": 2311111,
+        "favorable": 461538
+      },
+      "base_joint_cash_event": 0.1125,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 888889,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -203750,
+          "base_expected_net_per_invested_dollar": -0.7837
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -147500,
+          "base_expected_net_per_invested_dollar": -0.5673
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 77500,
+          "base_expected_net_per_invested_dollar": 0.2981
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 865000,
+          "base_expected_net_per_invested_dollar": 3.3269
+        }
+      ],
+      "source_ids": [
+        "P30",
+        "P31",
+        "P32",
+        "P33"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "VS6062_HYDROGEL",
+      "all_in_cost_usd": {
+        "low": 160000,
+        "base": 300000,
+        "high": 520000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 20800000,
+        "base": 2666667,
+        "favorable": 592593
+      },
+      "base_joint_cash_event": 0.1125,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 888889,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -243750,
+          "base_expected_net_per_invested_dollar": -0.8125
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -187500,
+          "base_expected_net_per_invested_dollar": -0.625
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 37500,
+          "base_expected_net_per_invested_dollar": 0.125
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 825000,
+          "base_expected_net_per_invested_dollar": 2.75
+        }
+      ],
+      "source_ids": [
+        "P27",
+        "P28",
+        "P29"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "RM4404_CORNEA",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 225000,
+        "high": 400000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 16000000,
+        "base": 2250000,
+        "favorable": 462963
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -175000,
+          "base_expected_net_per_invested_dollar": -0.7778
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -125000,
+          "base_expected_net_per_invested_dollar": -0.5556
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 75000,
+          "base_expected_net_per_invested_dollar": 0.3333
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 775000,
+          "base_expected_net_per_invested_dollar": 3.4444
+        }
+      ],
+      "source_ids": [
+        "P02",
+        "P06"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "CALCIPOTRIOL_5FU_AK",
+      "all_in_cost_usd": {
+        "low": 95000,
+        "base": 175000,
+        "high": 330000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.18,
+        "high": 0.35
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 13750000,
+        "base": 2160494,
+        "favorable": 452381
+      },
+      "base_joint_cash_event": 0.081,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1234568,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -134500,
+          "base_expected_net_per_invested_dollar": -0.7686
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -94000,
+          "base_expected_net_per_invested_dollar": -0.5371
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 68000,
+          "base_expected_net_per_invested_dollar": 0.3886
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 635000,
+          "base_expected_net_per_invested_dollar": 3.6286
+        }
+      ],
+      "source_ids": [
+        "P23",
+        "P24",
+        "P39"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "LOSARTAN_CORNEA",
+      "all_in_cost_usd": {
+        "low": 120000,
+        "base": 250000,
+        "high": 490000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 16333333,
+        "base": 2000000,
+        "favorable": 410256
+      },
+      "base_joint_cash_event": 0.125,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 800000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -187500,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -125000,
+          "base_expected_net_per_invested_dollar": -0.5
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 125000,
+          "base_expected_net_per_invested_dollar": 0.5
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 1000000,
+          "base_expected_net_per_invested_dollar": 4.0
+        }
+      ],
+      "source_ids": [
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "TIMOLOL_VENOUS_ULCER",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 165000,
+        "high": 315000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 13125000,
+        "base": 1650000,
+        "favorable": 346154
+      },
+      "base_joint_cash_event": 0.1,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -115000,
+          "base_expected_net_per_invested_dollar": -0.697
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -65000,
+          "base_expected_net_per_invested_dollar": -0.3939
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 135000,
+          "base_expected_net_per_invested_dollar": 0.8182
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 835000,
+          "base_expected_net_per_invested_dollar": 5.0606
+        }
+      ],
+      "source_ids": [
+        "P17",
+        "P18"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "MIGF_CORNEA",
+      "all_in_cost_usd": {
+        "low": 150000,
+        "base": 280000,
+        "high": 500000
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.35,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 31250000,
+        "base": 4000000,
+        "favorable": 681818
+      },
+      "base_joint_cash_event": 0.07,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1428571,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -245000,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -210000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -70000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 420000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "P03",
+        "P06",
+        "P07"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "RIPASUDIL_DSO",
+      "all_in_cost_usd": {
+        "low": 140000,
+        "base": 310000,
+        "high": 650000
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.6,
+        "high": 0.75
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 20312500,
+        "base": 2583333,
+        "favorable": 466667
+      },
+      "base_joint_cash_event": 0.12,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 833333,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -250000,
+          "base_expected_net_per_invested_dollar": -0.8065
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -190000,
+          "base_expected_net_per_invested_dollar": -0.6129
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": 50000,
+          "base_expected_net_per_invested_dollar": 0.1613
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 890000,
+          "base_expected_net_per_invested_dollar": 2.871
+        }
+      ],
+      "source_ids": [
+        "P15",
+        "P16"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "NDC9009_DARIER",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 240000,
+        "high": 425000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.06,
+        "base": 0.18,
+        "high": 0.35
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 47222222,
+        "base": 4444444,
+        "favorable": 714286
+      },
+      "base_joint_cash_event": 0.054,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1851852,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -213000,
+          "base_expected_net_per_invested_dollar": -0.8875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -186000,
+          "base_expected_net_per_invested_dollar": -0.775
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -78000,
+          "base_expected_net_per_invested_dollar": -0.325
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 300000,
+          "base_expected_net_per_invested_dollar": 1.25
+        }
+      ],
+      "source_ids": [
+        "P04"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "VALPROATE_AGA",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 180000,
+        "high": 355000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 47333333,
+        "base": 4000000,
+        "favorable": 600000
+      },
+      "base_joint_cash_event": 0.045,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2222222,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -157500,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -135000,
+          "base_expected_net_per_invested_dollar": -0.75
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -45000,
+          "base_expected_net_per_invested_dollar": -0.25
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 270000,
+          "base_expected_net_per_invested_dollar": 1.5
+        }
+      ],
+      "source_ids": [
+        "P25"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "RAPAMYCIN_SKIN",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 190000,
+        "high": 380000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 50666667,
+        "base": 4222222,
+        "favorable": 740741
+      },
+      "base_joint_cash_event": 0.045,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2222222,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -167500,
+          "base_expected_net_per_invested_dollar": -0.8816
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -145000,
+          "base_expected_net_per_invested_dollar": -0.7632
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -55000,
+          "base_expected_net_per_invested_dollar": -0.2895
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 260000,
+          "base_expected_net_per_invested_dollar": 1.3684
+        }
+      ],
+      "source_ids": [
+        "P26"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "NALTREXONE_DRY_EYE",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 200000,
+        "high": 395000
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 79000000,
+        "base": 5333333,
+        "favorable": 833333
+      },
+      "base_joint_cash_event": 0.0375,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2666667,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -181250,
+          "base_expected_net_per_invested_dollar": -0.9063
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -162500,
+          "base_expected_net_per_invested_dollar": -0.8125
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -87500,
+          "base_expected_net_per_invested_dollar": -0.4375
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 175000,
+          "base_expected_net_per_invested_dollar": 0.875
+        }
+      ],
+      "source_ids": [
+        "P13",
+        "P14"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "DFO_RADIATION_PATCH",
+      "all_in_cost_usd": {
+        "low": 130000,
+        "base": 260000,
+        "high": 485000
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.12,
+        "high": 0.25
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 161666667,
+        "base": 8666667,
+        "favorable": 1155556
+      },
+      "base_joint_cash_event": 0.03,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 3333333,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -245000,
+          "base_expected_net_per_invested_dollar": -0.9423
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -230000,
+          "base_expected_net_per_invested_dollar": -0.8846
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -170000,
+          "base_expected_net_per_invested_dollar": -0.6538
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 40000,
+          "base_expected_net_per_invested_dollar": 0.1538
+        }
+      ],
+      "source_ids": [
+        "P21",
+        "P22"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "PHENYTOIN_DFU",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 165000,
+        "high": 320000
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.08,
+        "high": 0.2
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 320000000,
+        "base": 13750000,
+        "favorable": 1500000
+      },
+      "base_joint_cash_event": 0.012,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 8333333,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -159000,
+          "base_expected_net_per_invested_dollar": -0.9636
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -153000,
+          "base_expected_net_per_invested_dollar": -0.9273
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -129000,
+          "base_expected_net_per_invested_dollar": -0.7818
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -45000,
+          "base_expected_net_per_invested_dollar": -0.2727
+        }
+      ],
+      "source_ids": [
+        "P19",
+        "P20"
+      ],
+      "details_file": "product-process-assets.json"
+    },
+    {
+      "id": "EARLY-CBD3063-PAIN",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 335000,
+        "high": 600000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.245,
+        "high": 0.45
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.2,
+        "base": 0.35,
+        "high": 0.5
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 25000000,
+        "base": 3038549,
+        "favorable": 648148
+      },
+      "base_joint_cash_event": 0.1103,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 907029,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -279875,
+          "base_expected_net_per_invested_dollar": -0.8354
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -224750,
+          "base_expected_net_per_invested_dollar": -0.6709
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -4250,
+          "base_expected_net_per_invested_dollar": -0.0127
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 767500,
+          "base_expected_net_per_invested_dollar": 2.291
+        }
+      ],
+      "source_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-8015P2-CMT2A",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 335000,
+        "high": 650000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 69333333,
+        "base": 5583333,
+        "favorable": 942761
+      },
+      "base_joint_cash_event": 0.06,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1666667,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -305000,
+          "base_expected_net_per_invested_dollar": -0.9104
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -275000,
+          "base_expected_net_per_invested_dollar": -0.8209
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -155000,
+          "base_expected_net_per_invested_dollar": -0.4627
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 265000,
+          "base_expected_net_per_invested_dollar": 0.791
+        }
+      ],
+      "source_ids": [
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-PEPITEM-BONE",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 365000,
+        "high": 690000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0525,
+        "base": 0.195,
+        "high": 0.3825
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 43809524,
+        "base": 4159544,
+        "favorable": 871460
+      },
+      "base_joint_cash_event": 0.0878,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1139601,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -321125,
+          "base_expected_net_per_invested_dollar": -0.8798
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -277250,
+          "base_expected_net_per_invested_dollar": -0.7596
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -101750,
+          "base_expected_net_per_invested_dollar": -0.2788
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 512500,
+          "base_expected_net_per_invested_dollar": 1.4041
+        }
+      ],
+      "source_ids": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-MCC22-ARTHRITISPAIN",
+      "all_in_cost_usd": {
+        "low": 170000,
+        "base": 320000,
+        "high": 570000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.04,
+        "base": 0.175,
+        "high": 0.36
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 57000000,
+        "base": 4571429,
+        "favorable": 858586
+      },
+      "base_joint_cash_event": 0.07,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1428571,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -285000,
+          "base_expected_net_per_invested_dollar": -0.8906
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -250000,
+          "base_expected_net_per_invested_dollar": -0.7813
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -110000,
+          "base_expected_net_per_invested_dollar": -0.3438
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 380000,
+          "base_expected_net_per_invested_dollar": 1.1875
+        }
+      ],
+      "source_ids": [
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-HMWH-ITCH",
+      "all_in_cost_usd": {
+        "low": 110000,
+        "base": 215000,
+        "high": 425000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.04,
+        "base": 0.13,
+        "high": 0.2975
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 42500000,
+        "base": 4134615,
+        "favorable": 672269
+      },
+      "base_joint_cash_event": 0.052,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1923077,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -189000,
+          "base_expected_net_per_invested_dollar": -0.8791
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -163000,
+          "base_expected_net_per_invested_dollar": -0.7581
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -59000,
+          "base_expected_net_per_invested_dollar": -0.2744
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 305000,
+          "base_expected_net_per_invested_dollar": 1.4186
+        }
+      ],
+      "source_ids": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-BLU3797-XLMTM",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 810000
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.025,
+        "base": 0.125,
+        "high": 0.3
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 129600000,
+        "base": 8000000,
+        "favorable": 1212121
+      },
+      "base_joint_cash_event": 0.05,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2000000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -375000,
+          "base_expected_net_per_invested_dollar": -0.9375
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -350000,
+          "base_expected_net_per_invested_dollar": -0.875
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -250000,
+          "base_expected_net_per_invested_dollar": -0.625
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 100000,
+          "base_expected_net_per_invested_dollar": 0.25
+        }
+      ],
+      "source_ids": [
+        "E20",
+        "E21",
+        "E22"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-FD2-ALS",
+      "all_in_cost_usd": {
+        "low": 185000,
+        "base": 355000,
+        "high": 680000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.035,
+        "base": 0.1625,
+        "high": 0.34
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 129523810,
+        "base": 7282051,
+        "favorable": 1209150
+      },
+      "base_joint_cash_event": 0.0488,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2051282,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -330625,
+          "base_expected_net_per_invested_dollar": -0.9313
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -306250,
+          "base_expected_net_per_invested_dollar": -0.8627
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -208750,
+          "base_expected_net_per_invested_dollar": -0.588
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 132500,
+          "base_expected_net_per_invested_dollar": 0.3732
+        }
+      ],
+      "source_ids": [
+        "E32",
+        "E33"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-HJ02-POSTMI",
+      "all_in_cost_usd": {
+        "low": 220000,
+        "base": 390000,
+        "high": 725000
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.035,
+        "base": 0.13,
+        "high": 0.2975
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 103571429,
+        "base": 10000000,
+        "favorable": 1643324
+      },
+      "base_joint_cash_event": 0.039,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2564103,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -370500,
+          "base_expected_net_per_invested_dollar": -0.95
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -351000,
+          "base_expected_net_per_invested_dollar": -0.9
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -273000,
+          "base_expected_net_per_invested_dollar": -0.7
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 0,
+          "base_expected_net_per_invested_dollar": 0.0
+        }
+      ],
+      "source_ids": [
+        "E23",
+        "E24",
+        "E25"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-RHMG53-WOUND",
+      "all_in_cost_usd": {
+        "low": 260000,
+        "base": 520000,
+        "high": 1025000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 91111111,
+        "base": 7703704,
+        "favorable": 1283951
+      },
+      "base_joint_cash_event": 0.0675,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1481481,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -486250,
+          "base_expected_net_per_invested_dollar": -0.9351
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -452500,
+          "base_expected_net_per_invested_dollar": -0.8702
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -317500,
+          "base_expected_net_per_invested_dollar": -0.6106
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 155000,
+          "base_expected_net_per_invested_dollar": 0.2981
+        }
+      ],
+      "source_ids": [
+        "E26",
+        "E27"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-GBT601-PT2399-LEIGH",
+      "all_in_cost_usd": {
+        "low": 370000,
+        "base": 750000,
+        "high": 1575000
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.08,
+        "high": 0.2275
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 225000000,
+        "base": 18750000,
+        "favorable": 2502113
+      },
+      "base_joint_cash_event": 0.04,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 2500000,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -730000,
+          "base_expected_net_per_invested_dollar": -0.9733
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -710000,
+          "base_expected_net_per_invested_dollar": -0.9467
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -630000,
+          "base_expected_net_per_invested_dollar": -0.84
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -350000,
+          "base_expected_net_per_invested_dollar": -0.4667
+        }
+      ],
+      "source_ids": [
+        "E28",
+        "E29",
+        "E30",
+        "E31"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-HMWH-CIPN",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 240000,
+        "high": 460000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.0975,
+        "high": 0.255
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 153333333,
+        "base": 8205128,
+        "favorable": 1089325
+      },
+      "base_joint_cash_event": 0.0293,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 3418803,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -225375,
+          "base_expected_net_per_invested_dollar": -0.9391
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -210750,
+          "base_expected_net_per_invested_dollar": -0.8781
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -152250,
+          "base_expected_net_per_invested_dollar": -0.6344
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": 52500,
+          "base_expected_net_per_invested_dollar": 0.2188
+        }
+      ],
+      "source_ids": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-GA002-EPILEPSY",
+      "all_in_cost_usd": {
+        "low": 750000,
+        "base": 1750000,
+        "high": 4250000
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.7
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.12,
+        "high": 0.2925
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 472222222,
+        "base": 29166667,
+        "favorable": 3663004
+      },
+      "base_joint_cash_event": 0.06,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 1666667,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -1720000,
+          "base_expected_net_per_invested_dollar": -0.9829
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -1690000,
+          "base_expected_net_per_invested_dollar": -0.9657
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -1570000,
+          "base_expected_net_per_invested_dollar": -0.8971
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -1150000,
+          "base_expected_net_per_invested_dollar": -0.6571
+        }
+      ],
+      "source_ids": [
+        "E34",
+        "E35"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-PLGA-IBD",
+      "all_in_cost_usd": {
+        "low": 275000,
+        "base": 515000,
+        "high": 950000
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0175,
+        "base": 0.09,
+        "high": 0.24
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 361904762,
+        "base": 22888889,
+        "favorable": 2864583
+      },
+      "base_joint_cash_event": 0.0225,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 4444444,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -503750,
+          "base_expected_net_per_invested_dollar": -0.9782
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -492500,
+          "base_expected_net_per_invested_dollar": -0.9563
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -447500,
+          "base_expected_net_per_invested_dollar": -0.8689
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -290000,
+          "base_expected_net_per_invested_dollar": -0.5631
+        }
+      ],
+      "source_ids": [
+        "E36",
+        "E37"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-SN401-T2D",
+      "all_in_cost_usd": {
+        "low": 245000,
+        "base": 470000,
+        "high": 930000
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0125,
+        "base": 0.075,
+        "high": 0.225
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 744000000,
+        "base": 31333333,
+        "favorable": 3111111
+      },
+      "base_joint_cash_event": 0.015,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 6666667,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -462500,
+          "base_expected_net_per_invested_dollar": -0.984
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -455000,
+          "base_expected_net_per_invested_dollar": -0.9681
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -425000,
+          "base_expected_net_per_invested_dollar": -0.9043
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -320000,
+          "base_expected_net_per_invested_dollar": -0.6809
+        }
+      ],
+      "source_ids": [
+        "E38",
+        "E39",
+        "E40"
+      ],
+      "details_file": "early-assets.json"
+    },
+    {
+      "id": "EARLY-NIACIN-MASH",
+      "all_in_cost_usd": {
+        "low": 145000,
+        "base": 300000,
+        "high": 565000
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0105,
+        "base": 0.06,
+        "high": 0.16
+      },
+      "q_company_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.1,
+        "high": 0.2
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "required_net_cash_on_paying_branch_usd": {
+        "cautious": 1076190476,
+        "base": 33333333,
+        "favorable": 3020833
+      },
+      "base_joint_cash_event": 0.009,
+      "base_hurdle_increase_for_extra_100000_cost_usd": 11111111,
+      "illustrative_paid_branch_cash_grid": [
+        {
+          "net_investor_cash_on_paying_branch_usd": 500000,
+          "base_expected_net_usd": -295500,
+          "base_expected_net_per_invested_dollar": -0.985
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 1000000,
+          "base_expected_net_usd": -291000,
+          "base_expected_net_per_invested_dollar": -0.97
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 3000000,
+          "base_expected_net_usd": -273000,
+          "base_expected_net_per_invested_dollar": -0.91
+        },
+        {
+          "net_investor_cash_on_paying_branch_usd": 10000000,
+          "base_expected_net_usd": -210000,
+          "base_expected_net_per_invested_dollar": -0.7
+        }
+      ],
+      "source_ids": [
+        "E41",
+        "E42",
+        "E43",
+        "E44"
+      ],
+      "details_file": "early-assets.json"
+    }
+  ],
+  "input_file": "research/rounds/round27/candidate-ledger.json",
+  "input_sha256": "9987f3744255d79c792ec8dd339e778e236a6058dd66098fece772cbfebe2f4a"
+}

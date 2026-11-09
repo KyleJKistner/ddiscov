@@ -220,7 +220,9 @@ def check(root):
     for relative in project_files(root):
         path = root / relative
         name = relative.as_posix()
-        if name.startswith(("research/phase2-program/", "research/commercial-routes/")) and path.suffix == ".md":
+        if name.startswith(("research/phase2-program/", "research/commercial-routes/",
+                            "research/commercial/", "research/strategy/",
+                            "research/rounds/round27/", "research/rounds/round28/")) and path.suffix == ".md":
             active_docs.add(name)
         try:
             if path.suffix == ".json":

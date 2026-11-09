@@ -1,10 +1,12 @@
 # Topical erlotinib: development and investment dossier
 
+> **Priority update:** The [reconciled current shortlist](../../../decisions/current-shortlist.md) governs new work. This record retains its dated evidence, scope, estimates and conclusions; its internal priorities are historical.
+
 **Decision date: 9 November 2026 UTC / 8 November Los Angeles. Candidate R26-LOC-01.** Public-source diligence for a reproducible topical erlotinib product with defined background care in painful KRT16 p.Arg127Cys palmoplantar keratoderma. The user requested substantial research and clarified that **$500,000 is a reference budget, not a strict cap**.
 
 ## Current use of this dossier
 
-The subsequent [commercial-route comparison](../../commercial-routes/README.md) governs the next-step decision. **Retain erlotinib as a serious scientific lead; first compare existing-product access and a specific contribution that could be licensed before we finance a human trial.** The clinical design below is a conditional development option, not the default next commitment. The evidence does not establish a high probability of Phase II success or cash recovery.
+The subsequent [commercial-route comparison](../../commercial-routes/README.md) revised the pilot-as-default framing; the [reconciled current shortlist](../../../decisions/current-shortlist.md) governs new work. **Retain erlotinib as a serious scientific lead; first compare existing-product access and a specific contribution that could be licensed before we finance a human trial.** The clinical design below is a conditional development option, not the default next commitment. The evidence does not establish a high probability of Phase II success or cash recovery.
 
 The preserved pilot scenarios are $462k with a usable existing package or $624k independently for 15 randomized participants, and $510k/$672k for 19. They are analyst allowances, not named-provider quotes, a geographic cost model or validated operational feasibility. The [assumption audit](../../commercial-routes/assumptions-and-method.md) explains their provenance and the limits of earlier conversational failure/exit estimates. A $750k scenario does not authorize spending or establish a sufficient reserve.
 

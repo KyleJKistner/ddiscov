@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-08",
+  "review_timezone": "America/Los_Angeles",
+  "scope": "Commercial-fit and investor-cash-recovery comparison using inherited candidate evidence plus current primary commercial records. Personal capital inputs are maintained separately.",
+  "decision": "No reviewed exact-use package currently establishes a priced, executable transaction with a supportable high probability of returning investor principal plus a return. Test specific commercial fit and terms before development commitments.",
+  "packages": [
+    {
+      "id": "R4-L02",
+      "name": "APR-246 / AEC topical-article and evidence contribution",
+      "route": "Proposed article/data transfer, evaluation option or compensated development contribution; not an available offer.",
+      "counterparties": [
+        {
+          "name": "Aprea Therapeutics",
+          "role": "Reported eprenetapopt program and intellectual-property interests; possible dossier or commercial counterpart, with no demonstrated willingness to transact.",
+          "route_url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465926122405/apre-20260930x10q.htm"
+        },
+        {
+          "name": "Inserm Transfert",
+          "role": "Institutional technology-transfer organization and possible route to appropriate academic rights holders; authority for this exact package remains unverified.",
+          "route_url": "https://www.inserm-transfert.fr/?lang=en"
+        },
+        {
+          "name": "AP-HP / Hôpital Necker investigator and pharmacy institutions",
+          "role": "Historical topical article and clinical-data contributors identified in the original report; current access and commercial authority remain unverified.",
+          "route_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/"
+        }
+      ],
+      "observed": [
+        "Historical same-disease clinical and topical-article work supplies a concrete starting point.",
+        "Aprea reports no ongoing APR-246 trials but continues relevant patent/regulatory/program-closeout spending.",
+        "Public sources reviewed do not provide a priced AEC development package, paid customer commitment or integrated rights offer."
+      ],
+      "proposed_deliverable": [
+        "Inventory existing formulation, quality, stability, exposure and clinical information and identify who can supply each item.",
+        "Specify research, data, regulatory-use, manufacturing and commercial permissions for a defined AEC contribution.",
+        "Define the next decision-relevant clinical or functional question.",
+        "Separate documentary transfer, necessary qualification and subsequent evidence generation into separately priced blocks."
+      ],
+      "cash_route": [
+        "Proposed payment by a customer for an accepted product/data development deliverable.",
+        "Alternative proposed consideration upon an exercised option or completed license/data transaction.",
+        "Positive scientific findings or asset-valuation changes alone are not cash realization."
+      ],
+      "terms_needed": [
+        "Authority of each relevant counterparty and precise scope, territory and duration of rights.",
+        "Usable supply and access to required product and data information.",
+        "Compensation amount, payment timing, objective deliverable acceptance and termination obligations.",
+        "Any option exercise price, milestones, royalties, sharing or later capital requirements.",
+        "Maximum liability and a genuine stopping point before additional work."
+      ],
+      "quote_scope": [
+        "Fixed documentary inventory and transfer deliverables.",
+        "Necessary product qualification identified from actual existing gaps.",
+        "Legal and transaction scope, third-party costs, operator effort and overhead.",
+        "Currency, payment milestones, contingencies and cancellation exposure.",
+        "Separate all-in quote for any subsequent functional or clinical work."
+      ],
+      "unknowns": [
+        "Actual scope price and executable schedule.",
+        "Current integrated product/data/commercial access.",
+        "Interested paying counterparty and accepted deliverable.",
+        "Remaining development capital and realistic route to proceeds.",
+        "Basis for principal recovery or a positive realized return; none is substantiated by the reviewed sources."
+      ],
+      "reversal_trigger": [
+        "A coherent offered article/data/rights package and a credible contracted payment or economically usable transaction.",
+        "A binding commercial or access limitation that defeats the intended contribution.",
+        "A scope expansion that removes the premise of a finite first commitment."
+      ],
+      "priority_reason": "A defined historical topical article and same-disease evidence make the contribution intelligible, but fragmented rights and the absent payer currently dominate the next economic decision. Priority is a commercial-fit question, not a financial ranking.",
+      "source_ids": [
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "record_type": "exact_use_proposal",
+      "actual_asset_quote": null,
+      "verified_payment_offer": null,
+      "verified_investor_distribution_terms": null,
+      "estimated_recovery_probability": null,
+      "candidate_ids": [
+        "R4-L02"
+      ]
+    },
+    {
+      "id": "R26-LOC-01",
+      "name": "Topical erlotinib / KRT16 Arg127Cys keratoderma contribution",
+      "route": "Proposed KRT16-specific feasibility and evidence contribution aligned with a topical-erlotinib developer; not an available offer.",
+      "counterparties": [
+        {
+          "name": "Sol-Gel Technologies",
+          "role": "Current SGT-210/topical-erlotinib developer whose official disclosures contemplate small feasibility studies in additional indications; interest in this exact proposal is unverified.",
+          "route_url": "https://www.sol-gel.com/pipeline/"
+        }
+      ],
+      "observed": [
+        "The repository's exact-use evidence is a small related-patient report with controlled opposite-foot phases and later uncontrolled findings; its limitations remain.",
+        "Sol-Gel's live pipeline identifies topical erlotinib and Phase I completion.",
+        "Its October 2026 presentation describes small feasibility studies in new indications.",
+        "The December 17, 2025 Darier update reports no active-versus-vehicle differentiation and no further advancement in that indication.",
+        "No KRT16-specific paid development offer, participation price or repayment commitment was located."
+      ],
+      "proposed_deliverable": [
+        "Define the exact KRT16 population and clinically meaningful product contribution.",
+        "Reconcile the historical compounded article with any proposed sponsor article.",
+        "Inventory reusable product, manufacturing and exposure/safety information.",
+        "Assess evidence and recruitment feasibility with a qualified operator.",
+        "Define output acceptance criteria and downstream data uses before a clinical execution commitment."
+      ],
+      "cash_route": [
+        "Proposed staged payment for a defined development deliverable.",
+        "Alternative proposed licensing milestone or option-exercise payment.",
+        "Royalties, sponsor enthusiasm, favorable evidence and an increased valuation are not contracted principal recovery."
+      ],
+      "terms_needed": [
+        "Demonstrated sponsor need for this exact contribution and its proposed compensation.",
+        "Article supply and access to supporting product information.",
+        "Rights to use results and an explicit retained financial interest.",
+        "Objective payment and acceptance conditions, termination protection and liability allocation.",
+        "Any later participation, milestone, royalty or financing terms."
+      ],
+      "quote_scope": [
+        "Separate initial feasibility/data work from any future clinical execution.",
+        "Exact article and product-document access.",
+        "Qualified operator/site scope, recruitment assumptions and analysis deliverables.",
+        "Regulatory, monitoring, insurance, overhead and other applicable execution costs.",
+        "Payment schedule, cancellation costs and maximum committed exposure."
+      ],
+      "unknowns": [
+        "Whether Sol-Gel has an unsatisfied KRT16-related need or would pay for the contribution.",
+        "Comparability and availability of the relevant topical articles.",
+        "Exact-use efficacy, required evidence scope and feasible recruitment.",
+        "Actual price, schedule, retained terms and time to proceeds.",
+        "Basis for a high probability of principal recovery; none is established."
+      ],
+      "reversal_trigger": [
+        "A defined sponsor need plus an actual paid development agreement or attractively priced participation offer.",
+        "An offered product/data package allowing an interpretable and finite next decision.",
+        "A lack of commercial demand, unsuitable article, prohibitive execution scope or unacceptable retained economics."
+      ],
+      "priority_reason": "The most specific commercial-fit question in this screen because a named developer has disclosed plans for the relevant kind of feasibility work. This supports testing fit, not investing ahead of terms or inferring willingness to pay.",
+      "source_ids": [
+        "H04",
+        "H05",
+        "H06",
+        "H12"
+      ],
+      "record_type": "exact_use_proposal",
+      "actual_asset_quote": null,
+      "verified_payment_offer": null,
+      "verified_investor_distribution_terms": null,
+      "estimated_recovery_probability": null,
+      "candidate_ids": [
+        "R26-LOC-01"
+      ]
+    },
+    {
+      "id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "name": "Enasidenib / germline IDH2-R140Q D2HGA2 existing-article contribution",
+      "route": "Proposed existing-article indication-evidence package, compensated research/development contribution or data/license transaction; not an available offer.",
+      "counterparties": [
+        {
+          "name": "Bristol Myers Squibb / Celgene",
+          "role": "Product, formulation and study-sponsor relationships are publicly documented. BMS operates an independent-research process; exact D2HGA2 funding, access and commercial interest are unverified.",
+          "route_url": "https://www.bms.com/research-and-development/independent-research.html"
+        }
+      ],
+      "observed": [
+        "Current IDHIFA labeling covers adult AML and does not establish pediatric safety/effectiveness.",
+        "The primary D2HGA2 publication supplies a two-child clinical rationale with its original limitations.",
+        "The EPO grant publication names Celgene and documents pediatric minitablet work.",
+        "The indexed official adult sprinkle/tablet study is completed without posted results.",
+        "BMS describes contingent independent-research support requiring an executed agreement.",
+        "No priced D2HGA2 development contribution or investor repayment offer was located."
+      ],
+      "proposed_deliverable": [
+        "Reconcile existing article, product and exposure information for a defined indication-development question.",
+        "Identify the clinical evidence gap that a qualified sponsor or economic counterparty actually needs resolved.",
+        "Assess a qualified data-generation route and its access requirements.",
+        "Specify output ownership, regulatory uses and compensation.",
+        "Treat any new presentation as a separate proposal justified by a documented unmet administration or product need."
+      ],
+      "cash_route": [
+        "Proposed contractual payment for an accepted evidence or development contribution.",
+        "Alternative proposed completed indication/data license transaction.",
+        "Restricted research funding used to reimburse expenses is not automatically investor profit or repayment."
+      ],
+      "terms_needed": [
+        "Actual sponsor need, relevant program eligibility and a credible funding or purchasing commitment.",
+        "Existing article supply and product/data access.",
+        "Data ownership, publication conditions and permitted regulatory and commercial uses.",
+        "Payment timing, acceptance criteria, termination conditions and retained economics.",
+        "Any future financing, licensing, royalty or milestone obligations."
+      ],
+      "quote_scope": [
+        "Existing product and information access.",
+        "Qualified institution/operator work and regulatory assessment.",
+        "Data reconciliation versus prospective evidence generation as distinct scopes.",
+        "Monitoring, analysis, overhead and other relevant execution costs.",
+        "Ownership/use terms, payment milestones and cancellation obligations."
+      ],
+      "unknowns": [
+        "Usable pediatric article supply and current transferable data package.",
+        "Exact remaining D2HGA2 development requirements.",
+        "BMS interest in funding or purchasing this particular contribution.",
+        "Actual scope cost, schedule and commercial terms.",
+        "Positive realized investor return or principal-recovery mechanism; none is substantiated."
+      ],
+      "reversal_trigger": [
+        "A specific funded need and executable agreement for an economically valuable contribution.",
+        "An available article/data package that reduces a material execution barrier.",
+        "Evidence that the only offered funding reimburses expenses without the proposed retained return, or that rights/scope prevent a viable contribution."
+      ],
+      "priority_reason": "Existing product and human evidence can reduce selected scientific uncertainties, but the current binding questions are product access, a sponsor-valued contribution and economic terms. New formulation invention is not automatically justified.",
+      "source_ids": [
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11"
+      ],
+      "record_type": "exact_use_proposal",
+      "actual_asset_quote": null,
+      "verified_payment_offer": null,
+      "verified_investor_distribution_terms": null,
+      "estimated_recovery_probability": null,
+      "candidate_ids": [
+        "R5_ENASIDENIB_IDH2_R140_D2HGA2"
+      ]
+    },
+    {
+      "id": "AAT_CONTRACTED_CONTRIBUTION",
+      "name": "AAT donor-lung process contribution with an established partner",
+      "route": "Seek a commercial commissioned-development agreement for a discrete, useful deliverable; assess restricted research support separately as potential cost reduction.",
+      "counterparties": [
+        {
+          "name": "CSL Behring / CSL external innovation",
+          "role": "Relevant starting-product manufacturer and possible commercial-development counterparty; no AAT-specific commissioned work or interest is established.",
+          "route_url": "https://csl.yet2.com/"
+        },
+        {
+          "name": "XVIVO",
+          "role": "Relevant EVLP platform company with an institutional investigator-initiated research route; a separate commercial services proposition would require negotiation.",
+          "route_url": "https://www.xvivogroup.com/investigator-initiated-research/"
+        }
+      ],
+      "observed": [
+        "FDA identifies CSL as ZEMAIRA manufacturer and XVIVO as the XPS/STEEN PMA applicant; these are distinct product/platform roles.",
+        "XVIVO publicly describes funding or in-kind research support contingent on an executed institutional agreement.",
+        "CSL has a general commercial partnering route. Its current global IIS priorities do not explicitly list AAT/transplant ischemia-reperfusion, despite such wording on some regional pages.",
+        "No paying customer, capable operator, current quote, available rights package or investor cash-distribution agreement has been established."
+      ],
+      "proposed_deliverable": "A counterparty-defined analytical, formulation or process qualification report that changes a named development decision, delivered through an established qualified operator. Acceptance should concern conforming, interpretable completion rather than a favorable biological result. Organ/transplant validation would have a separate scope and funding decision.",
+      "cash_route": "A prospective commercial customer pays agreed amounts for accepted work; after delivery costs, liabilities and working-capital needs, an agreed investor arrangement could return released capital and distributable margin. This route is hypothetical until contracted. An IIS/IIR grant, supplied product or equipment loan is restricted project support, not investor principal repayment or profit. Any royalties or asset-value upside remain a separate speculative branch.",
+      "terms_needed": [
+        "Counterparty's actual discrete need, responsible budget owner and willingness to commission the deliverable.",
+        "Qualified operator, fixed scope, total cost, exclusions, schedule and change-control terms.",
+        "Advance and milestone payment schedule; objective acceptance; payment for a valid negative result; collection and dispute terms.",
+        "Cancellation, overrun and liability allocation, including the next genuine stopping point.",
+        "Material supply, data access, background and foreground rights, permitted regulatory use and any commercial participation.",
+        "Responsibility for later organ and clinical work, with initial follow-on obligations disclosed.",
+        "Investor capital-return and profit-distribution arrangement after remaining project obligations; restricted support treated separately."
+      ],
+      "quote_scope": "No current quote. The repository's historical qualification estimate is a planning assumption for a narrow task and excludes scarce organs, transplant validation and wider development. A complete commercial scope must be priced anew.",
+      "unknowns": [
+        "Current AAT fit for CSL or XVIVO priorities and an economically valuable outsourced need.",
+        "Commercial willingness to transact, rights and payment amount/timing.",
+        "Operator capability and all-in execution cost.",
+        "Current relevant patent title, scope, encumbrances and permitted activities.",
+        "Study-sponsor responsibilities and eligibility for any restricted support.",
+        "Collectibility, downside exposure and an actual investor cash pathway."
+      ],
+      "reversal_trigger": "Promote only if a real counterparty need, capable operator, credible commercial payment obligation and bounded all-in exposure establish an attractive investor cash path. If support is merely restricted cost reimbursement or the requested work requires major unpriced clinical/organ development, re-scope or stop the repayment thesis.",
+      "priority_reason": "Priority for transaction discovery because contracted deliverable payments could reduce dependence on future drug efficacy or an uncommitted license buyer. This is a sourcing preference, not an available investment or a supported high-probability recovery claim.",
+      "source_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "record_type": "exact_use_proposal",
+      "actual_asset_quote": null,
+      "verified_payment_offer": null,
+      "verified_investor_distribution_terms": null,
+      "estimated_recovery_probability": null,
+      "candidate_ids": [
+        "AAT_EVLP",
+        "BE-N01"
+      ]
+    },
+    {
+      "id": "FD2_INSTITUTIONAL_OPTION",
+      "name": "FD-2 / ALS institutional evaluation option",
+      "route": "Seek a limited, terminable institutional evaluation option with prospective conversion and sublicensing terms defined before material development expenditure.",
+      "counterparties": [
+        {
+          "name": "Mackay Medical University research-development office",
+          "role": "Institutional inquiry route for a named original applicant/co-owner; current authority over a joint-owner transaction remains to be established.",
+          "route_url": "https://research.mmu.edu.tw/xmdoc/cont?sid=0Q007601884187599532&xsmsid=0Q005329226139811147"
+        },
+        {
+          "name": "Fu Jen Catholic University commercialization/industry-collaboration team",
+          "role": "Institutional routing lead for the other named original applicant/co-owner; exact licensing representative and asset availability remain unverified.",
+          "route_url": "https://gloria.fju.edu.tw/team/"
+        }
+      ],
+      "observed": [
+        "Original US20240327462A1 names Mackay Medical College and Fu Jen Catholic University as applicants.",
+        "Original Taiwan grant TWI886877B, published 11 June 2025, names both institutions and supplies a national-document lead.",
+        "The published biological evidence is preclinical; existing repository limitations remain applicable.",
+        "Mackay publishes a current industry-collaboration process. No FD-2-specific available-license listing, option price, willing buyer or repayment obligation was verified."
+      ],
+      "proposed_deliverable": "An asset-access and economics package identifying the exact FD-2 article, available material and underlying data, current co-owner authority, evaluation/option scope, conversion terms and the minimum additional evidence a credible development partner would need. Any scientific work follows a separately priced decision.",
+      "cash_route": "An option consumes cash for access. Investor recovery would depend on a later sublicense, asset sale, permitted equity distribution or eventual royalty stream after costs, rights payments and dilution. A positive preclinical result, a patent grant or additional equity funding alone is not cash returned to the investor. No downstream payer is committed.",
+      "terms_needed": [
+        "Current title, prosecution and maintenance by jurisdiction; encumbrances and authority to grant rights across both institutions.",
+        "Exact product correspondence and obtainable field, territory, exclusivity and sublicensing rights.",
+        "Evaluation fee, duration, termination provisions, patent reimbursements and conversion terms.",
+        "Material, raw-data, manufacturing and regulatory-use access; rights to commission independent work and use its outputs.",
+        "A discrete priced validation or development scope and the remaining path to a credible transaction.",
+        "Evidence of prospective buyer interest, the payment-triggering milestone and financing requirements before that milestone.",
+        "Investor distribution rights and a funding-unavailable outcome, including residual costs and obligations."
+      ],
+      "quote_scope": "No asset-specific option, license, synthesis, validation or development quote was found. General institutional or NIH evaluation-license terms do not price FD-2.",
+      "unknowns": [
+        "Current legal title, licensing availability and exact article/claim correspondence.",
+        "Usable product, exposure, safety and translation package beyond published preclinical evidence.",
+        "Independent execution capability and a finite evidence route at a current cost.",
+        "Development buyer, collectable transaction terms, follow-on financing and exit timing.",
+        "A defensible probability of principal recovery; none is established."
+      ],
+      "reversal_trigger": "Promote an evaluation tranche only if attainable terms, underlying access, a bounded useful milestone and a credible downstream payment or financed handoff make its incremental economics attractive. If the route requires broad unpriced delivery/model discovery or lacks an attainable economic interest, end the small-option premise and re-scope.",
+      "priority_reason": "A concrete institutional rights inquiry is justified, but it remains a speculative drug-development option. It is less directly aligned with a principal-recovery objective than a genuinely contracted, well-scoped development contribution. NIH evaluation licensing is a structural benchmark, not a substitute available asset or repayment mechanism.",
+      "source_ids": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "record_type": "exact_use_proposal",
+      "actual_asset_quote": null,
+      "verified_payment_offer": null,
+      "verified_investor_distribution_terms": null,
+      "estimated_recovery_probability": null,
+      "candidate_ids": [
+        "R26-FUN-02"
+      ]
+    },
+    {
+      "id": "ROUTE-REVENUE-SUPPORTED",
+      "record_type": "sourcing_route",
+      "name": "Revenue-supported drug-development financing",
+      "route": "Source an actual development financing participation supported by an existing contractual revenue stream; this is a route-level search, not an identified asset or security recommendation.",
+      "counterparties": [
+        {
+          "name": "Royalty Pharma",
+          "role": "Documented example of royalty/development-capital structures, not a confirmed seller or partner to ddiscov",
+          "route_url": "https://www.royaltypharma.com/partners/types-of-partnerships/"
+        },
+        {
+          "name": "SWK Holdings",
+          "role": "Historical documented example of commercial-stage revenue financing; present participation availability unverified",
+          "route_url": "https://www.sec.gov/Archives/edgar/data/1089907/000162828025013989/swkh-20241231.htm"
+        }
+      ],
+      "observed": [
+        "Primary sources establish that development funding can be structured against royalties or other payment streams.",
+        "No exact product, seller, available participation, cash-flow data or terms were identified for ddiscov in this screen."
+      ],
+      "proposed_deliverable": [
+        "An actual offered asset or financing participation with source contracts, product-level receipts, obligor details, senior claims and complete costs.",
+        "A separately underwritten repayment case tied to cash available to the investor by the target horizon."
+      ],
+      "cash_route": [
+        "Contractually allocated receipts from a defined existing revenue stream, after senior claims, expenses, servicing and other deductions."
+      ],
+      "terms_needed": [
+        "Legal ability to acquire and enforce the interest; exact product/use and development purpose; participation size and investor eligibility.",
+        "Verified receipts, concentration, patent/exclusivity duration where relevant, competition, payment waterfall, covenants, transferability and servicing.",
+        "Price, all-in transaction costs, currency, duration, default remedies and actual distribution terms."
+      ],
+      "quote_scope": [
+        "Binding or clearly labeled indicative price for a specified interest, with legal/servicing costs and cash-flow disclosure."
+      ],
+      "unknowns": [
+        "No specific purchasable participation, cash-flow history, price, loss estimate or recovery probability established.",
+        "Senior status or a marketed product would still leave credit, sales, concentration, legal and liquidity risk."
+      ],
+      "reversal_trigger": [
+        "An appropriately sized, documented offer with supportable stressed receipts and a defined investor distribution waterfall."
+      ],
+      "priority_reason": "An additional sourcing route aligned with repayment underwriting, to compare if an actual accessible transaction emerges. It currently has less asset-specific evidence than the named development inquiries.",
+      "source_ids": [
+        "O01",
+        "O02"
+      ],
+      "candidate_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Aprea Therapeutics Form 10-Q for September 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465926122405/apre-20260930x10q.htm",
+      "publication_date": "2026-11-04",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Aprea reports no ongoing APR-246 clinical trials and continuing patent-maintenance, regulatory and program-closeout expenditure. It describes public-domain eprenetapopt structure alongside method-of-use, formulation and other patent interests.",
+      "limit": "Issuer filing establishes reported program and intellectual-property context, not available licensing terms, ownership clearance for an AEC product, an asset offer or willingness to pay for a contribution."
+    },
+    {
+      "id": "H02",
+      "title": "Improvement of epidermal covering on AEC patients with severe skin erosions by PRIMA-1MET/APR-246",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6965199/",
+      "publication_date": "2020-01-16",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The original report describes two AEC children, including an APR-treated palm versus contralateral vehicle in one child and uncontrolled scalp treatment in the other, and identifies institutional clinical/formulation contributors.",
+      "limit": "The small nonrandomized, unblinded exploratory report does not establish a response probability, currently transferable article, available data rights or commercial permission."
+    },
+    {
+      "id": "H03",
+      "title": "Inserm Transfert institutional role",
+      "url": "https://www.inserm-transfert.fr/?lang=en",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Inserm Transfert describes its role in life-science technology transfer and collaborative research funding for INSERM research.",
+      "limit": "Institutional remit makes it a plausible rights-routing counterpart. No APR-246/AEC listing, price, authority over every required input or willingness to transact was established."
+    },
+    {
+      "id": "H04",
+      "title": "Sol-Gel current pipeline",
+      "url": "https://www.sol-gel.com/pipeline/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "The live pipeline identifies SGT-210 as topical erlotinib, lists Phase I completion and describes further evaluation in additional indications.",
+      "limit": "Sponsor summary does not establish exact KRT16 efficacy, equivalence to the published compounded article, an available license or a paid development opportunity."
+    },
+    {
+      "id": "H05",
+      "title": "Sol-Gel corporate overview, October 2026",
+      "url": "https://solgel.gcs-web.com/static-files/37f518f0-a477-4a72-ae63-a6e36dbc1bbe",
+      "publication_date": "2026-10",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The October 2026 presentation positions the SGT-210 topical-erlotinib platform for small feasibility studies in new unmet-need indications.",
+      "limit": "A stated development plan supplies commercial-fit context, not an investment offer, quotation, payment commitment or evidence for the exact KRT16 population."
+    },
+    {
+      "id": "H06",
+      "title": "Sol-Gel update after unblinding SGT-210 Phase 1b Darier study",
+      "url": "https://ir.sol-gel.com/node/9126",
+      "publication_date": "2025-12-17",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The release reports no differentiation between SGT-210 and vehicle on Darier efficacy assessments, no advancement in that indication, and an intention to pursue small feasibility studies elsewhere.",
+      "limit": "The actual release date is December 17, 2025; September 30, 2026 appears in page chrome and is not the event date. Darier findings cannot be transferred as exact KRT16 success or failure."
+    },
+    {
+      "id": "H07",
+      "title": "IDHIFA U.S. prescribing information",
+      "url": "https://packageinserts.bms.com/pi/pi_idhifa.pdf",
+      "publication_date": "2025-01",
+      "checked_date": "2026-11-08",
+      "verified_fact": "BMS labeling identifies enasidenib as an adult IDH2-mutant relapsed/refractory AML treatment and says pediatric safety and effectiveness have not been established.",
+      "limit": "The approved adult article does not establish D2HGA2 approval, suitability of an infant presentation, available clinical supply or commercial rights for a new indication."
+    },
+    {
+      "id": "H08",
+      "title": "Enasidenib treatment in two individuals with D-2-hydroxyglutaric aciduria carrying a germline IDH2 mutation",
+      "url": "https://www.nature.com/articles/s41591-023-02382-9",
+      "publication_date": "2023-05-29",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The primary publication reports treatment of two children with germline IDH2-associated D2HGA2, supporting a clinical indication-development question.",
+      "limit": "The freshly retrieved publisher abstract supports the broad clinical rationale; the full body was not recovered in this pass. This is not a new cohort, controlled efficacy estimate or investment probability."
+    },
+    {
+      "id": "H09",
+      "title": "EP4058028B1: Pediatric formulations for treatment of cancer",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4058028NWB1/document.pdf",
+      "publication_date": "2025-03-05",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The EPO grant publication names Celgene Corporation as proprietor and describes pediatric enasidenib minitablet formulation work.",
+      "limit": "The published grant is not a current assignment-chain or enforceability check, freedom-to-operate conclusion, authenticated clinical-lot identity, supply commitment or license offer."
+    },
+    {
+      "id": "H10",
+      "title": "NCT04310527: Enasidenib sprinkle versus tablet bioavailability study",
+      "url": "https://clinicaltrials.gov/study/NCT04310527",
+      "publication_date": "2020-03-17",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The indexed official registry record identifies Celgene as sponsor, a completed adult sprinkle/tablet study, and no posted results.",
+      "limit": "March 17, 2020 is the indexed record's posted update date. The live API/body did not render in this pass; completion without results does not establish bioequivalence, pediatric exposure or current product access."
+    },
+    {
+      "id": "H11",
+      "title": "Bristol Myers Squibb independent research",
+      "url": "https://www.bms.com/research-and-development/independent-research.html",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "BMS describes independent-research support, contingent endorsement, an executed-agreement requirement, and an RFP-based process in several therapeutic areas.",
+      "limit": "The institutional route is not a D2HGA2 funding commitment. Research support does not automatically create investor profit, repayment or commercial ownership; eligibility, program fit and terms remain to be established."
+    },
+    {
+      "id": "H12",
+      "title": "ddiscov Round 26 local-product screen: inherited KRT16 evidence",
+      "url": "https://github.com/KyleJKistner/ddiscov/blob/dc0cdccfc6b9b4158094cb11d602ffb9cddf6028/research/rounds/round26/local-product-screen.md",
+      "publication_date": "2026-11-08",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The repository records the KRT16 Arg127Cys erlotinib evidence as two related people with controlled opposite-foot phases and later uncontrolled improvement, preserving co-treatment and article limitations.",
+      "limit": "Inherited candidate dossier, not fresh clinical evidence. The primary author-copy PDF returned an access error in this pass; no new outcome, responder count or causal estimate is added."
+    },
+    {
+      "id": "E01",
+      "title": "FDA: ZEMAIRA",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/zemaira",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "FDA identifies CSL Behring LLC as manufacturer of ZEMAIRA, Alpha-1-Proteinase Inhibitor (Human), STN 125078. Its stated indication is chronic augmentation and maintenance therapy in individuals with AAT deficiency and evidence of emphysema.",
+      "limit": "This establishes a relevant manufacturer and starting product, not approval of AAT-modified donor-lung perfusion, supply terms, access to CSL data or a commercial offer."
+    },
+    {
+      "id": "E02",
+      "title": "FDA: XPS with STEEN Solution Perfusate, PMA P180014",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P180014",
+      "publication_date": "2019-04-26 original approval; database page updated 2026-11-02",
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The FDA record names XVIVO Perfusion, Inc. as applicant for XPS with STEEN Solution perfusate, used for temporary normothermic perfusion and reassessment of initially unacceptable donor lungs.",
+      "limit": "FDA warns that supplements may change current labeling. The record does not establish approval of an AAT modification or demand for a ddiscov deliverable."
+    },
+    {
+      "id": "E03",
+      "title": "CSL Open Innovation: Partner with CSL",
+      "url": "https://csl.yet2.com/",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The CSL-branded partnering portal describes research collaboration, licensing, co-development and strategic investment with startups, established companies and academic groups. It seeks assets from preclinical through Phase 3 and provides an initial nonconfidential submission route.",
+      "limit": "A general intake mechanism is not an AAT-specific development contract, funding commitment, indication of interest or price. Initial submissions are expressly to exclude confidential information. No submission was made."
+    },
+    {
+      "id": "E04",
+      "title": "CSL global Investigator-Initiated Studies: current priorities and permitted funding use",
+      "url": "https://www.csl.com/research-and-development/awards-grants-and-initiatives/investigator-initiated-studies",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The current global priorities list immunoglobulins, hematology, hereditary angioedema and IgA nephropathy. AAT/transplant ischemia-reperfusion is not explicitly listed. Proposals may request funding or funding and drug supply. Funding and products must be used solely for approved research; the investigator or institution is responsible for the study, and CSL describes itself as grant provider.",
+      "limit": "Older or regional CSL pages naming AAT/transplant research do not establish current global priority or eligibility. Restricted research support is not investor principal repayment or distributable profit. AAT fit, applicant eligibility and permitted subcontract costs require confirmation."
+    },
+    {
+      "id": "E05",
+      "title": "XVIVO Investigator Initiated Research",
+      "url": "https://www.xvivogroup.com/investigator-initiated-research/",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "XVIVO describes funding and in-kind support for investigator-initiated research. The investigator or institution acts as study sponsor. An initial abstract precedes a requested full proposal; support requires review and execution of a research agreement with the institution.",
+      "limit": "The page does not offer an AAT-specific contract, investor distribution, fee margin, acceptance terms or a specified support amount. Research support and a prospective commercial services agreement are different structures."
+    },
+    {
+      "id": "E06",
+      "title": "Original U.S. patent application publication US20240327462A1",
+      "url": "https://patentimages.storage.googleapis.com/8a/07/3f/1d045970abf45f/US20240327462A1.pdf",
+      "publication_date": "2024-10-03",
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The original publication front page identifies Mackay Medical College and Fu Jen Catholic University as applicants for short peptides and pharmaceutical compositions for neurological diseases. The document supplies a specific institutional rights inquiry for the FD-peptide family.",
+      "limit": "Original applicants are not verified current title holders. Current prosecution, assignments, encumbrances, exact final FD-2 product correspondence, available licenses and freedom to operate remain unresolved."
+    },
+    {
+      "id": "E07",
+      "title": "Original Taiwan patent grant publication TWI886877B",
+      "url": "https://patentimages.storage.googleapis.com/44/33/fd/bbff6732b4dbd3/TWI886877B.pdf",
+      "publication_date": "2025-06-11",
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The original grant front page names Fu Jen Catholic University and Mackay jointly and provides a Taiwan national-document lead corresponding to the short-peptide neurological-use family.",
+      "limit": "A published national grant does not establish present maintenance, title, all-territory coverage, commercial availability or an obtainable exclusive FD-2 license."
+    },
+    {
+      "id": "E08",
+      "title": "Mackay Medical University: industry-collaboration procedures and application forms",
+      "url": "https://research.mmu.edu.tw/xmdoc/cont?sid=0Q007601884187599532&xsmsid=0Q005329226139811147",
+      "publication_date": "2026-01-07",
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "Mackay's research-development office publishes industry-collaboration procedures, application forms, a reference contract and research-results ownership rules, establishing an institutional route for a collaboration inquiry.",
+      "limit": "This general institutional process does not establish that FD-2 is offered, that Mackay alone can authorize a joint-owner transaction, or that particular pricing and rights will be available."
+    },
+    {
+      "id": "E09",
+      "title": "Fu Jen Catholic University commercialization platform: team",
+      "url": "https://gloria.fju.edu.tw/team/",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The search-indexed official university page identifies a commercialization/industry-collaboration team with university-wide technology-transfer responsibilities and public institutional contact routes.",
+      "limit": "Direct retrieval timed out; only the official-page search excerpt was recovered. This is an institutional routing lead, not a verified current FD-2 licensing listing or authoritative contact confirmation for sending a message."
+    },
+    {
+      "id": "E10",
+      "title": "FD-peptide ALS study: A 16-amino acid peptide delays motor-neuron degeneration and pathogenic symptoms in ALS models",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41298223/",
+      "publication_date": "2025-11 online; 2026-01 issue",
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "The indexed primary-study abstract reports FD-1/FD-2 observations in neuronal, zebrafish and SOD1 mouse models. This is preclinical evidence. The repository's existing Round 26 dossier preserves its early-treatment and biological-unit limitations.",
+      "limit": "Direct PubMed/full-text retrieval was incomplete or blocked in this pass, so detailed scientific conclusions are inherited from the repository rather than newly re-audited. This does not establish human efficacy, a qualified development package, an available commercial asset or a buyer."
+    },
+    {
+      "id": "E11",
+      "title": "NIH Technology Transfer: Licensing FAQs",
+      "url": "https://www.techtransfer.nih.gov/partnerships/licensing-faqs",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "NIH describes time-limited, nonexclusive commercial evaluation rights to make and use technology, with appropriate further rights required for continuing development and sales. License terms and royalties are negotiated.",
+      "limit": "This is a general sourcing-structure benchmark, not an offered ddiscov asset. Buying evaluation access creates no customer receivable, guaranteed buyer or principal-return obligation."
+    },
+    {
+      "id": "E12",
+      "title": "NIH Start-Up Exclusive License Agreements: current availability qualification",
+      "url": "https://www.techtransfer.nih.gov/partnerships/nih-start-exclusive-license-agreements",
+      "publication_date": null,
+      "checked_date": "2026-11-08 (America/Los_Angeles)",
+      "verified_fact": "NIH states that use of its startup-license program is determined by individual institutes or centers case by case. Its description includes historical program structures and example terms.",
+      "limit": "Historical fees and royalty examples are not current asset-specific quotes. No NIH asset has been added to the comparison merely to fill a category."
+    },
+    {
+      "id": "O01",
+      "title": "Royalty Pharma partnership structures",
+      "url": "https://www.royaltypharma.com/partners/types-of-partnerships/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Royalty Pharma describes acquiring existing and synthetic royalties and supplying launch/development capital in exchange for long-term payment streams.",
+      "limit": "Mechanism evidence only. No specific drug, seller, small-investor participation, price or return is offered to ddiscov by this page."
+    },
+    {
+      "id": "O02",
+      "title": "SWK Holdings 2024 Form 10-K: Finance Receivables",
+      "url": "https://www.sec.gov/Archives/edgar/data/1089907/000162828025013989/swkh-20241231.htm",
+      "publication_date": "2025",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The historical filing describes financing based on commercial-stage revenue/royalty streams and possible syndication of amounts over the company's stated transaction size.",
+      "limit": "Historical mechanism and scale evidence, not a current offering or access route. A suitable participation size, transferability, obligor, collateral and investor terms remain unverified."
+    }
+  ],
+  "current_use": "Background for later transaction diligence. Broad desk screening, an estimated comparison and a small shortlist precede inquiries; the active Round 27 comparison supersedes the earlier inquiry order."
+}

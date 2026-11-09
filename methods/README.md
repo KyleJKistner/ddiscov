@@ -15,6 +15,8 @@ python3 methods/blu3797_identity_audit.py --out /tmp/ddiscov-audits/blu-identity
 python3 methods/rux_hhd_clinical_audit.py --input research/rounds/round7/rux_hhd_clinical.json --output /tmp/ddiscov-audits/rux-clinical.json
 python3 methods/blu3797_qualification_decisions.py self-check
 python3 methods/blu3797_qualification_decisions.py check research/rounds/round8/blu3797-decision-input-template.json
+python3 methods/screening_hurdles.py --output /tmp/ddiscov-audits/screening-hurdles.json
+python3 methods/lidocaine_cashflows.py --output /tmp/ddiscov-audits/lidocaine-cashflows.json
 ```
 
 | Method | Output and interpretation |
@@ -26,6 +28,8 @@ python3 methods/blu3797_qualification_decisions.py check research/rounds/round8/
 | Ruxolitinib clinical | JSON checking case accounting and aggregate arithmetic; compare with [Round 7 audit](../research/rounds/round7/rux_hhd_clinical_audit.json). |
 | Qualification `self-check` | Prints results of synthetic decision-logic checks. |
 | Qualification `check` | Prints classification of the supplied decision record. The blank template returns `not_run_planning_only`; biological interpretation follows the [qualification package](../research/rounds/round8/blu3797-qualification-package.md). |
+| Screening hurdles | Reproduces [Round 27 financial sensitivity](../research/rounds/round27/financial-sensitivity.json): required net investor cash and a common illustrative proceeds grid. Inputs are subjective screening assumptions; outputs are not asset valuations or repayment probabilities. |
+| Nifedipine/lidocaine cash flows | Reproduces [Round 28 commercial scenarios](../research/rounds/round28/commercial-cashflows.json): five structures, explicit costs/royalties, uptake stresses, ten-year continuation, fee waiver and entry ceilings. Inputs are conditional analyst assumptions, with 100% vehicle ownership and separate upstream payments. Annual netting does not establish peak liquidity or a probability of recovery. |
 
 ## Run with external inputs
 

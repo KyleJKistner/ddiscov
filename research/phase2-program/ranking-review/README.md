@@ -1,6 +1,8 @@
 # Ranked screening review: 35 candidates
 
-**Decision date: 9 November 2026 UTC / 8 November Los Angeles.** Six asset-review agents and a separate methodology reviewer completed this comparison, integrated by `/root`. It covers 35 exact-use packages, with explicit evidence, contrary findings, product and safety gaps, potential retained value, and development cost/time estimates. This is the current **screening** recommendation. No inquiries or paid work were performed.
+> **Priority update:** The [reconciled current shortlist](../../../decisions/current-shortlist.md) governs new work. This record retains its dated evidence, scope, estimates and conclusions; its internal priorities are historical.
+
+**Decision date: 9 November 2026 UTC / 8 November Los Angeles.** Six asset-review agents and a separate methodology reviewer completed this comparison, integrated by `/root`. It covers 35 exact-use packages, with explicit evidence, contrary findings, product and safety gaps, potential retained value, and development cost/time estimates. This is the historical **screening** recommendation at that review. No inquiries or paid work were performed.
 
 ## Recommendation
 

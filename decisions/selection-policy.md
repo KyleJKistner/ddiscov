@@ -1,6 +1,6 @@
 # Selection policy
 
-Updated 9 November 2026 UTC. This policy governs new decisions. The [current opportunities](current-shortlist.md) identify packages to compare; the [opportunity template](opportunity-template.md) records a serious proposal. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) explains the changes and their source basis.
+Reconciled 9 November 2026 UTC / 8 November Los Angeles. This policy governs new decisions. The [current opportunities](current-shortlist.md) identify packages to compare; the [opportunity template](opportunity-template.md) records a serious proposal. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) and [broad estimated screen](../research/rounds/round27/README.md) explain the economic framework and current screening stage.
 
 ## Objective and unit of choice
 
@@ -12,9 +12,27 @@ Human trials are a possible stage, not the default next milestone. First compare
 
 Source opportunities across disease areas, modalities and stages: synthesis, article qualification, formulation and manufacturing, preclinical development, existing-drug indications, clinical work, and licensing or participation in existing programs. Established mechanisms, symptomatic treatment, practical product improvements and new inventions all compete on the same economics. Use existing evidence where applicable and select the next work that the actual development path needs.
 
-## Compare the full incremental economics
+## Screen broadly, narrow, then inquire
 
-The current stage is broad screening followed by deeper work on a handful, with inquiries later. Make provisional screening comparisons using explicit low/base/high estimates, source-backed judgments and sensitivity rather than requiring offers before narrowing. Keep a screening rank distinct from a decision to commit capital. The [current comparative method](../research/phase2-program/ranking-review/method.md) supplies that framework; no missing price should silently become zero or an assumed favorable transaction.
+The current stage is comparative desk screening. Build a broad set of exact asset/use opportunities, estimate their economics under uncertainty, and narrow to a handful for deeper desk diligence. Counterparty inquiries follow that narrowing. A named company or readily available contact route does not itself earn a higher investment rank.
+
+Use the best defensible estimates available at each stage. Distinguish observed facts, reference-class estimates, bottom-up cost estimates and subjective analyst priors. For each estimate, record its event or scope, low/central/high values, rationale, confidence and the observation that would change it. Missing quotes or offered rights widen the range and affect the access/capture assumptions; they do not automatically exclude a candidate or prevent a provisional comparison. Genuine unknowns remain explicit, with sensitivity cases showing their possible effect.
+
+Compare the same consequential milestone across candidates. An inexpensive qualification assay and a controlled useful-benefit study purchase different information. Include the resources needed to reach the stated result, then show later development and financing separately. Apply the same assumptions to incumbents and new leads; explain each rank change through evidence or estimates rather than novelty, review order or sponsor familiarity.
+
+Produce a ranked shortlist or tied tiers with reasons, major contrary evidence and the assumptions that reverse the ordering. Use ranges and coherent scenarios to expose uncertainty. After deeper desk review stabilizes a small shortlist, inquiries can test the few prices, rights or execution assumptions that control the choice. Actual commitment requires appropriately stronger diligence than candidate screening.
+
+## Apply the capital-recovery requirement
+
+The mandate requires a high probability of recovering principal plus a return. Assess that condition separately from expected value. Define the cash-realization horizon, required net return, capital base and minimum acceptable probability. Keep private investor amounts and thresholds outside public research records; use them in the actual commitment decision.
+
+Use cash received by the investor after the applicable costs and obligations. Separate company receipts, restricted research support, paper asset value, unexercised options and contingent milestones from distributable investor proceeds. Record the payment waterfall, collection risk, distribution rights and future obligations. A contract-backed deliverable can reduce dependence on a favorable scientific result when conforming completion earns payment; execution, acceptance, counterparty and collection risks still need underwriting.
+
+If B is the initial budget, D is cumulative investor capital contributed without recycling, O is unpaid binding investor obligations, R is net cash received by the chosen horizon and r is the required total return, recovery on deployed capital while covering obligations requires R >= D * (1 + r) + O. Return on the full initial budget instead requires B - D + R - O >= B * (1 + r), assuming unspent cash earns nothing. O excludes amounts already paid in D or deducted from R. The two return conditions coincide at full deployment; a successful investment also requires positive deployment. For staged contributions, recycling or interim distributions, use a dated cash-flow schedule and the agreed return definition. Preserve the distinction between capital kept unspent and a successful investment.
+
+Assess the probability of the defined portfolio cash outcome with explicit joint or conditional assumptions. An approval frequency, an experiment's success rate or the chance of at least one scientific win addresses a different event. Screening may use subjective probability ranges with a clear rationale and sensitivity analysis; their confidence remains distinct from verified terms or calibrated outcome frequencies. The [commercial screen](../research/commercial/2026-11-08-repayment-screen/README.md) records unresolved transaction questions for later diligence, rather than prerequisites for entering the screen.
+
+## Compare the full incremental economics
 
 For each feasible commitment, record:
 
@@ -36,13 +54,13 @@ Value the proposed tranche against the best feasible action available without bu
 
 Report expected incremental net value, net value per incremental dollar committed, absolute cash exposure and time to realizable value together. Package size, indivisible experiments, fixed costs and dependent milestones matter when allocating a finite budget. Evaluate the feasible combination of commitments; a favorable ratio alone cannot establish the best allocation.
 
-Use conservative, central and favorable scenarios with explicit assumptions and the price, success probability, dilution or delay that reverses the choice. Small cohorts and generic stage averages are evidence inputs, with their limitations. Keep unknown values explicit and use a qualitative comparison until a numerical one is supportable. Record ranges and uncertainty rather than unsupported point estimates.
+Use conservative, central and favorable scenarios with explicit assumptions and the price, success probability, dilution or delay that reverses the choice. Small cohorts and generic stage averages are evidence inputs, with their limitations. At screening, combine evidence with labeled analyst estimates instead of waiting for verified prices. Use a qualitative judgment where a numerical estimate would add false precision, and still state a provisional preference or tie and its reversal conditions.
 
 ## Make losses survivable
 
 Record the user's **deployable capital, maximum tolerable cumulative loss, minimum reserve, per-commitment loss limit and liquidity horizon**. These are open inputs until supplied. Track losses already incurred against the cumulative limit separately from prospective investment value. Evaluate total exposure and the capital left after failure, including correlated failures across shared targets, models, suppliers, partners and funding conditions.
 
-The user clarified during the topical-erlotinib review that approximately **$500,000 is a reference budget, not a strict cap**. Assess larger packages when the additional capital buys worthwhile evidence or retained value; compare incremental spend and genuine stopping points explicitly. The preference remains a high probability of recovering invested cash with a return. The $750,000 discussion is a scenario, not an authorized commitment. Permission to spend, an affordable-loss limit, reserve and liquidity horizon remain unresolved. The earlier screening model's $500,000 filter is a recorded scenario, not the current eligibility rule. Evaluate clinical success and retained cash recovery separately using the [Phase II evidence standard](../research/phase2-program/phase2-evidence-standard.md).
+Capital flexibility is not a spending target. The historical $500k filter and $750k scenarios remain analytical cases, not current eligibility rules or authorization. Compare larger packages by incremental retained value, staged exposure and the cash-recovery requirement. Keep personal amounts and thresholds in the private mandate.
 
 Apply these limits before ranking feasible commitments by expected value. Prefer staged contracts and independently useful milestones where they preserve the option to stop. Identify any follow-on obligation already created by the initial tranche. A successful first result still needs a financeable next step or a credible handoff; otherwise its financial value may be small.
 
@@ -68,6 +86,8 @@ Verify time-sensitive program, supply, comparator, rights and funding facts when
 
 ## Maintain one current decision
 
+The [reconciled shortlist](current-shortlist.md) is the sole active research ranking. The [reconciliation record](../research/strategy/2026-11-08-shortlist-reconciliation.md) maps PR #4 and PR #6 scopes, costs and superseded ranks. Historical numerical screens remain reproducible; their ranks do not override the active tiers. A research tier is not a recommendation to allocate capital.
+
 Summarize each serious proposal as **exact use and interest → evidence → next deliverable → cost/time and exposure → outcome branches → route to retained cash → comparison and reversal condition**. Link the supporting dossier and distinguish proposed, offered, authorized and completed work.
 
-Select the next information task by whether it can change an affordable decision and the value of that change, including operator time. A better price, access route, funding structure or contribution can justify a fresh economic comparison with unchanged biology. End a pass when its decision is clear or a named missing artifact is required; direct the next effort to that artifact or another package. Historical effort, novelty and review order remain context. Current attainable commitments and preserving capital are the alternatives for allocation.
+Select the next information task by whether it can change an affordable decision and the value of that change, including operator time. A better estimated price, access route, funding structure or contribution can justify a fresh comparison with unchanged biology. During screening, carry unresolved inputs through ranges and compare alternatives; concentrate further desk work on uncertainties that can change the shortlist. Historical effort, novelty and review order remain context. Inquiry and commitment decisions follow the screening decision.

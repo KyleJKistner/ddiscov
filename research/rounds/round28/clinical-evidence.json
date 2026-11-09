@@ -1,0 +1,762 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "PROPOSED-PKG-NIF-LIDO-CAF",
+  "checked_date_utc": "2026-11-09",
+  "scope": "Targeted independent clinical audit; 12 clinical evidence units plus guideline, HTA and product-label records. Not a systematic review, regulatory opinion, clinical recommendation or investment guarantee.",
+  "findings": [
+    {
+      "claim": "Nifedipine has credible independent clinical activity; the extra benefit from adding lidocaine to nifedipine remains unresolved.",
+      "status": "analyst interpretation",
+      "source_ids": [
+        "CL01",
+        "CL02",
+        "CL06",
+        "CL08",
+        "CL09",
+        "CL14"
+      ]
+    },
+    {
+      "claim": "No same-strength randomized chronic-fissure comparison of nifedipine/lidocaine versus nifedipine alone was retrieved in this targeted search.",
+      "status": "search finding, not proof of absence",
+      "source_ids": []
+    },
+    {
+      "claim": "Short-term healing, pain relief, recurrence and investor cash recovery are separate outcomes.",
+      "status": "decision rule",
+      "source_ids": []
+    },
+    {
+      "claim": "P001/98 in the Canadian label and the Perrotti2002 report apparently share an evidence lineage; the day21/day42 and healing-definition differences need reconciliation.",
+      "status": "observed discrepancy plus lineage inference",
+      "source_ids": [
+        "CL02",
+        "CL15"
+      ]
+    },
+    {
+      "claim": "Existing repeated-dose healthy-volunteer and single-dose injured-mucosa PK precede this proposal. A new PK study must answer an identified remaining question.",
+      "status": "analyst interpretation",
+      "source_ids": [
+        "CL04",
+        "CL05"
+      ]
+    }
+  ],
+  "confidence": [
+    {
+      "question": "Nifedipine can help short-term fissure healing",
+      "rating": "moderate",
+      "basis": "Multiple controlled studies, differing articles and populations; small studies and reporting/attrition weaknesses."
+    },
+    {
+      "question": "Fixed 0.3%/1.5% combination adds clinically useful benefit over nifedipine alone",
+      "rating": "low / unresolved",
+      "basis": "No direct component-removal comparison retrieved; much evidence adds nifedipine to lidocaine."
+    },
+    {
+      "question": "Durable healing after stopping treatment",
+      "rating": "low",
+      "basis": "Heterogeneous recurrence reports, endpoints and follow-up; no pooled estimate."
+    },
+    {
+      "question": "Broad absence of systemic exposure or adverse effects",
+      "rating": "not supported",
+      "basis": "Lidocaine measurable after surgery; small samples cannot exclude uncommon events."
+    },
+    {
+      "question": "High-probability investor capital recovery",
+      "rating": "not established by clinical evidence",
+      "basis": "Requires product differentiation, attainable economics, territory and regulatory route."
+    }
+  ],
+  "next_milestone": {
+    "status": "proposed, no outreach or expenditure authorized here",
+    "class": "Clinical evidence and exact-product decision package before new human exposure",
+    "deliverable": "One reconciled evidence map and go/no-go comparison for an existing 0.3%/1.5% article, a changed formulation/delivery article, and nifedipine alone.",
+    "priority_checks": [
+      "Reconcile P001/98 protocol/CSR, day21 versus day42, complete versus almost-complete healing, analysis population and prespecified pain endpoints.",
+      "Map the proposed article against each study: strength, vehicle, administration site, dose delivery, stability, exposure and clinical claim.",
+      "Assess whether lidocaine adds a material product benefit that requires direct evidence; do not infer this from trials in which both arms contain lidocaine.",
+      "Separate the full source-data access/right-to-reference question from the scientific plausibility of the published results.",
+      "Determine the specific target-jurisdiction evidentiary gap using existing public labels and assessments before selecting an experiment."
+    ],
+    "sequence_if_gaps_remain": [
+      "For an unchanged transferable article, audit the existing dossier and manufacturing comparability before commissioning generic PK.",
+      "For a changed vehicle or applicator, begin with comparative pharmaceutical performance and delivered-dose feasibility; these tests cannot establish clinical equivalence by themselves.",
+      "For an unresolved exposure difference, define a focused exposure bridge; healthy repeated-dose data do not settle repeated exposure on damaged mucosa.",
+      "For a claim that lidocaine adds benefit, a component-comparison clinical study may be needed, but only after the regulatory and commercial claim is chosen.",
+      "For an independent new efficacy claim, design the clinical program around the required pain/healing endpoint and meaningful follow-up; a small uncontrolled series would add little."
+    ],
+    "planning_duration_weeks": {
+      "low": 2,
+      "base": 4,
+      "high": 8
+    },
+    "estimate_basis": "Subjective desk-work duration for a focused clinical/regulatory/product gap package, excluding unavailable sponsor data, experiments, ethics review and regulator waiting time. Not a quote or approval timetable.",
+    "stop_or_redirect_conditions": [
+      "The apparent opportunity requires repeating already available PK without resolving a valuable product or regulatory gap.",
+      "The chosen claim requires a substantially larger clinical program than the contemplated bounded bridge.",
+      "The combination adds no defendable patient/product benefit and a simpler article has superior obtainable economics.",
+      "The exact article or needed source-data reliance cannot be obtained on acceptable terms after later commercial diligence."
+    ]
+  },
+  "sources": [
+    {
+      "id": "CL01",
+      "title": "Antropoli et al. Nifedipine for local use in conservative treatment of anal fissures: preliminary results of a multicenter study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10458123/",
+      "doi": "10.1007/BF02236693",
+      "publication_date": "1999-08",
+      "access": "Primary abstract; full protocol, allocation and attrition details not retrieved.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL02",
+      "title": "Perrotti et al. Topical nifedipine with lidocaine ointment vs active control for chronic anal fissure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12432293/",
+      "doi": "10.1007/s10350-004-6452-1",
+      "publication_date": "2002-11",
+      "access": "Primary abstract; full paper/CSR not accessed. Compare CL15 rather than treating the label as independent replication.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL03",
+      "title": "Ezri and Susmallian. Topical nifedipine vs topical glyceryl trinitrate for chronic anal fissure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12794583/",
+      "doi": "10.1007/s10350-004-6660-8",
+      "publication_date": "2003-06",
+      "access": "Primary abstract retrieved through search; exact concentrations, vehicle and detailed recurrence denominator not verified.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL04",
+      "title": "Perrotti et al. Serum levels and possible haemodynamic effects after anorectal nifedipine/lignocaine in healthy volunteers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17163278/",
+      "doi": "10.2165/00044011-200626080-00004",
+      "publication_date": "2006-08",
+      "access": "Primary abstract; detailed assay validation/quantification limits and individual data not retrieved.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL05",
+      "title": "Perrotti et al. Pharmacokinetics of anorectal nifedipine/lidocaine following haemorrhoidectomy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19301938/",
+      "doi": "10.2165/00044011-200929040-00003",
+      "publication_date": "2009",
+      "access": "Primary abstract; single-dose postoperative study, not chronic-fissure repeated-dose exposure.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL06",
+      "title": "Golfam et al. The Effect of Topical Nifedipine in Treatment of Chronic Anal Fissure",
+      "url": "https://acta.tums.ac.ir/index.php/acta/article/download/4051/4026/",
+      "alternate_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/21287460/",
+        "https://acta.tums.ac.ir/index.php/acta/article/view/4051"
+      ],
+      "publication_date": "2010",
+      "access": "Full primary paper. Methods disclose 120 allocated and 110 analyzed, unlike the simplified abstract.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL07",
+      "title": "Perrotti et al. Topical nifedipine/lidocaine versus lidocaine for pain after hemorrhoidectomy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2810010/",
+      "alternate_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20100408/"
+      ],
+      "publication_date": "2010-02",
+      "access": "Full primary paper. Bracco funded; three coauthors employed by Bracco.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL08",
+      "title": "Kujur et al. Comparative Study of Topical Nifedipine and Diltiazem in Chronic Anal Fissure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7842453/",
+      "alternate_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33532409/"
+      ],
+      "doi": "10.4103/jfmpc.jfmpc_986_20",
+      "publication_date": "2020-11-30",
+      "access": "Primary abstract and indexed full-text methods/results; direct PMC opening later intermittently returned a browser challenge.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL09",
+      "title": "Momayez Sanat et al. Topical nifedipine versus diltiazem for acute anal fissure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10404091/",
+      "doi": "10.34172/mejdd.2023.330",
+      "publication_date": "2023-04-30",
+      "access": "Full primary paper; inconsistent recurrence percentages/denominators and pain-duration units limit those secondary numbers.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL10",
+      "title": "Kumar et al. Double-blind randomized nifedipine versus diltiazem trial in anal fissure",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/wjs.70361",
+      "alternate_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41989019/"
+      ],
+      "doi": "10.1002/wjs.70361",
+      "publication_date": "2026-04-16",
+      "access": "Primary abstract and disclosures only; full-text link redirected to abstract. CTRI record timed out. Chronic-only subgroup and allocation/attrition details unverified.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL11",
+      "title": "Vardhani et al. Nifedipine/lidocaine in acute and chronic anal fissure: retrospective multicenter postmarketing study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12996345/",
+      "alternate_urls": [
+        "https://assets.cureus.com/uploads/original_article/pdf/446345/20260318-365893-lyce7k.pdf"
+      ],
+      "doi": "10.7759/cureus.103680",
+      "publication_date": "2026-02-15",
+      "access": "Full primary paper/PDF. Two authors disclose Samarth employment; authors declare no financial support. Exact commercial brand/vehicle equivalence unverified.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL12",
+      "title": "Jensen. Acute first anal fissure: lignocaine versus hydrocortisone versus warm sitz baths and bran",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3011180/",
+      "alternate_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1340178/"
+      ],
+      "doi": "10.1136/bmj.292.6529.1167",
+      "publication_date": "1986-05-03",
+      "access": "Primary abstract; acute comparator context, not evidence for chronic fixed-combination efficacy.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL13",
+      "title": "SIUCP guidelines for management of anal fissure",
+      "url": "https://link.springer.com/article/10.1186/s12893-023-02223-z",
+      "alternate_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10576345/"
+      ],
+      "doi": "10.1186/s12893-023-02223-z",
+      "publication_date": "2023",
+      "access": "Guideline recommendations only; not counted as a new clinical cohort.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL14",
+      "title": "HAS NIFEXINE assessment: pain associated with chronic anal fissure",
+      "url": "https://www.has-sante.fr/jcms/p_3410031/en/nifexine-nifedipine/lidocaine-hydrochloride-pain-associated-with-chronic-anal-fissures",
+      "alternate_urls": [
+        "https://www.has-sante.fr/jcms/p_3410031/fr/nifexine-nifedipine/lidocaine-chlorhydrate-douleurs-associees-a-la-fissure-anale-chronique"
+      ],
+      "publication_date": "2023-02-01",
+      "posted_date": "2023-02-06",
+      "access": "Official HTA summary. Cited for HAS's judgment; not independent efficacy evidence or a US regulatory requirement.",
+      "checked_date_utc": "2026-11-09"
+    },
+    {
+      "id": "CL15",
+      "title": "SEAFORD NIFEDIPINE AND LIDOCAINE HYDROCHLORIDE CREAM product monograph",
+      "url": "https://pdf.hres.ca/dpd_pm/00080832.PDF",
+      "publication_date": "2025-06-13",
+      "initial_authorization_date": "2024-05-30",
+      "access": "Full official Canadian monograph, especially sections 1, 3, 10 and 14. P001/98 is not counted as an independent cohort.",
+      "checked_date_utc": "2026-11-09"
+    }
+  ],
+  "evidence_units": [
+    {
+      "id": "EU01",
+      "source_ids": [
+        "CL01"
+      ],
+      "population": "Acute fissure",
+      "design": "Randomized double-blind multicenter",
+      "n": 283,
+      "arms": [
+        {
+          "n": 141,
+          "article": "Nifedipine 0.2% gel alone"
+        },
+        {
+          "n": 142,
+          "article": "Lidocaine 1% plus hydrocortisone acetate 1% gel"
+        }
+      ],
+      "results": {
+        "day21_remission_percent": [
+          95,
+          50
+        ],
+        "nifedipine_resting_pressure_mmHg": {
+          "before_mean": 72.5,
+          "after_mean": 50.5
+        }
+      },
+      "duration_weeks": 3,
+      "limitations": [
+        "Acute disease and different strength; not exact-product chronic replication.",
+        "Comparator changes both nifedipine and hydrocortisone/lidocaine exposure."
+      ]
+    },
+    {
+      "id": "EU02",
+      "source_ids": [
+        "CL02"
+      ],
+      "population": "Chronic fissure",
+      "design": "Randomized double-blind; single center per HAS",
+      "n": 110,
+      "arms": [
+        {
+          "n": 55,
+          "article": "Nifedipine 0.3% plus lidocaine 1.5% ointment"
+        },
+        {
+          "n": 55,
+          "article": "Lidocaine 1.5% plus hydrocortisone acetate 1% ointment"
+        }
+      ],
+      "results": {
+        "publication_primary_day": 42,
+        "healing_percent": [
+          94.5,
+          16.4
+        ],
+        "nifedipine_resting_pressure_mmHg": {
+          "before_mean": 47.2,
+          "after_mean": 42
+        },
+        "recurrence_within_one_year_after_unblinding": {
+          "events": 3,
+          "healed_denominator": 52,
+          "responded_to_retreatment": 2
+        }
+      },
+      "limitations": [
+        "Lidocaine present in both arms; cannot estimate its added benefit.",
+        "Steroid comparator is not inert; its causal contribution to the low control healing is unproven.",
+        "Same apparent cohort as P001/98; reconcile endpoint timing/definition with CL15."
+      ]
+    },
+    {
+      "id": "EU03",
+      "source_ids": [
+        "CL03"
+      ],
+      "population": "Chronic fissure",
+      "design": "Randomized double-blind",
+      "n": 52,
+      "arms": [
+        {
+          "n": 26,
+          "article": "Topical nifedipine; concentration unverified here"
+        },
+        {
+          "n": 26,
+          "article": "Topical glyceryl trinitrate; concentration unverified here"
+        }
+      ],
+      "results": {
+        "healing_percent": [
+          89,
+          58
+        ],
+        "healing_p": "<0.04",
+        "headache_or_flushing_percent": [
+          5,
+          40
+        ],
+        "recurrence_percent": [
+          42,
+          31
+        ],
+        "mean_time_to_recurrence_weeks": [
+          12,
+          18
+        ]
+      },
+      "limitations": [
+        "Small study; recurrence denominators not explicit in retrieved abstract.",
+        "Six-month healing window differs from short fixed-time outcomes."
+      ]
+    },
+    {
+      "id": "EU04",
+      "source_ids": [
+        "CL04"
+      ],
+      "population": "Healthy adults",
+      "design": "Repeated-dose PK/safety",
+      "n": 12,
+      "article": "Nifedipine 0.3% plus lidocaine 1.5% ointment",
+      "exposure": "3 g anorectally every 12 hours for 7 days in the study",
+      "results": {
+        "systemic_signals": "Sporadic signals below assay quantification limits",
+        "serious_adverse_events": 0,
+        "significant_ECG_BP_HR_changes": "None reported"
+      },
+      "limitations": [
+        "Healthy mucosa; small sample; not absence of absorption.",
+        "Exact new-article equivalence cannot be inferred from concentrations alone."
+      ]
+    },
+    {
+      "id": "EU05",
+      "source_ids": [
+        "CL05"
+      ],
+      "population": "Immediately after Milligan-Morgan hemorrhoidectomy",
+      "design": "Open-label single-dose PK/safety",
+      "n": 24,
+      "article": "Nifedipine 0.3% plus lidocaine 1.5% ointment",
+      "exposure": "Single 3 g anorectal application",
+      "results": {
+        "nifedipine_detectable_n": 5,
+        "nifedipine_ng_mL_range": [
+          5.9,
+          18.8
+        ],
+        "lidocaine_detectable_n": 24,
+        "lidocaine_Cmax_ng_mL": {
+          "mean": 245.1,
+          "sd": 370.8,
+          "median": 73.6,
+          "outliers": [
+            1037.8,
+            1044.75,
+            1364.1
+          ]
+        },
+        "serious_adverse_events": 0,
+        "significant_ECG_BP_HR_changes": "None reported"
+      },
+      "limitations": [
+        "Damaged mucosa increases relevance but postoperative wounds differ from chronic fissures.",
+        "Authors requested multiple-dose damaged-mucosa study; no universal no-systemic-exposure claim."
+      ]
+    },
+    {
+      "id": "EU06",
+      "source_ids": [
+        "CL06"
+      ],
+      "population": "Chronic fissure refractory to conservative care",
+      "design": "Reported randomized single-blind; allocation/concealment details limited",
+      "n_allocated": 120,
+      "n_analyzed": 110,
+      "arms": [
+        {
+          "n_allocated": 65,
+          "n_analyzed": 60,
+          "article": "Nifedipine 0.5% cream alone"
+        },
+        {
+          "n_allocated": 55,
+          "n_analyzed": 50,
+          "article": "Lidocaine 2% cream"
+        }
+      ],
+      "results": {
+        "week4_healed": [
+          42,
+          6
+        ],
+        "week4_healing_percent": [
+          70,
+          12
+        ],
+        "nifedipine_12_month_recurrence": {
+          "events": 11,
+          "healed_denominator": 42,
+          "percent": 26.19
+        },
+        "nifedipine_headache_n": 4
+      },
+      "limitations": [
+        "Ten post-allocation exclusions: five surgery for poor response, five nonadherence/lost.",
+        "Different strength; no direct combination comparison.",
+        "Table prints 42(60%); narrative and arithmetic support 42/60=70%."
+      ]
+    },
+    {
+      "id": "EU07",
+      "source_ids": [
+        "CL07"
+      ],
+      "population": "Open hemorrhoidectomy; fissure excluded",
+      "design": "17-center randomized double-blind",
+      "n": 270,
+      "arms": [
+        {
+          "n": 135,
+          "article": "Nifedipine 0.3% plus lidocaine 1.5%"
+        },
+        {
+          "n": 135,
+          "article": "Lidocaine 1.5% alone"
+        }
+      ],
+      "results": {
+        "primary_median_hours_to_rescue_analgesic": [
+          6.3,
+          7
+        ],
+        "primary_p": 0.25,
+        "requested_analgesic_n": [
+          104,
+          100
+        ],
+        "six_hour_adjusted_pain_change_mm": [
+          22.09,
+          31.47
+        ],
+        "six_hour_p": "<0.011",
+        "day7_p_reported": "<0.054",
+        "completed_n": 251
+      },
+      "limitations": [
+        "Primary endpoint negative; day7 reporting does not establish p<0.05.",
+        "Adds nifedipine to lidocaine in a different surgical indication; does not test lidocaine addition.",
+        "Bracco sponsorship and employees; not independent of core Italian research lineage."
+      ]
+    },
+    {
+      "id": "EU08",
+      "source_ids": [
+        "CL08"
+      ],
+      "population": "Chronic fissure defined as >4 weeks with clinical signs",
+      "design": "Randomized open-label single center",
+      "n_screened": 105,
+      "n_allocated": 100,
+      "n_analyzed": 90,
+      "arms": [
+        {
+          "n_allocated": 33,
+          "n_analyzed": 30,
+          "article": "Nifedipine 0.3% cream AND lidocaine 2% cream"
+        },
+        {
+          "n_allocated": 33,
+          "n_analyzed": 30,
+          "article": "Diltiazem 2% ointment AND lidocaine 2% cream"
+        },
+        {
+          "n_allocated": 34,
+          "n_analyzed": 30,
+          "article": "Lidocaine 2% cream alone"
+        }
+      ],
+      "results": {
+        "week4_healed": [
+          28,
+          26,
+          11
+        ],
+        "week4_healing_percent": [
+          93.33,
+          86.67,
+          36.67
+        ]
+      },
+      "limitations": [
+        "Ten lost after allocation; complete-case analysis, unblinded.",
+        "Coadministration is not verified identical fixed-combination article.",
+        "Stool/diet/bath support in all groups; no usable recurrence estimate extracted."
+      ]
+    },
+    {
+      "id": "EU09",
+      "source_ids": [
+        "CL09"
+      ],
+      "population": "Acute fissure <6 weeks",
+      "design": "Randomized, outcome assessors blinded; participants not blinded",
+      "n_allocated": 106,
+      "n_analyzed": 103,
+      "arms": [
+        {
+          "n_allocated": 53,
+          "n_analyzed": 53,
+          "article": "Nifedipine 0.3% cream alone"
+        },
+        {
+          "n_allocated": 53,
+          "n_analyzed": 50,
+          "article": "Diltiazem 2% ointment"
+        }
+      ],
+      "results": {
+        "week8_healed": [
+          41,
+          27
+        ],
+        "week8_healing_percent": [
+          77.4,
+          54
+        ],
+        "healing_p": 0.01,
+        "side_effect_n": [
+          7,
+          2
+        ],
+        "six_month_relapse_percent_as_reported": [
+          16.3,
+          21.4
+        ]
+      },
+      "limitations": [
+        "Acute population; three diltiazem nonadherent withdrawals.",
+        "Reported recurrence percentages do not align cleanly with healing denominators; pain-duration units conflict.",
+        "Self-reported dizziness/flushing/hypotension exist; do not claim universally no systemic effects."
+      ]
+    },
+    {
+      "id": "EU10",
+      "source_ids": [
+        "CL10"
+      ],
+      "population": "Mixed acute, chronic and acute-on-chronic fissure",
+      "design": "Reported double-blind randomized single-center",
+      "n": 110,
+      "arms": [
+        {
+          "article": "Nifedipine 0.3% plus lidocaine 2% ointment"
+        },
+        {
+          "article": "Diltiazem 2% plus lidocaine 2% ointment"
+        }
+      ],
+      "results": {
+        "week6_healing_percent": [
+          70.9,
+          67.3
+        ],
+        "REALISE_before_mean": [
+          17.7,
+          16.3
+        ],
+        "REALISE_after_mean": [
+          5.3,
+          5.8
+        ],
+        "within_group_p": [
+          0.0001,
+          0.0001
+        ]
+      },
+      "limitations": [
+        "Different lidocaine strength from 1.5% article; chronic-only effect unverified.",
+        "No vehicle/nifedipine-alone arm; similar results do not prove formal equivalence or superiority.",
+        "Short follow-up; no durable benefit established."
+      ]
+    },
+    {
+      "id": "EU11",
+      "source_ids": [
+        "CL11"
+      ],
+      "population": "290 acute plus 141 chronic fissure patients",
+      "design": "Retrospective uncontrolled complete-record series, 46 Indian sites",
+      "n": 431,
+      "article": "Nifedipine 0.3% plus lidocaine 1.5% cream; brand/vehicle equivalence unverified",
+      "results": {
+        "week8_healed_total": {
+          "events": 414,
+          "denominator": 431,
+          "percent": 96.06
+        },
+        "week8_healed_chronic": {
+          "events": 133,
+          "denominator": 141,
+          "percent": 94.33
+        }
+      },
+      "limitations": [
+        "Excludes incomplete records, recurrent fissures, hypertension, diabetes and several other conditions.",
+        "Supportive care and rescue acetaminophen allowed; no comparator or recurrence follow-up.",
+        "Two Samarth-employed authors; cannot infer causality or rare-event rates."
+      ]
+    },
+    {
+      "id": "EU12",
+      "source_ids": [
+        "CL12"
+      ],
+      "population": "First acute posterior fissure",
+      "design": "Randomized three-arm trial",
+      "n": 103,
+      "withdrawn": 7,
+      "arms": [
+        {
+          "n": 33,
+          "article": "Lignocaine ointment"
+        },
+        {
+          "n": 35,
+          "article": "Hydrocortisone ointment"
+        },
+        {
+          "n": 35,
+          "article": "Warm sitz baths plus bran"
+        }
+      ],
+      "results": {
+        "week3_healing_percent": [
+          60,
+          82.4,
+          87
+        ]
+      },
+      "limitations": [
+        "Acute setting, not chronic fixed-combination efficacy.",
+        "Counters the claim that hydrocortisone necessarily prevents all fissure healing; does not settle its role in the 2002 comparator."
+      ]
+    }
+  ],
+  "nontrial_records": [
+    {
+      "source_id": "CL13",
+      "record_type": "Guideline recommendation",
+      "facts": [
+        "CCBs or nitrates for typical hypertonic chronic fissure: 1B.",
+        "Specific nifedipine0.3%/lidocaine1.5% option: weaker 2B."
+      ]
+    },
+    {
+      "source_id": "CL14",
+      "record_type": "HTA judgment, 2023",
+      "facts": [
+        "Favorable reimbursement opinion but low clinical benefit and no added clinical value (ASMR V).",
+        "HAS questions comparator and unproven lidocaine contribution; pain/recurrence evidence inadequate."
+      ]
+    },
+    {
+      "source_id": "CL15",
+      "record_type": "Approved label and apparent same-cohort clinical summary",
+      "facts": [
+        "Adults with chronic primary fissure unresponsive to stool softeners and topical anesthetics.",
+        "P001/98: n110, day21, 52/55 versus9/55 complete/almost-complete healing.",
+        "Boxed methemoglobinemia warning and cardiovascular contraindications; no universal safety claim."
+      ],
+      "deduplication": "Treat P001/98 and EU02 as one apparent lineage pending full dossier reconciliation, not an extra efficacy trial."
+    }
+  ],
+  "commercial_unit_check": {
+    "source_id": "CL15",
+    "source_locator": "Recommended dose and patient information; 30 g tube",
+    "observed_label": "Approximately 2.5–3 g twice daily for three weeks.",
+    "calculated_grams_per_course": [
+      105,
+      126
+    ],
+    "calculated_nominal_30g_packs": [
+      3.5,
+      4.2
+    ],
+    "calculated_whole_30g_packs": [
+      4,
+      5
+    ],
+    "status": "Arithmetic from the Canadian labeled regimen, not observed purchasing or a treatment recommendation.",
+    "economic_limit": "Actual dispensing, adherence and repeat purchases are not measured. Higher course cost can reduce uptake. This quantity cannot be transferred to the Fizurex wipe or differently dosed compounded articles."
+  }
+}

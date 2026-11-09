@@ -1,6 +1,6 @@
 # Research guide
 
-Current priorities and evaluation rules live in [decisions](../decisions/README.md). This directory supplies their evidence and history. The [ten-team Phase II program](phase2-program/README.md) adds focused source refreshes dated 8 November 2026. The latest numbered review is [Round 26](rounds/round26/README.md); [Round 25](rounds/round25/README.md) contains the prior consolidated incumbent reassessment and APR-246 advancement package.
+Current priorities and evaluation rules live in [decisions](../decisions/README.md). The [shortlist reconciliation](strategy/2026-11-08-shortlist-reconciliation.md) integrates both research branches. The latest numbered review is [Round 28](rounds/round28/README.md), following the [49-package Round 27 screen](rounds/round27/README.md). The [commercial-route comparison](commercial-routes/README.md), [erlotinib dossier](phase2-program/erlotinib/README.md) and [35-candidate review](phase2-program/ranking-review/README.md) retain complementary evidence and dated conclusions.
 
 ## Find evidence
 
@@ -15,7 +15,10 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
-| [Commercial routes](commercial-routes/README.md) | Current comparison of earlier licensing, existing-sponsor contributions and human-anchored assets, with cost-provenance audit. |
+| [Shortlist reconciliation](strategy/2026-11-08-shortlist-reconciliation.md) | Unified research tiers, mandate, cost crosswalk and bounded next outputs. |
+| [Round 28](rounds/round28/README.md) | Nifedipine/lidocaine clinical, regulatory and retained-cash review. |
+| [Round 27](rounds/round27/README.md) | Broad 49-package screen; historical numerical ranks. |
+| [Commercial routes](commercial-routes/README.md) | Dated comparison of earlier licensing, existing-sponsor contributions and human-anchored assets, with cost-provenance audit. |
 | [Phase II candidate program](phase2-program/README.md) | Ten coordinator dossiers, twenty worker assignments, source-access limits, evidence gates and next information tasks. |
 | [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
 | [Round index](rounds/README.md) | One entry per research round, newest first. |

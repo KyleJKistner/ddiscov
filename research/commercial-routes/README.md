@@ -1,5 +1,7 @@
 # Commercial routes before funding our own human trial
 
+> **Priority update:** The [reconciled current shortlist](../../decisions/current-shortlist.md) governs new work. This record retains its dated evidence, scope, estimates and conclusions; its internal priorities are historical.
+
 **Decision date: 9 November 2026 UTC / 8 November Los Angeles.** This review compares a smaller asset package for licensing, a defined contribution to an existing sponsor, and opportunities with stronger existing human evidence. Six specialist reviews and an independent challenge inform the conclusion. This is completed public-source diligence; no inquiries, registrations, purchases or clinical work were undertaken.
 
 ## Judgment

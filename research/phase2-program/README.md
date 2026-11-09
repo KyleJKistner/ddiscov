@@ -1,5 +1,7 @@
 # Phase II candidate program
 
+> **Priority update:** The [reconciled current shortlist](../../decisions/current-shortlist.md) governs new work. This record retains its dated evidence, scope, estimates and conclusions; its internal priorities are historical.
+
 Ten coordinator teams investigate different routes to a promising drug-development candidate. Each owns an evidence scout and a translational/commercial challenger: **10 coordinators + 20 workers**, directed by an integrating lead. The question is which exact drug/use and obtainable economic interest deserves the next bounded commitment.
 
 **First pass completed, 8 November 2026:** all ten coordinators and twenty workers ran in five waves. Their findings and unresolved next actions are recorded below. No agents continue running as a background service after the session.

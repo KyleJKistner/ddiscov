@@ -1,0 +1,2103 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-09",
+  "timezone": "UTC",
+  "stage": "Broad desk screen narrowed to four for deeper desk diligence; inquiries come later.",
+  "coverage": {
+    "development_packages": 49,
+    "distinct_asset_use_combinations": 48,
+    "lane_source_records": 126,
+    "source_record_limit": "Source records overlap across lanes; this is not a count of unique publications or independent replications.",
+    "scope_limit": "Broad targeted screen including prior incumbents and new leads; not an exhaustive search of all drug-development opportunities.",
+    "duplicate_scope": "Calcipotriol/5-FU actinic keratosis has a product-only package and a larger clinical/registration contribution package. They share an asset_use_key and must not be counted as independent investments."
+  },
+  "core_finalists": [
+    "PROPOSED-PKG-NIF-LIDO-CAF",
+    "R4-L02",
+    "R26-LOC-01",
+    "EARLY-CBD3063-PAIN"
+  ],
+  "immediate_product_challengers": [
+    "AAT_PROCESS",
+    "LOCAL_INSULIN_PED",
+    "VERTEPORFIN_SCAR"
+  ],
+  "close_reserves": [
+    "EARLY-8015P2-CMT2A",
+    "EARLY-PEPITEM-BONE",
+    "PROPOSED-PKG-RECTAL-TAC-UP"
+  ],
+  "selection_interpretation": "Provisional priority for further desk work using evidence, useful milestone, estimated cost/time and retainable value. It is not a precise expected-return or capital-deployment ranking. APR and erlotinib remain tied under matched assumptions. Product/process challengers are not rejected for missing quotes; their proposed incremental contribution remains less specifically defined.",
+  "financial_assumptions": {
+    "horizon_years": 5,
+    "horizon_status": "Analyst comparison assumption, not an investor-specified deadline.",
+    "cost_status": "All-in low/base/high planning judgments with entry/access allowances; neither quotes nor contractual spending caps.",
+    "probability_status": "Subjective low/base/high priors, not confidence intervals or calibrated candidate probabilities.",
+    "p_event": "Useful favorable milestone conditional on the modeled access/rights and competent execution; practical execution failure is included.",
+    "q_event": "Net cash reaches the modeled investor within the horizon, conditional on the useful milestone and assumed interest. The amount is separate; some cash does not imply principal recovery.",
+    "simple_model": "Nominal expected net cash conditional on assumed access/rights = p*q*V-C. Full C is spent, other branches recover zero, and no additional investor outlays or binding obligations are assumed on any branch.",
+    "V_definition": "Actual investor cash after dilution, sharing, senior claims, required uses of proceeds and transaction costs. Not company valuation, financing, restricted funding or total contingent deal value.",
+    "hurdle": "C/(p*q) is required net investor cash on the only paying branch for nominal expected break-even. It is not an estimate of an asset value or probability of recovery.",
+    "omissions": "No discounting, salvage, staged-stop savings or additional investor contributions. Include all branch-specific costs before any funding decision. Obtaining the modeled rights is not separately probability-weighted."
+  },
+  "candidates": [
+    {
+      "id": "PROPOSED-PKG-NIF-LIDO-CAF",
+      "asset_use_key": "PROPOSED-PKG-NIF-LIDO-CAF",
+      "name": "Nifedipine/lidocaine existing-product territorial development for chronic anal fissure",
+      "lane": "human",
+      "lane_rank": 1,
+      "cross_lane_status": "deeper_desk_finalist",
+      "desk_priority": 1,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Transferred dossier/manufacturing feasibility, independent product and exposure bridge, and a bounded tolerability/acceptability or PK study if required to establish a credible licensable development package; no pivotal efficacy or approval claim.",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 325000,
+        "high": 625000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "p_useful_milestone": {
+        "low": 0.45,
+        "base": 0.55,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Existing manufactured product and human evidence support a territory/dossier thesis; the territory, exact article and financeable regulatory bridge are decisive.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09"
+      ]
+    },
+    {
+      "id": "R4-L02",
+      "asset_use_key": "R4-L02",
+      "name": "APR-246 topical for AEC skin erosions",
+      "lane": "human",
+      "lane_rank": 2,
+      "cross_lane_status": "deeper_desk_finalist",
+      "desk_priority": 2,
+      "tie_group": "matched_APR_erlotinib",
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Qualified transferable topical article plus a small controlled/within-person exact-use clinical replication that measures useful erosion/wound burden and safety, with independently reviewable data.",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Exact-use human signal warrants controlled replication; retain a tie with erlotinib under matched article, recruitment, cost and capture assumptions.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "H01",
+        "H02"
+      ]
+    },
+    {
+      "id": "R26-LOC-01",
+      "asset_use_key": "R26-LOC-01",
+      "name": "Topical erlotinib plus keratolytic for KRT16 Arg127Cys keratoderma",
+      "lane": "human",
+      "lane_rank": 3,
+      "cross_lane_status": "deeper_desk_finalist",
+      "desk_priority": 2,
+      "tie_group": "matched_APR_erlotinib",
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Qualified transferable topical article plus small controlled/within-person exact-genotype clinical replication of meaningful pain/walking benefit and exposure safety.",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 400000,
+        "high": 750000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Within-person human signal warrants replication; related patients and formulation/co-treatment differences prevent a superiority claim over APR.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "H04",
+        "H05",
+        "H06",
+        "B33",
+        "B34"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-RECTAL-TAC-UP",
+      "asset_use_key": "PROPOSED-PKG-RECTAL-TAC-UP",
+      "name": "Standardized rectal tacrolimus for refractory ulcerative proctitis",
+      "lane": "human",
+      "lane_rank": 4,
+      "cross_lane_status": "close_reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Stable reproducible rectal product plus small controlled clinical/exposure bridge in clearly refractory proctitis, sufficient to choose a larger funded study.",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 800000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "selection_reason": "Useful human evidence, but no superiority in the larger active-comparator trial, systemic exposure and weak proprietary differentiation lower priority.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B10",
+        "B11",
+        "B12"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-5FU-CAL-AK",
+      "asset_use_key": "CALCIPOTRIOL_5FU_AK",
+      "name": "Short-course 5-FU/calcipotriol actinic-keratosis product participation",
+      "lane": "human",
+      "lane_rank": 5,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "A differentiated fixed-product/regulatory bridge with usable CMC and short clinical/exposure/acceptability data beyond evidence already available or incoming.",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 350000,
+        "high": 725000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 12,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.55,
+        "base": 0.65,
+        "high": 0.75
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Clinical/registration contribution scope; SKNV exclusive sublicense and existing compounded product constrain incremental value and attainable economics.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03"
+      ]
+    },
+    {
+      "id": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "asset_use_key": "R5_ENASIDENIB_IDH2_R140_D2HGA2",
+      "name": "Enasidenib for germline IDH2-R140 D2HGA2",
+      "lane": "human",
+      "lane_rank": 6,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Usable pediatric article/exposure bridge plus prospective meaningful functional/cardiac outcomes beyond biomarker normalization, with regulatory-reference rights.",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 18,
+        "high": 30
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "selection_reason": "Mechanism-matched human evidence merits a contribution route; tiny population, existing owner and uncertain payment for new evidence constrain capture.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "H07",
+        "H08",
+        "H09"
+      ]
+    },
+    {
+      "id": "R26-HUM-01",
+      "asset_use_key": "R26-HUM-01",
+      "name": "Levodopa/carbidopa neurological adjunct in MCT8 deficiency",
+      "lane": "human",
+      "lane_rank": 7,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Controlled small-cohort useful-motor-benefit assessment on stable appropriate care with an adequate transferred suspension/article.",
+      "all_in_cost_usd": {
+        "low": 140000,
+        "base": 300000,
+        "high": 600000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Human symptom signal may matter clinically; inexpensive generic treatment and very small population make retained financial value difficult.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B29",
+        "B30",
+        "B31"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-MAV-CUD",
+      "asset_use_key": "PROPOSED-PKG-MAV-CUD",
+      "name": "Mavoglurant clinical contribution for cocaine-use disorder",
+      "lane": "human",
+      "lane_rank": 8,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Complete reusable clinical-data/endpoint and exposure package plus a bounded prospective feasibility or validation component that changes the design/value of a funded next trial.",
+      "all_in_cost_usd": {
+        "low": 250000,
+        "base": 475000,
+        "high": 950000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 12,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Human trial signal supports the biology; participation must add value inside STALICLA’s existing program at an affordable scope.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B25",
+        "B26"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-SAR-FOP",
+      "asset_use_key": "PROPOSED-PKG-SAR-FOP",
+      "name": "Saracatinib completed-trial data and product rescue option in FOP",
+      "lane": "human",
+      "lane_rank": 9,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Auditable controlled efficacy/exposure analysis and commercially reusable trial dossier plus supply/CMC continuity, not another mouse study.",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 225000,
+        "high": 500000
+      },
+      "months_to_milestone": {
+        "low": 3,
+        "base": 6,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Review the completed program’s existing result before funding repetition; no presumption that a rescue option is available or useful.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B27",
+        "B28"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-OND-IBSD",
+      "asset_use_key": "PROPOSED-PKG-OND-IBSD",
+      "name": "Ondansetron symptom-enriched IBS-D product/indication bridge",
+      "lane": "human",
+      "lane_rank": 10,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Small controlled symptom/exposure pilot that shows an economically useful combined benefit or product advantage, not merely another stool-consistency result.",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 800000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Symptom evidence exists; narrow endpoint benefit and generic competition weaken a differentiated product thesis.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B13"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-MINOX-AGA",
+      "asset_use_key": "PROPOSED-PKG-MINOX-AGA",
+      "name": "Differentiated oral minoxidil for androgenetic alopecia",
+      "lane": "human",
+      "lane_rank": 11,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Prototype plus comparative exposure/tolerability and preliminary hair response that demonstrates a needed difference from both generic oral use and leading proprietary product.",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 500000,
+        "high": 950000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 18,
+        "high": 30
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Human experience is substantial; crowded advanced development and uncertain product superiority weaken small-investor capture.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B14",
+        "B15"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-SIRO-CMLM",
+      "asset_use_key": "PROPOSED-PKG-SIRO-CMLM",
+      "name": "Topical sirolimus for cutaneous microcystic lymphatic malformations",
+      "lane": "human",
+      "lane_rank": 12,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Exact-phenotype controlled within-person signal for symptom/lesion burden with usable local product and exposure data.",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 375000,
+        "high": 725000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "selection_reason": "Exact useful benefit and formulation differentiation remain uncertain despite familiar active ingredient.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B20",
+        "B21",
+        "B22"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-TXA-MEL",
+      "asset_use_key": "PROPOSED-PKG-TXA-MEL",
+      "name": "Oral tranexamic-acid specialist product for melasma",
+      "lane": "human",
+      "lane_rank": 13,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Durability/tolerability advantage in a controlled maintenance/withdrawal or exposure study using an owned presentation.",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 350000,
+        "high": 650000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.45,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Human efficacy signal must be weighed against recurrent treatment, safety selection and weak durable exclusivity.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B19"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-METH-MR-UTI",
+      "asset_use_key": "PROPOSED-PKG-METH-MR-UTI",
+      "name": "Proposed once-daily methenamine product for recurrent UTI prevention",
+      "lane": "human",
+      "lane_rank": 14,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Stable prototype and urinary exposure/functional bridge supporting a clinically credible less-frequent presentation, with human PK/acceptability.",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 375000,
+        "high": 750000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.35,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "selection_reason": "Proven existing treatment does not validate a once-daily product; exposure and incremental benefit need a specific formulation thesis.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B24"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-MET-LC-PREV",
+      "asset_use_key": "PROPOSED-PKG-MET-LC-PREV",
+      "name": "Metformin prevention of LongCOVID after acute infection",
+      "lane": "human",
+      "lane_rank": 15,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "A defined current-population clinical substudy or platform contribution resolving adherence, baseline-risk or patient-selection uncertainty with reusable data rights.",
+      "all_in_cost_usd": {
+        "low": 265000,
+        "base": 550000,
+        "high": 1025000
+      },
+      "months_to_milestone": {
+        "low": 12,
+        "base": 18,
+        "high": 30
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.4,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.1,
+        "high": 0.25
+      },
+      "selection_reason": "Public-health benefit can be valuable while the generic indication offers weak private capture and expensive confirmation.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B18"
+      ]
+    },
+    {
+      "id": "R26-LOC-04",
+      "asset_use_key": "R26-LOC-04",
+      "name": "Topical timolol for diabetic foot-ulcer healing",
+      "lane": "human",
+      "lane_rank": 16,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Controlled clinically meaningful healing replication on standardized wound care with transferable product and data.",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 700000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.3,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Controlled ulcer evidence is not sufficient for a strong exact-use commercial proposition; do not transfer venous-ulcer results automatically.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B32"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-AMB-PD",
+      "asset_use_key": "PROPOSED-PKG-AMB-PD",
+      "name": "Ambroxol for Parkinson disease dementia or selected GBA biology",
+      "lane": "human",
+      "lane_rank": 17,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "Prespecified subgroup/clinical-function validation and exposure package beyond repeat target engagement, using an existing platform if available.",
+      "all_in_cost_usd": {
+        "low": 225000,
+        "base": 425000,
+        "high": 850000
+      },
+      "months_to_milestone": {
+        "low": 12,
+        "base": 18,
+        "high": 30
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.25,
+        "high": 0.35
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "No established clinical efficacy; biomarker or exposure success does not establish benefit in the proposed selected population.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B23"
+      ]
+    },
+    {
+      "id": "PROPOSED-PKG-LDN-FM",
+      "asset_use_key": "PROPOSED-PKG-LDN-FM",
+      "name": "Low-dose naltrexone for unselected fibromyalgia",
+      "lane": "human",
+      "lane_rank": 18,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "existing_article_clinical_or_regulatory_bridge",
+      "milestone": "A rigorously justified new controlled clinical signal, not another uncontrolled anecdotal series.",
+      "all_in_cost_usd": {
+        "low": 190000,
+        "base": 375000,
+        "high": 725000
+      },
+      "months_to_milestone": {
+        "low": 9,
+        "base": 15,
+        "high": 24
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.1,
+        "high": 0.15
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.01,
+        "base": 0.05,
+        "high": 0.15
+      },
+      "selection_reason": "Relevant negative randomized evidence and generic capture make the unselected fibromyalgia thesis unattractive this round.",
+      "details_file": "human-assets.json",
+      "source_ids": [
+        "B16",
+        "B17"
+      ]
+    },
+    {
+      "id": "LOCAL_INSULIN_PED",
+      "asset_use_key": "LOCAL_INSULIN_PED",
+      "name": "Exact topical-insulin product for refractory corneal epithelial defects",
+      "lane": "products",
+      "lane_rank": 1,
+      "cross_lane_status": "immediate_product_challenger",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Choose one exact insulin/formulation baseline, then demonstrate a meaningful storage, delivery or handling improvement while retaining useful epithelial-repair activity and ocular compatibility against that baseline. No sensory-restoration claim.",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 180000,
+        "high": 330000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 7,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.45,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "selection_reason": "Quickly test a specific incremental product need against already-stable preparations; no credit for repeating known stability.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ]
+    },
+    {
+      "id": "AAT_PROCESS",
+      "asset_use_key": "AAT_PROCESS",
+      "name": "AAT preparation and perfusion-process contribution for donor lungs",
+      "lane": "products",
+      "lane_rank": 2,
+      "cross_lane_status": "immediate_product_challenger",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Demonstrate a reproducible practical process advantage, such as materially lower delivered-protein burden or variability with comparable relevant activity and compatibility, and define a credible organ-validation bridge. A generic potency assay alone is not success.",
+      "all_in_cost_usd": {
+        "low": 85000,
+        "base": 165000,
+        "high": 310000
+      },
+      "months_to_milestone": {
+        "low": 3,
+        "base": 5,
+        "high": 9
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.55,
+        "high": 0.7
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "selection_reason": "Potential short process contribution; specify an operator-relevant limitation and whether payment requires expensive donor-organ validation.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P01",
+        "P36",
+        "P37",
+        "P38"
+      ]
+    },
+    {
+      "id": "VERTEPORFIN_SCAR",
+      "asset_use_key": "VERTEPORFIN_SCAR",
+      "name": "Local verteporfin product for prevention of surgical skin scarring",
+      "lane": "products",
+      "lane_rank": 3,
+      "cross_lane_status": "immediate_product_challenger",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Create a differentiated, reproducible local-delivery/product package that preserves wound mechanical recovery and reduces scarring with acceptable local exposure. It must add something beyond the existing Visudyne-based SCARFREE study; do not fund a duplicate first-human story.",
+      "all_in_cost_usd": {
+        "low": 135000,
+        "base": 260000,
+        "high": 455000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Translational substrate is promising; recruiting SCARFREE means a separate product contribution must beat the option of waiting for external evidence.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P30",
+        "P31",
+        "P32",
+        "P33"
+      ]
+    },
+    {
+      "id": "VS6062_HYDROGEL",
+      "asset_use_key": "VS6062_HYDROGEL",
+      "name": "VS-6062/PF-562271 hydrogel for donor-site or excisional skin-wound repair",
+      "lane": "products",
+      "lane_rank": 4,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Reproduce a clinically useful scar/mechanical-healing advantage of the exact drug/scaffold over scaffold alone, while showing reproducible release and local tolerability in an established model.",
+      "all_in_cost_usd": {
+        "low": 160000,
+        "base": 300000,
+        "high": 520000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Functional large-animal substrate merits reserve status; local product safety, scaffold complexity and originator dependence increase execution risk.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P27",
+        "P28",
+        "P29"
+      ]
+    },
+    {
+      "id": "RM4404_CORNEA",
+      "asset_use_key": "RM4404_CORNEA",
+      "name": "RM4404/WAY-262611 micelles for corneal sensory recovery",
+      "lane": "products",
+      "lane_rank": 5,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Independent exact-product exposure qualification plus masked animal-level confirmation of meaningful sensory/epithelial function against appropriate vehicle and practical comparator.",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 225000,
+        "high": 400000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 7,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Direct sensory endpoint is useful; exact article, biological-unit accounting, local safety and human translation still need work.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P02",
+        "P06"
+      ]
+    },
+    {
+      "id": "CALCIPOTRIOL_5FU_AK",
+      "asset_use_key": "CALCIPOTRIOL_5FU_AK",
+      "name": "Nonduplicative calcipotriol/fluorouracil product contribution within the existing licensed chain for actinic keratosis",
+      "lane": "products",
+      "lane_rank": 6,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Within a modeled arrangement with the licensed chain, demonstrate a defined improvement beyond existing Kefunova and separate-product preparation in usability, manufacturing or relevant product performance, while preserving activity. This product-only package excludes a new controlled clinical/regulatory bridge; no unmet presentation problem is presumed.",
+      "all_in_cost_usd": {
+        "low": 95000,
+        "base": 175000,
+        "high": 330000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 7,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.18,
+        "high": 0.35
+      },
+      "selection_reason": "Product-only scope is smaller than the human-lane bridge; existing exclusive sublicense and Kefunova require a nonduplicative contribution.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P23",
+        "P24",
+        "P39"
+      ]
+    },
+    {
+      "id": "LOSARTAN_CORNEA",
+      "asset_use_key": "LOSARTAN_CORNEA",
+      "name": "Topical losartan product contribution for established corneal stromal fibrosis",
+      "lane": "products",
+      "lane_rank": 7,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Demonstrate a useful local product/delivery improvement with preserved anti-fibrotic effect and epithelial tolerability, differentiated from the already licensed program.",
+      "all_in_cost_usd": {
+        "low": 120000,
+        "base": 250000,
+        "high": 490000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 8,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "selection_reason": "Human reports and animal evidence support interest; licensed incumbent product, toxicity and active trial reduce independent incremental value.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ]
+    },
+    {
+      "id": "TIMOLOL_VENOUS_ULCER",
+      "asset_use_key": "TIMOLOL_VENOUS_ULCER",
+      "name": "Topical timolol presentation for chronic venous-leg-ulcer healing",
+      "lane": "products",
+      "lane_rank": 8,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Show an exact wound-use presentation with practical local-delivery/handling advantage and reproducible wound-repair activity over current off-label drops plus standard care.",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 165000,
+        "high": 315000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 7,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "selection_reason": "Small randomized signal with cheap active ingredient; no demonstrated proprietary product advantage or durable outcome yet.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "id": "MIGF_CORNEA",
+      "asset_use_key": "MIGF_CORNEA",
+      "name": "Exact mIGF-Gel peptide product for persistent corneal epithelial defects",
+      "lane": "products",
+      "lane_rank": 9,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Reproduce useful repair or a meaningful delivery-burden improvement over a specified topical-insulin comparator, with exact peptide identity and usable ophthalmic properties.",
+      "all_in_cost_usd": {
+        "low": 150000,
+        "base": 280000,
+        "high": 500000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 8,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.35,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "selection_reason": "Exact peptide product has animal evidence; simple insulin is a strong comparator and manufacturing/durable functional superiority remain open.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P03",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "id": "RIPASUDIL_DSO",
+      "asset_use_key": "RIPASUDIL_DSO",
+      "name": "Ripasudil/K-321 presentation after DSO for Fuchs endothelial disease",
+      "lane": "products",
+      "lane_rank": 10,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Find and validate a genuinely distinct delivery/adherence or manufacturing improvement that preserves endothelial functional benefit versus the sponsor's current presentation.",
+      "all_in_cost_usd": {
+        "low": 140000,
+        "base": 310000,
+        "high": 650000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.4,
+        "base": 0.6,
+        "high": 0.75
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.2,
+        "high": 0.4
+      },
+      "selection_reason": "More mature human evidence is offset by an advanced incumbent; a small contribution needs a concrete unsolved gap.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P15",
+        "P16"
+      ]
+    },
+    {
+      "id": "NDC9009_DARIER",
+      "asset_use_key": "NDC9009_DARIER",
+      "name": "NDC-9009 local product for Darier epidermal dysfunction",
+      "lane": "products",
+      "lane_rank": 11,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Qualify exact compound/exposure and independently demonstrate meaningful barrier/adhesion function in an established human-relevant model against vehicle and practical care/comparator.",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 240000,
+        "high": 425000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 8,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.06,
+        "base": 0.18,
+        "high": 0.35
+      },
+      "selection_reason": "Useful mechanism and local-product hypothesis, but no human exact-use evidence and target rationale does not establish skin function.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P04"
+      ]
+    },
+    {
+      "id": "VALPROATE_AGA",
+      "asset_use_key": "VALPROATE_AGA",
+      "name": "Topical valproate for male androgenetic alopecia",
+      "lane": "products",
+      "lane_rank": 12,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Establish a reproducible hair-follicle/product advantage versus a relevant active comparator at tolerable exposure, before buying a large new patient trial.",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 180000,
+        "high": 355000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.5
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Small incomplete trial and no active minoxidil comparison leave little demonstrated incremental product benefit.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P25"
+      ]
+    },
+    {
+      "id": "RAPAMYCIN_SKIN",
+      "asset_use_key": "RAPAMYCIN_SKIN",
+      "name": "Topical rapamycin for age-related skin fragility or barrier decline",
+      "lane": "products",
+      "lane_rank": 13,
+      "cross_lane_status": "lower_priority",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Demonstrate a meaningful skin mechanical/barrier benefit rather than a senescence-marker change, with acceptable effects on local healing/immune function and product stability.",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 190000,
+        "high": 380000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Exploratory biomarkers and appearance do not establish useful skin resilience; attrition and generic competition matter.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P26"
+      ]
+    },
+    {
+      "id": "NALTREXONE_DRY_EYE",
+      "asset_use_key": "NALTREXONE_DRY_EYE",
+      "name": "Penn State topical naltrexone for diabetic dry eye",
+      "lane": "products",
+      "lane_rank": 14,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Test a specific, evidence-based exposure/product reason why a changed presentation should improve useful tear/surface function over the previously tested regimen, not merely repeat safety or declare an available license valuable.",
+      "all_in_cost_usd": {
+        "low": 100000,
+        "base": 200000,
+        "high": 395000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 8,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "selection_reason": "Posted exploratory human results lack convincing active/placebo separation; institutional licensing copy does not override them.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P13",
+        "P14"
+      ]
+    },
+    {
+      "id": "DFO_RADIATION_PATCH",
+      "asset_use_key": "DFO_RADIATION_PATCH",
+      "name": "Deferoxamine transdermal patch for radiation-induced skin fibrosis prevention",
+      "lane": "products",
+      "lane_rank": 15,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "Only if independent nonretracted evidence justifies re-entry: demonstrate a meaningful anti-fibrosis/function advantage and acceptable local product performance in an established relevant model.",
+      "all_in_cost_usd": {
+        "low": 130000,
+        "base": 260000,
+        "high": 485000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.12,
+        "high": 0.25
+      },
+      "selection_reason": "Central radiation-fibrosis paper was retracted; separate wound evidence cannot validate this exact-use thesis.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P21",
+        "P22"
+      ]
+    },
+    {
+      "id": "PHENYTOIN_DFU",
+      "asset_use_key": "PHENYTOIN_DFU",
+      "name": "Topical phenytoin dressing or cream for diabetic-foot-ulcer closure",
+      "lane": "products",
+      "lane_rank": 16,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "product_or_process_advantage_without_new_human_efficacy_proof",
+      "milestone": "No current tranche recommended. Re-entry would require evidence that a specific differentiated product reverses the prior failure in a useful function comparison, not generic formulation feasibility.",
+      "all_in_cost_usd": {
+        "low": 90000,
+        "base": 165000,
+        "high": 320000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 8,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.08,
+        "high": 0.2
+      },
+      "selection_reason": "Relevant controlled studies failed to show a closure advantage; low ingredient cost does not repair the efficacy case.",
+      "details_file": "product-process-assets.json",
+      "source_ids": [
+        "P19",
+        "P20"
+      ]
+    },
+    {
+      "id": "EARLY-CBD3063-PAIN",
+      "asset_use_key": "EARLY-CBD3063-PAIN",
+      "name": "Racemic CBD3063 for chronic peripheral neuropathic pain",
+      "lane": "early",
+      "lane_rank": 1,
+      "cross_lane_status": "deeper_desk_finalist",
+      "desk_priority": 2,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent authenticated-racemate exposure-response package with repeat-dose neuropathic pain behavior and activity/function versus active comparator, preserved protective sensation, tolerability and a feasible intended clinical route. Success requires useful analgesia at exposure separated from impairment, not only reduced CaV2.2 current.",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 335000,
+        "high": 600000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 15
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.08,
+        "base": 0.245,
+        "high": 0.45
+      },
+      "selection_reason": "Behavioral pain evidence plus a composition-rights lead supports a bounded exact-racemate package; practical route and repeat-dose margin control value.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.2,
+        "base": 0.35,
+        "high": 0.5
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 75000
+    },
+    {
+      "id": "EARLY-8015P2-CMT2A",
+      "asset_use_key": "EARLY-8015P2-CMT2A",
+      "name": "Exact 8015-P2 for MFN2-associated CMT2A",
+      "lane": "early",
+      "lane_rank": 2,
+      "cross_lane_status": "close_reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent exact-P2 package demonstrating exposure-related improvement in patient-derived motor-neuron electrophysiology or motor-unit function across more than one MFN2 context, with orthogonal viability/mitochondrial controls and a translational exposure margin. A morphology-only assay is an initial stop, not the final value milestone.",
+      "all_in_cost_usd": {
+        "low": 175000,
+        "base": 335000,
+        "high": 650000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      },
+      "selection_reason": "Meaningful post-onset animal function; useful human assay readiness and participation in an existing owner weaken the retained-cash case.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 80000
+    },
+    {
+      "id": "EARLY-PEPITEM-BONE",
+      "asset_use_key": "EARLY-PEPITEM-BONE",
+      "name": "Full-length 14-amino-acid PEPITEM for osteoporosis",
+      "lane": "early",
+      "lane_rank": 3,
+      "cross_lane_status": "close_reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent dose/exposure study in established bone loss with actual bone mechanical strength and remodeling quality versus an active comparator, repeated human-donor response and a tolerable repeat-dose formulation. Success requires a credible product advantage rather than increased mineralization alone.",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 365000,
+        "high": 690000
+      },
+      "months_to_milestone": {
+        "low": 7,
+        "base": 11,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0525,
+        "base": 0.195,
+        "high": 0.3825
+      },
+      "selection_reason": "Functional bone evidence and human donor activity; chronic delivery, comparator advantage and existing licensing chain remain substantial.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 80000
+    },
+    {
+      "id": "EARLY-MCC22-ARTHRITISPAIN",
+      "asset_use_key": "EARLY-MCC22-ARTHRITISPAIN",
+      "name": "MCC22 MOR-agonist/CCR5-antagonist for chronic inflammatory arthritis pain",
+      "lane": "early",
+      "lane_rank": 4,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent clinically plausible-route exposure, repeated-dose pain/function and respiratory/motor/behavioral margin package against morphine and a non-opioid comparator. Success requires useful pain relief without a narrow opioid-like margin; potency alone does not count.",
+      "all_in_cost_usd": {
+        "low": 170000,
+        "base": 320000,
+        "high": 570000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.04,
+        "base": 0.175,
+        "high": 0.36
+      },
+      "selection_reason": "Advertised low option costs help access; opioid respiratory, abuse and chronic-safety risks remain despite mouse tolerance/reward results.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.7,
+        "high": 0.9
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 65000
+    },
+    {
+      "id": "EARLY-HMWH-ITCH",
+      "asset_use_key": "EARLY-HMWH-ITCH",
+      "name": "Topical 500-1200 kDa hyaluronan plus protamine for localized pruritus",
+      "lane": "early",
+      "lane_rank": 5,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Reproducible human-skin delivery/retention with acceptable irritation plus independent blinded reduction of scratching in an established chronic itch model versus vehicle, protamine alone and active comparator, with normal movement and a feasible stable formulation.",
+      "all_in_cost_usd": {
+        "low": 110000,
+        "base": 215000,
+        "high": 425000
+      },
+      "months_to_milestone": {
+        "low": 4,
+        "base": 8,
+        "high": 12
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.04,
+        "base": 0.13,
+        "high": 0.2975
+      },
+      "selection_reason": "Relatively inexpensive local-delivery falsification; shallow evidence and weak capture keep it below the core four.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 45000
+    },
+    {
+      "id": "EARLY-BLU3797-XLMTM",
+      "asset_use_key": "EARLY-BLU3797-XLMTM",
+      "name": "BLU3797 selective PIK3C2B inhibitor for XLMTM",
+      "lane": "early",
+      "lane_rank": 6,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent exposure-related improvement of force/fatigue in patient-derived XLMTM muscle with matched controls and repeat-dose/washout measurements, supported by relevant pharmacology and safety margin. Myotube morphology or biomarker normalization alone does not pass.",
+      "all_in_cost_usd": {
+        "low": 200000,
+        "base": 400000,
+        "high": 810000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 11,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.25,
+        "base": 0.4,
+        "high": 0.55
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.025,
+        "base": 0.125,
+        "high": 0.3
+      },
+      "selection_reason": "Meaningful incumbent with a human-force question; exact functional translation and attainable participation cost remain uncertain.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E20",
+        "E21",
+        "E22"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 95000
+    },
+    {
+      "id": "EARLY-FD2-ALS",
+      "asset_use_key": "EARLY-FD2-ALS",
+      "name": "Exact FD-2 16-amino-acid Pgk1-derived peptide for ALS",
+      "lane": "early",
+      "lane_rank": 7,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent authenticated-FD2 exposure/stability and post-onset ALS-model functional progression package, with repeat-dose safety and prespecified motor outcomes rather than only neuronal markers. Product utility requires feasible repeat administration.",
+      "all_in_cost_usd": {
+        "low": 185000,
+        "base": 355000,
+        "high": 680000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 11,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.035,
+        "base": 0.1625,
+        "high": 0.34
+      },
+      "selection_reason": "Finite functional hypothesis, but post-onset strength and practical exposure are less established than leading early candidates.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E32",
+        "E33"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 75000
+    },
+    {
+      "id": "EARLY-HJ02-POSTMI",
+      "asset_use_key": "EARLY-HJ02-POSTMI",
+      "name": "HJ-02 small molecule for durable post-MI sympathetic reinnervation and functional benefit",
+      "lane": "early",
+      "lane_rank": 8,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent post-MI study with blinded injured-vehicle and active-care comparators, adequate baseline balance, durable telemetry arrhythmia and ventricular-function outcomes plus exposure/tolerability. Axon density alone does not pass.",
+      "all_in_cost_usd": {
+        "low": 220000,
+        "base": 390000,
+        "high": 725000
+      },
+      "months_to_milestone": {
+        "low": 7,
+        "base": 12,
+        "high": 18
+      },
+      "p_useful_milestone": {
+        "low": 0.2,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.035,
+        "base": 0.13,
+        "high": 0.2975
+      },
+      "selection_reason": "Defined institutional route; durable function must overturn the specific unfavorable long-term comparison.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E23",
+        "E24",
+        "E25"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 75000
+    },
+    {
+      "id": "EARLY-RHMG53-WOUND",
+      "asset_use_key": "EARLY-RHMG53-WOUND",
+      "name": "Recombinant human MG53 in ROS-scavenging ROSS-A6 gel for diabetic wounds",
+      "lane": "early",
+      "lane_rank": 9,
+      "cross_lane_status": "larger_partner_benchmark",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Transferable manufacturing/stability and retained activity package plus blinded durable re-epithelialization/closure in a clinically informative diabetic wound system, with human tissue compatibility and appropriate wound-care comparators. Hair follicles or closure by contraction alone do not pass.",
+      "all_in_cost_usd": {
+        "low": 260000,
+        "base": 520000,
+        "high": 1025000
+      },
+      "months_to_milestone": {
+        "low": 8,
+        "base": 13,
+        "high": 20
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.45,
+        "high": 0.6
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0375,
+        "base": 0.15,
+        "high": 0.3375
+      },
+      "selection_reason": "Product-oriented functional evidence; protein/gel manufacturing and a larger package favor participation with another funder.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E26",
+        "E27"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 100000
+    },
+    {
+      "id": "EARLY-GBT601-PT2399-LEIGH",
+      "asset_use_key": "EARLY-GBT601-PT2399-LEIGH",
+      "name": "GBT601/osivelotor plus PT2399 for NDUFS4 Leigh syndrome",
+      "lane": "early",
+      "lane_rank": 10,
+      "cross_lane_status": "larger_partner_benchmark",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent late-treatment disease function/survival replication tied to measured tissue oxygen and exposure, with chronic hematologic/cardiopulmonary tolerability and a feasible coadministration window. Rescue at physiologically unsafe hypoxia does not pass.",
+      "all_in_cost_usd": {
+        "low": 370000,
+        "base": 750000,
+        "high": 1575000
+      },
+      "months_to_milestone": {
+        "low": 8,
+        "base": 14,
+        "high": 22
+      },
+      "p_useful_milestone": {
+        "low": 0.35,
+        "base": 0.5,
+        "high": 0.65
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.08,
+        "high": 0.2275
+      },
+      "selection_reason": "Strong biology remains relevant; two-asset rights, safety and capital requirements make this a larger-partner benchmark.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E28",
+        "E29",
+        "E30",
+        "E31"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 150000
+    },
+    {
+      "id": "EARLY-HMWH-CIPN",
+      "asset_use_key": "EARLY-HMWH-CIPN",
+      "name": "Topical 500-1200 kDa hyaluronan plus protamine for localized chemotherapy-induced neuropathic pain",
+      "lane": "early",
+      "lane_rank": 11,
+      "cross_lane_status": "reserve",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Human-skin exposure/tolerability plus independent both-sex CIPN study using the exact protamine formulation, active comparator and ongoing-pain/behavioral function alongside evoked thresholds. A narrow male-only signal must support a commercially plausible defined population.",
+      "all_in_cost_usd": {
+        "low": 125000,
+        "base": 240000,
+        "high": 460000
+      },
+      "months_to_milestone": {
+        "low": 5,
+        "base": 9,
+        "high": 14
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.02,
+        "base": 0.0975,
+        "high": 0.255
+      },
+      "selection_reason": "Narrow, inexpensive falsification is possible; sex-specific evidence and overlap with the itch product weaken priority and diversification.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.4,
+        "base": 0.65,
+        "high": 0.85
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 50000
+    },
+    {
+      "id": "EARLY-GA002-EPILEPSY",
+      "asset_use_key": "EARLY-GA002-EPILEPSY",
+      "name": "GA002 AAV-hM4D(Gi) plus low-dose clozapine for refractory unilateral MTLE with hippocampal sclerosis",
+      "lane": "early",
+      "lane_rank": 12,
+      "cross_lane_status": "larger_partner_benchmark",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "With the existing authorized sponsor, an additional bounded prospective cohort with independently adjudicated seizure outcomes and 12-month follow-up, prespecified baseline/medication stability, meaningful patient benefit and acceptable safety. A retrospective data audit is a cheap first step, not this value milestone.",
+      "all_in_cost_usd": {
+        "low": 750000,
+        "base": 1750000,
+        "high": 4250000
+      },
+      "months_to_milestone": {
+        "low": 12,
+        "base": 20,
+        "high": 32
+      },
+      "p_useful_milestone": {
+        "low": 0.3,
+        "base": 0.5,
+        "high": 0.7
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.12,
+        "high": 0.2925
+      },
+      "selection_reason": "Clinical-stage benchmark; vector/product complexity and established sponsorship prevent treating a cheap assay as affordable advancement.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E34",
+        "E35"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.15,
+        "base": 0.3,
+        "high": 0.45
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.2,
+        "base": 0.4,
+        "high": 0.65
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 150000
+    },
+    {
+      "id": "EARLY-PLGA-IBD",
+      "asset_use_key": "EARLY-PLGA-IBD",
+      "name": "Oral PLGA microparticles co-delivering IL-2, TGF-beta and rapamycin for ulcerative colitis",
+      "lane": "early",
+      "lane_rank": 13,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Reproducible scalable release/biological activity plus blinded sustained functional colitis remission in an established-disease model versus component and active comparators, with mucosal/systemic exposure and safety. Treg counts alone do not pass.",
+      "all_in_cost_usd": {
+        "low": 275000,
+        "base": 515000,
+        "high": 950000
+      },
+      "months_to_milestone": {
+        "low": 8,
+        "base": 14,
+        "high": 22
+      },
+      "p_useful_milestone": {
+        "low": 0.15,
+        "base": 0.25,
+        "high": 0.4
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0175,
+        "base": 0.09,
+        "high": 0.24
+      },
+      "selection_reason": "Multi-component product complexity and functional confirmation cost outweigh present evidence and likely early capture.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E36",
+        "E37"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 100000
+    },
+    {
+      "id": "EARLY-SN401-T2D",
+      "asset_use_key": "EARLY-SN401-T2D",
+      "name": "SN-401/DCPIB for type 2 diabetes",
+      "lane": "early",
+      "lane_rank": 14,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent oral exposure and useful glycemic effect in established diabetes with clear separation from mitochondrial, cardiac and insulin-secretion liabilities and an active comparator. Target stabilization alone does not pass.",
+      "all_in_cost_usd": {
+        "low": 245000,
+        "base": 470000,
+        "high": 930000
+      },
+      "months_to_milestone": {
+        "low": 8,
+        "base": 13,
+        "high": 20
+      },
+      "p_useful_milestone": {
+        "low": 0.1,
+        "base": 0.2,
+        "high": 0.35
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0125,
+        "base": 0.075,
+        "high": 0.225
+      },
+      "selection_reason": "Exact tool compound has off-target liabilities; target promise and optimized analogues belong to distinct future proposals.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E38",
+        "E39",
+        "E40"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.25,
+        "base": 0.5,
+        "high": 0.75
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 80000
+    },
+    {
+      "id": "EARLY-NIACIN-MASH",
+      "asset_use_key": "EARLY-NIACIN-MASH",
+      "name": "Pharmacologic nicotinic acid/niacin for reversal of MASH-associated liver fibrosis",
+      "lane": "early",
+      "lane_rank": 15,
+      "cross_lane_status": "drop_current_thesis",
+      "desk_priority": null,
+      "tie_group": null,
+      "milestone_class": "early_functional_translation_and_product_exposure",
+      "milestone": "Independent safety-qualified achievable exposure with regression of established fibrosis and preserved liver function in an appropriate disease model, supported by human tissue response against an active comparator. Lower collagen in isolated cells alone does not pass.",
+      "all_in_cost_usd": {
+        "low": 145000,
+        "base": 300000,
+        "high": 565000
+      },
+      "months_to_milestone": {
+        "low": 6,
+        "base": 10,
+        "high": 16
+      },
+      "p_useful_milestone": {
+        "low": 0.05,
+        "base": 0.15,
+        "high": 0.3
+      },
+      "q_investor_cash_given_milestone": {
+        "low": 0.0105,
+        "base": 0.06,
+        "high": 0.16
+      },
+      "selection_reason": "Weak translational fibrosis evidence, liver-safety conflict and poor generic capture dominate low entry cost.",
+      "details_file": "early-assets.json",
+      "source_ids": [
+        "E41",
+        "E42",
+        "E43",
+        "E44"
+      ],
+      "q_company_cash_given_milestone": {
+        "low": 0.03,
+        "base": 0.1,
+        "high": 0.2
+      },
+      "p_distribution_given_company_cash": {
+        "low": 0.35,
+        "base": 0.6,
+        "high": 0.8
+      },
+      "base_cash_at_first_stop_usd_included_in_total": 60000
+    }
+  ]
+}

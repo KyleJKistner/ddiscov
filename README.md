@@ -9,7 +9,7 @@ Find drug-development opportunities that maximize the financial value retained f
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
 4. [Phase II candidate teams](research/phase2-program/README.md) — ten coordinators, twenty workers, independent challenge and candidate-specific next actions.
 
-**Current commercial review: 9 November 2026 UTC.** The [commercial-route comparison](research/commercial-routes/README.md) prioritizes access to existing human-anchored assets and defined contributions before sponsoring a new trial. The [erlotinib dossier](research/phase2-program/erlotinib/README.md) and [35-candidate screen](research/phase2-program/ranking-review/README.md) retain scientific detail and historical comparisons. Approximately $500,000 is a reference, not a strict cap; $750,000 is a scenario, not spending authorization. Prices, terms, financing and affordable-loss limits remain open. The active priorities concern further diligence; no financial ordering or high-probability cash recovery is established.
+**Current reconciliation: 9 November 2026 UTC / 8 November Los Angeles.** The [unified shortlist](decisions/current-shortlist.md) governs the next research round: APR/erlotinib jointly lead; CBD3063 and the insulin/AAT/verteporfin gap checks form the next tier; nifedipine/lidocaine is a conditional reserve. The [reconciliation record](research/strategy/2026-11-08-shortlist-reconciliation.md) combines the broad screen, focused dossiers and commercial-route comparison. Research proceeds using explicit estimates. No reviewed opportunity establishes the desired high probability of recovering invested cash plus a return; capital deployment remains a separate decision.
 
 ## Find the relevant detail
 
