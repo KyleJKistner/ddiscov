@@ -2,7 +2,7 @@
 
 ## Goal and starting context
 
-Optimize the next dollar committed to drug development, across all development stages. Prefer credible success, affordable milestones and bounded downside. Read [current opportunities](decisions/current-shortlist.md) and [selection policy](decisions/selection-policy.md), then retrieve only the evidence needed for the task.
+Optimize financial value retained from the next dollar committed to drug development, across all stages and attainable transaction structures. Prefer credible success and protect the ability to continue after losses. Read [current opportunities](decisions/current-shortlist.md) and [selection policy](decisions/selection-policy.md), then retrieve only the evidence needed for the task.
 
 The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. The latest completed evidence review is Round 26, dated 8 November 2026.
 
@@ -20,11 +20,14 @@ python3 scripts/repo.py search 'candidate name' --limit 8
 ## Make a useful change
 
 - State the exact intervention/use and the decision the work can change.
+- Compare an asset/use **plus obtainable economic interest plus bounded next commitment**. Use the [opportunity template](decisions/opportunity-template.md) when preparing a serious proposal; label missing prices, terms and capital limits explicitly.
+- Source established and novel assets, existing-drug indications, product/process improvements and participation in existing programs across disease areas. Match evidence and endpoints to the actual benefit and next stage.
 - Preserve source identifiers, review dates, biological units, contrary evidence and material uncertainty.
 - Distinguish observed evidence, calculations, estimates, proposed work and completed work.
 - Verify time-sensitive claims when they affect a new decision. A document cleanup retains the evidence cutoff of its sources.
 - Put detailed evidence in a focused research record. Summarize its decision impact in the current opportunities page and link it there.
 - Update existing current summaries in place. Keep historical chronology in research records and Git history.
+- Reconsider an economic package when its scope, price, rights, funding or payment route changes; retain the scientific findings at their original evidence dates. Reading order and historical candidate rank supply context, while comparable commitments determine allocation.
 - Keep entry pages short and task-oriented; use links for candidate-specific methods, source disputes and historical accounting.
 
 Use existing candidate identifiers where available. A new research round gets a dated README describing its question and findings, the necessary evidence files, and one row in the round index. Add structured data when it supports comparison or reproducibility.

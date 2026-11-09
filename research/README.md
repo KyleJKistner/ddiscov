@@ -15,6 +15,7 @@ Search and format checks use Git's tracked and unignored files. Exported copies 
 
 | Location | Contents |
 |---|---|
+| [Marginal-capital strategy review](strategy/2026-11-08-marginal-capital.md) | Review of the commitment unit, broader sourcing and survivable financial exposure; separate from candidate evidence rounds. |
 | [Round index](rounds/README.md) | One entry per research round, newest first. |
 | [Screen index](screen-index.md) | Recent candidate ledgers and earlier screening catalogs. |
 | [Cumulative register](portfolio-register.json) | Historical snapshot through Round 26: original coverage, source maps, earlier decisions and embedded round records. |
