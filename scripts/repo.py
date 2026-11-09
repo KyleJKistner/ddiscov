@@ -21,6 +21,7 @@ REQUIRED = (
 ACTIVE_DOCS = (
     "README.md", "AGENTS.md", "decisions/README.md",
     "decisions/current-shortlist.md", "decisions/selection-policy.md",
+    "decisions/opportunity-template.md",
     "research/README.md", "research/screen-index.md", "research/rounds/README.md",
     "methods/README.md", "atlas/README.md", "discovery/README.md",
     "formulations/README.md", "provenance/README.md",

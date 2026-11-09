@@ -1,14 +1,14 @@
 # ddiscov
 
-Find drug-development opportunities that maximize the value of the next dollar invested, with a preference for credible success and bounded financial downside. Evaluate synthesis, formulation, preclinical work, repurposing and clinical development on the same basis: the next useful milestone, its cost and the economic value the project can retain.
+Find drug-development opportunities that maximize the financial value retained from the next dollar invested, with a preference for credible success and survivable downside. Compare synthesis, formulation, preclinical work, repurposing, clinical development and participation in existing programs by the same standard: the next commitment, the economic interest obtainable, and the full path to retained value.
 
 ## Start here
 
-1. [Current opportunities](decisions/current-shortlist.md) — active questions and next decisions.
+1. [Current opportunities](decisions/current-shortlist.md) — packages to compare and the next useful information tasks.
 2. [Selection policy](decisions/selection-policy.md) — how to compare commitments.
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
 
-**Evidence reviewed through 8 November 2026 (Round 26).** The latest screen highlights topical erlotinib/KRT16, FD-2/ALS and levodopa/carbidopa/MCT8 as distinct information questions. Current scopes, prices and attainable interests are needed to turn those priorities into an investment comparison. See the current opportunities page for the full decision context.
+**Candidate evidence reviewed through 8 November 2026 (Round 26).** The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. Current prices, terms, follow-on funding and affordable-loss limits remain open; the active set is unranked financially.
 
 ## Find the relevant detail
 

@@ -1,74 +1,65 @@
 # Selection policy
 
-Updated 8 November 2026. This policy governs new decisions. The [current shortlist](current-shortlist.md) records the latest portfolio view; [research rounds](../research/rounds/README.md) preserve evidence and earlier decisions.
+Updated 8 November 2026. This policy governs new decisions. The [current opportunities](current-shortlist.md) identify packages to compare; the [opportunity template](opportunity-template.md) records a serious proposal. The [strategy review](../research/strategy/2026-11-08-marginal-capital.md) explains the changes and their source basis.
 
-## Objective
+## Objective and unit of choice
 
-Maximize the expected value retained from the next dollar committed to drug development, while protecting the ability to continue after a failed project. Prefer opportunities with stronger evidence, a higher credible chance of reaching a useful milestone, bounded downside and an affordable next step.
+Maximize incremental financial value retained by ddiscov from the next dollar committed to drug development, subject to survivable loss and liquidity constraints. Among opportunities with comparable, credible economics, prefer the higher chance of a useful economic outcome, stronger evidence and less irreversible exposure.
 
-Consider the full development path: synthesis and article qualification, formulation, preclinical work, repurposing, clinical development and contributions to existing programs. Select the stage that resolves the most consequential uncertainty for the resources available. Existing human evidence can support a clinical or product-development next step directly.
+Compare **exact asset/use + obtainable economic interest + bounded next commitment**. One molecule can support several competing proposals with different rights, costs and endpoints. State the intervention, indication or genotype, route, treatment window and intended patient or product benefit.
 
-Define each opportunity by its exact intervention, indication or genotype, route, treatment window and intended patient benefit. Assess scientific value, practical product benefit and the share of economic value the project can retain separately.
+Source opportunities across disease areas, modalities and stages: synthesis, article qualification, formulation and manufacturing, preclinical development, existing-drug indications, clinical work, and licensing or participation in existing programs. Established mechanisms, symptomatic treatment, practical product improvements and new inventions all compete on the same economics. Use existing evidence where applicable and select the next work that the actual development path needs.
 
-## Compare the next commitment
+## Compare the full incremental economics
 
-Compare feasible, bounded commitments against one another and retaining capital. For each, record:
+For each feasible commitment, record:
 
 | Input | Required decision context |
 |---|---|
-| Deliverable | The smallest result that changes the next development decision. |
-| Cost and time | Incremental cash, operator effort, elapsed time and the work included. Label estimates and quotes with their source and date. |
-| Chance of success | Evidence supporting the milestone, major failure modes and confidence in the estimate. Use numerical probabilities only with an explicit basis. |
-| Outcomes | What success, failure and an inconclusive result each imply for continuation, revision or stopping. |
-| Retained value | The useful product or contribution, plausible beneficiary or counterparty, and obtainable rights to the asset, data or commercial participation. |
-| Remaining path | Costs, time, dependencies and dilution or other terms needed to turn this milestone into retained value. |
-| Downside | Maximum committed loss, follow-on obligations, concentration and the capital left for another attempt. |
+| Deliverable and decision | The smallest result that changes a consequential continuation, transaction or stop decision. Distinguish an informative negative result from failure to obtain interpretable information. |
+| Cost and time | Incremental cash, operator effort, elapsed time, rights payments, overhead, contingencies and work included. Identify estimate versus quote, date, exclusions and payment schedule. |
+| Success and uncertainty | Evidence for an interpretable result, useful benefit, regulatory progression, financing and a paying transaction. Define which event each probability describes and its source or reference class. |
+| Retained economics | Who could pay, license, acquire or fund the contribution; why it is valuable to them; and the ownership, royalty, option, contract payment or other financial interest obtainable by ddiscov. |
+| Continuation | Branch-specific remaining work, capital, time, supply and regulatory dependencies, milestones, royalties, partner sharing and dilution before cash can be realized. |
+| Failure and exit | Success, negative, inconclusive and financing-unavailable branches; termination obligations, residual value, ability to stop and the next decision in each. |
+| Exposure | Maximum cash committed through the next genuine stopping point, plausible overruns, contingent obligations and capital tied up before payment or exit. |
 
-Judge return across the continuation path, including the option to stop. Compare the actual information purchased: article qualification, functional proof and clinical validation have different deliverables. Reassess priority whenever scope, price, access or expected information changes.
+When inputs support calculation, compare the probability-weighted present value of retained receipts and realizable interests, less all incremental costs, with preserving the same capital over the same horizon. Use consistent currency, timing and discount assumptions. Weight later costs by the branches in which they occur; count each cost and economic interest once. A financing valuation is not a cash receipt to ddiscov. Count outside funding as available only to the extent supported by its actual terms, and show a funding-unavailable branch.
 
-Use the user's stated affordable-loss and total-capital limits when available. Record those limits as open inputs otherwise. Favor smaller reversible tranches when they preserve useful options. Compare correlated scientific, manufacturing and commercial risks across concurrent projects.
+Value the proposed tranche against the best feasible action available without buying it, including acting on current evidence, negotiating now or stopping. For an existing holding, separate its current value from the value created or protected by new spending. Credit the tranche with the incremental change in the decision and retained outcome.
 
-Historical effort and earlier rankings provide context. Current evidence and attainable terms determine the next choice. With incomplete financial inputs, give a qualitative priority, name the uncertainties that could reverse it and identify the cheapest consequential check.
+Report expected incremental net value, net value per incremental dollar committed, absolute cash exposure and time to realizable value together. Package size, indivisible experiments, fixed costs and dependent milestones matter when allocating a finite budget. Evaluate the feasible combination of commitments; a favorable ratio alone cannot establish the best allocation.
 
-## Evidence sufficient for the decision
+Use conservative, central and favorable scenarios with explicit assumptions and the price, success probability, dilution or delay that reverses the choice. Small cohorts and generic stage averages are evidence inputs, with their limitations. Keep unknown values explicit and use a qualitative comparison until a numerical one is supportable. Record ranges and uncertainty rather than unsupported point estimates.
 
-Keep a compact evidence record for each serious opportunity:
+## Make losses survivable
 
-- **Source and lineage:** primary source, identifier, publication and verification dates, study version and underlying cohort or dataset.
-- **Exact article:** molecule, stereochemistry, sequence or construct, formulation, active species and relevant material identity.
-- **Study design:** disease system, treatment timing, comparator, biological unit, denominator, analysis population and follow-up.
-- **Useful effect:** magnitude and uncertainty in patient function, preservation, symptom control, tolerability, treatment burden or another stated product benefit.
-- **Exposure and interpretation:** relevant compartment, measured or estimated exposure, metabolites, missingness, confounding, source conflicts and adverse findings that affect the decision.
-- **Decisive uncertainty:** the strongest competing explanation or failure mode, and the observation that would change priority.
+Record the user's **deployable capital, maximum tolerable cumulative loss, minimum reserve, per-commitment loss limit and liquidity horizon**. These are open inputs until supplied. Track losses already incurred against the cumulative limit separately from prospective investment value. Evaluate total exposure and the capital left after failure, including correlated failures across shared targets, models, suppliers, partners and funding conditions.
 
-Count independent biological units and studies consistently. Keep repeated measures, related publications and overlapping cohorts linked. Attribute every result to the exact article, population and endpoint studied. Preserve contrary evidence alongside supportive findings.
+Apply these limits before ranking feasible commitments by expected value. Prefer staged contracts and independently useful milestones where they preserve the option to stop. Identify any follow-on obligation already created by the initial tranche. A successful first result still needs a financeable next step or a credible handoff; otherwise its financial value may be small.
 
-Separate observed results, calculations, proposed criteria and unknown inputs. Keep unknown numerical inputs explicit. Verify time-sensitive program, comparator, supply and rights information before using it in a new commitment decision.
+For similar robust expected returns, favor the proposal with a higher credible probability of retained cash and a smaller severe-loss exposure. Success probabilities already enter expected value; state any additional preference for downside protection explicitly. Use the user's limits instead of inventing allocation percentages or assuming that repeated small bets diversify common risks.
 
-## Practical readiness
+## Establish proportionate evidence and access
 
-Describe each readiness fact directly:
+Keep a compact evidence record covering:
 
-| Dimension | Record |
-|---|---|
-| Article definition | Structure or sequence, formulation and qualification specification. |
-| Production or supply | Published reconstruction route, catalog or manufacturer route, quote, stock or received lot—as actually established. |
-| Model or clinical route | Available starting material, demonstrated assay capability, relevant functional deficit and access needed for the next milestone. |
-| Execution | Operator, controls, schedule, cost and deliverable. |
-| Rights and contribution | Research use, data ownership and regulatory use, manufacturing and commercial rights, with jurisdiction, scope and status where relevant. |
+- **Source and lineage:** primary source, identifier, publication and verification dates, study version and overlapping cohorts or datasets.
+- **Exact article and use:** molecule, stereochemistry, sequence or construct, formulation, active species, route and intended population.
+- **Study design and useful effect:** comparator, treatment timing, biological unit, denominator, magnitude, uncertainty and relevance to patient function, tolerability, burden or another stated product benefit.
+- **Exposure and failure modes:** relevant compartment, measured versus estimated exposure, metabolites, confounding, missingness, adverse findings and the strongest competing explanation.
+- **Execution and access:** material, model or clinical route, operator, schedule, supply, rights to use outputs and the observation that would change the next decision.
 
-A specific uncertainty can justify qualification work. Match the evidence burden to the proposed commitment: an exploratory background can inform feasibility, while broader claims need appropriate independent confirmation. Evaluate new and incumbent opportunities using the same standards.
+Count independent units consistently; link repeated measures and related publications. Attribute results to the exact article, population and endpoint studied. Separate observations, calculations, proposed work and unknowns. Choose relevant comparators and evidence requirements for the actual claim, whether preservation, ongoing control, finite-course improvement or lasting repair.
 
-## Design and interpret the milestone
+For a confirmatory milestone, specify the minimum useful effect, precision, biological replication, relevant exposure and interpretation before treatment decoding. Interpret a negative result within the assay's demonstrated capability; distinguish article, exposure, model and target limitations. Qualification earns its place through the downstream decision it changes.
 
-Choose endpoints and practical comparators that test the intended benefit. Useful preservation, ongoing control, finite-course improvement and lasting repair are each valid product goals. Match durability and mechanism requirements to the claim being tested.
+Match commercial diligence to exposure. Low-cost feasibility work can test an unproven access or capture hypothesis. A material development commitment needs evidence that the required interest is attainable and that the continuation is affordable or financeable. Record research use, data ownership, regulatory reliance/reference, manufacturing, commercial rights and exclusivity separately, with territory, scope, status and remaining requirements. Generic availability, an institutional listing or a patent lead can start a question; terms determine what ddiscov can retain.
 
-Specify the baseline, relevant exposure, biological replication, minimum useful effect and precision needed for an informative result. For confirmatory work, set criteria before treatment decoding. Interpret a negative result within the assay's demonstrated capability; strong conclusions about reversal require a model capable of detecting recovery. Distinguish article, exposure, model and target limitations.
-
-Seek independent challenge of consequential assumptions before promoting a major commitment. End a research pass when the next decision is clear. Reopen it when a named new source, result, access route or priced scope can change that decision.
+Verify time-sensitive program, supply, comparator, rights and funding facts when they affect a new decision. Existing-drug evidence may reduce required work where scientifically and regulatorily applicable; evaluate the bridge for the proposed product and use. The [source notes](../research/strategy/2026-11-08-marginal-capital.md#external-source-checks) document the limits of the examples used here.
 
 ## Maintain one current decision
 
-For each active opportunity, summarize: **exact use → evidence → next deliverable → cost/time basis → success/failure branches → retained-value route → priority and reversal condition**. Link the supporting dossier.
+Summarize each serious proposal as **exact use and interest → evidence → next deliverable → cost/time and exposure → outcome branches → route to retained cash → comparison and reversal condition**. Link the supporting dossier and distinguish proposed, offered, authorized and completed work.
 
-Keep candidate-specific detail and historical reasoning in their research records. Update the current decision when its basis changes. Record proposed work, authorized commitments and completed work as distinct facts.
+Select the next information task by whether it can change an affordable decision and the value of that change, including operator time. A better price, access route, funding structure or contribution can justify a fresh economic comparison with unchanged biology. End a pass when its decision is clear or a named missing artifact is required; direct the next effort to that artifact or another package. Historical effort, novelty and review order remain context. Current attainable commitments and preserving capital are the alternatives for allocation.
