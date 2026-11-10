@@ -1,0 +1,42 @@
+# 01 — Genotype-matched repurposing
+
+Reviewed 8 November 2026. Coordinator: `/root/c01_genotype_repurposing`. Workers: `/root/c01_genotype_repurposing/evidence` (primary human evidence) and `/root/c01_genotype_repurposing/challenge` (independent translation, competing development and capture). Completed: focused desk review and primary-source refresh. Patient-level data access, commercial diligence and prospective studies remain pending.
+
+**Lead: enasidenib / germline IDH2 p.Arg140Gln D2HGA2**, existing ID `R5_ENASIDENIB_IDH2_R140_D2HGA2`. Prioritize an existing-article, organ-specific indication-development contribution. This is a credible clinical research lead; neither an investable package nor an above-base-rate Phase II probability has been established.
+
+**Alternative: oral trametinib / molecularly defined RASopathy-associated severe hypertrophic cardiomyopathy**, existing inventory ID `historical-topics:T042`. Its larger human comparison and current funded development make a differentiated contribution to an existing program more relevant than starting another standalone program.
+
+## Evidence and challenge
+
+All sources below were checked on 8 November 2026. Access limitations qualify the claims.
+
+| Exact use and primary source | Observed evidence | Contrary evidence and access limit |
+|---|---|---|
+| Enasidenib/R140Q D2HGA2; [Geoerger et al., 29 May 2023](https://www.nature.com/articles/s41591-023-02382-9) | Two children had biochemical normalization; the child with severe dilated cardiomyopathy had improved cardiac function. Functional gains were reported. | Uncontrolled, selected cases; asymptomatic hyperbilirubinemia. Public abstract/page refreshed; supplement retrieval failed this pass. Exact cardiac trajectories retain the earlier [Round 7 supplement audit](../../rounds/round7/enasidenib_clinical.md), not a new verification date. |
+| Same genotype/use; [Gold et al., 16 April 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11078709/) | One independently distinguishable child had biochemical, cardiac, seizure and developmental improvements. | Milder initial cardiac abnormality than the severe original case; enzyme abnormalities prompted reduced dosing frequency. Full-text material inspected by worker; subsequent reopen encountered a browser challenge. Prior audit identifies discrepancies in adverse-event timing and reported laboratory resolution. |
+| Same genotype/use; [Roux et al., online 8 November 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11750430/) | Two skin-response records: refractory eruptions cleared during systemic treatment. | Full text refreshed. Sparse treatment detail; no quantitative cardiac effect. Cross-publication overlap unresolved: five outcome records across three papers do not establish five independent responders. |
+| Enasidenib marketed article; [IDHIFA label, revised January 2025](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a5b4cdf0-3fa8-4c6c-80f6-8d8a00e3a5b6) | Adult IDH2-mutant relapsed/refractory AML indication; defined oral tablet product and clinical pharmacology. | Label inspected. Pediatric safety/effectiveness not established. Adult oncology exposure and adverse-event frequencies cannot simply transfer to infants with metabolic disease. Historical pediatric sprinkle use exists; a new formulation needs a demonstrated residual need. |
+| Trametinib/RAS-HCM; [Wolf et al., online 4 December 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11897442/) | Retrospective 61-patient comparison: 30 MEK-inhibitor-treated versus 31 standard-care patients. Composite surgery/transplant/death occurred in 5/30 versus 27/31. | Full text inspected. Nonrandom allocation, different calendar eras, and surgery decisions complicate attribution. Unadjusted death/transplant comparison was not significant. Five treated patients were previously reported; count them once. Genotype and baseline severity must remain attached. |
+| Trametinib/RAS-HCM; [NIH award UG3HL185610, September 2026](https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=UG3HL185610&arg_ProgOfficeCode=130) | Official award describes a proposed Phase 3 study of 25 infants with severe heart failure, using approximately 100 historical controls. | Award page inspected. This establishes funded development activity, not recruitment, efficacy, completion or an offer to ddiscov. Initial award amount is not the complete program cost. |
+
+The [MEKINIST label, updated 7 May 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) was inspected by the challenger: an oral solution already exists, pediatric single-agent safety/effectiveness is unestablished, and cardiomyopathy and ocular warnings matter. Oncology combination-treatment event rates are not HCM-monotherapy risk estimates. The coordinator obtained the Wolf full text despite the challenger's separate retrieval failure; current trial registry status remains unverified.
+
+The 2026 five-week-old enasidenib report remains bibliographic-only in this pass; it adds zero verified clinical outcomes. The [earlier product/capture dossier](../../rounds/round15/enasidenib-product-capture.md) remains dated supporting context.
+
+## What could improve Phase II odds
+
+Enasidenib links a causal genotype, inhibition of its abnormal enzyme, demonstrated human biochemical engagement and observed organ benefit. That removes some uncertainties faced by a purely preclinical entrant. It does not establish a controlled functional effect, infant exposure, neurological rescue or adequate long-term tolerability. Metabolite correction is an intermediate, not proof of brain repair.
+
+Use an approved-drug/new-indication, pediatric monogenic, organ-endpoint reference class when estimating progression; do not borrow AML response rates or treat all Phase II programs as interchangeable. Keep three events separate: reaching an informative clinical study from today, achieving prespecified clinical success conditional on entering it, and returning investor cash. No numerical probability is assigned here. Trametinib's proposed Phase 3 route also shows why a phase label alone is an unsuitable common success measure.
+
+## Decisive next package
+
+First define an obtainable enasidenib contribution: intended pediatric article and supply, deduplicated all-treated clinical records, linked exposure/safety information, feasible recruitment and one organ-specific claim. Established cardiac dysfunction is the clearest current lead; prevention in newborns and neurological recovery require separate hypotheses. Prepare a prospective comparison with independent outcome review and stable-background-care accounting. Clinicians and statisticians must set the minimum useful effect and precision before a study is commissioned.
+
+**Advance:** documentary access and rights exist, an interpretable comparison is feasible, and the complete bounded package has a credible partner/payment route. A later clinical advance requires useful organ benefit with adequate engagement and acceptable tolerability against the prespecified criterion. **Stop or narrow:** adequate engagement repeatedly fails the capable clinical endpoint, intolerable toxicity prevents useful exposure, or attainable economics cannot justify the full commitment. **Inconclusive:** missing exposure, unstable co-treatment, sparse follow-up or insufficient endpoint precision; resolve that named uncertainty without declaring efficacy failure or success.
+
+## Capital and priority
+
+Proposed capture is a sponsor-aligned indication/data-development contract, license or explicitly priced participation interest. Supply, regulatory data rights, manufacturing permission, commercial rights, price, milestone payments and follow-on financing remain unknown. Maximum committed exposure is unquoted. An investigator dataset does not confer ownership of the drug; an academic grant does not create investor returns. Do not presume the approximately $500,000 planning envelope funds a complete clinical program.
+
+Rank the next information action: (1) specify enasidenib's executable article/data/organ-benefit package and retained economics; (2) map a genuinely unmet contribution to the funded trametinib program; (3) compare both with retaining cash. Reverse this order if trametinib offers a documented, affordable paid contribution, or if enasidenib has no attainable interest, viable recruitment or tolerable exposure. Neither lead currently supports a high-probability capital-recovery claim.

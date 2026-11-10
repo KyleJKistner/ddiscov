@@ -212,6 +212,7 @@ def local_links(text):
 
 def check(root):
     errors = []
+    active_docs = set(ACTIVE_DOCS)
     counts = {"json_files": 0, "csv_files": 0, "active_documents": 0, "local_links": 0}
     for name in REQUIRED:
         if not (root / name).is_file():
@@ -219,6 +220,10 @@ def check(root):
     for relative in project_files(root):
         path = root / relative
         name = relative.as_posix()
+        if name.startswith(("research/phase2-program/", "research/commercial-routes/",
+                            "research/commercial/", "research/strategy/",
+                            "research/rounds/round27/", "research/rounds/round28/")) and path.suffix == ".md":
+            active_docs.add(name)
         try:
             if path.suffix == ".json":
                 counts["json_files"] += 1
@@ -235,7 +240,7 @@ def check(root):
                             raise ValueError(f"CSV row {number} has {len(row)} fields; expected {len(header)}.")
         except (ValueError, OSError, csv.Error) as exc:
             errors.append({"file": name, "error": str(exc)})
-    for name in ACTIVE_DOCS:
+    for name in sorted(active_docs):
         path = root / name
         if not path.is_file():
             continue

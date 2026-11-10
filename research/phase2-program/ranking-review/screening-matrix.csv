@@ -1,0 +1,36 @@
+candidate,status,conditional_capital_screen,H,T,K,V,balanced_score,balanced_raw_rank,clinical_raw_rank,capital_raw_rank,bounded_balanced_rank,bounded_clinical_rank,bounded_capital_rank,one_axis_raw_rank_min,one_axis_raw_rank_max,technical_low_kusd,technical_base_kusd,technical_high_kusd,base_headroom_kusd,months_low,months_base,months_high,flag,dossier
+Topical erlotinib / KRT16,compare,True,2/3/3,1/2/3,1/2/3,1/2/3,2.30,1,4,1,1,1,1,1,6,150,350,800,150,9,18,30,,local-products.md
+Azetukalner / focal seizures,benchmark,False,3/4/4,2/3/4,0/0/2,0/1/2,2.15,2,1,18,,,,1,8,1025,2550,5100,-2050,17,28,42,Already advanced; no defined necessary small-capital development role,neurology-clinical.md
+Dornase alfa / severe dry eye-oGVHD,compare,False,2/3/3,2/3/3,1/1/2,0/1/2,2.10,3,2,7,,,,1,8,400,750,1400,-250,12,18,30,H3 for controlled ocular signs; symptom contrast and cohort independence unresolved,retained-candidates.md
+Mavoglurant / cocaine use disorder,compare,False,2/3/3,2/3/3,0/1/2,0/1/2,2.10,3,2,7,,,,1,8,2040,4080,8150,-3580,21,29,45,A consequential small contribution is not yet specified; independent replication exceeds envelope,neurology-clinical.md
+Exact topical insulin / noninfectious PED,compare,True,2/2/3,2/3/3,1/2/3,0/1/2,2.05,5,5,5,2,2,5,1,8,175,450,900,50,9,18,30,Historical and heterogeneous cohorts; exact-product and capture gap,local-products.md
+Lisdexamfetamine / KCNMA1-N999S,compare,True,1/2/2,1/2/3,1/3/3,0/1/2,2.05,5,6,2,2,3,2,1,21,100,200,450,300,9,15,24,Six selected known responders; no unbiased response denominator; age/exposure limits,process-and-coverage.md
+APR-246 / AEC,compare,True,2/2/3,1/2/3,1/2/3,1/2/3,2.00,7,10,3,4,4,3,1,18,175,400,900,100,12,21,36,,local-products.md
+Enasidenib / IDH2-R140Q D2HGA2,compare,True,1/2/2,1/2/3,0/2/3,0/2/3,2.00,7,10,3,4,4,3,2,23,180,350,800,150,12,24,36,Drug supply excluded; $150k base headroom for all exclusions,precision-repurposing.md
+Alpelisib / TEK venous malformations,compare,False,1/2/2,2/3/3,0/1/3,0/1/2,1.80,9,6,19,,,,1,23,160,320,750,180,12,18,30,Hypothetical embedded contribution; drug supply and host trial excluded,precision-repurposing.md
+Baricitinib / CANDLE-PRAAS,compare,True,1/2/2,1/2/2,0/2/3,0/1/2,1.80,9,12,11,6,6,9,5,29,150,300,700,200,12,24,36,Mixed external efficacy and efficacy-related trial termination; drug supply excluded,precision-repurposing.md
+Fampridine / FGF14-SCA27B,compare,False,1/2/3,2/3/3,0/1/3,0/1/2,1.80,9,6,19,,,,1,23,175,350,750,150,11,19,32,Conditional substudy; full new trial $1m/$2m/$4m plus feasibility,neurology-clinical.md
+Levodopa/carbidopa / MCT8,compare,True,1/2/2,1/2/3,1/2/3,0/1/2,1.80,9,12,11,6,6,9,5,23,230,460,900,40,15,23,38,,neurology-clinical.md
+Ruxolitinib 1.5% / Hailey-Hailey,compare,True,1/2/2,1/2/3,1/2/3,0/1/2,1.80,9,12,11,6,6,9,5,23,150,300,600,200,9,15,24,,process-and-coverage.md
+Salbutamol / PURA,compare,True,1/2/2,1/2/3,1/2/3,0/1/2,1.80,9,12,11,6,6,9,5,23,200,350,700,150,12,18,30,,retained-candidates.md
+TTI-0102 / MELAS,analysis_hold,False,1/2/3,1/2/3,1/2/2,0/1/2,1.80,9,12,11,,,,3,23,250,450,900,50,12,18,30,Protocol/endpoint/attrition reconciliation before positive-claim promotion,retained-candidates.md
+Topical gentamicin / nonsense JEB,compare,True,1/2/2,1/2/2,1/2/3,0/1/2,1.80,9,12,11,6,6,9,5,23,150,300,650,200,9,18,30,,process-and-coverage.md
+Topical timolol / diabetic foot ulcers,claim_hold,False,1/2/3,2/3/3,0/1/2,0/1/2,1.80,9,6,19,,,,3,23,700,1200,2500,-700,18,24,36,Primary closure superiority/recurrence not established; selected-healer analyses,retained-candidates.md
+Zinc acetate / GNAO1,compare,True,1/2/2,1/2/3,1/2/3,0/1/2,1.80,9,12,11,6,6,9,5,23,180,350,750,150,12,24,36,,process-and-coverage.md
+BLU-3797 / MTM1-XLMTM,compare,True,1/1/1,1/2/2,1/2/3,1/2/2,1.70,19,22,7,12,13,7,9,25,190,370,575,130,7,10,14,,early-assets.md
+Exact 8015-P2 / MFN2-CMT2A,compare,True,1/1/1,1/2/2,1/2/3,1/2/2,1.70,19,22,7,12,13,7,9,25,120,210,360,290,5,8,12,,early-assets.md
+RM4404 / corneal hypoesthesia,compare,True,1/1/1,1/1/2,2/3/3,1/2/3,1.70,19,25,5,12,16,5,9,25,60,150,325,350,4,8,14,,local-products.md
+Taurine / residual-transport SLC6A6,compare,True,1/2/2,0/1/2,1/2/3,0/1/2,1.55,22,20,26,15,12,19,9,29,100,250,550,250,12,24,36,,process-and-coverage.md
+Trametinib / RASopathy HCM,compare,False,2/2/3,1/2/3,0/1/3,0/1/2,1.55,22,19,28,,,,5,29,120,250,650,250,12,24,36,Historical controls; unfilled embedded contribution unestablished; supply excluded,precision-repurposing.md
+AAT / Zemaira EVLP,compare,True,1/1/1,1/2/2,1/2/3,0/1/2,1.50,24,24,26,16,15,19,19,29,180,350,700,150,6,12,18,,process-and-coverage.md
+Regadenoson / EVLP,claim_hold,False,0/1/1,2/3/3,0/1/2,0/1/2,1.50,24,20,28,,,,19,32,750,1500,3000,-1000,24,36,48,Tested regimen failed to establish graft-use/PGD superiority,process-and-coverage.md
+FD-2 / early ALS,compare,True,1/1/1,0/1/2,0/2/2,1/2/3,1.45,26,28,19,17,17,15,19,35,215,370,600,130,7,11,16,,early-assets.md
+HJ-02 / post-MI recovery,compare,True,1/1/1,0/1/2,1/2/3,1/2/3,1.45,26,28,19,17,17,15,19,32,145,260,450,240,5,8,12,,early-assets.md
+NDC-9009 / Darier,compare,True,1/1/1,0/1/2,1/2/3,1/2/3,1.45,26,28,19,17,17,15,19,32,75,225,450,275,5,10,18,,local-products.md
+mIGF-Gel / corneal defects,compare,True,1/1/1,1/1/2,1/2/3,1/2/3,1.45,26,28,19,17,17,15,19,32,90,250,500,250,5,10,18,,local-products.md
+Amlexanox / selected nonsense RDEB,compare,True,1/1/1,1/1/2,1/2/3,0/1/2,1.25,30,32,30,21,21,21,24,35,100,200,400,300,6,10,18,,retained-candidates.md
+PSB-KD107 / DMD,compare,True,1/1/1,0/1/2,1/2/2,0/1/2,1.25,30,32,30,21,21,21,24,35,200,350,700,150,9,15,24,,retained-candidates.md
+Saracatinib / FOP,result_pending,False,1/1/3,1/2/3,0/1/2,0/1/2,1.25,30,26,34,,,,9,35,1040,2590,5180,-2090,21,36,52,Completed controlled efficacy results must be resolved first,neurology-clinical.md
+Defined copper nanoclusters / Menkes,compare,False,1/1/1,0/1/2,0/1/2,1/2/3,1.20,33,34,32,,,,26,35,250,500,1000,0,12,18,30,,retained-candidates.md
+GBT601 + PT2399 / NDUFS4 Leigh,compare,False,1/1/1,0/1/2,0/1/2,0/2/3,1.20,33,34,32,,,,26,35,250,550,1200,-50,9,15,24,,precision-repurposing.md
+GA002 / mesial temporal-lobe epilepsy,high_burden,False,1/2/2,0/1/2,0/0/1,0/1/2,1.05,35,26,35,,,,30,35,3075,7150,15300,-6650,28,44,60,Gene/procedure product and complete safety evidence unresolved,neurology-clinical.md

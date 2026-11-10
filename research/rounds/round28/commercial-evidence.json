@@ -1,0 +1,316 @@
+{
+  "title": "Nifedipine/lidocaine commercial and territorial economics audit",
+  "as_of": "2026-11-09",
+  "status": "Desk estimates before inquiries; no contact, quotes, investment or live offer assumed",
+  "scope": "Exact 0.3% nifedipine/1.5% lidocaine mature cream, territorial transfer or participation; different compounds/presentations are competition, not automatically interchangeable articles.",
+  "recommendation": "Downgrade the generic USD325k bridge from first-place to an incumbent-specific territory/program reserve. Reject a thin small-market royalty as a stand-alone recovery thesis; retain only a concretely valuable territory/dossier or sponsored contribution for further desk work.",
+  "source_records": [
+    {
+      "id": "LC01",
+      "title": "Neopharmed Gentili corporate history",
+      "url": "https://neogen.it/en/our-history/",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "The company reports acquiring full global Antrolin commercial rights in 2021 and expanding international distribution in 2023.",
+      "limit": "Neogen is the website domain, not a separate rights holder. Corporate history does not identify vacant territories or current terms."
+    },
+    {
+      "id": "LC02",
+      "title": "Neopharmed Gentili out-licensing portfolio",
+      "url": "https://www.cphi-online.com/brochure/out-licensing-product-portfolio/file.pdf",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Company-authored out-licensing brochure includes Antrolin 0.3% nifedipine/1.5% lidocaine, 30 g rectal cream.",
+      "limit": "Third-party host of first-party brochure; publication date unclear and portfolio context appears historical. Not a live offer for a specified country."
+    },
+    {
+      "id": "LC03",
+      "title": "Italian official Antrolin manufacturing variation",
+      "url": "https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20260530&edizione=0&estensione=pdf&home=true&numeroGazzetta=62&numeroSupplemento=0&progressivo=0&tipoSerie=P2&tipoSupplemento=GU",
+      "publication_date": "2026-05-30",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Official Antrolin notice identifies Neopharmed Gentili and manufacturing variation involving New.Fa.Dem.",
+      "limit": "Existing authorization/manufacturing record, not US approval or an available commercial interest."
+    },
+    {
+      "id": "LC04",
+      "title": "France official Nifexine authorization, presentation and price",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63967022/extrait",
+      "publication_date": "2026-11-03",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Valid 0.3%/1.5% rectal cream; Neopharmed Gentili holder; authorized February 2020, commercialized November 2022. The 30 g public price is EUR9.95 plus EUR1.02 dispensing fee, with 15% reimbursement.",
+      "limit": "Public retail price and reimbursement rate, not confidential manufacturer net revenue or a new-territory price."
+    },
+    {
+      "id": "LC05",
+      "title": "HAS assessment of Nifexine",
+      "url": "https://www.has-sante.fr/jcms/p_3410031/fr/nifexine-nifedipine/lidocaine-chlorhydrate-douleurs-associees-a-la-fissure-anale-chronique",
+      "publication_date": "2023-02-01",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Favorable reimbursement opinion but low medical benefit and ASMR V/no demonstrated added benefit. HAS questioned comparator, pain/recurrence evidence and the demonstrated contribution of lidocaine.",
+      "limit": "French payer assessment of the submitted evidence, not proof of inefficacy or a US regulatory decision."
+    },
+    {
+      "id": "LC06",
+      "title": "Albania regulator drug register",
+      "url": "https://akbpm.gov.al/wp-content/uploads/2026/07/REGJISTER-I-BARNAVE-23.06.2026-.pdf",
+      "publication_date": "2026-06-23",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Page358 lists Antrolin 30 g, 0.3%/1.5%; Bionika Pharmaceuticals is authorization holder; New.Fa.Dem/Bionika/Vamfarma are listed manufacturers; reauthorization order167/11.04.2025.",
+      "limit": "Register and page visually checked. An occupied registered market; underlying global/regional contractual chain is not disclosed."
+    },
+    {
+      "id": "LC07",
+      "title": "Albania official 2026 CIF price workbook",
+      "url": "https://akbpm.gov.al/wp-content/uploads/2026/04/CIF-2026-UPDATED-13.02.2026-1.xlsx",
+      "publication_date": "2026-02-13",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Sheet1 row3232 identifies exact Antrolin30g and CIF EURO2026=7.063751250858201.",
+      "limit": "Downloaded and parsed with openpyxl. CIF import-price benchmark is not retail, ex-factory net, profit or an executable supplier quote. No currency conversion applied."
+    },
+    {
+      "id": "LC08",
+      "title": "Lebanon Ministry of Public Health Antrolin public list",
+      "url": "https://www.moph.gov.lb/en/Drugs/index/0/70767/page:14/sort:Drug.brand_name/direction:asc",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Current public list includes Antrolin nifedipine0.3%/lidocaine1.5% cream at LBP1,333,092.",
+      "limit": "Official listed product/price; no stock, sales, exclusivity or rights availability inferred. No currency conversion applied."
+    },
+    {
+      "id": "LC09",
+      "title": "Malta Medicines Authority Antrolin entry",
+      "url": "https://medicinesauthority.gov.mt/medicine-details?id=102738",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Entry AA1495/00101 references Italian authorization035396011 and is marked Expired.",
+      "limit": "Expired entry does not establish a currently licensed product or an economically available territory."
+    },
+    {
+      "id": "LC10",
+      "title": "Health Canada DPD record for exact Seaford combination",
+      "url": "https://health-products.canada.ca/dpd-bdpp/info?code=103717&lang=eng&wbdisable=true",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Official DPD record identifies DIN 02548283, SEAFORD NIFEDIPINE AND LIDOCAINE HYDROCHLORIDE CREAM, with current status Marketed and original market date February 2, 2026. Initial approval was May 30, 2024; see regulatory source R11.",
+      "limit": "Marketed status independently confirmed by direct official-page retrieval in this commercial pass. No Canadian price or available rights assumed."
+    },
+    {
+      "id": "LC11",
+      "title": "NIHR Innovation Observatory nifedipine-lidocaine horizon briefing",
+      "url": "https://www.io.nihr.ac.uk/wp-content/uploads/2024/07/38746-Nifedipine-Lidocaine-for-Chronic-Anal-Fissure-V1.0-JUL2024-NON-CONF.pdf",
+      "publication_date": "2024-07",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Identifies Flynn Pharma as company/developer and clinically developed status; states Flynn did not conduct the historical pivotal study or another study for the proposed indication.",
+      "limit": "Official horizon report, not current MHRA authorization, a new company-run trial, or proof of vacant UK rights."
+    },
+    {
+      "id": "LC12",
+      "title": "Steel Therapeutics Fizurex product page",
+      "url": "https://www.steeltherapeutics.com/fizurex",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Sponsor describes a single-use nifedipine/lidocaine wipe intended to standardize access to a commonly compounded combination.",
+      "limit": "Development candidate, not approved therapy; sponsor benefit claims are not independent efficacy evidence."
+    },
+    {
+      "id": "LC13",
+      "title": "Altasciences Fizurex pivotal toxicology completion",
+      "url": "https://www.altasciences.com/press-release/altasciences-supports-key-development-milestone-steel-therapeutics-lead-therapeutic",
+      "publication_date": "2026-06-30",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Execution partner reports completed GLP toxicology; Q3 2026 IND submission and 2027 first-in-human work were plans.",
+      "limit": "Do not infer those planned milestones occurred. No current financing or participation offer."
+    },
+    {
+      "id": "LC14",
+      "title": "Premium Health Care Pharmacy combination price",
+      "url": "https://www.phcpharmacy.com/product/fissure-preparation-nifedipine-0-5-lidocaine-3-ointment-30-grams/",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Provider advertises nifedipine0.5%/lidocaine3% compounded ointment30g for USD45.",
+      "limit": "Different formulation/concentrations from Antrolin; advertised retail snapshot, not manufacturer net, efficacy verification or transaction quote."
+    },
+    {
+      "id": "LC15",
+      "title": "Uptown Pharmacy combination price",
+      "url": "https://uptownrxpharmacy.com/product/compounded-lidocaine-and-nifedipine-ointment/",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Provider advertises nifedipine0.5%/lidocaine5% compounded ointment30g for USD54.99, with Texas-only delivery.",
+      "limit": "Different article and geographic service limits. Retail price does not establish revenue available to a drug developer."
+    },
+    {
+      "id": "LC16",
+      "title": "Cosette first generic Rectiv approval/launch announcement",
+      "url": "https://cosettepharma.com/cosette-pharmaceuticals-announces-the-approval-and-launch-of-first-generic-version-of-rectiv-nitroglycerin-ointment-0-4-with-180-days-competitive-generic-therapy-cgt-exclusivity/",
+      "publication_date": "2024-02-22",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Announces first generic nitroglycerin0.4% approval; reports IQVIA annual US sales of about USD21.2m through January2024.",
+      "limit": "Issuer report of third-party market data, not audited manufacturer net revenue or a 2026 forecast."
+    },
+    {
+      "id": "LC17",
+      "title": "Acrux current nitroglycerin product page",
+      "url": "https://acrux.com.au/product/nitroglycerine-0-4-ointment/",
+      "publication_date": null,
+      "checked_date": "2026-11-09",
+      "verified_fact": "Acrux says its FDA-approved nitroglycerin0.4% product was licensed to TruPharma and launched in the US in December2024.",
+      "limit": "Confirms another competitor and licensing structure; financial terms and current market shares are not disclosed."
+    },
+    {
+      "id": "LC18",
+      "title": "Acrux ASX nitroglycerin commercialization announcement",
+      "url": "https://company-announcements.afr.com/asx/acr/41cf548f-b8dc-11ef-b678-06aa9b9d2d02.pdf",
+      "publication_date": "2024-12-13",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Issuer announcement reports prior-year branded-plus-generic sales exceeding USD23m and47,000packs, citing IQVIA August2024.",
+      "limit": "Original issuer filing mirrored by AFR. These are historical channel-market figures, not manufacturer net, unique patients or total compounded fissure market."
+    },
+    {
+      "id": "LC19",
+      "title": "Mapel et al population-based anal-fissure cohort",
+      "url": "https://link.springer.com/article/10.1186/1471-230X-14-129",
+      "publication_date": "2014-07-16",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Regional US managed-care cohort2005–2011:1,243cases, incidence1.1/1,000 person-years;14.2% had follow-up at least12weeks later;448 received dispensed topical prescriptions.",
+      "limit": "Old regional diagnosed-case sample, age6+, not current national chronic prevalence. Follow-up definition undercounts some chronic disease; funded by Ventrus grant."
+    },
+    {
+      "id": "LC20",
+      "title": "Italian multicenter treatment patterns",
+      "url": "https://link.springer.com/article/10.1007/s10151-024-03011-4",
+      "publication_date": "2024-10-04",
+      "checked_date": "2026-11-09",
+      "verified_fact": "17centers contributed22,016 patients from2013–2022. Medical treatment was used in63–67% of chronic cases; nifedipine/lidocaine was a common option. Ointment choice reflected adverse effects and cost.",
+      "limit": "Selected specialist-center records/survey, not national incidence, market share, randomized effectiveness or demand for a new product."
+    },
+    {
+      "id": "LC21",
+      "title": "ASCRS anal-fissure clinical practice guideline",
+      "url": "https://fascrs.org/ascrs/media/files/Education/2023-Anal-Fissures-CPG.pdf",
+      "publication_date": "2023",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Guideline accepts topical calcium-channel blockers as first-line chronic-fissure treatment, with similar efficacy and better side-effect profile than nitrates.",
+      "limit": "Primary professional guidance, not endorsement of a specific new product or proof of a commercial premium."
+    },
+    {
+      "id": "LC22",
+      "title": "Shah et al compounded-diltiazem quality study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3769900/",
+      "publication_date": "2013-09-14",
+      "checked_date": "2026-11-09",
+      "verified_fact": "36 fills from12pharmacies: half failed potency specification and38.9% lacked content uniformity.",
+      "limit": "Small one-city, Ventrus-supported historical diltiazem sample; cannot apply those rates to current nifedipine/lidocaine or all compounding pharmacies."
+    },
+    {
+      "id": "LC23",
+      "title": "Ventrus2010 IPO prospectus license economics",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420410066970/v205714_424b4.htm",
+      "publication_date": "2010-12-16",
+      "checked_date": "2026-11-09",
+      "verified_fact": "SLA rights covered topical diltiazem and phenylephrine in US/Canada/Mexico, with mid-to-upper single-digit sales royalties, milestone obligations and an improvement-license-back.",
+      "limit": "Historical two-asset development license, not a current Antrolin quote or valuation. Later amendments changed payment terms."
+    },
+    {
+      "id": "LC24",
+      "title": "Ventrus2013 annual-report license note",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420414019383/R14.htm",
+      "publication_date": "2014",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Records USD250k initial fee plus50k reimbursement inside a1.087876m PBS assignment, equity consideration,41.5k/month per managed program,4.2m diltiazem clinical reimbursements,1m enrollment milestones and400k final-report payment.",
+      "limit": "Do not add initial300k twice to the assignment total. Amounts have different payees/scopes/dates; equity and contingent milestones are not cash upfront."
+    },
+    {
+      "id": "LC25",
+      "title": "VEN307 second pivotal trial result",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420414007779/v368123_ex99-1.htm",
+      "publication_date": "2014-02-12",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Sponsor reported no significant primary pain separation from placebo in434patients in the second pivotal trial.",
+      "limit": "Diltiazem analogy, not exact nifedipine failure; shows pain/placebo and product-registration risk."
+    },
+    {
+      "id": "LC26",
+      "title": "VEN307 license termination filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1426800/000114420414045571/v385024_8-k.htm",
+      "publication_date": "2014-07-29",
+      "checked_date": "2026-11-09",
+      "verified_fact": "License termination followed FDA feedback that approval chances were unclear without another trial and a company strategy change; no early termination penalty.",
+      "limit": "Historical episode does not establish current nifedipine requirements or present rights availability."
+    },
+    {
+      "id": "LC27",
+      "title": "Aptalis approved Rectiv US commercialization transaction",
+      "url": "https://www.sec.gov/Archives/edgar/data/1444570/000119312512052580/d283207d10q.htm",
+      "publication_date": "2012-02",
+      "checked_date": "2026-11-09",
+      "verified_fact": "Already FDA-approved Rectiv: USD20m upfront,20m first-commercial-sale milestone, up to40m sales milestones and double-digit net-sales royalties; separate supply agreement.",
+      "limit": "Stage-specific 2011/2012 approved-product deal. USD139.2m accounting fair value included contingent obligations and royalties, not cash upfront or a value for a small new bridge."
+    },
+    {
+      "id": "LC28",
+      "title": "Exact-combination Canadian product monograph",
+      "url": "https://pdf.hres.ca/dpd_pm/00080832.PDF",
+      "publication_date": "2025-06-13",
+      "checked_date": "2026-11-09",
+      "verified_fact": "The exact 0.3%/1.5% cream was initially authorized May 30, 2024. The adult indication is chronic primary fissure unresponsive to stool softeners and topical anesthetics. The label specifies approximately 2.5–3 g twice daily for 3 weeks and a 30 g tube.",
+      "limit": "Complete label-duration supply implies 105–126 g, or 4–5 whole 30 g packs. This is not an observed purchase/adherence rate and must not be applied to the different Fizurex wipe article."
+    }
+  ],
+  "assumptions_and_limits": {
+    "all_numbers_in_case_and_route_models": "Analyst assumptions, not quotes, calibrated probabilities, forecasts or observed contract terms.",
+    "initial_tranche": "USD 325,000 is the prior total bounded-package planning benchmark, not a complete registration/launch budget. The model assumes initial access, legal, data and bounded development can fit inside this package; it is not a verified access fee or a claim that rights are available at this price. Any necessary entry fee beyond this package increases D. The earlier USD 175,000–625,000 range remains a scope stress, not a quotation.",
+    "ownership": "Investor owns100% of isolated vehicle in all cases. A5% retained royalty spread is a commercial contract interest, not5% equity. No arbitrary equity dilution applied.",
+    "royalty_structure": "Downstream licensee pays the stated royalty on its manufacturer/commercializer net sales to the vehicle; vehicle pays upstream royalty separately. Licensee funds development, manufacturing, inventory, distribution and launch. This financing/rights arrangement is assumed feasible, not offered.",
+    "direct_structure": "Vehicle receives net product sales and bears supply, variable selling, fixed launch/commercial and development costs. Small-territory supplier margin includes upstream economics; no extra duplicate royalty. US direct has separate upstream royalty and funded development outlays.",
+    "existing_local_operator": "The shared-operator route remains a 100% investor-owned territory vehicle. A local operator is assumed contracted, not gifted equity: USD 5,000 annual vehicle admin from year 2; USD 10,000/7,500/5,000 adverse/base/favorable annual incremental operator fixed cost from launch; USD 25,000/20,000/15,000 setup. Supply and variable selling costs still apply. These are unquoted incremental-cost assumptions, not an established operator or offer.",
+    "cream_units_and_adherence": "The main model is a 30 g mature cream. Base 4 packs covers the lower labeled-dose end (105 g total), while favorable 5 covers the upper end (126 g); 4 does not cover every dose in the label range. Adverse 2 packs means interrupted purchase, not a full course. Compared with the preliminary unanchored 1–2 pack model, fill shares are reduced from 50/65/80% to 35/50/65% as an analyst price/adherence stress. This does not estimate elasticity. US per-course manufacturer net receipts at the main combinations are USD 100/500/1,000; patient retail/OOP can differ. The Fizurex wipe is a different unit/dose/cost model.",
+    "us_direct_later_development": "Later-program assumptions are USD7m/12m/25m favorable/base/adverse before application fees, initial package and launch. Explicit component, confirmatory, CMC and submission scopes are in commercial-inputs.json. Favorable assumes fee waiver and year5 launch; base pays current-rate application-fee proxy on year5 filing, with launch after year5; adverse has USD5m development plus potential fee beyond the five-year horizon. These are optional continuation scenarios, not mandatory FDA programs or committed cash.",
+    "territory_population": "10m and300m are illustrative treatment catchments, not offered territories or exact2026 census figures. No identified10m territory is asserted vacant.",
+    "eligible_pool": "Diagnosed annual incidence is anchored loosely to an old US cohort, then a separate 20–50% clinically eligible adult chronic/refractory fraction is assumed. The 14.2% coded 12-week follow-up is NOT used as chronic prevalence. Repeat courses are only the 1.0–1.2 courses multiplier, applied to the same captured patients; no separate lifetime-prevalence backlog is added. Recurrence does not create a new unique patient or guarantee another paid course.",
+    "price": "Net USD5/8/15 foreign and50/125/200 US per pack are assumptions. France retailEUR9.95 and Albania CIFEUR7.06 constrain the foreign case; neither is converted into manufacturer net or a guaranteed price. US premium case needs payer acceptance despiteUSD45–55 compounding.",
+    "market_share": "Selected capture is not observed; mature drugs, generic nitroglycerin and Fizurex constrain it. The revised favorable US case is 219,375 packs, well above the historical 47,000-pack nitroglycerin market. It requires substantial expansion/capture from compounding, so it is a demanding upside stress.",
+    "timing": "Five years is an analyst comparison convention. Existing-program US royalty paths and independently initiated direct-US paths have distinct timelines. Ten-year continuation of already-launched branches is an explicit sensitivity; no forecast or investor deadline is inferred.",
+    "cash_accounting": "No recycling. D=sum of new investor contributions; R=sum actual modeled distributions. Positive annual cash receives25% illustrative tax/withholding reserve; no tax credits from prior losses assumed.100% of remaining distributable cash is paid to owner after listed costs. Tax treatment is not jurisdictional advice.",
+    "working_capital": "Annual cash aggregation nets same-year costs and receipts and does not establish peak liquidity or gross capital calls under actual payment dates. Prelaunch costs, inventory, minimum orders and collections can require extra funding. Terminal inventory value is excluded.",
+    "restricted_funds": "Financing, development reimbursements and restricted research advances are not investor distributions. Only an unrestricted realized margin or contractual payment can contribute to R.",
+    "stops": "These successful-continuation or delayed-development branches are scenarios, not required spend. At the325k bridge stop, absence of a funded next step means stop/expire/sell; no mandatory owner top-ups are assumed. Optional later calls shown in direct/carrying scenarios require a new decision.",
+    "no_fake_exit": "Upfront buyer payment set to zero; required payment thresholds are solved, not predicted. Asset sale value and royalty tail beyond five years are excluded.",
+    "deterministic_entry_ceiling": "The maximum initial package is five-year distributions minus later new contributions. A negative result means operations do not support even a free initial package within the horizon. The illustrative entry-fee ceiling subtracts USD 75,000 hypothetical non-entry initial work from that amount. That is an algebraic scope sensitivity, not a bid, valuation or quoted legal/regulatory cost. It is conditional on the entire modeled operating branch and ignores uncertainty and time value."
+  },
+  "original_screen_hurdle": {
+    "C": 325000,
+    "p": 0.55,
+    "q": 0.25,
+    "required_success_branch_net_cash": 2363636.3636363633,
+    "p_event": "A useful decision-changing bounded-package result conditional on modeled access; not clinical healing or approval.",
+    "q_event": "Investor receives meaningful distributable cash within the analyst five-year horizon, conditional on the useful result and modeled rights; not company financing proceeds.",
+    "limit": "Original nominal conditional hurdle, not valuation; does not include optional later cash calls."
+  },
+  "commercial_q_sensitivity": {
+    "p_held_constant": 0.55,
+    "q_low": 0.05,
+    "q_working_range": [
+      0.1,
+      0.15
+    ],
+    "q_favorable": 0.3,
+    "working_hurdles_usd": [
+      3939393.939393939,
+      5909090.909090908
+    ],
+    "status": "Subjective very-low-confidence economic sensitivity after competition/price audit; not approval or repayment probability."
+  },
+  "reversal_conditions": [
+    "A specific still-attainable territory or existing license relationship has independently evidenced orders/net contribution large enough to cover total cash committed.",
+    "The investor retains a transferable dossier/data/territory interest that solves a material regulatory or commercial problem; a generic published regimen or broker introduction is insufficient.",
+    "A commercializer funds subsequent registration and launch while preserving an adequate royalty spread, without uncapped owner obligations.",
+    "A genuine sponsor-funded deliverable pays a contracted fee/margin; model acceptance and collection even after negative science separately.",
+    "A cheap multi-country registration transfer with substantial retained operating contribution can change the conclusion; duplicate territories already marketed cannot be assumed available."
+  ],
+  "model_files": [
+    "commercial-inputs.json",
+    "commercial-cashflows.json"
+  ]
+}

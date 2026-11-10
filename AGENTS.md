@@ -4,7 +4,7 @@
 
 Optimize financial value retained from the next dollar committed to drug development, across all stages and attainable transaction structures. Prefer credible success and protect the ability to continue after losses. Read [current opportunities](decisions/current-shortlist.md) and [selection policy](decisions/selection-policy.md), then retrieve only the evidence needed for the task.
 
-The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. Research records retain the conclusions and terminology of their review dates. The latest completed evidence review is Round 26, dated 8 November 2026.
+The active source of priority is `decisions/current-shortlist.md`; the active evaluation standard is `decisions/selection-policy.md`. The [shortlist reconciliation](research/strategy/2026-11-08-shortlist-reconciliation.md) combines PR #4 and PR #6, including their prerequisite reviews. Round 28 is the latest numbered review. Priorities are tied APR/erlotinib leads, an unordered CBD3063 plus insulin/AAT/verteporfin challenger tier, and conditional reserves. Existing-article access and a useful commercial gap precede a new study proposal. Preserve broad sourcing, cash-recovery discipline, flexible capital and 100% initial founder equity with separate upstream obligations and later dilution. Historical model filters, ranks and pilot costs retain their original scopes. Personal financial limits stay in the private mandate. Screen and deepen using explicit estimates; inquiries and commitments are later decisions. Read the focused evidence needed for the task.
 
 ## Retrieve focused context
 

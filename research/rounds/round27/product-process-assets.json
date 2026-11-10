@@ -1,0 +1,1581 @@
+{
+  "schema_version": 1,
+  "title": "Broad desk screen: local products, repair and tissue-process contributions",
+  "review_date": "2026-11-08",
+  "review_timezone": "America/Los_Angeles",
+  "scope": "Sixteen exact asset/use packages across ocular local delivery, dermal wound/scar products and an AAT tissue-process contribution.",
+  "screening_method": {
+    "purpose": "Provisional allocation of deeper desk comparison, followed by a small inquiry set. Missing quotes and terms widen estimates and price sensitivity; they do not automatically exclude all ranking.",
+    "all_in_definition": "Current bounded milestone totals include exploratory entry/right/material-access/counsel allowance, product plus useful-function confirmation, management/regulatory planning and contingency. They are not full licenses, clinical trials or complete development budgets.",
+    "entry_assumption": "Low/base/high entry allowances assume a limited evaluation/option or contribution arrangement. Full acquisition fees, royalties and binding future diligence may cost more; rank-reversal conditions show where added entry cost erodes the thesis. No currently offered fee is claimed.",
+    "probability_definition": "All probabilities are analyst judgment intervals for a decision-changing positive useful product/functional milestone conditional on access and competent execution. They are not observed asset-specific frequencies, approval probabilities, or chances of investor repayment. A clean negative result may be valuable information but does not count as technical success.",
+    "estimate_reference_classes": "Known-active formulation plus existing functional model; novel local-product replication; large-animal/local-product bridge; and rescue of prior negative clinical evidence. Evidence maturity, reproducibility, exact-product comparability and active competing programs adjust the intervals. NIH/ASPE provide only broad scope/cost sanity checks.",
+    "later_capital": "Separate later-capital ranges are broad order-of-magnitude planning judgments for a later decision/partnering point, not complete approval cost. They need not be contributed by the user if a partner funds follow-on work.",
+    "financial_ranking_limit": "Ordinal judgment combines bounded cost, useful-result probability, likely product differentiation, plausible attainable economic interest and downstream burden. It is not a calculated NPV. No asset presently has a supportable quantified principal-recovery probability.",
+    "concurrency_note": "Topical insulin and other incumbent evidence overlap concurrent PR3 work; overlap is disclosed rather than counted as independent discovery/replication.",
+    "sources_for_cost_context": [
+      "P34",
+      "P35"
+    ],
+    "cash_probability_horizon_years": 5,
+    "cash_probability_definition": "Analyst low/base/high conditional chance of a material paid handoff and actual net cash distribution to the investor within five years of starting the funded milestone, GIVEN a useful milestone and the modeled access/rights package. Very low confidence. This includes finding a counterparty, financing remaining work if required, closing/collection and investor distribution. It is not a probability of recovering principal or achieving a chosen return, and it does not include the chance of obtaining the modeled access.",
+    "cash_probability_sensitivity_use": "C/(p_milestone * p_cash) can illustrate the conditional retained-cash amount required to break even in a simplified single-success-payment model. It is not an asset value or forecast. Price, timing, partial cash outcomes and further contributions can materially change it. For a signed conforming-deliverable fee contract, payment can occur despite a negative scientific result; that separate contract model must not require scientific success.",
+    "ranking_interpretation": "The ordinal list ranks deeper desk comparison under current uncertainty. It does not assume that an unsolved product problem, investor rights, a buyer or an operator exists. In particular, insulin can be rejected without funding formulation work if existing presentations meet the relevant practical need."
+  },
+  "deeper_shortlist": [
+    {
+      "id": "LOCAL_INSULIN_PED",
+      "reason": "First for a bounded desk differentiation comparison because of human-use evidence and potentially short product work, not a claim that a formulation problem exists. If existing preparations meet the practical need, reject without funding new formulation work.",
+      "next_desk_question": "Which exact baseline and container/use setting leaves a commercially meaningful problem unsolved?"
+    },
+    {
+      "id": "AAT_PROCESS",
+      "reason": "A process contribution can be smaller than an independent new-drug program; rank depends on useful operational improvement, downstream organ economics and actual capture.",
+      "next_desk_question": "What improvement matters to an existing qualified operator, and how much organ validation is needed before anyone would pay?"
+    },
+    {
+      "id": "VERTEPORFIN_SCAR",
+      "reason": "Stronger translational substrate than mouse-only local repair, with an identifiable academic route; active human trial means product differentiation and timing must be explicit.",
+      "next_desk_question": "Is there an independently valuable product contribution beside SCARFREE-001, or is waiting for that study the higher-value next action?"
+    }
+  ],
+  "close_reserve": [
+    "VS6062_HYDROGEL",
+    "RM4404_CORNEA",
+    "CALCIPOTRIOL_5FU_AK"
+  ],
+  "candidate_count": 16,
+  "additional_to_four_anchors": 12,
+  "candidates": [
+    {
+      "id": "LOCAL_INSULIN_PED",
+      "name": "Exact topical-insulin product for refractory corneal epithelial defects",
+      "lane_rank": 1,
+      "incumbent_anchor": false,
+      "stage": "Human-characterized repurposing; product definition/CMC opportunity.",
+      "milestone": "Choose one exact insulin/formulation baseline, then demonstrate a meaningful storage, delivery or handling improvement while retaining useful epithelial-repair activity and ocular compatibility against that baseline. No sensory-restoration claim.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 100000,
+          "base": 180000,
+          "high": 330000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 15000,
+            "high": 40000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 70000,
+            "base": 125000,
+            "high": 220000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 40000,
+            "high": 70000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 7,
+          "high": 12
+        },
+        "technical_milestone_probability": {
+          "low": 0.25,
+          "base": 0.45,
+          "high": 0.65,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Multiple clinical series reduce uncertainty that some exact insulin preparations can support epithelial closure, but do not establish a new product opportunity. The probability includes failure to find a meaningful advantage over already-stable formulations; ingredient cheapness is not a success-probability boost. Sterile ophthalmic and protein/container work remains material. A limited useful-product package is distinct from a full clinical CMC program.",
+        "later_capital_usd": {
+          "low": 4000000,
+          "high": 18000000,
+          "scope": "Subsequent clinical-grade manufacturing, local safety/bridging and controlled clinical development to a later partner decision; full approval may exceed this.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.15,
+          "base": 0.3,
+          "high": 0.5,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Useful product differentiation could interest an ophthalmic manufacturer, but generic compounding, modest exclusivity, follow-on clinical cost and investor distribution all constrain monetization."
+        }
+      },
+      "economic_capture": "Own a demonstrably useful formulation/container know-how and transferable product/data package, or negotiate contribution economics with an ophthalmic developer. A paid development scope could produce fees; self-funded work requires a later license/asset sale. Cheap public compounding and lack of exclusivity can leave almost no retained value despite technical success.",
+      "current_program_and_access": "Public formulations and academic investigators are visible; no exclusive right assumed. Independent Al-Shifa randomized trial is recruiting. PR3 already identifies this product lane, so this is cross-validation, not a new discovery.",
+      "strongest_contrary_evidence": "2026 Humalog series is uncontrolled and corneal sensitivity unchanged. Published stability work may erase the proposed convenience advantage. A future trial may resolve clinical efficacy without our funding.",
+      "rank_reversal_conditions": [
+        "If no clinically/commercially meaningful advantage beyond existing compounding can be defined, move below RM4404/FAKI rather than fund a generic stability repeat.",
+        "If entry costs exceed 40000 or a decision-changing package exceeds 335000, compare directly with waiting for ongoing trial evidence.",
+        "If an owner funds product work and pays for conforming completion, its cash-risk rank improves independently of clinical approval."
+      ],
+      "source_ids": [
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "AAT_PROCESS",
+      "name": "AAT preparation and perfusion-process contribution for donor lungs",
+      "lane_rank": 2,
+      "incumbent_anchor": true,
+      "stage": "Manufactured human protein; human discarded-organ physiology; no proven recipient benefit for exact process.",
+      "milestone": "Demonstrate a reproducible practical process advantage, such as materially lower delivered-protein burden or variability with comparable relevant activity and compatibility, and define a credible organ-validation bridge. A generic potency assay alone is not success.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 85000,
+          "base": 165000,
+          "high": 310000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 20000,
+            "high": 60000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 60000,
+            "base": 110000,
+            "high": 190000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 20000,
+            "base": 35000,
+            "high": 60000
+          }
+        },
+        "months": {
+          "low": 3,
+          "base": 5,
+          "high": 9
+        },
+        "technical_milestone_probability": {
+          "low": 0.35,
+          "base": 0.55,
+          "high": 0.7,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Existing drug and known perfusion context can support a bounded product contribution, but no useful formulation advantage has been shown. Lower range assumes existing analytical/circuit infrastructure; upper includes failed formulation iteration and integration. The inherited 30–100k assay/qualification envelope is not used as a full economic milestone cost.",
+        "later_capital_usd": {
+          "low": 750000,
+          "high": 5000000,
+          "scope": "Subsequent donor-organ comparison, clinical/process translation and early recipient/implementation work; wider trials can exceed this.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.1,
+          "base": 0.3,
+          "high": 0.5,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Potential process partners exist, but no operator or customer demand is established; a useful improvement may still be too small to buy. Base case is self-funded contribution economics, not an already signed customer contract."
+        }
+      },
+      "economic_capture": "Prefer a negotiated process/data contribution or conforming-deliverable contract with an operator/manufacturer, with explicit margin/distribution rights. Self-funded results might support know-how licensing or a strategic option; grant support only offsets allowed research cost. No customer or capable operator is established.",
+      "current_program_and_access": "UHN/Toronto research lineage, CSL product/partnering routes and XVIVO institutional research route are identified. No live global CSL AAT-IIS priority or asset-specific paid request is assumed.",
+      "strongest_contrary_evidence": "Only a small overlapping human-organ lineage, no exact-use transplant outcome. Donor access and downstream integration can overwhelm a cheap initial result. A better lab process may have no buyer or clinical economic benefit.",
+      "rank_reversal_conditions": [
+        "If useful process improvement requires scarce donor lungs in the first milestone, reprice rather than retain this ranking.",
+        "Entry/rights above 60000 or total above 310000 removes much of the short-step advantage.",
+        "If the only accessible funding is restricted research support, rank investor repayment below a genuine commercial contract."
+      ],
+      "source_ids": [
+        "P01",
+        "P36",
+        "P37",
+        "P38"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "VERTEPORFIN_SCAR",
+      "name": "Local verteporfin product for prevention of surgical skin scarring",
+      "lane_rank": 3,
+      "incumbent_anchor": false,
+      "stage": "Approved active in another route; pig/human-xenograft evidence; recruiting investigator-sponsored Phase II.",
+      "milestone": "Create a differentiated, reproducible local-delivery/product package that preserves wound mechanical recovery and reduces scarring with acceptable local exposure. It must add something beyond the existing Visudyne-based SCARFREE study; do not fund a duplicate first-human story.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 135000,
+          "base": 260000,
+          "high": 455000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 10000,
+            "base": 30000,
+            "high": 80000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 95000,
+            "base": 175000,
+            "high": 285000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 30000,
+            "base": 55000,
+            "high": 90000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 9,
+          "high": 15
+        },
+        "technical_milestone_probability": {
+          "low": 0.3,
+          "base": 0.45,
+          "high": 0.65,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Large-animal and human-xenograft data are stronger than mouse-only discovery; local phototoxicity, product performance and human translation remain uncertain. These ranges price independent useful-function/product differentiation, not the whole clinical trial.",
+        "later_capital_usd": {
+          "low": 5000000,
+          "high": 25000000,
+          "scope": "Later regulated local-product safety, manufacturing and controlled surgical-scar development; not a complete commercial launch budget.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.45,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Academic option route and broad surgical use could attract a partner, but an ongoing external trial may dominate timing, local safety is unresolved, and new work must add proprietary value."
+        }
+      },
+      "economic_capture": "Stanford-linked option/license with sublicensable improvements, or a product contribution to an existing sponsor/developer. Successful package could support a partner-funded expansion or option exercise; funding alone creates no ownership and technical success creates no investor payment.",
+      "current_program_and_access": "Stanford has a licensing listing. Odense University Hospital's SCARFREE-001 is already recruiting 12 estimated participants, with 2028 estimated completion. Existing rights, trial-data access and product compatibility must be priced.",
+      "strongest_contrary_evidence": "Competing/free forthcoming human evidence lowers the incremental value of another generic animal demonstration. Intravenous ophthalmic approval does not establish intradermal safety; label photosensitivity matters.",
+      "rank_reversal_conditions": [
+        "If existing trial supply is already adequate and there is no separate product advantage, wait for SCARFREE rather than buy duplicative data.",
+        "Entry above 80000 or total above 455000 pushes this below cheaper insulin/AAT options unless scope/retained economics improve.",
+        "Negative local wound-healing or light-exposure results sharply reduce the thesis."
+      ],
+      "source_ids": [
+        "P30",
+        "P31",
+        "P32",
+        "P33"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "VS6062_HYDROGEL",
+      "name": "VS-6062/PF-562271 hydrogel for donor-site or excisional skin-wound repair",
+      "lane_rank": 4,
+      "incumbent_anchor": false,
+      "stage": "Human-characterized oncology molecule in an academic local-delivery product; pig/mouse evidence.",
+      "milestone": "Reproduce a clinically useful scar/mechanical-healing advantage of the exact drug/scaffold over scaffold alone, while showing reproducible release and local tolerability in an established model.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 160000,
+          "base": 300000,
+          "high": 520000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 15000,
+            "base": 40000,
+            "high": 110000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 110000,
+            "base": 195000,
+            "high": 310000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 35000,
+            "base": 65000,
+            "high": 100000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 9,
+          "high": 15
+        },
+        "technical_milestone_probability": {
+          "low": 0.25,
+          "base": 0.45,
+          "high": 0.6,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Existing large-animal signal helps, but exact active supply, scaffold reproducibility and local therapeutic margin are independent risks. New model construction is excluded; need for it takes cost beyond high.",
+        "later_capital_usd": {
+          "low": 8000000,
+          "high": 35000000,
+          "scope": "Later IND-enabling/local-product work and early controlled clinical development, excluding a complete approval program.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.45,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Potentially protectable local product, offset by scaffold/compound rights complexity and substantial drug-product follow-on funding."
+        }
+      },
+      "economic_capture": "Option on Stanford scaffold/use rights plus exact compound access and ownership of improvements; handoff to wound-care or surgical-product partner after independent functional confirmation. Stronger protectability than a plain generic drop, with more complex rights and CMC.",
+      "current_program_and_access": "Stanford licensing listing is public. Original article names VS-6062 supplied by Verastem; do not substitute defactinib or assume historical material access persists. No current local-wound clinical program verified in this bounded pass.",
+      "strongest_contrary_evidence": "Most evidence comes from the originating network. Cancer-route human experience is not local-wound safety, and a drug-device/scaffold product adds manufacturing and classification work.",
+      "rank_reversal_conditions": [
+        "Move above verteporfin if an inexpensive integrated scaffold/compound option and existing model operator are available.",
+        "Entry above 110000 or total above 520000 moves below cheaper product opportunities.",
+        "Failure to improve function versus scaffold alone defeats a drug-specific product thesis."
+      ],
+      "source_ids": [
+        "P27",
+        "P28",
+        "P29"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "RM4404_CORNEA",
+      "name": "RM4404/WAY-262611 micelles for corneal sensory recovery",
+      "lane_rank": 5,
+      "incumbent_anchor": true,
+      "stage": "Academic preclinical exact product; direct mouse sensory endpoint.",
+      "milestone": "Independent exact-product exposure qualification plus masked animal-level confirmation of meaningful sensory/epithelial function against appropriate vehicle and practical comparator.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 125000,
+          "base": 225000,
+          "high": 400000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 10000,
+            "base": 30000,
+            "high": 80000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 85000,
+            "base": 145000,
+            "high": 240000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 30000,
+            "base": 50000,
+            "high": 80000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 7,
+          "high": 12
+        },
+        "technical_milestone_probability": {
+          "low": 0.25,
+          "base": 0.4,
+          "high": 0.6,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Direct function and delayed-treatment signal support more than mechanism-only discovery; small studies and original analysis limits materially widen probability. Full novel sterile ophthalmic development is excluded.",
+        "later_capital_usd": {
+          "low": 10000000,
+          "high": 40000000,
+          "scope": "Later candidate/sterile-product qualification, enabling safety and early clinical development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.45,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Distinct sensory function could support a license, but preclinical-only evidence and ophthalmic enabling costs often require financing before a cash handoff."
+        }
+      },
+      "economic_capture": "UConn-related rights/option and independent dataset could support a license or partner-funded continuation. A formulation-only result with no useful function is much less marketable.",
+      "current_program_and_access": "Paper and provisional disclosure provide a concrete academic provenance; current available rights/supply/terms unverified. Known insulin and approved corneal-care comparators raise the bar.",
+      "strongest_contrary_evidence": "Two eyes were treated as independent in one original model; durability and structural superiority are model-specific. No human efficacy or local-product safety package.",
+      "rank_reversal_conditions": [
+        "Move above generic-insulin product if the latter has no defensible convenience/functional advantage.",
+        "Entry above 80000 or all-in above 400000 diminishes the bounded option.",
+        "A result limited to nerve staining without useful sensory/epithelial function is below the stated success event."
+      ],
+      "source_ids": [
+        "P02",
+        "P06"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "CALCIPOTRIOL_5FU_AK",
+      "name": "Nonduplicative calcipotriol/fluorouracil product contribution within the existing licensed chain for actinic keratosis",
+      "lane_rank": 6,
+      "incumbent_anchor": false,
+      "stage": "Randomized human combination evidence; SKNV reports an exclusive WashU-portfolio sublicense and an existing compounded Kefunova presentation; active longer-standard-course comparisons.",
+      "milestone": "Within a modeled arrangement with the licensed chain, demonstrate a defined improvement beyond existing Kefunova and separate-product preparation in usability, manufacturing or relevant product performance, while preserving activity. This product-only package excludes a new controlled clinical/regulatory bridge; no unmet presentation problem is presumed.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 95000,
+          "base": 175000,
+          "high": 330000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 20000,
+            "high": 60000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 65000,
+            "base": 115000,
+            "high": 200000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 40000,
+            "high": 70000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 7,
+          "high": 12
+        },
+        "technical_milestone_probability": {
+          "low": 0.3,
+          "base": 0.45,
+          "high": 0.6,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Known actives and randomized human signal reduce some biology uncertainty, but SKNV already supplies the combined compounded presentation. The useful milestone now requires a nonduplicative product improvement that the licensed chain could use. Probability is reduced for failure to identify that improvement. The existing 95000/175000/330000 USD envelope is retained only for a limited product contribution with modest modeled entry terms, not purchase of exclusive rights or the broader human-lane clinical/regulatory package.",
+        "later_capital_usd": {
+          "low": 4000000,
+          "high": 16000000,
+          "scope": "Later clinical-grade combined-product manufacture and controlled clinical/regulatory bridging.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.08,
+          "base": 0.18,
+          "high": 0.35,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "SKNV publicly reports an exclusive sublicense and an existing combined product, giving a concrete commercial chain but also reducing the opening for a new contribution. Conditional cash requires retained contractual economics for a useful incremental contribution within that chain; no buyer, sponsorship, sublicense terms or payment is known. A generic copy or merely repeating the published regimen creates little modeled capture."
+        }
+      },
+      "economic_capture": "A limited product/data/process contribution with negotiated economics through SKNV and the relevant licensed chain; no independent unencumbered combination-product thesis. The investor would require a retained paid milestone, co-development or sublicense interest. The existing compounded presentation raises the bar for incremental value, and the announced exclusive rights do not establish claim scope or FTO.",
+      "current_program_and_access": "SKNV announced on July 22, 2026 exclusive commercialization rights under a sublicense to the Washington University in St. Louis patent portfolio covering fluorouracil/calcipotriene. It states that Kefunova Cream (fluorouracil 5%/calcipotriene 0.005%) is available and was launched in 2025. Its 503B compounded product is not FDA-approved. No participation offer or price is established. Active academic comparisons, including MD Anderson, may supply additional clinical evidence.",
+      "strongest_contrary_evidence": "An existing marketed compounded combination and announced exclusive sublicense can leave no meaningful independent product opening. The original positive trial used only four days of fluorouracil control, so it does not prove superiority to a full standard course. Ongoing studies may supply the next useful clinical answer without funding duplicate work.",
+      "rank_reversal_conditions": [
+        "Retains only a conditional reserve position: move up if public product comparison identifies a useful incremental contribution within the licensed chain and enough retained economics at modest entry cost.",
+        "Entry above 60000 USD or total above 330000 USD reprices this product-only package; a clinical/regulatory bridge is a distinct larger milestone, not included here.",
+        "Drop the independent product thesis if Kefunova or existing separate products meet the proposed need, or if only a commodity copy or unpaid research contribution remains."
+      ],
+      "source_ids": [
+        "P23",
+        "P24",
+        "P39"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "LOSARTAN_CORNEA",
+      "name": "Topical losartan product contribution for established corneal stromal fibrosis",
+      "lane_rank": 7,
+      "incumbent_anchor": false,
+      "stage": "Human case experience, established-fibrosis animal studies and recruiting academic randomized trial.",
+      "milestone": "Demonstrate a useful local product/delivery improvement with preserved anti-fibrotic effect and epithelial tolerability, differentiated from the already licensed program.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 120000,
+          "base": 250000,
+          "high": 490000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 10000,
+            "base": 45000,
+            "high": 140000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 80000,
+            "base": 150000,
+            "high": 260000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 30000,
+            "base": 55000,
+            "high": 90000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 8,
+          "high": 14
+        },
+        "technical_milestone_probability": {
+          "low": 0.3,
+          "base": 0.5,
+          "high": 0.65,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Known active and cross-species signals support midrange technical judgment; exact clinical efficacy is unproven. Licensed existing patents make entry cost especially uncertain; high range includes negotiation/licensing friction, not a full acquisition.",
+        "later_capital_usd": {
+          "low": 4000000,
+          "high": 20000000,
+          "scope": "Subsequent regulated ophthalmic manufacturing, safety and controlled clinical confirmation.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.45,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Modeled rights allow a negotiated contribution, but an incumbent licensee may not need it; cash is contingent on a useful incremental product and an agreement with distributions."
+        }
+      },
+      "economic_capture": "More plausible as a negotiated RAFARM/Cleveland Clinic contribution or narrowly licensed field/presentation than a freely owned new asset. A fee/milestone or sublicensable improvement would define the user's financial interest.",
+      "current_program_and_access": "2025 disclosure says topical-losartan patents licensed to RAFARM. UANL randomized trial is recruiting 46 estimated participants. These are current programs, not an unclaimed use.",
+      "strongest_contrary_evidence": "Dose-related epithelial toxicity; one original injury model reduced myofibroblasts without improving opacity. Commercialized compounding and forthcoming trial evidence can reduce incremental value.",
+      "rank_reversal_conditions": [
+        "Moves toward top three only if a distinct partner-valued product question is attainable on inexpensive terms.",
+        "Entry above 140000 or total above 490000 sharply lowers small-capital appeal.",
+        "If clinical efficacy/data access requires sponsoring a duplicate trial, wait or compare another asset."
+      ],
+      "source_ids": [
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "TIMOLOL_VENOUS_ULCER",
+      "name": "Topical timolol presentation for chronic venous-leg-ulcer healing",
+      "lane_rank": 8,
+      "incumbent_anchor": false,
+      "stage": "Small randomized human ulcer studies; inexpensive existing ophthalmic active.",
+      "milestone": "Show an exact wound-use presentation with practical local-delivery/handling advantage and reproducible wound-repair activity over current off-label drops plus standard care.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 90000,
+          "base": 165000,
+          "high": 315000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 15000,
+            "high": 50000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 60000,
+            "base": 110000,
+            "high": 200000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 40000,
+            "high": 65000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 7,
+          "high": 12
+        },
+        "technical_milestone_probability": {
+          "low": 0.3,
+          "base": 0.5,
+          "high": 0.65,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Human direction-of-effect lowers target risk, but small studies, wound heterogeneity and low generic cost limit differentiation. Costs price a product/functional bridge, not a definitive venous-ulcer trial.",
+        "later_capital_usd": {
+          "low": 3000000,
+          "high": 15000000,
+          "scope": "Later controlled ulcer-healing study, manufacturing, safety and regulatory development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.08,
+          "base": 0.2,
+          "high": 0.4,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Low-cost generic drops and limited exclusive capture reduce buyer willingness even if product performance improves."
+        }
+      },
+      "economic_capture": "Potential formulation/know-how license or commissioned contribution to a wound-care manufacturer. Plain repurposing has weak exclusive capture; contractual rights or genuinely useful local presentation matter.",
+      "current_program_and_access": "Published academic venous-ulcer work and UC Davis/VA diabetic-ulcer research exist. No exclusive available license or commercial buyer established.",
+      "strongest_contrary_evidence": "Twenty-patient main venous trial and short follow-up. The newer healed-DFU barrier study is selected/post hoc and not venous efficacy or recurrence proof.",
+      "rank_reversal_conditions": [
+        "Would rise with a credible manufacturable delivery advantage and owner/customer economics.",
+        "Entry above 50000 or all-in above 315000 is difficult to justify against low-cost generic drops.",
+        "No functional or practical increment over drops plus care removes the product case."
+      ],
+      "source_ids": [
+        "P17",
+        "P18"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "MIGF_CORNEA",
+      "name": "Exact mIGF-Gel peptide product for persistent corneal epithelial defects",
+      "lane_rank": 9,
+      "incumbent_anchor": true,
+      "stage": "Novel self-assembling peptide; rat acute/delayed-healing models.",
+      "milestone": "Reproduce useful repair or a meaningful delivery-burden improvement over a specified topical-insulin comparator, with exact peptide identity and usable ophthalmic properties.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 150000,
+          "base": 280000,
+          "high": 500000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 15000,
+            "base": 40000,
+            "high": 100000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 100000,
+            "base": 180000,
+            "high": 300000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 35000,
+            "base": 60000,
+            "high": 100000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 8,
+          "high": 14
+        },
+        "technical_milestone_probability": {
+          "low": 0.2,
+          "base": 0.35,
+          "high": 0.55,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Defined sequence/formulation helps reproducibility, but novel peptide assembly, sterile manufacture and comparative benefit remain separate uncertainties. Existing insulin evidence reduces the value of parity.",
+        "later_capital_usd": {
+          "low": 12000000,
+          "high": 45000000,
+          "scope": "Later sterile peptide-product CMC, enabling safety and early clinical development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.08,
+          "base": 0.2,
+          "high": 0.4,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Novel peptide product can retain rights value, but human translation, sterile manufacture and later capital make an early cash sale uncertain."
+        }
+      },
+      "economic_capture": "Nankai-related option/license and product/data improvements could support a sublicense or partner-funded continuation; synthesis alone yields no economic ownership.",
+      "current_program_and_access": "Published exact product and institutional patent records inherited from Round 20; no available global license or supply qualification assumed.",
+      "strongest_contrary_evidence": "No controlled human result; no demonstrated sterile commercial shelf life; older patent sequence-document inconsistency requires clarification. Simple insulin may be adequate.",
+      "rank_reversal_conditions": [
+        "Moves up only with clear function or meaningful handling advantage at manageable peptide-product cost.",
+        "Entry above 100000 or total above 500000 weakens the finite local-product premise.",
+        "Biological activity without incremental value over insulin is below success."
+      ],
+      "source_ids": [
+        "P03",
+        "P06",
+        "P07"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "RIPASUDIL_DSO",
+      "name": "Ripasudil/K-321 presentation after DSO for Fuchs endothelial disease",
+      "lane_rank": 10,
+      "incumbent_anchor": false,
+      "stage": "Positive randomized Phase-II exact-use evidence; incumbent-sponsored Phase III completed.",
+      "milestone": "Find and validate a genuinely distinct delivery/adherence or manufacturing improvement that preserves endothelial functional benefit versus the sponsor's current presentation.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 140000,
+          "base": 310000,
+          "high": 650000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 15000,
+            "base": 80000,
+            "high": 250000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 90000,
+            "base": 170000,
+            "high": 300000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 35000,
+            "base": 60000,
+            "high": 100000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 9,
+          "high": 15
+        },
+        "technical_milestone_probability": {
+          "low": 0.4,
+          "base": 0.6,
+          "high": 0.75,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Established exact-use human signal supports biological confidence, but probability is reduced for a distinct incremental product benefit. Entry price is the major uncertainty, not the ability to name an approved class.",
+        "later_capital_usd": {
+          "low": 5000000,
+          "high": 25000000,
+          "scope": "For an independent follow-on presentation: bridging, clinical manufacture and clinical/regulatory program; contributing to Kowa could require less personal follow-on capital.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.08,
+          "base": 0.2,
+          "high": 0.4,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "An advanced sponsor may buy a differentiated contribution, but most useful next work may already be in-house and the contributor's economic share may be limited."
+        }
+      },
+      "economic_capture": "Only a Kowa-negotiated contribution, narrow license or genuinely nonconflicting product interest offers a plausible route; no assumed right to share sponsor success.",
+      "current_program_and_access": "Kowa names the program; NCT05795699 is completed with 107 actual participants. Additional development may already be funded and evidence forthcoming.",
+      "strongest_contrary_evidence": "Competes with a much more advanced owner. Repeating proof of the molecule's activity creates little incremental asset value.",
+      "rank_reversal_conditions": [
+        "Can rise only if a specific partner-valued gap and share of economics exist.",
+        "Entry above 250000 or no independent product advantage makes self-funded work uncompetitive.",
+        "A commissioned scope could improve recovery economics without changing molecule risk."
+      ],
+      "source_ids": [
+        "P15",
+        "P16"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "NDC9009_DARIER",
+      "name": "NDC-9009 local product for Darier epidermal dysfunction",
+      "lane_rank": 11,
+      "incumbent_anchor": true,
+      "stage": "Preclinical SERCA-modulator article with cell/skin-model evidence.",
+      "milestone": "Qualify exact compound/exposure and independently demonstrate meaningful barrier/adhesion function in an established human-relevant model against vehicle and practical care/comparator.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 125000,
+          "base": 240000,
+          "high": 425000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 15000,
+            "base": 40000,
+            "high": 100000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 80000,
+            "base": 145000,
+            "high": 240000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 30000,
+            "base": 55000,
+            "high": 85000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 8,
+          "high": 14
+        },
+        "technical_milestone_probability": {
+          "low": 0.15,
+          "base": 0.3,
+          "high": 0.5,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Human-derived cellular biology is relevant but does not establish a tolerable topical window or mature-tissue function. Exact article, ownership and model access broaden cost/probability ranges.",
+        "later_capital_usd": {
+          "low": 12000000,
+          "high": 50000000,
+          "scope": "Subsequent candidate optimization if needed, topical-product/enabling safety and early clinical development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.06,
+          "base": 0.18,
+          "high": 0.35,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "A new exact-product functional signal could support a small option, but no human evidence and later safety/clinical needs constrain cash monetization."
+        }
+      },
+      "economic_capture": "Neurodon-related rights or a narrowly agreed development contribution plus transferable exact-product evidence; novel compound might retain value if comparator advantage survives.",
+      "current_program_and_access": "Neurodon provenance and patent context inherited from Round 19; code-to-current-program and field availability unresolved.",
+      "strongest_contrary_evidence": "No human exact-use evidence. Other topical Darier mechanisms have failed to separate from vehicle; target rationale cannot establish product efficacy.",
+      "rank_reversal_conditions": [
+        "Moves above weaker generic products if exact rights/materials and a useful functional window can be obtained near low/base cost.",
+        "Entry above 100000 or required new model/chemistry beyond 425000 defeats this bounded milestone.",
+        "A preventive/control result must be valued on that claim, not relabeled reversal."
+      ],
+      "source_ids": [
+        "P04"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "VALPROATE_AGA",
+      "name": "Topical valproate for male androgenetic alopecia",
+      "lane_rank": 12,
+      "incumbent_anchor": false,
+      "stage": "Old small randomized human study; no current exact commercial program verified.",
+      "milestone": "Establish a reproducible hair-follicle/product advantage versus a relevant active comparator at tolerable exposure, before buying a large new patient trial.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 90000,
+          "base": 180000,
+          "high": 355000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 20000,
+            "high": 70000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 60000,
+            "base": 115000,
+            "high": 210000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 45000,
+            "high": 75000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 9,
+          "high": 15
+        },
+        "technical_milestone_probability": {
+          "low": 0.15,
+          "base": 0.3,
+          "high": 0.5,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Human exposure is available but clinical effect is borderline and attrition high. Functional comparative confirmation is harder than formulating a familiar active; estimates reflect that.",
+        "later_capital_usd": {
+          "low": 4000000,
+          "high": 20000000,
+          "scope": "Later longer controlled cosmetic/clinical efficacy, local/systemic safety and regulatory development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.05,
+          "base": 0.15,
+          "high": 0.3,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Broad indication helps interest, but old weak efficacy evidence and generic active/comparator competition constrain a cash-paying partner."
+        }
+      },
+      "economic_capture": "Potential differentiated formulation/data license to a hair-loss developer; plain old use has weak capture and generic competition.",
+      "current_program_and_access": "Seoul National University-led published study establishes provenance, not current rights or a stalled program's availability.",
+      "strongest_contrary_evidence": "Only 27 of 40 completed, p=0.047, no active minoxidil comparator; commercial benefit may be negligible even if a weak placebo signal repeats.",
+      "rank_reversal_conditions": [
+        "Needs compelling comparator advantage to move above stronger local-product options.",
+        "Entry above 70000 or all-in above 355000 is unattractive without proprietary delivery.",
+        "No visible benefit/active-comparator advantage rejects a generic hair-growth product thesis."
+      ],
+      "source_ids": [
+        "P25"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "RAPAMYCIN_SKIN",
+      "name": "Topical rapamycin for age-related skin fragility or barrier decline",
+      "lane_rank": 13,
+      "incumbent_anchor": false,
+      "stage": "Exploratory human aging-marker study; functional clinical claim not established.",
+      "milestone": "Demonstrate a meaningful skin mechanical/barrier benefit rather than a senescence-marker change, with acceptable effects on local healing/immune function and product stability.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 100000,
+          "base": 190000,
+          "high": 380000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 20000,
+            "high": 70000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 70000,
+            "base": 125000,
+            "high": 230000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 45000,
+            "high": 80000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 9,
+          "high": 15
+        },
+        "technical_milestone_probability": {
+          "low": 0.15,
+          "base": 0.3,
+          "high": 0.45,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Existing active and limited human topical exposure help product feasibility; chosen useful-function event is a substantial step beyond marker biology. Large trial and chronic-risk package are separate.",
+        "later_capital_usd": {
+          "low": 6000000,
+          "high": 25000000,
+          "scope": "Later chronic local safety, clinical manufacture and controlled functional skin-outcome development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.05,
+          "base": 0.15,
+          "high": 0.3,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "A real functional skin benefit could attract a developer, but the appropriate clinical claim, chronic local risks and protectable value remain unsettled."
+        }
+      },
+      "economic_capture": "Formulation/use/data rights could support a dermatology partnership if useful function is established. Cosmetic marketing is not assumed to avoid drug-development requirements.",
+      "current_program_and_access": "Drexel-associated study provides an academic starting point; no current license or owner interest established.",
+      "strongest_contrary_evidence": "Nineteen of 36 discontinued/lost; reported biomarkers and appearance do not prove prevention of tearing, durable repair or clinical barrier benefit.",
+      "rank_reversal_conditions": [
+        "Moves up only with a measurable function advantage and defensible product economics.",
+        "Entry above 70000 or all-in above 380000 makes this weak-evidence functional bridge unattractive.",
+        "A p16-only result fails the specified milestone."
+      ],
+      "source_ids": [
+        "P26"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "NALTREXONE_DRY_EYE",
+      "name": "Penn State topical naltrexone for diabetic dry eye",
+      "lane_rank": 14,
+      "incumbent_anchor": false,
+      "stage": "Institutional licensing listing; completed exploratory Phase-II human trial with unconvincing efficacy.",
+      "milestone": "Test a specific, evidence-based exposure/product reason why a changed presentation should improve useful tear/surface function over the previously tested regimen, not merely repeat safety or declare an available license valuable.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 100000,
+          "base": 200000,
+          "high": 395000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 10000,
+            "base": 35000,
+            "high": 100000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 65000,
+            "base": 120000,
+            "high": 220000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 45000,
+            "high": 75000
+          }
+        },
+        "months": {
+          "low": 5,
+          "base": 8,
+          "high": 14
+        },
+        "technical_milestone_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.4,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Known active and human tolerability do not overcome negative efficacy separation. Low/base package assumes a justified product/exposure bridge and existing functional model; a new human trial is excluded.",
+        "later_capital_usd": {
+          "low": 5000000,
+          "high": 20000000,
+          "scope": "Later changed-product safety/manufacture and new controlled clinical efficacy study.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.05,
+          "base": 0.15,
+          "high": 0.3,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "An inexpensive institutional route does not remove the need to reverse disappointing clinical efficacy; a preclinical rescue may still not persuade a partner to pay."
+        }
+      },
+      "economic_capture": "Explicit institutional option/license route is available to discuss, making capture more concrete than unowned repurposing. Nevertheless, favorable licensing terms cannot manufacture clinical value.",
+      "current_program_and_access": "Penn State seeks license/industry partner; registry shows the older Phase II already completed. Current data ownership, formulation claims and available field require pricing.",
+      "strongest_contrary_evidence": "Day-29 symptom and objective outcome comparisons in posted results do not show convincing active/placebo separation; registry acknowledges exploratory design and no prespecified primary endpoint.",
+      "rank_reversal_conditions": [
+        "Would rise only with an independently persuasive explanation and evidence for a materially different product/exposure response.",
+        "Entry above 100000 or total above 395000 is not justified by the old tolerability record.",
+        "Without a concrete rescue hypothesis, do not spend on another undifferentiated trial."
+      ],
+      "source_ids": [
+        "P13",
+        "P14"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "DFO_RADIATION_PATCH",
+      "name": "Deferoxamine transdermal patch for radiation-induced skin fibrosis prevention",
+      "lane_rank": 15,
+      "incumbent_anchor": false,
+      "stage": "Academic licensed-technology listing; central linked efficacy paper retracted.",
+      "milestone": "Only if independent nonretracted evidence justifies re-entry: demonstrate a meaningful anti-fibrosis/function advantage and acceptable local product performance in an established relevant model.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 130000,
+          "base": 260000,
+          "high": 485000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 10000,
+            "base": 35000,
+            "high": 100000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 90000,
+            "base": 170000,
+            "high": 290000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 30000,
+            "base": 55000,
+            "high": 95000
+          }
+        },
+        "months": {
+          "low": 6,
+          "base": 10,
+          "high": 16
+        },
+        "technical_milestone_probability": {
+          "low": 0.1,
+          "base": 0.25,
+          "high": 0.45,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "These are counterfactual re-entry estimates, not a recommendation to buy replication now. Retraction lowers confidence in the claimed use; an approved systemic chelator does not validate this local indication.",
+        "later_capital_usd": {
+          "low": 8000000,
+          "high": 35000000,
+          "scope": "Later local-product safety, radiation-context risk assessment and controlled clinical development.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.03,
+          "base": 0.12,
+          "high": 0.25,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Even a new positive independent milestone would face a damaged evidence base, local radiation-context risk and substantial further development before monetization."
+        }
+      },
+      "economic_capture": "Stanford option/license could define rights if science survives; no value assigned solely because the technology remains listed.",
+      "current_program_and_access": "Stanford S19-455 listing remains public and names patents/contact. Current license availability not verified.",
+      "strongest_contrary_evidence": "The very 2020 radiation-prophylaxis article linked by the listing was retracted on 12 May 2025. Separate wound-healing evidence must not be silently transferred.",
+      "rank_reversal_conditions": [
+        "Independent nonretracted evidence could restore consideration; no assumption that all DFO wound programs are invalid.",
+        "Entry above 100000 or total above 485000 further weakens a low-confidence replication case.",
+        "Until a credible independent basis exists, retain as screened-out from the deeper shortlist."
+      ],
+      "source_ids": [
+        "P21",
+        "P22"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    },
+    {
+      "id": "PHENYTOIN_DFU",
+      "name": "Topical phenytoin dressing or cream for diabetic-foot-ulcer closure",
+      "lane_rank": 16,
+      "incumbent_anchor": false,
+      "stage": "Repurposed human-tested active; two relevant negative controlled studies.",
+      "milestone": "No current tranche recommended. Re-entry would require evidence that a specific differentiated product reverses the prior failure in a useful function comparison, not generic formulation feasibility.",
+      "estimates": {
+        "status": "Analyst planning judgment; no quote, asset-specific empirical probability, or financial forecast",
+        "all_in_milestone_cost_usd": {
+          "low": 90000,
+          "base": 165000,
+          "high": 320000
+        },
+        "components_usd": {
+          "entry_rights_material_access_and_counsel": {
+            "low": 5000,
+            "base": 15000,
+            "high": 60000
+          },
+          "product_function_and_independent_confirmation": {
+            "low": 60000,
+            "base": 110000,
+            "high": 190000
+          },
+          "management_regulatory_planning_and_contingency": {
+            "low": 25000,
+            "base": 40000,
+            "high": 70000
+          }
+        },
+        "months": {
+          "low": 4,
+          "base": 8,
+          "high": 14
+        },
+        "technical_milestone_probability": {
+          "low": 0.05,
+          "base": 0.15,
+          "high": 0.3,
+          "event": "A reproducible, decision-changing useful product or functional advantage at the stated milestone, conditional on access and competent execution; excludes mere assay completion."
+        },
+        "rationale_and_reference_class": "Conditional re-entry estimate. Existing negative double-blind and newer randomized evidence strongly lowers the chance of a useful incremental result; familiar active does not increase efficacy probability.",
+        "later_capital_usd": {
+          "low": 3000000,
+          "high": 15000000,
+          "scope": "Later controlled ulcer-healing trial and clinical product development if a compelling rescue hypothesis ever emerges.",
+          "status": "Separate analyst order-of-magnitude requirement for subsequent development; not part of the current milestone and not an asset quote."
+        },
+        "conditional_paid_handoff_probability": {
+          "low": 0.02,
+          "base": 0.08,
+          "high": 0.2,
+          "horizon_years": 5,
+          "confidence": "Very low; subjective sensitivity assumption, not an asset-specific observed rate",
+          "rationale": "Prior controlled failures and weak generic capture make a material paid handoff improbable even conditional on a favorable new product experiment."
+        }
+      },
+      "economic_capture": "Plain generic use offers weak ownership/capture. A distinct licensed presentation would still need to overcome efficacy evidence before partner value is plausible.",
+      "current_program_and_access": "No asset-specific current owner/offer identified; academic trials provide evidence, not commercial access rights.",
+      "strongest_contrary_evidence": "2011 double-blind trial found no closure advantage; newer small randomized study again found no superiority and area reduction favored saline.",
+      "rank_reversal_conditions": [
+        "Require a concrete mechanistic/product explanation supported by new evidence before revisiting.",
+        "Even inexpensive entry does not restore an unattractive efficacy thesis.",
+        "Reject from deeper comparison under current evidence rather than spending merely because the active is cheap."
+      ],
+      "source_ids": [
+        "P19",
+        "P20"
+      ],
+      "investment_repayment_probability": null,
+      "actual_quote": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "P01",
+      "title": "AAT during ex vivo perfusion of severely injured human lungs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790593/",
+      "publication_date": "2026",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Primary human donor-lung abstract, interpreted with inherited Round 22 audit: paired rejected-donor lungs showed physiological signals during EVLP.",
+      "limit": "Does not establish transplanted-graft benefit; likely overlaps the earlier eight-pair lineage. Current full methods were not recovered."
+    },
+    {
+      "id": "P02",
+      "title": "RM4404 corneal Schwann-cell and sensory-repair study",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jnr.70142",
+      "publication_date": "2026-06-14",
+      "checked_date": "2026-11-08",
+      "verified_fact": "RM4404 is WAY-262611 in micelles; the paper reports corneal injury-model function and structure results.",
+      "limit": "Mouse evidence; bilateral-eye unit-of-analysis and model-specific durability limits are preserved from Round 17."
+    },
+    {
+      "id": "P03",
+      "title": "mIGF-Gel persistent corneal epithelial-defect study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13400331/",
+      "publication_date": "2026-07-18",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The exact self-assembling peptide product was studied in acute and delayed-healing corneal models.",
+      "limit": "No human efficacy or sterile commercial-product validation; Nankai rights and sequence-document issues remain inherited uncertainties."
+    },
+    {
+      "id": "P04",
+      "title": "Harmon et al. NDC-9009 Darier study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440392/",
+      "publication_date": "2026",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Inherited Round 19 primary audit reports NDC-9009 cellular adhesion/metabolic evidence and Neurodon material provenance.",
+      "limit": "Direct re-fetch hit a browser check. This is inherited source evidence, not newly verified human function or current title."
+    },
+    {
+      "id": "P05",
+      "title": "Insulin versus autologous serum for persistent epithelial defects",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34407296/",
+      "publication_date": "2021",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Published comparative clinical evidence supports examining a specified insulin product for PEDs.",
+      "limit": "Historical/nonrandomized comparison; formulations and cohorts cannot be pooled as interchangeable products."
+    },
+    {
+      "id": "P06",
+      "title": "Lixi et al. multicenter retrospective topical-insulin PED study",
+      "url": "https://link.springer.com/article/10.1007/s40123-026-01446-6",
+      "publication_date": "2026-07-03",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Forty-four of 45 eyes in 43 patients closed in this uncontrolled Humalog-based series; corneal sensitivity remained unchanged.",
+      "limit": "Closure is not proof of sensory repair or causal effect. This formulation differs from the historical Actrapid product."
+    },
+    {
+      "id": "P07",
+      "title": "Long-term stability of insulin eye drops in three vehicles",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41997424/",
+      "publication_date": "2026",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Original product study reports refrigerated stability and simulated in-use results for specified vehicles; performance differed by vehicle.",
+      "limit": "Existing stability work raises the differentiation hurdle; this is not an approved shelf life for a new container/formulation."
+    },
+    {
+      "id": "P08",
+      "title": "NCT07561398 official insulin-versus-amniotic-membrane registry",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07561398",
+      "publication_date": "2026-05-01",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Official API: Al-Shifa Trust Eye Hospital; recruiting; randomized, assessor-masked; 214 estimated participants.",
+      "limit": "Projected September 2026 dates are not evidence of completion; no results established. API read directly."
+    },
+    {
+      "id": "P09",
+      "title": "Losartan for established corneal fibrosis in rabbits",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39133495/",
+      "publication_date": "2024",
+      "checked_date": "2026-11-08",
+      "verified_fact": "The original rabbit study reports benefit from topical losartan in established corneal fibrosis.",
+      "limit": "Preclinical, route/model-specific evidence; not controlled human efficacy."
+    },
+    {
+      "id": "P10",
+      "title": "Topical-losartan dose response and corneal toxicity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39441953/",
+      "publication_date": "2024",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Original rabbit study reports concentration-dependent epithelial/stromal toxicity at high concentrations.",
+      "limit": "A new local formulation must preserve tolerability as well as exposure; more delivery is not automatically better."
+    },
+    {
+      "id": "P11",
+      "title": "Topical losartan after refractive surgery: rights disclosure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40488485/",
+      "publication_date": "2025",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Author disclosure says two topical-losartan patents were licensed through Cleveland Clinic to RAFARM Pharmaceuticals.",
+      "limit": "Disclosure is not a complete current title/field/territory audit. Independent ownership cannot be assumed."
+    },
+    {
+      "id": "P12",
+      "title": "NCT07449000 official losartan corneal-fibrosis registry",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07449000",
+      "publication_date": "2026-05-08",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Official API lists Universidad Autonoma de Nuevo Leon, recruiting, randomized/double-masked, 46 estimated participants.",
+      "limit": "No result; expected dates are estimates. Forthcoming evidence is an alternative to duplicative spending."
+    },
+    {
+      "id": "P13",
+      "title": "Penn State topical-naltrexone dry-eye technology",
+      "url": "https://invent.psu.edu/ip_item/topical-naltrexone-as-a-treatment-for-dry-eye/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Penn State publicly seeks investment/licensing/research partners for a topical naltrexone formulation.",
+      "limit": "The page's Phase-I/next-Phase-II description is older than posted Phase-II results. Marketing readiness is not an efficacy estimate."
+    },
+    {
+      "id": "P14",
+      "title": "NCT03660475 official naltrexone Phase-II results",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03660475",
+      "publication_date": "2022-12-02",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Official API: 60 participants; Day-29 OSDI 21.17 active versus 21.36 placebo, p=0.967; displayed staining/tear tests also lack convincing separation.",
+      "limit": "Registry caveat says no primary endpoint was specified in the protocol; exploratory trial, not proof of equivalence or a universal dose/formulation failure. Snapshot saved separately."
+    },
+    {
+      "id": "P15",
+      "title": "Randomized K-321/ripasudil after DSO Phase-II results",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42303065/",
+      "publication_date": "2026",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Original 65-participant randomized study reports higher endothelial-cell density and faster edema clearance in the higher-frequency active arm.",
+      "limit": "Supports exact product/use, not ownership of a generic entrant or superiority of a new formulation."
+    },
+    {
+      "id": "P16",
+      "title": "Kowa current pipeline and exact Phase-III registry",
+      "url": "https://www.kowapharma.com/products-and-pipeline",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Kowa lists ripasudil for FECD in Phase III. Official NCT05795699 API separately records completed Phase III, 107 actual participants, last update May 2026.",
+      "limit": "Sponsor program is ahead; no offered participation or results from the completed Phase III were inferred."
+    },
+    {
+      "id": "P17",
+      "title": "Randomized topical timolol versus saline in venous ulcers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32655246/",
+      "publication_date": "2020",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Twenty-patient randomized study reports greater four-week area reduction with topical timolol.",
+      "limit": "Small, short study; does not establish durable closure, recurrence prevention or a differentiated commercial presentation."
+    },
+    {
+      "id": "P18",
+      "title": "Timolol and healed diabetic-foot-ulcer barrier integrity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40159333/",
+      "publication_date": "2025-03-28",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Post hoc study of 20 healed DFU patients found lower transepidermal water loss, without a recurrence difference.",
+      "limit": "Selected healed patients and a different ulcer population; do not relabel this as venous-ulcer closure confirmation."
+    },
+    {
+      "id": "P19",
+      "title": "Randomized double-blind phenytoin diabetic-foot-ulcer trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21480976/",
+      "publication_date": "2011",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Sixty-five participants showed no difference in complete closure or ulcer area with phenytoin versus control dressings.",
+      "limit": "Direct negative evidence for this use, although it does not test every possible formulation."
+    },
+    {
+      "id": "P20",
+      "title": "Newer topical-phenytoin cream DFU proof-of-concept trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41694729/",
+      "publication_date": "2025-09-10",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Small randomized open-label study found no superiority; ulcer-size reduction favored saline.",
+      "limit": "Small study but direction does not rescue the older negative controlled result."
+    },
+    {
+      "id": "P21",
+      "title": "Stanford deferoxamine radiation-fibrosis patch listing",
+      "url": "https://techfinder.stanford.edu/technology/deferoxamine-prophylaxis-radiation-induced-fibrosis",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Stanford lists a transdermal deferoxamine radiation-fibrosis technology and licensing contact, docket S19-455.",
+      "limit": "Its linked central 2020 efficacy paper is retracted; the listing cannot be treated as validated efficacy."
+    },
+    {
+      "id": "P22",
+      "title": "Retraction of the 2020 deferoxamine radiation-fibrosis study",
+      "url": "https://www.nature.com/articles/s41598-025-00263-4",
+      "publication_date": "2025-05-12",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Publisher's original article explicitly states retraction on 12 May 2025; the retraction notice is indexed.",
+      "limit": "Specific to the radiation-prophylaxis study. Do not infer that all deferoxamine wound evidence is invalid."
+    },
+    {
+      "id": "P23",
+      "title": "Randomized calcipotriol plus fluorouracil AK trial",
+      "url": "https://www.jci.org/articles/view/89820",
+      "publication_date": "2017-01-03",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Randomized double-blind trial in 131 participants supports short-course combination activity.",
+      "limit": "Control was short-course fluorouracil plus vehicle, not a full standard fluorouracil course; new product superiority is unresolved."
+    },
+    {
+      "id": "P24",
+      "title": "Current NCI-listed short-course combination AK comparison",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-01497&r=1",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "NCI lists an active MD Anderson comparison of the combination against a longer fluorouracil course.",
+      "limit": "Registry page has inconsistent phase labels; no phase assertion or result is inferred here. Trials can deliver evidence without our spending."
+    },
+    {
+      "id": "P25",
+      "title": "Topical valproate male androgenetic-alopecia randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24533507/",
+      "publication_date": "2014-02-18",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Forty enrolled, 27 completed; hair-count change favored valproate with p=0.047 in the small placebo-controlled trial.",
+      "limit": "Substantial attrition, borderline result, no active minoxidil comparator; no current commercial owner or active program established."
+    },
+    {
+      "id": "P26",
+      "title": "Topical rapamycin skin-aging exploratory trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6925069/",
+      "publication_date": "2019-11-25",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Thirty-six enrolled and 19 discontinued/lost; reported senescence-marker and histologic changes in remaining assessments.",
+      "limit": "Markers/appearance do not establish useful prevention of skin tearing or improved barrier function; long-term local risks remain."
+    },
+    {
+      "id": "P27",
+      "title": "Stanford controlled-delivery FAK-inhibitor hydrogel",
+      "url": "https://techfinder.stanford.edu/technology/drug-imprinted-hydrogel-controlled-release-wound-healing-therapy-fak-inhibitors",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Stanford lists drug-imprinted pullulan/collagen hydrogel, mouse evidence, issued-patent link and licensing contact.",
+      "limit": "Listing is a route to inquiry, not current exclusivity availability or a development-price quote."
+    },
+    {
+      "id": "P28",
+      "title": "Controlled delivery of VS-6062/FAK inhibitor",
+      "url": "https://www.jidonline.org/article/S0022202X18319729/pdf",
+      "publication_date": "2018",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Indexed original PDF identifies the experimental inhibitor as VS-6062, previously PF-562271, supplied by Verastem.",
+      "limit": "Exact access may require both scaffold and compound/data rights; oncology human exposure does not establish local-wound safety."
+    },
+    {
+      "id": "P29",
+      "title": "VS-6062 hydrogel in large-animal tissue repair",
+      "url": "https://www.nature.com/articles/s41467-021-25410-z",
+      "publication_date": "2021",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Original study identifies VS-6062 in a pullulan-collagen scaffold in red Duroc pigs.",
+      "limit": "Indexed primary content read; direct publisher fetch failed. Independent reproducibility and clinical product readiness remain unresolved."
+    },
+    {
+      "id": "P30",
+      "title": "Stanford verteporfin scar-prevention technology",
+      "url": "https://techfinder.stanford.edu/technology/use-verteporfin-prevention-skin-scarring",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Stanford lists local verteporfin scar prevention, patent application and licensing contact, docket S19-318.",
+      "limit": "Approval in another indication is not evidence the local wound route is safe or that commercial rights are unencumbered."
+    },
+    {
+      "id": "P31",
+      "title": "Verteporfin scar prevention in large-animal and human-xenograft models",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39970235/",
+      "publication_date": "2025-02-19",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Primary study reports scar/structure/mechanical results in pigs and supporting human-skin xenograft work.",
+      "limit": "Not human clinical efficacy; clustered wounds are not independent patients; no complete independent replication inferred."
+    },
+    {
+      "id": "P32",
+      "title": "SCARFREE-001 official verteporfin registry",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07488988",
+      "publication_date": "2026-10-27",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Official API lists Odense University Hospital Phase-II scar-prevention study, recruiting, 12 estimated participants, 2028 estimated completion.",
+      "limit": "Current human program already exists. It is not a vacant first-human opportunity; estimates are not completed enrollment or efficacy."
+    },
+    {
+      "id": "P33",
+      "title": "Current VISUDYNE prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=952f4c80-50b1-4308-9ee6-311ffefb13df",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Approved verteporfin use is ophthalmic photodynamic treatment via intravenous product; labeling includes photosensitivity risks.",
+      "limit": "Does not authorize local wound treatment or establish its exposure/safety margin."
+    },
+    {
+      "id": "P34",
+      "title": "ASPE clinical-trial cost and barriers study",
+      "url": "https://aspe.hhs.gov/reports/examination-clinical-trial-costs-barriers-drug-development",
+      "publication_date": "2014-07-24",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Government research documents substantial procedure, staffing, monitoring and site costs in trials.",
+      "limit": "Historical scale check only. Not a current quote, local-product cost estimate or automatic inflation adjustment."
+    },
+    {
+      "id": "P35",
+      "title": "NIH IGNITE PAR-25-059",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-059.html",
+      "publication_date": "2025-03-31",
+      "checked_date": "2026-11-08",
+      "verified_fact": "Milestone-based early translation notice has direct-cost ceilings of 499000 per year and 750000 over three years; clinical trials and IND-enabling/clinical manufacture excluded.",
+      "limit": "Scope and ceiling are scale checks, not cost distributions. This neuro-focused grant is not claimed available to these candidates or distributable investor cash."
+    },
+    {
+      "id": "P36",
+      "title": "CSL open-innovation portal",
+      "url": "https://csl.yet2.com/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "CSL describes research collaboration, licensing, co-development and strategic-investment routes.",
+      "limit": "No AAT-EVLP interest, customer obligation or commercial scope established."
+    },
+    {
+      "id": "P37",
+      "title": "XVIVO investigator-initiated research",
+      "url": "https://www.xvivogroup.com/investigator-initiated-research/",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Research support is institution-led and requires agreement.",
+      "limit": "Restricted/in-kind research support is not a fee-for-service margin or investor repayment."
+    },
+    {
+      "id": "P38",
+      "title": "CSL current global investigator-initiated research priorities",
+      "url": "https://www.csl.com/research-and-development/awards-grants-and-initiatives/investigator-initiated-studies",
+      "publication_date": null,
+      "checked_date": "2026-11-08",
+      "verified_fact": "Current global page does not expressly list AAT/transplant as priority; funding/product must be used solely for approved research.",
+      "limit": "Older regional AAT references do not establish a live global AAT solicitation."
+    },
+    {
+      "id": "P39",
+      "title": "SKNV announces exclusive commercialization rights to WashU fluorouracil/calcipotriene patent portfolio",
+      "url": "https://sknv.com/fluorouracil-calcipotriene-patent-license/",
+      "publication_date": "2026-07-22",
+      "checked_date": "2026-11-08",
+      "verified_fact": "SKNV reports an exclusive sublicense to the Washington University patent portfolio for the combination and existing Kefunova Cream availability; its page expressly states that the 503B compounded product is not FDA-approved.",
+      "limit": "First-party commercial announcement, not the complete license or patent claims; establishes neither all fields/territories, validity/FTO, availability of participation, terms, product equivalence to trial preparations nor regulatory approval."
+    }
+  ],
+  "integration_note": "Lane-specific ranks and shortlists are inputs to the cross-lane judgment. The current four finalists, challengers and reserves are in candidate-ledger.json and README.md. All costs and probabilities are analyst screening estimates; no offers, transactions or experiments are recorded."
+}

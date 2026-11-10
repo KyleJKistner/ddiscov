@@ -1,0 +1,37 @@
+# 08 — Ex vivo donor-organ preservation
+
+**Reviewed 8 November 2026.** Coordinator `/root/c08_organ_preservation` integrated completed workers `/root/c08_organ_preservation/evidence` (AAT human evidence and product) and `/root/c08_organ_preservation/challenge` (independent clinical comparator and commercial challenge). Work was source-based desk research. No product qualification, organ experiment, clinical study or transaction was performed.
+
+**Lead: AAT_EVLP / BE-N01**, a defined plasma-derived Zemaira-containing process for warm ex vivo perfusion of initially unacceptable donor lungs. The immediate opportunity is an informative product/activity-and-process contribution, not a demonstrated transplant therapy. **Alternative: regadenoson/Lexiscan during EVLP**, retained as a clinically tested competing approach and cautionary benchmark. Its controlled trial did not establish an efficacy advantage, so it does not replace AAT as a positive lead.
+
+## Evidence and contrary findings
+
+All fresh checks below occurred on the review date. Source-access limits distinguish refreshed observations from the [Round 22 audit](../../rounds/round22/marginal-dollar-decision.md).
+
+| Exact use and primary source | Observed evidence | Limitation and decision consequence |
+|---|---|---|
+| AAT/human donor-lung EVLP; [Mariscal et al., 25 September 2026](https://pubmed.ncbi.nlm.nih.gov/42790593/), DOI 10.1016/j.ajt.2026.09.031 | Eight rejected donor-lung blocks were split left/right, assigned to AAT or control. The primary abstract reports improved oxygenation/compliance and reduced permeability/inflammatory measures. | Eight paired donor units, not sixteen independent donors. No graft implantation or recipient outcome. Indexed primary abstract refreshed; publisher full text returned 403 and PubMed reopening failed. Detailed product, exposure and missingness retain Round 22 provenance. |
+| AAT/human donor-lung EVLP; [2020 conference report](https://www.sciencedirect.com/science/article/pii/S1053249820312997) | Indexed primary abstract describes eight double-lung blocks and contralateral comparisons. | The 2019 thesis, 2020 report and 2026 article are likely overlapping lineage, not three replications. The earlier five-donor patent pilot is not additive without donor linkage. |
+| Zemaira/PGD prevention; [official Canadian record 294199](https://recherche-essais-cliniques.canada.ca/en/clinical-trial/294199-lung-transplantation) | Full page refreshed: University Health Network; protocol 23-5745; last update 18 July 2026; “Not yet recruiting”; phase “Other”; trial authorization dated 27 February 2025. | No matched registry, regimen or results. This is neither proof of EVLP-only treatment nor product marketing approval. Obtain the actual protocol; the portal status does not independently verify site operations. |
+| Regadenoson/marginal-donor EVLP; [Fleischmann et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12745136/), DOI 10.1016/j.xjon.2025.09.017 | Forty-eight **donor-lung pairs** randomized; 34 underwent EVLP and were evaluable: 26 drug/eight placebo. Graft use was 17/26 versus 6/8; difference CI −35 to +26 percentage points. Severe PGD was 5/17 versus 2/7 recipients. | Fourteen randomized pairs were unevaluable because EVLP did not occur or treatment was unavailable. Twenty-three accepted pairs yielded 24 recipients because one placebo pair supplied two single-lung recipients. Baseline imbalance, exclusions and wide uncertainty preclude equivalence or superiority claims. Indexed primary full-text sections inspected; direct reopening hit a browser challenge. |
+| Same regadenoson study; [official NCT04521569 API](https://clinicaltrials.gov/api/v2/studies/NCT04521569) | Fully retrieved by challenger: completed 31 July 2024, last update 5 August 2024, **Early Phase 1**, actual enrollment 47. | Preserve this registry/paper count discrepancy; the registry count does not replace the paper's donor-pair and recipient denominators. A randomized design does not make the study a Phase II trial. |
+
+The [FDA Zemaira product page](https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/zemaira), freshly opened, establishes a manufactured human AAT product for augmentation in AAT deficiency with emphysema. It does not qualify the proposed warm-circuit admixture. Likewise, [regadenoson's label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e3f080d-b1fb-47ed-8cd3-90a4206fa704) concerns myocardial perfusion imaging, with cardiovascular/respiratory warnings relevant to carryover assessment. Availability of either starting material is not validation of the organ-processing use.
+
+## Phase II thesis
+
+Human donor tissue can reduce model-species uncertainty and paired organs can improve interpretation. Neither establishes added transplantable grafts or recipient benefit. The relevant eventual comparison is useful organ acceptance and clinically meaningful post-transplant outcomes against current optimized practice, with safety and carryover assessed. A generic drug-development phase average is an unsuitable probability calculator for this drug–device–process route; define the actual clinical/regulatory milestone first.
+
+AAT's prior mouse cold-preservation and pig systemic-recipient findings concern different products/routes. They cannot complete the warm EVLP-only bridge. Nominal AAT mass, immunoreactive antigen and remaining inhibitory activity also answer different questions. The [prior formulation audit](../../rounds/round22/aat-formulation-exposure.md) preserves those unresolved distinctions; no new activity result was obtained here.
+
+## Smallest decisive next commitment
+
+First recover the final human methods/donor-level record and UHN protocol, then specify a partner-useful product/activity-and-process deliverable. It must distinguish active exposure from physical perfusate effects and connect qualification to a feasible, separately priced graft/recipient comparison. Clinicians and statisticians must set meaningful benefit and precision before a study.
+
+**Advance to pricing** if exact product access, interpretable qualification, a useful downstream comparison and an attainable economic interest coexist. **Stop or narrow** if capable controlled evidence excludes worthwhile benefit, physical matching removes practical differentiation, unacceptable exposure undermines the use, or no retained contribution justifies cost. **Inconclusive** exposure, missing donor records or incapable assays require a finite remedy, not an efficacy verdict.
+
+## Economics and priority
+
+Proposed capture is a licensed process/data contribution or contracted qualification work for a protein supplier, perfusion operator or clinical developer. The [prior rights audit](../../rounds/round22/aat-product-capture.md) identifies relevant patent and platform dependencies; current title, license availability, supply, regulatory-reference rights and terms remain unverified. No legal clearance is inferred.
+
+The historical $30–100k estimate covered initial qualification only, excluding scarce organs and transplantation. It is not a current quote. Maximum exposure, retained share, payment route and continuation funding remain unknown; the approximately $500,000 envelope is not allocated. Rank the AAT partner/useful-deliverable question first. Reopen regadenoson only for material new evidence or a differentiated, attainable contribution. Neither route currently supports numerical Phase II odds or probable capital recovery.

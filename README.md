@@ -7,8 +7,9 @@ Find drug-development opportunities that maximize the financial value retained f
 1. [Current opportunities](decisions/current-shortlist.md) — packages to compare and the next useful information tasks.
 2. [Selection policy](decisions/selection-policy.md) — how to compare commitments.
 3. [Agent guide](AGENTS.md) — focused retrieval, checks and update conventions.
+4. [Phase II candidate teams](research/phase2-program/README.md) — ten coordinators, twenty workers, independent challenge and candidate-specific next actions.
 
-**Candidate evidence reviewed through 8 November 2026 (Round 26).** The [strategy review](research/strategy/2026-11-08-marginal-capital.md) makes each proposal an exact asset/use, obtainable economic interest and bounded next commitment. Use the [opportunity template](decisions/opportunity-template.md) for comparable proposals. Current prices, terms, follow-on funding and affordable-loss limits remain open; the active set is unranked financially.
+**Current reconciliation: 9 November 2026 UTC / 8 November Los Angeles.** The [unified shortlist](decisions/current-shortlist.md) governs the next research round: APR/erlotinib jointly lead; CBD3063 and the insulin/AAT/verteporfin gap checks form the next tier; nifedipine/lidocaine is a conditional reserve. The [reconciliation record](research/strategy/2026-11-08-shortlist-reconciliation.md) combines the broad screen, focused dossiers and commercial-route comparison. Research proceeds using explicit estimates. No reviewed opportunity establishes the desired high probability of recovering invested cash plus a return; capital deployment remains a separate decision.
 
 ## Find the relevant detail
 

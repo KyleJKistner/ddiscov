@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-09",
+  "currency": "USD",
+  "status": "Analyst scenarios, not observations, offers or assigned probabilities.",
+  "initial_package_cost_usd": 325000,
+  "illustrative_non_entry_initial_work_usd": 75000,
+  "positive_cash_tax_withholding_reserve_fraction": 0.25,
+  "illustrative_annual_discount_rate": 0.1,
+  "primary_horizon_years": 5,
+  "long_horizon_years": 10,
+  "post_year5_annual_price_erosion_cases": [
+    0,
+    0.1
+  ],
+  "royalty_vehicle_launch_setup_usd": {
+    "small": 15000,
+    "us": 50000
+  },
+  "case_assumptions": {
+    "downside": {
+      "incidence": 0.0008,
+      "eligible": 0.2,
+      "filled": 0.35,
+      "capture_small": 0.15,
+      "capture_us": 0.05,
+      "courses": 1.0,
+      "packs": 2.0,
+      "net_small": 5,
+      "net_us": 50,
+      "ramp_small": [
+        0,
+        0,
+        0,
+        0.25,
+        0.6
+      ],
+      "ramp_us": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "downstream_royalty": 0.08,
+      "upstream_royalty": 0.06,
+      "admin": 10000,
+      "launch_small": 25000,
+      "launch_us": 500000,
+      "fixed_small": 20000,
+      "fixed_us": 500000,
+      "supply_small": 0.6,
+      "variable_small": 0.25,
+      "supply_us": 0.3,
+      "variable_us": 0.35,
+      "license_us": 0.1,
+      "us_development": [
+        0,
+        2000000,
+        4000000,
+        8000000,
+        6000000
+      ],
+      "us_application_fee_by_year": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "base": {
+      "incidence": 0.0011,
+      "eligible": 0.35,
+      "filled": 0.5,
+      "capture_small": 0.3,
+      "capture_us": 0.15,
+      "courses": 1.1,
+      "packs": 4.0,
+      "net_small": 8,
+      "net_us": 125,
+      "ramp_small": [
+        0,
+        0,
+        0.25,
+        0.6,
+        1.0
+      ],
+      "ramp_us": [
+        0,
+        0,
+        0,
+        0,
+        0.25
+      ],
+      "downstream_royalty": 0.12,
+      "upstream_royalty": 0.07,
+      "admin": 20000,
+      "launch_small": 50000,
+      "launch_us": 1000000,
+      "fixed_small": 30000,
+      "fixed_us": 1000000,
+      "supply_small": 0.5,
+      "variable_small": 0.2,
+      "supply_us": 0.2,
+      "variable_us": 0.25,
+      "license_us": 0.075,
+      "us_development": [
+        0,
+        1500000,
+        3000000,
+        4500000,
+        3000000
+      ],
+      "us_application_fee_by_year": [
+        0,
+        0,
+        0,
+        0,
+        4600753
+      ]
+    },
+    "upside": {
+      "incidence": 0.0015,
+      "eligible": 0.5,
+      "filled": 0.65,
+      "capture_small": 0.5,
+      "capture_us": 0.25,
+      "courses": 1.2,
+      "packs": 5.0,
+      "net_small": 15,
+      "net_us": 200,
+      "ramp_small": [
+        0,
+        0.5,
+        0.85,
+        1.0,
+        1.0
+      ],
+      "ramp_us": [
+        0,
+        0,
+        0,
+        0.5,
+        1.0
+      ],
+      "downstream_royalty": 0.15,
+      "upstream_royalty": 0.08,
+      "admin": 30000,
+      "launch_small": 75000,
+      "launch_us": 2000000,
+      "fixed_small": 40000,
+      "fixed_us": 2000000,
+      "supply_small": 0.4,
+      "variable_small": 0.15,
+      "supply_us": 0.15,
+      "variable_us": 0.2,
+      "license_us": 0.05,
+      "us_development": [
+        0,
+        1500000,
+        2500000,
+        3000000,
+        0
+      ],
+      "us_application_fee_by_year": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "routes": [
+    {
+      "id": "small_royalty",
+      "modeled_catchment": 10000000,
+      "investor_vehicle_ownership": 1.0,
+      "structure": "royalty"
+    },
+    {
+      "id": "small_direct",
+      "modeled_catchment": 10000000,
+      "investor_vehicle_ownership": 1.0,
+      "structure": "direct"
+    },
+    {
+      "id": "small_shared_operator",
+      "modeled_catchment": 10000000,
+      "investor_vehicle_ownership": 1.0,
+      "structure": "shared_operator",
+      "scenario_cost_overrides": {
+        "downside": {
+          "annual_admin_after_year1": 5000,
+          "annual_operator_fixed_from_launch": 10000,
+          "launch_setup": 25000
+        },
+        "base": {
+          "annual_admin_after_year1": 5000,
+          "annual_operator_fixed_from_launch": 7500,
+          "launch_setup": 20000
+        },
+        "upside": {
+          "annual_admin_after_year1": 5000,
+          "annual_operator_fixed_from_launch": 5000,
+          "launch_setup": 15000
+        }
+      }
+    },
+    {
+      "id": "us_royalty",
+      "modeled_catchment": 300000000,
+      "investor_vehicle_ownership": 1.0,
+      "structure": "royalty"
+    },
+    {
+      "id": "us_direct",
+      "modeled_catchment": 300000000,
+      "investor_vehicle_ownership": 1.0,
+      "structure": "direct",
+      "scenario_development_overrides": {
+        "downside": {
+          "ramp_us": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "base": {
+          "ramp_us": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "upside": {
+          "ramp_us": [
+            0,
+            0,
+            0,
+            0,
+            0.5
+          ]
+        }
+      },
+      "development_scope": {
+        "later_program_before_application_fees_usd": {
+          "upside": 7000000,
+          "base": 12000000,
+          "downside": 25000000
+        },
+        "components_usd": {
+          "GMP_CMC": {
+            "upside": 350000,
+            "base": 600000,
+            "downside": 900000
+          },
+          "nonclinical": {
+            "upside": 200000,
+            "base": 400000,
+            "downside": 800000
+          },
+          "PK_local_tolerance": {
+            "upside": 400000,
+            "base": 800000,
+            "downside": 1300000
+          },
+          "component_dose_study": {
+            "upside": 1500000,
+            "base": 2500000,
+            "downside": 4500000
+          },
+          "confirmatory_efficacy": {
+            "upside": 3500000,
+            "base": 5500000,
+            "downside": 14000000
+          },
+          "NDA_assembly_responses": {
+            "upside": 500000,
+            "base": 1000000,
+            "downside": 1500000
+          },
+          "rework_contingency": {
+            "upside": 550000,
+            "base": 1200000,
+            "downside": 2000000
+          }
+        },
+        "study_counts": "Favorable/base: one component/dose study and one confirmatory study; adverse: an additional/repeat confirmatory study. These are planning scopes, not asserted FDA requirements or assured approval.",
+        "application_fee_current_rate_proxy_usd": 4600753,
+        "application_fee_assumptions": {
+          "upside": "A qualifying first-application waiver is obtained; separately stress the fee without waiver.",
+          "base": "Filing in year 5, using FY2027 fee as a proxy; future fee can change.",
+          "downside": "No filing in first five years; full fee proxy remains conditional beyond the horizon, not contributed or legally committed cash."
+        },
+        "development_after_year5_conditional_not_binding_usd": {
+          "upside": 0,
+          "base": 0,
+          "downside": 5000000
+        },
+        "exclusions": "Initial package, excess rights cost, launch, inventory, intra-year working capital and future remedial work are separate. Fixed annual US commercial cost is assumed to include applicable ordinary program-fee/PV obligations; it is not a quoted fee or complete exposure cap.",
+        "overlap_rule": "The initial package is modeled as rights/diligence and bounded preliminary work distinct from the listed later packages. Subtract overlap if actual initial work funds a listed later item."
+      }
+    }
+  ],
+  "conventions": [
+    "The initial package is paid at the review date for discounting; subsequent operating cash is assumed at each annual period end.",
+    "Net product sales are commercializer net receipts, not patient retail price. Royalty vehicles receive only the specified spread.",
+    "100% vehicle ownership; negative annual operating cash is a new contribution; positive cash is distributed after a 25% planning reserve, with no recycling or tax-loss benefit.",
+    "Five years is a comparison convention, not an investor-specified deadline. Ten-year cases extend only a branch already launched by year 5.",
+    "For the ten-year sensitivity, a year-5 25% ramp becomes 60% in year 6 and 100% from year 7. Other launched branches are at 100% from year 6. Listed fixed costs stay nominally constant, with no new development or application fee; prices then either stay fixed or erode 10% annually.",
+    "Ten-year continuation does not establish rights duration, patent protection, survival, actual pricing or funding. No terminal sale value or inventory salvage is counted.",
+    "Annual cash aggregation cannot fully capture intra-year working capital, minimum orders or collection delays. Additional financing needs would increase contributions.",
+    "Independent-US development has later launch and its own study/fee scope. US royalty cases instead assume participation in an existing, separately funded development program; their faster dates are conditional on that different starting position."
+  ],
+  "non_entry_initial_work_sensitivity_usd": [
+    75000,
+    100000,
+    150000,
+    250000,
+    400000
+  ]
+}

@@ -1,0 +1,1396 @@
+{
+  "schema_version": 1,
+  "review_date_utc": "2026-11-09",
+  "base_commit": "cc34bf24119f398b1061baca9c7d7a35cc897a1e",
+  "capital_usd": 500000,
+  "scores_are": "ordinal screening judgments, not probabilities or valuations",
+  "costs_are": "technical planning estimates; exclusions and stage timing in dossiers; not all-in or maximum loss",
+  "weights_percent": {
+    "balanced": {
+      "H": 30,
+      "T": 25,
+      "K": 25,
+      "V": 20
+    },
+    "clinical": {
+      "H": 45,
+      "T": 30,
+      "K": 15,
+      "V": 10
+    },
+    "capital": {
+      "H": 20,
+      "T": 20,
+      "K": 35,
+      "V": 25
+    }
+  },
+  "candidate_count": 35,
+  "candidates": [
+    {
+      "key": "erlotinib",
+      "name": "Topical erlotinib / KRT16",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          2,
+          3,
+          3
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        150,
+        350,
+        800
+      ],
+      "months": [
+        9,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "insulin",
+      "name": "Exact topical insulin / noninfectious PED",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          2,
+          2,
+          3
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        175,
+        450,
+        900
+      ],
+      "months": [
+        9,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": "Historical and heterogeneous cohorts; exact-product and capture gap"
+    },
+    {
+      "key": "apr246",
+      "name": "APR-246 / AEC",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          2,
+          2,
+          3
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        175,
+        400,
+        900
+      ],
+      "months": [
+        12,
+        21,
+        36
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "rm4404",
+      "name": "RM4404 / corneal hypoesthesia",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          1,
+          2
+        ],
+        "K": [
+          2,
+          3,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        60,
+        150,
+        325
+      ],
+      "months": [
+        4,
+        8,
+        14
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "ndc9009",
+      "name": "NDC-9009 / Darier",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        75,
+        225,
+        450
+      ],
+      "months": [
+        5,
+        10,
+        18
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "migf",
+      "name": "mIGF-Gel / corneal defects",
+      "dossier": "local-products.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        90,
+        250,
+        500
+      ],
+      "months": [
+        5,
+        10,
+        18
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "enasidenib",
+      "name": "Enasidenib / IDH2-R140Q D2HGA2",
+      "dossier": "precision-repurposing.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          0,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        180,
+        350,
+        800
+      ],
+      "months": [
+        12,
+        24,
+        36
+      ],
+      "status": "compare",
+      "flag": "Drug supply excluded; $150k base headroom for all exclusions"
+    },
+    {
+      "key": "alpelisib",
+      "name": "Alpelisib / TEK venous malformations",
+      "dossier": "precision-repurposing.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        160,
+        320,
+        750
+      ],
+      "months": [
+        12,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": "Hypothetical embedded contribution; drug supply and host trial excluded"
+    },
+    {
+      "key": "trametinib",
+      "name": "Trametinib / RASopathy HCM",
+      "dossier": "precision-repurposing.md",
+      "scores": {
+        "H": [
+          2,
+          2,
+          3
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        120,
+        250,
+        650
+      ],
+      "months": [
+        12,
+        24,
+        36
+      ],
+      "status": "compare",
+      "flag": "Historical controls; unfilled embedded contribution unestablished; supply excluded"
+    },
+    {
+      "key": "baricitinib",
+      "name": "Baricitinib / CANDLE-PRAAS",
+      "dossier": "precision-repurposing.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          2
+        ],
+        "K": [
+          0,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        150,
+        300,
+        700
+      ],
+      "months": [
+        12,
+        24,
+        36
+      ],
+      "status": "compare",
+      "flag": "Mixed external efficacy and efficacy-related trial termination; drug supply excluded"
+    },
+    {
+      "key": "gbt601_pt2399",
+      "name": "GBT601 + PT2399 / NDUFS4 Leigh",
+      "dossier": "precision-repurposing.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        250,
+        550,
+        1200
+      ],
+      "months": [
+        9,
+        15,
+        24
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "mavoglurant",
+      "name": "Mavoglurant / cocaine use disorder",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          2,
+          3,
+          3
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        2040,
+        4080,
+        8150
+      ],
+      "months": [
+        21,
+        29,
+        45
+      ],
+      "status": "compare",
+      "flag": "A consequential small contribution is not yet specified; independent replication exceeds envelope"
+    },
+    {
+      "key": "levodopa",
+      "name": "Levodopa/carbidopa / MCT8",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        230,
+        460,
+        900
+      ],
+      "months": [
+        15,
+        23,
+        38
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "fampridine",
+      "name": "Fampridine / FGF14-SCA27B",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          3
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        175,
+        350,
+        750
+      ],
+      "months": [
+        11,
+        19,
+        32
+      ],
+      "status": "compare",
+      "flag": "Conditional substudy; full new trial $1m/$2m/$4m plus feasibility"
+    },
+    {
+      "key": "saracatinib",
+      "name": "Saracatinib / FOP",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          3
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        1040,
+        2590,
+        5180
+      ],
+      "months": [
+        21,
+        36,
+        52
+      ],
+      "status": "result_pending",
+      "flag": "Completed controlled efficacy results must be resolved first"
+    },
+    {
+      "key": "azetukalner",
+      "name": "Azetukalner / focal seizures",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          3,
+          4,
+          4
+        ],
+        "T": [
+          2,
+          3,
+          4
+        ],
+        "K": [
+          0,
+          0,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        1025,
+        2550,
+        5100
+      ],
+      "months": [
+        17,
+        28,
+        42
+      ],
+      "status": "benchmark",
+      "flag": "Already advanced; no defined necessary small-capital development role"
+    },
+    {
+      "key": "ga002",
+      "name": "GA002 / mesial temporal-lobe epilepsy",
+      "dossier": "neurology-clinical.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          0,
+          0,
+          1
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        3075,
+        7150,
+        15300
+      ],
+      "months": [
+        28,
+        44,
+        60
+      ],
+      "status": "high_burden",
+      "flag": "Gene/procedure product and complete safety evidence unresolved"
+    },
+    {
+      "key": "p2",
+      "name": "Exact 8015-P2 / MFN2-CMT2A",
+      "dossier": "early-assets.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          2,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        120,
+        210,
+        360
+      ],
+      "months": [
+        5,
+        8,
+        12
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "blu3797",
+      "name": "BLU-3797 / MTM1-XLMTM",
+      "dossier": "early-assets.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          2,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        190,
+        370,
+        575
+      ],
+      "months": [
+        7,
+        10,
+        14
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "hj02",
+      "name": "HJ-02 / post-MI recovery",
+      "dossier": "early-assets.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        145,
+        260,
+        450
+      ],
+      "months": [
+        5,
+        8,
+        12
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "fd2",
+      "name": "FD-2 / early ALS",
+      "dossier": "early-assets.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          0,
+          2,
+          2
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        215,
+        370,
+        600
+      ],
+      "months": [
+        7,
+        11,
+        16
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "aat",
+      "name": "AAT / Zemaira EVLP",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          2,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        180,
+        350,
+        700
+      ],
+      "months": [
+        6,
+        12,
+        18
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "regadenoson",
+      "name": "Regadenoson / EVLP",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          0,
+          1,
+          1
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        750,
+        1500,
+        3000
+      ],
+      "months": [
+        24,
+        36,
+        48
+      ],
+      "status": "claim_hold",
+      "flag": "Tested regimen failed to establish graft-use/PGD superiority"
+    },
+    {
+      "key": "ruxolitinib",
+      "name": "Ruxolitinib 1.5% / Hailey-Hailey",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        150,
+        300,
+        600
+      ],
+      "months": [
+        9,
+        15,
+        24
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "gentamicin",
+      "name": "Topical gentamicin / nonsense JEB",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        150,
+        300,
+        650
+      ],
+      "months": [
+        9,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "lisdexamfetamine",
+      "name": "Lisdexamfetamine / KCNMA1-N999S",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          3,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        100,
+        200,
+        450
+      ],
+      "months": [
+        9,
+        15,
+        24
+      ],
+      "status": "compare",
+      "flag": "Six selected known responders; no unbiased response denominator; age/exposure limits"
+    },
+    {
+      "key": "zinc",
+      "name": "Zinc acetate / GNAO1",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        180,
+        350,
+        750
+      ],
+      "months": [
+        12,
+        24,
+        36
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "taurine",
+      "name": "Taurine / residual-transport SLC6A6",
+      "dossier": "process-and-coverage.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        100,
+        250,
+        550
+      ],
+      "months": [
+        12,
+        24,
+        36
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "dornase",
+      "name": "Dornase alfa / severe dry eye-oGVHD",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          2,
+          3,
+          3
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          1,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        400,
+        750,
+        1400
+      ],
+      "months": [
+        12,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": "H3 for controlled ocular signs; symptom contrast and cohort independence unresolved"
+    },
+    {
+      "key": "salbutamol",
+      "name": "Salbutamol / PURA",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          2
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        200,
+        350,
+        700
+      ],
+      "months": [
+        12,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "tti0102",
+      "name": "TTI-0102 / MELAS",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          3
+        ],
+        "T": [
+          1,
+          2,
+          3
+        ],
+        "K": [
+          1,
+          2,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        250,
+        450,
+        900
+      ],
+      "months": [
+        12,
+        18,
+        30
+      ],
+      "status": "analysis_hold",
+      "flag": "Protocol/endpoint/attrition reconciliation before positive-claim promotion"
+    },
+    {
+      "key": "amlexanox",
+      "name": "Amlexanox / selected nonsense RDEB",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          1,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          3
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        100,
+        200,
+        400
+      ],
+      "months": [
+        6,
+        10,
+        18
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "timolol",
+      "name": "Topical timolol / diabetic foot ulcers",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          2,
+          3
+        ],
+        "T": [
+          2,
+          3,
+          3
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        700,
+        1200,
+        2500
+      ],
+      "months": [
+        18,
+        24,
+        36
+      ],
+      "status": "claim_hold",
+      "flag": "Primary closure superiority/recurrence not established; selected-healer analyses"
+    },
+    {
+      "key": "psbkd107",
+      "name": "PSB-KD107 / DMD",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          1,
+          2,
+          2
+        ],
+        "V": [
+          0,
+          1,
+          2
+        ]
+      },
+      "technical_cost_kusd": [
+        200,
+        350,
+        700
+      ],
+      "months": [
+        9,
+        15,
+        24
+      ],
+      "status": "compare",
+      "flag": ""
+    },
+    {
+      "key": "cunc",
+      "name": "Defined copper nanoclusters / Menkes",
+      "dossier": "retained-candidates.md",
+      "scores": {
+        "H": [
+          1,
+          1,
+          1
+        ],
+        "T": [
+          0,
+          1,
+          2
+        ],
+        "K": [
+          0,
+          1,
+          2
+        ],
+        "V": [
+          1,
+          2,
+          3
+        ]
+      },
+      "technical_cost_kusd": [
+        250,
+        500,
+        1000
+      ],
+      "months": [
+        12,
+        18,
+        30
+      ],
+      "status": "compare",
+      "flag": ""
+    }
+  ]
+}

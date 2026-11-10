@@ -1,0 +1,55 @@
+{
+  "review_date": "2026-11-09",
+  "sources": [
+    {
+      "id": "R27-M01",
+      "title": "Wong, Siah and Lo: Estimation of clinical trial success rates and related parameters",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/",
+      "publication_date": "2018-01-31",
+      "checked_date": "2026-11-09",
+      "access": "full primary article",
+      "use": "Clinical transition estimates depend on the event, reference class, missingness and development path. Historical 2000–2015 observations inform method rather than directly calibrating the candidate milestone priors.",
+      "limit": "Does not measure the probability of a small proposed milestone, attainable license, paid handoff or investor capital recovery."
+    },
+    {
+      "id": "R27-M02",
+      "title": "HHS/ASPE: Examination of Clinical Trial Costs and Barriers for Drug Development",
+      "url": "https://aspe.hhs.gov/reports/examination-clinical-trial-costs-barriers-drug-development-0",
+      "publication_date": "2014-07-24",
+      "checked_date": "2026-11-09",
+      "access": "official indexed report text; direct reopening returned 403",
+      "use": "Clinical scope, patient count, procedures, site administration, monitoring and overhead materially affect cost. Small bridging work must not be described as a complete conventional Phase II program.",
+      "limit": "Historical U.S. industry averages are neither current quotations nor prices for these proposed packages."
+    },
+    {
+      "id": "R27-M03",
+      "title": "NIH PAR-25-059: IGNITE assay development and agent identification",
+      "url": "https://grants.nih.gov/grants/guide/PA-files/PAR-25-059.html",
+      "publication_date": "2024-10-22",
+      "checked_date": "2026-11-09",
+      "access": "full official notice; updated 2025-03-31",
+      "use": "Separates preparatory qualification from subsequent agent screening and specifies decision milestones. Its funding scale is a rough scope sanity check.",
+      "limit": "Award ceilings are not market prices, promised funding or proof that a named project is affordable."
+    },
+    {
+      "id": "R27-M04",
+      "title": "NCATS New Therapeutic Uses",
+      "url": "https://ncats.nih.gov/research/research-activities/ntu",
+      "publication_date": "2024-11-05",
+      "checked_date": "2026-11-09",
+      "access": "full official page",
+      "use": "Documents financial-capture difficulties of off-patent repurposing where generic forms exist.",
+      "limit": "An incentive problem is a screen dimension, not a universal rejection of repurposing or a candidate-specific probability."
+    },
+    {
+      "id": "R27-M05",
+      "title": "Parallel PR3 APR ranking audit, immutable reviewed revision",
+      "url": "https://github.com/KyleJKistner/ddiscov/blob/cc34bf24119f398b1061baca9c7d7a35cc897a1e/research/phase2-program/apr-ranking-audit.md",
+      "publication_date": "2026-11-08",
+      "checked_date": "2026-11-09",
+      "access": "GitHub PR content and source-linked audit",
+      "use": "Preserves matched APR/erlotinib evidence and warns against converting inquiry specificity into a global development rank.",
+      "limit": "Parallel unmerged review. Its unpriced comparison is historical; this screen adds explicitly labeled analyst estimates under the current screening direction."
+    }
+  ]
+}

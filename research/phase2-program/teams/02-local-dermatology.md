@@ -1,0 +1,43 @@
+# 02 — Local dermatology with within-patient human evidence
+
+**Review date:** 8 November 2026. **Disposition:** prioritize an information package for topical erlotinib/KRT16 p.Arg127Cys; retain APR-246/AEC as the comparison. Neither is yet an investment-ready package or a demonstrated above-base-rate Phase II candidate.
+
+**Subsequent ranking correction, 8 November 2026 (9 November UTC):** the [APR ranking audit](../apr-ranking-audit.md) supersedes the relative priority implied by this first-pass disposition. APR and erlotinib merit matched comparison; neither has established overall superiority. The lead/alternative labels below retain the original assignment's history.
+
+## Mandate and team
+
+Test whether a genotype-defined local treatment with observed patient benefit can shorten the translational path while retaining an attainable economic interest. Coordinator: `/root/c02_local_dermatology`. Completed desk-research assignments: `/root/c02_local_dermatology/evidence` (primary human evidence and cohort lineage) and `/root/c02_local_dermatology/challenge` (translation, product bridge, rights and value capture). No clinical work, counterparty contact or paid commitment occurred. This is a bounded first pass, not exhaustive diligence.
+
+## Lead and alternative
+
+| Exact article/use | Primary evidence and observed unit | Contrary evidence and limitation |
+|---|---|---|
+| **Lead: R26-LOC-01, topical erlotinib ointment plus keratolytic for painful KRT16 p.Arg127Cys hereditary palmoplantar keratoderma** | [Lee and Lowe, 5 January 2022](https://doi.org/10.1001/jamadermatol.2021.5302), [public full letter](https://www.pachyonychia.org/wp-content/uploads/2023/05/LeeG2022Topical-Erlotinib.-pdf.pdf). Two people, mother and son: blinded opposite-foot comparisons followed by uncontrolled treatment extensions. The mother's pain improved; the son's controlled-phase response was more modest. | One pedigree supplies no independent genotype replication. Initial lower-strength treatment showed little benefit. Later mobility improvement arose during uncontrolled use. The co-treatment, adherence and exact presentation matter; feet and visits do not increase the patient denominator. No adverse events reported in two people cannot establish chronic or uncommon-event safety. |
+| **Alternative: R4-L02, topical APR-246/PRIMA-1MET for persistent TP63-related AEC erosions** | [Aberdam et al., 2020](https://www.nature.com/articles/s41419-020-2223-8), [full paper](https://www.sindrome-eec.it/wp-content/uploads/2022/07/s41419-020-2223-8.pdf). Two children: one treated palm with contralateral vehicle comparison and one whole-scalp treatment. Epithelial coverage, pain and dressing burden improved during continued treatment. | No randomized/blinded clinical trial; scalp treatment lacked a simultaneous control. Incomplete cornification and unknown off-treatment durability limit broader repair claims. These are two people, not a response-rate estimate; later investigator reports are conservatively treated as overlapping unless linkage is resolved. |
+| **Counterevidence: other topical erlotinib preparations/genotypes** | [Greco et al., April 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9028469/). Two patients: KRT16 p.Asn125Ser and KRT6A p.Asn172del. Topical treatment was inadequate/inconclusive overall; one had an initial treated-foot pain improvement before plateau. | Neither is the Lee family's exact genotype/preparation. The results challenge reliable delivery and generality without proving zero topical activity. Undetectable blood drug in one patient does not establish effective local exposure. |
+
+Verification on 8 November 2026 recovered full APR and Greco texts. Lee's publisher abstract was refreshed; fresh PDF retrieval failed, so detailed comparisons retain the [Round 26 full-text audit](../../rounds/round26/local-product-screen.md) as their basis. The relevant use is **ongoing useful control**, not a cure. The original APR report's variant labels differ from a later report for one case; the [prior clinical audit](../../rounds/round16/apr-clinical-evidence.md) retains that unresolved identity issue. Global analgesic cessation is not a numeric paired-palm pain estimate.
+
+The [Sol-Gel 2025 annual report, filed in 2026](https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm), freshly read, reports SGT-210 maximal-use PK with minimal systemic absorption but no efficacy differentiation from vehicle in its Darier Phase 1b study; it ended that indication while considering others. This is material platform counterevidence, not a failed trial of the Lee family's exact KRT16 use. The issuer's PK claim cannot qualify their compounded ointment. The underlying trial dataset was not inspected.
+
+## What could improve Phase II odds
+
+The hypothesis is that exact-use patient signals, genotype selection, local access to the affected tissue and an interpretable concurrent comparison reduce uncertainty compared with starting from an animal-only mechanism. That is a reason to investigate, not a quantified probability uplift. A relevant benchmark would concern similarly staged rare-genetic dermatology programs, repurposed molecules, local administration and clinically meaningful symptom/function endpoints. Neither a pooled all-drug transition rate nor successful oral EGFR treatment in another genotype is a personalized prior.
+
+The lead still needs independent-pedigree replication, consistent active product delivery, tolerable chronic exposure and a prespecified patient-relevant endpoint. A blinded paired-site comparison can be efficient only if local outcome measurement, site comparability and treatment crossover are addressed; overall mobility and global quality of life are patient-level outcomes. Prespecifying a meaningful pain/function effect and uncertainty threshold with clinicians prevents a favorable image or biomarker from becoming the success definition after results arrive.
+
+## Smallest decision-changing package
+
+Rank first the **article-and-clinical-route feasibility dossier**, not another broad mechanism screen. It must identify a reproducible starting presentation, existing stability/exposure/safety information, practical recruitment beyond the initially reported patients, appropriate care plus vehicle/comparator, usable outcome measurement, a staged quote and rights to use the resulting evidence. A formulation change requires its own bridge; it cannot inherit the historical preparation's effect automatically. Apply the same bounded assessment to APR. The earlier condition that APR first demonstrate materially better transfer or commercial terms is withdrawn: both candidates' terms are unresolved.
+
+| Prespecified result | Decision |
+|---|---|
+| Adequate article and exposure basis, feasible independent-patient comparison, clinician-agreed meaningful effect, usable rights, bounded cost and credible continuation | Compare the quoted next commitment with alternatives and capital preservation. This is permission to evaluate a package, not a clinical efficacy finding. |
+| A fit-for-purpose controlled result excludes worthwhile benefit, safety/burden offsets benefit, or required rights and a viable contribution are unavailable at tolerable terms | Stop the exact claim or commercial package. Preserve scientifically useful findings. |
+| Delivery, adherence, measurement or cohort limitations prevent interpretation | Classify as inconclusive; consider only a separately priced, finite remedy that could change the decision. Do not label it efficacy failure or success. |
+
+## Economics and reversal conditions
+
+Potential value capture is a negotiated indication/product option, rights to a differentiated topical contribution, or contracted data development with a retained interest. Generic erlotinib availability does not establish topical product rights; APR program inactivity would not establish abandoned rights. The approximately $500,000 is available capital, not a verified cost-to-Phase-II budget. All-in price, maximum committed exposure, payment route, liquidity, current license terms and follow-on financing remain **unknown**. A successful study without a paying or financeable handoff need not return capital.
+
+Recompare the candidates when either receives independent controlled evidence, a material product/exposure finding, or attainable scoped terms. A failure to confirm worthwhile benefit, disproportionate bridge cost or weak achievable economics can lower either candidate's priority. Stronger transferable evidence and attainable terms can raise either candidate's priority. No numerical probability of Phase II success or capital return is assigned.
